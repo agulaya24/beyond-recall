@@ -1,0 +1,5679 @@
+{
+  "metadata": {
+    "source": "franklin_autobiography_chapters_00-10",
+    "source_file": "C:/Users/Aarik/Anthropic/memory_system/data/experiments/memory_systems/corpus/tiers/tier_02_franklin_ch00-10.txt",
+    "corpus_checksum": "7c7c87fd0d16b2404390bf8041c1b108d2addd19f3765300e9b52ca942dc61cf",
+    "total_facts": 1133,
+    "extraction_model": "claude-haiku-4-5-20251001",
+    "extraction_temperature": 0,
+    "chunks_processed": 15,
+    "word_count": 41452
+  },
+  "facts": [
+    {
+      "id": 1,
+      "text": "Franklin wrote his autobiography as a letter to his son William Franklin.",
+      "checksum": "908d0f26"
+    },
+    {
+      "id": 2,
+      "text": "Franklin began writing his autobiography in 1771 while visiting Bishop Shipley at Twyford in Hampshire, England.",
+      "checksum": "d30da6c5"
+    },
+    {
+      "id": 3,
+      "text": "Franklin completed the first part of his autobiography by 1731.",
+      "checksum": "e29c6fb9"
+    },
+    {
+      "id": 4,
+      "text": "Franklin returned to Philadelphia with his manuscript in 1775.",
+      "checksum": "d310889b"
+    },
+    {
+      "id": 5,
+      "text": "Franklin left his manuscript in Philadelphia when he went to France in 1776.",
+      "checksum": "f968d291"
+    },
+    {
+      "id": 6,
+      "text": "Franklin resumed work on his autobiography in 1784 at Passy near Paris.",
+      "checksum": "b8a03786"
+    },
+    {
+      "id": 7,
+      "text": "Franklin continued working on his autobiography in 1788 when he returned to Philadelphia.",
+      "checksum": "d47cb909"
+    },
+    {
+      "id": 8,
+      "text": "Franklin stopped writing his autobiography when the narrative reached 1757.",
+      "checksum": "ebafae77"
+    },
+    {
+      "id": 9,
+      "text": "Franklin was old, infirm, and suffering when he resumed work on his autobiography in 1788.",
+      "checksum": "b49f327c"
+    },
+    {
+      "id": 10,
+      "text": "Franklin was still engaged in public service while working on his autobiography in 1788.",
+      "checksum": "733e5c48"
+    },
+    {
+      "id": 11,
+      "text": "The first edition of Franklin's autobiography was published in French at Paris in 1791.",
+      "checksum": "f13d303c"
+    },
+    {
+      "id": 12,
+      "text": "Franklin designated his grandson William Temple Franklin as his literary executor.",
+      "checksum": "ccdfb8bf"
+    },
+    {
+      "id": 13,
+      "text": "Franklin left his manuscript to his grandson William Temple Franklin.",
+      "checksum": "9440bd36"
+    },
+    {
+      "id": 14,
+      "text": "Franklin had ever had pleasure in obtaining anecdotes of his ancestors.",
+      "checksum": "59f664fb"
+    },
+    {
+      "id": 15,
+      "text": "Franklin made inquiries among his relations when in England.",
+      "checksum": "7ce7f2a0"
+    },
+    {
+      "id": 16,
+      "text": "Franklin undertook a journey to learn about his ancestors.",
+      "checksum": "a69d786a"
+    },
+    {
+      "id": 17,
+      "text": "Franklin emerged from poverty and obscurity to affluence and reputation.",
+      "checksum": "dbf94642"
+    },
+    {
+      "id": 18,
+      "text": "Franklin experienced a considerable share of felicity through his life.",
+      "checksum": "6ccb407c"
+    },
+    {
+      "id": 19,
+      "text": "Franklin believed his posterity would want to know the means by which he succeeded.",
+      "checksum": "22841d72"
+    },
+    {
+      "id": 20,
+      "text": "Franklin attributed his success to the blessing of God.",
+      "checksum": "5fdb8f97"
+    },
+    {
+      "id": 21,
+      "text": "Franklin wrote his autobiography at Twyford at the Bishop of St. Asaph's in 1771.",
+      "checksum": "8ddfb3b2"
+    },
+    {
+      "id": 22,
+      "text": "Franklin emerged from poverty and obscurity to a state of affluence and reputation.",
+      "checksum": "1d775f97"
+    },
+    {
+      "id": 23,
+      "text": "Franklin experienced considerable felicity throughout his life.",
+      "checksum": "4ca464c4"
+    },
+    {
+      "id": 24,
+      "text": "Franklin would have chosen to live his life over again if given the choice.",
+      "checksum": "fd061c0d"
+    },
+    {
+      "id": 25,
+      "text": "Franklin believed vanity is often productive of good to the possessor and others.",
+      "checksum": "fd344ead"
+    },
+    {
+      "id": 26,
+      "text": "Franklin attributed his happiness to God's kind providence.",
+      "checksum": "d70210fa"
+    },
+    {
+      "id": 27,
+      "text": "Franklin's family lived in Ecton, Northamptonshire for three hundred years.",
+      "checksum": "1c503974"
+    },
+    {
+      "id": 28,
+      "text": "Franklin's family was engaged in the smith's business for generations.",
+      "checksum": "ee8ec815"
+    },
+    {
+      "id": 29,
+      "text": "Franklin was the youngest son of the youngest son for five generations back.",
+      "checksum": "a7de2b67"
+    },
+    {
+      "id": 30,
+      "text": "Franklin's grandfather Thomas was born in 1598.",
+      "checksum": "540365da"
+    },
+    {
+      "id": 31,
+      "text": "Franklin's grandfather Thomas lived with his son John, a dyer at Banbury.",
+      "checksum": "0d15dd69"
+    },
+    {
+      "id": 32,
+      "text": "Franklin saw his grandfather's gravestone in 1758.",
+      "checksum": "e352aa97"
+    },
+    {
+      "id": 33,
+      "text": "Franklin's great-uncle Thomas was bred a smith but became a scrivener.",
+      "checksum": "c5dcd569"
+    },
+    {
+      "id": 34,
+      "text": "Franklin's great-uncle Thomas died on January 6, 1702, four years to the day before Franklin was born.",
+      "checksum": "96f63c82"
+    },
+    {
+      "id": 35,
+      "text": "Franklin's uncle John was bred a dyer of woollens.",
+      "checksum": "ea035f44"
+    },
+    {
+      "id": 36,
+      "text": "Franklin's uncle Benjamin was bred a silk dyer and served an apprenticeship at London.",
+      "checksum": "bd3a4c93"
+    },
+    {
+      "id": 37,
+      "text": "Franklin's uncle Benjamin came to Boston and lived in Franklin's father's house for some years.",
+      "checksum": "be78ddea"
+    },
+    {
+      "id": 38,
+      "text": "Franklin was named after his uncle Benjamin.",
+      "checksum": "4497dfba"
+    },
+    {
+      "id": 39,
+      "text": "Franklin's uncle Benjamin taught him short-hand, which Franklin later forgot.",
+      "checksum": "82aa973d"
+    },
+    {
+      "id": 40,
+      "text": "Franklin's uncle Benjamin was very pious and a great attender of sermons.",
+      "checksum": "00e50648"
+    },
+    {
+      "id": 41,
+      "text": "Franklin's uncle Benjamin was much of a politician.",
+      "checksum": "dabec978"
+    },
+    {
+      "id": 42,
+      "text": "Franklin's family was early in the Reformation and remained Protestant through Queen Mary's reign.",
+      "checksum": "03fe5ce1"
+    },
+    {
+      "id": 43,
+      "text": "Franklin's family hid an English Bible under a joint-stool during Queen Mary's reign.",
+      "checksum": "c59e68e3"
+    },
+    {
+      "id": 44,
+      "text": "Franklin's father Josiah married young and carried his wife with three children to New England around 1682.",
+      "checksum": "6a70688b"
+    },
+    {
+      "id": 45,
+      "text": "Franklin's father Josiah had seventeen children total by two wives.",
+      "checksum": "14705aa6"
+    },
+    {
+      "id": 46,
+      "text": "Franklin's father Josiah had thirteen children who all grew up to be men and women and married.",
+      "checksum": "2de110f4"
+    },
+    {
+      "id": 47,
+      "text": "Franklin was the youngest son and the youngest child but two.",
+      "checksum": "d34c5d7f"
+    },
+    {
+      "id": 48,
+      "text": "Franklin was born in Boston, New England.",
+      "checksum": "49f55033"
+    },
+    {
+      "id": 49,
+      "text": "Franklin's mother was Abiah Folger, daughter of Peter Folger.",
+      "checksum": "30963d00"
+    },
+    {
+      "id": 50,
+      "text": "Franklin's maternal grandfather Peter Folger was one of the first settlers of New England.",
+      "checksum": "f9b5818e"
+    },
+    {
+      "id": 51,
+      "text": "Franklin's maternal grandfather Peter Folger wrote a piece in 1675 in favor of liberty of conscience.",
+      "checksum": "23138853"
+    },
+    {
+      "id": 52,
+      "text": "Franklin's elder brothers were all put apprentices to different trades.",
+      "checksum": "22ad10e5"
+    },
+    {
+      "id": 53,
+      "text": "Franklin was put to grammar-school at eight years of age.",
+      "checksum": "22c16622"
+    },
+    {
+      "id": 54,
+      "text": "Franklin's father intended to devote him to the service of the Church.",
+      "checksum": "64ff820e"
+    },
+    {
+      "id": 55,
+      "text": "Franklin showed early readiness in learning to read.",
+      "checksum": "d473d09a"
+    },
+    {
+      "id": 56,
+      "text": "Franklin rose from the middle of his grammar-school class to the head of it in less than a year.",
+      "checksum": "c4abbee7"
+    },
+    {
+      "id": 57,
+      "text": "Franklin's father removed him from grammar-school due to the expense of college education.",
+      "checksum": "589ef994"
+    },
+    {
+      "id": 58,
+      "text": "Franklin attended a school for writing and arithmetic kept by Mr. George Brownell.",
+      "checksum": "c4cc7c81"
+    },
+    {
+      "id": 59,
+      "text": "Franklin acquired fair writing under Mr. Brownell but failed in arithmetic.",
+      "checksum": "4d7357be"
+    },
+    {
+      "id": 60,
+      "text": "Franklin was taken home at ten years old to assist his father in the tallow-chandler and soap-boiler business.",
+      "checksum": "2863c52a"
+    },
+    {
+      "id": 61,
+      "text": "Franklin's father had assumed the tallow-chandler business after his dyeing trade failed in New England.",
+      "checksum": "1956384b"
+    },
+    {
+      "id": 62,
+      "text": "Franklin disliked the tallow-chandler trade.",
+      "checksum": "869cb9a8"
+    },
+    {
+      "id": 63,
+      "text": "Franklin had a strong inclination for the sea, but his father declared against it.",
+      "checksum": "e806a986"
+    },
+    {
+      "id": 64,
+      "text": "Franklin lived near water and learned early to swim well.",
+      "checksum": "8f2dab4e"
+    },
+    {
+      "id": 65,
+      "text": "Franklin learned to manage boats.",
+      "checksum": "bfa60418"
+    },
+    {
+      "id": 66,
+      "text": "Franklin was commonly allowed to govern boats and was generally a leader among boys.",
+      "checksum": "8d84c1a7"
+    },
+    {
+      "id": 67,
+      "text": "Franklin sometimes led boys into scrapes.",
+      "checksum": "6067aa1e"
+    },
+    {
+      "id": 68,
+      "text": "Franklin proposed building a wharf on a salt-marsh near the mill-pond.",
+      "checksum": "5424fefa"
+    },
+    {
+      "id": 69,
+      "text": "Franklin and his playfellows stole stones intended for a new house to build their wharf.",
+      "checksum": "964c28a3"
+    },
+    {
+      "id": 70,
+      "text": "Franklin and his companions were discovered and corrected by their fathers.",
+      "checksum": "8533021d"
+    },
+    {
+      "id": 71,
+      "text": "Franklin's father convinced him that nothing was useful which was not honest.",
+      "checksum": "3141f0e4"
+    },
+    {
+      "id": 72,
+      "text": "Franklin's father had an excellent constitution of body and was of middle stature.",
+      "checksum": "9118c4a3"
+    },
+    {
+      "id": 73,
+      "text": "Franklin's father was ingenious and could draw prettily.",
+      "checksum": "3a735642"
+    },
+    {
+      "id": 74,
+      "text": "Franklin's father was skilled in music and had a clear, pleasing voice.",
+      "checksum": "a2241c49"
+    },
+    {
+      "id": 75,
+      "text": "Franklin's father played psalm tunes on his violin and sang.",
+      "checksum": "d098e5a3"
+    },
+    {
+      "id": 76,
+      "text": "Franklin and his playfellows stole stones from a construction site to build a wharf.",
+      "checksum": "cdbe40b6"
+    },
+    {
+      "id": 77,
+      "text": "Franklin's father corrected him for stealing the stones and taught him that nothing useful can be dishonest.",
+      "checksum": "35395009"
+    },
+    {
+      "id": 78,
+      "text": "Franklin's father was of middle stature, well set, and very strong.",
+      "checksum": "89714b2d"
+    },
+    {
+      "id": 79,
+      "text": "Franklin's father had a mechanical genius and was handy with tradesmen's tools.",
+      "checksum": "3b0059d5"
+    },
+    {
+      "id": 80,
+      "text": "Franklin's father excelled in sound understanding and solid judgment in prudential matters.",
+      "checksum": "920e0d46"
+    },
+    {
+      "id": 81,
+      "text": "Franklin's father was frequently consulted by leading people about town and church affairs.",
+      "checksum": "97ef81dc"
+    },
+    {
+      "id": 82,
+      "text": "Franklin's father was often chosen as an arbitrator between contending parties.",
+      "checksum": "a57616b7"
+    },
+    {
+      "id": 83,
+      "text": "Franklin's father liked to have sensible friends or neighbors at his table for conversation.",
+      "checksum": "33c0d736"
+    },
+    {
+      "id": 84,
+      "text": "Franklin's father deliberately started ingenious or useful topics of discourse at meals to improve his children's minds.",
+      "checksum": "ac3db926"
+    },
+    {
+      "id": 85,
+      "text": "Franklin's father paid little attention to the quality or flavor of food at meals.",
+      "checksum": "002352c3"
+    },
+    {
+      "id": 86,
+      "text": "Franklin was brought up to be indifferent to what kind of food was set before him.",
+      "checksum": "1342be57"
+    },
+    {
+      "id": 87,
+      "text": "Franklin cannot remember what he ate a few hours after dinner.",
+      "checksum": "eb1f3e98"
+    },
+    {
+      "id": 88,
+      "text": "Franklin's mother had an excellent constitution and nursed all ten of her children.",
+      "checksum": "eb28ee40"
+    },
+    {
+      "id": 89,
+      "text": "Franklin's father lived to age 89 without serious illness.",
+      "checksum": "be9fd03a"
+    },
+    {
+      "id": 90,
+      "text": "Franklin's mother lived to age 85 without serious illness.",
+      "checksum": "15694920"
+    },
+    {
+      "id": 91,
+      "text": "Franklin's parents were buried together at Boston.",
+      "checksum": "57278d1b"
+    },
+    {
+      "id": 92,
+      "text": "Franklin's parents lived together in wedlock for fifty-five years.",
+      "checksum": "831e87f5"
+    },
+    {
+      "id": 93,
+      "text": "Franklin's parents maintained a large family comfortably without an estate or gainful employment.",
+      "checksum": "e4fbcb8e"
+    },
+    {
+      "id": 94,
+      "text": "Franklin's parents brought up thirteen children and seven grandchildren.",
+      "checksum": "db36cdf5"
+    },
+    {
+      "id": 95,
+      "text": "Franklin's father was born in 1655 and died in 1744.",
+      "checksum": "0346a1b5"
+    },
+    {
+      "id": 96,
+      "text": "Franklin's mother was born in 1667 and died in 1752.",
+      "checksum": "767d38d9"
+    },
+    {
+      "id": 97,
+      "text": "Franklin continued in his father's tallow-chandling business for two years until age twelve.",
+      "checksum": "3f85456b"
+    },
+    {
+      "id": 98,
+      "text": "Franklin disliked the tallow-chandling trade.",
+      "checksum": "4dce9dee"
+    },
+    {
+      "id": 99,
+      "text": "Franklin's father feared Franklin would run away to sea like his son Josiah had done.",
+      "checksum": "f3b4ccf3"
+    },
+    {
+      "id": 100,
+      "text": "Franklin's father took him to observe joiners, bricklayers, turners, and braziers at work.",
+      "checksum": "036a3a9d"
+    },
+    {
+      "id": 101,
+      "text": "Franklin developed a lasting pleasure in watching good workmen handle their tools.",
+      "checksum": "5683ce17"
+    },
+    {
+      "id": 102,
+      "text": "Franklin learned enough from observing tradesmen to do small jobs in his house and construct machines for experiments.",
+      "checksum": "024a321e"
+    },
+    {
+      "id": 103,
+      "text": "Franklin's father initially fixed upon the cutler's trade for him.",
+      "checksum": "93b02a76"
+    },
+    {
+      "id": 104,
+      "text": "Franklin was sent to apprentice with his uncle Benjamin's son Samuel, a cutler in Boston.",
+      "checksum": "933def37"
+    },
+    {
+      "id": 105,
+      "text": "Franklin was taken home from the cutler's apprenticeship because his uncle expected a fee.",
+      "checksum": "03fd322e"
+    },
+    {
+      "id": 106,
+      "text": "Franklin was fond of reading from childhood.",
+      "checksum": "aad1205b"
+    },
+    {
+      "id": 107,
+      "text": "Franklin spent all his small money on books.",
+      "checksum": "c0384856"
+    },
+    {
+      "id": 108,
+      "text": "Franklin's first book collection consisted of John Bunyan's works in separate little volumes.",
+      "checksum": "e619b97d"
+    },
+    {
+      "id": 109,
+      "text": "Franklin sold Bunyan's works to buy R. Burton's Historical Collections.",
+      "checksum": "d10bdb84"
+    },
+    {
+      "id": 110,
+      "text": "Franklin's father's library consisted chiefly of books in polemic divinity.",
+      "checksum": "f76c1718"
+    },
+    {
+      "id": 111,
+      "text": "Franklin read abundantly from Plutarch's Lives.",
+      "checksum": "a3691538"
+    },
+    {
+      "id": 112,
+      "text": "Franklin read DeFoe's Essay on Projects.",
+      "checksum": "5af64a91"
+    },
+    {
+      "id": 113,
+      "text": "Franklin read Dr. Mather's Essays to do Good.",
+      "checksum": "71fba925"
+    },
+    {
+      "id": 114,
+      "text": "Franklin believed Essays to do Good influenced some principal future events of his life.",
+      "checksum": "fd99726c"
+    },
+    {
+      "id": 115,
+      "text": "Franklin's bookish inclination determined his father to make him a printer.",
+      "checksum": "fea799db"
+    },
+    {
+      "id": 116,
+      "text": "Franklin's brother James was already a printer.",
+      "checksum": "fc07faaa"
+    },
+    {
+      "id": 117,
+      "text": "Franklin's brother James returned from England in 1717 with a press and letters.",
+      "checksum": "de9d3131"
+    },
+    {
+      "id": 118,
+      "text": "Franklin liked printing much better than his father's trade.",
+      "checksum": "c57a45f2"
+    },
+    {
+      "id": 119,
+      "text": "Franklin still had a hankering for the sea.",
+      "checksum": "04e06418"
+    },
+    {
+      "id": 120,
+      "text": "Franklin was bound as an apprentice to his brother at age twelve.",
+      "checksum": "eb02e4c8"
+    },
+    {
+      "id": 121,
+      "text": "Franklin was to serve as an apprentice until age twenty-one, with journeyman's wages in the last year.",
+      "checksum": "459e0dd3"
+    },
+    {
+      "id": 122,
+      "text": "Franklin made great proficiency in printing and became a useful hand to his brother.",
+      "checksum": "573aedb6"
+    },
+    {
+      "id": 123,
+      "text": "Franklin had access to better books through his apprenticeship.",
+      "checksum": "778219de"
+    },
+    {
+      "id": 124,
+      "text": "Franklin borrowed books from apprentices of booksellers and returned them promptly and clean.",
+      "checksum": "12fd2a31"
+    },
+    {
+      "id": 125,
+      "text": "Franklin often sat up reading most of the night when he had borrowed a book.",
+      "checksum": "19e57fc9"
+    },
+    {
+      "id": 126,
+      "text": "Matthew Adams, an ingenious tradesman, noticed Franklin and invited him to his library.",
+      "checksum": "738d8001"
+    },
+    {
+      "id": 127,
+      "text": "Matthew Adams kindly lent Franklin books of his choice.",
+      "checksum": "3d23467e"
+    },
+    {
+      "id": 128,
+      "text": "Franklin took a fancy to poetry and made some little pieces.",
+      "checksum": "2913ea1c"
+    },
+    {
+      "id": 129,
+      "text": "Franklin's brother encouraged him to compose occasional ballads.",
+      "checksum": "2c7145ad"
+    },
+    {
+      "id": 130,
+      "text": "Franklin wrote a ballad called The Lighthouse Tragedy about the drowning of Captain Worthilake and his two daughters.",
+      "checksum": "de533cf4"
+    },
+    {
+      "id": 131,
+      "text": "Franklin wrote a sailor's song about the taking of Teach (Blackbeard) the pirate.",
+      "checksum": "3ab6eff0"
+    },
+    {
+      "id": 132,
+      "text": "Franklin's first ballad sold wonderfully because the event was recent.",
+      "checksum": "41f370c9"
+    },
+    {
+      "id": 133,
+      "text": "Franklin's father discouraged his poetry by ridiculing his performances and saying verse-makers were generally beggars.",
+      "checksum": "cc826b0b"
+    },
+    {
+      "id": 134,
+      "text": "Franklin escaped being a poet, probably a very bad one.",
+      "checksum": "30a3e9f2"
+    },
+    {
+      "id": 135,
+      "text": "Franklin found prose writing to be of great use in his life and a principal means of his advancement.",
+      "checksum": "e7b7e5dd"
+    },
+    {
+      "id": 136,
+      "text": "Franklin was intimately acquainted with John Collins, a bookish lad in town.",
+      "checksum": "2027cb32"
+    },
+    {
+      "id": 137,
+      "text": "Franklin and Collins frequently disputed and were fond of argument.",
+      "checksum": "beed51b6"
+    },
+    {
+      "id": 138,
+      "text": "Franklin had caught a disputatious habit from reading his father's books of religious dispute.",
+      "checksum": "f3fa6e37"
+    },
+    {
+      "id": 139,
+      "text": "Franklin and Collins debated the propriety of educating the female sex in learning.",
+      "checksum": "f56e19e2"
+    },
+    {
+      "id": 140,
+      "text": "Franklin took the contrary side to Collins, perhaps partly for dispute's sake.",
+      "checksum": "05953c2b"
+    },
+    {
+      "id": 141,
+      "text": "Collins was naturally more eloquent and had a ready plenty of words.",
+      "checksum": "8964b642"
+    },
+    {
+      "id": 142,
+      "text": "Franklin had the advantage of correct spelling and pointing due to the printing-house.",
+      "checksum": "c9b3ac6c"
+    },
+    {
+      "id": 143,
+      "text": "Franklin's father found his papers and critiqued his manner of writing.",
+      "checksum": "115f933e"
+    },
+    {
+      "id": 144,
+      "text": "Franklin's father told him he fell short in elegance of expression, method, and perspicuity.",
+      "checksum": "a5f140bb"
+    },
+    {
+      "id": 145,
+      "text": "Franklin determined to endeavor at improvement in his writing after his father's critique.",
+      "checksum": "6a937584"
+    },
+    {
+      "id": 146,
+      "text": "Franklin met with an odd volume of the Spectator, the third volume.",
+      "checksum": "0e370f5e"
+    },
+    {
+      "id": 147,
+      "text": "Franklin thought the Spectator's writing was excellent and wished to imitate it.",
+      "checksum": "2853dbcb"
+    },
+    {
+      "id": 148,
+      "text": "Franklin took papers from the Spectator, made short hints of sentiments, and tried to rewrite them from memory.",
+      "checksum": "d7c6401b"
+    },
+    {
+      "id": 149,
+      "text": "Franklin compared his rewritten Spectator papers with the originals and corrected his faults.",
+      "checksum": "59869e51"
+    },
+    {
+      "id": 150,
+      "text": "Franklin found he wanted a stock of words and readiness in recollecting them.",
+      "checksum": "79552982"
+    },
+    {
+      "id": 151,
+      "text": "Franklin turned some Spectator tales into verse and later back into prose.",
+      "checksum": "00fea4ca"
+    },
+    {
+      "id": 152,
+      "text": "Franklin jumbled his collections of hints and tried to reduce them into the best order.",
+      "checksum": "48f925bf"
+    },
+    {
+      "id": 153,
+      "text": "Franklin used this method to teach himself method in the arrangement of thoughts.",
+      "checksum": "98e91bc1"
+    },
+    {
+      "id": 154,
+      "text": "Franklin sometimes fancied he had improved the method of the language in certain particulars.",
+      "checksum": "6bba55a2"
+    },
+    {
+      "id": 155,
+      "text": "Franklin was extremely ambitious to become a tolerable English writer.",
+      "checksum": "3bb9641a"
+    },
+    {
+      "id": 156,
+      "text": "Franklin did his writing exercises and reading at night after work, before work began, or on Sundays.",
+      "checksum": "04f02f46"
+    },
+    {
+      "id": 157,
+      "text": "Franklin contrived to be in the printing-house alone on Sundays to avoid public worship.",
+      "checksum": "022de979"
+    },
+    {
+      "id": 158,
+      "text": "Franklin evaded common attendance on public worship which his father used to exact.",
+      "checksum": "0df3cf2e"
+    },
+    {
+      "id": 159,
+      "text": "Franklin still thought public worship was a duty but could not afford time to practice it.",
+      "checksum": "402fdfe1"
+    },
+    {
+      "id": 160,
+      "text": "Franklin was about sixteen years old when he met with a book by Tryon recommending a vegetable diet.",
+      "checksum": "ed6ee080"
+    },
+    {
+      "id": 161,
+      "text": "Franklin determined to adopt a vegetable diet.",
+      "checksum": "52cdcbee"
+    },
+    {
+      "id": 162,
+      "text": "Franklin's brother boarded himself and his apprentices in another family.",
+      "checksum": "299a1947"
+    },
+    {
+      "id": 163,
+      "text": "Franklin's refusal to eat flesh occasioned inconvenience and he was frequently chid for his singularity.",
+      "checksum": "aa57142c"
+    },
+    {
+      "id": 164,
+      "text": "Franklin learned Tryon's manner of preparing vegetable dishes such as boiling potatoes or rice and making hasty pudding.",
+      "checksum": "d2016026"
+    },
+    {
+      "id": 165,
+      "text": "Franklin proposed to his brother that he board himself for half the money paid for his board.",
+      "checksum": "d1a408db"
+    },
+    {
+      "id": 166,
+      "text": "Franklin's brother instantly agreed to this arrangement.",
+      "checksum": "c2eac290"
+    },
+    {
+      "id": 167,
+      "text": "Franklin found he could save half what his brother paid him for board.",
+      "checksum": "1b68acdb"
+    },
+    {
+      "id": 168,
+      "text": "Franklin used his savings as an additional fund for buying books.",
+      "checksum": "22d35786"
+    },
+    {
+      "id": 169,
+      "text": "Franklin remained alone in the printing-house while his brother and others went to meals.",
+      "checksum": "95070a8f"
+    },
+    {
+      "id": 170,
+      "text": "Franklin's light repasts often consisted of no more than a biscuit, slice of bread, handful of raisins, a tart, and water.",
+      "checksum": "858c1d86"
+    },
+    {
+      "id": 171,
+      "text": "Franklin made greater progress in study due to the time saved and the clearness of head from temperance.",
+      "checksum": "53b82163"
+    },
+    {
+      "id": 172,
+      "text": "Franklin was once made ashamed of his ignorance in figures.",
+      "checksum": "dab5d38e"
+    },
+    {
+      "id": 173,
+      "text": "Franklin had twice failed in learning figures when at school.",
+      "checksum": "e161d1b7"
+    },
+    {
+      "id": 174,
+      "text": "Franklin took Cocker's book of Arithmetic and went through it by himself with great ease.",
+      "checksum": "ae6bae7d"
+    },
+    {
+      "id": 175,
+      "text": "Franklin read Seller's and Shermy's books of Navigation.",
+      "checksum": "724df958"
+    },
+    {
+      "id": 176,
+      "text": "Franklin became acquainted with the little geometry contained in navigation books.",
+      "checksum": "ac76aa07"
+    },
+    {
+      "id": 177,
+      "text": "Franklin never proceeded far in geometry.",
+      "checksum": "d39e971f"
+    },
+    {
+      "id": 178,
+      "text": "Franklin read Locke's On Human Understanding.",
+      "checksum": "d20e1c3a"
+    },
+    {
+      "id": 179,
+      "text": "Franklin read the Art of Thinking by Messrs. du Port Royal.",
+      "checksum": "0c785b33"
+    },
+    {
+      "id": 180,
+      "text": "Franklin met with an English grammar with sketches of rhetoric and logic at the end.",
+      "checksum": "17b7ec38"
+    },
+    {
+      "id": 181,
+      "text": "Franklin procured Xenophon's Memorable Things of Socrates.",
+      "checksum": "6bfc392c"
+    },
+    {
+      "id": 182,
+      "text": "Franklin was charmed with the Socratic method of dispute.",
+      "checksum": "9bd31854"
+    },
+    {
+      "id": 183,
+      "text": "Franklin adopted the Socratic method and dropped his abrupt contradiction and positive argumentation.",
+      "checksum": "1fe5a840"
+    },
+    {
+      "id": 184,
+      "text": "Franklin put on the manner of a humble inquirer and doubter.",
+      "checksum": "cd004541"
+    },
+    {
+      "id": 185,
+      "text": "Franklin became a real doubter in many points of religious doctrine from reading Shaftesbury and Collins.",
+      "checksum": "bffc8e26"
+    },
+    {
+      "id": 186,
+      "text": "Franklin read Locke's 'On Human Understanding' during his youth.",
+      "checksum": "ed13c42f"
+    },
+    {
+      "id": 187,
+      "text": "Franklin read 'The Art of Thinking' by the scholars of Port Royal.",
+      "checksum": "602549e4"
+    },
+    {
+      "id": 188,
+      "text": "Franklin studied an English grammar book, possibly Greenwood's, that included sketches of rhetoric and logic.",
+      "checksum": "64cf558a"
+    },
+    {
+      "id": 189,
+      "text": "Franklin read Xenophon's 'Memorable Things of Socrates'.",
+      "checksum": "f64621aa"
+    },
+    {
+      "id": 190,
+      "text": "Franklin was charmed by the Socratic method of argumentation.",
+      "checksum": "88a28982"
+    },
+    {
+      "id": 191,
+      "text": "Franklin adopted the Socratic method and abandoned abrupt contradiction and positive argumentation.",
+      "checksum": "1e78e8b1"
+    },
+    {
+      "id": 192,
+      "text": "Franklin became a doubter in many points of religious doctrine after reading Shaftesbury and Collins.",
+      "checksum": "9413b2cd"
+    },
+    {
+      "id": 193,
+      "text": "Franklin practiced the Socratic method continually and became very skilled at it.",
+      "checksum": "fbdbf30c"
+    },
+    {
+      "id": 194,
+      "text": "Franklin used the Socratic method to draw people into concessions and entangle them in difficulties.",
+      "checksum": "d322dc0a"
+    },
+    {
+      "id": 195,
+      "text": "Franklin gradually abandoned the Socratic method after a few years.",
+      "checksum": "1f8e7b96"
+    },
+    {
+      "id": 196,
+      "text": "Franklin developed a habit of expressing himself with modest diffidence.",
+      "checksum": "04d1afc6"
+    },
+    {
+      "id": 197,
+      "text": "Franklin avoided using words like 'certainly' and 'undoubtedly' when advancing opinions.",
+      "checksum": "ab151c1d"
+    },
+    {
+      "id": 198,
+      "text": "Franklin believed his habit of modest diffidence gave him great advantage in persuading others.",
+      "checksum": "beae32e9"
+    },
+    {
+      "id": 199,
+      "text": "Franklin believed the chief ends of conversation are to inform, be informed, please, or persuade.",
+      "checksum": "378872f4"
+    },
+    {
+      "id": 200,
+      "text": "Franklin believed a positive, assuming manner tends to create opposition and defeat the purposes of speech.",
+      "checksum": "4c9b4324"
+    },
+    {
+      "id": 201,
+      "text": "Franklin's brother James began printing a newspaper in 1720 or 1721.",
+      "checksum": "ed623bd1"
+    },
+    {
+      "id": 202,
+      "text": "Franklin's brother's newspaper, the New England Courant, was the second newspaper to appear in America.",
+      "checksum": "aa723057"
+    },
+    {
+      "id": 203,
+      "text": "Franklin was employed to carry the New England Courant papers through the streets to customers.",
+      "checksum": "c1578e74"
+    },
+    {
+      "id": 204,
+      "text": "Franklin wrote anonymous papers for his brother's newspaper while still a boy.",
+      "checksum": "325a44c3"
+    },
+    {
+      "id": 205,
+      "text": "Franklin disguised his handwriting when submitting papers to his brother's newspaper.",
+      "checksum": "0731f4d4"
+    },
+    {
+      "id": 206,
+      "text": "Franklin's anonymous papers were approved by his brother's writing friends.",
+      "checksum": "0ca66b75"
+    },
+    {
+      "id": 207,
+      "text": "Franklin kept his authorship secret until his fund of ideas was exhausted.",
+      "checksum": "80967665"
+    },
+    {
+      "id": 208,
+      "text": "Franklin's discovery as the author made his brother displeased, thinking it made Franklin too vain.",
+      "checksum": "ca8ce0b1"
+    },
+    {
+      "id": 209,
+      "text": "Franklin's brother considered himself Franklin's master and Franklin his apprentice.",
+      "checksum": "2b574d4b"
+    },
+    {
+      "id": 210,
+      "text": "Franklin thought his brother demean'd him too much in the services required.",
+      "checksum": "caf2fcb6"
+    },
+    {
+      "id": 211,
+      "text": "Franklin and his brother's disputes were often brought before their father.",
+      "checksum": "4476b098"
+    },
+    {
+      "id": 212,
+      "text": "Franklin was generally favored in judgments by his father over his brother.",
+      "checksum": "9fd79ddc"
+    },
+    {
+      "id": 213,
+      "text": "Franklin's brother was passionate and often beat Franklin.",
+      "checksum": "2bcb1e00"
+    },
+    {
+      "id": 214,
+      "text": "Franklin resented his brother's beatings greatly.",
+      "checksum": "9f32c02b"
+    },
+    {
+      "id": 215,
+      "text": "Franklin found his apprenticeship very tedious.",
+      "checksum": "131d61a0"
+    },
+    {
+      "id": 216,
+      "text": "A piece in the New England Courant on a political point gave offense to the Assembly.",
+      "checksum": "f43f5214"
+    },
+    {
+      "id": 217,
+      "text": "Franklin's brother was taken up, censured, and imprisoned for a month for not disclosing the author of an offensive piece.",
+      "checksum": "edfe748a"
+    },
+    {
+      "id": 218,
+      "text": "Franklin was taken up and examined before the council but was admonished and dismissed.",
+      "checksum": "41b4634b"
+    },
+    {
+      "id": 219,
+      "text": "During his brother's confinement, Franklin managed the newspaper.",
+      "checksum": "5b2c1518"
+    },
+    {
+      "id": 220,
+      "text": "Franklin gave the rulers some critical remarks in the newspaper during his brother's confinement.",
+      "checksum": "97e20312"
+    },
+    {
+      "id": 221,
+      "text": "Franklin began to be considered by others as a young genius with a turn for libeling and satire.",
+      "checksum": "62bfc85a"
+    },
+    {
+      "id": 222,
+      "text": "The House issued an order that James Franklin should no longer print the New England Courant.",
+      "checksum": "2cb04f3e"
+    },
+    {
+      "id": 223,
+      "text": "Franklin's brother arranged for the paper to be printed under Benjamin Franklin's name to evade the order.",
+      "checksum": "53c20ab2"
+    },
+    {
+      "id": 224,
+      "text": "Franklin signed new private indentures to secure his brother's benefit of his service.",
+      "checksum": "f5da569c"
+    },
+    {
+      "id": 225,
+      "text": "Franklin later asserted his freedom, presuming his brother would not produce the new indentures.",
+      "checksum": "53e2968c"
+    },
+    {
+      "id": 226,
+      "text": "Franklin considered this assertion of freedom one of the first errors of his life.",
+      "checksum": "daca0e07"
+    },
+    {
+      "id": 227,
+      "text": "Franklin resented his brother's passionate blows more than the unfairness of his own action.",
+      "checksum": "6cde1086"
+    },
+    {
+      "id": 228,
+      "text": "Franklin's brother prevented him from getting employment in any other printing-house in Boston.",
+      "checksum": "d1c9e763"
+    },
+    {
+      "id": 229,
+      "text": "Franklin decided to go to New York as the nearest place with a printer.",
+      "checksum": "e7e88cdb"
+    },
+    {
+      "id": 230,
+      "text": "Franklin was inclined to leave Boston because he had made himself obnoxious to the governing party.",
+      "checksum": "f65ea5b4"
+    },
+    {
+      "id": 231,
+      "text": "Franklin feared the arbitrary proceedings of the Assembly might bring him into scrapes if he stayed.",
+      "checksum": "19fc92a9"
+    },
+    {
+      "id": 232,
+      "text": "Franklin's indiscreet disputations about religion made him pointed at with horror as an infidel or atheist.",
+      "checksum": "1b325273"
+    },
+    {
+      "id": 233,
+      "text": "Franklin's father sided with his brother when Franklin wanted to leave.",
+      "checksum": "e99445eb"
+    },
+    {
+      "id": 234,
+      "text": "Franklin's friend Collins arranged his passage to New York on a sloop.",
+      "checksum": "9bcf3310"
+    },
+    {
+      "id": 235,
+      "text": "Franklin sold some of his books to raise money for his passage.",
+      "checksum": "7c4d3cb8"
+    },
+    {
+      "id": 236,
+      "text": "Franklin left Boston at age 17 without recommendation or knowledge of anyone in New York.",
+      "checksum": "9aa53f45"
+    },
+    {
+      "id": 237,
+      "text": "Franklin had very little money in his pocket when he arrived in New York.",
+      "checksum": "d9e4b5c4"
+    },
+    {
+      "id": 238,
+      "text": "Franklin's inclinations for the sea had worn out by the time he reached New York.",
+      "checksum": "be757c7a"
+    },
+    {
+      "id": 239,
+      "text": "Franklin offered his service to William Bradford, the printer in New York.",
+      "checksum": "3369e80f"
+    },
+    {
+      "id": 240,
+      "text": "William Bradford told Franklin that his son in Philadelphia might employ him.",
+      "checksum": "2b446b43"
+    },
+    {
+      "id": 241,
+      "text": "Franklin set out in a boat for Amboy, leaving his chest to follow by sea.",
+      "checksum": "e31c96f1"
+    },
+    {
+      "id": 242,
+      "text": "A squall tore the boat's rotten sails to pieces and drove them upon Long Island.",
+      "checksum": "4e005abf"
+    },
+    {
+      "id": 243,
+      "text": "Franklin rescued a drunken Dutchman who fell overboard.",
+      "checksum": "2da4ed5b"
+    },
+    {
+      "id": 244,
+      "text": "The Dutchman had a Dutch copy of Bunyan's Pilgrim's Progress, which Franklin dried for him.",
+      "checksum": "bebabce1"
+    },
+    {
+      "id": 245,
+      "text": "Franklin considered Bunyan's Pilgrim's Progress his old favorite author.",
+      "checksum": "3bf2ed22"
+    },
+    {
+      "id": 246,
+      "text": "Franklin believed Bunyan's Pilgrim's Progress has been more generally read than any book except perhaps the Bible.",
+      "checksum": "3d0478ca"
+    },
+    {
+      "id": 247,
+      "text": "Franklin admired Bunyan's method of mixing narration and dialogue.",
+      "checksum": "d57c99d2"
+    },
+    {
+      "id": 248,
+      "text": "Franklin noted that De Foe imitated Bunyan's method in his works.",
+      "checksum": "0487bac2"
+    },
+    {
+      "id": 249,
+      "text": "Franklin noted that Richardson imitated Bunyan's method in his Pamela.",
+      "checksum": "7cc595d9"
+    },
+    {
+      "id": 250,
+      "text": "Franklin and the boatman spent thirty hours on the water without victuals or drink except filthy rum.",
+      "checksum": "f786ac42"
+    },
+    {
+      "id": 251,
+      "text": "Franklin developed a fever after the boat journey.",
+      "checksum": "a457af67"
+    },
+    {
+      "id": 252,
+      "text": "Franklin treated his fever by drinking cold water plentifully, following a prescription he had read.",
+      "checksum": "4576c219"
+    },
+    {
+      "id": 253,
+      "text": "Franklin's fever left him after sweating plentifully through the night.",
+      "checksum": "e5c7353f"
+    },
+    {
+      "id": 254,
+      "text": "Franklin proceeded on foot from Amboy toward Philadelphia.",
+      "checksum": "109b8f33"
+    },
+    {
+      "id": 255,
+      "text": "Franklin had fifty miles to travel to Burlington.",
+      "checksum": "4122bb27"
+    },
+    {
+      "id": 256,
+      "text": "It rained very hard during Franklin's journey, soaking him thoroughly.",
+      "checksum": "cefbb172"
+    },
+    {
+      "id": 257,
+      "text": "Franklin was suspected of being a runaway servant during his journey.",
+      "checksum": "7236c404"
+    },
+    {
+      "id": 258,
+      "text": "Franklin stopped at a poor inn and wished he had never left home.",
+      "checksum": "e8a44f40"
+    },
+    {
+      "id": 259,
+      "text": "Franklin met Dr. Brown at an inn within eight or ten miles of Burlington.",
+      "checksum": "0fa787da"
+    },
+    {
+      "id": 260,
+      "text": "Dr. Brown became very sociable and friendly with Franklin after learning he had read a little.",
+      "checksum": "111cc637"
+    },
+    {
+      "id": 261,
+      "text": "Franklin's acquaintance with Dr. Brown continued as long as Dr. Brown lived.",
+      "checksum": "dd2eb42a"
+    },
+    {
+      "id": 262,
+      "text": "Dr. Brown had been an itinerant doctor and could give particular accounts of towns in England and countries in Europe.",
+      "checksum": "490ea380"
+    },
+    {
+      "id": 263,
+      "text": "Dr. Brown was much of an unbeliever.",
+      "checksum": "c0020a0e"
+    },
+    {
+      "id": 264,
+      "text": "Dr. Brown travestied the Bible in doggrel verse, similar to Cotton's treatment of Virgil.",
+      "checksum": "e4648697"
+    },
+    {
+      "id": 265,
+      "text": "Franklin stopped at a poor inn at noon on his journey and wished he had never left home.",
+      "checksum": "59bd6ad0"
+    },
+    {
+      "id": 266,
+      "text": "Franklin was suspected of being a runaway servant during his travels.",
+      "checksum": "73127931"
+    },
+    {
+      "id": 267,
+      "text": "Franklin reached an inn kept by Dr. Brown within eight or ten miles of Burlington.",
+      "checksum": "14541679"
+    },
+    {
+      "id": 268,
+      "text": "Franklin found Dr. Brown to be sociable and friendly after learning that Franklin had read a little.",
+      "checksum": "750a27ae"
+    },
+    {
+      "id": 269,
+      "text": "Dr. Brown was much of an unbeliever and attempted to travesty the Bible in doggrel verse.",
+      "checksum": "2dd2a086"
+    },
+    {
+      "id": 270,
+      "text": "Franklin arrived in Burlington on a Saturday and found the regular boats had already left.",
+      "checksum": "b07f0f22"
+    },
+    {
+      "id": 271,
+      "text": "Franklin was invited to lodge with an old woman in Burlington who sold gingerbread.",
+      "checksum": "315f2860"
+    },
+    {
+      "id": 272,
+      "text": "The old woman understood Franklin was a printer and wanted him to stay in Burlington.",
+      "checksum": "6191355f"
+    },
+    {
+      "id": 273,
+      "text": "The old woman gave Franklin a dinner of ox-cheek and accepted only a pot of ale in return.",
+      "checksum": "9f9c3e5c"
+    },
+    {
+      "id": 274,
+      "text": "Franklin found a boat going toward Philadelphia on Saturday evening and was taken aboard.",
+      "checksum": "5a57b605"
+    },
+    {
+      "id": 275,
+      "text": "The boat rowed all the way to Philadelphia because there was no wind.",
+      "checksum": "d6d87759"
+    },
+    {
+      "id": 276,
+      "text": "Franklin and the boat company landed near Cooper's Creek around midnight in October.",
+      "checksum": "5544e52e"
+    },
+    {
+      "id": 277,
+      "text": "Franklin arrived in Philadelphia on Sunday morning around eight or nine o'clock at the Market-street wharf.",
+      "checksum": "13a6d40a"
+    },
+    {
+      "id": 278,
+      "text": "Franklin was wearing his working dress when he arrived in Philadelphia, with his best clothes coming by sea.",
+      "checksum": "6368f525"
+    },
+    {
+      "id": 279,
+      "text": "Franklin's pockets were stuffed with shirts and stockings when he arrived in Philadelphia.",
+      "checksum": "b9c27e3b"
+    },
+    {
+      "id": 280,
+      "text": "Franklin had only a Dutch dollar and about a shilling in copper when he arrived in Philadelphia.",
+      "checksum": "5a2114ea"
+    },
+    {
+      "id": 281,
+      "text": "Franklin gave the boat people a shilling in copper for his passage, which they initially refused.",
+      "checksum": "4a90292c"
+    },
+    {
+      "id": 282,
+      "text": "Franklin believed a man is sometimes more generous when he has little money than when he has plenty.",
+      "checksum": "02c13260"
+    },
+    {
+      "id": 283,
+      "text": "Franklin met a boy with bread near the market-house in Philadelphia.",
+      "checksum": "14d4f62d"
+    },
+    {
+      "id": 284,
+      "text": "Franklin asked for bisket at a baker's in Second-street, intending the kind made in Boston.",
+      "checksum": "0abb600c"
+    },
+    {
+      "id": 285,
+      "text": "Franklin asked for a three-penny loaf and received three great puffy rolls instead.",
+      "checksum": "1a4d741c"
+    },
+    {
+      "id": 286,
+      "text": "Franklin walked up Market-street eating rolls, passing by the door of Mr. Read, his future wife's father.",
+      "checksum": "de3c2ffc"
+    },
+    {
+      "id": 287,
+      "text": "Miss Read saw Franklin eating a roll in the street and thought he made an awkward, ridiculous appearance.",
+      "checksum": "1931661f"
+    },
+    {
+      "id": 288,
+      "text": "Franklin gave two of his rolls to a woman and her child from the boat.",
+      "checksum": "c71226f8"
+    },
+    {
+      "id": 289,
+      "text": "Franklin followed clean-dressed people into the great meeting-house of the Quakers near the market.",
+      "checksum": "44806d51"
+    },
+    {
+      "id": 290,
+      "text": "Franklin fell asleep during the Quaker meeting due to drowsiness from labor and lack of rest.",
+      "checksum": "211b6ff5"
+    },
+    {
+      "id": 291,
+      "text": "The Quaker meeting-house was the first house Franklin slept in during his time in Philadelphia.",
+      "checksum": "469351d1"
+    },
+    {
+      "id": 292,
+      "text": "Franklin met a young Quaker man who directed him to the Crooked Billet in Water-street for lodging.",
+      "checksum": "c63bd5c9"
+    },
+    {
+      "id": 293,
+      "text": "Franklin was suspected of being a runaway at the Crooked Billet due to his youth and appearance.",
+      "checksum": "51941a68"
+    },
+    {
+      "id": 294,
+      "text": "Franklin slept until six in the evening at the Crooked Billet, then was called to supper.",
+      "checksum": "7d73705b"
+    },
+    {
+      "id": 295,
+      "text": "Franklin visited Andrew Bradford the printer and found Bradford's father in the shop.",
+      "checksum": "911bf211"
+    },
+    {
+      "id": 296,
+      "text": "Andrew Bradford told Franklin he did not currently want a hand but offered him lodging and occasional work.",
+      "checksum": "05cdefe0"
+    },
+    {
+      "id": 297,
+      "text": "Andrew Bradford directed Franklin to Keimer, another printer in town who might employ him.",
+      "checksum": "0e3004b2"
+    },
+    {
+      "id": 298,
+      "text": "Keimer tested Franklin's printing skills by putting a composing stick in his hand.",
+      "checksum": "bc400b0b"
+    },
+    {
+      "id": 299,
+      "text": "Franklin observed that Andrew Bradford was a crafty old sophister and Keimer was a mere novice.",
+      "checksum": "56d00261"
+    },
+    {
+      "id": 300,
+      "text": "Keimer's printing-house had an old shattered press and one small, worn-out font of English.",
+      "checksum": "4ceb3a01"
+    },
+    {
+      "id": 301,
+      "text": "Keimer was composing an Elegy on Aquilla Rose when Franklin arrived.",
+      "checksum": "2b837930"
+    },
+    {
+      "id": 302,
+      "text": "Franklin endeavored to put Keimer's press into order.",
+      "checksum": "19dc1571"
+    },
+    {
+      "id": 303,
+      "text": "Franklin returned to Bradford's house for lodging and work.",
+      "checksum": "abaee38d"
+    },
+    {
+      "id": 304,
+      "text": "Keimer sent for Franklin a few days later to print off the Elegy.",
+      "checksum": "072b2add"
+    },
+    {
+      "id": 305,
+      "text": "Franklin found that Andrew Bradford had not been bred to printing and was very illiterate.",
+      "checksum": "d10f16a5"
+    },
+    {
+      "id": 306,
+      "text": "Franklin found that Keimer was a mere compositor who knew nothing of presswork.",
+      "checksum": "38f0623f"
+    },
+    {
+      "id": 307,
+      "text": "Keimer had been one of the French prophets and could act their enthusiastic agitations.",
+      "checksum": "516d5874"
+    },
+    {
+      "id": 308,
+      "text": "Keimer did not profess any particular religion but something of all on occasion.",
+      "checksum": "3fabb374"
+    },
+    {
+      "id": 309,
+      "text": "Keimer was very ignorant of the world and had a good deal of the knave in his composition.",
+      "checksum": "80f3eb76"
+    },
+    {
+      "id": 310,
+      "text": "Keimer got Franklin lodging at Mr. Read's house.",
+      "checksum": "6df6dc2e"
+    },
+    {
+      "id": 311,
+      "text": "Franklin made a more respectable appearance to Miss Read after his chest and clothes arrived.",
+      "checksum": "e950c521"
+    },
+    {
+      "id": 312,
+      "text": "Franklin began to have acquaintance among young people of Philadelphia who were lovers of reading.",
+      "checksum": "ed486005"
+    },
+    {
+      "id": 313,
+      "text": "Franklin spent his evenings pleasantly with young people who loved reading.",
+      "checksum": "dba7ad44"
+    },
+    {
+      "id": 314,
+      "text": "Franklin gained money by his industry and frugality.",
+      "checksum": "a68d5e85"
+    },
+    {
+      "id": 315,
+      "text": "Franklin lived agreeably in Philadelphia and tried to forget Boston.",
+      "checksum": "5d1e117d"
+    },
+    {
+      "id": 316,
+      "text": "Franklin did not want anyone in Boston to know where he resided, except his friend Collins.",
+      "checksum": "0f3107be"
+    },
+    {
+      "id": 317,
+      "text": "Franklin's brother-in-law Robert Holmes was master of a sloop that traded between Boston and Delaware.",
+      "checksum": "bfff5551"
+    },
+    {
+      "id": 318,
+      "text": "Robert Holmes heard of Franklin in Newcastle and wrote him a letter about his friends' concern in Boston.",
+      "checksum": "135d8ec5"
+    },
+    {
+      "id": 319,
+      "text": "Franklin wrote to Robert Holmes explaining his reasons for quitting Boston.",
+      "checksum": "46a3207a"
+    },
+    {
+      "id": 320,
+      "text": "Sir William Keith, governor of the province, was at Newcastle when Holmes received Franklin's letter.",
+      "checksum": "86af759c"
+    },
+    {
+      "id": 321,
+      "text": "Sir William Keith read Franklin's letter and seemed surprised at Franklin's age.",
+      "checksum": "929888a0"
+    },
+    {
+      "id": 322,
+      "text": "Sir William Keith said Franklin appeared a young man of promising parts and should be encouraged.",
+      "checksum": "67b8dbe5"
+    },
+    {
+      "id": 323,
+      "text": "Sir William Keith said the printers at Philadelphia were wretched ones.",
+      "checksum": "2ee90981"
+    },
+    {
+      "id": 324,
+      "text": "Sir William Keith offered to procure public business for Franklin if he would set up in Philadelphia.",
+      "checksum": "ea2b6b7f"
+    },
+    {
+      "id": 325,
+      "text": "Sir William Keith came to Keimer's printing-house to visit Franklin.",
+      "checksum": "3dd4c6a4"
+    },
+    {
+      "id": 326,
+      "text": "Keimer was surprised when the governor inquired for Franklin instead of him.",
+      "checksum": "b352e3ba"
+    },
+    {
+      "id": 327,
+      "text": "Sir William Keith invited Franklin to a tavern at the corner of Third-street to taste Madeira.",
+      "checksum": "5d7a7065"
+    },
+    {
+      "id": 328,
+      "text": "Sir William Keith and Colonel French proposed that Franklin set up his own business.",
+      "checksum": "3708bee5"
+    },
+    {
+      "id": 329,
+      "text": "Sir William Keith offered to give Franklin a letter to his father recommending the project.",
+      "checksum": "7495a67a"
+    },
+    {
+      "id": 330,
+      "text": "Sir William Keith sent for Franklin to dine with him several times.",
+      "checksum": "176ed559"
+    },
+    {
+      "id": 331,
+      "text": "Franklin considered dining with the governor a very great honor.",
+      "checksum": "2c2c182d"
+    },
+    {
+      "id": 332,
+      "text": "Franklin took leave of Keimer in late April 1724, saying he was going to see his friends.",
+      "checksum": "ce285571"
+    },
+    {
+      "id": 333,
+      "text": "The governor gave Franklin an ample letter with flattering things about him to his father.",
+      "checksum": "6a08d74e"
+    },
+    {
+      "id": 334,
+      "text": "Franklin's vessel struck on a shoal going down the bay and sprung a leak.",
+      "checksum": "198734ae"
+    },
+    {
+      "id": 335,
+      "text": "Franklin took his turn pumping water during the voyage to Boston.",
+      "checksum": "367af566"
+    },
+    {
+      "id": 336,
+      "text": "Franklin arrived safely in Boston after about a fortnight at sea.",
+      "checksum": "a8f4b8c2"
+    },
+    {
+      "id": 337,
+      "text": "Franklin had been absent from Boston for seven months.",
+      "checksum": "8f5f9717"
+    },
+    {
+      "id": 338,
+      "text": "Franklin's family was surprised and glad to see him, except his brother.",
+      "checksum": "01146e8c"
+    },
+    {
+      "id": 339,
+      "text": "Franklin was better dressed than ever before, with a genteel new suit, a watch, and nearly five pounds sterling in silver.",
+      "checksum": "f0a9d089"
+    },
+    {
+      "id": 340,
+      "text": "Franklin's brother received him not very frankly and turned to his work again.",
+      "checksum": "2600d8f4"
+    },
+    {
+      "id": 341,
+      "text": "Franklin praised Philadelphia and the happy life he led there to the journeymen.",
+      "checksum": "597f0b9f"
+    },
+    {
+      "id": 342,
+      "text": "Franklin expressed his strong intention of returning to Philadelphia.",
+      "checksum": "71cbac00"
+    },
+    {
+      "id": 343,
+      "text": "Franklin showed the journeymen a handful of silver, which was unusual in Boston where paper was the money.",
+      "checksum": "3f1c2b92"
+    },
+    {
+      "id": 344,
+      "text": "Franklin showed the journeymen his watch.",
+      "checksum": "42588e7c"
+    },
+    {
+      "id": 345,
+      "text": "Franklin gave the journeymen a piece of eight to drink.",
+      "checksum": "a38c9739"
+    },
+    {
+      "id": 346,
+      "text": "Franklin's visit offended his brother extremely.",
+      "checksum": "9ae3cf71"
+    },
+    {
+      "id": 347,
+      "text": "Franklin's mother wished to see Franklin and his brother reconciled and living as brothers.",
+      "checksum": "ca645c4b"
+    },
+    {
+      "id": 348,
+      "text": "Franklin returned to Philadelphia dressed in a new suit, with a watch, and about five pounds sterling in silver.",
+      "checksum": "a6fb1196"
+    },
+    {
+      "id": 349,
+      "text": "Franklin's brother James received him coldly and turned back to his work.",
+      "checksum": "fd503db1"
+    },
+    {
+      "id": 350,
+      "text": "Franklin showed the journeymen silver money, which was unusual in Boston where paper money was standard.",
+      "checksum": "679be40f"
+    },
+    {
+      "id": 351,
+      "text": "Franklin's visit offended his brother James so much that James said he could never forgive the insult.",
+      "checksum": "cd207fe0"
+    },
+    {
+      "id": 352,
+      "text": "Governor Keith wrote a letter to Franklin's father proposing to set Franklin up in the printing business.",
+      "checksum": "65f37845"
+    },
+    {
+      "id": 353,
+      "text": "Franklin's father thought Keith lacked discretion for proposing to set up a boy who was three years away from being of legal age.",
+      "checksum": "d855acbf"
+    },
+    {
+      "id": 354,
+      "text": "Franklin's friend Collins was a clerk in the post-office.",
+      "checksum": "87f4bb5a"
+    },
+    {
+      "id": 355,
+      "text": "Collins was pleased with Franklin's account of Pennsylvania and determined to go there.",
+      "checksum": "a4861e37"
+    },
+    {
+      "id": 356,
+      "text": "Collins left his collection of mathematics and natural philosophy books to come with Franklin's to New York.",
+      "checksum": "0a56fcb3"
+    },
+    {
+      "id": 357,
+      "text": "Franklin's father advised him to behave respectfully, obtain general esteem, and avoid lampooning and libeling.",
+      "checksum": "307f3b1c"
+    },
+    {
+      "id": 358,
+      "text": "Franklin's father told him that by steady industry and prudent parsimony he might save enough by age twenty-one to set up in business.",
+      "checksum": "fbbb0a7f"
+    },
+    {
+      "id": 359,
+      "text": "Franklin's father promised to help him with the rest if he came near the amount needed.",
+      "checksum": "263ec24c"
+    },
+    {
+      "id": 360,
+      "text": "Franklin's father gave him small gifts as tokens of his and Franklin's mother's love.",
+      "checksum": "55511871"
+    },
+    {
+      "id": 361,
+      "text": "Franklin visited his brother John in Newport, Rhode Island, who had been married and settled there.",
+      "checksum": "c927bde8"
+    },
+    {
+      "id": 362,
+      "text": "Franklin's brother John received him very affectionately and always loved him.",
+      "checksum": "2d7f1b9e"
+    },
+    {
+      "id": 363,
+      "text": "A friend of John's named Vernon had about thirty-five pounds currency due to him in Pennsylvania and asked Franklin to collect it.",
+      "checksum": "14d9bb5a"
+    },
+    {
+      "id": 364,
+      "text": "A Quaker woman on the ship to New York warned Franklin about two young women who were traveling as companions.",
+      "checksum": "2d9922fc"
+    },
+    {
+      "id": 365,
+      "text": "The Quaker woman's warning proved correct when the two women were discovered to be thieves and had stolen items from the ship's captain.",
+      "checksum": "3bd1913b"
+    },
+    {
+      "id": 366,
+      "text": "Franklin's friend Collins had arrived in New York before him.",
+      "checksum": "929c775d"
+    },
+    {
+      "id": 367,
+      "text": "Franklin and Collins had been intimate from childhood and read the same books together.",
+      "checksum": "0bacaa50"
+    },
+    {
+      "id": 368,
+      "text": "Collins had a wonderful genius for mathematical learning and far surpassed Franklin in this skill.",
+      "checksum": "f7da3105"
+    },
+    {
+      "id": 369,
+      "text": "While Franklin was away, Collins acquired a habit of drinking brandy and was drunk every day since arriving in New York.",
+      "checksum": "1a6a594e"
+    },
+    {
+      "id": 370,
+      "text": "Collins had gambled and lost his money, forcing Franklin to pay his lodgings and expenses to Philadelphia.",
+      "checksum": "bc1d8005"
+    },
+    {
+      "id": 371,
+      "text": "Governor Burnet of New York heard from the ship's captain that Franklin had many books and invited him to visit.",
+      "checksum": "66c2803c"
+    },
+    {
+      "id": 372,
+      "text": "Governor Burnet showed Franklin his large library and they had a good conversation about books and authors.",
+      "checksum": "c2e7a559"
+    },
+    {
+      "id": 373,
+      "text": "This was the second governor who took notice of Franklin, which pleased him greatly.",
+      "checksum": "c3c926c4"
+    },
+    {
+      "id": 374,
+      "text": "Franklin received Vernon's money on the way to Philadelphia, which was necessary to finish the journey.",
+      "checksum": "d249a3a2"
+    },
+    {
+      "id": 375,
+      "text": "Collins wished to be employed in a counting-house but was unsuccessful in his applications.",
+      "checksum": "68810264"
+    },
+    {
+      "id": 376,
+      "text": "Collins continued to borrow money from Franklin, promising repayment when he found work.",
+      "checksum": "fbe326fd"
+    },
+    {
+      "id": 377,
+      "text": "Franklin and Collins quarreled about Collins's drinking.",
+      "checksum": "91e2f687"
+    },
+    {
+      "id": 378,
+      "text": "In a boat on the Delaware, Collins refused to row and Franklin threw him overboard after Collins struck at him.",
+      "checksum": "f8dee26a"
+    },
+    {
+      "id": 379,
+      "text": "Franklin knew Collins was a good swimmer and was not concerned about him.",
+      "checksum": "90dacce7"
+    },
+    {
+      "id": 380,
+      "text": "Franklin and Collins hardly exchanged a civil word after the boat incident.",
+      "checksum": "b3cb03c7"
+    },
+    {
+      "id": 381,
+      "text": "A West India captain agreed to take Collins to Barbados as a tutor for a gentleman's sons.",
+      "checksum": "8f8e2901"
+    },
+    {
+      "id": 382,
+      "text": "Collins promised to remit Franklin money to discharge his debt but Franklin never heard from him again.",
+      "checksum": "724439bf"
+    },
+    {
+      "id": 383,
+      "text": "Franklin considered the breaking into Vernon's money one of the first great errors of his life.",
+      "checksum": "9e7e14b0"
+    },
+    {
+      "id": 384,
+      "text": "Governor Keith told Franklin he would set him up in the printing business himself.",
+      "checksum": "a0e142cc"
+    },
+    {
+      "id": 385,
+      "text": "Franklin presented Governor Keith with an inventory of a small print-house amounting to about one hundred pounds sterling.",
+      "checksum": "a29d6a8a"
+    },
+    {
+      "id": 386,
+      "text": "Governor Keith suggested Franklin go to England to choose the types and establish correspondences in the bookselling and stationery trade.",
+      "checksum": "14949306"
+    },
+    {
+      "id": 387,
+      "text": "Franklin agreed to go to England on the annual ship called Annis.",
+      "checksum": "72bf880f"
+    },
+    {
+      "id": 388,
+      "text": "Franklin continued working with Keimer while waiting for the Annis to sail.",
+      "checksum": "d68fa60a"
+    },
+    {
+      "id": 389,
+      "text": "Franklin was in daily apprehension of being called upon by Vernon to remit the money.",
+      "checksum": "110dc7f7"
+    },
+    {
+      "id": 390,
+      "text": "On his first voyage from Boston, Franklin was becalmed off Block Island.",
+      "checksum": "252b06e5"
+    },
+    {
+      "id": 391,
+      "text": "Franklin had stuck to a resolution of not eating animal food, following his master Tryon's teachings.",
+      "checksum": "e0fed5d5"
+    },
+    {
+      "id": 392,
+      "text": "Franklin considered taking fish as a kind of unprovoked murder since they could not injure humans.",
+      "checksum": "2386c4a2"
+    },
+    {
+      "id": 393,
+      "text": "When Franklin saw smaller fish in the stomachs of caught fish, he reasoned that if fish eat each other, humans could eat them.",
+      "checksum": "c55437f2"
+    },
+    {
+      "id": 394,
+      "text": "Franklin returned to eating animal food and continued to eat with other people, only occasionally returning to a vegetable diet.",
+      "checksum": "7f98bb33"
+    },
+    {
+      "id": 395,
+      "text": "Franklin and Keimer lived on a pretty good familiar footing and agreed tolerably well.",
+      "checksum": "d14c05a1"
+    },
+    {
+      "id": 396,
+      "text": "Keimer suspected nothing of Franklin's plan to set up his own business.",
+      "checksum": "c3e14c0a"
+    },
+    {
+      "id": 397,
+      "text": "Keimer retained great enthusiasm and loved argumentation.",
+      "checksum": "f31d6773"
+    },
+    {
+      "id": 398,
+      "text": "Franklin used the Socratic method to work Keimer into difficulties and contradictions during their disputations.",
+      "checksum": "ebee2a68"
+    },
+    {
+      "id": 399,
+      "text": "Keimer grew so cautious from Franklin's questioning that he would ask what Franklin intended to infer before answering common questions.",
+      "checksum": "6bbaa937"
+    },
+    {
+      "id": 400,
+      "text": "Keimer proposed that Franklin be his colleague in setting up a new sect, with Keimer preaching and Franklin confuting opponents.",
+      "checksum": "a8a04d1a"
+    },
+    {
+      "id": 401,
+      "text": "Keimer wore his beard at full length because of the Mosaic law against marring the corners of the beard.",
+      "checksum": "cb760ce0"
+    },
+    {
+      "id": 402,
+      "text": "Keimer kept the Seventh day Sabbath as an essential practice.",
+      "checksum": "2701acfc"
+    },
+    {
+      "id": 403,
+      "text": "Franklin disliked both Keimer's beard and Sabbath practices but agreed to admit them if Keimer would adopt a no-animal-food diet.",
+      "checksum": "558a7362"
+    },
+    {
+      "id": 404,
+      "text": "Keimer doubted his constitution could bear a vegetarian diet.",
+      "checksum": "a396f64b"
+    },
+    {
+      "id": 405,
+      "text": "Franklin and Keimer held a vegetarian diet for three months.",
+      "checksum": "491e088e"
+    },
+    {
+      "id": 406,
+      "text": "A woman in the neighborhood prepared forty different vegetarian dishes for Franklin and Keimer at eighteenpence sterling per week each.",
+      "checksum": "4046e163"
+    },
+    {
+      "id": 407,
+      "text": "Franklin found the vegetarian diet convenient because of its cheapness.",
+      "checksum": "7b3984ab"
+    },
+    {
+      "id": 408,
+      "text": "Keimer suffered greatly on the vegetarian diet and eventually ordered a roast pig.",
+      "checksum": "859e3e54"
+    },
+    {
+      "id": 409,
+      "text": "Keimer ate the entire roast pig before Franklin and two women friends arrived for dinner.",
+      "checksum": "5298b4e6"
+    },
+    {
+      "id": 410,
+      "text": "Franklin had made courtship to Miss Read and had great respect and affection for her.",
+      "checksum": "d8a859d9"
+    },
+    {
+      "id": 411,
+      "text": "Franklin had reason to believe Miss Read had the same feelings for him.",
+      "checksum": "e4491cd8"
+    },
+    {
+      "id": 412,
+      "text": "Miss Read's mother thought it prudent to prevent Franklin and Miss Read from going too far since Franklin was about to take a long voyage.",
+      "checksum": "0bb44cf8"
+    },
+    {
+      "id": 413,
+      "text": "Franklin and Miss Read were both only a little above eighteen years old.",
+      "checksum": "6930f915"
+    },
+    {
+      "id": 414,
+      "text": "Franklin's chief acquaintances at this time were Charles Osborne, Joseph Watson, and James Ralph, all lovers of reading.",
+      "checksum": "6e5d01a2"
+    },
+    {
+      "id": 415,
+      "text": "Franklin made changes to his life by easy gradations.",
+      "checksum": "02742247"
+    },
+    {
+      "id": 416,
+      "text": "Keimer was tired of the vegetarian project and ordered a roast pig.",
+      "checksum": "7729c3d4"
+    },
+    {
+      "id": 417,
+      "text": "Franklin made courtship to Miss Read during this time.",
+      "checksum": "e52199c6"
+    },
+    {
+      "id": 418,
+      "text": "Franklin had great respect and affection for Miss Read.",
+      "checksum": "1994a38a"
+    },
+    {
+      "id": 419,
+      "text": "Franklin and Miss Read were both a little above eighteen years old.",
+      "checksum": "4653d0bd"
+    },
+    {
+      "id": 420,
+      "text": "Miss Read's mother thought it prudent to prevent Franklin and Miss Read from going too far before his voyage.",
+      "checksum": "81e99aea"
+    },
+    {
+      "id": 421,
+      "text": "Franklin expected to be set up in his business after his return.",
+      "checksum": "d0a6ab9c"
+    },
+    {
+      "id": 422,
+      "text": "Franklin's chief acquaintances were Charles Osborne, Joseph Watson, and James Ralph, all lovers of reading.",
+      "checksum": "504b30c0"
+    },
+    {
+      "id": 423,
+      "text": "Watson was a pious, sensible young man of great integrity.",
+      "checksum": "b4d5c9d5"
+    },
+    {
+      "id": 424,
+      "text": "Ralph and Collins had been unsettled by Franklin in their religious principles.",
+      "checksum": "17e6c37d"
+    },
+    {
+      "id": 425,
+      "text": "Osborne was sensible, candid, frank, sincere and affectionate to his friends.",
+      "checksum": "b5aac9b7"
+    },
+    {
+      "id": 426,
+      "text": "Osborne was too fond of criticizing in literary matters.",
+      "checksum": "cfbbf892"
+    },
+    {
+      "id": 427,
+      "text": "Ralph was ingenious, genteel in his manners, and extremely eloquent.",
+      "checksum": "66ce354c"
+    },
+    {
+      "id": 428,
+      "text": "Franklin never knew a prettier talker than Ralph.",
+      "checksum": "9b2331c8"
+    },
+    {
+      "id": 429,
+      "text": "Franklin and his friends took pleasant walks together on Sundays into the woods near Schuylkill.",
+      "checksum": "2cdbf001"
+    },
+    {
+      "id": 430,
+      "text": "Ralph was inclined to pursue the study of poetry.",
+      "checksum": "bc8f0ac8"
+    },
+    {
+      "id": 431,
+      "text": "Franklin approved of amusing oneself with poetry to improve one's language, but no farther.",
+      "checksum": "885b688c"
+    },
+    {
+      "id": 432,
+      "text": "Franklin and his friends agreed to each produce a version of the eighteenth Psalm.",
+      "checksum": "7e8f556d"
+    },
+    {
+      "id": 433,
+      "text": "Franklin transcribed Ralph's poem to make it appear as his own.",
+      "checksum": "6dd1c56c"
+    },
+    {
+      "id": 434,
+      "text": "Franklin defended his text when criticized.",
+      "checksum": "1509f9d0"
+    },
+    {
+      "id": 435,
+      "text": "Osborne praised Franklin's writing ability, noting he seemed to have no choice of words in conversation but wrote with great force and fire.",
+      "checksum": "0b39ebc4"
+    },
+    {
+      "id": 436,
+      "text": "Ralph discovered the trick Franklin and Osborne had played on him.",
+      "checksum": "d6255d49"
+    },
+    {
+      "id": 437,
+      "text": "Franklin did all he could to dissuade Ralph from becoming a poet.",
+      "checksum": "2e5993f3"
+    },
+    {
+      "id": 438,
+      "text": "Ralph continued scribbling verses until Pope cured him.",
+      "checksum": "254ad7e2"
+    },
+    {
+      "id": 439,
+      "text": "Ralph became a pretty good prose writer.",
+      "checksum": "baa0340c"
+    },
+    {
+      "id": 440,
+      "text": "Watson died in Franklin's arms a few years after, much lamented.",
+      "checksum": "eb24597b"
+    },
+    {
+      "id": 441,
+      "text": "Osborne went to the West Indies and became an eminent lawyer.",
+      "checksum": "8ef4461d"
+    },
+    {
+      "id": 442,
+      "text": "Franklin and Osborne made a serious agreement that whoever died first would visit the other from the afterlife.",
+      "checksum": "67c4d9fe"
+    },
+    {
+      "id": 443,
+      "text": "Osborne never fulfilled his promise to visit Franklin after death.",
+      "checksum": "e2e50582"
+    },
+    {
+      "id": 444,
+      "text": "The governor frequently had Franklin to his house.",
+      "checksum": "f9861b23"
+    },
+    {
+      "id": 445,
+      "text": "The governor promised to set Franklin up in business.",
+      "checksum": "621451ff"
+    },
+    {
+      "id": 446,
+      "text": "Franklin was appointed to call at different times to receive letters of recommendation from the governor.",
+      "checksum": "09ab5553"
+    },
+    {
+      "id": 447,
+      "text": "The governor kept postponing giving Franklin the letters.",
+      "checksum": "2c666291"
+    },
+    {
+      "id": 448,
+      "text": "Ralph was married and had one child when he decided to accompany Franklin to London.",
+      "checksum": "f078772c"
+    },
+    {
+      "id": 449,
+      "text": "Ralph intended to leave his wife and never return to Philadelphia.",
+      "checksum": "ecff2ebc"
+    },
+    {
+      "id": 450,
+      "text": "Franklin left Philadelphia in a ship that anchored at Newcastle.",
+      "checksum": "4d5f0ae0"
+    },
+    {
+      "id": 451,
+      "text": "The governor did not give Franklin the promised letters before he sailed.",
+      "checksum": "0e6b6466"
+    },
+    {
+      "id": 452,
+      "text": "Andrew Hamilton, a famous Philadelphia lawyer, took passage on the same ship.",
+      "checksum": "51ebe94e"
+    },
+    {
+      "id": 453,
+      "text": "Franklin and Ralph were forced to take a berth in the steerage initially.",
+      "checksum": "2a82e5cb"
+    },
+    {
+      "id": 454,
+      "text": "Colonel French showed Franklin great respect on board the ship.",
+      "checksum": "03dd7c75"
+    },
+    {
+      "id": 455,
+      "text": "Franklin and Ralph were invited into the cabin by the other gentlemen.",
+      "checksum": "07f6897a"
+    },
+    {
+      "id": 456,
+      "text": "Mr. Denham contracted a friendship with Franklin that continued during his life.",
+      "checksum": "12edac0c"
+    },
+    {
+      "id": 457,
+      "text": "The voyage to England was not pleasant due to bad weather.",
+      "checksum": "98269834"
+    },
+    {
+      "id": 458,
+      "text": "Franklin arrived in London on December 24, 1724.",
+      "checksum": "001cc2cd"
+    },
+    {
+      "id": 459,
+      "text": "The letters Franklin thought were from Governor Keith were actually from Riddlesden.",
+      "checksum": "58682768"
+    },
+    {
+      "id": 460,
+      "text": "The stationer told Franklin that Riddlesden was a complete rascal.",
+      "checksum": "7971bb9c"
+    },
+    {
+      "id": 461,
+      "text": "Franklin began to doubt Governor Keith's sincerity.",
+      "checksum": "5484bc93"
+    },
+    {
+      "id": 462,
+      "text": "Denham told Franklin that Keith had no credit to give and was not dependable.",
+      "checksum": "a6d4e5e6"
+    },
+    {
+      "id": 463,
+      "text": "Riddlesden had half ruined Miss Read's father by persuading him to be bound for him.",
+      "checksum": "744d62d6"
+    },
+    {
+      "id": 464,
+      "text": "Keith was concerned in a secret scheme with Riddlesden to the prejudice of Hamilton.",
+      "checksum": "6c527863"
+    },
+    {
+      "id": 465,
+      "text": "Franklin warned Hamilton about the scheme against him.",
+      "checksum": "be7197d9"
+    },
+    {
+      "id": 466,
+      "text": "Hamilton thanked Franklin cordially for the information.",
+      "checksum": "8c3798d1"
+    },
+    {
+      "id": 467,
+      "text": "Hamilton became Franklin's friend, greatly to his advantage afterwards.",
+      "checksum": "d4a0fa3c"
+    },
+    {
+      "id": 468,
+      "text": "Governor Keith had a habit of wishing to please everybody and giving expectations instead of actual help.",
+      "checksum": "fe72f809"
+    },
+    {
+      "id": 469,
+      "text": "Keith was an ingenious, sensible man and a pretty good writer.",
+      "checksum": "325c9e04"
+    },
+    {
+      "id": 470,
+      "text": "Keith was a good governor for the people but not for the proprietaries.",
+      "checksum": "0bf9650d"
+    },
+    {
+      "id": 471,
+      "text": "Franklin and Ralph took lodgings together in Little Britain at three shillings and sixpence a week.",
+      "checksum": "4debd620"
+    },
+    {
+      "id": 472,
+      "text": "Ralph found some poor relations in London who were unable to assist him.",
+      "checksum": "7ea95890"
+    },
+    {
+      "id": 473,
+      "text": "Ralph had no money left after paying his passage to London.",
+      "checksum": "70ea8966"
+    },
+    {
+      "id": 474,
+      "text": "Franklin had fifteen pistoles when he arrived in London.",
+      "checksum": "28224f06"
+    },
+    {
+      "id": 475,
+      "text": "Ralph borrowed money from Franklin to subsist while looking for work.",
+      "checksum": "0ec1d96e"
+    },
+    {
+      "id": 476,
+      "text": "Ralph tried to get employment as an actor but was advised against it by Wilkes.",
+      "checksum": "ce32ba40"
+    },
+    {
+      "id": 477,
+      "text": "Ralph proposed to Roberts to write a weekly paper like the Spectator.",
+      "checksum": "37913efe"
+    },
+    {
+      "id": 478,
+      "text": "Ralph tried to get employment as a hackney writer but could find no vacancy.",
+      "checksum": "6451bcf8"
+    },
+    {
+      "id": 479,
+      "text": "Franklin immediately got work at Palmer's printing-house in Bartholomew Close.",
+      "checksum": "667e642c"
+    },
+    {
+      "id": 480,
+      "text": "Franklin continued at Palmer's for near a year.",
+      "checksum": "a431b13e"
+    },
+    {
+      "id": 481,
+      "text": "Franklin spent a good deal of his earnings with Ralph on plays and other amusements.",
+      "checksum": "74cc80f3"
+    },
+    {
+      "id": 482,
+      "text": "Franklin and Ralph consumed all of Franklin's pistoles.",
+      "checksum": "4d6c8b84"
+    },
+    {
+      "id": 483,
+      "text": "Franklin was constantly kept unable to pay his passage due to expenses.",
+      "checksum": "24ddda37"
+    },
+    {
+      "id": 484,
+      "text": "Ralph seemed to forget his wife and child.",
+      "checksum": "387931ba"
+    },
+    {
+      "id": 485,
+      "text": "Franklin forgot his engagements with Miss Read by degrees.",
+      "checksum": "18df7c9b"
+    },
+    {
+      "id": 486,
+      "text": "Franklin wrote only one letter to Miss Read, letting her know he was not likely to return soon.",
+      "checksum": "6043fbd1"
+    },
+    {
+      "id": 487,
+      "text": "Franklin considered his neglect of Miss Read one of the great errata of his life.",
+      "checksum": "9e2e921a"
+    },
+    {
+      "id": 488,
+      "text": "Franklin was employed at Palmer's composing for the second edition of Wollaston's Religion of Nature.",
+      "checksum": "9ff7c839"
+    },
+    {
+      "id": 489,
+      "text": "Franklin wrote a metaphysical piece called A Dissertation on Liberty and Necessity, Pleasure and Pain.",
+      "checksum": "d8c796e9"
+    },
+    {
+      "id": 490,
+      "text": "Franklin inscribed his pamphlet to Ralph.",
+      "checksum": "1c713610"
+    },
+    {
+      "id": 491,
+      "text": "Franklin printed a small number of his pamphlet.",
+      "checksum": "332de1ed"
+    },
+    {
+      "id": 492,
+      "text": "Palmer seriously expostulated with Franklin about the principles of his pamphlet, which appeared abominable to him.",
+      "checksum": "08cf004b"
+    },
+    {
+      "id": 493,
+      "text": "Franklin considered printing his pamphlet another erratum.",
+      "checksum": "1d2dc397"
+    },
+    {
+      "id": 494,
+      "text": "Franklin made an acquaintance with Wilcox, a bookseller in Little Britain.",
+      "checksum": "e5ac1888"
+    },
+    {
+      "id": 495,
+      "text": "Wilcox had an immense collection of second-hand books.",
+      "checksum": "7f320950"
+    },
+    {
+      "id": 496,
+      "text": "Franklin arranged with Wilcox to take, read, and return any of his books on reasonable terms.",
+      "checksum": "1fe19fff"
+    },
+    {
+      "id": 497,
+      "text": "Franklin's pamphlet fell into the hands of Lyons, a surgeon.",
+      "checksum": "7d041420"
+    },
+    {
+      "id": 498,
+      "text": "Lyons took great notice of Franklin and called on him often.",
+      "checksum": "8c394b93"
+    },
+    {
+      "id": 499,
+      "text": "Lyons introduced Franklin to Dr. Mandeville, author of the Fable of the Bees.",
+      "checksum": "45f33f4e"
+    },
+    {
+      "id": 500,
+      "text": "Mandeville had a club at the Horns alehouse and was the soul of it.",
+      "checksum": "2ac9d180"
+    },
+    {
+      "id": 501,
+      "text": "Lyons introduced Franklin to Dr. Pemberton at Batson's Coffee-house.",
+      "checksum": "cdf3489c"
+    },
+    {
+      "id": 502,
+      "text": "Pemberton promised to give Franklin an opportunity to see Sir Isaac Newton.",
+      "checksum": "f57d4f9a"
+    },
+    {
+      "id": 503,
+      "text": "Franklin was extremely desirous of seeing Sir Isaac Newton.",
+      "checksum": "a92ae982"
+    },
+    {
+      "id": 504,
+      "text": "Franklin never got the opportunity to see Sir Isaac Newton.",
+      "checksum": "ca0a76a1"
+    },
+    {
+      "id": 505,
+      "text": "Franklin brought over a purse made of asbestos that purifies by fire.",
+      "checksum": "ea25f7a7"
+    },
+    {
+      "id": 506,
+      "text": "Sir Hans Sloane heard of Franklin's asbestos purse and came to see him.",
+      "checksum": "ad83efd0"
+    },
+    {
+      "id": 507,
+      "text": "Sloane invited Franklin to his house in Bloomsbury Square.",
+      "checksum": "0a287c1a"
+    },
+    {
+      "id": 508,
+      "text": "Sloane paid Franklin handsomely for the asbestos purse.",
+      "checksum": "a46889be"
+    },
+    {
+      "id": 509,
+      "text": "A young milliner lodged in Franklin's house.",
+      "checksum": "96f23408"
+    },
+    {
+      "id": 510,
+      "text": "The milliner was genteelly bred, sensible, lively, and of pleasing conversation.",
+      "checksum": "00f088c6"
+    },
+    {
+      "id": 511,
+      "text": "Franklin wrote an essay entitled 'The Infallibility of Human Judgment' that led to an acquaintance with a man who took great notice of him.",
+      "checksum": "5092923f"
+    },
+    {
+      "id": 512,
+      "text": "Franklin was introduced to Dr. Mandeville, author of 'Fable of the Bees,' at the Horns alehouse in Cheapside.",
+      "checksum": "4fd4e143"
+    },
+    {
+      "id": 513,
+      "text": "Franklin was introduced to Dr. Pemberton at Batson's Coffee-house, who promised to arrange for Franklin to meet Sir Isaac Newton.",
+      "checksum": "ceacc8e3"
+    },
+    {
+      "id": 514,
+      "text": "Franklin was extremely desirous of meeting Sir Isaac Newton, but this never happened.",
+      "checksum": "2571e712"
+    },
+    {
+      "id": 515,
+      "text": "Franklin brought an asbestos purse from America that could be purified by fire.",
+      "checksum": "e8802334"
+    },
+    {
+      "id": 516,
+      "text": "Sir Hans Sloane heard of Franklin's asbestos purse, visited him, and paid him handsomely for it.",
+      "checksum": "681784f2"
+    },
+    {
+      "id": 517,
+      "text": "Franklin lodged in a house where a young milliner lived who was sensible, lively, and had pleasing conversation.",
+      "checksum": "5060821e"
+    },
+    {
+      "id": 518,
+      "text": "Franklin's friend Ralph read plays to the milliner in the evenings, and they grew intimate.",
+      "checksum": "06b042cc"
+    },
+    {
+      "id": 519,
+      "text": "Ralph left London to take a country school position in Berkshire, teaching reading and writing to ten or a dozen boys at sixpence per week each.",
+      "checksum": "a18a7d26"
+    },
+    {
+      "id": 520,
+      "text": "Ralph assumed Franklin's name without permission.",
+      "checksum": "2e9cba01"
+    },
+    {
+      "id": 521,
+      "text": "Franklin attempted familiarities with Mrs. T---- and she repulsed him with proper resentment.",
+      "checksum": "a674d0eb"
+    },
+    {
+      "id": 522,
+      "text": "Franklin's breach with Ralph resulted from his inappropriate behavior toward Mrs. T----.",
+      "checksum": "723b4794"
+    },
+    {
+      "id": 523,
+      "text": "Franklin lent Ralph money that he never expected to be repaid.",
+      "checksum": "8d96f583"
+    },
+    {
+      "id": 524,
+      "text": "Franklin left Palmer's printing house to work at Watts's printing house near Lincoln's Inn Fields.",
+      "checksum": "f09f4899"
+    },
+    {
+      "id": 525,
+      "text": "Franklin drank only water while other workmen at Watts's drank beer.",
+      "checksum": "bf1a98ef"
+    },
+    {
+      "id": 526,
+      "text": "Franklin was called the 'Water-American' by his coworkers because he was stronger than beer drinkers despite drinking only water.",
+      "checksum": "4c71c156"
+    },
+    {
+      "id": 527,
+      "text": "Franklin carried large forms of types in both hands while others carried only one form in both hands.",
+      "checksum": "a1a72b26"
+    },
+    {
+      "id": 528,
+      "text": "Franklin thought the custom of drinking strong beer to gain strength was detestable.",
+      "checksum": "288258ad"
+    },
+    {
+      "id": 529,
+      "text": "Franklin argued that bread and water would provide more strength than beer because bread contained more flour.",
+      "checksum": "89cebbdf"
+    },
+    {
+      "id": 530,
+      "text": "Franklin was demanded to pay five shillings as a 'bien venu' fee when moving to the composing-room.",
+      "checksum": "54a3db48"
+    },
+    {
+      "id": 531,
+      "text": "Franklin refused to pay the five shillings fee and was treated as an excommunicate for two or three weeks.",
+      "checksum": "99b71dcd"
+    },
+    {
+      "id": 532,
+      "text": "Franklin's coworkers mixed his sorts, transposed his pages, and broke his matter as mischief.",
+      "checksum": "9a2458b9"
+    },
+    {
+      "id": 533,
+      "text": "Franklin eventually paid the five shillings fee to avoid continued ill treatment.",
+      "checksum": "7095f2e4"
+    },
+    {
+      "id": 534,
+      "text": "Franklin proposed reasonable alterations to the chapel laws and carried them against all opposition.",
+      "checksum": "53fc386e"
+    },
+    {
+      "id": 535,
+      "text": "Franklin convinced many coworkers to switch from beer and bread breakfast to hot water-gruel with pepper, bread crumbs, and butter for three half-pence.",
+      "checksum": "15a10ab0"
+    },
+    {
+      "id": 536,
+      "text": "Franklin watched the pay-table on Saturday nights and collected money owed by coworkers for their beer.",
+      "checksum": "ec418df5"
+    },
+    {
+      "id": 537,
+      "text": "Franklin sometimes paid nearly thirty shillings a week on his coworkers' beer accounts.",
+      "checksum": "5c8b10d9"
+    },
+    {
+      "id": 538,
+      "text": "Franklin was esteemed as a good 'riggite,' meaning a jocular verbal satirist.",
+      "checksum": "6ae71edf"
+    },
+    {
+      "id": 539,
+      "text": "Franklin never took a St. Monday holiday.",
+      "checksum": "54a53c4c"
+    },
+    {
+      "id": 540,
+      "text": "Franklin's constant attendance and quickness at composing led to him being put on all work of dispatch, which was better paid.",
+      "checksum": "80c9bea0"
+    },
+    {
+      "id": 541,
+      "text": "Franklin lodged in Little Britain initially, then moved to Duke-street opposite the Romish Chapel.",
+      "checksum": "67aca8ed"
+    },
+    {
+      "id": 542,
+      "text": "Franklin paid three shillings and sixpence per week for lodging at the Italian warehouse.",
+      "checksum": "d330cd14"
+    },
+    {
+      "id": 543,
+      "text": "Franklin's landlady was a widow, elderly, and had been converted to Catholicism by her husband.",
+      "checksum": "5e17893a"
+    },
+    {
+      "id": 544,
+      "text": "Franklin's landlady had lived among people of distinction and knew many anecdotes from the time of Charles the Second.",
+      "checksum": "51007deb"
+    },
+    {
+      "id": 545,
+      "text": "Franklin's landlady was lame in her knees with gout.",
+      "checksum": "881d77fb"
+    },
+    {
+      "id": 546,
+      "text": "Franklin spent evenings with his landlady for her entertaining conversation.",
+      "checksum": "e7af5c16"
+    },
+    {
+      "id": 547,
+      "text": "Franklin and his landlady had supper of only half an anchovy each on a strip of bread and butter with half a pint of ale.",
+      "checksum": "e76de592"
+    },
+    {
+      "id": 548,
+      "text": "Franklin kept good hours and gave little trouble in his landlady's family.",
+      "checksum": "a6d7d561"
+    },
+    {
+      "id": 549,
+      "text": "Franklin's landlady reduced his rent from three shillings and sixpence to one shilling and sixpence per week.",
+      "checksum": "6a43f58f"
+    },
+    {
+      "id": 550,
+      "text": "A seventy-year-old maiden lady lived in a garret of Franklin's landlady's house and lived as a nun without being in a nunnery.",
+      "checksum": "71e57ef3"
+    },
+    {
+      "id": 551,
+      "text": "The maiden lady had given all her estate to charitable uses, reserving only twelve pounds a year to live on.",
+      "checksum": "eab15666"
+    },
+    {
+      "id": 552,
+      "text": "The maiden lady lived on water-gruel only and used no fire except to boil it.",
+      "checksum": "ae3a6faa"
+    },
+    {
+      "id": 553,
+      "text": "The maiden lady had lived in the garret for many years rent-free, permitted by successive Catholic tenants.",
+      "checksum": "48eea6c7"
+    },
+    {
+      "id": 554,
+      "text": "A priest visited the maiden lady daily to hear her confession.",
+      "checksum": "587d9483"
+    },
+    {
+      "id": 555,
+      "text": "Franklin contracted an acquaintance with Wygate, an ingenious young man at Watts's printing-house.",
+      "checksum": "2c43757f"
+    },
+    {
+      "id": 556,
+      "text": "Wygate was better educated than most printers, was a tolerable Latinist, spoke French, and loved reading.",
+      "checksum": "15009e8c"
+    },
+    {
+      "id": 557,
+      "text": "Franklin taught Wygate and a friend to swim at twice going into the river, and they soon became good swimmers.",
+      "checksum": "e80d594a"
+    },
+    {
+      "id": 558,
+      "text": "Franklin swam from near Chelsea to Blackfriars, performing many feats of activity in the water.",
+      "checksum": "ed2bd1f9"
+    },
+    {
+      "id": 559,
+      "text": "Franklin had been delighted with swimming since childhood.",
+      "checksum": "ec0813ba"
+    },
+    {
+      "id": 560,
+      "text": "Franklin studied and practiced all of Thevenot's swimming motions and positions and added some of his own.",
+      "checksum": "b247d024"
+    },
+    {
+      "id": 561,
+      "text": "Franklin aimed at graceful and easy swimming as well as useful swimming.",
+      "checksum": "ed655341"
+    },
+    {
+      "id": 562,
+      "text": "Wygate proposed to Franklin that they travel all over Europe together, supporting themselves by working at printing.",
+      "checksum": "550f9e54"
+    },
+    {
+      "id": 563,
+      "text": "Franklin was once inclined to accept Wygate's proposal to travel Europe together.",
+      "checksum": "6c834574"
+    },
+    {
+      "id": 564,
+      "text": "Franklin's friend Mr. Denham dissuaded him from traveling Europe and advised him to return to Pennsylvania.",
+      "checksum": "9f699db6"
+    },
+    {
+      "id": 565,
+      "text": "Mr. Denham had formerly been in business at Bristol but failed in debt.",
+      "checksum": "6ced9a9e"
+    },
+    {
+      "id": 566,
+      "text": "Mr. Denham compounded with his creditors and went to America.",
+      "checksum": "6366a7df"
+    },
+    {
+      "id": 567,
+      "text": "Mr. Denham acquired a plentiful fortune in America through close application to business as a merchant.",
+      "checksum": "5aa18748"
+    },
+    {
+      "id": 568,
+      "text": "Mr. Denham returned to England in the same ship as Franklin.",
+      "checksum": "a7ce00cf"
+    },
+    {
+      "id": 569,
+      "text": "Mr. Denham invited his old creditors to an entertainment and thanked them for the easy composition they favored him with.",
+      "checksum": "01c4f2ad"
+    },
+    {
+      "id": 570,
+      "text": "Mr. Denham gave each of his old creditors an order on a banker for the full amount of unpaid remainder with interest.",
+      "checksum": "5c5c638b"
+    },
+    {
+      "id": 571,
+      "text": "Mr. Denham proposed to take Franklin to Philadelphia as his clerk to keep his books.",
+      "checksum": "c11fc80e"
+    },
+    {
+      "id": 572,
+      "text": "Mr. Denham offered to instruct Franklin in bookkeeping and have him copy his letters and attend the store.",
+      "checksum": "3cb4509b"
+    },
+    {
+      "id": 573,
+      "text": "Mr. Denham promised to promote Franklin by sending him with cargo to the West Indies and procuring him commissions.",
+      "checksum": "ac711490"
+    },
+    {
+      "id": 574,
+      "text": "Mr. Denham offered to establish Franklin handsomely if he managed well.",
+      "checksum": "8bd17492"
+    },
+    {
+      "id": 575,
+      "text": "Franklin agreed to work for Mr. Denham at fifty pounds a year in Pennsylvania money.",
+      "checksum": "21b55c4b"
+    },
+    {
+      "id": 576,
+      "text": "Franklin was grown tired of London.",
+      "checksum": "9abf57df"
+    },
+    {
+      "id": 577,
+      "text": "Franklin remembered with pleasure the happy months he had spent in Pennsylvania.",
+      "checksum": "6823ae91"
+    },
+    {
+      "id": 578,
+      "text": "Franklin left printing, as he thought, forever to work for Mr. Denham.",
+      "checksum": "f54e14f1"
+    },
+    {
+      "id": 579,
+      "text": "Franklin was employed going about with Mr. Denham among tradesmen to purchase various articles.",
+      "checksum": "16c82921"
+    },
+    {
+      "id": 580,
+      "text": "Sir William Wyndham sent for Franklin after hearing of his swimming from Chelsea to Blackfriars.",
+      "checksum": "0b2d29af"
+    },
+    {
+      "id": 581,
+      "text": "Sir William Wyndham wished Franklin to teach his two sons to swim.",
+      "checksum": "cdf00633"
+    },
+    {
+      "id": 582,
+      "text": "Franklin thought that if he had remained in England and opened a swimming-school, he might have gotten a good deal of money.",
+      "checksum": "6f19af76"
+    },
+    {
+      "id": 583,
+      "text": "Franklin thought that if Sir William Wyndham's offer had come sooner, he probably would not have returned to America so soon.",
+      "checksum": "6be01556"
+    },
+    {
+      "id": 584,
+      "text": "Franklin spent about eighteen months in London.",
+      "checksum": "87bccc78"
+    },
+    {
+      "id": 585,
+      "text": "Franklin worked hard at his business during most of his time in London.",
+      "checksum": "641dd9c0"
+    },
+    {
+      "id": 586,
+      "text": "Franklin spent little money on himself except for seeing plays and buying books.",
+      "checksum": "4c3d32f1"
+    },
+    {
+      "id": 587,
+      "text": "Franklin's friend Ralph owed him about twenty-seven pounds.",
+      "checksum": "9666048a"
+    },
+    {
+      "id": 588,
+      "text": "Franklin taught Wygate and another young man to swim in a few hours.",
+      "checksum": "97bdc441"
+    },
+    {
+      "id": 589,
+      "text": "Sir William Wyndham proposed to pay Franklin handsomely to teach his two sons to swim.",
+      "checksum": "aeab5787"
+    },
+    {
+      "id": 590,
+      "text": "Franklin considered opening a swimming-school in England if the opportunity had come sooner.",
+      "checksum": "8a76c4be"
+    },
+    {
+      "id": 591,
+      "text": "Franklin worked hard at his business in London and spent little on himself except for plays and books.",
+      "checksum": "7018b8de"
+    },
+    {
+      "id": 592,
+      "text": "Franklin's friend Ralph owed him about twenty-seven pounds that he was never likely to receive.",
+      "checksum": "83ff1b3f"
+    },
+    {
+      "id": 593,
+      "text": "Franklin loved Ralph despite the debt because Ralph had many amiable qualities.",
+      "checksum": "7e0ac8f9"
+    },
+    {
+      "id": 594,
+      "text": "Franklin picked up some very ingenious acquaintances in London whose conversation was of great advantage to him.",
+      "checksum": "2139414e"
+    },
+    {
+      "id": 595,
+      "text": "Franklin read considerably during his time in London.",
+      "checksum": "000c896d"
+    },
+    {
+      "id": 596,
+      "text": "Franklin sailed from Gravesend on July 23, 1726.",
+      "checksum": "550e6c2c"
+    },
+    {
+      "id": 597,
+      "text": "Franklin landed in Philadelphia on October 11, 1726.",
+      "checksum": "86dc9b05"
+    },
+    {
+      "id": 598,
+      "text": "Keith was no longer governor when Franklin returned to Philadelphia, having been superseded by Major Gordon.",
+      "checksum": "d03bb661"
+    },
+    {
+      "id": 599,
+      "text": "Miss Read married a potter named Rogers in Franklin's absence after her friends persuaded her he would not return.",
+      "checksum": "e1b3a701"
+    },
+    {
+      "id": 600,
+      "text": "Miss Read was never happy with Rogers and soon parted from him.",
+      "checksum": "01dd69ac"
+    },
+    {
+      "id": 601,
+      "text": "Rogers had another wife, making his marriage to Miss Read invalid.",
+      "checksum": "8a323f85"
+    },
+    {
+      "id": 602,
+      "text": "Rogers was a worthless fellow but an excellent workman.",
+      "checksum": "d72a92aa"
+    },
+    {
+      "id": 603,
+      "text": "Rogers got into debt, ran away in 1727 or 1728, and died in the West Indies.",
+      "checksum": "d17abad9"
+    },
+    {
+      "id": 604,
+      "text": "Mr. Denham took a store on Water Street where Franklin worked.",
+      "checksum": "fa30925a"
+    },
+    {
+      "id": 605,
+      "text": "Franklin attended Denham's business diligently, studied accounts, and became expert at selling.",
+      "checksum": "5a925b93"
+    },
+    {
+      "id": 606,
+      "text": "Franklin lodged and boarded with Mr. Denham, who counseled him as a father.",
+      "checksum": "2fa3aa85"
+    },
+    {
+      "id": 607,
+      "text": "Franklin respected and loved Mr. Denham.",
+      "checksum": "16b77813"
+    },
+    {
+      "id": 608,
+      "text": "In early February 1726/7, when Franklin had just passed his twenty-first year, both he and Denham became ill.",
+      "checksum": "b60dd844"
+    },
+    {
+      "id": 609,
+      "text": "Franklin suffered from pleurisy, which nearly killed him.",
+      "checksum": "b874d6e6"
+    },
+    {
+      "id": 610,
+      "text": "Franklin gave up hope during his pleurisy and was disappointed when he recovered.",
+      "checksum": "369a591d"
+    },
+    {
+      "id": 611,
+      "text": "Franklin regretted recovering because he would have to do disagreeable work over again.",
+      "checksum": "d42c31fc"
+    },
+    {
+      "id": 612,
+      "text": "Mr. Denham's illness carried him off.",
+      "checksum": "a780b2e1"
+    },
+    {
+      "id": 613,
+      "text": "Denham left Franklin a small legacy in a nuncupative will as a token of his kindness.",
+      "checksum": "8e48d7f8"
+    },
+    {
+      "id": 614,
+      "text": "Franklin's brother-in-law Holmes advised him to return to his printing business.",
+      "checksum": "eee341f9"
+    },
+    {
+      "id": 615,
+      "text": "Keimer tempted Franklin with an offer of large wages to manage his printing-house.",
+      "checksum": "05ed01ab"
+    },
+    {
+      "id": 616,
+      "text": "Franklin had heard a bad character of Keimer from Keimer's wife and her friends in London.",
+      "checksum": "b2dba255"
+    },
+    {
+      "id": 617,
+      "text": "Hugh Meredith was a Welsh Pennsylvanian, thirty years old, honest and sensible, but given to drink.",
+      "checksum": "6b03f0b3"
+    },
+    {
+      "id": 618,
+      "text": "Stephen Potts was a young countryman of uncommon natural parts and great wit and humor, but a little idle.",
+      "checksum": "87f54d33"
+    },
+    {
+      "id": 619,
+      "text": "Keimer agreed to raise Meredith and Potts's wages by a shilling every three months as they improved.",
+      "checksum": "558e89b7"
+    },
+    {
+      "id": 620,
+      "text": "John, a wild Irishman, had his service for four years purchased by Keimer from a ship captain.",
+      "checksum": "5e1c45a9"
+    },
+    {
+      "id": 621,
+      "text": "George Webb was an Oxford scholar whose time for four years Keimer had bought.",
+      "checksum": "410e3352"
+    },
+    {
+      "id": 622,
+      "text": "David Harry was a country boy whom Keimer had taken as an apprentice.",
+      "checksum": "5eff3a9d"
+    },
+    {
+      "id": 623,
+      "text": "Franklin perceived that Keimer's intention was to have him train the cheap hands so Keimer could do without him.",
+      "checksum": "a0d67148"
+    },
+    {
+      "id": 624,
+      "text": "Franklin put Keimer's printing-house in order and brought the hands to do better work.",
+      "checksum": "58a3fc99"
+    },
+    {
+      "id": 625,
+      "text": "George Webb was not more than eighteen years old.",
+      "checksum": "44f423cf"
+    },
+    {
+      "id": 626,
+      "text": "Webb was born in Gloucester and educated at a grammar-school there.",
+      "checksum": "52f30682"
+    },
+    {
+      "id": 627,
+      "text": "Webb was distinguished among scholars for his performance in plays.",
+      "checksum": "d84f51ed"
+    },
+    {
+      "id": 628,
+      "text": "Webb belonged to the Witty Club in Gloucester.",
+      "checksum": "cec94e8a"
+    },
+    {
+      "id": 629,
+      "text": "Webb had written pieces in prose and verse printed in Gloucester newspapers.",
+      "checksum": "e2a64fc7"
+    },
+    {
+      "id": 630,
+      "text": "Webb was sent to Oxford but stayed only about a year.",
+      "checksum": "0854b57e"
+    },
+    {
+      "id": 631,
+      "text": "Webb wished to see London and become a player.",
+      "checksum": "efc89675"
+    },
+    {
+      "id": 632,
+      "text": "Webb received a quarterly allowance of fifteen guineas from Oxford.",
+      "checksum": "034640ed"
+    },
+    {
+      "id": 633,
+      "text": "Webb hid his gown in a furze bush and walked to London instead of paying his debts.",
+      "checksum": "0af87477"
+    },
+    {
+      "id": 634,
+      "text": "Webb fell into bad company in London and spent his guineas.",
+      "checksum": "5c22c25d"
+    },
+    {
+      "id": 635,
+      "text": "Webb could not be introduced among the players and grew necessitous.",
+      "checksum": "0093e649"
+    },
+    {
+      "id": 636,
+      "text": "Webb pawned his clothes and wanted bread in London.",
+      "checksum": "004490e2"
+    },
+    {
+      "id": 637,
+      "text": "Webb signed indentures with a crimp and came to America.",
+      "checksum": "f36346f4"
+    },
+    {
+      "id": 638,
+      "text": "Webb never wrote to his friends about what became of him.",
+      "checksum": "d3df42d4"
+    },
+    {
+      "id": 639,
+      "text": "Webb was lively, witty, good-natured, and a pleasant companion, but idle, thoughtless, and imprudent.",
+      "checksum": "420fdc74"
+    },
+    {
+      "id": 640,
+      "text": "John the Irishman soon ran away from Keimer's printing-house.",
+      "checksum": "1bc53af2"
+    },
+    {
+      "id": 641,
+      "text": "Franklin lived very agreeably with the other hands who respected him more as they found Keimer incapable of instructing them.",
+      "checksum": "787a7e0c"
+    },
+    {
+      "id": 642,
+      "text": "Keimer did not work on Saturday, which was his Sabbath, giving Franklin two days for reading.",
+      "checksum": "3306096f"
+    },
+    {
+      "id": 643,
+      "text": "Franklin's acquaintance with ingenious people in Philadelphia increased.",
+      "checksum": "cd11113d"
+    },
+    {
+      "id": 644,
+      "text": "Keimer treated Franklin with great civility and apparent regard.",
+      "checksum": "0877121a"
+    },
+    {
+      "id": 645,
+      "text": "Franklin was uneasy about his debt to Vernon, which he was unable to pay.",
+      "checksum": "791a9e42"
+    },
+    {
+      "id": 646,
+      "text": "Franklin was a poor economist at this time.",
+      "checksum": "04563365"
+    },
+    {
+      "id": 647,
+      "text": "Vernon kindly made no demand for repayment of his debt.",
+      "checksum": "ddb59b51"
+    },
+    {
+      "id": 648,
+      "text": "The printing-house often wanted sorts and there was no letter-founder in America.",
+      "checksum": "32318111"
+    },
+    {
+      "id": 649,
+      "text": "Franklin had seen types cast at James's in London but without much attention to the manner.",
+      "checksum": "1180b077"
+    },
+    {
+      "id": 650,
+      "text": "Franklin contrived a mould and made use of the letters as puncheons to strike matrices in lead.",
+      "checksum": "10983f5b"
+    },
+    {
+      "id": 651,
+      "text": "Franklin supplied deficiencies in types in a tolerable way.",
+      "checksum": "3713656b"
+    },
+    {
+      "id": 652,
+      "text": "Franklin engraved several things on occasion.",
+      "checksum": "1936f35f"
+    },
+    {
+      "id": 653,
+      "text": "Franklin made the ink for the printing-house.",
+      "checksum": "d6e39af9"
+    },
+    {
+      "id": 654,
+      "text": "Franklin was warehouseman and a factotum in the printing-house.",
+      "checksum": "f78625bd"
+    },
+    {
+      "id": 655,
+      "text": "Franklin's services became less important as the other hands improved in the business.",
+      "checksum": "e08821a2"
+    },
+    {
+      "id": 656,
+      "text": "When Keimer paid Franklin's second quarter's wages, he said they were too heavy and asked for an abatement.",
+      "checksum": "e64b0f20"
+    },
+    {
+      "id": 657,
+      "text": "Keimer grew less civil, put on more of the master, frequently found fault, and was captious.",
+      "checksum": "bf0d8ac0"
+    },
+    {
+      "id": 658,
+      "text": "Franklin went on with patience, thinking Keimer's encumbered circumstances were partly the cause.",
+      "checksum": "394cc43d"
+    },
+    {
+      "id": 659,
+      "text": "A noise near the court-house caused Franklin to put his head out the window.",
+      "checksum": "f8c87b92"
+    },
+    {
+      "id": 660,
+      "text": "Keimer called out to Franklin in a loud voice and angry tone to mind his business.",
+      "checksum": "c2825c33"
+    },
+    {
+      "id": 661,
+      "text": "Keimer's reproachful words were public, with neighbors as witnesses.",
+      "checksum": "ca34511f"
+    },
+    {
+      "id": 662,
+      "text": "Keimer came into the printing-house and continued the quarrel with high words on both sides.",
+      "checksum": "bf4657c5"
+    },
+    {
+      "id": 663,
+      "text": "Keimer gave Franklin a quarter's warning, expressing a wish he had not been obliged to give such long warning.",
+      "checksum": "8b727ccf"
+    },
+    {
+      "id": 664,
+      "text": "Franklin told Keimer his wish was unnecessary and left instantly.",
+      "checksum": "0df5931a"
+    },
+    {
+      "id": 665,
+      "text": "Franklin asked Meredith to take care of things he left and bring them to his lodgings.",
+      "checksum": "a797d34c"
+    },
+    {
+      "id": 666,
+      "text": "Meredith came to Franklin's lodgings in the evening to talk over his affair.",
+      "checksum": "caa04b2a"
+    },
+    {
+      "id": 667,
+      "text": "Meredith had conceived a great regard for Franklin.",
+      "checksum": "1a879d99"
+    },
+    {
+      "id": 668,
+      "text": "Meredith was unwilling for Franklin to leave while he remained in Keimer's house.",
+      "checksum": "b370bc48"
+    },
+    {
+      "id": 669,
+      "text": "Meredith dissuaded Franklin from returning to his native country.",
+      "checksum": "e4209900"
+    },
+    {
+      "id": 670,
+      "text": "Meredith told Franklin that Keimer was in debt for all he possessed.",
+      "checksum": "cc2f1ed1"
+    },
+    {
+      "id": 671,
+      "text": "Meredith said Keimer's creditors began to be uneasy.",
+      "checksum": "030ff77a"
+    },
+    {
+      "id": 672,
+      "text": "Meredith said Keimer kept his shop miserably and sold often without profit.",
+      "checksum": "0ac526ff"
+    },
+    {
+      "id": 673,
+      "text": "Meredith said Keimer trusted without keeping accounts.",
+      "checksum": "ba06decf"
+    },
+    {
+      "id": 674,
+      "text": "Meredith predicted Keimer must fail, which would make a vacancy Franklin might profit from.",
+      "checksum": "b040255d"
+    },
+    {
+      "id": 675,
+      "text": "Franklin objected that he lacked money.",
+      "checksum": "dd6c1b7e"
+    },
+    {
+      "id": 676,
+      "text": "Meredith's father had a high opinion of Franklin.",
+      "checksum": "71b70324"
+    },
+    {
+      "id": 677,
+      "text": "Meredith's father was willing to advance money to set up a partnership with Franklin.",
+      "checksum": "236441c6"
+    },
+    {
+      "id": 678,
+      "text": "Meredith's time with Keimer would be out in the spring.",
+      "checksum": "777638ef"
+    },
+    {
+      "id": 679,
+      "text": "Meredith and Franklin expected their press and types to arrive from London by spring.",
+      "checksum": "e282ea74"
+    },
+    {
+      "id": 680,
+      "text": "Meredith acknowledged he was no workman.",
+      "checksum": "9cb531f3"
+    },
+    {
+      "id": 681,
+      "text": "Franklin's skill in the business was to be set against the stock Meredith's father would furnish.",
+      "checksum": "45a892bb"
+    },
+    {
+      "id": 682,
+      "text": "Meredith and Franklin agreed to share the profits equally.",
+      "checksum": "5f75f4ac"
+    },
+    {
+      "id": 683,
+      "text": "Meredith's father approved of the partnership.",
+      "checksum": "34102658"
+    },
+    {
+      "id": 684,
+      "text": "Meredith's father hoped Franklin would help his son abstain from dram-drinking.",
+      "checksum": "1aef2849"
+    },
+    {
+      "id": 685,
+      "text": "Franklin gave an inventory to Meredith's father, who carried it to a merchant.",
+      "checksum": "5f6c96bd"
+    },
+    {
+      "id": 686,
+      "text": "The secret of the partnership was to be kept until the things arrived.",
+      "checksum": "13ae0413"
+    },
+    {
+      "id": 687,
+      "text": "Franklin was to get work at the other printing-house while waiting.",
+      "checksum": "b5a31f87"
+    },
+    {
+      "id": 688,
+      "text": "Franklin found no vacancy at the other printing-house and remained idle a few days.",
+      "checksum": "bbe9ea2f"
+    },
+    {
+      "id": 689,
+      "text": "Keimer expected to be employed to print paper money in New Jersey.",
+      "checksum": "e57ea529"
+    },
+    {
+      "id": 690,
+      "text": "Keimer feared Bradford might engage Franklin and get the job from him.",
+      "checksum": "2d83a618"
+    },
+    {
+      "id": 691,
+      "text": "Keimer sent Franklin a civil message saying old friends should not part for a few words.",
+      "checksum": "6c191915"
+    },
+    {
+      "id": 692,
+      "text": "Meredith persuaded Franklin to return to Keimer to give Meredith more opportunity for improvement.",
+      "checksum": "e321b5fa"
+    },
+    {
+      "id": 693,
+      "text": "Franklin and Keimer went on more smoothly after Franklin's return.",
+      "checksum": "e14b30d7"
+    },
+    {
+      "id": 694,
+      "text": "Keimer obtained the New Jersey job to print paper money.",
+      "checksum": "7f8cd3e6"
+    },
+    {
+      "id": 695,
+      "text": "Franklin contrived a copperplate press for the New Jersey job, the first seen in the country.",
+      "checksum": "f6662280"
+    },
+    {
+      "id": 696,
+      "text": "Franklin cut several ornaments and checks for the bills.",
+      "checksum": "4b2aa44c"
+    },
+    {
+      "id": 697,
+      "text": "Franklin and Keimer went together to Burlington.",
+      "checksum": "c89747b4"
+    },
+    {
+      "id": 698,
+      "text": "Franklin executed the New Jersey job to satisfaction.",
+      "checksum": "93802e87"
+    },
+    {
+      "id": 699,
+      "text": "Keimer received so large a sum for the work that he could keep his head above water much longer.",
+      "checksum": "6a9bdfda"
+    },
+    {
+      "id": 700,
+      "text": "Franklin made an acquaintance with many principal people of the province at Burlington.",
+      "checksum": "1e620bbf"
+    },
+    {
+      "id": 701,
+      "text": "Several principal people of the province were appointed by the Assembly as a committee to attend the press.",
+      "checksum": "39bc9d9c"
+    },
+    {
+      "id": 702,
+      "text": "The committee ensured no more bills were printed than the law directed.",
+      "checksum": "3b5d1f09"
+    },
+    {
+      "id": 703,
+      "text": "The committee members brought friends with them for company.",
+      "checksum": "af538d47"
+    },
+    {
+      "id": 704,
+      "text": "Franklin's mind had been much more improved by reading than Keimer's.",
+      "checksum": "d9d981ec"
+    },
+    {
+      "id": 705,
+      "text": "Franklin's conversation seemed to be more valued than Keimer's.",
+      "checksum": "f9704129"
+    },
+    {
+      "id": 706,
+      "text": "The committee members had Franklin to their houses and introduced him to their friends.",
+      "checksum": "fa99c2bb"
+    },
+    {
+      "id": 707,
+      "text": "The committee members showed Franklin much civility.",
+      "checksum": "6b2e69d5"
+    },
+    {
+      "id": 708,
+      "text": "Keimer, though the master, was a little neglected by the committee members.",
+      "checksum": "e722bc17"
+    },
+    {
+      "id": 709,
+      "text": "Keimer was an odd fish, ignorant of common life, and fond of rudely opposing received opinions.",
+      "checksum": "5dc146b1"
+    },
+    {
+      "id": 710,
+      "text": "Keimer was slovenly to extreme dirtiness.",
+      "checksum": "cb00cb42"
+    },
+    {
+      "id": 711,
+      "text": "Keimer was enthusiastic in some points of religion.",
+      "checksum": "a23bb0ec"
+    },
+    {
+      "id": 712,
+      "text": "Keimer was a little knavish.",
+      "checksum": "80f2831d"
+    },
+    {
+      "id": 713,
+      "text": "Franklin and Keimer continued at Burlington near three months.",
+      "checksum": "cdb75627"
+    },
+    {
+      "id": 714,
+      "text": "Franklin acquired friends including Judge Allen, Samuel Bustill, Isaac Pearson, Joseph Cooper, and several Smiths.",
+      "checksum": "fbf95f3c"
+    },
+    {
+      "id": 715,
+      "text": "Isaac Decow was the surveyor-general and a shrewd, sagacious old man.",
+      "checksum": "9456b3f3"
+    },
+    {
+      "id": 716,
+      "text": "Decow began for himself when young by wheeling clay for brick-makers.",
+      "checksum": "8ee1ecfe"
+    },
+    {
+      "id": 717,
+      "text": "Decow learned to write after he was of age.",
+      "checksum": "80f8d3b8"
+    },
+    {
+      "id": 718,
+      "text": "Decow carried the chain for surveyors who taught him surveying.",
+      "checksum": "9c28219a"
+    },
+    {
+      "id": 719,
+      "text": "Decow acquired a good estate by his industry.",
+      "checksum": "b74effbd"
+    },
+    {
+      "id": 720,
+      "text": "Decow told Franklin he foresaw Franklin would work Keimer out of his business and make a fortune in Philadelphia.",
+      "checksum": "3a5e0f42"
+    },
+    {
+      "id": 721,
+      "text": "Decow had no intimation of Franklin's intention to set up in Philadelphia.",
+      "checksum": "f20a8db2"
+    },
+    {
+      "id": 722,
+      "text": "Franklin's friends were afterwards of great use to him.",
+      "checksum": "9b286f62"
+    },
+    {
+      "id": 723,
+      "text": "Franklin was occasionally of great use to some of his friends.",
+      "checksum": "aba0aebf"
+    },
+    {
+      "id": 724,
+      "text": "Franklin's friends continued their regard for him as long as they lived.",
+      "checksum": "22a4baec"
+    },
+    {
+      "id": 725,
+      "text": "Franklin's parents had given him religious impressions early.",
+      "checksum": "ca792959"
+    },
+    {
+      "id": 726,
+      "text": "Franklin's parents brought him through childhood piously in the Dissenting way.",
+      "checksum": "380c38c9"
+    },
+    {
+      "id": 727,
+      "text": "Franklin was scarce fifteen when he began to doubt Revelation itself.",
+      "checksum": "5989a527"
+    },
+    {
+      "id": 728,
+      "text": "Franklin doubted several points as he found them disputed in different books he read.",
+      "checksum": "e3381831"
+    },
+    {
+      "id": 729,
+      "text": "Books against Deism fell into Franklin's hands.",
+      "checksum": "3c957f4a"
+    },
+    {
+      "id": 730,
+      "text": "The books against Deism were said to be the substance of sermons preached at Boyle's Lectures.",
+      "checksum": "d6b8c4b4"
+    },
+    {
+      "id": 731,
+      "text": "The arguments of the Deists quoted in the books appeared stronger to Franklin than the refutations.",
+      "checksum": "b826ad45"
+    },
+    {
+      "id": 732,
+      "text": "Franklin soon became a thorough Deist.",
+      "checksum": "20ce7708"
+    },
+    {
+      "id": 733,
+      "text": "Franklin's arguments perverted Collins and Ralph to Deism.",
+      "checksum": "a76552c4"
+    },
+    {
+      "id": 734,
+      "text": "Collins and Ralph afterwards wronged Franklin greatly without the least compunction.",
+      "checksum": "0110e3f7"
+    },
+    {
+      "id": 735,
+      "text": "Franklin recollected Keith's conduct towards him as a free-thinker.",
+      "checksum": "bbf360b7"
+    },
+    {
+      "id": 736,
+      "text": "Franklin recollected his own conduct towards Vernon and Miss Read, which gave him great trouble.",
+      "checksum": "fbecfdfd"
+    },
+    {
+      "id": 737,
+      "text": "Franklin began to suspect that Deism, though it might be true, was not very useful.",
+      "checksum": "015a59a9"
+    },
+    {
+      "id": 738,
+      "text": "Franklin wrote a London pamphlet with a motto from Dryden's lines.",
+      "checksum": "24d05974"
+    },
+    {
+      "id": 739,
+      "text": "Franklin's pamphlet concluded that nothing could possibly be wrong in the world.",
+      "checksum": "70853216"
+    },
+    {
+      "id": 740,
+      "text": "Franklin's pamphlet argued that vice and virtue were empty distinctions.",
+      "checksum": "b537270f"
+    },
+    {
+      "id": 741,
+      "text": "Franklin later doubted whether his pamphlet was as clever as he once thought.",
+      "checksum": "e1f9b15a"
+    },
+    {
+      "id": 742,
+      "text": "Franklin suspected an error had insinuated itself into his argument in the pamphlet.",
+      "checksum": "dd7ee57c"
+    },
+    {
+      "id": 743,
+      "text": "Franklin believed that truth, sincerity, and integrity in dealings between people were of the utmost importance to happiness in life.",
+      "checksum": "e4f0aa01"
+    },
+    {
+      "id": 744,
+      "text": "Franklin formed written resolutions to practice truth, sincerity, and integrity while he lived.",
+      "checksum": "bdde476a"
+    },
+    {
+      "id": 745,
+      "text": "Franklin believed that certain actions might be forbidden because they were bad for people, or commanded because they were beneficial, in their own natures.",
+      "checksum": "943b2364"
+    },
+    {
+      "id": 746,
+      "text": "Franklin valued his character properly and determined to preserve it.",
+      "checksum": "4d335ace"
+    },
+    {
+      "id": 747,
+      "text": "Franklin and his partner settled with Keimer and left him by his consent.",
+      "checksum": "f5f7b148"
+    },
+    {
+      "id": 748,
+      "text": "Franklin rented a house near the market for twenty-four pounds a year.",
+      "checksum": "363d02de"
+    },
+    {
+      "id": 749,
+      "text": "Franklin took in Thomas Godfrey, a glazier, and his family as lodgers to help pay rent.",
+      "checksum": "6346b2c1"
+    },
+    {
+      "id": 750,
+      "text": "Franklin's first customer brought him five shillings, which gave him more pleasure than any crown he earned later.",
+      "checksum": "eaa3f02e"
+    },
+    {
+      "id": 751,
+      "text": "Franklin felt gratitude toward George House for bringing him his first customer, which made him more ready to assist young beginners.",
+      "checksum": "92e936a7"
+    },
+    {
+      "id": 752,
+      "text": "Franklin formed a club called the Junto in the autumn of the preceding year with ingenious acquaintances.",
+      "checksum": "38989c34"
+    },
+    {
+      "id": 753,
+      "text": "Franklin met with the Junto on Friday evenings.",
+      "checksum": "f02d8fab"
+    },
+    {
+      "id": 754,
+      "text": "Franklin drew up rules requiring each Junto member to produce queries on Morals, Politics, or Natural Philosophy.",
+      "checksum": "fb7b3a56"
+    },
+    {
+      "id": 755,
+      "text": "Franklin required Junto members to produce and read essays once every three months.",
+      "checksum": "36871bb9"
+    },
+    {
+      "id": 756,
+      "text": "Franklin prohibited direct contradiction and expressions of positiveness in Junto opinions under small pecuniary penalties.",
+      "checksum": "d06bfe76"
+    },
+    {
+      "id": 757,
+      "text": "Joseph Breintnal was a copyer of deeds, a lover of poetry, and a member of the Junto.",
+      "checksum": "3f0357ee"
+    },
+    {
+      "id": 758,
+      "text": "Thomas Godfrey was a self-taught mathematician and inventor of Hadley's Quadrant.",
+      "checksum": "b306ea75"
+    },
+    {
+      "id": 759,
+      "text": "Thomas Godfrey expected universal precision in everything and was not a pleasing companion.",
+      "checksum": "0385b658"
+    },
+    {
+      "id": 760,
+      "text": "Nicholas Scull was a surveyor who later became surveyor-general.",
+      "checksum": "10481eef"
+    },
+    {
+      "id": 761,
+      "text": "William Parsons was bred a shoemaker but acquired considerable knowledge of mathematics.",
+      "checksum": "45c1927d"
+    },
+    {
+      "id": 762,
+      "text": "William Maugridge was a joiner and exquisite mechanic.",
+      "checksum": "d4b423d3"
+    },
+    {
+      "id": 763,
+      "text": "Robert Grace was a young gentleman of fortune, generous, lively, and witty.",
+      "checksum": "4626910f"
+    },
+    {
+      "id": 764,
+      "text": "William Coleman had the coolest, clearest head, the best heart, and the exactest morals of almost any man Franklin met.",
+      "checksum": "e1da5058"
+    },
+    {
+      "id": 765,
+      "text": "Franklin's friendship with William Coleman continued without interruption for upwards of forty years.",
+      "checksum": "f6774d73"
+    },
+    {
+      "id": 766,
+      "text": "The Junto was the best school of philosophy, morality, and politics that existed in the province.",
+      "checksum": "a545c86a"
+    },
+    {
+      "id": 767,
+      "text": "Franklin composed one sheet a day of the Quaker history folio.",
+      "checksum": "c36ec95a"
+    },
+    {
+      "id": 768,
+      "text": "Hugh Meredith worked the press while Franklin composed the folio.",
+      "checksum": "db20c3a9"
+    },
+    {
+      "id": 769,
+      "text": "Franklin worked until eleven at night or later distributing type for the next day's work.",
+      "checksum": "1d4bba36"
+    },
+    {
+      "id": 770,
+      "text": "When one of Franklin's forms was broken and two pages reduced to pi, he immediately redistributed and composed it over again before bed.",
+      "checksum": "bab48736"
+    },
+    {
+      "id": 771,
+      "text": "Dr. Baird observed that Franklin's industry was superior to anything he had ever seen.",
+      "checksum": "105188fd"
+    },
+    {
+      "id": 772,
+      "text": "Franklin told George Webb in secret that he intended to begin a newspaper.",
+      "checksum": "671d2504"
+    },
+    {
+      "id": 773,
+      "text": "George Webb told Keimer about Franklin's newspaper plans.",
+      "checksum": "95be00e6"
+    },
+    {
+      "id": 774,
+      "text": "Franklin wrote several pieces of entertainment for Bradford's paper under the title of the Busy Body.",
+      "checksum": "9f4e75cc"
+    },
+    {
+      "id": 775,
+      "text": "Franklin burlesqued and ridiculed Keimer's newspaper proposals.",
+      "checksum": "04e5af04"
+    },
+    {
+      "id": 776,
+      "text": "Keimer carried on his newspaper for three quarters of a year with at most only ninety subscribers.",
+      "checksum": "dd2e550f"
+    },
+    {
+      "id": 777,
+      "text": "Keimer offered his newspaper to Franklin for a trifle.",
+      "checksum": "b4b99a96"
+    },
+    {
+      "id": 778,
+      "text": "Franklin's first papers had better type and better printing than any before in the province.",
+      "checksum": "2a907c65"
+    },
+    {
+      "id": 779,
+      "text": "Franklin wrote spirited remarks on the dispute between Governor Burnet and the Massachusetts Assembly.",
+      "checksum": "a0ed4165"
+    },
+    {
+      "id": 780,
+      "text": "Franklin's newspaper and its manager became much talked of within a few weeks.",
+      "checksum": "4ce8b565"
+    },
+    {
+      "id": 781,
+      "text": "The leading men of the province became subscribers to Franklin's newspaper.",
+      "checksum": "f34b1785"
+    },
+    {
+      "id": 782,
+      "text": "Bradford had printed an address of the House to the governor in a coarse, blundering manner.",
+      "checksum": "6449dc1f"
+    },
+    {
+      "id": 783,
+      "text": "Franklin reprinted the House address elegantly and correctly and sent one to every member.",
+      "checksum": "d15d8998"
+    },
+    {
+      "id": 784,
+      "text": "The House voted Franklin and his partner their printers for the year ensuing.",
+      "checksum": "e36e6101"
+    },
+    {
+      "id": 785,
+      "text": "Mr. Hamilton was returned from England and had a seat in the House.",
+      "checksum": "6fc5442d"
+    },
+    {
+      "id": 786,
+      "text": "Mr. Hamilton interested himself strongly for Franklin and continued his patronage until his death.",
+      "checksum": "020afc13"
+    },
+    {
+      "id": 787,
+      "text": "Mr. Vernon put Franklin in mind of a debt he owed him but did not press him.",
+      "checksum": "f55b18b0"
+    },
+    {
+      "id": 788,
+      "text": "Franklin wrote Vernon an ingenuous letter of acknowledgment and asked for forbearance.",
+      "checksum": "bd349907"
+    },
+    {
+      "id": 789,
+      "text": "Franklin paid Vernon the principal with interest and many thanks.",
+      "checksum": "38c584b4"
+    },
+    {
+      "id": 790,
+      "text": "Mr. Meredith's father was able to advance only one hundred pounds currency instead of the full amount expected.",
+      "checksum": "3f715925"
+    },
+    {
+      "id": 791,
+      "text": "A merchant sued Franklin and his partners for the remaining hundred pounds owed.",
+      "checksum": "cc344402"
+    },
+    {
+      "id": 792,
+      "text": "William Coleman and Robert Grace each offered separately to advance Franklin all the money necessary to take the whole business upon himself.",
+      "checksum": "7e4a93a8"
+    },
+    {
+      "id": 793,
+      "text": "Coleman and Grace said Meredith was often seen drunk in the streets and playing at low games in alehouses.",
+      "checksum": "d65df598"
+    },
+    {
+      "id": 794,
+      "text": "Franklin told Coleman and Grace he could not propose separation while any prospect remained of the Merediths fulfilling their agreement.",
+      "checksum": "464b86e1"
+    },
+    {
+      "id": 795,
+      "text": "Franklin proposed to Meredith that perhaps his father was unwilling to advance money for both of them.",
+      "checksum": "f71bb8ae"
+    },
+    {
+      "id": 796,
+      "text": "Meredith said his father was really unable to advance more money.",
+      "checksum": "6f7e34d6"
+    },
+    {
+      "id": 797,
+      "text": "Meredith said he was bred a farmer and it was folly to come to town at thirty years of age to learn a new trade.",
+      "checksum": "2b85276b"
+    },
+    {
+      "id": 798,
+      "text": "Meredith said many Welsh people were going to settle in North Carolina where land was cheap.",
+      "checksum": "d323c181"
+    },
+    {
+      "id": 799,
+      "text": "Meredith asked Franklin to take the company debts, return his father's hundred pounds, pay his personal debts, and give him thirty pounds and a new saddle.",
+      "checksum": "2ed4a4c9"
+    },
+    {
+      "id": 800,
+      "text": "Franklin agreed to Meredith's proposal and it was drawn up in writing, signed, and sealed immediately.",
+      "checksum": "0f673a48"
+    },
+    {
+      "id": 801,
+      "text": "Meredith went to Carolina and sent Franklin two long letters the next year about the country, climate, soil, and husbandry.",
+      "checksum": "4e974c9d"
+    },
+    {
+      "id": 802,
+      "text": "Franklin printed Meredith's letters about Carolina in the papers.",
+      "checksum": "8d41f451"
+    },
+    {
+      "id": 803,
+      "text": "Franklin was bred a farmer.",
+      "checksum": "fdd966e6"
+    },
+    {
+      "id": 804,
+      "text": "Franklin came to town at thirty years of age to apprentice himself to learn a new trade.",
+      "checksum": "6deb436b"
+    },
+    {
+      "id": 805,
+      "text": "Franklin found the printing business was not fit for him at that time.",
+      "checksum": "c745cb2d"
+    },
+    {
+      "id": 806,
+      "text": "Many Welsh people were settling in North Carolina where land was cheap.",
+      "checksum": "f6528c5d"
+    },
+    {
+      "id": 807,
+      "text": "Franklin was inclined to go to North Carolina and follow his old employment as a farmer.",
+      "checksum": "0d9bd03b"
+    },
+    {
+      "id": 808,
+      "text": "Franklin agreed to take on the debts of the company, return money to his partner's father, pay personal debts, and give his partner thirty pounds and a new saddle in exchange for the partnership.",
+      "checksum": "45623d60"
+    },
+    {
+      "id": 809,
+      "text": "Franklin's partner went to Carolina and sent him two long letters the next year about that country.",
+      "checksum": "790296f5"
+    },
+    {
+      "id": 810,
+      "text": "Franklin printed his partner's letters about Carolina in the papers.",
+      "checksum": "dd12dc5a"
+    },
+    {
+      "id": 811,
+      "text": "Franklin took half of what each of two friends had offered him for capital.",
+      "checksum": "3b0b975d"
+    },
+    {
+      "id": 812,
+      "text": "Franklin paid off the company's debts and went on with the business in his own name around 1729.",
+      "checksum": "8fc66ece"
+    },
+    {
+      "id": 813,
+      "text": "Franklin was on the side of adding more paper money in discussions at the Junto.",
+      "checksum": "0d0eb545"
+    },
+    {
+      "id": 814,
+      "text": "Franklin believed the first small sum of paper money struck in 1723 had done much good by increasing trade, employment, and inhabitants in the province.",
+      "checksum": "713c5fbe"
+    },
+    {
+      "id": 815,
+      "text": "Franklin remembered seeing most houses in Walnut Street between Second and Front streets with bills saying 'To be let' when he first walked about Philadelphia eating his roll.",
+      "checksum": "4bf8a997"
+    },
+    {
+      "id": 816,
+      "text": "Franklin wrote and printed an anonymous pamphlet entitled 'The Nature and Necessity of a Paper Currency.'",
+      "checksum": "42de0fea"
+    },
+    {
+      "id": 817,
+      "text": "Franklin's pamphlet was well received by common people but disliked by rich men.",
+      "checksum": "b706ba6f"
+    },
+    {
+      "id": 818,
+      "text": "Franklin's friends employed him in printing the money as a reward for his service.",
+      "checksum": "b53ccaea"
+    },
+    {
+      "id": 819,
+      "text": "Franklin obtained the printing of Newcastle paper money through his friend Hamilton.",
+      "checksum": "76686523"
+    },
+    {
+      "id": 820,
+      "text": "Franklin obtained the printing of the laws and votes of the Newcastle government.",
+      "checksum": "4b6b17e3"
+    },
+    {
+      "id": 821,
+      "text": "Franklin opened a little stationer's shop.",
+      "checksum": "5c030348"
+    },
+    {
+      "id": 822,
+      "text": "Franklin had blanks of all sorts in his shop, assisted by his friend Breintnal.",
+      "checksum": "cabb0ebd"
+    },
+    {
+      "id": 823,
+      "text": "Franklin had paper, parchment, and chapmen's books in his shop.",
+      "checksum": "4eb68695"
+    },
+    {
+      "id": 824,
+      "text": "Whitemash, a compositor Franklin had known in London, came to work with him constantly and diligently.",
+      "checksum": "fe0e87f9"
+    },
+    {
+      "id": 825,
+      "text": "Franklin took an apprentice who was the son of Aquilla Rose.",
+      "checksum": "211c3d2d"
+    },
+    {
+      "id": 826,
+      "text": "Franklin began gradually to pay off the debt he was under for the printing-house.",
+      "checksum": "0f5fd6f5"
+    },
+    {
+      "id": 827,
+      "text": "Franklin dressed plainly to secure his credit and character as a tradesman.",
+      "checksum": "ec26d8d8"
+    },
+    {
+      "id": 828,
+      "text": "Franklin was seen at no places of idle diversion.",
+      "checksum": "b7048959"
+    },
+    {
+      "id": 829,
+      "text": "Franklin never went out fishing or shooting.",
+      "checksum": "3ff9e257"
+    },
+    {
+      "id": 830,
+      "text": "Franklin sometimes brought home paper he purchased at stores through the streets on a wheelbarrow to show he was not above his business.",
+      "checksum": "1858f6e6"
+    },
+    {
+      "id": 831,
+      "text": "Franklin was esteem'd an industrious, thriving young man.",
+      "checksum": "f840d113"
+    },
+    {
+      "id": 832,
+      "text": "Keimer's credit and business declined daily and he was forced to sell his printing-house.",
+      "checksum": "316f7f96"
+    },
+    {
+      "id": 833,
+      "text": "Keimer went to Barbadoes and lived there in very poor circumstances.",
+      "checksum": "03600790"
+    },
+    {
+      "id": 834,
+      "text": "David Harry, whom Franklin had instructed, set up in Keimer's place at Philadelphia.",
+      "checksum": "a76bde04"
+    },
+    {
+      "id": 835,
+      "text": "Franklin proposed a partnership to Harry, which Harry rejected with scorn.",
+      "checksum": "1afbb2f5"
+    },
+    {
+      "id": 836,
+      "text": "Harry was very proud, dressed like a gentleman, lived expensively, took much diversion and pleasure abroad, and ran in debt.",
+      "checksum": "04b1801a"
+    },
+    {
+      "id": 837,
+      "text": "Harry followed Keimer to Barbadoes, taking the printing-house with him.",
+      "checksum": "63231ffb"
+    },
+    {
+      "id": 838,
+      "text": "Bradford was the old competitor with Franklin at Philadelphia.",
+      "checksum": "53816b0e"
+    },
+    {
+      "id": 839,
+      "text": "Bradford was rich and easy and did little printing.",
+      "checksum": "fec893c7"
+    },
+    {
+      "id": 840,
+      "text": "Bradford kept the post-office.",
+      "checksum": "2894cc53"
+    },
+    {
+      "id": 841,
+      "text": "Franklin thought meanly of Bradford for forbidding him to send papers by the post, and resolved never to imitate it when he came into Bradford's situation.",
+      "checksum": "44becbed"
+    },
+    {
+      "id": 842,
+      "text": "Franklin had continued to board with Godfrey, who lived in part of his house with his wife and children.",
+      "checksum": "25c1b97e"
+    },
+    {
+      "id": 843,
+      "text": "Godfrey had one side of the shop for his glazier's business but worked little, being absorbed in his mathematics.",
+      "checksum": "538b0820"
+    },
+    {
+      "id": 844,
+      "text": "Mrs. Godfrey projected a match for Franklin with a relation's daughter.",
+      "checksum": "7d37c479"
+    },
+    {
+      "id": 845,
+      "text": "Franklin expected as much money with the daughter as would pay off his remaining debt for the printing-house, which was about a hundred pounds.",
+      "checksum": "00468dfc"
+    },
+    {
+      "id": 846,
+      "text": "The girl's family said they had no such sum to spare and suggested mortgaging their house.",
+      "checksum": "427c7cf1"
+    },
+    {
+      "id": 847,
+      "text": "The girl's family informed Franklin they did not approve the match after inquiring of Bradford about the printing business.",
+      "checksum": "2ccf3cc1"
+    },
+    {
+      "id": 848,
+      "text": "The girl's family said the types would soon be worn out and more would be wanted.",
+      "checksum": "3467e235"
+    },
+    {
+      "id": 849,
+      "text": "The girl's family said Keimer and Harry had failed one after the other and Franklin would probably soon follow them.",
+      "checksum": "cacb099b"
+    },
+    {
+      "id": 850,
+      "text": "Franklin was forbidden the house and the daughter was shut up.",
+      "checksum": "267f1722"
+    },
+    {
+      "id": 851,
+      "text": "Franklin resented the treatment and went no more to the house.",
+      "checksum": "5e70d164"
+    },
+    {
+      "id": 852,
+      "text": "Franklin declared absolutely his resolution to have nothing more to do with that family.",
+      "checksum": "8c6a3e47"
+    },
+    {
+      "id": 853,
+      "text": "The Godfreys removed, leaving Franklin the whole house.",
+      "checksum": "475f332a"
+    },
+    {
+      "id": 854,
+      "text": "Franklin resolved to take no more inmates.",
+      "checksum": "6493d195"
+    },
+    {
+      "id": 855,
+      "text": "Franklin looked round and made overtures of acquaintance in other places for marriage.",
+      "checksum": "66981143"
+    },
+    {
+      "id": 856,
+      "text": "Franklin found that the business of a printer being generally thought a poor one, he was not to expect money with a wife unless with one he should not otherwise think agreeable.",
+      "checksum": "36a2b625"
+    },
+    {
+      "id": 857,
+      "text": "A friendly correspondence as neighbours and old acquaintances had continued between Franklin and Mrs. Read's family.",
+      "checksum": "3fcaeee6"
+    },
+    {
+      "id": 858,
+      "text": "Franklin was often invited to Mrs. Read's house and consulted in their affairs.",
+      "checksum": "a37e888f"
+    },
+    {
+      "id": 859,
+      "text": "Franklin pitied poor Miss Read's unfortunate situation, who was generally dejected, seldom cheerful, and avoided company.",
+      "checksum": "de9f544a"
+    },
+    {
+      "id": 860,
+      "text": "Franklin considered his giddiness and inconstancy when in London as in a great degree the cause of Miss Read's unhappiness.",
+      "checksum": "37b06610"
+    },
+    {
+      "id": 861,
+      "text": "Franklin's mutual affection with Miss Read was revived.",
+      "checksum": "8060d34b"
+    },
+    {
+      "id": 862,
+      "text": "There were great objections to Franklin's union with Miss Read because a preceding wife was said to be living in England.",
+      "checksum": "82ba8b16"
+    },
+    {
+      "id": 863,
+      "text": "Franklin took Miss Read to wife on September 1st, 1730.",
+      "checksum": "7fa52b73"
+    },
+    {
+      "id": 864,
+      "text": "Miss Read proved a good and faithful helpmate.",
+      "checksum": "f4b746fb"
+    },
+    {
+      "id": 865,
+      "text": "Miss Read assisted Franklin much by attending the shop.",
+      "checksum": "b075d44d"
+    },
+    {
+      "id": 866,
+      "text": "Franklin and his wife throve together and have ever mutually endeavoured to make each other happy.",
+      "checksum": "edfc841c"
+    },
+    {
+      "id": 867,
+      "text": "Franklin called his marriage to Miss Read a great erratum that he corrected.",
+      "checksum": "75db8884"
+    },
+    {
+      "id": 868,
+      "text": "Franklin's club met in a little room of Mr. Grace's, set apart for that purpose.",
+      "checksum": "0fe14915"
+    },
+    {
+      "id": 869,
+      "text": "Franklin proposed that the club members club their books to a common library.",
+      "checksum": "42497f82"
+    },
+    {
+      "id": 870,
+      "text": "The club filled one end of the room with books they could best spare.",
+      "checksum": "5b56ddbf"
+    },
+    {
+      "id": 871,
+      "text": "The collection of books lasted about a year before being separated due to inconveniences from want of due care.",
+      "checksum": "d5630e90"
+    },
+    {
+      "id": 872,
+      "text": "Franklin set on foot his first project of a public nature, that for a subscription library.",
+      "checksum": "02f96c12"
+    },
+    {
+      "id": 873,
+      "text": "Franklin drew up the proposals for the subscription library.",
+      "checksum": "e48d9a1b"
+    },
+    {
+      "id": 874,
+      "text": "Franklin got the proposals put into form by Brockden, their great scrivener.",
+      "checksum": "8607db97"
+    },
+    {
+      "id": 875,
+      "text": "Franklin procured fifty subscribers of forty shillings each to begin with, and ten shillings a year for fifty years.",
+      "checksum": "c78dc728"
+    },
+    {
+      "id": 876,
+      "text": "The subscription library company was afterwards increased to one hundred and obtained a charter.",
+      "checksum": "47f3fb43"
+    },
+    {
+      "id": 877,
+      "text": "Franklin's subscription library was the mother of all the North American subscription libraries.",
+      "checksum": "7e16ae32"
+    },
+    {
+      "id": 878,
+      "text": "The subscription libraries have improved the general conversation of the Americans.",
+      "checksum": "be119e07"
+    },
+    {
+      "id": 879,
+      "text": "The subscription libraries made the common tradesmen and farmers as intelligent as most gentlemen from other countries.",
+      "checksum": "7c460797"
+    },
+    {
+      "id": 880,
+      "text": "The subscription libraries perhaps contributed in some degree to the stand made throughout the colonies in defense of their privileges.",
+      "checksum": "62056402"
+    },
+    {
+      "id": 881,
+      "text": "Franklin wrote the first part of his autobiography at Twyford in 1771.",
+      "checksum": "8703b68d"
+    },
+    {
+      "id": 882,
+      "text": "Franklin wrote the second part of his autobiography at Passy in 1784.",
+      "checksum": "62a54cbf"
+    },
+    {
+      "id": 883,
+      "text": "Franklin received letters from Abel James and Benjamin Vaughan urging him to continue his autobiography.",
+      "checksum": "acbd4c08"
+    },
+    {
+      "id": 884,
+      "text": "Franklin was too busy to comply with the request to continue his autobiography until later.",
+      "checksum": "0b6488ab"
+    },
+    {
+      "id": 885,
+      "text": "Franklin thought his autobiography might be much better done if he were at home among his papers.",
+      "checksum": "84c3680c"
+    },
+    {
+      "id": 886,
+      "text": "Franklin's return from where he was writing was uncertain.",
+      "checksum": "3d173e8f"
+    },
+    {
+      "id": 887,
+      "text": "At the time Franklin established himself in Pennsylvania, there was not a good bookseller's shop in any of the colonies to the southward of Boston.",
+      "checksum": "37ef8a6d"
+    },
+    {
+      "id": 888,
+      "text": "In New York and Philadelphia the printers were stationers who sold only paper, almanacs, ballads, and a few common school-books.",
+      "checksum": "6533d02d"
+    },
+    {
+      "id": 889,
+      "text": "Those who loved reading were obliged to send for their books from England.",
+      "checksum": "40739f4d"
+    },
+    {
+      "id": 890,
+      "text": "The members of the Junto had each a few books.",
+      "checksum": "f91b373e"
+    },
+    {
+      "id": 891,
+      "text": "Franklin proposed that the club members bring their books to the room where they met.",
+      "checksum": "4346fe0f"
+    },
+    {
+      "id": 892,
+      "text": "Franklin proposed to render the benefit from books more common by commencing a public subscription library.",
+      "checksum": "ba8724c8"
+    },
+    {
+      "id": 893,
+      "text": "Franklin drew a sketch of the plan and rules necessary for the subscription library.",
+      "checksum": "d4af332a"
+    },
+    {
+      "id": 894,
+      "text": "Franklin got Charles Brockden, a skilful conveyancer, to put the whole plan in form of articles of agreement.",
+      "checksum": "8ecfdc3e"
+    },
+    {
+      "id": 895,
+      "text": "Each subscriber to the library engaged to pay a certain sum down for the first purchase of books and an annual contribution for increasing them.",
+      "checksum": "bb385173"
+    },
+    {
+      "id": 896,
+      "text": "So few were the readers at that time in Philadelphia and the majority were so poor that Franklin was not able to get many subscribers.",
+      "checksum": "d0031b5d"
+    },
+    {
+      "id": 897,
+      "text": "Franklin and members of the Junto brought their books to a shared room for common use.",
+      "checksum": "d824967a"
+    },
+    {
+      "id": 898,
+      "text": "Franklin proposed creating a public subscription library in Philadelphia.",
+      "checksum": "c7fa4944"
+    },
+    {
+      "id": 899,
+      "text": "Franklin hired Charles Brockden, a skilled conveyancer, to formalize the library's rules as articles of agreement.",
+      "checksum": "2c07ce7f"
+    },
+    {
+      "id": 900,
+      "text": "Franklin found it difficult to recruit subscribers for the library due to poverty and few readers in Philadelphia.",
+      "checksum": "27fa7905"
+    },
+    {
+      "id": 901,
+      "text": "Franklin recruited fifty subscribers, mostly young tradesmen, each paying forty shillings upfront and ten shillings annually.",
+      "checksum": "74821084"
+    },
+    {
+      "id": 902,
+      "text": "The library opened one day per week for lending to subscribers on promissory notes.",
+      "checksum": "533a9196"
+    },
+    {
+      "id": 903,
+      "text": "Franklin learned that presenting oneself as the proposer of a useful project hindered subscription efforts.",
+      "checksum": "1dfad63c"
+    },
+    {
+      "id": 904,
+      "text": "Franklin began attributing projects to a group of friends rather than claiming credit himself.",
+      "checksum": "870076fb"
+    },
+    {
+      "id": 905,
+      "text": "Franklin set aside one or two hours each day for study using the library.",
+      "checksum": "3d776cd7"
+    },
+    {
+      "id": 906,
+      "text": "Franklin's only amusement was reading; he spent no time in taverns, games, or frivolous activities.",
+      "checksum": "f647708f"
+    },
+    {
+      "id": 907,
+      "text": "Franklin was indebted for his printing house.",
+      "checksum": "be6f094e"
+    },
+    {
+      "id": 908,
+      "text": "Franklin had a young family to educate.",
+      "checksum": "ecfa89e1"
+    },
+    {
+      "id": 909,
+      "text": "Franklin competed with two established printers in Philadelphia.",
+      "checksum": "f8de5d7d"
+    },
+    {
+      "id": 910,
+      "text": "Franklin's father frequently repeated Solomon's proverb about diligence to him as a boy.",
+      "checksum": "410fb20c"
+    },
+    {
+      "id": 911,
+      "text": "Franklin has stood before five kings.",
+      "checksum": "4bffea11"
+    },
+    {
+      "id": 912,
+      "text": "Franklin dined with the King of Denmark.",
+      "checksum": "37896231"
+    },
+    {
+      "id": 913,
+      "text": "Franklin's wife was as disposed to industry and frugality as himself.",
+      "checksum": "378eeec6"
+    },
+    {
+      "id": 914,
+      "text": "Franklin's wife assisted him in his business by folding and stitching pamphlets, tending shop, and purchasing rags.",
+      "checksum": "59c36383"
+    },
+    {
+      "id": 915,
+      "text": "Franklin's household kept no idle servants.",
+      "checksum": "97ec0d34"
+    },
+    {
+      "id": 916,
+      "text": "Franklin's breakfast for a long time consisted of bread and milk eaten from a twopenny earthen porringer with a pewter spoon.",
+      "checksum": "5d8e59c9"
+    },
+    {
+      "id": 917,
+      "text": "Franklin's wife bought him a China bowl and silver spoon costing twenty-three shillings without his knowledge.",
+      "checksum": "d6249e53"
+    },
+    {
+      "id": 918,
+      "text": "Franklin was religiously educated as a Presbyterian.",
+      "checksum": "e882005e"
+    },
+    {
+      "id": 919,
+      "text": "Franklin found certain Presbyterian dogmas such as eternal decrees, election, and reprobation unintelligible or doubtful.",
+      "checksum": "e9823a11"
+    },
+    {
+      "id": 920,
+      "text": "Franklin used Sunday as his studying day and absented himself from public Presbyterian assemblies.",
+      "checksum": "d822c6d4"
+    },
+    {
+      "id": 921,
+      "text": "Franklin never doubted the existence of God.",
+      "checksum": "0a547840"
+    },
+    {
+      "id": 922,
+      "text": "Franklin believed God made the world and governed it by Providence.",
+      "checksum": "075797e3"
+    },
+    {
+      "id": 923,
+      "text": "Franklin believed the most acceptable service of God was doing good to man.",
+      "checksum": "98fd3c18"
+    },
+    {
+      "id": 924,
+      "text": "Franklin believed souls are immortal.",
+      "checksum": "f7e5dac9"
+    },
+    {
+      "id": 925,
+      "text": "Franklin believed all crime will be punished and virtue rewarded.",
+      "checksum": "80be35cc"
+    },
+    {
+      "id": 926,
+      "text": "Franklin respected all religions but with different degrees based on how much they promoted morality.",
+      "checksum": "b4170558"
+    },
+    {
+      "id": 927,
+      "text": "Franklin contributed money to support places of worship of any sect.",
+      "checksum": "6c196c59"
+    },
+    {
+      "id": 928,
+      "text": "Franklin regularly paid his annual subscription for the Presbyterian minister in Philadelphia.",
+      "checksum": "99eddc65"
+    },
+    {
+      "id": 929,
+      "text": "Franklin attended the Presbyterian minister's preaching once for five Sundays successively.",
+      "checksum": "3164b2b2"
+    },
+    {
+      "id": 930,
+      "text": "Franklin found the Presbyterian minister's sermons dry, uninteresting, and unedifying because they lacked moral principles.",
+      "checksum": "43a243fb"
+    },
+    {
+      "id": 931,
+      "text": "Franklin composed a liturgy called Articles of Belief and Acts of Religion for his private use in 1728.",
+      "checksum": "6a83f63c"
+    },
+    {
+      "id": 932,
+      "text": "Franklin conceived a project of arriving at moral perfection.",
+      "checksum": "4d772179"
+    },
+    {
+      "id": 933,
+      "text": "Franklin wished to live without committing any fault at any time.",
+      "checksum": "ae5bb4c9"
+    },
+    {
+      "id": 934,
+      "text": "Franklin discovered that mere conviction that virtue was right was insufficient to prevent moral lapses.",
+      "checksum": "34b684a5"
+    },
+    {
+      "id": 935,
+      "text": "Franklin concluded that contrary habits must be broken and good ones acquired before achieving steady rectitude.",
+      "checksum": "6b6892d9"
+    },
+    {
+      "id": 936,
+      "text": "Franklin identified thirteen virtues as necessary or desirable: Temperance, Silence, Order, Resolution, Frugality, Industry, Sincerity, Justice, Moderation, Cleanliness, Tranquillity, Chastity, and Humility.",
+      "checksum": "9d368fcc"
+    },
+    {
+      "id": 937,
+      "text": "Franklin arranged the thirteen virtues in a specific order to facilitate acquiring each one.",
+      "checksum": "3a37aacb"
+    },
+    {
+      "id": 938,
+      "text": "Franklin placed Temperance first because it procures coolness and clearness of head.",
+      "checksum": "8fa09f80"
+    },
+    {
+      "id": 939,
+      "text": "Franklin placed Silence second to break his habit of prattling, punning, and joking.",
+      "checksum": "1c1625f7"
+    },
+    {
+      "id": 940,
+      "text": "Franklin believed Silence would help him gain knowledge through listening rather than speaking.",
+      "checksum": "b2d2980c"
+    },
+    {
+      "id": 941,
+      "text": "Franklin placed Order third to allow more time for his project and studies.",
+      "checksum": "2801af85"
+    },
+    {
+      "id": 942,
+      "text": "Franklin believed Resolution would keep him firm in his endeavors.",
+      "checksum": "25380cb1"
+    },
+    {
+      "id": 943,
+      "text": "Franklin believed Frugality and Industry would free him from debt and produce affluence and independence.",
+      "checksum": "887a7646"
+    },
+    {
+      "id": 944,
+      "text": "Franklin created a little book with a page for each virtue, ruled with red ink into seven columns for days of the week.",
+      "checksum": "099d4c4e"
+    },
+    {
+      "id": 945,
+      "text": "Franklin marked faults with black spots on his virtue tracking chart.",
+      "checksum": "05012233"
+    },
+    {
+      "id": 946,
+      "text": "Franklin determined to give one week's strict attention to each virtue successively.",
+      "checksum": "fe27129a"
+    },
+    {
+      "id": 947,
+      "text": "Franklin could complete one course through all thirteen virtues in thirteen weeks, allowing four courses per year.",
+      "checksum": "1feb99e8"
+    },
+    {
+      "id": 948,
+      "text": "Franklin determined to give a week's strict attention to each virtue successively.",
+      "checksum": "ac50e052"
+    },
+    {
+      "id": 949,
+      "text": "Franklin's first virtue to focus on was Temperance.",
+      "checksum": "e91141d9"
+    },
+    {
+      "id": 950,
+      "text": "Franklin marked his daily faults in a little book to track his progress.",
+      "checksum": "e787633c"
+    },
+    {
+      "id": 951,
+      "text": "Franklin planned to go through a complete course of thirteen weeks, and four courses in a year.",
+      "checksum": "aae71e4d"
+    },
+    {
+      "id": 952,
+      "text": "Franklin used mottos from Addison's Cato, Cicero, and the Proverbs of Solomon in his little book.",
+      "checksum": "e4b66fc9"
+    },
+    {
+      "id": 953,
+      "text": "Franklin conceived God to be the fountain of wisdom.",
+      "checksum": "56f6af19"
+    },
+    {
+      "id": 954,
+      "text": "Franklin formed a daily prayer to solicit God's assistance in obtaining wisdom.",
+      "checksum": "5d23f4c6"
+    },
+    {
+      "id": 955,
+      "text": "Franklin also used a prayer taken from Thomson's Poems.",
+      "checksum": "2d171f9e"
+    },
+    {
+      "id": 956,
+      "text": "Franklin created a detailed scheme of employment for the twenty-four hours of a natural day.",
+      "checksum": "6bba3efc"
+    },
+    {
+      "id": 957,
+      "text": "Franklin rose at 5 AM and addressed Powerful Goodness each morning.",
+      "checksum": "088ba94c"
+    },
+    {
+      "id": 958,
+      "text": "Franklin asked himself each morning 'What good shall I do this day?'",
+      "checksum": "f77de291"
+    },
+    {
+      "id": 959,
+      "text": "Franklin asked himself each evening 'What good have I done to-day?'",
+      "checksum": "0f78c6ba"
+    },
+    {
+      "id": 960,
+      "text": "Franklin was surprised to find himself fuller of faults than he had imagined.",
+      "checksum": "8d9142f1"
+    },
+    {
+      "id": 961,
+      "text": "Franklin transferred his tables from paper to ivory leaves of a memorandum book with red ink lines.",
+      "checksum": "49c12b19"
+    },
+    {
+      "id": 962,
+      "text": "Franklin marked his faults with a black-lead pencil that he could wipe out with a wet sponge.",
+      "checksum": "a4256e8a"
+    },
+    {
+      "id": 963,
+      "text": "Franklin eventually went through one course of virtue examination only in a year, then only in several years.",
+      "checksum": "44ffd651"
+    },
+    {
+      "id": 964,
+      "text": "Franklin eventually omitted his virtue examination entirely due to voyages and business abroad.",
+      "checksum": "26ef5b65"
+    },
+    {
+      "id": 965,
+      "text": "Franklin always carried his little book with him.",
+      "checksum": "96cada05"
+    },
+    {
+      "id": 966,
+      "text": "Franklin found the scheme of Order gave him the most trouble.",
+      "checksum": "4c0854b6"
+    },
+    {
+      "id": 967,
+      "text": "Franklin found Order impracticable for a master who must mix with the world and receive people at their own hours.",
+      "checksum": "50218971"
+    },
+    {
+      "id": 968,
+      "text": "Franklin found Order with regard to places for things and papers extremely difficult to acquire.",
+      "checksum": "4d58615a"
+    },
+    {
+      "id": 969,
+      "text": "Franklin had not been early accustomed to Order.",
+      "checksum": "176f8cbb"
+    },
+    {
+      "id": 970,
+      "text": "Franklin had an exceeding good memory.",
+      "checksum": "eef81701"
+    },
+    {
+      "id": 971,
+      "text": "Franklin was almost ready to give up attempting to improve his Order.",
+      "checksum": "f14b594b"
+    },
+    {
+      "id": 972,
+      "text": "Franklin had a Quaker friend who informed him that he was generally thought proud.",
+      "checksum": "726571e3"
+    },
+    {
+      "id": 973,
+      "text": "Franklin's pride showed itself frequently in conversation.",
+      "checksum": "5dcd56d3"
+    },
+    {
+      "id": 974,
+      "text": "Franklin was not content with being in the right when discussing any point.",
+      "checksum": "d9685973"
+    },
+    {
+      "id": 975,
+      "text": "Franklin was overbearing and rather insolent in conversation.",
+      "checksum": "1ab3fd2e"
+    },
+    {
+      "id": 976,
+      "text": "Franklin added Humility to his list of virtues after his Quaker friend's criticism.",
+      "checksum": "9a29e792"
+    },
+    {
+      "id": 977,
+      "text": "Franklin could not boast of much success in acquiring the reality of Humility.",
+      "checksum": "b5ac9d5e"
+    },
+    {
+      "id": 978,
+      "text": "Franklin had a good deal of success with regard to the appearance of Humility.",
+      "checksum": "705dbe93"
+    },
+    {
+      "id": 979,
+      "text": "Franklin made it a rule to forbear all direct contradiction to the sentiments of others.",
+      "checksum": "f0843101"
+    },
+    {
+      "id": 980,
+      "text": "Franklin forbade himself the use of words that imported a fixed opinion, such as 'certainly' and 'undoubtedly'.",
+      "checksum": "e059fe84"
+    },
+    {
+      "id": 981,
+      "text": "Franklin adopted instead the phrases 'I conceive', 'I apprehend', or 'I imagine'.",
+      "checksum": "a6f3a048"
+    },
+    {
+      "id": 982,
+      "text": "Franklin found that his modest way of proposing opinions procured them readier reception and less contradiction.",
+      "checksum": "c4b0802b"
+    },
+    {
+      "id": 983,
+      "text": "Franklin had less mortification when found to be in the wrong after adopting his new manner.",
+      "checksum": "606bdabe"
+    },
+    {
+      "id": 984,
+      "text": "Franklin more easily prevailed with others to give up their mistakes after adopting his new manner.",
+      "checksum": "36bcea5f"
+    },
+    {
+      "id": 985,
+      "text": "Franklin's new mode of speaking became so easy and habitual that for fifty years past no one heard a dogmatical expression escape him.",
+      "checksum": "b3f326ff"
+    },
+    {
+      "id": 986,
+      "text": "Franklin was a bad speaker and never eloquent.",
+      "checksum": "ffb74885"
+    },
+    {
+      "id": 987,
+      "text": "Franklin was subject to much hesitation in his choice of words.",
+      "checksum": "ac12238f"
+    },
+    {
+      "id": 988,
+      "text": "Franklin was hardly correct in language.",
+      "checksum": "3a32c828"
+    },
+    {
+      "id": 989,
+      "text": "Franklin generally carried his points despite being a bad speaker.",
+      "checksum": "c7a4d46d"
+    },
+    {
+      "id": 990,
+      "text": "Franklin attributed his early weight with fellow-citizens to his habit of modest speech and his character of integrity.",
+      "checksum": "35bfb77e"
+    },
+    {
+      "id": 991,
+      "text": "Franklin attributed his influence in public councils to his habit of modest speech and his character of integrity.",
+      "checksum": "ebf9d021"
+    },
+    {
+      "id": 992,
+      "text": "Franklin ascribed his long-continued health to Temperance.",
+      "checksum": "60c43ac7"
+    },
+    {
+      "id": 993,
+      "text": "Franklin ascribed the early easiness of his circumstances and acquisition of his fortune to Industry and Frugality.",
+      "checksum": "453fcd06"
+    },
+    {
+      "id": 994,
+      "text": "Franklin ascribed his knowledge that enabled him to be a useful citizen to Industry and Frugality.",
+      "checksum": "e1c51787"
+    },
+    {
+      "id": 995,
+      "text": "Franklin ascribed his reputation among the learned to Industry and Frugality.",
+      "checksum": "65c9cbe6"
+    },
+    {
+      "id": 996,
+      "text": "Franklin ascribed the confidence of his country to Sincerity and Justice.",
+      "checksum": "dfd7c6ee"
+    },
+    {
+      "id": 997,
+      "text": "Franklin ascribed the honorable employs conferred upon him to Sincerity and Justice.",
+      "checksum": "d6a95802"
+    },
+    {
+      "id": 998,
+      "text": "Franklin ascribed his evenness of temper to the joint influence of all the virtues.",
+      "checksum": "3f634a5c"
+    },
+    {
+      "id": 999,
+      "text": "Franklin ascribed his cheerfulness in conversation to the joint influence of all the virtues.",
+      "checksum": "685f7fb9"
+    },
+    {
+      "id": 1000,
+      "text": "Franklin's company was still sought for and agreeable even to his younger acquaintance.",
+      "checksum": "78ba3c02"
+    },
+    {
+      "id": 1001,
+      "text": "Franklin wrote his autobiography at age 79 at Passy in 1784.",
+      "checksum": "b4c297d3"
+    },
+    {
+      "id": 1002,
+      "text": "Franklin believed that to his little artifice, with the blessing of God, his constant felicity of life down to his 79th year was owed.",
+      "checksum": "f5daa8fe"
+    },
+    {
+      "id": 1003,
+      "text": "Franklin's scheme of virtues was not wholly without religion.",
+      "checksum": "86bd3719"
+    },
+    {
+      "id": 1004,
+      "text": "Franklin's scheme contained no mark of any of the distinguishing tenets of any particular sect.",
+      "checksum": "e46ed28c"
+    },
+    {
+      "id": 1005,
+      "text": "Franklin purposely avoided particular sect tenets in his scheme.",
+      "checksum": "7be9137a"
+    },
+    {
+      "id": 1006,
+      "text": "Franklin intended his method to be serviceable to people in all religions.",
+      "checksum": "b1e41325"
+    },
+    {
+      "id": 1007,
+      "text": "Franklin intended to publish his method of virtue.",
+      "checksum": "359e030c"
+    },
+    {
+      "id": 1008,
+      "text": "Franklin purposed writing a little comment on each virtue.",
+      "checksum": "61efe950"
+    },
+    {
+      "id": 1009,
+      "text": "Franklin intended to call his book 'The Art of Virtue'.",
+      "checksum": "c9314f33"
+    },
+    {
+      "id": 1010,
+      "text": "Franklin's intention of writing and publishing this comment was never fulfilled.",
+      "checksum": "0e10e908"
+    },
+    {
+      "id": 1011,
+      "text": "Franklin put down short hints of sentiments and reasonings for the book, some of which he still had.",
+      "checksum": "10c11f8b"
+    },
+    {
+      "id": 1012,
+      "text": "Franklin's close attention to private business in the earlier part of his life prevented him from completing his book.",
+      "checksum": "ae4bd435"
+    },
+    {
+      "id": 1013,
+      "text": "Franklin's public business prevented him from completing his book.",
+      "checksum": "455eb265"
+    },
+    {
+      "id": 1014,
+      "text": "Franklin's book was connected in his mind with a great and extensive project.",
+      "checksum": "c5113899"
+    },
+    {
+      "id": 1015,
+      "text": "Franklin believed that vicious actions are not hurtful because they are forbidden, but forbidden because they are hurtful.",
+      "checksum": "59485a47"
+    },
+    {
+      "id": 1016,
+      "text": "Franklin believed it was everyone's interest to be virtuous who wished to be happy even in this world.",
+      "checksum": "d1cccdc3"
+    },
+    {
+      "id": 1017,
+      "text": "Franklin believed that probity and integrity were qualities most likely to make a poor man's fortune.",
+      "checksum": "c6739a2f"
+    },
+    {
+      "id": 1018,
+      "text": "Franklin's original list of virtues contained but twelve virtues.",
+      "checksum": "2451a72e"
+    },
+    {
+      "id": 1019,
+      "text": "Franklin added Humility as his thirteenth virtue.",
+      "checksum": "883d6e4f"
+    },
+    {
+      "id": 1020,
+      "text": "Franklin gave an extensive meaning to the word Humility.",
+      "checksum": "9666effa"
+    },
+    {
+      "id": 1021,
+      "text": "Franklin found pride to be perhaps the hardest of natural passions to subdue.",
+      "checksum": "65b6ce09"
+    },
+    {
+      "id": 1022,
+      "text": "Franklin acknowledged that pride would peep out and show itself even after attempting to overcome it.",
+      "checksum": "30fad20b"
+    },
+    {
+      "id": 1023,
+      "text": "Franklin made observations on reading history in the Library on May 19th, 1731.",
+      "checksum": "0e2e0db5"
+    },
+    {
+      "id": 1024,
+      "text": "Franklin observed that the great affairs of the world are carried on and effected by parties.",
+      "checksum": "bbc26eb7"
+    },
+    {
+      "id": 1025,
+      "text": "Franklin observed that the view of parties is their present general interest.",
+      "checksum": "bbd05b4b"
+    },
+    {
+      "id": 1026,
+      "text": "Franklin observed that different views of different parties occasion all confusion.",
+      "checksum": "1fb6775b"
+    },
+    {
+      "id": 1027,
+      "text": "Franklin observed that while a party is carrying on a general design, each man has his particular private interest in view.",
+      "checksum": "0fa6caaf"
+    },
+    {
+      "id": 1028,
+      "text": "Franklin was writing his autobiography in August 1788.",
+      "checksum": "039588f7"
+    },
+    {
+      "id": 1029,
+      "text": "Many of Franklin's papers were lost during the war.",
+      "checksum": "e856be36"
+    },
+    {
+      "id": 1030,
+      "text": "Franklin conceived of a great and extensive project.",
+      "checksum": "671fd3ec"
+    },
+    {
+      "id": 1031,
+      "text": "Franklin observed history in the Library on May 19th, 1731.",
+      "checksum": "97b4f302"
+    },
+    {
+      "id": 1032,
+      "text": "Franklin believed that great affairs of the world are carried on by parties.",
+      "checksum": "8fe9b147"
+    },
+    {
+      "id": 1033,
+      "text": "Franklin believed that parties are motivated by their present general interest.",
+      "checksum": "7bb7953e"
+    },
+    {
+      "id": 1034,
+      "text": "Franklin believed that few in public affairs act from a view of the good of their country.",
+      "checksum": "8da850ab"
+    },
+    {
+      "id": 1035,
+      "text": "Franklin believed that even fewer in public affairs act with a view to the good of mankind.",
+      "checksum": "fa74aa2e"
+    },
+    {
+      "id": 1036,
+      "text": "Franklin conceived of a United Party for Virtue to be formed from virtuous and good men of all nations.",
+      "checksum": "af654254"
+    },
+    {
+      "id": 1037,
+      "text": "Franklin believed that whoever attempts the United Party for Virtue aright cannot fail of pleasing God.",
+      "checksum": "75d39bed"
+    },
+    {
+      "id": 1038,
+      "text": "Franklin planned to undertake the United Party for Virtue project when his circumstances afforded him leisure.",
+      "checksum": "72132f3c"
+    },
+    {
+      "id": 1039,
+      "text": "Franklin believed the soul is immortal.",
+      "checksum": "045ce835"
+    },
+    {
+      "id": 1040,
+      "text": "Franklin believed that God will reward virtue and punish vice, either here or hereafter.",
+      "checksum": "dd274ad8"
+    },
+    {
+      "id": 1041,
+      "text": "Franklin believed that the most acceptable service of God is doing good to man.",
+      "checksum": "2226c5b6"
+    },
+    {
+      "id": 1042,
+      "text": "Franklin intended the United Party for Virtue to begin among young and single men only.",
+      "checksum": "0317446a"
+    },
+    {
+      "id": 1043,
+      "text": "Franklin intended members of the United Party for Virtue to practice thirteen weeks of examination and practice of virtues.",
+      "checksum": "edd1fc05"
+    },
+    {
+      "id": 1044,
+      "text": "Franklin intended the United Party for Virtue to be kept secret until it became considerable.",
+      "checksum": "87bfd15d"
+    },
+    {
+      "id": 1045,
+      "text": "Franklin intended to call the society The Society of the Free and Easy.",
+      "checksum": "c568138a"
+    },
+    {
+      "id": 1046,
+      "text": "Franklin believed that industry and frugality would free a man from debt and slavery to creditors.",
+      "checksum": "2cd50a3a"
+    },
+    {
+      "id": 1047,
+      "text": "Franklin communicated his project in part to two young men who adopted it with enthusiasm.",
+      "checksum": "d6f359c4"
+    },
+    {
+      "id": 1048,
+      "text": "Franklin's narrow circumstances and need to stick close to his business caused him to postpone the project.",
+      "checksum": "048ff8e0"
+    },
+    {
+      "id": 1049,
+      "text": "Franklin's multifarious occupations caused him to continue postponing the project.",
+      "checksum": "57edad4c"
+    },
+    {
+      "id": 1050,
+      "text": "Franklin believed that one man of tolerable abilities may work great changes if he forms a good plan and makes its execution his sole study and business.",
+      "checksum": "ccad25cb"
+    },
+    {
+      "id": 1051,
+      "text": "Franklin first published his Almanack in 1732 under the name Richard Saunders.",
+      "checksum": "70429b3e"
+    },
+    {
+      "id": 1052,
+      "text": "Franklin continued publishing Poor Richard's Almanac for about twenty-five years.",
+      "checksum": "481f0235"
+    },
+    {
+      "id": 1053,
+      "text": "Franklin endeavored to make his Almanack both entertaining and useful.",
+      "checksum": "70a4ced8"
+    },
+    {
+      "id": 1054,
+      "text": "Franklin's Almanack came to be in such demand that he reaped considerable profit from it.",
+      "checksum": "7d1d2658"
+    },
+    {
+      "id": 1055,
+      "text": "Franklin sold nearly ten thousand copies of his Almanack annually.",
+      "checksum": "e99fa46d"
+    },
+    {
+      "id": 1056,
+      "text": "Franklin observed that his Almanack was generally read and scarce any neighborhood in the province was without it.",
+      "checksum": "9b1ed99c"
+    },
+    {
+      "id": 1057,
+      "text": "Franklin considered his Almanack a proper vehicle for conveying instruction among the common people.",
+      "checksum": "28298c72"
+    },
+    {
+      "id": 1058,
+      "text": "Franklin filled spaces in his Almanack with proverbial sentences chiefly inculcating industry and frugality.",
+      "checksum": "da32472f"
+    },
+    {
+      "id": 1059,
+      "text": "Franklin believed that industry and frugality are the means of procuring wealth and thereby securing virtue.",
+      "checksum": "f333f6d2"
+    },
+    {
+      "id": 1060,
+      "text": "Franklin believed it is difficult for a man in want to act always honestly.",
+      "checksum": "0de64f32"
+    },
+    {
+      "id": 1061,
+      "text": "Franklin assembled proverbs from many ages and nations into a connected discourse for the Almanack of 1757.",
+      "checksum": "085cc49a"
+    },
+    {
+      "id": 1062,
+      "text": "Franklin framed the proverbs as the harangue of a wise old man to people attending an auction.",
+      "checksum": "0482d73f"
+    },
+    {
+      "id": 1063,
+      "text": "Franklin's discourse was universally approved and copied in all the newspapers of the Continent.",
+      "checksum": "802076b9"
+    },
+    {
+      "id": 1064,
+      "text": "Franklin's discourse was reprinted in Britain on a broadside to be stuck up in houses.",
+      "checksum": "dec75107"
+    },
+    {
+      "id": 1065,
+      "text": "Two translations of Franklin's discourse were made in French.",
+      "checksum": "c7615884"
+    },
+    {
+      "id": 1066,
+      "text": "Franklin's discourse was bought by the clergy and gentry to distribute gratis among their poor parishioners and tenants.",
+      "checksum": "ae7033c8"
+    },
+    {
+      "id": 1067,
+      "text": "Franklin believed his discourse discouraged useless expense in foreign superfluities.",
+      "checksum": "0c14829d"
+    },
+    {
+      "id": 1068,
+      "text": "Franklin considered his newspaper as another means of communicating instruction.",
+      "checksum": "e41c7dc5"
+    },
+    {
+      "id": 1069,
+      "text": "Franklin frequently reprinted extracts from the Spectator and other moral writers in his newspaper.",
+      "checksum": "c83382d1"
+    },
+    {
+      "id": 1070,
+      "text": "Franklin published pieces in his newspaper that had been first composed for reading in his Junto.",
+      "checksum": "c95220e6"
+    },
+    {
+      "id": 1071,
+      "text": "Franklin wrote a Socratic dialogue proving that a vicious man could not properly be called a man of sense.",
+      "checksum": "16b5f345"
+    },
+    {
+      "id": 1072,
+      "text": "Franklin wrote a discourse on self-denial showing that virtue was not secure till its practice became a habitude.",
+      "checksum": "4d4b7f34"
+    },
+    {
+      "id": 1073,
+      "text": "Franklin carefully excluded all libeling and personal abuse from his newspaper.",
+      "checksum": "b3f6faa1"
+    },
+    {
+      "id": 1074,
+      "text": "Franklin refused to insert libelous content in his newspaper even when solicited.",
+      "checksum": "17eefe47"
+    },
+    {
+      "id": 1075,
+      "text": "Franklin offered to print libelous pieces separately if desired so the author could distribute them himself.",
+      "checksum": "35b6ac76"
+    },
+    {
+      "id": 1076,
+      "text": "Franklin believed he had contracted with his subscribers to furnish them with what might be useful or entertaining.",
+      "checksum": "13743a25"
+    },
+    {
+      "id": 1077,
+      "text": "Franklin believed filling newspapers with private altercation would do subscribers manifest injustice.",
+      "checksum": "18fcd069"
+    },
+    {
+      "id": 1078,
+      "text": "Franklin criticized printers who gratify the malice of individuals by false accusations.",
+      "checksum": "213596c6"
+    },
+    {
+      "id": 1079,
+      "text": "Franklin criticized printers who print scurrilous reflections on the government of neighboring states.",
+      "checksum": "4f3a1971"
+    },
+    {
+      "id": 1080,
+      "text": "Franklin believed that refusing to pollute the press would not be injurious to a printer's interests.",
+      "checksum": "fc121170"
+    },
+    {
+      "id": 1081,
+      "text": "In 1733 Franklin sent one of his journeymen to Charleston, South Carolina.",
+      "checksum": "3a1a5d9d"
+    },
+    {
+      "id": 1082,
+      "text": "Franklin furnished his journeyman with a press and letters on an agreement of partnership.",
+      "checksum": "e569e86b"
+    },
+    {
+      "id": 1083,
+      "text": "Franklin was to receive one-third of the profits and pay one-third of the expense of the Charleston business.",
+      "checksum": "9240c176"
+    },
+    {
+      "id": 1084,
+      "text": "Franklin's journeyman was a man of learning and honest but ignorant in matters of account.",
+      "checksum": "31985b61"
+    },
+    {
+      "id": 1085,
+      "text": "Franklin could get no satisfactory account from his journeyman while he lived.",
+      "checksum": "2b6d89f4"
+    },
+    {
+      "id": 1086,
+      "text": "Franklin's journeyman's widow was born and bred in Holland.",
+      "checksum": "c3047edf"
+    },
+    {
+      "id": 1087,
+      "text": "Franklin believed that knowledge of accounts makes a part of female education in Holland.",
+      "checksum": "acebdafb"
+    },
+    {
+      "id": 1088,
+      "text": "Franklin's journeyman's widow sent him a clear state of past transactions and accounted with regularity and exactness every quarter.",
+      "checksum": "86d78882"
+    },
+    {
+      "id": 1089,
+      "text": "Franklin's journeyman's widow managed the business with such success that she brought up a family of children reputably.",
+      "checksum": "b32123c7"
+    },
+    {
+      "id": 1090,
+      "text": "Franklin's journeyman's widow was able to purchase the printing-house from Franklin and establish her son in it.",
+      "checksum": "8657df80"
+    },
+    {
+      "id": 1091,
+      "text": "Franklin recommended that branch of education for young females as likely to be more useful than music or dancing.",
+      "checksum": "c9bff6c0"
+    },
+    {
+      "id": 1092,
+      "text": "Franklin believed accounting education would preserve women from losses by imposition of crafty men.",
+      "checksum": "6c2182fb"
+    },
+    {
+      "id": 1093,
+      "text": "About the year 1734 a young Presbyterian preacher named Hemphill arrived from Ireland.",
+      "checksum": "6d122c2b"
+    },
+    {
+      "id": 1094,
+      "text": "Franklin became a constant hearer of Hemphill's sermons.",
+      "checksum": "c41ae29a"
+    },
+    {
+      "id": 1095,
+      "text": "Franklin was pleased by Hemphill's sermons because they had little of the dogmatical kind.",
+      "checksum": "386a43a8"
+    },
+    {
+      "id": 1096,
+      "text": "Franklin was pleased that Hemphill's sermons inculcated strongly the practice of virtue or good works.",
+      "checksum": "5aed7f9f"
+    },
+    {
+      "id": 1097,
+      "text": "Franklin became a zealous partisan of Hemphill.",
+      "checksum": "a690563a"
+    },
+    {
+      "id": 1098,
+      "text": "Franklin contributed all he could to raise a party in Hemphill's favor.",
+      "checksum": "292b2d23"
+    },
+    {
+      "id": 1099,
+      "text": "Franklin believed that practical skills like accounting were more useful to women than music or dancing.",
+      "checksum": "4a275888"
+    },
+    {
+      "id": 1100,
+      "text": "Franklin attended sermons by Presbyterian preacher Hemphill starting around 1734.",
+      "checksum": "a8ce52d3"
+    },
+    {
+      "id": 1101,
+      "text": "Franklin was drawn to Hemphill's sermons because they emphasized virtue and good works rather than dogmatic theology.",
+      "checksum": "3ebe4d44"
+    },
+    {
+      "id": 1102,
+      "text": "Franklin became a zealous supporter of Hemphill when orthodox Presbyterians and clergy tried to silence him.",
+      "checksum": "40463b94"
+    },
+    {
+      "id": 1103,
+      "text": "Franklin wrote pamphlets and a piece in the Gazette in April 1735 defending Hemphill.",
+      "checksum": "4a752182"
+    },
+    {
+      "id": 1104,
+      "text": "Franklin discovered that Hemphill had plagiarized sermons from British Reviews and Dr. Foster's discourses.",
+      "checksum": "0c9b6a2f"
+    },
+    {
+      "id": 1105,
+      "text": "Franklin continued to support Hemphill even after learning he preached others' sermons rather than his own.",
+      "checksum": "49c89c77"
+    },
+    {
+      "id": 1106,
+      "text": "Franklin approved of Hemphill preaching good sermons by others rather than composing bad ones himself.",
+      "checksum": "5a87465b"
+    },
+    {
+      "id": 1107,
+      "text": "Franklin quit his congregation after Hemphill's defeat but continued paying subscription fees for years.",
+      "checksum": "fb820216"
+    },
+    {
+      "id": 1108,
+      "text": "Franklin began studying languages in 1733.",
+      "checksum": "cb536528"
+    },
+    {
+      "id": 1109,
+      "text": "Franklin taught himself French well enough to read books with ease.",
+      "checksum": "6e035746"
+    },
+    {
+      "id": 1110,
+      "text": "Franklin learned Italian through a chess-playing arrangement where the loser had to complete language tasks.",
+      "checksum": "30e7abe0"
+    },
+    {
+      "id": 1111,
+      "text": "Franklin acquired enough Spanish to read Spanish books.",
+      "checksum": "5490129b"
+    },
+    {
+      "id": 1112,
+      "text": "Franklin had only one year of Latin school instruction as a young child.",
+      "checksum": "a45e8776"
+    },
+    {
+      "id": 1113,
+      "text": "Franklin found that learning French, Italian, and Spanish made Latin easier to understand later.",
+      "checksum": "c3f42965"
+    },
+    {
+      "id": 1114,
+      "text": "Franklin believed modern languages should be taught before Latin, contrary to common practice.",
+      "checksum": "e2e29f9b"
+    },
+    {
+      "id": 1115,
+      "text": "Franklin visited Boston after ten years' absence when his circumstances had improved.",
+      "checksum": "306df4f6"
+    },
+    {
+      "id": 1116,
+      "text": "Franklin reconciled with his brother James in Newport, and their former differences were forgotten.",
+      "checksum": "26795709"
+    },
+    {
+      "id": 1117,
+      "text": "Franklin agreed to raise his brother's ten-year-old son and teach him the printing business after James's death.",
+      "checksum": "5183e84f"
+    },
+    {
+      "id": 1118,
+      "text": "Franklin sent his nephew to school before apprenticing him to the printing office.",
+      "checksum": "28842a06"
+    },
+    {
+      "id": 1119,
+      "text": "Franklin provided his nephew with new types when the old ones were worn out.",
+      "checksum": "efc49701"
+    },
+    {
+      "id": 1120,
+      "text": "Franklin lost a four-year-old son to smallpox in 1736, contracted the natural way.",
+      "checksum": "a00fc578"
+    },
+    {
+      "id": 1121,
+      "text": "Franklin regretted not having his son inoculated against smallpox.",
+      "checksum": "bc2cfeb3"
+    },
+    {
+      "id": 1122,
+      "text": "Franklin was a member of the Junto club, which had twelve members.",
+      "checksum": "897c445b"
+    },
+    {
+      "id": 1123,
+      "text": "Franklin proposed that Junto members form subordinate clubs rather than expanding the original club's membership.",
+      "checksum": "52befe7f"
+    },
+    {
+      "id": 1124,
+      "text": "Five or six subordinate clubs were successfully formed, including the Vine, the Union, and the Band.",
+      "checksum": "2a244148"
+    },
+    {
+      "id": 1125,
+      "text": "Franklin was chosen clerk of the General Assembly in 1736 without opposition.",
+      "checksum": "42c94e8d"
+    },
+    {
+      "id": 1126,
+      "text": "Franklin was opposed for re-election as clerk in 1737 but was chosen anyway.",
+      "checksum": "f8b16aba"
+    },
+    {
+      "id": 1127,
+      "text": "Franklin used the clerk position to secure profitable printing contracts for votes, laws, and paper money.",
+      "checksum": "bb385af3"
+    },
+    {
+      "id": 1128,
+      "text": "Franklin won over a political opponent by borrowing a rare book from his library.",
+      "checksum": "28e8023b"
+    },
+    {
+      "id": 1129,
+      "text": "Franklin believed that doing someone a kindness makes them more likely to help you in the future.",
+      "checksum": "b09a6ce1"
+    },
+    {
+      "id": 1130,
+      "text": "Franklin was appointed postmaster of Philadelphia in 1737 by Colonel Spotswood.",
+      "checksum": "1665bbdb"
+    },
+    {
+      "id": 1131,
+      "text": "Franklin's postmaster position improved his newspaper's circulation and advertising revenue considerably.",
+      "checksum": "f9b3fee0"
+    },
+    {
+      "id": 1132,
+      "text": "Franklin's competitor's newspaper declined after Franklin became postmaster.",
+      "checksum": "8a830281"
+    },
+    {
+      "id": 1133,
+      "text": "Franklin valued punctuality and clarity in accounting and financial remittances.",
+      "checksum": "0bf07311"
+    }
+  ]
+}

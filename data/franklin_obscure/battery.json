@@ -1,0 +1,739 @@
+{
+  "metadata": {
+    "total": 80,
+    "subject": "Benjamin Franklin",
+    "source": "Complete Works Vol 2 (public domain, Project Gutenberg #48137) - Private Letters and Essays only",
+    "training_lines": "1-6744 (scientific letters, meteorology, waterspouts, evaporation, oil on water, swimming, tides, heat conduction, earth theory, magnetism, navigation, hygrometry)",
+    "held_out_lines": "6745+ (Pennsylvania fireplace, smoky chimneys, inoculation, lead poisoning, life/death, population theory, political economy, criminal law, toleration, music, language reform, alphabet scheme, education)",
+    "tiers": {
+      "recall": 10,
+      "inferential": 10,
+      "behavioral_prediction": 40,
+      "adversarial_abstention": 10,
+      "boundary_probing": 10
+    },
+    "categories": ["scientific_method", "reasoning_style", "advice_giving", "relationships", "values", "problem_solving", "persuasion", "humility", "practical_invention", "political_philosophy"]
+  },
+  "questions": [
+    {
+      "id": 1,
+      "tier": "recall",
+      "category": "scientific_method",
+      "text": "In Franklin's letter to Dr. Perkins comparing waterspouts and whirlwinds, what specific evidence from a Nantucket whaleman did he use to argue that waterspouts draw wind inward from all sides, just like whirlwinds?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Three whaling vessels becalmed in a triangle formation all observed that when a waterspout appeared near the middle, the wind blew toward the spout from each vessel -- i.e. the spout was to leeward of every vessel simultaneously, proving inward-blowing winds as with whirlwinds."
+    },
+    {
+      "id": 2,
+      "tier": "recall",
+      "category": "practical_invention",
+      "text": "What specific household object did Franklin accidentally turn into a hygrometer, and how did it behave differently in England versus America?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "A mahogany box made by Mr. Nairne to hold artificial magnets. In England the magnets slid freely and rattled; in America the box shrank so tight the magnets couldn't be removed. The shutter became too long for its grooves in America and had to have sealing wax added in England. Franklin concluded American air was drier than English air."
+    },
+    {
+      "id": 3,
+      "tier": "recall",
+      "category": "reasoning_style",
+      "text": "In his letter on cold produced by evaporation, what specific analogy did Franklin use to explain how clothing keeps the body warm, and what was his key insight about the mechanism?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Franklin compared the body to a chimney with constant fuel supply -- clothing does not give warmth but prevents the too quick dissipation of heat produced by the body, occasioning an accumulation. Wool is preferred to linen because wool is a worse conductor of heat. The key insight is that clothing works by being a bad conductor, not by providing warmth."
+    },
+    {
+      "id": 4,
+      "tier": "recall",
+      "category": "advice_giving",
+      "text": "What was Franklin's specific egg-based method for teaching someone to swim, and what psychological principle did it rely on?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Walk into gradually deepening water, throw an egg between you and shore in water deep enough to require diving. Plunge toward the egg with eyes open. The principle: the water buoys you up against your inclination, making you feel its supporting power, thereby building confidence. Franklin argued confidence in the water's support was more important than learning the stroke."
+    },
+    {
+      "id": 5,
+      "tier": "recall",
+      "category": "scientific_method",
+      "text": "What specific observation about a ship's lamp during a sea voyage led Franklin to investigate the effect of oil on water, and what was peculiar about the behavior he noticed?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "An Italian lamp he made with oil floating on water in a glass tumbler. The oil surface was perfectly tranquil, but the water beneath was in great commotion with irregular waves. When the oil was spent and only water remained, the water became perfectly still. Adding oil again resumed the agitation. The oil transferred its tranquility from the water to itself."
+    },
+    {
+      "id": 6,
+      "tier": "recall",
+      "category": "relationships",
+      "text": "In Franklin's letter to Miss Stephenson about tides in rivers, how did he end the letter, and what did this reveal about his relationship with her?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "After writing six folio pages of philosophy to a young girl, he noted that the letter itself was a compliment -- it said she had a mind thirsty after knowledge and capable of receiving it. He said he was naturally awkward at ceremony and would rather conclude abruptly with what pleased him more than any compliment: being allowed to subscribe himself her affectionate friend."
+    },
+    {
+      "id": 7,
+      "tier": "recall",
+      "category": "humility",
+      "text": "What specific self-criticism did Franklin offer in his letter to Dr. Perkins about his approach to science, and what did he say he envied in Perkins?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Franklin confessed he had 'too strong a penchant to the building of hypotheses' which 'indulge my natural indolence.' He wished he had more of Perkins's 'patience and accuracy in making observations, on which alone true philosophy can be founded.'"
+    },
+    {
+      "id": 8,
+      "tier": "recall",
+      "category": "problem_solving",
+      "text": "What specific experiment did Franklin conduct while riding on horseback in Maryland with Colonel Tasker, and what was Tasker's humorous response?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Franklin followed a whirlwind on horseback, riding close by its side, and tried to break it by striking his whip frequently through it -- without effect. He followed it three quarters of a mile into woods until falling tree limbs made it dangerous. Colonel Tasker said: 'No, not at all common, but we got this on purpose to treat Mr. Franklin.'"
+    },
+    {
+      "id": 9,
+      "tier": "recall",
+      "category": "scientific_method",
+      "text": "What theological argument did Franklin use in his waterspout letter to explain why rain is never salt, even though waterspouts lift seawater?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Franklin argued that 'it has pleased the goodness of God so to order it, that the particles of air will not attract the particles of salt, though they strongly attract water.' He reasoned that if air could hold salt, all rains would be salt and every tree and plant would be destroyed. 'He who hath proportioned and given proper qualities to all things, was not unmindful of this. Let us adore HIM with praise and thanksgiving!'"
+    },
+    {
+      "id": 10,
+      "tier": "recall",
+      "category": "values",
+      "text": "What specific prudential lesson did Franklin draw from the study of insects, and what example from Sweden did he use to illustrate it?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Franklin argued knowledge of insects can be practically useful, citing Linnaeus who discovered ship-timber worms came from beetle eggs laid in a specific two-week window in May. By submerging all green timber in water during that period, the species was destroyed and the wood preserved. But Franklin added there is a 'prudent moderation' -- the knowledge of nature must not cause us to neglect 'essential duties' of being a good parent, friend, citizen, etc."
+    },
+    {
+      "id": 11,
+      "tier": "inferential",
+      "category": "reasoning_style",
+      "text": "Based on how Franklin responds to Dr. Perkins's objections about waterspouts, what can we infer about his general approach to scientific disagreement?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Franklin treats objections as gifts: 'Nothing certainly, can be more improving to a searcher into nature, than objections judiciously made to his opinion.' He acknowledges his hypothesis may be wrong, says he'll consider Perkins's alternative, and presents his own reasoning modestly. He also admits when his chain of thought is broken by business. Pattern: He views science as collaborative truth-seeking, not adversarial debate."
+    },
+    {
+      "id": 12,
+      "tier": "inferential",
+      "category": "problem_solving",
+      "text": "Given Franklin's approach to understanding the effect of oil on water -- from the lamp observation to systematic experiments -- what can we infer about his general method of investigating natural phenomena?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Franklin starts with accidental observation (lamp at sea), connects it to historical knowledge (Pliny), gathers anecdotes from practitioners (sea captain, Bermudians), then designs controlled experiments (pouring oil on Clapham pond). He moves from observation to ancient learning to practical knowledge to experiment. He also notes that those 'slightly acquainted' attempt explanations too readily, while those 'more deeply skilled' wonder and promise to consider."
+    },
+    {
+      "id": 13,
+      "tier": "inferential",
+      "category": "advice_giving",
+      "text": "Considering how Franklin writes to Miss Stephenson across multiple letters on topics from tides to insects to barometers, what can we infer about his philosophy of education?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Franklin teaches by connecting everyday observations to scientific principles (barometer through keyhole, tide as wave on a rope, cloth colors in sun). He encourages her questions, defers fact-checking before theorizing (Bristol waters), and values useful application ('What signifies philosophy that does not apply to some use?'). He treats her as intellectually capable, not condescending. Education should make knowledge applicable to life."
+    },
+    {
+      "id": 14,
+      "tier": "inferential",
+      "category": "humility",
+      "text": "From Franklin's exchange with Cadwallader Colden about the nature of attraction and repulsion, what can we infer about how Franklin handles concepts he cannot fully explain?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Franklin openly says: 'I agree with you, that it seems absurd to suppose that a body can act where it is not. I have no idea of bodies at a distance attracting or repelling one another without the assistance of some medium, though I know not what that medium is.' He uses words like 'attraction' and 'repulsion' to express effects he sees, not causes he understands. Pattern: comfortable with partial knowledge, honest about the limits of his understanding."
+    },
+    {
+      "id": 15,
+      "tier": "inferential",
+      "category": "persuasion",
+      "text": "Based on Franklin's letter on vis inertiae to Mr. Hopkinson, what can we infer about how he handles disagreement with published authorities?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Franklin respectfully but thoroughly dismantles the author's argument. He says he 'stumbles at the threshold' and cannot read further because the foundation is flawed. He uses the author's own reasoning to show internal contradictions. He is direct but not hostile. He ends by turning the author's own conclusion against him. Pattern: methodical deconstruction through the author's own logic, not dismissive."
+    },
+    {
+      "id": 16,
+      "tier": "inferential",
+      "category": "scientific_method",
+      "text": "From Franklin's approach to the aurora borealis hypothesis -- where he builds 29 numbered propositions from basic physics to a speculative conclusion -- what can we infer about how he structures theoretical arguments?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Franklin builds theories step by step from accepted principles (heat rarefies air, rises) through intermediate observations (clouds carry electricity, polar ice doesn't conduct) to a speculative conclusion (aurora is electrical discharge from accumulated polar charge). Each step is numbered and explicitly conditional. He admits uncertainty and invites testing. Pattern: scaffold speculation on established facts, making each logical step visible."
+    },
+    {
+      "id": 17,
+      "tier": "inferential",
+      "category": "relationships",
+      "text": "What can we infer about Franklin's attitude toward practical versus theoretical knowledge from his correspondence about saltwater, the earth's composition, and sea coal?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Franklin consistently grounds theories in personal observation -- visiting salt mines with his son, visiting coal mines at Whitehaven, noticing fern impressions in slate. He prefers hypotheses that arise from 'actual observation' and 'a collection of facts.' He tells Soulavie he approves 'your method of philosophising, which proceeds upon actual observation' over his own 'wilds of fancy.' Pattern: theory should serve observation, not replace it."
+    },
+    {
+      "id": 18,
+      "tier": "inferential",
+      "category": "practical_invention",
+      "text": "Based on Franklin's multiple maritime observations -- about oil on water, anchoring in swells, abandoned vessels, divided hulls, and swimming anchors -- what can we infer about his philosophy of invention?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Franklin identifies practical problems from observation (cables break at hawse-hole, sailors abandon ships that would float), proposes simple mechanical solutions (pulley wheel, bunging empty casks), and draws on cross-cultural knowledge (Chinese divided hulls, Bermudian sloops). He notes that useful practices exist among 'savages' that Europeans ignore out of pride. Pattern: practical improvement should draw from all sources and prioritize simplicity."
+    },
+    {
+      "id": 19,
+      "tier": "inferential",
+      "category": "values",
+      "text": "From Franklin's discussion of damp vs. cold air, and his correction of the 'gentleman in Connecticut' about water dissolving in air, what can we infer about how he handles being right when others are wrong?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Franklin addresses the Connecticut gentleman's objections point by point, without condescension. He says 'the supposing a mutual attraction between the particles of water and air is not introducing a new law of nature' -- gently correcting the objection that he was over-complicating things. He uses experiments anyone can replicate (soap bubbles, cold water on a bottle). Pattern: makes the other person feel their objection was reasonable while still correcting it."
+    },
+    {
+      "id": 20,
+      "tier": "inferential",
+      "category": "reasoning_style",
+      "text": "What can we infer about Franklin's epistemological stance from the fact that he labels his scientific papers 'Conjectures and Suppositions' and tells Dr. Perkins 'Whatever I have wrote of that kind, are really, as they are entitled, but Conjectures and Suppositions; which ought always to give place, when careful observation militates against them'?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Franklin holds theories lightly and sees them as provisional tools, not final truths. He believes observation trumps theory. He is genuinely uncertain rather than performing modesty -- he says he has 'too strong a penchant to the building of hypotheses' as a real fault. Pattern: epistemic humility is not social politeness but a genuine intellectual commitment."
+    },
+    {
+      "id": 21,
+      "tier": "behavioral_prediction",
+      "category": "practical_invention",
+      "text": "In the training text, Franklin shows a pattern of analyzing existing technologies by comparing their advantages and disadvantages systematically (e.g., his analysis of waterspout theories, comparing ascending vs. descending models point by point). If he were to evaluate different methods of heating a room, how would he structure the analysis?",
+      "held_out_passage": "In these northern colonies the inhabitants keep fires to sit by generally seven months in the year... As therefore so much of the comfort and conveniency of our lives, for so great a part of the year, depends on the article of fire; since fuel is become so expensive... any new proposal for saving the wood, and for lessening the charge, and augmenting the benefit of fire, by some particular method of making and managing it, may at least be thought worth consideration.",
+      "held_out_chapter": "Pennsylvania Fire-Places",
+      "notes": "Franklin evaluates six types of fire-places: large open fires, narrow-breast chimneys, Gauger's hollow-back, Holland stoves, German stoves, and charcoal pots. For each he lists conveniencies and inconveniencies. Exactly the systematic comparison pattern from his scientific letters."
+    },
+    {
+      "id": 22,
+      "tier": "behavioral_prediction",
+      "category": "persuasion",
+      "text": "In the training text, Franklin consistently addresses objections to his theories by restating the objection fairly before responding (e.g., his treatment of Perkins's waterspout objections). If he anticipated people would object to one of his inventions, how would he handle it?",
+      "held_out_passage": "There are some objections commonly made by people that are unacquainted with these fire-places, which it may not be amiss to endeavour to remove, as they arise from prejudices which might otherwise obstruct, in some degree, the general use of this beneficial machine. We frequently hear it said, They are of the nature of Dutch stoves; stoves have an unpleasant smell; stoves are unwholesome; and, warm rooms make people tender, and apt to catch cold.",
+      "held_out_chapter": "Pennsylvania Fire-Places",
+      "notes": "Franklin lists four common objections and addresses each one in turn with evidence and reasoning. Same pattern as his scientific correspondence: state the objection fairly, then dismantle it methodically."
+    },
+    {
+      "id": 23,
+      "tier": "behavioral_prediction",
+      "category": "scientific_method",
+      "text": "In the training text, Franklin uses simple, reproducible demonstrations to explain complex phenomena (e.g., throwing a stone in a pond to explain wave motion, swinging a tumbler with oil and water). If he needed to explain how chimneys work to a general audience, what kind of demonstrations would he propose?",
+      "held_out_passage": "Having lit a pipe of tobacco, plunge the stem to the bottom of a decanter half filled with cold water; then putting a rag over the bowl, blow through it and make the smoke descend in the stem of the pipe, from the end of which it will rise in bubbles through the water; and being thus cooled, will not afterwards rise to go out through the neck of the decanter, but remain spreading itself and resting on the surface of the water. This shows that smoke is really heavier than air.",
+      "held_out_chapter": "Smoky Chimneys",
+      "notes": "Franklin proposes a simple tobacco pipe experiment, then a glass tube with silk thread and warm/cold iron. Same approach as training text: use everyday objects to demonstrate principles anyone can replicate."
+    },
+    {
+      "id": 24,
+      "tier": "behavioral_prediction",
+      "category": "humility",
+      "text": "In the training text, Franklin tells Miss Stephenson he will not explain the Bristol waters until he knows the facts are correct, citing a woman's anecdote about the 'Chinese shoe.' When faced with a problem he genuinely cannot solve despite his expertise, how would Franklin respond?",
+      "held_out_passage": "In fine, after every other examination I could think of, I was obliged to own the insufficiency of my skill. But my friend, who made no pretension to such kind of knowledge, afterwards discovered the cause himself. He got to the top of the funnel by a ladder, and looking down, found it filled with twigs and straw cemented by earth, and lined with feathers.",
+      "held_out_chapter": "Smoky Chimneys",
+      "notes": "Franklin openly admits defeat -- 'I was obliged to own the insufficiency of my skill' -- and credits the untrained friend who solved the problem. Same pattern of epistemic humility from the training text."
+    },
+    {
+      "id": 25,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "In the training text, Franklin argues against excessive theoretical complexity and favors simple explanations grounded in observation. If he encountered pretenders who used complex but wrong solutions for a common practical problem, how would he characterize them?",
+      "held_out_passage": "I have not yet, indeed, thought of a remedy for luxury... With all the science, however, that a man shall suppose himself possessed of in this article, he may sometimes meet with cases that shall puzzle him... At present they have generally but one remedy, which perhaps they have known effectual in some one case of smoky chimneys, and they apply that indiscriminately to all the other cases, without success, but not without expence to their employers.",
+      "held_out_chapter": "Smoky Chimneys",
+      "notes": "Franklin mocks 'fumists' (chimney doctors) who apply one remedy to all problems. He calls out the gap between claimed and actual expertise. Same pattern as his skepticism of theoretical physicists who build on unverified foundations."
+    },
+    {
+      "id": 26,
+      "tier": "behavioral_prediction",
+      "category": "reasoning_style",
+      "text": "In the training text, Franklin consistently uses familiar analogies to explain abstract principles (canal gate for northeast storms, ship motion for relative wind, etc.). If he needed to explain why some chimneys smoke, what kind of analogies would he use?",
+      "held_out_passage": "Suppose a long canal of water stopped at the end by a gate... Now if a person standing at E, and observing at the time of high water there, that the canal is quite full... he would be greatly mistaken... In fact, no form of the funnel of a chimney has any share in its operation or effect respecting smoke, except its height.",
+      "held_out_chapter": "Smoky Chimneys",
+      "notes": "Franklin compares chimney draft to a siphon, an air pump receiver, and uses the same canal/gate analogy from the training text. He also proposes glass model rooms where chimney behavior can be directly observed -- same preference for visual, tangible demonstration."
+    },
+    {
+      "id": 27,
+      "tier": "behavioral_prediction",
+      "category": "advice_giving",
+      "text": "In the training text, Franklin advises Miss Stephenson on tides, barometers, and insects with a combination of scientific rigor and personal warmth, always connecting knowledge to practical use. If he were advising a young woman on how to read and study, what would he emphasize?",
+      "held_out_passage": "I would advise you to read with a pen in your hand, and enter in a little book short hints of what you find, that is curious, or that may be useful; for this will be the best method of imprinting such particulars in your memory, where they will be ready, either for practice on some future occasion, if they are matters of utility, or at least to adorn and improve your conversation.",
+      "held_out_chapter": "Advice to Youth in Reading (Miss Stephenson)",
+      "notes": "Franklin recommends active reading with notes, a dictionary at hand, and reassures her that asking questions is no trouble. Same warm, intellectually respectful tone as his scientific letters to her."
+    },
+    {
+      "id": 28,
+      "tier": "behavioral_prediction",
+      "category": "persuasion",
+      "text": "In the training text, Franklin praises Miss Stephenson for dropping a point in conversation even when she was right, and recommends Pope's rule 'To speak, though sure, with seeming diffidence.' If he were advising on the proper manner of disputation, what principle would he articulate?",
+      "held_out_passage": "There are few, though convinced, that know how to give up, even an error, they have been once engaged in maintaining; there is therefore the more merit in dropping a contest where one thinks one's self right; it is at least respectful to those we converse with. And indeed all our knowledge is so imperfect, and we are from a thousand causes so perpetually subject to mistake and error, that positiveness can scarce ever become even the most knowing.",
+      "held_out_chapter": "Modesty in Disputation (Miss Stephenson)",
+      "notes": "Franklin argues modesty is more likely to procure assent than positiveness. Same principle as his waterspout letters where he says 'your manner of accommodating the accounts to your hypothesis is, I own, ingenious, and perhaps that hypothesis may be true.'"
+    },
+    {
+      "id": 29,
+      "tier": "behavioral_prediction",
+      "category": "problem_solving",
+      "text": "In the training text, Franklin notes that sailors have practical knowledge that educated people dismiss (e.g., wetting a finger to find wind direction, Bermudians using oil to calm water for fish-striking). If he discovered that professional architects were making chimneys based on symmetry rather than function, how would he react?",
+      "held_out_passage": "Architects in general have no other ideas of proportion in the opening of a chimney, than what relate to symmetry and beauty, respecting the dimensions of the room; while its true proportion, respecting its function and utility depends on quite other principles; and they might as properly proportion the step in a stair-case to the height of the story, instead of the natural elevation of men's legs in mounting.",
+      "held_out_chapter": "Smoky Chimneys",
+      "notes": "Franklin criticizes architects for prioritizing appearance over function, using a sharp analogy (stair steps proportioned to room height instead of human legs). Same pattern of valuing practical knowledge over theoretical elegance."
+    },
+    {
+      "id": 30,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "In the training text, Franklin confesses to his 'natural indolence' and expresses appreciation for others' patience in observation. He also admits that amusements like magic squares, 'though I still think I might have employed more usefully,' gave him skills. If he were writing about intellectual amusements, how would he justify them?",
+      "held_out_passage": "I said, it was, perhaps, a mark of the good sense of our English mathematicians, that they would not spend their time in things that were merely difficiles nugae, incapable of any useful application. He answered, that many of the arithmetical or mathematical questions, publicly proposed and answered in England, were equally trifling and useless. Perhaps the considering and answering such questions, I replied, may not be altogether useless, if it produces by practice an habitual readiness and exactness in mathematical disquisitions.",
+      "held_out_chapter": "Magical Square of Squares (Peter Collinson)",
+      "notes": "Franklin initially dismisses magic squares as useless, then concedes they may build useful skills. He admits he made them in his youth as leisure amusement. Same ambivalence about pure vs. applied knowledge from his training-text letters."
+    },
+    {
+      "id": 31,
+      "tier": "behavioral_prediction",
+      "category": "practical_invention",
+      "text": "In the training text, Franklin designs experiments to be simple, cheap, and reproducible (e.g., using a tumbler and pack-thread to demonstrate oil-water behavior). If he invented a stove, would he patent it for personal profit?",
+      "held_out_passage": "The author's description of his Pensylvania fireplace, first published in 1744, having fallen into the hands of workmen in Europe, who did not, it seems, well comprehend the principles of that machine, it was much disfigured in their imitations of it; and one of its main intentions, that of admitting a sufficient quantity of fresh air warmed in entering through the air-box, nearly defeated, by a pretended improvement.",
+      "held_out_chapter": "Stove for burning Pitcoal",
+      "notes": "Franklin published his fireplace design freely (no patent). Others obtained patents on his work and claimed 'improvements' that actually defeated the design's purpose. He warns against such pretended improvements rather than seeking legal protection. Consistent with his values of practical benefit over personal profit."
+    },
+    {
+      "id": 32,
+      "tier": "behavioral_prediction",
+      "category": "scientific_method",
+      "text": "In the training text, Franklin revises his own positions when evidence demands it (e.g., acknowledging Perkins's descent theory for waterspouts 'may be true'). If confronted with evidence that his long-held fear of cold air and dampness was unfounded, how would he respond?",
+      "held_out_passage": "I myself had formerly this prejudice, this aerophobia, as I now account it, and dreading the supposed dangerous effects of cool air, I considered it as an enemy, and closed with extreme care every crevice in the rooms I inhabited. Experience has convinced me of my error. I now look upon fresh air as a friend: I even sleep with an open window.",
+      "held_out_chapter": "Smoky Chimneys (Dr. Ingenhausz)",
+      "notes": "Franklin coins 'aerophobia,' openly admits his former error, and changes his behavior completely. He connects it to broader medical progress: 'You physicians have of late happily discovered... that fresh and cool air does good to persons in the small pox.' Same willingness to update beliefs from the training text."
+    },
+    {
+      "id": 33,
+      "tier": "behavioral_prediction",
+      "category": "political_philosophy",
+      "text": "In the training text, Franklin argues that natural phenomena follow simple, universal laws (e.g., air pressure explains both waterspouts and chimneys). If he were to analyze the causes of poverty, would he blame individual character or systemic design?",
+      "held_out_passage": "I think the best way of doing good to the poor, is, not making them easy in poverty, but leading or driving them out of it. In my youth I travelled much, and I observed in different countries, that the more public provisions were made for the poor, the less they provided for themselves, and of course became poorer.",
+      "held_out_chapter": "On the Price of Corn (as Arator)",
+      "notes": "Franklin frames poverty as a systemic problem -- poor laws create dependency by removing 'the greatest of all inducements to industry.' Same systems-thinking pattern as his scientific work: identify the mechanism, not the moral failing."
+    },
+    {
+      "id": 34,
+      "tier": "behavioral_prediction",
+      "category": "persuasion",
+      "text": "In the training text, Franklin uses persona and voice strategically (writing as a natural philosopher, a correspondent, an inventor). If he wanted to argue for farmers' interests against public sentiment, what rhetorical strategy would he use?",
+      "held_out_passage": "I am one of that class of people, that feeds you all, and at present is abused by you all;--in short, I am a farmer... Are we farmers the only people to be grudged the profits of our honest labour?",
+      "held_out_chapter": "On the Price of Corn (as Arator)",
+      "notes": "Franklin adopts the persona of a farmer (Arator) to argue against corn export prohibition. He uses the farmer's plain-spoken voice, sarcasm, and reductio ad absurdum. Same strategic use of voice as his scientific correspondence where he modulates tone for audience."
+    },
+    {
+      "id": 35,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "In the training text, Franklin values cross-cultural knowledge (citing Chinese, Eastern, Pacific Islander practices). If writing about government regulation of trade, would he favor regulation or free commerce?",
+      "held_out_passage": "Perhaps, in general, it would be better if government meddled no farther with trade, than to protect it, and let it take its course. Most of the statutes or acts, edicts, arrets, and placarts of parliaments, princes, and states, for regulating, directing, or restraining of trade, have, we think, been either political blunders, or jobs obtained by artful men, for private advantage, under pretence of public good.",
+      "held_out_chapter": "Political Fragments - Of an open Trade",
+      "notes": "Franklin strongly favors free trade, citing the French maxim 'Laissez nous faire.' He argues trade regulation is mostly 'political blunders' or corruption disguised as public good. Consistent with his general suspicion of institutional pretension and preference for natural self-organizing systems."
+    },
+    {
+      "id": 36,
+      "tier": "behavioral_prediction",
+      "category": "reasoning_style",
+      "text": "In the training text, Franklin uses the principle 'what signifies philosophy that does not apply to some use?' to draw practical conclusions from scientific observations (cloth colors, swimming, evaporation). If writing about luxury and indolence, how would he use a concrete anecdote to make his point?",
+      "held_out_passage": "The skipper of a shallop, employed between Cape-May and Philadelphia, had done us some small service, for which he refused to be paid. My wife, understanding that he had a daughter, sent her a present of a new-fashioned cap. Three years after, this skipper being at my house with an old farmer of Cape-May, his passenger, he mentioned the cap, and how much his daughter had been pleased with it. 'But (said he) it proved a dear cap to our congregation.'",
+      "held_out_chapter": "On Luxury, Idleness, and Industry (Vaughan)",
+      "notes": "Franklin uses the cap story to argue that luxury can stimulate industry -- one cap inspired a whole congregation to work harder to afford similar goods. Same pattern of grounding abstract arguments in vivid, specific anecdotes."
+    },
+    {
+      "id": 37,
+      "tier": "behavioral_prediction",
+      "category": "political_philosophy",
+      "text": "In the training text, Franklin appeals to Providence when explaining natural design (salt not rising with water as God's kindness). If writing about criminal punishment, would he favor proportional or deterrent sentencing?",
+      "held_out_passage": "Is there any proportion between the injury done by a theft, value fourteen shillings and three-pence, and the punishment of a human creature, by death, on a gibbet? Might not that woman, by her labour, have made the reparation ordained by God, in paying fourfold? Is not all punishment, inflicted beyond the merit of the offence, so much punishment of innocence?",
+      "held_out_chapter": "On Criminal Laws and Privateering (Vaughan)",
+      "notes": "Franklin argues passionately for proportional punishment, calling excessive punishment 'punishment of innocence.' He cites Montesquieu. Same appeal to natural justice and divine order as in his scientific letters about Providence's design of nature."
+    },
+    {
+      "id": 38,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "In the training text, Franklin observes that 'savages' have superior boat-sailing skills and that the Chinese have useful practices Europeans ignore. If addressing the question of whether privateering (state-sanctioned piracy) is moral, how would he frame it?",
+      "held_out_passage": "A highwayman is as much a robber when he plunders in a gang, as when single; and a nation, that makes an unjust war, is only a great gang. After employing your people in robbing the Dutch, strange is it, that, being put out of that employ by peace, they still continue robbing, and rob one another?",
+      "held_out_chapter": "On Criminal Laws and Privateering (Vaughan)",
+      "notes": "Franklin equates national privateering with common robbery, and argues the state's example corrupts individuals. He cites a Quaker merchant who returned prize money as restitution. Same moral directness and willingness to challenge national self-regard."
+    },
+    {
+      "id": 39,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "In the training text, Franklin wrote long, detailed scientific letters to friends at great distance and apologized for delays. If writing to a friend about fire safety in their shared city, how would he handle the sensitive topic of telling the friend what to do?",
+      "held_out_passage": "Excuse me, Messieurs the Public, if upon this interesting subject, I put you to the trouble of reading a little of my nonsense... It appears to me of great importance, to build our dwelling houses, if we can, in a manner more secure from danger by fire... Excuse my talking to you on a subject with which you must be so much better acquainted than I am.",
+      "held_out_chapter": "Covering Houses with Copper (Samuel Rhoads)",
+      "notes": "Franklin is deferential despite clearly being the expert. He says 'I know your judgment has deservedly great weight' and frames his detailed recommendations as thinking aloud rather than instructing. Same pattern of diplomatic humility from his scientific correspondence."
+    },
+    {
+      "id": 40,
+      "tier": "behavioral_prediction",
+      "category": "scientific_method",
+      "text": "In the training text, Franklin tracks a single observation across decades and multiple correspondences (oil on water from 1757 fleet to 1773 Derwent Lake experiment). If he noticed a public health pattern early in life, would he follow it systematically over decades?",
+      "held_out_passage": "The first thing I remember of this kind was a general discourse in Boston when I was a boy, of a complaint from North Carolina against New-England rum, that it poisoned their people, giving them the dry-belly-ach, with a loss of the use of their limbs... you will observe with concern how long a useful truth may be known and exist, before it is generally received and practised on.",
+      "held_out_chapter": "Effects of Lead (Benjamin Vaughan)",
+      "notes": "Franklin traces lead poisoning from boyhood Boston through London printing houses, Derbyshire furnaces, American rooftops, and Paris hospitals -- spanning 60+ years. He notes 'how long a useful truth may be known and exist, before it is generally received.' Same persistent, decades-long tracking of phenomena from his scientific work."
+    },
+    {
+      "id": 41,
+      "tier": "behavioral_prediction",
+      "category": "reasoning_style",
+      "text": "In the training text, Franklin explains northeast storms by analogy to a canal gate and a chimney fire. If he encountered the paradox of warm rooms supposedly causing colds, how would he reason about it?",
+      "held_out_passage": "If sitting warm in a room made one subject to take cold on going out, lying warm in bed, should by a parity of reason, produce the same effect when we rise. Yet we find we can leap out of the warmest bed naked, in the coldest morning, without any such danger.",
+      "held_out_chapter": "Pennsylvania Fire-Places",
+      "notes": "Franklin uses a simple counter-analogy (warm bed to cold morning) to demolish the conventional wisdom. He then cites northern nations whose stove-warmed soldiers are hardier than English ones. Same technique of using simple, irrefutable comparisons from his scientific letters."
+    },
+    {
+      "id": 42,
+      "tier": "behavioral_prediction",
+      "category": "practical_invention",
+      "text": "In the training text, Franklin divides vanes into smaller pieces to test whether splitting a sail would reduce air resistance while maintaining wind force. If he discovered that a principle from one domain (cooking) could improve another (sailing), would he make the connection?",
+      "held_out_passage": "Having near my kitchen chimney a round hole of eight inches diameter, through which was a constant steady current of air... I contrived to place my jack so as to receive that current; and taking off the flyers, I fixed in their stead on the same pivot a round tin plate... having cut it in radial lines almost to the centre, so as to have six equal vanes... I cut each of them into two, and I placed the twelve, each having the same obliquity, in a line behind each other, when I perceived a great augmentation in its velocity.",
+      "held_out_chapter": "Sundry Maritime Observations",
+      "notes": "Franklin's kitchen jack experiment (dividing six vanes into 24) directly inspired his proposal for divided sails on boats. Cross-domain transfer from cooking to navigation. Same inventive pattern of applying one domain's insight to another."
+    },
+    {
+      "id": 43,
+      "tier": "behavioral_prediction",
+      "category": "political_philosophy",
+      "text": "In the training text, Franklin notes that population data from cities cannot be applied to countries, and European data cannot be applied to America. If writing about population growth, would he argue for natural increase or immigration?",
+      "held_out_passage": "Hence marriages in America are more general, and more generally early, than in Europe... our people must at least be doubled every twenty years... it will require many ages to settle it fully, and till it is fully settled, labour will never be cheap here, where no man continues long a labourer for others, but gets a plantation of his own.",
+      "held_out_chapter": "Increase of Mankind",
+      "notes": "Franklin argues that America's population grows primarily through natural increase driven by cheap land and easy marriage, not immigration. He notes that 30 years of German and Irish immigration hasn't lowered labor costs. Same empirical, systems-level reasoning as his scientific work."
+    },
+    {
+      "id": 44,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "In the training text, Franklin argues that 'it has pleased the goodness of God' to make air not attract salt, protecting all life. If he encountered the doctrine that only possessors of religious truth may persecute error, how would he respond?",
+      "held_out_passage": "If we look back into history for the character of the present sects in Christianity, we shall find few that have not, in their turns, been persecutors and complainers of persecution... Persecution was therefore not so much the fault of the sect as of the times... We should then cease to reproach each other with what was done by our ancestors, but judge of the present character of sects or churches by their present conduct only.",
+      "held_out_chapter": "Letter concerning Persecution",
+      "notes": "Franklin refuses to condemn any sect uniquely, arguing persecution was universal and temporal, not inherent to any group. He judges by present conduct, not historical grievance. Same tolerance and empiricism as his scientific approach."
+    },
+    {
+      "id": 45,
+      "tier": "behavioral_prediction",
+      "category": "persuasion",
+      "text": "In the training text, Franklin writes a biblical-style parable about Abraham driving out a stranger who worships a different god. Given his pattern of using unexpected forms to make moral arguments, what genre would he choose for a tolerance argument?",
+      "held_out_passage": "And God said, Have I borne with him these hundred and ninety and eight years, and nourished him, and clothed him, notwithstanding his rebellion against me, and couldst not thou, who art thyself a sinner, bear with him one night?",
+      "held_out_chapter": "Parable against Persecution",
+      "notes": "Franklin wrote a fake chapter of Genesis to argue for religious tolerance, and reportedly imposed it on friends as actual scripture. The parable uses God's own voice to rebuke intolerance. Same creative use of unexpected literary forms for moral argument."
+    },
+    {
+      "id": 46,
+      "tier": "behavioral_prediction",
+      "category": "advice_giving",
+      "text": "In the training text, Franklin writes detailed technical instructions for Miss Stephenson while maintaining warmth and intellectual respect. If designing a curriculum for an English school, would he emphasize classical languages or practical skills?",
+      "held_out_passage": "Thus instructed, youth will come out of this school fitted for learning any business, calling, or profession, except such wherein languages are required: and, though unacquainted with any ancient or foreign tongue, they will be masters of their own, which is of more immediate and general use.",
+      "held_out_chapter": "Sketch of an English School",
+      "notes": "Franklin designs a curriculum centered on English mastery, practical writing, history, and reasoning -- explicitly de-prioritizing Latin and Greek. Same emphasis on practical utility over ornamental learning that characterizes his scientific correspondence."
+    },
+    {
+      "id": 47,
+      "tier": "behavioral_prediction",
+      "category": "reasoning_style",
+      "text": "In the training text, Franklin complains about 'improvements backwards' in printing that reduce clarity for the sake of aesthetics. If criticizing modern music, would he focus on technical virtuosity or communicative clarity?",
+      "held_out_passage": "I send you inclosed the song with its music at length. Read the words without the repetitions. Observe how few they are, and what a shower of notes attend them: you will then perhaps be inclined to think with me, that though the words might be the principal part of an ancient song, they are of small importance in a modern one; they are in short only a pretence for singing.",
+      "held_out_chapter": "On the Defects of Modern Music",
+      "notes": "Franklin catalogs six defects in modern music (screaming, stuttering, drawling, tautology, unintelligibility, inarticulation) all centering on loss of clarity. He compares wigs imitating hair to voices imitating instruments. Same priority on communication over ornamentation."
+    },
+    {
+      "id": 48,
+      "tier": "behavioral_prediction",
+      "category": "practical_invention",
+      "text": "In the training text, Franklin proposes that empty water casks should be bunged and placed to prevent ships from sinking, noting the Chinese practice of divided hulls. If he observed that fuel scarcity could be addressed by better stove design, would he think about societal-level implications?",
+      "held_out_passage": "We leave it to the political arithmetician to compute how much money will be saved to a country, by its spending two-thirds less of fuel; how much labour saved in cutting and carriage of it; how much more land may be cleared by cultivation; how great the profit by the additional quantity of work done.",
+      "held_out_chapter": "Pennsylvania Fire-Places",
+      "notes": "Franklin immediately scales up from individual household savings to national economic impact: fuel savings, labor freed, land cleared, public health improved. Same systems thinking as his maritime observations about divided hulls saving entire navies."
+    },
+    {
+      "id": 49,
+      "tier": "behavioral_prediction",
+      "category": "scientific_method",
+      "text": "In the training text, Franklin hypothesizes about the earth's interior based on observations at coal mines and salt mines he personally visited. If speculating about life and death, would he use observations from nature to challenge conventional assumptions?",
+      "held_out_passage": "I have seen an instance of common flies preserved in a manner somewhat similar. They had been drowned in Madeira wine, apparently about the time when it was bottled in Virginia... At the opening of one of the bottles... three drowned flies fell into the first glass that was filled. Having heard it remarked, that drowned flies were capable of being revived by the rays of the sun, I proposed making the experiment upon these.",
+      "held_out_chapter": "Observations on Life and Death (Dubourg)",
+      "notes": "Franklin revives drowned flies from Madeira wine to challenge assumptions about death being irreversible. He then whimsically proposes being embalmed in Madeira to be revived a century later. Same empirical curiosity applied to the most fundamental questions."
+    },
+    {
+      "id": 50,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "In the training text, Franklin says he approves Soulavie's method of 'actual observation' over his own 'wilds of fancy.' If writing about the prosperity of nations, would he rely on theory or observed differences between peoples?",
+      "held_out_passage": "Much more of the prosperity of a winter country depends on the plenty and cheapness of fuel, than is generally imagined. In travelling I have observed, that in those parts where the inhabitants can have neither wood nor coal nor turf but at excessive prices, the working people live in miserable hovels, are ragged, and have nothing comfortable about them.",
+      "held_out_chapter": "Smoky Chimneys",
+      "notes": "Franklin draws economic conclusions from personal travel observations, not theory. He connects fuel availability to working hours, comfort, and economic output. He then compares German and English farmers in America to show the economic advantage of fuel efficiency. Same empirical, observational approach."
+    },
+    {
+      "id": 51,
+      "tier": "behavioral_prediction",
+      "category": "political_philosophy",
+      "text": "In the training text, Franklin notes that natural phenomena self-regulate (warm air rises, is replaced by cool, reaches equilibrium). If writing about corn prices and trade restrictions, would he apply the same equilibrium logic?",
+      "held_out_passage": "The price of corn, like water, will find its own level. The more we export, the dearer it becomes at home; the more is received abroad, the cheaper it becomes there; and as soon as these prices are equal, the exportation stops of course.",
+      "held_out_chapter": "Political Fragments",
+      "notes": "Franklin explicitly compares economic equilibrium to physical equilibrium (water finding its level, tide ebbing). Same reasoning pattern: trust natural self-regulation over artificial intervention."
+    },
+    {
+      "id": 52,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "In the training text, Franklin exchanges scientific observations with correspondents across decades, always maintaining warmth despite long gaps. If closing a letter to a lifelong friend while at sea in old age, how would he express the relationship?",
+      "held_out_passage": "I have great pleasure in having thus complied with your request... Our distance from each other is now augmented, and nature must soon put an end to the possibility of my continuing our correspondence: but if consciousness and memory remain in a future state, my esteem and respect for you, my dear friend, will be everlasting.",
+      "held_out_chapter": "Smoky Chimneys (Dr. Ingenhausz)",
+      "notes": "Franklin ends a massive technical letter with a tender reflection on mortality and friendship. He speculates about consciousness after death not as theology but as a condition for continued affection. Same combination of scientific temperament and emotional warmth."
+    },
+    {
+      "id": 53,
+      "tier": "behavioral_prediction",
+      "category": "practical_invention",
+      "text": "In the training text, Franklin notes that 'our seafaring people are brave, despise danger, and reject such precautions of safety, being cowards only in one sense, that of fearing to be thought afraid.' If he found a public health measure resisted by cultural prejudice, how would he frame the resistance?",
+      "held_out_passage": "For many years past, I have rarely met with a case of a smoky chimney, which has not been solvable on these principles, and cured by these remedies, where people have been willing to apply them; which is indeed not always the case; for many have prejudices in favour of the nostrums of pretending chimney-doctors and fumists, and some have conceits and fancies of their own.",
+      "held_out_chapter": "Smoky Chimneys",
+      "notes": "Franklin identifies the real obstacle as human psychology -- people prefer fake experts ('fumists') and their own prejudices over proven solutions. He also notes 'some are as much afraid of fresh air as persons in the hydrophobia are of fresh water.' Same insight about cultural resistance to practical improvement."
+    },
+    {
+      "id": 54,
+      "tier": "behavioral_prediction",
+      "category": "reasoning_style",
+      "text": "In the training text, Franklin numbers his propositions carefully (29 points on aurora borealis, numbered physics principles for waterspouts). If cataloguing the causes of a complex practical problem, would he use the same systematic approach?",
+      "held_out_passage": "The causes of this effect, which have fallen under my observation, amount to nine, differing from each other, and therefore requiring different remedies.",
+      "held_out_chapter": "Smoky Chimneys",
+      "notes": "Franklin identifies exactly nine distinct causes of smoky chimneys, each with its own remedy. Same systematic enumeration as his aurora borealis hypothesis and waterspout physics."
+    },
+    {
+      "id": 55,
+      "tier": "behavioral_prediction",
+      "category": "political_philosophy",
+      "text": "In the training text, Franklin uses the principle that natural systems self-correct (temperature equilibria, atmospheric circulation). If asked whether parliaments produce wise policy, what would he say?",
+      "held_out_passage": "We assemble parliaments and councils, to have the benefit of their collected wisdom; but we necessarily have, at the same time, the inconvenience of their collected passions, prejudices, and private interests. By the help of these, artful men overpower their wisdom, and dupe its possessors: and if we may judge, by the acts, arrets, and edicts, all the world over, for regulating commerce, an assembly of great men is the greatest fool upon earth.",
+      "held_out_chapter": "On Luxury, Idleness, and Industry (Vaughan)",
+      "notes": "Franklin argues that collective bodies amplify both wisdom and folly, with folly usually winning because private interest is more focused than public good. Same skepticism of top-down control that marks his preference for natural self-regulation."
+    },
+    {
+      "id": 56,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "In the training text, Franklin says there are 'three ways for a nation to acquire wealth' and characterizes only agriculture as honest. If asked about the morality of war as a means of national enrichment, how would he characterize it?",
+      "held_out_passage": "There seem to be but three ways for a nation to acquire wealth. The first is by war, as the Romans did, in plundering their conquered neighbours. This is robbery.--The second by commerce, which is generally cheating.--The third by agriculture, the only honest way, wherein man receives a real increase of the seed thrown into the ground, in a kind of continual miracle wrought by the hand of God.",
+      "held_out_chapter": "Positions concerning National Wealth",
+      "notes": "Franklin calls war 'robbery' and commerce 'generally cheating,' reserving honesty for agriculture alone. Same moral directness and willingness to call out national self-interest as in his scientific correspondence."
+    },
+    {
+      "id": 57,
+      "tier": "behavioral_prediction",
+      "category": "problem_solving",
+      "text": "In the training text, Franklin proposes using summer chimney drafts to cool meat by evaporation from wet linen cloths. Given his pattern of finding novel practical applications for natural phenomena, if he noticed chimneys had regular day/night air currents even without fires, what uses would he propose?",
+      "held_out_passage": "This property in chimneys I imagine we might turn to some account, and render improper, for the future, the old saying, as useless as a chimney in summer... if the linen is kept wet, by sprinkling it once a day, the meat would be so cooled by the evaporation, carried on continually by means of the passing air, that it would keep a week or more in the hottest weather.",
+      "held_out_chapter": "Smoky Chimneys (Notes, No. II)",
+      "notes": "Franklin proposes using idle chimneys as refrigerators via evaporative cooling, powering smoke-jack vanes for mechanical work, and ventilating mines. Same inventive leap from observation to practical application seen in his oil-on-water and evaporation work."
+    },
+    {
+      "id": 58,
+      "tier": "behavioral_prediction",
+      "category": "persuasion",
+      "text": "In the training text, Franklin writes to correspondents with very different levels of knowledge (Perkins the doctor, Miss Stephenson the young woman, Colden the philosopher) always calibrating his tone. If writing a letter about inoculation data, how would he balance scientific precision with intellectual humility?",
+      "held_out_passage": "I am indebted for your preceding letter, but business sometimes obliges one to postpone philosophical amusements. Whatever I have wrote of that kind, are really, as they are entitled, but Conjectures and Suppositions; which ought always to give place, when careful observation militates against them. I own I have too strong a penchant to the building of hypotheses.",
+      "held_out_chapter": "Answer to Dr. Perkins on Inoculation",
+      "notes": "Franklin provides precise inoculation numbers (800+ inoculated, 4 deaths), but frames his broader theories as tentative. He genuinely praises the other's observational skills over his own theorizing. Same calibration of confidence to evidence strength."
+    },
+    {
+      "id": 59,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "In the training text, Franklin says 'superior beings smile at our theories, and at our presumption in making them.' If concluding a speculative letter on earth theory, how would he frame the limits of human knowledge?",
+      "held_out_passage": "I will not trouble you at present with my fancies concerning the manner of forming the rest of our system. Superior beings smile at our theories, and at our presumption in making them... You see I have given a loose to imagination; but I approve much more your method of philosophising, which proceeds upon actual observation.",
+      "held_out_chapter": "Theory of the Earth (Abbe Soulavie)",
+      "notes": "This is actually in the training text -- Franklin explicitly values observation over speculation and imagines higher beings amused by human theorizing. The pattern predicts similar epistemic humility in all domains."
+    },
+    {
+      "id": 60,
+      "tier": "behavioral_prediction",
+      "category": "political_philosophy",
+      "text": "In the training text, Franklin argues that a soldier's blind obedience is worse than slavery. If writing about the morality of military obedience, how would he frame the comparison?",
+      "held_out_passage": "A negro slave, in our colonies, being commanded by his master to rob or murder a neighbour, or do any other immoral act, may refuse, and the magistrate will protect him in his refusal. The slavery then of a soldier is worse than that of a negro!",
+      "held_out_chapter": "On Criminal Laws and Privateering",
+      "notes": "Franklin makes the shocking comparison that soldiers have less moral autonomy than enslaved people. He argues that merchants who commission privateers bear moral responsibility for the violence. Same willingness to make uncomfortable moral arguments."
+    },
+    {
+      "id": 61,
+      "tier": "adversarial_abstention",
+      "category": "relationships",
+      "text": "What was Franklin's opinion of George Washington's military leadership during the Revolutionary War?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "The corpus contains no discussion of Washington or Revolutionary War military campaigns. These are scientific, philosophical, and political letters primarily from the 1750s-1780s, not military correspondence."
+    },
+    {
+      "id": 62,
+      "tier": "adversarial_abstention",
+      "category": "values",
+      "text": "What were Franklin's views on the Declaration of Independence and his role in drafting it?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "The corpus contains no discussion of the Declaration of Independence. The political writings discuss toleration, trade, criminal law, and colonial governance, but not the specific founding documents."
+    },
+    {
+      "id": 63,
+      "tier": "adversarial_abstention",
+      "category": "relationships",
+      "text": "What did Franklin think about his estranged son William's loyalism during the Revolution?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "The corpus contains no mention of William Franklin or family conflicts. Franklin's son appears only in passing as a travel companion to Maryland and a salt mine."
+    },
+    {
+      "id": 64,
+      "tier": "adversarial_abstention",
+      "category": "political_philosophy",
+      "text": "What was Franklin's position on the French Revolution and the Reign of Terror?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "The corpus predates the French Revolution (1789). Franklin's letters from France discuss Passy, scientific experiments, and Parisian architecture, not French politics."
+    },
+    {
+      "id": 65,
+      "tier": "adversarial_abstention",
+      "category": "scientific_method",
+      "text": "What were Franklin's views on vaccination (as opposed to inoculation) after Jenner's work?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "The corpus discusses smallpox inoculation data from the 1750s but not Jenner's cowpox vaccination (1796). Franklin died in 1790."
+    },
+    {
+      "id": 66,
+      "tier": "adversarial_abstention",
+      "category": "practical_invention",
+      "text": "What improvements did Franklin suggest for the steam engine?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "The corpus contains no discussion of steam engines. Franklin mentions 'a fire-engine might possibly in some cases be applied' to move boats, but provides no steam engine design or analysis."
+    },
+    {
+      "id": 67,
+      "tier": "adversarial_abstention",
+      "category": "relationships",
+      "text": "What did Franklin write to Thomas Jefferson about the Constitution's design?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "The corpus contains no correspondence with Jefferson and no discussion of the Constitutional Convention. The political writings focus on colonial-era governance and trade."
+    },
+    {
+      "id": 68,
+      "tier": "adversarial_abstention",
+      "category": "values",
+      "text": "What were Franklin's views on organized religion and his own religious beliefs as expressed in these letters?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "While the corpus contains a parable against persecution and a letter on toleration, Franklin does not discuss his personal religious beliefs in these letters. His references to God are functional (explaining natural design) not confessional."
+    },
+    {
+      "id": 69,
+      "tier": "adversarial_abstention",
+      "category": "political_philosophy",
+      "text": "What strategy did Franklin recommend for negotiating the Treaty of Paris (1783)?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "The corpus contains no discussion of peace treaty negotiations. The political writings discuss principles of trade and governance, not specific diplomatic strategy."
+    },
+    {
+      "id": 70,
+      "tier": "adversarial_abstention",
+      "category": "relationships",
+      "text": "What did Franklin write about his relationship with his wife Deborah Read during his long absences in England and France?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Deborah Franklin is mentioned only once in passing ('Mrs. Franklin has indeed now and then acquainted me of your welfare'). The corpus contains no personal letters to or about her."
+    },
+    {
+      "id": 71,
+      "tier": "boundary_probing",
+      "category": "scientific_method",
+      "text": "Franklin argues in his training-text letters that smoke is heavier than air and only rises when attached to heated air. Does this mean he would reject the entire concept of chimney 'draft' or 'drawing power'?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Boundary case: Franklin does not reject the concept of draft but redefines it. In the held-out text he says chimneys don't 'draw' smoke -- the heavier surrounding atmosphere 'presses' up from below. He uses 'draw' only 'in compliance with custom.' He corrects the metaphor while keeping the phenomenon."
+    },
+    {
+      "id": 72,
+      "tier": "boundary_probing",
+      "category": "values",
+      "text": "Given Franklin's pattern of valuing practical knowledge from 'savages' and criticizing European intellectual arrogance, would he necessarily support indigenous rights over colonial expansion?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Boundary case: Franklin respects indigenous boat-building and navigation skills, but his essay on population growth calls Indians 'hunters' who require 'the greatest quantity of land' and were 'easily prevailed on to part with portions of territory.' His respect for indigenous knowledge does not extend to opposing displacement. His values are inconsistent here."
+    },
+    {
+      "id": 73,
+      "tier": "boundary_probing",
+      "category": "political_philosophy",
+      "text": "Franklin argues that excessive punishment constitutes 'punishment of innocence' and that privateering is just gang robbery. Would he therefore oppose all war?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Boundary case: Franklin opposes unjust war and privateering, but his text on criminal law shows he accepts that 'the crime of murder should be punished with death.' He opposes disproportionate force, not all force. He wants the US to abolish privateering by treaty, not war itself. His position is proportionality, not pacifism."
+    },
+    {
+      "id": 74,
+      "tier": "boundary_probing",
+      "category": "reasoning_style",
+      "text": "Franklin admits his theories are 'conjectures and suppositions.' Does this mean he would refuse to act on uncertain theories, or does he act on them while holding them provisionally?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Boundary case: Franklin acts on uncertain theories constantly. He builds the Pennsylvania fireplace on his heat-conduction theory, proposes lightning rods on his electricity hypothesis, and redesigns chimneys on his air-pressure model. He holds theories provisionally but implements them practically. Epistemic humility coexists with practical boldness."
+    },
+    {
+      "id": 75,
+      "tier": "boundary_probing",
+      "category": "advice_giving",
+      "text": "Franklin's letters to Miss Stephenson treat her as intellectually equal. Would he extend this same intellectual respect to all women, or was this specific to his relationship with her?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Boundary case: Franklin writes about 'the practice of our ladies in meeting five or six together... where each is employed in some useful work, while one reads to them' as 'so commendable in itself' that printers should accommodate it. He also designs education for both sexes. But his population essay treats women primarily as mothers. The evidence is mixed."
+    },
+    {
+      "id": 76,
+      "tier": "boundary_probing",
+      "category": "political_philosophy",
+      "text": "Franklin argues that the poor become more idle as more provisions are made for them. Does this mean he would oppose all social safety nets?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Boundary case: Franklin opposes the specific poor law that creates dependency but not all aid. He says 'the poor, to be sure, if in distress, should be relieved' and only objects to systematic provisions that remove incentives. He proposes 'particular benefactions' for those truly in need (sick, large families). His position is targeted aid vs. universal entitlement, not no aid."
+    },
+    {
+      "id": 77,
+      "tier": "boundary_probing",
+      "category": "scientific_method",
+      "text": "Franklin consistently presents multiple competing hypotheses and says he cannot yet determine which is correct (e.g., waterspout direction). If forced to commit to a single explanation prematurely, how would he behave?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Boundary case: Franklin would resist. He explicitly says 'I think we want more and a greater variety of experiments' before forming a 'thoroughly satisfactory hypothesis.' When pressed on raindrops, he says 'we are yet hardly ripe for making one.' He prefers honest uncertainty over premature closure. But he will act on the best available theory while acknowledging it may be wrong."
+    },
+    {
+      "id": 78,
+      "tier": "boundary_probing",
+      "category": "values",
+      "text": "Franklin condemns England's 'plundering government exercised by our merchants in the Indies' and 'the confiscating war made upon the American colonies.' Would he also condemn American expansionism?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Boundary case: Franklin's population essay celebrates American expansion as a 'glorious market' and 'accession of power to the British empire.' He sees settling new territory as naturally beneficial. His anti-imperialism applies to forcible exploitation, not territorial expansion through settlement. He doesn't see the tension."
+    },
+    {
+      "id": 79,
+      "tier": "boundary_probing",
+      "category": "humility",
+      "text": "Franklin describes himself as having 'natural indolence' and being a hypothesis-builder rather than a careful observer. Is this genuine self-criticism or social performance?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Boundary case: Evidence supports genuineness. Franklin really does prefer theorizing to meticulous observation. He chased a whirlwind on horseback rather than measuring it. He built magic squares for fun rather than doing useful work. He admits the ether evaporation experiment gave him 'an intermitting fever' because he couldn't stop investigating. But this 'indolence' is relative -- he is extraordinarily productive. The self-criticism is accurate about his style, not his output."
+    },
+    {
+      "id": 80,
+      "tier": "boundary_probing",
+      "category": "practical_invention",
+      "text": "Franklin proposes many inventions in these letters (divided sails, swimming anchors, mahogany hygrometers, evaporative meat coolers). Do any of his proposals show awareness that they might fail or have unintended consequences?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Boundary case: Franklin almost always qualifies his proposals. He says the divided sail principle 'is then a matter to be determined by experiment.' He notes the double vessel 'was wrecked at last by a storm' but the failure wasn't due to its design. He says of the swimming anchor 'this is all but conjecture.' He proposes but does not insist. However, he rarely imagines his inventions causing harm -- his caution is about efficacy, not unintended consequences."
+    }
+  ]
+}

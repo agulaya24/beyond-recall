@@ -1,0 +1,751 @@
+{
+  "metadata": {
+    "total": 80,
+    "subject": "Philip Gilbert Hamerton",
+    "source": "Autobiography (posthumous)",
+    "training_chapters": "1-10",
+    "held_out_chapters": "11-32",
+    "tier_scoring_note": "Battery designed for Tier 2 (ch 1-10 training). For other tiers, only score prediction accuracy on questions whose held_out_chapter > tier training boundary. E.g. Tier 3 (ch 1-25): exclude questions with held_out_chapter <= 25.",
+    "tiers": {
+      "recall": 10,
+      "inferential": 10,
+      "behavioral_prediction": 40,
+      "adversarial_abstention": 10,
+      "boundary_probing": 10
+    },
+    "categories": [
+      "decisions",
+      "values",
+      "relationships",
+      "conflict",
+      "learning",
+      "risk",
+      "creativity",
+      "stress",
+      "career",
+      "change_over_time"
+    ]
+  },
+  "questions": [
+    {
+      "id": 1,
+      "tier": "recall",
+      "category": "relationships",
+      "text": "What happened to Hamerton's mother?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "She died approximately 14 days after his birth, from weakness/possible consumption. Ch 2."
+    },
+    {
+      "id": 2,
+      "tier": "recall",
+      "category": "relationships",
+      "text": "Who became Hamerton's guardian after his father's death, and what was her relationship to him?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "His father's eldest sister Mary was named sole guardian. Ch 7."
+    },
+    {
+      "id": 3,
+      "tier": "recall",
+      "category": "learning",
+      "text": "At what age was Hamerton sent to Burnley Grammar School, and what subject was he immediately set to study?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Age five and a half, set at once to Latin. Ch 3."
+    },
+    {
+      "id": 4,
+      "tier": "recall",
+      "category": "stress",
+      "text": "How did Hamerton's father die, and at what age?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Died of apoplexy at age 39 after a week of delirium caused by alcoholism. January 1844. Ch 6."
+    },
+    {
+      "id": 5,
+      "tier": "recall",
+      "category": "career",
+      "text": "What was Hamerton's father's profession, and why did he fail in it?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Solicitor/attorney. After his wife's death he lost interest in his profession, fell into drinking with companions. Ch 2."
+    },
+    {
+      "id": 6,
+      "tier": "recall",
+      "category": "creativity",
+      "text": "Which author had the strongest literary influence on Hamerton during his boyhood at Doncaster?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Sir Walter Scott. Read poems in pocket volumes while hiding from cricket. Ch 7."
+    },
+    {
+      "id": 7,
+      "tier": "recall",
+      "category": "learning",
+      "text": "Why did Hamerton's guardian insist he learn French at Doncaster, and who was his French master?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Guardian had taught him elements and refused to let him abandon it. Master was Signor Testa, an Italian gentleman. Ch 7."
+    },
+    {
+      "id": 8,
+      "tier": "recall",
+      "category": "values",
+      "text": "What lesson about truth-telling did Hamerton's father instill in him, and what was the dumb-bell incident?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Father hated lies. Hamerton was falsely accused of only practicing 10 minutes instead of 15 and punished with 2 hours of dumb-bell drill for 'lying' when he was truthful. Ch 5."
+    },
+    {
+      "id": 9,
+      "tier": "recall",
+      "category": "risk",
+      "text": "What happened when Hamerton claimed he could swim in order to use the school boat at Doncaster?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "He lied about swimming, a schoolfellow brought a rope. He plunged in, couldn't swim, nearly drowned, was fished up by the rope. Ch 8."
+    },
+    {
+      "id": 10,
+      "tier": "recall",
+      "category": "change_over_time",
+      "text": "What plan did Hamerton's guardian have for his future career, and what was the obstacle to it?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Plan: good schools, then Oxford (Balliol), then become a clergyman. Obstacle: he could not conscientiously sign the Thirty-nine Articles. Ch 10/implied in training."
+    },
+    {
+      "id": 11,
+      "tier": "inferential",
+      "category": "relationships",
+      "text": "How did Hamerton's childhood experiences with his father shape his attitude toward authority and independence?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Father's tyranny (beatings, alcohol-fueled cruelty) combined with aunt's gentle firmness created a person who feared despotic authority but respected principled firmness. His honesty compulsion came from father's demands for truth, his love of independence from suffering under paternal tyranny."
+    },
+    {
+      "id": 12,
+      "tier": "inferential",
+      "category": "values",
+      "text": "What pattern emerges from Hamerton's relationships with his various teachers (father, usher at Doncaster, Mr. Cape, Dr. Butler) regarding what he valued in education?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "He valued teachers who explained difficulties (usher), respected those who maintained dignity (Cape), and thrived under those who encouraged his natural interests like writing (Butler). He resented pure severity without guidance, and arbitrary punishment. Good teaching = helpfulness + willingness to explain, not just examination."
+    },
+    {
+      "id": 13,
+      "tier": "inferential",
+      "category": "creativity",
+      "text": "How did Hamerton's interest in materials, architecture, and natural beauty in childhood connect to his later artistic pursuits?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Welsh journal shows acute observation of materials (ebony, oak, slate) at age 8. Architecture in Doncaster church deeply moved him. Combined with love of Scott's landscape poetry, this created the foundation for his dual career in art and art criticism."
+    },
+    {
+      "id": 14,
+      "tier": "inferential",
+      "category": "conflict",
+      "text": "What recurring tension existed between Hamerton's desire for closeness with his guardian and the requirements of his education?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "He loved his guardian as a mother substitute. Learning of her heart disease made him want to stay near her, but she needed to send him away for proper education. He actively worked to remain at Burnley instead of going to distant schools, which harmed his classical progress but allowed mental freedom."
+    },
+    {
+      "id": 15,
+      "tier": "inferential",
+      "category": "learning",
+      "text": "How did Hamerton's experience of shame at the swimming incident shape his broader approach to learning new skills?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "The humiliation drove him to eventually become an expert swimmer. He explicitly says 'I have learned one or two other things in consequence of being stung with shame in a like manner' - shame became a motivational engine for perseverance across multiple domains."
+    },
+    {
+      "id": 16,
+      "tier": "inferential",
+      "category": "stress",
+      "text": "How did the trauma of living with his father manifest in Hamerton's sensory and emotional life long after?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Extreme vividness of memory (furniture, clock faces, colors). Cannot see an unmade bed without feeling a corpse is in it (from seeing father's death). Avoided Shaw and anything reminiscent of that period for decades. Classic traumatic hypermnesia and avoidance."
+    },
+    {
+      "id": 17,
+      "tier": "inferential",
+      "category": "decisions",
+      "text": "Why did Hamerton contemplate fleeing his father but ultimately decide against it, and what does this reveal about his character?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "He had the means (money, pony) but rejected flight because: (1) the money was his father's - using it would be a breach of trust, (2) his uncles would side with authority and return him, (3) only strangers could offer safety but approaching them seemed hazardous. Shows his intense ethical scrupulousness even under extreme duress."
+    },
+    {
+      "id": 18,
+      "tier": "inferential",
+      "category": "career",
+      "text": "What does the contrast between Hamerton's aunts staying aristocratic while his father and uncles entered the middle class reveal about gender and class dynamics in his family?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Women preserved class identity through manners and social connections while men were pulled toward middle-class norms through professional work as solicitors. Hamerton himself would later oscillate between these poles - aristocratic sensibility in aesthetics, middle-class practicality in career."
+    },
+    {
+      "id": 19,
+      "tier": "inferential",
+      "category": "risk",
+      "text": "How did Hamerton's father's decline serve as both a cautionary tale and a shaping force in his son's life choices?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Father had every advantage (strength, intelligence, social position, wealth) but was destroyed by drink after losing his wife. This demonstrated that external gifts without purpose and discipline lead to ruin. Hamerton's subsequent emphasis on structured self-education, temperance, and meaningful work can be read as a systematic rejection of his father's pattern."
+    },
+    {
+      "id": 20,
+      "tier": "inferential",
+      "category": "change_over_time",
+      "text": "How did Hamerton's relationship with religion evolve from childhood through his time at Doncaster, based on what the training chapters reveal?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "At Doncaster he was 'extremely religious' with firm belief in providential interference. Mr. Cape's quiet routine religion suited him. But seeds of doubt are planted: he already questioned the usher's intolerance of Dissenters, applying independent reasoning to received doctrine. The trajectory from unquestioning faith to independent inquiry is established."
+    },
+    {
+      "id": 21,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "Given Hamerton's deep attachment to the countryside and his distaste for towns shown in chapters 1-10, how would he react to his first visit to London?",
+      "held_out_passage": "My first impression of London was exactly what it has ever since remained. It seemed to me the most disagreeable place I had ever seen, and I wondered how anybody could live there who was not absolutely compelled to do so... I suffered from nostalgia of the country all the time.",
+      "held_out_chapter": 14,
+      "notes": "His love of streams, moors, and open country from Burnley/Hollins plus his distaste for confinement predict strong negative reaction to London."
+    },
+    {
+      "id": 22,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "After his failure to go to Oxford due to religious doubts implied in the training chapters, what profession would Hamerton choose?",
+      "held_out_passage": "My own desires were equally balanced between two pursuits for which I had a great liking, and hoped that there might be some natural aptitude. One of these was literature, and the other painting.",
+      "held_out_chapter": 16,
+      "notes": "His love of Scott's poetry, his verse-writing, his drawing lessons at Doncaster, and his intense response to architecture and beauty all predict the dual art/literature path."
+    },
+    {
+      "id": 23,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "When confronted with German Neology (the idea that scripture is not divinely inspired), would Hamerton accept or reject the established Protestant position?",
+      "held_out_passage": "I began to wonder what were the evidences by which it was determined that some writers were inspired and infallible... The day before receiving it I was in doubt, but the day after I felt perfectly satisfied that the Divine inspiration of the books known to Englishmen as the 'Scriptures' rested simply on the opinion of different bodies of theologians.",
+      "held_out_chapter": 13,
+      "notes": "His independent thinking at Doncaster (questioning the usher's intolerance of Dissenters), his honesty compulsion from his father, and his theological interest all predict he would pursue inquiry to its logical conclusion even if it meant leaving Protestantism."
+    },
+    {
+      "id": 24,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "If placed under a tutor who treated him with contempt and tried to humiliate him, how would Hamerton respond?",
+      "held_out_passage": "He treated me with open contempt, and was always trying to humiliate me, till at last I let him understand that I would endure it no longer. One day he ordered me to clean his harness... so I answered, 'No, sir, I shall not clean your harness; that is not my work.'",
+      "held_out_chapter": 15,
+      "notes": "His experience with his father's tyranny made him both fear despotism and develop a breaking point. At Doncaster he was already playing tricks on Mr. Cape to protect his friend. He would resist once a line was crossed."
+    },
+    {
+      "id": 25,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "Given Hamerton's difficulty following spoken French at Loch Awe despite years of study, what would he do about it?",
+      "held_out_passage": "This plagued me with an irritating sense of ignorance, so I looked back on my education generally, and found it unsatisfactory... I determined to acquire some substantial knowledge of modern languages, and to begin by learning French over again, so as to write and speak it easily.",
+      "held_out_chapter": 24,
+      "notes": "Same pattern as swimming: humiliation/shame drives perseverance. His guardian insisted on French at Doncaster. He loved language. The shame of incompetence would drive mastery."
+    },
+    {
+      "id": 26,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "Would Hamerton choose to encamp alone on remote Scottish moors for art, despite it being considered highly eccentric?",
+      "held_out_passage": "Everybody considered me extremely eccentric in 1856 because I was led into encamping; but it was an excellent thing for me in various ways... That month of solitude on the wild hills was a singularly happy time.",
+      "held_out_chapter": 28,
+      "notes": "His love of the moors near Burnley, his comfort with solitude (reading Scott while hiding from cricket), his practical self-reliance (lighting fires as a fag), and his indifference to social opinion all predict this choice."
+    },
+    {
+      "id": 27,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "Would Hamerton publish his early poetry at his own expense, and what would the commercial result be?",
+      "held_out_passage": "My volume, 'The Isles of Loch Awe and other Poems,' appeared the day I came of age... It was published at my own expense, in an edition of two thousand copies, of which exactly eleven were sold in the real literary market.",
+      "held_out_chapter": 25,
+      "notes": "His verse-writing habit from age 11-21, his prize poem at Burnley, his confidence in his literary abilities, combined with his complete lack of commercial instinct (refusing to sell a painting to a London banker) all predict over-investment in an unsaleable product."
+    },
+    {
+      "id": 28,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How would Hamerton's religious heterodoxy affect his social standing among the Lancashire gentry?",
+      "held_out_passage": "I began to perceive a certain coolness... in our friends, which I attributed to my religious opinions... When our militia regiment was in training, the owner of this house invited the officers to a grand dinner, and I, an old intimate friend, was omitted.",
+      "held_out_chapter": 24,
+      "notes": "The training chapters establish the intensely conservative, Anglican character of his Lancashire social circle. His refusal to conform (refusing to sign Thirty-nine Articles) combined with his honesty compulsion (cannot maintain a facade) predict social ostracism."
+    },
+    {
+      "id": 29,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "When offered a grand opportunity to organize a Lancashire art exhibition by a prominent figure, would Hamerton accept?",
+      "held_out_passage": "I felt the whole weight of my inexperience, and said to myself: 'Whatever we do it is certain that mistakes will be committed... All mistakes will be laid to my door.' ... I therefore firmly declined.",
+      "held_out_chapter": 28,
+      "notes": "His lack of social ambition (established at Doncaster), his preference for solitary work, and his wariness of exposure all predict declining a public organizational role."
+    },
+    {
+      "id": 30,
+      "tier": "behavioral_prediction",
+      "category": "career",
+      "text": "Would Hamerton follow Ruskin's advice to study nature directly rather than learn from traditional art masters?",
+      "held_out_passage": "Mr. Ruskin's influence... was not merely evil, it was disastrous... His answer was: 'There is no artist in London capable of teaching you and at the same time willing to give lessons.'",
+      "held_out_chapter": 17,
+      "notes": "His love of nature over artifice, his independent streak, and his already scientific/detailed approach to drawing all made him susceptible to Ruskin's anti-academic advice, which he later recognized as harmful."
+    },
+    {
+      "id": 31,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "When making his first marriage proposal to an English woman, would it succeed or fail?",
+      "held_out_passage": "One afternoon his daughter and I were alone together, playing a duet, when I asked her if she would have me, and she laughingly declined. I remember being so little hurt by the refusal that I said: 'That is not the proper way to refuse an offer.'",
+      "held_out_chapter": 31,
+      "notes": "His religious heterodoxy, lack of social ambition, preference for wild nature over conventional life - these traits visible in Ch 1-10 make him a poor match for a conventional Lancashire banker's daughter."
+    },
+    {
+      "id": 32,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "Would Hamerton ultimately choose to marry an English or a foreign woman?",
+      "held_out_passage": "My guardian was of opinion that with my philosophical convictions, which were at that time not only unpopular, but odious and execrated in our own class in England, I should have to remain an old bachelor... the idea suddenly came... 'Eugénie Gindriez would be an affectionate and faithful wife to you.'",
+      "held_out_chapter": 31,
+      "notes": "His religious nonconformity made English marriage in his class nearly impossible. His French study, love of French culture, and desire for intellectual freedom all point toward a French marriage."
+    },
+    {
+      "id": 33,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Given that Hamerton had the social credentials for a political career (old family, property, public speaking ability), would he pursue one?",
+      "held_out_passage": "A man of the world, in my position, would have found his upward course straight before him. He would simply have made use of the Church as an instrument... married for money, offered his services to the Conservative party, and gone into Parliament... In the worldly sense I never had any ambition whatever.",
+      "held_out_chapter": 16,
+      "notes": "His complete indifference to social advancement established at Doncaster ('never felt the faintest desire to rise in the world'), his honesty about religion, and his preference for study over society all predict rejection of the political path."
+    },
+    {
+      "id": 34,
+      "tier": "behavioral_prediction",
+      "category": "change_over_time",
+      "text": "After his poetry failed commercially, would Hamerton continue writing verse?",
+      "held_out_passage": "I also came to the conclusion that nobody wanted my verses, and... I gave up writing verse altogether, and that with a suddenness and completeness that astonishes me now. Young men are extreme in their hopes and in their discouragements.",
+      "held_out_chapter": 25,
+      "notes": "His pattern of intense commitment followed by decisive action (refusing Oxford, resigning militia commission) predicts an all-or-nothing response to failure."
+    },
+    {
+      "id": 35,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "Would Hamerton's approach to learning French in Paris be passive or aggressive, and how quickly would he achieve fluency?",
+      "held_out_passage": "I made such good use of my time in Paris that when returning to England on the same railway, after the short interval of three months, I spoke French fluently (though not correctly) for the greater part of the way.",
+      "held_out_chapter": 25,
+      "notes": "His swimming pattern (shame-driven mastery), his guardian's early insistence on French, and his intense work ethic (precise time accounting) predict rapid, determined acquisition."
+    },
+    {
+      "id": 36,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How would Hamerton's aunt (his guardian's sister) react to his engagement to a French Catholic woman?",
+      "held_out_passage": "Her sister sat motionless and rigid in an arm-chair in the dining-room, and did not seem disposed to take any notice of me. From that time until long after my marriage she treated me with the most distant coldness, varied occasionally by a bitter innuendo.",
+      "held_out_chapter": 32,
+      "notes": "The training chapters establish his aunts as intensely aristocratic, Anglican, and nationally proud. A French Catholic bride with no English pedigree would be maximally offensive to these values."
+    },
+    {
+      "id": 37,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "Would Hamerton resign his militia commission, and if so, why?",
+      "held_out_passage": "One cause that certainly influenced me in leaving the regiment was the necessity for appearing to be either a member of the Church of England or a member of the Church of Rome. As I belonged to neither, I felt it a hardship to be compelled to march to church every Sunday.",
+      "held_out_chapter": 24,
+      "notes": "His refusal to sign the Thirty-nine Articles, his horror of religious hypocrisy, and his lack of social ambition all predict resignation from an institution requiring conformity."
+    },
+    {
+      "id": 38,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "Would Hamerton accept or decline when C. R. Leslie indirectly offered to mentor him in Constable's art tradition?",
+      "held_out_passage": "I might at that time have become Constable's pupil, indirectly. Leslie would have educated me in the art of that master... On the other hand, I did not wish to hurt Pettitt by leaving him, and Constable's choice of quiet rural subjects was to me, at that time, uninteresting.",
+      "held_out_chapter": 20,
+      "notes": "His loyalty pattern (staying near his guardian despite educational cost), his preference for wild Highland scenery over tame English fields, and his Ruskin-influenced naturalism all predict declining this opportunity."
+    },
+    {
+      "id": 39,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When his uncle's family emigrates to New Zealand, would Hamerton consider joining them?",
+      "held_out_passage": "My uncle's property sold well... We still clung to the old place... Even now, in my fifty-fourth year, I very often dream about Hollins, about the old garden there, and the fields and woods, and the rocky stream.",
+      "held_out_chapter": 23,
+      "notes": "His intense local attachments (established at Hollins/Burnley) and his guardian's presence in England make departure inconceivable. He would stay and grieve the family's departure."
+    },
+    {
+      "id": 40,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "Would Hamerton take his new French wife to live in a remote Scottish island rather than a conventional English home?",
+      "held_out_passage": "Of all strange places in the world for a young Parisienne to be brought to, surely Innistrynich was the least suitable! My way in those days was the usual human way of thinking, that what is good for one's self is good for everybody else.",
+      "held_out_chapter": 32,
+      "notes": "His island lease at Loch Awe, his love of wild Highland scenery, and his complete lack of consideration for conventional domestic expectations all predict this choice."
+    },
+    {
+      "id": 41,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "How would Hamerton handle the religious tension between himself and his beloved guardian?",
+      "held_out_passage": "My answer to attacks of this kind has always been simple silence; when they came from other people I treated them with unfeigned indifference; but when they came from that one dear person, whose affection I valued more than all honors and all fame, they cut me to the quick.",
+      "held_out_chapter": 24,
+      "notes": "His deep love for his guardian combined with his inability to lie about his beliefs creates a painful but predictable pattern: silent suffering rather than either conformity or confrontation."
+    },
+    {
+      "id": 42,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "Would Hamerton develop an interest in heraldry and medieval pursuits?",
+      "held_out_passage": "I soon learned all about heraldry, and in my leisure time drew and colored all the coats of arms that had been borne by the Hamertons... I became so much of a mediaevalist that there was considerable risk of my stopping short in the amateur practice of such arts as wood-carving, illumination, and painting on glass.",
+      "held_out_chapter": 12,
+      "notes": "His love of Scott (established Ch 7-8), his interest in family history and old houses (Ch 3), and his attention to architectural detail (Ch 4, 7) all predict this medieval enthusiasm."
+    },
+    {
+      "id": 43,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "When forced to choose between religious hypocrisy for social advancement and intellectual honesty at social cost, which would Hamerton choose?",
+      "held_out_passage": "I looked upon this obstacle as insuperable; but if I had been as indifferent on such questions as young men generally are, there would still have remained a difficulty in my own nature, which is a rooted dislike to everything which is done for social advancement.",
+      "held_out_chapter": 15,
+      "notes": "His father's lesson about truth-telling, his honesty about the swimming incident (eventually), and his lack of social ambition all predict choosing honesty at any cost."
+    },
+    {
+      "id": 44,
+      "tier": "behavioral_prediction",
+      "category": "career",
+      "text": "Would Hamerton pursue art education through formal French atelier training or through independent nature study?",
+      "held_out_passage": "I was unfortunately influenced by two erroneous ideas, one of them being that the studies of a figure-painter could be of no use in landscape, and the other that it was wiser to be a specialist, and devote myself to landscape exclusively.",
+      "held_out_chapter": 27,
+      "notes": "His independent streak, Ruskin's anti-academic influence, and his love of direct nature observation all predict choosing the less structured path."
+    },
+    {
+      "id": 45,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How would Hamerton react when a lord kindly invited him to visit but didn't fix a specific date?",
+      "held_out_passage": "I ought to have gone to Taymouth to thank Lord Breadalbane and accept the hospitality he had offered, but it happened that he had not fixed a date, so I avoided Taymouth. This was wrong, but young men are generally either forward or backward.",
+      "held_out_chapter": 30,
+      "notes": "His lack of social ambition, his shyness around 'great people,' and his preference for solitary work over social obligations predict missing this social opportunity."
+    },
+    {
+      "id": 46,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "If his tutor attempted to physically harass him by scraping his face with shark's skin, would Hamerton submit or resist?",
+      "held_out_passage": "One day he attempted to scrape my face with a piece of shark's skin, so I seized both his wrists and held them for some time, telling him that the jest, if it was a jest, was not acceptable.",
+      "held_out_chapter": 15,
+      "notes": "By this age he was well-grown and strong. His father's physical cruelty had given him both a breaking point and physical toughness. He would physically resist without initiating violence."
+    },
+    {
+      "id": 47,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "Would Hamerton keep building catamarans (double-hulled boats) as an adult, given his boyhood interest?",
+      "held_out_passage": "I have always had a fancy for double-hulled boats (now generally called catamarans), and had two of them on Loch Awe... Since those days I have much improved the construction of catamarans.",
+      "held_out_chapter": 30,
+      "notes": "His boyhood catamaran on the fish-pond at Hollins (Ch 11), his love of boating at Doncaster, and his practical/inventive nature all predict lifelong catamaran experimentation."
+    },
+    {
+      "id": 48,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "Would Hamerton refuse a second chance to visit London after vowing never to return?",
+      "held_out_passage": "On August 8, 1853, the writer of this book, who had promised and vowed never to visit London again, went there to see the Royal Academy Exhibition, and of course found it closed.",
+      "held_out_chapter": 19,
+      "notes": "Despite his hatred of London, his passion for fine arts would eventually override his vow. But his impracticality (arriving when the exhibition was closed) fits his pattern."
+    },
+    {
+      "id": 49,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "After the commercial failure of his poetry book, would Hamerton become more financially cautious?",
+      "held_out_passage": "The failure of 'The Isles of Loch Awe' occasioned me rather a heavy loss, which had the effect of making me economical for two or three years, during which I did not even keep a horse.",
+      "held_out_chapter": 25,
+      "notes": "His father's lesson about money (gold entrusted to his keeping as a child, never misapplied) established financial conscientiousness. Loss would trigger economizing."
+    },
+    {
+      "id": 50,
+      "tier": "behavioral_prediction",
+      "category": "change_over_time",
+      "text": "Would Hamerton's feelings about dancing change from boyhood to manhood?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "In Ch 7 he was 'rather a brilliant performer' who danced a sailor's hornpipe as a pas seul, but also says 'there is nothing which bores me so thoroughly as a ball.' The reversal from boyhood enthusiasm to adult aversion mirrors his broader pattern of intense early interests that shift dramatically."
+    },
+    {
+      "id": 51,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "Given Hamerton's deep affection for his guardian and knowledge of her heart disease, would he choose a distant school or stay near her?",
+      "held_out_passage": "I quickly resolved that as Death would probably soon separate us, and might separate us at any moment, I would keep as much as possible near my guardian during her life.",
+      "held_out_chapter": 15,
+      "notes": "Directly predicted by Ch 10's description of his devotion to his guardian and the hint of her health concerns. The filial bond is the strongest force in his young life."
+    },
+    {
+      "id": 52,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "Would Hamerton decline a potentially lucrative painting sale from a London banker when offered?",
+      "held_out_passage": "A well-known London banker was staying at the inn of Cladich at the same time with me, so we became acquainted, and he wished to purchase one of my studies; but as I intended to keep them all, I declined. This was very foolish.",
+      "held_out_chapter": 24,
+      "notes": "His attachment to his own work, his lack of commercial instinct, and his preference for keeping rather than selling all predict this self-defeating behavior."
+    },
+    {
+      "id": 53,
+      "tier": "behavioral_prediction",
+      "category": "career",
+      "text": "Would Hamerton's time-management approach as a young artist be systematic or haphazard?",
+      "held_out_passage": "I was curiously accurate in my accounts of time, and knew to half-an-hour what was spent on this pursuit or that... 'Determined to-day to study the copper Albert Dürer 80 hours, having given 83 to the wood-cuts.'",
+      "held_out_chapter": 19,
+      "notes": "His father's insistence on not 'pottering' with multiple books, the disciplined schedule at Doncaster, and his mathematical side predict obsessive time-tracking."
+    },
+    {
+      "id": 54,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Would Hamerton visit the ancestral Hamerton family homes in Yorkshire, and how would he feel about their condition?",
+      "held_out_passage": "I arrived there in time to see masons demolishing the building... For me this unnecessary destruction is always distressing... I cannot do without a hill, and a stream, and a green field.",
+      "held_out_chapter": 29,
+      "notes": "His interest in family history (Ch 3), love of old architecture, and ancestral sentiment all predict the visit. His distress at destruction mirrors his grandfather's story of the cut-down avenue."
+    },
+    {
+      "id": 55,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "Would Hamerton eventually master swimming after his humiliating Doncaster failure?",
+      "held_out_passage": "I afterwards became an accomplished swimmer, and could do various tricks in the water, such as reading aloud from a book held in both hands, or swimming in clothes and heavy boots.",
+      "held_out_chapter": 24,
+      "notes": "His explicit statement in Ch 8 about learning 'one or two other things in consequence of being stung with shame' directly predicts this. Shame + perseverance = mastery."
+    },
+    {
+      "id": 56,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "When Hamerton's guardian expresses concern that his heterodox views might 'corrupt' his friends, how would he respond?",
+      "held_out_passage": "My guardian said that she regretted this intimacy, not for any harm that my friend was likely to do me, but because with my 'lamentable opinions' I might corrupt his mind. My answer to attacks of this kind has always been simple silence.",
+      "held_out_chapter": 24,
+      "notes": "His deep love for his guardian prevents open conflict. His father's severity taught him that confrontation with beloved authority figures is futile. Silence is his defense."
+    },
+    {
+      "id": 57,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "Would Hamerton illustrate his book of poetry, and would this help or hurt it?",
+      "held_out_passage": "I committed a great error in illustrating my book of verse. The illustrations only set up a conflict of interest with the poetry, and did no good whatever to the sale, whilst they vastly increased the cost of publication.",
+      "held_out_chapter": 25,
+      "notes": "His dual identity as artist and writer, his love of beautiful materials, and his lack of commercial judgment all predict this costly mistake."
+    },
+    {
+      "id": 58,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "Would Hamerton accept or decline an invitation to attend a grand ball at the Hotel de Ville in Paris with Napoleon III present?",
+      "held_out_passage": "He therefore refused to go, and transferred his card to me; so I went with Captain Turnbull.",
+      "held_out_chapter": 25,
+      "notes": "Despite his hatred of balls and formal events, the historical significance and the chance to see notable figures would appeal to his observational instinct. He would go if the opportunity fell into his lap."
+    },
+    {
+      "id": 59,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "Would Hamerton develop a strong attachment to local places where he lived, or move freely between residences?",
+      "held_out_passage": "Like all strong passions, these local attachments are extremely inconvenient, and it would be better for a man to be without them; but all reasoning on such subjects is superfluous.",
+      "held_out_chapter": 11,
+      "notes": "His intense attachment to Hollins, his memories of Ivy Cottage (even traumatic ones), his detailed recall of every piece of furniture - all predict powerful, binding local attachments."
+    },
+    {
+      "id": 60,
+      "tier": "behavioral_prediction",
+      "category": "change_over_time",
+      "text": "Would Hamerton's adult life in France resemble or differ from his boyhood life at Hollins in Lancashire?",
+      "held_out_passage": "The sort of existence that I am leading here at Pré Charmoy, near Autun, in this year 1886, bears a wonderfully close resemblance to my existence at Hollins in 1850. I am living, as I was then, on a pretty estate with woods, meadows, pastures, and a beautiful stream.",
+      "held_out_chapter": 11,
+      "notes": "His love of rural estate life with streams, his preference for quiet study and nature observation, and his dislike of towns all predict recreating the Hollins pattern wherever he settles."
+    },
+    {
+      "id": 61,
+      "tier": "adversarial_abstention",
+      "category": "decisions",
+      "text": "What was Hamerton's opinion on the Irish Home Rule debate?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "The corpus contains no discussion of Irish politics. A well-calibrated system should abstain."
+    },
+    {
+      "id": 62,
+      "tier": "adversarial_abstention",
+      "category": "relationships",
+      "text": "What was the name of Hamerton's wife's mother, and what was her personality like?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "The corpus never names or describes Hamerton's mother-in-law. Only his wife and father-in-law are discussed."
+    },
+    {
+      "id": 63,
+      "tier": "adversarial_abstention",
+      "category": "career",
+      "text": "How much annual income did Hamerton earn from his painting sales in the 1860s?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "No specific income figures from painting are given anywhere in chapters 1-32."
+    },
+    {
+      "id": 64,
+      "tier": "adversarial_abstention",
+      "category": "values",
+      "text": "What were Hamerton's views on Darwin's theory of evolution?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Darwin is never mentioned in the training or held-out chapters. Hamerton discusses religious doubts but not evolutionary theory."
+    },
+    {
+      "id": 65,
+      "tier": "adversarial_abstention",
+      "category": "creativity",
+      "text": "Which specific paintings by Turner did Hamerton most admire, and why?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "While Ruskin's influence and Turner are mentioned, Hamerton never names specific Turner paintings he personally admired in the training chapters."
+    },
+    {
+      "id": 66,
+      "tier": "adversarial_abstention",
+      "category": "stress",
+      "text": "Did Hamerton ever suffer from depression or mental illness as an adult?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "While childhood trauma is extensively documented, no diagnosis or explicit account of adult mental illness appears in the corpus."
+    },
+    {
+      "id": 67,
+      "tier": "adversarial_abstention",
+      "category": "conflict",
+      "text": "What was the specific legal dispute between Hamerton's grandfather Gilbert and his brother James at Hellifield Peel?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Hamerton explicitly says the explanation given was 'a disagreement about land' but suspects the unambitious marriage also contributed. The actual dispute details are never revealed."
+    },
+    {
+      "id": 68,
+      "tier": "adversarial_abstention",
+      "category": "learning",
+      "text": "What grades or academic honors did Hamerton achieve at Doncaster School?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "No specific grades or rankings are mentioned. Only that he made 'very rapid progress' and won a history prize that gave him Paradise Lost."
+    },
+    {
+      "id": 69,
+      "tier": "adversarial_abstention",
+      "category": "risk",
+      "text": "Did Hamerton ever serve in actual military combat?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "He served in the militia but resigned. No combat experience is described anywhere in the corpus."
+    },
+    {
+      "id": 70,
+      "tier": "adversarial_abstention",
+      "category": "change_over_time",
+      "text": "How did Hamerton's relationship with his children develop over the decades?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Children are barely mentioned in chapters 1-32. He mentions sons learning to swim but provides no extended account of his parenting."
+    },
+    {
+      "id": 71,
+      "tier": "boundary_probing",
+      "category": "values",
+      "text": "Was Hamerton's departure from Christianity driven primarily by intellectual or emotional factors?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "The corpus partially addresses this. His questioning began intellectually (German Neology, canon of scripture) but emotional factors are present too (discomfort with hypocrisy, desire for mental freedom). The exact weighting is ambiguous."
+    },
+    {
+      "id": 72,
+      "tier": "boundary_probing",
+      "category": "relationships",
+      "text": "Did Hamerton maintain a relationship with his father's family at Hellifield Peel?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Partially addressed. He visited the Peel, sketched it, saw his father's cousin on the lawn but did not speak to him. The estrangement persisted but he was clearly drawn to the connection. The exact nature of any later contact is unclear."
+    },
+    {
+      "id": 73,
+      "tier": "boundary_probing",
+      "category": "creativity",
+      "text": "To what extent did Hamerton recognize the limitations of his own artistic talent?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Partially addressed. He acknowledges his studies were 'perfectly worthless,' admits to being unable to see Constable's merits, and calls his approach 'mistaken.' But he also shows persistent belief in his artistic future. The boundary between self-awareness and self-deception is left ambiguous."
+    },
+    {
+      "id": 74,
+      "tier": "boundary_probing",
+      "category": "conflict",
+      "text": "How did Hamerton reconcile his deep love for his guardian with his fundamental disagreement with her religious views?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Partially addressed. He chose silence and suffered privately. He maintained outward conformity for years out of love and fear for her health. But whether he found true inner reconciliation or simply endured the tension is never fully resolved."
+    },
+    {
+      "id": 75,
+      "tier": "boundary_probing",
+      "category": "decisions",
+      "text": "Did Hamerton's marriage to a French woman represent a rebellion against his English social class, or simply a practical solution to his social isolation?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Partially addressed. He frames it as following 'elective affinities' and mentions being 'under a ban' socially. Both rebellion and practical factors are present, but the relative weight is left for the reader to determine."
+    },
+    {
+      "id": 76,
+      "tier": "boundary_probing",
+      "category": "learning",
+      "text": "How much did Ruskin's influence help versus harm Hamerton's development as an artist?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Partially addressed. Hamerton calls Ruskin's artistic influence 'disastrous' and 'not merely evil' but also credits him with directing attention to 'qualities and beauties in nature' and being a good literary influence. The net assessment is complex and partially contradictory."
+    },
+    {
+      "id": 77,
+      "tier": "boundary_probing",
+      "category": "stress",
+      "text": "Was Hamerton's intense attachment to specific places (Hollins, Loch Awe) a source of happiness or an impediment to his career?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Partially addressed. He explicitly calls local attachments 'extremely inconvenient' and says his country passion was 'in many ways an all but fatal hindrance to my success.' But he also describes these places as sources of his deepest happiness. The tension is acknowledged but not resolved."
+    },
+    {
+      "id": 78,
+      "tier": "boundary_probing",
+      "category": "risk",
+      "text": "Was Hamerton's refusal to pursue a conventional career (law, church, politics) an act of courage or of impracticality?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Partially addressed. He had independent means but not wealth. He frames the refusal as principled (won't sign Articles, won't be a hypocrite) but also acknowledges it left him without clear direction for years. The corpus presents both interpretations without choosing."
+    },
+    {
+      "id": 79,
+      "tier": "boundary_probing",
+      "category": "career",
+      "text": "Would Hamerton have been more successful as an artist if he had accepted formal atelier training in Paris instead of following Ruskin's nature-study advice?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Partially addressed. He explicitly regrets not entering Colin's atelier and calls his nature-study approach mistaken. But his temperament (independence, dislike of cities, love of wild nature) may have made formal training psychologically impossible. The counterfactual is inherently uncertain."
+    },
+    {
+      "id": 80,
+      "tier": "boundary_probing",
+      "category": "change_over_time",
+      "text": "Did Hamerton's traumatic childhood with his father ultimately make him stronger or leave lasting damage?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Partially addressed. The training chapters show both: he developed extreme honesty, self-reliance, and empathy from the experience, but also lasting avoidance behaviors (can't see unmade beds, avoids Shaw). The held-out chapters show him as simultaneously resilient and haunted. The corpus supports both readings."
+    }
+  ]
+}

@@ -1,0 +1,2323 @@
+{
+  "metadata": {
+    "source": "hamerton_autobiography_chapters_1-10",
+    "source_file": "C:/Users/Aarik/Anthropic/memory_system/data/experiments/memory_systems/corpus/tiers/tier_02_ch01-10.txt",
+    "corpus_checksum": "03e92bae7ed825eb20b4910add11f9e4db56576a0fe73050cbe3fa928e724ec6",
+    "total_facts": 462,
+    "extraction_model": "claude-haiku-4-5-20251001",
+    "extraction_temperature": 0,
+    "chunks_processed": 9
+  },
+  "facts": [
+    {
+      "id": 1,
+      "text": "Hamerton is the only person who knows enough about his own history to give a truthful account of it.",
+      "checksum": "3131967e7daec79b"
+    },
+    {
+      "id": 2,
+      "text": "Hamerton dreaded the possibility of falling into the hands of biographers with inadequate materials.",
+      "checksum": "2d9792354094a14f"
+    },
+    {
+      "id": 3,
+      "text": "Hamerton had already been selected as a subject by two or three biographers with friendly intentions.",
+      "checksum": "88f67d755e2b50b6"
+    },
+    {
+      "id": 4,
+      "text": "Hamerton believed that an autobiography can be more truthful than a biography written by someone with slight acquaintance.",
+      "checksum": "e1d765aa41e3c431"
+    },
+    {
+      "id": 5,
+      "text": "Hamerton held that readers have a fair claim to hear the truth in a biography.",
+      "checksum": "a7b5cb6add5f1d64"
+    },
+    {
+      "id": 6,
+      "text": "Hamerton's rule was to say nothing that could hurt the living.",
+      "checksum": "f838a145408d187f"
+    },
+    {
+      "id": 7,
+      "text": "Hamerton intended to deal with the memory of the dead as tenderly as possible while maintaining truthfulness.",
+      "checksum": "8454529cab016ecb"
+    },
+    {
+      "id": 8,
+      "text": "Hamerton had kind feelings towards the dead because he expected to be dead when his autobiography was published.",
+      "checksum": "207c52ee4e9c4401"
+    },
+    {
+      "id": 9,
+      "text": "Hamerton found the notion of being a dead man not entirely displeasing.",
+      "checksum": "9a62b28b2c05a929"
+    },
+    {
+      "id": 10,
+      "text": "Hamerton felt a new kind of security writing his autobiography knowing it would not be published until after his death.",
+      "checksum": "3711acde9e92240d"
+    },
+    {
+      "id": 11,
+      "text": "Hamerton had been contemplating death for at least an hour before writing this chapter.",
+      "checksum": "646b7267e7c2c4f7"
+    },
+    {
+      "id": 12,
+      "text": "Hamerton was born at Laneside near Shaw in Lancashire in 1834.",
+      "checksum": "931f171c3b76e2b9"
+    },
+    {
+      "id": 13,
+      "text": "Hamerton's maternal grandfather owned Laneside, a small estate with houses and a cotton-mill.",
+      "checksum": "fe6329384073e99b"
+    },
+    {
+      "id": 14,
+      "text": "Hamerton's grandfather Cocker was a lively and vigorous man who enjoyed life heartily.",
+      "checksum": "f614e540aab453ad"
+    },
+    {
+      "id": 15,
+      "text": "Hamerton's grandmother was descended from the De Cromptons of Crompton Hall.",
+      "checksum": "bef56639fdd632e2"
+    },
+    {
+      "id": 16,
+      "text": "Hamerton's grandmother had a great appreciation of the value of money.",
+      "checksum": "0de62bd5112833d7"
+    },
+    {
+      "id": 17,
+      "text": "Hamerton's father came to Shaw as a young attorney.",
+      "checksum": "1cdac97a6cef749b"
+    },
+    {
+      "id": 18,
+      "text": "Hamerton's father had a fine person, great physical strength, and fifteen quarterings.",
+      "checksum": "5102acad4a5581d8"
+    },
+    {
+      "id": 19,
+      "text": "Hamerton's father had a reputation for dissolute habits.",
+      "checksum": "31dec76b1d81503d"
+    },
+    {
+      "id": 20,
+      "text": "Hamerton's father was a good horseman and an excellent shot.",
+      "checksum": "4a34b59704bc0729"
+    },
+    {
+      "id": 21,
+      "text": "Hamerton's father looked very well in a ball-room.",
+      "checksum": "7818c3b85503c17b"
+    },
+    {
+      "id": 22,
+      "text": "Hamerton's father had an unhappy faculty for shining in masculine company.",
+      "checksum": "4c92d501fc3476f4"
+    },
+    {
+      "id": 23,
+      "text": "Hamerton's father had little money except what he earned in his profession.",
+      "checksum": "095d253d9279dedd"
+    },
+    {
+      "id": 24,
+      "text": "Hamerton's mother was a young lady with a will of her own and a sweet and amiable disposition.",
+      "checksum": "b696e1521fdc8621"
+    },
+    {
+      "id": 25,
+      "text": "Hamerton's mother publicly declared her intentions to marry his father by dancing with him at a charity ball in Shaw.",
+      "checksum": "7592bc3af5c1118b"
+    },
+    {
+      "id": 26,
+      "text": "Hamerton's grandmother initially opposed the match between his parents.",
+      "checksum": "d574cbd4794f7847"
+    },
+    {
+      "id": 27,
+      "text": "Hamerton's parents married without his grandmother's consent in June 1833.",
+      "checksum": "4dd2a17f82baccca"
+    },
+    {
+      "id": 28,
+      "text": "Hamerton's father wrote a formal letter to his future mother-in-law requesting her consent to the marriage.",
+      "checksum": "623a0a882d304b6c"
+    },
+    {
+      "id": 29,
+      "text": "Hamerton's father promised that his wife's property would be settled upon herself so he could have no control over it.",
+      "checksum": "c69db27ccdf49ec5"
+    },
+    {
+      "id": 30,
+      "text": "Hamerton's father intended to reform his way of life through marriage.",
+      "checksum": "489c8990c3a63dcb"
+    },
+    {
+      "id": 31,
+      "text": "Hamerton's parents' marriage was immensely happy during the short time it lasted.",
+      "checksum": "c85b18e6a8f0a0af"
+    },
+    {
+      "id": 32,
+      "text": "Hamerton's mother died prematurely, little more than one year after her marriage.",
+      "checksum": "eb917b0e8763131f"
+    },
+    {
+      "id": 33,
+      "text": "Hamerton was born on September 10, 1834.",
+      "checksum": "8c38c1a4522b5fa5"
+    },
+    {
+      "id": 34,
+      "text": "Hamerton's mother died on September 27, 1834, at twenty minutes past eleven at night.",
+      "checksum": "4181368d2db6fc82"
+    },
+    {
+      "id": 35,
+      "text": "Hamerton's mother died of mere weakness without any absolute disease, according to three doctors.",
+      "checksum": "c04e3d20b713df4b"
+    },
+    {
+      "id": 36,
+      "text": "Hamerton's mother had been very delicate for a long time.",
+      "checksum": "ad6f825bfbf545b3"
+    },
+    {
+      "id": 37,
+      "text": "Hamerton's father was twenty-nine years old when his wife died.",
+      "checksum": "3753158d1686e899"
+    },
+    {
+      "id": 38,
+      "text": "Hamerton's mother had blue eyes, a very fair complexion, and rich auburn hair.",
+      "checksum": "9ce7ee9fb499fb3f"
+    },
+    {
+      "id": 39,
+      "text": "Hamerton has never had any symptoms of consumption in the fifty-one years since his mother's death.",
+      "checksum": "6d5637e66ff3f1da"
+    },
+    {
+      "id": 40,
+      "text": "No portrait of Hamerton's mother was ever taken.",
+      "checksum": "afc39fb4589dcfdb"
+    },
+    {
+      "id": 41,
+      "text": "Hamerton once played the part of a young lady in a charade and was told he resembled his mother.",
+      "checksum": "f8a578c22e873023"
+    },
+    {
+      "id": 42,
+      "text": "Hamerton's father customarily wrote the family name with a double 'm'.",
+      "checksum": "d68478e8f06a4a1d"
+    },
+    {
+      "id": 43,
+      "text": "Hamerton's mother died when he was very young.",
+      "checksum": "f3b2f8fdecaded5c"
+    },
+    {
+      "id": 44,
+      "text": "Hamerton was uncertain whether his mother died of consumption or debility.",
+      "checksum": "c2a7ae244ab4642b"
+    },
+    {
+      "id": 45,
+      "text": "Hamerton has never shown symptoms of consumption.",
+      "checksum": "15ea5a9584fb6f9a"
+    },
+    {
+      "id": 46,
+      "text": "Hamerton's mother had blue eyes, fair complexion, and auburn hair.",
+      "checksum": "3c29df21ba1bd4df"
+    },
+    {
+      "id": 47,
+      "text": "Hamerton's mother was physically active and a good horsewoman.",
+      "checksum": "c83a37527dc4f362"
+    },
+    {
+      "id": 48,
+      "text": "Hamerton's mother went shooting with his father on one occasion and killed something, then cried over her victim.",
+      "checksum": "79d2beaf19c07717"
+    },
+    {
+      "id": 49,
+      "text": "Hamerton's mother was twenty-four years old when she died.",
+      "checksum": "13b7d666e26dabe6"
+    },
+    {
+      "id": 50,
+      "text": "Hamerton has lived more than twice as long as his mother.",
+      "checksum": "24f3c62b68ea688c"
+    },
+    {
+      "id": 51,
+      "text": "Hamerton's father never remarried after his mother's death.",
+      "checksum": "93d99a397b8e63e7"
+    },
+    {
+      "id": 52,
+      "text": "Hamerton's father lost interest in his profession after his mother's death.",
+      "checksum": "0fbceeb6a1b00667"
+    },
+    {
+      "id": 53,
+      "text": "Hamerton's father received a testimonial from a client in 1834 for his legal work.",
+      "checksum": "abfa06d934507bd5"
+    },
+    {
+      "id": 54,
+      "text": "Hamerton's father became indolent and indifferent after inheriting his wife's property.",
+      "checksum": "0c0f0fa22cc4417c"
+    },
+    {
+      "id": 55,
+      "text": "Hamerton's father sought relief from depression through the society of drinking companions.",
+      "checksum": "9dd7b4d88d3a0c3b"
+    },
+    {
+      "id": 56,
+      "text": "Hamerton's father had great physical strength and could drink heavily without showing obvious effects.",
+      "checksum": "fea10c0c185d1317"
+    },
+    {
+      "id": 57,
+      "text": "Hamerton's father was considered the cleverest member of his family.",
+      "checksum": "d534c4fce12e2eea"
+    },
+    {
+      "id": 58,
+      "text": "Hamerton's father had no intellectual tastes and rarely purchased books.",
+      "checksum": "fd51405ebe2549b7"
+    },
+    {
+      "id": 59,
+      "text": "Hamerton's father's book collection included a biography of William IV, sketches of Reform Ministers, Baines's History of Lancashire, and a Geographical Dictionary.",
+      "checksum": "3a773f4912c7153e"
+    },
+    {
+      "id": 60,
+      "text": "Hamerton's father did not own books by popular English poets of his time or novels by Sir Walter Scott.",
+      "checksum": "495b6fad3646fe93"
+    },
+    {
+      "id": 61,
+      "text": "Hamerton's father read the Times newspaper and its leading articles.",
+      "checksum": "a9333d242b8d6c3a"
+    },
+    {
+      "id": 62,
+      "text": "Hamerton's father was indifferent to the fine arts.",
+      "checksum": "589a7366ac9e0660"
+    },
+    {
+      "id": 63,
+      "text": "Hamerton's father drank brandy in hot strong grogs with unlimited tobacco.",
+      "checksum": "b1071d850c15a81d"
+    },
+    {
+      "id": 64,
+      "text": "Hamerton's father dined in the middle of the day and drank through the afternoon and evening.",
+      "checksum": "86d14c770468613f"
+    },
+    {
+      "id": 65,
+      "text": "Hamerton's father drank ale in the morning to slake his thirst.",
+      "checksum": "e330e2d640de6212"
+    },
+    {
+      "id": 66,
+      "text": "Hamerton's father separated himself from his own social class.",
+      "checksum": "5001a21f6b2aa65b"
+    },
+    {
+      "id": 67,
+      "text": "Hamerton's father had a constitution stronger than most men.",
+      "checksum": "b8a81e85c5c3c3e5"
+    },
+    {
+      "id": 68,
+      "text": "Hamerton's father was completely independent and free to travel or advance his profession.",
+      "checksum": "0666b07ff9a2ba2d"
+    },
+    {
+      "id": 69,
+      "text": "Hamerton was not brought up under his father's roof during childhood.",
+      "checksum": "860b2f79f88357d8"
+    },
+    {
+      "id": 70,
+      "text": "Hamerton was sent to live with his father's two unmarried sisters during childhood.",
+      "checksum": "630f9d3ad38b5159"
+    },
+    {
+      "id": 71,
+      "text": "Hamerton's aunts lived in Burnley with their mother.",
+      "checksum": "ed64872302e364d3"
+    },
+    {
+      "id": 72,
+      "text": "Burnley was a small country town in an aristocratic neighborhood during Hamerton's childhood.",
+      "checksum": "8971474e22cbb392"
+    },
+    {
+      "id": 73,
+      "text": "Hamerton's grandfather, Gilbert Hamerton, was the second son of an ancient Yorkshire family.",
+      "checksum": "d3ec824ca059c7dd"
+    },
+    {
+      "id": 74,
+      "text": "Hamerton's grandfather possessed an old gabled mansion with a small estate near Towneley Park.",
+      "checksum": "57d5d595e2dc8961"
+    },
+    {
+      "id": 75,
+      "text": "Hamerton's grandfather married a farmer's daughter named Jane Smith.",
+      "checksum": "45d402308963ab32"
+    },
+    {
+      "id": 76,
+      "text": "Hamerton's grandmother was a farmer's daughter who became an excellent wife and mother.",
+      "checksum": "cc4f265e0a3f94a6"
+    },
+    {
+      "id": 77,
+      "text": "Hamerton's grandmother was well-respected in society despite marrying above her station.",
+      "checksum": "5c9cf4e3e93126a2"
+    },
+    {
+      "id": 78,
+      "text": "Hamerton's grandmother was the first dead human body Hamerton ever saw.",
+      "checksum": "70baf9fbf192117d"
+    },
+    {
+      "id": 79,
+      "text": "Hamerton's grandfather and his brother were completely and permanently estranged.",
+      "checksum": "7b532da14dd8abb5"
+    },
+    {
+      "id": 80,
+      "text": "Hamerton's grandfather's brother was the squire of Hellifield Peel.",
+      "checksum": "dc62a7fdab0cd4ec"
+    },
+    {
+      "id": 81,
+      "text": "Hamerton's grandfather lived at Hollins, inherited from his mother.",
+      "checksum": "490f1b81c175ffaf"
+    },
+    {
+      "id": 82,
+      "text": "Hamerton's grandfather's brother lived in a castellated peel tower at Hellifield built in 1440.",
+      "checksum": "32b5903327d96d89"
+    },
+    {
+      "id": 83,
+      "text": "The two family estates were only about twenty miles apart.",
+      "checksum": "558bd37391dfd421"
+    },
+    {
+      "id": 84,
+      "text": "Hamerton's grandfather and his brother never met after their quarrel.",
+      "checksum": "ee21648fe6aad811"
+    },
+    {
+      "id": 85,
+      "text": "Hamerton's grandfather lived in apparently excellent health until age seventy-seven.",
+      "checksum": "8b3c72d6ba08a8e3"
+    },
+    {
+      "id": 86,
+      "text": "Hamerton's grandfather died suddenly while seated in his dining-room at Hollins.",
+      "checksum": "009c8b7912d8f385"
+    },
+    {
+      "id": 87,
+      "text": "Hamerton's grandfather asked his daughter to open a window and say a prayer before dying.",
+      "checksum": "ac90d34de8a34e27"
+    },
+    {
+      "id": 88,
+      "text": "Hamerton's grandfather preserved the costume and manners of the eighteenth century, wearing a pig-tail, breeches, and shoe-buckles.",
+      "checksum": "9adee439a519c512"
+    },
+    {
+      "id": 89,
+      "text": "Hamerton's grandfather had a great liking for the French language.",
+      "checksum": "5d83fe457b6d35d0"
+    },
+    {
+      "id": 90,
+      "text": "Hamerton's grandfather took life too easily for any intellectual achievements.",
+      "checksum": "4288b71a9b322bd3"
+    },
+    {
+      "id": 91,
+      "text": "Hamerton remembers his grandmother as an old lady always dressed in black.",
+      "checksum": "a645782e061fa3a4"
+    },
+    {
+      "id": 92,
+      "text": "Hamerton had intense affection for his grandmother and remembers her kind words.",
+      "checksum": "71ab2a369aa0e209"
+    },
+    {
+      "id": 93,
+      "text": "Hamerton felt vague pity for his loss as a child because people looked at him with tenderness for his mother's sake.",
+      "checksum": "19fa1db2cbe61e0a"
+    },
+    {
+      "id": 94,
+      "text": "Hamerton later understood that his mother's death was a sacrifice that allowed him to live.",
+      "checksum": "a876973feddc48e4"
+    },
+    {
+      "id": 95,
+      "text": "Hamerton's grandfather died with his daughter present forty miles away, and his grandson reported seeing his grandfather's apparition.",
+      "checksum": "8c35c74121e039fb"
+    },
+    {
+      "id": 96,
+      "text": "Hamerton's grandfather wore eighteenth-century costume including a pig-tail, breeches, and shoe-buckles.",
+      "checksum": "ca7d54fa61365e04"
+    },
+    {
+      "id": 97,
+      "text": "Hamerton's grandfather had a great liking for the French language and wrote an original French grammar.",
+      "checksum": "348fbb64287d390a"
+    },
+    {
+      "id": 98,
+      "text": "Hamerton's grandfather printed his French grammar in synoptic sheets at his private expense, though it was never completed or published.",
+      "checksum": "6e06fe8c8cbf86ee"
+    },
+    {
+      "id": 99,
+      "text": "Hamerton believed he may have inherited his aptitude for French from his grandfather.",
+      "checksum": "8afb2ffa0a402248"
+    },
+    {
+      "id": 100,
+      "text": "Hamerton's grandfather never lived in France and never visited the country.",
+      "checksum": "d697b2c8a3c924c2"
+    },
+    {
+      "id": 101,
+      "text": "Hamerton's grandfather's French conversations were chiefly held with a Roman Catholic chaplain at Towneley Hall.",
+      "checksum": "b44eb4371873656d"
+    },
+    {
+      "id": 102,
+      "text": "Hamerton's grandfather traveled in Portugal for six months.",
+      "checksum": "0ba44a7da7864487"
+    },
+    {
+      "id": 103,
+      "text": "Hamerton's grandfather's traveling companion, a younger brother, died abroad from sleeping in a damp bed.",
+      "checksum": "4bc393ced5e695b7"
+    },
+    {
+      "id": 104,
+      "text": "During Hamerton's grandfather's absence, an estate agent cut down the old avenue of oaks leading to the house.",
+      "checksum": "d5d28ea1fc881c0e"
+    },
+    {
+      "id": 105,
+      "text": "Hamerton confessed himself to be a lover of trees, avenues, and old houses.",
+      "checksum": "96756877b19d55b2"
+    },
+    {
+      "id": 106,
+      "text": "Hamerton's grandfather brought up all three of his sons to be solicitors as the readiest means of earning a living.",
+      "checksum": "63384e052f5277b9"
+    },
+    {
+      "id": 107,
+      "text": "Hamerton's eldest uncle heartily disliked the legal profession.",
+      "checksum": "fc4d4469f9ea67e9"
+    },
+    {
+      "id": 108,
+      "text": "Hamerton's other uncle regarded the legal profession with cool indifference.",
+      "checksum": "6b49f6e01eff2fb6"
+    },
+    {
+      "id": 109,
+      "text": "Hamerton's father expressed his desire that Hamerton should never be a lawyer.",
+      "checksum": "0edb93fdc321b761"
+    },
+    {
+      "id": 110,
+      "text": "Hamerton's father believed a man had enough to plague him in his own concerns without troubling his mind about those of other people.",
+      "checksum": "611fd82bc8096e77"
+    },
+    {
+      "id": 111,
+      "text": "Hamerton's aunts remained aristocratic in their feelings throughout their lives.",
+      "checksum": "359e60d08b52ef50"
+    },
+    {
+      "id": 112,
+      "text": "Hamerton's aunts liked to enjoy the hospitality of great houses in the neighborhood.",
+      "checksum": "abc7775aaff776f0"
+    },
+    {
+      "id": 113,
+      "text": "Hamerton's uncles and father abandoned all aristocratic memories and aspirations and entered frankly into the middle class.",
+      "checksum": "000558b6e25081af"
+    },
+    {
+      "id": 114,
+      "text": "Hamerton believed his aunts showed better taste in liking refined society than his father did in lowering himself to associate with men of inferior stamp.",
+      "checksum": "388c469c43b6d977"
+    },
+    {
+      "id": 115,
+      "text": "One of Hamerton's aunts preferred gentlefolks because their manners were more agreeable.",
+      "checksum": "36a9160f87c3df1a"
+    },
+    {
+      "id": 116,
+      "text": "Hamerton's aunts gave him his beginning of education.",
+      "checksum": "386e07fe2475bb45"
+    },
+    {
+      "id": 117,
+      "text": "Hamerton learned to read English with the greatest facility.",
+      "checksum": "8a744aa81816d834"
+    },
+    {
+      "id": 118,
+      "text": "Hamerton was sent to Grammar School at Burnley at the age of five and a half.",
+      "checksum": "171a794e82c5b395"
+    },
+    {
+      "id": 119,
+      "text": "Hamerton's schoolmaster considered him so well forward that he was set at once to Latin.",
+      "checksum": "90c3c8153b778eb8"
+    },
+    {
+      "id": 120,
+      "text": "Hamerton was made to learn Latin out of a grammar written in that language.",
+      "checksum": "a6a252ae0ecd1554"
+    },
+    {
+      "id": 121,
+      "text": "Hamerton retained recollection of the perfectly useless mental fatigue and puzzlement from learning abstract grammatical statements in Latin.",
+      "checksum": "ae1b32f8d6c9d355"
+    },
+    {
+      "id": 122,
+      "text": "Hamerton believed the idea of making a child five and a half years old learn a dead language by abstract rules is a great error.",
+      "checksum": "c23d1433777d35d2"
+    },
+    {
+      "id": 123,
+      "text": "Hamerton's progress in Latin was very slow.",
+      "checksum": "0acbc984e8f0d67b"
+    },
+    {
+      "id": 124,
+      "text": "Hamerton developed a horror of everything printed in Latin that he did not overcome for many years.",
+      "checksum": "8252345bb1bf80e9"
+    },
+    {
+      "id": 125,
+      "text": "Hamerton's schoolmaster had a rude disposition and sometimes amused himself by putting Hamerton and another child on his knees and bringing their heads into collision.",
+      "checksum": "2832e721b46df236"
+    },
+    {
+      "id": 126,
+      "text": "Hamerton remembered the sensation of being stunned by the schoolmaster's collisions but was not aware his Latin improved from it.",
+      "checksum": "943245d3f57d2922"
+    },
+    {
+      "id": 127,
+      "text": "Hamerton's recollection of his early years at school is extremely vague.",
+      "checksum": "de6ff444e2d38e32"
+    },
+    {
+      "id": 128,
+      "text": "Hamerton was taken once or twice a year to his father and always disliked and dreaded those visits.",
+      "checksum": "211600de816e783a"
+    },
+    {
+      "id": 129,
+      "text": "Hamerton feared his father greatly and with good reason.",
+      "checksum": "145287017407648e"
+    },
+    {
+      "id": 130,
+      "text": "As a child, Hamerton persuaded his father's groom to let him mount a gray saddle-horse.",
+      "checksum": "664a11e0d18b87dd"
+    },
+    {
+      "id": 131,
+      "text": "Hamerton was given a whip and left the bridle to himself on the horse, applied the whip vigorously, and was thrown off and carried back covered with blood.",
+      "checksum": "88258b18cf4377f2"
+    },
+    {
+      "id": 132,
+      "text": "Hamerton's father employed a tailor who made Hamerton a suit without particulars, creating a costume that was an exact copy of a full-grown squire's dress on a small scale.",
+      "checksum": "1c8c55a960d64d1f"
+    },
+    {
+      "id": 133,
+      "text": "Hamerton's suit consisted of a green cut-away coat, a yellow waistcoat, and green trousers adorned with gilt buttons.",
+      "checksum": "e054003f9a89f2b2"
+    },
+    {
+      "id": 134,
+      "text": "Hamerton was proud of his suit and did not understand the laughter it provoked.",
+      "checksum": "36587b6989e6a49a"
+    },
+    {
+      "id": 135,
+      "text": "Hamerton's father tyrannically decreed that Hamerton was never to wear the suit.",
+      "checksum": "3b91f0aa6beef7a7"
+    },
+    {
+      "id": 136,
+      "text": "Hamerton was capable of regretting the suit even into adulthood.",
+      "checksum": "814cffcea0b65828"
+    },
+    {
+      "id": 137,
+      "text": "Hamerton undertook a tour in Wales with his father and his father's eldest sister in the summer of 1842.",
+      "checksum": "796c11ad6f981428"
+    },
+    {
+      "id": 138,
+      "text": "Hamerton's aunt made him keep a journal of the Wales tour, which he still possessed.",
+      "checksum": "301d9dfa55cc621a"
+    },
+    {
+      "id": 139,
+      "text": "Hamerton was accustomed to live with grown-up people and had no companions of his own age in the same house.",
+      "checksum": "412587ff1132d3db"
+    },
+    {
+      "id": 140,
+      "text": "Hamerton had cousins at Hollins and friends at school.",
+      "checksum": "278200cc2e88d773"
+    },
+    {
+      "id": 141,
+      "text": "Hamerton acquired a way of talking about things as older people talk.",
+      "checksum": "ed66fa62f72b7748"
+    },
+    {
+      "id": 142,
+      "text": "Hamerton was very observant and received very strong impressions, especially from buildings such as old castles and cathedrals.",
+      "checksum": "430d6c5460bcc103"
+    },
+    {
+      "id": 143,
+      "text": "Hamerton had a topographic habit of mind even in childhood that made every fresh locality interesting and engraved it on his memory.",
+      "checksum": "24372de7274a1cb9"
+    },
+    {
+      "id": 144,
+      "text": "Hamerton's journal was written as an exercise to please his father.",
+      "checksum": "1390b28ca0137021"
+    },
+    {
+      "id": 145,
+      "text": "Hamerton had been learning Latin for more than two years when he wrote the Wales journal at age eight.",
+      "checksum": "2939947fa4685b29"
+    },
+    {
+      "id": 146,
+      "text": "Hamerton had a great interest in all beautiful materials throughout the pages of his journal.",
+      "checksum": "bf70b9579f7d26a5"
+    },
+    {
+      "id": 147,
+      "text": "Hamerton noticed the kind of wood used for suites of furniture and invariably mentioned it in his journal.",
+      "checksum": "a1fb063df618cb67"
+    },
+    {
+      "id": 148,
+      "text": "Hamerton had a special instinct for appreciating beautiful materials, which he described as a kind of sympathy with Nature.",
+      "checksum": "c19986475cfad632"
+    },
+    {
+      "id": 149,
+      "text": "Hamerton's interest in materials has always been very strong.",
+      "checksum": "fcab9f238cd749a2"
+    },
+    {
+      "id": 150,
+      "text": "Hamerton's interest in materials is both artistic and utilitarian.",
+      "checksum": "349d1a38f7fd3893"
+    },
+    {
+      "id": 151,
+      "text": "All metals, woods, marble, etc., are delightful to Hamerton in some way.",
+      "checksum": "705e67e5a72549ae"
+    },
+    {
+      "id": 152,
+      "text": "In 1842 Rhyl was a little quiet place known to Liverpool people as a good bathing-place.",
+      "checksum": "92f57362bf95ec27"
+    },
+    {
+      "id": 153,
+      "text": "Hamerton urged his father to buy a genteel cottage in Rhyl because it pleased him on account of possibilities for boating and riding on the sands.",
+      "checksum": "037d66c111afea24"
+    },
+    {
+      "id": 154,
+      "text": "Hamerton had enjoyed excellent fishing during the Wales tour, which delighted him as a child, though he gave up the amusement afterwards.",
+      "checksum": "65625cc0b7a98191"
+    },
+    {
+      "id": 155,
+      "text": "Hamerton remembered the Rhyl house very distinctly as his father's last chance of escape from his habits and associates.",
+      "checksum": "3194e138745fe3c3"
+    },
+    {
+      "id": 156,
+      "text": "During the Wales tour, Hamerton's father conducted himself as a man ought to do who is travelling with a lady and a child.",
+      "checksum": "166df9d8cb095398"
+    },
+    {
+      "id": 157,
+      "text": "Hamerton's father was not harsh with him during the Wales tour, and some of those Welsh days were pleasant for Hamerton to live over again in memory.",
+      "checksum": "692e87ec895b31cb"
+    },
+    {
+      "id": 158,
+      "text": "Hamerton's father refused to buy the Rhyl house because it did not seem a good investment, being a flimsy little building not very well contrived.",
+      "checksum": "082835fb9a2f6194"
+    },
+    {
+      "id": 159,
+      "text": "Hamerton's father bought him a little bay mare at Rhyl that was a pretty and swift creature.",
+      "checksum": "a0645121eb40072a"
+    },
+    {
+      "id": 160,
+      "text": "The bay mare was pitched into the sea from a steamer at Menai and made to swim ashore.",
+      "checksum": "9f8614db42a4d5b2"
+    },
+    {
+      "id": 161,
+      "text": "The mare became broken-winded after being in a hot place on the steamer near the engines and then suddenly exposed to cold sea-water.",
+      "checksum": "b56c21bf45be2f24"
+    },
+    {
+      "id": 162,
+      "text": "Hamerton was greatly grieved by the mare becoming broken-winded.",
+      "checksum": "3d90ba313cc7d5d2"
+    },
+    {
+      "id": 163,
+      "text": "Hamerton had very tender feelings about animals down to the present day.",
+      "checksum": "1734bb8dac436dcc"
+    },
+    {
+      "id": 164,
+      "text": "Hamerton visited Anglesea and Caernarvon during the Wales tour.",
+      "checksum": "937dff8298414795"
+    },
+    {
+      "id": 165,
+      "text": "Hamerton's father refused to buy a house because it seemed like a poor investment.",
+      "checksum": "a4a2edf158bbc6e6"
+    },
+    {
+      "id": 166,
+      "text": "Hamerton's father bought him a little bay mare at Rhyl.",
+      "checksum": "945f147823bfb527"
+    },
+    {
+      "id": 167,
+      "text": "The bay mare became broken-winded after being thrown into the sea during transport.",
+      "checksum": "a1626ad220da39f3"
+    },
+    {
+      "id": 168,
+      "text": "Hamerton had tender feelings about animals throughout his life.",
+      "checksum": "2869e2cea2c2db6f"
+    },
+    {
+      "id": 169,
+      "text": "Hamerton was struck by the beauty of the Menai suspension bridge rather than its size or cost.",
+      "checksum": "bbecf4b9abb2a43f"
+    },
+    {
+      "id": 170,
+      "text": "The Welsh tour in 1842 was the last year Hamerton could live in happy ignorance of evil.",
+      "checksum": "2e6110e9fb8a5a8c"
+    },
+    {
+      "id": 171,
+      "text": "Hamerton's father was extremely severe and often more harsh than the occasion warranted.",
+      "checksum": "d25e1728ba8d843a"
+    },
+    {
+      "id": 172,
+      "text": "Hamerton's father's severity was partly due to his habit of drinking brandy.",
+      "checksum": "fb4562014bd5256c"
+    },
+    {
+      "id": 173,
+      "text": "Hamerton had a well-founded dread of his father's presence when inflamed with alcohol.",
+      "checksum": "a0b7e9663e93e2e8"
+    },
+    {
+      "id": 174,
+      "text": "Hamerton's father was very uncertain in his moods and greetings.",
+      "checksum": "65bedff5195336f7"
+    },
+    {
+      "id": 175,
+      "text": "One of Hamerton's aunts always accompanied him during visits to his father for protection.",
+      "checksum": "ee4938146eb4bf9b"
+    },
+    {
+      "id": 176,
+      "text": "Hamerton feared being left alone with his father.",
+      "checksum": "137a867257b50c23"
+    },
+    {
+      "id": 177,
+      "text": "In June 1843, Hamerton's father ordered him to come live under his roof permanently.",
+      "checksum": "5a484223403ec7bc"
+    },
+    {
+      "id": 178,
+      "text": "Hamerton had feelings toward his elder aunt that were like those of a loving son toward his mother.",
+      "checksum": "50fc68899e658ca6"
+    },
+    {
+      "id": 179,
+      "text": "Hamerton's elder aunt had completely taken the place of his mother.",
+      "checksum": "8508e78ea7e09735"
+    },
+    {
+      "id": 180,
+      "text": "Hamerton's father owned Ivy Cottage in Shaw.",
+      "checksum": "52d8cd18ab8a1a42"
+    },
+    {
+      "id": 181,
+      "text": "Hamerton's father kept saddle horses and ponies but no carriage.",
+      "checksum": "f9312f28a8f5aa78"
+    },
+    {
+      "id": 182,
+      "text": "Hamerton's father was exacting about horse grooming and equipment.",
+      "checksum": "8c88336e683d2a14"
+    },
+    {
+      "id": 183,
+      "text": "Hamerton's father rode a jet-black mare of vicious temper.",
+      "checksum": "f3eaa83928743dc0"
+    },
+    {
+      "id": 184,
+      "text": "Hamerton's pony was pure white with a full mane and tail.",
+      "checksum": "c76de0036958db23"
+    },
+    {
+      "id": 185,
+      "text": "Hamerton rode in constant dread of his father's hunting whip with a steel hammer at the end.",
+      "checksum": "52ae6ddfdd9c38ce"
+    },
+    {
+      "id": 186,
+      "text": "Hamerton's father struck him with the whip hammer when he turned his toes out.",
+      "checksum": "26c2050a9602eeb7"
+    },
+    {
+      "id": 187,
+      "text": "Hamerton's father became angry when Hamerton showed gentleness or tenderness.",
+      "checksum": "5e51e50ffe0dc5b4"
+    },
+    {
+      "id": 188,
+      "text": "Hamerton loved his pony Lily and did not like to beat her.",
+      "checksum": "1744da4d3bed3eec"
+    },
+    {
+      "id": 189,
+      "text": "Hamerton had a young dog that was very dear to him.",
+      "checksum": "ee6fc71ca466f591"
+    },
+    {
+      "id": 190,
+      "text": "Hamerton's father kicked Hamerton's dog, causing it to die.",
+      "checksum": "a99d9f116e09985a"
+    },
+    {
+      "id": 191,
+      "text": "Hamerton's father frequently stopped at inns during rides to drink.",
+      "checksum": "c93d9e1cf9959191"
+    },
+    {
+      "id": 192,
+      "text": "Hamerton's father once fell from his horse on a paved street but was caught by bystanders.",
+      "checksum": "7327f87bc4e25fc1"
+    },
+    {
+      "id": 193,
+      "text": "Hamerton's father fell with his foot caught in the stirrup and was dragged down a steep hill.",
+      "checksum": "e8189ae22be5d19f"
+    },
+    {
+      "id": 194,
+      "text": "Hamerton's father wore a top-coat that protected him during the dragging accident.",
+      "checksum": "a167a630ec740b31"
+    },
+    {
+      "id": 195,
+      "text": "Hamerton's father sent him on errands with strict time limits.",
+      "checksum": "a3c06056aee2d068"
+    },
+    {
+      "id": 196,
+      "text": "Hamerton's father believed in applying the mind completely to one thing at a time.",
+      "checksum": "03d0a355a96a0dbf"
+    },
+    {
+      "id": 197,
+      "text": "Hamerton's father hated desultory effort and busy idleness.",
+      "checksum": "221cced82eea171b"
+    },
+    {
+      "id": 198,
+      "text": "Hamerton's father swore freely but punished Hamerton for swearing.",
+      "checksum": "a9e9e615f8734f04"
+    },
+    {
+      "id": 199,
+      "text": "Hamerton's father hated lies and the shadow of lies above all things.",
+      "checksum": "267b124f6d6cd51a"
+    },
+    {
+      "id": 200,
+      "text": "Hamerton's father's precept 'Tell the truth and shame the devil' sank deep into Hamerton's nature.",
+      "checksum": "f3ee55ec20afef26"
+    },
+    {
+      "id": 201,
+      "text": "Hamerton became genuinely difficult for him to tell lies due to his father's teaching.",
+      "checksum": "104d5e84b03728e6"
+    },
+    {
+      "id": 202,
+      "text": "Hamerton was punished with two hours of dumb-bell drill for allegedly lying about his exercise time.",
+      "checksum": "0eca9acfc2f7927c"
+    },
+    {
+      "id": 203,
+      "text": "Hamerton's father punished him for explaining that he pulled paper rather than tore it.",
+      "checksum": "8ab27d8fb44629cf"
+    },
+    {
+      "id": 204,
+      "text": "Hamerton's father taught him riding well.",
+      "checksum": "3bd3432e7c0764a7"
+    },
+    {
+      "id": 205,
+      "text": "Hamerton's father made him take cold shower-baths to accustom him to water.",
+      "checksum": "9c9398bf88229c52"
+    },
+    {
+      "id": 206,
+      "text": "Hamerton's father attached great importance to arithmetic, reading aloud, and intelligible writing.",
+      "checksum": "6049fc588e4356e0"
+    },
+    {
+      "id": 207,
+      "text": "Hamerton's father had limited education and knew no Greek and only minimal Latin.",
+      "checksum": "51b15baae0ca9298"
+    },
+    {
+      "id": 208,
+      "text": "Hamerton's father desired Hamerton to be well taught despite his own limited education.",
+      "checksum": "9ba6d5656c670110"
+    },
+    {
+      "id": 209,
+      "text": "Hamerton's father placed gold and silver in his keeping to teach him about money.",
+      "checksum": "0866c6824636c7ac"
+    },
+    {
+      "id": 210,
+      "text": "Hamerton never lost or misapplied any money his father entrusted to him.",
+      "checksum": "90faf87ba151ee02"
+    },
+    {
+      "id": 211,
+      "text": "Hamerton was sent to a village school near his father's house to practice calligraphy and arithmetic.",
+      "checksum": "262da446d5c42680"
+    },
+    {
+      "id": 212,
+      "text": "Hamerton fell in love with a girl about a year older than himself at the village school.",
+      "checksum": "afa92ff322bc5cf4"
+    },
+    {
+      "id": 213,
+      "text": "The girl Hamerton loved squinted to an unfortunate degree.",
+      "checksum": "cfb75ddd29511b1c"
+    },
+    {
+      "id": 214,
+      "text": "Hamerton's existence at Ivy Cottage was one of extreme dullness varied by dread.",
+      "checksum": "a52f42f8dbf884b0"
+    },
+    {
+      "id": 215,
+      "text": "Every meal at Ivy Cottage was a tête-à-tête with his father with no other company.",
+      "checksum": "6692fdd1d58d8f35"
+    },
+    {
+      "id": 216,
+      "text": "Hamerton's father became increasingly gloomy as his nervous system gave way.",
+      "checksum": "9e3b98f80a4d590f"
+    },
+    {
+      "id": 217,
+      "text": "Hamerton was sent to school to practice calligraphy and arithmetic.",
+      "checksum": "adc2f875aa4d93ae"
+    },
+    {
+      "id": 218,
+      "text": "Hamerton fell in love with a girl about a year older than himself while at school.",
+      "checksum": "b3ffad06ff7d9007"
+    },
+    {
+      "id": 219,
+      "text": "Hamerton attended school with both boys and girls in the same schoolroom.",
+      "checksum": "31d8273ae1e30741"
+    },
+    {
+      "id": 220,
+      "text": "Hamerton had meals alone with his father, unrelieved by the presence of any lady or young person.",
+      "checksum": "52007c9e00e796e9"
+    },
+    {
+      "id": 221,
+      "text": "Hamerton found it a relief when guests came to dinner.",
+      "checksum": "f3b2bed6c8929571"
+    },
+    {
+      "id": 222,
+      "text": "Hamerton once believed a dinner guest was the Duke of Wellington.",
+      "checksum": "7ec5bac760daf222"
+    },
+    {
+      "id": 223,
+      "text": "Hamerton's brain received images of surrounding creatures and things with unnatural clearness and intensity during his time of anxiety.",
+      "checksum": "bd9945269987ede3"
+    },
+    {
+      "id": 224,
+      "text": "Hamerton remembered details of Ivy Cottage vividly forty years later.",
+      "checksum": "b8e4c23a1854a001"
+    },
+    {
+      "id": 225,
+      "text": "Hamerton meditated flight from his father one night while sitting by his bedroom window.",
+      "checksum": "4b320dddab6f9626"
+    },
+    {
+      "id": 226,
+      "text": "Hamerton's father's cruelty had reached its highest point before Hamerton considered fleeing.",
+      "checksum": "d82d389541f26a03"
+    },
+    {
+      "id": 227,
+      "text": "Hamerton was frequently beaten by his father.",
+      "checksum": "37703f4ff2f431b3"
+    },
+    {
+      "id": 228,
+      "text": "Hamerton's meals with his father had become intolerable.",
+      "checksum": "5ff56f899ed1ffb8"
+    },
+    {
+      "id": 229,
+      "text": "Hamerton had sovereigns in a drawer but refused to use them for escape because he considered it a breach of trust.",
+      "checksum": "4dabeb8925c21cda"
+    },
+    {
+      "id": 230,
+      "text": "Hamerton decided against fleeing because he feared his uncles would not believe his story and would send him back.",
+      "checksum": "89190bd9e5dfb98c"
+    },
+    {
+      "id": 231,
+      "text": "Hamerton feared his father would disinherit him if he attempted to flee.",
+      "checksum": "a92c40fcf09c7853"
+    },
+    {
+      "id": 232,
+      "text": "Hamerton's father had another heir in view whom Hamerton never saw.",
+      "checksum": "a454170707e547c8"
+    },
+    {
+      "id": 233,
+      "text": "Hamerton's father attempted to throw himself out a window during a week of delirium.",
+      "checksum": "4ace3d6d537257f7"
+    },
+    {
+      "id": 234,
+      "text": "It took six men to hold Hamerton's father on his bed during his attack.",
+      "checksum": "c76d760a390c572a"
+    },
+    {
+      "id": 235,
+      "text": "Hamerton's aunt Mary came to stay during his father's illness.",
+      "checksum": "23dc9a8c323dae4c"
+    },
+    {
+      "id": 236,
+      "text": "Hamerton loved his aunt Mary with filial tenderness and gratitude.",
+      "checksum": "bfa105cdc69718db"
+    },
+    {
+      "id": 237,
+      "text": "Hamerton's six-month ordeal at Ivy Cottage seemed longer than any half-dozen years before or after.",
+      "checksum": "b16357c50531329b"
+    },
+    {
+      "id": 238,
+      "text": "Hamerton's father ordered him to read the Times aloud during his recovery.",
+      "checksum": "79a4db0277ff0345"
+    },
+    {
+      "id": 239,
+      "text": "Hamerton's father accused him of inserting words into the Times article that were not there.",
+      "checksum": "cb0347d2a2d92285"
+    },
+    {
+      "id": 240,
+      "text": "Hamerton had been habituated by his father's precept to be truthful even to him.",
+      "checksum": "9dfe522aad5cc6a8"
+    },
+    {
+      "id": 241,
+      "text": "Hamerton's aunt listened at the door during the Times incident, fearing for his safety.",
+      "checksum": "68a2cbcc1e652c8d"
+    },
+    {
+      "id": 242,
+      "text": "Hamerton's father had a fit of apoplexy and died the next morning.",
+      "checksum": "42abadf7501fd8e7"
+    },
+    {
+      "id": 243,
+      "text": "Hamerton was not in the room when his father died.",
+      "checksum": "db01d96ff490bc1e"
+    },
+    {
+      "id": 244,
+      "text": "Hamerton was deeply affected by his father's death despite the cruelty he suffered.",
+      "checksum": "9d4fac597a032a05"
+    },
+    {
+      "id": 245,
+      "text": "Hamerton mourned the father who had been kind to him in Wales rather than the cruel master at Ivy Cottage.",
+      "checksum": "aa72b483af7a6526"
+    },
+    {
+      "id": 246,
+      "text": "Hamerton's father was thirty-nine years old at his death.",
+      "checksum": "bc545b020a7255d5"
+    },
+    {
+      "id": 247,
+      "text": "Hamerton's father had a complete set of perfectly sound teeth at the time of his death.",
+      "checksum": "f713930af6a59eef"
+    },
+    {
+      "id": 248,
+      "text": "Hamerton's father was buried in the same tomb as Hamerton's mother.",
+      "checksum": "faa337ca9894b462"
+    },
+    {
+      "id": 249,
+      "text": "Hamerton's father's funeral took place in January 1844.",
+      "checksum": "81b7bac5da038100"
+    },
+    {
+      "id": 250,
+      "text": "Hamerton developed a permanent dislike to Shaw and its neighborhood as a consequence of his life at Ivy Cottage.",
+      "checksum": "d63b2e101b7a0b57"
+    },
+    {
+      "id": 251,
+      "text": "Hamerton never went to Shaw again quite willingly after his father's death.",
+      "checksum": "101bdefffb6777fc"
+    },
+    {
+      "id": 252,
+      "text": "Hamerton's grandmother lived in the village after his father's death.",
+      "checksum": "78dbfe46761e4359"
+    },
+    {
+      "id": 253,
+      "text": "Hamerton was taken to see his grandmother every year until her death.",
+      "checksum": "39a835fad470b66a"
+    },
+    {
+      "id": 254,
+      "text": "Hamerton lay awake at his grandmother's house realizing the horrible nights he had passed at Ivy Cottage.",
+      "checksum": "8c33b16438367dc5"
+    },
+    {
+      "id": 255,
+      "text": "Hamerton avoids whatever reminds him of his time at Ivy Cottage even forty years later.",
+      "checksum": "76c1f176176e79be"
+    },
+    {
+      "id": 256,
+      "text": "Hamerton's father named his eldest sister Mary as Hamerton's sole guardian.",
+      "checksum": "883b1cf5ddafaf55"
+    },
+    {
+      "id": 257,
+      "text": "Hamerton's father appointed two lawyers as co-executors with Mary.",
+      "checksum": "4bbec51a6ae02530"
+    },
+    {
+      "id": 258,
+      "text": "Hamerton's father had no great affection for his brothers.",
+      "checksum": "7138ff9dc177c9e5"
+    },
+    {
+      "id": 259,
+      "text": "Hamerton's uncles were always kind to him but held completely aloof from paternal interference with his education.",
+      "checksum": "9214311e680d3d4a"
+    },
+    {
+      "id": 260,
+      "text": "Hamerton's aunt Mary was appointed as his guardian despite being an old maid.",
+      "checksum": "580e9efe74d7f606"
+    },
+    {
+      "id": 261,
+      "text": "Hamerton attended Doncaster School after his father's death.",
+      "checksum": "ff43c4fcf995109e"
+    },
+    {
+      "id": 262,
+      "text": "Hamerton had a feeling for architecture and music.",
+      "checksum": "2ebb5a07dcfc8828"
+    },
+    {
+      "id": 263,
+      "text": "Hamerton's guardian insisted on his learning French.",
+      "checksum": "c72ed9f7f305fb5c"
+    },
+    {
+      "id": 264,
+      "text": "Hamerton began to learn the violin.",
+      "checksum": "cbeb3ddb0abbdc20"
+    },
+    {
+      "id": 265,
+      "text": "Hamerton had an aversion to cricket.",
+      "checksum": "54454cf05e1c31f6"
+    },
+    {
+      "id": 266,
+      "text": "Hamerton loved reading Scott.",
+      "checksum": "2b8f9c0267e73e63"
+    },
+    {
+      "id": 267,
+      "text": "Hamerton had his first library during his school years.",
+      "checksum": "aeb5657e5433a5f1"
+    },
+    {
+      "id": 268,
+      "text": "Hamerton studied classical subjects at school.",
+      "checksum": "08821dd387780149"
+    },
+    {
+      "id": 269,
+      "text": "Hamerton had extremely painful memories of nights spent at Ivy Cottage with his father.",
+      "checksum": "59a71d256a98ea3f"
+    },
+    {
+      "id": 270,
+      "text": "Hamerton's father appointed his eldest sister Mary as Hamerton's sole guardian.",
+      "checksum": "550d76c14cbb37eb"
+    },
+    {
+      "id": 271,
+      "text": "Hamerton's father named two lawyers as co-executors with Mary.",
+      "checksum": "d75e1476101e2f3e"
+    },
+    {
+      "id": 272,
+      "text": "Hamerton's aunt Mary was a woman of excellent sense.",
+      "checksum": "286cdea652d72634"
+    },
+    {
+      "id": 273,
+      "text": "Hamerton's aunt encouraged him in manly pursuits rather than raising him effeminately.",
+      "checksum": "7facf3afe846a368"
+    },
+    {
+      "id": 274,
+      "text": "Hamerton's aunt was willing to endure anxiety about his safety to allow him to participate in perilous youth activities.",
+      "checksum": "2c43a683fb454e82"
+    },
+    {
+      "id": 275,
+      "text": "Hamerton's aunt planned for him to attend good schools, then be prepared for Oxford by tutors, and become a clergyman.",
+      "checksum": "8b339436f73030bf"
+    },
+    {
+      "id": 276,
+      "text": "Hamerton never felt any desire to rise in the world by making acquaintance with people of rank.",
+      "checksum": "b8fb7c646ac77411"
+    },
+    {
+      "id": 277,
+      "text": "Hamerton never had any worldly ambition in his life.",
+      "checksum": "cddb82727b772cb8"
+    },
+    {
+      "id": 278,
+      "text": "Hamerton found it hard to be separated from his guardian for five months at a time at Doncaster School.",
+      "checksum": "8366e6e9a5cddc7f"
+    },
+    {
+      "id": 279,
+      "text": "Hamerton's guardian was always gentle, kind, and considerate.",
+      "checksum": "d875b406f8ab0396"
+    },
+    {
+      "id": 280,
+      "text": "Hamerton's guardian had remarkable firmness of character and would act against her own feelings and his if duty required it.",
+      "checksum": "997437c2bf6f6feb"
+    },
+    {
+      "id": 281,
+      "text": "Hamerton was sent to Doncaster School in an open hired carriage in August with his guardian and the driver.",
+      "checksum": "fea646ef13a781a8"
+    },
+    {
+      "id": 282,
+      "text": "Hamerton cried in his dormitory bed on his first night at Doncaster School.",
+      "checksum": "9d1631461bb562ae"
+    },
+    {
+      "id": 283,
+      "text": "Hamerton found the usher at Doncaster to be vulgar and overbearing but a valuable master.",
+      "checksum": "2fb3fe47ab1cd866"
+    },
+    {
+      "id": 284,
+      "text": "Hamerton recognized the difference between a master who was a gentleman and one who was not.",
+      "checksum": "cfc28fdcace16b50"
+    },
+    {
+      "id": 285,
+      "text": "Hamerton made very rapid progress at Doncaster chiefly thanks to the usher's help.",
+      "checksum": "8b8607da72ef8860"
+    },
+    {
+      "id": 286,
+      "text": "Hamerton was once unjustly thrashed by the usher with a switch from an apple-tree without explanation.",
+      "checksum": "2028c85264594c03"
+    },
+    {
+      "id": 287,
+      "text": "Hamerton suspected the usher thrashed him simply to exercise his arm.",
+      "checksum": "a5426770775b8a70"
+    },
+    {
+      "id": 288,
+      "text": "Hamerton had inherited prejudice from his Tory family that Dissent was something low and beneath a gentleman's attention.",
+      "checksum": "422bd7c9be387d11"
+    },
+    {
+      "id": 289,
+      "text": "Hamerton came to the conclusion that the usher was wrong about religious toleration.",
+      "checksum": "a4a95d927144c80a"
+    },
+    {
+      "id": 290,
+      "text": "Hamerton had intense delight in architecture even before his teens.",
+      "checksum": "41a88b15b524d298"
+    },
+    {
+      "id": 291,
+      "text": "Hamerton deeply enjoyed Doncaster old church, which he considered one of the finest buildings of its class in England.",
+      "checksum": "47ff0484db94b326"
+    },
+    {
+      "id": 292,
+      "text": "Hamerton was fully alive to the influence of music and architecture in combination.",
+      "checksum": "e8976ac6a037ced6"
+    },
+    {
+      "id": 293,
+      "text": "Hamerton believed music makes architecture alive.",
+      "checksum": "68f7b2c8fcf2f969"
+    },
+    {
+      "id": 294,
+      "text": "Hamerton felt that sculptured heads between arches gained noble animation from music.",
+      "checksum": "1fb67faadf7e62f6"
+    },
+    {
+      "id": 295,
+      "text": "Hamerton's habit of attending service in a beautiful church was a powerful stimulus to his inborn passion for architecture.",
+      "checksum": "bbeef7a2fa3d6926"
+    },
+    {
+      "id": 296,
+      "text": "Hamerton had already taken drawing lessons before attending Doncaster School.",
+      "checksum": "d388517a3ad42783"
+    },
+    {
+      "id": 297,
+      "text": "Hamerton's drawing-master at Doncaster was an elderly, stout, respectable man.",
+      "checksum": "163b5f56724c36cf"
+    },
+    {
+      "id": 298,
+      "text": "Hamerton's drawing-master had little sympathy and little enthusiasm for the fine arts.",
+      "checksum": "f57319e494b45083"
+    },
+    {
+      "id": 299,
+      "text": "Hamerton's drawing-master promoted him to water-color painting.",
+      "checksum": "372d93a4b1fc5e12"
+    },
+    {
+      "id": 300,
+      "text": "Hamerton made the drawing-master angry twice during his lessons.",
+      "checksum": "304b8f7c3f02bad7"
+    },
+    {
+      "id": 301,
+      "text": "Hamerton found drawing lessons to be a delightful break in his week.",
+      "checksum": "514a6f735fbd986f"
+    },
+    {
+      "id": 302,
+      "text": "Hamerton enjoyed the walk to the drawing-master's house twice a week.",
+      "checksum": "c7c87f0709bd2d9e"
+    },
+    {
+      "id": 303,
+      "text": "Hamerton sketched from nature in the fields around Doncaster with his drawing-master.",
+      "checksum": "c682b6fca1599eb4"
+    },
+    {
+      "id": 304,
+      "text": "Hamerton's guardian insisted he learn French.",
+      "checksum": "62553013bf9251d6"
+    },
+    {
+      "id": 305,
+      "text": "Hamerton's guardian had taught him the elements of French but did not speak it.",
+      "checksum": "528335222f40c2a8"
+    },
+    {
+      "id": 306,
+      "text": "Hamerton wanted to be excused from French at Doncaster due to the seriousness of Latin and Greek.",
+      "checksum": "17572451eec69c4a"
+    },
+    {
+      "id": 307,
+      "text": "Hamerton's guardian refused to allow him to abandon French and wrote determinedly to him and Mr. Cape about it.",
+      "checksum": "eb3dcd9693800d4a"
+    },
+    {
+      "id": 308,
+      "text": "Hamerton believed his guardian's insistence on French may have greatly influenced his future life.",
+      "checksum": "17d7ef170cd3e132"
+    },
+    {
+      "id": 309,
+      "text": "Hamerton's French master at Doncaster was an Italian named Testa from a good family.",
+      "checksum": "9911440828419707"
+    },
+    {
+      "id": 310,
+      "text": "Hamerton considered Signor Testa one of the most perfect gentlemen he ever met.",
+      "checksum": "db4a3bca97b1d977"
+    },
+    {
+      "id": 311,
+      "text": "Hamerton regretted not learning Italian with Signor Testa.",
+      "checksum": "ce85bdd130772b2e"
+    },
+    {
+      "id": 312,
+      "text": "Hamerton learned Italian later in life with an inferior master.",
+      "checksum": "bea0e8d13cdedcd0"
+    },
+    {
+      "id": 313,
+      "text": "Hamerton understood that Signor Testa had left Italy due to some political difficulty.",
+      "checksum": "75e7c9dde7f16cfe"
+    },
+    {
+      "id": 314,
+      "text": "Hamerton knew Signor Testa still had relations in Italy.",
+      "checksum": "edf06423eb13cc7a"
+    },
+    {
+      "id": 315,
+      "text": "Hamerton was moved when Signor Testa showed tears over leaves and a flower from his father's place in Italy.",
+      "checksum": "855ac0fa4250a266"
+    },
+    {
+      "id": 316,
+      "text": "Hamerton felt cut to the quick by Signor Testa's hurt expression when the class laughed.",
+      "checksum": "bbaf94d07685c819"
+    },
+    {
+      "id": 317,
+      "text": "Hamerton longed to explain to Signor Testa that the laughter was not directed at him.",
+      "checksum": "66d8468e829f2079"
+    },
+    {
+      "id": 318,
+      "text": "Hamerton recognized that Signor Testa had no sense of humor.",
+      "checksum": "429db5f17b30b624"
+    },
+    {
+      "id": 319,
+      "text": "Hamerton's respect for Signor Testa increased after the incident with the laughter.",
+      "checksum": "8c14f794450eea24"
+    },
+    {
+      "id": 320,
+      "text": "Hamerton tried to please Signor Testa after the incident.",
+      "checksum": "061c0e3dc952a0ff"
+    },
+    {
+      "id": 321,
+      "text": "Hamerton found French lessons very agreeable.",
+      "checksum": "a55d56bbabe4d1e7"
+    },
+    {
+      "id": 322,
+      "text": "Hamerton read French on his own account beyond his lessons.",
+      "checksum": "145f54012de87902"
+    },
+    {
+      "id": 323,
+      "text": "Hamerton acquired a liking for the French language that remained with him ever since.",
+      "checksum": "573960233a76e10b"
+    },
+    {
+      "id": 324,
+      "text": "Hamerton received instruction in drawing and French, which some considered idle accomplishments.",
+      "checksum": "5db067f3de2f0dd5"
+    },
+    {
+      "id": 325,
+      "text": "Hamerton's education included music instruction.",
+      "checksum": "a59b5f4b4139233c"
+    },
+    {
+      "id": 326,
+      "text": "Hamerton had a guardian who made decisions about his education.",
+      "checksum": "aff8260b8c61d9c8"
+    },
+    {
+      "id": 327,
+      "text": "Hamerton took French lessons and acquired a lasting liking for the language.",
+      "checksum": "5e0b87a8aa789d85"
+    },
+    {
+      "id": 328,
+      "text": "Hamerton studied drawing and water-colors as a boy.",
+      "checksum": "95f1e7993dd65828"
+    },
+    {
+      "id": 329,
+      "text": "Hamerton attended a mathematical school where boys were prepared for Cambridge.",
+      "checksum": "1c942065e8666504"
+    },
+    {
+      "id": 330,
+      "text": "Hamerton attended Doncaster School.",
+      "checksum": "3ecca8a1b794737d"
+    },
+    {
+      "id": 331,
+      "text": "Hamerton's guardian was Mr. Cape.",
+      "checksum": "184cd739fbe8841f"
+    },
+    {
+      "id": 332,
+      "text": "Hamerton wrote a persuasive letter to his guardian asking to study the violin.",
+      "checksum": "21a0a67f13c1f122"
+    },
+    {
+      "id": 333,
+      "text": "Hamerton was studying three languages and water-color painting simultaneously.",
+      "checksum": "a478162804fa2c7f"
+    },
+    {
+      "id": 334,
+      "text": "Hamerton was restricted from practicing violin by himself initially.",
+      "checksum": "d1bfeb2eac8836ac"
+    },
+    {
+      "id": 335,
+      "text": "Hamerton was a brilliant dancer as a boy despite later disliking dancing intensely.",
+      "checksum": "d88a4e9a44d91f60"
+    },
+    {
+      "id": 336,
+      "text": "Hamerton danced a sailor's hornpipe in public at a school theatrical entertainment.",
+      "checksum": "448a553a3e5b06d3"
+    },
+    {
+      "id": 337,
+      "text": "Hamerton acquired an intense aversion to cricket at school.",
+      "checksum": "dc2208b49cf93672"
+    },
+    {
+      "id": 338,
+      "text": "Hamerton disliked all games except chess and billiards.",
+      "checksum": "b1fd4a0387af72ec"
+    },
+    {
+      "id": 339,
+      "text": "Hamerton disliked being compelled to field in cricket to please elder boys.",
+      "checksum": "c3b6d0e4e781e0cb"
+    },
+    {
+      "id": 340,
+      "text": "Hamerton escaped cricket to read Scott's poems in a quiet place near the Red House.",
+      "checksum": "26b0ddea22165ec9"
+    },
+    {
+      "id": 341,
+      "text": "Hamerton possessed Scott's poems in pocket volumes that he still owned as an adult.",
+      "checksum": "ef2afc5fcdbbb5d7"
+    },
+    {
+      "id": 342,
+      "text": "Scott's influence was the strongest influence on Hamerton during his school years.",
+      "checksum": "07ec7ab159923601"
+    },
+    {
+      "id": 343,
+      "text": "Hamerton began reading Scott with 'The Lady of the Lake.'",
+      "checksum": "97db385d8da5171f"
+    },
+    {
+      "id": 344,
+      "text": "Hamerton read 'Marmion,' 'The Lay of the Last Minstrel,' the Ballads, and 'Rokeby' by Scott.",
+      "checksum": "3c722e795abfd0d0"
+    },
+    {
+      "id": 345,
+      "text": "Hamerton collected pocket-sized volumes of Goldsmith, Crabbe, Kirke White, and Moore's 'Irish Melodies.'",
+      "checksum": "6ef51f78831c02a8"
+    },
+    {
+      "id": 346,
+      "text": "Hamerton received 'Paradise Lost' as a school prize for history.",
+      "checksum": "99ec0b14679911bc"
+    },
+    {
+      "id": 347,
+      "text": "Hamerton's guardian authorized the purchase of Shakespeare in seven pocket volumes during holidays.",
+      "checksum": "e5c1a0d594c43479"
+    },
+    {
+      "id": 348,
+      "text": "Hamerton's guardian authorized the purchase of the 'Spectator' in eight volumes.",
+      "checksum": "d78e58334a843631"
+    },
+    {
+      "id": 349,
+      "text": "Hamerton did not read any Scott novels until after reading his poems extensively.",
+      "checksum": "955f1628c4344e2e"
+    },
+    {
+      "id": 350,
+      "text": "Hamerton initially believed Scott's poems could not be surpassed by his novels.",
+      "checksum": "4ddc5bf0de499065"
+    },
+    {
+      "id": 351,
+      "text": "Hamerton's father died when Hamerton was a child.",
+      "checksum": "090d347c236b4fa3"
+    },
+    {
+      "id": 352,
+      "text": "Hamerton experienced rapid mental growth in the two to three years after his father's death.",
+      "checksum": "91024f00b5b8515d"
+    },
+    {
+      "id": 353,
+      "text": "Hamerton developed a keen taste for literature after his father's death.",
+      "checksum": "718ae3faab7f9973"
+    },
+    {
+      "id": 354,
+      "text": "Hamerton found no enjoyment in Latin books at school.",
+      "checksum": "8dc4a7c5decc4fd9"
+    },
+    {
+      "id": 355,
+      "text": "Hamerton only gained access to the literary beauty of Latin much later through French and Italian.",
+      "checksum": "f3642538a763364f"
+    },
+    {
+      "id": 356,
+      "text": "Hamerton began Greek vigorously at Doncaster but did not get beyond the rudiments.",
+      "checksum": "bd41dbf2492b621a"
+    },
+    {
+      "id": 357,
+      "text": "Hamerton wrote English verses very frequently from age eleven to twenty-one.",
+      "checksum": "70316200c7964f0e"
+    },
+    {
+      "id": 358,
+      "text": "Hamerton believed writing English verses was a profitable exercise in language.",
+      "checksum": "284092b7df53df1e"
+    },
+    {
+      "id": 359,
+      "text": "Hamerton's early verses were echoes of Sir Walter Scott.",
+      "checksum": "554365f19495b79e"
+    },
+    {
+      "id": 360,
+      "text": "Hamerton dreamed a new ballad about a shipwreck and wrote it down upon waking.",
+      "checksum": "cacac9d3fc25dc6b"
+    },
+    {
+      "id": 361,
+      "text": "Hamerton's life at Doncaster was not on the whole unhappy.",
+      "checksum": "0b2d26038312151a"
+    },
+    {
+      "id": 362,
+      "text": "Hamerton had lived under the tyranny of his father before attending Doncaster.",
+      "checksum": "3fbf541117cc2f52"
+    },
+    {
+      "id": 363,
+      "text": "Hamerton found Mr. Cape's severity a light affliction compared to his father's tyranny.",
+      "checksum": "afa56fcc1540256b"
+    },
+    {
+      "id": 364,
+      "text": "Hamerton played a trick on Mr. Cape by hiding his friend Brokenribs in a copper.",
+      "checksum": "b6e9e48350bede19"
+    },
+    {
+      "id": 365,
+      "text": "Hamerton was a fag to a private pupil at some point.",
+      "checksum": "11eedb8defc96342"
+    },
+    {
+      "id": 366,
+      "text": "Hamerton's private pupil only ordered him to light fires.",
+      "checksum": "884245a10ae64bd9"
+    },
+    {
+      "id": 367,
+      "text": "Hamerton learned to light fires quickly and well as a fag.",
+      "checksum": "3a12229b7c1a66dd"
+    },
+    {
+      "id": 368,
+      "text": "Hamerton still lit fires himself as an adult.",
+      "checksum": "62b74c2987a169f4"
+    },
+    {
+      "id": 369,
+      "text": "Hamerton believed every boy should be taught to do without servants on occasion.",
+      "checksum": "930a849c8f0c809f"
+    },
+    {
+      "id": 370,
+      "text": "Hamerton had an intense affection for dogs.",
+      "checksum": "7da4e46b6e6cacc9"
+    },
+    {
+      "id": 371,
+      "text": "Hamerton begged Mr. Cape to keep a tawny dog at school.",
+      "checksum": "e7841a7d4950c149"
+    },
+    {
+      "id": 372,
+      "text": "Hamerton was rather a favorite with Mr. Cape.",
+      "checksum": "bd055d0d6ee1699e"
+    },
+    {
+      "id": 373,
+      "text": "Hamerton bought fresh straw for his dog and cared for it greatly.",
+      "checksum": "dc2402cd07b0671c"
+    },
+    {
+      "id": 374,
+      "text": "Hamerton's dog became strongly attached to him.",
+      "checksum": "2bf312717d1f741f"
+    },
+    {
+      "id": 375,
+      "text": "Hamerton would have fought any boy his own age to protect his dog.",
+      "checksum": "5fe1059d4d6fd7d2"
+    },
+    {
+      "id": 376,
+      "text": "A private pupil cut off Hamerton's dog's tail despite his remonstrances.",
+      "checksum": "b71708e69df5188f"
+    },
+    {
+      "id": 377,
+      "text": "Hamerton pitied his dog when it suffered with its bleeding stump.",
+      "checksum": "b8184f0425696d52"
+    },
+    {
+      "id": 378,
+      "text": "Hamerton disliked balls intensely as an adult.",
+      "checksum": "3df489434868c540"
+    },
+    {
+      "id": 379,
+      "text": "Hamerton would travel fifty miles to avoid attending a ball.",
+      "checksum": "997b8eaf35e83f8f"
+    },
+    {
+      "id": 380,
+      "text": "Hamerton believed Scott had the advantage of being almost always interesting.",
+      "checksum": "87349b667c5a6421"
+    },
+    {
+      "id": 381,
+      "text": "Hamerton believed Scott never left an unhealthy feeling in the mind.",
+      "checksum": "d91feb0958771a12"
+    },
+    {
+      "id": 382,
+      "text": "Hamerton was a favorite with the head-master at his school.",
+      "checksum": "f9f7a777cc5a9455"
+    },
+    {
+      "id": 383,
+      "text": "Hamerton brought a dog to school and kept it in a box in the wash-house.",
+      "checksum": "32e00ed398376c2a"
+    },
+    {
+      "id": 384,
+      "text": "Hamerton became strongly attached to his dog and cared for it with great affection.",
+      "checksum": "f89d668f13b023f2"
+    },
+    {
+      "id": 385,
+      "text": "Hamerton would have fought any boy his own age to defend his dog.",
+      "checksum": "ff3998872d4d04f6"
+    },
+    {
+      "id": 386,
+      "text": "A private pupil cut off Hamerton's dog's tail despite his protests.",
+      "checksum": "94be38d2b3a524c5"
+    },
+    {
+      "id": 387,
+      "text": "A private pupil shot Hamerton's dog in a field.",
+      "checksum": "988c1819759f3fa6"
+    },
+    {
+      "id": 388,
+      "text": "Hamerton knew what the private pupil was going to do but had no power to prevent it.",
+      "checksum": "bdf1bf66aa47e1bb"
+    },
+    {
+      "id": 389,
+      "text": "A school bully stole Hamerton's telescope and refused to return it.",
+      "checksum": "5c1c43db8451bb9d"
+    },
+    {
+      "id": 390,
+      "text": "Hamerton never received redress for the stolen telescope.",
+      "checksum": "e618a7a321539d4d"
+    },
+    {
+      "id": 391,
+      "text": "Hamerton was astonished by how some boys gained ascendency over others without obvious reasons.",
+      "checksum": "3955bd4fde44e504"
+    },
+    {
+      "id": 392,
+      "text": "Hamerton was born a boating creature.",
+      "checksum": "4e7b8d5295d9ad96"
+    },
+    {
+      "id": 393,
+      "text": "Hamerton was not born to be a cricketing creature.",
+      "checksum": "53b0aa932edfb61b"
+    },
+    {
+      "id": 394,
+      "text": "Hamerton lied to Mr. Cape about being able to swim.",
+      "checksum": "c0a10f60f9528d30"
+    },
+    {
+      "id": 395,
+      "text": "Hamerton believed that man was naturally a swimming animal and that courage alone would enable him to swim.",
+      "checksum": "7dfa9ac043e6ab27"
+    },
+    {
+      "id": 396,
+      "text": "Hamerton nearly drowned when he was thrown into the river Don while wearing a safety cord.",
+      "checksum": "b2ebaa48f2b871f7"
+    },
+    {
+      "id": 397,
+      "text": "Hamerton made a firm resolution to learn to swim after his near-drowning experience.",
+      "checksum": "6d2b671916238b88"
+    },
+    {
+      "id": 398,
+      "text": "Hamerton eventually became an expert swimmer through years of practice in France.",
+      "checksum": "07e845c386e8f13a"
+    },
+    {
+      "id": 399,
+      "text": "Hamerton could swim while reading a book aloud, swimming in full clothes with heavy boots, and towing a boat.",
+      "checksum": "c603411b4bf4736f"
+    },
+    {
+      "id": 400,
+      "text": "Hamerton attributed his perseverance in swimming to the shame he felt from his early misadventure.",
+      "checksum": "67f56c55cbbc6c6e"
+    },
+    {
+      "id": 401,
+      "text": "Hamerton hated cricket from the very beginning.",
+      "checksum": "3abef8a9f5b92988"
+    },
+    {
+      "id": 402,
+      "text": "Hamerton found cricket pure slavery and never desired to excel at it.",
+      "checksum": "8d22a6d0636d6ea8"
+    },
+    {
+      "id": 403,
+      "text": "Hamerton's dislike of cricket caused him isolation as an English boy.",
+      "checksum": "db9c0cf48d11a7b3"
+    },
+    {
+      "id": 404,
+      "text": "Hamerton was fond of ordinary walking and took long walks on half-holidays.",
+      "checksum": "b5a34d04b2e43bb2"
+    },
+    {
+      "id": 405,
+      "text": "Hamerton escaped early on summer mornings to walk around the race-course.",
+      "checksum": "c9a8bce58a3bc8d6"
+    },
+    {
+      "id": 406,
+      "text": "Hamerton occasionally had headaches.",
+      "checksum": "b7215267c378425a"
+    },
+    {
+      "id": 407,
+      "text": "Hamerton's doctor was a kind friend who invited him to his house.",
+      "checksum": "aa2eee375330667c"
+    },
+    {
+      "id": 408,
+      "text": "Hamerton fought with the doctor's son many times because elder boys set them on.",
+      "checksum": "c6ccbd1021da5c00"
+    },
+    {
+      "id": 409,
+      "text": "Hamerton was extremely religious during his time at Doncaster.",
+      "checksum": "d6d99dea63ab6613"
+    },
+    {
+      "id": 410,
+      "text": "Hamerton had a firm belief in providential interferences in his life, even in trifling matters.",
+      "checksum": "af9cdd9f06fe7317"
+    },
+    {
+      "id": 411,
+      "text": "Hamerton had a theological turn of mind.",
+      "checksum": "2d43eac719cb4e28"
+    },
+    {
+      "id": 412,
+      "text": "Hamerton sometimes inserted passages of his own into sermon reports.",
+      "checksum": "31d6f12b3bddb59b"
+    },
+    {
+      "id": 413,
+      "text": "Hamerton once produced a complete original sermon instead of reporting the preacher's sermon.",
+      "checksum": "beb6e492b812194b"
+    },
+    {
+      "id": 414,
+      "text": "Hamerton's original sermon cost him a reprimand but excited the interest of the master.",
+      "checksum": "b9c8f300e386f42a"
+    },
+    {
+      "id": 415,
+      "text": "Hamerton was obliged to take notes of sermons and write them out in abridged form at Doncaster.",
+      "checksum": "725faca047093d11"
+    },
+    {
+      "id": 416,
+      "text": "Hamerton's prayers had special reference to a country house belonging to an old lady.",
+      "checksum": "e6147e3ee96b6987"
+    },
+    {
+      "id": 417,
+      "text": "The old lady was grandmother to a friend of Hamerton's and extended grandmotherly kindness to him.",
+      "checksum": "ae9e2eb816ddfb78"
+    },
+    {
+      "id": 418,
+      "text": "Hamerton learned that courage alone is not enough to enable swimming without acquired skill.",
+      "checksum": "3c7d846e37f7220f"
+    },
+    {
+      "id": 419,
+      "text": "Hamerton taught his sons to swim as an art, just as one learns to skate.",
+      "checksum": "61a86be942c97a7b"
+    },
+    {
+      "id": 420,
+      "text": "Hamerton believed there is nothing better for a boy than to be roused to perseverance through shame.",
+      "checksum": "85874c5875ddc55f"
+    },
+    {
+      "id": 421,
+      "text": "Hamerton felt no shame about not being able to play cricket well.",
+      "checksum": "77f649169d66ec0e"
+    },
+    {
+      "id": 422,
+      "text": "Hamerton had a theological turn of mind as a boy.",
+      "checksum": "8227d37e32f470fc"
+    },
+    {
+      "id": 423,
+      "text": "Hamerton sometimes inserted his own passages into sermon notes at Doncaster School.",
+      "checksum": "8ede415f509ed5e8"
+    },
+    {
+      "id": 424,
+      "text": "Hamerton once produced a complete original sermon based on a text, which earned him a reprimand.",
+      "checksum": "bedbe367aec71b5b"
+    },
+    {
+      "id": 425,
+      "text": "Hamerton was a firm believer in Christianity as a boy but did not belong to any party in the Church of England.",
+      "checksum": "4475604f5d0a7e7f"
+    },
+    {
+      "id": 426,
+      "text": "Hamerton believed a boy's religion should be quiet and practical with simple, uncontroversial theology.",
+      "checksum": "3c76b59c990f762e"
+    },
+    {
+      "id": 427,
+      "text": "Hamerton spent three half-years at Doncaster School.",
+      "checksum": "56f567f254a8c63c"
+    },
+    {
+      "id": 428,
+      "text": "Mr. Cape thrashed Hamerton many times with his cane.",
+      "checksum": "fd5e36fa1537e16d"
+    },
+    {
+      "id": 429,
+      "text": "Hamerton felt grief when Mr. Cape died, despite the physical punishment he had received.",
+      "checksum": "1a1a04c84ba55ffd"
+    },
+    {
+      "id": 430,
+      "text": "Hamerton had no natural bent for mathematics.",
+      "checksum": "7fdca9cd51a82ca6"
+    },
+    {
+      "id": 431,
+      "text": "Hamerton performed mathematics tasks in a perfunctory manner.",
+      "checksum": "fb36a70663b2ba82"
+    },
+    {
+      "id": 432,
+      "text": "Hamerton was a well-educated boy at age thirteen.",
+      "checksum": "785e4a682ab0c78a"
+    },
+    {
+      "id": 433,
+      "text": "Hamerton had fallen behind in his education by age fifteen or sixteen.",
+      "checksum": "5350d0ce4f217b08"
+    },
+    {
+      "id": 434,
+      "text": "Hamerton had a strong affection for his guardian.",
+      "checksum": "e9e2a57ac8649720"
+    },
+    {
+      "id": 435,
+      "text": "Hamerton learned his guardian had an incurable heart disease that could cause sudden death.",
+      "checksum": "bb77f4899db2a252"
+    },
+    {
+      "id": 436,
+      "text": "After learning of his guardian's heart disease, Hamerton resolved to stay near her as much as possible.",
+      "checksum": "55504f8092c08e1b"
+    },
+    {
+      "id": 437,
+      "text": "Hamerton remained at Burnley for several years to stay near his guardian.",
+      "checksum": "938a4f950652b09c"
+    },
+    {
+      "id": 438,
+      "text": "Hamerton's decision to remain at Burnley made him an indifferent classical scholar.",
+      "checksum": "1fe7d50207f55e03"
+    },
+    {
+      "id": 439,
+      "text": "Hamerton had a great affection for Dr. Butler, his headmaster at Burnley Grammar School.",
+      "checksum": "6766104bfebfc00e"
+    },
+    {
+      "id": 440,
+      "text": "Dr. Butler never could bring himself to say anything disagreeable to Hamerton.",
+      "checksum": "8997970035983440"
+    },
+    {
+      "id": 441,
+      "text": "Hamerton worked at French regularly at Burnley School.",
+      "checksum": "aabd8324133982e8"
+    },
+    {
+      "id": 442,
+      "text": "Hamerton learned just enough German to read one thin volume.",
+      "checksum": "a162d337000a6cb9"
+    },
+    {
+      "id": 443,
+      "text": "Hamerton had a natural taste for French and Italian but not for German.",
+      "checksum": "d8c3afa683c9ab2a"
+    },
+    {
+      "id": 444,
+      "text": "Hamerton acquired elementary knowledge of chemistry at Burnley School.",
+      "checksum": "4045b0b85aee71c3"
+    },
+    {
+      "id": 445,
+      "text": "Hamerton's chemistry knowledge influenced his later attention to etching.",
+      "checksum": "287056d84ebb4af4"
+    },
+    {
+      "id": 446,
+      "text": "Hamerton etched his first plate as a boy at Burnley School, a portrait of a Jew with a turban.",
+      "checksum": "f39b3fb612b1669b"
+    },
+    {
+      "id": 447,
+      "text": "Hamerton's first etching was frightfully over-bitten.",
+      "checksum": "fc9c0fcd44f6c925"
+    },
+    {
+      "id": 448,
+      "text": "Hamerton wrote English essays at Burnley School under Dr. Butler's encouragement.",
+      "checksum": "6cad5fb107cb8aa2"
+    },
+    {
+      "id": 449,
+      "text": "Hamerton wrote verses almost without intermission between the ages of twelve and twenty-one.",
+      "checksum": "fd33a305723ab38c"
+    },
+    {
+      "id": 450,
+      "text": "Hamerton won a prize at Burnley School in 1847 for a poem on Prince Charles Edward after the Battle of Culloden.",
+      "checksum": "eb98d5659031c3af"
+    },
+    {
+      "id": 451,
+      "text": "Hamerton was not yet thirteen years old when he won the poetry prize.",
+      "checksum": "b57a1c89c9acc605"
+    },
+    {
+      "id": 452,
+      "text": "Hamerton's boyish poetry showed the influence of Virgil, Scott, and Byron.",
+      "checksum": "9cd12dfae2a26d0d"
+    },
+    {
+      "id": 453,
+      "text": "Hamerton translated many of the Odes of Horace into English verse under Dr. Butler's encouragement.",
+      "checksum": "8c2ffc8ba653aeb8"
+    },
+    {
+      "id": 454,
+      "text": "Hamerton did not preserve any of his Horace translations.",
+      "checksum": "cb9a8063a9702693"
+    },
+    {
+      "id": 455,
+      "text": "Hamerton participated in public discussions on historical subjects at Burnley School.",
+      "checksum": "ed828bf17571b19c"
+    },
+    {
+      "id": 456,
+      "text": "Hamerton was chosen to defend Queen Elizabeth's character in a school debate.",
+      "checksum": "1ff46cead09db351"
+    },
+    {
+      "id": 457,
+      "text": "Hamerton spoke for an hour and a half in the debate on Queen Elizabeth.",
+      "checksum": "91a036d3801937d7"
+    },
+    {
+      "id": 458,
+      "text": "Hamerton's hair was red when he was a boy at Burnley School.",
+      "checksum": "36dcc6f292ac7ac7"
+    },
+    {
+      "id": 459,
+      "text": "Hamerton's hair darkened as he grew older.",
+      "checksum": "0e31ce1422e9754f"
+    },
+    {
+      "id": 460,
+      "text": "Hamerton had a love of boating as a boy.",
+      "checksum": "b2c651c209e06a22"
+    },
+    {
+      "id": 461,
+      "text": "Hamerton had always loved old-world surroundings with carved oak, tapestry, and stained glass.",
+      "checksum": "2e00a76485137477"
+    },
+    {
+      "id": 462,
+      "text": "Hamerton was in danger of coveting the Holme, a country house that had belonged to Dr. Whitaker.",
+      "checksum": "0a1ad33074f25d46"
+    }
+  ]
+}

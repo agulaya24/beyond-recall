@@ -1,0 +1,402 @@
+[
+  {
+    "test": "verbatim",
+    "qid": 21,
+    "gpt4o_score": 5
+  },
+  {
+    "test": "paraphrased",
+    "qid": 21,
+    "gpt4o_score": 5
+  },
+  {
+    "test": "short_correct",
+    "qid": 21,
+    "gpt4o_score": 5
+  },
+  {
+    "test": "long_correct",
+    "qid": 21,
+    "gpt4o_score": 1
+  },
+  {
+    "test": "verbatim",
+    "qid": 22,
+    "gpt4o_score": 5
+  },
+  {
+    "test": "paraphrased",
+    "qid": 22,
+    "gpt4o_score": 5
+  },
+  {
+    "test": "short_correct",
+    "qid": 22,
+    "gpt4o_score": 3
+  },
+  {
+    "test": "long_correct",
+    "qid": 22,
+    "gpt4o_score": 3
+  },
+  {
+    "test": "verbatim",
+    "qid": 23,
+    "gpt4o_score": 5
+  },
+  {
+    "test": "paraphrased",
+    "qid": 23,
+    "gpt4o_score": 5
+  },
+  {
+    "test": "short_correct",
+    "qid": 23,
+    "gpt4o_score": 3
+  },
+  {
+    "test": "long_correct",
+    "qid": 23,
+    "gpt4o_score": 5
+  },
+  {
+    "test": "verbatim",
+    "qid": 24,
+    "gpt4o_score": 5
+  },
+  {
+    "test": "paraphrased",
+    "qid": 24,
+    "gpt4o_score": 5
+  },
+  {
+    "test": "short_correct",
+    "qid": 24,
+    "gpt4o_score": 5
+  },
+  {
+    "test": "long_correct",
+    "qid": 24,
+    "gpt4o_score": 5
+  },
+  {
+    "test": "verbatim",
+    "qid": 25,
+    "gpt4o_score": 5
+  },
+  {
+    "test": "paraphrased",
+    "qid": 25,
+    "gpt4o_score": 5
+  },
+  {
+    "test": "short_correct",
+    "qid": 25,
+    "gpt4o_score": 4
+  },
+  {
+    "test": "long_correct",
+    "qid": 25,
+    "gpt4o_score": 1
+  },
+  {
+    "test": "verbatim",
+    "qid": 26,
+    "gpt4o_score": 5
+  },
+  {
+    "test": "paraphrased",
+    "qid": 26,
+    "gpt4o_score": 5
+  },
+  {
+    "test": "short_correct",
+    "qid": 26,
+    "gpt4o_score": 4
+  },
+  {
+    "test": "long_correct",
+    "qid": 26,
+    "gpt4o_score": 4
+  },
+  {
+    "test": "verbatim",
+    "qid": 27,
+    "gpt4o_score": 5
+  },
+  {
+    "test": "paraphrased",
+    "qid": 27,
+    "gpt4o_score": 5
+  },
+  {
+    "test": "short_correct",
+    "qid": 27,
+    "gpt4o_score": 3
+  },
+  {
+    "test": "long_correct",
+    "qid": 27,
+    "gpt4o_score": 5
+  },
+  {
+    "test": "verbatim",
+    "qid": 28,
+    "gpt4o_score": 5
+  },
+  {
+    "test": "paraphrased",
+    "qid": 28,
+    "gpt4o_score": 5
+  },
+  {
+    "test": "short_correct",
+    "qid": 28,
+    "gpt4o_score": 3
+  },
+  {
+    "test": "long_correct",
+    "qid": 28,
+    "gpt4o_score": 5
+  },
+  {
+    "test": "verbatim",
+    "qid": 29,
+    "gpt4o_score": 5
+  },
+  {
+    "test": "paraphrased",
+    "qid": 29,
+    "gpt4o_score": 5
+  },
+  {
+    "test": "short_correct",
+    "qid": 29,
+    "gpt4o_score": 4
+  },
+  {
+    "test": "long_correct",
+    "qid": 29,
+    "gpt4o_score": 5
+  },
+  {
+    "test": "verbatim",
+    "qid": 30,
+    "gpt4o_score": 5
+  },
+  {
+    "test": "paraphrased",
+    "qid": 30,
+    "gpt4o_score": 5
+  },
+  {
+    "test": "short_correct",
+    "qid": 30,
+    "gpt4o_score": 1
+  },
+  {
+    "test": "long_correct",
+    "qid": 30,
+    "gpt4o_score": 3
+  },
+  {
+    "test": "verbatim",
+    "qid": 31,
+    "gpt4o_score": 5
+  },
+  {
+    "test": "paraphrased",
+    "qid": 31,
+    "gpt4o_score": 5
+  },
+  {
+    "test": "short_correct",
+    "qid": 31,
+    "gpt4o_score": 5
+  },
+  {
+    "test": "long_correct",
+    "qid": 31,
+    "gpt4o_score": 5
+  },
+  {
+    "test": "verbatim",
+    "qid": 32,
+    "gpt4o_score": 5
+  },
+  {
+    "test": "paraphrased",
+    "qid": 32,
+    "gpt4o_score": 5
+  },
+  {
+    "test": "short_correct",
+    "qid": 32,
+    "gpt4o_score": 3
+  },
+  {
+    "test": "long_correct",
+    "qid": 32,
+    "gpt4o_score": 3
+  },
+  {
+    "test": "verbatim",
+    "qid": 33,
+    "gpt4o_score": 5
+  },
+  {
+    "test": "paraphrased",
+    "qid": 33,
+    "gpt4o_score": 5
+  },
+  {
+    "test": "short_correct",
+    "qid": 33,
+    "gpt4o_score": 3
+  },
+  {
+    "test": "long_correct",
+    "qid": 33,
+    "gpt4o_score": 5
+  },
+  {
+    "test": "verbatim",
+    "qid": 34,
+    "gpt4o_score": 5
+  },
+  {
+    "test": "paraphrased",
+    "qid": 34,
+    "gpt4o_score": 5
+  },
+  {
+    "test": "short_correct",
+    "qid": 34,
+    "gpt4o_score": 5
+  },
+  {
+    "test": "long_correct",
+    "qid": 34,
+    "gpt4o_score": 1
+  },
+  {
+    "test": "verbatim",
+    "qid": 35,
+    "gpt4o_score": 5
+  },
+  {
+    "test": "paraphrased",
+    "qid": 35,
+    "gpt4o_score": 5
+  },
+  {
+    "test": "short_correct",
+    "qid": 35,
+    "gpt4o_score": 5
+  },
+  {
+    "test": "long_correct",
+    "qid": 35,
+    "gpt4o_score": 5
+  },
+  {
+    "test": "verbatim",
+    "qid": 36,
+    "gpt4o_score": 5
+  },
+  {
+    "test": "paraphrased",
+    "qid": 36,
+    "gpt4o_score": 5
+  },
+  {
+    "test": "short_correct",
+    "qid": 36,
+    "gpt4o_score": 5
+  },
+  {
+    "test": "long_correct",
+    "qid": 36,
+    "gpt4o_score": 1
+  },
+  {
+    "test": "verbatim",
+    "qid": 37,
+    "gpt4o_score": 5
+  },
+  {
+    "test": "paraphrased",
+    "qid": 37,
+    "gpt4o_score": 5
+  },
+  {
+    "test": "short_correct",
+    "qid": 37,
+    "gpt4o_score": 5
+  },
+  {
+    "test": "long_correct",
+    "qid": 37,
+    "gpt4o_score": 5
+  },
+  {
+    "test": "verbatim",
+    "qid": 38,
+    "gpt4o_score": 5
+  },
+  {
+    "test": "paraphrased",
+    "qid": 38,
+    "gpt4o_score": 5
+  },
+  {
+    "test": "short_correct",
+    "qid": 38,
+    "gpt4o_score": 5
+  },
+  {
+    "test": "long_correct",
+    "qid": 38,
+    "gpt4o_score": 3
+  },
+  {
+    "test": "verbatim",
+    "qid": 39,
+    "gpt4o_score": 5
+  },
+  {
+    "test": "paraphrased",
+    "qid": 39,
+    "gpt4o_score": 5
+  },
+  {
+    "test": "short_correct",
+    "qid": 39,
+    "gpt4o_score": 5
+  },
+  {
+    "test": "long_correct",
+    "qid": 39,
+    "gpt4o_score": 1
+  },
+  {
+    "test": "verbatim",
+    "qid": 40,
+    "gpt4o_score": 5
+  },
+  {
+    "test": "paraphrased",
+    "qid": 40,
+    "gpt4o_score": 5
+  },
+  {
+    "test": "short_correct",
+    "qid": 40,
+    "gpt4o_score": 5
+  },
+  {
+    "test": "long_correct",
+    "qid": 40,
+    "gpt4o_score": 1
+  }
+]

@@ -1,0 +1,2522 @@
+{
+  "metadata": {
+    "source": "franklin_complete_works_vol2_training",
+    "source_file": "data/experiments/memory_systems/corpus/tiers/tier_02_franklin_obscure_training.txt",
+    "corpus_checksum": "bbce6b4d38b408b6d0d6b5f972e0d0544082297e30248dff82b2292d8dbb7047",
+    "total_facts": 502,
+    "extraction_model": "claude-haiku-4-5-20251001",
+    "word_count": 62662
+  },
+  "facts": [
+    {
+      "id": 1,
+      "text": "Benjamin Franklin proposed a modified alphabet with six new characters to represent specific sounds in English.",
+      "checksum": "09527204"
+    },
+    {
+      "id": 2,
+      "text": "Franklin conducted physical and meteorological observations that he presented to the Royal Society on June 3, 1756.",
+      "checksum": "d36cd127"
+    },
+    {
+      "id": 3,
+      "text": "Franklin theorized that particles of air are kept at a distance from each other by mutual repulsion.",
+      "checksum": "37c78691"
+    },
+    {
+      "id": 4,
+      "text": "Franklin believed that air and water mutually attract each other.",
+      "checksum": "def09cf6"
+    },
+    {
+      "id": 5,
+      "text": "Franklin conducted observations on water-spouts and whirlwinds in North America.",
+      "checksum": "e0966eed"
+    },
+    {
+      "id": 6,
+      "text": "Franklin studied the effects of oil on water and waves.",
+      "checksum": "22f5f1fd"
+    },
+    {
+      "id": 7,
+      "text": "Franklin made maritime observations while crossing the Gulf Stream in April and May, 1775 aboard the Pennsylvania packet.",
+      "checksum": "259a41fe"
+    },
+    {
+      "id": 8,
+      "text": "Franklin made observations aboard the Reprisal in October and November, 1776 while traveling from Philadelphia to France.",
+      "checksum": "3f1cdaf9"
+    },
+    {
+      "id": 9,
+      "text": "Franklin wrote about the art of swimming and answered inquiries on the subject from M. Dubourg.",
+      "checksum": "ad2a8005"
+    },
+    {
+      "id": 10,
+      "text": "Franklin wrote about the causes of colds and their prevention.",
+      "checksum": "102ac5b5"
+    },
+    {
+      "id": 11,
+      "text": "Franklin invented the Pennsylvania fire-place and wrote about its design.",
+      "checksum": "2dd5f469"
+    },
+    {
+      "id": 12,
+      "text": "Franklin wrote about the causes and cure of smoky chimneys.",
+      "checksum": "29de3750"
+    },
+    {
+      "id": 13,
+      "text": "Franklin invented a new stove for burning pit-coal while consuming its smoke.",
+      "checksum": "bc8e9ff4"
+    },
+    {
+      "id": 14,
+      "text": "Franklin proposed covering houses with copper.",
+      "checksum": "8b86e8a6"
+    },
+    {
+      "id": 15,
+      "text": "Franklin created a magical square of squares.",
+      "checksum": "f4c1236c"
+    },
+    {
+      "id": 16,
+      "text": "Franklin created a magical circle.",
+      "checksum": "3d6455a0"
+    },
+    {
+      "id": 17,
+      "text": "Franklin invented a new musical instrument composed of glasses.",
+      "checksum": "20beae17"
+    },
+    {
+      "id": 18,
+      "text": "Franklin wrote about the best mediums for conveying sound.",
+      "checksum": "0e29a338"
+    },
+    {
+      "id": 19,
+      "text": "Franklin wrote about the harmony and melody of old Scotch tunes.",
+      "checksum": "e72b42ea"
+    },
+    {
+      "id": 20,
+      "text": "Franklin wrote about the defects of modern music.",
+      "checksum": "c9639119"
+    },
+    {
+      "id": 21,
+      "text": "Franklin wrote about the process of making large sheets of paper in the Chinese manner.",
+      "checksum": "39830156"
+    },
+    {
+      "id": 22,
+      "text": "Franklin wrote about modern innovations in the English language and printing.",
+      "checksum": "51a9a92f"
+    },
+    {
+      "id": 23,
+      "text": "Franklin established a club in Philadelphia formerly known as the Junto.",
+      "checksum": "1100e387"
+    },
+    {
+      "id": 24,
+      "text": "Franklin wrote a sketch of an English school for the consideration of the trustees of the Philadelphia Academy.",
+      "checksum": "3e078d0b"
+    },
+    {
+      "id": 25,
+      "text": "Franklin wrote advice to youth in reading.",
+      "checksum": "7dc25efc"
+    },
+    {
+      "id": 26,
+      "text": "Franklin wrote observations concerning the increase of mankind and the peopling of countries.",
+      "checksum": "a75d50f2"
+    },
+    {
+      "id": 27,
+      "text": "Franklin wrote about the provision made in China against famine.",
+      "checksum": "4cd58d3a"
+    },
+    {
+      "id": 28,
+      "text": "Franklin wrote about the price of corn and management of the poor.",
+      "checksum": "68ee168b"
+    },
+    {
+      "id": 29,
+      "text": "Franklin wrote about luxury, idleness, and industry.",
+      "checksum": "a1759d13"
+    },
+    {
+      "id": 30,
+      "text": "Franklin wrote about smuggling and its various species.",
+      "checksum": "4d3e4477"
+    },
+    {
+      "id": 31,
+      "text": "Franklin wrote observations on war.",
+      "checksum": "c846c718"
+    },
+    {
+      "id": 32,
+      "text": "Franklin wrote notes on the impressing of seamen in the margins of Judge Foster's argument.",
+      "checksum": "026e652b"
+    },
+    {
+      "id": 33,
+      "text": "Franklin wrote about criminal laws and the practice of privateering.",
+      "checksum": "3787c541"
+    },
+    {
+      "id": 34,
+      "text": "Franklin wrote a parable against persecution in imitation of scripture language.",
+      "checksum": "89e0ce15"
+    },
+    {
+      "id": 35,
+      "text": "Franklin wrote about persecution in former ages and the maintenance of the clergy.",
+      "checksum": "225ace65"
+    },
+    {
+      "id": 36,
+      "text": "Franklin wrote about the slave trade.",
+      "checksum": "7b1c549b"
+    },
+    {
+      "id": 37,
+      "text": "Franklin wrote about the highest court of judicature in Pennsylvania, which he called the court of the press.",
+      "checksum": "4e5412a8"
+    },
+    {
+      "id": 38,
+      "text": "Benjamin Franklin believed that upper air can be more condensed by cold than lower air is by pressure.",
+      "checksum": "90c488c8"
+    },
+    {
+      "id": 39,
+      "text": "Benjamin Franklin theorized that gusts and hurricanes in hot climates result from unequally supported or unequal weight in lifted heavy cold air.",
+      "checksum": "2f814537"
+    },
+    {
+      "id": 40,
+      "text": "Benjamin Franklin explained that the air in gusts and hurricanes is cold despite occurring in hot climates and seasons because it comes from above.",
+      "checksum": "1efd6318"
+    },
+    {
+      "id": 41,
+      "text": "Benjamin Franklin understood that the Earth rotates on its axis in about twenty-four hours.",
+      "checksum": "f9ddb75a"
+    },
+    {
+      "id": 42,
+      "text": "Benjamin Franklin calculated that equatorial parts of the Earth move about fifteen miles in each minute due to rotation.",
+      "checksum": "034459b5"
+    },
+    {
+      "id": 43,
+      "text": "Benjamin Franklin theorized that trade winds result from air moving from northern and southern latitudes toward the equator with less motion than the equatorial air.",
+      "checksum": "603d0ebf"
+    },
+    {
+      "id": 44,
+      "text": "Benjamin Franklin believed that after gusts and rain, distant objects appear more distinct and sharply terminated.",
+      "checksum": "e4531b6e"
+    },
+    {
+      "id": 45,
+      "text": "Benjamin Franklin theorized that seas, lakes, and great bodies of water maintain more equal temperatures because waves turn over their surfaces.",
+      "checksum": "b608d788"
+    },
+    {
+      "id": 46,
+      "text": "Benjamin Franklin observed that in winter, winds from the sea seem warm while winds from the land are cold.",
+      "checksum": "5ba02626"
+    },
+    {
+      "id": 47,
+      "text": "Benjamin Franklin observed that in summer, the opposite pattern occurs: winds from the sea are cold and winds from the land are warm.",
+      "checksum": "43852a49"
+    },
+    {
+      "id": 48,
+      "text": "Benjamin Franklin believed that lakes northwest of Pennsylvania moderate rather than increase the coldness of winter winds.",
+      "checksum": "9c54601c"
+    },
+    {
+      "id": 49,
+      "text": "Benjamin Franklin theorized that descending or ascending air can form eddies or whirlwinds similar to water in a funnel.",
+      "checksum": "5210b296"
+    },
+    {
+      "id": 50,
+      "text": "Benjamin Franklin explained that whirlwinds on land can raise dust, leaves, and heavier bodies into the air.",
+      "checksum": "50441c44"
+    },
+    {
+      "id": 51,
+      "text": "Benjamin Franklin theorized that water-spouts at sea form when eddies pass over water and atmospheric pressure forces water into the vacuum.",
+      "checksum": "c1d59067"
+    },
+    {
+      "id": 52,
+      "text": "Benjamin Franklin was willing to be corrected and found fault with in his scientific work.",
+      "checksum": "c9354504"
+    },
+    {
+      "id": 53,
+      "text": "Dr. Perkins of Boston corresponded with Benjamin Franklin about meteorological subjects.",
+      "checksum": "6a947e64"
+    },
+    {
+      "id": 54,
+      "text": "Dr. Perkins expressed doubt about whether water in bulk or broken into drops actually ascends into the region of clouds through vortices.",
+      "checksum": "f2b1ef88"
+    },
+    {
+      "id": 55,
+      "text": "Dr. Perkins believed that all water-spouts descend rather than ascend.",
+      "checksum": "623c13bd"
+    },
+    {
+      "id": 56,
+      "text": "Benjamin Franklin valued philosophical inquiry and the study of nature.",
+      "checksum": "f91375e2"
+    },
+    {
+      "id": 57,
+      "text": "Franklin was engaged in business, both public and private, which frequently interrupted his philosophical pursuits.",
+      "checksum": "5f049786"
+    },
+    {
+      "id": 58,
+      "text": "Franklin believed that objections to one's opinions, when judiciously made, improve scientific understanding.",
+      "checksum": "ef85c34b"
+    },
+    {
+      "id": 59,
+      "text": "Franklin corresponded with a doctor in Boston about water-spouts and whirlwinds.",
+      "checksum": "3f319ee5"
+    },
+    {
+      "id": 60,
+      "text": "Franklin inquired among his seafaring acquaintances to gather information about water-spouts.",
+      "checksum": "c9babe44"
+    },
+    {
+      "id": 61,
+      "text": "Franklin read accounts in the Philosophical Transactions of the Royal Society.",
+      "checksum": "dafa9e6f"
+    },
+    {
+      "id": 62,
+      "text": "Franklin had an acquaintance who was an ingenious physician.",
+      "checksum": "d9b4a042"
+    },
+    {
+      "id": 63,
+      "text": "Franklin had an acquaintance who was an intelligent whaleman from Nantucket.",
+      "checksum": "6535d8b0"
+    },
+    {
+      "id": 64,
+      "text": "Franklin developed a hypothesis that whirlwinds and water-spouts are the same phenomenon.",
+      "checksum": "76281cd8"
+    },
+    {
+      "id": 65,
+      "text": "Franklin believed that whirlwinds and water-spouts both have progressive and circular motion.",
+      "checksum": "22c0db51"
+    },
+    {
+      "id": 66,
+      "text": "Franklin observed that whirlwinds generally arise after calms and great heats.",
+      "checksum": "8d6a050e"
+    },
+    {
+      "id": 67,
+      "text": "Franklin read Pere Boschovich's account of a whirlwind that damaged Rome in June 1749.",
+      "checksum": "bdbde328"
+    },
+    {
+      "id": 68,
+      "text": "Franklin read the Monthly Review for December 1750.",
+      "checksum": "9f11c734"
+    },
+    {
+      "id": 69,
+      "text": "Franklin created figures and diagrams to explain his conceptions of whirlwinds and water-spouts.",
+      "checksum": "07ef81fa"
+    },
+    {
+      "id": 70,
+      "text": "Benjamin Franklin conducted scientific investigations into the nature of water-spouts and whirlwinds.",
+      "checksum": "b12267a2"
+    },
+    {
+      "id": 71,
+      "text": "Benjamin Franklin corresponded with other natural philosophers about meteorological phenomena.",
+      "checksum": "1757e781"
+    },
+    {
+      "id": 72,
+      "text": "Benjamin Franklin developed theoretical explanations for water-spouts based on principles of air pressure and centrifugal force.",
+      "checksum": "1586eb45"
+    },
+    {
+      "id": 73,
+      "text": "Benjamin Franklin believed that God had ordered nature in a way that prevented salt from being carried into the atmosphere by air particles.",
+      "checksum": "64524402"
+    },
+    {
+      "id": 74,
+      "text": "Benjamin Franklin was willing to reconsider his hypotheses when presented with alternative explanations.",
+      "checksum": "ce00b2f1"
+    },
+    {
+      "id": 75,
+      "text": "Benjamin Franklin acknowledged the limits of his knowledge and avoided making assertions without sufficient factual support.",
+      "checksum": "2c19a63e"
+    },
+    {
+      "id": 76,
+      "text": "Benjamin Franklin read accounts by voyagers such as Dampier to inform his scientific understanding.",
+      "checksum": "cbd0aa56"
+    },
+    {
+      "id": 77,
+      "text": "Benjamin Franklin was located in Philadelphia and received correspondence from natural philosophers in other locations.",
+      "checksum": "b0073490"
+    },
+    {
+      "id": 78,
+      "text": "Benjamin Franklin expressed gratitude to correspondents who provided detailed observations to support his scientific inquiries.",
+      "checksum": "0691817f"
+    },
+    {
+      "id": 79,
+      "text": "Benjamin Franklin received a letter dated April from a correspondent.",
+      "checksum": "568b628f"
+    },
+    {
+      "id": 80,
+      "text": "Benjamin Franklin theorized that shooting stars are passages of electric fire through the atmosphere.",
+      "checksum": "2b4ffd2f"
+    },
+    {
+      "id": 81,
+      "text": "Benjamin Franklin believed electric fire in the globe is always in action, sometimes ascending, descending, or passing between regions.",
+      "checksum": "3b30d1da"
+    },
+    {
+      "id": 82,
+      "text": "Benjamin Franklin supposed electric fire avoids dry air.",
+      "checksum": "c4bade2e"
+    },
+    {
+      "id": 83,
+      "text": "Benjamin Franklin was willing to share his thoughts on natural phenomena despite acknowledging limited knowledge.",
+      "checksum": "f44db08d"
+    },
+    {
+      "id": 84,
+      "text": "Benjamin Franklin valued candor from his correspondents.",
+      "checksum": "6e3fafc9"
+    },
+    {
+      "id": 85,
+      "text": "Benjamin Franklin theorized that water-spouts are descents of water rather than ascents.",
+      "checksum": "fc143efe"
+    },
+    {
+      "id": 86,
+      "text": "Benjamin Franklin collected eyewitness accounts from ship captains about water-spouts and whirlwinds.",
+      "checksum": "57a35fe5"
+    },
+    {
+      "id": 87,
+      "text": "Benjamin Franklin believed it was unlikely that two different types of spouts existed, one ascending and one descending.",
+      "checksum": "883a92b0"
+    },
+    {
+      "id": 88,
+      "text": "Benjamin Franklin theorized that water-spouts occur in places liable to calms from departing winds on both sides.",
+      "checksum": "603a7081"
+    },
+    {
+      "id": 89,
+      "text": "Benjamin Franklin believed Mediterranean seas should be more subject to spouts than other waters.",
+      "checksum": "8d917e3d"
+    },
+    {
+      "id": 90,
+      "text": "Benjamin Franklin theorized that heated lands draw off the lower region of air and cause the upper region to descend.",
+      "checksum": "68a5ee3e"
+    },
+    {
+      "id": 91,
+      "text": "Benjamin Franklin believed the appearance and procedure of spouts favor the notion of descent.",
+      "checksum": "47b48567"
+    },
+    {
+      "id": 92,
+      "text": "Benjamin Franklin theorized that clouds preceding spouts show condensation and tendency downwards.",
+      "checksum": "97200204"
+    },
+    {
+      "id": 93,
+      "text": "Benjamin Franklin believed whirlwinds never come under a cloud but only in clear sky.",
+      "checksum": "b6190747"
+    },
+    {
+      "id": 94,
+      "text": "Benjamin Franklin theorized that the pointed appearance of spouts results from the descending course being swiftest in the middle.",
+      "checksum": "dec2d81a"
+    },
+    {
+      "id": 95,
+      "text": "Benjamin Franklin believed cool air is weighty and will not ascend.",
+      "checksum": "f057ffcf"
+    },
+    {
+      "id": 96,
+      "text": "Benjamin Franklin theorized that thunder, cannon fire, or similar shocks could stop spouts by causing particle cohesion.",
+      "checksum": "1d7809db"
+    },
+    {
+      "id": 97,
+      "text": "Benjamin Franklin observed that rain commonly follows when spouts disappear.",
+      "checksum": "af976dd4"
+    },
+    {
+      "id": 98,
+      "text": "Benjamin Franklin believed the bush around the feet of spouts is great spray caused by violence of descent.",
+      "checksum": "5e974091"
+    },
+    {
+      "id": 99,
+      "text": "Benjamin Franklin theorized that the roar of spouts resembles inland waterfalls rather than whirlwinds.",
+      "checksum": "67352639"
+    },
+    {
+      "id": 100,
+      "text": "Benjamin Franklin believed spouts throw things from them with great force rather than carrying them upward.",
+      "checksum": "155ef68a"
+    },
+    {
+      "id": 101,
+      "text": "Benjamin Franklin calculated that a spout column could not naturally support more than about three feet of water.",
+      "checksum": "aad45495"
+    },
+    {
+      "id": 102,
+      "text": "Benjamin Franklin was skeptical of the hypothesis that water ascends in spouts.",
+      "checksum": "b7c96c87"
+    },
+    {
+      "id": 103,
+      "text": "Benjamin Franklin presented observations on air and water at the Royal Society on November 4, 1756.",
+      "checksum": "7b89a9ce"
+    },
+    {
+      "id": 104,
+      "text": "Franklin believed that explaining natural phenomena through general laws rather than new hypotheses demonstrates the infinite wisdom of the world's author.",
+      "checksum": "7c268f91"
+    },
+    {
+      "id": 105,
+      "text": "Franklin was reluctant to seek new hypotheses or particular laws of nature to account for phenomena explainable by known general laws.",
+      "checksum": "debe064e"
+    },
+    {
+      "id": 106,
+      "text": "Franklin made soap bubbles as a boy using soap-suds and a tobacco-pipe.",
+      "checksum": "045bd154"
+    },
+    {
+      "id": 107,
+      "text": "Franklin observed that soap bubbles he made as a boy descended when released from the pipe, though slowly.",
+      "checksum": "bb5b1f57"
+    },
+    {
+      "id": 108,
+      "text": "Franklin conducted experiments to test whether water agitated violently produces heat.",
+      "checksum": "bddfca60"
+    },
+    {
+      "id": 109,
+      "text": "Franklin sailed to the West Indies and observed water-spouts.",
+      "checksum": "593eff5d"
+    },
+    {
+      "id": 110,
+      "text": "Franklin observed a water-spout pass within thirty or forty yards of his vessel during a voyage to the West Indies.",
+      "checksum": "8b9a7739"
+    },
+    {
+      "id": 111,
+      "text": "Franklin's observation of a water-spout occurred approximately forty years before he wrote this account.",
+      "checksum": "18f4686d"
+    },
+    {
+      "id": 112,
+      "text": "Franklin observed water-spouts in the calm latitudes between the trade and variable winds in the month of July.",
+      "checksum": "69145e4a"
+    },
+    {
+      "id": 113,
+      "text": "Franklin observed that the water-spout he witnessed was an inverted cone with its apex toward the sea, reaching within about eight feet of the water's surface.",
+      "checksum": "a85995df"
+    },
+    {
+      "id": 114,
+      "text": "Franklin heard a hissing noise from the water-spout similar to that produced by a strong blast from bellows.",
+      "checksum": "a8605ed3"
+    },
+    {
+      "id": 115,
+      "text": "Franklin observed multiple water-spouts during his voyage to the West Indies, some at greater distances than others.",
+      "checksum": "8936cdc1"
+    },
+    {
+      "id": 116,
+      "text": "Franklin believes wind is generated in clouds.",
+      "checksum": "ff27aa4b"
+    },
+    {
+      "id": 117,
+      "text": "Franklin theorizes that water-spouts can be broken by firing a cannon-ball through them to provide a horizontal vent for the wind.",
+      "checksum": "7281cc60"
+    },
+    {
+      "id": 118,
+      "text": "Franklin is persuaded that no salt-water has ever been observed to fall from clouds.",
+      "checksum": "8b46164a"
+    },
+    {
+      "id": 119,
+      "text": "Franklin uses the words 'attraction' and 'repulsion' to express effects he observes rather than causes he understands.",
+      "checksum": "fd694ef1"
+    },
+    {
+      "id": 120,
+      "text": "Franklin conducted experiments pressing a blown bladder between his knees to understand air pressure.",
+      "checksum": "58be6d10"
+    },
+    {
+      "id": 121,
+      "text": "Franklin conducted experiments applying pressure to air to test whether its particles can be forced into contact.",
+      "checksum": "7d976161"
+    },
+    {
+      "id": 122,
+      "text": "Franklin lives on the north side of mountains near Hudson's River.",
+      "checksum": "2cce3aff"
+    },
+    {
+      "id": 123,
+      "text": "Franklin frequently observes strong southerly winds on the north side of mountains while the other side experiences strong northerly winds or calm.",
+      "checksum": "c569b8a4"
+    },
+    {
+      "id": 124,
+      "text": "Franklin finds sea-wind in spring more uneasy than north-west wind due to its piercing cold.",
+      "checksum": "e2475682"
+    },
+    {
+      "id": 125,
+      "text": "Benjamin Franklin believed that bodies cannot act at a distance without the assistance of some medium.",
+      "checksum": "18bdfca4"
+    },
+    {
+      "id": 126,
+      "text": "Benjamin Franklin used the words 'attraction' and 'repulsion' to express effects he observed rather than causes he understood.",
+      "checksum": "00e64a12"
+    },
+    {
+      "id": 127,
+      "text": "Benjamin Franklin conducted experiments with blown bladders pressed between his knees to understand air pressure.",
+      "checksum": "b828e700"
+    },
+    {
+      "id": 128,
+      "text": "Benjamin Franklin believed that increased surface area of a falling body causes it to descend slower due to fluid resistance, not reduced weight.",
+      "checksum": "6c56972a"
+    },
+    {
+      "id": 129,
+      "text": "Benjamin Franklin theorized that high mountain ridges interrupt, stop, or turn winds according to wind strength and angles of incidence.",
+      "checksum": "82d4b6c3"
+    },
+    {
+      "id": 130,
+      "text": "Benjamin Franklin believed that damp winds conduct heat away from the body better than dry winds.",
+      "checksum": "147dbb43"
+    },
+    {
+      "id": 131,
+      "text": "Benjamin Franklin understood that different materials conduct heat at different rates, with metal conducting heat faster than wood.",
+      "checksum": "9326edfa"
+    },
+    {
+      "id": 132,
+      "text": "Benjamin Franklin experimented with holding wood and metal pieces in candle flames to demonstrate heat conduction differences.",
+      "checksum": "d6070269"
+    },
+    {
+      "id": 133,
+      "text": "Benjamin Franklin believed that woolen garments keep the body warmer than linen ones of equal thickness because wool conducts heat less effectively.",
+      "checksum": "1978f289"
+    },
+    {
+      "id": 134,
+      "text": "Benjamin Franklin had written a long letter to a gentleman about water-spouts and his hypothesis regarding their direction.",
+      "checksum": "a5bf6613"
+    },
+    {
+      "id": 135,
+      "text": "Benjamin Franklin found the opinion that winds are generated in clouds by fermentation to be new to him.",
+      "checksum": "8bb42a4f"
+    },
+    {
+      "id": 136,
+      "text": "Benjamin Franklin had difficulty conceiving of winds confined within clouds due to clouds' lack of solidity.",
+      "checksum": "d7f8b8fa"
+    },
+    {
+      "id": 137,
+      "text": "Benjamin Franklin was interested in pursuing the idea that some things conduct heat or cold better than others.",
+      "checksum": "df90ccd8"
+    },
+    {
+      "id": 138,
+      "text": "Benjamin Franklin assented to the opinion that heat is propagated by vibration of a subtle elastic fluid.",
+      "checksum": "ce04cfa4"
+    },
+    {
+      "id": 139,
+      "text": "Benjamin Franklin had observed water-spouts and believed the principal phenomena were occasioned by a stream of wind issuing with great force.",
+      "checksum": "1386aa03"
+    },
+    {
+      "id": 140,
+      "text": "Benjamin Franklin had traveled on the Hudson River and observed strong northerly winds blowing from New York toward the mountains.",
+      "checksum": "78e448e7"
+    },
+    {
+      "id": 141,
+      "text": "Benjamin Franklin had observed two vessels sailing with contrary winds within half a mile of each other.",
+      "checksum": "7bf4b908"
+    },
+    {
+      "id": 142,
+      "text": "Benjamin Franklin had observed a violent gust of wind from a single cloud that made a lane through the woods several miles in length.",
+      "checksum": "330c1536"
+    },
+    {
+      "id": 143,
+      "text": "Benjamin Franklin was in Maryland riding with Colonel Tasker when he observed and examined a whirlwind.",
+      "checksum": "040fea2e"
+    },
+    {
+      "id": 144,
+      "text": "Benjamin Franklin followed a whirlwind on horseback for about three quarters of a mile while observing its behavior.",
+      "checksum": "9638501e"
+    },
+    {
+      "id": 145,
+      "text": "Benjamin Franklin attempted to break a whirlwind by striking his whip through it, but the attempt had no effect.",
+      "checksum": "7c6c6401"
+    },
+    {
+      "id": 146,
+      "text": "Benjamin Franklin observed that the current of air in a whirlwind moved upwards in a spiral line.",
+      "checksum": "ef3107eb"
+    },
+    {
+      "id": 147,
+      "text": "Benjamin Franklin's son followed the whirlwind until it crossed an old tobacco field and became invisible.",
+      "checksum": "3bea7e24"
+    },
+    {
+      "id": 148,
+      "text": "Benjamin Franklin traveled approximately three miles from where he first saw the whirlwind before leaves from it stopped falling around him.",
+      "checksum": "705044a9"
+    },
+    {
+      "id": 149,
+      "text": "Benjamin Franklin theorized that north-east storms in North America begin first in the south-west parts of the colonies.",
+      "checksum": "fba70986"
+    },
+    {
+      "id": 150,
+      "text": "Benjamin Franklin had intended to observe a lunar eclipse in Philadelphia on a Friday evening about twenty years before 1760.",
+      "checksum": "b0f873ee"
+    },
+    {
+      "id": 151,
+      "text": "Benjamin Franklin was prevented from observing a lunar eclipse by a north-east storm that began around seven o'clock in the evening.",
+      "checksum": "afff0070"
+    },
+    {
+      "id": 152,
+      "text": "Benjamin Franklin learned from his brother in Boston that the same storm did not begin there until near eleven o'clock.",
+      "checksum": "e2efd8c2"
+    },
+    {
+      "id": 153,
+      "text": "Benjamin Franklin compared accounts from several colonies and found that north-east storms always began later the farther north-eastward the location.",
+      "checksum": "f6ef08e1"
+    },
+    {
+      "id": 154,
+      "text": "Benjamin Franklin observed that storms begin later in the northeast than in other directions.",
+      "checksum": "dc02cc84"
+    },
+    {
+      "id": 155,
+      "text": "Franklin compared observations of eclipse timing and storm beginnings from several colonies.",
+      "checksum": "1c04583f"
+    },
+    {
+      "id": 156,
+      "text": "Franklin theorized that northeast storms move at approximately one hour per hundred miles.",
+      "checksum": "a3b11e34"
+    },
+    {
+      "id": 157,
+      "text": "Franklin believed that great heat and rarefaction of air in or about the Gulf of Mexico causes northeast storms.",
+      "checksum": "130ddf21"
+    },
+    {
+      "id": 158,
+      "text": "Franklin proposed that coastal mountains give northeast storms their directional character.",
+      "checksum": "fdcadf44"
+    },
+    {
+      "id": 159,
+      "text": "Franklin acknowledged that his storm theory was a hypothesis subject to further examination.",
+      "checksum": "31d16f54"
+    },
+    {
+      "id": 160,
+      "text": "Franklin had written a paper about the causes of northwest thunder-gusts in America.",
+      "checksum": "61ec9d3c"
+    },
+    {
+      "id": 161,
+      "text": "Franklin believed there exists a region higher in the air where it is always winter with continual frost.",
+      "checksum": "9e8f19d0"
+    },
+    {
+      "id": 162,
+      "text": "Franklin theorized that hailstones acquire their magnitude while descending through the atmosphere.",
+      "checksum": "79aef856"
+    },
+    {
+      "id": 163,
+      "text": "Franklin believed that in summer, much rain might have been snow before being thawed near the earth's surface.",
+      "checksum": "2be2563f"
+    },
+    {
+      "id": 164,
+      "text": "Franklin observed that the first snows of winter seldom lie long on heated earth before melting.",
+      "checksum": "1262acd9"
+    },
+    {
+      "id": 165,
+      "text": "Franklin noted that the English proverb states 'as the day lengthens, the cold strengthens.'",
+      "checksum": "30adf71e"
+    },
+    {
+      "id": 166,
+      "text": "Franklin observed a constant, dry fog over Europe and much of North America during the summer months of 1783.",
+      "checksum": "2b169a7b"
+    },
+    {
+      "id": 167,
+      "text": "Franklin noted that the 1783 fog was so dense that sun rays collected in a burning glass could scarce kindle brown paper.",
+      "checksum": "2a203cba"
+    },
+    {
+      "id": 168,
+      "text": "Franklin believed the winter of 1783-4 was more severe than any in many years.",
+      "checksum": "9917a3a3"
+    },
+    {
+      "id": 169,
+      "text": "Franklin proposed that the 1783 fog might have come from burning celestial bodies passing through Earth's atmosphere.",
+      "checksum": "cd7488e2"
+    },
+    {
+      "id": 170,
+      "text": "Franklin suggested that volcanic smoke from Hecla in Iceland might have caused the 1783 fog.",
+      "checksum": "559c1956"
+    },
+    {
+      "id": 171,
+      "text": "Franklin proposed that permanent summer fogs might be used to predict hard winters.",
+      "checksum": "b776aa84"
+    },
+    {
+      "id": 172,
+      "text": "Franklin believed that heated air becomes rarefied and lighter than cooler air.",
+      "checksum": "57c12ca9"
+    },
+    {
+      "id": 173,
+      "text": "Franklin theorized that air circulation occurs in the atmosphere similar to circulation in a heated room.",
+      "checksum": "fadf1744"
+    },
+    {
+      "id": 174,
+      "text": "Franklin believed that clouds between the tropics contain much electricity.",
+      "checksum": "d94087a4"
+    },
+    {
+      "id": 175,
+      "text": "Franklin theorized that rain drops bring down electricity from clouds.",
+      "checksum": "3bbe0d1f"
+    },
+    {
+      "id": 176,
+      "text": "Franklin believed that snow and hail also bring down electricity.",
+      "checksum": "0d92e78e"
+    },
+    {
+      "id": 177,
+      "text": "Franklin proposed that electricity descending in temperate climates is received by the earth.",
+      "checksum": "5bd5db4f"
+    },
+    {
+      "id": 178,
+      "text": "Franklin theorized that clouds sometimes discharge electricity suddenly by striking the earth.",
+      "checksum": "26184564"
+    },
+    {
+      "id": 179,
+      "text": "Franklin believed that certain heat makes some bodies good conductors that would not otherwise conduct.",
+      "checksum": "72999695"
+    },
+    {
+      "id": 180,
+      "text": "Franklin noted that water conducts electricity well but frozen ice does not conduct well.",
+      "checksum": "361bf1ee"
+    },
+    {
+      "id": 181,
+      "text": "Franklin observed that snow falling on frozen ground retains electricity.",
+      "checksum": "eb7a1354"
+    },
+    {
+      "id": 182,
+      "text": "Franklin theorized that electricity accumulates on polar ice because the frozen ground cannot receive it.",
+      "checksum": "8dce6bc6"
+    },
+    {
+      "id": 183,
+      "text": "Franklin believed the vacuum above the atmosphere is a good conductor.",
+      "checksum": "783eabf8"
+    },
+    {
+      "id": 184,
+      "text": "Franklin proposed that accumulated polar electricity breaks through the atmosphere and travels toward the equator.",
+      "checksum": "d5aee427"
+    },
+    {
+      "id": 185,
+      "text": "Franklin theorized that this electrical phenomenon would produce the appearance of an aurora borealis.",
+      "checksum": "d57efdc9"
+    },
+    {
+      "id": 186,
+      "text": "Franklin believed auroras become more frequent after the approach of winter.",
+      "checksum": "496f044c"
+    },
+    {
+      "id": 187,
+      "text": "Franklin proposed that summer sun softens polar ice and makes it a conductor, preventing electricity accumulation.",
+      "checksum": "7bba95ed"
+    },
+    {
+      "id": 188,
+      "text": "Franklin theorized that the aurora borealis appears as a segment rather than a complete circle to southern observers.",
+      "checksum": "3e33caec"
+    },
+    {
+      "id": 189,
+      "text": "Franklin believed that electric rays diverge and converge based on nearby conducting bodies.",
+      "checksum": "25ad4c20"
+    },
+    {
+      "id": 190,
+      "text": "Franklin proposed that electric rays converging toward moist atmosphere create the crowns seen in auroras.",
+      "checksum": "777db104"
+    },
+    {
+      "id": 191,
+      "text": "Franklin theorized that winds from polar regions should be generally dry unless they sweep the ocean.",
+      "checksum": "996b3056"
+    },
+    {
+      "id": 192,
+      "text": "Franklin believed that northeasterly and northwesterly winds are mostly dry when they have continued for some time.",
+      "checksum": "b8a9d277"
+    },
+    {
+      "id": 193,
+      "text": "Franklin noted that auroras are rarely visible in England because clouds usually obstruct the view to northern regions.",
+      "checksum": "a228274d"
+    },
+    {
+      "id": 194,
+      "text": "Franklin proposed that long continuance of northerly winds produces the atmospheric clearness needed to see auroras.",
+      "checksum": "33249494"
+    },
+    {
+      "id": 195,
+      "text": "Franklin theorized that violent southerly winds following aurora appearances may result from the return of winds after long northerly continuance.",
+      "checksum": "cd8de002"
+    },
+    {
+      "id": 196,
+      "text": "Benjamin Franklin had not received correspondence from Dr. L. for a long time as of April 1757.",
+      "checksum": "a2e14a51"
+    },
+    {
+      "id": 197,
+      "text": "Benjamin Franklin was engaged in business related to troubles affecting his country around 1757.",
+      "checksum": "644e5f5a"
+    },
+    {
+      "id": 198,
+      "text": "Benjamin Franklin was about to embark for England in April 1757.",
+      "checksum": "89ce61a6"
+    },
+    {
+      "id": 199,
+      "text": "Benjamin Franklin introduced Colonel Henry Bouquet to Dr. L. in a letter dated April 14, 1757.",
+      "checksum": "7e3e17f7"
+    },
+    {
+      "id": 200,
+      "text": "Benjamin Franklin conducted an experiment with a thermometer and spirit of wine to test evaporation-induced cooling.",
+      "checksum": "edc4da28"
+    },
+    {
+      "id": 201,
+      "text": "Benjamin Franklin believed fire and electricity are both fluids capable of permeating other bodies.",
+      "checksum": "d9f38ba2"
+    },
+    {
+      "id": 202,
+      "text": "Benjamin Franklin theorized that bodies differ in their ability to conduct heat, with metals being better conductors than wood.",
+      "checksum": "ecbeb028"
+    },
+    {
+      "id": 203,
+      "text": "Benjamin Franklin conducted experiments with molten lead and wooden and leaden bars to test heat conduction.",
+      "checksum": "81db54a0"
+    },
+    {
+      "id": 204,
+      "text": "Benjamin Franklin theorized that animal heat arises from a kind of fermentation in body juices.",
+      "checksum": "103e7f33"
+    },
+    {
+      "id": 205,
+      "text": "Benjamin Franklin believed the human body maintains a temperature of about 94 or 96 degrees.",
+      "checksum": "23326b39"
+    },
+    {
+      "id": 206,
+      "text": "Benjamin Franklin theorized that clothing keeps people warm by preventing heat dissipation rather than by generating warmth.",
+      "checksum": "6df7366b"
+    },
+    {
+      "id": 207,
+      "text": "Benjamin Franklin had personally mixed salt and snow multiple times and observed the resulting extreme cold.",
+      "checksum": "f2771734"
+    },
+    {
+      "id": 208,
+      "text": "Benjamin Franklin had not personally witnessed chemical mixtures that produce cold through mixing.",
+      "checksum": "674a55f5"
+    },
+    {
+      "id": 209,
+      "text": "Benjamin Franklin was at Cambridge and conducted an evaporation experiment with Dr. Hadley using ether.",
+      "checksum": "639bf978"
+    },
+    {
+      "id": 210,
+      "text": "Benjamin Franklin and Dr. Hadley lowered a thermometer to 7 degrees (25 degrees below freezing) using ether evaporation.",
+      "checksum": "13e89fb4"
+    },
+    {
+      "id": 211,
+      "text": "Benjamin Franklin learned from a friend about Eastern practices of cooling water using evaporation in wet cloth wrappings.",
+      "checksum": "cf24ba91"
+    },
+    {
+      "id": 212,
+      "text": "Benjamin Franklin conducted an experiment involving freezing water on a ball using ether and evaporation.",
+      "checksum": "860145f7"
+    },
+    {
+      "id": 213,
+      "text": "Franklin learned from a friend about a passage in Bernier's Travels through Indostan describing cooling water through evaporation in desert travel.",
+      "checksum": "eabf2724"
+    },
+    {
+      "id": 214,
+      "text": "Franklin observed sailors at sea during his youth using evaporative cooling on their fingers to detect wind direction.",
+      "checksum": "f6be9eb1"
+    },
+    {
+      "id": 215,
+      "text": "Franklin experienced extreme heat in Philadelphia in June 1750 when the thermometer reached 100 degrees in the shade.",
+      "checksum": "c2894503"
+    },
+    {
+      "id": 216,
+      "text": "Franklin sat in his chamber during the hot Philadelphia day wearing only a shirt and linen drawers with windows open.",
+      "checksum": "04da6cb6"
+    },
+    {
+      "id": 217,
+      "text": "Franklin observed that his body remained cooler than inanimate objects around him through perspiration and evaporation.",
+      "checksum": "8f671d53"
+    },
+    {
+      "id": 218,
+      "text": "Franklin theorized that evaporative cooling through sweating enables Pennsylvania reapers to work in intense heat.",
+      "checksum": "eb54c54d"
+    },
+    {
+      "id": 219,
+      "text": "Franklin conjectured that Black people may have faster evaporation of perspiration, enabling them to tolerate heat better than white people.",
+      "checksum": "46489ab9"
+    },
+    {
+      "id": 220,
+      "text": "Franklin observed from personal knowledge that Black people do not tolerate cold weather as well as white people.",
+      "checksum": "d8bb9e39"
+    },
+    {
+      "id": 221,
+      "text": "Franklin believed that the cooling effect of fanning works by replacing humid air with drier air that facilitates evaporation.",
+      "checksum": "4d0ea1d9"
+    },
+    {
+      "id": 222,
+      "text": "Franklin recommended using spirit-wet linen cloths rather than water-wet cloths to treat painful inflammation from burns.",
+      "checksum": "daf9049a"
+    },
+    {
+      "id": 223,
+      "text": "Franklin observed luminous appearances in sea water while traveling by boat from Portsmouth to a vessel at Piscataqua River.",
+      "checksum": "94ec6d22"
+    },
+    {
+      "id": 224,
+      "text": "Franklin ordered a pail of sea-water to be brought aboard and observed sparkling light when the water was moved.",
+      "checksum": "d74ccaca"
+    },
+    {
+      "id": 225,
+      "text": "Franklin strained sea-water through linen cloth and observed a luminous appearance that renewed when rubbed.",
+      "checksum": "b4341016"
+    },
+    {
+      "id": 226,
+      "text": "Franklin conjectured that the luminous appearance in sea-water might be caused by small animals that glow when disturbed.",
+      "checksum": "6ded5318"
+    },
+    {
+      "id": 227,
+      "text": "Franklin believed that all water on Earth was originally salt and that fresh water comes from solar distillation.",
+      "checksum": "f9216d67"
+    },
+    {
+      "id": 228,
+      "text": "Franklin visited salt-mines at Northwich with his son.",
+      "checksum": "15c0af55"
+    },
+    {
+      "id": 229,
+      "text": "Franklin's son brought up a piece of rock-salt from a salt-mine.",
+      "checksum": "62646000"
+    },
+    {
+      "id": 230,
+      "text": "Franklin theorized that rock-salt deposits formed from evaporated sea-water left in valleys or underground caverns.",
+      "checksum": "7803df1a"
+    },
+    {
+      "id": 231,
+      "text": "Franklin explained to Miss Stephenson how air pressure affects barometers through small openings or crevices.",
+      "checksum": "2d4f94d5"
+    },
+    {
+      "id": 232,
+      "text": "Franklin valued the study of insects and their practical benefits to humanity.",
+      "checksum": "5d6f9663"
+    },
+    {
+      "id": 233,
+      "text": "Franklin noted that silkworms provide employment and subsistence to thousands of families through their labor.",
+      "checksum": "4fed20da"
+    },
+    {
+      "id": 234,
+      "text": "Franklin acknowledged the usefulness of bees for honey and wax production.",
+      "checksum": "9ad767c9"
+    },
+    {
+      "id": 235,
+      "text": "Franklin recognized the medicinal value of cantharides or Spanish flies.",
+      "checksum": "4b05dcaf"
+    },
+    {
+      "id": 236,
+      "text": "Franklin believed that studying insects could help prevent harm from noxious species.",
+      "checksum": "06ebe556"
+    },
+    {
+      "id": 237,
+      "text": "Benjamin Franklin believed that the study of insects and their properties has provided great benefit to the world.",
+      "checksum": "b00260e9"
+    },
+    {
+      "id": 238,
+      "text": "Benjamin Franklin valued the practical applications of natural knowledge, such as the silkworm's production of silk and the bee's production of honey and wax.",
+      "checksum": "497e5f00"
+    },
+    {
+      "id": 239,
+      "text": "Benjamin Franklin learned from a Swedish gentleman about Linnaeus's solution to the problem of wood-eating worms in Swedish shipyards.",
+      "checksum": "41e6d7cf"
+    },
+    {
+      "id": 240,
+      "text": "Benjamin Franklin believed that knowledge of nature should be balanced with the practice of essential duties like being a good parent, spouse, neighbor, and citizen.",
+      "checksum": "44c5e695"
+    },
+    {
+      "id": 241,
+      "text": "Benjamin Franklin considered being a good Christian to be of greater dignity and importance than eminence in natural knowledge.",
+      "checksum": "8fab865d"
+    },
+    {
+      "id": 242,
+      "text": "Benjamin Franklin was critical of those who neglected family duties to pursue trivial studies, citing Nicholas Gimcrack as an example.",
+      "checksum": "691bbf89"
+    },
+    {
+      "id": 243,
+      "text": "Benjamin Franklin was engaged in business matters that limited his leisure time in 1760.",
+      "checksum": "fc58dba2"
+    },
+    {
+      "id": 244,
+      "text": "Benjamin Franklin was cautious about offering explanations before confirming facts.",
+      "checksum": "c423cab7"
+    },
+    {
+      "id": 245,
+      "text": "Benjamin Franklin admired a woman's prudent approach to questioning assumptions, as recounted by Selden.",
+      "checksum": "6d50614b"
+    },
+    {
+      "id": 246,
+      "text": "Benjamin Franklin conducted or was familiar with experiments involving water in bottles shaken by mill-hoppers.",
+      "checksum": "a1a5792f"
+    },
+    {
+      "id": 247,
+      "text": "Benjamin Franklin had observed or studied tidal patterns in American rivers, particularly the Delaware River near Philadelphia.",
+      "checksum": "fd480758"
+    },
+    {
+      "id": 248,
+      "text": "Benjamin Franklin understood that tides function as progressive waves rather than simultaneous water level changes across entire rivers.",
+      "checksum": "e751496d"
+    },
+    {
+      "id": 249,
+      "text": "Benjamin Franklin was naturally awkward at ceremonies and formal compliments.",
+      "checksum": "5fc685f8"
+    },
+    {
+      "id": 250,
+      "text": "Benjamin Franklin preferred honest truth to empty civility in his correspondence.",
+      "checksum": "96f2ec9d"
+    },
+    {
+      "id": 251,
+      "text": "Benjamin Franklin corresponded with Mr. Collinson about scientific matters.",
+      "checksum": "d6dd90bc"
+    },
+    {
+      "id": 252,
+      "text": "Benjamin Franklin had sent scientific papers to correspondents in France through Collinson's hands.",
+      "checksum": "68f16672"
+    },
+    {
+      "id": 253,
+      "text": "Benjamin Franklin planned to visit Wanstead and conduct tidal experiments at Lord Tilney's ponds.",
+      "checksum": "1fe080a1"
+    },
+    {
+      "id": 254,
+      "text": "Benjamin Franklin was planning to travel to Holland in August 1761 for approximately a month.",
+      "checksum": "e3f8c047"
+    },
+    {
+      "id": 255,
+      "text": "Benjamin Franklin intended to return to England before the coronation in 1761.",
+      "checksum": "b38da104"
+    },
+    {
+      "id": 256,
+      "text": "Benjamin Franklin planned to visit Wanstead in the next week or following week to see a correspondent.",
+      "checksum": "94f502bc"
+    },
+    {
+      "id": 257,
+      "text": "Franklin accompanied a woman he refers to as 'your good mamma' to Wanstead.",
+      "checksum": "4a659c89"
+    },
+    {
+      "id": 258,
+      "text": "Franklin proposed to take walks and conduct experiments about tides at Lord Tilney's ponds.",
+      "checksum": "ada0736d"
+    },
+    {
+      "id": 259,
+      "text": "Franklin was setting out for Holland in August 1761 and expected to spend about a month there.",
+      "checksum": "65c69884"
+    },
+    {
+      "id": 260,
+      "text": "Franklin intended to return home before the coronation in 1761.",
+      "checksum": "40390790"
+    },
+    {
+      "id": 261,
+      "text": "Franklin owed multiple letters to a correspondent as of August 1761.",
+      "checksum": "e0ce20c4"
+    },
+    {
+      "id": 262,
+      "text": "Franklin held the opinion that human skin has imbibing pores that can filter salt from water.",
+      "checksum": "e41cbb9d"
+    },
+    {
+      "id": 263,
+      "text": "Franklin observed as a boy that swimming in salt water for several hours daily did not make his blood salty or create a salt taste in his mouth.",
+      "checksum": "239db4e7"
+    },
+    {
+      "id": 264,
+      "text": "Franklin believed that bathing in sea water could relieve thirst in sailors whose fresh water was depleted.",
+      "checksum": "5c0d9956"
+    },
+    {
+      "id": 265,
+      "text": "Franklin believed that men do not catch cold from wet clothes at sea.",
+      "checksum": "97195e97"
+    },
+    {
+      "id": 266,
+      "text": "Franklin questioned the general opinion that all rivers run into the sea.",
+      "checksum": "7b04e0b7"
+    },
+    {
+      "id": 267,
+      "text": "Franklin believed that evaporation from rivers could equal their water supply in some cases.",
+      "checksum": "f986a646"
+    },
+    {
+      "id": 268,
+      "text": "Franklin theorized that salt water and fresh water in tidal rivers are separated by a moveable line that shifts with tides and seasons.",
+      "checksum": "5f5a5691"
+    },
+    {
+      "id": 269,
+      "text": "Franklin conducted an experiment with colored cloth pieces on snow to measure heat absorption from the sun.",
+      "checksum": "6b726c97"
+    },
+    {
+      "id": 270,
+      "text": "Franklin observed that black cloth sinks deeper into snow than white cloth when exposed to sunlight.",
+      "checksum": "dd17f1be"
+    },
+    {
+      "id": 271,
+      "text": "Franklin recommended that soldiers and seamen in the East or West Indies wear white uniforms to avoid heat-related illness.",
+      "checksum": "90d33188"
+    },
+    {
+      "id": 272,
+      "text": "Franklin recommended that summer hats should be white to reflect heat and prevent headaches and heat stroke.",
+      "checksum": "1382b3e0"
+    },
+    {
+      "id": 273,
+      "text": "Franklin recommended that ladies' summer hats should be lined with black to prevent reflected rays from hitting their faces.",
+      "checksum": "2940e59b"
+    },
+    {
+      "id": 274,
+      "text": "Franklin recommended that fruit-walls be blackened to absorb heat during the day and preserve fruit from frost at night.",
+      "checksum": "35c0d439"
+    },
+    {
+      "id": 275,
+      "text": "Franklin stumbled at understanding the concept of vis inertiæ in a philosophical work he was reviewing.",
+      "checksum": "255c5b4c"
+    },
+    {
+      "id": 276,
+      "text": "Franklin believed that any force, however small, can move any mass of matter if applied continuously.",
+      "checksum": "b534fdb4"
+    },
+    {
+      "id": 277,
+      "text": "Franklin used mathematical notation with variables to analyze problems in physics and motion.",
+      "checksum": "43555a7a"
+    },
+    {
+      "id": 278,
+      "text": "Benjamin Franklin engaged in detailed scientific analysis of physics and motion.",
+      "checksum": "c6d03b53"
+    },
+    {
+      "id": 279,
+      "text": "Benjamin Franklin lived in Philadelphia near the market.",
+      "checksum": "399a318e"
+    },
+    {
+      "id": 280,
+      "text": "Benjamin Franklin distinguished between deism and atheism as diametrically opposite positions.",
+      "checksum": "9972eee9"
+    },
+    {
+      "id": 281,
+      "text": "Benjamin Franklin was familiar with the work of George Whitfield and his journal.",
+      "checksum": "824fd6a5"
+    },
+    {
+      "id": 282,
+      "text": "Benjamin Franklin corresponded with John Pringle, a medical doctor and Fellow of the Royal Society.",
+      "checksum": "e1559509"
+    },
+    {
+      "id": 283,
+      "text": "Benjamin Franklin read and studied papers on geological strata.",
+      "checksum": "bc8b7767"
+    },
+    {
+      "id": 284,
+      "text": "Benjamin Franklin viewed geological convulsions as beneficial preparation for human habitation rather than ruin.",
+      "checksum": "c1b3982d"
+    },
+    {
+      "id": 285,
+      "text": "Benjamin Franklin observed oyster shells mixed in stone at the lowest part of a rocky mountain in Derbyshire.",
+      "checksum": "914f97c3"
+    },
+    {
+      "id": 286,
+      "text": "Benjamin Franklin theorized that the Earth's internal parts might be a dense fluid rather than solid to the center.",
+      "checksum": "d5f1d598"
+    },
+    {
+      "id": 287,
+      "text": "Benjamin Franklin corresponded with the Abbe Soulavie about theories of the Earth.",
+      "checksum": "64f5dc86"
+    },
+    {
+      "id": 288,
+      "text": "Benjamin Franklin lived at Passy.",
+      "checksum": "a5f32189"
+    },
+    {
+      "id": 289,
+      "text": "Benjamin Franklin theorized that the Earth's surface is a shell capable of being broken and disordered.",
+      "checksum": "41b551d2"
+    },
+    {
+      "id": 290,
+      "text": "Benjamin Franklin speculated about the formation of the globe and the solar system.",
+      "checksum": "f9c582b4"
+    },
+    {
+      "id": 291,
+      "text": "Benjamin Franklin had a long-standing supposition that iron in the Earth's surface made it a great magnet.",
+      "checksum": "23909cc8"
+    },
+    {
+      "id": 292,
+      "text": "Benjamin Franklin theorized about a universal magnetism with magnetic north and south poles.",
+      "checksum": "26ad1462"
+    },
+    {
+      "id": 293,
+      "text": "Benjamin Franklin believed the Earth's permanent magnetism keeps its axis parallel and stable.",
+      "checksum": "bb3aa8c5"
+    },
+    {
+      "id": 294,
+      "text": "Benjamin Franklin lived on the Mountain of Passy, which he noted was composed of limestone, rock, and sea-shells.",
+      "checksum": "04397596"
+    },
+    {
+      "id": 295,
+      "text": "Benjamin Franklin theorized that the Mountain of Passy was abandoned by the sea and changed from a hot climate.",
+      "checksum": "afbdd4d1"
+    },
+    {
+      "id": 296,
+      "text": "Benjamin Franklin approved of empirical methods of philosophy based on observation and facts.",
+      "checksum": "8306a870"
+    },
+    {
+      "id": 297,
+      "text": "Benjamin Franklin acknowledged his tendency toward imaginative speculation in scientific matters.",
+      "checksum": "b4bddfb0"
+    },
+    {
+      "id": 298,
+      "text": "Benjamin Franklin was unable to pursue direct observation of the Earth's nature in his present circumstances.",
+      "checksum": "49a080b9"
+    },
+    {
+      "id": 299,
+      "text": "Benjamin Franklin theorized that heat and light are decomposed substances rather than created.",
+      "checksum": "f3bd5882"
+    },
+    {
+      "id": 300,
+      "text": "Benjamin Franklin believed water and air were original ingredients in stone and wood composition.",
+      "checksum": "9b8f1fa9"
+    },
+    {
+      "id": 301,
+      "text": "Benjamin Franklin believed that water and air were ingredients in the original composition of stone and wood.",
+      "checksum": "43b59b83"
+    },
+    {
+      "id": 302,
+      "text": "Benjamin Franklin theorized that heat and light are not created but rather result from the decomposition of substances.",
+      "checksum": "c163f55e"
+    },
+    {
+      "id": 303,
+      "text": "Benjamin Franklin presented a paper on heat and light to the American Philosophical Society on November 21, 1788.",
+      "checksum": "ee67e294"
+    },
+    {
+      "id": 304,
+      "text": "Benjamin Franklin theorized that universal space is filled with a subtle fluid whose motion or vibration is called light.",
+      "checksum": "c2721c25"
+    },
+    {
+      "id": 305,
+      "text": "Benjamin Franklin believed that fire is an original element or kind of matter with a fixed and permanent quantity in the universe.",
+      "checksum": "24b3181a"
+    },
+    {
+      "id": 306,
+      "text": "Benjamin Franklin corresponded with David Rittenhouse about theories of light and heat.",
+      "checksum": "28a9c8cc"
+    },
+    {
+      "id": 307,
+      "text": "Benjamin Franklin corresponded with Mr. Bodoin about magnetism and the theory of the earth.",
+      "checksum": "0e6075d6"
+    },
+    {
+      "id": 308,
+      "text": "Benjamin Franklin valued philosophical correspondence and wished to resume it with Mr. Bodoin.",
+      "checksum": "68528961"
+    },
+    {
+      "id": 309,
+      "text": "Benjamin Franklin received recommendations of friends from Mr. Bodoin and was pleased to meet them.",
+      "checksum": "e654e25a"
+    },
+    {
+      "id": 310,
+      "text": "Benjamin Franklin bequeathed a French work on arts and trades to a Philosophical Society in his will.",
+      "checksum": "df4f6587"
+    },
+    {
+      "id": 311,
+      "text": "Benjamin Franklin theorized that the earth may have received its magnetism from an external cause.",
+      "checksum": "0a5c0177"
+    },
+    {
+      "id": 312,
+      "text": "Benjamin Franklin speculated that a magnetic power might exist throughout the solar system and beyond.",
+      "checksum": "d41d5e3e"
+    },
+    {
+      "id": 313,
+      "text": "Benjamin Franklin theorized that the earth's poles may have changed in ancient times.",
+      "checksum": "216326c1"
+    },
+    {
+      "id": 314,
+      "text": "Benjamin Franklin believed that finding shells and bones of hot-climate animals in cold regions suggests the earth's poles have changed.",
+      "checksum": "da93dad2"
+    },
+    {
+      "id": 315,
+      "text": "Benjamin Franklin theorized that the earth's internal mass is a fluid dense enough to float the heaviest substances.",
+      "checksum": "caf32d22"
+    },
+    {
+      "id": 316,
+      "text": "Benjamin Franklin visited a large coal mine at Whitehaven in Cumberland.",
+      "checksum": "65c1723e"
+    },
+    {
+      "id": 317,
+      "text": "Benjamin Franklin descended below the ocean level in the Whitehaven coal mine, where the ocean surface was more than eight hundred fathoms above his head.",
+      "checksum": "43453848"
+    },
+    {
+      "id": 318,
+      "text": "Benjamin Franklin believed that sea coal has a vegetable origin and was formed near the surface of the earth.",
+      "checksum": "95679c46"
+    },
+    {
+      "id": 319,
+      "text": "Benjamin Franklin observed that slate in coal mines bears impressions of fern leaves and branches.",
+      "checksum": "8770f912"
+    },
+    {
+      "id": 320,
+      "text": "Benjamin Franklin corresponded with Dr. Priestley about the effects of vegetation on air quality.",
+      "checksum": "7393ae07"
+    },
+    {
+      "id": 321,
+      "text": "Benjamin Franklin believed that vegetation restores air spoiled by animals.",
+      "checksum": "4209d2e0"
+    },
+    {
+      "id": 322,
+      "text": "Benjamin Franklin observed from long experience that there is nothing unhealthy in the air of woods.",
+      "checksum": "5bed5bdb"
+    },
+    {
+      "id": 323,
+      "text": "Benjamin Franklin noted that Americans live in country habitations in the midst of woods and enjoy better health and greater fertility than other peoples.",
+      "checksum": "e57eb658"
+    },
+    {
+      "id": 324,
+      "text": "Benjamin Franklin passed through New Jersey in 1764.",
+      "checksum": "1888cda2"
+    },
+    {
+      "id": 325,
+      "text": "Benjamin Franklin heard accounts of flames being raised on the surface of certain New Jersey rivers by applying a lighted candle.",
+      "checksum": "8b80c209"
+    },
+    {
+      "id": 326,
+      "text": "Benjamin Franklin initially doubted the truth of the accounts about inflammable river surfaces.",
+      "checksum": "5825921c"
+    },
+    {
+      "id": 327,
+      "text": "Benjamin Franklin learned the method of producing flames on water from a friend who had performed the experiment himself.",
+      "checksum": "aae7e6ad"
+    },
+    {
+      "id": 328,
+      "text": "Benjamin Franklin theorized that volatile oil of turpentine from pine swamps might explain the inflammability of New Jersey waters.",
+      "checksum": "ff48160b"
+    },
+    {
+      "id": 329,
+      "text": "Benjamin Franklin mentioned the inflammable water phenomenon to philosophical friends upon his return to England.",
+      "checksum": "9ad33dd2"
+    },
+    {
+      "id": 330,
+      "text": "Benjamin Franklin was thought by some to be credulous regarding the inflammable water phenomenon.",
+      "checksum": "f8aa9a2a"
+    },
+    {
+      "id": 331,
+      "text": "Benjamin Franklin wrote to Dr. Priestley on April 10, 1774, about the inflammability of American river surfaces.",
+      "checksum": "92c14548"
+    },
+    {
+      "id": 332,
+      "text": "Benjamin Franklin observed flammable gas rising from muddy water in New Jersey by stirring the bottom with a stick and applying a candle flame.",
+      "checksum": "014fcfbb"
+    },
+    {
+      "id": 333,
+      "text": "Franklin mentioned the flammable gas phenomenon to philosophical friends upon his return to England, but was thought too credulous.",
+      "checksum": "0d7fbfb1"
+    },
+    {
+      "id": 334,
+      "text": "Franklin tried the experiment twice in England without success.",
+      "checksum": "8bbcc0bd"
+    },
+    {
+      "id": 335,
+      "text": "Franklin attributed an intermitting fever he contracted to breathing foul air while stirring muddy water during an experiment.",
+      "checksum": "c57cfd93"
+    },
+    {
+      "id": 336,
+      "text": "Franklin knew Lord Charles Cavendish and Dr. Heberden to be very accurate experimenters.",
+      "checksum": "b01a162c"
+    },
+    {
+      "id": 337,
+      "text": "Franklin left England in August 1762 and arrived in Philadelphia in October 1762.",
+      "checksum": "401fca8f"
+    },
+    {
+      "id": 338,
+      "text": "Franklin remained in Philadelphia for two years until November 1764.",
+      "checksum": "49bff895"
+    },
+    {
+      "id": 339,
+      "text": "Franklin returned to England in December 1764.",
+      "checksum": "9798a309"
+    },
+    {
+      "id": 340,
+      "text": "Franklin continued in England for more than ten years after his return in 1764.",
+      "checksum": "dffb5a85"
+    },
+    {
+      "id": 341,
+      "text": "Franklin made a second return to America after his extended stay in England.",
+      "checksum": "afbb2b39"
+    },
+    {
+      "id": 342,
+      "text": "Franklin believed the air of England was moister than that of America.",
+      "checksum": "05f03994"
+    },
+    {
+      "id": 343,
+      "text": "Franklin attributed England's moister air to it being an island where winds pass over the sea.",
+      "checksum": "8aa1c5eb"
+    },
+    {
+      "id": 344,
+      "text": "Franklin doubted whether the moisture difference applied only to London rather than all of England.",
+      "checksum": "f3d29054"
+    },
+    {
+      "id": 345,
+      "text": "Franklin arrived in America in May 1775 and stayed for eighteen months.",
+      "checksum": "f0939fde"
+    },
+    {
+      "id": 346,
+      "text": "Franklin brought a mahogany box with magnets from England to America, observing it swelled in humid England and shrank in dry America.",
+      "checksum": "8aaa3cb2"
+    },
+    {
+      "id": 347,
+      "text": "Franklin observed that cabinet work with veneering sent from London would not stand in America due to wood shrinkage.",
+      "checksum": "e9bdfd6c"
+    },
+    {
+      "id": 348,
+      "text": "Franklin conducted electrical experiments with jars on a mahogany table in America.",
+      "checksum": "90e3c1fd"
+    },
+    {
+      "id": 349,
+      "text": "Franklin found that a mahogany table in America could become so dry it would isolate electrical jars, particularly when the north-west wind blew.",
+      "checksum": "f8b8d259"
+    },
+    {
+      "id": 350,
+      "text": "Franklin had a similar mahogany table in London that never became dry enough to prevent conducting electricity.",
+      "checksum": "790b118c"
+    },
+    {
+      "id": 351,
+      "text": "Franklin lived in Passy near Paris, almost a league distant from the city.",
+      "checksum": "da5d46c9"
+    },
+    {
+      "id": 352,
+      "text": "Franklin lived on a high dry hill in France.",
+      "checksum": "2453e214"
+    },
+    {
+      "id": 353,
+      "text": "Franklin observed that his mahogany box became as large in France as it had been in England, suggesting France's air was moister than America's.",
+      "checksum": "d9915073"
+    },
+    {
+      "id": 354,
+      "text": "Benjamin Franklin observed that the air in America is drier than the air in London and France.",
+      "checksum": "498d0900"
+    },
+    {
+      "id": 355,
+      "text": "Franklin conducted electrical experiments in America using a mahogany table to hold jars under a prime conductor.",
+      "checksum": "55993f3c"
+    },
+    {
+      "id": 356,
+      "text": "Franklin found that a mahogany table in America would become so dry that it could isolate electrical jars and prevent them from being charged.",
+      "checksum": "5dc23c12"
+    },
+    {
+      "id": 357,
+      "text": "Franklin used a similar mahogany table for electrical experiments in London, but it never became dry enough to prevent charging.",
+      "checksum": "ab94d635"
+    },
+    {
+      "id": 358,
+      "text": "Franklin designed an instrument to measure the contraction and dilation of mahogany wood as a hygrometer to compare air moisture across different countries.",
+      "checksum": "63ee5262"
+    },
+    {
+      "id": 359,
+      "text": "Franklin traveled to Madeira and observed that candles flared and ran excessively due to warm weather and open cabin windows.",
+      "checksum": "70a5ebe0"
+    },
+    {
+      "id": 360,
+      "text": "Franklin created an Italian lamp using a glass tumbler, wire, and a cork-floating wick to provide better light in his cabin.",
+      "checksum": "a955de0f"
+    },
+    {
+      "id": 361,
+      "text": "Franklin observed that water beneath oil in a lamp would move in irregular waves while the oil surface remained tranquil.",
+      "checksum": "c73af744"
+    },
+    {
+      "id": 362,
+      "text": "Franklin repeated the oil and water experiment after arriving in America using a suspended tumbler swung in the air.",
+      "checksum": "3198bb5f"
+    },
+    {
+      "id": 363,
+      "text": "Franklin showed his oil and water experiment to multiple ingenious persons.",
+      "checksum": "e208a3ea"
+    },
+    {
+      "id": 364,
+      "text": "Franklin observed in 1757 while at sea in a fleet of 96 ships bound for Louisbourg that two ships had remarkably smooth wakes while others were ruffled.",
+      "checksum": "6a841e06"
+    },
+    {
+      "id": 365,
+      "text": "Franklin's ship captain explained that the smooth wakes were caused by greasy water from the cooks being emptied through the scuppers.",
+      "checksum": "bf71ff9f"
+    },
+    {
+      "id": 366,
+      "text": "Franklin had read Pliny's account of using oil to still waves and resolved to experiment with it.",
+      "checksum": "1fbac9aa"
+    },
+    {
+      "id": 367,
+      "text": "Franklin carried oil in the hollow joint of his bamboo cane when traveling to the country to conduct experiments.",
+      "checksum": "e3aa3ecd"
+    },
+    {
+      "id": 368,
+      "text": "Franklin conducted an oil-on-water experiment at a pond in Clapham and observed that a teaspoon of oil calmed approximately half an acre of water.",
+      "checksum": "aabc5e1a"
+    },
+    {
+      "id": 369,
+      "text": "Franklin observed that oil spreads on water much more rapidly and extensively than it does on polished marble or glass.",
+      "checksum": "0b0de768"
+    },
+    {
+      "id": 370,
+      "text": "Franklin theorized that oil particles experience mutual repulsion when touching water, forcing other floating objects to recede from the drop.",
+      "checksum": "57a73c35"
+    },
+    {
+      "id": 371,
+      "text": "Franklin visited Mr. Smeaton near Leeds and conducted the oil-smoothing experiment on a pond near his house.",
+      "checksum": "c227152d"
+    },
+    {
+      "id": 372,
+      "text": "Franklin observed that flies drowned in oil would move rapidly on water when placed on the surface, which he attributed to oil repulsion.",
+      "checksum": "59bd4f73"
+    },
+    {
+      "id": 373,
+      "text": "Benjamin Franklin conducted an experiment on the effects of oil on water surfaces.",
+      "checksum": "85513add"
+    },
+    {
+      "id": 374,
+      "text": "Benjamin Franklin learned from Sir John Pringle that Scottish herring fishermen could locate fish shoals by observing water smoothness.",
+      "checksum": "be999754"
+    },
+    {
+      "id": 375,
+      "text": "Benjamin Franklin received information from a Rhode Island gentleman about the smooth harbor of Newport when whaling vessels were present.",
+      "checksum": "af474061"
+    },
+    {
+      "id": 376,
+      "text": "Benjamin Franklin discussed the calming effects of oil on water with Count Bentinck of Holland, Captain Bentinck, and Professor Allemand.",
+      "checksum": "b2b24f0c"
+    },
+    {
+      "id": 377,
+      "text": "Benjamin Franklin demonstrated an experiment of smoothing water with oil at the Green Park to Count Bentinck and others.",
+      "checksum": "93c928da"
+    },
+    {
+      "id": 378,
+      "text": "Benjamin Franklin received a copy of a letter from Batavia describing a Dutch ship saved by pouring oil during a storm.",
+      "checksum": "31650e15"
+    },
+    {
+      "id": 379,
+      "text": "Benjamin Franklin proposed to Captain Bentinck the idea of using oil to reduce surf on lee-shores to enable landings.",
+      "checksum": "43a3312a"
+    },
+    {
+      "id": 380,
+      "text": "Benjamin Franklin was invited by Captain Bentinck to Portsmouth to conduct an experiment on the effects of oil on waves.",
+      "checksum": "a6ba094e"
+    },
+    {
+      "id": 381,
+      "text": "Benjamin Franklin traveled to Portsmouth in mid-October to conduct an oil-on-water experiment near Spithead.",
+      "checksum": "dad0923d"
+    },
+    {
+      "id": 382,
+      "text": "Benjamin Franklin conducted his Portsmouth experiment with assistance from Mr. Banks, Dr. Solander, General Carnoc, and Dr. Blagden.",
+      "checksum": "cd06ac90"
+    },
+    {
+      "id": 383,
+      "text": "Benjamin Franklin's Portsmouth experiment showed that oil created a smoothed water tract but did not significantly reduce surf height on shore.",
+      "checksum": "56b91d70"
+    },
+    {
+      "id": 384,
+      "text": "Benjamin Franklin traveled in Holland with Sir John Pringle.",
+      "checksum": "8b5d181d"
+    },
+    {
+      "id": 385,
+      "text": "Benjamin Franklin inquired of Thames watermen about differences in rowing in shallow versus deep water.",
+      "checksum": "6fa53a2d"
+    },
+    {
+      "id": 386,
+      "text": "Benjamin Franklin designed an experiment to test the effects of water depth on boat navigation after returning to England from Holland.",
+      "checksum": "bda1e529"
+    },
+    {
+      "id": 387,
+      "text": "Benjamin Franklin valued practical knowledge that might be useful to people in distress.",
+      "checksum": "14c72141"
+    },
+    {
+      "id": 388,
+      "text": "Benjamin Franklin conducted experiments on water resistance in shallow versus deep canals.",
+      "checksum": "8057af36"
+    },
+    {
+      "id": 389,
+      "text": "Franklin built a trough fourteen feet long, six inches wide and six inches deep to test boat movement at different water depths.",
+      "checksum": "3fcce15e"
+    },
+    {
+      "id": 390,
+      "text": "Franklin used a shilling as a weight to propel a model boat through his experimental trough.",
+      "checksum": "5f5f0150"
+    },
+    {
+      "id": 391,
+      "text": "Franklin counted repeatedly to ten and tracked the counts on his fingers to measure time in his experiments.",
+      "checksum": "18aee368"
+    },
+    {
+      "id": 392,
+      "text": "Franklin found that boats moved approximately one-fifth slower in shallow water compared to deep water.",
+      "checksum": "3586f623"
+    },
+    {
+      "id": 393,
+      "text": "Franklin was aboard the London Packet under Captain Truxton in August 1785.",
+      "checksum": "6e17ec8b"
+    },
+    {
+      "id": 394,
+      "text": "Franklin had read newspapers for nearly seventy years.",
+      "checksum": "9e38c483"
+    },
+    {
+      "id": 395,
+      "text": "Franklin had a kitchen chimney with a round hole of eight inches diameter through which air constantly flowed.",
+      "checksum": "eb300063"
+    },
+    {
+      "id": 396,
+      "text": "Franklin experimented with dividing rotating vanes into multiple pieces to increase rotational velocity.",
+      "checksum": "4db4b22c"
+    },
+    {
+      "id": 397,
+      "text": "Franklin proposed dividing sails into multiple smaller sections to reduce air resistance while maintaining force.",
+      "checksum": "2f774e45"
+    },
+    {
+      "id": 398,
+      "text": "Franklin observed that cables break at the hause-hole due to unequal strain when bent sharply around the corner.",
+      "checksum": "9a080a21"
+    },
+    {
+      "id": 399,
+      "text": "Franklin proposed using a large pulley wheel in the hause-hole to distribute cable strain more evenly.",
+      "checksum": "eb5c47d6"
+    },
+    {
+      "id": 400,
+      "text": "Franklin was interested in improving maritime navigation and vessel design.",
+      "checksum": "9317f8cb"
+    },
+    {
+      "id": 401,
+      "text": "Franklin valued experimental verification over theoretical assumptions.",
+      "checksum": "6ecd3834"
+    },
+    {
+      "id": 402,
+      "text": "Franklin was concerned with practical applications of scientific principles to engineering problems.",
+      "checksum": "9ed4d2b0"
+    },
+    {
+      "id": 403,
+      "text": "Benjamin Franklin has been a reader of newspapers for nearly seventy years.",
+      "checksum": "771d9b77"
+    },
+    {
+      "id": 404,
+      "text": "Franklin has taken multiple long voyages at sea.",
+      "checksum": "2d078b83"
+    },
+    {
+      "id": 405,
+      "text": "Franklin has observed that crews often abandon leaky vessels prematurely out of fear.",
+      "checksum": "8d5f8dfa"
+    },
+    {
+      "id": 406,
+      "text": "Franklin understands the physics of water pressure and buoyancy in relation to ship design.",
+      "checksum": "6fc48d7a"
+    },
+    {
+      "id": 407,
+      "text": "Franklin believes that empty water casks and wooden cargo can help keep a leaky ship afloat.",
+      "checksum": "e2247df3"
+    },
+    {
+      "id": 408,
+      "text": "Franklin advocates for the Chinese practice of dividing ship holds into separate watertight chambers.",
+      "checksum": "f1c539d5"
+    },
+    {
+      "id": 409,
+      "text": "Franklin criticizes seafaring people for rejecting safety precautions out of fear of appearing cowardly.",
+      "checksum": "f1a46ca1"
+    },
+    {
+      "id": 410,
+      "text": "Franklin has studied six types of accidents that cause ships to be lost at sea.",
+      "checksum": "b6139bc2"
+    },
+    {
+      "id": 411,
+      "text": "Franklin has knowledge of privateers being more subject to oversetting than other vessels.",
+      "checksum": "29246a30"
+    },
+    {
+      "id": 412,
+      "text": "Franklin believes modern ship design with rounded sides makes vessels more prone to capsizing.",
+      "checksum": "2b1b1dcf"
+    },
+    {
+      "id": 413,
+      "text": "Franklin has seen the model of Sir William Petty's double vessel in the Royal Society museum.",
+      "checksum": "9dbbca12"
+    },
+    {
+      "id": 414,
+      "text": "Franklin has observed instances of ships colliding in the night between London and America.",
+      "checksum": "4fc600f7"
+    },
+    {
+      "id": 415,
+      "text": "Franklin has witnessed icebergs off the banks of Newfoundland during transatlantic voyages.",
+      "checksum": "8d342f8f"
+    },
+    {
+      "id": 416,
+      "text": "Franklin has seen an iceberg approximately seventy feet high above water.",
+      "checksum": "0fd93b3e"
+    },
+    {
+      "id": 417,
+      "text": "Franklin admires the sailing and rowing boat designs of non-European peoples.",
+      "checksum": "3c027aea"
+    },
+    {
+      "id": 418,
+      "text": "Franklin considers the Chinese an enlightened and ancient civilization.",
+      "checksum": "fb2890a3"
+    },
+    {
+      "id": 419,
+      "text": "Franklin observed a boat propelled by rotating windmill vanes on the Seine near Paris.",
+      "checksum": "48c067f3"
+    },
+    {
+      "id": 420,
+      "text": "Franklin is skeptical of circular rowing or paddle-wheel methods for propelling boats.",
+      "checksum": "509b3dcc"
+    },
+    {
+      "id": 421,
+      "text": "Franklin has written previously about methods of guarding against lightning strikes on ships.",
+      "checksum": "e868d60e"
+    },
+    {
+      "id": 422,
+      "text": "Franklin advocates for carrying ship spirits in bottles rather than casks to prevent fires.",
+      "checksum": "585fbe4a"
+    },
+    {
+      "id": 423,
+      "text": "Benjamin Franklin was concerned in the management of the American post-office around 1769 or 1770.",
+      "checksum": "b25680f7"
+    },
+    {
+      "id": 424,
+      "text": "Benjamin Franklin was consulted by the board of customs at Boston regarding packet ship passage times.",
+      "checksum": "9c75d9e4"
+    },
+    {
+      "id": 425,
+      "text": "Benjamin Franklin knew a Nantucket sea-captain who was acquainted with the Gulf Stream.",
+      "checksum": "77b70426"
+    },
+    {
+      "id": 426,
+      "text": "Benjamin Franklin requested the Nantucket captain to mark out the Gulf Stream on a chart.",
+      "checksum": "0eeac4cf"
+    },
+    {
+      "id": 427,
+      "text": "Benjamin Franklin procured the Gulf Stream to be engraved on the old chart of the Atlantic by order from the general post-office.",
+      "checksum": "5fabd318"
+    },
+    {
+      "id": 428,
+      "text": "Benjamin Franklin sent copies of the Gulf Stream chart to Falmouth for the captains of the packets.",
+      "checksum": "9702df66"
+    },
+    {
+      "id": 429,
+      "text": "Benjamin Franklin observed it was a pity that no notice was taken of the Gulf Stream current upon the charts.",
+      "checksum": "fe72ddef"
+    },
+    {
+      "id": 430,
+      "text": "Benjamin Franklin found it strange that packet ships took a fortnight longer than merchant-ships between similar routes.",
+      "checksum": "c4b85c66"
+    },
+    {
+      "id": 431,
+      "text": "Benjamin Franklin believed the packet captains were too wise to be counselled by American fishermen about the Gulf Stream.",
+      "checksum": "520e3ca0"
+    },
+    {
+      "id": 432,
+      "text": "Benjamin Franklin valued practical maritime knowledge and innovation in ship design and navigation.",
+      "checksum": "b90952c3"
+    },
+    {
+      "id": 433,
+      "text": "Benjamin Franklin proposed multiple mechanical designs for propelling boats using air and water.",
+      "checksum": "a694f985"
+    },
+    {
+      "id": 434,
+      "text": "Benjamin Franklin investigated the reasons why paddle wheels were ineffective for boat propulsion.",
+      "checksum": "9da1b530"
+    },
+    {
+      "id": 435,
+      "text": "Benjamin Franklin understood that greasing a vessel's bottom reduces friction and improves speed.",
+      "checksum": "dba863f9"
+    },
+    {
+      "id": 436,
+      "text": "Benjamin Franklin designed a swimming anchor in the form of a kite to prevent ships from driving in storms.",
+      "checksum": "5af10965"
+    },
+    {
+      "id": 437,
+      "text": "Benjamin Franklin designed an umbrella-shaped swimming anchor as an alternative to the kite design.",
+      "checksum": "54a090c4"
+    },
+    {
+      "id": 438,
+      "text": "Benjamin Franklin believed that preventing a ship from driving one hundred miles off course in a storm could save it from a lee-shore.",
+      "checksum": "f7e43050"
+    },
+    {
+      "id": 439,
+      "text": "Benjamin Franklin was interested in explaining natural phenomena like the adhesion of water particles.",
+      "checksum": "1e30c934"
+    },
+    {
+      "id": 440,
+      "text": "Benjamin Franklin observed that the Gulf Stream subtracts approximately 70 miles a day from ships' courses when the wind is favorable.",
+      "checksum": "7db6d73a"
+    },
+    {
+      "id": 441,
+      "text": "Benjamin Franklin requested that the Gulf Stream be marked on charts, and the person he asked readily complied.",
+      "checksum": "9abadbe3"
+    },
+    {
+      "id": 442,
+      "text": "Benjamin Franklin procured the Gulf Stream to be engraved on the old Atlantic chart by order from the general post-office at Mount and Page's, Tower-hill.",
+      "checksum": "e7d2989d"
+    },
+    {
+      "id": 443,
+      "text": "Benjamin Franklin had copies of the Gulf Stream chart sent to Falmouth for the captains of the packets.",
+      "checksum": "88c5f1f5"
+    },
+    {
+      "id": 444,
+      "text": "Benjamin Franklin's Gulf Stream chart was printed in France.",
+      "checksum": "28cedb1e"
+    },
+    {
+      "id": 445,
+      "text": "Benjamin Franklin crossed the Gulf Stream several times while passing between America and Europe.",
+      "checksum": "4963091a"
+    },
+    {
+      "id": 446,
+      "text": "Benjamin Franklin was attentive to circumstances relating to the Gulf Stream to know when one is in it.",
+      "checksum": "959443ee"
+    },
+    {
+      "id": 447,
+      "text": "Benjamin Franklin found that the Gulf Stream is always warmer than the sea on each side of it.",
+      "checksum": "2c5e5970"
+    },
+    {
+      "id": 448,
+      "text": "Benjamin Franklin observed that the Gulf Stream does not sparkle in the night.",
+      "checksum": "6bc5162d"
+    },
+    {
+      "id": 449,
+      "text": "Benjamin Franklin made thermometer observations in two voyages across the Gulf Stream.",
+      "checksum": "fe9be46b"
+    },
+    {
+      "id": 450,
+      "text": "Benjamin Franklin proposed that a thermometer may be a useful instrument to a navigator.",
+      "checksum": "a0438487"
+    },
+    {
+      "id": 451,
+      "text": "Benjamin Franklin was aboard the Pennsylvania Packet, captained by Captain Osborne, on April 5, 1775.",
+      "checksum": "1b8f193f"
+    },
+    {
+      "id": 452,
+      "text": "Benjamin Franklin considered the question of why passages are generally shorter from America to Europe than from Europe to America.",
+      "checksum": "f26b65f2"
+    },
+    {
+      "id": 453,
+      "text": "Benjamin Franklin proposed a method of planking ships using planks of half thickness laid double and across each other.",
+      "checksum": "d1855148"
+    },
+    {
+      "id": 454,
+      "text": "Benjamin Franklin studied Captain Cook's methods for securing the health of sailors in long voyages.",
+      "checksum": "281f4a95"
+    },
+    {
+      "id": 455,
+      "text": "Benjamin Franklin had proposed methods for preserving flour and bread from moisture and damage.",
+      "checksum": "d0e5fc40"
+    },
+    {
+      "id": 456,
+      "text": "Benjamin Franklin's method for preserving flour and bread was found effective after four years at sea on Captain Cook's voyage.",
+      "checksum": "5066f8c1"
+    },
+    {
+      "id": 457,
+      "text": "Benjamin Franklin proposed a means of allaying thirst in case of want of fresh water.",
+      "checksum": "b7cb2395"
+    },
+    {
+      "id": 458,
+      "text": "Benjamin Franklin's method for allaying thirst had been practiced in two instances with success.",
+      "checksum": "93e1d1ad"
+    },
+    {
+      "id": 459,
+      "text": "Benjamin Franklin proposed drying various roots in slices using an oven to add to sailors' vegetable provisions.",
+      "checksum": "b587ee99"
+    },
+    {
+      "id": 460,
+      "text": "Benjamin Franklin suggested that a fine sewing-needle laid on clear water in a cup can point to the north.",
+      "checksum": "37c7d24a"
+    },
+    {
+      "id": 461,
+      "text": "Benjamin Franklin described how a man who can swim may be aided in a long traverse by his handkerchief formed into a kite.",
+      "checksum": "1f7eb55b"
+    },
+    {
+      "id": 462,
+      "text": "Benjamin Franklin explained how a long and strong rope can be used as a powerful instrument to move heavy bodies.",
+      "checksum": "6a67e2cc"
+    },
+    {
+      "id": 463,
+      "text": "Benjamin Franklin advised passengers intending a long voyage to keep their intention and departure time as secret as possible.",
+      "checksum": "045c09eb"
+    },
+    {
+      "id": 464,
+      "text": "Benjamin Franklin recommended that voyagers should visit friends at their own houses to take leave rather than receive visits during preparations.",
+      "checksum": "716aef1c"
+    },
+    {
+      "id": 465,
+      "text": "Benjamin Franklin advised that a captain's personal character greatly affects passenger comfort during a voyage.",
+      "checksum": "ffb99907"
+    },
+    {
+      "id": 466,
+      "text": "Benjamin Franklin listed fifteen specific items he recommended passengers bring on long voyages, including good water, tea, coffee, chocolate, wine, cyder, raisins, almonds, sugar, capillaire, lemons, Jamaica spirits, greased eggs, diet bread, portable soup, and rusks.",
+      "checksum": "98054898"
+    },
+    {
+      "id": 467,
+      "text": "Benjamin Franklin observed that fowls on ships are generally sick and their flesh tough because they are given water only once in two days in sloping troughs.",
+      "checksum": "1c890ed2"
+    },
+    {
+      "id": 468,
+      "text": "Benjamin Franklin recommended that water troughs for fowls should be in little divisions like cups to hold water separately.",
+      "checksum": "2674fde3"
+    },
+    {
+      "id": 469,
+      "text": "Benjamin Franklin stated that sheep and hogs are the best dependence for fresh meat at sea.",
+      "checksum": "40312875"
+    },
+    {
+      "id": 470,
+      "text": "Benjamin Franklin noted that the worst thing in ordinary merchant ships is the cookery.",
+      "checksum": "147dc88d"
+    },
+    {
+      "id": 471,
+      "text": "Benjamin Franklin observed that merchant ships have no professed cook and appoint the worst hand as a seaman to that office.",
+      "checksum": "cba611dd"
+    },
+    {
+      "id": 472,
+      "text": "Benjamin Franklin recommended that passengers bring a spirit-lamp with a blaze-pan to cook small things for themselves.",
+      "checksum": "03ca6f12"
+    },
+    {
+      "id": 473,
+      "text": "Benjamin Franklin recommended having potted meats among ship stores.",
+      "checksum": "d590e2fc"
+    },
+    {
+      "id": 474,
+      "text": "Benjamin Franklin suggested a small tin oven as a good utensil for roasting pork or mutton.",
+      "checksum": "9b5419e8"
+    },
+    {
+      "id": 475,
+      "text": "Benjamin Franklin found that cyder is the best quencher of thirst caused by salt meat or fish.",
+      "checksum": "0412a945"
+    },
+    {
+      "id": 476,
+      "text": "Benjamin Franklin recommended that ship biscuit may be softened by toasting.",
+      "checksum": "289e2f6a"
+    },
+    {
+      "id": 477,
+      "text": "Benjamin Franklin stated that rusk is better than unfermented biscuit because it imbues water easily and is more wholesome.",
+      "checksum": "c3968dc4"
+    },
+    {
+      "id": 478,
+      "text": "Benjamin Franklin explained that rusk is the true original biscuit, so prepared to keep for sea.",
+      "checksum": "4cbf0760"
+    },
+    {
+      "id": 479,
+      "text": "Benjamin Franklin suggested that a two-pound iron shot put with dry peas in a pot will grind them fine as mustard by the ship's motion.",
+      "checksum": "1ac492d7"
+    },
+    {
+      "id": 480,
+      "text": "Benjamin Franklin had seen accidents at sea with large dishes of soup flowing over people and scalding them due to the ship's motion.",
+      "checksum": "bac63a49"
+    },
+    {
+      "id": 481,
+      "text": "Benjamin Franklin wished that potters or pewterers would make soup-dishes in divisions like small bowls united together.",
+      "checksum": "2489571e"
+    },
+    {
+      "id": 482,
+      "text": "Benjamin Franklin believed that navigation employed in supplying necessary provisions to countries in want is undoubtedly a blessing to mankind.",
+      "checksum": "2d449616"
+    },
+    {
+      "id": 483,
+      "text": "Benjamin Franklin questioned whether the advantage of employment from transporting superfluities equals the mischief of hazarding lives on the ocean.",
+      "checksum": "f63b8cff"
+    },
+    {
+      "id": 484,
+      "text": "Benjamin Franklin stated that when navigation is employed in pillaging merchants and transporting slaves, it clearly augments human misery.",
+      "checksum": "8bb6a0bc"
+    },
+    {
+      "id": 485,
+      "text": "Benjamin Franklin noted that sugar employs near one thousand ships and tobacco almost as many.",
+      "checksum": "4e3f795d"
+    },
+    {
+      "id": 486,
+      "text": "Benjamin Franklin believed navigation employed in supplying necessary provisions and preventing famines is a blessing to mankind.",
+      "checksum": "32ea72e0"
+    },
+    {
+      "id": 487,
+      "text": "Benjamin Franklin questioned whether the employment advantages of navigation transporting superfluities equal the mischief of hazarding lives on the ocean.",
+      "checksum": "cfdd1d39"
+    },
+    {
+      "id": 488,
+      "text": "Benjamin Franklin considered navigation employed in pillaging merchants and transporting slaves as clearly augmenting human misery.",
+      "checksum": "c04b1d29"
+    },
+    {
+      "id": 489,
+      "text": "Benjamin Franklin thought it would be more commendable to give up the gratification of sugar in tea rather than encourage the cruelties in sugar production.",
+      "checksum": "75242c9f"
+    },
+    {
+      "id": 490,
+      "text": "Benjamin Franklin was critical of the utility of tobacco.",
+      "checksum": "2537006a"
+    },
+    {
+      "id": 491,
+      "text": "Benjamin Franklin observed that wars in Africa to obtain slaves, prisoner deaths at sea, and hardships of slavery make sugar production morally reprehensible.",
+      "checksum": "4302534d"
+    },
+    {
+      "id": 492,
+      "text": "Benjamin Franklin noted that maritime wars over sugar islands cause European inhabitants of London and Paris to pay more for sugar than those in Vienna.",
+      "checksum": "7c08ba0f"
+    },
+    {
+      "id": 493,
+      "text": "Benjamin Franklin obtained information about the Gulf Stream from Captain Folges, a Nantucket whale-man.",
+      "checksum": "c6094907"
+    },
+    {
+      "id": 494,
+      "text": "Benjamin Franklin caused a draft of the Gulf Stream to be engraved on a chart in London for the benefit of navigators.",
+      "checksum": "53d68167"
+    },
+    {
+      "id": 495,
+      "text": "Benjamin Franklin observed that Nantucket captains familiar with the Gulf Stream make voyages from England to Boston in twenty to thirty days.",
+      "checksum": "05e05cdd"
+    },
+    {
+      "id": 496,
+      "text": "Benjamin Franklin conducted observations of sea water temperature using Fahrenheit's thermometer while aboard the Pennsylvania Packet in April and May 1775.",
+      "checksum": "ea96fa94"
+    },
+    {
+      "id": 497,
+      "text": "Benjamin Franklin conducted observations of sea water temperature using Fahrenheit's thermometer while aboard the Reprisal in October and November 1776.",
+      "checksum": "b9fcf8b2"
+    },
+    {
+      "id": 498,
+      "text": "Benjamin Franklin conducted observations of sea water temperature and other measurements during a voyage from the Channel between France and England towards America in July and August.",
+      "checksum": "549382cc"
+    },
+    {
+      "id": 499,
+      "text": "Benjamin Franklin kept detailed meteorological records during a voyage, documenting temperature, wind direction, and latitude/longitude observations.",
+      "checksum": "bc6fab71"
+    },
+    {
+      "id": 500,
+      "text": "Franklin used Fahrenheit thermometers to measure air and water temperatures during his voyage.",
+      "checksum": "126c4d03"
+    },
+    {
+      "id": 501,
+      "text": "Franklin recorded longitude measurements calculated from London as a reference point.",
+      "checksum": "7abd4d47"
+    },
+    {
+      "id": 502,
+      "text": "Franklin maintained a systematic journal documenting daily observations including winds, course, and distance traveled during a voyage in August and September.",
+      "checksum": "ead5a479"
+    }
+  ]
+}

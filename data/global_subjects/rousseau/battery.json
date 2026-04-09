@@ -1,0 +1,363 @@
+{
+  "metadata": {
+    "subject": "Jean-Jacques Rousseau",
+    "total": 60,
+    "tiers": {
+      "behavioral_prediction": 40,
+      "recall": 10,
+      "adversarial_abstention": 10
+    }
+  },
+  "questions": [
+    {
+      "id": 1,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When Rousseau discovers an unexpected personal problem upon returning from Chenonceaux, how does he respond to seeking help?",
+      "held_out_passage": "This, on account of my situation, would have thrown me into the greatest embarrassment, had not one of my messmates furnished me with the only resource which could relieve me from it."
+    },
+    {
+      "id": 2,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "What is Rousseau's typical approach when he needs to discuss sensitive personal matters in his writing?",
+      "held_out_passage": "This is one of those essential narratives which I cannot give with too much simplicity; because, in making an improper use of their names, I should either excuse or inculpate myself, both of which in this place are entirely out of the question."
+    },
+    {
+      "id": 3,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "How does Rousseau behave when he creates a work that contradicts his public political persona?",
+      "held_out_passage": "I dared not either avow this comedy or show it, and this for the singular reason that neither the King of France nor the French were ever better spoken of nor praised with more sincerity of heart than in my piece though written by a professed republican, I dared not declare myself the panegyrist of a nation, whose maxims were exactly the reverse of my own."
+    },
+    {
+      "id": 4,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "What does Rousseau's choice of dining companions reveal about his social preferences?",
+      "held_out_passage": "This table was also frequented by commercial people, financiers and contractors, but extremely polite, and such as were distinguished amongst those of the same profession... well-dressed people of every description were seen there; except abbes and men of the long robe, not one of whom I ever met in the house, and it was agreed not to introduce men of either of these professions."
+    },
+    {
+      "id": 5,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When faced with multiple intellectual interests, does Rousseau abandon one for another or pursue them simultaneously?",
+      "held_out_passage": "I attached myself to the study of chemistry, and attended several courses of it with M. de Francueil at M. Rouelle's, and we began to scribble over paper upon that science... this without discontinuing my chemical studies, or interrupting what I had to do for Madam Dupin."
+    },
+    {
+      "id": 6,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How does Rousseau respond to creative inspiration when he is in a pleasant environment?",
+      "held_out_passage": "We amused ourselves very agreeably in this beautiful place, and lived very well: I became as fat there as a monk. Music was a favorite relaxation. I composed several trios full of harmony... I wrote a comedy in fifteen days, entitled 'l'Engagement Temeraire'... I composed several other little things"
+    },
+    {
+      "id": 7,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "What does Rousseau's behavior regarding his comedy 'les Prisouniers de Guerre' suggest about his relationship with his own sincerity?",
+      "held_out_passage": "More grieved at the misfortunes of France than the French themselves I was afraid the public would construe into flattery and mean complaisance the marks of a sincere attachment... I was ashamed to show."
+    },
+    {
+      "id": 8,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How does Rousseau characterize the social standards maintained at Madam la Selle's table?",
+      "held_out_passage": "The old commander with all his smutty stories, with respect to the substance, never lost sight of the politeness of the old court; nor did any indecent expression, which even women would not have pardoned him, escape his lips. His manner served as a rule to every person at table"
+    },
+    {
+      "id": 9,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "What is Rousseau's pattern when he must maintain two separate residences?",
+      "held_out_passage": "being obliged to live in their neighborhood, a dear part of the town, in a furnished lodging, and having to pay for another lodging at the extremity of Paris, at the very top of the Rue Saint Jacques, to which, let the weather be as it would, I went almost every evening to supper."
+    },
+    {
+      "id": 10,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "How does Rousseau respond to the physical consequences of living well in pleasant circumstances?",
+      "held_out_passage": "We amused ourselves very agreeably in this beautiful place, and lived very well: I became as fat there as a monk."
+    },
+    {
+      "id": 11,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "What does Rousseau's treatment of his written works suggest about his confidence in them?",
+      "held_out_passage": "I wrote a comedy in fifteen days, entitled 'l'Engagement Temeraire',--[The Rash Engagement]--which will be found amongst my papers; it has no other merit than that of being lively."
+    },
+    {
+      "id": 12,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "How does Rousseau handle the discovery of an uncomfortable truth about someone close to him?",
+      "held_out_passage": "Whilst I was increasing my corpulency at Chenonceaux, that of my poor Theresa was augmented at Paris in another manner, and at my return I found the work I had put upon the frame in greater forwardness than I had expected."
+    },
+    {
+      "id": 13,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "What criteria does Rousseau use to evaluate the quality of social company?",
+      "held_out_passage": "This table, sufficiently resorted to, was very cheerful without being noisy, and many of the guests were waggish, without descending to vulgarity."
+    },
+    {
+      "id": 14,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "How does Rousseau respond when he must choose between public image and private sincerity?",
+      "held_out_passage": "I dared not declare myself the panegyrist of a nation, whose maxims were exactly the reverse of my own."
+    },
+    {
+      "id": 15,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "What does Rousseau's approach to naming individuals in sensitive narratives reveal about his ethical concerns?",
+      "held_out_passage": "This is one of those essential narratives which I cannot give with too much simplicity; because, in making an improper use of their names, I should either excuse or inculpate myself, both of which in this place are entirely out of the question."
+    },
+    {
+      "id": 16,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How does Rousseau behave when he encounters social restrictions on who may be introduced to a group?",
+      "held_out_passage": "no person was received without being introduced by one of those who used the house... it was agreed not to introduce men of either of these professions."
+    },
+    {
+      "id": 17,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "What does Rousseau's willingness to attend chemistry courses suggest about his intellectual development?",
+      "held_out_passage": "I attached myself to the study of chemistry, and attended several courses of it with M. de Francueil at M. Rouelle's, and we began to scribble over paper upon that science, of which we scarcely possessed the elements."
+    },
+    {
+      "id": 18,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How does Rousseau characterize the Commander de Graville's influence on the social atmosphere?",
+      "held_out_passage": "The commander, De Graville, an old debauchee, with much wit and politeness, but obscene in conversation, lodged at the house, and brought to it a set of riotous and extravagant young men; officers in the guards and mousquetaires."
+    },
+    {
+      "id": 19,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "What does Rousseau's behavior regarding weather suggest about his commitment to his evening activities?",
+      "held_out_passage": "to which, let the weather be as it would, I went almost every evening to supper."
+    },
+    {
+      "id": 20,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "How does Rousseau respond when he must balance shame about his feelings with honesty about his attachments?",
+      "held_out_passage": "I was ashamed to show... marks of a sincere attachment, of which in my first part I have mentioned the date and the cause"
+    },
+    {
+      "id": 21,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When faced with a social situation where others engage in morally questionable behavior, how does Rousseau typically respond?",
+      "held_out_passage": "I should thus have amused myself as well as the rest, had I been less modest: I had only to go in as they did, but this I never had courage enough to do."
+    },
+    {
+      "id": 22,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "How does Rousseau handle situations where his personal principles conflict with social customs?",
+      "held_out_passage": "I said to myself, since it is the custom of the country, they who live here may adopt it; this is the expedient for which I sought."
+    },
+    {
+      "id": 23,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "When adopting new social behaviors, does Rousseau maintain consistency with his stated values?",
+      "held_out_passage": "I learned a great number of amusing anecdotes, and by degrees I adopted, thank God, not the morals, but the maxims I found to be established there."
+    },
+    {
+      "id": 24,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "How does Rousseau justify moral compromises to himself?",
+      "held_out_passage": "I cheerfully determined upon it without the least scruple, and the only one I had to overcome was that of Theresa"
+    },
+    {
+      "id": 25,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "When his beliefs differ from those he admires, what does Rousseau do?",
+      "held_out_passage": "I dared not declare myself the panegyrist of a nation, whose maxims were exactly the reverse of my own."
+    },
+    {
+      "id": 26,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How does Rousseau respond when others close to him resist his proposals?",
+      "held_out_passage": "the only one I had to overcome was that of Theresa, whom, with the greatest imaginable difficulty, I persuaded to adopt this only means of saving her honor."
+    },
+    {
+      "id": 27,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "Does Rousseau seek external validation for morally questionable decisions?",
+      "held_out_passage": "Her mother, who was moreover apprehensive of a new embarrassment by an increase of family, came to my aid, and she at length suffered herself to be prevailed upon."
+    },
+    {
+      "id": 28,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "When observing social hierarchies and distinctions, what patterns does Rousseau notice and adopt?",
+      "held_out_passage": "This table was also frequented by commercial people, financiers and contractors, but extremely polite, and such as were distinguished amongst those of the same profession."
+    },
+    {
+      "id": 29,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How does Rousseau rationalize adopting the customs of his social circle?",
+      "held_out_passage": "I caught the manners I daily had before my eyes: I formed my manner of thinking upon that I observed to be the reigning one amongst amiable, and upon the whole, very honest people."
+    },
+    {
+      "id": 30,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "When facing a situation requiring discretion about his own work, how does Rousseau behave?",
+      "held_out_passage": "I dared not either avow this comedy or show it, and this for the singular reason that neither the King of France nor the French were ever better spoken of nor praised with more sincerity of heart than in my piece"
+    },
+    {
+      "id": 31,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "Does Rousseau's sensitivity to social judgment prevent him from taking action?",
+      "held_out_passage": "I was afraid the public would construe into flattery and mean complaisance the marks of a sincere attachment"
+    },
+    {
+      "id": 32,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "How does Rousseau respond to situations where he must explain sensitive personal matters?",
+      "held_out_passage": "This is one of those essential narratives which I cannot give with too much simplicity; because, in making an improper use of their names, I should either excuse or inculpate myself, both of which in this place are entirely out of the question."
+    },
+    {
+      "id": 33,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "When observing role models in social settings, what does Rousseau tend to imitate?",
+      "held_out_passage": "The old commander with all his smutty stories, with respect to the substance, never lost sight of the politeness of the old court; nor did any indecent expression, which even women would not have pardoned him, escape his lips. His manner served as a rule to every person at table"
+    },
+    {
+      "id": 34,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How does Rousseau characterize the people he associates with when justifying his behavior?",
+      "held_out_passage": "amiable, and upon the whole, very honest people"
+    },
+    {
+      "id": 35,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When faced with a practical problem, does Rousseau seek the easiest solution regardless of principle?",
+      "held_out_passage": "this is the expedient for which I sought. I cheerfully determined upon it without the least scruple"
+    },
+    {
+      "id": 36,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How does Rousseau handle situations where his actions might harm others close to him?",
+      "held_out_passage": "the only one I had to overcome was that of Theresa, whom, with the greatest imaginable difficulty, I persuaded to adopt this only means of saving her honor."
+    },
+    {
+      "id": 37,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "Does Rousseau acknowledge internal conflict when adopting questionable practices?",
+      "held_out_passage": "I caught the manners I daily had before my eyes: I formed my manner of thinking upon that I observed to be the reigning one amongst amiable, and upon the whole, very honest people."
+    },
+    {
+      "id": 38,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "When observing social approval for certain behaviors, how does Rousseau respond?",
+      "held_out_passage": "Honest men injured, husbands deceived, women seduced, were the most ordinary topics, and he who had best filled the foundling hospital was always the most applauded."
+    },
+    {
+      "id": 39,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "How does Rousseau handle situations requiring practical arrangements for sensitive matters?",
+      "held_out_passage": "We made choice of a midwife, a safe and prudent woman, Mademoiselle Gouin, who lived at the Point Saint Eustache, and when the time came, Theresa was conducted to her house by her mother."
+    },
+    {
+      "id": 40,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "Does Rousseau maintain detailed records or precautions when engaging in sensitive activities?",
+      "held_out_passage": "I gave her a cipher which I had made double upon two cards; one of them was put into the linen of the chi"
+    },
+    {
+      "id": 41,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Jean-Jacques Rousseau's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 42,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Jean-Jacques Rousseau's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 43,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Jean-Jacques Rousseau's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 44,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Jean-Jacques Rousseau's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 45,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Jean-Jacques Rousseau's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 46,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Jean-Jacques Rousseau's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 47,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Jean-Jacques Rousseau's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 48,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Jean-Jacques Rousseau's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 49,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Jean-Jacques Rousseau's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 50,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Jean-Jacques Rousseau's opinion on modern technology?",
+      "held_out_passage": null
+    }
+  ]
+}
