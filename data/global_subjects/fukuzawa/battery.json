@@ -1,0 +1,363 @@
+{
+  "metadata": {
+    "subject": "Fukuzawa Yukichi",
+    "total": 60,
+    "tiers": {
+      "behavioral_prediction": 40,
+      "recall": 10,
+      "adversarial_abstention": 10
+    }
+  },
+  "questions": [
+    {
+      "id": 1,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "When pressured by clansmen about his loyalty, how does Fukuzawa typically respond to their challenges?",
+      "held_out_passage": "I always replied in this way: \"You must not call me disloyal or unfeeling, for I have done nothing against the clan and I have always followed orders strictly.\""
+    },
+    {
+      "id": 2,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "What is Fukuzawa's philosophical stance on the relationship between gratitude and service?",
+      "held_out_passage": "All the intercourse of life is governed by the rule of give and take. If the clan says, 'You should be grateful for the patronage given your family for many generations,' I shall have a word to say in reply: 'There is no occasion for you to demand gratitude, for my family has rendered honest service for a long time.'"
+    },
+    {
+      "id": 3,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When his clan orders students to military service, what decision does Fukuzawa make?",
+      "held_out_passage": "I said that it was too dangerous for the young men to go to war; they might be killed by stray bullets however carefully they went about in the battlefield... So I had them answer that they were all too ill to carry arms."
+    },
+    {
+      "id": 4,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How does Fukuzawa justify his refusal to send students to war?",
+      "held_out_passage": "I did not consider the right or wrong of the conflict; I simply said it was not the kind of activity that students should take part in."
+    },
+    {
+      "id": 5,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "What consequence does Fukuzawa accept for his disobedience to the clan's military orders?",
+      "held_out_passage": "If we were to be punished, the worst would be dismissal from the clan. I did not consider the right or wrong of the conflict; I simply said it was not the kind of activity that students should take part in."
+    },
+    {
+      "id": 6,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How does Fukuzawa's attitude toward rank and status affect his household management?",
+      "held_out_passage": "Unconcerned as I was with my rank or career in this new post, it never occurred to me to have the higher form of address used in my house."
+    },
+    {
+      "id": 7,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "What does Fukuzawa's response to his maid's statement about his title reveal about his priorities?",
+      "held_out_passage": "Is Tono Sama within?... There is no such personage here, Sir."
+    },
+    {
+      "id": 8,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When facing potential punishment from his clan, what is Fukuzawa's primary concern?",
+      "held_out_passage": "My students were too precious; even if they were not to be hit by the bullets, they might hurt their feet on thorns. So I had them answer that they were all too ill to carry arms."
+    },
+    {
+      "id": 9,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How does Fukuzawa characterize his own mental state regarding worldly ambitions?",
+      "held_out_passage": "It does seem that my mind was rather childlike, perfectly innocent of all worldly ambitions."
+    },
+    {
+      "id": 10,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "What does Fukuzawa believe about the proper use of students in military conflict?",
+      "held_out_passage": "For this kind of war, if they wanted figureheads in their ranks, they could as well hire farmers from the provinces. My students were too precious."
+    },
+    {
+      "id": 11,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "How does Fukuzawa respond to accusations of lacking sympathy for his clan?",
+      "held_out_passage": "You must not call me disloyal or unfeeling, for I have done nothing against the clan and I have always followed orders strictly. If you still call me disloyal, I don't know where my omissions lie."
+    },
+    {
+      "id": 12,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "What does Fukuzawa claim about his requests for advancement within the clan?",
+      "held_out_passage": "Not only that, but I have never made any request of them to have my rank changed or my salary increased. You may inquire of the upper officials and chancellors."
+    },
+    {
+      "id": 13,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "When his clan places responsibility on parents for the students' disobedience, what is the outcome?",
+      "held_out_passage": "Under this contention, the old folks in Nakatsu suffered the penalty of fifty or sixty days of 'closed gates.'"
+    },
+    {
+      "id": 14,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How does Fukuzawa characterize his overall approach to honor and status?",
+      "held_out_passage": "Such was my way of life. It was as if my mind were washed clean of what people call the 'yearning for honor.'"
+    },
+    {
+      "id": 15,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "What is Fukuzawa's reaction when promoted to hatamoto status?",
+      "held_out_passage": "Unconcerned as I was with my rank or career in this new post, it never occurred to me to have the higher form of address used in my house."
+    },
+    {
+      "id": 16,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "How does Fukuzawa balance his duty to the clan with his duty to his students?",
+      "held_out_passage": "So I kept the young men at their studies, but the clan was weak and did not force the recall of the young men."
+    },
+    {
+      "id": 17,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "What principle guides Fukuzawa's understanding of reciprocal relationships?",
+      "held_out_passage": "This is what I consider the law of give and take, I don't want to have gratitude demanded of me, or to be called disloyal without reason."
+    },
+    {
+      "id": 18,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "When his friend inquires about his title at the door, what does this incident demonstrate about Fukuzawa?",
+      "held_out_passage": "Thus the maid and my guest were arguing when I heard it from my room in our small dwelling, and went out to welcome him."
+    },
+    {
+      "id": 19,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "How does Fukuzawa assess the risk to students in military service?",
+      "held_out_passage": "I said that it was too dangerous for the young men to go to war; they might be killed by stray bullets however carefully they went about in the battlefield... they might hurt their feet on thorns."
+    },
+    {
+      "id": 20,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "What does Fukuzawa's handling of the Choshu clan crisis reveal about his political neutrality?",
+      "held_out_passage": "I did not consider the right or wrong of the conflict; I simply said it was not the kind of activity that students should take part in. So I kept the young men at their studies."
+    },
+    {
+      "id": 21,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When faced with a direct order from his clan to recall students for military service, how would Fukuzawa likely respond based on his demonstrated values?",
+      "held_out_passage": "But I said that it was too dangerous for the young men to go to war; they might be killed by stray bullets however carefully they went about in the battlefield."
+    },
+    {
+      "id": 22,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "What would Fukuzawa prioritize when forced to choose between clan loyalty and student welfare?",
+      "held_out_passage": "My students were too precious; even if they were not to be hit by the bullets, they might hurt their feet on thorns."
+    },
+    {
+      "id": 23,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "How would Fukuzawa handle the potential consequences of defying his clan's military orders?",
+      "held_out_passage": "If we were to be punished, the worst would be dismissal from the clan. I did not consider the right or wrong of the conflict"
+    },
+    {
+      "id": 24,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When his students were ordered to military service, would Fukuzawa make a principled stand or find a practical workaround?",
+      "held_out_passage": "So I had them answer that they were all too ill to carry arms."
+    },
+    {
+      "id": 25,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Based on Fukuzawa's character, would he be concerned with formal titles and honorifics in his own household?",
+      "held_out_passage": "Unconcerned as I was with my rank or career in this new post, it never occurred to me to have the higher form of address used in my house."
+    },
+    {
+      "id": 26,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How would Fukuzawa react if a guest expected formal address protocols he didn't use?",
+      "held_out_passage": "Is Tono Sama within? No, Sir. There is no such personage here, Sir."
+    },
+    {
+      "id": 27,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "What kind of political solution would appeal to Fukuzawa's pragmatic mindset?",
+      "held_out_passage": "all the clans might get together and form a federation like Germany. What do you say to this idea? Matsuki and Mitsukuri agreed with me that this would be the most peaceful solution of the crisis."
+    },
+    {
+      "id": 28,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "What career ambition would Fukuzawa express to fellow interpreters during intellectual discussions?",
+      "held_out_passage": "it would be to become tutor to the big chief (the Shogun) with a salary of two hundred bales of rice a year and the chance of teaching him all the new ideas of civilization"
+    },
+    {
+      "id": 29,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Would Fukuzawa judge others harshly if they pursued higher political office than their earlier stated ambitions?",
+      "held_out_passage": "Later Matsuki, under his new name of Terajima, took high offices in the new imperial regime, even becoming a minister of foreign affairs. That seems to me a pretty wide departure from his early ambition, and rather a sad departure"
+    },
+    {
+      "id": 30,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How would Fukuzawa characterize his own relationship to political engagement during the Restoration period?",
+      "held_out_passage": "Though I did not engage in politics, I was not entirely ignorant of the political world."
+    },
+    {
+      "id": 31,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "When discussing national crises with peers, would Fukuzawa focus on ideological purity or practical solutions?",
+      "held_out_passage": "The shogunate cannot hold the country together much longer. It seems to me that all the clans might get together and form a federation like Germany."
+    },
+    {
+      "id": 32,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "Would Fukuzawa accept punishment from his clan rather than compromise his principles regarding student safety?",
+      "held_out_passage": "If we were to be punished, the worst would be dismissal from the clan. I did not consider the right or wrong of the conflict; I simply said it was not the kind of activity that students should take part in."
+    },
+    {
+      "id": 33,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How would Fukuzawa describe his mental state regarding social status and honor-seeking?",
+      "held_out_passage": "It was as if my mind were washed clean of what people call the yearning for honor."
+    },
+    {
+      "id": 34,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "When his clan imposed penalties on parents for students' disobedience, would Fukuzawa reconsider his position?",
+      "held_out_passage": "the clan was weak and did not force the recall of the young men. It did, however, place the responsibility on the parents, declaring that the present disobedience of the youths in Yedo was due to poor training by their parents."
+    },
+    {
+      "id": 35,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "Would Fukuzawa's reasoning for keeping students from war be based on moral principle or practical concern?",
+      "held_out_passage": "For this kind of war, if they wanted figureheads in their ranks, they could as well hire farmers from the provinces. My students were too precious"
+    },
+    {
+      "id": 36,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How would Fukuzawa explain his philosophy of reciprocal relationships and loyalty?",
+      "held_out_passage": "This is what I consider the law of give and take, I don't want to have gratitude demanded of me, or to be called disloyal without reason."
+    },
+    {
+      "id": 37,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "Would Fukuzawa view the Shogunate's political position as sustainable long-term?",
+      "held_out_passage": "The shogunate cannot hold the country together much longer."
+    },
+    {
+      "id": 38,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When appointed as a hatamoto, would Fukuzawa adopt the formal status symbols expected of his rank?",
+      "held_out_passage": "It was the general custom for hatamoto to let his servants address him as Tono Sama (Great Master), while men of lesser rank would have themselves addressed as Danna Sama (Master). Unconcerned as I was with my rank or career in this new post, it never occurred to me to have the higher form of address used in my house."
+    },
+    {
+      "id": 39,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How would Fukuzawa characterize the political forces competing during the Restoration?",
+      "held_out_passage": "all the ambitious adventurers and so-called patriots had collected in Kyoto around the imperial cause. The shogunate in Yedo, on the other hand, was trying to keep its own as the central government against this rising power."
+    },
+    {
+      "id": 40,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "Would Fukuzawa's response to military conscription orders prioritize clan honor or individual student welfare?",
+      "held_out_passage": "I did not consider the right or wrong of the conflict; I simply said it was not the kind of activity that students should take part in. So I kept the young men at their studies"
+    },
+    {
+      "id": 41,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Fukuzawa Yukichi's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 42,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Fukuzawa Yukichi's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 43,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Fukuzawa Yukichi's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 44,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Fukuzawa Yukichi's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 45,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Fukuzawa Yukichi's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 46,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Fukuzawa Yukichi's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 47,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Fukuzawa Yukichi's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 48,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Fukuzawa Yukichi's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 49,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Fukuzawa Yukichi's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 50,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Fukuzawa Yukichi's opinion on modern technology?",
+      "held_out_passage": null
+    }
+  ]
+}

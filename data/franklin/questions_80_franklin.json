@@ -1,0 +1,739 @@
+{
+  "metadata": {
+    "total": 80,
+    "subject": "Benjamin Franklin",
+    "source": "Autobiography (public domain, Project Gutenberg)",
+    "training_chapters": "0-10",
+    "held_out_chapters": "11-19",
+    "tiers": {
+      "recall": 10,
+      "inferential": 10,
+      "behavioral_prediction": 40,
+      "adversarial_abstention": 10,
+      "boundary_probing": 10
+    },
+    "categories": ["decisions", "values", "relationships", "conflict", "learning", "risk", "creativity", "stress", "career", "change_over_time"]
+  },
+  "questions": [
+    {
+      "id": 1,
+      "tier": "recall",
+      "category": "learning",
+      "text": "What specific method did Franklin use to improve his prose writing style as a young man, involving the Spectator papers?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "He made short hints of sentiments in each Spectator sentence, laid them by a few days, then tried to rewrite the papers, comparing with originals. Also turned prose to verse and back. Ch 2."
+    },
+    {
+      "id": 2,
+      "tier": "recall",
+      "category": "decisions",
+      "text": "What was the specific trick Franklin used to get the newspaper printed under his name after his brother James was forbidden to print the New England Courant?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Old indenture returned with full discharge on back (to show publicly), but Franklin signed new secret indentures for remainder of term. Ch 2."
+    },
+    {
+      "id": 3,
+      "tier": "recall",
+      "category": "relationships",
+      "text": "What happened when Franklin visited his brother James's printing-house in Boston after establishing himself in Philadelphia, and why did it cause lasting resentment?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Franklin showed up well-dressed with a watch and silver money, spread coins before the journeymen, and gave them money to drink. James saw this as insulting him before his people. Ch 4."
+    },
+    {
+      "id": 4,
+      "tier": "recall",
+      "category": "values",
+      "text": "What was the specific rationalization Franklin used to break his vegetarian diet while on a boat trip from Boston?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "When fish were opened and smaller fish were found inside, he reasoned 'If you eat one another, I don't see why we mayn't eat you.' He then remarked on how convenient it is to be a 'reasonable creature.' Ch 4."
+    },
+    {
+      "id": 5,
+      "tier": "recall",
+      "category": "career",
+      "text": "How did Franklin's co-workers at Watts's printing-house in London react when he was moved from the press-room to the composing-room, and how did he resolve the conflict?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "They demanded a new 'bien venu' (five shillings drinking fee). He refused, was treated as excommunicate with private mischief (mixing sorts, transposing pages). Eventually paid, recognizing the folly of being on ill terms with those one must live with. Ch 6."
+    },
+    {
+      "id": 6,
+      "tier": "recall",
+      "category": "relationships",
+      "text": "What specific technique did Franklin use to win over an Assembly member who had made a long speech opposing his appointment as clerk?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "He wrote asking to borrow a scarce book from the man's library. The man sent it immediately; Franklin returned it with a note of thanks. They became great friends afterward. Illustrates the maxim: 'He that has once done you a kindness will be more ready to do you another.' Ch 10."
+    },
+    {
+      "id": 7,
+      "tier": "recall",
+      "category": "stress",
+      "text": "Which of Franklin's thirteen virtues gave him the most trouble, and what analogy did he use to describe his struggle with it?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Order was the most difficult. He compared it to a man wanting a bright axe from a smith - after grinding it was only speckled, and the man said 'I think I like a speckled ax best.' Ch 9."
+    },
+    {
+      "id": 8,
+      "tier": "recall",
+      "category": "learning",
+      "text": "What was the specific Socratic conversational technique Franklin adopted, and why did he eventually modify it?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "He adopted the Socratic method of humble inquiry rather than direct contradiction, drawing people into concessions. He eventually dropped the aggressive form, retaining only the habit of expressing himself in terms of modest diffidence ('I conceive', 'I apprehend', 'it appears to me'). Ch 2."
+    },
+    {
+      "id": 9,
+      "tier": "recall",
+      "category": "creativity",
+      "text": "What specific tactic did Franklin use when proposing the subscription library to avoid resistance from potential subscribers?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "He put himself out of sight and stated it as a scheme of 'a number of friends' who had requested him to propose it. He found this sacrificing of vanity was amply repaid and practiced it thereafter. Ch 8."
+    },
+    {
+      "id": 10,
+      "tier": "recall",
+      "category": "values",
+      "text": "What was Franklin's specific policy regarding libeling and personal abuse in his newspaper, and what metaphor did writers use to argue against this policy?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "He excluded all libeling and personal abuse. Writers argued a newspaper was like a stage-coach - anyone who paid had a right to a place. He offered to print pieces separately for authors to distribute themselves. Ch 10."
+    },
+    {
+      "id": 11,
+      "tier": "inferential",
+      "category": "decisions",
+      "text": "Based on Franklin's experience with Governor Keith's broken promises (chapters 4-6), what can we infer about how Franklin would evaluate the trustworthiness of powerful patrons who offer unsolicited help?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Keith gave expectations he never meant to keep, was 'liberal of promises which he never meant to keep.' Franklin later reflected that had it been known he depended on the governor, friends would have warned him. Inferential: Franklin would be skeptical of unsolicited patronage, especially from those who seem eager to please everyone."
+    },
+    {
+      "id": 12,
+      "tier": "inferential",
+      "category": "conflict",
+      "text": "Given Franklin's pattern of dealing with his brother James, Collins, Ralph, and Keimer, what general approach does he take when a close relationship becomes adversarial?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "In each case Franklin eventually separates from the person rather than continuing the conflict. He leaves James, distances from Collins, breaks with Ralph, quits Keimer. He characteristically does not seek revenge but lets the situation resolve naturally. He calls these break-points 'errata' and moves forward."
+    },
+    {
+      "id": 13,
+      "tier": "inferential",
+      "category": "career",
+      "text": "Based on Franklin's descriptions of Keimer and Bradford as competitors, what specific competitive advantages does Franklin consistently cultivate in business?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Franklin consistently cultivates visible industry (working late at night), quality of product (better type, better printing), intellectual reputation (writing ability), and frugality. He explicitly contrasts this with competitors who 'lived expensively' or were 'slovenly.' His competitive edge is always character-driven, not capital-driven."
+    },
+    {
+      "id": 14,
+      "tier": "inferential",
+      "category": "values",
+      "text": "Franklin describes multiple instances of lending money to friends (Collins, Ralph, Vernon's money). What pattern emerges about how he handles financial obligations versus personal relationships?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "He consistently prioritizes the relationship over the money, even when he knows he's being taken advantage of. He calls the losses 'errata' rather than betrayals. He never pursues the debts aggressively. But he also learns from each instance - he notes each as a lesson. The pattern is: tolerate, accept the loss, extract the learning."
+    },
+    {
+      "id": 15,
+      "tier": "inferential",
+      "category": "learning",
+      "text": "What does Franklin's approach to learning languages (French, Italian, Spanish, then Latin) reveal about his epistemological preferences?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "He prefers bottom-up, practical-to-theoretical learning. He argues for starting with modern languages and working backward to Latin, contrary to established practice. He used chess games as language-learning incentives. This reflects his general pattern: empirical, pragmatic, building from concrete to abstract."
+    },
+    {
+      "id": 16,
+      "tier": "inferential",
+      "category": "risk",
+      "text": "How does Franklin's handling of the Meredith partnership dissolution reveal his approach to business risk?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "When two friends independently offered to fund him, he refused to act until the Merediths had fully failed their obligations. He then split the funding between both friends to avoid showing preference. He took all debts upon himself. Pattern: patient, fair, refuses to act unfairly even when it would benefit him, manages relationships even in business transactions."
+    },
+    {
+      "id": 17,
+      "tier": "inferential",
+      "category": "relationships",
+      "text": "What does Franklin's description of his father Josiah reveal about what Franklin most values in a person's character?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Josiah had 'sound understanding and solid judgment in prudential matters,' was consulted by neighbors, was an arbitrator, always brought useful topics to the dinner table. Franklin values practical wisdom over formal education, judgment over knowledge, social utility over status. This mirrors what Franklin cultivates in himself."
+    },
+    {
+      "id": 18,
+      "tier": "inferential",
+      "category": "creativity",
+      "text": "Based on how Franklin designed the Junto (its rules, structure, and purpose), what does this reveal about his theory of how to create lasting institutions?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "The Junto banned positiveness in opinions, required written queries, mandated regular essays, kept membership small and secret. Franklin's institutional design emphasizes: structured inquiry over debate, size limits, secrecy to avoid improper applicants, practical benefit (members recommending each other's business). Form follows function."
+    },
+    {
+      "id": 19,
+      "tier": "inferential",
+      "category": "change_over_time",
+      "text": "How does Franklin's religious thinking evolve from his youth through his early thirties, and what drives the changes?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Starts piously Presbyterian, becomes Deist through reading, writes pamphlet arguing vice and virtue are empty distinctions, then reverses when he sees that free-thinking friends (Collins, Ralph, Keith) all wronged him. Concludes that truth, sincerity, and integrity are essential to happiness. The evolution is driven entirely by observing consequences, not by philosophical argument."
+    },
+    {
+      "id": 20,
+      "tier": "inferential",
+      "category": "stress",
+      "text": "Based on Franklin's description of his pleurisy near death at age 21, what does his reaction reveal about his temperament under mortal stress?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "He 'gave up the point in my own mind, and was rather disappointed when I found myself recovering, regretting that I must now, some time or other, have all that disagreeable work to do over again.' This reveals remarkable equanimity - he frames death as merely an inconvenience of repetition, not as terror. His stress response is rationalistic, not emotional."
+    },
+    {
+      "id": 21,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "Given Franklin's pattern of identifying a public problem, writing about it first to prepare minds, then organizing a voluntary association (as with the Junto and the library), how would he approach the problem of fire protection in Philadelphia?",
+      "held_out_passage": "About this time I wrote a paper (first to be read in Junto, but it was afterward publish'd) on the different accidents and carelessnesses by which houses were set on fire, with cautions against them, and means proposed of avoiding them. This was much spoken of as a useful piece, and gave rise to a project, which soon followed it, of forming a company for the more ready extinguishing of fires, and mutual assistance in removing and securing of goods when in danger.",
+      "held_out_chapter": 11,
+      "notes": "Training pattern: Franklin consistently writes a paper first, reads it in Junto, then publishes to prepare minds, then proposes association. His fire company follows this exact template. From library (ch 8), Junto (ch 7), newspaper approach (ch 10)."
+    },
+    {
+      "id": 22,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Given Franklin's demonstrated pattern of refusing to profit personally from public benefit inventions (mentioned in his frugality and public spirit principles), how would he respond when offered a patent for his Pennsylvania Fireplace (stove)?",
+      "held_out_passage": "Gov'r. Thomas was so pleas'd with the construction of this stove, as described in it, that he offered to give me a patent for the sole vending of them for a term of years; but I declin'd it from a principle which has ever weighed with me on such occasions, viz., That, as we enjoy great advantages from the inventions of others, we should be glad of an opportunity to serve others by any invention of ours; and this we should do freely and generously.",
+      "held_out_chapter": 12,
+      "notes": "Training pattern: Franklin's values of public utility over personal profit established in ch 8-9 (frugality virtue means 'waste nothing', not 'hoard everything'; library as public benefit). His refusal of the patent is predictable from this value system."
+    },
+    {
+      "id": 23,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "Given Franklin's established pattern of maintaining civil personal relationships with people he opposes politically (as with his brother James, Keimer), how would he handle his relationship with Governor Morris, with whom he was in constant political contention?",
+      "held_out_passage": "as he knew I wrote for the Assembly, one might have imagined that, when we met, we could hardly avoid cutting throats; but he was so good-natur'd a man that no personal difference between him and me was occasion'd by the contest, and we often din'd together.",
+      "held_out_chapter": 15,
+      "notes": "Training: Franklin separates personal from professional throughout. With Keimer he maintained cordiality even while planning to compete. With his brother, differences were eventually forgotten. He consistently compartmentalizes."
+    },
+    {
+      "id": 24,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "Given Franklin's response to being asked to resign his Assembly clerkship (his pattern of refusing to voluntarily surrender positions), how would he respond when a young man advised him to resign to avoid being voted out due to his militia activities offending the Quakers?",
+      "held_out_passage": "My answer to him was, that I had read or heard of some public man who made it a rule never to ask for an office, and never to refuse one when offer'd to him. \"I approve,\" says I, \"of his rule, and will practice it with a small addition; I shall never ask, never refuse, nor ever resign an office. If they will have my office of clerk to dispose of to another, they shall take it from me.\"",
+      "held_out_chapter": 12,
+      "notes": "Training: Franklin's pattern of standing his ground when he believes he's right (leaving brother rather than submitting, but also refusing to pre-emptively abandon positions). From ch 2: he asserted his freedom. From ch 7: he told Keimer he would leave 'that instant' rather than accept being demeaned. He acts on principle, not on fear of consequences."
+    },
+    {
+      "id": 25,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "When asked to procure 150 wagons for General Braddock's expedition after official channels had failed, given Franklin's pattern of using persuasive writing to mobilize public action, how would he approach the task?",
+      "held_out_passage": "I happen'd to say I thought it was pity they had not been landed rather in Pennsylvania, as in that country almost every farmer had his waggon. The general eagerly laid hold of my words, and said, \"Then you, sir, who are a man of interest there, can probably procure them for us; and I beg you will undertake it.\"",
+      "held_out_chapter": 16,
+      "notes": "Training: Franklin's consistent method is to write and publish a persuasive document. He did this for paper currency (ch 8), the library (ch 8), Busy Body (ch 7), the Junto (ch 7). He uses personal credibility and written argument to mobilize collective action. He would write an advertisement combining incentives with veiled threats."
+    },
+    {
+      "id": 26,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "Given Franklin's established technique of using matching-fund mechanisms and psychological incentives in fundraising (as with the library subscription model), how would he design a bill to fund a public hospital when the Assembly was reluctant?",
+      "held_out_passage": "I drew it so as to make the important clause a conditional one, viz., \"And be it enacted, by the authority aforesaid, that when the said contributors shall have met and chosen their managers and treasurer, and shall have raised by their contributions a capital stock of----value... that then it shall and may be lawful for the said speaker... to sign an order on the provincial treasurer for the payment of two thousand pounds\"",
+      "held_out_chapter": 13,
+      "notes": "Training: Franklin's fundraising for the library used subscriptions divided over years (ch 8). His pattern is to design incentive structures that make it easy for people to say yes. The hospital matching-fund design - where private donations would be doubled by public money - follows the same logic of leveraged contribution."
+    },
+    {
+      "id": 27,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "Given Franklin's established pattern of presenting his own projects as coming from others to avoid resistance (as with the library), how would he present his proposal to establish an academy in Philadelphia?",
+      "held_out_passage": "In the introduction to these proposals, I stated their publication, not as an act of mine, but of some publick-spirited gentlemen, avoiding as much as I could, according to my usual rule, the presenting myself to the publick as the author of any scheme for their benefit.",
+      "held_out_chapter": 13,
+      "notes": "Training: Ch 8 explicitly describes this technique: 'I therefore put myself as much as I could out of sight, and stated it as a scheme of a number of friends.' Franklin calls this his 'usual rule' - the held-out passage confirms the same technique applied to a different project."
+    },
+    {
+      "id": 28,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Given Franklin's pattern of contributing to all religious sects equally and his belief that 'the most acceptable service of God was the doing good to man' (chapters 8-9), how would he respond to Reverend Whitefield's request for donations to build an orphan house in Georgia?",
+      "held_out_passage": "I did not disapprove of the design, but, as Georgia was then destitute of materials and workmen, and it was proposed to send them from Philadelphia at a great expense, I thought it would have been better to have built the house here, and brought the children to it. This I advis'd; but he was resolute in his first project, rejected my counsel, and I therefore refus'd to contribute.",
+      "held_out_chapter": 11,
+      "notes": "Training: Franklin's pragmatism consistently overrides sentiment. In ch 4 he rationalizes eating fish. In ch 9 his virtues are practical, not theological. He would support the goal but object to the method on practical grounds - and his refusal would be principled, not stingy."
+    },
+    {
+      "id": 29,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "When Franklin was offered a colonel's commission during the militia crisis but did not feel qualified, given his pattern of deferring to competence while still contributing (as with Meredith managing the press while Franklin managed composition), how would he respond?",
+      "held_out_passage": "The officers of the companies composing the Philadelphia regiment, being met, chose me for their colonel; but, conceiving myself unfit, I declin'd that station, and recommended Mr. Lawrence, a fine person, and man of influence, who was accordingly appointed.",
+      "held_out_chapter": 12,
+      "notes": "Training: Franklin consistently recognizes his own limits. In ch 7 he noted Meredith 'was no compositor, a poor pressman.' In ch 8 he took on a partner for the shop when he knew he needed one. He delegates to competence while maintaining influence."
+    },
+    {
+      "id": 30,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "Given Franklin's pattern of maintaining friendships with people across religious lines and his pragmatic view of religion (chapters 7-8), how would he characterize his relationship with the evangelist George Whitefield?",
+      "held_out_passage": "Ours was a mere civil friendship, sincere on both sides, and lasted to his death.",
+      "held_out_chapter": 11,
+      "notes": "Training: Franklin explicitly says he 'respected all' religions and contributed to all sects (ch 8). His friendships are based on character and conversation quality, not shared beliefs. His friendship with the Quaker woman on the ship (ch 4), his elderly Catholic landlady in London (ch 6) - all cross-religious friendships."
+    },
+    {
+      "id": 31,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "When Franklin received a glass tube for electrical experiments from London and began performing experiments at home, given his pattern of turning learning into social and institutional activities (as with the Junto, the library), what would he do as crowds grew?",
+      "held_out_passage": "To divide a little this incumbrance among my friends, I caused a number of similar tubes to be blown at our glass-house, with which they furnish'd themselves, so that we had at length several performers.",
+      "held_out_chapter": 18,
+      "notes": "Training: Franklin's pattern is always to distribute and democratize. He created subordinate Junto clubs (ch 10), created the subscription library (ch 8), set up printing partnerships in other colonies (ch 11). When overwhelmed by demand, he shares the means of production rather than gatekeeping."
+    },
+    {
+      "id": 32,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "Given Franklin's pragmatic approach to religious institutions (paying subscriptions but not attending, supporting useful preachers regardless of orthodoxy), how would he react when an eloquent preacher named Hemphill was charged with heterodoxy by the orthodox clergy?",
+      "held_out_passage": "I became his zealous partisan, and contributed all I could to raise a party in his favour, and we combated for him awhile with some hopes of success. There was much scribbling pro and con upon the occasion; and finding that, tho' an elegant preacher, he was but a poor writer, I lent him my pen and wrote for him two or three pamphlets.",
+      "held_out_chapter": 10,
+      "notes": "Training: Franklin values substance over doctrine. In ch 8, he was disgusted by the minister who preached dogma instead of morality. He supports those who 'inculcated the practice of virtue.' His standard tool for supporting causes is his pen (ch 7-8). He would fight for the useful preacher with his writing ability."
+    },
+    {
+      "id": 33,
+      "tier": "behavioral_prediction",
+      "category": "career",
+      "text": "Given Franklin's pattern of establishing printing partnerships with workmen he trained (sharing risk and profit through explicit agreements), what structure would he use when expanding his printing business to other colonies?",
+      "held_out_passage": "I was encourag'd to engage in others, and to promote several of my workmen, who had behaved well, by establishing them with printing-houses in different colonies, on the same terms with that in Carolina. Most of them did well, being enabled at the end of our term, six years, to purchase the types of me and go on working for themselves.",
+      "held_out_chapter": 11,
+      "notes": "Training: The Meredith partnership (ch 7) established Franklin's template: explicit written agreements, shared costs and profits, clearly defined terms. His note about partnerships requiring 'very explicitly settled articles' is the principle. He replicates this model."
+    },
+    {
+      "id": 34,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "Given Franklin's pattern of pragmatic risk assessment (doubting Keith's promises, questioning Braddock's military confidence), how would he react when asked to contribute to a fireworks celebration for the expected capture of Fort Duquesne before news of the outcome arrived?",
+      "held_out_passage": "I looked grave, and said it would, I thought, be time enough to prepare for the rejoicing when we knew we should have occasion to rejoice. They seem'd surpris'd that I did not immediately comply with their proposal. \"Why the d----l!\" says one of them, \"you surely don't suppose that the fort will not be taken?\" \"I don't know that it will not be taken, but I know that the events of war are subject to great uncertainty.\"",
+      "held_out_chapter": 16,
+      "notes": "Training: Franklin was burned by Keith's premature promises (ch 4-6). He learned that certainty about the future is foolish. His moral virtues include 'Resolution' (perform what you resolve) but also his general skepticism about counting chickens before they hatch. He would refuse to celebrate prematurely."
+    },
+    {
+      "id": 35,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Given Franklin's consistent principle of avoiding direct confrontation with religious groups while finding practical workarounds (as with his approach to the Presbyterian minister in chapter 8), how would he navigate the Quaker Assembly's refusal to fund military defense?",
+      "held_out_passage": "I determined to try what might be done by a voluntary association of the people. To promote this, I first wrote and published a pamphlet, entitled Plain Truth, in which I stated our defenceless situation in strong lights, with the necessity of union and discipline for our defense, and promis'd to propose in a few days an association, to be generally signed for that purpose.",
+      "held_out_chapter": 12,
+      "notes": "Training: Franklin's approach to the Presbyterian sect was to quietly withdraw rather than confront (ch 8). With the Junto he worked through indirect influence (ch 7-10). His pattern is to route around institutional obstacles through voluntary association and public persuasion, never direct confrontation with the blocking group."
+    },
+    {
+      "id": 36,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "Given Franklin's consistent approach of proposing systems changes rather than one-time fixes (library subscription, Junto structure, moral virtue tracking), how would he address the inequity of Philadelphia's city watch system?",
+      "held_out_passage": "On the whole, I proposed as a more effectual watch, the hiring of proper men to serve constantly in that business; and as a more equitable way of supporting the charge, the levying a tax that should be proportion'd to the property.",
+      "held_out_chapter": 11,
+      "notes": "Training: Franklin consistently designs systems rather than patches. The 13 virtues are a system (ch 9). The library is a subscription system (ch 8). The Junto has explicit rules (ch 7). He would propose a proportional tax system rather than the flat fee, because systems thinking is his default mode."
+    },
+    {
+      "id": 37,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "Given Franklin's established pattern of using indirect influence and careful preparation before proposing changes (first writing papers, reading them in Junto, then publishing), how would he introduce the concept of a paid city watch to Philadelphia's citizens?",
+      "held_out_passage": "I thereupon wrote a paper to be read in Junto, representing these irregularities, but insisting more particularly on the inequality of this six-shilling tax of the constables... This idea, being approv'd by the Junto, was communicated to the other clubs, but as arising in each of them.",
+      "held_out_chapter": 11,
+      "notes": "Training: The library followed this exact path (ch 8): write paper, read in Junto, present as coming from others. The subordinate clubs (ch 10) were designed specifically to spread Junto ideas more widely. Franklin would use the same distribution network."
+    },
+    {
+      "id": 38,
+      "tier": "behavioral_prediction",
+      "category": "change_over_time",
+      "text": "Given Franklin's pattern of eventually reconciling with family members after conflict (his brother James), how would he handle visiting James years later when James was settled in Newport and in declining health?",
+      "held_out_passage": "Our former differences were forgotten, and our meeting was very cordial and affectionate. He was fast declining in his health, and requested of me that, in case of his death, which he apprehended not far distant, I would take home his son, then but ten years of age, and bring him up to the printing business. This I accordingly perform'd.",
+      "held_out_chapter": 10,
+      "notes": "Training: Franklin called his treatment of James an 'erratum' (ch 2) and showed guilt about it. He consistently feels obligations he failed to meet. His pattern is eventual reconciliation through generosity. He would not only reconcile but go further - taking on James's son as a way to make amends."
+    },
+    {
+      "id": 39,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "Given Franklin's pattern of finding clever procedural workarounds when direct legislative action is blocked (as with the newspaper and the library), how would he help the Assembly fund an expedition when the governor refused to sign their bill?",
+      "held_out_passage": "I then suggested a method of doing the business without the governor, by orders on the trustees of the Loan office, which, by law, the Assembly had the right of drawing.",
+      "held_out_chapter": 15,
+      "notes": "Training: Franklin's pattern is always to find the workaround. When James blocked him, he found a secret way to Philadelphia (ch 2). When Keimer's types were short, he made his own mould (ch 7). When Bradford's post-office blocked his paper distribution, he bribed the riders (ch 8). He routes around obstacles rather than through them."
+    },
+    {
+      "id": 40,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "Given Franklin's calm response to danger at sea during his first voyage (ch 3-4) and his equanimity when near death from pleurisy (ch 7), how would he react during a dangerous nighttime near-shipwreck on the voyage to England?",
+      "held_out_passage": "This deliverance impressed me strongly with the utility of lighthouses, and made me resolve to encourage the building more of them in America if I should live to return there.",
+      "held_out_chapter": 19,
+      "notes": "Training: Franklin's pattern under stress is always to extract practical lessons rather than dwell on fear. When nearly shipwrecked going to Philadelphia (ch 3), he calmly read a book. When ill with pleurisy, he philosophized about death. After the lighthouse near-miss, his first thought is the practical utility of lighthouses. Danger triggers pragmatic thinking, not panic."
+    },
+    {
+      "id": 41,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "Given Franklin's pattern of accepting lower-paid positions when they offer better long-term strategic advantages (accepting Denham's clerk position at less than his compositor wages in ch 6), how would he view the postmaster position when offered it?",
+      "held_out_passage": "I accepted it readily, and found it of great advantage; for, tho' the salary was small, it facilitated the correspondence that improv'd my newspaper, increas'd the number demanded, as well as the advertisements to be inserted, so that it came to afford me a considerable income.",
+      "held_out_chapter": 13,
+      "notes": "Training: Franklin explicitly accepted Denham's lower wages for 'a better prospect' (ch 6). He understands network effects - the post office gave him what Bradford had: distribution advantage. He evaluates positions by strategic leverage, not immediate compensation."
+    },
+    {
+      "id": 42,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "When Captain Denny, the new governor, privately offered Franklin proprietary favors and recompenses in exchange for dropping opposition, given Franklin's pattern of refusing to compromise principles for personal gain, how would he respond?",
+      "held_out_passage": "My answers were to this purpose: that my circumstances, thanks to God, were such as to make proprietary favours unnecessary to me; and that, being a member of the Assembly, I could not possibly accept of any; that, however, I had no personal enmity to the proprietary.",
+      "held_out_chapter": 19,
+      "notes": "Training: Franklin's principle is disinterested public service. He refused patents (inferred from his values in ch 8-9). He took no commission for his service. He consistently separates personal financial interest from public duty. He would politely refuse while keeping the door open for honest collaboration."
+    },
+    {
+      "id": 43,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "When the Abbe Nollet published a volume of letters attacking Franklin's electrical theories, given Franklin's early adoption of modest diffidence and his practice of avoiding disputation (ch 2, ch 9), how would he respond?",
+      "held_out_passage": "I once purpos'd answering the abbé, and actually began the answer; but, on consideration that my writings contained a description of experiments which anyone might repeat and verify... I concluded to let my papers shift for themselves, believing it was better to spend what time I could spare from public business in making new experiments, than in disputing about those already made.",
+      "held_out_chapter": 18,
+      "notes": "Training: Franklin explicitly abandoned 'abrupt contradiction and positive argumentation' in ch 2. His Junto rules banned expressions of positiveness (ch 7). His pattern is to let results speak rather than argue. He would begin to respond, then decide silence is more productive - matching his lifelong pattern of avoiding disputes."
+    },
+    {
+      "id": 44,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "Given Franklin's empirical approach to knowledge (testing vegetarianism, measuring Whitefield's audibility by walking backward), how would he respond to General Braddock's confident prediction that the march to Fort Duquesne would be quick and easy?",
+      "held_out_passage": "He smil'd at my ignorance, and reply'd, \"These savages may, indeed, be a formidable enemy to your raw American militia, but upon the king's regular and disciplin'd troops, sir, it is impossible they should make any impression.\" I was conscious of an impropriety in my disputing with a military man in matters of his profession, and said no more.",
+      "held_out_chapter": 16,
+      "notes": "Training: Franklin warned Braddock about ambuscade risk from reading about a French defeat by Iroquois. His empirical approach (reading historical evidence) contradicted Braddock's professional confidence. But Franklin's humility habit (ch 2, ch 9) made him defer to the expert. The tension between his empiricism and his learned deference is characteristic."
+    },
+    {
+      "id": 45,
+      "tier": "behavioral_prediction",
+      "category": "career",
+      "text": "Given Franklin's practice of using his printing skills to advance public causes (writing pamphlets for paper currency, the militia, etc.), how would he approach the challenge of mobilizing Pennsylvania farmers to provide wagons for a military expedition?",
+      "held_out_passage": "I apprehended that the progress of British soldiers through these counties on such an occasion, especially considering the temper they are in, and their resentment against us, would be attended with many and great inconveniences to the inhabitants, and therefore more willingly took the trouble of trying first what might be done by fair and equitable means.",
+      "held_out_chapter": 16,
+      "notes": "Training: Franklin's consistent method is persuasive writing that appeals to self-interest while subtly warning of consequences (paper currency pamphlet in ch 8, Busy Body in ch 7). His wagon advertisement follows the same structure: here's the benefit, here's the payment, and here's the implied threat if you don't cooperate voluntarily."
+    },
+    {
+      "id": 46,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "Given Franklin's pattern of using humor and wit to defuse political tension (his 'riggite' reputation at Watts's, his fishing rationalization), how would he respond when a political opponent at dinner jokingly suggested he 'sell' the Quaker Assembly?",
+      "held_out_passage": "One of his friends, who sat next to me, says, \"Franklin, why do you continue to side with these damn'd Quakers? Had not you better sell them? The proprietor would give you a good price.\" \"The governor,\" says I, \"has not yet blacked them enough.\"",
+      "held_out_chapter": 15,
+      "notes": "Training: Franklin describes himself as a 'riggite' - a jocular verbal satirist (ch 6). His humor at Watts's printing house supported his social standing. He uses wit to deflect attacks and turn them back on opponents, as he did when rationalizing eating fish (ch 4). He would match the joke with a sharper one."
+    },
+    {
+      "id": 47,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "Given Franklin's pattern of personally advancing money for public projects and trusting that he would be repaid (as with the Meredith partnership debts), how would he handle the financial risk of procuring wagons for Braddock's army?",
+      "held_out_passage": "I received of the general about eight hundred pounds, to be disbursed in advance-money to the waggon owners, etc.; but that sum being insufficient, I advanc'd upward of two hundred pounds more, and in two weeks the one hundred and fifty waggons, with two hundred and fifty-nine carrying horses, were on their march for the camp.",
+      "held_out_chapter": 16,
+      "notes": "Training: Franklin advanced money for the Meredith partnership debts (ch 7), took financial risks on the printing business. His pattern is to advance his own money when he believes in the project, trusting the system to repay him. The wagon episode follows the same pattern - personal financial exposure for public benefit."
+    },
+    {
+      "id": 48,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When Lord Loudoun kept delaying the departure of packet-boats for months with promises of imminent sailing, given Franklin's previous experience with Governor Keith's endless broken promises (ch 4-6), how would he characterize Loudoun's behavior?",
+      "held_out_passage": "I shall give some instances. It was about the beginning of April that I came to New York, and I think it was near the end of June before we sail'd... his lordship's letters were not ready; and yet whoever waited on him found him always at his desk, pen in hand, and concluded he must needs write abundantly.",
+      "held_out_chapter": 19,
+      "notes": "Training: Keith was 'liberal of promises which he never meant to keep' (ch 4). Franklin learned to recognize the pattern of perpetual delay. He would identify Loudoun's 'indecision' as the same type of character flaw - institutional authority figures who project capability but deliver nothing. He observes rather than confronts."
+    },
+    {
+      "id": 49,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Given Franklin's pattern of preferring practical over theoretical knowledge and his belief that human felicity is produced by 'little advantages that occur every day' (not grand strokes), how would he frame the importance of mundane civic improvements like street paving and cleaning?",
+      "held_out_passage": "Some may think these trifling matters not worth minding or relating; but when they consider that tho' dust blown into the eyes of a single person, or into a single shop on a windy day, is but of small importance, yet the great number of the instances in a populous city, and its frequent repetitions give it weight and consequence... Human felicity is produced not so much by great pieces of good fortune that seldom happen, as by little advantages that occur every day.",
+      "held_out_chapter": 13,
+      "notes": "Training: Franklin's virtue system focuses on daily habits, not grand gestures (ch 9). His indifference to food quality (ch 1) shows he values function over form. His penny-wise management of the printing business (ch 7-8) shows attention to small efficiencies. He would explicitly defend the importance of small improvements."
+    },
+    {
+      "id": 50,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "Given Franklin's habitual use of calculation and measurement to settle questions empirically (measuring fish economics for his vegetarian diet, calculating printing costs), how would he assess Whitefield's claim to preach to 25,000 people?",
+      "held_out_passage": "Being among the hindmost in Market-street, I had the curiosity to learn how far he could be heard, by retiring backwards down the street towards the river; and I found his voice distinct till I came near Front-street, when some noise in that street obscur'd it. Imagining then a semicircle, of which my distance should be the radius, and that it were fill'd with auditors, to each of whom I allow'd two square feet, I computed that he might well be heard by more than thirty thousand.",
+      "held_out_chapter": 11,
+      "notes": "Training: Franklin calculated the economics of vegetarianism vs. board (ch 2), computed printing costs meticulously (ch 7), measured his virtue violations daily (ch 9). His instinct when facing a factual claim is to devise a measurement. He would pace out the distance and calculate the area."
+    },
+    {
+      "id": 51,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "Given Franklin's observation that idle men become 'mutinous and quarrelsome' while employed men are content (reflecting his own lifelong industry), how would he manage morale among soldiers building frontier forts in bad weather?",
+      "held_out_passage": "when men are employ'd, they are best content'd; for on the days they worked they were good-natur'd and cheerful, and, with the consciousness of having done a good day's work, they spent the evening jollily; but on our idle days they were mutinous and quarrelsome, finding fault with their pork, the bread, etc.",
+      "held_out_chapter": 17,
+      "notes": "Training: Franklin's core virtue is Industry ('Lose no time; be always employ'd in something useful' - ch 9). His own contentment always came from productive work (ch 7 working late, ch 8 constant reading). He would observe that employment equals morale - matching his lifelong belief that industry is the foundation of both prosperity and happiness."
+    },
+    {
+      "id": 52,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "Given Franklin's pattern of observing and learning from other religious communities without judgment (attending Quaker meetings, supporting all sects), how would he respond to the Moravian community's practices at Bethlehem during his military mission?",
+      "held_out_passage": "While at Bethlehem, I inquir'd a little into the practice of the Moravians: some of them had accompanied me, and all were very kind to me. I found they work'd for a common stock, ate at common tables, and slept in common dormitories, great numbers together.",
+      "held_out_chapter": 17,
+      "notes": "Training: Franklin attended Quaker meetings with curiosity (ch 3), befriended Catholics (ch 6), studied the Dunkers (ch 12). His pattern is respectful inquiry - he observes practices, asks questions, and records findings without judgment. He would inquire into Moravian practices with genuine curiosity."
+    },
+    {
+      "id": 53,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "Given Franklin's Albany Plan of Union being rejected by both the colonies and England, and his pattern of framing failures as systemic rather than personal (calling mistakes 'errata'), how would he interpret this dual rejection?",
+      "held_out_passage": "Its fate was singular; the assemblies did not adopt it, as they all thought there was too much prerogative in it, and in England it was judg'd to have too much of the democratic. The Board of Trade therefore did not approve of it... The different and contrary reasons of dislike to my plan makes me suspect that it was really the true medium.",
+      "held_out_chapter": 14,
+      "notes": "Training: Franklin frames his own mistakes as 'errata' (ch 2, 4, 6) - system errors, not moral failures. His approach is always to find the structural lesson. Being rejected by both extremes would, to Franklin's mind, actually validate the plan - it occupied the 'true medium.' He would interpret dual rejection as evidence of correctness."
+    },
+    {
+      "id": 54,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "Given Franklin's pattern of finding clever linguistic workarounds to satisfy opposing parties (as with his newspaper policy of printing controversial pieces separately), how would the Quaker Assembly disguise military spending to avoid violating their principles?",
+      "held_out_passage": "they could not grant money to buy powder, because that was an ingredient of war; but they voted an aid to New England of three thousand pounds, to be put into the hands of the governor, and appropriated it for the purchasing of bread, flour, wheat or other grain. Some of the council... advis'd the governor not to accept provision... but he repli'd, \"I shall take the money, for I understand very well their meaning; other grain is gunpowder.\"",
+      "held_out_chapter": 12,
+      "notes": "Training: Franklin's entire career involves verbal and procedural workarounds (secret indentures in ch 2, hiding his authorship in ch 8). He understands that institutional constraints can be honored in letter while violated in spirit. He would appreciate and participate in the linguistic fiction of 'other grain' meaning gunpowder."
+    },
+    {
+      "id": 55,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "Given Franklin's practice of empirically testing claims and his admiration for well-run experiments (his Spectator method, his virtue tracking), how would he approach competing claims about ship sailing speed?",
+      "held_out_passage": "A wager ensu'd between the two captains, to be decided when there should be sufficient wind. Kennedy thereupon examin'd rigorously the log-line, and, being satisfi'd with that, he determin'd to throw the log himself. Accordingly some days after, when the wind blew very fair and fresh... Kennedy made the experiment, and own'd his wager lost.",
+      "held_out_chapter": 19,
+      "notes": "Training: Franklin's approach is always empirical verification. He tested the Spectator method by comparing his work with originals (ch 2). He tracked virtue violations with data (ch 9). He would relish a controlled experiment to settle a factual dispute, and he would advocate for 'a set of experiments' to settle the matter systematically."
+    },
+    {
+      "id": 56,
+      "tier": "behavioral_prediction",
+      "category": "career",
+      "text": "Given Franklin's habit of taking on more and more civic roles as his business stabilized, and his pattern of finding that 'the publick, now considering me as a man of leisure, laid hold of me for their purposes,' how would he describe his transition from private business to public life?",
+      "held_out_passage": "I flatter'd myself that, by the sufficient tho' moderate fortune I had acquir'd, I had secured leisure during the rest of my life for philosophical studies and amusements... but the publick, now considering me as a man of leisure, laid hold of me for their purposes, every part of our civil government, and almost at the same time, imposing some duty upon me.",
+      "held_out_chapter": 13,
+      "notes": "Training: Franklin's trajectory is consistently from private industry to public service. His father's proverb about standing before kings (ch 8) foreshadows this. The Junto and library were transitional. He would describe the transition as involuntary - pulled into public life rather than seeking it - matching his principle of never asking for office."
+    },
+    {
+      "id": 57,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "Given Franklin's pattern of taking personal financial risk for public benefit (advancing money for the printing business, lending to Collins), how would he handle the aftermath when wagon owners demanded payment after Braddock's defeat?",
+      "held_out_passage": "As soon as the loss of the waggons and horses was generally known, all the owners came upon me for the valuation which I had given bond to pay. Their demands gave me a great deal of trouble... They amounted to near twenty thousand pound, which to pay would have ruined me.",
+      "held_out_chapter": 16,
+      "notes": "Training: Franklin consistently puts himself at financial risk for public goods. He advanced money for Vernon (ch 4), for the partnership (ch 7), for the printing business (ch 8). Each time he trusts that the system will make him whole. The wagon crisis follows the same pattern - personal exposure in service of a larger goal, with eventual (partial) resolution."
+    },
+    {
+      "id": 58,
+      "tier": "behavioral_prediction",
+      "category": "change_over_time",
+      "text": "Given Franklin's early experience being taken advantage of by powerful figures (Keith, Collins, Ralph) and his gradual development of skepticism about human motives, how would he assess Lord Loudoun's claim that Franklin must have profited from supplying the army?",
+      "held_out_passage": "\"O, Sir,\" says he, \"you must not think of persuading us that you are no gainer; we understand better those affairs, and know that every one concerned in supplying the army finds means, in the doing it, to fill his own pockets.\" I assur'd him that was not my case, and that I had not pocketed a farthing; but he appear'd clearly not to believe me.",
+      "held_out_chapter": 19,
+      "notes": "Training: Franklin learned early that most people act from self-interest (his observations on parties in ch 9: 'few in public affairs act from a mere view of the good of their country'). But he held himself to a different standard. His response to Loudoun's cynicism would be honest assertion without indignation - he knows the world is cynical but refuses to be corrupted by that knowledge."
+    },
+    {
+      "id": 59,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Given Franklin's principle of never assuming credit for public projects (library, Junto), how would he handle the credit for establishing the hospital?",
+      "held_out_passage": "a very beneficent design, which has been ascrib'd to me, but was originally his",
+      "held_out_chapter": 13,
+      "notes": "Training: Franklin explicitly attributes the library idea to the Junto, presents his projects as schemes of others (ch 8). He consistently deflects credit. When the hospital credit is wrongly attributed to him, he corrects the record in favor of Dr. Bond - matching his lifelong pattern of honest attribution even when it would benefit him to accept the credit."
+    },
+    {
+      "id": 60,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "Given Franklin's pattern of practical problem-solving through observation and simple innovation (making type moulds, improving water-gruel recipe at Watts's), how would he approach the problem of London street lamps that grew dark from soot?",
+      "held_out_passage": "I therefore suggested the composing them of four flat panes, with a long funnel above to draw up the smoke, and crevices admitting air below, to facilitate the ascent of the smoke; by this means they were kept clean, and did not grow dark in a few hours, as the London lamps do, but continu'd bright till morning.",
+      "held_out_chapter": 13,
+      "notes": "Training: Franklin made type moulds from available materials (ch 7), devised the copperplate press (ch 7), designed the stove (ch 12). His inventions are always practical improvements based on observation of existing failures. He would observe the airflow problem and propose a simple ventilation solution."
+    },
+    {
+      "id": 61,
+      "tier": "adversarial_abstention",
+      "category": "relationships",
+      "text": "What was Franklin's reaction when his wife Deborah died in 1774 while he was in England?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "The autobiography ends in 1757. Deborah's death in 1774 is not discussed. The correct answer is that the autobiography does not cover this period."
+    },
+    {
+      "id": 62,
+      "tier": "adversarial_abstention",
+      "category": "values",
+      "text": "What specific arguments did Franklin make against slavery in his later years, and how did he reconcile these with his own history of slaveholding?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "The autobiography does not discuss Franklin's views on slavery in any detail, nor his later abolitionist activities. His role as president of the Pennsylvania Abolition Society (1787) is not mentioned."
+    },
+    {
+      "id": 63,
+      "tier": "adversarial_abstention",
+      "category": "career",
+      "text": "How did Franklin conduct himself during the Constitutional Convention of 1787, and what was his most significant contribution to the final document?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "The autobiography ends at 1757. The Constitutional Convention is 30 years beyond the scope of the text."
+    },
+    {
+      "id": 64,
+      "tier": "adversarial_abstention",
+      "category": "relationships",
+      "text": "What was the nature of Franklin's relationship with his son William during the American Revolution, when William remained a Loyalist?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "The autobiography does not discuss the Revolutionary period. William appears only as Franklin's companion and aide. The father-son political break is not covered."
+    },
+    {
+      "id": 65,
+      "tier": "adversarial_abstention",
+      "category": "learning",
+      "text": "What specific experimental procedure did Franklin use when flying his kite during a thunderstorm to prove that lightning is electrical?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Franklin deliberately declines to describe the kite experiment in the autobiography, saying 'I will not swell this narrative with an account of that capital experiment... as both are to be found in the histories of electricity.' (Ch 18). The text explicitly does not contain this information."
+    },
+    {
+      "id": 66,
+      "tier": "adversarial_abstention",
+      "category": "relationships",
+      "text": "What was Franklin's relationship like with the French court during his years as ambassador to France (1778-1785)?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "The autobiography ends in 1757, two decades before his French ambassadorship. This period is entirely outside the text's scope."
+    },
+    {
+      "id": 67,
+      "tier": "adversarial_abstention",
+      "category": "stress",
+      "text": "How did Franklin cope with the death of his four-year-old son Franky from smallpox? Did he describe his emotional state in detail?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Franklin mentions the death very briefly in ch 10: 'In 1736 I lost one of my sons, a fine boy of four years old, by the small-pox, taken in the common way. I long regretted bitterly, and still regret that I had not given it to him by inoculation.' He frames it as a public health lesson, not a personal grief narrative. The emotional detail is deliberately absent."
+    },
+    {
+      "id": 68,
+      "tier": "adversarial_abstention",
+      "category": "conflict",
+      "text": "What were the details of Franklin's negotiations with the French government that led to the Treaty of Alliance in 1778?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Entirely outside the autobiography's timeframe (ends 1757). The Treaty of Alliance occurred 21 years after the text concludes."
+    },
+    {
+      "id": 69,
+      "tier": "adversarial_abstention",
+      "category": "decisions",
+      "text": "What specific role did Franklin play in drafting the Declaration of Independence, and what changes did he suggest to Jefferson's original text?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "The autobiography ends in 1757, nineteen years before the Declaration. Franklin's editorial contributions to Jefferson's draft are not discussed."
+    },
+    {
+      "id": 70,
+      "tier": "adversarial_abstention",
+      "category": "career",
+      "text": "What were the details of Franklin's experiments with bifocal lenses, and when did he invent them?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Bifocal lenses are not discussed in the autobiography. The invention is attributed to Franklin but is not part of this text."
+    },
+    {
+      "id": 71,
+      "tier": "boundary_probing",
+      "category": "decisions",
+      "text": "If Franklin were placed in a situation where supporting a public good required him to publicly take credit for the idea (violating his principle of anonymous advocacy), which principle would he prioritize?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Tests tension between Franklin's principle of anonymous proposal and his commitment to public utility. His autobiography suggests utility always wins - the anonymity is instrumental (it helps projects succeed), not moral. If taking credit would better serve the project, he would likely do so."
+    },
+    {
+      "id": 72,
+      "tier": "boundary_probing",
+      "category": "values",
+      "text": "Given Franklin's demonstrated pragmatism about religious principles (eating fish despite vegetarian convictions, supporting unorthodox preachers), would he ever publicly advocate for a position he privately disagreed with if it served the public good?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Tests the boundary between Franklin's pragmatism and his sincerity virtue. Evidence suggests he would use strategic framing but not outright deception - he reframes rather than lies. The Quaker 'other grain' episode shows he appreciates useful fictions but distinguishes them from dishonesty."
+    },
+    {
+      "id": 73,
+      "tier": "boundary_probing",
+      "category": "conflict",
+      "text": "If Franklin faced a situation where his principle of avoiding direct confrontation was at odds with preventing serious harm to a community, would he abandon his indirect approach?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Tests whether Franklin's indirectness is principled or strategic. Evidence from his defense activities (ch 12, 16, 17) suggests he can act directly when the stakes are high enough - he organized militia, built forts, personally procured wagons. The indirectness is a tool, not a rule."
+    },
+    {
+      "id": 74,
+      "tier": "boundary_probing",
+      "category": "relationships",
+      "text": "Given Franklin's pattern of maintaining cordial relationships with political opponents, would he maintain civility with someone who attacked him personally and maliciously, not just politically?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Tests limits of Franklin's civility. His treatment of the Proprietor Paris (ch 19) - 'a proud, angry man' with 'mortal enmity' - shows that Franklin will decline to engage personally with truly malicious opponents. He refused to treat with Paris and would only deal with the principals. He compartmentalizes but has limits."
+    },
+    {
+      "id": 75,
+      "tier": "boundary_probing",
+      "category": "risk",
+      "text": "If Franklin's pragmatic cost-benefit analysis of a public project showed it would likely fail, but popular sentiment strongly favored it, would he support it or publicly oppose it?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Tests tension between Franklin's populism and his pragmatism. Evidence from the Whitefield orphan house episode (ch 11) shows he would oppose the impractical plan even when popular sentiment favored it. He refused to contribute despite the emotional pull. Pragmatism overrides popular sentiment."
+    },
+    {
+      "id": 76,
+      "tier": "boundary_probing",
+      "category": "career",
+      "text": "Given that Franklin consistently took on public duties that reduced his time for scientific study, would he ever refuse a public appointment to protect his intellectual work?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Tests Franklin's stated preference for 'philosophical studies and amusements' (ch 13) against his inability to refuse office. His stated rule is 'never ask, never refuse, nor ever resign' (ch 12). Evidence suggests he would accept every appointment, lamenting the lost study time but fulfilling the duty. Public service always overrides personal preference."
+    },
+    {
+      "id": 77,
+      "tier": "boundary_probing",
+      "category": "learning",
+      "text": "If Franklin encountered a domain where his empirical, practical approach to learning was insufficient - requiring sustained abstract theoretical work with no immediate application - would he persist or abandon the pursuit?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Tests the limits of Franklin's pragmatic epistemology. His own admission of failing at arithmetic as a child (ch 1) and his eventual self-teaching through Cocker's book suggests he can persist in abstract work when motivated. But he abandoned poetry (ch 2) and the London metaphysical pamphlet (ch 6) when they proved impractical. He would persist only if he saw eventual utility."
+    },
+    {
+      "id": 78,
+      "tier": "boundary_probing",
+      "category": "stress",
+      "text": "If Franklin were in a situation where his characteristic humor and equanimity under stress were perceived as inappropriate or insensitive by those around him, would he modify his behavior?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Tests Franklin's social adaptability against his natural temperament. His humility virtue practice (ch 9) shows he can modify behavior to match social expectations. He explicitly adopted modest speech patterns despite internal confidence. He would likely calibrate his public demeanor while maintaining his private equanimity."
+    },
+    {
+      "id": 79,
+      "tier": "boundary_probing",
+      "category": "change_over_time",
+      "text": "Given Franklin's steady accumulation of influence and his increasing comfort with wielding it, would there be a point where he might use his power to advance a personal agenda rather than a public one?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Tests the limits of Franklin's disinterestedness. His own admission about pride ('even if I could conceive that I had compleatly overcome it, I should probably be proud of my humility' - ch 9) suggests he is aware of the risk. The proprietary disputes (ch 15-19) show him using power for what he calls public interest but which also serves his political faction. The boundary between public and personal interest blurs at scale."
+    },
+    {
+      "id": 80,
+      "tier": "boundary_probing",
+      "category": "creativity",
+      "text": "If Franklin were tasked with solving a problem that required collaboration with people he considered intellectually inferior (like Keimer), would his pragmatism override his evident intellectual pride?",
+      "held_out_passage": null,
+      "held_out_chapter": null,
+      "notes": "Tests tension between Franklin's intellectual self-regard and his practical need for allies. Evidence from his Keimer relationship (ch 3, 5, 7) shows he can work productively with people he privately disdains. He used Keimer's resources while training his workforce. His pragmatism consistently overrides his intellectual snobbery, but the private contempt is always visible in his writing."
+    }
+  ]
+}

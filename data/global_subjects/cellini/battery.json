@@ -1,0 +1,363 @@
+{
+  "metadata": {
+    "subject": "Benvenuto Cellini",
+    "total": 60,
+    "tiers": {
+      "behavioral_prediction": 40,
+      "recall": 10,
+      "adversarial_abstention": 10
+    }
+  },
+  "questions": [
+    {
+      "id": 1,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When the Castellan asks Cellini if he would attempt to fly, how does Cellini respond?",
+      "held_out_passage": "I answered that it had always been my ambition to do those things which offer the greatest difficulties to men, and that I had done them; as to flying, the God of Nature had gifted me with a body well suited for running and leaping far beyond the common average, and that with the talents I possessed for manual art I felt sure I had the courage to try flying."
+    },
+    {
+      "id": 2,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "What does Cellini claim about his past behavior regarding difficult challenges?",
+      "held_out_passage": "it had always been my ambition to do those things which offer the greatest difficulties to men, and that I had done them"
+    },
+    {
+      "id": 3,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When asked what method he would use to fly, what creature does Cellini suggest as a model?",
+      "held_out_passage": "taking into consideration all flying creatures, and wishing to imitate by art what they derived from nature, none was so apt a model as the bat"
+    },
+    {
+      "id": 4,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How does Cellini attempt to manage the Castellan's mental illness during their interactions?",
+      "held_out_passage": "during those discourses I contrived to make a good meal"
+    },
+    {
+      "id": 5,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "What does Cellini say about his word and trustworthiness when pleading with the Castellan?",
+      "held_out_passage": "I might have fled, but that on account of the word which I had given him I would never have betrayed his trust"
+    },
+    {
+      "id": 6,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "When the Castellan orders Cellini locked up, how does Cellini respond before being confined?",
+      "held_out_passage": "I told him before all his servants: 'Lock me well up, and keep good watch on me; for I shall certainly contrive to escape.'"
+    },
+    {
+      "id": 7,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "What is Cellini's immediate action upon being locked in his prison?",
+      "held_out_passage": "No sooner had I been locked in, than I went about exploring my prison; and when I thought I had discovered how to get out of it, I pondered the means of descending from the lofty keep"
+    },
+    {
+      "id": 8,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "What materials does Cellini use to prepare for his escape attempt?",
+      "held_out_passage": "I took those new sheets of mine, which, as I have said already, I had cut in strips and sewn together"
+    },
+    {
+      "id": 9,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "How does Cellini obtain the pincers he needs for his escape?",
+      "held_out_passage": "I looked out a pair of pincers which I had abstracted from a Savoyard belonging to the guard of the castle. This man superintended the casks and cisterns; he also amused himself with carpentering. Now he possessed several pairs of pincers, among which was one both big and heavy. I then, thinking it would suit my purpose, took it and hid it in my straw mattress."
+    },
+    {
+      "id": 10,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "What is Cellini's relationship with the Castellan based on the training text's description of his character?",
+      "held_out_passage": "since they had noticed that he derived much pleasure from my conversation, they were always fetching me to keep him company"
+    },
+    {
+      "id": 11,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "When the Castellan becomes fixated on the bat idea, what does he do?",
+      "held_out_passage": "No sooner had the poor man heard the name bat, which recalled the humour he was suffering under, than he cried out at the top of his voice: 'He says true-he says true; the bat's the thing-the bat's the thing!'"
+    },
+    {
+      "id": 12,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "What specific flying method does Cellini propose to the Castellan?",
+      "held_out_passage": "if he would set me at liberty, I felt quite up to flying down to Prati, after making myself a pair of wings out of waxed linen"
+    },
+    {
+      "id": 13,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "How does the Castellan justify locking Cellini up more securely?",
+      "held_out_passage": "since the Pope has bidden me guard you as though you were his own eyes, and I know you a clever devil who would certainly escape, I shall now have you locked up with a hundred keys in order to prevent you slipping through my fingers"
+    },
+    {
+      "id": 14,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "What does Cellini's response to being locked up reveal about his character according to the training text's assessment?",
+      "held_out_passage": "I told him before all his servants: 'Lock me well up, and keep good watch on me; for I shall certainly contrive to escape.'"
+    },
+    {
+      "id": 15,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "What technical problem does Cellini encounter when trying to remove the door hinges?",
+      "held_out_passage": "The door was double, and the clinching of the nails could not be seen; so that when I attempted to draw one out, I met with the greatest trouble; in the end, however, I succeeded."
+    },
+    {
+      "id": 16,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How long does the Castellan sometimes detain Cellini during his episodes?",
+      "held_out_passage": "At times the poor man detained me for four or five stricken hours without ever letting me cease talking."
+    },
+    {
+      "id": 17,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "What physical symptoms does Cellini observe in the Castellan during his illness?",
+      "held_out_passage": "sometimes when I looked at him, I noticed that his eyeballs were rolling in a frightful manner, one looking one way and the other in another"
+    },
+    {
+      "id": 18,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "What does Cellini's planning for escape reveal about his practical skills?",
+      "held_out_passage": "Having made this estimate and put all things in order, I looked out a pair of pincers which I had abstracted from a Savoyard belonging to the guard of the castle."
+    },
+    {
+      "id": 19,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How does Cellini characterize his own physical abilities when discussing flying?",
+      "held_out_passage": "the God of Nature had gifted me with a body well suited for running and leaping far beyond the common average, and that with the talents I possessed for manual art I felt sure I had the courage to try flying"
+    },
+    {
+      "id": 20,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "What does Cellini's behavior toward the Castellan suggest about his ability to manipulate situations?",
+      "held_out_passage": "during those discourses I contrived to make a good meal. He, poor man, could neither eat nor sleep"
+    },
+    {
+      "id": 21,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When the castellan asks Cellini if he would have the heart to fly if given the opportunity, how does Cellini respond?",
+      "held_out_passage": "I said if he would set me at liberty, I felt quite up to flying down to Prati, after making myself a pair of wings out of waxed linen."
+    },
+    {
+      "id": 22,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "After being told he will be locked up with a hundred keys, does Cellini attempt to escape or accept his fate?",
+      "held_out_passage": "So they took and confined me with the utmost care. CVIII I THEN began to deliberate upon the best way of making my escape."
+    },
+    {
+      "id": 23,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "What tool does Cellini steal to aid his escape plan?",
+      "held_out_passage": "I looked out a pair of pincers which I had abstracted from a Savoyard belonging to the guard of the castle."
+    },
+    {
+      "id": 24,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When Cellini successfully removes the first nail from his door hinges, what does he do to conceal the evidence?",
+      "held_out_passage": "I mixed some rust, which I had scraped from old iron, with a little wax, obtaining exactly the same colour as the heads of the long nails which I had extracted. Then I set myself to counterfeit these heads and place them on the holdfasts."
+    },
+    {
+      "id": 25,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "How does Cellini respond to the guard Giovanni's offensive remarks and close inspections?",
+      "held_out_passage": "I used to say: 'Keep a good watch over me, for I am resolved by all means to escape.' These words bred a great enmity between him and me, so that I was obliged to use precautions to conceal my tools."
+    },
+    {
+      "id": 26,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "Does Cellini hide his escape tools or leave them visible in his cell?",
+      "held_out_passage": "All these I put away together in my mattress, where I also kept the strips of linen I had made."
+    },
+    {
+      "id": 27,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "What does Cellini do each morning to maintain his appearance while planning his escape?",
+      "held_out_passage": "When day broke, I used immediately to sweep my room out; and though I am by nature a lover of cleanliness, at that time I kept myself unusually spick and span."
+    },
+    {
+      "id": 28,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When the castellan threatens to lock him up, does Cellini deny his intention to escape or openly declare it?",
+      "held_out_passage": "On seeing that it could not be helped, I told him before all his servants: 'Lock me well up, and keep good watch on me; for I shall certainly contrive to escape.'"
+    },
+    {
+      "id": 29,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "Before attempting his escape, does Cellini carefully plan and estimate what he needs, or act impulsively?",
+      "held_out_passage": "I took those new sheets of mine, which, as I have said already, I had cut in strips and sewn together; then I reckoned up the quantity which would be sufficient for my purpose. Having made this estimate and put all things in order."
+    },
+    {
+      "id": 30,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "What does Cellini claim about his word and trustworthiness when pleading with the castellan?",
+      "held_out_passage": "I might have fled, but that on account of the word which I had given him I would never have betrayed his trust: therefore I begged him for the love of God, and by the kindness he had always shown me, not to add greater evils to the misery of my present situation."
+    },
+    {
+      "id": 31,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "Does Cellini show fear or confidence when locked in prison?",
+      "held_out_passage": "I THEN began to deliberate upon the best way of making my escape. No sooner had I been locked in, than I went about exploring my prison."
+    },
+    {
+      "id": 32,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How does Cellini handle the difficulty of removing nails from the double door?",
+      "held_out_passage": "The door was double, and the clinching of the nails could not be seen; so that when I attempted to draw one out, I met with the greatest trouble; in the end, however, I succeeded."
+    },
+    {
+      "id": 33,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "What does Cellini's choice to keep flowers in his cell suggest about his character while imprisoned?",
+      "held_out_passage": "After sweeping up, I made my bed as daintily as I could, laying flowers upon it, which a Savoyard used to bring me nearly every morning."
+    },
+    {
+      "id": 34,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "When discussing flying with the castellan, does Cellini show practical knowledge or mere fantasy?",
+      "held_out_passage": "taking into consideration all flying creatures, and wishing to imitate by art what they derived from nature, none was so apt a model as the bat."
+    },
+    {
+      "id": 35,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "Does Cellini attempt to escape immediately or take time to plan carefully?",
+      "held_out_passage": "No sooner had I been locked in, than I went about exploring my prison; and when I thought I had discovered how to get out of it, I pondered the means of descending from the lofty keep."
+    },
+    {
+      "id": 36,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "How does Cellini respond to being confined with increased security measures?",
+      "held_out_passage": "Thereupon he replied: 'I too should be prepared to take flight; but since the Pope has bidden me guard you as though you were his own eyes, and I know you a clever devil who would certainly escape, I shall now have you locked up with a hundred keys in order to prevent you slipping through my fingers.'"
+    },
+    {
+      "id": 37,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "What does Cellini's behavior toward the guards reveal about his attitude toward authority?",
+      "held_out_passage": "I used to say: 'Keep a good watch over me, for I am resolved by all means to escape.' These words bred a great enmity between him and me."
+    },
+    {
+      "id": 38,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "Does Cellini show ingenuity in solving practical problems during his imprisonment?",
+      "held_out_passage": "I mixed some rust, which I had scraped from old iron, with a little wax, obtaining exactly the same colour as the heads of the long nails which I had extracted. Then I set myself to counterfeit these heads and place them on the holdfasts; for each nail I extracted I made a counterfeit in wax."
+    },
+    {
+      "id": 39,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "How does Cellini balance his need for secrecy with his natural inclinations?",
+      "held_out_passage": "though I am by nature a lover of cleanliness, at that time I kept myself unusually spick and span. After sweeping up, I made my bed as daintily as I could, laying flowers upon it."
+    },
+    {
+      "id": 40,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When facing imprisonment, does Cellini show resignation or active resistance?",
+      "held_out_passage": "I THEN began to deliberate upon the best way of making my escape. No sooner had I been locked in, than I went about exploring my prison; and when I thought I had discovered how to get out of it, I pondered the means of descending from the lofty keep."
+    },
+    {
+      "id": 41,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Benvenuto Cellini's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 42,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Benvenuto Cellini's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 43,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Benvenuto Cellini's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 44,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Benvenuto Cellini's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 45,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Benvenuto Cellini's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 46,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Benvenuto Cellini's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 47,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Benvenuto Cellini's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 48,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Benvenuto Cellini's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 49,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Benvenuto Cellini's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 50,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Benvenuto Cellini's opinion on modern technology?",
+      "held_out_passage": null
+    }
+  ]
+}
