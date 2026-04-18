@@ -1,74 +1,193 @@
 <!--
 ==========================================================================
- EDITORIAL CHECKLIST — items Aarik needs to personally review before push
- Remove this block before final publication.
+ EDITORIAL CHECKLIST — Aarik review items before push (remove before publication)
+
+ Each item has: [ ] CHECKBOX | CLAUDE'S READ | ALTERNATIVES | STAKES
 ==========================================================================
 
-PAPER FRAMING / VOICE
-[ ] Read the full paper in one sitting for voice consistency. Flag any sentence
-    that sounds like Claude / reviewer / PG flip / marketing — not Aarik.
-[ ] Title: "Beyond Recall: Behavioral Specification as the Missing Primitive for
-    AI Personalization" — keep, soften, or change? Reviewers split on "primitive."
-[ ] TLDR (top of paper): currently leads with "Memory systems store what someone
-    said..." parallel structure. Does it land? Is there a stronger opening?
-[ ] §1.1 "Facts do not carry their own significance; people do." Is this the
-    right opener for §1.1? Reviewers (PG) called it the buried thesis and
-    recommended promoting it — done.
+=== 1. TITLE ==========================================================
+[ ] "Beyond Recall: Behavioral Specification as the Missing Primitive for
+    AI Personalization"
 
-CORE CLAIMS TO STRESS-TEST
-[ ] §1.4 "Why the Gradient Implies Universal Utility for Real Users" — read
-    critically. Is the structural extrapolation from 14 known historical subjects
-    to "real living users" defensible? Multiple reviewers flagged this as the
-    paper's weakest flank.
-[ ] §5.1 "Why Primitive" — do the four rebuttals (persona card / RAG /
-    Claude-only prompt / better prompting) actually rule out each alternative?
-[ ] §5.2 "Representational Accuracy Is a Gradient Property" — is the "for
-    everyone" framing calibrated, or is it overreach?
-[ ] Behavioral alignment ≠ safety alignment distinction in §1.6 and §8 — does
-    this land, or does it still read as conflation?
+    CLAUDE'S READ: "Missing Primitive" is the single most contested word in the
+    paper. Three of five collective reviewers (PG, Scott, Julia) pushed back on
+    it. The word is defensible in §5.1 IF those rebuttals land, but a casual
+    reader sees the word in the title and forms an expectation the body may
+    not fully meet.
 
-DATA / NUMBERS TO SPOT-CHECK
-[ ] Table 4.1 (cross-subject gradient) — numbers match your expectations from
-    having run the study?
-[ ] §4.1.2 Gemini sensitivity (0.535 with / 0.659 without) — is this handled
-    honestly?
-[ ] §4.1.3 failure-mode analysis for Zitkala-Sa + Equiano — is this rigorous or
-    hand-waving?
-[ ] §4.3 Memory systems — Supermemory ceiling-effect framing, Letta native scope
-    caveat. Does this read as intellectually honest or defensive?
-[ ] §4.5 Wrong-spec v1 (Franklin) vs v2 (random derangement) — are both tables
-    showing what you expect? V1 below baseline, V2 near baseline.
-[ ] §4.8 Tier 2 circularity 5/6 — the one mismatch (Zitkala × Sonnet) is
-    discussed. Does the discussion read right?
-[ ] §6 Limitations — 14 items. Should any be promoted / demoted / added?
+    OPTIONS (pick one):
+    (A) KEEP: "Beyond Recall: Behavioral Specification as the Missing Primitive
+        for AI Personalization"
+        → Bold claim, stakes position, forces the argument. Risk: overreach
+        accusation if §5.1 isn't ironclad.
+    (B) SOFTEN: "Beyond Recall: Behavioral Specification as the Missing
+        Interpretive Layer for AI Personalization"
+        → Same argument, less swaggering word. My recommendation if you're
+        worried about being called out for overclaim.
+    (C) DROP PRIMITIVE ENTIRELY: "Beyond Recall: How AI Agents Need to
+        Represent the People They Serve"
+        → More descriptive, less catchy, avoids the fight entirely.
+    (D) COMPLETELY DIFFERENT: "Representational Accuracy: The Missing Metric
+        in AI Personalization"
+        → Leads with the concept, not the proposed solution. Most academic.
 
-ANALYSES STILL IN FLIGHT
-[ ] OpenAI backfill (~25% done, ~2 hrs remaining) — numbers locked after this
-    completes; refresh RESULTS_S113.json and verify paper tables still match.
-[ ] Gemini Flash backfill (~60% done, 1-2 hrs remaining) — same.
-[ ] Letta agent-loop experiment on Hamerton — running in background. Result will
-    go into §4.3 scope caveat if informative.
-[ ] Semantic overlap analysis — NEW, not yet in paper. Top-1 all-3 match: 7.6%
-    (controlled), 0% (native). Decide: promote to §4.3 or note in §7 Future Work.
+    RECOMMENDATION: (B) — keeps the stake in the ground, drops the contested
+    word. You get 90% of the punch, 10% of the attack surface.
 
-OUTREACH & LAUNCH (Tuesday 2026-04-21)
-[ ] Phase 1 email templates finalized (memory founders, agent builders)
-[ ] ArXiv endorsement — Packer (Letta) asked first, backup Betley
-[ ] GitHub repo flipped to public (currently private: agulaya24/memory-study-repo)
-[ ] Blog post drafted (v2 at docs/blog_post_v2.md — voice pass needed)
-[ ] Reddit posts staged (r/MachineLearning, r/LocalLLaMA)
-[ ] Twitter/X thread drafted with key numbers and figures
-[ ] LinkedIn article drafted
+=== 2. TLDR ===========================================================
+[ ] Currently: "Memory systems store what someone said. Preference models
+    store what they liked. Personas store how they present. None of them
+    store how that person reasons..."
 
-POST-LAUNCH / FOLLOW-UP
-[ ] Living-subject study design (Aarik as N=1 first subject)
-[ ] Letta agent-loop diff test — full conversation over corpus, diff core memory
-    block against spec
-[ ] Semantic overlap @ top-k for C8/C9 raw corpus conditions
-[ ] Layer ablation (anchors-only, core-only, predictions-only)
-[ ] Independent pretraining proxy (n-gram frequency in C4/Pile / Wikipedia)
-[ ] Paper review round 2 — all 5 free model reviewers + GPT-5.4 full
-[ ] Human eval: 100 Qs × 3 human raters on a subset
+    CLAUDE'S READ: Reads like you. Parallel structure works. "Facts do not
+    carry their own significance; people do" is the quotable line and it lands
+    in sentence 4. No changes recommended unless you want to try:
+    (A) Lead with the quote — Facts do not carry their own significance; people
+        do. Memory systems store facts. They do not store how a specific person
+        assigns significance to those facts. (etc.)
+    (B) Lead with the data — Across 14 subjects, three state-of-the-art memory
+        systems return completely different top-1 facts 94% of the time when
+        given the same input. Recall is not representation... (etc.)
+
+    RECOMMENDATION: Keep current unless (A) feels more like you — PG's flip
+    version you already rejected.
+
+=== 3. §1.4 "Why the Gradient Implies Universal Utility" ==============
+[ ] The structural-extrapolation argument from 14 known historical subjects
+    to "real living users." Three reviewers (Scott, Julia, Amanda) flagged
+    this as the paper's weakest flank.
+
+    CLAUDE'S READ: The argument is defensible as "structural evidence, not
+    direct proof," which §1.4 and §1.5 already acknowledge. Risk: §5.2 later
+    re-asserts the universal claim more confidently than §1.5's caveat allows.
+    Readers who pattern-match to the confident version miss the caveat.
+
+    OPTIONS:
+    (A) KEEP BOTH, add forward reference — §1.4 asserts "strong evidence" →
+        §1.5 immediately hedges "not proven" → §5.2 must match §1.5's tone.
+        Check §5.2 reads consistently with the hedge.
+    (B) SOFTEN §1.4 — replace "gives strong structural evidence" with
+        "gives suggestive structural evidence."
+    (C) REMOVE §1.4 ENTIRELY — keep the argument in §5.2 only, after data
+        context is established.
+
+    RECOMMENDATION: (A). Read §5.2 closely; if it re-asserts universality
+    without the hedge, tone §5.2 to match §1.5.
+
+=== 4. §5.1 "Why Primitive" FOUR REBUTTALS =============================
+[ ] Does the defense actually rule out each alternative?
+    (1) Persona card — ruled out by wrong-spec control ✓
+    (2) Compressed RAG context — ruled out by C2a outperforming C4 ✓
+    (3) Claude-only prompt trick — ruled out by Tier 2 (Sonnet + Gemini Pro) ✓
+    (4) Better prompt engineering — ruled out by automation + traceability +
+        cross-provider transferability properties ?
+
+    CLAUDE'S READ: (1)-(3) are empirically ruled out. (4) is definitional
+    rather than empirical — we argue the spec's architectural properties
+    distinguish it from prompt engineering, which some readers will accept
+    and some won't.
+
+    OPTIONS:
+    (A) KEEP — accept that (4) is conceptual not empirical; the conceptual
+        argument is fine because §5.1 labels itself as a "scope" defense.
+    (B) TIGHTEN (4) — add a specific empirical test (e.g., can a human-written
+        "persona prompt" of similar length produce similar gains? We don't
+        have data on this).
+    (C) DROP (4) — state only 3 rebuttals, stronger because all 3 empirical.
+
+    RECOMMENDATION: (A). §5.1 is already scoped as philosophical-plus-empirical;
+    leaving (4) conceptual is honest. If title changes to "Missing Interpretive
+    Layer," this whole section can be shortened.
+
+=== 5. SEMANTIC OVERLAP ANALYSIS (new, not yet in paper) ==============
+[ ] Run complete: 7.6% top-1 all-3-match (controlled), 0% all-3-match (native).
+    Much stronger than string-match 94% disagreement. Decide where to put this.
+
+    OPTIONS:
+    (A) PROMOTE to §4.3 as a primary finding — replaces or complements the
+        current 94%/84%/75%/56% string-match numbers. Stronger intellectually
+        because semantic disagreement is more damning than lexical.
+    (B) ADD as §4.3.1 "Semantic Overlap" subsection — keep string-match as
+        primary, semantic as deeper analysis.
+    (C) NOTE briefly in §4.3 and release full analysis in repo — minimal paper
+        impact.
+    (D) DEFER to §7 Future Work — say "semantic overlap analysis planned" and
+        don't include numbers.
+
+    RECOMMENDATION: (B). String-match is the conservative intro; semantic
+    analysis deepens it. Both point the same direction, so the reader sees the
+    finding is robust across matching methods.
+
+=== 6. §4.1.3 FAILURE-MODE ANALYSIS (Zitkala-Sa + Equiano) ============
+[ ] Three hypotheses considered (pretraining sufficiency / spec misalignment /
+    retrieval interference). Pretraining sufficiency preferred. Manual spec
+    check mentioned but not rigorous. Reviewer (Julia) called it "better than
+    hand-waving but not rigorous."
+
+    CLAUDE'S READ: The section is honest about limitations but lacks direct
+    evidence. The manual spec-alignment check is asserted, not shown.
+
+    OPTIONS:
+    (A) KEEP AS-IS and accept the "better than hand-waving" verdict.
+    (B) ADD A CONCRETE DIAGNOSTIC — e.g., for Zitkala-Sa, show the wrong-spec
+        v2 score: if it's near baseline, that supports "pretraining interference
+        with correct spec" over "spec misalignment."
+    (C) MOVE to limitations — say "we observe the negative effect but did
+        not fully diagnose mechanism; this is future work."
+
+    RECOMMENDATION: (B) if easy (we have wrong-spec v2 data), else (A).
+
+=== 7. §6 LIMITATIONS (14 items) ======================================
+[ ] Check that:
+    - #1 "No human judges" is prominent (it is — top of list)
+    - #12 "C5-as-pretraining-proxy circularity" is honest enough (arguably
+      should be more prominent — move up?)
+    - Any item feels defensive rather than genuinely limiting?
+
+    OPTIONS:
+    (A) Reorder: promote #12 (circularity) to #2 position. That's the
+        reviewer's sharpest critique.
+    (B) Compress: 14 items is a lot. Merge related ones (e.g., #9 temporal
+        drift + #10 spec stability into one "temporal / stability" item).
+    (C) Leave as-is.
+
+    RECOMMENDATION: (A) for honesty — surface the sharpest critique early.
+
+=== 8. VOICE CONSISTENCY (whole paper) =================================
+[ ] Flag any sentence that sounds Claude / Reviewer / marketing / PG flip —
+    not Aarik.
+
+    KNOWN OFFENDERS already fixed:
+    - "Recall is not the thing" (PG flip) — removed
+    - "The question is to what extent, by what means, and for whom" — kept
+      (sounds neutral-academic, which is fine for the opener)
+
+    WATCH FOR:
+    - "load-bearing" — used 4+ times; reads like Claude's style. Replace some
+      with "critical," "the piece that," or cut entirely.
+    - "this is the single most" — academic overemphasis; check usage.
+    - Passive-voice academic filler in §3 methodology — always reads cold.
+    - "We invite..." repetition in §1.6 and §8. One mention is enough.
+
+    RECOMMENDATION: One read-through with scissors. Anything that doesn't sound
+    like you said it, cut or rewrite.
+
+=== 9. ANALYSES STILL IN FLIGHT (don't push until landed) =============
+[ ] OpenAI backfill (gpt4o + gpt54 × Tier 2 + wrong-spec v2 + BL):
+    ~40 jobs, ~5 min each, ~3 hrs remaining. Auto.
+[ ] Gemini Flash backfill: ~50% through 23 jobs, ~2 hrs remaining. Auto.
+[ ] Letta agent-loop on Hamerton: STUCK on Letta rate limits. Defer to
+    post-launch or pay for tier upgrade.
+[ ] RESULTS_S113.json refresh after backfill completes — verify paper
+    numbers still hold within ±0.05 for headline claims.
+
+=== 10. OUTREACH FINALIZATION (Tuesday launch) ========================
+See PAPER_DASHBOARD.md for full list. Critical path:
+[ ] arXiv endorsement ask to Packer — SEND BY MONDAY
+[ ] Study repo flipped to public — BEFORE blog goes live
+[ ] Blog post v2 voice pass — your voice, not Claude's
+[ ] Email templates: memory founders, agent builders — draft Sunday
+[ ] Twitter thread + LinkedIn article — draft Monday
 
 ==========================================================================
 -->
