@@ -1,3 +1,78 @@
+<!--
+==========================================================================
+ EDITORIAL CHECKLIST — items Aarik needs to personally review before push
+ Remove this block before final publication.
+==========================================================================
+
+PAPER FRAMING / VOICE
+[ ] Read the full paper in one sitting for voice consistency. Flag any sentence
+    that sounds like Claude / reviewer / PG flip / marketing — not Aarik.
+[ ] Title: "Beyond Recall: Behavioral Specification as the Missing Primitive for
+    AI Personalization" — keep, soften, or change? Reviewers split on "primitive."
+[ ] TLDR (top of paper): currently leads with "Memory systems store what someone
+    said..." parallel structure. Does it land? Is there a stronger opening?
+[ ] §1.1 "Facts do not carry their own significance; people do." Is this the
+    right opener for §1.1? Reviewers (PG) called it the buried thesis and
+    recommended promoting it — done.
+
+CORE CLAIMS TO STRESS-TEST
+[ ] §1.4 "Why the Gradient Implies Universal Utility for Real Users" — read
+    critically. Is the structural extrapolation from 14 known historical subjects
+    to "real living users" defensible? Multiple reviewers flagged this as the
+    paper's weakest flank.
+[ ] §5.1 "Why Primitive" — do the four rebuttals (persona card / RAG /
+    Claude-only prompt / better prompting) actually rule out each alternative?
+[ ] §5.2 "Representational Accuracy Is a Gradient Property" — is the "for
+    everyone" framing calibrated, or is it overreach?
+[ ] Behavioral alignment ≠ safety alignment distinction in §1.6 and §8 — does
+    this land, or does it still read as conflation?
+
+DATA / NUMBERS TO SPOT-CHECK
+[ ] Table 4.1 (cross-subject gradient) — numbers match your expectations from
+    having run the study?
+[ ] §4.1.2 Gemini sensitivity (0.535 with / 0.659 without) — is this handled
+    honestly?
+[ ] §4.1.3 failure-mode analysis for Zitkala-Sa + Equiano — is this rigorous or
+    hand-waving?
+[ ] §4.3 Memory systems — Supermemory ceiling-effect framing, Letta native scope
+    caveat. Does this read as intellectually honest or defensive?
+[ ] §4.5 Wrong-spec v1 (Franklin) vs v2 (random derangement) — are both tables
+    showing what you expect? V1 below baseline, V2 near baseline.
+[ ] §4.8 Tier 2 circularity 5/6 — the one mismatch (Zitkala × Sonnet) is
+    discussed. Does the discussion read right?
+[ ] §6 Limitations — 14 items. Should any be promoted / demoted / added?
+
+ANALYSES STILL IN FLIGHT
+[ ] OpenAI backfill (~25% done, ~2 hrs remaining) — numbers locked after this
+    completes; refresh RESULTS_S113.json and verify paper tables still match.
+[ ] Gemini Flash backfill (~60% done, 1-2 hrs remaining) — same.
+[ ] Letta agent-loop experiment on Hamerton — running in background. Result will
+    go into §4.3 scope caveat if informative.
+[ ] Semantic overlap analysis — NEW, not yet in paper. Top-1 all-3 match: 7.6%
+    (controlled), 0% (native). Decide: promote to §4.3 or note in §7 Future Work.
+
+OUTREACH & LAUNCH (Tuesday 2026-04-21)
+[ ] Phase 1 email templates finalized (memory founders, agent builders)
+[ ] ArXiv endorsement — Packer (Letta) asked first, backup Betley
+[ ] GitHub repo flipped to public (currently private: agulaya24/memory-study-repo)
+[ ] Blog post drafted (v2 at docs/blog_post_v2.md — voice pass needed)
+[ ] Reddit posts staged (r/MachineLearning, r/LocalLLaMA)
+[ ] Twitter/X thread drafted with key numbers and figures
+[ ] LinkedIn article drafted
+
+POST-LAUNCH / FOLLOW-UP
+[ ] Living-subject study design (Aarik as N=1 first subject)
+[ ] Letta agent-loop diff test — full conversation over corpus, diff core memory
+    block against spec
+[ ] Semantic overlap @ top-k for C8/C9 raw corpus conditions
+[ ] Layer ablation (anchors-only, core-only, predictions-only)
+[ ] Independent pretraining proxy (n-gram frequency in C4/Pile / Wikipedia)
+[ ] Paper review round 2 — all 5 free model reviewers + GPT-5.4 full
+[ ] Human eval: 100 Qs × 3 human raters on a subset
+
+==========================================================================
+-->
+
 # Beyond Recall: Behavioral Specification as the Missing Primitive for AI Personalization
 
 **Author:** Aarik Gulaya, Base Layer
