@@ -1,0 +1,580 @@
+{
+  "metadata": {
+    "subject": "Mary Seacole",
+    "subject_key": "seacole",
+    "generated": "2026-04-14T22:49:39.362300+00:00",
+    "model": "claude-haiku-4-5-20251001",
+    "method": "backward_design_from_heldout",
+    "total": 80,
+    "tiers": {
+      "behavioral_prediction": 39,
+      "recall": 10,
+      "inferential": 11,
+      "adversarial_abstention": 10,
+      "boundary_probing": 10
+    },
+    "checksum": "b3d77fb63dacaa37bb715b8c78c64433"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "When witnessing a soldier in pain, how would Mary Seacole expect a stern military officer to respond emotionally?",
+      "held_out_passage": "but once, when they raised a sufferer somewhat awkwardly, and he groaned deeply, that rough man broke out all at once with an oath, that was strangely like a prayer, and bade the men, for God's sake, take more care."
+    },
+    {
+      "id": 2,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "How does Mary Seacole typically respond when a delirious patient mistakes her for a family member?",
+      "held_out_passage": "Poor fellow! I could not undeceive him. I think the fancy happily caused by the touch of a woman's hand soothed his dying hour"
+    },
+    {
+      "id": 3,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "What does Mary Seacole believe about the comparative capabilities of men and women in medical care work?",
+      "held_out_passage": "Only women could have done more than they did who attended to this melancholy duty; and they, not because their hearts could be softer, but because their hands are moulded for this work."
+    },
+    {
+      "id": 4,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How does Mary Seacole respond to wounded soldiers who maintain good humor despite their injuries?",
+      "held_out_passage": "Once I heard my name eagerly pronounced, and turning round, recognised a sailor whom I remembered as one of the crew of the \"Alarm,\" stationed at Kingston, a few years back."
+    },
+    {
+      "id": 5,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "What practical items does Mary Seacole prepare to provide comfort to wounded soldiers, and what restrictions does she face?",
+      "held_out_passage": "These, with some lemonade, were all the doctors would allow me to give to the wounded. They all liked the cake, poor fellows, better than anything else: perhaps because it tasted of \"home.\""
+    },
+    {
+      "id": 6,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "How does Mary Seacole use testimonial letters from military officers in her narrative?",
+      "held_out_passage": "And here, lest the reader should consider that I am speaking too highly of my own actions, I must have recourse to a plan which I shall frequently adopt in the following pages, and let another voice speak for me"
+    },
+    {
+      "id": 7,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "What physical dangers does Mary Seacole face in her daily work environment?",
+      "held_out_passage": "The exposure by day was enough to try any woman's strength; and at night one was not always certain of repose. Nor was it the easiest thing to clamber up the steep sides of the \"Medora;\" and more than once I narrowly escaped a sousing in the harbour."
+    },
+    {
+      "id": 8,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How does Mary Seacole interpret a rough soldier's emotional response to a patient's suffering?",
+      "held_out_passage": "while, I am most strangely deceived if I did not see a tear-drop gathering in his eye."
+    },
+    {
+      "id": 9,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "What does Mary Seacole observe about how wounded soldiers' morale is affected by peer support?",
+      "held_out_passage": "And this brave fellow, after he had sipped some lemonade, and laid down, when he heard the men groaning, raised his head and comforted them in the same strain again; and, it may seem strange, but it quieted them."
+    },
+    {
+      "id": 10,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How does Mary Seacole characterize the philosophical attitude of sailors toward their war injuries?",
+      "held_out_passage": "\"Why, look'ye, when I've seen so many pretty fellows knocked off the ship's roll altogether, don't you think I ought to be thankful if I can answer the bo'swain's call anyhow?\" And this was the sailors' philosophy always."
+    },
+    {
+      "id": 11,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "Based on Mary's established pattern of medical practice, how would she likely respond if soldiers were reluctant to use official medical facilities?",
+      "held_out_passage": "In the first place, the men (I am speaking of the \"ranks\" now) had a very serious objection to going into hospital for any but urgent reasons, and the regimental doctors were rather fond of sending them there; and, in the second place, they could and did get at my store sick-comforts and nourishing food, which the heads of the medical staff would sometimes find it difficult to procure."
+    },
+    {
+      "id": 12,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Given Mary's demonstrated values regarding service and charity, what would motivate her to provide medical care to soldiers in difficult circumstances?",
+      "held_out_passage": "I never forgot that my intention in seeking the army was to help the kind-hearted doctors, to be useful to whom I have ever looked upon and still regard as so high a privilege."
+    },
+    {
+      "id": 13,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "How would Mary likely treat soldiers who came to her for medical assistance, based on her established business practices?",
+      "held_out_passage": "And although I did not hesitate to charge him with the value of the necessaries I took him, still he was thankful enough to be able to _purchase_ them."
+    },
+    {
+      "id": 14,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "What emotional response would Mary likely have when witnessing soldiers enduring hardship far from home?",
+      "held_out_passage": "How often have I felt sad at the sight of poor lads, who in England thought attending early parade a hardship, and felt harassed if their neckcloths set awry, or the natty little boots would not retain their polish, bearing, and bearing so nobly and bravely, trials and hardships to which the veteran campaigner frequently succumbed."
+    },
+    {
+      "id": 15,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "Based on Mary's understanding of human psychology and comfort, what would she recognize as important to soldiers' recovery?",
+      "held_out_passage": "the poor officer lying ill and weary in his crazy hut, dependent for the merest necessaries of existence upon a clumsy, ignorant soldier-cook, who would almost prefer eating his meat raw to having the trouble of cooking it (our English soldiers are bad campaigners), often finds his greatest troubles in the want of those little delicacies with which a weak stomach must be humoured into retaining nourishment."
+    },
+    {
+      "id": 16,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How would Mary characterize the significance of her role as perceived by the soldiers she served?",
+      "held_out_passage": "Then their calling me \"mother\" was not, I think, altogether unmeaning. I used to fancy that there was something homely in the word; and, reader, you cannot think how dear to them was the smallest thing that reminded them of home."
+    },
+    {
+      "id": 17,
+      "tier": "behavioral_prediction",
+      "category": "career",
+      "text": "What would Mary likely do if a high-ranking military figure requested her medical expertise?",
+      "held_out_passage": "I am proud to think that a gallant sailor, on whose brave breast the order of Victoria rests--a more gallant man can never wear it--sent for the doctress whom he had known in Kingston, when his arm, wounded on the fatal 18th of June, refused to heal, and I think that the application I recommended did it good"
+    },
+    {
+      "id": 18,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Based on Mary's established pattern of self-presentation, how would she likely handle discussing her medical successes?",
+      "held_out_passage": "I was very familiar with the diseases which they suffered most from, and successful in their treatment (I say this in no spirit of vanity)"
+    },
+    {
+      "id": 19,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "What practical advantages would Mary's established store provide to soldiers seeking her care?",
+      "held_out_passage": "they could and did get at my store sick-comforts and nourishing food, which the heads of the medical staff would sometimes find it difficult to procure."
+    },
+    {
+      "id": 20,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How would Mary likely interpret soldiers' emotional reactions to receiving care and comfort during illness?",
+      "held_out_passage": "I tell you, reader, I have seen many a bold fellow's eyes moisten at such a season, when a woman's voice and a woman's care have brought to their minds recollections of those happy English homes which some of them never saw again"
+    },
+    {
+      "id": 21,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "When faced with a situation where multiple people make simultaneous requests for her services, how does Mary Seacole typically respond?",
+      "held_out_passage": "To please all was somewhat difficult, and occasionally some of them were scarcely so polite as they should have been to a perplexed hostess, who could scarcely be expected to remember that Lieutenant A. had bespoken his sangaree an instant before Captain B. and his friends had ordered their claret cup."
+    },
+    {
+      "id": 22,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "How does Mary Seacole demonstrate her resourcefulness when preparing for anticipated seasonal changes?",
+      "held_out_passage": "In anticipation of the hot weather, I had laid in a large stock of raspberry vinegar, which, properly managed, helps to make a pleasant drink; and there was a great demand for sangaree, claret, and cider cups, the battered pewter pots."
+    },
+    {
+      "id": 23,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "What is Mary Seacole's typical response when she learns of deaths among those she knows?",
+      "held_out_passage": "These tidings often saddened me, and when I awoke in the night and heard the thunder of the guns fiercer than usual, I have quite dreaded the dawn which might usher in bad news."
+    },
+    {
+      "id": 24,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "When young officers prepare to enter dangerous situations, what kind of interaction do they typically seek with Mary Seacole?",
+      "held_out_passage": "It was very usual, when a young officer was ordered into the trenches, for him to ride down to Spring Hill to dine, or obtain something more than his ordinary fare to brighten his weary hours in those fearful ditches."
+    },
+    {
+      "id": 25,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How does Mary Seacole respond when soldiers ask her to care for them during dangerous operations?",
+      "held_out_passage": "Then very often the men would say, 'I'm going in with my master to-night, Mrs. Seacole; come and look after him, if he's hit;' and so often as this happened I would pass the night restlessly, awaiting with anxiety the morning, and yet dreading to hear the news it held in store for me."
+    },
+    {
+      "id": 26,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "What does Mary Seacole typically say to soldiers departing for dangerous duty?",
+      "held_out_passage": "I never failed (although who was I, that I should preach?) to say something about God's providence and relying upon it; and they were very good."
+    },
+    {
+      "id": 27,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When she learns of a soldier's death, what action does Mary Seacole feel compelled to take?",
+      "held_out_passage": "And as often as the bad news came, I thought it my duty to ride up to the hut of the sufferer and do my woman's work."
+    },
+    {
+      "id": 28,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How does Mary Seacole's emotional attachment to those she cares for affect her during wartime?",
+      "held_out_passage": "I used to think it was like having a large family of children ill with fever, and dreading to hear which one had passed away in the night."
+    },
+    {
+      "id": 29,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "What emotional impact does witnessing the death of a young soldier she has nursed have on Mary Seacole?",
+      "held_out_passage": "It was a long time before I could banish from my mind the thought of him as I saw him last, the yellow hair, stiff and stained with his life-blood, and the blue eyes closed in the sleep of death."
+    },
+    {
+      "id": 30,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How does Mary Seacole honor those she has known who have died?",
+      "held_out_passage": "Of course, I saw him buried, as I did poor H---- V----, my old Jamaica friend, whose kind face was so familiar to me of old."
+    },
+    {
+      "id": 31,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "When faced with an accusation of espionage by a soldier, how does Mary Seacole typically respond to threats to her freedom or reputation?",
+      "held_out_passage": "Now, such a charge was enough to make a lion of a lamb; so I refused positively to dismount, and made matters worse by knocking in the cap of the first soldier who laid hands upon me, with the bell that hung at my saddle."
+    },
+    {
+      "id": 32,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "When physically restrained or threatened, what tools or objects does Mary Seacole use to defend herself?",
+      "held_out_passage": "while I resisted with all my force, screaming out for Mr. Day, and using the bell for a weapon. How I longed for a better one I need not tell the reader."
+    },
+    {
+      "id": 33,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "After being wrongfully arrested or mistreated, does Mary Seacole seek revenge or confrontation with those responsible?",
+      "held_out_passage": "Although I rather weakened my cause, it was most natural that, directly I was released, I should fly at the varlet who had caused me this trouble; and I did so, using my bell most effectually, and aided, when my party returned, by their riding-whips."
+    },
+    {
+      "id": 34,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "When encountering a soldier in need or someone she has previously helped, how does Mary Seacole respond?",
+      "held_out_passage": "came up a French officer, whom I recognised as the patient I had taken to Spring Hill after the battle of the Tchernaya, and who took my part at once, and ordered them to release me."
+    },
+    {
+      "id": 35,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When offered an opportunity to purchase a religious artifact from a war zone, what is Mary Seacole's likely response?",
+      "held_out_passage": "On the way, a little French soldier begged hard of me to buy a picture, which had been cut from above the altar of some church in Sebastopol. It was too dark to see much of his prize, but I ultimately became its possessor, and brought it home with me."
+    },
+    {
+      "id": 36,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "How does Mary Seacole typically react to witnessing scenes of suffering and death in hospitals or battlefields?",
+      "held_out_passage": "The very recollection of that woeful hospital, where thousands of dead and dying had been left by the retreating Russians, is enough to unnerve the strongest and sicken the most experienced. I would give much if I had never seen that harrowing sight."
+    },
+    {
+      "id": 37,
+      "tier": "behavioral_prediction",
+      "category": "career",
+      "text": "When considering whether to establish a business in a newly captured territory, what factors influence Mary Seacole's decision?",
+      "held_out_passage": "Before many days were passed, some Frenchwomen opened houses in Sebastopol; but in that quarter of the town held by the English the prospect was not sufficiently tempting for me to follow their example, and so I saw out the remainder of the campaign from my old quarters at Spring Hill."
+    },
+    {
+      "id": 38,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "After a major military victory, how does Mary Seacole expect the camp to occupy itself during periods of relative peace?",
+      "held_out_passage": "In the meanwhile, the real workers applied themselves to plan amusements, and the same energy and activity which had made Sebastopol a heap of ruins and a well-filled cemetery--which had dug the miles of trenches, and held them when made against a desperate foe--which had manned the many guns, and worked them so well, set to work as eager to kill their present enemy, Time, as they had lately been to destroy their fled enemies, the Russians."
+    },
+    {
+      "id": 39,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "What aesthetic or spiritual qualities does Mary Seacole appreciate when examining religious artwork?",
+      "held_out_passage": "There is a look of divine calmness and heavenly love in the Madonna's face which is very striking; and, perhaps, during the long and awful siege many a knee was bent in worship before it, and many a heart found comfort in its soft loving gaze."
+    },
+    {
+      "id": 40,
+      "tier": "recall",
+      "category": "recall",
+      "text": "Who wrote the introductory preface to Mary Seacole's book?",
+      "held_out_passage": null
+    },
+    {
+      "id": 41,
+      "tier": "recall",
+      "category": "recall",
+      "text": "In what year was 'Wonderful Adventures of Mrs. Seacole in Many Lands' published?",
+      "held_out_passage": null
+    },
+    {
+      "id": 42,
+      "tier": "recall",
+      "category": "recall",
+      "text": "To whom was the book dedicated?",
+      "held_out_passage": null
+    },
+    {
+      "id": 43,
+      "tier": "recall",
+      "category": "recall",
+      "text": "What disease did Mary Seacole encounter and treat in Jamaica?",
+      "held_out_passage": null
+    },
+    {
+      "id": 44,
+      "tier": "recall",
+      "category": "recall",
+      "text": "What was the name of the hotel Mary Seacole established in the Crimea?",
+      "held_out_passage": null
+    },
+    {
+      "id": 45,
+      "tier": "recall",
+      "category": "recall",
+      "text": "Which hospital did Mary Seacole visit while in Constantinople?",
+      "held_out_passage": null
+    },
+    {
+      "id": 46,
+      "tier": "recall",
+      "category": "recall",
+      "text": "What was the name of the firm established to supply the British Army before Sebastopol?",
+      "held_out_passage": null
+    },
+    {
+      "id": 47,
+      "tier": "recall",
+      "category": "recall",
+      "text": "On what date did Mary Seacole experience being under fire, as mentioned in Chapter XVI?",
+      "held_out_passage": null
+    },
+    {
+      "id": 48,
+      "tier": "recall",
+      "category": "recall",
+      "text": "What location did Mary Seacole choose as the site for her store in Balaclava?",
+      "held_out_passage": null
+    },
+    {
+      "id": 49,
+      "tier": "recall",
+      "category": "recall",
+      "text": "Which famous nurse is mentioned in the text as being in the Crimea?",
+      "held_out_passage": null
+    },
+    {
+      "id": 50,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "Why would W. H. Russell's preface specifically mention that Mary Seacole 'redeemed the name of sutler' in connection with her work in the Crimea, and what does this suggest about her role compared to other women who went to war zones?",
+      "held_out_passage": null
+    },
+    {
+      "id": 51,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "Based on Mary Seacole's experiences in Panama during the cholera outbreak and her later work in the Crimea, what pattern of behavior emerges about how she responded to medical crises, and what does this reveal about her motivations?",
+      "held_out_passage": null
+    },
+    {
+      "id": 52,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "How do Mary Seacole's various business ventures in Panama (taking a hotel in Cruces, migrating to Gorgona, opening a store in Navy Bay) connect to her eventual establishment of the British Hotel in the Crimea, and what do these progressions suggest about her character?",
+      "held_out_passage": null
+    },
+    {
+      "id": 53,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "Why might Russell's comparison of Mary Seacole to Anna Comnena be significant given that he describes her as 'a plain truth-speaking woman' and emphasizes her direct experience 'on the stage where they passed'?",
+      "held_out_passage": null
+    },
+    {
+      "id": 54,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "What connection can be drawn between Mary Seacole's experience treating cholera victims in Jamaica and Panama and her decision to go to the Crimea, and what does this suggest about how her past prepared her for her future work?",
+      "held_out_passage": null
+    },
+    {
+      "id": 55,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "How does Mary Seacole's status as a widow who engaged in business ventures in multiple countries relate to Russell's description of her as 'a helpless woman,' and what might this contradiction reveal about Victorian perceptions of women?",
+      "held_out_passage": null
+    },
+    {
+      "id": 56,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "Given that Mary Seacole established businesses in Cruces, Gorgona, and Navy Bay before going to the Crimea, what does the formation of the firm 'Day and Martin' suggest about her approach to reaching her goal of joining the British Army?",
+      "held_out_passage": null
+    },
+    {
+      "id": 57,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "Why would Russell emphasize that Mary Seacole 'nursed her sick, who sought out her wounded to aid and succour them' in the context of her work as a sutler, and how does this distinguish her from typical sutlers of the era?",
+      "held_out_passage": null
+    },
+    {
+      "id": 58,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "What do Mary Seacole's experiences managing difficult situations in Panama (dealing with thieves, quarrels among travelers, and revolutionary conspiracies) suggest about her qualifications for managing the British Hotel in a war zone?",
+      "held_out_passage": null
+    },
+    {
+      "id": 59,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "How do the chapters describing Mary Seacole's struggles in Panama and her initial failures in London to join the British Army connect to her eventual success in establishing herself at Balaclava, and what does this trajectory suggest about her persistence?",
+      "held_out_passage": null
+    },
+    {
+      "id": 60,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "Based on Russell's statement that Mary Seacole's book 'must, from the circumstances in which the subject of it was placed, be unique in literature' combined with the chapter titles showing her medical work during the Crimean War, what makes her perspective distinctly different from other war accounts of the period?",
+      "held_out_passage": null
+    },
+    {
+      "id": 61,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What would Mary Seacole's position be on modern telemedicine and remote patient monitoring technologies?",
+      "held_out_passage": null
+    },
+    {
+      "id": 62,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "How would Mary Seacole have responded to the establishment of the International Committee of the Red Cross if she had been consulted during its founding?",
+      "held_out_passage": null
+    },
+    {
+      "id": 63,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What were Mary Seacole's private thoughts on her romantic relationships and whether she ever considered marriage after her husband's death?",
+      "held_out_passage": null
+    },
+    {
+      "id": 64,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "How would Mary Seacole have viewed the development of antibiotics and modern surgical techniques in the 20th century?",
+      "held_out_passage": null
+    },
+    {
+      "id": 65,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What specific conversations did Mary Seacole have with Florence Nightingale, and why did they not work together in the Crimea?",
+      "held_out_passage": null
+    },
+    {
+      "id": 66,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "Would Mary Seacole have supported the women's suffrage movement had she lived into the early 20th century?",
+      "held_out_passage": null
+    },
+    {
+      "id": 67,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What were Mary Seacole's detailed personal beliefs about the theological justifications for slavery and colonialism?",
+      "held_out_passage": null
+    },
+    {
+      "id": 68,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "How would Mary Seacole have assessed the decolonization movements of Africa and the Caribbean in the mid-20th century?",
+      "held_out_passage": null
+    },
+    {
+      "id": 69,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What specific medical treatments did Mary Seacole consider ineffective or harmful, but never publicly documented in her writings?",
+      "held_out_passage": null
+    },
+    {
+      "id": 70,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "How would Mary Seacole have responded to modern discussions of cultural appropriation regarding her use of Creole healing practices?",
+      "held_out_passage": null
+    },
+    {
+      "id": 71,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Given Seacole's demonstrated willingness to venture into dangerous combat zones and her stated commitment to helping the wounded, would she have prioritized assisting enemy soldiers (Russians) with the same dedication she showed British troops, or did her charity have national boundaries?",
+      "held_out_passage": null
+    },
+    {
+      "id": 72,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Seacole's memoir emphasizes her medical knowledge and success treating cholera, yet she never formally trained as a nurse. How would she have responded if her unconventional methods had been directly contradicted by established medical authority—would she have deferred or maintained her independent practice?",
+      "held_out_passage": null
+    },
+    {
+      "id": 73,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "She describes profiting from her hotel and store operations while simultaneously performing charitable work. At what point, if any, would commercial gain have conflicted with her stated humanitarian mission, and how would she have resolved such a conflict?",
+      "held_out_passage": null
+    },
+    {
+      "id": 74,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Seacole mentions 'sympathy with American slaves' but operated successfully in Panama during a period of significant exploitation. Did her anti-slavery sentiment extend to opposing the labor systems she benefited from, or was her activism selective?",
+      "held_out_passage": null
+    },
+    {
+      "id": 75,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Her narrative presents her as universally beloved, yet she acknowledges having 'enemies' in the Crimea. What grievances did these enemies hold, and was there validity to any criticism of her conduct that her memoir might have minimized?",
+      "held_out_passage": null
+    },
+    {
+      "id": 76,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Seacole worked alongside Florence Nightingale but their relationship appears distant in her account. Given Nightingale's documented concerns about unregulated medical practitioners, did Seacole view Nightingale as a rival, and if so, did professional jealousy ever compromise her patient care?",
+      "held_out_passage": null
+    },
+    {
+      "id": 77,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "She describes herself as a 'Creole' and references her mixed heritage, yet her memoir contains racial attitudes typical of her era. How consciously did she navigate her own racial identity, and did she ever experience moments where her mixed-race status created internal conflict with her stated values?",
+      "held_out_passage": null
+    },
+    {
+      "id": 78,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Seacole's financial situation appears precarious despite her entrepreneurial efforts. Would she have abandoned her charitable work if her business ventures had failed completely, or was her humanitarian commitment independent of economic security?",
+      "held_out_passage": null
+    },
+    {
+      "id": 79,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "She claims to have treated cholera successfully using unconventional methods while others died. Did she ever doubt her own efficacy, and if so, how did she reconcile moments of uncertainty with her public confidence in her medical abilities?",
+      "held_out_passage": null
+    },
+    {
+      "id": 80,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Seacole's memoir was edited and prefaced by men, shaping its narrative. To what extent did she compromise her authentic voice or omit experiences that conflicted with the 'heroic nurse' persona that her male editors and the British public expected of her?",
+      "held_out_passage": null
+    }
+  ]
+}

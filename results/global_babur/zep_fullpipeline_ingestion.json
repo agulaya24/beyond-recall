@@ -1,0 +1,13 @@
+{
+  "subject": "babur",
+  "system": "zep",
+  "mode": "fullpipeline",
+  "user_id": "babur_fullpipeline",
+  "chunks_expected": 700,
+  "chunks_posted": 700,
+  "post_success": 700,
+  "post_failure": 0,
+  "start_time": "2026-04-16T07:49:58.527403+00:00",
+  "end_time": "2026-04-16T08:07:37.550474+00:00",
+  "verification_passed": true
+}

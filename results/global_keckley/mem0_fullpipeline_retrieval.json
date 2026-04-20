@@ -1,0 +1,782 @@
+{
+  "1": {
+    "question_id": 1,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Lizzie Keckley was formerly enslaved and experienced physical and emotional abuse.",
+      "During her conversation with Mr. Farrow, Lizzie Keckley received a hesitant signature, as Mr. Farrow warned that she would likely not return after traveling to New York.",
+      "An actress approached Keckley to become a chambermaid in the White House; Keckley refused to betray her employer and declined the bribe.",
+      "Lizzie Keckley was summoned to the White House on Tuesday at eight for an interview to become Mrs. Lincoln's modiste, and after negotiating reasonable terms, she was hired.",
+      "Lizzie Keckley planned to travel to New York to appeal for her freedom, seeking signatures from six gentlemen; she obtained five signatures but was uncertain about the sixth.",
+      "Lizzie Keckley worked to purchase her freedom but remained a slave; Mr. Garland's family demanded much of her attention, preventing her from accumulating wealth.",
+      "Keckley made a bright rose-colored moire-antique dress for Mrs. Lincoln and a blue watered silk waist for Mrs. Grimsly, delivering them before the levee that was postponed to Tuesday, and the dress fit Mrs. Lincoln perfectly.",
+      "In winter 1865, Lizzie Keckley visited a Chicago charity fair and recognized a wax figure of Jefferson Davis wearing a chintz wrapper she had made for Mrs. Davis.",
+      "Mrs. Le Bourgois, a patron, raised the $1200 required for Lizzie Keckley's emancipation, contributing $200, receiving $100 owed, and adding $100 from her mother, and presented the money as a gift.",
+      "Lizzie Keckley married Mr. Garland in a parlor ceremony attended by family and guests, with Mr. Garland giving her away and Bishop Hawks officiating."
+    ],
+    "latency_ms": 602,
+    "timestamp": "2026-04-16T07:02:37.453098+00:00"
+  },
+  "2": {
+    "question_id": 2,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Lizzie Keckley was formerly enslaved and experienced physical and emotional abuse.",
+      "In winter 1865, Lizzie Keckley visited a Chicago charity fair and recognized a wax figure of Jefferson Davis wearing a chintz wrapper she had made for Mrs. Davis.",
+      "During her conversation with Mr. Farrow, Lizzie Keckley received a hesitant signature, as Mr. Farrow warned that she would likely not return after traveling to New York.",
+      "Lizzie Keckley was summoned to the White House on Tuesday at eight for an interview to become Mrs. Lincoln's modiste, and after negotiating reasonable terms, she was hired.",
+      "Lizzie Keckley planned to travel to New York to appeal for her freedom, seeking signatures from six gentlemen; she obtained five signatures but was uncertain about the sixth.",
+      "An actress approached Keckley to become a chambermaid in the White House; Keckley refused to betray her employer and declined the bribe.",
+      "Keckley made a bright rose-colored moire-antique dress for Mrs. Lincoln and a blue watered silk waist for Mrs. Grimsly, delivering them before the levee that was postponed to Tuesday, and the dress fit Mrs. Lincoln perfectly.",
+      "Lizzie Keckley made a dress for Mrs. Captain Lee for a dinner party honoring the Prince of Wales.",
+      "Lizzie Keckley had a patron Mrs. Gen. McClean, daughter of Gen. Sumner.",
+      "Mrs. Le Bourgois, a patron, raised the $1200 required for Lizzie Keckley's emancipation, contributing $200, receiving $100 owed, and adding $100 from her mother, and presented the money as a gift."
+    ],
+    "latency_ms": 636,
+    "timestamp": "2026-04-16T07:02:38.092648+00:00"
+  },
+  "3": {
+    "question_id": 3,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "An actress approached Keckley to become a chambermaid in the White House; Keckley refused to betray her employer and declined the bribe.",
+      "Lizzie Keckley lived with Mr. Keckley for eight years, discovering he was a slave, not a free man as he had claimed.",
+      "Lizzie Keckley faced financial difficulties early in Washington, struggling to pay bills.",
+      "During her conversation with Mr. Farrow, Lizzie Keckley received a hesitant signature, as Mr. Farrow warned that she would likely not return after traveling to New York.",
+      "Lizzie Keckley had a patron Mrs. Gen. McClean, daughter of Gen. Sumner.",
+      "In winter 1865, Lizzie Keckley visited a Chicago charity fair and recognized a wax figure of Jefferson Davis wearing a chintz wrapper she had made for Mrs. Davis.",
+      "Keckley also worked for Mrs. Senator Davis, Mrs. Senator Douglas, Mrs. Secretary Wells, Mrs. Secretary Stanton, and other Washington society ladies, dressing them in deep mourning and other styles.",
+      "Lizzie Keckley was pressured to finish a dress for Mrs. McClean by Sunday.",
+      "Lizzie Keckley was formerly enslaved and experienced physical and emotional abuse.",
+      "User’s first duty was to take care of baby Elizabeth, including rocking the cradle, keeping flies out, and preventing crying."
+    ],
+    "latency_ms": 552,
+    "timestamp": "2026-04-16T07:02:38.645740+00:00"
+  },
+  "4": {
+    "question_id": 4,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "During her conversation with Mr. Farrow, Lizzie Keckley received a hesitant signature, as Mr. Farrow warned that she would likely not return after traveling to New York.",
+      "An actress approached Keckley to become a chambermaid in the White House; Keckley refused to betray her employer and declined the bribe.",
+      "In winter 1865, Lizzie Keckley visited a Chicago charity fair and recognized a wax figure of Jefferson Davis wearing a chintz wrapper she had made for Mrs. Davis.",
+      "Mrs. Le Bourgois, a patron, raised the $1200 required for Lizzie Keckley's emancipation, contributing $200, receiving $100 owed, and adding $100 from her mother, and presented the money as a gift.",
+      "Lizzie Keckley was summoned to the White House on Tuesday at eight for an interview to become Mrs. Lincoln's modiste, and after negotiating reasonable terms, she was hired.",
+      "Lizzie Keckley lived with Mr. Keckley for eight years, discovering he was a slave, not a free man as he had claimed.",
+      "Lizzie Keckley planned to travel to New York to appeal for her freedom, seeking signatures from six gentlemen; she obtained five signatures but was uncertain about the sixth.",
+      "Keckley made a bright rose-colored moire-antique dress for Mrs. Lincoln and a blue watered silk waist for Mrs. Grimsly, delivering them before the levee that was postponed to Tuesday, and the dress fit Mrs. Lincoln perfectly.",
+      "User notes that slaves were punished for showing sorrow, as exemplified by the whipping of Little Joe’s mother.",
+      "Keckley also worked for Mrs. Senator Davis, Mrs. Senator Douglas, Mrs. Secretary Wells, Mrs. Secretary Stanton, and other Washington society ladies, dressing them in deep mourning and other styles."
+    ],
+    "latency_ms": 633,
+    "timestamp": "2026-04-16T07:02:39.281409+00:00"
+  },
+  "5": {
+    "question_id": 5,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "During her conversation with Mr. Farrow, Lizzie Keckley received a hesitant signature, as Mr. Farrow warned that she would likely not return after traveling to New York.",
+      "An actress approached Keckley to become a chambermaid in the White House; Keckley refused to betray her employer and declined the bribe.",
+      "Lizzie Keckley was formerly enslaved and experienced physical and emotional abuse.",
+      "Lizzie Keckley faced financial difficulties early in Washington, struggling to pay bills.",
+      "Lizzie Keckley worked to purchase her freedom but remained a slave; Mr. Garland's family demanded much of her attention, preventing her from accumulating wealth.",
+      "Lizzie Keckley lived with Mr. Keckley for eight years, discovering he was a slave, not a free man as he had claimed.",
+      "Lizzie Keckley planned to travel to New York to appeal for her freedom, seeking signatures from six gentlemen; she obtained five signatures but was uncertain about the sixth.",
+      "Keckley suggested to Mrs. Lincoln that the President replace state dinners with three large receptions to reduce costs; Mrs. Lincoln agreed and discussed the idea with Mr. Lincoln.",
+      "Keckley also worked for Mrs. Senator Davis, Mrs. Senator Douglas, Mrs. Secretary Wells, Mrs. Secretary Stanton, and other Washington society ladies, dressing them in deep mourning and other styles.",
+      "Lizzie Keckley had a patron Mrs. Gen. McClean, daughter of Gen. Sumner."
+    ],
+    "latency_ms": 527,
+    "timestamp": "2026-04-16T07:02:39.809661+00:00"
+  },
+  "6": {
+    "question_id": 6,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "An actress approached Keckley to become a chambermaid in the White House; Keckley refused to betray her employer and declined the bribe.",
+      "Keckley also worked for Mrs. Senator Davis, Mrs. Senator Douglas, Mrs. Secretary Wells, Mrs. Secretary Stanton, and other Washington society ladies, dressing them in deep mourning and other styles.",
+      "During her conversation with Mr. Farrow, Lizzie Keckley received a hesitant signature, as Mr. Farrow warned that she would likely not return after traveling to New York.",
+      "Lizzie Keckley worked to purchase her freedom but remained a slave; Mr. Garland's family demanded much of her attention, preventing her from accumulating wealth.",
+      "Lizzie Keckley lived with Mr. Keckley for eight years, discovering he was a slave, not a free man as he had claimed.",
+      "Lizzie Keckley was formerly enslaved and experienced physical and emotional abuse.",
+      "Lizzie Keckley was pressured to finish a dress for Mrs. McClean by Sunday.",
+      "Lizzie Keckley faced financial difficulties early in Washington, struggling to pay bills.",
+      "Lizzie Keckley finished and forwarded Mrs. Davis's needle-work to her in Montgomery, Alabama in June 1860 with help from Mrs. Emory.",
+      "Lizzie Keckley purchased trimmings for Mrs. Lee and earned a twenty-five dollar commission from Mr. Harper."
+    ],
+    "latency_ms": 539,
+    "timestamp": "2026-04-16T07:02:40.350982+00:00"
+  },
+  "7": {
+    "question_id": 7,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Lizzie Keckley planned to travel to New York to appeal for her freedom, seeking signatures from six gentlemen; she obtained five signatures but was uncertain about the sixth.",
+      "Keckley also worked for Mrs. Senator Davis, Mrs. Senator Douglas, Mrs. Secretary Wells, Mrs. Secretary Stanton, and other Washington society ladies, dressing them in deep mourning and other styles.",
+      "Keckley made a bright rose-colored moire-antique dress for Mrs. Lincoln and a blue watered silk waist for Mrs. Grimsly, delivering them before the levee that was postponed to Tuesday, and the dress fit Mrs. Lincoln perfectly.",
+      "During her conversation with Mr. Farrow, Lizzie Keckley received a hesitant signature, as Mr. Farrow warned that she would likely not return after traveling to New York.",
+      "Lizzie Keckley was summoned to the White House on Tuesday at eight for an interview to become Mrs. Lincoln's modiste, and after negotiating reasonable terms, she was hired.",
+      "Baby Elizabeth grew into a self‑willed girl who later caused trouble for the User.",
+      "In winter 1865, Lizzie Keckley visited a Chicago charity fair and recognized a wax figure of Jefferson Davis wearing a chintz wrapper she had made for Mrs. Davis.",
+      "Mrs. Le Bourgois, a patron, raised the $1200 required for Lizzie Keckley's emancipation, contributing $200, receiving $100 owed, and adding $100 from her mother, and presented the money as a gift.",
+      "Lizzie Keckley purchased trimmings for Mrs. Lee and earned a twenty-five dollar commission from Mr. Harper.",
+      "Lizzie Keckley was pressured to finish a dress for Mrs. McClean by Sunday."
+    ],
+    "latency_ms": 571,
+    "timestamp": "2026-04-16T07:02:40.926927+00:00"
+  },
+  "8": {
+    "question_id": 8,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Lizzie Keckley was formerly enslaved and experienced physical and emotional abuse.",
+      "An actress approached Keckley to become a chambermaid in the White House; Keckley refused to betray her employer and declined the bribe.",
+      "During her conversation with Mr. Farrow, Lizzie Keckley received a hesitant signature, as Mr. Farrow warned that she would likely not return after traveling to New York.",
+      "Lizzie Keckley lived with Mr. Keckley for eight years, discovering he was a slave, not a free man as he had claimed.",
+      "Lizzie Keckley was pressured to finish a dress for Mrs. McClean by Sunday.",
+      "Lizzie Keckley had a patron Mrs. Gen. McClean, daughter of Gen. Sumner.",
+      "Lizzie Keckley faced financial difficulties early in Washington, struggling to pay bills.",
+      "Keckley made a bright rose-colored moire-antique dress for Mrs. Lincoln and a blue watered silk waist for Mrs. Grimsly, delivering them before the levee that was postponed to Tuesday, and the dress fit Mrs. Lincoln perfectly.",
+      "Keckley also worked for Mrs. Senator Davis, Mrs. Senator Douglas, Mrs. Secretary Wells, Mrs. Secretary Stanton, and other Washington society ladies, dressing them in deep mourning and other styles.",
+      "In winter 1865, Lizzie Keckley visited a Chicago charity fair and recognized a wax figure of Jefferson Davis wearing a chintz wrapper she had made for Mrs. Davis."
+    ],
+    "latency_ms": 691,
+    "timestamp": "2026-04-16T07:02:41.618633+00:00"
+  },
+  "9": {
+    "question_id": 9,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Lizzie Keckley was formerly enslaved and experienced physical and emotional abuse.",
+      "During her conversation with Mr. Farrow, Lizzie Keckley received a hesitant signature, as Mr. Farrow warned that she would likely not return after traveling to New York.",
+      "User’s first duty was to take care of baby Elizabeth, including rocking the cradle, keeping flies out, and preventing crying.",
+      "An actress approached Keckley to become a chambermaid in the White House; Keckley refused to betray her employer and declined the bribe.",
+      "Lizzie Keckley worked to purchase her freedom but remained a slave; Mr. Garland's family demanded much of her attention, preventing her from accumulating wealth.",
+      "Lizzie Keckley planned to travel to New York to appeal for her freedom, seeking signatures from six gentlemen; she obtained five signatures but was uncertain about the sixth.",
+      "Little Joe’s mother was initially unaware of the sale but later realized, and was whipped for grieving over her son’s disappearance.",
+      "Mrs. Le Bourgois, a patron, raised the $1200 required for Lizzie Keckley's emancipation, contributing $200, receiving $100 owed, and adding $100 from her mother, and presented the money as a gift.",
+      "Lizzie Keckley had a patron Mrs. Gen. McClean, daughter of Gen. Sumner.",
+      "Lizzie Keckley finished and forwarded Mrs. Davis's needle-work to her in Montgomery, Alabama in June 1860 with help from Mrs. Emory."
+    ],
+    "latency_ms": 634,
+    "timestamp": "2026-04-16T07:02:42.253496+00:00"
+  },
+  "10": {
+    "question_id": 10,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "During her conversation with Mr. Farrow, Lizzie Keckley received a hesitant signature, as Mr. Farrow warned that she would likely not return after traveling to New York.",
+      "Lizzie Keckley planned to travel to New York to appeal for her freedom, seeking signatures from six gentlemen; she obtained five signatures but was uncertain about the sixth.",
+      "Keckley suggested to Mrs. Lincoln that the President replace state dinners with three large receptions to reduce costs; Mrs. Lincoln agreed and discussed the idea with Mr. Lincoln.",
+      "In winter 1865, Lizzie Keckley visited a Chicago charity fair and recognized a wax figure of Jefferson Davis wearing a chintz wrapper she had made for Mrs. Davis.",
+      "Lizzie Keckley worked to purchase her freedom but remained a slave; Mr. Garland's family demanded much of her attention, preventing her from accumulating wealth.",
+      "Lizzie Keckley was summoned to the White House on Tuesday at eight for an interview to become Mrs. Lincoln's modiste, and after negotiating reasonable terms, she was hired.",
+      "Keckley made a bright rose-colored moire-antique dress for Mrs. Lincoln and a blue watered silk waist for Mrs. Grimsly, delivering them before the levee that was postponed to Tuesday, and the dress fit Mrs. Lincoln perfectly.",
+      "Mrs. Le Bourgois, a patron, raised the $1200 required for Lizzie Keckley's emancipation, contributing $200, receiving $100 owed, and adding $100 from her mother, and presented the money as a gift.",
+      "User grew strong and healthy, knitted socks, and at fourteen was told they would never be worth their salt.",
+      "Lizzie Keckley had a patron Mrs. Gen. McClean, daughter of Gen. Sumner."
+    ],
+    "latency_ms": 588,
+    "timestamp": "2026-04-16T07:02:42.842493+00:00"
+  },
+  "11": {
+    "question_id": 11,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Baby Elizabeth grew into a self‑willed girl who later caused trouble for the User.",
+      "User’s first duty was to take care of baby Elizabeth, including rocking the cradle, keeping flies out, and preventing crying.",
+      "Lizzie Keckley planned to travel to New York to appeal for her freedom, seeking signatures from six gentlemen; she obtained five signatures but was uncertain about the sixth.",
+      "Little Joe’s mother was initially unaware of the sale but later realized, and was whipped for grieving over her son’s disappearance.",
+      "User was lashed for attempting to shovel baby Elizabeth onto the floor, an incident that remains vivid due to the severity of the punishment.",
+      "During her conversation with Mr. Farrow, Lizzie Keckley received a hesitant signature, as Mr. Farrow warned that she would likely not return after traveling to New York.",
+      "Lizzie Keckley was summoned to the White House on Tuesday at eight for an interview to become Mrs. Lincoln's modiste, and after negotiating reasonable terms, she was hired.",
+      "In winter 1865, Lizzie Keckley visited a Chicago charity fair and recognized a wax figure of Jefferson Davis wearing a chintz wrapper she had made for Mrs. Davis.",
+      "While living at Hampton Sidney College, Prince Edward County, Va., Mrs. Burwell gave birth to a daughter named Elizabeth, a sweet black‑eyed baby who became the User’s earliest and fondest pet.",
+      "User’s father and mother never met again but maintained correspondence, with letters full of love and encouragement for the User to be a good girl and learn their book."
+    ],
+    "latency_ms": 651,
+    "timestamp": "2026-04-16T07:02:43.495924+00:00"
+  },
+  "12": {
+    "question_id": 12,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Lizzie Keckley was formerly enslaved and experienced physical and emotional abuse.",
+      "Lizzie Keckley worked to purchase her freedom but remained a slave; Mr. Garland's family demanded much of her attention, preventing her from accumulating wealth.",
+      "Baby Elizabeth grew into a self‑willed girl who later caused trouble for the User.",
+      "User’s first duty was to take care of baby Elizabeth, including rocking the cradle, keeping flies out, and preventing crying.",
+      "Lizzie Keckley planned to travel to New York to appeal for her freedom, seeking signatures from six gentlemen; she obtained five signatures but was uncertain about the sixth.",
+      "During her conversation with Mr. Farrow, Lizzie Keckley received a hesitant signature, as Mr. Farrow warned that she would likely not return after traveling to New York.",
+      "Lizzie Keckley finished and forwarded Mrs. Davis's needle-work to her in Montgomery, Alabama in June 1860 with help from Mrs. Emory.",
+      "User was lashed for attempting to shovel baby Elizabeth onto the floor, an incident that remains vivid due to the severity of the punishment.",
+      "Little Joe’s mother was initially unaware of the sale but later realized, and was whipped for grieving over her son’s disappearance.",
+      "User notes that slaves were punished for showing sorrow, as exemplified by the whipping of Little Joe’s mother."
+    ],
+    "latency_ms": 552,
+    "timestamp": "2026-04-16T07:02:44.050976+00:00"
+  },
+  "13": {
+    "question_id": 13,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Baby Elizabeth grew into a self‑willed girl who later caused trouble for the User.",
+      "Lizzie Keckley planned to travel to New York to appeal for her freedom, seeking signatures from six gentlemen; she obtained five signatures but was uncertain about the sixth.",
+      "User’s first duty was to take care of baby Elizabeth, including rocking the cradle, keeping flies out, and preventing crying.",
+      "Lizzie Keckley worked to purchase her freedom but remained a slave; Mr. Garland's family demanded much of her attention, preventing her from accumulating wealth.",
+      "During her conversation with Mr. Farrow, Lizzie Keckley received a hesitant signature, as Mr. Farrow warned that she would likely not return after traveling to New York.",
+      "Little Joe’s mother was initially unaware of the sale but later realized, and was whipped for grieving over her son’s disappearance.",
+      "User was lashed for attempting to shovel baby Elizabeth onto the floor, an incident that remains vivid due to the severity of the punishment.",
+      "An actress approached Keckley to become a chambermaid in the White House; Keckley refused to betray her employer and declined the bribe.",
+      "Lizzie Keckley finished and forwarded Mrs. Davis's needle-work to her in Montgomery, Alabama in June 1860 with help from Mrs. Emory.",
+      "While living at Hampton Sidney College, Prince Edward County, Va., Mrs. Burwell gave birth to a daughter named Elizabeth, a sweet black‑eyed baby who became the User’s earliest and fondest pet."
+    ],
+    "latency_ms": 624,
+    "timestamp": "2026-04-16T07:02:44.676457+00:00"
+  },
+  "14": {
+    "question_id": 14,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Lizzie Keckley was formerly enslaved and experienced physical and emotional abuse.",
+      "Baby Elizabeth grew into a self‑willed girl who later caused trouble for the User.",
+      "Lizzie Keckley faced financial difficulties early in Washington, struggling to pay bills.",
+      "User was lashed for attempting to shovel baby Elizabeth onto the floor, an incident that remains vivid due to the severity of the punishment.",
+      "During her conversation with Mr. Farrow, Lizzie Keckley received a hesitant signature, as Mr. Farrow warned that she would likely not return after traveling to New York.",
+      "User’s first duty was to take care of baby Elizabeth, including rocking the cradle, keeping flies out, and preventing crying.",
+      "While living at Hampton Sidney College, Prince Edward County, Va., Mrs. Burwell gave birth to a daughter named Elizabeth, a sweet black‑eyed baby who became the User’s earliest and fondest pet.",
+      "Lizzie Keckley was pressured to finish a dress for Mrs. McClean by Sunday.",
+      "Keckley made a bright rose-colored moire-antique dress for Mrs. Lincoln and a blue watered silk waist for Mrs. Grimsly, delivering them before the levee that was postponed to Tuesday, and the dress fit Mrs. Lincoln perfectly.",
+      "An actress approached Keckley to become a chambermaid in the White House; Keckley refused to betray her employer and declined the bribe."
+    ],
+    "latency_ms": 686,
+    "timestamp": "2026-04-16T07:02:45.367028+00:00"
+  },
+  "15": {
+    "question_id": 15,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "User’s first duty was to take care of baby Elizabeth, including rocking the cradle, keeping flies out, and preventing crying.",
+      "Baby Elizabeth grew into a self‑willed girl who later caused trouble for the User.",
+      "Lizzie Keckley worked to purchase her freedom but remained a slave; Mr. Garland's family demanded much of her attention, preventing her from accumulating wealth.",
+      "Lizzie Keckley planned to travel to New York to appeal for her freedom, seeking signatures from six gentlemen; she obtained five signatures but was uncertain about the sixth.",
+      "During her conversation with Mr. Farrow, Lizzie Keckley received a hesitant signature, as Mr. Farrow warned that she would likely not return after traveling to New York.",
+      "An actress approached Keckley to become a chambermaid in the White House; Keckley refused to betray her employer and declined the bribe.",
+      "Little Joe’s mother was initially unaware of the sale but later realized, and was whipped for grieving over her son’s disappearance.",
+      "User was lashed for attempting to shovel baby Elizabeth onto the floor, an incident that remains vivid due to the severity of the punishment.",
+      "While living at Hampton Sidney College, Prince Edward County, Va., Mrs. Burwell gave birth to a daughter named Elizabeth, a sweet black‑eyed baby who became the User’s earliest and fondest pet.",
+      "Lizzie Keckley was summoned to the White House on Tuesday at eight for an interview to become Mrs. Lincoln's modiste, and after negotiating reasonable terms, she was hired."
+    ],
+    "latency_ms": 745,
+    "timestamp": "2026-04-16T07:02:46.116698+00:00"
+  },
+  "16": {
+    "question_id": 16,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Baby Elizabeth grew into a self‑willed girl who later caused trouble for the User.",
+      "Lizzie Keckley was formerly enslaved and experienced physical and emotional abuse.",
+      "User was lashed for attempting to shovel baby Elizabeth onto the floor, an incident that remains vivid due to the severity of the punishment.",
+      "Lizzie Keckley planned to travel to New York to appeal for her freedom, seeking signatures from six gentlemen; she obtained five signatures but was uncertain about the sixth.",
+      "User’s first duty was to take care of baby Elizabeth, including rocking the cradle, keeping flies out, and preventing crying.",
+      "Little Joe’s mother was initially unaware of the sale but later realized, and was whipped for grieving over her son’s disappearance.",
+      "Lizzie Keckley worked to purchase her freedom but remained a slave; Mr. Garland's family demanded much of her attention, preventing her from accumulating wealth.",
+      "During her conversation with Mr. Farrow, Lizzie Keckley received a hesitant signature, as Mr. Farrow warned that she would likely not return after traveling to New York.",
+      "While living at Hampton Sidney College, Prince Edward County, Va., Mrs. Burwell gave birth to a daughter named Elizabeth, a sweet black‑eyed baby who became the User’s earliest and fondest pet.",
+      "In winter 1865, Lizzie Keckley visited a Chicago charity fair and recognized a wax figure of Jefferson Davis wearing a chintz wrapper she had made for Mrs. Davis."
+    ],
+    "latency_ms": 584,
+    "timestamp": "2026-04-16T07:02:46.703963+00:00"
+  },
+  "17": {
+    "question_id": 17,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Baby Elizabeth grew into a self‑willed girl who later caused trouble for the User.",
+      "User’s first duty was to take care of baby Elizabeth, including rocking the cradle, keeping flies out, and preventing crying.",
+      "Lizzie Keckley planned to travel to New York to appeal for her freedom, seeking signatures from six gentlemen; she obtained five signatures but was uncertain about the sixth.",
+      "During her conversation with Mr. Farrow, Lizzie Keckley received a hesitant signature, as Mr. Farrow warned that she would likely not return after traveling to New York.",
+      "User was lashed for attempting to shovel baby Elizabeth onto the floor, an incident that remains vivid due to the severity of the punishment.",
+      "Little Joe’s mother was initially unaware of the sale but later realized, and was whipped for grieving over her son’s disappearance.",
+      "Mr. Burwell arranged for the User’s father to live with the family, ending their separation and allowing the father to call the User ‘Little Lizzie.’",
+      "User’s father and mother never met again but maintained correspondence, with letters full of love and encouragement for the User to be a good girl and learn their book.",
+      "Lizzie Keckley was summoned to the White House on Tuesday at eight for an interview to become Mrs. Lincoln's modiste, and after negotiating reasonable terms, she was hired.",
+      "Lizzie Keckley lived with Mr. Keckley for eight years, discovering he was a slave, not a free man as he had claimed."
+    ],
+    "latency_ms": 604,
+    "timestamp": "2026-04-16T07:02:47.312219+00:00"
+  },
+  "18": {
+    "question_id": 18,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Lizzie Keckley planned to travel to New York to appeal for her freedom, seeking signatures from six gentlemen; she obtained five signatures but was uncertain about the sixth.",
+      "Lizzie Keckley worked to purchase her freedom but remained a slave; Mr. Garland's family demanded much of her attention, preventing her from accumulating wealth.",
+      "During her conversation with Mr. Farrow, Lizzie Keckley received a hesitant signature, as Mr. Farrow warned that she would likely not return after traveling to New York.",
+      "An actress approached Keckley to become a chambermaid in the White House; Keckley refused to betray her employer and declined the bribe.",
+      "Lizzie Keckley was summoned to the White House on Tuesday at eight for an interview to become Mrs. Lincoln's modiste, and after negotiating reasonable terms, she was hired.",
+      "After Mr. Garland died, Mr. Burwell, a Mississippi planter, visited St. Louis, promised Lizzie Keckley freedom, and offered to help raise the $1200 needed for her emancipation.",
+      "Lizzie Keckley finished and forwarded Mrs. Davis's needle-work to her in Montgomery, Alabama in June 1860 with help from Mrs. Emory.",
+      "Lizzie Keckley faced financial difficulties early in Washington, struggling to pay bills.",
+      "In winter 1865, Lizzie Keckley visited a Chicago charity fair and recognized a wax figure of Jefferson Davis wearing a chintz wrapper she had made for Mrs. Davis.",
+      "Lizzie Keckley went to Willard's hotel to meet Mrs. McClean."
+    ],
+    "latency_ms": 636,
+    "timestamp": "2026-04-16T07:02:47.949246+00:00"
+  },
+  "19": {
+    "question_id": 19,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Baby Elizabeth grew into a self‑willed girl who later caused trouble for the User.",
+      "User’s first duty was to take care of baby Elizabeth, including rocking the cradle, keeping flies out, and preventing crying.",
+      "While living at Hampton Sidney College, Prince Edward County, Va., Mrs. Burwell gave birth to a daughter named Elizabeth, a sweet black‑eyed baby who became the User’s earliest and fondest pet.",
+      "Little Joe’s mother was initially unaware of the sale but later realized, and was whipped for grieving over her son’s disappearance.",
+      "User was lashed for attempting to shovel baby Elizabeth onto the floor, an incident that remains vivid due to the severity of the punishment.",
+      "Lizzie Keckley faced financial difficulties early in Washington, struggling to pay bills.",
+      "Lizzie Keckley worked to purchase her freedom but remained a slave; Mr. Garland's family demanded much of her attention, preventing her from accumulating wealth.",
+      "Lizzie Keckley planned to travel to New York to appeal for her freedom, seeking signatures from six gentlemen; she obtained five signatures but was uncertain about the sixth.",
+      "Lizzie Keckley was known in St. Louis as a dress‑maker, called Garland's Lizzie, and her son George was known as Garland's George, described as almost white and about 16 years old.",
+      "During her conversation with Mr. Farrow, Lizzie Keckley received a hesitant signature, as Mr. Farrow warned that she would likely not return after traveling to New York."
+    ],
+    "latency_ms": 654,
+    "timestamp": "2026-04-16T07:02:48.603835+00:00"
+  },
+  "20": {
+    "question_id": 20,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Baby Elizabeth grew into a self‑willed girl who later caused trouble for the User.",
+      "Lizzie Keckley planned to travel to New York to appeal for her freedom, seeking signatures from six gentlemen; she obtained five signatures but was uncertain about the sixth.",
+      "User’s first duty was to take care of baby Elizabeth, including rocking the cradle, keeping flies out, and preventing crying.",
+      "Mr. Burwell arranged for the User’s father to live with the family, ending their separation and allowing the father to call the User ‘Little Lizzie.’",
+      "User was lashed for attempting to shovel baby Elizabeth onto the floor, an incident that remains vivid due to the severity of the punishment.",
+      "During her conversation with Mr. Farrow, Lizzie Keckley received a hesitant signature, as Mr. Farrow warned that she would likely not return after traveling to New York.",
+      "While living at Hampton Sidney College, Prince Edward County, Va., Mrs. Burwell gave birth to a daughter named Elizabeth, a sweet black‑eyed baby who became the User’s earliest and fondest pet.",
+      "Lizzie Keckley worked to purchase her freedom but remained a slave; Mr. Garland's family demanded much of her attention, preventing her from accumulating wealth.",
+      "User’s father and mother never met again but maintained correspondence, with letters full of love and encouragement for the User to be a good girl and learn their book.",
+      "Little Joe’s mother was initially unaware of the sale but later realized, and was whipped for grieving over her son’s disappearance."
+    ],
+    "latency_ms": 589,
+    "timestamp": "2026-04-16T07:02:49.194343+00:00"
+  },
+  "21": {
+    "question_id": 21,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "During her conversation with Mr. Farrow, Lizzie Keckley received a hesitant signature, as Mr. Farrow warned that she would likely not return after traveling to New York.",
+      "Lizzie Keckley worked to purchase her freedom but remained a slave; Mr. Garland's family demanded much of her attention, preventing her from accumulating wealth.",
+      "Lizzie Keckley planned to travel to New York to appeal for her freedom, seeking signatures from six gentlemen; she obtained five signatures but was uncertain about the sixth.",
+      "User’s first duty was to take care of baby Elizabeth, including rocking the cradle, keeping flies out, and preventing crying.",
+      "Baby Elizabeth grew into a self‑willed girl who later caused trouble for the User.",
+      "Little Joe’s mother was initially unaware of the sale but later realized, and was whipped for grieving over her son’s disappearance.",
+      "After Mr. Garland died, Mr. Burwell, a Mississippi planter, visited St. Louis, promised Lizzie Keckley freedom, and offered to help raise the $1200 needed for her emancipation.",
+      "User was lashed for attempting to shovel baby Elizabeth onto the floor, an incident that remains vivid due to the severity of the punishment.",
+      "An actress approached Keckley to become a chambermaid in the White House; Keckley refused to betray her employer and declined the bribe.",
+      "User’s mother was advised by the mistress to stop crying and find another husband after the father’s departure."
+    ],
+    "latency_ms": 664,
+    "timestamp": "2026-04-16T07:02:49.863718+00:00"
+  },
+  "22": {
+    "question_id": 22,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "During her conversation with Mr. Farrow, Lizzie Keckley received a hesitant signature, as Mr. Farrow warned that she would likely not return after traveling to New York.",
+      "Lizzie Keckley planned to travel to New York to appeal for her freedom, seeking signatures from six gentlemen; she obtained five signatures but was uncertain about the sixth.",
+      "In winter 1865, Lizzie Keckley visited a Chicago charity fair and recognized a wax figure of Jefferson Davis wearing a chintz wrapper she had made for Mrs. Davis.",
+      "Lizzie Keckley was summoned to the White House on Tuesday at eight for an interview to become Mrs. Lincoln's modiste, and after negotiating reasonable terms, she was hired.",
+      "Lizzie Keckley was pressured to finish a dress for Mrs. McClean by Sunday.",
+      "An actress approached Keckley to become a chambermaid in the White House; Keckley refused to betray her employer and declined the bribe.",
+      "Keckley made a bright rose-colored moire-antique dress for Mrs. Lincoln and a blue watered silk waist for Mrs. Grimsly, delivering them before the levee that was postponed to Tuesday, and the dress fit Mrs. Lincoln perfectly.",
+      "Lizzie Keckley lived with Mr. Keckley for eight years, discovering he was a slave, not a free man as he had claimed.",
+      "Lizzie Keckley worked to purchase her freedom but remained a slave; Mr. Garland's family demanded much of her attention, preventing her from accumulating wealth.",
+      "User’s first duty was to take care of baby Elizabeth, including rocking the cradle, keeping flies out, and preventing crying."
+    ],
+    "latency_ms": 627,
+    "timestamp": "2026-04-16T07:02:50.492030+00:00"
+  },
+  "23": {
+    "question_id": 23,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "An actress approached Keckley to become a chambermaid in the White House; Keckley refused to betray her employer and declined the bribe.",
+      "Lizzie Keckley worked to purchase her freedom but remained a slave; Mr. Garland's family demanded much of her attention, preventing her from accumulating wealth.",
+      "Lizzie Keckley planned to travel to New York to appeal for her freedom, seeking signatures from six gentlemen; she obtained five signatures but was uncertain about the sixth.",
+      "Lizzie Keckley faced financial difficulties early in Washington, struggling to pay bills.",
+      "During her conversation with Mr. Farrow, Lizzie Keckley received a hesitant signature, as Mr. Farrow warned that she would likely not return after traveling to New York.",
+      "Lizzie Keckley finished and forwarded Mrs. Davis's needle-work to her in Montgomery, Alabama in June 1860 with help from Mrs. Emory.",
+      "Lizzie Keckley was formerly enslaved and experienced physical and emotional abuse.",
+      "Lizzie Keckley was pressured to finish a dress for Mrs. McClean by Sunday.",
+      "Lizzie Keckley lived with Mr. Keckley for eight years, discovering he was a slave, not a free man as he had claimed.",
+      "Keckley also worked for Mrs. Senator Davis, Mrs. Senator Douglas, Mrs. Secretary Wells, Mrs. Secretary Stanton, and other Washington society ladies, dressing them in deep mourning and other styles."
+    ],
+    "latency_ms": 632,
+    "timestamp": "2026-04-16T07:02:51.125977+00:00"
+  },
+  "24": {
+    "question_id": 24,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "An actress approached Keckley to become a chambermaid in the White House; Keckley refused to betray her employer and declined the bribe.",
+      "During her conversation with Mr. Farrow, Lizzie Keckley received a hesitant signature, as Mr. Farrow warned that she would likely not return after traveling to New York.",
+      "Lizzie Keckley lived with Mr. Keckley for eight years, discovering he was a slave, not a free man as he had claimed.",
+      "Lizzie Keckley planned to travel to New York to appeal for her freedom, seeking signatures from six gentlemen; she obtained five signatures but was uncertain about the sixth.",
+      "Lizzie Keckley was pressured to finish a dress for Mrs. McClean by Sunday.",
+      "Lizzie Keckley worked to purchase her freedom but remained a slave; Mr. Garland's family demanded much of her attention, preventing her from accumulating wealth.",
+      "Lizzie Keckley faced financial difficulties early in Washington, struggling to pay bills.",
+      "Lizzie Keckley was summoned to the White House on Tuesday at eight for an interview to become Mrs. Lincoln's modiste, and after negotiating reasonable terms, she was hired.",
+      "In winter 1865, Lizzie Keckley visited a Chicago charity fair and recognized a wax figure of Jefferson Davis wearing a chintz wrapper she had made for Mrs. Davis.",
+      "Lizzie Keckley finished and forwarded Mrs. Davis's needle-work to her in Montgomery, Alabama in June 1860 with help from Mrs. Emory."
+    ],
+    "latency_ms": 564,
+    "timestamp": "2026-04-16T07:02:51.694142+00:00"
+  },
+  "25": {
+    "question_id": 25,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "During her conversation with Mr. Farrow, Lizzie Keckley received a hesitant signature, as Mr. Farrow warned that she would likely not return after traveling to New York.",
+      "Lizzie Keckley was summoned to the White House on Tuesday at eight for an interview to become Mrs. Lincoln's modiste, and after negotiating reasonable terms, she was hired.",
+      "An actress approached Keckley to become a chambermaid in the White House; Keckley refused to betray her employer and declined the bribe.",
+      "Lizzie Keckley planned to travel to New York to appeal for her freedom, seeking signatures from six gentlemen; she obtained five signatures but was uncertain about the sixth.",
+      "Lizzie Keckley was hired as Mrs. Lincoln's modiste after an interview at the White House on Tuesday at eight.",
+      "Lizzie Keckley was known in St. Louis as a dress‑maker, called Garland's Lizzie, and her son George was known as Garland's George, described as almost white and about 16 years old.",
+      "In winter 1865, Lizzie Keckley visited a Chicago charity fair and recognized a wax figure of Jefferson Davis wearing a chintz wrapper she had made for Mrs. Davis.",
+      "Mrs. Le Bourgois, a patron, raised the $1200 required for Lizzie Keckley's emancipation, contributing $200, receiving $100 owed, and adding $100 from her mother, and presented the money as a gift.",
+      "Lizzie Keckley faced financial difficulties early in Washington, struggling to pay bills.",
+      "Keckley also worked for Mrs. Senator Davis, Mrs. Senator Douglas, Mrs. Secretary Wells, Mrs. Secretary Stanton, and other Washington society ladies, dressing them in deep mourning and other styles."
+    ],
+    "latency_ms": 648,
+    "timestamp": "2026-04-16T07:02:52.343658+00:00"
+  },
+  "26": {
+    "question_id": 26,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "An actress approached Keckley to become a chambermaid in the White House; Keckley refused to betray her employer and declined the bribe.",
+      "Lizzie Keckley planned to travel to New York to appeal for her freedom, seeking signatures from six gentlemen; she obtained five signatures but was uncertain about the sixth.",
+      "Lizzie Keckley worked to purchase her freedom but remained a slave; Mr. Garland's family demanded much of her attention, preventing her from accumulating wealth.",
+      "During her conversation with Mr. Farrow, Lizzie Keckley received a hesitant signature, as Mr. Farrow warned that she would likely not return after traveling to New York.",
+      "Lizzie Keckley was summoned to the White House on Tuesday at eight for an interview to become Mrs. Lincoln's modiste, and after negotiating reasonable terms, she was hired.",
+      "Lizzie Keckley went to Willard's hotel to meet Mrs. McClean.",
+      "Lizzie Keckley was formerly enslaved and experienced physical and emotional abuse.",
+      "In winter 1865, Lizzie Keckley visited a Chicago charity fair and recognized a wax figure of Jefferson Davis wearing a chintz wrapper she had made for Mrs. Davis.",
+      "Keckley also worked for Mrs. Senator Davis, Mrs. Senator Douglas, Mrs. Secretary Wells, Mrs. Secretary Stanton, and other Washington society ladies, dressing them in deep mourning and other styles.",
+      "Lizzie Keckley purchased trimmings for Mrs. Lee and earned a twenty-five dollar commission from Mr. Harper."
+    ],
+    "latency_ms": 664,
+    "timestamp": "2026-04-16T07:02:53.010145+00:00"
+  },
+  "27": {
+    "question_id": 27,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Lizzie Keckley worked to purchase her freedom but remained a slave; Mr. Garland's family demanded much of her attention, preventing her from accumulating wealth.",
+      "An actress approached Keckley to become a chambermaid in the White House; Keckley refused to betray her employer and declined the bribe.",
+      "Lizzie Keckley planned to travel to New York to appeal for her freedom, seeking signatures from six gentlemen; she obtained five signatures but was uncertain about the sixth.",
+      "During her conversation with Mr. Farrow, Lizzie Keckley received a hesitant signature, as Mr. Farrow warned that she would likely not return after traveling to New York.",
+      "Lizzie Keckley was known in St. Louis as a dress‑maker, called Garland's Lizzie, and her son George was known as Garland's George, described as almost white and about 16 years old.",
+      "Mrs. Le Bourgois, a patron, raised the $1200 required for Lizzie Keckley's emancipation, contributing $200, receiving $100 owed, and adding $100 from her mother, and presented the money as a gift.",
+      "Lizzie Keckley finished and forwarded Mrs. Davis's needle-work to her in Montgomery, Alabama in June 1860 with help from Mrs. Emory.",
+      "Lizzie Keckley was summoned to the White House on Tuesday at eight for an interview to become Mrs. Lincoln's modiste, and after negotiating reasonable terms, she was hired.",
+      "Lizzie Keckley was formerly enslaved and experienced physical and emotional abuse.",
+      "Keckley also worked for Mrs. Senator Davis, Mrs. Senator Douglas, Mrs. Secretary Wells, Mrs. Secretary Stanton, and other Washington society ladies, dressing them in deep mourning and other styles."
+    ],
+    "latency_ms": 650,
+    "timestamp": "2026-04-16T07:02:53.661525+00:00"
+  },
+  "28": {
+    "question_id": 28,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "An actress approached Keckley to become a chambermaid in the White House; Keckley refused to betray her employer and declined the bribe.",
+      "During her conversation with Mr. Farrow, Lizzie Keckley received a hesitant signature, as Mr. Farrow warned that she would likely not return after traveling to New York.",
+      "Lizzie Keckley lived with Mr. Keckley for eight years, discovering he was a slave, not a free man as he had claimed.",
+      "Lizzie Keckley planned to travel to New York to appeal for her freedom, seeking signatures from six gentlemen; she obtained five signatures but was uncertain about the sixth.",
+      "Lizzie Keckley was pressured to finish a dress for Mrs. McClean by Sunday.",
+      "Lizzie Keckley faced financial difficulties early in Washington, struggling to pay bills.",
+      "Lizzie Keckley went to Willard's hotel to meet Mrs. McClean.",
+      "Lizzie Keckley had a patron Mrs. Gen. McClean, daughter of Gen. Sumner.",
+      "Lizzie Keckley was summoned to the White House on Tuesday at eight for an interview to become Mrs. Lincoln's modiste, and after negotiating reasonable terms, she was hired.",
+      "Keckley suggested to Mrs. Lincoln that the President replace state dinners with three large receptions to reduce costs; Mrs. Lincoln agreed and discussed the idea with Mr. Lincoln."
+    ],
+    "latency_ms": 629,
+    "timestamp": "2026-04-16T07:02:54.293211+00:00"
+  },
+  "29": {
+    "question_id": 29,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "An actress approached Keckley to become a chambermaid in the White House; Keckley refused to betray her employer and declined the bribe.",
+      "During her conversation with Mr. Farrow, Lizzie Keckley received a hesitant signature, as Mr. Farrow warned that she would likely not return after traveling to New York.",
+      "Lizzie Keckley worked to purchase her freedom but remained a slave; Mr. Garland's family demanded much of her attention, preventing her from accumulating wealth.",
+      "Lizzie Keckley was summoned to the White House on Tuesday at eight for an interview to become Mrs. Lincoln's modiste, and after negotiating reasonable terms, she was hired.",
+      "Keckley also worked for Mrs. Senator Davis, Mrs. Senator Douglas, Mrs. Secretary Wells, Mrs. Secretary Stanton, and other Washington society ladies, dressing them in deep mourning and other styles.",
+      "Little Joe’s mother was initially unaware of the sale but later realized, and was whipped for grieving over her son’s disappearance.",
+      "Lizzie Keckley faced financial difficulties early in Washington, struggling to pay bills.",
+      "Lizzie Keckley was pressured to finish a dress for Mrs. McClean by Sunday.",
+      "Lizzie Keckley lived with Mr. Keckley for eight years, discovering he was a slave, not a free man as he had claimed.",
+      "Lizzie Keckley was hired as Mrs. Lincoln's modiste after an interview at the White House on Tuesday at eight."
+    ],
+    "latency_ms": 570,
+    "timestamp": "2026-04-16T07:02:54.867184+00:00"
+  },
+  "30": {
+    "question_id": 30,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Lizzie Keckley faced financial difficulties early in Washington, struggling to pay bills.",
+      "Lizzie Keckley worked to purchase her freedom but remained a slave; Mr. Garland's family demanded much of her attention, preventing her from accumulating wealth.",
+      "An actress approached Keckley to become a chambermaid in the White House; Keckley refused to betray her employer and declined the bribe.",
+      "Lizzie Keckley planned to travel to New York to appeal for her freedom, seeking signatures from six gentlemen; she obtained five signatures but was uncertain about the sixth.",
+      "During her conversation with Mr. Farrow, Lizzie Keckley received a hesitant signature, as Mr. Farrow warned that she would likely not return after traveling to New York.",
+      "Mrs. Le Bourgois, a patron, raised the $1200 required for Lizzie Keckley's emancipation, contributing $200, receiving $100 owed, and adding $100 from her mother, and presented the money as a gift.",
+      "Lizzie Keckley finished and forwarded Mrs. Davis's needle-work to her in Montgomery, Alabama in June 1860 with help from Mrs. Emory.",
+      "Keckley also worked for Mrs. Senator Davis, Mrs. Senator Douglas, Mrs. Secretary Wells, Mrs. Secretary Stanton, and other Washington society ladies, dressing them in deep mourning and other styles.",
+      "Lizzie Keckley was known in St. Louis as a dress‑maker, called Garland's Lizzie, and her son George was known as Garland's George, described as almost white and about 16 years old.",
+      "In winter 1865, Lizzie Keckley visited a Chicago charity fair and recognized a wax figure of Jefferson Davis wearing a chintz wrapper she had made for Mrs. Davis."
+    ],
+    "latency_ms": 667,
+    "timestamp": "2026-04-16T07:02:55.535780+00:00"
+  },
+  "31": {
+    "question_id": 31,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "An actress approached Keckley to become a chambermaid in the White House; Keckley refused to betray her employer and declined the bribe.",
+      "Lizzie Keckley worked to purchase her freedom but remained a slave; Mr. Garland's family demanded much of her attention, preventing her from accumulating wealth.",
+      "Lizzie Keckley was pressured to finish a dress for Mrs. McClean by Sunday.",
+      "Lizzie Keckley planned to travel to New York to appeal for her freedom, seeking signatures from six gentlemen; she obtained five signatures but was uncertain about the sixth.",
+      "Lizzie Keckley faced financial difficulties early in Washington, struggling to pay bills.",
+      "During her conversation with Mr. Farrow, Lizzie Keckley received a hesitant signature, as Mr. Farrow warned that she would likely not return after traveling to New York.",
+      "Lizzie Keckley was formerly enslaved and experienced physical and emotional abuse.",
+      "Lizzie Keckley finished and forwarded Mrs. Davis's needle-work to her in Montgomery, Alabama in June 1860 with help from Mrs. Emory.",
+      "Lizzie Keckley went to Willard's hotel to meet Mrs. McClean.",
+      "Lizzie Keckley lived with Mr. Keckley for eight years, discovering he was a slave, not a free man as he had claimed."
+    ],
+    "latency_ms": 566,
+    "timestamp": "2026-04-16T07:02:56.103225+00:00"
+  },
+  "32": {
+    "question_id": 32,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Lizzie Keckley faced financial difficulties early in Washington, struggling to pay bills.",
+      "Lizzie Keckley worked to purchase her freedom but remained a slave; Mr. Garland's family demanded much of her attention, preventing her from accumulating wealth.",
+      "An actress approached Keckley to become a chambermaid in the White House; Keckley refused to betray her employer and declined the bribe.",
+      "During her conversation with Mr. Farrow, Lizzie Keckley received a hesitant signature, as Mr. Farrow warned that she would likely not return after traveling to New York.",
+      "Lizzie Keckley was pressured to finish a dress for Mrs. McClean by Sunday.",
+      "Lizzie Keckley purchased trimmings for Mrs. Lee and earned a twenty-five dollar commission from Mr. Harper.",
+      "Lizzie Keckley planned to travel to New York to appeal for her freedom, seeking signatures from six gentlemen; she obtained five signatures but was uncertain about the sixth.",
+      "Lizzie Keckley finished and forwarded Mrs. Davis's needle-work to her in Montgomery, Alabama in June 1860 with help from Mrs. Emory.",
+      "Lizzie Keckley lived with Mr. Keckley for eight years, discovering he was a slave, not a free man as he had claimed.",
+      "After Mr. Garland died, Mr. Burwell, a Mississippi planter, visited St. Louis, promised Lizzie Keckley freedom, and offered to help raise the $1200 needed for her emancipation."
+    ],
+    "latency_ms": 640,
+    "timestamp": "2026-04-16T07:02:56.748594+00:00"
+  },
+  "33": {
+    "question_id": 33,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Lizzie Keckley faced financial difficulties early in Washington, struggling to pay bills.",
+      "Lizzie Keckley worked to purchase her freedom but remained a slave; Mr. Garland's family demanded much of her attention, preventing her from accumulating wealth.",
+      "An actress approached Keckley to become a chambermaid in the White House; Keckley refused to betray her employer and declined the bribe.",
+      "During her conversation with Mr. Farrow, Lizzie Keckley received a hesitant signature, as Mr. Farrow warned that she would likely not return after traveling to New York.",
+      "Lizzie Keckley lived with Mr. Keckley for eight years, discovering he was a slave, not a free man as he had claimed.",
+      "Lizzie Keckley finished and forwarded Mrs. Davis's needle-work to her in Montgomery, Alabama in June 1860 with help from Mrs. Emory.",
+      "Lizzie Keckley planned to travel to New York to appeal for her freedom, seeking signatures from six gentlemen; she obtained five signatures but was uncertain about the sixth.",
+      "Lizzie Keckley was formerly enslaved and experienced physical and emotional abuse.",
+      "Lizzie Keckley went to Willard's hotel to meet Mrs. McClean.",
+      "Lizzie Keckley married Mr. Garland in a parlor ceremony attended by family and guests, with Mr. Garland giving her away and Bishop Hawks officiating."
+    ],
+    "latency_ms": 614,
+    "timestamp": "2026-04-16T07:02:57.363942+00:00"
+  },
+  "34": {
+    "question_id": 34,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "An actress approached Keckley to become a chambermaid in the White House; Keckley refused to betray her employer and declined the bribe.",
+      "Lizzie Keckley worked to purchase her freedom but remained a slave; Mr. Garland's family demanded much of her attention, preventing her from accumulating wealth.",
+      "During her conversation with Mr. Farrow, Lizzie Keckley received a hesitant signature, as Mr. Farrow warned that she would likely not return after traveling to New York.",
+      "Lizzie Keckley finished and forwarded Mrs. Davis's needle-work to her in Montgomery, Alabama in June 1860 with help from Mrs. Emory.",
+      "Lizzie Keckley was summoned to the White House on Tuesday at eight for an interview to become Mrs. Lincoln's modiste, and after negotiating reasonable terms, she was hired.",
+      "Lizzie Keckley planned to travel to New York to appeal for her freedom, seeking signatures from six gentlemen; she obtained five signatures but was uncertain about the sixth.",
+      "Lizzie Keckley faced financial difficulties early in Washington, struggling to pay bills.",
+      "Mrs. Le Bourgois, a patron, raised the $1200 required for Lizzie Keckley's emancipation, contributing $200, receiving $100 owed, and adding $100 from her mother, and presented the money as a gift.",
+      "Lizzie Keckley was pressured to finish a dress for Mrs. McClean by Sunday.",
+      "Lizzie Keckley was the last mantua-maker summoned to meet Mrs. Lincoln."
+    ],
+    "latency_ms": 547,
+    "timestamp": "2026-04-16T07:02:57.915563+00:00"
+  },
+  "35": {
+    "question_id": 35,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Lizzie Keckley worked to purchase her freedom but remained a slave; Mr. Garland's family demanded much of her attention, preventing her from accumulating wealth.",
+      "An actress approached Keckley to become a chambermaid in the White House; Keckley refused to betray her employer and declined the bribe.",
+      "Keckley also worked for Mrs. Senator Davis, Mrs. Senator Douglas, Mrs. Secretary Wells, Mrs. Secretary Stanton, and other Washington society ladies, dressing them in deep mourning and other styles.",
+      "Lizzie Keckley lived with Mr. Keckley for eight years, discovering he was a slave, not a free man as he had claimed.",
+      "Lizzie Keckley finished and forwarded Mrs. Davis's needle-work to her in Montgomery, Alabama in June 1860 with help from Mrs. Emory.",
+      "Lizzie Keckley faced financial difficulties early in Washington, struggling to pay bills.",
+      "Lizzie Keckley planned to travel to New York to appeal for her freedom, seeking signatures from six gentlemen; she obtained five signatures but was uncertain about the sixth.",
+      "Lizzie Keckley was formerly enslaved and experienced physical and emotional abuse.",
+      "Keckley suggested to Mrs. Lincoln that the President replace state dinners with three large receptions to reduce costs; Mrs. Lincoln agreed and discussed the idea with Mr. Lincoln.",
+      "During her conversation with Mr. Farrow, Lizzie Keckley received a hesitant signature, as Mr. Farrow warned that she would likely not return after traveling to New York."
+    ],
+    "latency_ms": 608,
+    "timestamp": "2026-04-16T07:02:58.525052+00:00"
+  },
+  "36": {
+    "question_id": 36,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "An actress approached Keckley to become a chambermaid in the White House; Keckley refused to betray her employer and declined the bribe.",
+      "Lizzie Keckley worked to purchase her freedom but remained a slave; Mr. Garland's family demanded much of her attention, preventing her from accumulating wealth.",
+      "Lizzie Keckley faced financial difficulties early in Washington, struggling to pay bills.",
+      "Lizzie Keckley went to Willard's hotel to meet Mrs. McClean.",
+      "Lizzie Keckley lived with Mr. Keckley for eight years, discovering he was a slave, not a free man as he had claimed.",
+      "Lizzie Keckley planned to travel to New York to appeal for her freedom, seeking signatures from six gentlemen; she obtained five signatures but was uncertain about the sixth.",
+      "Lizzie Keckley finished and forwarded Mrs. Davis's needle-work to her in Montgomery, Alabama in June 1860 with help from Mrs. Emory.",
+      "During her conversation with Mr. Farrow, Lizzie Keckley received a hesitant signature, as Mr. Farrow warned that she would likely not return after traveling to New York.",
+      "Lizzie Keckley called Mrs. McClean's house at four P.M. to discuss the dress.",
+      "Lizzie Keckley was formerly enslaved and experienced physical and emotional abuse."
+    ],
+    "latency_ms": 620,
+    "timestamp": "2026-04-16T07:02:59.146237+00:00"
+  },
+  "37": {
+    "question_id": 37,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Lizzie Keckley faced financial difficulties early in Washington, struggling to pay bills.",
+      "An actress approached Keckley to become a chambermaid in the White House; Keckley refused to betray her employer and declined the bribe.",
+      "Lizzie Keckley planned to travel to New York to appeal for her freedom, seeking signatures from six gentlemen; she obtained five signatures but was uncertain about the sixth.",
+      "Lizzie Keckley worked to purchase her freedom but remained a slave; Mr. Garland's family demanded much of her attention, preventing her from accumulating wealth.",
+      "Mrs. Le Bourgois, a patron, raised the $1200 required for Lizzie Keckley's emancipation, contributing $200, receiving $100 owed, and adding $100 from her mother, and presented the money as a gift.",
+      "During her conversation with Mr. Farrow, Lizzie Keckley received a hesitant signature, as Mr. Farrow warned that she would likely not return after traveling to New York.",
+      "Lizzie Keckley finished and forwarded Mrs. Davis's needle-work to her in Montgomery, Alabama in June 1860 with help from Mrs. Emory.",
+      "Lizzie Keckley was known in St. Louis as a dress‑maker, called Garland's Lizzie, and her son George was known as Garland's George, described as almost white and about 16 years old.",
+      "Lizzie Keckley was summoned to the White House on Tuesday at eight for an interview to become Mrs. Lincoln's modiste, and after negotiating reasonable terms, she was hired.",
+      "Keckley also worked for Mrs. Senator Davis, Mrs. Senator Douglas, Mrs. Secretary Wells, Mrs. Secretary Stanton, and other Washington society ladies, dressing them in deep mourning and other styles."
+    ],
+    "latency_ms": 802,
+    "timestamp": "2026-04-16T07:02:59.949086+00:00"
+  },
+  "38": {
+    "question_id": 38,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "An actress approached Keckley to become a chambermaid in the White House; Keckley refused to betray her employer and declined the bribe.",
+      "Lizzie Keckley worked to purchase her freedom but remained a slave; Mr. Garland's family demanded much of her attention, preventing her from accumulating wealth.",
+      "Lizzie Keckley finished and forwarded Mrs. Davis's needle-work to her in Montgomery, Alabama in June 1860 with help from Mrs. Emory.",
+      "Lizzie Keckley was formerly enslaved and experienced physical and emotional abuse.",
+      "Lizzie Keckley lived with Mr. Keckley for eight years, discovering he was a slave, not a free man as he had claimed.",
+      "Lizzie Keckley faced financial difficulties early in Washington, struggling to pay bills.",
+      "Keckley also worked for Mrs. Senator Davis, Mrs. Senator Douglas, Mrs. Secretary Wells, Mrs. Secretary Stanton, and other Washington society ladies, dressing them in deep mourning and other styles.",
+      "Lizzie Keckley planned to travel to New York to appeal for her freedom, seeking signatures from six gentlemen; she obtained five signatures but was uncertain about the sixth.",
+      "Lizzie Keckley was pressured to finish a dress for Mrs. McClean by Sunday.",
+      "Lizzie Keckley was the last mantua-maker summoned to meet Mrs. Lincoln."
+    ],
+    "latency_ms": 595,
+    "timestamp": "2026-04-16T07:03:00.545394+00:00"
+  },
+  "39": {
+    "question_id": 39,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "An actress approached Keckley to become a chambermaid in the White House; Keckley refused to betray her employer and declined the bribe.",
+      "Lizzie Keckley was formerly enslaved and experienced physical and emotional abuse.",
+      "Lizzie Keckley worked to purchase her freedom but remained a slave; Mr. Garland's family demanded much of her attention, preventing her from accumulating wealth.",
+      "Lizzie Keckley planned to travel to New York to appeal for her freedom, seeking signatures from six gentlemen; she obtained five signatures but was uncertain about the sixth.",
+      "Mrs. Le Bourgois, a patron, raised the $1200 required for Lizzie Keckley's emancipation, contributing $200, receiving $100 owed, and adding $100 from her mother, and presented the money as a gift.",
+      "Keckley also worked for Mrs. Senator Davis, Mrs. Senator Douglas, Mrs. Secretary Wells, Mrs. Secretary Stanton, and other Washington society ladies, dressing them in deep mourning and other styles.",
+      "During her conversation with Mr. Farrow, Lizzie Keckley received a hesitant signature, as Mr. Farrow warned that she would likely not return after traveling to New York.",
+      "Little Joe’s mother was initially unaware of the sale but later realized, and was whipped for grieving over her son’s disappearance.",
+      "Lizzie Keckley finished and forwarded Mrs. Davis's needle-work to her in Montgomery, Alabama in June 1860 with help from Mrs. Emory.",
+      "Lizzie Keckley was known in St. Louis as a dress‑maker, called Garland's Lizzie, and her son George was known as Garland's George, described as almost white and about 16 years old."
+    ],
+    "latency_ms": 1410,
+    "timestamp": "2026-04-16T07:03:01.957499+00:00"
+  }
+}

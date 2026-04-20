@@ -1,0 +1,13 @@
+{
+  "subject": "yung_wing",
+  "system": "mem0",
+  "mode": "fullpipeline",
+  "user_id": "yung_wing_fullpipeline",
+  "chunks_expected": 18,
+  "chunks_posted": 18,
+  "post_success": 20,
+  "post_failure": 1,
+  "start_time": "2026-04-16T06:51:15.341398+00:00",
+  "end_time": "2026-04-16T06:51:51.864961+00:00",
+  "verification_passed": true
+}

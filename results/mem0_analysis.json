@@ -1,0 +1,124 @@
+{
+  "system": "mem0",
+  "run_id": "20260415",
+  "subjects": {
+    "zitkala_sa": {
+      "c1_avg": 2.39,
+      "c3_avg": 2.29,
+      "improvement_pct": -3.9,
+      "c1_n": 234,
+      "c3_n": 234,
+      "display_name": "Zitkala-Sa"
+    },
+    "hamerton": {
+      "c1_avg": 2.55,
+      "c3_avg": 2.77,
+      "improvement_pct": 8.9,
+      "c1_n": 234,
+      "c3_n": 234,
+      "display_name": "Philip Gilbert Hamerton"
+    },
+    "keckley": {
+      "c1_avg": 2.64,
+      "c3_avg": 2.63,
+      "improvement_pct": -0.5,
+      "c1_n": 234,
+      "c3_n": 234,
+      "display_name": "Elizabeth Keckley"
+    },
+    "yung_wing": {
+      "c1_avg": 2.16,
+      "c3_avg": 2.51,
+      "improvement_pct": 16.0,
+      "c1_n": 234,
+      "c3_n": 234,
+      "display_name": "Yung Wing"
+    },
+    "seacole": {
+      "c1_avg": 2.64,
+      "c3_avg": 2.83,
+      "improvement_pct": 7.1,
+      "c1_n": 234,
+      "c3_n": 234,
+      "display_name": "Mary Seacole"
+    },
+    "sunity_devee": {
+      "c1_avg": 2.46,
+      "c3_avg": 2.38,
+      "improvement_pct": -3.3,
+      "c1_n": 234,
+      "c3_n": 234,
+      "display_name": "Sunity Devee"
+    },
+    "equiano": {
+      "c1_avg": 2.58,
+      "c3_avg": 2.67,
+      "improvement_pct": 3.6,
+      "c1_n": 234,
+      "c3_n": 234,
+      "display_name": "Olaudah Equiano"
+    },
+    "augustine": {
+      "c1_avg": 2.54,
+      "c3_avg": 2.95,
+      "improvement_pct": 16.1,
+      "c1_n": 234,
+      "c3_n": 234,
+      "display_name": "Saint Augustine"
+    },
+    "ebers": {
+      "c1_avg": 2.03,
+      "c3_avg": 2.26,
+      "improvement_pct": 10.9,
+      "c1_n": 234,
+      "c3_n": 234,
+      "display_name": "Georg Ebers"
+    },
+    "fukuzawa": {
+      "c1_avg": 2.63,
+      "c3_avg": 2.67,
+      "improvement_pct": 1.3,
+      "c1_n": 234,
+      "c3_n": 234,
+      "display_name": "Fukuzawa Yukichi"
+    },
+    "cellini": {
+      "c1_avg": 2.28,
+      "c3_avg": 2.62,
+      "improvement_pct": 14.8,
+      "c1_n": 234,
+      "c3_n": 234,
+      "display_name": "Benvenuto Cellini"
+    },
+    "bernal_diaz": {
+      "c1_avg": 2.58,
+      "c3_avg": 2.55,
+      "improvement_pct": -1.2,
+      "c1_n": 234,
+      "c3_n": 234,
+      "display_name": "Bernal Diaz del Castillo"
+    },
+    "rousseau": {
+      "c1_avg": 2.46,
+      "c3_avg": 2.64,
+      "improvement_pct": 7.1,
+      "c1_n": 234,
+      "c3_n": 234,
+      "display_name": "Jean-Jacques Rousseau"
+    },
+    "babur": {
+      "c1_avg": 1.91,
+      "c3_avg": 2.19,
+      "improvement_pct": 14.3,
+      "c1_n": 234,
+      "c3_n": 234,
+      "display_name": "Babur"
+    }
+  },
+  "overall": {
+    "c1_avg": 2.42,
+    "c3_avg": 2.57,
+    "c1_n": 3276,
+    "c3_n": 3276
+  }
+}

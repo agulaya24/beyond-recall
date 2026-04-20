@@ -1,0 +1,782 @@
+{
+  "1": {
+    "question_id": 1,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The book is dedicated to Major‑General Lord Rokeby, K.C.B., by his Lordship's humble and most grateful servant, Mary Seacole.",
+      "Aunty Seacole is a medical attendant in Cruces, retained by Americans, and runs a hotel opposite her brother's Independent Hotel.",
+      "The user believes a preface was unnecessary to introduce Mrs. Seacole to the British public, and that the book is unique in literature due to its subject's circumstances.",
+      "Aunty Seacole used a chalk method to count eggshells to detect cheating by a tall thin Yankee who ate eggs and tried to cheat.",
+      "The user praises Mrs. Seacole as a plain truth‑speaking woman who lived an adventurous life amid scenes that have not yet found a historian among the actors on the stage where they passed, and notes her devotion, courage, and service to the sick and wounded.",
+      "User married Mr. Seacole, took him to Black River, and together established a store; he was delicate, had unfavorable medical opinions, and died after returning to Kingston.",
+      "Aunty Seacole hired a black barber named Jose for two pounds to shave male guests, and built an out‑house for him.",
+      "Aunty Seacole forbade gambling in her hotel, but gambling existed in Cruces, with a table owned by Dr. Casey, known as reckless and unscrupulous.",
+      "Aunty Seacole's staff included a black servant named Mac, a little girl, and a native cook.",
+      "User had a little brown‑faced orphan infant, about a year old, who died in their arms; they performed a post‑mortem examination on the child to learn about cholera."
+    ],
+    "latency_ms": 782,
+    "timestamp": "2026-04-16T07:03:26.947715+00:00"
+  },
+  "2": {
+    "question_id": 2,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Aunty Seacole is a medical attendant in Cruces, retained by Americans, and runs a hotel opposite her brother's Independent Hotel.",
+      "The user praises Mrs. Seacole as a plain truth‑speaking woman who lived an adventurous life amid scenes that have not yet found a historian among the actors on the stage where they passed, and notes her devotion, courage, and service to the sick and wounded.",
+      "The book is dedicated to Major‑General Lord Rokeby, K.C.B., by his Lordship's humble and most grateful servant, Mary Seacole.",
+      "Aunty Seacole used a chalk method to count eggshells to detect cheating by a tall thin Yankee who ate eggs and tried to cheat.",
+      "Aunty Seacole forbade gambling in her hotel, but gambling existed in Cruces, with a table owned by Dr. Casey, known as reckless and unscrupulous.",
+      "Aunty Seacole hired a black barber named Jose for two pounds to shave male guests, and built an out‑house for him.",
+      "Aunty Seacole charged four shillings for an ordinary dinner, with eggs and chickens considered luxuries and fetched high prices.",
+      "User married Mr. Seacole, took him to Black River, and together established a store; he was delicate, had unfavorable medical opinions, and died after returning to Kingston.",
+      "Aunty Seacole's staff included a black servant named Mac, a little girl, and a native cook.",
+      "The user believes a preface was unnecessary to introduce Mrs. Seacole to the British public, and that the book is unique in literature due to its subject's circumstances."
+    ],
+    "latency_ms": 671,
+    "timestamp": "2026-04-16T07:03:27.620304+00:00"
+  },
+  "3": {
+    "question_id": 3,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Aunty Seacole is a medical attendant in Cruces, retained by Americans, and runs a hotel opposite her brother's Independent Hotel.",
+      "The book is dedicated to Major‑General Lord Rokeby, K.C.B., by his Lordship's humble and most grateful servant, Mary Seacole.",
+      "User married Mr. Seacole, took him to Black River, and together established a store; he was delicate, had unfavorable medical opinions, and died after returning to Kingston.",
+      "The user believes a preface was unnecessary to introduce Mrs. Seacole to the British public, and that the book is unique in literature due to its subject's circumstances.",
+      "User possessed medical skill; a surgeon sent by the West Granada Gold-mining Company was cured by the narrator, and the narrator also nursed Mr. Day through a sharp illness.",
+      "The user praises Mrs. Seacole as a plain truth‑speaking woman who lived an adventurous life amid scenes that have not yet found a historian among the actors on the stage where they passed, and notes her devotion, courage, and service to the sick and wounded.",
+      "Aunty Seacole forbade gambling in her hotel, but gambling existed in Cruces, with a table owned by Dr. Casey, known as reckless and unscrupulous.",
+      "The book 'Wonderful Adventures of Mrs. Seacole in Many Lands' was produced by Suzanne Shell and Sam W., edited by W. J. S., with an introductory preface by W. H. Russell, Esq., the 'Times' correspondent in the Crimea, and published in London by James Blackwood at Paternoster Row in 1857.",
+      "Aunty Seacole hired a black barber named Jose for two pounds to shave male guests, and built an out‑house for him.",
+      "Aunty Seacole charged four shillings for an ordinary dinner, with eggs and chickens considered luxuries and fetched high prices."
+    ],
+    "latency_ms": 644,
+    "timestamp": "2026-04-16T07:03:28.265324+00:00"
+  },
+  "4": {
+    "question_id": 4,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The user praises Mrs. Seacole as a plain truth‑speaking woman who lived an adventurous life amid scenes that have not yet found a historian among the actors on the stage where they passed, and notes her devotion, courage, and service to the sick and wounded.",
+      "The book is dedicated to Major‑General Lord Rokeby, K.C.B., by his Lordship's humble and most grateful servant, Mary Seacole.",
+      "Aunty Seacole used a chalk method to count eggshells to detect cheating by a tall thin Yankee who ate eggs and tried to cheat.",
+      "User married Mr. Seacole, took him to Black River, and together established a store; he was delicate, had unfavorable medical opinions, and died after returning to Kingston.",
+      "The user believes a preface was unnecessary to introduce Mrs. Seacole to the British public, and that the book is unique in literature due to its subject's circumstances.",
+      "Aunty Seacole is a medical attendant in Cruces, retained by Americans, and runs a hotel opposite her brother's Independent Hotel.",
+      "Aunty Seacole hired a black barber named Jose for two pounds to shave male guests, and built an out‑house for him.",
+      "Aunty Seacole charged four shillings for an ordinary dinner, with eggs and chickens considered luxuries and fetched high prices.",
+      "User cured an American of cholera at Cruces, who later lent a boat for building the hotel.",
+      "Aunty Seacole forbade gambling in her hotel, but gambling existed in Cruces, with a table owned by Dr. Casey, known as reckless and unscrupulous."
+    ],
+    "latency_ms": 661,
+    "timestamp": "2026-04-16T07:03:28.927518+00:00"
+  },
+  "5": {
+    "question_id": 5,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The user praises Mrs. Seacole as a plain truth‑speaking woman who lived an adventurous life amid scenes that have not yet found a historian among the actors on the stage where they passed, and notes her devotion, courage, and service to the sick and wounded.",
+      "The book is dedicated to Major‑General Lord Rokeby, K.C.B., by his Lordship's humble and most grateful servant, Mary Seacole.",
+      "The user believes a preface was unnecessary to introduce Mrs. Seacole to the British public, and that the book is unique in literature due to its subject's circumstances.",
+      "User married Mr. Seacole, took him to Black River, and together established a store; he was delicate, had unfavorable medical opinions, and died after returning to Kingston.",
+      "Aunty Seacole is a medical attendant in Cruces, retained by Americans, and runs a hotel opposite her brother's Independent Hotel.",
+      "Aunty Seacole used a chalk method to count eggshells to detect cheating by a tall thin Yankee who ate eggs and tried to cheat.",
+      "Aunty Seacole charged four shillings for an ordinary dinner, with eggs and chickens considered luxuries and fetched high prices.",
+      "Aunty Seacole hired a black barber named Jose for two pounds to shave male guests, and built an out‑house for him.",
+      "Aunty Seacole forbade gambling in her hotel, but gambling existed in Cruces, with a table owned by Dr. Casey, known as reckless and unscrupulous.",
+      "User had a narrow escape from thieves in Cruces when a thief stole their dress and purse, used a rusty horse-pistol to deter the thief, and recovered the stolen items hidden behind a bush."
+    ],
+    "latency_ms": 670,
+    "timestamp": "2026-04-16T07:03:29.598293+00:00"
+  },
+  "6": {
+    "question_id": 6,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The book is dedicated to Major‑General Lord Rokeby, K.C.B., by his Lordship's humble and most grateful servant, Mary Seacole.",
+      "Aunty Seacole is a medical attendant in Cruces, retained by Americans, and runs a hotel opposite her brother's Independent Hotel.",
+      "The user praises Mrs. Seacole as a plain truth‑speaking woman who lived an adventurous life amid scenes that have not yet found a historian among the actors on the stage where they passed, and notes her devotion, courage, and service to the sick and wounded.",
+      "The user believes a preface was unnecessary to introduce Mrs. Seacole to the British public, and that the book is unique in literature due to its subject's circumstances.",
+      "Aunty Seacole forbade gambling in her hotel, but gambling existed in Cruces, with a table owned by Dr. Casey, known as reckless and unscrupulous.",
+      "User traveled from Navy Bay to Escribanos in a small vessel, noting that communication from Navy Bay was impossible due to dense forests.",
+      "The book 'Wonderful Adventures of Mrs. Seacole in Many Lands' was produced by Suzanne Shell and Sam W., edited by W. J. S., with an introductory preface by W. H. Russell, Esq., the 'Times' correspondent in the Crimea, and published in London by James Blackwood at Paternoster Row in 1857.",
+      "Aunty Seacole used a chalk method to count eggshells to detect cheating by a tall thin Yankee who ate eggs and tried to cheat.",
+      "User encountered Lola Montes, a bold woman in male attire, in Cruces who was cut across the face by an American and rode off the next morning; User noted Miss Catherine Hayes refused to sing during her tour in Cruces and observed an English bishop from Australia whose wife gained admirers during her journey from Panama.",
+      "During the 1850 cholera outbreak in Jamaica, User learned treatment insights from Dr. B."
+    ],
+    "latency_ms": 606,
+    "timestamp": "2026-04-16T07:03:30.204961+00:00"
+  },
+  "7": {
+    "question_id": 7,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Aunty Seacole is a medical attendant in Cruces, retained by Americans, and runs a hotel opposite her brother's Independent Hotel.",
+      "The book is dedicated to Major‑General Lord Rokeby, K.C.B., by his Lordship's humble and most grateful servant, Mary Seacole.",
+      "The user praises Mrs. Seacole as a plain truth‑speaking woman who lived an adventurous life amid scenes that have not yet found a historian among the actors on the stage where they passed, and notes her devotion, courage, and service to the sick and wounded.",
+      "Aunty Seacole forbade gambling in her hotel, but gambling existed in Cruces, with a table owned by Dr. Casey, known as reckless and unscrupulous.",
+      "The user believes a preface was unnecessary to introduce Mrs. Seacole to the British public, and that the book is unique in literature due to its subject's circumstances.",
+      "User encountered Lola Montes, a bold woman in male attire, in Cruces who was cut across the face by an American and rode off the next morning; User noted Miss Catherine Hayes refused to sing during her tour in Cruces and observed an English bishop from Australia whose wife gained admirers during her journey from Panama.",
+      "The user lists the book's chapters, covering topics such as her birth and parentage, struggles for life, cholera in Jamaica, migration to Gorgona, yellow fever in Jamaica, and her work in the Crimea.",
+      "User married Mr. Seacole, took him to Black River, and together established a store; he was delicate, had unfavorable medical opinions, and died after returning to Kingston.",
+      "Aunty Seacole used a chalk method to count eggshells to detect cheating by a tall thin Yankee who ate eggs and tried to cheat.",
+      "Aunty Seacole hired a black barber named Jose for two pounds to shave male guests, and built an out‑house for him."
+    ],
+    "latency_ms": 693,
+    "timestamp": "2026-04-16T07:03:30.899521+00:00"
+  },
+  "8": {
+    "question_id": 8,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The book is dedicated to Major‑General Lord Rokeby, K.C.B., by his Lordship's humble and most grateful servant, Mary Seacole.",
+      "The user believes a preface was unnecessary to introduce Mrs. Seacole to the British public, and that the book is unique in literature due to its subject's circumstances.",
+      "Aunty Seacole is a medical attendant in Cruces, retained by Americans, and runs a hotel opposite her brother's Independent Hotel.",
+      "The user praises Mrs. Seacole as a plain truth‑speaking woman who lived an adventurous life amid scenes that have not yet found a historian among the actors on the stage where they passed, and notes her devotion, courage, and service to the sick and wounded.",
+      "Aunty Seacole used a chalk method to count eggshells to detect cheating by a tall thin Yankee who ate eggs and tried to cheat.",
+      "User married Mr. Seacole, took him to Black River, and together established a store; he was delicate, had unfavorable medical opinions, and died after returning to Kingston.",
+      "Aunty Seacole hired a black barber named Jose for two pounds to shave male guests, and built an out‑house for him.",
+      "Aunty Seacole's staff included a black servant named Mac, a little girl, and a native cook.",
+      "Aunty Seacole forbade gambling in her hotel, but gambling existed in Cruces, with a table owned by Dr. Casey, known as reckless and unscrupulous.",
+      "Aunty Seacole charged four shillings for an ordinary dinner, with eggs and chickens considered luxuries and fetched high prices."
+    ],
+    "latency_ms": 684,
+    "timestamp": "2026-04-16T07:03:31.587706+00:00"
+  },
+  "9": {
+    "question_id": 9,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The book is dedicated to Major‑General Lord Rokeby, K.C.B., by his Lordship's humble and most grateful servant, Mary Seacole.",
+      "Aunty Seacole is a medical attendant in Cruces, retained by Americans, and runs a hotel opposite her brother's Independent Hotel.",
+      "The user praises Mrs. Seacole as a plain truth‑speaking woman who lived an adventurous life amid scenes that have not yet found a historian among the actors on the stage where they passed, and notes her devotion, courage, and service to the sick and wounded.",
+      "The user believes a preface was unnecessary to introduce Mrs. Seacole to the British public, and that the book is unique in literature due to its subject's circumstances.",
+      "Aunty Seacole used a chalk method to count eggshells to detect cheating by a tall thin Yankee who ate eggs and tried to cheat.",
+      "Aunty Seacole forbade gambling in her hotel, but gambling existed in Cruces, with a table owned by Dr. Casey, known as reckless and unscrupulous.",
+      "User married Mr. Seacole, took him to Black River, and together established a store; he was delicate, had unfavorable medical opinions, and died after returning to Kingston.",
+      "User possessed medical skill; a surgeon sent by the West Granada Gold-mining Company was cured by the narrator, and the narrator also nursed Mr. Day through a sharp illness.",
+      "Aunty Seacole charged four shillings for an ordinary dinner, with eggs and chickens considered luxuries and fetched high prices.",
+      "Aunty Seacole hired a black barber named Jose for two pounds to shave male guests, and built an out‑house for him."
+    ],
+    "latency_ms": 628,
+    "timestamp": "2026-04-16T07:03:32.216817+00:00"
+  },
+  "10": {
+    "question_id": 10,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The book is dedicated to Major‑General Lord Rokeby, K.C.B., by his Lordship's humble and most grateful servant, Mary Seacole.",
+      "The user believes a preface was unnecessary to introduce Mrs. Seacole to the British public, and that the book is unique in literature due to its subject's circumstances.",
+      "A boat with three sailors grounded near Escribanos; after two days of hunger and thirst, two drowned on the third day, and the third died in the boat.",
+      "Aunty Seacole is a medical attendant in Cruces, retained by Americans, and runs a hotel opposite her brother's Independent Hotel.",
+      "The user praises Mrs. Seacole as a plain truth‑speaking woman who lived an adventurous life amid scenes that have not yet found a historian among the actors on the stage where they passed, and notes her devotion, courage, and service to the sick and wounded.",
+      "Aunty Seacole charged four shillings for an ordinary dinner, with eggs and chickens considered luxuries and fetched high prices.",
+      "User married Mr. Seacole, took him to Black River, and together established a store; he was delicate, had unfavorable medical opinions, and died after returning to Kingston.",
+      "Aunty Seacole forbade gambling in her hotel, but gambling existed in Cruces, with a table owned by Dr. Casey, known as reckless and unscrupulous.",
+      "Aunty Seacole used a chalk method to count eggshells to detect cheating by a tall thin Yankee who ate eggs and tried to cheat.",
+      "Aunty Seacole hired a black barber named Jose for two pounds to shave male guests, and built an out‑house for him."
+    ],
+    "latency_ms": 599,
+    "timestamp": "2026-04-16T07:03:32.817321+00:00"
+  },
+  "11": {
+    "question_id": 11,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "User possessed medical skill; a surgeon sent by the West Granada Gold-mining Company was cured by the narrator, and the narrator also nursed Mr. Day through a sharp illness.",
+      "User describes that when Americans crossed the Isthmus with slaves, locals offered freedom and escape, and authorities were reluctant to recapture runaways.",
+      "User married Mr. Seacole, took him to Black River, and together established a store; he was delicate, had unfavorable medical opinions, and died after returning to Kingston.",
+      "The user praises Mrs. Seacole as a plain truth‑speaking woman who lived an adventurous life amid scenes that have not yet found a historian among the actors on the stage where they passed, and notes her devotion, courage, and service to the sick and wounded.",
+      "Aunty Seacole is a medical attendant in Cruces, retained by Americans, and runs a hotel opposite her brother's Independent Hotel.",
+      "User observes that freed slaves in New Granada rose to positions of eminence, leading to prejudice against Americans.",
+      "User traveled from Navy Bay to Escribanos in a small vessel, noting that communication from Navy Bay was impossible due to dense forests.",
+      "The narrator had a secret desire to embark on a novel speculation, though the details were not fully disclosed.",
+      "User resigned house to cousin and journeyed to Chagres to support brother's venture, traveling from Navy Bay to Gatun by railway (≈12 miles), where local authorities requisitioned their medicine chest, hired a boat with a black padrone, journeying on the River Chagres in heavy rain, with a servant named Mac.",
+      "User treated cholera with mustard plasters, emetics, calomel, external mercury, avoided opium, used water boiled with cinnamon, sugar of lead in water, warm oil with camphor and spirits of wine, and mustard poultices to stomach, spine, neck, and keeping the heart region warm."
+    ],
+    "latency_ms": 608,
+    "timestamp": "2026-04-16T07:03:33.430239+00:00"
+  },
+  "12": {
+    "question_id": 12,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The user praises Mrs. Seacole as a plain truth‑speaking woman who lived an adventurous life amid scenes that have not yet found a historian among the actors on the stage where they passed, and notes her devotion, courage, and service to the sick and wounded.",
+      "User possessed medical skill; a surgeon sent by the West Granada Gold-mining Company was cured by the narrator, and the narrator also nursed Mr. Day through a sharp illness.",
+      "The user believes a preface was unnecessary to introduce Mrs. Seacole to the British public, and that the book is unique in literature due to its subject's circumstances.",
+      "Aunty Seacole is a medical attendant in Cruces, retained by Americans, and runs a hotel opposite her brother's Independent Hotel.",
+      "User stayed with brother in Gorgona, who was young, often ill, and resistant to leaving the Isthmus, after persuading him to stay.",
+      "User married Mr. Seacole, took him to Black River, and together established a store; he was delicate, had unfavorable medical opinions, and died after returning to Kingston.",
+      "The user lists the book's chapters, covering topics such as her birth and parentage, struggles for life, cholera in Jamaica, migration to Gorgona, yellow fever in Jamaica, and her work in the Crimea.",
+      "User recounts a case where a young American woman in Gorgona abused her slave, leading to intervention by the alcalde, who declared the slave free.",
+      "User encountered Lola Montes, a bold woman in male attire, in Cruces who was cut across the face by an American and rode off the next morning; User noted Miss Catherine Hayes refused to sing during her tour in Cruces and observed an English bishop from Australia whose wife gained admirers during her journey from Panama.",
+      "User observes that freed slaves in New Granada rose to positions of eminence, leading to prejudice against Americans."
+    ],
+    "latency_ms": 674,
+    "timestamp": "2026-04-16T07:03:34.105516+00:00"
+  },
+  "13": {
+    "question_id": 13,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The user praises Mrs. Seacole as a plain truth‑speaking woman who lived an adventurous life amid scenes that have not yet found a historian among the actors on the stage where they passed, and notes her devotion, courage, and service to the sick and wounded.",
+      "User possessed medical skill; a surgeon sent by the West Granada Gold-mining Company was cured by the narrator, and the narrator also nursed Mr. Day through a sharp illness.",
+      "User married Mr. Seacole, took him to Black River, and together established a store; he was delicate, had unfavorable medical opinions, and died after returning to Kingston.",
+      "User encountered Lola Montes, a bold woman in male attire, in Cruces who was cut across the face by an American and rode off the next morning; User noted Miss Catherine Hayes refused to sing during her tour in Cruces and observed an English bishop from Australia whose wife gained admirers during her journey from Panama.",
+      "Aunty Seacole is a medical attendant in Cruces, retained by Americans, and runs a hotel opposite her brother's Independent Hotel.",
+      "The book is dedicated to Major‑General Lord Rokeby, K.C.B., by his Lordship's humble and most grateful servant, Mary Seacole.",
+      "User cured an American of cholera at Cruces, who later lent a boat for building the hotel.",
+      "User recounts a case where a young American woman in Gorgona abused her slave, leading to intervention by the alcalde, who declared the slave free.",
+      "User traveled from Navy Bay to Escribanos in a small vessel, noting that communication from Navy Bay was impossible due to dense forests.",
+      "User stayed with brother in Gorgona, who was young, often ill, and resistant to leaving the Isthmus, after persuading him to stay."
+    ],
+    "latency_ms": 666,
+    "timestamp": "2026-04-16T07:03:34.773634+00:00"
+  },
+  "14": {
+    "question_id": 14,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "User traveled from Navy Bay to Escribanos in a small vessel, noting that communication from Navy Bay was impossible due to dense forests.",
+      "User suffered grief from losing mother and later faced challenges alone.",
+      "User describes that when Americans crossed the Isthmus with slaves, locals offered freedom and escape, and authorities were reluctant to recapture runaways.",
+      "User notes that citizens of the New Granada Republic have a strong prejudice against all Americans.",
+      "The user praises Mrs. Seacole as a plain truth‑speaking woman who lived an adventurous life amid scenes that have not yet found a historian among the actors on the stage where they passed, and notes her devotion, courage, and service to the sick and wounded.",
+      "User encountered Lola Montes, a bold woman in male attire, in Cruces who was cut across the face by an American and rode off the next morning; User noted Miss Catherine Hayes refused to sing during her tour in Cruces and observed an English bishop from Australia whose wife gained admirers during her journey from Panama.",
+      "User mentions that the New Granada constitution states that a slave's chains fall when touching its soil.",
+      "The book is dedicated to Major‑General Lord Rokeby, K.C.B., by his Lordship's humble and most grateful servant, Mary Seacole.",
+      "User had a narrow escape from thieves in Cruces when a thief stole their dress and purse, used a rusty horse-pistol to deter the thief, and recovered the stolen items hidden behind a bush.",
+      "While returning home after two years in London, a fire broke out on the ship Velusia, nearly ending User's life; User entered an arrangement with the ship's cook to be lassoed onto a large hen‑coop in exchange for two pounds payable later."
+    ],
+    "latency_ms": 592,
+    "timestamp": "2026-04-16T07:03:35.370789+00:00"
+  },
+  "15": {
+    "question_id": 15,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The user praises Mrs. Seacole as a plain truth‑speaking woman who lived an adventurous life amid scenes that have not yet found a historian among the actors on the stage where they passed, and notes her devotion, courage, and service to the sick and wounded.",
+      "User survived the 1843 Kingston fire, rebuilt house, and gained reputation as a skilled nurse.",
+      "User recounts that the American Railway Company took possession of Navy Bay, christened it Aspinwall, but native authorities refused to recognize the name and refused to enforce legal claims there.",
+      "After leaving Escribanos, the narrator stopped briefly at Navy Bay and then traveled directly to England, with unsatisfied claims on a Mining Company and a share in the Palmilla Mine speculation.",
+      "A boat with three sailors grounded near Escribanos; after two days of hunger and thirst, two drowned on the third day, and the third died in the boat.",
+      "User describes that when Americans crossed the Isthmus with slaves, locals offered freedom and escape, and authorities were reluctant to recapture runaways.",
+      "The narrator had a secret desire to embark on a novel speculation, though the details were not fully disclosed.",
+      "The user believes a preface was unnecessary to introduce Mrs. Seacole to the British public, and that the book is unique in literature due to its subject's circumstances.",
+      "User treated cholera with mustard plasters, emetics, calomel, external mercury, avoided opium, used water boiled with cinnamon, sugar of lead in water, warm oil with camphor and spirits of wine, and mustard poultices to stomach, spine, neck, and keeping the heart region warm.",
+      "The book is dedicated to Major‑General Lord Rokeby, K.C.B., by his Lordship's humble and most grateful servant, Mary Seacole."
+    ],
+    "latency_ms": 643,
+    "timestamp": "2026-04-16T07:03:36.014776+00:00"
+  },
+  "16": {
+    "question_id": 16,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The book is dedicated to Major‑General Lord Rokeby, K.C.B., by his Lordship's humble and most grateful servant, Mary Seacole.",
+      "The user praises Mrs. Seacole as a plain truth‑speaking woman who lived an adventurous life amid scenes that have not yet found a historian among the actors on the stage where they passed, and notes her devotion, courage, and service to the sick and wounded.",
+      "User recounts a case where a young American woman in Gorgona abused her slave, leading to intervention by the alcalde, who declared the slave free.",
+      "User encountered Lola Montes, a bold woman in male attire, in Cruces who was cut across the face by an American and rode off the next morning; User noted Miss Catherine Hayes refused to sing during her tour in Cruces and observed an English bishop from Australia whose wife gained admirers during her journey from Panama.",
+      "Aunty Seacole is a medical attendant in Cruces, retained by Americans, and runs a hotel opposite her brother's Independent Hotel.",
+      "User possessed medical skill; a surgeon sent by the West Granada Gold-mining Company was cured by the narrator, and the narrator also nursed Mr. Day through a sharp illness.",
+      "User survived the 1843 Kingston fire, rebuilt house, and gained reputation as a skilled nurse.",
+      "User recounts that the American Railway Company took possession of Navy Bay, christened it Aspinwall, but native authorities refused to recognize the name and refused to enforce legal claims there.",
+      "The user believes a preface was unnecessary to introduce Mrs. Seacole to the British public, and that the book is unique in literature due to its subject's circumstances.",
+      "Aunty Seacole used a chalk method to count eggshells to detect cheating by a tall thin Yankee who ate eggs and tried to cheat."
+    ],
+    "latency_ms": 728,
+    "timestamp": "2026-04-16T07:03:36.743692+00:00"
+  },
+  "17": {
+    "question_id": 17,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "User possessed medical skill; a surgeon sent by the West Granada Gold-mining Company was cured by the narrator, and the narrator also nursed Mr. Day through a sharp illness.",
+      "The book is dedicated to Major‑General Lord Rokeby, K.C.B., by his Lordship's humble and most grateful servant, Mary Seacole.",
+      "The user praises Mrs. Seacole as a plain truth‑speaking woman who lived an adventurous life amid scenes that have not yet found a historian among the actors on the stage where they passed, and notes her devotion, courage, and service to the sick and wounded.",
+      "Aunty Seacole is a medical attendant in Cruces, retained by Americans, and runs a hotel opposite her brother's Independent Hotel.",
+      "User encountered Lola Montes, a bold woman in male attire, in Cruces who was cut across the face by an American and rode off the next morning; User noted Miss Catherine Hayes refused to sing during her tour in Cruces and observed an English bishop from Australia whose wife gained admirers during her journey from Panama.",
+      "Aunty Seacole's staff included a black servant named Mac, a little girl, and a native cook.",
+      "The narrator had a secret desire to embark on a novel speculation, though the details were not fully disclosed.",
+      "User married Mr. Seacole, took him to Black River, and together established a store; he was delicate, had unfavorable medical opinions, and died after returning to Kingston.",
+      "The narrator journeyed with a gentleman named Little, a maid, and the alcalde's daughter along the Palmilla river to prospect a mine, collecting quartz specimens.",
+      "Aunty Seacole charged four shillings for an ordinary dinner, with eggs and chickens considered luxuries and fetched high prices."
+    ],
+    "latency_ms": 724,
+    "timestamp": "2026-04-16T07:03:37.468495+00:00"
+  },
+  "18": {
+    "question_id": 18,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "User delivered a speech thanking the audience, discussing their complexion, refusing bleaching, and expressing gratitude for American manners.",
+      "The user praises Mrs. Seacole as a plain truth‑speaking woman who lived an adventurous life amid scenes that have not yet found a historian among the actors on the stage where they passed, and notes her devotion, courage, and service to the sick and wounded.",
+      "User possessed medical skill; a surgeon sent by the West Granada Gold-mining Company was cured by the narrator, and the narrator also nursed Mr. Day through a sharp illness.",
+      "User married Mr. Seacole, took him to Black River, and together established a store; he was delicate, had unfavorable medical opinions, and died after returning to Kingston.",
+      "User encountered Lola Montes, a bold woman in male attire, in Cruces who was cut across the face by an American and rode off the next morning; User noted Miss Catherine Hayes refused to sing during her tour in Cruces and observed an English bishop from Australia whose wife gained admirers during her journey from Panama.",
+      "The narrator had a secret desire to embark on a novel speculation, though the details were not fully disclosed.",
+      "The user lists the book's chapters, covering topics such as her birth and parentage, struggles for life, cholera in Jamaica, migration to Gorgona, yellow fever in Jamaica, and her work in the Crimea.",
+      "Aunty Seacole is a medical attendant in Cruces, retained by Americans, and runs a hotel opposite her brother's Independent Hotel.",
+      "User attended an especial occasion on American Independence Day at their brother's hotel where champagne was drunk liberally at twelve shillings a bottle, and a speech was given proposing 'the ladies' with an especial reference to the user.",
+      "User recounts a case where a young American woman in Gorgona abused her slave, leading to intervention by the alcalde, who declared the slave free."
+    ],
+    "latency_ms": 644,
+    "timestamp": "2026-04-16T07:03:38.115956+00:00"
+  },
+  "19": {
+    "question_id": 19,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The user praises Mrs. Seacole as a plain truth‑speaking woman who lived an adventurous life amid scenes that have not yet found a historian among the actors on the stage where they passed, and notes her devotion, courage, and service to the sick and wounded.",
+      "User married Mr. Seacole, took him to Black River, and together established a store; he was delicate, had unfavorable medical opinions, and died after returning to Kingston.",
+      "User traveled to the Isthmus of Panama to wind up affairs of a late hotel, traveling with his brother, mules, and native guides, and later opened a store in Navy Bay/Colon for about three months.",
+      "User traveled from Navy Bay to Escribanos in a small vessel, noting that communication from Navy Bay was impossible due to dense forests.",
+      "Aunty Seacole is a medical attendant in Cruces, retained by Americans, and runs a hotel opposite her brother's Independent Hotel.",
+      "The user believes a preface was unnecessary to introduce Mrs. Seacole to the British public, and that the book is unique in literature due to its subject's circumstances.",
+      "The book is dedicated to Major‑General Lord Rokeby, K.C.B., by his Lordship's humble and most grateful servant, Mary Seacole.",
+      "User encountered Lola Montes, a bold woman in male attire, in Cruces who was cut across the face by an American and rode off the next morning; User noted Miss Catherine Hayes refused to sing during her tour in Cruces and observed an English bishop from Australia whose wife gained admirers during her journey from Panama.",
+      "User stayed with brother in Gorgona, who was young, often ill, and resistant to leaving the Isthmus, after persuading him to stay.",
+      "User describes that when Americans crossed the Isthmus with slaves, locals offered freedom and escape, and authorities were reluctant to recapture runaways."
+    ],
+    "latency_ms": 636,
+    "timestamp": "2026-04-16T07:03:38.753165+00:00"
+  },
+  "20": {
+    "question_id": 20,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "User possessed medical skill; a surgeon sent by the West Granada Gold-mining Company was cured by the narrator, and the narrator also nursed Mr. Day through a sharp illness.",
+      "The book is dedicated to Major‑General Lord Rokeby, K.C.B., by his Lordship's humble and most grateful servant, Mary Seacole.",
+      "User describes that when Americans crossed the Isthmus with slaves, locals offered freedom and escape, and authorities were reluctant to recapture runaways.",
+      "The user praises Mrs. Seacole as a plain truth‑speaking woman who lived an adventurous life amid scenes that have not yet found a historian among the actors on the stage where they passed, and notes her devotion, courage, and service to the sick and wounded.",
+      "User experienced cholera themselves, with symptoms including giddiness, sickness, diarrhoea, sunken eyes, and a rapid progression to severe symptoms.",
+      "During the 1850 cholera outbreak in Jamaica, User learned treatment insights from Dr. B.",
+      "User encountered Lola Montes, a bold woman in male attire, in Cruces who was cut across the face by an American and rode off the next morning; User noted Miss Catherine Hayes refused to sing during her tour in Cruces and observed an English bishop from Australia whose wife gained admirers during her journey from Panama.",
+      "The user believes a preface was unnecessary to introduce Mrs. Seacole to the British public, and that the book is unique in literature due to its subject's circumstances.",
+      "User stayed with brother in Gorgona, who was young, often ill, and resistant to leaving the Isthmus, after persuading him to stay.",
+      "User has considerable experience treating knife and gun-shot wounds."
+    ],
+    "latency_ms": 630,
+    "timestamp": "2026-04-16T07:03:39.388680+00:00"
+  },
+  "21": {
+    "question_id": 21,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The user praises Mrs. Seacole as a plain truth‑speaking woman who lived an adventurous life amid scenes that have not yet found a historian among the actors on the stage where they passed, and notes her devotion, courage, and service to the sick and wounded.",
+      "Aunty Seacole is a medical attendant in Cruces, retained by Americans, and runs a hotel opposite her brother's Independent Hotel.",
+      "The book is dedicated to Major‑General Lord Rokeby, K.C.B., by his Lordship's humble and most grateful servant, Mary Seacole.",
+      "Aunty Seacole forbade gambling in her hotel, but gambling existed in Cruces, with a table owned by Dr. Casey, known as reckless and unscrupulous.",
+      "User recounts a case where a young American woman in Gorgona abused her slave, leading to intervention by the alcalde, who declared the slave free.",
+      "Aunty Seacole charged four shillings for an ordinary dinner, with eggs and chickens considered luxuries and fetched high prices.",
+      "Aunty Seacole hired a black barber named Jose for two pounds to shave male guests, and built an out‑house for him.",
+      "Aunty Seacole used a chalk method to count eggshells to detect cheating by a tall thin Yankee who ate eggs and tried to cheat.",
+      "User suffered grief from losing mother and later faced challenges alone.",
+      "The user believes a preface was unnecessary to introduce Mrs. Seacole to the British public, and that the book is unique in literature due to its subject's circumstances."
+    ],
+    "latency_ms": 589,
+    "timestamp": "2026-04-16T07:03:39.984041+00:00"
+  },
+  "22": {
+    "question_id": 22,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The book is dedicated to Major‑General Lord Rokeby, K.C.B., by his Lordship's humble and most grateful servant, Mary Seacole.",
+      "The user praises Mrs. Seacole as a plain truth‑speaking woman who lived an adventurous life amid scenes that have not yet found a historian among the actors on the stage where they passed, and notes her devotion, courage, and service to the sick and wounded.",
+      "Aunty Seacole is a medical attendant in Cruces, retained by Americans, and runs a hotel opposite her brother's Independent Hotel.",
+      "Aunty Seacole used a chalk method to count eggshells to detect cheating by a tall thin Yankee who ate eggs and tried to cheat.",
+      "Aunty Seacole hired a black barber named Jose for two pounds to shave male guests, and built an out‑house for him.",
+      "Aunty Seacole forbade gambling in her hotel, but gambling existed in Cruces, with a table owned by Dr. Casey, known as reckless and unscrupulous.",
+      "The user believes a preface was unnecessary to introduce Mrs. Seacole to the British public, and that the book is unique in literature due to its subject's circumstances.",
+      "Aunty Seacole charged four shillings for an ordinary dinner, with eggs and chickens considered luxuries and fetched high prices.",
+      "User married Mr. Seacole, took him to Black River, and together established a store; he was delicate, had unfavorable medical opinions, and died after returning to Kingston.",
+      "User encountered Lola Montes, a bold woman in male attire, in Cruces who was cut across the face by an American and rode off the next morning; User noted Miss Catherine Hayes refused to sing during her tour in Cruces and observed an English bishop from Australia whose wife gained admirers during her journey from Panama."
+    ],
+    "latency_ms": 662,
+    "timestamp": "2026-04-16T07:03:40.648479+00:00"
+  },
+  "23": {
+    "question_id": 23,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The book is dedicated to Major‑General Lord Rokeby, K.C.B., by his Lordship's humble and most grateful servant, Mary Seacole.",
+      "Aunty Seacole's staff included a black servant named Mac, a little girl, and a native cook.",
+      "The user praises Mrs. Seacole as a plain truth‑speaking woman who lived an adventurous life amid scenes that have not yet found a historian among the actors on the stage where they passed, and notes her devotion, courage, and service to the sick and wounded.",
+      "Aunty Seacole is a medical attendant in Cruces, retained by Americans, and runs a hotel opposite her brother's Independent Hotel.",
+      "The user believes a preface was unnecessary to introduce Mrs. Seacole to the British public, and that the book is unique in literature due to its subject's circumstances.",
+      "The book includes an illustration titled 'Mrs. Seacole's Hotel in the Crimea' and was printed in London by Thomas Harrild, printer, 11 Salisbury Square, Fleet Street.",
+      "User cured an American of cholera at Cruces, who later lent a boat for building the hotel.",
+      "User describes that when Americans crossed the Isthmus with slaves, locals offered freedom and escape, and authorities were reluctant to recapture runaways.",
+      "User treated cholera with mustard plasters, emetics, calomel, external mercury, avoided opium, used water boiled with cinnamon, sugar of lead in water, warm oil with camphor and spirits of wine, and mustard poultices to stomach, spine, neck, and keeping the heart region warm.",
+      "User mentions that the New Granada constitution states that a slave's chains fall when touching its soil."
+    ],
+    "latency_ms": 628,
+    "timestamp": "2026-04-16T07:03:41.277110+00:00"
+  },
+  "24": {
+    "question_id": 24,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The book is dedicated to Major‑General Lord Rokeby, K.C.B., by his Lordship's humble and most grateful servant, Mary Seacole.",
+      "The user praises Mrs. Seacole as a plain truth‑speaking woman who lived an adventurous life amid scenes that have not yet found a historian among the actors on the stage where they passed, and notes her devotion, courage, and service to the sick and wounded.",
+      "Aunty Seacole used a chalk method to count eggshells to detect cheating by a tall thin Yankee who ate eggs and tried to cheat.",
+      "Aunty Seacole forbade gambling in her hotel, but gambling existed in Cruces, with a table owned by Dr. Casey, known as reckless and unscrupulous.",
+      "Aunty Seacole hired a black barber named Jose for two pounds to shave male guests, and built an out‑house for him.",
+      "The user believes a preface was unnecessary to introduce Mrs. Seacole to the British public, and that the book is unique in literature due to its subject's circumstances.",
+      "Aunty Seacole charged four shillings for an ordinary dinner, with eggs and chickens considered luxuries and fetched high prices.",
+      "Aunty Seacole is a medical attendant in Cruces, retained by Americans, and runs a hotel opposite her brother's Independent Hotel.",
+      "User married Mr. Seacole, took him to Black River, and together established a store; he was delicate, had unfavorable medical opinions, and died after returning to Kingston.",
+      "User describes that when Americans crossed the Isthmus with slaves, locals offered freedom and escape, and authorities were reluctant to recapture runaways."
+    ],
+    "latency_ms": 691,
+    "timestamp": "2026-04-16T07:03:41.969586+00:00"
+  },
+  "25": {
+    "question_id": 25,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The book is dedicated to Major‑General Lord Rokeby, K.C.B., by his Lordship's humble and most grateful servant, Mary Seacole.",
+      "Aunty Seacole is a medical attendant in Cruces, retained by Americans, and runs a hotel opposite her brother's Independent Hotel.",
+      "The user praises Mrs. Seacole as a plain truth‑speaking woman who lived an adventurous life amid scenes that have not yet found a historian among the actors on the stage where they passed, and notes her devotion, courage, and service to the sick and wounded.",
+      "Aunty Seacole forbade gambling in her hotel, but gambling existed in Cruces, with a table owned by Dr. Casey, known as reckless and unscrupulous.",
+      "The user believes a preface was unnecessary to introduce Mrs. Seacole to the British public, and that the book is unique in literature due to its subject's circumstances.",
+      "Aunty Seacole hired a black barber named Jose for two pounds to shave male guests, and built an out‑house for him.",
+      "Aunty Seacole used a chalk method to count eggshells to detect cheating by a tall thin Yankee who ate eggs and tried to cheat.",
+      "Aunty Seacole charged four shillings for an ordinary dinner, with eggs and chickens considered luxuries and fetched high prices.",
+      "User married Mr. Seacole, took him to Black River, and together established a store; he was delicate, had unfavorable medical opinions, and died after returning to Kingston.",
+      "User encountered Lola Montes, a bold woman in male attire, in Cruces who was cut across the face by an American and rode off the next morning; User noted Miss Catherine Hayes refused to sing during her tour in Cruces and observed an English bishop from Australia whose wife gained admirers during her journey from Panama."
+    ],
+    "latency_ms": 718,
+    "timestamp": "2026-04-16T07:03:42.692465+00:00"
+  },
+  "26": {
+    "question_id": 26,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The book is dedicated to Major‑General Lord Rokeby, K.C.B., by his Lordship's humble and most grateful servant, Mary Seacole.",
+      "The user praises Mrs. Seacole as a plain truth‑speaking woman who lived an adventurous life amid scenes that have not yet found a historian among the actors on the stage where they passed, and notes her devotion, courage, and service to the sick and wounded.",
+      "The user believes a preface was unnecessary to introduce Mrs. Seacole to the British public, and that the book is unique in literature due to its subject's circumstances.",
+      "Aunty Seacole is a medical attendant in Cruces, retained by Americans, and runs a hotel opposite her brother's Independent Hotel.",
+      "Aunty Seacole charged four shillings for an ordinary dinner, with eggs and chickens considered luxuries and fetched high prices.",
+      "Aunty Seacole used a chalk method to count eggshells to detect cheating by a tall thin Yankee who ate eggs and tried to cheat.",
+      "User married Mr. Seacole, took him to Black River, and together established a store; he was delicate, had unfavorable medical opinions, and died after returning to Kingston.",
+      "Aunty Seacole hired a black barber named Jose for two pounds to shave male guests, and built an out‑house for him.",
+      "Aunty Seacole forbade gambling in her hotel, but gambling existed in Cruces, with a table owned by Dr. Casey, known as reckless and unscrupulous.",
+      "User cured an American of cholera at Cruces, who later lent a boat for building the hotel."
+    ],
+    "latency_ms": 592,
+    "timestamp": "2026-04-16T07:03:43.289862+00:00"
+  },
+  "27": {
+    "question_id": 27,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The book is dedicated to Major‑General Lord Rokeby, K.C.B., by his Lordship's humble and most grateful servant, Mary Seacole.",
+      "Aunty Seacole used a chalk method to count eggshells to detect cheating by a tall thin Yankee who ate eggs and tried to cheat.",
+      "User married Mr. Seacole, took him to Black River, and together established a store; he was delicate, had unfavorable medical opinions, and died after returning to Kingston.",
+      "The user believes a preface was unnecessary to introduce Mrs. Seacole to the British public, and that the book is unique in literature due to its subject's circumstances.",
+      "Aunty Seacole is a medical attendant in Cruces, retained by Americans, and runs a hotel opposite her brother's Independent Hotel.",
+      "The user praises Mrs. Seacole as a plain truth‑speaking woman who lived an adventurous life amid scenes that have not yet found a historian among the actors on the stage where they passed, and notes her devotion, courage, and service to the sick and wounded.",
+      "Aunty Seacole hired a black barber named Jose for two pounds to shave male guests, and built an out‑house for him.",
+      "Aunty Seacole forbade gambling in her hotel, but gambling existed in Cruces, with a table owned by Dr. Casey, known as reckless and unscrupulous.",
+      "Aunty Seacole charged four shillings for an ordinary dinner, with eggs and chickens considered luxuries and fetched high prices.",
+      "Aunty Seacole's staff included a black servant named Mac, a little girl, and a native cook."
+    ],
+    "latency_ms": 638,
+    "timestamp": "2026-04-16T07:03:43.933545+00:00"
+  },
+  "28": {
+    "question_id": 28,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Aunty Seacole's staff included a black servant named Mac, a little girl, and a native cook.",
+      "The book is dedicated to Major‑General Lord Rokeby, K.C.B., by his Lordship's humble and most grateful servant, Mary Seacole.",
+      "The user praises Mrs. Seacole as a plain truth‑speaking woman who lived an adventurous life amid scenes that have not yet found a historian among the actors on the stage where they passed, and notes her devotion, courage, and service to the sick and wounded.",
+      "Aunty Seacole is a medical attendant in Cruces, retained by Americans, and runs a hotel opposite her brother's Independent Hotel.",
+      "User encountered Lola Montes, a bold woman in male attire, in Cruces who was cut across the face by an American and rode off the next morning; User noted Miss Catherine Hayes refused to sing during her tour in Cruces and observed an English bishop from Australia whose wife gained admirers during her journey from Panama.",
+      "The book includes an illustration titled 'Mrs. Seacole's Hotel in the Crimea' and was printed in London by Thomas Harrild, printer, 11 Salisbury Square, Fleet Street.",
+      "During the 1850 cholera outbreak in Jamaica, User learned treatment insights from Dr. B.",
+      "Aunty Seacole forbade gambling in her hotel, but gambling existed in Cruces, with a table owned by Dr. Casey, known as reckless and unscrupulous.",
+      "The user believes a preface was unnecessary to introduce Mrs. Seacole to the British public, and that the book is unique in literature due to its subject's circumstances.",
+      "The user lists the book's chapters, covering topics such as her birth and parentage, struggles for life, cholera in Jamaica, migration to Gorgona, yellow fever in Jamaica, and her work in the Crimea."
+    ],
+    "latency_ms": 644,
+    "timestamp": "2026-04-16T07:03:44.578388+00:00"
+  },
+  "29": {
+    "question_id": 29,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The user praises Mrs. Seacole as a plain truth‑speaking woman who lived an adventurous life amid scenes that have not yet found a historian among the actors on the stage where they passed, and notes her devotion, courage, and service to the sick and wounded.",
+      "The book is dedicated to Major‑General Lord Rokeby, K.C.B., by his Lordship's humble and most grateful servant, Mary Seacole.",
+      "User possessed medical skill; a surgeon sent by the West Granada Gold-mining Company was cured by the narrator, and the narrator also nursed Mr. Day through a sharp illness.",
+      "Aunty Seacole is a medical attendant in Cruces, retained by Americans, and runs a hotel opposite her brother's Independent Hotel.",
+      "Aunty Seacole used a chalk method to count eggshells to detect cheating by a tall thin Yankee who ate eggs and tried to cheat.",
+      "The user believes a preface was unnecessary to introduce Mrs. Seacole to the British public, and that the book is unique in literature due to its subject's circumstances.",
+      "User married Mr. Seacole, took him to Black River, and together established a store; he was delicate, had unfavorable medical opinions, and died after returning to Kingston.",
+      "User has considerable experience treating knife and gun-shot wounds.",
+      "User had a little brown‑faced orphan infant, about a year old, who died in their arms; they performed a post‑mortem examination on the child to learn about cholera.",
+      "User recounts a case where a young American woman in Gorgona abused her slave, leading to intervention by the alcalde, who declared the slave free."
+    ],
+    "latency_ms": 760,
+    "timestamp": "2026-04-16T07:03:45.339222+00:00"
+  },
+  "30": {
+    "question_id": 30,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The book is dedicated to Major‑General Lord Rokeby, K.C.B., by his Lordship's humble and most grateful servant, Mary Seacole.",
+      "The user praises Mrs. Seacole as a plain truth‑speaking woman who lived an adventurous life amid scenes that have not yet found a historian among the actors on the stage where they passed, and notes her devotion, courage, and service to the sick and wounded.",
+      "User married Mr. Seacole, took him to Black River, and together established a store; he was delicate, had unfavorable medical opinions, and died after returning to Kingston.",
+      "Aunty Seacole forbade gambling in her hotel, but gambling existed in Cruces, with a table owned by Dr. Casey, known as reckless and unscrupulous.",
+      "Aunty Seacole used a chalk method to count eggshells to detect cheating by a tall thin Yankee who ate eggs and tried to cheat.",
+      "Aunty Seacole is a medical attendant in Cruces, retained by Americans, and runs a hotel opposite her brother's Independent Hotel.",
+      "User had a little brown‑faced orphan infant, about a year old, who died in their arms; they performed a post‑mortem examination on the child to learn about cholera.",
+      "Aunty Seacole charged four shillings for an ordinary dinner, with eggs and chickens considered luxuries and fetched high prices.",
+      "The user believes a preface was unnecessary to introduce Mrs. Seacole to the British public, and that the book is unique in literature due to its subject's circumstances.",
+      "Aunty Seacole hired a black barber named Jose for two pounds to shave male guests, and built an out‑house for him."
+    ],
+    "latency_ms": 650,
+    "timestamp": "2026-04-16T07:03:45.990186+00:00"
+  },
+  "31": {
+    "question_id": 31,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The book is dedicated to Major‑General Lord Rokeby, K.C.B., by his Lordship's humble and most grateful servant, Mary Seacole.",
+      "Aunty Seacole used a chalk method to count eggshells to detect cheating by a tall thin Yankee who ate eggs and tried to cheat.",
+      "Aunty Seacole is a medical attendant in Cruces, retained by Americans, and runs a hotel opposite her brother's Independent Hotel.",
+      "Aunty Seacole forbade gambling in her hotel, but gambling existed in Cruces, with a table owned by Dr. Casey, known as reckless and unscrupulous.",
+      "The user praises Mrs. Seacole as a plain truth‑speaking woman who lived an adventurous life amid scenes that have not yet found a historian among the actors on the stage where they passed, and notes her devotion, courage, and service to the sick and wounded.",
+      "User describes that when Americans crossed the Isthmus with slaves, locals offered freedom and escape, and authorities were reluctant to recapture runaways.",
+      "Aunty Seacole hired a black barber named Jose for two pounds to shave male guests, and built an out‑house for him.",
+      "Aunty Seacole charged four shillings for an ordinary dinner, with eggs and chickens considered luxuries and fetched high prices.",
+      "User recounts a case where a young American woman in Gorgona abused her slave, leading to intervention by the alcalde, who declared the slave free.",
+      "The user believes a preface was unnecessary to introduce Mrs. Seacole to the British public, and that the book is unique in literature due to its subject's circumstances."
+    ],
+    "latency_ms": 699,
+    "timestamp": "2026-04-16T07:03:46.690943+00:00"
+  },
+  "32": {
+    "question_id": 32,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Aunty Seacole used a chalk method to count eggshells to detect cheating by a tall thin Yankee who ate eggs and tried to cheat.",
+      "The book is dedicated to Major‑General Lord Rokeby, K.C.B., by his Lordship's humble and most grateful servant, Mary Seacole.",
+      "Aunty Seacole is a medical attendant in Cruces, retained by Americans, and runs a hotel opposite her brother's Independent Hotel.",
+      "The user praises Mrs. Seacole as a plain truth‑speaking woman who lived an adventurous life amid scenes that have not yet found a historian among the actors on the stage where they passed, and notes her devotion, courage, and service to the sick and wounded.",
+      "Aunty Seacole hired a black barber named Jose for two pounds to shave male guests, and built an out‑house for him.",
+      "The user believes a preface was unnecessary to introduce Mrs. Seacole to the British public, and that the book is unique in literature due to its subject's circumstances.",
+      "User had a narrow escape from thieves in Cruces when a thief stole their dress and purse, used a rusty horse-pistol to deter the thief, and recovered the stolen items hidden behind a bush.",
+      "Aunty Seacole forbade gambling in her hotel, but gambling existed in Cruces, with a table owned by Dr. Casey, known as reckless and unscrupulous.",
+      "User married Mr. Seacole, took him to Black River, and together established a store; he was delicate, had unfavorable medical opinions, and died after returning to Kingston.",
+      "Aunty Seacole charged four shillings for an ordinary dinner, with eggs and chickens considered luxuries and fetched high prices."
+    ],
+    "latency_ms": 779,
+    "timestamp": "2026-04-16T07:03:47.473961+00:00"
+  },
+  "33": {
+    "question_id": 33,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The book is dedicated to Major‑General Lord Rokeby, K.C.B., by his Lordship's humble and most grateful servant, Mary Seacole.",
+      "User married Mr. Seacole, took him to Black River, and together established a store; he was delicate, had unfavorable medical opinions, and died after returning to Kingston.",
+      "Aunty Seacole forbade gambling in her hotel, but gambling existed in Cruces, with a table owned by Dr. Casey, known as reckless and unscrupulous.",
+      "Aunty Seacole is a medical attendant in Cruces, retained by Americans, and runs a hotel opposite her brother's Independent Hotel.",
+      "The user praises Mrs. Seacole as a plain truth‑speaking woman who lived an adventurous life amid scenes that have not yet found a historian among the actors on the stage where they passed, and notes her devotion, courage, and service to the sick and wounded.",
+      "Aunty Seacole used a chalk method to count eggshells to detect cheating by a tall thin Yankee who ate eggs and tried to cheat.",
+      "The user believes a preface was unnecessary to introduce Mrs. Seacole to the British public, and that the book is unique in literature due to its subject's circumstances.",
+      "Aunty Seacole charged four shillings for an ordinary dinner, with eggs and chickens considered luxuries and fetched high prices.",
+      "Aunty Seacole hired a black barber named Jose for two pounds to shave male guests, and built an out‑house for him.",
+      "User stitched up a boatman's split ears after helping him in Cruces, whose ears were split by a U.S. citizen."
+    ],
+    "latency_ms": 641,
+    "timestamp": "2026-04-16T07:03:48.117239+00:00"
+  },
+  "34": {
+    "question_id": 34,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The book is dedicated to Major‑General Lord Rokeby, K.C.B., by his Lordship's humble and most grateful servant, Mary Seacole.",
+      "Aunty Seacole is a medical attendant in Cruces, retained by Americans, and runs a hotel opposite her brother's Independent Hotel.",
+      "The user believes a preface was unnecessary to introduce Mrs. Seacole to the British public, and that the book is unique in literature due to its subject's circumstances.",
+      "Aunty Seacole used a chalk method to count eggshells to detect cheating by a tall thin Yankee who ate eggs and tried to cheat.",
+      "User has considerable experience treating knife and gun-shot wounds.",
+      "The user praises Mrs. Seacole as a plain truth‑speaking woman who lived an adventurous life amid scenes that have not yet found a historian among the actors on the stage where they passed, and notes her devotion, courage, and service to the sick and wounded.",
+      "User married Mr. Seacole, took him to Black River, and together established a store; he was delicate, had unfavorable medical opinions, and died after returning to Kingston.",
+      "Aunty Seacole forbade gambling in her hotel, but gambling existed in Cruces, with a table owned by Dr. Casey, known as reckless and unscrupulous.",
+      "Aunty Seacole hired a black barber named Jose for two pounds to shave male guests, and built an out‑house for him.",
+      "User stitched up a boatman's split ears after helping him in Cruces, whose ears were split by a U.S. citizen."
+    ],
+    "latency_ms": 685,
+    "timestamp": "2026-04-16T07:03:48.807928+00:00"
+  },
+  "35": {
+    "question_id": 35,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Aunty Seacole's staff included a black servant named Mac, a little girl, and a native cook.",
+      "The book is dedicated to Major‑General Lord Rokeby, K.C.B., by his Lordship's humble and most grateful servant, Mary Seacole.",
+      "User describes that when Americans crossed the Isthmus with slaves, locals offered freedom and escape, and authorities were reluctant to recapture runaways.",
+      "The user believes a preface was unnecessary to introduce Mrs. Seacole to the British public, and that the book is unique in literature due to its subject's circumstances.",
+      "Aunty Seacole is a medical attendant in Cruces, retained by Americans, and runs a hotel opposite her brother's Independent Hotel.",
+      "The user praises Mrs. Seacole as a plain truth‑speaking woman who lived an adventurous life amid scenes that have not yet found a historian among the actors on the stage where they passed, and notes her devotion, courage, and service to the sick and wounded.",
+      "The book includes an illustration titled 'Mrs. Seacole's Hotel in the Crimea' and was printed in London by Thomas Harrild, printer, 11 Salisbury Square, Fleet Street.",
+      "User had a narrow escape from thieves in Cruces when a thief stole their dress and purse, used a rusty horse-pistol to deter the thief, and recovered the stolen items hidden behind a bush.",
+      "Aunty Seacole used a chalk method to count eggshells to detect cheating by a tall thin Yankee who ate eggs and tried to cheat.",
+      "User encountered Lola Montes, a bold woman in male attire, in Cruces who was cut across the face by an American and rode off the next morning; User noted Miss Catherine Hayes refused to sing during her tour in Cruces and observed an English bishop from Australia whose wife gained admirers during her journey from Panama."
+    ],
+    "latency_ms": 630,
+    "timestamp": "2026-04-16T07:03:49.440685+00:00"
+  },
+  "36": {
+    "question_id": 36,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The user praises Mrs. Seacole as a plain truth‑speaking woman who lived an adventurous life amid scenes that have not yet found a historian among the actors on the stage where they passed, and notes her devotion, courage, and service to the sick and wounded.",
+      "The book is dedicated to Major‑General Lord Rokeby, K.C.B., by his Lordship's humble and most grateful servant, Mary Seacole.",
+      "Aunty Seacole is a medical attendant in Cruces, retained by Americans, and runs a hotel opposite her brother's Independent Hotel.",
+      "The user believes a preface was unnecessary to introduce Mrs. Seacole to the British public, and that the book is unique in literature due to its subject's circumstances.",
+      "User married Mr. Seacole, took him to Black River, and together established a store; he was delicate, had unfavorable medical opinions, and died after returning to Kingston.",
+      "Aunty Seacole forbade gambling in her hotel, but gambling existed in Cruces, with a table owned by Dr. Casey, known as reckless and unscrupulous.",
+      "Aunty Seacole used a chalk method to count eggshells to detect cheating by a tall thin Yankee who ate eggs and tried to cheat.",
+      "Aunty Seacole charged four shillings for an ordinary dinner, with eggs and chickens considered luxuries and fetched high prices.",
+      "The book 'Wonderful Adventures of Mrs. Seacole in Many Lands' was produced by Suzanne Shell and Sam W., edited by W. J. S., with an introductory preface by W. H. Russell, Esq., the 'Times' correspondent in the Crimea, and published in London by James Blackwood at Paternoster Row in 1857.",
+      "Aunty Seacole hired a black barber named Jose for two pounds to shave male guests, and built an out‑house for him."
+    ],
+    "latency_ms": 733,
+    "timestamp": "2026-04-16T07:03:50.175648+00:00"
+  },
+  "37": {
+    "question_id": 37,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Aunty Seacole's staff included a black servant named Mac, a little girl, and a native cook.",
+      "The user believes a preface was unnecessary to introduce Mrs. Seacole to the British public, and that the book is unique in literature due to its subject's circumstances.",
+      "Aunty Seacole is a medical attendant in Cruces, retained by Americans, and runs a hotel opposite her brother's Independent Hotel.",
+      "Aunty Seacole used a chalk method to count eggshells to detect cheating by a tall thin Yankee who ate eggs and tried to cheat.",
+      "The book includes an illustration titled 'Mrs. Seacole's Hotel in the Crimea' and was printed in London by Thomas Harrild, printer, 11 Salisbury Square, Fleet Street.",
+      "The book is dedicated to Major‑General Lord Rokeby, K.C.B., by his Lordship's humble and most grateful servant, Mary Seacole.",
+      "User recounts a case where a young American woman in Gorgona abused her slave, leading to intervention by the alcalde, who declared the slave free.",
+      "User married Mr. Seacole, took him to Black River, and together established a store; he was delicate, had unfavorable medical opinions, and died after returning to Kingston.",
+      "Aunty Seacole forbade gambling in her hotel, but gambling existed in Cruces, with a table owned by Dr. Casey, known as reckless and unscrupulous.",
+      "User spent about a year in England during their first visit before returning to Kingston, then later returned to London with a large stock of West Indian preserves and pickles for sale."
+    ],
+    "latency_ms": 662,
+    "timestamp": "2026-04-16T07:03:50.838436+00:00"
+  },
+  "38": {
+    "question_id": 38,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The book is dedicated to Major‑General Lord Rokeby, K.C.B., by his Lordship's humble and most grateful servant, Mary Seacole.",
+      "User married Mr. Seacole, took him to Black River, and together established a store; he was delicate, had unfavorable medical opinions, and died after returning to Kingston.",
+      "Aunty Seacole is a medical attendant in Cruces, retained by Americans, and runs a hotel opposite her brother's Independent Hotel.",
+      "Aunty Seacole used a chalk method to count eggshells to detect cheating by a tall thin Yankee who ate eggs and tried to cheat.",
+      "The user believes a preface was unnecessary to introduce Mrs. Seacole to the British public, and that the book is unique in literature due to its subject's circumstances.",
+      "The user praises Mrs. Seacole as a plain truth‑speaking woman who lived an adventurous life amid scenes that have not yet found a historian among the actors on the stage where they passed, and notes her devotion, courage, and service to the sick and wounded.",
+      "Aunty Seacole hired a black barber named Jose for two pounds to shave male guests, and built an out‑house for him.",
+      "Aunty Seacole forbade gambling in her hotel, but gambling existed in Cruces, with a table owned by Dr. Casey, known as reckless and unscrupulous.",
+      "Foreigners in Escribanos caused frequent quarrels; the alcalde Alexander, assisted by Mr. Day, maintained peace, including punishing an Irishman stabbed by an American named Campfield.",
+      "User spent about a year in England during their first visit before returning to Kingston, then later returned to London with a large stock of West Indian preserves and pickles for sale."
+    ],
+    "latency_ms": 689,
+    "timestamp": "2026-04-16T07:03:51.529914+00:00"
+  },
+  "39": {
+    "question_id": 39,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The book is dedicated to Major‑General Lord Rokeby, K.C.B., by his Lordship's humble and most grateful servant, Mary Seacole.",
+      "Aunty Seacole is a medical attendant in Cruces, retained by Americans, and runs a hotel opposite her brother's Independent Hotel.",
+      "Aunty Seacole used a chalk method to count eggshells to detect cheating by a tall thin Yankee who ate eggs and tried to cheat.",
+      "Aunty Seacole charged four shillings for an ordinary dinner, with eggs and chickens considered luxuries and fetched high prices.",
+      "The user believes a preface was unnecessary to introduce Mrs. Seacole to the British public, and that the book is unique in literature due to its subject's circumstances.",
+      "The user praises Mrs. Seacole as a plain truth‑speaking woman who lived an adventurous life amid scenes that have not yet found a historian among the actors on the stage where they passed, and notes her devotion, courage, and service to the sick and wounded.",
+      "Aunty Seacole hired a black barber named Jose for two pounds to shave male guests, and built an out‑house for him.",
+      "Aunty Seacole forbade gambling in her hotel, but gambling existed in Cruces, with a table owned by Dr. Casey, known as reckless and unscrupulous.",
+      "User married Mr. Seacole, took him to Black River, and together established a store; he was delicate, had unfavorable medical opinions, and died after returning to Kingston.",
+      "The book 'Wonderful Adventures of Mrs. Seacole in Many Lands' was produced by Suzanne Shell and Sam W., edited by W. J. S., with an introductory preface by W. H. Russell, Esq., the 'Times' correspondent in the Crimea, and published in London by James Blackwood at Paternoster Row in 1857."
+    ],
+    "latency_ms": 589,
+    "timestamp": "2026-04-16T07:03:52.119882+00:00"
+  }
+}

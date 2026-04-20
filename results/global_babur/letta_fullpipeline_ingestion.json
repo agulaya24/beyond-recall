@@ -1,0 +1,14 @@
+{
+  "subject": "babur",
+  "system": "letta",
+  "mode": "fullpipeline",
+  "agent_id": "agent-d6488609-1ea2-4d7c-9316-4b01e081ec01",
+  "agent_name": "babur_fullpipeline",
+  "chunks_expected": 44,
+  "chunks_posted": 44,
+  "post_success": 7,
+  "post_failure": 37,
+  "start_time": "2026-04-16T06:56:19.347434+00:00",
+  "end_time": "2026-04-16T07:01:39.425041+00:00",
+  "verification_passed": true
+}

@@ -1,0 +1,363 @@
+{
+  "metadata": {
+    "subject": "Elizabeth Keckley",
+    "total": 60,
+    "tiers": {
+      "behavioral_prediction": 40,
+      "recall": 10,
+      "adversarial_abstention": 10
+    }
+  },
+  "questions": [
+    {
+      "id": 1,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Based on Keckley's stated values in the preface, how would she likely respond to Mrs. Lincoln's accusation against the messenger?",
+      "held_out_passage": "She turned to him fiercely: \"So you are on guard to-night--on guard in the White House after helping to murder the President!\" \"Pardon me, but I did not help to murder the President. I could never stoop to murder--much less to the murder of so good and great a man as the President.\""
+    },
+    {
+      "id": 2,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "Given Keckley's relationship with Mrs. Lincoln described in the training text, what role would she take during Mrs. Lincoln's grief?",
+      "held_out_passage": "She denied admittance to almost every one, and I was her only companion, except her children, in the days of her great sorrow."
+    },
+    {
+      "id": 3,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "How would Keckley characterize her emotional response to witnessing Lincoln's death, based on her narrative style?",
+      "held_out_passage": "I gazed long at the face, and turned away with tears in my eyes and a choking sensation in my throat."
+    },
+    {
+      "id": 4,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Would Keckley judge Mrs. Lincoln harshly for her extreme grief and seclusion?",
+      "held_out_passage": "But far be it from me to harshly judge the sorrow of any one."
+    },
+    {
+      "id": 5,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How would Keckley respond to Mrs. Lincoln's unfounded accusations, given her character?",
+      "held_out_passage": "I bathed Mrs. Lincoln's head with cold water, and soothed the terrible tornado as best I could."
+    },
+    {
+      "id": 6,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Based on Keckley's preface about balance and fairness, would she present only negative aspects of the people around her?",
+      "held_out_passage": "If I have portrayed the dark side of slavery, I also have painted the bright side."
+    },
+    {
+      "id": 7,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "What would be Keckley's likely emotional state while witnessing Mrs. Lincoln's extreme grief?",
+      "held_out_passage": "The wails of a broken heart, the unearthly shrieks, the terrible convulsions, the wild, tempestuous outbursts of grief from the soul."
+    },
+    {
+      "id": 8,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "How would Keckley handle the messenger's trembling denial of guilt?",
+      "held_out_passage": "The messenger had overheard Mrs. Lincoln's words through the half-open door, and when he came in he was trembling violently."
+    },
+    {
+      "id": 9,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Would Keckley believe the messenger was truly guilty based on her approach to truth?",
+      "held_out_passage": "\"No, no! don't say that,\" he broke in. \"God knows that I am innocent.\""
+    },
+    {
+      "id": 10,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "How would Keckley describe the atmosphere in the White House after Lincoln's death?",
+      "held_out_passage": "Every room in the White House was darkened, and every one spoke in subdued tones, and moved about with muffled tread. The very atmosphere breathed of the great sorrow which weighed heavily upon each heart."
+    },
+    {
+      "id": 11,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Based on her preface, would Keckley exaggerate the details of Lincoln's death?",
+      "held_out_passage": "much has been omitted, but nothing has been exaggerated."
+    },
+    {
+      "id": 12,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How would Keckley characterize the universal response to Lincoln's death?",
+      "held_out_passage": "Ah! never was man so widely mourned before. The whole world bowed their heads in grief when Abraham Lincoln died."
+    },
+    {
+      "id": 13,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "Would Keckley show compassion to those who failed in their duties, like the messenger?",
+      "held_out_passage": "\"I did wrong, I admit, and I have bitterly repented it, but I did not help to kill the President.\""
+    },
+    {
+      "id": 14,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How would Keckley respond to Robert Lincoln's behavior during his mother's crisis?",
+      "held_out_passage": "Robert was very tender to his mother in the days of her sorrow. He suffered deeply, as his haggard face indicated, but he was ever manly and collected when in the presence of his mother."
+    },
+    {
+      "id": 15,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "Would Keckley judge Mrs. Lincoln's refusal to see visitors as unreasonable?",
+      "held_out_passage": "Mrs. Lincoln was extremely nervous, and she refused to have anybody about her but myself. Many ladies called, but she received none of them."
+    },
+    {
+      "id": 16,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How would Keckley interpret young Tad's attempts to comfort his mother?",
+      "held_out_passage": "Sometimes he would throw his arms around her neck, and exclaim, between his broken sobs, \"Don't cry so, Mamma! don't cry, or you will make me cry, too! You will break my heart.\""
+    },
+    {
+      "id": 17,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "Would Keckley believe the messenger's explanation about being distracted by the play?",
+      "held_out_passage": "\"I was attracted by the play, and did not see the assassin enter the box.\""
+    },
+    {
+      "id": 18,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "How would Keckley characterize Lincoln's appearance in death?",
+      "held_out_passage": "There lurked the sweetness and gentleness of childhood, and the stately grandeur of godlike intellect."
+    },
+    {
+      "id": 19,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "Would Keckley support Mrs. Lincoln's theory about the messenger's involvement in the assassination?",
+      "held_out_passage": "Mrs. Lincoln firmly believed that this messenger was implicated in the assassination plot."
+    },
+    {
+      "id": 20,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "How would Keckley view the consequences of Mrs. Lincoln's extreme seclusion during grief?",
+      "held_out_passage": "Had she been less secluded in her grief, perhaps she would have had many warmer friends to-day than she has."
+    },
+    {
+      "id": 21,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How does Elizabeth Keckley typically respond when she witnesses Mrs. Lincoln in emotional distress?",
+      "held_out_passage": "One night I was lying on a lounge near the bed occupied by Mrs. Lincoln."
+    },
+    {
+      "id": 22,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Based on Keckley's character, would she likely defend someone Mrs. Lincoln accused without full evidence?",
+      "held_out_passage": "Mrs. Lincoln firmly believed that this messenger was implicated in the assassination plot."
+    },
+    {
+      "id": 23,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How does Keckley characterize Mrs. Lincoln's behavior toward servants and staff in the White House?",
+      "held_out_passage": "She turned to him fiercely: 'So you are on guard to-night--on guard in the White House after helping to murder the President!'"
+    },
+    {
+      "id": 24,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "What does Keckley's narrative suggest about her judgment of Mrs. Lincoln's grief-driven accusations?",
+      "held_out_passage": "But far be it from me to harshly judge the sorrow of any one."
+    },
+    {
+      "id": 25,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "How does Keckley respond to Mrs. Lincoln's isolation from visitors during her mourning?",
+      "held_out_passage": "Many ladies called, but she received none of them. Had she been less secluded in her grief, perhaps she would have had many warmer friends to-day than she has."
+    },
+    {
+      "id": 26,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Based on Keckley's character, would she criticize Mrs. Lincoln's parenting of Tad during this period?",
+      "held_out_passage": "Tad had been petted by his father, but petting could not spoil such a manly nature as his."
+    },
+    {
+      "id": 27,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How does Keckley interpret Tad Lincoln's understanding of his changed circumstances?",
+      "held_out_passage": "He seemed to realize that he was the son of a President--to realize it in its loftiest and noblest sense."
+    },
+    {
+      "id": 28,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "What does Keckley's account reveal about her emotional response to witnessing Tad's loss of privilege?",
+      "held_out_passage": "the change was such a great one to me--for while in the White House, servants obeyed his every nod and bid--that I could scarcely refrain from shedding tears."
+    },
+    {
+      "id": 29,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How does Keckley characterize Robert Lincoln's behavior toward his mother during this crisis?",
+      "held_out_passage": "Robert was very tender to his mother in the days of her sorrow. He suffered deeply, as his haggard face indicated, but he was ever manly and collected when in the presence of his mother."
+    },
+    {
+      "id": 30,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "Based on Keckley's values, would she blame the messenger for the security failure at the theatre?",
+      "held_out_passage": "I did wrong, I admit, and I have bitterly repented it, but I did not help to kill the President."
+    },
+    {
+      "id": 31,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How does Keckley's narrative suggest she views Mrs. Lincoln's refusal to see other ladies?",
+      "held_out_passage": "Mrs. Lincoln was extremely nervous, and she refused to have anybody about her but myself."
+    },
+    {
+      "id": 32,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "What does Keckley's account suggest about her understanding of grief and its effects on judgment?",
+      "held_out_passage": "Could the ladies who called to condole with Mrs. Lincoln, after the death of her husband, and who were denied admittance to her chamber, have seen how completely prostrated she was with grief, they would have learned to speak more kindly of her."
+    },
+    {
+      "id": 33,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How does Keckley interpret Tad's statement about no longer being a President's son?",
+      "held_out_passage": "Yes, Pa is dead, and I am only Tad Lincoln now, little Tad, like other little boys."
+    },
+    {
+      "id": 34,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Based on Keckley's character, would she view Tad's rapid maturation as a positive development?",
+      "held_out_passage": "From that period forward he became more independent, and in a short time learned to dispense with the services of a nurse."
+    },
+    {
+      "id": 35,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "How does Keckley characterize the messenger's emotional state when confronted by Mrs. Lincoln?",
+      "held_out_passage": "The messenger had overheard Mrs. Lincoln's words through the half-open door, and when he came in he was trembling violently."
+    },
+    {
+      "id": 36,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "What does Keckley's presence during Mrs. Lincoln's private moments suggest about her role?",
+      "held_out_passage": "Mrs. Lincoln fell back on her pillow, covered her face with her hands, and commenced sobbing."
+    },
+    {
+      "id": 37,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How does Keckley respond to Tad's emotional appeals to his mother?",
+      "held_out_passage": "Don't cry, Mamma; I cannot sleep if you cry! Papa was good, and he has gone to heaven."
+    },
+    {
+      "id": 38,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Based on Keckley's values, would she judge Mrs. Lincoln harshly for her unfounded accusations?",
+      "held_out_passage": "I shall always believe that you are guilty."
+    },
+    {
+      "id": 39,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "How does Keckley characterize the messenger's explanation for his negligence at the theatre?",
+      "held_out_passage": "I did not believe that any one would try to kill so good a man in such a public place, and the belief made me careless."
+    },
+    {
+      "id": 40,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "What does Keckley's narrative suggest about her view of how grief should be managed?",
+      "held_out_passage": "Had she been less secluded in her grief, perhaps she would have had many warmer friends to-day than she has."
+    },
+    {
+      "id": 41,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Elizabeth Keckley's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 42,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Elizabeth Keckley's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 43,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Elizabeth Keckley's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 44,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Elizabeth Keckley's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 45,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Elizabeth Keckley's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 46,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Elizabeth Keckley's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 47,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Elizabeth Keckley's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 48,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Elizabeth Keckley's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 49,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Elizabeth Keckley's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 50,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Elizabeth Keckley's opinion on modern technology?",
+      "held_out_passage": null
+    }
+  ]
+}

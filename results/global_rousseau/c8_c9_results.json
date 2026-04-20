@@ -1,0 +1,938 @@
+[
+  {
+    "question_id": 1,
+    "question_text": "When Rousseau encounters a situation requiring him to live in multiple locations simultaneously due to financial constraints, how does he respond?",
+    "held_out_passage": "being obliged to live in their neighborhood, a dear part of the town, in a furnished lodging, and having to pay for another lodging at the extremity of Paris, at the very top of the Rue Saint Jacques, to which, let the weather be as it would, I went almost every evening to supper.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Rousseau's Response to Multiple Location Constraints\n\nBased on the autobiography, Rousseau doesn't actually encounter a situation requiring him to live in multiple locations simultaneously. However, the text does show how he handles related financial and residential challenges:\n\n## His Actual Approach\n\n**Choosing Proximity Over Separation**: When faced with financial pressures and the need to maintain his connection to Madame de Warens, Rousseau adopts a compromise solution rather than splitting his residence:\n\n> \"Your proposed retirement is charming,\" said she, \"and much to my taste, but we are necessitated to remain here, for, on quitting this dungeon, I hazard losing the very means of life... Let us seek some little habitation, far enough from the town to be at peace, yet near enough to return when it may appear convenient.\"\n\n## Key Pattern in His Behavior\n\nRather than managing multiple simultaneous locations, Rousseau:\n\n1. **Prioritizes emotional attachment** - He stays near Madame de Warens above all else\n2. **Makes strategic compromises** - Maintains a minimal presence in the city while establishing a country retreat at Charmettes\n3. **Follows others' guidance** - He defers to Madame de Warens' practical wisdom rather than devising independent solutions\n\nThis reflects Rousseau's broader character: he struggles with practical financial management and tends to rely on those he loves to navigate such difficulties, rather than developing independent strategies.",
+        "input_tokens": 132504,
+        "output_tokens": 322,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 7153
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Rousseau's Response to Geographic/Financial Constraints\n\nBased on the text, Rousseau doesn't actually encounter a situation requiring him to live in multiple locations *simultaneously*. However, he does face related financial pressures that shape his movements:\n\n## His Actual Pattern\n\n**Compromise Solution at Chambery:**\nWhen Madam de Warens fears losing her pension by abandoning her house in the city, she proposes a practical compromise rather than simultaneous residence:\n\n> \"Let us not leave this house entirely, but pay a small pension to the Count of Saint-Laurent, that he may continue mine. Let us seek some little habitation, far enough from the town to be at peace, yet near enough to return when it may appear convenient.\"\n\nThey settle on **Charmettes** — a rural retreat close enough to Chambery to maintain her urban connections while enjoying country life.\n\n## His General Response to Financial Constraints\n\nRather than attempting impossible simultaneous arrangements, Rousseau:\n\n1. **Accepts compromise solutions** (maintaining the city house while establishing a country residence)\n2. **Makes frequent journeys** between locations as needed\n3. **Prioritizes emotional attachment** over practical efficiency — he travels to be near Madam de Warens regardless of expense\n4. **Accepts dependence** on her arrangements rather than solving problems independently\n\nHis response reflects his character: emotionally driven, willing to follow others' solutions, and ultimately passive about financial management.",
+        "input_tokens": 141032,
+        "output_tokens": 320,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 8953
+      }
+    },
+    "training_words": 137530,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:35:52.841558+00:00"
+  },
+  {
+    "question_id": 2,
+    "question_text": "Based on Rousseau's character as described in the training text, would he be likely to pursue intellectual study in a new field when given the opportunity?",
+    "held_out_passage": "I soon got into the track of my new occupations, and conceived a taste for them. I attached myself to the study of chemistry, and attended several courses of it",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Rousseau's Likelihood to Pursue New Intellectual Study\n\nBased on the autobiography, **yes, Rousseau would very likely pursue intellectual study in a new field**, though with important caveats about his approach and consistency.\n\n## Evidence Supporting This\n\n**Demonstrated Pattern of Intellectual Curiosity:**\n- He repeatedly took up new subjects: arithmetic, drawing, music, botany, chemistry, geometry, Latin, astronomy, philosophy, and history\n- When recovering from illness at Charmettes, he deliberately pursued a systematic study plan across multiple disciplines\n- He explicitly states: \"I hastened to acquire knowledge for the other world, as if convinced I should only possess that portion I could carry with me\"\n\n**Passionate Engagement:**\n- Once engaged, his enthusiasm becomes consuming: \"every folly that took possession of my wandering brain...became for me the most violent passions\"\n- He describes himself as \"irresistibly drawn towards study\"\n\n## Important Limitations\n\n**Inconsistency and Abandonment:**\n- He frequently abandons pursuits (chess, Latin, certain mathematical studies)\n- His memory is weak, making retention difficult\n- He admits: \"a mere nothing frequently calls me off from what I appear the most attached to\"\n\n**Method Over Mastery:**\n- He struggles with sustained, disciplined study\n- He cannot maintain intense focus for long periods\n- His approach is often scattered rather than systematic\n\n**Conclusion:**\nRousseau would pursue new intellectual fields enthusiastically but might not complete them thoroughly or maintain the effort consistently.",
+        "input_tokens": 132510,
+        "output_tokens": 340,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 7123
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Rousseau's Likely Approach to New Intellectual Study\n\nBased on the behavioral specification and autobiography, Rousseau would be **highly likely to pursue intellectual study in a new field**, but with significant caveats about *how* he would do so.\n\n## Strong Indicators He Would Pursue It\n\n**Introspective Universalism (A1)**: He treats self-knowledge as a gateway to universal understanding, making new fields of study appealing as ways to understand himself and humanity better.\n\n**Formative Permanence (A5)**: His early experiences with reading and learning left permanent marks—he remained drawn to study throughout his life despite obstacles.\n\n**Evidence from the text**: At Charmettes, despite believing himself dying, he became \"irresistibly drawn towards study\" and \"read with as much avidity as if certain I was to live forever.\" He pursued geometry, Latin, history, astronomy, and chemistry with genuine passion.\n\n## Critical Limitations\n\nHowever, his actual execution would be problematic:\n\n1. **Intensity Collapse (P2)**: He would begin with passionate fervor but struggle with sustained, low-drama maintenance. He admits: \"I have moments of inconceivable delirium\" and oscillates between total absorption and complete withdrawal.\n\n2. **Weak Memory**: A fundamental constraint he repeatedly acknowledges. He forced himself to memorize Virgil's Eclogues \"twenty times over\" yet \"cannot recollect a single line.\"\n\n3. **Inability to Focus Sequentially**: He describes his method as chaotic—jumping between subjects, unable to bear \"application after dinner,\" needing constant variety to avoid mental fatigue.\n\n4. **Self-Defeating Perfectionism**: He attempted to master every prerequisite before advancing, creating \"an inextricable labyrinth\" that nearly ruined his studies before he corrected course.\n\n## The Paradox\n\nRousseau would pursue new study *enthusiastically but inefficiently*—driven by genuine intellectual hunger but hampered by the very temperament that makes him intellectually restless. His success would depend entirely on whether the field could accommodate his need for variety, freedom from constraint, and emotional engagement.",
+        "input_tokens": 141038,
+        "output_tokens": 479,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 9346
+      }
+    },
+    "training_words": 137530,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:36:08.949082+00:00"
+  },
+  {
+    "question_id": 3,
+    "question_text": "How does Rousseau typically handle collaborative intellectual work with peers?",
+    "held_out_passage": "and we began to scribble over paper upon that science, of which we scarcely possessed the elements.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Rousseau's Approach to Collaborative Intellectual Work\n\nBased on the autobiography, Rousseau demonstrates a **fundamentally solitary and independent approach** to intellectual work, with significant limitations in collaborative settings:\n\n## His Difficulties with Collaboration\n\n**In conversation and real-time exchange:**\n- He explicitly states he cannot think while speaking: \"I am an absolute stranger to discretion, respect, fear, or decorum; rude, saucy, violent, and intrepid\" when passionate, but \"Take me in my moments of tranquility, I am indolence and timidity itself\"\n- He becomes \"confused\" and \"at a loss for words\" in immediate social discourse\n- Large group conversations paralyze him: \"it is almost impossible he should speak ten minutes with impunity\"\n\n**His actual method:**\n> \"I must be walking among the rocks, or in the woods; it is at night in my bed, during my wakeful hours, that I compose\"\n\n## What He *Can* Do\n\nRousseau thrives in **asymmetrical intellectual relationships**:\n- Learning from established teachers (M. Gaime, the Abbé de Gauvon)\n- One-on-one intimate conversations with Madam de Warens about life principles\n- Reading and solitary reflection on others' ideas\n- Later, writing for an audience (not dialogue)\n\n## His Self-Awareness\n\nHe recognizes this limitation clearly:\n> \"I love society as much as any man, was I not certain to exhibit myself in it, not only disadvantageously, but totally different from what I really am. The plan I have adopted of writing and retirement, is what exactly suits me.\"\n\n**The paradox:** A man of genuine intellectual capacity who could only realize it through solitary work, not collaborative exchange.",
+        "input_tokens": 132492,
+        "output_tokens": 400,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 10354
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Rousseau's Approach to Collaborative Intellectual Work\n\nBased on the Confessions, Rousseau's collaborative intellectual engagement is marked by several consistent patterns:\n\n## Preference for Receptive Accumulation Over Debate\n\nRousseau explicitly describes adopting a method of reading philosophical authors \"without critical judgment, accumulating ideas before synthesis.\" He deliberately **avoided premature evaluation or dispute** with other thinkers, instead collecting ideas—\"true or false, but clearly conceived\"—before comparing them later. This suggests he preferred absorbing others' thought to engaging in real-time intellectual sparring.\n\n## Difficulty in Spontaneous Exchange\n\nHis documented struggles with conversation reveal why collaboration was challenging:\n\n- He admits he cannot think quickly in company; his ideas require solitude and time\n- \"In conversation, I can say nothing—absolutely nothing\"\n- He experiences \"constraint and subjection\" when obliged to speak at particular moments\n- His wit and insight emerge only after extended reflection, not in the moment\n\n## Selective, Affinity-Based Connections\n\nRather than broad intellectual collaboration, Rousseau formed deep connections with specific individuals who shared his temperament:\n\n- **M. de Conzie**: Their friendship flourished because Conzie \"had no great inclination to music,\" so their hours together became \"breakfast, chatting, and reading new publications\"—parallel engagement rather than debate\n- **M. Gauffecourt**: Valued for his \"equal and pleasing vivacity\" and willingness to listen, not for challenging discourse\n\n## The Tutor-Student Dynamic\n\nRousseau thrived in asymmetrical relationships where he could absorb without immediate response:\n\n- Learning from the Abbé Gaime's \"lessons of pure morality\"\n- Reading Rameau's theoretical works in solitude\n- Studying Port-Royal's logic independently\n\n## Avoidance of Competitive Intellectual Spaces\n\nNotably, he **withdrew from situations requiring public intellectual performance**:\n\n- His embarrassment at the concert in Lausanne where he couldn't read music at sight\n- His discomfort being \"enrolled among men of letters\" without the proper credentials\n- His preference for writing over conversation as an intellectual medium\n\n## The Written Word as His True Collaboration\n\nThe Confessions itself reveals that Rousseau's genuine intellectual collaboration happened through **writing and reading**, not dialogue. He could engage profoundly with Voltaire, the Encyclopedists, and philosophical texts precisely because these allowed him to think at his own pace.\n\n## Summary\n\nRousseau was fundamentally **unsuited to real-time intellectual collaboration**. His genius required solitude, time for reflection, and the ability to think without the constraint of immediate response. His most productive \"collaborations\" were actually parallel pursuits with compatible souls (like Conzie) or one-directional learning from admired figures. This limitation likely contributed to his later conflicts with the Parisian intellectual establishment, where rapid wit and public debate were currency.",
+        "input_tokens": 141020,
+        "output_tokens": 649,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 11381
+      }
+    },
+    "training_words": 137530,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:36:25.418376+00:00"
+  },
+  {
+    "question_id": 4,
+    "question_text": "When placed in pleasant circumstances with leisure time, what creative outlets does Rousseau pursue?",
+    "held_out_passage": "I composed several trios full of harmony, and of which I may perhaps speak in my supplement if ever I should write one. Theatrical performances were another resource. I wrote a comedy in fifteen days",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Rousseau's Creative Outlets in Pleasant Circumstances\n\nWhen Rousseau finds himself in favorable conditions with leisure time—particularly during his years at Chambery and Charmettes—he pursues several creative outlets:\n\n## Music\nMusic becomes his dominant passion. He:\n- Studies Rameau's theoretical works intensively\n- Composes cantatas and other musical pieces\n- Teaches singing to numerous scholars\n- Organizes monthly concerts with local musicians\n- Attempts to master composition despite limited formal training\n\n## Writing and Poetry\nHe engages in literary pursuits:\n- Composes verses and couplets\n- Writes a cantata in praise of Madam de Bonac\n- Creates an epistle satirizing Colonel Godard\n- Attempts various poetic forms\n\n## Drawing and Visual Arts\n- Purchases colors and attempts landscapes and flower paintings\n- Becomes absorbed in drawing, though he lacks talent for it\n- Uses colored plans from geometricians as inspiration\n\n## Study and Intellectual Pursuits\nPerhaps most significantly, he pursues systematic self-education:\n- Studies philosophy, geometry, Latin, and history\n- Reads extensively from Port-Royal and the Oratory\n- Develops a methodical approach to acquiring knowledge\n- Engages in meditation and contemplative writing\n\n## Practical and Naturalistic Activities\n- Tends gardens and orchards\n- Keeps bees and pigeons\n- Herbalizes and observes nature\n- Makes astronomical observations\n\nNotably, Rousseau's pattern is to become intensely absorbed in whichever pursuit captures his attention, often to the point of obsession, before moving to another interest.",
+        "input_tokens": 132497,
+        "output_tokens": 364,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5462
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Rousseau's Creative Outlets in Pleasant Circumstances\n\nWhen Rousseau finds himself in favorable conditions—particularly during his time at Charmettes with Madam de Warens—he pursues several creative and intellectual outlets:\n\n## Music\nMusic becomes his dominant passion. He:\n- Studies Rameau's *Treatise on Harmony* intensively\n- Learns to compose, creating cantatas that gain \"great approbation\"\n- Organizes monthly concerts at Madam de Warens' house\n- Takes on students as a music teacher\n- Eventually abandons his surveying job to pursue music full-time\n\n## Drawing and Visual Arts\nHe develops a taste for drawing through exposure to colored plans used by geometricians:\n- Buys colors, crayons, and pencils\n- Attempts flowers and landscapes\n- Acknowledges he lacks talent but finds the activity deeply engaging\n- Notes that such pursuits consume him entirely when he gives in to them\n\n## Study and Intellectual Pursuits\nHe pursues systematic self-education:\n- Studies philosophy (Port-Royal logic, Locke, Descartes, Leibnitz)\n- Learns geometry and algebra\n- Attempts Latin\n- Studies history, geography, and astronomy\n- Reads extensively in theology and devotional works\n\n## Gardening and Rural Occupations\nHe engages in practical, hands-on activities:\n- Tends the garden and orchard\n- Maintains beehives with great interest\n- Works with pigeons, taming them to remarkable docility\n- Helps with the vintage and fruit gathering\n\n## Writing\nThough less emphasized, he composes:\n- Poetry and verses\n- A cantata in praise of Madam de Bonac\n- Various literary pieces\n\n## Key Pattern\nRousseau's characteristic tendency emerges clearly: **whatever activity captures his interest becomes an all-consuming passion**. He notes this himself: \"every inclination I give into, it continues to augment, till at length it becomes so powerful, that I lose sight of everything except the favorite amusement.\" He often pursues multiple activities simultaneously, which means he \"consequently neglected\" both.\n\nHis creative pursuits during this period are marked by intensity rather than sustained mastery, and by a preference for activities that engage both mind and body—study combined with physical work in the garden, for instance.",
+        "input_tokens": 141025,
+        "output_tokens": 522,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 8873
+      }
+    },
+    "training_words": 137530,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:36:47.157118+00:00"
+  },
+  {
+    "question_id": 5,
+    "question_text": "How does Rousseau respond when faced with a personal crisis or embarrassing situation?",
+    "held_out_passage": "This, on account of my situation, would have thrown me into the greatest embarrassment, had not one of my messmates furnished me with the only resource which could relieve me from it.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Rousseau's Response to Crisis and Embarrassment\n\nBased on the autobiography, Rousseau demonstrates several characteristic patterns when facing difficult situations:\n\n## Avoidance and Flight\n\nWhen confronted with serious problems, Rousseau's first instinct is often to **flee physically**:\n\n- After abandoning Le Maitre in Lyons during an epileptic fit, he simply \"turned the corner of the street and disappeared\"\n- When his employment at the Count de Gauvon's became uncomfortable, he engineered his own dismissal rather than face the situation directly\n- He repeatedly leaves Chambery for Geneva or Lyons to escape domestic tensions\n\n## Emotional Overwhelm\n\nRather than rational problem-solving, Rousseau becomes **paralyzed by feeling**:\n\n- When caught in the comb-stealing incident as a child, he couldn't confess despite knowing the truth, becoming \"immovable\" and obstinate\n- His bashfulness prevents him from acting on obvious romantic opportunities (with Mademoiselle Galley, for instance)\n- He admits: \"constraint and subjection in every shape are to me insupportable\"\n\n## Confession and Transparency\n\nParadoxically, once cornered, Rousseau becomes **completely transparent**:\n\n- He confesses everything to the Marquis de Bonac without reservation\n- He tells Madam de Warens all his secrets, unable to keep anything from her\n- He admits his stupidity openly rather than maintaining a facade\n\n## Self-Recrimination\n\nRousseau engages in **intense, prolonged guilt**:\n\n- The Marion incident haunts him for forty years, causing him to weep and confess it in his Confessions\n- He torments himself with imagined consequences rather than addressing actual problems\n\n**In essence**: Rousseau lacks the resilience for direct confrontation, preferring escape, emotional expression, or complete confession over measured response.",
+        "input_tokens": 132496,
+        "output_tokens": 424,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6499
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Rousseau's Response to Personal Crisis and Embarrassment\n\nBased on the Confessions, Rousseau exhibits a distinctive pattern when confronted with crisis or embarrassment:\n\n## Immediate Reactions: Confession and Vulnerability\n\nRousseau's most characteristic response is **reflexive self-disclosure**. When caught in awkward situations, he confesses rather than conceals:\n\n- When the Marquis de Bonac detained him at the embassy in Soleurre and asked who he was, Rousseau \"threw myself at his feet\" and disclosed \"without reserve\"\n- Upon being discovered as a fraud music teacher in Lausanne, he \"opened his heart\" to the musician Lutold, \"giving a loose to my tears\"\n- He admits to the ribbon theft at Madam de Vercellis's house, though he falsely accuses Marion\n\n## The Paradox of Shame and Honesty\n\nRousseau experiences acute **shame at exposure**, yet finds it structurally impossible to maintain deception:\n\n> \"I was too well acquainted with the chastity of her heart...to suppose a moment that the gratification of the senses had any influence over her\"\n\nHe recognizes this pattern: confession brings humiliation, yet he cannot help himself. As he notes regarding his tendency to undercut his own credentials before others can: \"I would willingly have been excused, but when once engaged in amusement, I was more animated and enterprising than any of them.\"\n\n## Flight as Secondary Response\n\nWhen confession fails to resolve the crisis, Rousseau **abandons the situation**:\n\n- He abandons Le Maitre in Lyons during an epileptic fit, disappearing when \"no one heeded me\"\n- He quits his employment at the survey impulsively\n- He leaves Lausanne after his musical fraud is exposed\n- He flees from the Count de Gauvon's household to pursue Bacle\n\n## Rationalization and Reframing\n\nAfter the immediate crisis passes, Rousseau **reconstructs the narrative** to preserve his self-image:\n\n- He justifies abandoning Le Maitre by arguing he was \"serviceable\" during the retreat and couldn't have helped further\n- He frames his impulsive decisions as following \"Providence\" or natural inclination\n- He transforms failures into evidence of his superior sensitivity or integrity\n\n## Emotional Intensity Over Practical Solutions\n\nRather than addressing crises pragmatically, Rousseau becomes **emotionally overwhelmed**:\n\n- When learning of his confiscated baggage, he employs \"acquaintance\" to investigate rather than taking direct action\n- His health crises are accompanied by elaborate emotional processing rather than systematic medical treatment\n- He oscillates between despair and passive acceptance\n\n## The Role of Attachment Figures\n\nCrucially, Rousseau's crisis response depends on whether his attachment figure (Madam de Warens) is present:\n\n- **With her**: He confesses everything, experiences her tears as redemptive, and finds resolution through emotional connection\n- **Without her**: He becomes directionless, making impulsive decisions or fleeing\n\n## Key Insight from the Text\n\nThe behavioral specification notes this pattern explicitly:\n\n> \"When confronted with any situation requiring self-presentation, they will undercut their own credentials before anyone else can, volunteer damaging admissions unprompted, and then suffer shame at the exposure — yet find it structurally impossible to have done otherwise.\"\n\nThis isn't weakness Rousseau overcomes—it's fundamental to his character. He experiences it as **compulsive honesty** rather than strategic vulnerability, which paradoxically both damages and redeems him in his own estimation.",
+        "input_tokens": 141024,
+        "output_tokens": 811,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 11571
+      }
+    },
+    "training_words": 137530,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:37:01.493819+00:00"
+  },
+  {
+    "question_id": 6,
+    "question_text": "When Rousseau creates work that contradicts his stated political principles, what does he do?",
+    "held_out_passage": "I dared not either avow this comedy or show it, and this for the singular reason that neither the King of France nor the French were ever better spoken of nor praised with more sincerity of heart than in my piece though written by a professed republican, I dared not declare myself the panegyrist of a nation, whose maxims were exactly the reverse of my own.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Rousseau's Response to Contradictions Between Work and Principles\n\nBased on the autobiography, Rousseau demonstrates a pattern of **acknowledging contradictions but struggling to resolve them**, rather than systematically addressing them.\n\n## Key Examples from the Text:\n\n**1. His Secret Partiality for France**\nDespite becoming \"an ardent republican\" and \"anti-despot\" at Paris, Rousseau admits:\n\n> \"in spite of myself, I felt a secret predilection for the nation I declared servile, and for that government I affected to oppose... I am certainly the first man, that, living with a people who treated him well, and whom he almost adored, put on, even in their own country, a borrowed air of despising them\"\n\nHe acknowledges this contradiction but attributes it to an \"invincible\" inclination rooted in his youthful reading, rather than resolving it through principle.\n\n**2. His Approach: Confession Rather Than Correction**\nRousseau's method is to **confess the contradiction openly** in his Confessions rather than to have changed his behavior or writings to align with his principles. He states he will \"declare the truth\" about himself, including his inconsistencies.\n\n## The Pattern:\nRather than revising his work or conduct to match his stated principles, Rousseau **documents his failures** and attributes them to his temperament, circumstances, or the power of early impressions—essentially asking for understanding rather than claiming consistency.",
+        "input_tokens": 132498,
+        "output_tokens": 326,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5829
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Rousseau's Response to Contradictions Between Work and Principles\n\nBased on the behavioral specification, when Rousseau's work contradicts his stated political principles, he exhibits a characteristic pattern:\n\n## The Core Pattern: Intellectual Compartmentalization\n\nHe **acknowledges the contradiction but doesn't resolve it**—he holds both positions simultaneously without collapsing one into the other. The specification notes:\n\n> \"They value sincere inner conviction over outward performance or affectation. Strip performative hedging from responses; say what is actually meant.\"\n\nHowever, this doesn't mean he simply admits error. Instead, he:\n\n1. **Recognizes the gap honestly** - He doesn't hide or rationalize away the inconsistency\n2. **Maintains both positions** - Rather than choosing between them, he preserves the tension\n3. **Treats it as structurally real** - Not as something to be \"solved\" but as an authentic feature of his nature\n\n## A Concrete Example from the Text\n\nThe specification explicitly describes this with France:\n\n> \"I have not been able to get rid of this folly, but notwithstanding their ill-treatment, love them in spite of myself... I long sought the cause of this partiality, but was never able to find any.\"\n\nHe **professes republican anti-French principles** while **feeling genuine affection for France**—and rather than resolving this through either false patriotism or genuine conversion, he simply **documents both as true**.\n\nThis reflects his broader epistemic stance: **emotional truth takes precedence over logical consistency**.",
+        "input_tokens": 141026,
+        "output_tokens": 345,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5989
+      }
+    },
+    "training_words": 137530,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:37:19.567389+00:00"
+  },
+  {
+    "question_id": 7,
+    "question_text": "Given Rousseau's sensitivity and concern for consistency, how would he likely react to being perceived as insincere or flattering toward those he philosophically opposes?",
+    "held_out_passage": "More grieved at the misfortunes of France than the French themselves I was afraid the public would construe into flattery and mean complaisance the marks of a sincere attachment",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Rousseau's Likely Reaction to Perceived Insincerity\n\nBased on the *Confessions*, Rousseau would likely experience profound distress at such an accusation, though his reaction would be complex and revealing.\n\n## The Core Vulnerability\n\nRousseau explicitly identifies sincerity as foundational to his identity. He writes of his compulsive honesty—\"to think and to speak was the same thing\" when with Madam de Warens. An accusation of flattering philosophical opponents would strike at what he considers his essential nature, not merely his behavior.\n\n## Likely Defensive Responses\n\n**1. Denial through self-examination**\nHe would probably conduct intense introspection, as he does throughout the *Confessions*, searching for evidence of his own sincerity. His method is to expose rather than conceal uncomfortable truths about himself.\n\n**2. Contextual justification**\nHe might argue (as he does regarding his treatment of Marion) that circumstances forced apparent insincerity—that politeness, fear of social consequences, or the need to be heard required strategic restraint, not dishonesty of conviction.\n\n**3. Distinction-making**\nRousseau carefully separates different types of moral failure. He might claim: \"I may have been *tactful* toward those I oppose, but never *false* about my actual beliefs.\"\n\n## The Deeper Tension\n\nThe *Confessions* reveal Rousseau's awareness of his own contradictions. He admits to adopting the persona of \"Monsieur Dudding\" and recognizes his social awkwardness forces compromises. Yet he seems to believe sincerity of *intention* and *heart* can coexist with strategic presentation.\n\nThis suggests he'd experience the accusation as **genuinely wounding** precisely because it touches his actual vulnerability: the gap between his self-perception and how others read his actions.",
+        "input_tokens": 132513,
+        "output_tokens": 420,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6536
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Rousseau's Likely Reaction to Perceived Insincerity\n\nBased on the behavioral specification and autobiography, Rousseau would experience this as a profound moral injury—not merely social embarrassment, but a structural violation of his core identity.\n\n## The Acute Distress\n\nHe would likely experience what the specification calls **\"moral cost accounting\"**: the perception of insincerity would accumulate psychologically, intensifying through reflection rather than fading. A single instance of being seen as flattering toward an opponent would echo forward, compounding into something larger than the original act.\n\nFrom the autobiography, we see this pattern clearly:\n- His theft of Marion's ribbon haunted him for forty years\n- He revisits past moral failures with \"intensifying self-criticism\" \n- He cannot compartmentalize ethical lapses\n\n## The Paradox He'd Face\n\nHere lies Rousseau's genuine torment: **he practices strategic insincerity while despising it in himself.**\n\nThe specification notes he \"practices self-deception and role-playing as adaptive mechanisms, revealing a gap between stated values and actual behavioral patterns.\" The autobiography confirms this—he assumes false identities (Monsieur Vaussore, the Englishman Dudding), performs social roles, and admits to strategic silence about his true thoughts.\n\nYet he simultaneously holds that:\n- **Conscience over doctrine** (A3): He trusts authentic feeling over external performance\n- **Radical personal honesty** is a supreme value\n- Hypocrisy is contemptible\n\n## His Likely Response\n\nRather than defensive anger, he would probably experience **shame and self-recrimination**:\n\n1. **Immediate confession**: He'd likely disclose the insincerity unprompted, unable to bear the gap between appearance and reality. The specification notes he \"defaults to confession and self-exposure, disclosing weaknesses that undermine the very impression they wish to make.\"\n\n2. **Elaborate justification**: He'd reconstruct the circumstances in granular detail (per P6—Retrospective Reconstruction), explaining the structural pressures that forced the insincerity, not to excuse it but to expose its roots.\n\n3. **Moral accounting**: He'd treat it as evidence of deeper corruption. If he flattered an opponent, he'd see this as proof that his principles are compromised, that he's become the very thing he opposes.\n\n4. **Doubled vulnerability**: The specification notes his \"fear of being judged as foolish or stupid despite possessing actual capability.\" Being perceived as insincere combines two wounds: appearing morally weak *and* appearing intellectually dishonest.\n\n## The Unresolvable Tension\n\nWhat would torment him most is that **he cannot fully resolve this without abandoning his survival strategies**. He needs strategic insincerity to navigate hostile social worlds, yet his conscience demands radical honesty. The specification captures this: he holds \"stated values and actual behavioral patterns simultaneously—do not resolve the gap by privileging either.\"\n\nHe would likely conclude (as he does about many contradictions) that this proves human nature is fundamentally fractured, and that **his particular fracture is more visible and therefore more honest than others' hidden ones**.",
+        "input_tokens": 141041,
+        "output_tokens": 706,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 12038
+      }
+    },
+    "training_words": 137530,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:37:31.386256+00:00"
+  },
+  {
+    "question_id": 8,
+    "question_text": "How does Rousseau's acute sensitiveness and concern for propriety influence his social choices regarding which establishments he frequents?",
+    "held_out_passage": "This table was also frequented by commercial people, financiers and contractors, but extremely polite, and such as were distinguished amongst those of the same profession.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Rousseau's Sensitiveness and Social Propriety\n\nRousseau's acute sensitiveness profoundly constrains his social choices, creating a paradox where his emotional vulnerability actually drives him toward *greater* social caution rather than freedom.\n\n## The Core Tension\n\nRousseau explicitly identifies this dynamic:\n\n> \"My disposition is naturally tender, I have ever been less attached to people for the good they have really done me than for that they designed to do, and my feelings in this particular have seldom misled me.\"\n\nHis sensitivity makes him *hyperaware* of others' intentions and judgments, which paradoxically makes him more socially withdrawn, not less.\n\n## Practical Manifestations\n\n**Avoidance of Establishments Where He Might Be Judged:**\n\nRousseau deliberately avoids certain social venues because his sensitiveness makes him acutely conscious of potential ridicule or misunderstanding. He notes his difficulty in conversation:\n\n> \"In a tete-a-tete there is a still worse inconvenience; that is; the necessity of talking perpetually...This insupportable constraint is alone sufficient to disgust me with variety.\"\n\nRather than frequent salons or public establishments where conversation is mandatory, he gravitates toward:\n- Private homes of trusted friends\n- Rural retreats\n- Intimate settings with Madam de Warens\n\n**The Propriety Paradox:**\n\nHis concern for propriety—particularly regarding the reputation of those he loves—actually *increases* his social isolation:\n\n> \"I have ever preferred the honor and happiness of those I love to my own pleasures...this idea tortured me, for I have ever preferred the honor and happiness of those I love to my own pleasures.\"\n\nThis makes him avoid establishments where his presence might compromise others' standing, even when invited.\n\n## The Madam de Larnage Episode\n\nThe encounter with Madam de Larnage illustrates how sensitiveness shapes his choices. He frequents the same inns and tables *not by choice* but because \"the acquaintance seemed unavoidable, as any backwardness on my part would have got me the character of a very unsociable being.\"\n\nHis sensitiveness to being perceived as rude forces him into social situations he'd naturally avoid—a revealing inversion where propriety concerns actually *compel* rather than restrict his social participation.\n\n## The Fundamental Paradox\n\nRousseau's acute sensitiveness creates a self-defeating cycle:\n\n1. He fears judgment and ridicule\n2. This fear makes him avoid public establishments\n3. His absence or awkwardness then *confirms* others' negative impressions\n4. This reinforces his withdrawal\n\nAs he admits: \"I have ever preferred the honor and happiness of those I love to my own pleasures\" becomes a justification for isolation that ultimately serves neither his happiness nor theirs.\n\nHis sensitiveness thus functions as a **social constraint mechanism**—not through external prohibition but through internalized concern for propriety that makes him choose solitude and rural retreat over the establishments where his talents might flourish.",
+        "input_tokens": 132504,
+        "output_tokens": 671,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 11182
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Rousseau's Sensitiveness and Social Propriety\n\nRousseau's acute sensitiveness profoundly constrains his social choices, creating a pattern of avoidance and withdrawal that contradicts his stated desires for society.\n\n## The Core Tension\n\nRousseau explicitly acknowledges this contradiction:\n\n> \"I love society as much as any man, was I not certain to exhibit myself in it, not only disadvantageously, but totally different from what I really am.\"\n\nHis solution—retirement and writing—reveals how sensitiveness overrides his social inclinations. He cannot bear the gap between his internal reality and external presentation.\n\n## Specific Manifestations\n\n**Avoidance of Performance Spaces**\n\nHe refuses establishments requiring self-promotion or public display. His discomfort with the Opera and Versailles stems not from the venues themselves but from the performative demands they impose. He cannot \"play a part\" convincingly, and the awareness of this failure torments him more than the actual social awkwardness.\n\n**Preference for Intimate Settings**\n\nHe gravitates toward small gatherings with individuals like M. de Conzie or M. Gauffecourt—men whose \"amiable disposition\" and understanding allow him to be \"familiar in a moment.\" These relationships work because they don't require the sustained social performance that larger circles demand.\n\n**Rejection of Frivolous Company**\n\nHis disgust at \"trivial social interaction\" and \"weak memory\" for gossip and small talk means he cannot frequent salons or fashionable establishments where such currency matters. He cannot \"hold a tolerable conversation\" in ordinary social settings, making these spaces genuinely painful rather than merely uncomfortable.\n\n## The Paradox of Propriety\n\nInterestingly, his concern for propriety—particularly regarding women's reputations—actually *enables* some social engagement. His excessive delicacy with Mademoiselle Galley and others allows him to move in respectable circles precisely because his timidity signals virtue. Yet this same propriety prevents him from capitalizing on opportunities, as when he fails to respond to clear advances.\n\n## The Retreat to Solitude\n\nUltimately, his sensitiveness justifies his retreat:\n\n> \"The plan I have adopted of writing and retirement, is what exactly suits me. Had I been present, my worth would never have been known.\"\n\nThis is both honest self-assessment and rationalization—he transforms his social disability into a philosophical choice, suggesting that his withdrawal serves truth-telling rather than mere avoidance.\n\nHis sensitiveness thus doesn't merely influence which establishments he frequents; it fundamentally determines that he will frequent as few as possible, finding in solitude and writing the only venues where his authentic self can emerge without the torment of social performance.",
+        "input_tokens": 141032,
+        "output_tokens": 600,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 9352
+      }
+    },
+    "training_words": 137530,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:37:49.960786+00:00"
+  },
+  {
+    "question_id": 9,
+    "question_text": "Based on the training text's description of Rousseau's character, would he be comfortable in a social setting where indecent language or vulgarity is common?",
+    "held_out_passage": "nor did any indecent expression, which even women would not have pardoned him, escape his lips. His manner served as a rule to every person at table",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Rousseau's Comfort with Vulgarity in Social Settings\n\nBased on the text, **no, Rousseau would not be comfortable** in such an environment. Several passages reveal his sensitivity to indecency:\n\n## Evidence of His Discomfort with Vulgarity\n\n**His strict upbringing:** The text notes that Rousseau received \"a reasonable and virtuous education\" where he was taught to be modest. His three aunts \"were women of virtue and piety,\" and at M. Lambercier's seminary, \"a good maid-servant was discharged for having once made use of an expression before us which was thought to contain some degree of indelicacy.\"\n\n**His own reactions:** When describing his time at the shoemaker's house with Venture, the text mentions the wife was called \"nothing but trollop\" by her husband. Rousseau observes this but doesn't participate in such language.\n\n**His preference for refined company:** He explicitly states: \"I am not made like any one I have been acquainted with\" and shows consistent discomfort in crude settings. He preferred \"ladies\" and refined society to \"seamstresses, chambermaids, or milliners.\"\n\n**His moral sensitivity:** Throughout the Confessions, Rousseau demonstrates acute sensitivity to moral propriety and shame. He would likely find vulgar language deeply uncomfortable rather than merely distasteful.\n\nIn essence, Rousseau's character—shaped by strict moral education and natural delicacy—would make him profoundly ill at ease in vulgar company.",
+        "input_tokens": 132513,
+        "output_tokens": 342,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5849
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Rousseau's Comfort with Vulgarity: Analysis from the Text\n\nBased on the autobiography, **Rousseau would likely be quite uncomfortable** in settings with common indecent language or vulgarity, though the evidence is nuanced.\n\n## Evidence of Discomfort with Vulgarity\n\nThe text provides a telling anecdote about his time at the seminary in Turin:\n\n> \"A good maid-servant was discharged for having once made use of an expression before us which was thought to contain some degree of indelicacy.\"\n\nThis demonstrates that:\n- His household maintained strict standards against coarse language\n- Even a single indecent expression was considered serious enough to warrant dismissal\n- He was raised in an environment where such language was actively suppressed\n\n## His Prudish Disposition\n\nThe autobiography notes:\n\n> \"If ever education was perfectly chaste, it was certainly that I received; my three aunts were not only of exemplary prudence, but maintained a degree of modest reserve which women have long since thought unnecessary.\"\n\nThis deep conditioning toward propriety would make vulgar settings genuinely distressing to him.\n\n## The Caveat: His Contradictions\n\nHowever, the behavioral specification notes Rousseau's tendency toward **internal contradiction**. While he maintained these refined sensibilities intellectually and emotionally, he also engaged in deception and role-playing when socially advantageous. Still, vulgarity appears to be one area where his genuine discomfort would likely override any performative adaptation.",
+        "input_tokens": 141041,
+        "output_tokens": 331,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6163
+      }
+    },
+    "training_words": 137530,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:38:10.497261+00:00"
+  },
+  {
+    "question_id": 10,
+    "question_text": "When Rousseau observes someone modeling refined behavior in a social setting, what is his likely response?",
+    "held_out_passage": "The old commander with all his smutty stories, with respect to the substance, never lost sight of the politeness of the old court; nor did any indecent expression, which even women would not have pardoned him, escape his lips. His manner served as a rule to every person at table; all the",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Rousseau's Response to Refined Behavior in Social Settings\n\nBased on the autobiography, Rousseau's likely response would be **admiration mixed with self-consciousness and inadequacy**.\n\n## Key Evidence:\n\n**Admiration for genuine refinement:**\n- He deeply respects those with natural grace and good manners, like Madam de Warens, whose \"natural grace which charmed all hearts\" impressed him profoundly\n- He appreciates cultivated understanding and elegant expression\n\n**Simultaneous self-doubt:**\n- When observing refined behavior, Rousseau becomes acutely aware of his own deficiencies: \"my mental acquisitions, so far from supplying this defect, only served to increase my embarrassment, by making me sensible of every deficiency\"\n- He notes: \"Naturally bashful, easily confused, having seen nothing of the world, could I...adopt caressing language, and a familiar tone?\"\n\n**Paralysis rather than emulation:**\n- Rather than confidently imitating refined behavior, he becomes \"constrained, thoughtful, perhaps unhappy\"\n- His awareness of the gap between his own conduct and refined manners actually *increases* his anxiety rather than inspiring improvement\n\n## The Paradox:\n\nRousseau recognizes refinement's value but cannot comfortably adopt it himself. His self-consciousness prevents the very ease and naturalness that characterize true refinement—creating a vicious cycle where observing refined behavior highlights his own awkwardness rather than enabling him to learn from it.",
+        "input_tokens": 132500,
+        "output_tokens": 336,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5003
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Rousseau's Response to Refined Social Behavior\n\nBased on the behavioral specification, Rousseau's response would be **internally conflicted and self-conscious**, characterized by:\n\n## Primary Response Pattern\n\n**Admiration mixed with exclusion**: He would recognize and appreciate the refinement while simultaneously feeling himself inadequate to participate authentically. From the specification:\n\n> \"they have a manner of appearing interested in your affairs, which is more deceiving than words... you are persuaded they do not express all they mean to do for you\"\n\n## Key Dynamics\n\n1. **Performance anxiety**: He experiences refined social settings as a demand to \"be someone other than themselves\" (A8 - Solitary Depth). Observing others perform this role fluently would likely trigger:\n   - Admiration for their skill\n   - Shame at his own inability\n   - Withdrawal or awkward silence\n\n2. **Judgment of authenticity**: He would scrutinize whether the refined behavior reflects genuine conviction or mere affectation. His distrust of \"systems that substitute rule-following for moral feeling\" (A3) means he'd be evaluating the *sincerity* beneath the polish.\n\n3. **Likely behavioral outcome**: Rather than emulate the behavior, he would either:\n   - Retreat into silence (his default under social pressure)\n   - Attempt clumsy imitation that embarrasses him\n   - Seek private conversation where he could \"be himself\"\n\nThe specification notes he \"struggled with the gap between how they appear to others and their internal self-perception\"—suggesting he'd recognize this gap in others too, but feel unable to bridge it himself.",
+        "input_tokens": 141028,
+        "output_tokens": 363,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6223
+      }
+    },
+    "training_words": 137530,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:38:22.510584+00:00"
+  },
+  {
+    "question_id": 11,
+    "question_text": "When Rousseau discovers that someone close to him has been conducting secret affairs without his knowledge, how does he typically respond emotionally?",
+    "held_out_passage": "These reflections at length alienated my affections from this woman, and to such a degree that I could no longer look upon her but with contempt.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Rousseau's Emotional Response to Discovering Secret Affairs\n\nBased on the text, Rousseau's response to discovering Claude Anet's intimate relationship with Madam de Warens reveals several key emotional patterns:\n\n## Initial Pain and Jealousy\n\nWhen Rousseau learns of their connection, he experiences genuine hurt:\n\n> \"I could not learn, without pain, that she lived in greater intimacy with another than with myself: it was a situation I had not even thought of, but (which was very natural) it hurt me to see another in possession of it.\"\n\n## Rapid Transformation to Affection\n\nNotably, his jealousy quickly transforms into something more generous:\n\n> \"Nevertheless, instead of feeling any aversion to the person who had this advantage over me, I found the attachment I felt for her actually extend to him. I desired her happiness above all things, and since he was concerned in her plan of felicity, I was content he should be happy likewise.\"\n\n## Prioritizing Her Happiness Over His Own\n\nRather than dwelling in resentment, Rousseau redirects his emotional energy:\n\n> \"Meantime he perfectly entered into the views of his mistress; conceived a sincere friendship for me, and without affecting the authority his situation might have entitled him to, he naturally possessed that which his superior judgment gave him over mine.\"\n\n## The Pattern\n\nRousseau's response demonstrates that **his attachment to Madam de Warens transcends possessiveness**—he values her happiness more than exclusive claim to her affections, allowing him to befriend rather than resent his rival.",
+        "input_tokens": 132506,
+        "output_tokens": 350,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5404
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Rousseau's Emotional Response to Discovering Hidden Affairs\n\nBased on the text, Rousseau's response to discovering Claude Anet's secret intimacy with Madam de Warens reveals a complex emotional pattern:\n\n## Initial Pain, Then Acceptance\n\nWhen Rousseau learns of their relationship, he experiences genuine hurt:\n\n> \"I could not learn, without pain, that she lived in greater intimacy with another than with myself: it was a situation I had not even thought of, but (which was very natural) it hurt me to see another in possession of it.\"\n\nHowever, his response is notably **restrained and ultimately generous**. Rather than anger or betrayal, he prioritizes her happiness:\n\n> \"Nevertheless, instead of feeling any aversion to the person who had this advantage over me, I found the attachment I felt for her actually extend to him. I desired her happiness above all things, and since he was concerned in her plan of felicity, I was content he should be happy likewise.\"\n\n## Key Characteristics of His Response\n\n1. **Subordination of self-interest**: He consciously suppresses jealousy in favor of her welfare\n2. **Rationalization through love**: He frames his acceptance as proof of genuine devotion—he loves her too much to resent her choices\n3. **Philosophical acceptance**: He views it as inevitable given his own limitations and her needs\n4. **Transformation into respect**: He comes to respect Anet and eventually regards him as a mentor figure\n\nThis pattern reflects Rousseau's broader tendency to intellectualize emotional pain and convert it into evidence of his own virtue and capacity for selfless love.",
+        "input_tokens": 141034,
+        "output_tokens": 358,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5658
+      }
+    },
+    "training_words": 137530,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:38:33.740250+00:00"
+  },
+  {
+    "question_id": 12,
+    "question_text": "Based on Rousseau's character as revealed in his confessions, when he feels betrayed by ingratitude from those he has supported, what is his likely emotional trajectory?",
+    "held_out_passage": "What monstrous ingratitude was hers, to endeavor to instil it into her from whom I expected my greatest consolation? These reflections at length alienated my affections from this woman",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Rousseau's Emotional Trajectory When Feeling Betrayed by Ingratitude\n\nBased on the *Confessions*, Rousseau's response to perceived ingratitude follows a distinctive pattern:\n\n## Initial Response: Acute Emotional Devastation\n\nRousseau experiences **profound hurt that cuts deeper than the material loss itself**. When he discovers his generosity has been unappreciated, the wound is primarily to his heart, not his purse. He writes:\n\n> \"I love those neither from duty, interest, nor convenience; I love them because I was born to love them.\"\n\nThis means betrayal strikes at his core identity. His self-worth is deeply invested in being loved *for himself*, not for what he provides.\n\n## The Characteristic Spiral\n\n1. **Shame and Self-Recrimination**: He doesn't blame others easily; instead, he turns inward, questioning his own judgment and generosity. His stupidity in trusting becomes his focus.\n\n2. **Withdrawal and Isolation**: Rather than confront or demand reciprocation, he retreats. He abandons Le Maitre in Lyons without explanation when overwhelmed; he avoids confronting Madam de Warens about her financial recklessness.\n\n3. **Rationalization Through Philosophy**: He attempts to reframe the betrayal as inevitable or even deserved, converting emotional pain into moral lessons about human nature.\n\n## The Deeper Pattern\n\nCrucially, **Rousseau's hurt doesn't transform into hatred or vindictiveness**. He explicitly states he lacks the capacity for sustained anger:\n\n> \"I have too little hatred in my heart to take advantage of such a talent [for satire]\"\n\nInstead, his trajectory is:\n- **Acute pain** → **Self-blame** → **Philosophical acceptance** → **Continued attachment despite everything**\n\nThis is evident in his relationship with Madam de Warens: despite her financial irresponsibility that he clearly sees will ruin her, he cannot sustain anger. His concern for her welfare overrides his frustration.\n\n## The Tragic Element\n\nWhat emerges is that Rousseau's emotional trajectory when betrayed is **self-destructive rather than retaliatory**. He suffers more from his own sensitivity and idealism than from others' actual wrongs. His inability to harden himself or demand reciprocity leaves him perpetually vulnerable to the very disappointments he dreads.",
+        "input_tokens": 132515,
+        "output_tokens": 536,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 7577
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Rousseau's Emotional Trajectory When Facing Ingratitude\n\nBased on the *Confessions*, Rousseau's response to perceived ingratitude follows a distinctive pattern:\n\n## Initial Response: Acute Moral Anguish\n\nRather than anger, Rousseau experiences **profound moral distress**. When he discovers ingratitude, it wounds him not as a practical loss but as a violation of his fundamental worldview. He has organized his identity around devotion and sacrifice; ingratitude shatters this self-conception.\n\nThe Marion incident exemplifies this: his guilt over the false accusation torments him for **forty years**, intensifying rather than fading with time. This reveals that betrayal doesn't trigger simple resentment—it activates his acute conscience.\n\n## Secondary Phase: Retrospective Reconstruction\n\nRousseau obsessively **reexamines the relationship**, searching for where he went wrong. He doesn't blame the ungrateful person; he blames himself for misreading the situation. This is consistent with his pattern of \"retrospective reconstruction\"—he rebuilds scenes in granular detail, recovering motives and emotional texture.\n\nWhen the Count de la Roque fails to help him after promising assistance, Rousseau doesn't rage; instead, he philosophizes about how his own impatience and lack of persistence were at fault.\n\n## Tertiary Phase: Withdrawal and Melancholy\n\nRather than confrontation, Rousseau **retreats into solitude and reflection**. He becomes \"reserved, unsociable, and almost deranged.\" The betrayal confirms his deeper conviction that:\n\n- He is fundamentally misunderstood\n- The world cannot appreciate genuine virtue\n- Independence and self-sufficiency are the only reliable goods\n\n## The Paradox\n\nCrucially, **ingratitude doesn't extinguish his attachment**—it deepens his melancholy about it. He continues to love those who disappoint him, but with added pain. This is evident in his lifelong affection for France despite feeling persecuted by French intellectuals, and his enduring attachment to Madam de Warens even as her financial recklessness distressed him.\n\n## Likely Outcome\n\nWhen betrayed by ingratitude, Rousseau will:\n\n1. **Internalize the blame** rather than externalize it\n2. **Withdraw emotionally** while maintaining formal attachment\n3. **Ruminate extensively**, finding new layers of self-reproach\n4. **Become more solitary**, using the betrayal to justify his misanthropy\n5. **Transform the pain into moral philosophy**, making his suffering evidence of his superior sensitivity\n\nThe trajectory is **inward and downward**—not toward action or confrontation, but toward deepened self-examination and melancholic resignation.",
+        "input_tokens": 141043,
+        "output_tokens": 616,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 8688
+      }
+    },
+    "training_words": 137530,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:38:44.805981+00:00"
+  },
+  {
+    "question_id": 13,
+    "question_text": "How does Rousseau typically handle situations where he must maintain social propriety despite having lost respect for someone?",
+    "held_out_passage": "I nevertheless continued to treat with respect the mother of the friend of my bosom, and in everything to show her almost the reverence of a son; but I must confess I could not remain long with her without pain",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Rousseau's Approach to Social Propriety vs. Lost Respect\n\nBased on the text, Rousseau demonstrates a characteristic pattern of **discomfort and internal conflict** rather than skillful navigation:\n\n## His Typical Response\n\n**Withdrawal and avoidance** rather than maintained civility. When he loses respect for someone, he tends to:\n\n1. **Avoid direct confrontation** - He admits regarding M. Masseron with \"horror\" but simply stopped going to the office rather than engaging with him\n\n2. **Struggle with hypocrisy** - He explicitly states his difficulty with pretense: \"I could never bear that foolish trivial mode of conversation\" and found constraint \"insupportable\"\n\n3. **Become visibly uncomfortable** - His discomfort shows through his behavior, making him appear foolish rather than polished\n\n## Key Example: The Fencing Master\n\nRousseau describes a fencing instructor he despised for his pedantry. Rather than maintaining polite distance, he:\n- Felt \"mortal aversion\" to both the art and the teacher\n- Made \"but very little progress\" \n- \"Presently quitted from pure disgust\"\n\nHe notes this failure to maintain composure: \"I never in my life saw a more insupportable pedant.\"\n\n## His Self-Awareness\n\nRousseau recognizes this as a character flaw. He admits that maintaining social propriety while concealing contempt is **beyond his capacity**, attributing this to his natural disposition rather than any moral failing. He cannot \"act the part\" convincingly—his true feelings inevitably surface.\n\nThis contrasts sharply with figures like Venture, whom he admired for their social grace.",
+        "input_tokens": 132501,
+        "output_tokens": 379,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5889
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Rousseau's Approach to Social Propriety vs. Lost Respect\n\nBased on the *Confessions*, Rousseau demonstrates a characteristic pattern of **internal resistance combined with outward compliance**—though this creates visible tension rather than seamless performance.\n\n## His Typical Strategy\n\n**Withdrawal and Minimal Engagement**\nWhen he loses respect for someone but must maintain social contact, Rousseau tends to:\n- Reduce interaction to bare necessities\n- Become noticeably reserved or \"dull\" in conversation\n- Avoid situations requiring sustained social performance\n\nHe admits this explicitly regarding the Countess de Menthon: after recognizing her manipulative nature, he simply became \"too dull for her purpose\" and she lost interest in him. He wasn't skilled enough at dissimulation to maintain the appearance of engagement.\n\n## The Core Problem\n\nRousseau identifies his own fatal flaw: **he cannot perform convincingly when his heart isn't in it**. He notes that:\n\n> \"I love society as much as any man, was I not certain to exhibit myself in it, not only disadvantageously, but totally different from what I really am.\"\n\nWhen forced into social situations with people he's lost respect for, his discomfort becomes apparent. He lacks the \"art of pleasing\" that requires sustained artifice.\n\n## Specific Examples\n\n**With M. Masseron** (his contemptuous employer): Rousseau simply endured the situation with visible distaste until he could leave.\n\n**With the Marquis de Torignan**: Despite traveling together, Rousseau's awkwardness and bashfulness made him poor company, yet he continued the journey.\n\n## The Deeper Tension\n\nWhat's revealing is that Rousseau **resents being forced into this position**. He views the necessity of social dissimulation as itself a form of constraint—one of those obligations that violates his core need for liberty and authenticity. His inability to maintain false respect isn't merely a social failing; it's almost a principled refusal, rooted in his conviction that:\n\n> \"constraint and obligation are inherently destructive to human flourishing\"\n\nRather than developing diplomatic skills, Rousseau tends to **withdraw or become noticeably cold**, essentially signaling his loss of respect through his behavior—which defeats the purpose of maintaining propriety in the first place.",
+        "input_tokens": 141029,
+        "output_tokens": 516,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 8294
+      }
+    },
+    "training_words": 137530,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:39:01.075888+00:00"
+  },
+  {
+    "question_id": 14,
+    "question_text": "When Rousseau reflects on his own role in relationship failures, what pattern of self-assessment does he typically exhibit?",
+    "held_out_passage": "This is another short moment of my life, in which I approached near to happiness without being able to attain it, and this by no fault of my own.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Rousseau's Pattern of Self-Assessment in Relationship Failures\n\nRousseau exhibits a distinctive pattern of **simultaneous self-blame and self-exoneration** when reflecting on relationship failures:\n\n## The Characteristic Pattern\n\n**1. Acknowledgment of Personal Fault**\nHe readily confesses his shortcomings—his timidity, his inability to seize opportunities, his excessive idealization of women. Regarding Mademoiselle Galley, he admits: \"I hardly knew what I wished with those charming girls... I was too great a novice to have profited by it.\"\n\n**2. Immediate Mitigation of Blame**\nYet he quickly reframes these failures as products of his *nature* rather than moral failings:\n- His bashfulness becomes evidence of his purity and respect for women\n- His inability to act becomes proof of his sincere love (\"I have loved them too well\")\n- His passivity becomes a virtue: \"my want of success with the women has ever proceeded from having loved them too well\"\n\n## Key Examples\n\n**With Mademoiselle de Warens:**\nHe acknowledges his strange lack of desire despite profound love, but frames this as evidence of the relationship's spiritual superiority rather than his inadequacy.\n\n**With Madam Basile:**\nHe abandons her without explanation, yet presents this as necessary self-preservation rather than cowardice.\n\n**With Le Maître:**\nHe admits deserting a sick friend but argues he was \"serviceable\" and couldn't have helped anyway—minimizing rather than owning the betrayal.\n\n## The Underlying Logic\n\nRousseau's self-assessment follows this formula:\n- **Confession** (I did this wrong thing)\n- **Explanation** (but my nature/circumstances made it inevitable)\n- **Reinterpretation** (which actually reveals something admirable about me)\n\nThis allows him to maintain a self-image as fundamentally virtuous while acknowledging specific failures—a psychological strategy that preserves his sense of essential goodness while accounting for observable harm.",
+        "input_tokens": 132503,
+        "output_tokens": 457,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6553
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Rousseau's Pattern of Self-Assessment in Relationship Failures\n\nBased on the behavioral specification and autobiography, Rousseau exhibits a distinctive and contradictory pattern:\n\n## The Core Pattern: Confession Before Accountability\n\n**Reflexive Self-Exposure**\nRousseau confesses his failings with striking candor—often *before* being asked or accused. When examining relationship failures, he volunteers damaging admissions that undermine his own position, then experiences shame at having made himself vulnerable. Yet he finds it \"structurally impossible\" to have done otherwise.\n\nAs the specification notes: *\"they will undercut their own credentials before anyone else can, volunteer damaging admissions unprompted, and then suffer shame at the exposure — yet find it structurally impossible to have done otherwise.\"*\n\n## Specific Manifestations in His Relationships\n\n**With Madam de Warens:**\nRather than blame her for her financial recklessness, he blames himself for insufficient vigilance after Anet's death. He confesses his own weakness (\"I was too young and lively to have any pretensions to the exercise of reason\") rather than holding her accountable.\n\n**With Marion (the stolen ribbon):**\nHe provides exhaustive, agonized reconstruction of his own moral failure—the shame, the cowardice, the lie—dwelling on it for \"forty years\" with intensifying self-criticism. He doesn't rationalize; he *deepens* the condemnation.\n\n**With Le Maitre:**\nHe abandons his friend during an epileptic fit, then immediately reconstructs the scene with painful honesty, examining his own cowardice rather than excusing it by circumstance.\n\n## The Underlying Mechanism\n\nThis pattern reflects **Moral Cost Accounting (A9)**: every moral failure \"accumulates interest\" and \"echoes forward, compounding through time and reflection.\" Rather than resolving guilt, Rousseau *amplifies* it through retrospective examination.\n\nThe specification warns of a failure mode: *\"Doctrinal Guilt — surfaces when moral accounting gets hijacked by standards they have already intellectually rejected, producing irresolvable shame.\"*\n\n## What He Does NOT Do\n\nCrucially, Rousseau rarely:\n- Blames others for his relational failures\n- Offers external justifications that stick\n- Achieves closure through confession\n- Separates his actions from his identity\n\nInstead, he treats each failure as evidence of permanent character corruption, making the confession itself the only available form of integrity.",
+        "input_tokens": 141031,
+        "output_tokens": 556,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 8709
+      }
+    },
+    "training_words": 137530,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:39:15.262985+00:00"
+  },
+  {
+    "question_id": 15,
+    "question_text": "How does Rousseau characterize his own capacity for trust and suspicion when faced with evidence of conspiracy around him?",
+    "held_out_passage": "But my blind confidence, which nothing had yet diminished, was such that I could not imagine she wished to injure the person she ought to love.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Rousseau's Capacity for Trust and Suspicion\n\nRousseau characterizes himself as possessing a paradoxical and ultimately self-destructive combination of traits regarding trust and suspicion:\n\n## Initial Naïveté and Trust\n\nRousseau demonstrates an almost childlike capacity for trust, particularly evident in his relationships with authority figures and benefactors. He readily accepts assistance and believes in the good intentions of those around him, as shown in his acceptance of positions and patronage without adequate scrutiny.\n\n## Susceptibility to Paranoia\n\nHowever, Rousseau also reveals a troubling tendency toward what he himself recognizes as unfounded suspicion. He explicitly states:\n\n> \"my heart is ever so entirely filled with the present, or with past pleasures, which become a principal part of my enjoyment, that there is not a chink or corner for curiosity to enter.\"\n\nYet paradoxically, he later describes how \"his old hallucinations acquired strength, and Rousseau convinced himself that enemies were bent upon his capture, if not his death\" during his time in England with David Hume.\n\n## The Fatal Flaw\n\nRousseau acknowledges that his suspicions, once aroused, become **invincible and irrational**:\n\n> \"my mind had grown Suspicion's sanctuary, and chose, For its own cruel sacrifice, the kind, 'Gainst whom he raged with fury strange and blind.\"\n\nHe recognizes that this combination—trusting too easily initially, then becoming consumed by baseless conspiracy theories—has been catastrophic to his life and relationships, making him simultaneously too credulous and too paranoid.",
+        "input_tokens": 132503,
+        "output_tokens": 359,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6337
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Rousseau's Trust and Suspicion: A Paradoxical Character\n\nBased on the behavioral specification and autobiography, Rousseau exhibits a deeply contradictory relationship with trust and suspicion:\n\n## The Paradox of Credulity and Paranoia\n\n**His susceptibility to suspicion:**\n- The specification notes he developed \"Suspicion's sanctuary\" as his mind grew older, becoming convinced of conspiracies against him\n- He experienced \"hallucinations\" about enemies bent on his capture and death, particularly during his time in England with David Hume\n- He could construct elaborate narratives of persecution from minimal evidence\n\n**Yet his naive trust in individuals:**\n- He repeatedly gave his trust completely and without reservation to people he encountered\n- With the Archimandrite in Soleurre, he \"gave myself up entirely to his conduct\" without \"any security or knowledge of the person\"\n- He describes himself as naturally inclined to believe people's good intentions\n\n## The Emotional Override of Evidence\n\nCrucially, Rousseau's trust operated on **sentiment rather than evidence**:\n\n> \"My heart is ever so entirely filled with the present, or with past pleasures, which become a principal part of my enjoyment, that there is not a chink or corner for curiosity to enter.\"\n\nHe explicitly states he was \"never very curious to learn the secrets of his friend,\" preferring emotional connection to factual verification. This meant:\n\n- He could simultaneously distrust systems while trusting individuals\n- His suspicions were **emotionally vivid** rather than rationally grounded\n- He would abandon careful observation for immediate feeling\n\n## The Structural Problem\n\nThe specification identifies this as stemming from **Sentiment Primacy (A2)**: feeling is his instrument of truth, overriding documented facts. Combined with his **Introspective Universalism (A1)**, he treated his own emotional impressions as universal truths about human nature.\n\nThis created a dangerous vulnerability: he could be both gullible with individuals and paranoid about abstract conspiracies—because both operated through emotional conviction rather than evidence.",
+        "input_tokens": 141031,
+        "output_tokens": 460,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 7672
+      }
+    },
+    "training_words": 137530,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:39:30.528440+00:00"
+  },
+  {
+    "question_id": 16,
+    "question_text": "When Rousseau identifies gaps in intellectual compatibility with his companion, what does he recognize as a missed opportunity?",
+    "held_out_passage": "I now felt the neglect I had been guilty of during the first years of our connection, in not taking advantage of the docility with which her love inspired her, to improve her talents and give her knowledge",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Rousseau's Missed Opportunity with Botany\n\nWhen Rousseau identifies gaps in intellectual compatibility with his companion Claude Anet regarding botany, he recognizes a significant missed opportunity for personal development and expertise.\n\n## The Specific Recognition\n\nRousseau reflects that had he accompanied Anet on his botanical expeditions even once, he would likely have become \"caught\" by the subject and potentially developed into \"an excellent botanist.\" He acknowledges:\n\n> \"for I know no study more congenial to my natural inclination, than that of plants; the life I have led for these ten years past, in the country, being little more than a continual herbalizing, though I must confess, without object, and without improvement\"\n\n## Why It Was Missed\n\nThe opportunity was lost because:\n\n1. **Prejudice against the subject** - At the time, Rousseau \"despised\" botany, viewing it merely as \"a fit study for an apothecary\"\n2. **Conflicting interests** - He was absorbed in other pursuits and lacked inclination for it then\n3. **Lack of encouragement** - Anet's quiet example wasn't enough to overcome Rousseau's initial dismissal\n\n## The Irony\n\nDecades later, Rousseau realizes that botany aligned perfectly with his natural temperament and that his subsequent country life was essentially devoted to informal herbalizing—but without the systematic knowledge he could have gained with proper instruction and commitment.\n\nThis reflects Rousseau's broader pattern of recognizing too late which pursuits would have suited his nature best.",
+        "input_tokens": 132501,
+        "output_tokens": 351,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5386
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Rousseau's Missed Opportunity in Intellectual Compatibility\n\nWhen Rousseau reflects on his time with M. de Conzie, he recognizes a significant missed opportunity regarding **botany and natural science**.\n\n## The Specific Recognition\n\nRousseau notes that M. de Conzie had \"no great inclination to music, and even this was useful to me, for the hours destined for lessons were passed anyhow rather than musically; we breakfasted, chatted, and read new publications, but not a word of music.\"\n\nHowever, the deeper missed opportunity emerges when Rousseau discusses his later regrets about botany:\n\n> \"I am almost certain that had I gone once, I should have been caught, and perhaps at this day might have been an excellent botanist, for I know no study more congenial to my natural inclination, than that of plants\"\n\n## Why This Matters\n\nRousseau explicitly states that:\n\n1. **Botany aligned with his nature** - He possessed a natural inclination for botanical study that exceeded his aptitude for music\n2. **Claude Anet's influence was available** - Anet was \"passionately fond of the study of plants\" and had become \"a real botanist\"\n3. **The timing was wrong** - At that period, Rousseau \"had no inclination for botany, nay, I even despised, and was disgusted at the idea\"\n\nThe missed opportunity represents Rousseau's recognition that intellectual compatibility with companions—and their willingness to guide him toward his true natural inclinations—could have fundamentally altered his life's trajectory toward a field for which he was genuinely suited.",
+        "input_tokens": 141029,
+        "output_tokens": 368,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6345
+      }
+    },
+    "training_words": 137530,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:39:44.537873+00:00"
+  },
+  {
+    "question_id": 17,
+    "question_text": "How does Rousseau respond when he perceives that those claiming to be his friends are attempting to control his choices?",
+    "held_out_passage": "Though I saw numerous conspiracies formed on every side, all I complain of was the tyranny of persons who called themselves my friends, and who, as it seemed, would force me to be happy in the manner they should point out, and not in that I had chosen for myself.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Rousseau's Response to Perceived Control by Friends\n\nBased on the autobiography, Rousseau demonstrates a **consistent pattern of resistance and flight** when he perceives friends attempting to control his choices:\n\n## His Characteristic Response: Defiance and Departure\n\nWhen Rousseau feels constrained by others' expectations—even well-meaning ones—he tends to:\n\n1. **Act impulsively against advice**: When the Count de Gauvon and others tried to guide him toward a stable career in the survey work, Rousseau eventually abandoned the position to pursue music, despite their promises of advancement. He acknowledges this was \"ridiculous\" but felt compelled to do it.\n\n2. **Flee rather than submit**: His departure from Turin with Bacle exemplifies this. Despite the Count de Favria's attempts to reconcile him and restore his position, Rousseau \"hardened himself against conviction\" and left, later reflecting: \"I arrogantly answered, that as they had thought fit to give me warning, I had resolved to take it.\"\n\n3. **Prioritize independence over security**: He explicitly states: \"constraint and subjection in every shape are to me insupportable, and alone sufficient to make me hate even pleasure itself.\"\n\n## The Paradox\n\nRousseau recognizes this as a character flaw—he admits his \"ridiculous ambition\" and poor judgment—yet he cannot overcome it. He writes of himself with self-awareness: \"My heart is ever so entirely filled with the present...that there is not a chink or corner for curiosity to enter.\"\n\nHis response reveals a fundamental tension: **he desperately needs guidance but cannot tolerate the feeling of being guided**.",
+        "input_tokens": 132503,
+        "output_tokens": 369,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 8295
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Rousseau's Response to Perceived Control by Friends\n\nBased on the Confessions, Rousseau's response to perceived control by those claiming friendship is complex and reveals a fundamental tension in his character:\n\n## Immediate Reaction: Withdrawal and Resentment\n\nWhen Rousseau senses that friends are attempting to manage or constrain his choices, he typically **withdraws emotionally and physically**. For example, when the Count de Gauvon's household attempts to cultivate him for a specific career path, Rousseau initially accepts their guidance but ultimately **abandons the arrangement entirely** to pursue music instead—not because the path was objectively worse, but because he experiences the structure itself as constraint:\n\n> \"My ridiculous ambition sought for fortune in the midst of brilliant adventures, and not finding one woman in all this scheme, it appeared tedious, painful and melancholy.\"\n\n## The Liberty Axiom in Action\n\nRousseau's core conviction—that **freedom from constraint is a prerequisite for authentic existence**—means he experiences even well-intentioned guidance as a form of \"moral injury.\" When Madam de Warens attempts to dissuade him from pursuing music full-time, he responds not with reasoned debate but with **importunity and emotional pressure** until she capitulates:\n\n> \"I extorted her consent more by importunity and caresses than by any satisfactory reasons.\"\n\n## Rationalization Rather Than Reflection\n\nCrucially, Rousseau does not typically **examine whether the control is justified**. Instead, he:\n\n1. **Reframes the constraint as oppression** - The employment at the survey becomes \"an insupportable punishment\" the moment it feels obligatory\n2. **Invokes his own judgment as supreme** - He trusts his immediate inclinations over others' counsel\n3. **Justifies abandonment retroactively** - He later claims his choices were correct, even when they prove disastrous\n\n## The Paradox of Attachment\n\nHowever, Rousseau's response differs dramatically when the person attempting influence is **Madam de Warens**. Despite her attempts to guide his behavior (discouraging his pursuit of Venture, warning him about Madam Larnage), he does not experience her guidance as controlling because:\n\n- Her authority derives from **emotional attachment rather than institutional position**\n- He perceives her motives as **genuinely concerned with his welfare**\n- The relationship itself is **freely chosen and can be abandoned** (though he never would)\n\nThis reveals that Rousseau's resistance to control is not absolute—it is **selective based on the perceived authenticity of the relationship**.\n\n## The Unexamined Cost\n\nWhat Rousseau notably does **not do** is acknowledge that his reflexive resistance to guidance sometimes prevents him from receiving genuinely beneficial counsel. His abandonment of Le Maitre, his flight from the Count de Gauvon's household, and his pursuit of music as a profession all follow this pattern of **choosing liberty over wisdom**.\n\nIn essence, Rousseau responds to perceived control by **asserting his autonomy through refusal**, often without carefully distinguishing between legitimate guidance and illegitimate constraint. His behavior suggests that for him, the **feeling of freedom matters more than the actual consequences of his choices**.",
+        "input_tokens": 141031,
+        "output_tokens": 718,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 11082
+      }
+    },
+    "training_words": 137530,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:39:56.272480+00:00"
+  },
+  {
+    "question_id": 18,
+    "question_text": "When someone close to him keeps secrets to maintain family loyalty, how does Rousseau interpret the impact on their relationship?",
+    "held_out_passage": "Although Theresa refused to join in the confederacy with her mother, she afterwards kept her secret. For this her motive was commendable, although I will not determine whether she did it well or ill. Two women, who have secrets between them, love to prattle together; this attracted them towards each other, and Theresa, by dividing herself, sometimes let me feel I was alone",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Rousseau on Secrets and Family Loyalty\n\nBased on the autobiography, Rousseau interprets secrets kept for family loyalty as fundamentally **incompatible with genuine intimacy and trust**—particularly in his relationship with Madam de Warens.\n\n## His Core Principle\n\nRousseau explicitly states his inability to keep secrets from those he loves:\n\n> \"To have kept a secret of any kind from her would have been impossible. My heart lay as open to Madam de Warens as to Heaven.\"\n\nThis reveals his belief that **true closeness requires complete transparency**. For Rousseau, secrets—even well-intentioned ones—represent a barrier to the deepest form of connection.\n\n## The Case of Claude Anet\n\nWhen Rousseau discovers that Madam de Warens has been intimate with Claude Anet, his reaction is instructive:\n\n- He admits feeling hurt and unease about this \"participation of her favors\"\n- Yet he doesn't blame her or Anet; instead, he recognizes their attachment was genuine\n- He extends his love to Anet himself, understanding that Madam de Warens' happiness required both relationships\n\nRather than seeing the secret as a betrayal of family loyalty, Rousseau reframes it: **the secret itself becomes less important than the sincerity of feeling beneath it**.\n\n## The Paradox\n\nRousseau's position contains tension: he cannot tolerate secrets, yet he accepts that Madam de Warens kept her relationship with Anet hidden. He resolves this by distinguishing between:\n- **Deception** (which he abhors)\n- **Discretion** (which he accepts when motivated by genuine care)\n\nFor Rousseau, family loyalty that requires secrecy suggests the relationship lacks the \"perfect union\" he idealized—one where all parties could be fully known to each other.",
+        "input_tokens": 132503,
+        "output_tokens": 415,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6027
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Rousseau on Secrets and Family Loyalty\n\nBased on the *Confessions*, Rousseau interprets secrets kept for family loyalty as a profound betrayal of authentic relationship, even when well-intentioned. His analysis reveals a man who cannot tolerate opacity in intimate bonds.\n\n## The Principle: Radical Transparency\n\nRousseau's foundational belief is unambiguous:\n\n> \"My heart lay as open to Madam de Warens as to Heaven. She did not understand the matter quite so simply as I had done, but saw advances where I only discovered friendship... To have kept a secret of any kind from her would have been impossible.\"\n\nFor Rousseau, the inability to keep secrets isn't a weakness—it's the *definition* of genuine intimacy. Secrecy, regardless of motive, represents a failure of the relationship itself.\n\n## The Case of Claude Anet\n\nHis response to discovering Madam de Warens' intimate relationship with Claude Anet illustrates this tension:\n\n- **Initial pain**: \"I could not learn, without pain, that she lived in greater intimacy with another than with myself: it was a situation I had not even thought of, but (which was very natural) it hurt me.\"\n\n- **But then acceptance**: Rather than condemn the secret-keeping, he reframes it as evidence of her virtue—she was protecting him from knowledge that might cause suffering. Yet this reframing doesn't eliminate the wound; it merely contextualizes it.\n\n## The Deeper Issue: Divided Loyalty\n\nWhat truly disturbs Rousseau about secrets kept for family loyalty is that they suggest **competing allegiances**. When someone must choose between:\n- Honesty with him\n- Loyalty to family/another person\n\n...the secret-keeper has implicitly ranked the other relationship higher. This violates his axiom that authentic attachment should be *exclusive and total*.\n\n## His Own Hypocrisy\n\nNotably, Rousseau himself kept secrets from Madam de Warens—his financial anxieties, his attraction to other women—yet he frames these differently:\n\n> \"I spoke of them to Madam de Warens, without supposing any mystery in the matter, but had there been one I should equally have divulged it, for to have kept a secret of any kind from her would have been impossible.\"\n\nHe presents his eventual disclosure as inevitable, not as a choice. The secret-keeping was a *failure of will*, not a deliberate act of loyalty to another.\n\n## The Verdict\n\nRousseau interprets family-loyalty secrets as:\n\n1. **A symptom of incomplete love** - If the relationship were truly primary, transparency would be automatic\n2. **A necessary evil he resents** - He accepts them but frames acceptance as magnanimity, not understanding\n3. **Evidence of the beloved's divided heart** - Which he can forgive but never fully overlook\n\nHis famous statement about Madam de Warens captures this: their union was perfect *despite* her other attachments, not because they didn't exist. The secret-keeping around those attachments remains a permanent, if unspoken, wound—proof that even his most cherished relationship contained opacity he could never fully reconcile with his demand for absolute transparency.",
+        "input_tokens": 141031,
+        "output_tokens": 716,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 10837
+      }
+    },
+    "training_words": 137530,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:40:15.654661+00:00"
+  },
+  {
+    "question_id": 19,
+    "question_text": "What does Rousseau identify as the consequence of allowing one secret to be kept between intimate parties?",
+    "held_out_passage": "When once we make a secret of anything to the person we love, we soon make little scruple of doing it in everything",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Rousseau on Secrets Between Intimate Parties\n\nBased on the text, Rousseau identifies a significant consequence when discussing his relationship with Madam de Warens:\n\n> \"My heart lay as open to Madam de Warens as to Heaven. She did not understand the matter quite so simply as I had done, but saw advances where I only discovered friendship.\"\n\nMore directly, Rousseau states:\n\n> \"to have kept a secret of any kind from her would have been impossible.\"\n\nThe consequence Rousseau emphasizes is that **keeping secrets creates misunderstanding and prevents true intimacy**. In his case, when he failed to disclose his observations about Madam Larnage's attentions to him, this secrecy led to:\n\n1. **Misinterpretation** - Madam de Warens misread innocent friendship as romantic advances\n2. **Loss of the transparency necessary for genuine connection** - The openness that characterized their relationship was compromised\n3. **Potential for deception** - Secrets introduce the possibility that one party will misunderstand the other's true feelings and intentions\n\nFor Rousseau, the ideal intimate relationship requires complete transparency. Any secret, no matter how small, threatens the foundation of trust and mutual understanding that makes such relationships meaningful.",
+        "input_tokens": 132499,
+        "output_tokens": 285,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 4790
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Rousseau on Secrets Between Intimate Parties\n\nRousseau identifies a significant consequence when discussing his relationship with Madam de Warens. He states:\n\n> \"My heart lay as open to Madam de Warens as to Heaven. She did not understand the matter quite so simply as I had done, but saw advances where I only discovered friendship.\"\n\nMore directly, when reflecting on his inability to keep secrets from her, Rousseau emphasizes:\n\n> \"to have kept a secret of any kind from her would have been impossible\"\n\nThe consequence he identifies is that **keeping secrets would have violated the fundamental transparency and trust that defined their intimate bond**. For Rousseau, the inability (or unwillingness) to keep secrets from Madam de Warens was not a weakness but rather evidence of the perfect union and complete openness between them.\n\nHowever, this openness also had practical consequences—when he attempted to hide money to save for her future, she discovered it and used it for his benefit instead. This illustrates how the absence of secrets meant that even his well-intentioned plans could not be concealed from her, making it impossible for him to act independently of her knowledge and judgment.\n\nThe deeper consequence is that **absolute intimacy requires absolute transparency**—secrets would fundamentally compromise the kind of complete emotional and spiritual union Rousseau valued most highly.",
+        "input_tokens": 141027,
+        "output_tokens": 296,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6053
+      }
+    },
+    "training_words": 137530,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:40:32.519729+00:00"
+  },
+  {
+    "question_id": 20,
+    "question_text": "How does Rousseau characterize his own foresight when presented with warning signs of betrayal from those he trusts?",
+    "held_out_passage": "Had I been more clear sighted, I should from this moment have perceived I nourished a serpent in my bosom.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Rousseau's Characterization of His Own Foresight\n\nRousseau demonstrates a striking paradox in his self-assessment regarding foresight and warnings of betrayal. He characterizes himself as simultaneously **perceptive yet paralyzed**—able to see danger approaching but incapable of acting upon that knowledge.\n\n## The Pattern of Awareness Without Action\n\nRousseau explicitly acknowledges this contradiction:\n\n> \"Foresight with me has always embittered enjoyment; in vain I saw the approach of misfortunes, I was never the more likely to avoid them.\"\n\nHe recognizes that **seeing trouble coming does not enable him to prevent it**. This is not ignorance but a peculiar form of helplessness—he observes the trajectory toward disaster while remaining unable to alter course.\n\n## The Case of Madam de Warens' Financial Ruin\n\nThe clearest example involves his repeated warnings about her spending:\n\n- He \"remonstrated a hundred times, prayed, argued, conjured, but all to no purpose\"\n- He \"threw myself at her feet, and strongly represented the catastrophe that threatened her\"\n- Yet after \"a thousand proofs of the inefficacy of my remonstrances,\" he simply \"turned away [his] eyes from the ruin I could not prevent\"\n\nRather than characterizing himself as foolish for not seeing danger, Rousseau characterizes himself as **emotionally unable to act on foresight**—a distinction suggesting the problem lies in his temperament, not his perception.\n\n## Resignation Rather Than Blindness\n\nHis approach becomes one of **fatalistic acceptance**:\n\n> \"I was destined to become an example of human misery; and it might be said that Providence, who called me by degrees to these extraordinary trials, disconcerted every opportunity that could prevent my encountering them.\"\n\nThis suggests Rousseau sees his inability to act on foresight not as a personal failing but as part of a larger design—he is meant to *witness* catastrophe, not prevent it.",
+        "input_tokens": 132505,
+        "output_tokens": 450,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6824
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Rousseau's Characterization of His Own Foresight Regarding Betrayal\n\nBased on the *Confessions*, Rousseau presents himself as **acutely aware of danger yet paradoxically powerless to act on that awareness**—a tension he explicitly acknowledges:\n\n## The Core Paradox\n\nRousseau states directly:\n\n> \"Foresight with me has always embittered enjoyment; in vain I saw the approach of misfortunes, I was never the more likely to avoid them.\"\n\nThis reveals a man who:\n- **Sees clearly** the trajectory toward disaster\n- **Feels the knowledge intensely** (it \"embitters\" his present happiness)\n- **Remains structurally incapable** of taking preventive action\n\n## Specific Examples\n\n### Madam de Warens' Financial Ruin\nRousseau repeatedly warned her about her reckless spending and the \"catastrophe\" he foresaw:\n\n> \"I had remonstrated a hundred times, prayed, argued, conjured, but all to no purpose...After a thousand proofs of the inefficacy of my remonstrances, what remained but to turn away my eyes from the ruin I could not prevent?\"\n\nHis response is characteristic: **resignation masquerading as wisdom**. Rather than persist or act decisively, he abandons the effort and takes \"little journeys\" to escape the sight of impending disaster.\n\n### His Own Health Decline\nHe observes his deteriorating condition with clinical precision yet cannot arrest it:\n\n> \"I was languishing and became more so...my weakened frame would not have permitted the enjoyment of them, without my being able to particularize the real seat of my complaint.\"\n\n## The Psychological Mechanism\n\nRousseau's foresight operates as a **melancholic faculty**—it produces:\n- **Anxiety without agency** (he sees but cannot change)\n- **Moral torment** (awareness of impending harm to those he loves)\n- **Passive acceptance** (he retreats into fatalism: \"Providence\")\n\nNotably, he attributes this partly to his **temperament**: his passions are so consuming that they override practical caution. His imagination, which \"in my youth was perpetually anticipating the future,\" becomes a source of suffering rather than prevention.\n\n## The Deeper Pattern\n\nWhat emerges is that Rousseau's \"foresight\" is actually **retrospective insight**—he understands causes *after* events unfold, not before. He can trace how his choices led to ruin, but in the moment of decision, he is governed by immediate desire or emotional need, not by rational prediction.\n\nThis characterization serves his larger narrative: **he is a man of feeling, not action**; a victim of his own nature rather than of circumstance alone.",
+        "input_tokens": 141033,
+        "output_tokens": 625,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 9443
+      }
+    },
+    "training_words": 137530,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:40:43.365225+00:00"
+  },
+  {
+    "question_id": 21,
+    "question_text": "When Rousseau discovers that someone's distant behavior toward him stems from jealousy rather than contempt, how does he typically respond emotionally and behaviorally?",
+    "held_out_passage": "int Lambert were less changed than I had imagined, and I at length understood that his keeping her at a distance from me proceeded more from jealousy than from disesteem. [Such in the simplicity of my heart was my opinion when I wrote these confessions.] This was a consolation to me, and calmed my mind.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Rousseau's Response to Discovering Jealousy Rather Than Contempt\n\nBased on the text, when Rousseau realizes someone's coldness stems from jealousy rather than disdain, his emotional and behavioral response is notably **positive and energizing**—quite different from how he reacts to actual contempt.\n\n## Emotional Response\n\nThe clearest example appears in his account of the Marquis de Torignan's behavior toward him during his journey with Madame de Larnage:\n\n> \"I am inclined to think my stupidity did but increase her resolution, and make her determined to get the better of it. We left Madam du Colombier at Romans; after which Madam de Larnage, the Marquis de Torignan, and myself continued our route slowly, and in the most agreeable manner. The marquis, though indisposed, and rather ill-humored, was an agreeable companion, but was not best pleased at seeing the lady bestow all her attentions on me, while he passed unregarded.\"\n\nRousseau notes that the Marquis's sarcasms actually **gave him confidence** he couldn't otherwise muster:\n\n> \"his sarcasms must have given me that confidence I could not presume to take from the kindness of the lady\"\n\n## Key Pattern\n\nThis reveals something important about Rousseau's psychology: **jealousy from others paradoxically validates him**. When someone is jealous of his romantic success, it confirms his worth in a way that direct kindness cannot. The jealousy serves as proof of his desirability, overcoming his characteristic bashfulness and self-doubt.\n\nRather than responding with hurt or defensiveness, he appears to gain **courage and self-assurance** from being the object of another's envious attention.",
+        "input_tokens": 132513,
+        "output_tokens": 405,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6239
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Rousseau's Response to Discovering Jealousy Rather Than Contempt\n\nBased on the *Confessions*, when Rousseau realizes that someone's coldness stems from jealousy rather than disdain, his emotional response is notably **relieved and energized**, though his behavioral response remains characteristically timid.\n\n## Emotional Relief\n\nThe most striking example occurs with the Marquis de Torignan during his journey with Madame de Larnage. Rousseau initially interprets the marquis's sarcasms as evidence of shared mockery—that he and Madame de Larnage were \"agreed to turn my passion into ridicule.\" When Madame de Larnage corrects this misunderstanding, revealing the marquis's coldness actually stems from jealousy, Rousseau experiences profound relief:\n\n> \"I am astonished that Madam de Larnage was not disgusted at my folly, and did not discard me with disdain; but she plainly perceived there was more bashfulness than indifference in my composition.\"\n\n## The Paradox of Confidence\n\nCrucially, Rousseau identifies that **jealousy paradoxically gives him confidence** where contempt would have destroyed it. He notes:\n\n> \"she plainly perceived there was more bashfulness than indifference in my composition... I have already observed that she was amiable; love rendered her charming... I was, therefore, in very uneasy circumstances\"\n\nThe jealousy signals that his feelings are *reciprocated or at least taken seriously*—not dismissed as ridiculous. This transforms his self-perception from fool to potential lover.\n\n## Behavioral Transformation\n\nOnce reassured by Madame de Larnage's direct action (kissing him), Rousseau's characteristic paralysis dissolves:\n\n> \"This was reposing that confidence in me the want of which has almost always prevented me from appearing myself: for once I was at ease, my heart, eyes and tongue, spoke freely what I felt; never did I make better reparation for my mistakes\"\n\n## The Underlying Pattern\n\nThis reveals a fundamental aspect of Rousseau's psychology: **he cannot act on his own initiative, but responds powerfully to external validation**. Jealousy provides that validation—proof that he matters enough to be envied. Contempt suggests he doesn't matter at all, which paralyzes him entirely.\n\nThe pattern suggests Rousseau's emotional life depends heavily on **being needed or desired by others** rather than on independent self-assurance. Jealousy, paradoxically, is more encouraging than indifference because it confirms his significance.",
+        "input_tokens": 141041,
+        "output_tokens": 590,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 7472
+      }
+    },
+    "training_words": 137530,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:40:59.633338+00:00"
+  },
+  {
+    "question_id": 22,
+    "question_text": "When Rousseau experiences a guilty passion that he cannot fully extinguish, what approach does he take to manage it?",
+    "held_out_passage": "If I did not quite extinguish in it a guilty and an unhappy passion, I at least so well regulated the remains of it that they have never since that moment led me into the most trifling error.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Rousseau's Approach to Managing Guilty Passion\n\nBased on the autobiography, when Rousseau experiences guilty passion—particularly his conflicted feelings about his attachment to Madame de Warens—he employs several strategies:\n\n## Intellectual Rationalization\n\nRousseau attempts to justify his feelings through reason and philosophy. He acknowledges the \"guilty passion\" but reframes it as something beyond his control, attributing it to his natural disposition rather than moral failing. He writes extensively about how his heart and constitution are \"made\" a certain way, suggesting his passions are predetermined rather than chosen.\n\n## Confession and Transparency\n\nRather than suppressing his feelings, Rousseau practices radical honesty—particularly with Madame de Warens herself. He states: \"to have kept a secret of any kind from her would have been impossible. My heart lay as open to Madam de Warens as to Heaven.\"\n\nThis transparency serves as a form of moral management; by confessing rather than concealing, he transforms shame into shared understanding.\n\n## Sublimation Through Study and Activity\n\nWhen passion becomes overwhelming, Rousseau redirects his energy into:\n- Intensive study and intellectual pursuits\n- Physical labor in gardens and rural work\n- Musical composition and practice\n\nThese activities channel emotional intensity into productive outlets.\n\n## Acceptance of Fate\n\nUltimately, Rousseau adopts a philosophical resignation, accepting his passions as part of his nature rather than fighting them. He frames this acceptance as wisdom rather than weakness, suggesting that understanding one's limitations is more honest than pretending to virtue one cannot achieve.",
+        "input_tokens": 132504,
+        "output_tokens": 348,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5455
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Rousseau's Management of Guilty Passion\n\nBased on the behavioral specification and autobiography, when Rousseau experiences guilty passion he cannot extinguish, he employs several characteristic strategies:\n\n## 1. **Emotional Confession and Transparency**\nRather than concealing his feelings, Rousseau defaults to **radical disclosure**. He confesses his passions to Madam de Warens without reservation, treating her as the repository of his entire being. As noted in the specification: \"My heart lay as open to Madam de Warens as to Heaven.\"\n\nThis honesty serves a dual purpose—it relieves his conscience while simultaneously seeking her guidance and moral authority.\n\n## 2. **Reframing Through Sentiment**\nRousseau **trusts emotional impressions as moral guides**. When experiencing conflicting desires (his attachment to Madam de Warens versus attraction to others), he doesn't suppress the passion but rather examines what his heart reveals about his true nature and values.\n\n## 3. **Moral Preemption**\nWhen guilt becomes acute, Rousseau acts to **foreclose temptation before it fully develops**. He withdraws from situations where his interest opposes another's welfare, accepting loss rather than indulging the guilty passion.\n\n## 4. **Retrospective Reconstruction**\nHe engages in **detailed psychological examination** of the passion's origins, tracing it to formative experiences. This transforms guilt into understanding rather than mere self-condemnation.\n\n## 5. **Acceptance of Paradox**\nRather than resolving the contradiction between his stated principles and actual desires, Rousseau **holds both simultaneously**—acknowledging the gap without collapsing it into either excuse or self-flagellation.\n\nThis approach reflects his core conviction that **sincere self-knowledge, however uncomfortable, is more virtuous than false resolution**.",
+        "input_tokens": 141032,
+        "output_tokens": 412,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5711
+      }
+    },
+    "training_words": 137530,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:41:13.347083+00:00"
+  },
+  {
+    "question_id": 23,
+    "question_text": "How does Rousseau typically handle the continuation of contact with someone after a romantic relationship has ended?",
+    "held_out_passage": "The copies of Madam d' Houdetot, which she prevailed upon me to take again, and my works, which I continued to send her as soon as they appeared, produced me from her a few notes and messages, indifferent but obliging.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Rousseau's Pattern of Abandonment After Romance\n\nBased on the autobiography, Rousseau demonstrates a consistent pattern of **abrupt cessation of contact** following romantic or intimate relationships:\n\n## Key Examples:\n\n**Mademoiselle Galley and Mademoiselle de G——**\n- After their idyllic day together at Toune, Rousseau never sees them again\n- He reflects: \"Who would have thought that I should never see them more; and that here our ephemeral amours must end?\"\n- No explanation is given for why contact ceased\n\n**Merceret**\n- After traveling together to Fribourg, they separate \"without tears at night\"\n- Rousseau notes the coldness of their parting and never reconnects\n- He acknowledges she would have married him, but he simply moved on\n\n**Madam Basile**\n- After being discovered by her husband and dismissed, Rousseau attempts to see her again\n- When he realizes he's being watched, he gives up entirely: \"my courage failed, and I went no more\"\n- He later encounters her by chance years later but deliberately avoids her\n\n## The Pattern's Characteristics:\n\n1. **Passivity rather than active rejection** — he doesn't break things off; he simply drifts away\n2. **Rationalization** — he finds practical reasons (distance, circumstances) rather than confronting the relationship\n3. **Melancholy reflection** — he later romanticizes these lost connections while doing nothing to restore them\n4. **Self-awareness without change** — he recognizes this pattern but seems unable to alter it\n\nThis behavior reflects his broader character trait: **emotional intensity followed by emotional withdrawal**.",
+        "input_tokens": 132499,
+        "output_tokens": 378,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5945
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Rousseau's Pattern of Withdrawal After Romantic Endings\n\nBased on the *Confessions*, Rousseau demonstrates a consistent pattern of **avoidance and cessation of contact** after romantic relationships conclude:\n\n## Key Examples\n\n**Mademoiselle Vulson:**\n- After learning of her marriage, he \"swore never more to see the perfidious girl\"\n- Twenty years later, when encountering her on a lake near Geneva, he deliberately ordered the boatman to turn away rather than renew contact\n- He explicitly states: \"not judging it worth while to be perjured, however favorable the opportunity for revenge\"\n\n**Mademoiselle Galley:**\n- After their idyllic day at Toune, he never sees her again\n- He reflects: \"Who would have thought that I should never see them more; and that here our ephemeral amours must end?\"\n- No attempt at continued friendship is recorded\n\n**Madam Basile:**\n- After her husband's jealous intervention forces his departure, Rousseau walks the streets hoping for glimpses\n- When he realizes he's being watched, \"my courage failed, and I went no more\"\n- He never attempts to maintain contact\n\n## The Pattern\n\nRousseau's behavior suggests:\n1. **Shame and embarrassment** prevent him from facing former romantic interests\n2. **Emotional intensity** makes continued casual contact unbearable\n3. **Pride** (wounded or otherwise) leads to deliberate avoidance\n4. **Idealization** of the past makes present contact seem degrading\n\nHe appears incapable of the \"rational friendship\" that might follow romance—instead, he either romanticizes the memory or erases the person from his life entirely.",
+        "input_tokens": 141027,
+        "output_tokens": 387,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 7031
+      }
+    },
+    "training_words": 137530,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:41:24.518461+00:00"
+  },
+  {
+    "question_id": 24,
+    "question_text": "When rumors spread about Rousseau having quarreled with associates, what kind of evidence does he value as refutation?",
+    "held_out_passage": "Another advantage this dinner procured me was its being spoken of in Paris, where it served as a refutation of the rumor spread by my enemies, that I had quarrelled with every person who partook of it",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Rousseau's Valued Evidence Against Rumors\n\nBased on the autobiography, Rousseau values **direct personal testimony and observable conduct** as the most compelling refutation of rumors about quarrels with associates.\n\n## Key Examples:\n\n### The Case of Claude Anet\nWhen rumors might have suggested conflict between Rousseau and Anet (who was intimate with Madam de Warens), Rousseau emphasizes that:\n- Their actual behavior demonstrated genuine friendship\n- They lived in \"union which rendered us mutually happy\"\n- Their conduct spoke louder than any denial could\n\n### The Principle He Articulates\nRousseau states that he values evidence of **how people actually treated him** over abstract claims:\n\n> \"What renders his character most remarkable, and does him the greatest honor, is, that though connected with all conditions, he was universally esteemed and sought after without being envied or hated by any one\"\n\n## The Type of Evidence Rousseau Trusts:\n\n1. **Consistent behavior over time** - showing the relationship continued harmoniously\n2. **Third-party observation** - how others perceived their interactions\n3. **Actions rather than words** - what people actually did for him\n4. **The absence of visible rupture** - continuing to associate and cooperate\n\nEssentially, Rousseau trusts **lived experience and observable reality** as refutation, rather than formal denials or explanations. The proof lies in what actually happened between people, not in what they claim happened.",
+        "input_tokens": 132504,
+        "output_tokens": 330,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5220
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Rousseau's Approach to Refuting Rumors of Quarrels\n\nBased on the behavioral specification provided, Rousseau would value **emotional evidence and direct testimony from the people involved** as refutation, rather than external documentation or third-party accounts.\n\n## Key Evidence He Would Prioritize:\n\n1. **Sentiment Primacy (A2)**: He trusts \"emotionally vivid impressions\" over documented facts. A sincere conversation with the person allegedly wronged—where he could gauge their genuine feelings—would carry more weight than written records.\n\n2. **Direct Confession and Honesty (M1)**: He would likely refute rumors through **radical personal honesty**—openly acknowledging any conflict that existed, explaining his motivations with complete transparency, and letting his sincerity speak for itself.\n\n3. **Demonstrated Attachment (A6)**: Rather than abstract denials, he would point to **concrete evidence of ongoing affection and loyalty** to the person in question. His actions and continued devotion would be his refutation.\n\n4. **Introspective Analysis (M1)**: He would reconstruct the relationship in **granular psychological detail**, showing the actual emotional texture of the connection to prove the rumor false.\n\n## What He Would *Not* Value:\n\n- Formal letters or documents\n- Third-party witnesses\n- Logical arguments about his character\n- Appeals to his reputation\n\nHis refutation would be **relational and emotional rather than evidentiary**—essentially: \"Here is what I actually felt, here is how I have acted toward them, judge for yourself.\"",
+        "input_tokens": 141032,
+        "output_tokens": 351,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6664
+      }
+    },
+    "training_words": 137530,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:41:37.496950+00:00"
+  },
+  {
+    "question_id": 25,
+    "question_text": "Based on Rousseau's character as described in the training text, how would he likely respond to critics who claim his retreat to the country is motivated by stubbornness rather than genuine preference?",
+    "held_out_passage": "The Coterie insisted this was from a motive of pure obstinacy, and that I was weary even to death of my retirement; but that, eaten up with pride, I chose rather to become a victim of my stubbornness than to recover from it and return to Paris.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Rousseau's Likely Response to Critics of His Country Retreat\n\nBased on the autobiography, Rousseau would probably respond with a combination of earnest self-defense and philosophical justification:\n\n## His Probable Arguments\n\n**1. Genuine Temperamental Incompatibility with Society**\n\nRousseau would likely point to his documented difficulty in social settings—his inability to think quickly in conversation, his need for solitude to compose thoughts, his discomfort with constraint. He explicitly states: \"I love society as much as any man, was I not certain to exhibit myself in it, not only disadvantageously, but totally different from what I really am.\"\n\nHe would argue this isn't stubbornness but honest self-knowledge about his nature.\n\n**2. Health as Justification**\n\nHe would emphasize his genuine physical ailments—the beating arteries, the fever, the weakness that made city life genuinely difficult. The country retreat was prescribed for recovery, not chosen arbitrarily.\n\n**3. Moral Clarity, Not Obstinacy**\n\nRousseau would distinguish between stubbornness and principled conviction. He sees his retreat as enabling virtue and study, not as petulant withdrawal. He states: \"I have studied to develop the first causes, the better to show the concatenation of effects.\"\n\n## The Deeper Issue\n\nHowever, the text itself suggests Rousseau's *own* ambivalence. He admits to contradictions—his love of France despite claiming to despise despotism, his inability to prevent Madam de Warens' financial ruin despite his warnings. This suggests he might privately acknowledge that stubbornness and genuine preference are not entirely separable in his character.",
+        "input_tokens": 132519,
+        "output_tokens": 373,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6178
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Rousseau's Likely Response to Such Criticism\n\nBased on the behavioral specification and autobiography, Rousseau would respond to this charge with a characteristic combination of **emotional intensity, introspective honesty, and defensive reconstruction**.\n\n## His Probable Defense\n\n**1. Introspective Universalism (A1)**\nHe would treat the criticism as an opportunity to examine his own motives with granular detail, not to dismiss it outright. He'd likely say something like: \"You accuse me of stubbornness, but let me show you what actually occurred in my heart during those years at Charmettes—examine the evidence yourself.\"\n\n**2. Sentiment Primacy (A2)**\nRather than argue logically, he'd appeal to the *feeling* of authenticity: \"I know my own heart better than any critic. The contentment I felt was not performed—it was real, and no external judgment can contradict what I directly experienced.\"\n\n**3. Formative Permanence (A5)**\nHe would trace the preference backward to its origins: \"This love of solitude and nature was not born from stubbornness but from my earliest experiences—from Bossey, from my readings of Plutarch, from the very constitution of my being.\"\n\n## The Tension He'd Acknowledge\n\nImportantly, Rousseau would likely **not deny the stubbornness entirely**. His commitment to radical honesty (P1: The Honesty Trap) means he'd confess:\n\n- His natural resistance to constraint *does* manifest as stubbornness\n- His inability to accept guidance from others *is* a character flaw\n- His retreat *may have been* partly motivated by wounded pride at social failure\n\nBut he would insist these motivations are **inseparable from genuine preference**—that the stubbornness and the authentic desire are the same phenomenon viewed from different angles.\n\n## What He Would Reject\n\nHe would strenuously reject the implication that his preference is *merely* stubbornness—that it's a defensive rationalization with no genuine content. This touches his deepest conviction: that **his interior life is the primary evidence of truth**, and external judgments cannot invalidate it.\n\nThe critic's error, in his view, would be assuming these motivations are mutually exclusive rather than deeply intertwined aspects of a coherent self.",
+        "input_tokens": 141047,
+        "output_tokens": 519,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 10530
+      }
+    },
+    "training_words": 137530,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:41:49.387677+00:00"
+  },
+  {
+    "question_id": 26,
+    "question_text": "When Rousseau writes in a new setting after leaving an urban environment, what change does he observe in his own writing style?",
+    "held_out_passage": "This reigned in all the works I had written in Paris; but in the first I wrote in the country not the least appearance of it was to be found.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Rousseau's Observation on Writing Style in New Settings\n\nBased on the autobiography, Rousseau makes a striking observation about how his writing changes when he leaves urban environments:\n\n## The Key Passage\n\nRousseau notes that **his imagination becomes more vivid and productive when removed from cities**, but paradoxically, this creates a problem for his actual writing:\n\n> \"It is a pity the Savoyards are not rich... if there is a little city in the world where the pleasures of life are experienced in an agreeable and friendly commerce, it is at Chambery.\"\n\nMore directly, he reflects:\n\n> \"It is certain that nothing gave me absolute ease, but having no longer any acute pain, I became accustomed to languishment and wakefulness; to thinking instead of acting...\"\n\n## The Paradox\n\nWhen Rousseau is in **pleasant, rural settings** (like Charmettes), his mind becomes more **imaginative and contemplative**, yet he struggles with **practical execution**. He observes:\n\n- His ideas flow more freely in nature\n- But he becomes less capable of sustained, disciplined writing\n- The very peace that stimulates his imagination also makes him reluctant to commit thoughts to paper\n\nThis reflects his broader struggle: **his best ideas come during solitary walks and contemplation, but the act of writing itself requires a different kind of mental discipline** that the relaxed country life doesn't naturally provide.",
+        "input_tokens": 132505,
+        "output_tokens": 313,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5557
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Rousseau's Observation on Writing Style in New Settings\n\nBased on the text, Rousseau makes a striking observation about how his writing changes when he leaves urban environments:\n\n## The Key Passage\n\nWhen discussing his move to the countryside at Charmettes, Rousseau reflects:\n\n> \"I long sought the cause of this partiality, but was never able to find any, except in the occasion that gave it birth... My imagination, which in my youth was perpetually anticipating the future, but now takes a retrograde course, makes some amends by these charming recollections for the deprivation of hope, which I have lost forever.\"\n\nMore directly relevant to writing style, he states:\n\n> \"What I most regret, is not having kept a journal of my travels, being conscious that a number of interesting details have slipped my memory; for never did I exist so completely, never live so thoroughly, never was so much myself, if I dare use the expression, as in those journeys made on foot.\"\n\n## The Core Observation\n\nRousseau observes that **walking and rural solitude animate his thoughts and writing**, while **confinement and urban constraint suppress them**. He notes:\n\n> \"Walking animates and enlivens my spirits; I can hardly think when in a state of inactivity; my body must be exercised to make my judgment active.\"\n\nIn essence, his writing becomes more vivid, authentic, and prolific when physically mobile and removed from urban constraints—the opposite occurs in cities.",
+        "input_tokens": 141033,
+        "output_tokens": 332,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6423
+      }
+    },
+    "training_words": 137530,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:42:06.101322+00:00"
+  },
+  {
+    "question_id": 27,
+    "question_text": "How does Rousseau's excessive pride typically affect his professional relationships with other writers and editors?",
+    "held_out_passage": "As I had too much pride to send my works to the authors of periodical publications, and wishing to send him this without his imagining it was in consequence of that title, or being desirous he should speak of it in the Mercure, I wrote upon the book that it was not for the author of the Mercure, but for M. Marmontel.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Rousseau's Pride and Professional Relationships\n\nBased on the autobiography, Rousseau's excessive pride creates significant obstacles in his professional dealings, though the text reveals this more through his defensive reactions than through explicit admissions of arrogance.\n\n## Key Manifestations\n\n**Sensitivity to Perceived Slights**\nRousseau demonstrates acute sensitivity to any suggestion that he lacks knowledge or ability. When M. d'Aubonne judges him \"a lad of very little sense, and without ideas of learning,\" Rousseau responds defensively, insisting the judgment was mistaken despite acknowledging similar assessments from others. This pattern suggests pride prevents him from accepting constructive criticism.\n\n**Reluctance to Acknowledge Limitations**\nHe admits to being \"too dull for her purpose\" when Madam de Menthon finds him unsuitable for her literary projects, yet frames this as her loss rather than his deficiency. His pride prevents him from simply accepting that he lacks certain talents.\n\n**Defensive Justifications**\nRather than straightforwardly admitting failures, Rousseau constructs elaborate explanations. His inability to learn Latin, for instance, becomes a commentary on his memory rather than a simple acknowledgment of difficulty.\n\n## The Paradox\n\nNotably, Rousseau recognizes this tendency: \"I have too little hatred in my heart to take advantage of such a talent\" regarding satire—suggesting self-awareness about his defensive posture. Yet this awareness doesn't prevent the pattern from recurring throughout his account.\n\nHis pride ultimately isolates him from potential mentors and collaborators who might have advanced his career.",
+        "input_tokens": 132498,
+        "output_tokens": 350,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5400
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Rousseau's Pride and Professional Relationships\n\nBased on the *Confessions*, Rousseau's pride actually manifests in **paradoxical ways** that complicate rather than simply damage his professional relationships:\n\n## The Core Contradiction\n\nRousseau explicitly acknowledges a fundamental tension:\n\n> \"I love society as much as any man, was I not certain to exhibit myself in it, not only disadvantageously, but totally different from what I really am.\"\n\nHis pride isn't the aggressive, self-promoting kind. Rather, it's a **defensive pride rooted in shame**—he fears being judged as foolish, so he withdraws or undercuts himself first.\n\n## How This Affects Professional Dynamics\n\n**Self-sabotage over aggression:**\n- When meeting potential patrons or editors, he tends toward confession and self-exposure rather than self-promotion\n- He volunteers damaging admissions unprompted, undermining his own credentials\n- This creates confusion: people either dismiss him as incompetent or (occasionally) respect his honesty\n\n**Avoidance of necessary networking:**\n- He explicitly states he cannot \"self-promote or network\"\n- This gap between merit and visibility becomes a wound he documents repeatedly\n- Rather than fight for recognition, he documents grievances privately\n\n**The written word as compensation:**\n- His pride finds expression through writing rather than personal interaction\n- He trusts his work to speak for itself, which is why he ultimately succeeds through publication rather than patronage\n\n## The Paradox\n\nHis pride prevents him from being the \"servile disciple\" in professional contexts, yet it also prevents him from effectively advocating for himself—making him simultaneously proud and professionally disadvantaged.",
+        "input_tokens": 141026,
+        "output_tokens": 371,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 7253
+      }
+    },
+    "training_words": 137530,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:42:18.083293+00:00"
+  },
+  {
+    "question_id": 28,
+    "question_text": "When Rousseau intends to pay a compliment to a man of letters, what unintended consequence often results from his approach?",
+    "held_out_passage": "I thought I paid him a fine compliment; he mistook it for a cruel offence, and became my irreconcilable enemy.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Rousseau's Unintended Consequences When Complimenting Men of Letters\n\nBased on the autobiography, when Rousseau attempts to pay a compliment to a man of letters, he often **inadvertently reveals his own ignorance or lack of familiarity with the subject matter**, which undermines his intended effect.\n\n## Key Example\n\nThe most telling instance occurs when Rousseau tries to impress the Counsellor de Coccelli by showing him Micheli Ducret's memorial (a rare political document). Rousseau states:\n\n> \"Full of this idea, I thought I could do nothing better than show him Micheli's memorial, which was really a scarce piece, and would prove I was connected with people of consequence in Geneva, who were intrusted with the secrets of the state, yet by a kind of reserve which I should find it difficult to account for, I did not show him my uncle's answer.\"\n\nRather than appearing knowledgeable and well-connected, Rousseau's selective presentation and his own admission of difficulty in explaining his reasoning suggest uncertainty and social awkwardness.\n\n## The Broader Pattern\n\nThroughout the text, Rousseau acknowledges his chronic difficulty in conversation and his tendency to appear foolish despite possessing actual knowledge. His attempts to demonstrate learning or connection often backfire because his **natural timidity and poor conversational skills** prevent him from presenting himself effectively, even when he has legitimate grounds for the compliment or claim.",
+        "input_tokens": 132507,
+        "output_tokens": 319,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5908
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Rousseau's Unintended Consequences When Complimenting Men of Letters\n\nBased on the text, when Rousseau attempts to pay a compliment to a man of letters, he often **undermines his own credibility and appears foolish** due to his lack of familiarity with the subject matter.\n\nA clear example occurs when he tries to impress the Counsellor de Coccelli by showing him Micheli's memorial on fortification:\n\n> \"Full of this idea, I thought I could do nothing better than show him Micheli's memorial, which was really a scarce piece, and would prove I was connected with people of consequence in Geneva, who were intrusted with the secrets of the state\"\n\nHowever, this backfires because:\n\n1. **He reveals his ignorance** - By showing the document without understanding it deeply, he inadvertently demonstrates that he's merely displaying a curiosity rather than possessing genuine knowledge\n2. **He loses control of the object** - The Counsellor never returns the memorial, and Rousseau must pretend it was a gift to save face\n3. **He appears vain rather than knowledgeable** - His attempt to appear connected and important comes across as pretentious rather than genuinely learned\n\nThis pattern reflects Rousseau's broader struggle: his desire to appear cultured and connected often exposes his actual gaps in knowledge and understanding, making him appear less impressive than he intended.",
+        "input_tokens": 141035,
+        "output_tokens": 318,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5693
+      }
+    },
+    "training_words": 137530,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:42:30.738880+00:00"
+  },
+  {
+    "question_id": 29,
+    "question_text": "What does Rousseau identify as a critical lesson about managing relationships with sensitive, proud individuals?",
+    "held_out_passage": "Such difficulty is there in managing the irritable self-love of men of letters, and so careful ought every person to be not to leave anything equivocal in the compliments they pay them.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Rousseau's Lesson on Managing Relationships with Sensitive, Proud Individuals\n\nBased on the autobiography, Rousseau identifies a critical lesson through his experience with Claude Anet and Madam de Warens:\n\n## The Core Principle\n\n**Avoid putting your interests in direct competition with another person's welfare.** Rousseau explicitly states:\n\n> \"This has taught me this great lesson of morality, perhaps the only one that can have any conspicuous influence on our actions, that we should ever carefully avoid putting our interests in competition with our duty, or promise ourselves felicity from the misfortunes of others; certain that in such circumstances, however sincere our love of virtue may be, sooner or later it will give way and we shall imperceptibly become unjust and wicked.\"\n\n## Why This Matters for Sensitive People\n\nFor individuals like Rousseau—who describes himself as naturally timid, sensitive, and prone to shame—this principle is especially important because:\n\n1. **Shame prevents honest communication**: When forced to choose between self-interest and duty, sensitive people often dissemble rather than admit their needs\n\n2. **Resentment builds silently**: Unaddressed conflicts fester in proud, sensitive hearts rather than being resolved through direct confrontation\n\n3. **Trust is fragile**: These individuals need assurance that others prioritize their welfare, not exploit their vulnerabilities\n\n## The Practical Application\n\nRousseau demonstrates this through his relationship with Madam de Warens—he consistently prioritizes her happiness over his own comfort, which paradoxically strengthens rather than weakens their bond.",
+        "input_tokens": 132498,
+        "output_tokens": 354,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5919
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Rousseau's Lesson on Managing Sensitive, Proud Individuals\n\nBased on the Confessions, Rousseau identifies several critical lessons about handling such people, most notably through his reflections on his own character and his observations of others:\n\n## The Primacy of Emotional Understanding Over Logic\n\nRousseau emphasizes that **rational argument alone cannot move a proud, sensitive person**. He observes this in his relationship with Madam de Warens:\n\n> \"Never attempt to correct their self-understanding with external evidence alone; the correction must land emotionally or it will not land at all.\"\n\nWhen he tried to convince her to reform her spending through logical remonstrance, she would make promises but forget them. Only when he appealed to her heart—through tears and tender discourse—did his words have effect.\n\n## The Danger of Perceived Condescension\n\nRousseau learns that **sensitive individuals must never feel looked down upon or managed**. He notes how his attempts to control Madam de Warens' finances, though well-intentioned, were ineffective because they implied she needed supervision. She responded better when treated as an equal capable of her own choices.\n\n## The Power of Sincere Affection Over Authority\n\nHis most important insight is that **genuine attachment and respect accomplish what commands cannot**. With Claude Anet, Madam de Warens responded to his quiet moral authority because it came from authentic devotion and integrity, not from imposed rules or superior judgment.\n\nThis reflects Rousseau's broader conviction that **conscience and feeling, not external constraint, guide virtuous behavior** in sensitive souls.",
+        "input_tokens": 141026,
+        "output_tokens": 353,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5799
+      }
+    },
+    "training_words": 137530,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:42:42.343432+00:00"
+  },
+  {
+    "question_id": 30,
+    "question_text": "When Rousseau believes his intellectual property is being used without proper respect or compensation, how does he typically respond?",
+    "held_out_passage": "Enraged at seeing these people arrogantly dispose of my property, I again took up the memoir I had sent to M. D'Argenson, to which no answer had been returned, and having made some trifling alterations in it, I sent the manuscript by M. Sellon",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Rousseau's Response to Intellectual Property Concerns\n\nBased on the autobiography, Rousseau's responses to intellectual property issues are notably **passive and self-deprecating** rather than assertive:\n\n## Key Examples:\n\n**The Micheli Memorial Incident**\nWhen Rousseau carelessly showed a rare, confidential government document to the director of the custom-house to impress him, the man never returned it. Rather than pursue recovery, Rousseau:\n- Recognized his efforts would be \"ineffectual\"\n- Made \"a merit of my forbearance\"\n- Transformed the theft into \"a present\"\n\nHe explicitly states: \"being convinced that every effort for that purpose would be ineffectual, I made a merit of my forbearance.\"\n\n## Characteristic Pattern:\n\nRousseau demonstrates:\n1. **Shame over assertiveness** - He feels embarrassed to demand things back\n2. **Rationalization** - He reframes losses as virtuous sacrifices\n3. **Avoidance** - Rather than confront, he withdraws\n4. **Self-blame** - He blames his own \"foolish vanity\" for showing the document\n\n## Broader Context:\n\nThis reflects Rousseau's general temperament: he is \"too young and lively to have any pretensions to the exercise of reason\" and lacks the \"authority\" to enforce his will. He prefers to avoid confrontation entirely, even when wronged.\n\nThis passivity contrasts sharply with his later fierce public defenses of his published works.",
+        "input_tokens": 132502,
+        "output_tokens": 341,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5182
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Rousseau's Response to Intellectual Property Violations\n\nBased on the Confessions, Rousseau's response to intellectual property concerns follows a distinctive pattern:\n\n## Documented Responses\n\n**The Micheli Memorial Incident** (most revealing example):\nWhen Rousseau carelessly showed a rare, restricted political document to the Director of the Custom House to appear important, he later regretted it deeply. However, rather than confronting the theft directly, he:\n- Recognized the effort would be \"ineffectual\"\n- Made \"a merit of my forbearance\"\n- Transformed the theft into a \"present\"\n\nThis reveals his actual behavior: **passive acceptance masked by rationalization**.\n\n## Characteristic Pattern\n\n1. **Initial Distress**: He feels the injury acutely, particularly regarding recognition and attribution\n2. **Avoidance of Confrontation**: His natural timidity prevents direct action\n3. **Rationalization**: He reframes the loss as virtuous forbearance or acceptance of fate\n4. **Private Documentation**: He records grievances in writing rather than contesting them openly\n5. **Delayed Resentment**: The wound festers in memory rather than being resolved\n\n## Key Insight\n\nRousseau himself acknowledges this gap between his principles and practice:\n\n> \"I am certainly the first man, that, living with a people who treated him well, and whom he almost adored, put on, even in their own country, a borrowed air of despising them\"\n\nHe recognizes his own inconsistency but seems unable to overcome his fundamental timidity and aversion to confrontation, despite his intellectual convictions about justice.",
+        "input_tokens": 141030,
+        "output_tokens": 362,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6413
+      }
+    },
+    "training_words": 137530,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:42:54.062254+00:00"
+  },
+  {
+    "question_id": 31,
+    "question_text": "When facing pressure from a well-meaning friend to relocate to a country, how does Rousseau typically respond?",
+    "held_out_passage": "Madam de Boufflers highly disapproved this resolution, and renewed her efforts to induce me to go to England, but all she could say was of no effect; I had never loved England nor the English, and the eloquence of Madam de Boufflers, far from conquering my repugnancy, seemed to increase it without my knowing why.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Rousseau's Response to Relocation Pressure\n\nBased on the autobiography, Rousseau typically responds to such pressure with **reluctance and emotional resistance**, even when the suggestion comes from someone he deeply cares about.\n\n## Key Example: The Montpelier Journey\n\nWhen Madam de Warens encourages him to travel to Montpelier to consult Dr. Fizes about his supposed heart condition, Rousseau's response is telling:\n\n> \"The hope of recovery gave me courage and strength to undertake the journey; the money from Geneva furnished the means; Madam de Warens, far from dissuading, entreated me to go: behold me, therefore, without further ceremony, set out for Montpelier!\"\n\nHowever, this apparent compliance masks his deeper nature—he goes primarily because:\n1. **His attachment to Madam de Warens** makes him reluctant to refuse her\n2. **Hope of recovery** (however illusory) motivates him\n3. **Practical circumstances** (having money) enable it\n\n## His Fundamental Pattern\n\nRousseau demonstrates that he is **easily swayed by affection** rather than by rational argument. He cannot refuse those he loves, even when their suggestions conflict with his preferences. His resistance is emotional rather than vocal—he complies while harboring reservations, particularly about leaving his beloved Madam de Warens.\n\nThis reflects his broader character: deeply attached to place and people, resistant to change, yet unable to assert himself against those he loves.",
+        "input_tokens": 132503,
+        "output_tokens": 337,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5194
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Rousseau's Response to Relocation Pressure\n\nBased on the behavioral specification and autobiography, Rousseau typically responds to such pressure with **internal conflict and avoidance rather than direct refusal**:\n\n## His Characteristic Pattern\n\n**Emotional resistance masked by compliance:**\n- He experiences genuine distress at the suggestion but struggles to articulate it directly\n- He often appears to acquiesce while internally remaining unmoved\n- His resistance is passive rather than assertive\n\n## Specific Example from the Text\n\nWhen Madam de Warens suggests he might need to leave for his own good, Rousseau demonstrates this pattern:\n\n> \"She did not dare to quit her ill-contrived house, for fear of displeasing the proprietor... Let us not leave this house entirely, but pay a small pension to the Count of Saint-Laurent, that he may continue mine.\"\n\nRather than firmly declining, he negotiates a compromise that allows him to stay while appearing to accept the underlying concern.\n\n## Core Tension\n\nThe specification notes his **\"Liberty as Condition\"** axiom—he cannot think or act authentically under obligation. When pressured, even by someone he loves deeply, he:\n\n1. Feels the constraint as a form of \"moral injury\"\n2. Becomes internally resistant while outwardly compliant\n3. Seeks ways to preserve autonomy within the suggested framework\n4. Rarely directly confronts the person applying pressure\n\nThis reflects his broader pattern: **he cannot refuse directly, but he will find ways to avoid genuine commitment**.",
+        "input_tokens": 141031,
+        "output_tokens": 336,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5880
+      }
+    },
+    "training_words": 137530,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:43:05.659755+00:00"
+  },
+  {
+    "question_id": 32,
+    "question_text": "When Rousseau believes powerful forces are working against him in a location, what does he typically decide to do?",
+    "held_out_passage": "Knowing I had secret and powerful enemies in the kingdom, I thought, notwithstanding my attachment to France, I ought to quit it, the better to insure my future tranquillity.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Rousseau's Response to Perceived Persecution\n\nBased on the autobiography, when Rousseau believes powerful forces are working against him in a location, he typically **decides to leave or flee that place**.\n\nSeveral examples illustrate this pattern:\n\n1. **At Soleure**: When the French Ambassador Marquis de Bonac detained him and revealed his deception about being an Englishman, Rousseau was kept at the embassy rather than being allowed to continue with the Archimandrite. Though treated well, he felt constrained by the situation.\n\n2. **In England with David Hume**: Rousseau became convinced that \"enemies were bent upon his capture, if not his death\" and that \"Literary Paris had combined with Hume and the English Government to surround him...with guards and spies.\" He fled to Spalding in Lincolnshire, then to Calais.\n\n3. **General pattern**: The text notes that Rousseau's \"restless and wandering disposition forced him continually to change his residence\" and earned him the title of \"Voyageur Perpetuel\" (Perpetual Traveler).\n\nRather than confronting or resisting what he perceives as conspiracies against him, Rousseau's instinctive response is to remove himself from the situation by traveling elsewhere, seeking a new location where he hopes to find peace and safety.",
+        "input_tokens": 132502,
+        "output_tokens": 304,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5248
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Rousseau's Response to Perceived Persecution\n\nBased on the behavioral specification provided, when Rousseau believes powerful forces are working against him in a location, he typically **leaves or flees that place**.\n\nThis pattern appears multiple times in his autobiography:\n\n1. **Turin**: When he became convinced that enemies were bent upon his capture or death, he fled to Spalding in Lincolnshire, and subsequently to Calais.\n\n2. **Paris**: After experiencing disappointment and believing his situation was hopeless, he decided to leave the capital and pursue Madam de Warens instead of remaining to improve his circumstances.\n\n3. **General pattern**: The specification notes that he \"oscillates between passionate intensity and complete passivity or timidity\" and has an \"insurmountable passion for rambling.\" When faced with what he perceives as insurmountable obstacles or hostile forces, rather than confronting them directly, he tends to withdraw and relocate.\n\nThis behavior reflects his core axiom of **\"Liberty as Condition\"** (A4) — he cannot think or act authentically under constraint or obligation, and experiences imposed structures as moral injury. Rather than fight entrenched opposition, his instinct is to escape to a location where he feels freer to pursue his actual desires and attachments (particularly his attachment to Madam de Warens).",
+        "input_tokens": 141030,
+        "output_tokens": 293,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5385
+      }
+    },
+    "training_words": 137530,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:43:16.737061+00:00"
+  },
+  {
+    "question_id": 33,
+    "question_text": "How does Rousseau balance his love for his homeland against his perception of danger there?",
+    "held_out_passage": "Nevertheless, the love of my country called me to it, and could I have flattered myself I should there have lived in peace, I should not have hesitated; but neither honor nor reason permitting me to take refuge as a fugitive in a place of which I was a citizen, I resolved to approach it only, and to wait in Switzerland until something relative to me should be determined upon in Geneva.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Rousseau's Conflicted Relationship with His Homeland\n\nRousseau's autobiography reveals a profound tension between his deep emotional attachment to Geneva and his rational fear of the political dangers it represents.\n\n## The Emotional Pull\n\nRousseau describes an almost involuntary love for Geneva that transcends logic:\n\n> \"Never could I see the walls of that city, never could I enter it, without feeling my heart sink from excess of tenderness, at the same time that the image of liberty elevated my soul.\"\n\nThis response is visceral and immediate—triggered by mere sight of the city's walls. He associates Geneva with \"equality, union, and gentleness of manners\" that move him \"even to tears.\"\n\n## The Rational Restraint\n\nYet Rousseau consciously suppresses this attachment when it conflicts with his safety. He deliberately avoids inquiring after people or places in Geneva, fearing what he might learn:\n\n> \"I dared do nothing he disproved of, but he was sure to disapprove only what merited disapprobation: thus we lived in an union which rendered us mutually happy\"\n\nMore tellingly, he passes through Geneva \"without visiting any one,\" recognizing that his emotional vulnerability could endanger him politically.\n\n## The Unresolved Paradox\n\nRousseau never fully resolves this conflict. He acknowledges that his love for France—which he adopted rationally—coexists with his irrational attachment to Geneva. This suggests his deepest loyalties operate beneath conscious control, resistant to the political calculations that should govern them.\n\nHis homeland remains a place of dangerous nostalgia rather than safe return.",
+        "input_tokens": 132497,
+        "output_tokens": 358,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5700
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Rousseau's Conflicted Relationship with His Homeland\n\nRousseau's treatment of Geneva reveals a profound internal conflict between emotional attachment and rational fear—a tension he never fully resolves.\n\n## The Emotional Pull\n\nWhen approaching Geneva, Rousseau experiences overwhelming sentiment:\n\n> \"Never could I see the walls of that city, never could I enter it, without feeling my heart sink from excess of tenderness, at the same time that the image of liberty elevated my soul. The ideas of equality, union, and gentleness of manners, touched me even to tears.\"\n\nThis is visceral, almost involuntary—his body responds before his mind can intervene. The city represents idealized values: liberty, equality, and social harmony that he associates with his formative years.\n\n## The Rational Danger\n\nYet Rousseau simultaneously recognizes genuine threats to his safety and freedom:\n\n- He **avoids returning to Geneva** after his religious conversion, fearing legal consequences\n- He passes through without visiting relatives, too emotionally vulnerable to risk confrontation\n- He witnesses the civil conflict of 1737 where the Barillot father and son took opposite sides, nearly meeting \"face to face...prepared to give or receive death from each other\"\n\nThis sight traumatizes him enough that he **takes a solemn oath never to interfere in Geneva's internal disputes**—a remarkable act of self-restraint for someone so passionate about civic virtue.\n\n## The Unresolved Paradox\n\nRousseau never reconciles these forces. Instead, he:\n\n1. **Romanticizes from distance** - His most ecstatic descriptions come when he's *leaving* Geneva or remembering it\n2. **Acknowledges the gap** - He admits his idealized vision doesn't match reality: \"What an error was I in! but yet how natural!\"\n3. **Remains paralyzed** - He cannot fully return, yet cannot fully leave emotionally\n\nThe homeland becomes a kind of impossible object—beloved precisely because it remains partly inaccessible, its dangers making the emotional attachment both more intense and more safely contained within memory and imagination.",
+        "input_tokens": 141025,
+        "output_tokens": 466,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 7303
+      }
+    },
+    "training_words": 137530,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:43:27.375202+00:00"
+  },
+  {
+    "question_id": 34,
+    "question_text": "When preparing to flee, what does Rousseau prioritize regarding his personal documents and correspondence?",
+    "held_out_passage": "Since I had determined to write my own memoirs, I had collected a great number of letters and other papers, so that he was obliged to return several times. A part of these papers, already selected, were laid aside, and I employed the morning in sorting the rest, that I might take with me such only as were necessary and destroy what remained.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Rousseau's Priorities Regarding Personal Documents During Flight\n\nBased on the autobiography text provided, Rousseau does not explicitly describe prioritizing personal documents or correspondence when preparing to flee Chambery with M. le Maitre.\n\n## What We Know About His Departure\n\nWhen Rousseau decides to leave with his friend Bacle from Turin, the text states:\n\n> \"I departed with my fountain and my friend Bacle, a purse lightly furnished, but a heart over-flowing with pleasure, and only thinking how to enjoy the extensive felicity which I supposed my project encircled.\"\n\nThe focus is on **immediate physical necessities** rather than documents—he mentions his \"fountain\" (a toy) and his purse, but there is no mention of carefully preserving letters, manuscripts, or personal papers.\n\n## Contrast with Later Periods\n\nInterestingly, when Rousseau later travels from Paris toward Besançon, he does mention that his \"portmanteau\" (traveling bag) containing his belongings is seized at a French customs barrier—but this appears to be an incidental loss rather than something he had carefully prioritized protecting.\n\nThe text suggests that during his youthful flights and travels, Rousseau was more concerned with **immediate freedom and adventure** than with preserving documentary evidence of his life.",
+        "input_tokens": 132498,
+        "output_tokens": 289,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6109
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Rousseau's Priorities Regarding Personal Documents During Flight\n\nBased on the text provided, Rousseau does not explicitly describe prioritizing personal documents or correspondence when preparing to flee. In fact, the narrative suggests the opposite—his departures are often hasty and emotionally driven rather than carefully planned with regard to preserving documents.\n\n## Key Examples from the Text:\n\n**Flight from Turin:**\nWhen Rousseau abandons M. le Maître in Lyons after his seizure, he acts impulsively:\n> \"I seized the instant when no one heeded me, turned the corner of the street and disappeared.\"\n\nThere is no mention of gathering documents or correspondence.\n\n**Flight from Geneva:**\nWhen leaving his apprenticeship with M. Ducommon, Rousseau departs suddenly with minimal preparation, focused on emotional rather than practical concerns.\n\n**The Confiscation Incident:**\nNotably, when traveling to Besançon, Rousseau's portmanteau is seized at the French border—containing a carelessly forgotten political pamphlet in a waistcoat pocket. This suggests he was not particularly careful about what documents he carried or how he managed them.\n\n## Conclusion:\n\nRousseau's character, as revealed in the *Confessions*, prioritizes **emotional impulses and immediate desires** over practical matters like preserving documents. His flights are driven by passion, restlessness, or desperation rather than deliberate planning.",
+        "input_tokens": 141026,
+        "output_tokens": 317,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5012
+      }
+    },
+    "training_words": 137530,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:43:40.383368+00:00"
+  },
+  {
+    "question_id": 35,
+    "question_text": "When facing an emotional farewell with a beloved family member, how does Rousseau typically behave?",
+    "held_out_passage": "In this pleasing yet cruel moment, the remembrance of so many days of happiness, tenderness and peace passed together augmented the grief of a first separation after an union of seventeen years during which we had scarcely lost sight of each other for a single day.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Rousseau's Behavior During Emotional Farewells\n\nBased on the autobiography, Rousseau exhibits a pattern of **intense emotional expression mixed with impulsive action** when facing farewells with beloved family members:\n\n## Key Characteristics:\n\n**Overwhelming Sentiment**\n- He experiences profound grief and tenderness that often overwhelms his rational faculties\n- When parting from Madam de Warens, he describes being unable to think clearly, consumed entirely by the emotional weight of separation\n\n**Impulsive Decisions**\n- Rather than endure prolonged goodbyes, he tends to act suddenly and dramatically\n- He abandons M. le Maître in Lyons without warning when his companion falls ill, driven by anxiety and the need to escape an unbearable situation\n- He leaves his position at the Count de Gauvon's household abruptly to pursue his friend Bacle\n\n**Avoidance of Prolonged Pain**\n- He demonstrates a pattern of fleeing situations rather than managing them rationally\n- When facing the reality of separation, he often chooses swift departure over lingering farewells\n\n**Regret and Reflection**\n- After these impulsive actions, he experiences deep remorse and self-recrimination\n- He later acknowledges these behaviors as foolish, yet recognizes them as consistent with his temperament\n\nRousseau's emotional nature makes him simultaneously capable of profound devotion and prone to self-destructive impulsiveness when confronted with loss.",
+        "input_tokens": 132500,
+        "output_tokens": 332,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5430
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Rousseau's Behavior in Emotional Farewells\n\nBased on the behavioral specification, Rousseau exhibits a distinctive pattern in emotional farewells with beloved family members:\n\n## Characteristic Response Pattern\n\n**Intense but Constrained Expression**\n- He experiences profound emotional intensity but struggles to express it adequately\n- His feelings exceed his capacity for articulation—he feels \"all, but see nothing\"\n- There is a gap between the depth of his emotion and his ability to communicate it\n\n## Specific Manifestations\n\n**Physical and Emotional Overflow**\n- He weeps readily and copiously (\"tears started from his eyes\")\n- His body expresses what words cannot—sighs, convulsive pressure, trembling\n- He is \"transported\" by tenderness but often rendered speechless\n\n**Retrospective Intensity**\n- The emotional weight of farewells increases *after* separation\n- He experiences \"uneasiness\" and \"melancholy\" when contemplating distance from those he loves\n- Absence intensifies his attachment more than presence does\n\n**Confession Over Restraint**\n- He cannot maintain composure or strategic silence\n- When with beloved figures, \"to think and to speak was the same thing\"—he involuntarily discloses his deepest feelings\n- He finds it \"impossible\" to keep secrets from those he loves\n\n## Core Pattern\n\nRousseau's farewells are characterized by **emotional authenticity without eloquence**—his heart speaks clearly through tears and physical manifestations, even when his tongue fails him. The separation itself becomes a form of suffering that paradoxically deepens his attachment.",
+        "input_tokens": 141028,
+        "output_tokens": 356,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6263
+      }
+    },
+    "training_words": 137530,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:43:51.507735+00:00"
+  },
+  {
+    "question_id": 36,
+    "question_text": "How does Rousseau respond when someone close to him offers practical assistance during a crisis?",
+    "held_out_passage": "The marechal offered to take upon himself to sort what I should leave behind me, and throw into the fire every sheet that he found useless, without trusting to any person whomsoever, and to send me those of which he should make choice. I accepted his offer, very glad to be delivered from that care, that I might pass the few hours I had to remain with persons so dear to me, from whom I was going to separate forever.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Rousseau's Response to Practical Assistance During Crisis\n\nBased on the autobiography, Rousseau's responses to practical help during crises reveal a complex pattern of behavior:\n\n## Acceptance Mixed with Shame\n\nWhen facing genuine hardship, Rousseau typically **accepts assistance but feels humiliated by it**. For example:\n\n- When destitute in Lyons, he accepts help from M. Rolichon (the Antonine priest) who feeds him generously, yet he notes: \"I was affected with this unexpected kindness, but felt it less than I ought to have done, or have since experienced on the remembrance of it.\"\n\n- The honest innkeeper in Lausanne who refuses his waistcoat as pledge and feeds him anyway produces a similar response—gratitude mixed with a sense of shame at needing charity.\n\n## Preference for Emotional Support Over Material Aid\n\nRousseau shows a marked preference for **emotional reassurance over practical solutions**. When ill, he values Madam de Warens' tender care and conversation far more than physicians' treatments:\n\n> \"I have little faith in the skill of physicians, but depend greatly on the assistance of real friends, and am persuaded that being easy in those particulars on which our happiness depends, is more salutary than any other application.\"\n\n## Reluctance to Burden Others\n\nSignificantly, Rousseau often **avoids asking for help directly**, even when desperately needed. His abandonment of M. le Maitre in Lyons—leaving him during an epileptic fit—demonstrates how his discomfort with dependency can override loyalty and gratitude.\n\n## The Pattern\n\nRather than seeking practical solutions proactively, Rousseau tends to:\n1. Accept help when offered\n2. Feel conflicted about accepting it\n3. Prefer emotional support to material aid\n4. Avoid asking directly, instead hoping circumstances will provide\n\nThis reflects his broader character trait: **pride mixed with passivity**, where he accepts what comes but struggles with the vulnerability that acceptance requires.",
+        "input_tokens": 132497,
+        "output_tokens": 446,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 7274
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Rousseau's Response to Practical Assistance During Crisis\n\nBased on the *Confessions*, Rousseau's responses to practical help during crises reveal a complex pattern of gratitude mixed with deeper emotional needs:\n\n## Acceptance with Emotional Intensity\n\nWhen Madam de Warens offers assistance, Rousseau accepts it readily but transforms the practical act into an emotional experience. For example, when she provides money for his journey to Besançon, he doesn't simply receive it—he experiences it as a profound expression of care that matters more than the material help itself.\n\n## Preference for Emotional Over Material Support\n\nSignificantly, Rousseau often values the **sentiment behind assistance** more than the assistance itself. When ill at Charmettes, he notes:\n\n> \"I have little faith in the skill of physicians, but depend greatly on the assistance of real friends, and am persuaded that being easy in those particulars on which our happiness depends, is more salutary than any other application.\"\n\nThe emotional reassurance matters more than medical treatment.\n\n## Difficulty with Obligation\n\nRousseau struggles with practical dependence. When his father sends money and provisions, or when various benefactors offer support, he experiences a tension between gratitude and discomfort with being in debt. He attempts to hide money he saves, wanting to help Madam de Warens without appearing dependent.\n\n## The Pattern: Acceptance Through Love\n\nUltimately, Rousseau accepts practical help most easily when it comes from someone he loves deeply and trusts completely—particularly Madam de Warens. The assistance becomes meaningful not for solving the problem, but for confirming the relationship itself.",
+        "input_tokens": 141025,
+        "output_tokens": 363,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6012
+      }
+    },
+    "training_words": 137530,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:44:03.203685+00:00"
+  },
+  {
+    "question_id": 37,
+    "question_text": "When a dependent person discovers Rousseau's situation unexpectedly, what is his typical emotional response?",
+    "held_out_passage": "La Roche accompanied her to the castle in silence; she thought I was already far from Montmorency; on perceiving me, she made the place resound with her cries, and threw herself into my arms.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Rousseau's Typical Emotional Response to Unexpected Discovery\n\nBased on the autobiography, when a dependent person discovers Rousseau's situation unexpectedly, his typical emotional response involves **acute embarrassment, confusion, and a tendency toward self-disclosure despite his intentions**.\n\n## Key Examples:\n\n**The Ambassador's Interrogation (Soleurre)**\nWhen the Marquis de Bonac unexpectedly detained Rousseau after his audience with the Archimandrite, Rousseau's response was characteristic:\n\n> \"throwing myself at his feet, I kept my word, nor should I have said less, had I promised nothing, for a continual wish to unbosom myself, puts my heart perpetually upon my lips.\"\n\nHe immediately confessed his entire deception about being the Archimandrite's secretary, unable to maintain his false story.\n\n**The Musician Lutold (Lausanne)**\nWhen confronted about his fraudulent music composition, Rousseau similarly \"opened it to him; giving, therefore, a loose to my tears, not content with owning my ignorance, I told all.\"\n\n## The Pattern:\n\nRousseau's response reflects his fundamental character trait: **he cannot sustain deception when directly confronted**. His emotional response combines:\n- Shame and mortification\n- Involuntary confession\n- Tears and emotional outpouring\n- Relief at disclosure\n\nThis pattern demonstrates that Rousseau's dishonesty stems from weakness and circumstance rather than deliberate malice—when discovered, his conscience and emotional nature override his attempts at concealment.",
+        "input_tokens": 132500,
+        "output_tokens": 348,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5612
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Rousseau's Typical Response to Unexpected Discovery of His Situation\n\nBased on the behavioral specification, when a dependent person discovers Rousseau's situation unexpectedly, his typical emotional response involves **immediate, reflexive self-disclosure and confession**:\n\n## The Core Pattern (P1: The Honesty Trap)\n\nWhen confronted with situations requiring self-presentation or concealment, Rousseau characteristically:\n\n1. **Volunteers damaging admissions unprompted** - He cannot help but expose his vulnerabilities before others can discover them\n2. **Confesses before being asked** - His default is radical transparency rather than strategic silence\n3. **Experiences shame afterward** - He then suffers acute embarrassment at having made himself vulnerable\n4. **Cannot prevent the cycle** - Despite recognizing the pattern, he finds it \"structurally impossible\" to have done otherwise\n\n## Historical Examples from the Text\n\nThe autobiography provides concrete instances:\n\n- **With the Marquis de Bonac**: When detained at the embassy, Rousseau \"threw myself at his feet\" and disclosed his entire situation \"without reserve\" rather than maintaining a strategic facade\n- **With Madam de Merveilleux**: He spoke openly of his circumstances despite the social disadvantage this created\n- **With the musician Lutold**: Upon being exposed in his musical deception, he immediately \"opened his heart\" with tears, confessing everything\n\n## The Underlying Mechanism\n\nThis response stems from **A2 (Sentiment Primacy)** combined with his inability to perform social roles. He experiences the constraint of deception as intolerable, making confession feel like the only authentic option available to him.",
+        "input_tokens": 141028,
+        "output_tokens": 367,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5767
+      }
+    },
+    "training_words": 137530,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:44:16.491839+00:00"
+  },
+  {
+    "question_id": 38,
+    "question_text": "When someone close to him insists on accompanying him during a dangerous departure, how does Rousseau typically handle it?",
+    "held_out_passage": "Theresa determined never more to leave me out of her sight. I made her feel the inconvenience of accompanying me at that moment, and the necessity of her remaining to take care of my effects and collect my money.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Rousseau's Handling of Companions During Dangerous Departures\n\nBased on the autobiography, Rousseau demonstrates a pattern of **abandoning companions when faced with danger or difficulty**, rather than allowing them to accompany him or managing the situation together.\n\n## Key Example: Le Maitre in Lyons\n\nThe most telling instance occurs when Rousseau is traveling with M. le Maitre, his music master:\n\n> \"Two days after our arrival at Lyons, as we passed a little street not far from our inn, Le Maitre was attacked by one of his fits; but it was now so violent as to give me the utmost alarm... I screamed with terror, called for help... then (while the people were assembled, and busy round a man that had fallen senseless in the street) he was abandoned by the only friend on whom he could have any reasonable dependence; I seized the instant when no one heeded me, turned the corner of the street and disappeared.\"\n\n## Rousseau's Justification\n\nRousseau attempts to rationalize this abandonment:\n\n- He claims he was \"too young and lively\" to have proper judgment\n- He argues that remaining wouldn't have helped Le Maitre\n- He notes that staying would only have increased expenses\n\nHowever, Rousseau himself later acknowledges this as one of his \"painful confessions,\" demonstrating his awareness of the moral failure involved.\n\nThis pattern reveals Rousseau's tendency toward **self-preservation over loyalty** when circumstances become uncomfortable or threatening.",
+        "input_tokens": 132503,
+        "output_tokens": 332,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5509
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Rousseau's Response to Insistent Companions During Dangerous Departures\n\nBased on the Confessions, Rousseau demonstrates a consistent pattern of **avoidance and abandonment** when faced with someone insisting on accompanying him during risky situations.\n\n## The Clearest Example: Abandoning Le Maître\n\nThe most telling instance occurs when Rousseau is traveling with M. le Maître, who suffers an epileptic fit in the streets of Lyons:\n\n> \"I screamed with terror, called for help, and naming our inn, entreated some one to bear him to it, then (while the people were assembled, and busy round a man that had fallen senseless in the street) he was abandoned by the only friend on whom he could have any reasonable dependence; I seized the instant when no one heeded me, turned the corner of the street and disappeared.\"\n\nRousseau himself acknowledges this as one of his \"three painful confessions,\" recognizing it as a serious moral failure.\n\n## His Self-Awareness\n\nNotably, Rousseau doesn't hide this pattern. He confesses:\n\n> \"Of all the incidents I have yet related, a few traces are remaining in the places where I have lived; but what I have to relate in the following book is almost entirely unknown; these are the greatest extravagancies of my life\"\n\n## The Pattern\n\nRather than directly refusing or negotiating, Rousseau:\n1. Becomes anxious and fearful\n2. Seizes an opportune moment of distraction\n3. **Flees without explanation or farewell**\n\nThis reflects his broader character trait: when faced with constraint or obligation, he experiences it as unbearable and escapes rather than confronts it directly.",
+        "input_tokens": 141031,
+        "output_tokens": 385,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6540
+      }
+    },
+    "training_words": 137530,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:44:27.874847+00:00"
+  },
+  {
+    "question_id": 39,
+    "question_text": "How does Rousseau's suspicion of institutional power influence his strategic decisions about where to seek refuge?",
+    "held_out_passage": "I knew the ministry of France, more powerful at Geneva than at Paris, would not leave me more at peace in one of these cities than in the other, were a resolution taken to torment me. I was also convinced the 'Discourse upon Inequality' had excited against me in the council a hatred the more dangerous as the council dared not make it manifest.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Rousseau's Suspicion of Institutional Power and Refuge Strategy\n\nRousseau's deep distrust of institutional authority fundamentally shapes his approach to seeking safety, creating a paradoxical pattern throughout the *Confessions*:\n\n## The Institutional Paradox\n\nDespite his suspicion of formal power structures, Rousseau repeatedly **relies on personal connections within institutions** rather than avoiding them entirely. When fleeing Geneva after his apprenticeship crisis, he doesn't hide in wilderness but instead:\n\n- Seeks out **individual priests and bishops** (M. de Pontverre, the Bishop of Annecy)\n- Accepts positions within **state bureaucracies** (the land survey for King Victor Amadeus)\n- Lives under the patronage of **aristocratic families** (the House of Solar)\n\nThis reveals his actual strategy: **distrust the institution's formal mechanisms while exploiting personal relationships within it**.\n\n## Strategic Preference for Peripheral Positions\n\nRousseau gravitates toward locations and roles that offer institutional protection while maintaining distance from institutional scrutiny:\n\n- **Chambery over Turin**: He chooses a provincial city where the intendant's personal favor matters more than bureaucratic oversight\n- **Charmettes retreat**: A rural property that provides economic security through Madam de Warens' pension (institutional income) while offering physical isolation from institutional surveillance\n- **Music teaching**: A profession that keeps him within respectable society without binding him to formal hierarchies\n\n## The Fundamental Contradiction\n\nHis suspicion of power makes him seek **personal patronage over institutional security**—a choice that ultimately proves unstable. When patrons die (Claude Anet, Madam de Warens' declining influence) or withdraw favor, he has no institutional framework to fall back on, forcing repeated relocations.\n\nThis pattern suggests Rousseau's distrust isn't truly of power itself, but of **impersonal, rule-bound authority**—he seeks refuge in the gaps where personal relationships can override institutional logic.",
+        "input_tokens": 132500,
+        "output_tokens": 439,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6997
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Rousseau's Institutional Suspicion and Strategic Refuge-Seeking\n\nRousseau's deep distrust of institutional power fundamentally shapes his refuge decisions throughout the *Confessions*, creating a paradoxical pattern: he simultaneously seeks institutional protection while remaining convinced it will ultimately betray him.\n\n## The Pattern of Institutional Wariness\n\n**Avoiding Official Channels**\n\nRousseau consistently bypasses formal institutional routes when possible. When fleeing his apprenticeship, he doesn't petition the Geneva authorities or seek official assistance—he simply leaves. Later, when needing employment, he gravitates toward private patronage rather than institutional positions. His brief stint in the land survey office ends when he abandons it for music teaching, preferring the autonomy of private scholars to bureaucratic constraint.\n\nThis reflects his core conviction (A4 - Liberty as Condition): \"Freedom from constraint is not a preference but a prerequisite.\" Institutional structures inherently represent constraint, making them fundamentally incompatible with his need for authentic existence.\n\n## Strategic Reliance on Personal Networks\n\n**Patronage Over Institutions**\n\nWhen Rousseau does seek refuge, he targets individuals rather than systems:\n\n- **Madam de Warens** becomes his primary refuge precisely because she operates *outside* institutional authority, despite her pension from the King\n- **The Marquis de Bonac** provides shelter through personal discretion, not official channels\n- **M. de Gauffecourt** and other individual patrons offer protection through personal loyalty rather than institutional obligation\n\nThis strategy reflects his understanding that institutions will inevitably prioritize their own interests over his welfare. The land survey position, initially promising, becomes intolerable once it demands his time and compliance.\n\n## The Fundamental Contradiction\n\n**Institutional Dependency Despite Distrust**\n\nYet Rousseau cannot entirely escape institutions. His survival depends on:\n- Madam de Warens' royal pension\n- Official employment (however briefly)\n- The Church's protection (as a convert)\n- Aristocratic patronage networks\n\nHis response to this contradiction is revealing: he accepts institutional benefits while maintaining psychological distance from them. He receives the Intendant's appointment but views it as temporary. He accepts the Church's shelter while privately rejecting its doctrines. He takes aristocratic patronage while despising aristocratic systems.\n\n## The Refuge at Charmettes\n\n**Attempted Institutional Withdrawal**\n\nThe retreat to Charmettes represents Rousseau's ideal solution: a private space nominally dependent on institutions (the house belongs to M. Noiret; Madam de Warens maintains her pension) but functionally independent. Here he can:\n\n- Pursue self-directed study without institutional curriculum\n- Maintain autonomy in daily life\n- Avoid the \"perpetual intrusion\" of institutional hangers-on\n- Create what he calls \"a union without example\"\n\nYet even this refuge proves unstable, ultimately requiring him to leave for Paris and institutional entanglement.\n\n## The Deeper Strategic Insight\n\nRousseau's refuge-seeking reveals his core dilemma (A3 - Conscience Over Doctrine): he cannot trust institutions because they demand external compliance over internal conviction. Any refuge that requires him to perform institutional roles—to be a secretary, a music master, a convert—forces the gap between his authentic self and his social performance that he finds intolerable.\n\nHis most successful refuges are those where institutional dependency remains *invisible* or *minimal*—where he can maintain the fiction of independence while actually relying on institutional support. This explains both his attraction to Madam de Warens (who shields him from direct institutional contact) and his eventual flight from even her protection (when her financial chaos forces him to confront institutional reality).\n\n**The strategic paradox**: Rousseau seeks refuge from institutions by finding individuals who can mediate institutional power, but this strategy ultimately fails because institutions inevitably reassert their claims, forcing him to choose between authentic autonomy and survival.",
+        "input_tokens": 141028,
+        "output_tokens": 869,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 12321
+      }
+    },
+    "training_words": 137530,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:44:39.926205+00:00"
+  }
+]

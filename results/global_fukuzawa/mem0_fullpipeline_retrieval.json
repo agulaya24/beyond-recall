@@ -1,0 +1,780 @@
+{
+  "1": {
+    "question_id": 1,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "User had an opinion about being an adopted son: User would hate to be an adopted son.",
+      "User knocked a lantern from a man's head during a procession, was threatened with death, fled barefoot to Dojima, ran faster than ever, and avoided drawing a sword.",
+      "User says \"This is my own money\" and believes buying things with their own money is fine.",
+      "User spoke to student Tezuka, asked him to stop going to the Shinchi quarter, promised help, and they made an agreement that Tezuka would sacrifice his hair if he returned to Shinchi.",
+      "User teased student Yamada about his superstition of avoiding the syllable 'shi' while discussing upcoming plays.",
+      "User was unconcerned with the way of society and had an inborn nature to act always in their own way.",
+      "User believes their taste in sword fitting comes from early work, though their skill was never more than that of an amateur.",
+      "User disappeared into a closet when guests arrived, disliked them, took supper early, drank wine, and hid in the closet until guests left.",
+      "User hated having a towel on their face and never wore one.",
+      "User made light of the mock gentility of neighbors with boyish pride and conceit."
+    ],
+    "latency_ms": 614,
+    "timestamp": "2026-04-16T07:05:30.172963+00:00"
+  },
+  "2": {
+    "question_id": 2,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "User had an opinion about being an adopted son: User would hate to be an adopted son.",
+      "User says \"This is my own money\" and believes buying things with their own money is fine.",
+      "User disappeared into a closet when guests arrived, disliked them, took supper early, drank wine, and hid in the closet until guests left.",
+      "User made light of the mock gentility of neighbors with boyish pride and conceit.",
+      "User spoke to student Tezuka, asked him to stop going to the Shinchi quarter, promised help, and they made an agreement that Tezuka would sacrifice his hair if he returned to Shinchi.",
+      "User's brother had many friends who came in the evening to discuss questions of the day.",
+      "User teased student Yamada about his superstition of avoiding the syllable 'shi' while discussing upcoming plays.",
+      "User's brother's conversation topics included Rekko of Mito and Shungaku of Echizen.",
+      "User was unconcerned with the way of society and had an inborn nature to act always in their own way.",
+      "Yukichi's brother, an official of the feudal headquarters in Osaka, suffered severe rheumatism, eventually losing use of his right hand and writing with his left."
+    ],
+    "latency_ms": 609,
+    "timestamp": "2026-04-16T07:05:30.782578+00:00"
+  },
+  "3": {
+    "question_id": 3,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "User says \"This is my own money\" and believes buying things with their own money is fine.",
+      "User was unconcerned with the way of society and had an inborn nature to act always in their own way.",
+      "User believes their taste in sword fitting comes from early work, though their skill was never more than that of an amateur.",
+      "User had an opinion about being an adopted son: User would hate to be an adopted son.",
+      "User hated having a towel on their face and never wore one.",
+      "User had a conversation with their brother about future: User wanted to be richest man in Japan.",
+      "User made light of the mock gentility of neighbors with boyish pride and conceit.",
+      "User listened to their brother's friends but was not allowed to join in.",
+      "User's mother never showed any sign of slighting beggars or outcast eta.",
+      "User endured cold until spring at age fifteen or sixteen."
+    ],
+    "latency_ms": 607,
+    "timestamp": "2026-04-16T07:05:31.391833+00:00"
+  },
+  "4": {
+    "question_id": 4,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "User says \"This is my own money\" and believes buying things with their own money is fine.",
+      "User disappeared into a closet when guests arrived, disliked them, took supper early, drank wine, and hid in the closet until guests left.",
+      "User was unconcerned with the way of society and had an inborn nature to act always in their own way.",
+      "User made light of the mock gentility of neighbors with boyish pride and conceit.",
+      "User's brother had many friends who came in the evening to discuss questions of the day.",
+      "User teased student Yamada about his superstition of avoiding the syllable 'shi' while discussing upcoming plays.",
+      "User believed Rekko of Mito was the greatest man in the world.",
+      "User and schoolmate Matsushita Gempo went to the Goryo night bazaar, threatened a flower-and-plant stand proprietor, and a professional wrestler intervened; User threatened to kill the proprietor if he opened the shop again.",
+      "User began to sleep on the floor rolled up in only one quilt.",
+      "User spoke to student Tezuka, asked him to stop going to the Shinchi quarter, promised help, and they made an agreement that Tezuka would sacrifice his hair if he returned to Shinchi."
+    ],
+    "latency_ms": 568,
+    "timestamp": "2026-04-16T07:05:31.960323+00:00"
+  },
+  "5": {
+    "question_id": 5,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "User says \"This is my own money\" and believes buying things with their own money is fine.",
+      "User was unconcerned with the way of society and had an inborn nature to act always in their own way.",
+      "User forged a letter to Sembaya, using Kuroganeya's name, to secure lodging and a boat fare to Osaka, and the proprietor accepted it, allowing the user to travel despite lacking money for food on board.",
+      "User's brother wanted to be dutiful to parents, faithful to brethren, loyal to master until death.",
+      "User listened to their brother's friends but was not allowed to join in.",
+      "User's mother never missed paying respects to graves of husband and ancestors on a certain day each month.",
+      "User hated having a towel on their face and never wore one.",
+      "User made light of the mock gentility of neighbors with boyish pride and conceit.",
+      "User's mother was fond of doing kindnesses to all people, especially making friends among merchants and farmers.",
+      "User spoke to student Tezuka, asked him to stop going to the Shinchi quarter, promised help, and they made an agreement that Tezuka would sacrifice his hair if he returned to Shinchi."
+    ],
+    "latency_ms": 709,
+    "timestamp": "2026-04-16T07:05:32.672024+00:00"
+  },
+  "6": {
+    "question_id": 6,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "User disappeared into a closet when guests arrived, disliked them, took supper early, drank wine, and hid in the closet until guests left.",
+      "User cooked burdocks and radishes to help their mother in the kitchen when guests were expected.",
+      "User had an opinion about being an adopted son: User would hate to be an adopted son.",
+      "User had a conversation with their brother about future: User wanted to be richest man in Japan.",
+      "User listened to their brother's friends but was not allowed to join in.",
+      "User teased student Yamada about his superstition of avoiding the syllable 'shi' while discussing upcoming plays.",
+      "User's mother never showed any sign of slighting beggars or outcast eta.",
+      "User's mother had a habit of giving rice to beggar.",
+      "User's brother had many friends who came in the evening to discuss questions of the day.",
+      "User hated having a towel on their face and never wore one."
+    ],
+    "latency_ms": 641,
+    "timestamp": "2026-04-16T07:05:33.316673+00:00"
+  },
+  "7": {
+    "question_id": 7,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "User hated having a towel on their face and never wore one.",
+      "User says \"This is my own money\" and believes buying things with their own money is fine.",
+      "User was unconcerned with the way of society and had an inborn nature to act always in their own way.",
+      "User's mother never showed any sign of slighting beggars or outcast eta.",
+      "User believes their taste in sword fitting comes from early work, though their skill was never more than that of an amateur.",
+      "User endured cold until spring at age fifteen or sixteen.",
+      "User made light of the mock gentility of neighbors with boyish pride and conceit.",
+      "User listened to their brother's friends but was not allowed to join in.",
+      "User's mother never missed paying respects to graves of husband and ancestors on a certain day each month.",
+      "User had a conversation with their brother about future: User wanted to be richest man in Japan."
+    ],
+    "latency_ms": 595,
+    "timestamp": "2026-04-16T07:05:33.914025+00:00"
+  },
+  "8": {
+    "question_id": 8,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "User says \"This is my own money\" and believes buying things with their own money is fine.",
+      "User was unconcerned with the way of society and had an inborn nature to act always in their own way.",
+      "User hated having a towel on their face and never wore one.",
+      "User believes their taste in sword fitting comes from early work, though their skill was never more than that of an amateur.",
+      "User had a conversation with their brother about future: User wanted to be richest man in Japan.",
+      "User listened to their brother's friends but was not allowed to join in.",
+      "User had an opinion about being an adopted son: User would hate to be an adopted son.",
+      "User made light of the mock gentility of neighbors with boyish pride and conceit.",
+      "Yukichi and his family sold all household items, including a large collection of over fifteen hundred books, paintings, swords, trays, cups, and drinking vessels, to pay off debts entirely and reach the required forty ryo.",
+      "User used a bottle in broad to go out on errands in broad daylight, swinging a wine bottle in one hand, with two swords at their side as a man of samurai rank."
+    ],
+    "latency_ms": 646,
+    "timestamp": "2026-04-16T07:05:34.561338+00:00"
+  },
+  "9": {
+    "question_id": 9,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 8,
+    "fact_texts": [
+      "User says \"This is my own money\" and believes buying things with their own money is fine.",
+      "User was unconcerned with the way of society and had an inborn nature to act always in their own way.",
+      "User had a conversation with their brother about future: User wanted to be richest man in Japan.",
+      "User listened to their brother's friends but was not allowed to join in.",
+      "User made light of the mock gentility of neighbors with boyish pride and conceit.",
+      "User believes their taste in sword fitting comes from early work, though their skill was never more than that of an amateur.",
+      "Yukichi faced opposition from Nakatsu locals who disliked Western ideas, but persuaded his mother to allow him to leave and continue studying Dutch in Osaka.",
+      "User's brother wanted to be dutiful to parents, faithful to brethren, loyal to master until death."
+    ],
+    "latency_ms": 651,
+    "timestamp": "2026-04-16T07:05:35.214282+00:00"
+  },
+  "10": {
+    "question_id": 10,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "User says \"This is my own money\" and believes buying things with their own money is fine.",
+      "User's mother never showed any sign of slighting beggars or outcast eta.",
+      "User endured cold until spring at age fifteen or sixteen.",
+      "User had an opinion about being an adopted son: User would hate to be an adopted son.",
+      "User was unconcerned with the way of society and had an inborn nature to act always in their own way.",
+      "User believes their taste in sword fitting comes from early work, though their skill was never more than that of an amateur.",
+      "User disappeared into a closet when guests arrived, disliked them, took supper early, drank wine, and hid in the closet until guests left.",
+      "User hated having a towel on their face and never wore one.",
+      "User listened to their brother's friends but was not allowed to join in.",
+      "User's mother had a habit of giving rice to beggar."
+    ],
+    "latency_ms": 529,
+    "timestamp": "2026-04-16T07:05:35.748139+00:00"
+  },
+  "11": {
+    "question_id": 11,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "User knocked a lantern from a man's head during a procession, was threatened with death, fled barefoot to Dojima, ran faster than ever, and avoided drawing a sword.",
+      "User and schoolmate Matsushita Gempo went to the Goryo night bazaar, threatened a flower-and-plant stand proprietor, and a professional wrestler intervened; User threatened to kill the proprietor if he opened the shop again.",
+      "Yukichi faced opposition from Nakatsu locals who disliked Western ideas, but persuaded his mother to allow him to leave and continue studying Dutch in Osaka.",
+      "User and accomplices forged a letter to lure Tezuka back to Shinchi, and after Tezuka returned, User confronted him with scissors but ultimately let him off with wine and chicken instead of cutting hair.",
+      "User spoke to student Tezuka, asked him to stop going to the Shinchi quarter, promised help, and they made an agreement that Tezuka would sacrifice his hair if he returned to Shinchi.",
+      "User had a conversation with their brother about future: User wanted to be richest man in Japan.",
+      "User met a merchant from Nakatsu named Kuroganeya Sobei and set out with him toward that destination.",
+      "User used a bottle in broad to go out on errands in broad daylight, swinging a wine bottle in one hand, with two swords at their side as a man of samurai rank.",
+      "Narrator copied a Dutch fortification book from Iki over about twenty days with help from Fujino Keizan, then returned the book.",
+      "User forged a letter to Sembaya, using Kuroganeya's name, to secure lodging and a boat fare to Osaka, and the proprietor accepted it, allowing the user to travel despite lacking money for food on board."
+    ],
+    "latency_ms": 743,
+    "timestamp": "2026-04-16T07:05:36.493135+00:00"
+  },
+  "12": {
+    "question_id": 12,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "User spoke to student Tezuka, asked him to stop going to the Shinchi quarter, promised help, and they made an agreement that Tezuka would sacrifice his hair if he returned to Shinchi.",
+      "User forged a letter to Sembaya, using Kuroganeya's name, to secure lodging and a boat fare to Osaka, and the proprietor accepted it, allowing the user to travel despite lacking money for food on board.",
+      "User and schoolmate Matsushita Gempo went to the Goryo night bazaar, threatened a flower-and-plant stand proprietor, and a professional wrestler intervened; User threatened to kill the proprietor if he opened the shop again.",
+      "User knocked a lantern from a man's head during a procession, was threatened with death, fled barefoot to Dojima, ran faster than ever, and avoided drawing a sword.",
+      "Yukichi's brother, an official of the feudal headquarters in Osaka, suffered severe rheumatism, eventually losing use of his right hand and writing with his left.",
+      "User had an opinion about being an adopted son: User would hate to be an adopted son.",
+      "After his brother died on September third, Yukichi returned home by Inland Sea, became head of the Fukuzawa family branch, and was required to observe fifty days of mourning.",
+      "Yukichi faced opposition from Nakatsu locals who disliked Western ideas, but persuaded his mother to allow him to leave and continue studying Dutch in Osaka.",
+      "User used a bottle in broad to go out on errands in broad daylight, swinging a wine bottle in one hand, with two swords at their side as a man of samurai rank.",
+      "User disappeared into a closet when guests arrived, disliked them, took supper early, drank wine, and hid in the closet until guests left."
+    ],
+    "latency_ms": 628,
+    "timestamp": "2026-04-16T07:05:37.122290+00:00"
+  },
+  "13": {
+    "question_id": 13,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "User teased student Yamada about his superstition of avoiding the syllable 'shi' while discussing upcoming plays.",
+      "User had an opinion about being an adopted son: User would hate to be an adopted son.",
+      "User spoke to student Tezuka, asked him to stop going to the Shinchi quarter, promised help, and they made an agreement that Tezuka would sacrifice his hair if he returned to Shinchi.",
+      "After his brother died on September third, Yukichi returned home by Inland Sea, became head of the Fukuzawa family branch, and was required to observe fifty days of mourning.",
+      "User knocked a lantern from a man's head during a procession, was threatened with death, fled barefoot to Dojima, ran faster than ever, and avoided drawing a sword.",
+      "User and accomplices forged a letter to lure Tezuka back to Shinchi, and after Tezuka returned, User confronted him with scissors but ultimately let him off with wine and chicken instead of cutting hair.",
+      "User believes their taste in sword fitting comes from early work, though their skill was never more than that of an amateur.",
+      "User had a conversation with their brother about future: User wanted to be richest man in Japan.",
+      "User endured cold until spring at age fifteen or sixteen.",
+      "User was unconcerned with the way of society and had an inborn nature to act always in their own way."
+    ],
+    "latency_ms": 632,
+    "timestamp": "2026-04-16T07:05:37.761202+00:00"
+  },
+  "14": {
+    "question_id": 14,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Yukichi's brother, an official of the feudal headquarters in Osaka, suffered severe rheumatism, eventually losing use of his right hand and writing with his left.",
+      "User and companions engaged in friendly street fights in Osaka's busiest areas, moving locations daily between Dotombori and Junkei-machi, with Numata Umpei from Shinshu being particularly good at fighting.",
+      "User spoke to student Tezuka, asked him to stop going to the Shinchi quarter, promised help, and they made an agreement that Tezuka would sacrifice his hair if he returned to Shinchi.",
+      "User knocked a lantern from a man's head during a procession, was threatened with death, fled barefoot to Dojima, ran faster than ever, and avoided drawing a sword.",
+      "User and accomplices forged a letter to lure Tezuka back to Shinchi, and after Tezuka returned, User confronted him with scissors but ultimately let him off with wine and chicken instead of cutting hair.",
+      "User had a conversation with their brother about future: User wanted to be richest man in Japan.",
+      "User used a bottle in broad to go out on errands in broad daylight, swinging a wine bottle in one hand, with two swords at their side as a man of samurai rank.",
+      "Yukichi faced opposition from Nakatsu locals who disliked Western ideas, but persuaded his mother to allow him to leave and continue studying Dutch in Osaka.",
+      "Yukichi entered Ogata's home-school in Nagasaki, studied under many teachers—including interpreter Narahayashi, doctor Narahayashi, and affluent physician Ishikawa Osho, who refused to teach him—and later began systematic Dutch study in Osaka, progressing quickly to become one of the best students; he obtained a permit to leave home to study gunnery under Master Ogata of Osaka by rewriting the petition to state studying gunnery.",
+      "User will write a letter for the father, who is a practicing physician, and the father will have no difficulty finding him at his house in Nihombashi, Himonocho in Yedo."
+    ],
+    "latency_ms": 690,
+    "timestamp": "2026-04-16T07:05:38.452922+00:00"
+  },
+  "15": {
+    "question_id": 15,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "User spoke to student Tezuka, asked him to stop going to the Shinchi quarter, promised help, and they made an agreement that Tezuka would sacrifice his hair if he returned to Shinchi.",
+      "Yukichi faced opposition from Nakatsu locals who disliked Western ideas, but persuaded his mother to allow him to leave and continue studying Dutch in Osaka.",
+      "User and companions engaged in friendly street fights in Osaka's busiest areas, moving locations daily between Dotombori and Junkei-machi, with Numata Umpei from Shinshu being particularly good at fighting.",
+      "User knocked a lantern from a man's head during a procession, was threatened with death, fled barefoot to Dojima, ran faster than ever, and avoided drawing a sword.",
+      "Narrator copied a Dutch fortification book from Iki over about twenty days with help from Fujino Keizan, then returned the book.",
+      "User believes their taste in sword fitting comes from early work, though their skill was never more than that of an amateur.",
+      "User and companions stole offerings from a shrine at night, including pictures, sealed envelopes, and hair locks.",
+      "Yukichi's brother, an official of the feudal headquarters in Osaka, suffered severe rheumatism, eventually losing use of his right hand and writing with his left.",
+      "User made light of the mock gentility of neighbors with boyish pride and conceit.",
+      "User had an opinion about being an adopted son: User would hate to be an adopted son."
+    ],
+    "latency_ms": 557,
+    "timestamp": "2026-04-16T07:05:39.013120+00:00"
+  },
+  "16": {
+    "question_id": 16,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Yukichi's brother, an official of the feudal headquarters in Osaka, suffered severe rheumatism, eventually losing use of his right hand and writing with his left.",
+      "User teased student Yamada about his superstition of avoiding the syllable 'shi' while discussing upcoming plays.",
+      "User spoke to student Tezuka, asked him to stop going to the Shinchi quarter, promised help, and they made an agreement that Tezuka would sacrifice his hair if he returned to Shinchi.",
+      "User made light of the mock gentility of neighbors with boyish pride and conceit.",
+      "User was unconcerned with the way of society and had an inborn nature to act always in their own way.",
+      "User used a bottle in broad to go out on errands in broad daylight, swinging a wine bottle in one hand, with two swords at their side as a man of samurai rank.",
+      "User believed Rekko of Mito was the greatest man in the world.",
+      "Yukichi faced opposition from Nakatsu locals who disliked Western ideas, but persuaded his mother to allow him to leave and continue studying Dutch in Osaka.",
+      "User and accomplices forged a letter to lure Tezuka back to Shinchi, and after Tezuka returned, User confronted him with scissors but ultimately let him off with wine and chicken instead of cutting hair.",
+      "Narrator copied a Dutch fortification book from Iki over about twenty days with help from Fujino Keizan, then returned the book."
+    ],
+    "latency_ms": 640,
+    "timestamp": "2026-04-16T07:05:39.653666+00:00"
+  },
+  "17": {
+    "question_id": 17,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "User listened to their brother's friends but was not allowed to join in.",
+      "User spoke to student Tezuka, asked him to stop going to the Shinchi quarter, promised help, and they made an agreement that Tezuka would sacrifice his hair if he returned to Shinchi.",
+      "Yukichi faced opposition from Nakatsu locals who disliked Western ideas, but persuaded his mother to allow him to leave and continue studying Dutch in Osaka.",
+      "User disappeared into a closet when guests arrived, disliked them, took supper early, drank wine, and hid in the closet until guests left.",
+      "User had an opinion about being an adopted son: User would hate to be an adopted son.",
+      "User hated having a towel on their face and never wore one.",
+      "User and accomplices forged a letter to lure Tezuka back to Shinchi, and after Tezuka returned, User confronted him with scissors but ultimately let him off with wine and chicken instead of cutting hair.",
+      "Yukichi and student Suzuki Giroku nursed school friend Kishi Naosuke, who had typhoid fever, for three weeks, but Kishi died and was cremated according to Buddhist rites.",
+      "User endured cold until spring at age fifteen or sixteen.",
+      "User's mother never showed any sign of slighting beggars or outcast eta."
+    ],
+    "latency_ms": 616,
+    "timestamp": "2026-04-16T07:05:40.271719+00:00"
+  },
+  "18": {
+    "question_id": 18,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "User spoke to student Tezuka, asked him to stop going to the Shinchi quarter, promised help, and they made an agreement that Tezuka would sacrifice his hair if he returned to Shinchi.",
+      "User says \"This is my own money\" and believes buying things with their own money is fine.",
+      "Yukichi's brother, an official of the feudal headquarters in Osaka, suffered severe rheumatism, eventually losing use of his right hand and writing with his left.",
+      "User forged a letter to Sembaya, using Kuroganeya's name, to secure lodging and a boat fare to Osaka, and the proprietor accepted it, allowing the user to travel despite lacking money for food on board.",
+      "Yukichi faced opposition from Nakatsu locals who disliked Western ideas, but persuaded his mother to allow him to leave and continue studying Dutch in Osaka.",
+      "User and schoolmate Matsushita Gempo went to the Goryo night bazaar, threatened a flower-and-plant stand proprietor, and a professional wrestler intervened; User threatened to kill the proprietor if he opened the shop again.",
+      "User was unconcerned with the way of society and had an inborn nature to act always in their own way.",
+      "User had an opinion about being an adopted son: User would hate to be an adopted son.",
+      "User had a conversation with their brother about future: User wanted to be richest man in Japan.",
+      "User knocked a lantern from a man's head during a procession, was threatened with death, fled barefoot to Dojima, ran faster than ever, and avoided drawing a sword."
+    ],
+    "latency_ms": 604,
+    "timestamp": "2026-04-16T07:05:40.876761+00:00"
+  },
+  "19": {
+    "question_id": 19,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "User believes their taste in sword fitting comes from early work, though their skill was never more than that of an amateur.",
+      "User spoke to student Tezuka, asked him to stop going to the Shinchi quarter, promised help, and they made an agreement that Tezuka would sacrifice his hair if he returned to Shinchi.",
+      "User forged a letter to Sembaya, using Kuroganeya's name, to secure lodging and a boat fare to Osaka, and the proprietor accepted it, allowing the user to travel despite lacking money for food on board.",
+      "Yukichi entered Ogata's home-school in Nagasaki, studied under many teachers—including interpreter Narahayashi, doctor Narahayashi, and affluent physician Ishikawa Osho, who refused to teach him—and later began systematic Dutch study in Osaka, progressing quickly to become one of the best students; he obtained a permit to leave home to study gunnery under Master Ogata of Osaka by rewriting the petition to state studying gunnery.",
+      "User had a conversation with their brother about future: User wanted to be richest man in Japan.",
+      "User's brother had a theory that gun and abacus were important instruments for samurai.",
+      "User plans to travel from Nakatsu to Osaka, first going to Shimonoseki for a boat to Osaka, then to Yedo.",
+      "User and accomplices forged a letter to lure Tezuka back to Shinchi, and after Tezuka returned, User confronted him with scissors but ultimately let him off with wine and chicken instead of cutting hair.",
+      "User had an opinion about being an adopted son: User would hate to be an adopted son.",
+      "User hated having a towel on their face and never wore one."
+    ],
+    "latency_ms": 665,
+    "timestamp": "2026-04-16T07:05:41.546568+00:00"
+  },
+  "20": {
+    "question_id": 20,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Yukichi faced opposition from Nakatsu locals who disliked Western ideas, but persuaded his mother to allow him to leave and continue studying Dutch in Osaka.",
+      "User spoke to student Tezuka, asked him to stop going to the Shinchi quarter, promised help, and they made an agreement that Tezuka would sacrifice his hair if he returned to Shinchi.",
+      "Yukichi entered Ogata's home-school in Nagasaki, studied under many teachers—including interpreter Narahayashi, doctor Narahayashi, and affluent physician Ishikawa Osho, who refused to teach him—and later began systematic Dutch study in Osaka, progressing quickly to become one of the best students; he obtained a permit to leave home to study gunnery under Master Ogata of Osaka by rewriting the petition to state studying gunnery.",
+      "Yukichi's brother, an official of the feudal headquarters in Osaka, suffered severe rheumatism, eventually losing use of his right hand and writing with his left.",
+      "User used a bottle in broad to go out on errands in broad daylight, swinging a wine bottle in one hand, with two swords at their side as a man of samurai rank.",
+      "User had an opinion about being an adopted son: User would hate to be an adopted son.",
+      "User had a conversation with their brother about future: User wanted to be richest man in Japan.",
+      "User was unconcerned with the way of society and had an inborn nature to act always in their own way.",
+      "User and accomplices forged a letter to lure Tezuka back to Shinchi, and after Tezuka returned, User confronted him with scissors but ultimately let him off with wine and chicken instead of cutting hair.",
+      "User believes their taste in sword fitting comes from early work, though their skill was never more than that of an amateur."
+    ],
+    "latency_ms": 616,
+    "timestamp": "2026-04-16T07:05:42.163236+00:00"
+  },
+  "21": {
+    "question_id": 21,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "User and accomplices forged a letter to lure Tezuka back to Shinchi, and after Tezuka returned, User confronted him with scissors but ultimately let him off with wine and chicken instead of cutting hair.",
+      "User spoke to student Tezuka, asked him to stop going to the Shinchi quarter, promised help, and they made an agreement that Tezuka would sacrifice his hair if he returned to Shinchi.",
+      "User had a conversation with their brother about future: User wanted to be richest man in Japan.",
+      "User made light of the mock gentility of neighbors with boyish pride and conceit.",
+      "Yukichi faced opposition from Nakatsu locals who disliked Western ideas, but persuaded his mother to allow him to leave and continue studying Dutch in Osaka.",
+      "User met a merchant from Nakatsu named Kuroganeya Sobei and set out with him toward that destination.",
+      "User disappeared into a closet when guests arrived, disliked them, took supper early, drank wine, and hid in the closet until guests left.",
+      "User knocked a lantern from a man's head during a procession, was threatened with death, fled barefoot to Dojima, ran faster than ever, and avoided drawing a sword.",
+      "Yukichi's brother, an official of the feudal headquarters in Osaka, suffered severe rheumatism, eventually losing use of his right hand and writing with his left.",
+      "User was unconcerned with the way of society and had an inborn nature to act always in their own way."
+    ],
+    "latency_ms": 659,
+    "timestamp": "2026-04-16T07:05:42.823528+00:00"
+  },
+  "22": {
+    "question_id": 22,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "User and companions engaged in friendly street fights in Osaka's busiest areas, moving locations daily between Dotombori and Junkei-machi, with Numata Umpei from Shinshu being particularly good at fighting.",
+      "User teased student Yamada about his superstition of avoiding the syllable 'shi' while discussing upcoming plays.",
+      "User had a conversation with their brother about future: User wanted to be richest man in Japan.",
+      "User's brother's conversation topics included Rekko of Mito and Shungaku of Echizen.",
+      "User made light of the mock gentility of neighbors with boyish pride and conceit.",
+      "User hated having a towel on their face and never wore one.",
+      "User and accomplices forged a letter to lure Tezuka back to Shinchi, and after Tezuka returned, User confronted him with scissors but ultimately let him off with wine and chicken instead of cutting hair.",
+      "User and schoolmate Matsushita Gempo went to the Goryo night bazaar, threatened a flower-and-plant stand proprietor, and a professional wrestler intervened; User threatened to kill the proprietor if he opened the shop again.",
+      "After his brother died on September third, Yukichi returned home by Inland Sea, became head of the Fukuzawa family branch, and was required to observe fifty days of mourning.",
+      "User was unconcerned with the way of society and had an inborn nature to act always in their own way."
+    ],
+    "latency_ms": 627,
+    "timestamp": "2026-04-16T07:05:43.453425+00:00"
+  },
+  "23": {
+    "question_id": 23,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "User teased student Yamada about his superstition of avoiding the syllable 'shi' while discussing upcoming plays.",
+      "Yukichi's brother, an official of the feudal headquarters in Osaka, suffered severe rheumatism, eventually losing use of his right hand and writing with his left.",
+      "User had a conversation with their brother about future: User wanted to be richest man in Japan.",
+      "After his brother died on September third, Yukichi returned home by Inland Sea, became head of the Fukuzawa family branch, and was required to observe fifty days of mourning.",
+      "User spoke to student Tezuka, asked him to stop going to the Shinchi quarter, promised help, and they made an agreement that Tezuka would sacrifice his hair if he returned to Shinchi.",
+      "Yukichi faced opposition from Nakatsu locals who disliked Western ideas, but persuaded his mother to allow him to leave and continue studying Dutch in Osaka.",
+      "User disappeared into a closet when guests arrived, disliked them, took supper early, drank wine, and hid in the closet until guests left.",
+      "User and accomplices forged a letter to lure Tezuka back to Shinchi, and after Tezuka returned, User confronted him with scissors but ultimately let him off with wine and chicken instead of cutting hair.",
+      "User will write a letter for the father, who is a practicing physician, and the father will have no difficulty finding him at his house in Nihombashi, Himonocho in Yedo.",
+      "User hated having a towel on their face and never wore one."
+    ],
+    "latency_ms": 601,
+    "timestamp": "2026-04-16T07:05:44.055936+00:00"
+  },
+  "24": {
+    "question_id": 24,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "User spoke to student Tezuka, asked him to stop going to the Shinchi quarter, promised help, and they made an agreement that Tezuka would sacrifice his hair if he returned to Shinchi.",
+      "User teased student Yamada about his superstition of avoiding the syllable 'shi' while discussing upcoming plays.",
+      "After his brother died on September third, Yukichi returned home by Inland Sea, became head of the Fukuzawa family branch, and was required to observe fifty days of mourning.",
+      "Yukichi faced opposition from Nakatsu locals who disliked Western ideas, but persuaded his mother to allow him to leave and continue studying Dutch in Osaka.",
+      "User forged a letter to Sembaya, using Kuroganeya's name, to secure lodging and a boat fare to Osaka, and the proprietor accepted it, allowing the user to travel despite lacking money for food on board.",
+      "Yukichi's brother, an official of the feudal headquarters in Osaka, suffered severe rheumatism, eventually losing use of his right hand and writing with his left.",
+      "User had an opinion about being an adopted son: User would hate to be an adopted son.",
+      "User's mother never showed any sign of slighting beggars or outcast eta.",
+      "User hated having a towel on their face and never wore one.",
+      "User endured cold until spring at age fifteen or sixteen."
+    ],
+    "latency_ms": 783,
+    "timestamp": "2026-04-16T07:05:44.839511+00:00"
+  },
+  "25": {
+    "question_id": 25,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "User was unconcerned with the way of society and had an inborn nature to act always in their own way.",
+      "Yukichi's brother, an official of the feudal headquarters in Osaka, suffered severe rheumatism, eventually losing use of his right hand and writing with his left.",
+      "User and companions engaged in friendly street fights in Osaka's busiest areas, moving locations daily between Dotombori and Junkei-machi, with Numata Umpei from Shinshu being particularly good at fighting.",
+      "User made light of the mock gentility of neighbors with boyish pride and conceit.",
+      "User had a conversation with their brother about future: User wanted to be richest man in Japan.",
+      "Yukichi faced opposition from Nakatsu locals who disliked Western ideas, but persuaded his mother to allow him to leave and continue studying Dutch in Osaka.",
+      "User used a bottle in broad to go out on errands in broad daylight, swinging a wine bottle in one hand, with two swords at their side as a man of samurai rank.",
+      "After his brother died on September third, Yukichi returned home by Inland Sea, became head of the Fukuzawa family branch, and was required to observe fifty days of mourning.",
+      "User and accomplices forged a letter to lure Tezuka back to Shinchi, and after Tezuka returned, User confronted him with scissors but ultimately let him off with wine and chicken instead of cutting hair.",
+      "User says \"This is my own money\" and believes buying things with their own money is fine."
+    ],
+    "latency_ms": 843,
+    "timestamp": "2026-04-16T07:05:45.683146+00:00"
+  },
+  "26": {
+    "question_id": 26,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "User listened to their brother's friends but was not allowed to join in.",
+      "User met a merchant from Nakatsu named Kuroganeya Sobei and set out with him toward that destination.",
+      "User's brother had many friends who came in the evening to discuss questions of the day.",
+      "User will write a letter for the father, who is a practicing physician, and the father will have no difficulty finding him at his house in Nihombashi, Himonocho in Yedo.",
+      "User's mother had many friends among priests.",
+      "User says \"This is my own money\" and believes buying things with their own money is fine.",
+      "User's mother was fond of doing kindnesses to all people, especially making friends among merchants and farmers.",
+      "User made light of the mock gentility of neighbors with boyish pride and conceit.",
+      "User's brother's conversation topics included Rekko of Mito and Shungaku of Echizen.",
+      "User and companions engaged in friendly street fights in Osaka's busiest areas, moving locations daily between Dotombori and Junkei-machi, with Numata Umpei from Shinshu being particularly good at fighting."
+    ],
+    "latency_ms": 644,
+    "timestamp": "2026-04-16T07:05:46.328525+00:00"
+  },
+  "27": {
+    "question_id": 27,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Yukichi faced opposition from Nakatsu locals who disliked Western ideas, but persuaded his mother to allow him to leave and continue studying Dutch in Osaka.",
+      "User teased student Yamada about his superstition of avoiding the syllable 'shi' while discussing upcoming plays.",
+      "User spoke to student Tezuka, asked him to stop going to the Shinchi quarter, promised help, and they made an agreement that Tezuka would sacrifice his hair if he returned to Shinchi.",
+      "After his brother died on September third, Yukichi returned home by Inland Sea, became head of the Fukuzawa family branch, and was required to observe fifty days of mourning.",
+      "User had a conversation with their brother about future: User wanted to be richest man in Japan.",
+      "Yukichi's brother, an official of the feudal headquarters in Osaka, suffered severe rheumatism, eventually losing use of his right hand and writing with his left.",
+      "User and accomplices forged a letter to lure Tezuka back to Shinchi, and after Tezuka returned, User confronted him with scissors but ultimately let him off with wine and chicken instead of cutting hair.",
+      "User forged a letter to Sembaya, using Kuroganeya's name, to secure lodging and a boat fare to Osaka, and the proprietor accepted it, allowing the user to travel despite lacking money for food on board.",
+      "User had an opinion about being an adopted son: User would hate to be an adopted son.",
+      "Narrator copied a Dutch fortification book from Iki over about twenty days with help from Fujino Keizan, then returned the book."
+    ],
+    "latency_ms": 691,
+    "timestamp": "2026-04-16T07:05:47.020839+00:00"
+  },
+  "28": {
+    "question_id": 28,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "User teased student Yamada about his superstition of avoiding the syllable 'shi' while discussing upcoming plays.",
+      "User hated having a towel on their face and never wore one.",
+      "Narrator copied a Dutch fortification book from Iki over about twenty days with help from Fujino Keizan, then returned the book.",
+      "User forged a letter to Sembaya, using Kuroganeya's name, to secure lodging and a boat fare to Osaka, and the proprietor accepted it, allowing the user to travel despite lacking money for food on board.",
+      "User had a conversation with their brother about future: User wanted to be richest man in Japan.",
+      "After his brother died on September third, Yukichi returned home by Inland Sea, became head of the Fukuzawa family branch, and was required to observe fifty days of mourning.",
+      "User had an opinion about being an adopted son: User would hate to be an adopted son.",
+      "User used a bottle in broad to go out on errands in broad daylight, swinging a wine bottle in one hand, with two swords at their side as a man of samurai rank.",
+      "Yukichi was named after the second syllable of his father's book title Jo Yu Jo Rei, a collection of Ming dynasty Chinese law books, and his father owned over fifteen hundred volumes including rare Chinese law books titled Shangyi Tiao-li, acquired on December 12 in the fifth year of Temp5.",
+      "User was unconcerned with the way of society and had an inborn nature to act always in their own way."
+    ],
+    "latency_ms": 687,
+    "timestamp": "2026-04-16T07:05:47.708368+00:00"
+  },
+  "29": {
+    "question_id": 29,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "User and companions engaged in friendly street fights in Osaka's busiest areas, moving locations daily between Dotombori and Junkei-machi, with Numata Umpei from Shinshu being particularly good at fighting.",
+      "User disappeared into a closet when guests arrived, disliked them, took supper early, drank wine, and hid in the closet until guests left.",
+      "User endured cold until spring at age fifteen or sixteen.",
+      "User used a bottle in broad to go out on errands in broad daylight, swinging a wine bottle in one hand, with two swords at their side as a man of samurai rank.",
+      "User and companions stole offerings from a shrine at night, including pictures, sealed envelopes, and hair locks.",
+      "User cooked burdocks and radishes to help their mother in the kitchen when guests were expected.",
+      "User will write a letter for the father, who is a practicing physician, and the father will have no difficulty finding him at his house in Nihombashi, Himonocho in Yedo.",
+      "User forged a letter to Sembaya, using Kuroganeya's name, to secure lodging and a boat fare to Osaka, and the proprietor accepted it, allowing the user to travel despite lacking money for food on board.",
+      "Yukichi's brother, an official of the feudal headquarters in Osaka, suffered severe rheumatism, eventually losing use of his right hand and writing with his left.",
+      "User and accomplices forged a letter to lure Tezuka back to Shinchi, and after Tezuka returned, User confronted him with scissors but ultimately let him off with wine and chicken instead of cutting hair."
+    ],
+    "latency_ms": 625,
+    "timestamp": "2026-04-16T07:05:48.333964+00:00"
+  },
+  "30": {
+    "question_id": 30,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Yukichi faced opposition from Nakatsu locals who disliked Western ideas, but persuaded his mother to allow him to leave and continue studying Dutch in Osaka.",
+      "Yukichi's brother, an official of the feudal headquarters in Osaka, suffered severe rheumatism, eventually losing use of his right hand and writing with his left.",
+      "User teased student Yamada about his superstition of avoiding the syllable 'shi' while discussing upcoming plays.",
+      "User and companions engaged in friendly street fights in Osaka's busiest areas, moving locations daily between Dotombori and Junkei-machi, with Numata Umpei from Shinshu being particularly good at fighting.",
+      "Yukichi was named after the second syllable of his father's book title Jo Yu Jo Rei, a collection of Ming dynasty Chinese law books, and his father owned over fifteen hundred volumes including rare Chinese law books titled Shangyi Tiao-li, acquired on December 12 in the fifth year of Temp5.",
+      "User believed Rekko of Mito was the greatest man in the world.",
+      "User believes their taste in sword fitting comes from early work, though their skill was never more than that of an amateur.",
+      "Narrator copied a Dutch fortification book from Iki over about twenty days with help from Fujino Keizan, then returned the book.",
+      "User had a conversation with their brother about future: User wanted to be richest man in Japan.",
+      "Yukichi entered Ogata's home-school in Nagasaki, studied under many teachers—including interpreter Narahayashi, doctor Narahayashi, and affluent physician Ishikawa Osho, who refused to teach him—and later began systematic Dutch study in Osaka, progressing quickly to become one of the best students; he obtained a permit to leave home to study gunnery under Master Ogata of Osaka by rewriting the petition to state studying gunnery."
+    ],
+    "latency_ms": 647,
+    "timestamp": "2026-04-16T07:05:48.987016+00:00"
+  },
+  "31": {
+    "question_id": 31,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Yukichi faced opposition from Nakatsu locals who disliked Western ideas, but persuaded his mother to allow him to leave and continue studying Dutch in Osaka.",
+      "User forged a letter to Sembaya, using Kuroganeya's name, to secure lodging and a boat fare to Osaka, and the proprietor accepted it, allowing the user to travel despite lacking money for food on board.",
+      "User spoke to student Tezuka, asked him to stop going to the Shinchi quarter, promised help, and they made an agreement that Tezuka would sacrifice his hair if he returned to Shinchi.",
+      "Yukichi entered Ogata's home-school in Nagasaki, studied under many teachers—including interpreter Narahayashi, doctor Narahayashi, and affluent physician Ishikawa Osho, who refused to teach him—and later began systematic Dutch study in Osaka, progressing quickly to become one of the best students; he obtained a permit to leave home to study gunnery under Master Ogata of Osaka by rewriting the petition to state studying gunnery.",
+      "Yukichi's brother, an official of the feudal headquarters in Osaka, suffered severe rheumatism, eventually losing use of his right hand and writing with his left.",
+      "User was unconcerned with the way of society and had an inborn nature to act always in their own way.",
+      "User and schoolmate Matsushita Gempo went to the Goryo night bazaar, threatened a flower-and-plant stand proprietor, and a professional wrestler intervened; User threatened to kill the proprietor if he opened the shop again.",
+      "User and accomplices forged a letter to lure Tezuka back to Shinchi, and after Tezuka returned, User confronted him with scissors but ultimately let him off with wine and chicken instead of cutting hair.",
+      "Yukichi was named after the second syllable of his father's book title Jo Yu Jo Rei, a collection of Ming dynasty Chinese law books, and his father owned over fifteen hundred volumes including rare Chinese law books titled Shangyi Tiao-li, acquired on December 12 in the fifth year of Temp5.",
+      "User had a conversation with their brother about future: User wanted to be richest man in Japan."
+    ],
+    "latency_ms": 611,
+    "timestamp": "2026-04-16T07:05:49.599137+00:00"
+  },
+  "32": {
+    "question_id": 32,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "User spoke to student Tezuka, asked him to stop going to the Shinchi quarter, promised help, and they made an agreement that Tezuka would sacrifice his hair if he returned to Shinchi.",
+      "User and accomplices forged a letter to lure Tezuka back to Shinchi, and after Tezuka returned, User confronted him with scissors but ultimately let him off with wine and chicken instead of cutting hair.",
+      "User was unconcerned with the way of society and had an inborn nature to act always in their own way.",
+      "Yukichi entered Ogata's home-school in Nagasaki, studied under many teachers—including interpreter Narahayashi, doctor Narahayashi, and affluent physician Ishikawa Osho, who refused to teach him—and later began systematic Dutch study in Osaka, progressing quickly to become one of the best students; he obtained a permit to leave home to study gunnery under Master Ogata of Osaka by rewriting the petition to state studying gunnery.",
+      "User had a conversation with their brother about future: User wanted to be richest man in Japan.",
+      "Yukichi faced opposition from Nakatsu locals who disliked Western ideas, but persuaded his mother to allow him to leave and continue studying Dutch in Osaka.",
+      "Yukichi's brother, an official of the feudal headquarters in Osaka, suffered severe rheumatism, eventually losing use of his right hand and writing with his left.",
+      "User had an opinion about being an adopted son: User would hate to be an adopted son.",
+      "User and schoolmate Matsushita Gempo went to the Goryo night bazaar, threatened a flower-and-plant stand proprietor, and a professional wrestler intervened; User threatened to kill the proprietor if he opened the shop again.",
+      "User made light of the mock gentility of neighbors with boyish pride and conceit."
+    ],
+    "latency_ms": 661,
+    "timestamp": "2026-04-16T07:05:50.261699+00:00"
+  },
+  "33": {
+    "question_id": 33,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Yukichi faced opposition from Nakatsu locals who disliked Western ideas, but persuaded his mother to allow him to leave and continue studying Dutch in Osaka.",
+      "User spoke to student Tezuka, asked him to stop going to the Shinchi quarter, promised help, and they made an agreement that Tezuka would sacrifice his hair if he returned to Shinchi.",
+      "User's brother had a theory that gun and abacus were important instruments for samurai.",
+      "Yukichi entered Ogata's home-school in Nagasaki, studied under many teachers—including interpreter Narahayashi, doctor Narahayashi, and affluent physician Ishikawa Osho, who refused to teach him—and later began systematic Dutch study in Osaka, progressing quickly to become one of the best students; he obtained a permit to leave home to study gunnery under Master Ogata of Osaka by rewriting the petition to state studying gunnery.",
+      "Yukichi and student Suzuki Giroku nursed school friend Kishi Naosuke, who had typhoid fever, for three weeks, but Kishi died and was cremated according to Buddhist rites.",
+      "User had an opinion about being an adopted son: User would hate to be an adopted son.",
+      "After his brother died on September third, Yukichi returned home by Inland Sea, became head of the Fukuzawa family branch, and was required to observe fifty days of mourning.",
+      "User's brother's conversation topics included Rekko of Mito and Shungaku of Echizen.",
+      "User and schoolmate Matsushita Gempo went to the Goryo night bazaar, threatened a flower-and-plant stand proprietor, and a professional wrestler intervened; User threatened to kill the proprietor if he opened the shop again.",
+      "Yukichi's brother, an official of the feudal headquarters in Osaka, suffered severe rheumatism, eventually losing use of his right hand and writing with his left."
+    ],
+    "latency_ms": 621,
+    "timestamp": "2026-04-16T07:05:50.883912+00:00"
+  },
+  "34": {
+    "question_id": 34,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Yukichi faced opposition from Nakatsu locals who disliked Western ideas, but persuaded his mother to allow him to leave and continue studying Dutch in Osaka.",
+      "Yukichi entered Ogata's home-school in Nagasaki, studied under many teachers—including interpreter Narahayashi, doctor Narahayashi, and affluent physician Ishikawa Osho, who refused to teach him—and later began systematic Dutch study in Osaka, progressing quickly to become one of the best students; he obtained a permit to leave home to study gunnery under Master Ogata of Osaka by rewriting the petition to state studying gunnery.",
+      "User forged a letter to Sembaya, using Kuroganeya's name, to secure lodging and a boat fare to Osaka, and the proprietor accepted it, allowing the user to travel despite lacking money for food on board.",
+      "User spoke to student Tezuka, asked him to stop going to the Shinchi quarter, promised help, and they made an agreement that Tezuka would sacrifice his hair if he returned to Shinchi.",
+      "User plans to travel from Nakatsu to Osaka, first going to Shimonoseki for a boat to Osaka, then to Yedo.",
+      "User and schoolmate Matsushita Gempo went to the Goryo night bazaar, threatened a flower-and-plant stand proprietor, and a professional wrestler intervened; User threatened to kill the proprietor if he opened the shop again.",
+      "After his brother died on September third, Yukichi returned home by Inland Sea, became head of the Fukuzawa family branch, and was required to observe fifty days of mourning.",
+      "Yukichi's brother, an official of the feudal headquarters in Osaka, suffered severe rheumatism, eventually losing use of his right hand and writing with his left.",
+      "User's brother's conversation topics included Rekko of Mito and Shungaku of Echizen.",
+      "User and companions engaged in friendly street fights in Osaka's busiest areas, moving locations daily between Dotombori and Junkei-machi, with Numata Umpei from Shinshu being particularly good at fighting."
+    ],
+    "latency_ms": 671,
+    "timestamp": "2026-04-16T07:05:51.559053+00:00"
+  },
+  "35": {
+    "question_id": 35,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Yukichi entered Ogata's home-school in Nagasaki, studied under many teachers—including interpreter Narahayashi, doctor Narahayashi, and affluent physician Ishikawa Osho, who refused to teach him—and later began systematic Dutch study in Osaka, progressing quickly to become one of the best students; he obtained a permit to leave home to study gunnery under Master Ogata of Osaka by rewriting the petition to state studying gunnery.",
+      "Yukichi faced opposition from Nakatsu locals who disliked Western ideas, but persuaded his mother to allow him to leave and continue studying Dutch in Osaka.",
+      "User's brother studied mathematics according to Hoashi Banri.",
+      "Narrator copied a Dutch fortification book from Iki over about twenty days with help from Fujino Keizan, then returned the book.",
+      "User spoke to student Tezuka, asked him to stop going to the Shinchi quarter, promised help, and they made an agreement that Tezuka would sacrifice his hair if he returned to Shinchi.",
+      "Yukichi and student Suzuki Giroku nursed school friend Kishi Naosuke, who had typhoid fever, for three weeks, but Kishi died and was cremated according to Buddhist rites.",
+      "After his brother died on September third, Yukichi returned home by Inland Sea, became head of the Fukuzawa family branch, and was required to observe fifty days of mourning.",
+      "User and companions engaged in friendly street fights in Osaka's busiest areas, moving locations daily between Dotombori and Junkei-machi, with Numata Umpei from Shinshu being particularly good at fighting.",
+      "Yukichi's brother, an official of the feudal headquarters in Osaka, suffered severe rheumatism, eventually losing use of his right hand and writing with his left.",
+      "User will write a letter for the father, who is a practicing physician, and the father will have no difficulty finding him at his house in Nihombashi, Himonocho in Yedo."
+    ],
+    "latency_ms": 652,
+    "timestamp": "2026-04-16T07:05:52.212623+00:00"
+  },
+  "36": {
+    "question_id": 36,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Yukichi entered Ogata's home-school in Nagasaki, studied under many teachers—including interpreter Narahayashi, doctor Narahayashi, and affluent physician Ishikawa Osho, who refused to teach him—and later began systematic Dutch study in Osaka, progressing quickly to become one of the best students; he obtained a permit to leave home to study gunnery under Master Ogata of Osaka by rewriting the petition to state studying gunnery.",
+      "User's brother studied mathematics according to Hoashi Banri.",
+      "Yukichi was named after the second syllable of his father's book title Jo Yu Jo Rei, a collection of Ming dynasty Chinese law books, and his father owned over fifteen hundred volumes including rare Chinese law books titled Shangyi Tiao-li, acquired on December 12 in the fifth year of Temp5.",
+      "Yukichi faced opposition from Nakatsu locals who disliked Western ideas, but persuaded his mother to allow him to leave and continue studying Dutch in Osaka.",
+      "Yukichi's brother, an official of the feudal headquarters in Osaka, suffered severe rheumatism, eventually losing use of his right hand and writing with his left.",
+      "User's brother's conversation topics included Rekko of Mito and Shungaku of Echizen.",
+      "A small kakemono with Rai Sanyo’s calligraphy was sold for two hu; Taigado’s painting of a man under a willow tree sold for two ryo and two hu; other calligraphy by Sorai and Togai brought little sum.",
+      "Yukichi and his family sold all household items, including a large collection of over fifteen hundred books, paintings, swords, trays, cups, and drinking vessels, to pay off debts entirely and reach the required forty ryo.",
+      "User and accomplices forged a letter to lure Tezuka back to Shinchi, and after Tezuka returned, User confronted him with scissors but ultimately let him off with wine and chicken instead of cutting hair.",
+      "User was unconcerned with the way of society and had an inborn nature to act always in their own way."
+    ],
+    "latency_ms": 659,
+    "timestamp": "2026-04-16T07:05:52.877001+00:00"
+  },
+  "37": {
+    "question_id": 37,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Yukichi faced opposition from Nakatsu locals who disliked Western ideas, but persuaded his mother to allow him to leave and continue studying Dutch in Osaka.",
+      "Yukichi entered Ogata's home-school in Nagasaki, studied under many teachers—including interpreter Narahayashi, doctor Narahayashi, and affluent physician Ishikawa Osho, who refused to teach him—and later began systematic Dutch study in Osaka, progressing quickly to become one of the best students; he obtained a permit to leave home to study gunnery under Master Ogata of Osaka by rewriting the petition to state studying gunnery.",
+      "User spoke to student Tezuka, asked him to stop going to the Shinchi quarter, promised help, and they made an agreement that Tezuka would sacrifice his hair if he returned to Shinchi.",
+      "User's brother had a theory that gun and abacus were important instruments for samurai.",
+      "User met a merchant from Nakatsu named Kuroganeya Sobei and set out with him toward that destination.",
+      "After his brother died on September third, Yukichi returned home by Inland Sea, became head of the Fukuzawa family branch, and was required to observe fifty days of mourning.",
+      "User forged a letter to Sembaya, using Kuroganeya's name, to secure lodging and a boat fare to Osaka, and the proprietor accepted it, allowing the user to travel despite lacking money for food on board.",
+      "User believes their taste in sword fitting comes from early work, though their skill was never more than that of an amateur.",
+      "User will write a letter for the father, who is a practicing physician, and the father will have no difficulty finding him at his house in Nihombashi, Himonocho in Yedo.",
+      "User and companions engaged in friendly street fights in Osaka's busiest areas, moving locations daily between Dotombori and Junkei-machi, with Numata Umpei from Shinshu being particularly good at fighting."
+    ],
+    "latency_ms": 564,
+    "timestamp": "2026-04-16T07:05:53.442594+00:00"
+  },
+  "38": {
+    "question_id": 38,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Yukichi faced opposition from Nakatsu locals who disliked Western ideas, but persuaded his mother to allow him to leave and continue studying Dutch in Osaka.",
+      "User spoke to student Tezuka, asked him to stop going to the Shinchi quarter, promised help, and they made an agreement that Tezuka would sacrifice his hair if he returned to Shinchi.",
+      "After his brother died on September third, Yukichi returned home by Inland Sea, became head of the Fukuzawa family branch, and was required to observe fifty days of mourning.",
+      "Yukichi and student Suzuki Giroku nursed school friend Kishi Naosuke, who had typhoid fever, for three weeks, but Kishi died and was cremated according to Buddhist rites.",
+      "User forged a letter to Sembaya, using Kuroganeya's name, to secure lodging and a boat fare to Osaka, and the proprietor accepted it, allowing the user to travel despite lacking money for food on board.",
+      "Yukichi entered Ogata's home-school in Nagasaki, studied under many teachers—including interpreter Narahayashi, doctor Narahayashi, and affluent physician Ishikawa Osho, who refused to teach him—and later began systematic Dutch study in Osaka, progressing quickly to become one of the best students; he obtained a permit to leave home to study gunnery under Master Ogata of Osaka by rewriting the petition to state studying gunnery.",
+      "Narrator copied a Dutch fortification book from Iki over about twenty days with help from Fujino Keizan, then returned the book.",
+      "User had an opinion about being an adopted son: User would hate to be an adopted son.",
+      "User knocked a lantern from a man's head during a procession, was threatened with death, fled barefoot to Dojima, ran faster than ever, and avoided drawing a sword.",
+      "User plans to travel from Nakatsu to Osaka, first going to Shimonoseki for a boat to Osaka, then to Yedo."
+    ],
+    "latency_ms": 722,
+    "timestamp": "2026-04-16T07:05:54.166294+00:00"
+  },
+  "39": {
+    "question_id": 39,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Yukichi faced opposition from Nakatsu locals who disliked Western ideas, but persuaded his mother to allow him to leave and continue studying Dutch in Osaka.",
+      "Narrator copied a Dutch fortification book from Iki over about twenty days with help from Fujino Keizan, then returned the book.",
+      "Yukichi entered Ogata's home-school in Nagasaki, studied under many teachers—including interpreter Narahayashi, doctor Narahayashi, and affluent physician Ishikawa Osho, who refused to teach him—and later began systematic Dutch study in Osaka, progressing quickly to become one of the best students; he obtained a permit to leave home to study gunnery under Master Ogata of Osaka by rewriting the petition to state studying gunnery.",
+      "User met a merchant from Nakatsu named Kuroganeya Sobei and set out with him toward that destination.",
+      "User will write a letter for the father, who is a practicing physician, and the father will have no difficulty finding him at his house in Nihombashi, Himonocho in Yedo.",
+      "User forged a letter to Sembaya, using Kuroganeya's name, to secure lodging and a boat fare to Osaka, and the proprietor accepted it, allowing the user to travel despite lacking money for food on board.",
+      "User used a bottle in broad to go out on errands in broad daylight, swinging a wine bottle in one hand, with two swords at their side as a man of samurai rank.",
+      "User knocked a lantern from a man's head during a procession, was threatened with death, fled barefoot to Dojima, ran faster than ever, and avoided drawing a sword.",
+      "User believes their taste in sword fitting comes from early work, though their skill was never more than that of an amateur.",
+      "User plans to travel from Nakatsu to Osaka, first going to Shimonoseki for a boat to Osaka, then to Yedo."
+    ],
+    "latency_ms": 658,
+    "timestamp": "2026-04-16T07:05:54.830728+00:00"
+  }
+}

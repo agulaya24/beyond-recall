@@ -1,0 +1,782 @@
+{
+  "1": {
+    "question_id": 1,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "User asserts that Europeans were once uncivilized like Africans and that nature did not make them inferior or slaves.",
+      "The author, Olaudah Equiano, wrote the narrative to influence the abolition debate and to inspire compassion for the miseries of the slave trade.",
+      "User notes that Africans arriving among Europeans are ignorant of language, religion, manners, customs, and questions whether they are taught, treated as men, and whether slavery depresses their mind.",
+      "The narrative titled 'The Interesting Narrative of the Life of Olaudah Equiano, or Gustavus Vassa, the African' is written by Olaudah Equiano himself.",
+      "Narrator recounts that the kingdom's government is nominally under the king of Benin, with local chiefs and elders handling transactions and justice, including punishment by slavery or death for crimes such as kidnapping or adultery.",
+      "User observes that Spaniards in America under the torrid zone have become as dark coloured as native Indians of Virginia, and notes a Portuguese settlement at Mitomba, Sierra Leone, where inhabitants are mixed Portuguese and natives, now dark and woolly-haired, retaining some Portuguese language.",
+      "The author recounts being kidnapped with his sister at age eleven, forced into a sack, taken by a chieftain who treated them well, working as a smith operating bellows to work gold, trained in war from early years shooting and throwing javelins, and eventually seeking to return home.",
+      "The narrative was printed in London and sold by Olaudah Equiano and multiple booksellers at Union-Street, St. Paul's Church-Yard, Fleet-Street, Bond-Street, and other London locations.",
+      "User recounts that their father had many slaves and a large family, with seven children including the user and a sister, the only daughter.",
+      "The master has a distinct apartment for sleeping with his male children."
+    ],
+    "latency_ms": 662,
+    "timestamp": "2026-04-16T07:04:17.834338+00:00"
+  },
+  "2": {
+    "question_id": 2,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The author, Olaudah Equiano, wrote the narrative to influence the abolition debate and to inspire compassion for the miseries of the slave trade.",
+      "Narrator recounts that the kingdom's government is nominally under the king of Benin, with local chiefs and elders handling transactions and justice, including punishment by slavery or death for crimes such as kidnapping or adultery.",
+      "User notes that Africans arriving among Europeans are ignorant of language, religion, manners, customs, and questions whether they are taught, treated as men, and whether slavery depresses their mind.",
+      "The narrative titled 'The Interesting Narrative of the Life of Olaudah Equiano, or Gustavus Vassa, the African' is written by Olaudah Equiano himself.",
+      "User believes reflections should reduce European pride and promote sympathy for Africans, acknowledging understanding is not confined to feature or colour.",
+      "The author recounts being kidnapped with his sister at age eleven, forced into a sack, taken by a chieftain who treated them well, working as a smith operating bellows to work gold, trained in war from early years shooting and throwing javelins, and eventually seeking to return home.",
+      "The narrative was printed in London and sold by Olaudah Equiano and multiple booksellers at Union-Street, St. Paul's Church-Yard, Fleet-Street, Bond-Street, and other London locations.",
+      "User believes these instances show complexion variation in different climates and hopes to remove prejudice against natives of Africa based on colour.",
+      "User observes that Spaniards in America under the torrid zone have become as dark coloured as native Indians of Virginia, and notes a Portuguese settlement at Mitomba, Sierra Leone, where inhabitants are mixed Portuguese and natives, now dark and woolly-haired, retaining some Portuguese language.",
+      "The community sells slaves to Oye-Eboe traders, but only prisoners of war or convicted criminals, and sometimes sells slaves to them."
+    ],
+    "latency_ms": 629,
+    "timestamp": "2026-04-16T07:04:18.466200+00:00"
+  },
+  "3": {
+    "question_id": 3,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The author, Olaudah Equiano, wrote the narrative to influence the abolition debate and to inspire compassion for the miseries of the slave trade.",
+      "The narrative titled 'The Interesting Narrative of the Life of Olaudah Equiano, or Gustavus Vassa, the African' is written by Olaudah Equiano himself.",
+      "User asserts that Europeans were once uncivilized like Africans and that nature did not make them inferior or slaves.",
+      "The user attends libations at her mother's tomb, a small solitary thatched house, experiencing terror and lamentation.",
+      "The narrative was printed in London and sold by Olaudah Equiano and multiple booksellers at Union-Street, St. Paul's Church-Yard, Fleet-Street, Bond-Street, and other London locations.",
+      "User is performing a performance for theory H and contenting themselves with extracting a fact as related by Dr. Mitchel I.",
+      "The author recounts being kidnapped with his sister at age eleven, forced into a sack, taken by a chieftain who treated them well, working as a smith operating bellows to work gold, trained in war from early years shooting and throwing javelins, and eventually seeking to return home.",
+      "User recounts that their father had many slaves and a large family, with seven children including the user and a sister, the only daughter.",
+      "Houses are built with unanimous assistance from neighbors and receive a feast in return.",
+      "Religion centers on a single Creator, believed to live in the sun, with rituals including libations, offerings of meat and drink, and belief in spirits guarding the living."
+    ],
+    "latency_ms": 551,
+    "timestamp": "2026-04-16T07:04:19.018524+00:00"
+  },
+  "4": {
+    "question_id": 4,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The author, Olaudah Equiano, wrote the narrative to influence the abolition debate and to inspire compassion for the miseries of the slave trade.",
+      "User believes reflections should reduce European pride and promote sympathy for Africans, acknowledging understanding is not confined to feature or colour.",
+      "User is performing a performance for theory H and contenting themselves with extracting a fact as related by Dr. Mitchel I.",
+      "The narrative titled 'The Interesting Narrative of the Life of Olaudah Equiano, or Gustavus Vassa, the African' is written by Olaudah Equiano himself.",
+      "Houses are built with unanimous assistance from neighbors and receive a feast in return.",
+      "The author recounts being kidnapped with his sister at age eleven, forced into a sack, taken by a chieftain who treated them well, working as a smith operating bellows to work gold, trained in war from early years shooting and throwing javelins, and eventually seeking to return home.",
+      "Religion centers on a single Creator, believed to live in the sun, with rituals including libations, offerings of meat and drink, and belief in spirits guarding the living.",
+      "The user attends libations at her mother's tomb, a small solitary thatched house, experiencing terror and lamentation.",
+      "User believes these instances show complexion variation in different climates and hopes to remove prejudice against natives of Africa based on colour.",
+      "User observes that Spaniards in America under the torrid zone have become as dark coloured as native Indians of Virginia, and notes a Portuguese settlement at Mitomba, Sierra Leone, where inhabitants are mixed Portuguese and natives, now dark and woolly-haired, retaining some Portuguese language."
+    ],
+    "latency_ms": 649,
+    "timestamp": "2026-04-16T07:04:19.668663+00:00"
+  },
+  "5": {
+    "question_id": 5,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The author, Olaudah Equiano, wrote the narrative to influence the abolition debate and to inspire compassion for the miseries of the slave trade.",
+      "Narrator recounts that the kingdom's government is nominally under the king of Benin, with local chiefs and elders handling transactions and justice, including punishment by slavery or death for crimes such as kidnapping or adultery.",
+      "The narrative titled 'The Interesting Narrative of the Life of Olaudah Equiano, or Gustavus Vassa, the African' is written by Olaudah Equiano himself.",
+      "User believes reflections should reduce European pride and promote sympathy for Africans, acknowledging understanding is not confined to feature or colour.",
+      "The narrative was printed in London and sold by Olaudah Equiano and multiple booksellers at Union-Street, St. Paul's Church-Yard, Fleet-Street, Bond-Street, and other London locations.",
+      "User is performing a performance for theory H and contenting themselves with extracting a fact as related by Dr. Mitchel I.",
+      "The author recounts being kidnapped with his sister at age eleven, forced into a sack, taken by a chieftain who treated them well, working as a smith operating bellows to work gold, trained in war from early years shooting and throwing javelins, and eventually seeking to return home.",
+      "Houses require little skill to erect; every man is a sufficient architect.",
+      "The master has a distinct apartment for sleeping with his male children.",
+      "The community has few manufactures, mainly calicoes, earthen ware, ornaments, and war and husbandry instruments, but commerce focuses on provisions, with little use of money."
+    ],
+    "latency_ms": 540,
+    "timestamp": "2026-04-16T07:04:20.210148+00:00"
+  },
+  "6": {
+    "question_id": 6,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The author, Olaudah Equiano, wrote the narrative to influence the abolition debate and to inspire compassion for the miseries of the slave trade.",
+      "The narrative titled 'The Interesting Narrative of the Life of Olaudah Equiano, or Gustavus Vassa, the African' is written by Olaudah Equiano himself.",
+      "User encourages Europeans to temper exultation with benevolence and gratitude to God for shared humanity.",
+      "The narrative was printed in London and sold by Olaudah Equiano and multiple booksellers at Union-Street, St. Paul's Church-Yard, Fleet-Street, Bond-Street, and other London locations.",
+      "The community has few manufactures, mainly calicoes, earthen ware, ornaments, and war and husbandry instruments, but commerce focuses on provisions, with little use of money.",
+      "Religion centers on a single Creator, believed to live in the sun, with rituals including libations, offerings of meat and drink, and belief in spirits guarding the living.",
+      "User notes that Africans arriving among Europeans are ignorant of language, religion, manners, customs, and questions whether they are taught, treated as men, and whether slavery depresses their mind.",
+      "The author recounts being kidnapped with his sister at age eleven, forced into a sack, taken by a chieftain who treated them well, working as a smith operating bellows to work gold, trained in war from early years shooting and throwing javelins, and eventually seeking to return home.",
+      "Their diet consists mainly of palm wine, stewed meat with pepper, and vegetables such as plantains, yams, beans, and corn, with a strong emphasis on cleanliness before meals.",
+      "Narrator recounts that the kingdom's government is nominally under the king of Benin, with local chiefs and elders handling transactions and justice, including punishment by slavery or death for crimes such as kidnapping or adultery."
+    ],
+    "latency_ms": 578,
+    "timestamp": "2026-04-16T07:04:20.789484+00:00"
+  },
+  "7": {
+    "question_id": 7,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "User believes these instances show complexion variation in different climates and hopes to remove prejudice against natives of Africa based on colour.",
+      "The kingdom of Benin, where the narrator was born, stretches about 170 miles along the coast and extends inland for roughly 1500 miles, with a wealth of fertile soil and warlike inhabitants.",
+      "The author, Olaudah Equiano, wrote the narrative to influence the abolition debate and to inspire compassion for the miseries of the slave trade.",
+      "Narrator was born in 1745 in Essaka, a fertile vale in the remote province of Eboe within the kingdom of Benin.",
+      "Houses are built with unanimous assistance from neighbors and receive a feast in return.",
+      "User is performing a performance for theory H and contenting themselves with extracting a fact as related by Dr. Mitchel I.",
+      "The author recounts being kidnapped with his sister at age eleven, forced into a sack, taken by a chieftain who treated them well, working as a smith operating bellows to work gold, trained in war from early years shooting and throwing javelins, and eventually seeking to return home.",
+      "The narrative titled 'The Interesting Narrative of the Life of Olaudah Equiano, or Gustavus Vassa, the African' is written by Olaudah Equiano himself.",
+      "The narrative was printed in London and sold by Olaudah Equiano and multiple booksellers at Union-Street, St. Paul's Church-Yard, Fleet-Street, Bond-Street, and other London locations.",
+      "The user attends libations at her mother's tomb, a small solitary thatched house, experiencing terror and lamentation."
+    ],
+    "latency_ms": 693,
+    "timestamp": "2026-04-16T07:04:21.484045+00:00"
+  },
+  "8": {
+    "question_id": 8,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The community has small coin pieces shaped like anchors, but their value and denomination are unclear.",
+      "The author, Olaudah Equiano, wrote the narrative to influence the abolition debate and to inspire compassion for the miseries of the slave trade.",
+      "The narrative was printed in London and sold by Olaudah Equiano and multiple booksellers at Union-Street, St. Paul's Church-Yard, Fleet-Street, Bond-Street, and other London locations.",
+      "The community has no beggars, no idleness, and all members contribute to the common stock.",
+      "The narrative titled 'The Interesting Narrative of the Life of Olaudah Equiano, or Gustavus Vassa, the African' is written by Olaudah Equiano himself.",
+      "The community has few manufactures, mainly calicoes, earthen ware, ornaments, and war and husbandry instruments, but commerce focuses on provisions, with little use of money.",
+      "The author recounts being kidnapped with his sister at age eleven, forced into a sack, taken by a chieftain who treated them well, working as a smith operating bellows to work gold, trained in war from early years shooting and throwing javelins, and eventually seeking to return home.",
+      "User believes these instances show complexion variation in different climates and hopes to remove prejudice against natives of Africa based on colour.",
+      "The master has a distinct apartment for sleeping with his male children.",
+      "Houses are built with unanimous assistance from neighbors and receive a feast in return."
+    ],
+    "latency_ms": 760,
+    "timestamp": "2026-04-16T07:04:22.244945+00:00"
+  },
+  "9": {
+    "question_id": 9,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The author, Olaudah Equiano, wrote the narrative to influence the abolition debate and to inspire compassion for the miseries of the slave trade.",
+      "The narrative titled 'The Interesting Narrative of the Life of Olaudah Equiano, or Gustavus Vassa, the African' is written by Olaudah Equiano himself.",
+      "Narrator recounts that the kingdom's government is nominally under the king of Benin, with local chiefs and elders handling transactions and justice, including punishment by slavery or death for crimes such as kidnapping or adultery.",
+      "Narrator's father, an elder or chief named Embrenche, bore the traditional mark of grandeur cut across the forehead and drawn to the eyebrows.",
+      "The narrative was printed in London and sold by Olaudah Equiano and multiple booksellers at Union-Street, St. Paul's Church-Yard, Fleet-Street, Bond-Street, and other London locations.",
+      "Religion centers on a single Creator, believed to live in the sun, with rituals including libations, offerings of meat and drink, and belief in spirits guarding the living.",
+      "The user attends libations at her mother's tomb, a small solitary thatched house, experiencing terror and lamentation.",
+      "The kingdom of Benin, where the narrator was born, stretches about 170 miles along the coast and extends inland for roughly 1500 miles, with a wealth of fertile soil and warlike inhabitants.",
+      "User notes that Africans arriving among Europeans are ignorant of language, religion, manners, customs, and questions whether they are taught, treated as men, and whether slavery depresses their mind.",
+      "User believes these instances show complexion variation in different climates and hopes to remove prejudice against natives of Africa based on colour."
+    ],
+    "latency_ms": 575,
+    "timestamp": "2026-04-16T07:04:22.824456+00:00"
+  },
+  "10": {
+    "question_id": 10,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The author, Olaudah Equiano, wrote the narrative to influence the abolition debate and to inspire compassion for the miseries of the slave trade.",
+      "User asserts that Europeans were once uncivilized like Africans and that nature did not make them inferior or slaves.",
+      "Narrator recounts that the kingdom's government is nominally under the king of Benin, with local chiefs and elders handling transactions and justice, including punishment by slavery or death for crimes such as kidnapping or adultery.",
+      "User believes reflections should reduce European pride and promote sympathy for Africans, acknowledging understanding is not confined to feature or colour.",
+      "The author recounts being kidnapped with his sister at age eleven, forced into a sack, taken by a chieftain who treated them well, working as a smith operating bellows to work gold, trained in war from early years shooting and throwing javelins, and eventually seeking to return home.",
+      "User encourages Europeans to temper exultation with benevolence and gratitude to God for shared humanity.",
+      "The narrative titled 'The Interesting Narrative of the Life of Olaudah Equiano, or Gustavus Vassa, the African' is written by Olaudah Equiano himself.",
+      "User is performing a performance for theory H and contenting themselves with extracting a fact as related by Dr. Mitchel I.",
+      "The master has a distinct apartment for sleeping with his male children.",
+      "The kingdom of Benin, where the narrator was born, stretches about 170 miles along the coast and extends inland for roughly 1500 miles, with a wealth of fertile soil and warlike inhabitants."
+    ],
+    "latency_ms": 545,
+    "timestamp": "2026-04-16T07:04:23.371144+00:00"
+  },
+  "11": {
+    "question_id": 11,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Houses are built with unanimous assistance from neighbors and receive a feast in return.",
+      "The author, Olaudah Equiano, wrote the narrative to influence the abolition debate and to inspire compassion for the miseries of the slave trade.",
+      "Kidnapped with his sister at eleven, the author was taken by a chieftain, worked as a smith operating bellows to work gold, wearing gold on wrists and ankles like a hand pump, with women also wearing it, trained in war shooting and throwing javelins, eventually sought to return home.",
+      "The kingdom of Benin, where the narrator was born, stretches about 170 miles along the coast and extends inland for roughly 1500 miles, with a wealth of fertile soil and warlike inhabitants.",
+      "Equiano used his liberty to inquire the way to his own home, sometimes accompanying maidens to bring pitchers of water from springs.",
+      "User notes that Africans arriving among Europeans are ignorant of language, religion, manners, customs, and questions whether they are taught, treated as men, and whether slavery depresses their mind.",
+      "User observes that Spaniards in America under the torrid zone have become as dark coloured as native Indians of Virginia, and notes a Portuguese settlement at Mitomba, Sierra Leone, where inhabitants are mixed Portuguese and natives, now dark and woolly-haired, retaining some Portuguese language.",
+      "User encourages Europeans to temper exultation with benevolence and gratitude to God for shared humanity.",
+      "The community has small coin pieces shaped like anchors, but their value and denomination are unclear.",
+      "The narrative titled 'The Interesting Narrative of the Life of Olaudah Equiano, or Gustavus Vassa, the African' is written by Olaudah Equiano himself."
+    ],
+    "latency_ms": 639,
+    "timestamp": "2026-04-16T07:04:24.011120+00:00"
+  },
+  "12": {
+    "question_id": 12,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Equiano used his liberty to inquire the way to his own home, sometimes accompanying maidens to bring pitchers of water from springs.",
+      "Equiano observed the sun rising and setting, noting that his father's house was toward the rising of the sun.",
+      "The kingdom of Benin, where the narrator was born, stretches about 170 miles along the coast and extends inland for roughly 1500 miles, with a wealth of fertile soil and warlike inhabitants.",
+      "User notes that Africans arriving among Europeans are ignorant of language, religion, manners, customs, and questions whether they are taught, treated as men, and whether slavery depresses their mind.",
+      "User encourages Europeans to temper exultation with benevolence and gratitude to God for shared humanity.",
+      "Kidnapped with his sister at eleven, the author was taken by a chieftain, worked as a smith operating bellows to work gold, wearing gold on wrists and ankles like a hand pump, with women also wearing it, trained in war shooting and throwing javelins, eventually sought to return home.",
+      "The user attends libations at her mother's tomb, a small solitary thatched house, experiencing terror and lamentation.",
+      "Religion centers on a single Creator, believed to live in the sun, with rituals including libations, offerings of meat and drink, and belief in spirits guarding the living.",
+      "The master has a distinct apartment for sleeping with his male children.",
+      "User asserts that Europeans were once uncivilized like Africans and that nature did not make them inferior or slaves."
+    ],
+    "latency_ms": 601,
+    "timestamp": "2026-04-16T07:04:24.612260+00:00"
+  },
+  "13": {
+    "question_id": 13,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "While planning escape, Equiano accidentally killed a chicken by tossing a pebble, leading to a confrontation with an elderly slave woman who threatened him; he feared flogging.",
+      "Equiano used his liberty to inquire the way to his own home, sometimes accompanying maidens to bring pitchers of water from springs.",
+      "The narrative titled 'The Interesting Narrative of the Life of Olaudah Equiano, or Gustavus Vassa, the African' is written by Olaudah Equiano himself.",
+      "The author, Olaudah Equiano, wrote the narrative to influence the abolition debate and to inspire compassion for the miseries of the slave trade.",
+      "Equiano observed the sun rising and setting, noting that his father's house was toward the rising of the sun.",
+      "The user attends libations at her mother's tomb, a small solitary thatched house, experiencing terror and lamentation.",
+      "Equiano felt oppressed and weighed down by grief after his mother and friends, and his love of liberty grew stronger by not daring to eat with free-born children, although he was mostly their companion.",
+      "The narrative was printed in London and sold by Olaudah Equiano and multiple booksellers at Union-Street, St. Paul's Church-Yard, Fleet-Street, Bond-Street, and other London locations.",
+      "Kidnapped with his sister at eleven, the author was taken by a chieftain, worked as a smith operating bellows to work gold, wearing gold on wrists and ankles like a hand pump, with women also wearing it, trained in war shooting and throwing javelins, eventually sought to return home.",
+      "Narrator recounts that the kingdom's government is nominally under the king of Benin, with local chiefs and elders handling transactions and justice, including punishment by slavery or death for crimes such as kidnapping or adultery."
+    ],
+    "latency_ms": 583,
+    "timestamp": "2026-04-16T07:04:25.196283+00:00"
+  },
+  "14": {
+    "question_id": 14,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The author, Olaudah Equiano, wrote the narrative to influence the abolition debate and to inspire compassion for the miseries of the slave trade.",
+      "The narrative titled 'The Interesting Narrative of the Life of Olaudah Equiano, or Gustavus Vassa, the African' is written by Olaudah Equiano himself.",
+      "Equiano felt oppressed and weighed down by grief after his mother and friends, and his love of liberty grew stronger by not daring to eat with free-born children, although he was mostly their companion.",
+      "Equiano fled into a thicket, hid, but neighbors searched; they did not find him; he feared snakes; eventually left the thicket, faint and hungry, crept to his master's kitchen, lay in ashes, wishing for death.",
+      "While planning escape, Equiano accidentally killed a chicken by tossing a pebble, leading to a confrontation with an elderly slave woman who threatened him; he feared flogging.",
+      "User encourages Europeans to temper exultation with benevolence and gratitude to God for shared humanity.",
+      "The narrative was printed in London and sold by Olaudah Equiano and multiple booksellers at Union-Street, St. Paul's Church-Yard, Fleet-Street, Bond-Street, and other London locations.",
+      "User believes reflections should reduce European pride and promote sympathy for Africans, acknowledging understanding is not confined to feature or colour.",
+      "The community has small coin pieces shaped like anchors, but their value and denomination are unclear.",
+      "User notes that Africans arriving among Europeans are ignorant of language, religion, manners, customs, and questions whether they are taught, treated as men, and whether slavery depresses their mind."
+    ],
+    "latency_ms": 635,
+    "timestamp": "2026-04-16T07:04:25.832806+00:00"
+  },
+  "15": {
+    "question_id": 15,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "While planning escape, Equiano accidentally killed a chicken by tossing a pebble, leading to a confrontation with an elderly slave woman who threatened him; he feared flogging.",
+      "The old woman slave saw Equiano, promised to intercede, went to his master, who reprimanded him and ordered him to be taken care of.",
+      "The author, Olaudah Equiano, wrote the narrative to influence the abolition debate and to inspire compassion for the miseries of the slave trade.",
+      "Equiano used his liberty to inquire the way to his own home, sometimes accompanying maidens to bring pitchers of water from springs.",
+      "Equiano fled into a thicket, hid, but neighbors searched; they did not find him; he feared snakes; eventually left the thicket, faint and hungry, crept to his master's kitchen, lay in ashes, wishing for death.",
+      "The narrative titled 'The Interesting Narrative of the Life of Olaudah Equiano, or Gustavus Vassa, the African' is written by Olaudah Equiano himself.",
+      "Equiano felt oppressed and weighed down by grief after his mother and friends, and his love of liberty grew stronger by not daring to eat with free-born children, although he was mostly their companion.",
+      "Equiano observed the sun rising and setting, noting that his father's house was toward the rising of the sun.",
+      "User believes reflections should reduce European pride and promote sympathy for Africans, acknowledging understanding is not confined to feature or colour.",
+      "The community sells slaves to Oye-Eboe traders, but only prisoners of war or convicted criminals, and sometimes sells slaves to them."
+    ],
+    "latency_ms": 729,
+    "timestamp": "2026-04-16T07:04:26.563759+00:00"
+  },
+  "16": {
+    "question_id": 16,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "After Equiano was again sold, his master's only daughter, child by first wife, sickened and died, affecting the master; the master almost killed himself but was prevented; he recovered.",
+      "Equiano felt oppressed and weighed down by grief after his mother and friends, and his love of liberty grew stronger by not daring to eat with free-born children, although he was mostly their companion.",
+      "Equiano used his liberty to inquire the way to his own home, sometimes accompanying maidens to bring pitchers of water from springs.",
+      "Equiano was carried to the left of the sun's rising, through many countries and woods; people carried him on shoulders or backs; he saw many sheds along roads; he learned two or three languages.",
+      "The old woman slave saw Equiano, promised to intercede, went to his master, who reprimanded him and ordered him to be taken care of.",
+      "Equiano fled into a thicket, hid, but neighbors searched; they did not find him; he feared snakes; eventually left the thicket, faint and hungry, crept to his master's kitchen, lay in ashes, wishing for death.",
+      "The author, Olaudah Equiano, wrote the narrative to influence the abolition debate and to inspire compassion for the miseries of the slave trade.",
+      "Equiano observed the sun rising and setting, noting that his father's house was toward the rising of the sun.",
+      "While planning escape, Equiano accidentally killed a chicken by tossing a pebble, leading to a confrontation with an elderly slave woman who threatened him; he feared flogging.",
+      "The narrative titled 'The Interesting Narrative of the Life of Olaudah Equiano, or Gustavus Vassa, the African' is written by Olaudah Equiano himself."
+    ],
+    "latency_ms": 699,
+    "timestamp": "2026-04-16T07:04:27.267122+00:00"
+  },
+  "17": {
+    "question_id": 17,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Equiano used his liberty to inquire the way to his own home, sometimes accompanying maidens to bring pitchers of water from springs.",
+      "Equiano felt oppressed and weighed down by grief after his mother and friends, and his love of liberty grew stronger by not daring to eat with free-born children, although he was mostly their companion.",
+      "Equiano saw his sister, they embraced and wept; his sister was torn away; Equiano was more miserable.",
+      "While planning escape, Equiano accidentally killed a chicken by tossing a pebble, leading to a confrontation with an elderly slave woman who threatened him; he feared flogging.",
+      "After Equiano was again sold, his master's only daughter, child by first wife, sickened and died, affecting the master; the master almost killed himself but was prevented; he recovered.",
+      "Equiano was again sold, came to town Tinmah, rich, with many rivulets and a pond; he first tasted cocoa-nuts, thought superior; saw sugar-cane; money was little white shells; he was sold for 172 shells by a merchant.",
+      "The old woman slave saw Equiano, promised to intercede, went to his master, who reprimanded him and ordered him to be taken care of.",
+      "Equiano was carried to the left of the sun's rising, through many countries and woods; people carried him on shoulders or backs; he saw many sheds along roads; he learned two or three languages.",
+      "User asserts that Europeans were once uncivilized like Africans and that nature did not make them inferior or slaves.",
+      "The author, Olaudah Equiano, wrote the narrative to influence the abolition debate and to inspire compassion for the miseries of the slave trade."
+    ],
+    "latency_ms": 589,
+    "timestamp": "2026-04-16T07:04:27.857091+00:00"
+  },
+  "18": {
+    "question_id": 18,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Equiano felt oppressed and weighed down by grief after his mother and friends, and his love of liberty grew stronger by not daring to eat with free-born children, although he was mostly their companion.",
+      "Equiano saw his sister, they embraced and wept; his sister was torn away; Equiano was more miserable.",
+      "Equiano was washed and perfumed, led into the mistress's presence, ate and drank; he was surprised that the young gentleman would not eat or drink until he had taken first, because he was eldest.",
+      "The author, Olaudah Equiano, wrote the narrative to influence the abolition debate and to inspire compassion for the miseries of the slave trade.",
+      "After Equiano was again sold, his master's only daughter, child by first wife, sickened and died, affecting the master; the master almost killed himself but was prevented; he recovered.",
+      "The old woman slave saw Equiano, promised to intercede, went to his master, who reprimanded him and ordered him to be taken care of.",
+      "Equiano was carried to the left of the sun's rising, through many countries and woods; people carried him on shoulders or backs; he saw many sheds along roads; he learned two or three languages.",
+      "Equiano observed the sun rising and setting, noting that his father's house was toward the rising of the sun.",
+      "The narrative was addressed to the Lords Spiritual and Temporal and the Commons of the Parliament of Great Britain.",
+      "The narrative titled 'The Interesting Narrative of the Life of Olaudah Equiano, or Gustavus Vassa, the African' is written by Olaudah Equiano himself."
+    ],
+    "latency_ms": 784,
+    "timestamp": "2026-04-16T07:04:28.644725+00:00"
+  },
+  "19": {
+    "question_id": 19,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "User encourages Europeans to temper exultation with benevolence and gratitude to God for shared humanity.",
+      "Equiano was carried to the left of the sun's rising, through many countries and woods; people carried him on shoulders or backs; he saw many sheds along roads; he learned two or three languages.",
+      "Equiano saw his sister, they embraced and wept; his sister was torn away; Equiano was more miserable.",
+      "Equiano was astonished that he was treated like a free person, not a slave, and began to think he would be adopted into the family.",
+      "Equiano felt oppressed and weighed down by grief after his mother and friends, and his love of liberty grew stronger by not daring to eat with free-born children, although he was mostly their companion.",
+      "The author, Olaudah Equiano, wrote the narrative to influence the abolition debate and to inspire compassion for the miseries of the slave trade.",
+      "The old woman slave saw Equiano, promised to intercede, went to his master, who reprimanded him and ordered him to be taken care of.",
+      "Equiano was washed and perfumed, led into the mistress's presence, ate and drank; he was surprised that the young gentleman would not eat or drink until he had taken first, because he was eldest.",
+      "The narrative titled 'The Interesting Narrative of the Life of Olaudah Equiano, or Gustavus Vassa, the African' is written by Olaudah Equiano himself.",
+      "While planning escape, Equiano accidentally killed a chicken by tossing a pebble, leading to a confrontation with an elderly slave woman who threatened him; he feared flogging."
+    ],
+    "latency_ms": 641,
+    "timestamp": "2026-04-16T07:04:29.286375+00:00"
+  },
+  "20": {
+    "question_id": 20,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Equiano was astonished that he was treated like a free person, not a slave, and began to think he would be adopted into the family.",
+      "Equiano felt oppressed and weighed down by grief after his mother and friends, and his love of liberty grew stronger by not daring to eat with free-born children, although he was mostly their companion.",
+      "Equiano used his liberty to inquire the way to his own home, sometimes accompanying maidens to bring pitchers of water from springs.",
+      "Equiano saw his sister, they embraced and wept; his sister was torn away; Equiano was more miserable.",
+      "The old woman slave saw Equiano, promised to intercede, went to his master, who reprimanded him and ordered him to be taken care of.",
+      "Equiano fled into a thicket, hid, but neighbors searched; they did not find him; he feared snakes; eventually left the thicket, faint and hungry, crept to his master's kitchen, lay in ashes, wishing for death.",
+      "Equiano was carried to the left of the sun's rising, through many countries and woods; people carried him on shoulders or backs; he saw many sheds along roads; he learned two or three languages.",
+      "While planning escape, Equiano accidentally killed a chicken by tossing a pebble, leading to a confrontation with an elderly slave woman who threatened him; he feared flogging.",
+      "Equiano was washed and perfumed, led into the mistress's presence, ate and drank; he was surprised that the young gentleman would not eat or drink until he had taken first, because he was eldest.",
+      "After Equiano was again sold, his master's only daughter, child by first wife, sickened and died, affecting the master; the master almost killed himself but was prevented; he recovered."
+    ],
+    "latency_ms": 746,
+    "timestamp": "2026-04-16T07:04:30.033392+00:00"
+  },
+  "21": {
+    "question_id": 21,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Equiano saw his sister, they embraced and wept; his sister was torn away; Equiano was more miserable.",
+      "Equiano felt oppressed and weighed down by grief after his mother and friends, and his love of liberty grew stronger by not daring to eat with free-born children, although he was mostly their companion.",
+      "The old woman slave saw Equiano, promised to intercede, went to his master, who reprimanded him and ordered him to be taken care of.",
+      "Equiano fled into a thicket, hid, but neighbors searched; they did not find him; he feared snakes; eventually left the thicket, faint and hungry, crept to his master's kitchen, lay in ashes, wishing for death.",
+      "The author, Olaudah Equiano, wrote the narrative to influence the abolition debate and to inspire compassion for the miseries of the slave trade.",
+      "User encourages Europeans to temper exultation with benevolence and gratitude to God for shared humanity.",
+      "Equiano used his liberty to inquire the way to his own home, sometimes accompanying maidens to bring pitchers of water from springs.",
+      "Equiano was astonished that he was treated like a free person, not a slave, and began to think he would be adopted into the family.",
+      "Equiano was again sold, came to town Tinmah, rich, with many rivulets and a pond; he first tasted cocoa-nuts, thought superior; saw sugar-cane; money was little white shells; he was sold for 172 shells by a merchant.",
+      "Equiano was carried to the left of the sun's rising, through many countries and woods; people carried him on shoulders or backs; he saw many sheds along roads; he learned two or three languages."
+    ],
+    "latency_ms": 693,
+    "timestamp": "2026-04-16T07:04:30.727125+00:00"
+  },
+  "22": {
+    "question_id": 22,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Equiano saw his sister, they embraced and wept; his sister was torn away; Equiano was more miserable.",
+      "Equiano felt oppressed and weighed down by grief after his mother and friends, and his love of liberty grew stronger by not daring to eat with free-born children, although he was mostly their companion.",
+      "Equiano was astonished that he was treated like a free person, not a slave, and began to think he would be adopted into the family.",
+      "Equiano used his liberty to inquire the way to his own home, sometimes accompanying maidens to bring pitchers of water from springs.",
+      "After Equiano was again sold, his master's only daughter, child by first wife, sickened and died, affecting the master; the master almost killed himself but was prevented; he recovered.",
+      "Equiano fled into a thicket, hid, but neighbors searched; they did not find him; he feared snakes; eventually left the thicket, faint and hungry, crept to his master's kitchen, lay in ashes, wishing for death.",
+      "Equiano was washed and perfumed, led into the mistress's presence, ate and drank; he was surprised that the young gentleman would not eat or drink until he had taken first, because he was eldest.",
+      "The old woman slave saw Equiano, promised to intercede, went to his master, who reprimanded him and ordered him to be taken care of.",
+      "Equiano was carried to the left of the sun's rising, through many countries and woods; people carried him on shoulders or backs; he saw many sheds along roads; he learned two or three languages.",
+      "Equiano was again sold, came to town Tinmah, rich, with many rivulets and a pond; he first tasted cocoa-nuts, thought superior; saw sugar-cane; money was little white shells; he was sold for 172 shells by a merchant."
+    ],
+    "latency_ms": 584,
+    "timestamp": "2026-04-16T07:04:31.311911+00:00"
+  },
+  "23": {
+    "question_id": 23,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The old woman slave saw Equiano, promised to intercede, went to his master, who reprimanded him and ordered him to be taken care of.",
+      "Equiano felt oppressed and weighed down by grief after his mother and friends, and his love of liberty grew stronger by not daring to eat with free-born children, although he was mostly their companion.",
+      "Equiano saw his sister, they embraced and wept; his sister was torn away; Equiano was more miserable.",
+      "While planning escape, Equiano accidentally killed a chicken by tossing a pebble, leading to a confrontation with an elderly slave woman who threatened him; he feared flogging.",
+      "User believes reflections should reduce European pride and promote sympathy for Africans, acknowledging understanding is not confined to feature or colour.",
+      "Equiano was astonished that he was treated like a free person, not a slave, and began to think he would be adopted into the family.",
+      "After Equiano was again sold, his master's only daughter, child by first wife, sickened and died, affecting the master; the master almost killed himself but was prevented; he recovered.",
+      "Equiano used his liberty to inquire the way to his own home, sometimes accompanying maidens to bring pitchers of water from springs.",
+      "Equiano observed the sun rising and setting, noting that his father's house was toward the rising of the sun.",
+      "Equiano was carried to the left of the sun's rising, through many countries and woods; people carried him on shoulders or backs; he saw many sheds along roads; he learned two or three languages."
+    ],
+    "latency_ms": 586,
+    "timestamp": "2026-04-16T07:04:31.902154+00:00"
+  },
+  "24": {
+    "question_id": 24,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Equiano was astonished that he was treated like a free person, not a slave, and began to think he would be adopted into the family.",
+      "While planning escape, Equiano accidentally killed a chicken by tossing a pebble, leading to a confrontation with an elderly slave woman who threatened him; he feared flogging.",
+      "Equiano was washed and perfumed, led into the mistress's presence, ate and drank; he was surprised that the young gentleman would not eat or drink until he had taken first, because he was eldest.",
+      "Equiano was carried to the left of the sun's rising, through many countries and woods; people carried him on shoulders or backs; he saw many sheds along roads; he learned two or three languages.",
+      "User believes these instances show complexion variation in different climates and hopes to remove prejudice against natives of Africa based on colour.",
+      "Equiano fled into a thicket, hid, but neighbors searched; they did not find him; he feared snakes; eventually left the thicket, faint and hungry, crept to his master's kitchen, lay in ashes, wishing for death.",
+      "Equiano felt oppressed and weighed down by grief after his mother and friends, and his love of liberty grew stronger by not daring to eat with free-born children, although he was mostly their companion.",
+      "Houses are built with unanimous assistance from neighbors and receive a feast in return.",
+      "User notes that Africans arriving among Europeans are ignorant of language, religion, manners, customs, and questions whether they are taught, treated as men, and whether slavery depresses their mind.",
+      "Slaves' houses are distributed throughout the enclosure."
+    ],
+    "latency_ms": 554,
+    "timestamp": "2026-04-16T07:04:32.461770+00:00"
+  },
+  "25": {
+    "question_id": 25,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Equiano was carried to the left of the sun's rising, through many countries and woods; people carried him on shoulders or backs; he saw many sheds along roads; he learned two or three languages.",
+      "Equiano used his liberty to inquire the way to his own home, sometimes accompanying maidens to bring pitchers of water from springs.",
+      "The old woman slave saw Equiano, promised to intercede, went to his master, who reprimanded him and ordered him to be taken care of.",
+      "Equiano saw his sister, they embraced and wept; his sister was torn away; Equiano was more miserable.",
+      "Equiano was washed and perfumed, led into the mistress's presence, ate and drank; he was surprised that the young gentleman would not eat or drink until he had taken first, because he was eldest.",
+      "Equiano was astonished that he was treated like a free person, not a slave, and began to think he would be adopted into the family.",
+      "Equiano observed the sun rising and setting, noting that his father's house was toward the rising of the sun.",
+      "Equiano felt oppressed and weighed down by grief after his mother and friends, and his love of liberty grew stronger by not daring to eat with free-born children, although he was mostly their companion.",
+      "While planning escape, Equiano accidentally killed a chicken by tossing a pebble, leading to a confrontation with an elderly slave woman who threatened him; he feared flogging.",
+      "The narrative titled 'The Interesting Narrative of the Life of Olaudah Equiano, or Gustavus Vassa, the African' is written by Olaudah Equiano himself."
+    ],
+    "latency_ms": 619,
+    "timestamp": "2026-04-16T07:04:33.084299+00:00"
+  },
+  "26": {
+    "question_id": 26,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Equiano saw his sister, they embraced and wept; his sister was torn away; Equiano was more miserable.",
+      "Equiano was carried to the left of the sun's rising, through many countries and woods; people carried him on shoulders or backs; he saw many sheds along roads; he learned two or three languages.",
+      "Equiano used his liberty to inquire the way to his own home, sometimes accompanying maidens to bring pitchers of water from springs.",
+      "Equiano felt oppressed and weighed down by grief after his mother and friends, and his love of liberty grew stronger by not daring to eat with free-born children, although he was mostly their companion.",
+      "The old woman slave saw Equiano, promised to intercede, went to his master, who reprimanded him and ordered him to be taken care of.",
+      "User believes reflections should reduce European pride and promote sympathy for Africans, acknowledging understanding is not confined to feature or colour.",
+      "The author, Olaudah Equiano, wrote the narrative to influence the abolition debate and to inspire compassion for the miseries of the slave trade.",
+      "Equiano fled into a thicket, hid, but neighbors searched; they did not find him; he feared snakes; eventually left the thicket, faint and hungry, crept to his master's kitchen, lay in ashes, wishing for death.",
+      "After two or three days at the merchant's house, a wealthy widow and her son, a young gentleman about Equiano's age and size, bought him and took him home.",
+      "The narrative titled 'The Interesting Narrative of the Life of Olaudah Equiano, or Gustavus Vassa, the African' is written by Olaudah Equiano himself."
+    ],
+    "latency_ms": 615,
+    "timestamp": "2026-04-16T07:04:33.704174+00:00"
+  },
+  "27": {
+    "question_id": 27,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Equiano used his liberty to inquire the way to his own home, sometimes accompanying maidens to bring pitchers of water from springs.",
+      "Equiano was astonished that he was treated like a free person, not a slave, and began to think he would be adopted into the family.",
+      "Equiano saw his sister, they embraced and wept; his sister was torn away; Equiano was more miserable.",
+      "Equiano felt oppressed and weighed down by grief after his mother and friends, and his love of liberty grew stronger by not daring to eat with free-born children, although he was mostly their companion.",
+      "Equiano was washed and perfumed, led into the mistress's presence, ate and drank; he was surprised that the young gentleman would not eat or drink until he had taken first, because he was eldest.",
+      "Equiano was carried to the left of the sun's rising, through many countries and woods; people carried him on shoulders or backs; he saw many sheds along roads; he learned two or three languages.",
+      "The old woman slave saw Equiano, promised to intercede, went to his master, who reprimanded him and ordered him to be taken care of.",
+      "After Equiano was again sold, his master's only daughter, child by first wife, sickened and died, affecting the master; the master almost killed himself but was prevented; he recovered.",
+      "While planning escape, Equiano accidentally killed a chicken by tossing a pebble, leading to a confrontation with an elderly slave woman who threatened him; he feared flogging.",
+      "Equiano fled into a thicket, hid, but neighbors searched; they did not find him; he feared snakes; eventually left the thicket, faint and hungry, crept to his master's kitchen, lay in ashes, wishing for death."
+    ],
+    "latency_ms": 565,
+    "timestamp": "2026-04-16T07:04:34.271232+00:00"
+  },
+  "28": {
+    "question_id": 28,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Equiano was carried to the left of the sun's rising, through many countries and woods; people carried him on shoulders or backs; he saw many sheds along roads; he learned two or three languages.",
+      "After two or three days at the merchant's house, a wealthy widow and her son, a young gentleman about Equiano's age and size, bought him and took him home.",
+      "Equiano was washed and perfumed, led into the mistress's presence, ate and drank; he was surprised that the young gentleman would not eat or drink until he had taken first, because he was eldest.",
+      "User believes reflections should reduce European pride and promote sympathy for Africans, acknowledging understanding is not confined to feature or colour.",
+      "Narrator recounts that the kingdom's government is nominally under the king of Benin, with local chiefs and elders handling transactions and justice, including punishment by slavery or death for crimes such as kidnapping or adultery.",
+      "User asserts that Europeans were once uncivilized like Africans and that nature did not make them inferior or slaves.",
+      "The narrative titled 'The Interesting Narrative of the Life of Olaudah Equiano, or Gustavus Vassa, the African' is written by Olaudah Equiano himself.",
+      "The community sells slaves to Oye-Eboe traders, but only prisoners of war or convicted criminals, and sometimes sells slaves to them.",
+      "Narrator's father, an elder or chief named Embrenche, bore the traditional mark of grandeur cut across the forehead and drawn to the eyebrows.",
+      "Houses require little skill to erect; every man is a sufficient architect."
+    ],
+    "latency_ms": 644,
+    "timestamp": "2026-04-16T07:04:34.917158+00:00"
+  },
+  "29": {
+    "question_id": 29,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Equiano was astonished that he was treated like a free person, not a slave, and began to think he would be adopted into the family.",
+      "Equiano used his liberty to inquire the way to his own home, sometimes accompanying maidens to bring pitchers of water from springs.",
+      "While planning escape, Equiano accidentally killed a chicken by tossing a pebble, leading to a confrontation with an elderly slave woman who threatened him; he feared flogging.",
+      "Equiano fled into a thicket, hid, but neighbors searched; they did not find him; he feared snakes; eventually left the thicket, faint and hungry, crept to his master's kitchen, lay in ashes, wishing for death.",
+      "Equiano was again sold, came to town Tinmah, rich, with many rivulets and a pond; he first tasted cocoa-nuts, thought superior; saw sugar-cane; money was little white shells; he was sold for 172 shells by a merchant.",
+      "Equiano felt oppressed and weighed down by grief after his mother and friends, and his love of liberty grew stronger by not daring to eat with free-born children, although he was mostly their companion.",
+      "The old woman slave saw Equiano, promised to intercede, went to his master, who reprimanded him and ordered him to be taken care of.",
+      "Equiano saw his sister, they embraced and wept; his sister was torn away; Equiano was more miserable.",
+      "Equiano was carried to the left of the sun's rising, through many countries and woods; people carried him on shoulders or backs; he saw many sheds along roads; he learned two or three languages.",
+      "After Equiano was again sold, his master's only daughter, child by first wife, sickened and died, affecting the master; the master almost killed himself but was prevented; he recovered."
+    ],
+    "latency_ms": 676,
+    "timestamp": "2026-04-16T07:04:35.596321+00:00"
+  },
+  "30": {
+    "question_id": 30,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Equiano used his liberty to inquire the way to his own home, sometimes accompanying maidens to bring pitchers of water from springs.",
+      "The old woman slave saw Equiano, promised to intercede, went to his master, who reprimanded him and ordered him to be taken care of.",
+      "While planning escape, Equiano accidentally killed a chicken by tossing a pebble, leading to a confrontation with an elderly slave woman who threatened him; he feared flogging.",
+      "Equiano felt oppressed and weighed down by grief after his mother and friends, and his love of liberty grew stronger by not daring to eat with free-born children, although he was mostly their companion.",
+      "Equiano saw his sister, they embraced and wept; his sister was torn away; Equiano was more miserable.",
+      "Equiano was astonished that he was treated like a free person, not a slave, and began to think he would be adopted into the family.",
+      "Equiano was carried to the left of the sun's rising, through many countries and woods; people carried him on shoulders or backs; he saw many sheds along roads; he learned two or three languages.",
+      "User encourages Europeans to temper exultation with benevolence and gratitude to God for shared humanity.",
+      "The author, Olaudah Equiano, wrote the narrative to influence the abolition debate and to inspire compassion for the miseries of the slave trade.",
+      "Equiano was again sold, came to town Tinmah, rich, with many rivulets and a pond; he first tasted cocoa-nuts, thought superior; saw sugar-cane; money was little white shells; he was sold for 172 shells by a merchant."
+    ],
+    "latency_ms": 619,
+    "timestamp": "2026-04-16T07:04:36.216657+00:00"
+  },
+  "31": {
+    "question_id": 31,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Equiano was washed and perfumed, led into the mistress's presence, ate and drank; he was surprised that the young gentleman would not eat or drink until he had taken first, because he was eldest.",
+      "Equiano was astonished that he was treated like a free person, not a slave, and began to think he would be adopted into the family.",
+      "While planning escape, Equiano accidentally killed a chicken by tossing a pebble, leading to a confrontation with an elderly slave woman who threatened him; he feared flogging.",
+      "Equiano was carried to the left of the sun's rising, through many countries and woods; people carried him on shoulders or backs; he saw many sheds along roads; he learned two or three languages.",
+      "Equiano felt oppressed and weighed down by grief after his mother and friends, and his love of liberty grew stronger by not daring to eat with free-born children, although he was mostly their companion.",
+      "Equiano fled into a thicket, hid, but neighbors searched; they did not find him; he feared snakes; eventually left the thicket, faint and hungry, crept to his master's kitchen, lay in ashes, wishing for death.",
+      "Equiano saw his sister, they embraced and wept; his sister was torn away; Equiano was more miserable.",
+      "Equiano was again sold, came to town Tinmah, rich, with many rivulets and a pond; he first tasted cocoa-nuts, thought superior; saw sugar-cane; money was little white shells; he was sold for 172 shells by a merchant.",
+      "Equiano used his liberty to inquire the way to his own home, sometimes accompanying maidens to bring pitchers of water from springs.",
+      "After Equiano was again sold, his master's only daughter, child by first wife, sickened and died, affecting the master; the master almost killed himself but was prevented; he recovered."
+    ],
+    "latency_ms": 549,
+    "timestamp": "2026-04-16T07:04:36.770983+00:00"
+  },
+  "32": {
+    "question_id": 32,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Equiano was astonished that he was treated like a free person, not a slave, and began to think he would be adopted into the family.",
+      "Equiano was carried to the left of the sun's rising, through many countries and woods; people carried him on shoulders or backs; he saw many sheds along roads; he learned two or three languages.",
+      "Equiano felt oppressed and weighed down by grief after his mother and friends, and his love of liberty grew stronger by not daring to eat with free-born children, although he was mostly their companion.",
+      "Equiano was washed and perfumed, led into the mistress's presence, ate and drank; he was surprised that the young gentleman would not eat or drink until he had taken first, because he was eldest.",
+      "Equiano used his liberty to inquire the way to his own home, sometimes accompanying maidens to bring pitchers of water from springs.",
+      "Equiano saw his sister, they embraced and wept; his sister was torn away; Equiano was more miserable.",
+      "After Equiano was again sold, his master's only daughter, child by first wife, sickened and died, affecting the master; the master almost killed himself but was prevented; he recovered.",
+      "Equiano was again sold, came to town Tinmah, rich, with many rivulets and a pond; he first tasted cocoa-nuts, thought superior; saw sugar-cane; money was little white shells; he was sold for 172 shells by a merchant.",
+      "While planning escape, Equiano accidentally killed a chicken by tossing a pebble, leading to a confrontation with an elderly slave woman who threatened him; he feared flogging.",
+      "User believes these instances show complexion variation in different climates and hopes to remove prejudice against natives of Africa based on colour."
+    ],
+    "latency_ms": 690,
+    "timestamp": "2026-04-16T07:04:37.463161+00:00"
+  },
+  "33": {
+    "question_id": 33,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Equiano felt oppressed and weighed down by grief after his mother and friends, and his love of liberty grew stronger by not daring to eat with free-born children, although he was mostly their companion.",
+      "Equiano saw his sister, they embraced and wept; his sister was torn away; Equiano was more miserable.",
+      "While planning escape, Equiano accidentally killed a chicken by tossing a pebble, leading to a confrontation with an elderly slave woman who threatened him; he feared flogging.",
+      "Equiano used his liberty to inquire the way to his own home, sometimes accompanying maidens to bring pitchers of water from springs.",
+      "Equiano was astonished that he was treated like a free person, not a slave, and began to think he would be adopted into the family.",
+      "Equiano observed the sun rising and setting, noting that his father's house was toward the rising of the sun.",
+      "The old woman slave saw Equiano, promised to intercede, went to his master, who reprimanded him and ordered him to be taken care of.",
+      "Equiano was again sold, came to town Tinmah, rich, with many rivulets and a pond; he first tasted cocoa-nuts, thought superior; saw sugar-cane; money was little white shells; he was sold for 172 shells by a merchant.",
+      "Equiano was washed and perfumed, led into the mistress's presence, ate and drank; he was surprised that the young gentleman would not eat or drink until he had taken first, because he was eldest.",
+      "After Equiano was again sold, his master's only daughter, child by first wife, sickened and died, affecting the master; the master almost killed himself but was prevented; he recovered."
+    ],
+    "latency_ms": 762,
+    "timestamp": "2026-04-16T07:04:38.230450+00:00"
+  },
+  "34": {
+    "question_id": 34,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Equiano used his liberty to inquire the way to his own home, sometimes accompanying maidens to bring pitchers of water from springs.",
+      "Equiano felt oppressed and weighed down by grief after his mother and friends, and his love of liberty grew stronger by not daring to eat with free-born children, although he was mostly their companion.",
+      "The old woman slave saw Equiano, promised to intercede, went to his master, who reprimanded him and ordered him to be taken care of.",
+      "The author, Olaudah Equiano, wrote the narrative to influence the abolition debate and to inspire compassion for the miseries of the slave trade.",
+      "While planning escape, Equiano accidentally killed a chicken by tossing a pebble, leading to a confrontation with an elderly slave woman who threatened him; he feared flogging.",
+      "After two or three days at the merchant's house, a wealthy widow and her son, a young gentleman about Equiano's age and size, bought him and took him home.",
+      "Equiano fled into a thicket, hid, but neighbors searched; they did not find him; he feared snakes; eventually left the thicket, faint and hungry, crept to his master's kitchen, lay in ashes, wishing for death.",
+      "Equiano was astonished that he was treated like a free person, not a slave, and began to think he would be adopted into the family.",
+      "Equiano saw his sister, they embraced and wept; his sister was torn away; Equiano was more miserable.",
+      "Equiano was again sold, came to town Tinmah, rich, with many rivulets and a pond; he first tasted cocoa-nuts, thought superior; saw sugar-cane; money was little white shells; he was sold for 172 shells by a merchant."
+    ],
+    "latency_ms": 632,
+    "timestamp": "2026-04-16T07:04:38.862970+00:00"
+  },
+  "35": {
+    "question_id": 35,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Equiano used his liberty to inquire the way to his own home, sometimes accompanying maidens to bring pitchers of water from springs.",
+      "While planning escape, Equiano accidentally killed a chicken by tossing a pebble, leading to a confrontation with an elderly slave woman who threatened him; he feared flogging.",
+      "The old woman slave saw Equiano, promised to intercede, went to his master, who reprimanded him and ordered him to be taken care of.",
+      "Equiano was astonished that he was treated like a free person, not a slave, and began to think he would be adopted into the family.",
+      "Equiano saw his sister, they embraced and wept; his sister was torn away; Equiano was more miserable.",
+      "Equiano was carried to the left of the sun's rising, through many countries and woods; people carried him on shoulders or backs; he saw many sheds along roads; he learned two or three languages.",
+      "The author, Olaudah Equiano, wrote the narrative to influence the abolition debate and to inspire compassion for the miseries of the slave trade.",
+      "Equiano was washed and perfumed, led into the mistress's presence, ate and drank; he was surprised that the young gentleman would not eat or drink until he had taken first, because he was eldest.",
+      "After Equiano was again sold, his master's only daughter, child by first wife, sickened and died, affecting the master; the master almost killed himself but was prevented; he recovered.",
+      "The narrative titled 'The Interesting Narrative of the Life of Olaudah Equiano, or Gustavus Vassa, the African' is written by Olaudah Equiano himself."
+    ],
+    "latency_ms": 567,
+    "timestamp": "2026-04-16T07:04:39.430556+00:00"
+  },
+  "36": {
+    "question_id": 36,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The old woman slave saw Equiano, promised to intercede, went to his master, who reprimanded him and ordered him to be taken care of.",
+      "Equiano used his liberty to inquire the way to his own home, sometimes accompanying maidens to bring pitchers of water from springs.",
+      "While planning escape, Equiano accidentally killed a chicken by tossing a pebble, leading to a confrontation with an elderly slave woman who threatened him; he feared flogging.",
+      "Equiano was astonished that he was treated like a free person, not a slave, and began to think he would be adopted into the family.",
+      "Equiano was carried to the left of the sun's rising, through many countries and woods; people carried him on shoulders or backs; he saw many sheds along roads; he learned two or three languages.",
+      "Equiano fled into a thicket, hid, but neighbors searched; they did not find him; he feared snakes; eventually left the thicket, faint and hungry, crept to his master's kitchen, lay in ashes, wishing for death.",
+      "Equiano saw his sister, they embraced and wept; his sister was torn away; Equiano was more miserable.",
+      "Equiano felt oppressed and weighed down by grief after his mother and friends, and his love of liberty grew stronger by not daring to eat with free-born children, although he was mostly their companion.",
+      "The author, Olaudah Equiano, wrote the narrative to influence the abolition debate and to inspire compassion for the miseries of the slave trade.",
+      "Equiano was washed and perfumed, led into the mistress's presence, ate and drank; he was surprised that the young gentleman would not eat or drink until he had taken first, because he was eldest."
+    ],
+    "latency_ms": 556,
+    "timestamp": "2026-04-16T07:04:39.989853+00:00"
+  },
+  "37": {
+    "question_id": 37,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Equiano was astonished that he was treated like a free person, not a slave, and began to think he would be adopted into the family.",
+      "Equiano fled into a thicket, hid, but neighbors searched; they did not find him; he feared snakes; eventually left the thicket, faint and hungry, crept to his master's kitchen, lay in ashes, wishing for death.",
+      "Equiano was washed and perfumed, led into the mistress's presence, ate and drank; he was surprised that the young gentleman would not eat or drink until he had taken first, because he was eldest.",
+      "While planning escape, Equiano accidentally killed a chicken by tossing a pebble, leading to a confrontation with an elderly slave woman who threatened him; he feared flogging.",
+      "Equiano used his liberty to inquire the way to his own home, sometimes accompanying maidens to bring pitchers of water from springs.",
+      "After Equiano was again sold, his master's only daughter, child by first wife, sickened and died, affecting the master; the master almost killed himself but was prevented; he recovered.",
+      "Equiano felt oppressed and weighed down by grief after his mother and friends, and his love of liberty grew stronger by not daring to eat with free-born children, although he was mostly their companion.",
+      "Equiano saw his sister, they embraced and wept; his sister was torn away; Equiano was more miserable.",
+      "Equiano observed the sun rising and setting, noting that his father's house was toward the rising of the sun.",
+      "Equiano was again sold, came to town Tinmah, rich, with many rivulets and a pond; he first tasted cocoa-nuts, thought superior; saw sugar-cane; money was little white shells; he was sold for 172 shells by a merchant."
+    ],
+    "latency_ms": 603,
+    "timestamp": "2026-04-16T07:04:40.598016+00:00"
+  },
+  "38": {
+    "question_id": 38,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Equiano felt oppressed and weighed down by grief after his mother and friends, and his love of liberty grew stronger by not daring to eat with free-born children, although he was mostly their companion.",
+      "Equiano saw his sister, they embraced and wept; his sister was torn away; Equiano was more miserable.",
+      "Equiano was astonished that he was treated like a free person, not a slave, and began to think he would be adopted into the family.",
+      "Equiano was carried to the left of the sun's rising, through many countries and woods; people carried him on shoulders or backs; he saw many sheds along roads; he learned two or three languages.",
+      "Equiano used his liberty to inquire the way to his own home, sometimes accompanying maidens to bring pitchers of water from springs.",
+      "While planning escape, Equiano accidentally killed a chicken by tossing a pebble, leading to a confrontation with an elderly slave woman who threatened him; he feared flogging.",
+      "Equiano was again sold, came to town Tinmah, rich, with many rivulets and a pond; he first tasted cocoa-nuts, thought superior; saw sugar-cane; money was little white shells; he was sold for 172 shells by a merchant.",
+      "The old woman slave saw Equiano, promised to intercede, went to his master, who reprimanded him and ordered him to be taken care of.",
+      "After Equiano was again sold, his master's only daughter, child by first wife, sickened and died, affecting the master; the master almost killed himself but was prevented; he recovered.",
+      "Equiano fled into a thicket, hid, but neighbors searched; they did not find him; he feared snakes; eventually left the thicket, faint and hungry, crept to his master's kitchen, lay in ashes, wishing for death."
+    ],
+    "latency_ms": 581,
+    "timestamp": "2026-04-16T07:04:41.180793+00:00"
+  },
+  "39": {
+    "question_id": 39,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Equiano felt oppressed and weighed down by grief after his mother and friends, and his love of liberty grew stronger by not daring to eat with free-born children, although he was mostly their companion.",
+      "Equiano saw his sister, they embraced and wept; his sister was torn away; Equiano was more miserable.",
+      "Equiano was carried to the left of the sun's rising, through many countries and woods; people carried him on shoulders or backs; he saw many sheds along roads; he learned two or three languages.",
+      "While planning escape, Equiano accidentally killed a chicken by tossing a pebble, leading to a confrontation with an elderly slave woman who threatened him; he feared flogging.",
+      "User believes these instances show complexion variation in different climates and hopes to remove prejudice against natives of Africa based on colour.",
+      "The old woman slave saw Equiano, promised to intercede, went to his master, who reprimanded him and ordered him to be taken care of.",
+      "Equiano used his liberty to inquire the way to his own home, sometimes accompanying maidens to bring pitchers of water from springs.",
+      "Equiano was astonished that he was treated like a free person, not a slave, and began to think he would be adopted into the family.",
+      "The author, Olaudah Equiano, wrote the narrative to influence the abolition debate and to inspire compassion for the miseries of the slave trade.",
+      "Equiano was again sold, came to town Tinmah, rich, with many rivulets and a pond; he first tasted cocoa-nuts, thought superior; saw sugar-cane; money was little white shells; he was sold for 172 shells by a merchant."
+    ],
+    "latency_ms": 655,
+    "timestamp": "2026-04-16T07:04:41.837349+00:00"
+  }
+}

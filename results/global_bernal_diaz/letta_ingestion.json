@@ -1,0 +1,17 @@
+{
+  "subject": "bernal_diaz",
+  "system": "letta",
+  "agent_name": "bernal_diaz_run_20260415",
+  "facts_expected": 2827,
+  "facts_posted": 2827,
+  "post_success": 2827,
+  "post_failure": 0,
+  "failed_fact_indices": [],
+  "start_time": "2026-04-15T21:52:02.160237+00:00",
+  "agent_id": "agent-3759199e-a2a3-48b3-8795-b670eaca618b",
+  "last_successful_index": 2826,
+  "end_time": "2026-04-16T01:39:28.465713+00:00",
+  "verification_passed": true,
+  "verification_hits": 10,
+  "verification_total": 10
+}

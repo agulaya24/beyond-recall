@@ -1,0 +1,16 @@
+{
+  "subject": "bernal_diaz",
+  "system": "mem0",
+  "user_id": "bernal_diaz_run_20260415",
+  "facts_expected": 2827,
+  "facts_posted": 2827,
+  "post_success": 2827,
+  "post_failure": 0,
+  "failed_fact_indices": [],
+  "start_time": "2026-04-16T02:18:23.005076+00:00",
+  "last_successful_index": 2826,
+  "end_time": "2026-04-16T03:23:48.307697+00:00",
+  "verification_passed": true,
+  "verification_hits": 10,
+  "verification_total": 10
+}

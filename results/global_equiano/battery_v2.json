@@ -1,0 +1,580 @@
+{
+  "metadata": {
+    "subject": "Olaudah Equiano",
+    "subject_key": "equiano",
+    "generated": "2026-04-14T22:45:56.711895+00:00",
+    "model": "claude-haiku-4-5-20251001",
+    "method": "backward_design_from_heldout",
+    "total": 80,
+    "tiers": {
+      "behavioral_prediction": 39,
+      "recall": 10,
+      "inferential": 11,
+      "adversarial_abstention": 10,
+      "boundary_probing": 10
+    },
+    "checksum": "5de72ad3e3b55241eadac7ed3916203d"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "When Equiano encounters information that challenges his rational worldview, how does he typically respond?",
+      "held_out_passage": "I had been told one evening of a _wise_ woman, a Mrs. Davis, who revealed secrets, foretold events, &c. I put little faith in this story at first, as I could not conceive that any mortal could foresee the future disposals of Providence, nor did I believe in any other revelation than that of the Holy Scriptures; however, I was greatly astonished at seeing this woman in a dream that night"
+    },
+    {
+      "id": 2,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "How does Equiano handle situations where he is treated unfairly due to his race in commercial transactions?",
+      "held_out_passage": "being a negro man, I could not oblige him to pay me. This vexed me much, not knowing how to act; and I lost some time in seeking after this Christian"
+    },
+    {
+      "id": 3,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "When facing a life-threatening illness, what does Equiano do and what promises does he make?",
+      "held_out_passage": "I was very ill for eleven days and near dying; eternity was now exceedingly impressed on my mind, and I feared very much that awful event. I prayed the Lord therefore to spare me; and I made a promise in my mind to God, that I would be good if ever I should recover."
+    },
+    {
+      "id": 4,
+      "tier": "behavioral_prediction",
+      "category": "change_over_time",
+      "text": "After recovering from a serious health crisis, how consistent is Equiano in maintaining his spiritual commitments?",
+      "held_out_passage": "During the passage, as I was perfectly restored, and had much business of the vessel to mind, all my endeavours to keep up my integrity, and perform my promise to God, began to fail; and, in spite of all I could do, as we drew nearer and nearer to the islands, my resolutions more and more declined"
+    },
+    {
+      "id": 5,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When Equiano is cheated with counterfeit currency, what is his immediate reaction and how does he escape the situation?",
+      "held_out_passage": "he took advantage of my being a negro man, and obliged me to put up with those or none, although I objected to them. Immediately after, as I was trying to pass them in the market, amongst other white men, I was abused for offering to pass bad coin; and, though I shewed them the man I got them from, I was within one minute of being tied up and flogged without either judge or jury; however, by the help of a good pair of heels, I ran off, and so escaped the bastinadoes I should have received."
+    },
+    {
+      "id": 6,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How does Equiano balance his religious observance with his commercial and practical obligations?",
+      "held_out_passage": "though, when the Sabbath came (which the negroes usually make their holiday) I was much inclined to go to public worship, I was obliged to hire some black men to help to pull a boat across the water to God in quest of this gentleman."
+    },
+    {
+      "id": 7,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "When given a prophecy about his future, how does Equiano's belief in it change based on the prophet's demonstrated knowledge?",
+      "held_out_passage": "She immediately told me I had dreamed of her the preceding night; related to me many things that had happened with a correctness that astonished me; and finally told me I should not be long a slave: this was the more agreeable news, as I believed it the more readily from her having so faithfully related the past incidents of my life."
+    },
+    {
+      "id": 8,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "How does Equiano respond when he discovers he has been given worthless currency in a business deal?",
+      "held_out_passage": "Some of them, however, were copper, and of consequence of no value; but he took advantage of my being a negro man, and obliged me to put up with those or none, although I objected to them."
+    },
+    {
+      "id": 9,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "What emotional and spiritual state does Equiano experience when facing the prospect of death?",
+      "held_out_passage": "eternity was now exceedingly impressed on my mind, and I feared very much that awful event."
+    },
+    {
+      "id": 10,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "After being threatened with physical punishment for an offense he did not commit, what does Equiano do and how does he feel afterward?",
+      "held_out_passage": "I was within one minute of being tied up and flogged without either judge or jury; however, by the help of a good pair of heels, I ran off, and so escaped the bastinadoes I should have received. I got on board as fast as I could, but still continued in fear of them until we sailed, which I thanked God we did not long after; and I have never been amongst them since."
+    },
+    {
+      "id": 11,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When facing a crisis at sea where survival depends on coordinating with strangers, how would Equiano likely approach negotiating terms and securing their assistance?",
+      "held_out_passage": "We told the people of the wrecker the condition of our vessel, and we made the same agreement with them as the schooner's people; and, on their complying, we begged of them to go to our key directly, because our people were in want of water."
+    },
+    {
+      "id": 12,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "When others around him lose composure during extreme danger, what would Equiano's response reveal about his character and faith?",
+      "held_out_passage": "so much so that my old captain and sickly useless mate, and several others, fainted; and death stared us in the face on every side. All the swearers on board now began to call on the God of Heaven to assist them"
+    },
+    {
+      "id": 13,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How would Equiano interpret a miraculous escape from certain death at sea?",
+      "held_out_passage": "sure enough, beyond our comprehension he did assist us, and in a miraculous manner delivered us!"
+    },
+    {
+      "id": 14,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "When witnessing others risk their lives for the collective survival, what would Equiano's narrative focus reveal about what he values?",
+      "held_out_passage": "they said they might as well die that way as any other... these two intrepid water heroes paddled away for life towards the buoy of the anchor."
+    },
+    {
+      "id": 15,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "During a life-threatening maritime emergency, would Equiano attribute the crew's survival to human effort alone or to divine intervention?",
+      "held_out_passage": "through the mercy of God, we got again from the shoals into deep water, and the punt got safe to the vessel."
+    },
+    {
+      "id": 16,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "When describing the emotional aftermath of narrowly escaping disaster, how would Equiano characterize the crew's transformation?",
+      "held_out_passage": "Those whose strength and senses were gone came to themselves, and were now as elated as they were before depressed."
+    },
+    {
+      "id": 17,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When practical problems arise during recovery from crisis, how would Equiano approach solving them with available resources?",
+      "held_out_passage": "The punt then went on shore, and we cut down some trees; and having found our mast and mended it we brought it on board, and fixed it up."
+    },
+    {
+      "id": 18,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How would Equiano characterize the prayers and spiritual appeals made by the crew during their moment of greatest peril?",
+      "held_out_passage": "the prayers of all those that remained in their senses were offered up to God, on their behalf, for a speedy deliverance; and for our own, which depended on them; and he heard and answered us!"
+    },
+    {
+      "id": 19,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "When reflecting on shared suffering and hardship with others, what would Equiano emphasize about the depth of human connection forged through such experiences?",
+      "held_out_passage": "It is impossible for any to conceive our heartfelt joy at this second deliverance from ruin, but those who have suffered the same hardships."
+    },
+    {
+      "id": 20,
+      "tier": "behavioral_prediction",
+      "category": "change_over_time",
+      "text": "When facing a sequence of crises requiring persistence and problem-solving, would Equiano demonstrate resilience and determination to reach his destination?",
+      "held_out_passage": "As soon as we had done this we got up the anchor, and away we went once more for New Providence, which in three days more we reached"
+    },
+    {
+      "id": 21,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "When facing personal distress and spiritual crisis, what does Equiano typically turn to for comfort and guidance?",
+      "held_out_passage": "the only comfort I then experienced was, in reading the holy scriptures"
+    },
+    {
+      "id": 22,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "How does Equiano respond when he experiences deep despair and questions about his own worth?",
+      "held_out_passage": "I became a burden to myself, and viewed all things around me as emptiness and vanity, which could give no satisfaction to a troubled conscience"
+    },
+    {
+      "id": 23,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "When Equiano encounters someone who demonstrates deep religious conviction and understanding, what is his typical reaction?",
+      "held_out_passage": "his conversation rejoiced me greatly; and indeed I had never heard before the love of Christ to believers set forth in such a manner, and in so clear a point of view"
+    },
+    {
+      "id": 24,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Based on Equiano's demonstrated values, would he likely remain in an environment where religious principles are violated?",
+      "held_out_passage": "I hated the house in which I lodged, because God's most holy name was blasphemed in it"
+    },
+    {
+      "id": 25,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "How does Equiano typically handle moments of spiritual revelation or divine intervention?",
+      "held_out_passage": "the sense of God's mercies was so great on my mind when I awoke, that my strength entirely failed me for many minutes, and I was exceedingly weak"
+    },
+    {
+      "id": 26,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "When facing injustice or mistreatment, what does Equiano demonstrate about his capacity for emotional response?",
+      "held_out_passage": "Suffering much by villains in the late cause, and being much concerned about the state of my soul, these things (but particularly the latter) brought me very low"
+    },
+    {
+      "id": 27,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How does Equiano respond when he recognizes his own moral failings or past mistakes?",
+      "held_out_passage": "I felt that I was altogether unholy, and saw clearly what a bad use I had made of the faculties I was endowed with"
+    },
+    {
+      "id": 28,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "When encountering religious authority figures or clergy, what is Equiano's typical disposition?",
+      "held_out_passage": "a dissenting minister; he joined our discourse, and asked me some few questions"
+    },
+    {
+      "id": 29,
+      "tier": "behavioral_prediction",
+      "category": "change_over_time",
+      "text": "How does Equiano demonstrate his commitment to spiritual improvement when he recognizes a need for change?",
+      "held_out_passage": "I invoked Heaven from my inmost soul, and fervently begged that God would never again permit me to blaspheme his most holy name"
+    },
+    {
+      "id": 30,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When seeking spiritual guidance, does Equiano actively pursue opportunities to learn from others with greater religious experience?",
+      "held_out_passage": "I had a great desire to read the bible the whole day at home; but not having a convenient place for retirement, I left the house in the day, rather than stay amongst the wicked ones"
+    },
+    {
+      "id": 31,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "When encountering unfamiliar food practices that he finds distasteful, how does Equiano typically respond?",
+      "held_out_passage": "I cannot say the sight of either the drink or the meat were enticing to me... I was much surprised at this, and went home, not a little disgusted at the preparations."
+    },
+    {
+      "id": 32,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How does Equiano evaluate cultural practices different from those he knows, particularly regarding music and dance?",
+      "held_out_passage": "the musical instruments were nearly the same as those of any other sable people; but, as I thought, much less melodious than any other nation I ever knew... which to me were in no wise attracting."
+    },
+    {
+      "id": 33,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "When faced with work that conflicts with his religious beliefs, what internal struggle does Equiano experience?",
+      "held_out_passage": "I thought this was in some measure a judgment upon us for working on Sundays, and it hurt my mind very much."
+    },
+    {
+      "id": 34,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How does Equiano's religious conviction influence his decision to leave a position of relative stability?",
+      "held_out_passage": "The word of God saith, 'What does it avail a man if he gain the whole world, and lose his own soul?' This was much and heavily impressed on my mind; and, though I did not know how to speak to the Doctor for my discharge, it was disagreeable for me to stay any longer."
+    },
+    {
+      "id": 35,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When requesting something difficult from an authority figure, what approach does Equiano employ?",
+      "held_out_passage": "I did not know how to speak to the Doctor for my discharge... But about the middle of June I took courage enough to ask him for it. He was very unwilling at first to grant my request; but I gave him so many reasons for it, that at last he consented to my going."
+    },
+    {
+      "id": 36,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How does Equiano treat those in subordinate positions to him?",
+      "held_out_passage": "All my poor countrymen, the slaves, when they heard of my leaving them, were very sorry, as I had always treated them with care and affection, and did every thing I could to comfort the poor creatures, and render their condition easy."
+    },
+    {
+      "id": 37,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "When presented with food that appears appetizing but unfamiliar, what prevents Equiano from consuming it?",
+      "held_out_passage": "I had a raw piece of the alligator in my hand: it was very rich: I thought it looked like fresh salmon, and it had a most fragrant smell, but I could not eat any of it."
+    },
+    {
+      "id": 38,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How does Equiano characterize his emotional attachment to people he has worked with closely?",
+      "held_out_passage": "Though I was much attached to the doctor, I was happy when he consented... Having taken leave of my old friends and companions... the doctor and I parted, not without shedding tears on both si"
+    },
+    {
+      "id": 39,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "When observing social gatherings with people of different backgrounds, what does Equiano notice about potential conflict?",
+      "held_out_passage": "This merry-making at last ended without the least discord in any person in the company, although it was made up of different nations and complexions."
+    },
+    {
+      "id": 40,
+      "tier": "recall",
+      "category": "recall",
+      "text": "What are the two names by which Olaudah Equiano is known?",
+      "held_out_passage": null
+    },
+    {
+      "id": 41,
+      "tier": "recall",
+      "category": "recall",
+      "text": "In what city was Equiano's narrative printed and sold?",
+      "held_out_passage": null
+    },
+    {
+      "id": 42,
+      "tier": "recall",
+      "category": "recall",
+      "text": "What is the chief design of Equiano's narrative according to his dedication?",
+      "held_out_passage": null
+    },
+    {
+      "id": 43,
+      "tier": "recall",
+      "category": "recall",
+      "text": "To whom does Equiano dedicate his narrative?",
+      "held_out_passage": null
+    },
+    {
+      "id": 44,
+      "tier": "recall",
+      "category": "recall",
+      "text": "What date is given on Equiano's dedication letter?",
+      "held_out_passage": null
+    },
+    {
+      "id": 45,
+      "tier": "recall",
+      "category": "recall",
+      "text": "What street address is listed as where the narrative is sold by the author?",
+      "held_out_passage": null
+    },
+    {
+      "id": 46,
+      "tier": "recall",
+      "category": "recall",
+      "text": "What biblical passage does Equiano use as an epigraph for his work?",
+      "held_out_passage": null
+    },
+    {
+      "id": 47,
+      "tier": "recall",
+      "category": "recall",
+      "text": "What important question does Equiano hope Parliament will discuss?",
+      "held_out_passage": null
+    },
+    {
+      "id": 48,
+      "tier": "recall",
+      "category": "recall",
+      "text": "Which two members of the Royal Family are listed as subscribers to Equiano's narrative?",
+      "held_out_passage": null
+    },
+    {
+      "id": 49,
+      "tier": "recall",
+      "category": "recall",
+      "text": "What does Equiano describe as compensation for being torn from his homeland?",
+      "held_out_passage": null
+    },
+    {
+      "id": 50,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "Why might Equiano's decision to publish his narrative himself and sell it through multiple London booksellers be significant given his stated purpose of addressing Parliament about the slave trade?",
+      "held_out_passage": null
+    },
+    {
+      "id": 51,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "How does Equiano's acknowledgment of being 'unlettered' work strategically with his appeal to Parliament's 'compassion' and 'humanity'?",
+      "held_out_passage": null
+    },
+    {
+      "id": 52,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "What does the inclusion of the Prince of Wales and the Duke of York as subscribers, combined with Equiano's dedication to Parliament, suggest about his intended audience and political strategy?",
+      "held_out_passage": null
+    },
+    {
+      "id": 53,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "How might Equiano's claim that the slave trade's 'horrors' were 'compensated by the introduction...to the knowledge of the Christian religion' complicate his argument for abolition to his intended readers?",
+      "held_out_passage": null
+    },
+    {
+      "id": 54,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "What can be inferred about Equiano's understanding of British values based on his description of the nation's 'liberal sentiments,' 'humanity,' and 'glorious freedom' in relation to his own enslavement?",
+      "held_out_passage": null
+    },
+    {
+      "id": 55,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "Why would Equiano emphasize that he is 'actuated by the hope of becoming an instrument towards the relief of his suffering countrymen' rather than seeking personal gain, given his commercial publication of this work?",
+      "held_out_passage": null
+    },
+    {
+      "id": 56,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "How does the extensive subscriber list, including clergy, nobility, and merchants, support or complicate Equiano's characterization of Britain as a nation of 'liberal sentiments'?",
+      "held_out_passage": null
+    },
+    {
+      "id": 57,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "What does Equiano's invocation of divine providence to explain his enslavement and subsequent Christian conversion suggest about the rhetorical challenges he faced in appealing to a Christian Parliament?",
+      "held_out_passage": null
+    },
+    {
+      "id": 58,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "How might Equiano's use of both his African name and his European name (Gustavus Vassa) on the title page relate to his broader argument about human dignity and his appeal to Parliament?",
+      "held_out_passage": null
+    },
+    {
+      "id": 59,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "What can be inferred about the timing of Equiano's publication (1789) and his urgent appeal regarding the 'important day when the question of Abolition is to be discussed' in terms of his political awareness?",
+      "held_out_passage": null
+    },
+    {
+      "id": 60,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "How does Equiano's framing of his narrative as a 'genuine Narrative' by an 'unlettered African' attempt to address potential skepticism from his educated, aristocratic audience while maintaining his authority as a witness?",
+      "held_out_passage": null
+    },
+    {
+      "id": 61,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What would Olaudah Equiano's position be on cryptocurrency and blockchain technology as tools for financial independence?",
+      "held_out_passage": null
+    },
+    {
+      "id": 62,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "How would Equiano have voted in the 2020 U.S. presidential election if he were alive today?",
+      "held_out_passage": null
+    },
+    {
+      "id": 63,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What specific medical treatments would Equiano have preferred for his chronic illnesses had 21st-century pharmaceuticals been available to him?",
+      "held_out_passage": null
+    },
+    {
+      "id": 64,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "Which contemporary social media platform would Equiano have found most useful for spreading abolitionist messages, and why?",
+      "held_out_passage": null
+    },
+    {
+      "id": 65,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What would Equiano's detailed personal opinions have been on the theological debates within Methodism that occurred after his death in 1797?",
+      "held_out_passage": null
+    },
+    {
+      "id": 66,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "How would Equiano have assessed the effectiveness of modern reparations proposals for descendants of enslaved people?",
+      "held_out_passage": null
+    },
+    {
+      "id": 67,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What were Equiano's private thoughts on the romantic relationships of his adult children, which he never documented?",
+      "held_out_passage": null
+    },
+    {
+      "id": 68,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "Would Equiano have supported or opposed the formation of labor unions in 19th-century industrial Britain, and on what grounds?",
+      "held_out_passage": null
+    },
+    {
+      "id": 69,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What specific investment strategy would Equiano have pursued with his accumulated wealth had he lived into the Industrial Revolution's peak?",
+      "held_out_passage": null
+    },
+    {
+      "id": 70,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "How would Equiano have responded to postcolonial critiques of his narrative written by scholars in the late 20th century?",
+      "held_out_passage": null
+    },
+    {
+      "id": 71,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Given Equiano's profound gratitude for Christian salvation and British 'liberal sentiments,' how would he have responded if forced to choose between advocating for immediate abolition and preserving the British institutions and Christian framework that he credits with his own liberation and education?",
+      "held_out_passage": null
+    },
+    {
+      "id": 72,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Equiano presents his enslavement as ultimately beneficial because it led to his Christian conversion. Does this logic create an internal contradiction when he argues against the slave trade—essentially arguing that the system that 'saved' him should be dismantled?",
+      "held_out_passage": null
+    },
+    {
+      "id": 73,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "The subscriber list includes royalty and nobility who likely profited from slavery or colonial ventures. How did Equiano reconcile soliciting their financial support and endorsement while simultaneously condemning the trade that enriched them?",
+      "held_out_passage": null
+    },
+    {
+      "id": 74,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Equiano describes himself as 'unlettered' yet produced a sophisticated, literary narrative. Was this self-deprecation a strategic rhetorical choice to disarm his audience, and if so, does it suggest he was more calculating about his audience's prejudices than his humble tone suggests?",
+      "held_out_passage": null
+    },
+    {
+      "id": 75,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "If Equiano had been born in Britain rather than Africa, would his arguments against slavery have carried the same moral weight, or was his credibility fundamentally dependent on his status as a victim—creating a tension between his individual achievement and his political utility?",
+      "held_out_passage": null
+    },
+    {
+      "id": 76,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Equiano appeals to Parliament's 'humanity' and 'liberal sentiments' while asking them to economically harm themselves through abolition. Did he genuinely believe moral suasion could overcome material interest, or was this rhetorical strategy masking deeper skepticism about whether change was possible?",
+      "held_out_passage": null
+    },
+    {
+      "id": 77,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "The narrative emphasizes Providence guiding his suffering toward Christian salvation. Does this theological framework inadvertently justify the suffering of those who never escape slavery or convert to Christianity—and did Equiano recognize this potential implication?",
+      "held_out_passage": null
+    },
+    {
+      "id": 78,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Equiano achieved freedom and literacy through the very system he condemns. Would he have been willing to advocate for abolition if it meant dismantling the pathways that allowed exceptional individuals like himself to rise, or did he believe his success proved the system could be reformed rather than destroyed?",
+      "held_out_passage": null
+    },
+    {
+      "id": 79,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Given his reliance on elite patronage and subscription sales to survive as a free Black man in Britain, how much did economic dependence on his white audience constrain what he could actually argue, and where might his 'genuine' views diverge from his published positions?",
+      "held_out_passage": null
+    },
+    {
+      "id": 80,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Equiano frames British civilization as superior and redemptive, yet he was victimized by British slavers. Does his simultaneous critique of slavery and praise of British institutions suggest he believed the problem was slavery's abuse of British values rather than something fundamental to British power itself?",
+      "held_out_passage": null
+    }
+  ]
+}

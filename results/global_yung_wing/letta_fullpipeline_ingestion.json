@@ -1,0 +1,14 @@
+{
+  "subject": "yung_wing",
+  "system": "letta",
+  "mode": "fullpipeline",
+  "agent_id": "agent-2e6c233a-e699-436c-a494-ae5382301bcf",
+  "agent_name": "yung_wing_fullpipeline",
+  "chunks_expected": 7,
+  "chunks_posted": 7,
+  "post_success": 7,
+  "post_failure": 0,
+  "start_time": "2026-04-16T06:50:32.319339+00:00",
+  "end_time": "2026-04-16T06:50:54.136937+00:00",
+  "verification_passed": true
+}

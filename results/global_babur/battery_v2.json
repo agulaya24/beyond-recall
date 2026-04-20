@@ -1,0 +1,580 @@
+{
+  "metadata": {
+    "subject": "Babur",
+    "subject_key": "babur",
+    "generated": "2026-04-14T22:42:21.835135+00:00",
+    "model": "claude-haiku-4-5-20251001",
+    "method": "backward_design_from_heldout",
+    "total": 80,
+    "tiers": {
+      "behavioral_prediction": 39,
+      "recall": 10,
+      "inferential": 11,
+      "adversarial_abstention": 10,
+      "boundary_probing": 10
+    },
+    "checksum": "f814c9ea1925bcc20699079a3639fec6"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "When Babur receives news of subordinates who have demonstrated loyalty through difficult circumstances, how does he typically respond in terms of material rewards?",
+      "held_out_passage": "Not to make vain the hope with which some 7 or 8,000 _Nūḥānī_ Afghāns had come in to me, I bestowed 50 _laks_ from Bīhār on Maḥmūd Khān _Nūḥānī_, after reserving one _krūr_ for Government uses (_khalṣa_), and gave the remainder of the Bihār revenues in trust for the above-mentioned Jalāl Khān who for his part agreed to pay one _krūr_ of tribute."
+    },
+    {
+      "id": 2,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When military objectives have been substantially achieved and environmental conditions become unfavorable, what decision does Babur make regarding continued campaigning?",
+      "held_out_passage": "As the object of this campaign was to put down the rebel Afghāns of whom some had taken their heads and gone off, some had come in submissive and accepting my service, and the remaining few were in the hands of the Bengalī (Naṣrat Shāh) who had taken them in charge, and as, moreover, the Rains were near, we in our turn wrote and despatched words for peace on the conditions mentioned."
+    },
+    {
+      "id": 3,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How does Babur handle situations where subordinates have been forced into difficult political positions due to external pressures beyond their control?",
+      "held_out_passage": "At the time when Sl. Maḥmūd _Lūdī_ perfidiously took possession of Bihār and was opposed by Shaikh Bāyazīd and Bīban, Shāh Muḥammad had no help for it, he had to join them; but even then, when people were saying wild words about him, he had written dutifully to me."
+    },
+    {
+      "id": 4,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "When receiving delegations from previously hostile or uncertain groups, what is Babur's typical ceremonial response?",
+      "held_out_passage": "Ismā`īl _Jālwānī_, `Alāūl Khān _Nūḥānī_, Auliya Khān _Ashrāqī_(?) and 5 and 6 amīrs came in and waited on me."
+    },
+    {
+      "id": 5,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "How does Babur respond when receiving news of deaths among his trusted officials?",
+      "held_out_passage": "In these same days came a dutiful letter from Chīn-tīmūr Sl. saying that on account of the journey of the family from Kābul, several of the begs who had been appointed to reinforce him, had not been able to join him"
+    },
+    {
+      "id": 6,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "When subordinates demonstrate military success against enemies, what form of recognition does Babur typically provide?",
+      "held_out_passage": "Today guerdon was bestowed on Aīsān-tīmūr Sl. and Tūkhta-būghā Sl., of swords and daggers with belts, cuirasses, dresses of honour, and _tīpūchāq_ horses; also they were made to kneel, Aīsān-tīmūr Sl. for the grant of 36 _laks_ from the Nārnūl _pargana_, Tūkhta-bughā Sl. for 30 _laks_ from that of Shamsābād."
+    },
+    {
+      "id": 7,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When faced with intelligence about potential enemy movements across strategic waterways, what is Babur's typical response pattern?",
+      "held_out_passage": "During these days news came repeatedly that Bīban and Shaikh Bāyazīd were meaning to cross the Sarū-river."
+    },
+    {
+      "id": 8,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "How does Babur handle the administrative succession when key officials die unexpectedly?",
+      "held_out_passage": "`Abdu'l-lāh (_kitābdār_) was ordered to go and maintain order in Sanbal."
+    },
+    {
+      "id": 9,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "When negotiating peace with rival powers, what role does Babur assign to intermediaries and what conditions does he prioritize?",
+      "held_out_passage": "we in our turn wrote and despatched words for peace on the conditions mentioned."
+    },
+    {
+      "id": 10,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How does Babur demonstrate trust in subordinates who have proven themselves through both military action and personal initiative?",
+      "held_out_passage": "When `Askarī crossed at the Haldī-passage, Shāh Muḥammad had come at once with a troop, seen him and with him gone against the Bengalīs."
+    },
+    {
+      "id": 11,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "Based on patterns in the training text, when faced with a situation where a trusted associate fails to defend a territory, how would Babur likely respond emotionally?",
+      "held_out_passage": "\"Would to God Bābur Mīrzā were here!\" he is reported as saying, by Muḥ. Ṣāliḥ."
+    },
+    {
+      "id": 12,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "Given Babur's demonstrated approach to family relationships and maternal influence shown in the training text, what would he likely believe about his mother's expectations regarding tribal alliances?",
+      "held_out_passage": "It seems likely that mother and son alike expected their Aūzbeg blood to stand them in good stead with Shaibāq."
+    },
+    {
+      "id": 13,
+      "tier": "behavioral_prediction",
+      "category": "change_over_time",
+      "text": "Based on Babur's documented patterns of territorial loss and recovery in the training text, how would he characterize a situation where he simultaneously lost multiple strategic holdings?",
+      "held_out_passage": "Having lost Samarkand and Andijān, Bābur is hospitably entertained by the"
+    },
+    {
+      "id": 14,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "From the training text's examples of Babur's military comparisons and historical consciousness, what type of precedent would he likely invoke when achieving a significant military success?",
+      "held_out_passage": "Bābur might have compared his taking of Samarkand with Tīmūr's capture of Qarshī, also with 240 followers"
+    },
+    {
+      "id": 15,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Based on Babur's documented spiritual practices and dream experiences in the training text, what role would divine guidance play in his decision-making during periods of uncertainty?",
+      "held_out_passage": "This account of a dream compares well for naturalness with that in the seemingly-spurious passage, entered with the Ḥai. MS. on f. 118."
+    },
+    {
+      "id": 16,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "Given Babur's patterns of conflict with rivals and his strategic thinking shown in the training text, what would he infer about an opponent's intentions based on their military positioning?",
+      "held_out_passage": "This arrival shews that Shaibānī expected to stay in Samarkand. He had been occupying Turkistān under The Chaghatāī Khān."
+    },
+    {
+      "id": 17,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "Based on Babur's documented approach to cultural and literary pursuits in the training text, how would he engage with poetic composition during periods of political instability?",
+      "held_out_passage": "I surmise a double play-of-words in this verse. One is on two rhyming words, _ghala_ and _mallah_ and is illustrated by rendering them as _oat_ and _coat_."
+    },
+    {
+      "id": 18,
+      "tier": "behavioral_prediction",
+      "category": "career",
+      "text": "From the training text's examples of Babur's physical capabilities and documented achievements, what level of martial skill would he demonstrate in specialized combat techniques?",
+      "held_out_passage": "In 1791 AD. Muḥ. Effendi shot 482 yards from a Turkish bow, before the R. Tox. S.; not a good shot, he declared."
+    },
+    {
+      "id": 19,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "Based on Babur's documented patterns of conflict resolution and alliance-building in the training text, how would he respond to internal disputes among his supporters?",
+      "held_out_passage": "Possibly the reference is to the quarrels between Binā'ī and `Alī-sher."
+    },
+    {
+      "id": 20,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "Given Babur's demonstrated awareness of risk and his documented responses to military threats in the training text, what precautions would he take when traversing difficult terrain?",
+      "held_out_passage": "Many of these will have been climbed in order to get over places impassable at the river's level."
+    },
+    {
+      "id": 21,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Based on the training text's pattern of how Babur describes people in his memoirs, what kind of self-awareness would you expect him to demonstrate when a religious figure is being characterized?",
+      "held_out_passage": "The Shaikh was able, it would appear, to see himself as others saw him, since the above description of him is his own."
+    },
+    {
+      "id": 22,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "Given Babur's documented practice of rewarding loyalty throughout the training text, what would you predict about how he treats an official who has demonstrated consistent loyalty?",
+      "held_out_passage": "The honourable post given to this amīr of Hind is likely to be due to his loyalty to Bābur."
+    },
+    {
+      "id": 23,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "Based on the training text's treatment of genealogical relationships and family connections, how would Babur likely relate to someone whose family lineage connects to his own ancestors?",
+      "held_out_passage": "a Bāī-qarā Tīmūrid of Bābur's generation, their last common ancestor being Tīmūr himself."
+    },
+    {
+      "id": 24,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "Given the military campaigns and strategic decisions documented in the training text, what would you expect about Babur's approach to organizing defensive military equipment?",
+      "held_out_passage": "those chained together as a defence and probably also those conveying the culverins."
+    },
+    {
+      "id": 25,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "Based on patterns in the training text regarding Babur's documentation of military tactics, how would you expect him to describe the intensity and chaos of battle?",
+      "held_out_passage": "The violence of the fray is illustrated by supposing that of Earth's seven climes one rose to Heaven in dust, thus giving Heaven eight."
+    },
+    {
+      "id": 26,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Given Babur's documented use of religious and literary references throughout the training text, what would you predict about his tendency to invoke sacred texts during descriptions of conflict?",
+      "held_out_passage": "Qorān, cap. 101, v. 54."
+    },
+    {
+      "id": 27,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "Based on the training text's pattern of how Babur names and identifies his military personnel, what would you expect about the origins of nicknames given to his officers?",
+      "held_out_passage": "the prevalence of sobriquets amongst his people, and to what would be the sporadic appearance of a Chinese title or even class-name borne by a single man amongst them."
+    },
+    {
+      "id": 28,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "Given Babur's documented military strategies in the training text, how would you expect him to utilize different tactical positions during a major engagement?",
+      "held_out_passage": "These two men were in one of the flanking-parties."
+    },
+    {
+      "id": 29,
+      "tier": "behavioral_prediction",
+      "category": "career",
+      "text": "Based on the training text's documentation of Babur's administrative structure and military hierarchy, what would you predict about the distinction between different officer titles?",
+      "held_out_passage": "There appears to be a distinction of title between the _akhta-begī_ and the _mīr-akhẉūr_ (master of the horse)."
+    },
+    {
+      "id": 30,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "Given the pattern in the training text of how Babur documents weapons and military technology, what would you expect about his specificity in describing projectile weapons?",
+      "held_out_passage": "As Bābur does not in any place mention metal missiles, it seems safest to translate _sang_ by its plain meaning of _stone_."
+    },
+    {
+      "id": 31,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "Based on patterns in the training text, when a military leader encounters a rival who has previously opposed them, what type of action does Babur typically take?",
+      "held_out_passage": "opposes Ḥusain _Bāī-qarā_ and flees (901) 57-8, 130; one of three besieging Samarkand; retires with his desired Barlās bride 64; quarrels with Khusrau Shāh (902) 71, and with the Ḥiṣār begs (903) 93; takes refuge with Ḥusain _Bāī-qarā_ 93, 95, 261, 265; returns to Khusrau and is blinded by him 95, 50; goes back to Ḥusain 95, 266"
+    },
+    {
+      "id": 32,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When Babur arranges marriages for family members, what pattern emerges regarding the political or strategic nature of these arrangements?",
+      "held_out_passage": "her marriage arranged (912) 306, ☛ 714; brought from Ḥerāt (913) 330; married 339; dies in child-bed and her name at once given to her child 36"
+    },
+    {
+      "id": 33,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "How does Babur typically respond when learning of threats to territories he controls or claims?",
+      "held_out_passage": "his son `Alī _aṣghar_ _q.v._; [deposed 843 AH.-1439-40 AD.]. Mullā +Mas`ūd+ _Sherwānī_, of Ḥusain _Bāī-qarā's_ Court—no particulars 284"
+    },
+    {
+      "id": 34,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "Based on the training text patterns, when a family member or ally becomes disaffected, what sequence of events typically follows?",
+      "held_out_passage": "disaffected to Ibrāhīm and (later) to Bābur (932) 523; his opposition 530; flees 533-4; his son Muḥammad (?) leaves him (934) 598"
+    },
+    {
+      "id": 35,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "What pattern does Babur demonstrate regarding his treatment of individuals who have previously served or been associated with rival powers?",
+      "held_out_passage": "his cherished followers, sons of Mīr `Alī Beg _q.v._; his son `Alī _aṣghar_ _q.v._"
+    },
+    {
+      "id": 36,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "When Babur encounters military setbacks or losses, how does he typically adjust his strategic positioning?",
+      "held_out_passage": "takes refuge with Ḥusain _Bāī-qarā_ 93, 95, 261, 265; returns to Khusrau and is blinded by him 95, 50; goes back to Ḥusain 95, 266"
+    },
+    {
+      "id": 37,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "Based on patterns in the training text, how does Babur typically handle negotiations with rival tribal or regional leaders?",
+      "held_out_passage": "Bābur negociates with him 594; his house the scene of a supreme rite 595"
+    },
+    {
+      "id": 38,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "What pattern emerges in how Babur treats family members who have been captured or are in vulnerable positions?",
+      "held_out_passage": "+Mihr-angez Begīm+ _Bāī-qarā Tīmūrid_, _Barlās Turk_—married as a captive (913) 329 n. 1"
+    },
+    {
+      "id": 39,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "When Babur receives visitors or envoys from external groups, what is his typical behavioral response according to the training patterns?",
+      "held_out_passage": "waits on Bābur at `Alī-masjid (925) 394"
+    },
+    {
+      "id": 40,
+      "tier": "recall",
+      "category": "recall",
+      "text": "Who translated the Bābur-Nāma from the original Turki text into English?",
+      "held_out_passage": null
+    },
+    {
+      "id": 41,
+      "tier": "recall",
+      "category": "recall",
+      "text": "In what year was the English translation of the Bābur-Nāma first printed?",
+      "held_out_passage": null
+    },
+    {
+      "id": 42,
+      "tier": "recall",
+      "category": "recall",
+      "text": "What was Bābur's father's name?",
+      "held_out_passage": null
+    },
+    {
+      "id": 43,
+      "tier": "recall",
+      "category": "recall",
+      "text": "Name two of Bābur's uncles mentioned in the text.",
+      "held_out_passage": null
+    },
+    {
+      "id": 44,
+      "tier": "recall",
+      "category": "recall",
+      "text": "Which city did Bābur successfully capture in 903 AH (1497-1498 AD)?",
+      "held_out_passage": null
+    },
+    {
+      "id": 45,
+      "tier": "recall",
+      "category": "recall",
+      "text": "What was the approximate size of Bābur's force when he was left with very few men after losing Samarkand and Andijān?",
+      "held_out_passage": null
+    },
+    {
+      "id": 46,
+      "tier": "recall",
+      "category": "recall",
+      "text": "To which city did Bābur's mother's uncle `Alī-dost invite him?",
+      "held_out_passage": null
+    },
+    {
+      "id": 47,
+      "tier": "recall",
+      "category": "recall",
+      "text": "What city did Bābur recover after the Mughūls were defeated near Akhsī?",
+      "held_out_passage": null
+    },
+    {
+      "id": 48,
+      "tier": "recall",
+      "category": "recall",
+      "text": "Who was Bābur's half-brother for whom the Mughūls demanded and besieged Andijān?",
+      "held_out_passage": null
+    },
+    {
+      "id": 49,
+      "tier": "recall",
+      "category": "recall",
+      "text": "In what language was the original Bābur-Nāma written?",
+      "held_out_passage": null
+    },
+    {
+      "id": 50,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "Why would Babur's loss of both Samarkand and Andijan simultaneously have been particularly devastating to his position, given what the text reveals about his family situation and available resources?",
+      "held_out_passage": null
+    },
+    {
+      "id": 51,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "What does the pattern of Babur being forced to retreat to Khujand multiple times suggest about the relationship between his ambitions and his actual military capacity during this period?",
+      "held_out_passage": null
+    },
+    {
+      "id": 52,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "How did the presence of Babur's mother, grandmother, and his followers' families in Khujand complicate his military strategy, based on the events described in the text?",
+      "held_out_passage": null
+    },
+    {
+      "id": 53,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "What can be inferred about The Khan's reliability as an ally from the multiple instances where he offered help but then withdrew or was persuaded to retire?",
+      "held_out_passage": null
+    },
+    {
+      "id": 54,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "Why would Babur's decision to leave Samarkand in his cousin Ali's hands have been strategically risky, given the subsequent events involving the Mughul faction?",
+      "held_out_passage": null
+    },
+    {
+      "id": 55,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "How did the internal conflicts among the Timurid Mirzas and between Khusrau Shah and Mas'ud Miranshahi create both opportunities and obstacles for Babur's territorial ambitions?",
+      "held_out_passage": null
+    },
+    {
+      "id": 56,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "What does the text suggest about why Babur was able to recover Andijan after initially losing it, and what does this reveal about the stability of his enemies' positions?",
+      "held_out_passage": null
+    },
+    {
+      "id": 57,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "How did Babur's illness episodes, mentioned multiple times in the text, appear to affect both his military campaigns and his political standing with his supporters?",
+      "held_out_passage": null
+    },
+    {
+      "id": 58,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "Based on the sequence of events involving Ahmad Tambal and the Mughul faction, what can be inferred about the nature of the threat they posed compared to other rivals?",
+      "held_out_passage": null
+    },
+    {
+      "id": 59,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "Why would Babur's need to borrow Pashaghar for winter and later move to summer-pastures indicate about the precariousness of his territorial control during this period?",
+      "held_out_passage": null
+    },
+    {
+      "id": 60,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "What does the repeated pattern of Babur's force being 'insufficient' for his objectives suggest about the gap between his ambitions and the resources available to him?",
+      "held_out_passage": null
+    },
+    {
+      "id": 61,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What would Babur's opinion be on the use of gunpowder artillery in 21st-century warfare?",
+      "held_out_passage": null
+    },
+    {
+      "id": 62,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "How would Babur have responded to the invention of the steam engine and industrial manufacturing?",
+      "held_out_passage": null
+    },
+    {
+      "id": 63,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What were Babur's private thoughts on the theological debates within Sufism that occurred after his death?",
+      "held_out_passage": null
+    },
+    {
+      "id": 64,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "If Babur had access to modern genetic testing, what would he have discovered about his ancestry beyond what he recorded in the Baburnama?",
+      "held_out_passage": null
+    },
+    {
+      "id": 65,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "How would Babur have adapted his military strategies if he had possessed knowledge of modern satellite reconnaissance?",
+      "held_out_passage": null
+    },
+    {
+      "id": 66,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What did Babur believe about the scientific theories of heliocentrism and gravity?",
+      "held_out_passage": null
+    },
+    {
+      "id": 67,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "How would Babur have governed the Mughal Empire differently if he had lived to age 100?",
+      "held_out_passage": null
+    },
+    {
+      "id": 68,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Babur's stance on the philosophical implications of the printing press technology that emerged after his lifetime?",
+      "held_out_passage": null
+    },
+    {
+      "id": 69,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "If Babur could have witnessed the partition of India in 1947, what would his reaction have been?",
+      "held_out_passage": null
+    },
+    {
+      "id": 70,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What personal correspondence did Babur exchange with European monarchs regarding trade and diplomacy?",
+      "held_out_passage": null
+    },
+    {
+      "id": 71,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Babur repeatedly lost and regained territories (Samarkand, Andijan) through military campaigns, yet also showed willingness to negotiate and make accommodations. At what point would he have chosen permanent retreat over continued conflict, and what would that threshold have been?",
+      "held_out_passage": null
+    },
+    {
+      "id": 72,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "The text notes Babur's 'adoption of orthodox observance' during his early reign. How did this religious commitment interact with his pragmatic military alliances with groups of varying religious strictness, and did he ever face genuine moral conflict between these positions?",
+      "held_out_passage": null
+    },
+    {
+      "id": 73,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Babur was distressed to tears when separated from his family and supporters, yet he repeatedly made strategic decisions that prolonged their separation. How did he rationalize emotional vulnerability against the demands of ambition, and did this balance shift over time?",
+      "held_out_passage": null
+    },
+    {
+      "id": 74,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Given that Babur cursed Khusrau Shah for blinding his cousin Masud, what was the actual limit of his willingness to forgive rivals, and would he have extended mercy to someone who had committed similar atrocities against his own family?",
+      "held_out_passage": null
+    },
+    {
+      "id": 75,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Babur explicitly spoke of his 'ambition to rule,' yet he also depended heavily on his uncle The Khan's military support. At what point would his ambition have required him to move against his own family member, and would he have been capable of doing so?",
+      "held_out_passage": null
+    },
+    {
+      "id": 76,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "The text shows Babur borrowing territory (Pashaghar) and being 'admitted to Marghiyan on terms,' suggesting he accepted subordinate positions temporarily. What was his actual tolerance for dependency, and when would accepting help have felt like unacceptable loss of autonomy?",
+      "held_out_passage": null
+    },
+    {
+      "id": 77,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Babur had a relapse of illness where he was 'believed dying,' yet recovered to continue campaigning. How did near-death experiences affect his decision-making calculus, and did they make him more or less willing to take risks with his remaining forces?",
+      "held_out_passage": null
+    },
+    {
+      "id": 78,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Multiple followers abandoned Babur to return to their families in Andijan. How did Babur genuinely view the loyalty-versus-family-obligation conflict his men faced, and would he have punished those who left, or did he accept this as inevitable?",
+      "held_out_passage": null
+    },
+    {
+      "id": 79,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Babur left Samarkand in his cousin Ali's hands, but then lost it. Did Babur blame Ali, himself, or circumstance, and how did this failure affect his subsequent trust in delegating authority to family members?",
+      "held_out_passage": null
+    },
+    {
+      "id": 80,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "The text describes Babur being 'unwilling to burden' Khujand longer and moving to summer pastures. Was this genuine consideration for his hosts, strategic necessity, or a rationalization for his inability to hold territory—and how would Babur himself have characterized his motivation?",
+      "held_out_passage": null
+    }
+  ]
+}

@@ -1,0 +1,363 @@
+{
+  "metadata": {
+    "subject": "Babur",
+    "total": 60,
+    "tiers": {
+      "behavioral_prediction": 40,
+      "recall": 10,
+      "adversarial_abstention": 10
+    }
+  },
+  "questions": [
+    {
+      "id": 1,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How does Babur typically respond when subordinates demonstrate loyalty and military success in his absence?",
+      "held_out_passage": "Shāh Muḥammad (son) of Ma`rūf to whom in last year's campaign (934 AH.) I had shown great favour and had given the Sāran-country, had done well on several occasions, twice fighting and overcoming his father Ma`rūf."
+    },
+    {
+      "id": 2,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "What is Babur's approach to managing potential threats from rival powers during military campaigns?",
+      "held_out_passage": "During these days news came repeatedly that Bīban and Shaikh Bāyazīd were meaning to cross the Sarū-river."
+    },
+    {
+      "id": 3,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "How does Babur handle the death of trusted officials or companions?",
+      "held_out_passage": "that he and a physician who was by way of being a friend of his, had gone to God's mercy on one and the same day. `Abdu'l-lāh (_kitābdār_) was ordered to go and maintain order in Sanbal."
+    },
+    {
+      "id": 4,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "What does Babur's treatment of the Nūḥānī Afghāns reveal about his strategy for consolidating power?",
+      "held_out_passage": "Not to make vain the hope with which some 7 or 8,000 _Nūḥānī_ Afghāns had come in to me, I bestowed 50 _laks_ from Bīhār on Maḥmūd Khān _Nūḥānī_"
+    },
+    {
+      "id": 5,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "How does Babur typically reward military commanders who perform well in battle?",
+      "held_out_passage": "Today guerdon was bestowed on Aīsān-tīmūr Sl. and Tūkhta-būghā Sl., of swords and daggers with belts, cuirasses, dresses of honour, and _tīpūchāq_ horses"
+    },
+    {
+      "id": 6,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "What is Babur's pattern in responding to subordinates who face difficult political circumstances?",
+      "held_out_passage": "At the time when Sl. Maḥmūd _Lūdī_ perfidiously took possession of Bihār and was opposed by Shaikh Bāyazīd and Bīban, Shāh Muḥammad had no help for it, he had to join them; but even then, when people were saying wild words about him, he had written dutifully to me."
+    },
+    {
+      "id": 7,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "How does Babur decide when to pursue peace negotiations versus continued military action?",
+      "held_out_passage": "As the object of this campaign was to put down the rebel Afghāns of whom some had taken their heads and gone off, some had come in submissive and accepting my service, and the remaining few were in the hands of the Bengalī who had taken them in charge, and as, moreover, the Rains were near, we in our turn wrote and despatched words for peace on the conditions mentioned."
+    },
+    {
+      "id": 8,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "What does Babur's delegation of administrative tasks reveal about his management style?",
+      "held_out_passage": "`Abdu'l-lāh (_kitābdār_) was ordered to go and maintain order in Sanbal. (_May 13th_) On Friday the 5th of the month Ramẓān, `Abdu'l-lāh was given leave for Sanbal."
+    },
+    {
+      "id": 9,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How does Babur respond to reports of military activity from distant commanders?",
+      "held_out_passage": "In these same days came a dutiful letter from Chīn-tīmūr Sl. saying that on account of the journey of the family from Kābul, several of the begs who had been appointed to reinforce him, had not been able to join him; also that he had gone out with Muḥammadī and other begs and braves, not less than 100 _kurohs_ (200m.), attacked the Balūchīs and given them a good beating."
+    },
+    {
+      "id": 10,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "What is Babur's typical approach to managing revenue distribution among conquered territories?",
+      "held_out_passage": "I bestowed 50 _laks_ from Bīhār on Maḥmūd Khān _Nūḥānī_, after reserving one _krūr_ for Government uses (_khalṣa_), and gave the remainder of the Bihār revenues in trust for the above-mentioned Jalāl Khān who for his part agreed to pay one _krūr_ of tribute."
+    },
+    {
+      "id": 11,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "How does Babur handle negotiations with rival powers through intermediaries?",
+      "held_out_passage": "that retainer of Khalīfa's, Ghulām-i-`alī by name, who in company with a retainer of the Shāh-zāda of Mungīr named Abū'l-fatḥ, had gone earlier than Ismā`īl Mītā, to convey those three articles (_faṣl soz_), now returned, again in company with Abū'l-fatḥ, bringing letters for Khalīfa written by the Shāh-zāda and by Ḥusain Khān _Laskar_"
+    },
+    {
+      "id": 12,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "What does Babur's treatment of Shaikh Jamālī's associates suggest about his diplomatic approach?",
+      "held_out_passage": "Daryā Khān's grandson Jalāl Khān to whom Shaikh Jamālī had gone, came in with his chief amīrs and waited on me."
+    },
+    {
+      "id": 13,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "How does Babur typically respond to offers of submission from rival factions?",
+      "held_out_passage": "Yaḥyā _Nūḥānī_ also came, who had already sent his younger brother in sign of submission and had received a royal letter accepting his service."
+    },
+    {
+      "id": 14,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "What environmental or seasonal factors influence Babur's military decision-making?",
+      "held_out_passage": "and as, moreover, the Rains were near, we in our turn wrote and despatched words for peace on the conditions mentioned."
+    },
+    {
+      "id": 15,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How does Babur balance the need to reward supporters with fiscal responsibility?",
+      "held_out_passage": "I bestowed 50 _laks_ from Bīhār on Maḥmūd Khān _Nūḥānī_, after reserving one _krūr_ for Government uses (_khalṣa_)"
+    },
+    {
+      "id": 16,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "What is Babur's pattern in assigning territorial grants to military subordinates?",
+      "held_out_passage": "Aīsān-tīmūr Sl. for the grant of 36 _laks_ from the Nārnūl _pargana_, Tūkhta-bughā Sl. for 30 _laks_ from that of Shamsābād."
+    },
+    {
+      "id": 17,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How does Babur respond when subordinates face pressure from multiple opposing forces?",
+      "held_out_passage": "When `Askarī crossed at the Haldī-passage, Shāh Muḥammad had come at once with a troop, seen him and with him gone against the Bengalīs."
+    },
+    {
+      "id": 18,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "What does Babur's immediate action upon receiving news of unrest reveal about his priorities?",
+      "held_out_passage": "Prayer; I praised and thanked them and led them to expect guerdon and kindness."
+    },
+    {
+      "id": 19,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "How does Babur typically consolidate control over newly acquired regions?",
+      "held_out_passage": "Orders were sent through `Abdu'l-lāh (_kitābdār_) for the Sulṯān that he and Sl. Muḥammad _Dūldāī_, Muḥammadī, and some of the begs and braves of that country-side should assemble in Āgra and there remain ready to move to wherever an enemy appeared."
+    },
+    {
+      "id": 20,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "What does Babur's treatment of the Afghān rebels suggest about his approach to conflict resolution?",
+      "held_out_passage": "As the object of this campaign was to put down the rebel Afghāns of whom some had taken their heads and gone off, some had come in submissive and accepting my service, and the remaining few were in the hands of the Bengalī"
+    },
+    {
+      "id": 21,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When Babur receives news that rebel Afghans have been partially subdued and some remain in enemy hands, what does he typically do regarding military campaigns?",
+      "held_out_passage": "As the object of this campaign was to put down the rebel Afghāns of whom some had taken their heads and gone off, some had come in submissive and accepting my service, and the remaining few were in the hands of the Bengalī who had taken them in charge, and as, moreover, the Rains were near, we in our turn wrote and despatched words for peace on the conditions mentioned."
+    },
+    {
+      "id": 22,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "How does Babur respond to environmental conditions like approaching monsoon rains when conducting military operations?",
+      "held_out_passage": "and as, moreover, the Rains were near, we in our turn wrote and despatched words for peace on the conditions mentioned."
+    },
+    {
+      "id": 23,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "What is Babur's typical approach to rewarding loyal military commanders and nobles?",
+      "held_out_passage": "Today guerdon was bestowed on Aīsān-tīmūr Sl. and Tūkhta-būghā Sl., of swords and daggers with belts, cuirasses, dresses of honour, and _tīpūchāq_ horses; also they were made to kneel, Aīsān-tīmūr Sl. for the grant of 36 _laks_ from the Nārnūl _pargana_, Tūkhta-bughā Sl. for 30 _laks_ from that of Shamsābād."
+    },
+    {
+      "id": 24,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When Babur grants revenue assignments to regional leaders, what conditions does he typically impose?",
+      "held_out_passage": "I bestowed 50 _laks_ from Bīhār on Maḥmūd Khān _Nūḥānī_, after reserving one _krūr_ for Government uses (_khalṣa_), and gave the remainder of the Bihār revenues in trust for the above-mentioned Jalāl Khān who for his part agreed to pay one _krūr_ of tribute."
+    },
+    {
+      "id": 25,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How does Babur typically respond to delegations from rival rulers seeking peace?",
+      "held_out_passage": "On the eve of Thursday (_11th_) that retainer of Khalīfa's, Ghulām-i-`alī by name, who in company with a retainer of the Shāh-zāda of Mungīr named Abū'l-fatḥ, had gone earlier than Ismā`īl Mītā, to convey those three articles (_faṣl soz_), now returned, again in company with Abū'l-fatḥ, bringing letters for Khalīfa written by the Shāh-zāda and by Ḥusain Khān _Laskar_ _Wazīr_, who, in these letters, gave assent to those three conditions, took upon themselves to act for Naṣrat Shāh and interjected a word for peace."
+    },
+    {
+      "id": 26,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "What does Babur value in terms of military action against those who have submitted to him?",
+      "held_out_passage": "some had come in submissive and accepting my service"
+    },
+    {
+      "id": 27,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "How does Babur typically handle the pursuit of traitors and rebels?",
+      "held_out_passage": "we marched from our ground belonging to Kūndbah (or Kūndīh) on the Sarū-river, with easy mind about Bihār and Bengal, and resolute to crush the traitors Bīban and Shaikh Bāyazīd."
+    },
+    {
+      "id": 28,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "What is Babur's documented reaction when faced with natural disasters during military campaigns?",
+      "held_out_passage": "such a storm burst, in the inside of a moment, from the up-piled clouds of the Rainy-season, and such a stiff gale rose, that few tents were left standing. I was in the Audience-tent, about to write; before I could collect papers and sections, the tent came down, with its porch, right on my head. The _tūnglūq_ went to pieces. God preserved me! no harm befell me!"
+    },
+    {
+      "id": 29,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How does Babur prioritize the preservation of his written records?",
+      "held_out_passage": "Sections and book were drenched under water and gathered together with much difficulty. We laid them in the folds of a woollen throne-carpet, put this on the throne and on it piled blankets."
+    },
+    {
+      "id": 30,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "What does Babur's behavior reveal about his personal resilience during crises?",
+      "held_out_passage": "We, without sleep, were busy till shoot of day drying folios and sections."
+    },
+    {
+      "id": 31,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How does Babur typically respond to submissions from Afghan tribal leaders?",
+      "held_out_passage": "Not to make vain the hope with which some 7 or 8,000 _Nūḥānī_ Afghāns had come in to me, I bestowed 50 _laks_ from Bīhār on Maḥmūd Khān _Nūḥānī_"
+    },
+    {
+      "id": 32,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "What is Babur's approach to managing expectations of those who submit to his authority?",
+      "held_out_passage": "Not to make vain the hope with which some 7 or 8,000 _Nūḥānī_ Afghāns had come in to me, I bestowed 50 _laks_ from Bīhār on Maḥmūd Khān _Nūḥānī_"
+    },
+    {
+      "id": 33,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "How does Babur typically delegate military responsibilities when pursuing enemies?",
+      "held_out_passage": "the following leaders were appointed to bar (their) crossing:—The Turk and Hind amīrs Jalālu'd-dīn _Sharqī_, `Alī Khān _Farmūlī_; Tardīka (or, Tardī _yakka_), Nizām Khān of Bīāna, together with Tūlmīsh _Aūzbeg_, Qurbān of Chīrk and Daryā Khān (of Bhīra's son) Ḥasan Khān."
+    },
+    {
+      "id": 34,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "What does Babur's treatment of military intelligence reveal about his strategic thinking?",
+      "held_out_passage": "As news began to come again and again that the traitors, after crossing Sarū and Gogar, were going toward Luknū, the following leaders were appointed to bar (their) crossing"
+    },
+    {
+      "id": 35,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How does Babur respond to reports of military action by his subordinates against enemies?",
+      "held_out_passage": "also that he had gone out with Muḥammadī and other begs and braves, not less than 100 _kurohs_ (200m.), attacked the Balūchīs and given them a good beating."
+    },
+    {
+      "id": 36,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "What administrative measures does Babur take to maintain readiness against threats?",
+      "held_out_passage": "Orders were sent through `Abdu'l-lāh (_kitābdār_) for the Sulṯān that he and Sl. Muḥammad _Dūldāī_, Muḥammadī, and some of the begs and braves of that country-side should assemble in Āgra and there remain ready to move to wherever an enemy appeared."
+    },
+    {
+      "id": 37,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How does Babur typically handle negotiations with multiple parties in conflict?",
+      "held_out_passage": "Yaḥyā _Nūḥānī_ also came, who had already sent his younger brother in sign of submission and had received a royal letter accepting his service."
+    },
+    {
+      "id": 38,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "What does Babur's use of intermediaries reveal about his diplomatic approach?",
+      "held_out_passage": "Mullā Ghulām _yasāwal_ was sent to collect this tribute."
+    },
+    {
+      "id": 39,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "How does Babur balance military aggression with pragmatic peace-making?",
+      "held_out_passage": "we in our turn wrote and despatched words for peace on the conditions mentioned."
+    },
+    {
+      "id": 40,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "What does Babur's immediate response to a natural disaster reveal about his priorities?",
+      "held_out_passage": "The storm quieted down in about 2 _garīs_ (45m.); the bedding-tent was set up, a lamp lighted, and, after much trouble, a fire kindled. We, without sleep, were busy till shoot of day drying folios and sections."
+    },
+    {
+      "id": 41,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Babur's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 42,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Babur's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 43,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Babur's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 44,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Babur's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 45,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Babur's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 46,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Babur's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 47,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Babur's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 48,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Babur's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 49,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Babur's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 50,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Babur's opinion on modern technology?",
+      "held_out_passage": null
+    }
+  ]
+}

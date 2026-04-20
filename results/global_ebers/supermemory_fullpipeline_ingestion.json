@@ -1,0 +1,13 @@
+{
+  "subject": "ebers",
+  "system": "supermemory",
+  "mode": "fullpipeline",
+  "container_tag": "ebers_fullpipeline",
+  "chunks_expected": 17,
+  "chunks_posted": 17,
+  "post_success": 9,
+  "post_failure": 8,
+  "start_time": "2026-04-16T06:59:26.398527+00:00",
+  "end_time": "2026-04-16T07:00:48.389629+00:00",
+  "verification_passed": true
+}

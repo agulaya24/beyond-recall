@@ -1,0 +1,782 @@
+{
+  "1": {
+    "question_id": 1,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Benvenuto Cellini described himself as a murderer, braggart, insolent, sensual, proud, and passionate.",
+      "Benvenuto Cellini was a sculptor, goldsmith, musician, and master of narrative.",
+      "Benvenuto Cellini worked in gold and silver, chasing and modeling precious surfaces.",
+      "Benvenuto Cellini wrote that he had many things of merit and had a great reputation.",
+      "Benvenuto Cellini fought in the Sack of Rome.",
+      "In 1565, Cellini married Piera de Salvadore Parigi, a servant who had nursed him when he was sick.",
+      "Benvenuto Cellini knew and adored Michelangelo.",
+      "Benvenuto Cellini was born in Florence in 1500, son of architect and musician Giovanni, son of Andrea, son of Cristofano; mother Madonna Elisabetta, daughter of Stefano Granacci; father owned a house in Via Chiara and property near Ponte a Rifredi; both parents were citizens of Florence",
+      "Cellini alludes to cartoons made by Michelangelo and Leonardo for the Sala del Gran Consiglio in the Palazzo Vecchio at Florence; only shadows remain, with a part of Michelangelo's engraved by Schiavonetti and a transcript by Rubens of Leonardo's called the Battle of the Standard.",
+      "Benvenuto Cellini wrote that all men who have done anything of merit should write their life with their own hand."
+    ],
+    "latency_ms": 798,
+    "timestamp": "2026-04-16T07:05:55.641819+00:00"
+  },
+  "2": {
+    "question_id": 2,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Benvenuto Cellini's autobiography mentions that after 1565 he showed more tenderness to his children, sister, and nieces.",
+      "Benvenuto Cellini's autobiography mentions the Reformation and Counter‑Reformation, the strife of Pope and Emperor and King, but only glimpses.",
+      "Benvenuto Cellini's autobiography describes the artistic life of the time, the age of Michelangelo, and his own role among great artists.",
+      "Benvenuto Cellini's autobiography describes the social life of the sixteenth century: violence, licentiousness, zeal for fine craftsmanship, vitality, versatility, and idealism.",
+      "Benvenuto Cellini fought in the Sack of Rome.",
+      "Benvenuto Cellini wrote that all men who have done anything of merit should write their life with their own hand.",
+      "Cellini alludes to cartoons made by Michelangelo and Leonardo for the Sala del Gran Consiglio in the Palazzo Vecchio at Florence; only shadows remain, with a part of Michelangelo's engraved by Schiavonetti and a transcript by Rubens of Leonardo's called the Battle of the Standard.",
+      "In 1565, Cellini married Piera de Salvadore Parigi, a servant who had nursed him when he was sick.",
+      "The Autobiography of Benvenuto Cellini, translated by John Addington Symonds (1840-1893), is available in Volume 31 and is supplied in ISO Latin1 with 8‑bit accents and a single‑file HTML version.",
+      "Benvenuto Cellini was a sculptor, goldsmith, musician, and master of narrative."
+    ],
+    "latency_ms": 1102,
+    "timestamp": "2026-04-16T07:05:56.745576+00:00"
+  },
+  "3": {
+    "question_id": 3,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Benvenuto Cellini fought in the Sack of Rome.",
+      "Benvenuto Cellini described himself as a murderer, braggart, insolent, sensual, proud, and passionate.",
+      "In 1565, Cellini married Piera de Salvadore Parigi, a servant who had nursed him when he was sick.",
+      "Benvenuto Cellini wrote that he had many things of merit and had a great reputation.",
+      "Torrigiani modeled a statue of the Virgin for a nobleman in Spain, was imprisoned by the Inquisition for not receiving expected pay, and starved himself to death in 1522.",
+      "Benvenuto Cellini worked in gold and silver, chasing and modeling precious surfaces.",
+      "Benvenuto Cellini knew and adored Michelangelo.",
+      "Benvenuto Cellini was a sculptor, goldsmith, musician, and master of narrative.",
+      "Benvenuto Cellini lived from 1500 to 1571.",
+      "Benvenuto Cellini's autobiography mentions that after 1565 he showed more tenderness to his children, sister, and nieces."
+    ],
+    "latency_ms": 696,
+    "timestamp": "2026-04-16T07:05:57.442982+00:00"
+  },
+  "4": {
+    "question_id": 4,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Benvenuto Cellini wrote that he had many things of merit and had a great reputation.",
+      "Benvenuto Cellini fought in the Sack of Rome.",
+      "Benvenuto Cellini's autobiography mentions that after 1565 he showed more tenderness to his children, sister, and nieces.",
+      "Benvenuto Cellini described himself as a murderer, braggart, insolent, sensual, proud, and passionate.",
+      "In 1565, Cellini married Piera de Salvadore Parigi, a servant who had nursed him when he was sick.",
+      "Benvenuto Cellini knew and adored Michelangelo.",
+      "Benvenuto Cellini was a sculptor, goldsmith, musician, and master of narrative.",
+      "Cellini alludes to cartoons made by Michelangelo and Leonardo for the Sala del Gran Consiglio in the Palazzo Vecchio at Florence; only shadows remain, with a part of Michelangelo's engraved by Schiavonetti and a transcript by Rubens of Leonardo's called the Battle of the Standard.",
+      "Benvenuto Cellini lived from 1500 to 1571.",
+      "Benvenuto Cellini worked in gold and silver, chasing and modeling precious surfaces."
+    ],
+    "latency_ms": 651,
+    "timestamp": "2026-04-16T07:05:58.097581+00:00"
+  },
+  "5": {
+    "question_id": 5,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Benvenuto Cellini described himself as a murderer, braggart, insolent, sensual, proud, and passionate.",
+      "Benvenuto Cellini was a sculptor, goldsmith, musician, and master of narrative.",
+      "Benvenuto Cellini knew and adored Michelangelo.",
+      "Benvenuto Cellini worked in gold and silver, chasing and modeling precious surfaces.",
+      "Benvenuto Cellini wrote that he had many things of merit and had a great reputation.",
+      "Benvenuto Cellini fought in the Sack of Rome.",
+      "Benvenuto Cellini lived from 1500 to 1571.",
+      "Benvenuto Cellini wrote that all men who have done anything of merit should write their life with their own hand.",
+      "Benvenuto Cellini's autobiography describes the social life of the sixteenth century: violence, licentiousness, zeal for fine craftsmanship, vitality, versatility, and idealism.",
+      "Cellini alludes to cartoons made by Michelangelo and Leonardo for the Sala del Gran Consiglio in the Palazzo Vecchio at Florence; only shadows remain, with a part of Michelangelo's engraved by Schiavonetti and a transcript by Rubens of Leonardo's called the Battle of the Standard."
+    ],
+    "latency_ms": 885,
+    "timestamp": "2026-04-16T07:05:58.983256+00:00"
+  },
+  "6": {
+    "question_id": 6,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Benvenuto Cellini wrote that he had many things of merit and had a great reputation.",
+      "Benvenuto Cellini's autobiography mentions that after 1565 he showed more tenderness to his children, sister, and nieces.",
+      "In 1565, Cellini married Piera de Salvadore Parigi, a servant who had nursed him when he was sick.",
+      "Benvenuto Cellini lived from 1500 to 1571.",
+      "Benvenuto Cellini described himself as a murderer, braggart, insolent, sensual, proud, and passionate.",
+      "Benvenuto Cellini knew and adored Michelangelo.",
+      "Benvenuto Cellini fought in the Sack of Rome.",
+      "Benvenuto Cellini worked in gold and silver, chasing and modeling precious surfaces.",
+      "Profile portraits of Michelangelo Buonarroti show his nose bent in an angle, as though it had been broken.",
+      "Benvenuto Cellini was a sculptor, goldsmith, musician, and master of narrative."
+    ],
+    "latency_ms": 654,
+    "timestamp": "2026-04-16T07:05:59.638333+00:00"
+  },
+  "7": {
+    "question_id": 7,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Benvenuto Cellini fought in the Sack of Rome.",
+      "Benvenuto Cellini was a sculptor, goldsmith, musician, and master of narrative.",
+      "In 1565, Cellini married Piera de Salvadore Parigi, a servant who had nursed him when he was sick.",
+      "Benvenuto Cellini described himself as a murderer, braggart, insolent, sensual, proud, and passionate.",
+      "Benvenuto Cellini knew and adored Michelangelo.",
+      "Benvenuto Cellini worked in gold and silver, chasing and modeling precious surfaces.",
+      "Cellini alludes to cartoons made by Michelangelo and Leonardo for the Sala del Gran Consiglio in the Palazzo Vecchio at Florence; only shadows remain, with a part of Michelangelo's engraved by Schiavonetti and a transcript by Rubens of Leonardo's called the Battle of the Standard.",
+      "Benvenuto Cellini lived from 1500 to 1571.",
+      "Benvenuto Cellini wrote that he had many things of merit and had a great reputation.",
+      "Benvenuto Cellini wrote that all men who have done anything of merit should write their life with their own hand."
+    ],
+    "latency_ms": 603,
+    "timestamp": "2026-04-16T07:06:00.242224+00:00"
+  },
+  "8": {
+    "question_id": 8,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Benvenuto Cellini's autobiography describes the artistic life of the time, the age of Michelangelo, and his own role among great artists.",
+      "Benvenuto Cellini was a sculptor, goldsmith, musician, and master of narrative.",
+      "Benvenuto Cellini fought in the Sack of Rome.",
+      "Benvenuto Cellini worked in gold and silver, chasing and modeling precious surfaces.",
+      "Benvenuto Cellini knew and adored Michelangelo.",
+      "Benvenuto Cellini described himself as a murderer, braggart, insolent, sensual, proud, and passionate.",
+      "In 1565, Cellini married Piera de Salvadore Parigi, a servant who had nursed him when he was sick.",
+      "Cellini alludes to cartoons made by Michelangelo and Leonardo for the Sala del Gran Consiglio in the Palazzo Vecchio at Florence; only shadows remain, with a part of Michelangelo's engraved by Schiavonetti and a transcript by Rubens of Leonardo's called the Battle of the Standard.",
+      "Cellini died in Florence on May 13, 1571, and was buried in the Church of the Annunziata.",
+      "Benvenuto Cellini wrote that he had many things of merit and had a great reputation."
+    ],
+    "latency_ms": 1164,
+    "timestamp": "2026-04-16T07:06:01.410681+00:00"
+  },
+  "9": {
+    "question_id": 9,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Benvenuto Cellini wrote that all men who have done anything of merit should write their life with their own hand.",
+      "Benvenuto Cellini's autobiography describes the artistic life of the time, the age of Michelangelo, and his own role among great artists.",
+      "Benvenuto Cellini's autobiography mentions that after 1565 he showed more tenderness to his children, sister, and nieces.",
+      "Benvenuto Cellini lived from 1500 to 1571.",
+      "Benvenuto Cellini knew and adored Michelangelo.",
+      "Benvenuto Cellini described himself as a murderer, braggart, insolent, sensual, proud, and passionate.",
+      "Benvenuto wrote his father a letter describing his stay with Maestro Ulivieri, and his father responded encouragingly, telling him to obey four simple words: 'Steal not, and live honestly.'",
+      "Benvenuto Cellini was a sculptor, goldsmith, musician, and master of narrative.",
+      "Benvenuto Cellini fought in the Sack of Rome.",
+      "Torrigiani had a quarrel with a Milanese named Pagolo Arsago, who had a great quarrel with his master Il Firenzuola."
+    ],
+    "latency_ms": 1057,
+    "timestamp": "2026-04-16T07:06:02.472534+00:00"
+  },
+  "10": {
+    "question_id": 10,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Benvenuto Cellini worked in gold and silver, chasing and modeling precious surfaces.",
+      "Benvenuto Cellini fought in the Sack of Rome.",
+      "Benvenuto Cellini described himself as a murderer, braggart, insolent, sensual, proud, and passionate.",
+      "Benvenuto Cellini was a sculptor, goldsmith, musician, and master of narrative.",
+      "Benvenuto Cellini wrote that he had many things of merit and had a great reputation.",
+      "Benvenuto Cellini lived from 1500 to 1571.",
+      "Benvenuto Cellini knew and adored Michelangelo.",
+      "In 1565, Cellini married Piera de Salvadore Parigi, a servant who had nursed him when he was sick.",
+      "Benvenuto Cellini wrote that all men who have done anything of merit should write their life with their own hand.",
+      "Cellini alludes to cartoons made by Michelangelo and Leonardo for the Sala del Gran Consiglio in the Palazzo Vecchio at Florence; only shadows remain, with a part of Michelangelo's engraved by Schiavonetti and a transcript by Rubens of Leonardo's called the Battle of the Standard."
+    ],
+    "latency_ms": 1410,
+    "timestamp": "2026-04-16T07:06:03.885798+00:00"
+  },
+  "11": {
+    "question_id": 11,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "In 1565, Cellini married Piera de Salvadore Parigi, a servant who had nursed him when he was sick.",
+      "Benvenuto Cellini was a sculptor, goldsmith, musician, and master of narrative.",
+      "Torrigiani made a silver plate for a cardinal, an oblong box copied from a porphyry sarcophagus before the door of the Rotonda, enriched with elegant masks of his invention, and it was praised by his master.",
+      "Benvenuto Cellini wrote that he had many things of merit and had a great reputation.",
+      "Cellini alludes to cartoons made by Michelangelo and Leonardo for the Sala del Gran Consiglio in the Palazzo Vecchio at Florence; only shadows remain, with a part of Michelangelo's engraved by Schiavonetti and a transcript by Rubens of Leonardo's called the Battle of the Standard.",
+      "Benvenuto Cellini described himself as a murderer, braggart, insolent, sensual, proud, and passionate.",
+      "Benvenuto's brother Cecchino, after his first lesson in the school of Giovannino de' Medici, sought clothes from Benvenuto's sisters, who gave him a cloak and doublet that Benvenuto had bought from his savings, leading Benvenuto to discover he had been cheated of his clothes and money.",
+      "Benvenuto Cellini worked in gold and silver, chasing and modeling precious surfaces.",
+      "Benvenuto Cellini fought in the Sack of Rome.",
+      "Benvenuto Cellini was born in Florence in 1500, son of architect and musician Giovanni, son of Andrea, son of Cristofano; mother Madonna Elisabetta, daughter of Stefano Granacci; father owned a house in Via Chiara and property near Ponte a Rifredi; both parents were citizens of Florence"
+    ],
+    "latency_ms": 972,
+    "timestamp": "2026-04-16T07:06:04.858686+00:00"
+  },
+  "12": {
+    "question_id": 12,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Benvenuto Cellini knew and adored Michelangelo.",
+      "Benvenuto Cellini worked in gold and silver, chasing and modeling precious surfaces.",
+      "Benvenuto Cellini described himself as a murderer, braggart, insolent, sensual, proud, and passionate.",
+      "Benvenuto Cellini's autobiography mentions that after 1565 he showed more tenderness to his children, sister, and nieces.",
+      "Benvenuto Cellini wrote that he had many things of merit and had a great reputation.",
+      "Benvenuto Cellini wrote that all men who have done anything of merit should write their life with their own hand.",
+      "Benvenuto Cellini was a sculptor, goldsmith, musician, and master of narrative.",
+      "Benvenuto wrote his father a letter describing his stay with Maestro Ulivieri, and his father responded encouragingly, telling him to obey four simple words: 'Steal not, and live honestly.'",
+      "Torrigiani had a quarrel with a Milanese named Pagolo Arsago, who had a great quarrel with his master Il Firenzuola.",
+      "Benvenuto Cellini's autobiography describes the artistic life of the time, the age of Michelangelo, and his own role among great artists."
+    ],
+    "latency_ms": 876,
+    "timestamp": "2026-04-16T07:06:05.736822+00:00"
+  },
+  "13": {
+    "question_id": 13,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Benvenuto Cellini wrote that he had many things of merit and had a great reputation.",
+      "Benvenuto Cellini described himself as a murderer, braggart, insolent, sensual, proud, and passionate.",
+      "Benvenuto Cellini knew and adored Michelangelo.",
+      "In 1565, Cellini married Piera de Salvadore Parigi, a servant who had nursed him when he was sick.",
+      "Benvenuto Cellini's autobiography mentions that after 1565 he showed more tenderness to his children, sister, and nieces.",
+      "Benvenuto Cellini was a sculptor, goldsmith, musician, and master of narrative.",
+      "Benvenuto Cellini fought in the Sack of Rome.",
+      "Torrigiani had a quarrel with a Milanese named Pagolo Arsago, who had a great quarrel with his master Il Firenzuola.",
+      "Benvenuto Cellini wrote that all men who have done anything of merit should write their life with their own hand.",
+      "Torrigiani discussed Michelangelo and Leonardo cartoons depicting the taking of Pisa, noting that Benvenuto's drawing had attracted his attention."
+    ],
+    "latency_ms": 983,
+    "timestamp": "2026-04-16T07:06:06.723434+00:00"
+  },
+  "14": {
+    "question_id": 14,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Benvenuto Cellini described himself as a murderer, braggart, insolent, sensual, proud, and passionate.",
+      "Benvenuto Cellini was a sculptor, goldsmith, musician, and master of narrative.",
+      "Benvenuto Cellini worked in gold and silver, chasing and modeling precious surfaces.",
+      "In 1565, Cellini married Piera de Salvadore Parigi, a servant who had nursed him when he was sick.",
+      "Benvenuto Cellini wrote that he had many things of merit and had a great reputation.",
+      "Cellini alludes to cartoons made by Michelangelo and Leonardo for the Sala del Gran Consiglio in the Palazzo Vecchio at Florence; only shadows remain, with a part of Michelangelo's engraved by Schiavonetti and a transcript by Rubens of Leonardo's called the Battle of the Standard.",
+      "Benvenuto Cellini fought in the Sack of Rome.",
+      "Benvenuto Cellini knew and adored Michelangelo.",
+      "Benvenuto Cellini's autobiography mentions that after 1565 he showed more tenderness to his children, sister, and nieces.",
+      "Benvenuto Cellini was born in Florence in 1500, son of architect and musician Giovanni, son of Andrea, son of Cristofano; mother Madonna Elisabetta, daughter of Stefano Granacci; father owned a house in Via Chiara and property near Ponte a Rifredi; both parents were citizens of Florence"
+    ],
+    "latency_ms": 714,
+    "timestamp": "2026-04-16T07:06:07.438164+00:00"
+  },
+  "15": {
+    "question_id": 15,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Benvenuto Cellini described himself as a murderer, braggart, insolent, sensual, proud, and passionate.",
+      "Benvenuto Cellini's autobiography describes the artistic life of the time, the age of Michelangelo, and his own role among great artists.",
+      "Benvenuto Cellini wrote that all men who have done anything of merit should write their life with their own hand.",
+      "Benvenuto Cellini wrote that he had many things of merit and had a great reputation.",
+      "Benvenuto Cellini was a sculptor, goldsmith, musician, and master of narrative.",
+      "In 1565, Cellini married Piera de Salvadore Parigi, a servant who had nursed him when he was sick.",
+      "Benvenuto Cellini worked in gold and silver, chasing and modeling precious surfaces.",
+      "Benvenuto Cellini knew and adored Michelangelo.",
+      "Cellini alludes to cartoons made by Michelangelo and Leonardo for the Sala del Gran Consiglio in the Palazzo Vecchio at Florence; only shadows remain, with a part of Michelangelo's engraved by Schiavonetti and a transcript by Rubens of Leonardo's called the Battle of the Standard.",
+      "Torrigiani made a silver plate for a cardinal, an oblong box copied from a porphyry sarcophagus before the door of the Rotonda, enriched with elegant masks of his invention, and it was praised by his master."
+    ],
+    "latency_ms": 615,
+    "timestamp": "2026-04-16T07:06:08.056865+00:00"
+  },
+  "16": {
+    "question_id": 16,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Benvenuto Cellini was a sculptor, goldsmith, musician, and master of narrative.",
+      "Benvenuto Cellini described himself as a murderer, braggart, insolent, sensual, proud, and passionate.",
+      "Benvenuto Cellini wrote that he had many things of merit and had a great reputation.",
+      "Benvenuto Cellini lived from 1500 to 1571.",
+      "Benvenuto Cellini knew and adored Michelangelo.",
+      "In 1565, Cellini married Piera de Salvadore Parigi, a servant who had nursed him when he was sick.",
+      "Cellini alludes to cartoons made by Michelangelo and Leonardo for the Sala del Gran Consiglio in the Palazzo Vecchio at Florence; only shadows remain, with a part of Michelangelo's engraved by Schiavonetti and a transcript by Rubens of Leonardo's called the Battle of the Standard.",
+      "Benvenuto Cellini worked in gold and silver, chasing and modeling precious surfaces.",
+      "Torrigiani modeled a statue of the Virgin for a nobleman in Spain, was imprisoned by the Inquisition for not receiving expected pay, and starved himself to death in 1522.",
+      "Benvenuto wrote his father a letter describing his stay with Maestro Ulivieri, and his father responded encouragingly, telling him to obey four simple words: 'Steal not, and live honestly.'"
+    ],
+    "latency_ms": 658,
+    "timestamp": "2026-04-16T07:06:08.716771+00:00"
+  },
+  "17": {
+    "question_id": 17,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Benvenuto Cellini's autobiography mentions that after 1565 he showed more tenderness to his children, sister, and nieces.",
+      "Benvenuto Cellini wrote that he had many things of merit and had a great reputation.",
+      "In 1565, Cellini married Piera de Salvadore Parigi, a servant who had nursed him when he was sick.",
+      "Torrigiani's wood-carver friend Giovan Battista, surnamed Il Tasso, agreed to join him to Rome if he had enough money.",
+      "Benvenuto Cellini worked in gold and silver, chasing and modeling precious surfaces.",
+      "During his one-year stay in Pisa, Benvenuto studied antiquities such as marble sarcophagi at Campo Santo, made several fine gold and silver works, and abandoned music, particularly the flute, which he hated.",
+      "Benvenuto Cellini lived from 1500 to 1571.",
+      "After confronting his father, Benvenuto left for Lucca and then Pisa, arriving at age about sixteen, where he met Maestro Ulivieri della Chiostra, who welcomed him into his shop, praised his appearance, and taught him gold, silver, and gem work.",
+      "Benvenuto Cellini knew and adored Michelangelo.",
+      "Cellini died in Florence on May 13, 1571, and was buried in the Church of the Annunziata."
+    ],
+    "latency_ms": 623,
+    "timestamp": "2026-04-16T07:06:09.344607+00:00"
+  },
+  "18": {
+    "question_id": 18,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Benvenuto Cellini worked in gold and silver, chasing and modeling precious surfaces.",
+      "Benvenuto Cellini lived from 1500 to 1571.",
+      "Benvenuto Cellini wrote that he had many things of merit and had a great reputation.",
+      "Benvenuto Cellini was a sculptor, goldsmith, musician, and master of narrative.",
+      "Benvenuto Cellini described himself as a murderer, braggart, insolent, sensual, proud, and passionate.",
+      "The autobiography covers the period from Cellini’s birth in 1500 to 1562, mainly set in Italy and France.",
+      "Benvenuto Cellini knew and adored Michelangelo.",
+      "In Rome, Torrigiani apprenticed under Il Firenzuola, Giovanni from Firenzuola in Lombardy, a craftsman in large vases and big plate, and showed him a model for a clasp he had made in Florence at Salimbene's, which pleased the master.",
+      "Piero Torrigiani and Buonarroti used to go into the Church of the Carmine to learn drawing from the chapel of Masaccio; Buonarroti would banter all who were drawing there, and Torrigiani once gave him a blow on the nose that broke bone and cartilage.",
+      "Benvenuto Cellini fought in the Sack of Rome."
+    ],
+    "latency_ms": 693,
+    "timestamp": "2026-04-16T07:06:10.038135+00:00"
+  },
+  "19": {
+    "question_id": 19,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Benvenuto Cellini's autobiography mentions that after 1565 he showed more tenderness to his children, sister, and nieces.",
+      "Benvenuto Cellini's autobiography mentions the Reformation and Counter‑Reformation, the strife of Pope and Emperor and King, but only glimpses.",
+      "Benvenuto Cellini's autobiography describes the social life of the sixteenth century: violence, licentiousness, zeal for fine craftsmanship, vitality, versatility, and idealism.",
+      "Benvenuto Cellini's autobiography describes the artistic life of the time, the age of Michelangelo, and his own role among great artists.",
+      "Benvenuto Cellini worked in gold and silver, chasing and modeling precious surfaces.",
+      "Benvenuto Cellini knew and adored Michelangelo.",
+      "Torrigiani and Tasso traveled together to Rome, passing through Siena where Tasso asked for money to return due to a foot injury; Torrigiani hired a horse and continued to Rome.",
+      "Benvenuto Cellini was a sculptor, goldsmith, musician, and master of narrative.",
+      "Benvenuto Cellini described himself as a murderer, braggart, insolent, sensual, proud, and passionate.",
+      "In 1565, Cellini married Piera de Salvadore Parigi, a servant who had nursed him when he was sick."
+    ],
+    "latency_ms": 561,
+    "timestamp": "2026-04-16T07:06:10.599871+00:00"
+  },
+  "20": {
+    "question_id": 20,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Benvenuto Cellini was a sculptor, goldsmith, musician, and master of narrative.",
+      "Benvenuto Cellini fought in the Sack of Rome.",
+      "Cellini alludes to cartoons made by Michelangelo and Leonardo for the Sala del Gran Consiglio in the Palazzo Vecchio at Florence; only shadows remain, with a part of Michelangelo's engraved by Schiavonetti and a transcript by Rubens of Leonardo's called the Battle of the Standard.",
+      "Benvenuto Cellini worked in gold and silver, chasing and modeling precious surfaces.",
+      "Benvenuto Cellini wrote that he had many things of merit and had a great reputation.",
+      "Benvenuto Cellini described himself as a murderer, braggart, insolent, sensual, proud, and passionate.",
+      "Benvenuto Cellini knew and adored Michelangelo.",
+      "Benvenuto Cellini's autobiography mentions the Reformation and Counter‑Reformation, the strife of Pope and Emperor and King, but only glimpses.",
+      "Benvenuto Cellini was born in Florence in 1500, son of architect and musician Giovanni, son of Andrea, son of Cristofano; mother Madonna Elisabetta, daughter of Stefano Granacci; father owned a house in Via Chiara and property near Ponte a Rifredi; both parents were citizens of Florence",
+      "Benvenuto Cellini's autobiography describes the social life of the sixteenth century: violence, licentiousness, zeal for fine craftsmanship, vitality, versatility, and idealism."
+    ],
+    "latency_ms": 774,
+    "timestamp": "2026-04-16T07:06:11.374772+00:00"
+  },
+  "21": {
+    "question_id": 21,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Benvenuto Cellini wrote that he had many things of merit and had a great reputation.",
+      "Benvenuto Cellini's autobiography mentions that after 1565 he showed more tenderness to his children, sister, and nieces.",
+      "Benvenuto Cellini described himself as a murderer, braggart, insolent, sensual, proud, and passionate.",
+      "In 1565, Cellini married Piera de Salvadore Parigi, a servant who had nursed him when he was sick.",
+      "Benvenuto Cellini was a sculptor, goldsmith, musician, and master of narrative.",
+      "Benvenuto Cellini knew and adored Michelangelo.",
+      "Benvenuto Cellini worked in gold and silver, chasing and modeling precious surfaces.",
+      "Benvenuto's brother Cecchino, after his first lesson in the school of Giovannino de' Medici, sought clothes from Benvenuto's sisters, who gave him a cloak and doublet that Benvenuto had bought from his savings, leading Benvenuto to discover he had been cheated of his clothes and money.",
+      "Piero Torrigiani and Buonarroti used to go into the Church of the Carmine to learn drawing from the chapel of Masaccio; Buonarroti would banter all who were drawing there, and Torrigiani once gave him a blow on the nose that broke bone and cartilage.",
+      "In Rome, Torrigiani apprenticed under Il Firenzuola, Giovanni from Firenzuola in Lombardy, a craftsman in large vases and big plate, and showed him a model for a clasp he had made in Florence at Salimbene's, which pleased the master."
+    ],
+    "latency_ms": 593,
+    "timestamp": "2026-04-16T07:06:11.969610+00:00"
+  },
+  "22": {
+    "question_id": 22,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Benvenuto Cellini described himself as a murderer, braggart, insolent, sensual, proud, and passionate.",
+      "In 1565, Cellini married Piera de Salvadore Parigi, a servant who had nursed him when he was sick.",
+      "Cellini alludes to cartoons made by Michelangelo and Leonardo for the Sala del Gran Consiglio in the Palazzo Vecchio at Florence; only shadows remain, with a part of Michelangelo's engraved by Schiavonetti and a transcript by Rubens of Leonardo's called the Battle of the Standard.",
+      "Benvenuto Cellini fought in the Sack of Rome.",
+      "Benvenuto Cellini was a sculptor, goldsmith, musician, and master of narrative.",
+      "The autobiography covers the period from Cellini’s birth in 1500 to 1562, mainly set in Italy and France.",
+      "Benvenuto Cellini wrote that he had many things of merit and had a great reputation.",
+      "Benvenuto Cellini lived from 1500 to 1571.",
+      "Torrigiani made a silver plate for a cardinal, an oblong box copied from a porphyry sarcophagus before the door of the Rotonda, enriched with elegant masks of his invention, and it was praised by his master.",
+      "Benvenuto Cellini knew and adored Michelangelo."
+    ],
+    "latency_ms": 676,
+    "timestamp": "2026-04-16T07:06:12.646783+00:00"
+  },
+  "23": {
+    "question_id": 23,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Benvenuto Cellini's autobiography mentions that after 1565 he showed more tenderness to his children, sister, and nieces.",
+      "Benvenuto Cellini wrote that he had many things of merit and had a great reputation.",
+      "In 1565, Cellini married Piera de Salvadore Parigi, a servant who had nursed him when he was sick.",
+      "Benvenuto Cellini described himself as a murderer, braggart, insolent, sensual, proud, and passionate.",
+      "Benvenuto Cellini was a sculptor, goldsmith, musician, and master of narrative.",
+      "The autobiography covers the period from Cellini’s birth in 1500 to 1562, mainly set in Italy and France.",
+      "Cellini alludes to cartoons made by Michelangelo and Leonardo for the Sala del Gran Consiglio in the Palazzo Vecchio at Florence; only shadows remain, with a part of Michelangelo's engraved by Schiavonetti and a transcript by Rubens of Leonardo's called the Battle of the Standard.",
+      "Torrigiani made a silver plate for a cardinal, an oblong box copied from a porphyry sarcophagus before the door of the Rotonda, enriched with elegant masks of his invention, and it was praised by his master.",
+      "Benvenuto Cellini lived from 1500 to 1571.",
+      "After a fever, Benvenuto traveled with Maestro Ulivieri to Florence, where his father received him and urged him not to return to Pisa."
+    ],
+    "latency_ms": 689,
+    "timestamp": "2026-04-16T07:06:13.338203+00:00"
+  },
+  "24": {
+    "question_id": 24,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Cellini alludes to cartoons made by Michelangelo and Leonardo for the Sala del Gran Consiglio in the Palazzo Vecchio at Florence; only shadows remain, with a part of Michelangelo's engraved by Schiavonetti and a transcript by Rubens of Leonardo's called the Battle of the Standard.",
+      "In 1565, Cellini married Piera de Salvadore Parigi, a servant who had nursed him when he was sick.",
+      "Benvenuto Cellini described himself as a murderer, braggart, insolent, sensual, proud, and passionate.",
+      "Benvenuto Cellini worked in gold and silver, chasing and modeling precious surfaces.",
+      "Torrigiani modeled a statue of the Virgin for a nobleman in Spain, was imprisoned by the Inquisition for not receiving expected pay, and starved himself to death in 1522.",
+      "Benvenuto Cellini was a sculptor, goldsmith, musician, and master of narrative.",
+      "Benvenuto Cellini fought in the Sack of Rome.",
+      "Benvenuto Cellini wrote that he had many things of merit and had a great reputation.",
+      "The Autobiography of Benvenuto Cellini, translated by John Addington Symonds (1840-1893), is available in Volume 31 and is supplied in ISO Latin1 with 8‑bit accents and a single‑file HTML version.",
+      "Tasso was an able artist mentioned by Vasari and Pietro Aretino, and he was favored by Duke Cosimo de’ Medici, who consulted him on the work of other craftsmen."
+    ],
+    "latency_ms": 666,
+    "timestamp": "2026-04-16T07:06:14.005421+00:00"
+  },
+  "25": {
+    "question_id": 25,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Benvenuto Cellini's autobiography mentions that after 1565 he showed more tenderness to his children, sister, and nieces.",
+      "Benvenuto Cellini wrote that he had many things of merit and had a great reputation.",
+      "In 1565, Cellini married Piera de Salvadore Parigi, a servant who had nursed him when he was sick.",
+      "Benvenuto Cellini described himself as a murderer, braggart, insolent, sensual, proud, and passionate.",
+      "Benvenuto Cellini's autobiography describes the social life of the sixteenth century: violence, licentiousness, zeal for fine craftsmanship, vitality, versatility, and idealism.",
+      "Torrigiani's wood-carver friend Giovan Battista, surnamed Il Tasso, agreed to join him to Rome if he had enough money.",
+      "Benvenuto Cellini's autobiography mentions the Reformation and Counter‑Reformation, the strife of Pope and Emperor and King, but only glimpses.",
+      "Piero Torrigiani and Buonarroti used to go into the Church of the Carmine to learn drawing from the chapel of Masaccio; Buonarroti would banter all who were drawing there, and Torrigiani once gave him a blow on the nose that broke bone and cartilage.",
+      "Benvenuto Cellini wrote that all men who have done anything of merit should write their life with their own hand.",
+      "Benvenuto's brother Cecchino, after his first lesson in the school of Giovannino de' Medici, sought clothes from Benvenuto's sisters, who gave him a cloak and doublet that Benvenuto had bought from his savings, leading Benvenuto to discover he had been cheated of his clothes and money."
+    ],
+    "latency_ms": 742,
+    "timestamp": "2026-04-16T07:06:14.747924+00:00"
+  },
+  "26": {
+    "question_id": 26,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Benvenuto Cellini wrote that he had many things of merit and had a great reputation.",
+      "The Autobiography of Benvenuto Cellini, translated by John Addington Symonds (1840-1893), is available in Volume 31 and is supplied in ISO Latin1 with 8‑bit accents and a single‑file HTML version.",
+      "In 1565, Cellini married Piera de Salvadore Parigi, a servant who had nursed him when he was sick.",
+      "Benvenuto Cellini was a sculptor, goldsmith, musician, and master of narrative.",
+      "Cellini alludes to cartoons made by Michelangelo and Leonardo for the Sala del Gran Consiglio in the Palazzo Vecchio at Florence; only shadows remain, with a part of Michelangelo's engraved by Schiavonetti and a transcript by Rubens of Leonardo's called the Battle of the Standard.",
+      "Benvenuto Cellini described himself as a murderer, braggart, insolent, sensual, proud, and passionate.",
+      "Benvenuto Cellini fought in the Sack of Rome.",
+      "Benvenuto's brother Cecchino, after his first lesson in the school of Giovannino de' Medici, sought clothes from Benvenuto's sisters, who gave him a cloak and doublet that Benvenuto had bought from his savings, leading Benvenuto to discover he had been cheated of his clothes and money.",
+      "Benvenuto Cellini was born in Florence in 1500, son of architect and musician Giovanni, son of Andrea, son of Cristofano; mother Madonna Elisabetta, daughter of Stefano Granacci; father owned a house in Via Chiara and property near Ponte a Rifredi; both parents were citizens of Florence",
+      "Benvenuto Cellini wrote that all men who have done anything of merit should write their life with their own hand."
+    ],
+    "latency_ms": 685,
+    "timestamp": "2026-04-16T07:06:15.433623+00:00"
+  },
+  "27": {
+    "question_id": 27,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Benvenuto Cellini wrote that he had many things of merit and had a great reputation.",
+      "Benvenuto Cellini's autobiography describes the artistic life of the time, the age of Michelangelo, and his own role among great artists.",
+      "Benvenuto Cellini wrote that all men who have done anything of merit should write their life with their own hand.",
+      "Cellini alludes to cartoons made by Michelangelo and Leonardo for the Sala del Gran Consiglio in the Palazzo Vecchio at Florence; only shadows remain, with a part of Michelangelo's engraved by Schiavonetti and a transcript by Rubens of Leonardo's called the Battle of the Standard.",
+      "The Autobiography of Benvenuto Cellini, translated by John Addington Symonds (1840-1893), is available in Volume 31 and is supplied in ISO Latin1 with 8‑bit accents and a single‑file HTML version.",
+      "Benvenuto Cellini was a sculptor, goldsmith, musician, and master of narrative.",
+      "Benvenuto Cellini fought in the Sack of Rome.",
+      "Benvenuto Cellini described himself as a murderer, braggart, insolent, sensual, proud, and passionate.",
+      "Benvenuto Cellini's autobiography mentions that after 1565 he showed more tenderness to his children, sister, and nieces.",
+      "Benvenuto's brother Cecchino, after his first lesson in the school of Giovannino de' Medici, sought clothes from Benvenuto's sisters, who gave him a cloak and doublet that Benvenuto had bought from his savings, leading Benvenuto to discover he had been cheated of his clothes and money."
+    ],
+    "latency_ms": 611,
+    "timestamp": "2026-04-16T07:06:16.046510+00:00"
+  },
+  "28": {
+    "question_id": 28,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "In 1565, Cellini married Piera de Salvadore Parigi, a servant who had nursed him when he was sick.",
+      "Benvenuto Cellini described himself as a murderer, braggart, insolent, sensual, proud, and passionate.",
+      "Benvenuto Cellini wrote that he had many things of merit and had a great reputation.",
+      "Benvenuto Cellini was a sculptor, goldsmith, musician, and master of narrative.",
+      "Cellini alludes to cartoons made by Michelangelo and Leonardo for the Sala del Gran Consiglio in the Palazzo Vecchio at Florence; only shadows remain, with a part of Michelangelo's engraved by Schiavonetti and a transcript by Rubens of Leonardo's called the Battle of the Standard.",
+      "Benvenuto Cellini knew and adored Michelangelo.",
+      "Giovanni, Benvenuto's father, was a devoted servant of the Medici, worked as a musician under Soderini, and later as a goldsmith after the Medici returned.",
+      "Benvenuto Cellini's autobiography mentions that after 1565 he showed more tenderness to his children, sister, and nieces.",
+      "Benvenuto's brother Cecchino, after his first lesson in the school of Giovannino de' Medici, sought clothes from Benvenuto's sisters, who gave him a cloak and doublet that Benvenuto had bought from his savings, leading Benvenuto to discover he had been cheated of his clothes and money.",
+      "Benvenuto Cellini worked in gold and silver, chasing and modeling precious surfaces."
+    ],
+    "latency_ms": 703,
+    "timestamp": "2026-04-16T07:06:16.750821+00:00"
+  },
+  "29": {
+    "question_id": 29,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Benvenuto Cellini's autobiography describes the artistic life of the time, the age of Michelangelo, and his own role among great artists.",
+      "Benvenuto Cellini's autobiography mentions that after 1565 he showed more tenderness to his children, sister, and nieces.",
+      "Benvenuto Cellini's autobiography describes the social life of the sixteenth century: violence, licentiousness, zeal for fine craftsmanship, vitality, versatility, and idealism.",
+      "Benvenuto Cellini's autobiography mentions the Reformation and Counter‑Reformation, the strife of Pope and Emperor and King, but only glimpses.",
+      "Benvenuto Cellini wrote that all men who have done anything of merit should write their life with their own hand.",
+      "Torrigiani made a silver plate for a cardinal, an oblong box copied from a porphyry sarcophagus before the door of the Rotonda, enriched with elegant masks of his invention, and it was praised by his master.",
+      "Cellini alludes to cartoons made by Michelangelo and Leonardo for the Sala del Gran Consiglio in the Palazzo Vecchio at Florence; only shadows remain, with a part of Michelangelo's engraved by Schiavonetti and a transcript by Rubens of Leonardo's called the Battle of the Standard.",
+      "The Autobiography of Benvenuto Cellini, translated by John Addington Symonds (1840-1893), is available in Volume 31 and is supplied in ISO Latin1 with 8‑bit accents and a single‑file HTML version.",
+      "Benvenuto Cellini wrote that he had many things of merit and had a great reputation.",
+      "In 1565, Cellini married Piera de Salvadore Parigi, a servant who had nursed him when he was sick."
+    ],
+    "latency_ms": 751,
+    "timestamp": "2026-04-16T07:06:17.502686+00:00"
+  },
+  "30": {
+    "question_id": 30,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Benvenuto Cellini's autobiography mentions that after 1565 he showed more tenderness to his children, sister, and nieces.",
+      "In 1565, Cellini married Piera de Salvadore Parigi, a servant who had nursed him when he was sick.",
+      "Benvenuto Cellini wrote that he had many things of merit and had a great reputation.",
+      "Cellini alludes to cartoons made by Michelangelo and Leonardo for the Sala del Gran Consiglio in the Palazzo Vecchio at Florence; only shadows remain, with a part of Michelangelo's engraved by Schiavonetti and a transcript by Rubens of Leonardo's called the Battle of the Standard.",
+      "Benvenuto's brother Cecchino was to become a great and learned jurist, but Benvenuto was inclined toward design and Cecchino toward a profession of arms.",
+      "Benvenuto Cellini described himself as a murderer, braggart, insolent, sensual, proud, and passionate.",
+      "Benvenuto's brother Cecchino, after his first lesson in the school of Giovannino de' Medici, sought clothes from Benvenuto's sisters, who gave him a cloak and doublet that Benvenuto had bought from his savings, leading Benvenuto to discover he had been cheated of his clothes and money.",
+      "Benvenuto Cellini wrote that all men who have done anything of merit should write their life with their own hand.",
+      "After confronting his father, Benvenuto left for Lucca and then Pisa, arriving at age about sixteen, where he met Maestro Ulivieri della Chiostra, who welcomed him into his shop, praised his appearance, and taught him gold, silver, and gem work.",
+      "Torrigiani had a quarrel with a Milanese named Pagolo Arsago, who had a great quarrel with his master Il Firenzuola."
+    ],
+    "latency_ms": 653,
+    "timestamp": "2026-04-16T07:06:18.156713+00:00"
+  },
+  "31": {
+    "question_id": 31,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Benvenuto Cellini wrote that he had many things of merit and had a great reputation.",
+      "Benvenuto Cellini's autobiography describes the artistic life of the time, the age of Michelangelo, and his own role among great artists.",
+      "Benvenuto Cellini described himself as a murderer, braggart, insolent, sensual, proud, and passionate.",
+      "Benvenuto Cellini was a sculptor, goldsmith, musician, and master of narrative.",
+      "Benvenuto Cellini worked in gold and silver, chasing and modeling precious surfaces.",
+      "In 1565, Cellini married Piera de Salvadore Parigi, a servant who had nursed him when he was sick.",
+      "Benvenuto Cellini knew and adored Michelangelo.",
+      "Benvenuto Cellini's autobiography mentions that after 1565 he showed more tenderness to his children, sister, and nieces.",
+      "Cellini alludes to cartoons made by Michelangelo and Leonardo for the Sala del Gran Consiglio in the Palazzo Vecchio at Florence; only shadows remain, with a part of Michelangelo's engraved by Schiavonetti and a transcript by Rubens of Leonardo's called the Battle of the Standard.",
+      "Cellini died in Florence on May 13, 1571, and was buried in the Church of the Annunziata."
+    ],
+    "latency_ms": 682,
+    "timestamp": "2026-04-16T07:06:18.840483+00:00"
+  },
+  "32": {
+    "question_id": 32,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Benvenuto Cellini's autobiography describes the artistic life of the time, the age of Michelangelo, and his own role among great artists.",
+      "Benvenuto Cellini's autobiography mentions that after 1565 he showed more tenderness to his children, sister, and nieces.",
+      "Benvenuto Cellini's autobiography mentions the Reformation and Counter‑Reformation, the strife of Pope and Emperor and King, but only glimpses.",
+      "Benvenuto Cellini's autobiography describes the social life of the sixteenth century: violence, licentiousness, zeal for fine craftsmanship, vitality, versatility, and idealism.",
+      "In 1565, Cellini married Piera de Salvadore Parigi, a servant who had nursed him when he was sick.",
+      "Cellini died in Florence on May 13, 1571, and was buried in the Church of the Annunziata.",
+      "Torrigiani modeled a statue of the Virgin for a nobleman in Spain, was imprisoned by the Inquisition for not receiving expected pay, and starved himself to death in 1522.",
+      "Benvenuto's brother Cecchino, after his first lesson in the school of Giovannino de' Medici, sought clothes from Benvenuto's sisters, who gave him a cloak and doublet that Benvenuto had bought from his savings, leading Benvenuto to discover he had been cheated of his clothes and money.",
+      "Cellini alludes to cartoons made by Michelangelo and Leonardo for the Sala del Gran Consiglio in the Palazzo Vecchio at Florence; only shadows remain, with a part of Michelangelo's engraved by Schiavonetti and a transcript by Rubens of Leonardo's called the Battle of the Standard.",
+      "The autobiography covers the period from Cellini’s birth in 1500 to 1562, mainly set in Italy and France."
+    ],
+    "latency_ms": 578,
+    "timestamp": "2026-04-16T07:06:19.421722+00:00"
+  },
+  "33": {
+    "question_id": 33,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Benvenuto Cellini wrote that he had many things of merit and had a great reputation.",
+      "Benvenuto Cellini's autobiography mentions that after 1565 he showed more tenderness to his children, sister, and nieces.",
+      "Cellini alludes to cartoons made by Michelangelo and Leonardo for the Sala del Gran Consiglio in the Palazzo Vecchio at Florence; only shadows remain, with a part of Michelangelo's engraved by Schiavonetti and a transcript by Rubens of Leonardo's called the Battle of the Standard.",
+      "Benvenuto Cellini described himself as a murderer, braggart, insolent, sensual, proud, and passionate.",
+      "In 1565, Cellini married Piera de Salvadore Parigi, a servant who had nursed him when he was sick.",
+      "Benvenuto Cellini was a sculptor, goldsmith, musician, and master of narrative.",
+      "Benvenuto Cellini lived from 1500 to 1571.",
+      "Benvenuto Cellini wrote that all men who have done anything of merit should write their life with their own hand.",
+      "Benvenuto's brother Cecchino, after his first lesson in the school of Giovannino de' Medici, sought clothes from Benvenuto's sisters, who gave him a cloak and doublet that Benvenuto had bought from his savings, leading Benvenuto to discover he had been cheated of his clothes and money.",
+      "In Rome, Torrigiani apprenticed under Il Firenzuola, Giovanni from Firenzuola in Lombardy, a craftsman in large vases and big plate, and showed him a model for a clasp he had made in Florence at Salimbene's, which pleased the master."
+    ],
+    "latency_ms": 629,
+    "timestamp": "2026-04-16T07:06:20.052329+00:00"
+  },
+  "34": {
+    "question_id": 34,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Benvenuto Cellini wrote that he had many things of merit and had a great reputation.",
+      "Benvenuto Cellini's autobiography mentions that after 1565 he showed more tenderness to his children, sister, and nieces.",
+      "Benvenuto Cellini was a sculptor, goldsmith, musician, and master of narrative.",
+      "In 1565, Cellini married Piera de Salvadore Parigi, a servant who had nursed him when he was sick.",
+      "Benvenuto Cellini wrote that all men who have done anything of merit should write their life with their own hand.",
+      "Benvenuto Cellini described himself as a murderer, braggart, insolent, sensual, proud, and passionate.",
+      "Torrigiani's wood-carver friend Giovan Battista, surnamed Il Tasso, agreed to join him to Rome if he had enough money.",
+      "Benvenuto Cellini lived from 1500 to 1571.",
+      "Benvenuto Cellini knew and adored Michelangelo.",
+      "Tasso was an able artist mentioned by Vasari and Pietro Aretino, and he was favored by Duke Cosimo de’ Medici, who consulted him on the work of other craftsmen."
+    ],
+    "latency_ms": 701,
+    "timestamp": "2026-04-16T07:06:20.758385+00:00"
+  },
+  "35": {
+    "question_id": 35,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Benvenuto Cellini's autobiography mentions that after 1565 he showed more tenderness to his children, sister, and nieces.",
+      "Benvenuto Cellini's autobiography describes the artistic life of the time, the age of Michelangelo, and his own role among great artists.",
+      "Benvenuto Cellini's autobiography mentions the Reformation and Counter‑Reformation, the strife of Pope and Emperor and King, but only glimpses.",
+      "Benvenuto apprenticed to Antonio, son of Sandro, known as Marcone the goldsmith, learning goldsmithing, and after recovering from illness he returned to Marcone and began earning money to help his father and household.",
+      "Benvenuto Cellini was a sculptor, goldsmith, musician, and master of narrative.",
+      "After confronting his father, Benvenuto left for Lucca and then Pisa, arriving at age about sixteen, where he met Maestro Ulivieri della Chiostra, who welcomed him into his shop, praised his appearance, and taught him gold, silver, and gem work.",
+      "Benvenuto Cellini's autobiography describes the social life of the sixteenth century: violence, licentiousness, zeal for fine craftsmanship, vitality, versatility, and idealism.",
+      "Benvenuto Cellini wrote that he had many things of merit and had a great reputation.",
+      "Benvenuto Cellini worked in gold and silver, chasing and modeling precious surfaces.",
+      "Giovanni, Benvenuto's father, was a devoted servant of the Medici, worked as a musician under Soderini, and later as a goldsmith after the Medici returned."
+    ],
+    "latency_ms": 1305,
+    "timestamp": "2026-04-16T07:06:22.064941+00:00"
+  },
+  "36": {
+    "question_id": 36,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Benvenuto Cellini's autobiography mentions that after 1565 he showed more tenderness to his children, sister, and nieces.",
+      "Benvenuto Cellini wrote that he had many things of merit and had a great reputation.",
+      "In 1565, Cellini married Piera de Salvadore Parigi, a servant who had nursed him when he was sick.",
+      "Benvenuto Cellini worked in gold and silver, chasing and modeling precious surfaces.",
+      "Benvenuto Cellini fought in the Sack of Rome.",
+      "Benvenuto Cellini knew and adored Michelangelo.",
+      "Benvenuto Cellini lived from 1500 to 1571.",
+      "After confronting his father, Benvenuto left for Lucca and then Pisa, arriving at age about sixteen, where he met Maestro Ulivieri della Chiostra, who welcomed him into his shop, praised his appearance, and taught him gold, silver, and gem work.",
+      "Benvenuto apprenticed to Antonio, son of Sandro, known as Marcone the goldsmith, learning goldsmithing, and after recovering from illness he returned to Marcone and began earning money to help his father and household.",
+      "Benvenuto's brother Cecchino, after his first lesson in the school of Giovannino de' Medici, sought clothes from Benvenuto's sisters, who gave him a cloak and doublet that Benvenuto had bought from his savings, leading Benvenuto to discover he had been cheated of his clothes and money."
+    ],
+    "latency_ms": 854,
+    "timestamp": "2026-04-16T07:06:22.923597+00:00"
+  },
+  "37": {
+    "question_id": 37,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Benvenuto Cellini wrote that he had many things of merit and had a great reputation.",
+      "Benvenuto Cellini's autobiography mentions that after 1565 he showed more tenderness to his children, sister, and nieces.",
+      "In 1565, Cellini married Piera de Salvadore Parigi, a servant who had nursed him when he was sick.",
+      "Benvenuto Cellini was a sculptor, goldsmith, musician, and master of narrative.",
+      "Benvenuto Cellini described himself as a murderer, braggart, insolent, sensual, proud, and passionate.",
+      "Benvenuto Cellini wrote that all men who have done anything of merit should write their life with their own hand.",
+      "Benvenuto's brother Cecchino, after his first lesson in the school of Giovannino de' Medici, sought clothes from Benvenuto's sisters, who gave him a cloak and doublet that Benvenuto had bought from his savings, leading Benvenuto to discover he had been cheated of his clothes and money.",
+      "Torrigiani's wood-carver friend Giovan Battista, surnamed Il Tasso, agreed to join him to Rome if he had enough money.",
+      "In Rome, Torrigiani apprenticed under Il Firenzuola, Giovanni from Firenzuola in Lombardy, a craftsman in large vases and big plate, and showed him a model for a clasp he had made in Florence at Salimbene's, which pleased the master.",
+      "Benvenuto Cellini knew and adored Michelangelo."
+    ],
+    "latency_ms": 680,
+    "timestamp": "2026-04-16T07:06:23.604510+00:00"
+  },
+  "38": {
+    "question_id": 38,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Benvenuto Cellini's autobiography mentions that after 1565 he showed more tenderness to his children, sister, and nieces.",
+      "Benvenuto Cellini wrote that he had many things of merit and had a great reputation.",
+      "Benvenuto Cellini wrote that all men who have done anything of merit should write their life with their own hand.",
+      "In 1565, Cellini married Piera de Salvadore Parigi, a servant who had nursed him when he was sick.",
+      "Benvenuto Cellini's autobiography describes the artistic life of the time, the age of Michelangelo, and his own role among great artists.",
+      "Torrigiani had a close friendship with Francesco, son of Filippo, grandson of Fra Lippo Lippi, and during their two-year intimacy he fashioned a silver bas-relief the size of a little child's hand for a man's belt, carved with a knot of leaves and figures of children and masks, made in the workshop of Francesco Salimbene, and praised by goldsmiths as the best young craftsman.",
+      "Benvenuto Cellini's autobiography mentions the Reformation and Counter‑Reformation, the strife of Pope and Emperor and King, but only glimpses.",
+      "Benvenuto Cellini's autobiography describes the social life of the sixteenth century: violence, licentiousness, zeal for fine craftsmanship, vitality, versatility, and idealism.",
+      "Torrigiani's wood-carver friend Giovan Battista, surnamed Il Tasso, agreed to join him to Rome if he had enough money.",
+      "Torrigiani modeled a statue of the Virgin for a nobleman in Spain, was imprisoned by the Inquisition for not receiving expected pay, and starved himself to death in 1522."
+    ],
+    "latency_ms": 626,
+    "timestamp": "2026-04-16T07:06:24.232817+00:00"
+  },
+  "39": {
+    "question_id": 39,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Benvenuto Cellini's autobiography describes the artistic life of the time, the age of Michelangelo, and his own role among great artists.",
+      "Benvenuto Cellini wrote that he had many things of merit and had a great reputation.",
+      "Benvenuto Cellini's autobiography mentions that after 1565 he showed more tenderness to his children, sister, and nieces.",
+      "In 1565, Cellini married Piera de Salvadore Parigi, a servant who had nursed him when he was sick.",
+      "Benvenuto Cellini's autobiography describes the social life of the sixteenth century: violence, licentiousness, zeal for fine craftsmanship, vitality, versatility, and idealism.",
+      "Torrigiani discussed Michelangelo and Leonardo cartoons depicting the taking of Pisa, noting that Benvenuto's drawing had attracted his attention.",
+      "Benvenuto Cellini's autobiography mentions the Reformation and Counter‑Reformation, the strife of Pope and Emperor and King, but only glimpses.",
+      "Tasso was an able artist mentioned by Vasari and Pietro Aretino, and he was favored by Duke Cosimo de’ Medici, who consulted him on the work of other craftsmen.",
+      "Sculptor Piero Torrigiani arrived from England, visited Benvenuto's master, praised Benvenuto's drawings, and suggested that Benvenuto could become a rich artist.",
+      "After confronting his father, Benvenuto left for Lucca and then Pisa, arriving at age about sixteen, where he met Maestro Ulivieri della Chiostra, who welcomed him into his shop, praised his appearance, and taught him gold, silver, and gem work."
+    ],
+    "latency_ms": 675,
+    "timestamp": "2026-04-16T07:06:24.909038+00:00"
+  }
+}

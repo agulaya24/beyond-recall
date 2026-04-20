@@ -1,0 +1,782 @@
+[
+  {
+    "question_id": 1,
+    "question_text": "When Babur receives news of subordinates who have demonstrated loyalty through difficult circumstances, how does he typically respond in terms of material rewards?",
+    "held_out_passage": "Not to make vain the hope with which some 7 or 8,000 _Nūḥānī_ Afghāns had come in to me, I bestowed 50 _laks_ from Bīhār on Maḥmūd Khān _Nūḥānī_, after reserving one _krūr_ for Government uses (_khalṣa_), and gave the remainder of the Bihār revenues in trust for the above-mentioned Jalāl Khān who for his part agreed to pay one _krūr_ of tribute.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Babur's Response to Loyal Subordinates\n\nBased on the autobiography, Babur demonstrates a consistent pattern of material rewards for demonstrated loyalty:\n\n## Direct Rewards and Promotions\n\n**Advancement in Rank and Position**: When subordinates prove themselves through hardship, Babur elevates them. For example:\n- Qul-i-bāyazīd, the taster, who performed a bold solo swim across the Sind River to rout enemies, was promoted from the cook's office to the royal taster's position, with Babur noting \"I took up a position full of bounty, favour and promotion\"\n- Sl. Qulī Chūnāq received favor and promotion after demonstrating courage in multiple encounters\n\n**Land and Fiefs**: Babur grants territorial control as reward:\n- Qāsim Beg received Bangash as a reward for his distinguished performance in the Hazāra campaign\n- Various begs are given districts and _wilāyats_ (administrative regions) based on their service\n\n## Pattern of Recognition\n\nBabur explicitly states his approach: \"To some of the begs who had been with us in the guerilla-times and had come to Kābul with us, were given villages, fief-fashion.\"\n\nHe also notes that he \"looked with more favour on guest-begs and stranger-begs\" when showing favor, suggesting material rewards were his primary means of recognition.\n\nThe autobiography shows Babur using **tangible rewards—positions, lands, and titles—rather than mere praise** to acknowledge loyalty demonstrated through hardship.",
+        "input_tokens": 195671,
+        "output_tokens": 358,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 9823
+      },
+      "C9_raw_corpus_plus_spec": {
+        "error": "Client error '400 Bad Request' for url 'https://api.anthropic.com/v1/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+      }
+    },
+    "training_words": 209848,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:44:59.285865+00:00"
+  },
+  {
+    "question_id": 2,
+    "question_text": "When military objectives have been substantially achieved and environmental conditions become unfavorable, what decision does Babur make regarding continued campaigning?",
+    "held_out_passage": "As the object of this campaign was to put down the rebel Afghāns of whom some had taken their heads and gone off, some had come in submissive and accepting my service, and the remaining few were in the hands of the Bengalī (Naṣrat Shāh) who had taken them in charge, and as, moreover, the Rains were near, we in our turn wrote and despatched words for peace on the conditions mentioned.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Babur's Decision on Continued Campaigning\n\nBased on the autobiography text, when military objectives have been substantially achieved and environmental conditions become unfavorable, Babur demonstrates a **pragmatic decision to withdraw and consolidate rather than continue campaigning**.\n\n## Key Examples:\n\n### The Qandahār Campaign (911 AH)\nWhen Babur had successfully captured Qalāt-i-ghilzāī, the text states:\n\n> \"We went back to Kābul after over-running the Afghāns of Sawā-sang and Ālā-tāgh on the south of Qalāt.\"\n\nDespite the military success, he chose to return rather than press further advantages.\n\n### Winter Conditions and Resource Constraints\nThe text repeatedly shows Babur withdrawing when:\n- Winter approaches and supplies become scarce\n- Environmental conditions deteriorate (snow, cold, lack of forage)\n- His forces become exhausted or depleted\n\nFor example, during the Hindūstān expedition, when \"horse-corn\" became unavailable and conditions worsened, he strategically withdrew rather than overextend his supply lines.\n\n## Strategic Philosophy\n\nBabur's approach reflects mature military judgment: he recognizes that **holding territory and consolidating gains is more important than pursuing campaigns under adverse conditions**. This pragmatism—balancing ambition with realistic assessment of logistics and environmental factors—characterizes his decision-making throughout the memoir.",
+        "input_tokens": 195670,
+        "output_tokens": 326,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 8182
+      },
+      "C9_raw_corpus_plus_spec": {
+        "error": "Client error '400 Bad Request' for url 'https://api.anthropic.com/v1/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+      }
+    },
+    "training_words": 209848,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:45:16.969569+00:00"
+  },
+  {
+    "question_id": 3,
+    "question_text": "How does Babur handle situations where subordinates have been forced into difficult political positions due to external pressures beyond their control?",
+    "held_out_passage": "At the time when Sl. Maḥmūd _Lūdī_ perfidiously took possession of Bihār and was opposed by Shaikh Bāyazīd and Bīban, Shāh Muḥammad had no help for it, he had to join them; but even then, when people were saying wild words about him, he had written dutifully to me.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Babur's Handling of Subordinates in Difficult Political Positions\n\nBased on the autobiography, Babur demonstrates a nuanced approach that varies significantly depending on circumstances:\n\n## Merciful Leniency When Circumstances Warrant\n\nWhen subordinates act under genuine duress, Babur often shows compassion. For example, regarding **Khusrau Shah's retainers** who abandoned him when Babur's power grew:\n\n> \"Just as Khusrau Shāh had said they would do, his former retainers and followers, no sooner than he marched against Qūndūz, changed in their demeanour to me... The news of Khusrau Shāh's death fell like water on fire; it put his men out.\"\n\nRather than punishing them for their earlier disloyalty, Babur recognizes the political reality that forced their hand.\n\n## Conditional Forgiveness with Terms\n\nWhen **Muqim Arghun** surrenders Kabul, Babur grants him safe passage despite his previous opposition:\n\n> \"It was settled that next day he should march out with retainers and following, goods and effects, safe and sound.\"\n\nThis suggests Babur understands that fortress commanders often have limited choices.\n\n## Harsh Treatment for Perceived Betrayal\n\nHowever, Babur is **unforgiving when he perceives willful disloyalty** rather than forced compliance. He executes **Sher-i-`ali the page** for \"clear signs of disloyalty and misdoing both while in my service and not in mine, in this country and that country\"—suggesting deliberate choice rather than coercion.\n\n## The Critical Distinction\n\nBabur's mercy appears contingent on whether he believes the subordinate:\n1. **Had genuine alternatives** (treated leniently)\n2. **Acted from necessity** (often forgiven)\n3. **Made deliberate choices** (severely punished)\n\nHis treatment of **Qaṃbar-i-`ali**, whom he eventually dismisses rather than executes despite repeated disloyalty, shows he prefers exile to execution when circumstances are ambiguous.",
+        "input_tokens": 195669,
+        "output_tokens": 492,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 7942
+      },
+      "C9_raw_corpus_plus_spec": {
+        "error": "Client error '400 Bad Request' for url 'https://api.anthropic.com/v1/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+      }
+    },
+    "training_words": 209848,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:45:32.839184+00:00"
+  },
+  {
+    "question_id": 4,
+    "question_text": "When receiving delegations from previously hostile or uncertain groups, what is Babur's typical ceremonial response?",
+    "held_out_passage": "Ismā`īl _Jālwānī_, `Alāūl Khān _Nūḥānī_, Auliya Khān _Ashrāqī_(?) and 5 and 6 amīrs came in and waited on me.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Babur's Ceremonial Response to Delegations\n\nBased on the text, Babur's typical ceremonial response to delegations from previously hostile or uncertain groups involves **rising to honor them and demonstrating respect through physical gestures and courteous treatment**.\n\n## Key Examples:\n\n**Rising to greet them:**\nWhen Khusrau Shāh came to submit to Babur after being defeated, the text describes: \"According to rule and custom, he dismounted some way off and then made his approach. Three times he knelt when we saw one another, three times also on taking leave...\"\n\nMore significantly, Babur's response was to rise: \"When we had seen one another and he had offered his gift, I desired him to be seated.\"\n\n**Honoring through courtesy:**\nWhen receiving the Aūzbeg sulṯāns (Ḥamza Sl., Mamāq Sl., and Mahdī Sl.), the text states: \"when Ḥamza Sl. and Mamāq Sl. and Mahdī Sl. entered, I rose and went down to do them honour; we looked one another in the eyes and I placed them on my right.\"\n\n## Pattern:\n\nBabur's approach emphasizes:\n- **Rising from his seat** to show respect\n- **Direct eye contact** (\"looked one another in the eyes\")\n- **Seating them in positions of honor**\n- **Accepting their submission graciously** rather than with hostility\n\nThis ceremonial courtesy served both diplomatic and practical purposes—it encouraged submission and demonstrated magnanimity befitting a ruler.",
+        "input_tokens": 195665,
+        "output_tokens": 364,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 7879
+      },
+      "C9_raw_corpus_plus_spec": {
+        "error": "Client error '400 Bad Request' for url 'https://api.anthropic.com/v1/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+      }
+    },
+    "training_words": 209848,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:45:48.762163+00:00"
+  },
+  {
+    "question_id": 5,
+    "question_text": "How does Babur respond when receiving news of deaths among his trusted officials?",
+    "held_out_passage": "In these same days came a dutiful letter from Chīn-tīmūr Sl. saying that on account of the journey of the family from Kābul, several of the begs who had been appointed to reinforce him, had not been able to join him",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Babur's Response to Deaths of Trusted Officials\n\nBased on the autobiography, Babur demonstrates several characteristic responses to the deaths of trusted officials:\n\n## Grief and Personal Sorrow\n\nWhen **Nuyān Kūkūldāsh** dies, Babur's response is notably emotional:\n\n> \"His death made me strangely sad; for few men have I felt such grief; I wept unceasingly for a week or ten days.\"\n\nThis shows genuine, deep personal attachment to his loyal followers.\n\n## Commemorative Action\n\nRather than merely mourning, Babur takes action to honor the deceased. For Nuyān Kūkūldāsh, he records:\n\n> \"The chronogram of his death was found in _Nuyān is dead_.\"\n\nThis suggests he memorializes significant losses through literary composition.\n\n## Reflection on Loss\n\nWhen discussing the death of **Sayyid Yūsuf**, Babur notes:\n\n> \"I left him in Kābul the first year the army rode out for Hindūstān; at that time he went to God's mercy.\"\n\nHis tone reflects acceptance of divine will while acknowledging the practical loss to his administration.\n\n## Pattern of Loyalty\n\nBabur's responses suggest he valued loyalty highly and felt genuine loss when trusted men died, viewing such deaths as significant personal and political losses rather than mere administrative inconveniences.",
+        "input_tokens": 195659,
+        "output_tokens": 316,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5889
+      },
+      "C9_raw_corpus_plus_spec": {
+        "error": "Client error '400 Bad Request' for url 'https://api.anthropic.com/v1/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+      }
+    },
+    "training_words": 209848,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:46:04.618657+00:00"
+  },
+  {
+    "question_id": 6,
+    "question_text": "When subordinates demonstrate military success against enemies, what form of recognition does Babur typically provide?",
+    "held_out_passage": "Today guerdon was bestowed on Aīsān-tīmūr Sl. and Tūkhta-būghā Sl., of swords and daggers with belts, cuirasses, dresses of honour, and _tīpūchāq_ horses; also they were made to kneel, Aīsān-tīmūr Sl. for the grant of 36 _laks_ from the Nārnūl _pargana_, Tūkhta-bughā Sl. for 30 _laks_ from that of Shamsābād.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Babur's Recognition of Military Success\n\nBased on the autobiography, Babur typically provides the following forms of recognition for subordinates who demonstrate military success:\n\n## Primary Forms of Recognition\n\n1. **Promotion in Rank and Status**\n   - Elevation to the rank of \"beg\" (a significant administrative and military title)\n   - Example: After Qāsim Beg's successful crossing of a ford and defeating the Hazāras, \"In guerdon for this feat Bangash was given to Qāsim Beg\"\n\n2. **Land Grants and Territorial Control**\n   - Assignment of districts, fiefs, or regions to govern\n   - Example: Following military achievements, individuals receive control of specific territories like Ghaznī, Nīngnahār, or other districts\n\n3. **Appointment to Important Positions**\n   - Assignment to command posts and administrative roles\n   - Example: Nāṣir is \"put in command\" of Qandahār after military victories\n\n4. **Gifts and Material Rewards**\n   - Horses, weapons, and other valuables\n   - Example: The Younger Khān bestows \"arms of his own and one of his own special horses saddled\"\n\n5. **Verbal Praise and Favor**\n   - Public acknowledgment of courage and capability\n   - Inclusion in Babur's inner circle and confidence\n\nThese rewards reflect Babur's understanding that military loyalty must be reinforced through tangible recognition and advancement opportunities.",
+        "input_tokens": 195663,
+        "output_tokens": 342,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5860
+      },
+      "C9_raw_corpus_plus_spec": {
+        "error": "Client error '400 Bad Request' for url 'https://api.anthropic.com/v1/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+      }
+    },
+    "training_words": 209848,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:46:18.661356+00:00"
+  },
+  {
+    "question_id": 7,
+    "question_text": "When faced with intelligence about potential enemy movements across strategic waterways, what is Babur's typical response pattern?",
+    "held_out_passage": "During these days news came repeatedly that Bīban and Shaikh Bāyazīd were meaning to cross the Sarū-river.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Babur's Response to Enemy Movements Across Waterways\n\nBased on the text, Babur's typical response pattern involves:\n\n## Strategic Assessment and Preparation\n\n1. **Reconnaissance and Intelligence Gathering**: He sends scouts and gathers information about enemy positions and intentions before committing forces.\n\n2. **Fortification and Defense**: When enemies threaten to cross strategic waterways, he prepares defensive positions. For example, when facing threats to cross the Sind or other rivers, he orders:\n   - Pontoon bridges to be constructed for his own forces\n   - Defensive ditches and cart fortifications\n   - Artillery positioned strategically\n\n3. **Proactive Engagement**: Rather than purely defensive responses, Babur often moves to meet threats before they fully materialize. He states: \"he orders that every man in the army shall collect carts towards Rūmī defence\" and prepares his forces in advance.\n\n## Tactical Execution\n\n4. **Rapid Mobilization**: He demonstrates speed in responding—moving quickly to intercept or engage enemies attempting crossings.\n\n5. **Use of Superior Organization**: His forces maintain discipline and coordination, using formations and artillery effectively when enemies attempt to cross.\n\n## Example\n\nWhen rebels attempt to dispute his passage of the Ganges, Babur \"orders a pontoon-bridge\" and uses \"his artillery...with effect, the bridge finished and crossed and the Afghāns worsted.\"\n\nHis approach combines intelligence, preparation, and decisive action rather than reactive panic.",
+        "input_tokens": 195666,
+        "output_tokens": 334,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5929
+      },
+      "C9_raw_corpus_plus_spec": {
+        "error": "Client error '400 Bad Request' for url 'https://api.anthropic.com/v1/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+      }
+    },
+    "training_words": 209848,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:46:32.498487+00:00"
+  },
+  {
+    "question_id": 8,
+    "question_text": "How does Babur handle the administrative succession when key officials die unexpectedly?",
+    "held_out_passage": "`Abdu'l-lāh (_kitābdār_) was ordered to go and maintain order in Sanbal.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Babur's Handling of Administrative Succession\n\nBased on the autobiography, Babur demonstrates several approaches to managing succession when key officials die unexpectedly:\n\n## Rapid Replacement and Reassignment\n\nWhen officials die or prove unreliable, Babur quickly reassigns their responsibilities to trusted alternatives. For example:\n\n- When **Nāṣir Mīrzā's commander Faẓlī** fails disastrously in the Nūr-valley campaign, Babur doesn't dwell on the loss but moves to reassign leadership\n- Upon **Khwāja Kalān's death**, Babur appoints new commandants rather than leaving positions vacant\n\n## Promotion from Within Trusted Circles\n\nBabur elevates capable men from his existing retinue:\n\n- **Qāsim Beg** receives **Bangash** as reward for distinguished service in the Hazāra campaign\n- **Ḥātim the armourer** is promoted to replace **Shaikh Darwīsh Kūkūldāsh** as master-armourer after the latter's death\n- **Bābā Qulī's Kīpik** inherits **Muḥ. `Alī Mubashshir's** office\n\n## Pragmatic Flexibility\n\nRather than rigid hierarchies, Babur adapts:\n\n- He reassigns territories and commands based on current needs and loyalty\n- He dismisses underperformers (like **Qaṃbar-`alī**) but doesn't leave gaps unfilled\n- He rewards loyalty and competence regardless of rank\n\n## Key Principle\n\nBabur prioritizes **continuity of function over formal succession**, ensuring that critical administrative and military roles remain filled by capable, loyal men from his proven circle.",
+        "input_tokens": 195660,
+        "output_tokens": 410,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6723
+      },
+      "C9_raw_corpus_plus_spec": {
+        "error": "Client error '400 Bad Request' for url 'https://api.anthropic.com/v1/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+      }
+    },
+    "training_words": 209848,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:46:46.223013+00:00"
+  },
+  {
+    "question_id": 9,
+    "question_text": "When negotiating peace with rival powers, what role does Babur assign to intermediaries and what conditions does he prioritize?",
+    "held_out_passage": "we in our turn wrote and despatched words for peace on the conditions mentioned.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Babur's Use of Intermediaries and Peace Conditions\n\nBased on the autobiography, Babur employs intermediaries strategically in peace negotiations, though the text reveals both pragmatic and principled approaches:\n\n## Role of Intermediaries\n\n**Trusted Family and Advisors:**\n- Babur relies on close associates to mediate disputes. For example, when dealing with Khusrau Shah's submission, \"Bāqī _Chaghānīānī_ was a man of weight\" whose favorable disposition helped facilitate terms.\n- Religious figures serve diplomatic functions—Khwāja Abū'l-makāram acts as mediator in multiple situations, including negotiations with Muqīm over Kabul's surrender.\n\n**Strategic Positioning:**\nWhen negotiating with Khusrau Shah, Babur uses intermediaries to establish terms while maintaining distance, allowing for face-saving arrangements on both sides.\n\n## Prioritized Conditions\n\n**1. Preservation of Life and Honor**\nBabur consistently prioritizes safety guarantees: \"Compact was made that Khusrau Shāh's life should be safe, and that whatever amount of his goods he selected, should not be refused him.\"\n\n**2. Bloodless Surrender**\nHe prefers negotiated surrenders to costly sieges. With Muqīm and Kabul: \"without a fight, without an effort, by Almighty God's bounty and mercy, I obtained and made subject to me Kābul.\"\n\n**3. Loyalty Assurances**\nBabur seeks binding commitments rather than temporary truces, as seen in his careful management of rival factions.\n\n**4. Practical Governance**\nHe ensures smooth transitions of power by allowing departing rulers to retain dignity and resources, facilitating their peaceful exit.\n\nThis approach reflects Babur's pragmatism—intermediaries reduce direct confrontation while conditions focus on stability rather than humiliation.",
+        "input_tokens": 195669,
+        "output_tokens": 437,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 7053
+      },
+      "C9_raw_corpus_plus_spec": {
+        "error": "Client error '400 Bad Request' for url 'https://api.anthropic.com/v1/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+      }
+    },
+    "training_words": 209848,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:47:01.647501+00:00"
+  },
+  {
+    "question_id": 10,
+    "question_text": "How does Babur demonstrate trust in subordinates who have proven themselves through both military action and personal initiative?",
+    "held_out_passage": "When `Askarī crossed at the Haldī-passage, Shāh Muḥammad had come at once with a troop, seen him and with him gone against the Bengalīs.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Babur's Demonstration of Trust in Proven Subordinates\n\nBased on the autobiography, Babur demonstrates trust in subordinates through several concrete patterns:\n\n## Promotion Based on Demonstrated Competence\n\n**Military Achievement as Qualification:**\nBabur explicitly rewards those who show courage and initiative in battle. For example, he notes of Sl. Qulī Chūnāq: \"This was one of Sl. Qulī's deeds done under my own eyes, which led to his favour and promotion.\" The act—scaling a rocky position alone in mail to capture an Afghan—directly resulted in advancement.\n\n## Delegation of Strategic Responsibility\n\n**Granting Autonomous Command:**\nAfter proving themselves, subordinates receive significant territorial and military authority. Babur gives districts, forts, and armies to commanders who have demonstrated both competence and loyalty. He appoints Nāṣir to command Qandahār after military success, and grants Qāsim Beg the district of Bangash as reward for his performance in the Hazāra campaign.\n\n## Personal Observation as Trust-Building\n\nBabur emphasizes witnessing subordinates' actions firsthand: \"under my own eyes\" appears repeatedly. This direct observation—rather than hearsay—forms the basis for his confidence. He personally watches Qul-i-bāyazīd swim the Sind alone and chase off enemies, which leads to his promotion from cook to royal taster.\n\n## Loyalty Rewarded Over Rank\n\nBabur shows trust in those who maintain service despite hardship. He notes approvingly of Muḥammad-i-walī Beg: \"he never neglected his service and used to recline day and night in the Gate,\" which earned him advancement and favor.\n\nThis pattern reveals Babur as a pragmatic leader who bases trust on observable performance rather than birth or prior status.",
+        "input_tokens": 195665,
+        "output_tokens": 425,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 7716
+      },
+      "C9_raw_corpus_plus_spec": {
+        "error": "Client error '400 Bad Request' for url 'https://api.anthropic.com/v1/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+      }
+    },
+    "training_words": 209848,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:47:16.369821+00:00"
+  },
+  {
+    "question_id": 11,
+    "question_text": "Based on patterns in the training text, when faced with a situation where a trusted associate fails to defend a territory, how would Babur likely respond emotionally?",
+    "held_out_passage": "\"Would to God Bābur Mīrzā were here!\" he is reported as saying, by Muḥ. Ṣāliḥ.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Babur's Likely Emotional Response to Failed Defense\n\nBased on patterns in the text, Babur would likely respond with **deep personal grief and a sense of betrayal**, rather than mere anger.\n\n## Evidence from the Text\n\n**The Nuyān Kūkūldāsh incident** provides the clearest example:\n\n> \"His death made me strangely sad; for few men have I felt such grief; I wept unceasingly for a week or ten days.\"\n\nThis was Babur's response when Nuyān Kūkūldāsh died (apparently through treachery or misadventure), despite the man being in his service.\n\n## Pattern of Emotional Investment\n\nThroughout the memoir, Babur demonstrates:\n\n1. **Intense loyalty to followers** - He repeatedly shows reluctance to punish or dismiss trusted men, even when they fail him\n2. **Personal attachment** - He grieves deeply for individuals he values, not just for strategic losses\n3. **Reflection on betrayal** - When associates fail him (like Qaṃbar-`alī or `Alī-dost), he expresses hurt at their disloyalty rather than cold calculation\n\n## Likely Response\n\nRather than immediate harsh punishment, Babur would probably:\n- Experience profound emotional distress\n- Question what he had done to deserve such failure\n- Reflect on the relationship and his own judgment\n- Eventually take action, but tinged with sadness rather than rage\n\nThis pattern suggests Babur was emotionally invested in his relationships with trusted men, making their failures deeply personal wounds.",
+        "input_tokens": 195676,
+        "output_tokens": 356,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5785
+      },
+      "C9_raw_corpus_plus_spec": {
+        "error": "Client error '400 Bad Request' for url 'https://api.anthropic.com/v1/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+      }
+    },
+    "training_words": 209848,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:47:31.925684+00:00"
+  },
+  {
+    "question_id": 12,
+    "question_text": "Given Babur's demonstrated approach to family relationships and maternal influence shown in the training text, what would he likely believe about his mother's expectations regarding tribal alliances?",
+    "held_out_passage": "It seems likely that mother and son alike expected their Aūzbeg blood to stand them in good stead with Shaibāq.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Babur's Likely Beliefs About His Mother's Expectations\n\nBased on the autobiography, Babur would likely believe his mother's expectations regarding tribal alliances were:\n\n## High Priority and Binding\n\nThe text demonstrates that Babur's mother (Qūtlūq-nigār Khānīm) exercised substantial influence over him:\n\n- She was actively involved in his political decisions, including urging him to dismiss his half-brother Jahāngīr to Khurāsān\n- She participated in councils about governance and strategy\n- She traveled with him through difficult circumstances, including his guerrilla years\n\n## Rooted in Dynastic Continuity\n\nBabur would likely view his mother's expectations as:\n\n1. **Legitimate claims on his loyalty** - He explicitly states: \"it is against my nature to do an injury to my brethren, older or younger, or to any kinsman soever\"\n\n2. **Connected to family survival** - His mother represented the Timurid line's interests and continuity\n\n3. **Deserving of deference** - When she urged actions (like dismissing Jahāngīr), he initially resisted but ultimately acknowledged the wisdom of such counsel\n\n## Practical Political Necessity\n\nRather than viewing them as mere sentiment, Babur would likely see his mother's expectations about alliances as:\n\n- Strategic necessities for maintaining power\n- Expressions of accumulated wisdom from her experience\n- Obligations that balanced his own ambitions\n\nThe text shows Babur as dutiful but not blindly obedient—he weighed her counsel seriously while maintaining his own judgment.",
+        "input_tokens": 195677,
+        "output_tokens": 362,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6302
+      },
+      "C9_raw_corpus_plus_spec": {
+        "error": "Client error '400 Bad Request' for url 'https://api.anthropic.com/v1/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+      }
+    },
+    "training_words": 209848,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:47:45.413106+00:00"
+  },
+  {
+    "question_id": 13,
+    "question_text": "Based on Babur's documented patterns of territorial loss and recovery in the training text, how would he characterize a situation where he simultaneously lost multiple strategic holdings?",
+    "held_out_passage": "Having lost Samarkand and Andijān, Bābur is hospitably entertained by the",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Babur's Characterization of Simultaneous Territorial Loss\n\nBased on the autobiography's documented patterns, Babur would likely characterize such a situation using the metaphor he explicitly employed when losing both Samarkand and Andijan:\n\n## The Primary Characterization\n\n**\"Like the saying, 'In ignorance, made to leave this place, shut out from that'\"** (_Ghafil az īn jā rānda, az ān jā mānda_)\n\nThis Persian proverb captures his actual response to the simultaneous loss of these two critical holdings. The phrase conveys:\n\n1. **Helplessness and irony** - being forced from one place while denied access to another\n2. **Compounded misfortune** - the losses reinforce each other rather than offering alternatives\n3. **Bitter recognition** - acknowledging the cruel timing and interconnection of defeats\n\n## Supporting Evidence from His Pattern\n\nWhen Babur lost Samarkand and Andijan together (903-904 AH), he explicitly stated:\n\n> \"In anxiety for Andijān, we had given Samarkand out of our hands; then heard we had lost Andijān. It was like the saying, 'In ignorance, made to leave this place, shut out from that.' It was very hard and vexing to me; for why? never since I had ruled, had I been cut off like this from my retainers and my country.\"\n\nThis reveals he would characterize such situations as:\n- **Unprecedented in his experience** - uniquely disorienting\n- **Emotionally devastating** - causing genuine distress\n- **Strategically paralyzing** - leaving him isolated and without a base",
+        "input_tokens": 195676,
+        "output_tokens": 385,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6599
+      },
+      "C9_raw_corpus_plus_spec": {
+        "error": "Client error '400 Bad Request' for url 'https://api.anthropic.com/v1/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+      }
+    },
+    "training_words": 209848,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:48:00.038196+00:00"
+  },
+  {
+    "question_id": 14,
+    "question_text": "From the training text's examples of Babur's military comparisons and historical consciousness, what type of precedent would he likely invoke when achieving a significant military success?",
+    "held_out_passage": "Bābur might have compared his taking of Samarkand with Tīmūr's capture of Qarshī, also with 240 followers",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Babur's Historical Precedents for Military Success\n\nBased on the autobiography's examples, Babur would likely invoke **Timurid and Chaghatai dynastic precedents**, particularly:\n\n## Primary Models\n\n**Timur (Amir Timur)** - His great ancestor appears as the supreme exemplar. The text shows Babur:\n- Comparing his capture of Samarkand to Timur's ennoblement of the city\n- Viewing himself as heir to Timur's architectural and administrative legacy\n- Invoking Timur's example when establishing gardens and urban improvements\n\n**Husain Bai-qara** - A more immediate contemporary model. When Babur takes Samarkand by surprise (906 AH), he explicitly compares his achievement to Husain's capture of Herat, though he argues his own feat was more impressive given the circumstances.\n\n## The Pattern\n\nWhen achieving significant victories, Babur demonstrates:\n\n1. **Genealogical consciousness** - Emphasizing his descent from Timur and the Timurid line\n2. **Comparative analysis** - Measuring his deeds against predecessors' accomplishments\n3. **Legitimacy through precedent** - Using historical examples to validate his rule and justify his actions\n\nThe text reveals Babur as deeply conscious of being part of a **dynastic continuum**, where military success gains meaning through comparison with ancestors' achievements rather than standing alone as isolated victories.",
+        "input_tokens": 195677,
+        "output_tokens": 329,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5269
+      },
+      "C9_raw_corpus_plus_spec": {
+        "error": "Client error '400 Bad Request' for url 'https://api.anthropic.com/v1/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+      }
+    },
+    "training_words": 209848,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:48:15.669711+00:00"
+  },
+  {
+    "question_id": 15,
+    "question_text": "Based on Babur's documented spiritual practices and dream experiences in the training text, what role would divine guidance play in his decision-making during periods of uncertainty?",
+    "held_out_passage": "This account of a dream compares well for naturalness with that in the seemingly-spurious passage, entered with the Ḥai. MS. on f. 118.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Divine Guidance in Babur's Decision-Making\n\nBased on the autobiography, divine guidance played a significant but nuanced role in Babur's decision-making during uncertainty:\n\n## Documented Spiritual Practices\n\n**Prayer and Vows**: Babur explicitly sought divine intervention through formal religious acts:\n- He made vows before uncertain military campaigns, asking for \"a sign of victory\"\n- He renounced wine and destroyed wine vessels before the Battle of Kanwa, framing this as spiritual preparation\n- He performed intercession rituals (_rite of intercession and self-surrender_) to save his son Humayun's life, demonstrating faith in divine responsiveness\n\n## Dream Experiences as Guidance\n\nThe text provides a striking example of Babur interpreting dreams as divine messages:\n\n> \"His Highness Khwaja `Ubaid'l-lah (_Ahrari_) seemed to come... The Khwaja understood and accepted the excuse... 'Shaikh Maslhat has given (Samarkand).' I really took Samarkand a few days later.\"\n\nThis dream preceded his successful surprise capture of Samarkand, suggesting he viewed it as prophetic confirmation.\n\n## Practical Limitations\n\nHowever, Babur's reliance on divine guidance was **tempered by pragmatism**:\n- He consulted military experts and experienced begs alongside spiritual preparation\n- He acknowledged that astrologers' predictions sometimes proved false\n- He emphasized personal agency: \"my only aim is to write the truth\"\n\n**Conclusion**: Divine guidance functioned as psychological reinforcement and moral framework rather than as his primary decision-making mechanism. It provided confidence during crises but operated alongside strategic calculation.",
+        "input_tokens": 195676,
+        "output_tokens": 382,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6610
+      },
+      "C9_raw_corpus_plus_spec": {
+        "error": "Client error '400 Bad Request' for url 'https://api.anthropic.com/v1/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+      }
+    },
+    "training_words": 209848,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:48:28.593792+00:00"
+  },
+  {
+    "question_id": 16,
+    "question_text": "Given Babur's patterns of conflict with rivals and his strategic thinking shown in the training text, what would he infer about an opponent's intentions based on their military positioning?",
+    "held_out_passage": "This arrival shews that Shaibānī expected to stay in Samarkand. He had been occupying Turkistān under The Chaghatāī Khān.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Babur's Inference About Opponent Intentions from Military Positioning\n\nBased on the autobiography's detailed accounts of his conflicts, Babur would likely infer opponent intentions through these patterns:\n\n## Defensive Positioning = Weakness or Preparation for Siege\n\nWhen Babur describes opponents \"making fast\" forts or fortifying positions (as with Samarkand, Akhsī, or Qandahār), he interprets this as:\n- **Acknowledgment of inferiority** in open combat\n- **Preparation for a long blockade** rather than aggressive action\n- An opportunity for him to apply pressure through siege\n\nHe notes that when he approached with sufficient force, defenders often surrendered rather than fight pitched battles.\n\n## Rapid Troop Movement = Opportunistic Threat\n\nBabur repeatedly tracks when rivals move \"light\" (quickly) or gather forces suddenly. He interprets this as:\n- **Immediate threat to his holdings** (as when Shaibānī Khan moved against his territories)\n- **Opportunistic aggression** rather than planned conquest\n- A signal to either reinforce vulnerable positions or move preemptively\n\n## Divided or Wavering Forces = Exploitable Vulnerability\n\nThroughout the text, Babur notes when opponents' troops \"turn back,\" desert, or show hesitation. He infers:\n- **Internal dissension** among leadership\n- **Lack of commitment** to the campaign\n- **Opportunity for decisive action** before unity is restored\n\n## Failure to Pursue = Caution or Resource Constraints\n\nWhen opponents don't follow up advantages (as with his own escapes), Babur infers they lack either:\n- **Sufficient reserves** for sustained pursuit\n- **Confidence in their position**\n- **Clear strategic objective** beyond immediate defense\n\n## The Critical Inference: Positioning Reveals Character\n\nBabur's most sophisticated inference is that **military positioning reveals whether an opponent thinks like a conqueror or a defender**. He repeatedly contrasts his own aggressive repositioning with rivals who seem reactive—suggesting he views their choices as revealing fundamental differences in ambition and strategic vision, not just tactical calculation.",
+        "input_tokens": 195679,
+        "output_tokens": 478,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 7945
+      },
+      "C9_raw_corpus_plus_spec": {
+        "error": "Client error '400 Bad Request' for url 'https://api.anthropic.com/v1/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+      }
+    },
+    "training_words": 209848,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:48:44.105137+00:00"
+  },
+  {
+    "question_id": 17,
+    "question_text": "Based on Babur's documented approach to cultural and literary pursuits in the training text, how would he engage with poetic composition during periods of political instability?",
+    "held_out_passage": "I surmise a double play-of-words in this verse. One is on two rhyming words, _ghala_ and _mallah_ and is illustrated by rendering them as _oat_ and _coat_.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Babur's Approach to Poetry During Political Instability\n\nBased on the autobiography, Babur demonstrates a distinctive pattern of engaging with poetic composition even—and sometimes especially—during periods of political crisis:\n\n## Poetry as Refuge and Reflection\n\nThe text shows Babur composing verses during moments of personal distress and uncertainty. For instance, when facing military setbacks and loss of territory, he \"composed the following (Turkī) ode\" reflecting on separation from loved ones during the `Id festival. This suggests poetry served as a means of processing emotional and political turmoil rather than escaping it.\n\n## Verse-Making as Strategic Communication\n\nBabur uses poetry to articulate ambitions and positions. The autobiography notes he \"submitted verses to The Khān\" and composed satirical verses, indicating poetry functioned as a form of political expression and persuasion alongside military action.\n\n## Disciplined Literary Work Amid Chaos\n\nNotably, Babur \"finished copying `Alī-sher's four _Dīwāns_\" and composed his \"Treatise on Prosody\" during periods of instability, suggesting he maintained literary discipline as a stabilizing practice. He also \"devised the Bāburī script\" while managing administrative challenges in Kābul.\n\n## Integration Rather Than Separation\n\nRather than abandoning cultural pursuits during crises, Babur appears to have integrated them into his leadership—using poetry to maintain morale, articulate vision, and preserve cultural continuity even when political fortunes wavered.\n\nThis reflects his broader philosophy that rulership encompassed both martial and civilizational dimensions.",
+        "input_tokens": 195677,
+        "output_tokens": 360,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 8530
+      },
+      "C9_raw_corpus_plus_spec": {
+        "error": "Client error '400 Bad Request' for url 'https://api.anthropic.com/v1/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+      }
+    },
+    "training_words": 209848,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:48:59.960263+00:00"
+  },
+  {
+    "question_id": 18,
+    "question_text": "From the training text's examples of Babur's physical capabilities and documented achievements, what level of martial skill would he demonstrate in specialized combat techniques?",
+    "held_out_passage": "In 1791 AD. Muḥ. Effendi shot 482 yards from a Turkish bow, before the R. Tox. S.; not a good shot, he declared.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Babur's Martial Skill Level: Evidence from the Text\n\nBased on the autobiography's documented examples, Babur demonstrates **competent but not exceptional** specialized combat skills:\n\n## Demonstrated Capabilities\n\n**Archery:**\n- Successfully shoots at targets while mounted\n- Makes \"good shots\" in combat situations (e.g., shooting at Taṃbal's helm, hitting a Centurion's horse)\n- Uses a \"slur-bow\" effectively\n- However, no claims of extraordinary marksmanship appear\n\n**Sword Work:**\n- Engages in direct combat multiple times\n- Described as having his \"sword to work\" during defense of Akhsī\n- Participates actively in raids and skirmishes\n- Yet notably, he often relies on companions rather than dominating through individual prowess\n\n## Significant Limitations\n\nThe text reveals **critical gaps** in specialized technique:\n\n1. **Incomplete Training**: When facing Taṃbal directly, Babur \"had not bared [his] sword; it was in the scabbard and [he] had no chance to draw it\"—suggesting inadequate preparation for close combat\n\n2. **Reliance on Others**: He consistently depends on named braves (Qāsim Beg, Ibrāhīm Sārū, etc.) for martial success rather than personal dominance\n\n3. **Comparative Weakness**: The text notes his uncle Alacha Khān and others as superior swordsmen\n\n## Conclusion\n\nBabur was a **capable military leader and competent warrior** but not a master of specialized combat techniques. His strength lay in strategy, leadership, and courage rather than technical martial excellence.",
+        "input_tokens": 195673,
+        "output_tokens": 381,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6580
+      },
+      "C9_raw_corpus_plus_spec": {
+        "error": "Client error '400 Bad Request' for url 'https://api.anthropic.com/v1/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+      }
+    },
+    "training_words": 209848,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:49:16.422266+00:00"
+  },
+  {
+    "question_id": 19,
+    "question_text": "Based on Babur's documented patterns of conflict resolution and alliance-building in the training text, how would he respond to internal disputes among his supporters?",
+    "held_out_passage": "Possibly the reference is to the quarrels between Binā'ī and `Alī-sher.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Babur's Approach to Internal Disputes Among Supporters\n\nBased on the autobiography, Babur employed a nuanced, contextual approach to internal disputes:\n\n## Pragmatic Tolerance with Conditions\n\n**Accommodation over elimination**: When supporters quarreled—such as the Chīrās and Begchīk clans disputing precedence in battle formations—Babur sought compromise solutions rather than harsh punishment. He allowed them to settle the matter by assigning different honors (one the highest place in hunting circles, the other in battle arrays).\n\n## Severity When Loyalty Was Questioned\n\n**Swift action against disloyalty**: When disputes reflected actual betrayal, Babur responded decisively. He arrested and executed Sher-i-`alī the page for \"clear signs of disloyalty and misdoing both while in my service and not in mine.\"\n\n## Mercy Toward Kinsmen\n\n**Family considerations overrode justice**: When his half-brother Jahāngīr misbehaved and fled to Ghaznī, Babur pursued reconciliation rather than punishment. He notes: \"it is against my nature to do an injury to my brethren, older or younger, or to any kinsman soever, even when something untoward has happened.\"\n\n## Dismissal as Preferred Solution\n\n**Removing problematic figures**: Rather than execute, Babur often granted leave to depart. Bāqī Chaghānīānī, despite his scheming and stinginess, was allowed to leave with his family and possessions intact—though he was later killed by others.\n\n## The Pattern\n\nBabur distinguished between:\n- **Factional disputes** (tolerated/managed)\n- **Disloyalty to himself** (punished)\n- **Family conflicts** (reconciled)\n- **Incompetence** (dismissed)\n\nThis flexibility allowed him to maintain loyalty while avoiding the destabilization that excessive purges might cause.",
+        "input_tokens": 195674,
+        "output_tokens": 442,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 7532
+      },
+      "C9_raw_corpus_plus_spec": {
+        "error": "Client error '400 Bad Request' for url 'https://api.anthropic.com/v1/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+      }
+    },
+    "training_words": 209848,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:49:31.088665+00:00"
+  },
+  {
+    "question_id": 20,
+    "question_text": "Given Babur's demonstrated awareness of risk and his documented responses to military threats in the training text, what precautions would he take when traversing difficult terrain?",
+    "held_out_passage": "Many of these will have been climbed in order to get over places impassable at the river's level.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Babur's Precautions in Difficult Terrain\n\nBased on the autobiography, Babur demonstrated several consistent precautions when traversing challenging landscapes:\n\n## Reconnaissance and Intelligence\n- **Advance scouting**: He regularly sent parties ahead to assess conditions and threats\n- **Local guides**: He employed people familiar with terrain (like Malik Bū-sa`īd _Kamarī_) to navigate and warn of dangers\n- **Information gathering**: He questioned \"persons acquainted with the country\" about \"its every side and quarter\"\n\n## Military Organization\n- **Maintained formation**: Even on difficult routes, he kept troops organized rather than scattered\n- **Rear guard protection**: He was concerned about being attacked from behind and took precautions against surprise\n- **Advance force deployment**: He sent contingents ahead to secure positions before the main force moved\n\n## Camp Security\nHis most detailed precautions appear in camp defense:\n- Ditch and branch fortifications around encampments\n- Nightly rotations of guards from different divisions\n- Personal rounds of inspection (he made \"the round once each night\")\n- Punishment for those not at their posts (\"noses slit\")\n- Organized positioning of troops in battle-ready formation even while camped\n\n## Adaptive Response\nWhen terrain proved impassable (like swollen rivers), he adjusted routes rather than forcing passage, showing pragmatic risk assessment over stubborn persistence.\n\nThis systematic approach reflects his broader military philosophy: **preparation, intelligence, and organized discipline** rather than relying on luck.",
+        "input_tokens": 195677,
+        "output_tokens": 342,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6544
+      },
+      "C9_raw_corpus_plus_spec": {
+        "error": "Client error '400 Bad Request' for url 'https://api.anthropic.com/v1/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+      }
+    },
+    "training_words": 209848,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:49:46.465877+00:00"
+  },
+  {
+    "question_id": 21,
+    "question_text": "Based on the training text's pattern of how Babur describes people in his memoirs, what kind of self-awareness would you expect him to demonstrate when a religious figure is being characterized?",
+    "held_out_passage": "The Shaikh was able, it would appear, to see himself as others saw him, since the above description of him is his own.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Expected Self-Awareness Pattern\n\nBased on the text's patterns, when Babur characterizes religious figures, I would expect him to demonstrate:\n\n## 1. **Explicit Moral Judgment**\nBabur frequently inserts his own ethical assessments directly. For example, when describing Khusrau Shāh's blinding of Mas`ūd Mīrzā, he writes: \"A hundred thousand curses light on him who planned and did a deed so horrible!\" This suggests he would similarly pronounce judgment on religious figures' conduct.\n\n## 2. **Awareness of Orthodoxy vs. Deviation**\nThe text shows Babur carefully noting religious observance—whether figures pray, fast, drink wine, or maintain orthodox faith. When describing Sl. Ḥusain Mīrzā, he notes the ruler's shift from abstinence to drinking \"after the Mid-day prayer\" for 40 years. This suggests Babur would be acutely aware of—and likely self-conscious about—any gap between a religious figure's professed faith and actual behavior.\n\n## 3. **Limited Self-Critique**\nNotably, Babur is **less self-aware** about his own religious inconsistencies than about others'. He describes his own wine-drinking and later renunciation matter-of-factly, without the moral intensity he applies to others' failings. This suggests an **asymmetrical self-awareness**—keen observation of others' religious hypocrisy, but less penetrating self-examination.\n\nThis pattern suggests Babur would characterize religious figures with moral clarity while remaining somewhat blind to parallel contradictions in himself.",
+        "input_tokens": 195682,
+        "output_tokens": 372,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5960
+      },
+      "C9_raw_corpus_plus_spec": {
+        "error": "Client error '400 Bad Request' for url 'https://api.anthropic.com/v1/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+      }
+    },
+    "training_words": 209848,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:50:00.745178+00:00"
+  },
+  {
+    "question_id": 22,
+    "question_text": "Given Babur's documented practice of rewarding loyalty throughout the training text, what would you predict about how he treats an official who has demonstrated consistent loyalty?",
+    "held_out_passage": "The honourable post given to this amīr of Hind is likely to be due to his loyalty to Bābur.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Prediction: Babur Rewards Consistent Loyalty\n\nBased on the documented patterns in the text, I would predict Babur would treat a consistently loyal official with:\n\n## Positive Outcomes\n\n**Advancement and Promotion**\n- The text shows Babur elevating loyal servants to higher ranks and positions\n- Example: Sl. Qulī Chūnāq received \"favour and promotion\" after demonstrating courage under Babur's direct observation\n- Qāsim Beg was given Bangash as a reward for excellent service in the Hazāra campaign\n\n**Material Rewards**\n- Generous gifts and stipends\n- Control of districts and fiefs\n- The text notes Babur gave \"robes of honour\" and other valuables to those who served well\n\n**Trust and Responsibility**\n- Loyal officials received important commands and governorships\n- They were admitted to his inner councils\n- Example: Khwāja Kalān and similar trusted figures were given significant authority\n\n## Important Caveat\n\nHowever, the text also reveals Babur's **pragmatism**: he would dismiss or punish even loyal servants if they became liabilities or if circumstances changed. Qaṃbar-`alī, despite earlier loyalty, was eventually dismissed when his conduct became problematic.\n\n**Prediction**: Consistent loyalty would earn genuine favor, but Babur's rewards were conditional on continued usefulness and proper conduct—not unconditional.",
+        "input_tokens": 195675,
+        "output_tokens": 326,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5723
+      },
+      "C9_raw_corpus_plus_spec": {
+        "error": "Client error '400 Bad Request' for url 'https://api.anthropic.com/v1/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+      }
+    },
+    "training_words": 209848,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:50:14.577202+00:00"
+  },
+  {
+    "question_id": 23,
+    "question_text": "Based on the training text's treatment of genealogical relationships and family connections, how would Babur likely relate to someone whose family lineage connects to his own ancestors?",
+    "held_out_passage": "a Bāī-qarā Tīmūrid of Bābur's generation, their last common ancestor being Tīmūr himself.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Babur's Approach to Genealogical Relationships\n\nBased on the text, Babur would likely relate to such a person with considerable **formal respect and ceremonial acknowledgment**, while the actual relationship would depend on several factors:\n\n## Key Patterns from the Text\n\n**1. Lineage as a Source of Status**\nThe autobiography extensively documents genealogical connections, suggesting Babur viewed family lineage as conferring legitimate authority and honor. He carefully traces relationships back to Timur and Chinghiz Khan, indicating that shared ancestry with great ancestors elevated one's standing.\n\n**2. Practical Political Considerations**\nBabur's actual treatment of relatives shows he balanced genealogical respect with pragmatic political needs:\n- He showed loyalty to half-brother Jahangir despite tensions\n- He dismissed or repositioned relatives when necessary for governance\n- He rewarded capable individuals regardless of kinship\n\n**3. Ceremonial Formality**\nThe text describes elaborate protocols when relatives met—multiple kneeling, formal greetings, and gift exchanges. This suggests Babur would extend such courtesies to distant relatives connected through shared ancestry.\n\n**4. Conditional Loyalty**\nHowever, the autobiography reveals Babur expected loyalty in return. Relatives who acted against his interests faced consequences, suggesting genealogical connection alone didn't guarantee favor.\n\n**In summary:** Babur would likely extend formal respect and ceremonial recognition, but actual treatment would depend on the person's demonstrated loyalty, capability, and usefulness to his rule.",
+        "input_tokens": 195678,
+        "output_tokens": 336,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5464
+      },
+      "C9_raw_corpus_plus_spec": {
+        "error": "Client error '400 Bad Request' for url 'https://api.anthropic.com/v1/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+      }
+    },
+    "training_words": 209848,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:50:28.896977+00:00"
+  },
+  {
+    "question_id": 24,
+    "question_text": "Given the military campaigns and strategic decisions documented in the training text, what would you expect about Babur's approach to organizing defensive military equipment?",
+    "held_out_passage": "those chained together as a defence and probably also those conveying the culverins.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Babur's Approach to Defensive Military Equipment\n\nBased on the military campaigns documented in the text, I would expect Babur's approach to defensive equipment to reflect several key characteristics:\n\n## Pragmatic Adaptation to Circumstances\n\nThe text shows Babur frequently improvising defenses based on available resources and terrain:\n\n- When besieged in Samarkand, he organized defenses using \"ditch and branch\" (ditches and close-set branches)\n- At Sīkrī, he constructed \"defence of the Sīkrī camp Rūmī fashion, with ditch besides\"\n- Near Pānīpat, he ordered \"700 carts brought in\" for camp fortification\n\nThis suggests he valued **practical, quickly-deployable defensive solutions** over elaborate permanent structures.\n\n## Emphasis on Mobility and Field Fortifications\n\nRather than relying on fixed fortifications, Babur appears to prioritize:\n\n- Portable defensive elements (carts, ditches, branch barriers)\n- Nightly camp rotations and repositioning\n- Systematic watch rotations with \"three or four of my household made the rounds with torches, each in his turn\"\n\n## Integration with Tactical Positioning\n\nHis defensive preparations were always **coordinated with broader military strategy**—positioning troops, controlling supply lines, and maintaining mobility rather than static defense.\n\nThis reflects a commander who understood that defensive equipment served tactical flexibility rather than replacing strategic advantage.",
+        "input_tokens": 195672,
+        "output_tokens": 324,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6436
+      },
+      "C9_raw_corpus_plus_spec": {
+        "error": "Client error '400 Bad Request' for url 'https://api.anthropic.com/v1/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+      }
+    },
+    "training_words": 209848,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:50:42.110512+00:00"
+  },
+  {
+    "question_id": 25,
+    "question_text": "Based on patterns in the training text regarding Babur's documentation of military tactics, how would you expect him to describe the intensity and chaos of battle?",
+    "held_out_passage": "The violence of the fray is illustrated by supposing that of Earth's seven climes one rose to Heaven in dust, thus giving Heaven eight.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Babur's Battle Descriptions: Expected Patterns\n\nBased on the text, Babur's battle documentation shows these characteristic patterns:\n\n## Restraint and Selective Detail\n\nRather than depicting chaos, Babur tends toward **measured, tactical observation**. For example, at the Battle of Panipat, he focuses on:\n- Troop positioning and maneuvers\n- Strategic decisions (the \"Rūmī defence\" with carts and ditches)\n- Specific moments of advantage/disadvantage\n- His own observations from command position\n\n## Emphasis on Outcome Over Sensation\n\nHe describes battles through their **results and significance** rather than visceral intensity:\n- \"our foes were beaten\"\n- \"the enemy could make no stand\"\n- Specific casualty counts when relevant\n\n## Personal Perspective\n\nBabur documents what **he witnessed directly**:\n- His own positioning during combat\n- Decisions made in real-time\n- Moments of personal danger (being shot, nearly unhorsed)\n\n## Notable Absence\n\nThe text shows **minimal graphic description** of violence itself. Even when describing massacres or executions, he reports them factually without dwelling on brutality.\n\n## Likely Pattern\n\nGiven these habits, Babur would probably describe battle intensity through:\n- Tactical complexity and difficulty\n- Numerical disadvantages overcome\n- Strategic innovations employed\n- Personal moments of peril or decision\n\nRather than chaos, he'd convey intensity through **the weight of command decisions** and **tactical challenges overcome**.",
+        "input_tokens": 195674,
+        "output_tokens": 338,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5722
+      },
+      "C9_raw_corpus_plus_spec": {
+        "error": "Client error '400 Bad Request' for url 'https://api.anthropic.com/v1/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+      }
+    },
+    "training_words": 209848,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:50:56.619712+00:00"
+  },
+  {
+    "question_id": 26,
+    "question_text": "Given Babur's documented use of religious and literary references throughout the training text, what would you predict about his tendency to invoke sacred texts during descriptions of conflict?",
+    "held_out_passage": "Qorān, cap. 101, v. 54.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Babur's Use of Sacred Texts in Conflict Descriptions\n\nBased on the autobiography's patterns, I would predict Babur invokes sacred texts during conflict descriptions **selectively and strategically**, rather than reflexively. Here's the evidence:\n\n## Documented Pattern\n\n**During active combat**, Babur rarely quotes scripture. For example, in the Battle of Panipat account (pp. 445-535), he describes military tactics, troop dispositions, and outcomes with minimal religious reference.\n\n**At moments of existential crisis**, however, sacred language emerges. When fleeing Akhsī and expecting death (p. 113), he explicitly states: \"Expecting death, quotes Niz̤āmī\"—showing he reaches for literary/spiritual language when facing mortality, not during the fighting itself.\n\n## The Pattern Suggests\n\n1. **Pragmatic separation**: Combat narratives prioritize tactical detail; religious invocation appears in *reflection* on conflict rather than its description\n\n2. **Emotional intensity as trigger**: Sacred references cluster around moments of despair, loss, or moral reckoning (his renunciation of wine before Kanwa, p. 559-574; his grief over Nuyān Kūkūldāsh's death, p. 99)\n\n3. **Audience-conscious rhetoric**: When addressing his council or justifying decisions, he frames actions in Islamic terms; in raw battle accounts, less so\n\n## Prediction\n\nBabur would invoke sacred texts **after** describing conflict to *interpret* its meaning, rather than *during* its narration. This reflects his dual identity as both pragmatic military commander and reflective scholar-author.",
+        "input_tokens": 195676,
+        "output_tokens": 371,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6761
+      },
+      "C9_raw_corpus_plus_spec": {
+        "error": "Client error '400 Bad Request' for url 'https://api.anthropic.com/v1/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+      }
+    },
+    "training_words": 209848,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:51:10.104147+00:00"
+  },
+  {
+    "question_id": 27,
+    "question_text": "Based on the training text's pattern of how Babur names and identifies his military personnel, what would you expect about the origins of nicknames given to his officers?",
+    "held_out_passage": "the prevalence of sobriquets amongst his people, and to what would be the sporadic appearance of a Chinese title or even class-name borne by a single man amongst them.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Patterns in Babur's Officer Nicknames\n\nBased on the text, Babur's nicknames for officers tend to follow these patterns:\n\n## Descriptive/Physical Origins\n- **Sl. Qulī _Chūnāq_ (One-eared)** - directly from physical characteristic\n- **Mīr Sar-i-barahna (Bare-head)** - from appearance\n- **Kūpuk (Round-shouldered)** - physical descriptor\n\n## Functional/Role-Based Origins\n- **Qaṃbar-`alī _Silākh_ (Skinner)** - from his father's occupation\n- **Tīngrī-bīrdī the storekeeper (_sāmānchī_)** - from his administrative role\n- **Mir (Qaṃbar-i-)`alī the Master of the Horse** - from his position\n\n## Circumstantial/Behavioral Origins\n- **Shaikh Abū-sa`īd Khān _Dar-miyān_ (In-between)** - either from taking a horse to the Mīrzā \"in the middle\" of a fight, or from putting himself \"in between\" the Mīrzā and danger\n\n## Pattern Summary\nBabur's nicknames appear **practical and literal** rather than honorific—derived from:\n- Observable physical traits\n- Professional skills or occupations\n- Specific military actions or roles\n- Family background\n\nThis suggests a military culture where identities were functional and earned through demonstrated capability rather than inherited status.",
+        "input_tokens": 195677,
+        "output_tokens": 364,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6521
+      },
+      "C9_raw_corpus_plus_spec": {
+        "error": "Client error '400 Bad Request' for url 'https://api.anthropic.com/v1/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+      }
+    },
+    "training_words": 209848,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:51:24.763089+00:00"
+  },
+  {
+    "question_id": 28,
+    "question_text": "Given Babur's documented military strategies in the training text, how would you expect him to utilize different tactical positions during a major engagement?",
+    "held_out_passage": "These two men were in one of the flanking-parties.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Babur's Tactical Approach Based on the Autobiography\n\nBased on the extensive military narratives in the Babur-nama, his documented strategies reveal several consistent patterns:\n\n## Positioning and Formation\n\n**Organized Array Structure**\nBabur consistently arranged forces into distinct wings and center:\n- Right and left flanks with experienced commanders\n- A central reserve (often where he positioned himself)\n- A vanguard of elite braves\n- This structure appears in multiple engagements (e.g., the Kānwa battle description)\n\n**Defensive Fortification**\nWhen facing superior numbers, he employed:\n- Ditch and branch fortifications around camps\n- Cart-based defensive barriers (700 carts at Pānīpat)\n- Strategic positioning on elevated or naturally defensible ground\n- Night watches and rotating guard duties\n\n## Tactical Maneuvers\n\n**Exploitation of Terrain**\n- Using mountain passes and river crossings strategically\n- Positioning forces to cut off enemy retreat routes\n- Leveraging local geography knowledge\n\n**Coordinated Movements**\n- Detaching forces for flanking movements\n- Using scouts and reconnaissance extensively\n- Timing coordinated attacks from multiple directions\n\n## Notable Pattern\n\nBabur's most successful engagements (like Kānwa) involved:\n1. Careful preparation and fortification\n2. Psychological preparation of troops\n3. Coordinated multi-directional pressure\n4. Maintaining reserve forces for decisive moments\n\nHis less successful moments often involved hasty engagement without adequate preparation.",
+        "input_tokens": 195671,
+        "output_tokens": 345,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6447
+      },
+      "C9_raw_corpus_plus_spec": {
+        "error": "Client error '400 Bad Request' for url 'https://api.anthropic.com/v1/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+      }
+    },
+    "training_words": 209848,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:51:38.973482+00:00"
+  },
+  {
+    "question_id": 29,
+    "question_text": "Based on the training text's documentation of Babur's administrative structure and military hierarchy, what would you predict about the distinction between different officer titles?",
+    "held_out_passage": "There appears to be a distinction of title between the _akhta-begī_ and the _mīr-akhẉūr_ (master of the horse).",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Predicted Distinctions in Officer Titles\n\nBased on the text's documentation, I would predict the following hierarchical distinctions:\n\n## Rank and Authority Levels\n\n**High Administrative Positions:**\n- **Wazīr/Dīwān** (Finance Minister) - wielded broad authority over public business and revenue across entire regions\n- **Ṣadr** (Chief Justice) - handled judicial matters and religious law\n- **Muḥtasib** - market inspector/administrator of public morality\n\n**Military Command:**\n- **Beg** - senior military commanders with territorial governance\n- **Commandant** - fort or city-specific authority\n- **Lord of the Gate** - controlled access and immediate retinue\n\n## Functional Specialization\n\nThe text suggests titles reflected **specific duties** rather than purely hierarchical rank:\n- **Qūsh-begī** (Master of Fowling)\n- **Sāmānchī** (Storekeeper)\n- **Rikābdār** (Stirrup-holder)\n- **Qūr-begī** (Master Armourer)\n\n## Key Distinction\n\nThe text indicates that **favor and proximity to the ruler** mattered as much as formal title. Babur notes how assiduous service in the Gate earned promotion, suggesting titles could be **fluid and merit-based** rather than strictly hereditary.\n\nThe documentation reveals a system where **administrative, military, and household roles overlapped**, with advancement depending on demonstrated competence and personal loyalty.",
+        "input_tokens": 195673,
+        "output_tokens": 349,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5774
+      },
+      "C9_raw_corpus_plus_spec": {
+        "error": "Client error '400 Bad Request' for url 'https://api.anthropic.com/v1/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+      }
+    },
+    "training_words": 209848,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:51:54.225084+00:00"
+  },
+  {
+    "question_id": 30,
+    "question_text": "Given the pattern in the training text of how Babur documents weapons and military technology, what would you expect about his specificity in describing projectile weapons?",
+    "held_out_passage": "As Bābur does not in any place mention metal missiles, it seems safest to translate _sang_ by its plain meaning of _stone_.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Expected Specificity in Projectile Weapon Descriptions\n\nBased on the text's patterns, I would expect Babur to be **highly specific and technical** about projectile weapons, for several reasons:\n\n## Evidence from the Text\n\n1. **Detailed Military Terminology**: The text shows Babur using precise military vocabulary:\n   - Distinguishing between \"arrows (_aūq_)\" and \"forked-arrows (_tīr-giz_)\"\n   - Naming specific bow types and their specifications\n   - Recording bow strengths in technical units (\"30 to 40 _bātmāns_\")\n\n2. **Quantified Observations**: He documents:\n   - Specific arrow penetration (\"arrows pierced shield and cuirasse, sometimes the two cuirasses\")\n   - Exact measurements of military equipment\n   - Numbered force compositions\n\n3. **Functional Analysis**: Rather than merely naming weapons, he describes:\n   - How they work in practice (\"string-grip (_zih-gīr_) to the one end of a string from 1 to 1-1/2 yards long\")\n   - Performance comparisons across different contexts\n   - Tactical applications\n\n## Expected Pattern\n\nI would anticipate Babur would:\n- Distinguish between arrow types and their uses\n- Specify bow draw-weights and materials\n- Document projectile ranges and effectiveness\n- Compare weapons across different cultures/armies\n- Record innovations he observed\n\nThis reflects his broader documentary approach: **practical, measurable, and comparative** rather than merely descriptive.",
+        "input_tokens": 195675,
+        "output_tokens": 349,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5816
+      },
+      "C9_raw_corpus_plus_spec": {
+        "error": "Client error '400 Bad Request' for url 'https://api.anthropic.com/v1/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+      }
+    },
+    "training_words": 209848,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:52:08.431620+00:00"
+  },
+  {
+    "question_id": 31,
+    "question_text": "Based on patterns in the training text, when a military leader encounters a rival who has previously opposed them, what type of action does Babur typically take?",
+    "held_out_passage": "opposes Ḥusain _Bāī-qarā_ and flees (901) 57-8, 130; one of three besieging Samarkand; retires with his desired Barlās bride 64; quarrels with Khusrau Shāh (902) 71, and with the Ḥiṣār begs (903) 93; takes refuge with Ḥusain _Bāī-qarā_ 93, 95, 261, 265; returns to Khusrau and is blinded by him 95, 50; goes back to Ḥusain 95, 266",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Babur's Typical Response to Rival Military Leaders\n\nBased on patterns throughout the text, when Babur encounters rivals who have previously opposed him, his actions vary considerably, but several tendencies emerge:\n\n## Pragmatic Reconciliation\nBabur frequently **seeks accommodation and service agreements** rather than immediate destruction. For example:\n- He accepts Khusrau Shāh's submission and grants him safe passage with his goods\n- He receives Aūzbeg sulṯāns into his service when they defect from rivals\n- He makes peace treaties and agreements when militarily advantageous\n\n## Conditional Mercy\nWhen he does show clemency, it's often **strategic and conditional**:\n- He pardons prisoners and rebels when it serves his political interests\n- He grants terms to those who surrender, though sometimes with loss of position\n- He protects families of defeated rivals when it maintains stability\n\n## Ruthlessness When Threatened\nHowever, Babur also demonstrates **decisive violence** when he perceives direct threats:\n- He executes those he deems traitors to Islam or fundamentally disloyal\n- He orders massacres of populations he views as false to Islam (e.g., Bajaur)\n- He punishes those who betray him after accepting his favor\n\n## Overall Pattern\nRather than a single consistent approach, Babur appears to employ **calculated pragmatism**: he assesses each rival's utility, loyalty potential, and threat level, then acts accordingly—ranging from integration into his service to elimination.",
+        "input_tokens": 195675,
+        "output_tokens": 338,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5754
+      },
+      "C9_raw_corpus_plus_spec": {
+        "error": "Client error '400 Bad Request' for url 'https://api.anthropic.com/v1/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+      }
+    },
+    "training_words": 209848,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:52:22.831324+00:00"
+  },
+  {
+    "question_id": 32,
+    "question_text": "When Babur arranges marriages for family members, what pattern emerges regarding the political or strategic nature of these arrangements?",
+    "held_out_passage": "her marriage arranged (912) 306, ☛ 714; brought from Ḥerāt (913) 330; married 339; dies in child-bed and her name at once given to her child 36",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Political and Strategic Patterns in Babur's Marriage Arrangements\n\nBased on the autobiography, several clear patterns emerge:\n\n## Alliance-Building Through Marriage\n\n**Consolidating Power with Existing Allies:**\nBabur uses marriages to strengthen bonds with those already supporting him. For example, when he gains control of Kabul, he arranges marriages that bind key supporters to his dynasty through kinship ties.\n\n**Securing Loyalty of Rivals:**\nWhen dealing with potentially threatening figures, marriage becomes a tool of integration. The text shows Babur offering daughters and arranging marriages with former adversaries or their families to neutralize opposition and create familial obligations.\n\n## Dynastic Legitimacy\n\n**Maintaining Timurid Prestige:**\nBabur carefully arranges marriages within the Timurid line and with other noble families of high birth. This preserves the dynasty's status and claims to legitimacy—crucial when his actual territorial control is unstable.\n\n**Example:** His marriage to `Āyisha-sulṯān Begīm (daughter of Sl. Aḥmad Mīrzā) represents a union within the elite Timurid family, strengthening his claims to rule.\n\n## Pragmatic Necessity\n\n**Binding Followers During Hardship:**\nDuring his years of exile and instability (904-910 AH), Babur uses marriage strategically to keep followers committed when he has little else to offer—no stable territory, limited resources, but the promise of dynastic connection.\n\n**Pattern:** Marriages increase in frequency and strategic importance precisely when Babur's military/territorial position is weakest.\n\n## Gender and Subordination\n\nNotably, the text reveals an asymmetry: Babur arranges his sisters' and daughters' marriages to secure alliances, while his own marriages serve both personal and political purposes. Women's marriages are presented as state transactions rather than personal choices.",
+        "input_tokens": 195668,
+        "output_tokens": 424,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 7840
+      },
+      "C9_raw_corpus_plus_spec": {
+        "error": "Client error '400 Bad Request' for url 'https://api.anthropic.com/v1/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+      }
+    },
+    "training_words": 209848,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:52:39.080154+00:00"
+  },
+  {
+    "question_id": 33,
+    "question_text": "How does Babur typically respond when learning of threats to territories he controls or claims?",
+    "held_out_passage": "his son `Alī _aṣghar_ _q.v._; [deposed 843 AH.-1439-40 AD.]. Mullā +Mas`ūd+ _Sherwānī_, of Ḥusain _Bāī-qarā's_ Court—no particulars 284",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Babur's Response to Territorial Threats\n\nBased on the autobiography, Babur typically responds to threats to his territories with **swift military action and personal leadership**. Several patterns emerge:\n\n## Immediate Military Response\n\nWhen learning of threats, Babur mobilizes forces quickly. For example:\n- Upon hearing of the Turkmān Hazāras' insolence and robberies on roads near Kābul, \"We thought therefore of over-running them, went into the town to Aūlūgh Beg Mīrzā's house at the Būstān-sarāī, and thence rode out\" (911 AH.)\n- When Jahāngīr Mīrzā misbehaves and threatens his position, Babur takes decisive action rather than hesitating\n\n## Personal Leadership\n\nBabur doesn't delegate entirely—he leads campaigns himself:\n- He rides out personally to assess situations\n- He participates directly in battles and skirmishes\n- He maintains close oversight of military operations\n\n## Strategic Consultation\n\nBefore acting, he typically:\n- Summons begs and experienced commanders for counsel\n- Discusses options with trusted advisors\n- Makes deliberate decisions about strategy\n\n## Persistence Despite Setbacks\n\nNotably, Babur doesn't abandon claims easily. He attempts Samarkand multiple times over years, and pursues Qandahār repeatedly, showing determination to recover or maintain control of territories he considers rightfully his.\n\nThis pattern reflects his character as an active, engaged ruler who views territorial defense as a personal responsibility requiring immediate attention.",
+        "input_tokens": 195661,
+        "output_tokens": 354,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6052
+      },
+      "C9_raw_corpus_plus_spec": {
+        "error": "Client error '400 Bad Request' for url 'https://api.anthropic.com/v1/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+      }
+    },
+    "training_words": 209848,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:52:54.893064+00:00"
+  },
+  {
+    "question_id": 34,
+    "question_text": "Based on the training text patterns, when a family member or ally becomes disaffected, what sequence of events typically follows?",
+    "held_out_passage": "disaffected to Ibrāhīm and (later) to Bābur (932) 523; his opposition 530; flees 533-4; his son Muḥammad (?) leaves him (934) 598",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Typical Sequence of Events When Family Members/Allies Become Disaffected\n\nBased on patterns in the Bābur-nāma, a consistent sequence emerges:\n\n## 1. **Initial Grievance or Slight**\n- Perceived unfair treatment, lack of recognition, or favor shown to rivals\n- Example: Jahāngīr Mīrzā's departure after Qāsim Beg's comment about a falcon\n\n## 2. **Withdrawal or Departure**\n- The disaffected party leaves the ruler's presence\n- Often accompanied by taking followers or resources\n- Example: Jahāngīr marching to Ghaznī, plundering Nānī\n\n## 3. **Alliance with Rivals**\n- The departing figure seeks support from enemies or competing powers\n- Example: Khusrau Shāh joining Shaibānī Khān; Taṃbal seeking Shaibānī's aid\n\n## 4. **Military Confrontation**\n- Armed conflict becomes inevitable\n- The ruler must divert resources to suppress the rebellion\n\n## 5. **Consequences**\n- Loss of territory or strategic position\n- Weakening of the ruler's overall position\n- Potential cascade effect (other followers defecting)\n\n## Key Pattern\nBābur repeatedly notes that **unaddressed grievances compound**—one defection encourages others, and the ruler's inability to retain loyalty during hardship becomes a critical vulnerability. This is particularly evident during his years of exile and reduced circumstances.",
+        "input_tokens": 195668,
+        "output_tokens": 350,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5469
+      },
+      "C9_raw_corpus_plus_spec": {
+        "error": "Client error '400 Bad Request' for url 'https://api.anthropic.com/v1/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+      }
+    },
+    "training_words": 209848,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:53:08.599921+00:00"
+  },
+  {
+    "question_id": 35,
+    "question_text": "What pattern does Babur demonstrate regarding his treatment of individuals who have previously served or been associated with rival powers?",
+    "held_out_passage": "his cherished followers, sons of Mīr `Alī Beg _q.v._; his son `Alī _aṣghar_ _q.v._",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Babur's Treatment of Former Rivals' Associates\n\nBased on the autobiography, Babur demonstrates a **complex and contextual pattern** rather than a consistent approach:\n\n## Pragmatic Mercy and Reconciliation\n\nBabur frequently shows **leniency toward individuals from rival factions**, particularly when they submit willingly:\n\n- **Khusrau Shah's submission**: Despite Khusrau Shah's long opposition and \"unmannerly\" behavior toward Babur, when he submits, Babur grants him safe passage with his goods and family, explicitly stating: \"It was not my wish to reduce this high family to great straits.\"\n\n- **Muqim Arghun**: Babur accepts his surrender of Kabul \"without a fight\" and allows him to depart safely to Kandahar with his retainers and possessions.\n\n- **Former enemies becoming retainers**: Multiple individuals who previously served rivals (like Sayyid Yusuf, various begs) are incorporated into Babur's service with favor.\n\n## Conditional Loyalty and Punishment\n\nHowever, Babur shows **severity toward those who betray trust or prove disloyal**:\n\n- He executes those guilty of sedition or treachery (Sher-i-`ali the page)\n- He punishes those who break oaths or act against him after submission\n- He demonstrates particular harshness toward those who \"change sides\" opportunistically\n\n## The Underlying Principle\n\nBabur appears to follow a principle of **\"mercy upon submission, severity upon betrayal.\"** His treatment depends less on past allegiance and more on:\n1. Whether submission is genuine\n2. Whether the individual proves loyal afterward\n3. Whether they pose ongoing threats\n\nThis pragmatism reflects his need to consolidate power while maintaining a reputation for justice.",
+        "input_tokens": 195666,
+        "output_tokens": 409,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6610
+      },
+      "C9_raw_corpus_plus_spec": {
+        "error": "Client error '400 Bad Request' for url 'https://api.anthropic.com/v1/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+      }
+    },
+    "training_words": 209848,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:53:22.059744+00:00"
+  },
+  {
+    "question_id": 36,
+    "question_text": "When Babur encounters military setbacks or losses, how does he typically adjust his strategic positioning?",
+    "held_out_passage": "takes refuge with Ḥusain _Bāī-qarā_ 93, 95, 261, 265; returns to Khusrau and is blinded by him 95, 50; goes back to Ḥusain 95, 266",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Babur's Strategic Adjustments After Military Setbacks\n\nBased on the autobiography, Babur demonstrates several consistent patterns when facing military defeats:\n\n## Tactical Retreat and Repositioning\n\nWhen defeated, Babur typically **withdraws to defensible or supply-rich locations** rather than pursuing aggressive counterattacks immediately. For example:\n\n- After his defeat at Sar-i-pul (906 AH), he retreated to Khujand, which served as a base for regrouping\n- When forced from Samarkand during the Shaibani siege, he withdrew to Dikh-kat in the Auraтipa hill-country, where he could sustain his remaining forces\n\n## Seeking Allied Support\n\nRather than acting in isolation, Babur **actively solicits help from relatives and neighboring powers**:\n\n- He repeatedly appeals to his uncle, The Khan, for military reinforcement\n- He negotiates with Baqī Chaghānīānī and other regional figures for support\n- He leverages family connections to maintain a following\n\n## Preserving Core Forces\n\nBabur shows **strategic patience in rebuilding strength**:\n\n> \"With what men of the centre there were, I dismounted between Ḥaidar Tāqī's garden and the tomb of Qul-i-bāyazīd\"\n\nHe maintains small but loyal contingents rather than risking total annihilation, gradually accumulating forces through recruitment and defections from opposing sides.\n\n## Opportunistic Pivoting\n\nWhen one objective becomes untenable, Babur **shifts focus to achievable targets**, as when he abandoned attempts on Samarkand to consolidate control of Kabul—a more defensible and strategically valuable position.",
+        "input_tokens": 195663,
+        "output_tokens": 392,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6268
+      },
+      "C9_raw_corpus_plus_spec": {
+        "error": "Client error '400 Bad Request' for url 'https://api.anthropic.com/v1/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+      }
+    },
+    "training_words": 209848,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:53:36.825161+00:00"
+  },
+  {
+    "question_id": 37,
+    "question_text": "Based on patterns in the training text, how does Babur typically handle negotiations with rival tribal or regional leaders?",
+    "held_out_passage": "Bābur negociates with him 594; his house the scene of a supreme rite 595",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Babur's Negotiation Patterns with Rival Leaders\n\nBased on the text, Babur employs a flexible, pragmatic approach that combines several strategies:\n\n## Conditional Acceptance and Terms\n\nWhen rivals approach him, Babur typically **negotiates specific terms rather than demanding unconditional surrender**. For example, with Muqīm Arghūn at Kābul:\n\n> \"It was settled that next day he should march out with retainers and following, goods and effects, safe and sound\"\n\nHe grants safe passage and protection of property as conditions of submission.\n\n## Mercy Tempered by Circumstance\n\nBabur shows **selective clemency**, particularly toward those of high birth or when circumstances warrant:\n\n- He pardons prisoners from Qalāt after its capture\n- He releases Khusrau Shāh with goods intact, despite the man's previous opposition\n- Yet he executes those he deems treacherous or heretical (like Sher-i-`alī the page)\n\n## Leveraging Family Ties and Loyalty\n\nHe uses **kinship and personal relationships** as negotiating tools—appealing to shared Tīmūrid heritage and offering positions of honor to those who submit.\n\n## Pragmatic Realism\n\nWhen negotiations fail or prove disadvantageous, Babur **abandons them without hesitation** and pursues military solutions, as seen with his repeated attempts on Samarkand and Qandahār.\n\nHis approach prioritizes **stability and retention of capable followers** over vengeance, though he remains willing to use force when negotiation proves futile.",
+        "input_tokens": 195666,
+        "output_tokens": 365,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 7931
+      },
+      "C9_raw_corpus_plus_spec": {
+        "error": "Client error '400 Bad Request' for url 'https://api.anthropic.com/v1/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+      }
+    },
+    "training_words": 209848,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:53:51.943217+00:00"
+  },
+  {
+    "question_id": 38,
+    "question_text": "What pattern emerges in how Babur treats family members who have been captured or are in vulnerable positions?",
+    "held_out_passage": "+Mihr-angez Begīm+ _Bāī-qarā Tīmūrid_, _Barlās Turk_—married as a captive (913) 329 n. 1",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Babur's Treatment of Captured and Vulnerable Family Members\n\nBased on the text, a complex and somewhat contradictory pattern emerges:\n\n## Protective and Merciful Impulses\n\nBabur demonstrates genuine concern for family welfare:\n- He **refuses to dismiss Jahangir Miza** despite Baqi Beg's repeated urging that separating from his half-brother would prevent future problems\n- He explicitly states: \"it is against my nature to do an injury to my brethren, older or younger, or to any kinsman soever, even when something untoward has happened\"\n- When his sister **Khan-zada Begim falls to Shaibani Khan**, he later arranges her safe return through Shah Ismail, treating her with honor\n\n## Pragmatic Acceptance of Circumstances\n\nHowever, Babur also accepts family members' vulnerable positions when he cannot prevent them:\n- His **mother Qutluq-nigar Khanim** dies while he is establishing himself in Kabul; he mourns but continues his work\n- His **sister Ruqaiya-sultan Begim** falls to Jani Beg Sultan during the chaos; he notes this factually without dwelling on it\n- Multiple family members are **captured or displaced** during his struggles, and while he grieves, he doesn't allow these losses to paralyze his strategic decisions\n\n## The Tension\n\nThe key pattern is Babur's **loyalty in principle but realism in practice**. He won't actively harm family members, yet he cannot always protect them in the chaos of Central Asian politics. This reflects the brutal realities of his era rather than callousness on his part.",
+        "input_tokens": 195665,
+        "output_tokens": 376,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 7052
+      },
+      "C9_raw_corpus_plus_spec": {
+        "error": "Client error '400 Bad Request' for url 'https://api.anthropic.com/v1/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+      }
+    },
+    "training_words": 209848,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:54:07.937913+00:00"
+  },
+  {
+    "question_id": 39,
+    "question_text": "When Babur receives visitors or envoys from external groups, what is his typical behavioral response according to the training patterns?",
+    "held_out_passage": "waits on Bābur at `Alī-masjid (925) 394",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Babur's Typical Response to Visitors and Envoys\n\nBased on the autobiography text, Babur's behavioral patterns when receiving visitors or envoys from external groups show several consistent characteristics:\n\n## Formal Courtesy and Protocol\n\nBabur demonstrates **elaborate ceremonial respect**, particularly with dignitaries:\n- He rises to honor important visitors\n- He engages in formal kneeling and obeisance exchanges\n- He follows established court etiquette carefully\n\n## Strategic Hospitality\n\nHis responses are notably **pragmatic and calculated**:\n- He offers gifts and honors to secure alliances\n- He provides safe passage and protection when it serves his interests\n- He makes formal compacts and agreements\n\n## Measured Assessment\n\nBabur typically:\n- Questions visitors about their intentions and background\n- Gathers intelligence about external threats or opportunities\n- Makes deliberate decisions about whether to accept or reject proposals\n\n## Example from the Text\n\nWhen Khusrau Shāh comes to submit to him, Babur demonstrates this pattern: he rises to honor him, accepts his submission on terms, allows him to depart with goods, yet remains cautious about his ultimate loyalty.\n\n## Overall Pattern\n\nRather than impulsive reactions, Babur's approach is **diplomatic yet guarded**—he balances courtesy with strategic calculation, using formal protocols to maintain control while assessing whether visitors represent threats or opportunities for advancement.",
+        "input_tokens": 195668,
+        "output_tokens": 309,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5152
+      },
+      "C9_raw_corpus_plus_spec": {
+        "error": "Client error '400 Bad Request' for url 'https://api.anthropic.com/v1/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+      }
+    },
+    "training_words": 209848,
+    "truncated": true,
+    "timestamp": "2026-04-16T08:54:23.112753+00:00"
+  }
+]

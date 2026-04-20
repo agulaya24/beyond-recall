@@ -1,0 +1,14 @@
+{
+  "subject": "zitkala_sa",
+  "system": "letta",
+  "mode": "fullpipeline",
+  "agent_id": "agent-67e0443c-7a9a-4bf5-8919-d5ed24902db8",
+  "agent_name": "zitkala_sa_fullpipeline",
+  "chunks_expected": 4,
+  "chunks_posted": 4,
+  "post_success": 4,
+  "post_failure": 0,
+  "start_time": "2026-04-16T06:49:38.697011+00:00",
+  "end_time": "2026-04-16T06:49:46.997599+00:00",
+  "verification_passed": true
+}

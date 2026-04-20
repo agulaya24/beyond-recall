@@ -1,0 +1,13 @@
+{
+  "subject": "sunity_devee",
+  "system": "supermemory",
+  "mode": "fullpipeline",
+  "container_tag": "sunity_devee_fullpipeline",
+  "chunks_expected": 12,
+  "chunks_posted": 12,
+  "post_success": 9,
+  "post_failure": 3,
+  "start_time": "2026-04-16T06:55:01.752493+00:00",
+  "end_time": "2026-04-16T06:56:17.190935+00:00",
+  "verification_passed": true
+}

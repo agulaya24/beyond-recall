@@ -1,0 +1,580 @@
+{
+  "metadata": {
+    "subject": "Bernal Diaz del Castillo",
+    "subject_key": "bernal_diaz",
+    "generated": "2026-04-14T22:43:19.358407+00:00",
+    "model": "claude-haiku-4-5-20251001",
+    "method": "backward_design_from_heldout",
+    "total": 80,
+    "tiers": {
+      "behavioral_prediction": 39,
+      "recall": 10,
+      "inferential": 11,
+      "adversarial_abstention": 10,
+      "boundary_probing": 10
+    },
+    "checksum": "cd7dec92cb21cf1d2bb2a1196d1dc36c"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "Based on Diaz's character as shown in the training text, how would he likely respond to receiving valuable gifts from a ruler he has not yet met?",
+      "held_out_passage": "all of which our general received with a friendly smile."
+    },
+    {
+      "id": 2,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Given Diaz's demonstrated commitment to truthfulness and accuracy, how would he handle reporting on the motivations behind a ruler's diplomatic gestures?",
+      "held_out_passage": "These expressions of friendship were merely sent by Motecusuma in order to entice us from Tlascalla, being aware that we stood in close friendship with its inhabitants"
+    },
+    {
+      "id": 3,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "How would Diaz characteristically evaluate the trustworthiness of local populations based on his established patterns of judgment?",
+      "held_out_passage": "so viciously disposed, so treacherous and thievish, that some day or night when we least expected it they would murder us merely for the sake of plunder."
+    },
+    {
+      "id": 4,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "When faced with a risky military decision, what would Diaz's typical response be based on his demonstrated approach to danger?",
+      "held_out_passage": "we desired that they might be recalled from their journey, as nothing could ensue from this but a mere view of that city; and a despatch was accordingly sent after them, with orders for their immediate return to our camp."
+    },
+    {
+      "id": 5,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "How would Diaz handle physical hardship while trying to document important events?",
+      "held_out_passage": "At that time I was suffering from a severe wound, accompanied by fever, and could procure no medicine to relieve my sufferings, so that I cannot now recall to my memory how far these two officers proceeded on their journey"
+    },
+    {
+      "id": 6,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "Based on Diaz's character, how would he respond to learning detailed physical descriptions of his fellow officers from foreign sources?",
+      "held_out_passage": "These ambassadors, it appears, informed him, that Alvarado was a man whose countenance was particularly graceful and noble, shone like the sun, and that he was an officer."
+    },
+    {
+      "id": 7,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How would Diaz characteristically verify or validate information provided by intermediaries about his companions?",
+      "held_out_passage": "They had indeed taken a faithful likeness of him, and gave him the name of _Tonatio_,[31] which he retained ever after among them, and signifies the _Sun, son of the Sun_."
+    },
+    {
+      "id": 8,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "When assessing the character of his fellow soldiers, what details would Diaz emphasize based on his writing style?",
+      "held_out_passage": "Alvarado was in every sense beautifully proportioned in body, noble in his gait, had very pleasing features, and an amiable manner of expressing himself, so that there always appeared a smile on his countenance"
+    },
+    {
+      "id": 9,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "How would Diaz respond emotionally to the safe return of officers he had been concerned about?",
+      "held_out_passage": "For the rest, we were not a little delighted when they reappeared in our quarters"
+    },
+    {
+      "id": 10,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Based on Diaz's demonstrated honesty, how would he handle acknowledging gaps in his own memory or knowledge?",
+      "held_out_passage": "this, however, I have not forgotten, that as soon as it was known that Cortes had sent these cavaliers at a venture to Mexico, it met with universal disapprobation"
+    },
+    {
+      "id": 11,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "When encountering an unfamiliar practice that might seem unusual or distasteful to European readers, how would the author likely handle describing it?",
+      "held_out_passage": "I can easily imagine that many of my readers will laugh at this; however, what I have stated is a fact, and, as further proof of this, I must acquaint the reader that along every road accommodations were built of reeds, straw, or grass, by which those who made use of them were hidden from the view of the passers-by, so that great care was taken that none of the last-mentioned treasures should be lost."
+    },
+    {
+      "id": 12,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When faced with an overwhelming amount of observable detail in a complex scene, what approach would the author take to documentation?",
+      "held_out_passage": "But why should I so minutely detail every article exposed for sale in this great market? If I had to enumerate everything singly, I should not so easily get to the end."
+    },
+    {
+      "id": 13,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "How would the author respond to the challenge of comprehensively cataloging numerous items and phenomena encountered?",
+      "held_out_passage": "The variety was so great that it would occupy more space than I can well spare to note them down in; besides which, the market was so crowded with people, and the thronging so excessive in the porticoes, that it was quite impossible to see all in one day."
+    },
+    {
+      "id": 14,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "When describing economic systems and trade practices of the indigenous people, what would be the author's likely approach?",
+      "held_out_passage": "The value of these tubes of gold was estimated according to their length and thickness, and were taken in exchange, for instance, for so many mantles, xiquipiles of cacao nuts, slaves, or other merchandise."
+    },
+    {
+      "id": 15,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How would the author characterize his relationship with the military commander during significant ceremonial moments?",
+      "held_out_passage": "Motecusuma himself stepped out of a chapel, in which his cursed gods were standing, accompanied by two papas, and received Cortes and the whole of us very courteously."
+    },
+    {
+      "id": 16,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When the commander is offered physical assistance during a strenuous activity, what behavior would the author expect from him?",
+      "held_out_passage": "There were 114 steps to the summit, and, as they feared that Cortes would experience the same fatigue in mounting as Motecusuma had, they were going to assist him by taking hold of his arms. Cortes, however, would not accept of their proffered aid."
+    },
+    {
+      "id": 17,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How would the author describe architectural and infrastructural features that demonstrate the sophistication of the indigenous civilization?",
+      "held_out_passage": "These appeared to encompass more ground than the market-place at Salamanca, and were surrounded by a double wall, constructed of stone and lime: these yards were paved with large white flag-stones, extremely smooth; and where these were wanting, a kind of brown plaster had been used instead, and all was kept so very clean that there was not the smallest particle of dust or straw to be seen anywhere."
+    },
+    {
+      "id": 18,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "When witnessing religious practices that conflict with Christian beliefs, what language would the author employ?",
+      "held_out_passage": "Near these stood a large idol, in the shape of a dragon, surrounded by various other abominable figures, with a quantity of fresh blood lying in front of it."
+    },
+    {
+      "id": 19,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "How would the author acknowledge gaps or incompleteness in his own observations and documentation?",
+      "held_out_passage": "And yet I have not mentioned the paper, which in this country is called amatl; the tubes filled with liquid amber and tobacco; the various sweet-scented salves, and similar things; nor the various seeds which were exposed for sale in the porticoes of this market, nor the medicinal herbs."
+    },
+    {
+      "id": 20,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When describing the layout and strategic features of a major city, what would be the author's likely focus?",
+      "held_out_passage": "From this place we could likewise see the three causeways which led into Mexico,--that from Iztapalapan, by which we had entered the city four days ago; that from Tlacupa, along which we took our flight eight months after, when we were beaten out of the city by the new monarch Cuitlahuatzin; the third was that of Tepeaquilla."
+    },
+    {
+      "id": 21,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When faced with a warning from a local ruler about potential hostilities from religious authorities, how would Bernal Diaz expect his commander to respond?",
+      "held_out_passage": "Cortes, however, hid his fears from the monarch, and thanked him for his information, adding, that he was sorry we had no vessels left in which we could leave the country; and that if we even did leave it, we must take him, the monarch, along with us, that he might be presented to our emperor"
+    },
+    {
+      "id": 22,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Based on Bernal Diaz's character as presented in the training text, would he be likely to accept unverified claims about military strategy without scrutiny?",
+      "held_out_passage": "Whether Cortes gave Lopez any secret instructions I do not know; but I cannot pass by this circumstance in silence, as Gomara mentions it likewise in his history, and maintains that all this building of the vessels was mere artifice to amuse Motecusuma. May those who know more about this matter publish the truth."
+    },
+    {
+      "id": 23,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How would Bernal Diaz characteristically respond to uncertainty about whether a military action was genuine or strategic deception?",
+      "held_out_passage": "All I know is that Lopez told me in confidence, that the building of the vessels was really commenced, and that the three vessels were actually lying on the staples."
+    },
+    {
+      "id": 24,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "What physical and mental preparations would a soldier of Bernal Diaz's experience adopt when living in a state of constant threat?",
+      "held_out_passage": "I must here for the last time acquaint the reader, that whether night or day, we never took off our gorgets or our armour, while our arms were never for a moment out of our hands. A bundle of straw and a mat formed a couch; our horses stood ready saddled, and in short every soldier was ready for action at a moment's notice."
+    },
+    {
+      "id": 25,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Based on the training text's characterization of Bernal Diaz, would he likely take credit for military precautions he helped implement?",
+      "held_out_passage": "I do not mention this in praise of myself; but I grew so accustomed to being armed night and day, as it were living in armour, that after the conquest of New Spain I could not accustom myself for a length of time to undress on going to lie down, or make use of a bed"
+    },
+    {
+      "id": 26,
+      "tier": "behavioral_prediction",
+      "category": "change_over_time",
+      "text": "How would Bernal Diaz's military habits during a period of high alert affect his behavior long after the immediate danger had passed?",
+      "held_out_passage": "Even at the present day, in my old age, I never take a bed with me when I visit the to"
+    },
+    {
+      "id": 27,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When receiving intelligence about potential rebellion from a subordinate, how would Bernal Diaz expect his commander to balance reassurance with practical action?",
+      "held_out_passage": "Cortes, however, fulfilled his promise, and sent for Martin Lopez and Andreas Nuñez, described to them the size of the three vessels he wished them to build, and to march to Vera Cruz with the Mexican carpenters, where all the necessary materials, consisting in iron, rigging, tar and tow would be found. These orders were promptly obeyed."
+    },
+    {
+      "id": 28,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "What would Bernal Diaz consider the appropriate response when a ruler claims divine authority is demanding hostile action against the Spanish?",
+      "held_out_passage": "Our general also desired him to call the papas and officers to acquaint them that it was unnecessary to raise the town into open rebellion; they might, for the present, appease the gods by offerings, but we forbade any sacrifice of human beings."
+    },
+    {
+      "id": 29,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How would Bernal Diaz characteristically handle a situation where historical accounts differ on whether a military action was genuine or a strategic ruse?",
+      "held_out_passage": "There are certainly numbers of our men alive who would be able to give a true account of this."
+    },
+    {
+      "id": 30,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "Based on his documented character, would Bernal Diaz be likely to maintain constant vigilance and readiness during a period of perceived danger?",
+      "held_out_passage": "At night we also took the precaution of posting such numbers of sentinels, that each of us in turn, had at least one watch every night."
+    },
+    {
+      "id": 31,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Based on the author's demonstrated commitment to truthfulness and accuracy, how would he likely characterize a military leader's tendency to exaggerate their own authority and the reception they expect to receive?",
+      "held_out_passage": "Cortes, on his march to Mexico, had often bragged to his officers of the great authority and power he then possessed. They should see how the inhabitants would come out from all parts to meet him, and receive him with every splendour; that he was now complete master of Mexico, and Motecusuma and his grandees would not dare to dispute his commands henceforth, but would bring him gold in abundance."
+    },
+    {
+      "id": 32,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "When a commander's expectations are contradicted by reality and his pride is wounded, what emotional response would the author likely observe and document based on his pattern of honest observation?",
+      "held_out_passage": "But when Cortes found how the aspect of affairs had changed at Tezcuco, that no one stirred a foot to give the splendid reception he had boasted of, that none of the principal personages showed themselves, that even the worst of provisions were brought him with great reluctance, and found this ill feeling towards us show itself even more strongly in Mexico, and that although he had returned with additional troops, the inhabitants no longer furnished him with provisions, his pride turned into moroseness and anger"
+    },
+    {
+      "id": 33,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "How does the author portray a leader's response when subordinate officers attempt to counsel moderation and remind him of past kindnesses received from an ally?",
+      "held_out_passage": "When our other chief officers, Leon, Oli, Avila, and Lugo heard this, they said to him, \"Moderate your anger, general, and remember what great honours this monarch has heaped upon us, the kindnesses we have received from him, and how amiable his disposition is: for, had he not existed, the Mexicans would long ago have feasted on our bodies; nor ought you to forget that he has sought your alliance by offering you his daughter in marriage.\" These words carried with them the idea of a reproach, and, consequently, only served the more to embitter his feelings"
+    },
+    {
+      "id": 34,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "Based on the author's character assessments throughout his work, what would he likely conclude about a leader who dismisses respectful counsel and relies solely on military strength to resolve diplomatic tensions?",
+      "held_out_passage": "Cortes, however, relied upon the strength of his troops, and would not allow his anger to be pacified in any way, but commissioned the two Mexican grandees to tell their master that he must issue immediate orders for the re-opening of the markets, otherwise he should find himself obliged to take other steps."
+    },
+    {
+      "id": 35,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How would the author characterize the consequences when messengers witness disrespectful treatment of a monarch and report it back to that ruler?",
+      "held_out_passage": "Both these Mexicans had understood the reviling language used by Cortes against their monarch, and also how our other officers had remonstrated with him on that account. They knew these officers well; for they had by turns been captains of the guard which was placed over their monarch's person, and knew they were greatly attached to him. They therefore repaired, either in the bitterness of their hearts, or because the attack upon us had already been determined upon, and related to Motecusuma what they had heard; and scarcely a quarter of an hour had elapsed before one of our men came running up heavily wounded."
+    },
+    {
+      "id": 36,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "What does the author reveal about soldiers' awareness of danger when they have prior experience with the enemy's numerical superiority and the defensive advantages of fortified positions?",
+      "held_out_passage": "We soldiers also knew that we should run great risk of losing our lives either from hunger or from the advantages which the enemy would have over us in such a strongly fortified city."
+    },
+    {
+      "id": 37,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How does the author demonstrate that experienced soldiers can assess military vulnerability despite increases in troop strength?",
+      "held_out_passage": "When Cortes and some of us soldiers heard this, we began to look very serious, for those among us who had been several times engaged with the Indians knew, from experience, with what vast crowds they always entered the field of battle, and, although our numbers had been greatly augmented, and that there was little doubt but we should defend ourselves courageously, yet we were well aware of our dangerous position."
+    },
+    {
+      "id": 38,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "Based on the author's pattern of documenting military decisions, how would he characterize a commander's choice to send a reconnaissance force with instructions to avoid hostilities while investigating a potential threat?",
+      "held_out_passage": "Cortes, after questioning the man who had come from Tlacupa, despatched Ordas with 400 men, mostly armed with crossbows and muskets, and a few horse, to see what truth there was in his statement. He recommended him, however, to avoid, if possible, all hostilities, and to settle the affair amicably."
+    },
+    {
+      "id": 39,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "What does the author's account reveal about the gap between a commander's intentions for peaceful resolution and the actual hostile response from the enemy?",
+      "held_out_passage": "Ordas had scarcely reached half-way down the causeway when he was met by a vast body of Mexicans, who, with those posted on the tops of the houses, attacked him so furiously that eight of his men were killed at the first onset, and most of them wounded, Ordas himself in three several places."
+    },
+    {
+      "id": 40,
+      "tier": "recall",
+      "category": "recall",
+      "text": "Who is the author of the memoirs described in this text?",
+      "held_out_passage": null
+    },
+    {
+      "id": 41,
+      "tier": "recall",
+      "category": "recall",
+      "text": "What is the title of the work that Bernal Diaz del Castillo wrote?",
+      "held_out_passage": null
+    },
+    {
+      "id": 42,
+      "tier": "recall",
+      "category": "recall",
+      "text": "Who translated Bernal Diaz del Castillo's memoirs from Spanish to English?",
+      "held_out_passage": null
+    },
+    {
+      "id": 43,
+      "tier": "recall",
+      "category": "recall",
+      "text": "In what city and year was this edition of the memoirs published?",
+      "held_out_passage": null
+    },
+    {
+      "id": 44,
+      "tier": "recall",
+      "category": "recall",
+      "text": "According to the translator's preface, how many battles did Bernal Diaz claim to have participated in?",
+      "held_out_passage": null
+    },
+    {
+      "id": 45,
+      "tier": "recall",
+      "category": "recall",
+      "text": "What subject matter do these memoirs contain an account of?",
+      "held_out_passage": null
+    },
+    {
+      "id": 46,
+      "tier": "recall",
+      "category": "recall",
+      "text": "What expression does Bernal Diaz generally use to emphasize that conquest merit was not due to Cortes alone?",
+      "held_out_passage": null
+    },
+    {
+      "id": 47,
+      "tier": "recall",
+      "category": "recall",
+      "text": "What two characteristics are mentioned as defining Bernal Diaz's style of writing?",
+      "held_out_passage": null
+    },
+    {
+      "id": 48,
+      "tier": "recall",
+      "category": "recall",
+      "text": "According to Dr. Robertson's critique, what quality of Bernal Diaz's account is described as 'pleasant naïveté'?",
+      "held_out_passage": null
+    },
+    {
+      "id": 49,
+      "tier": "recall",
+      "category": "recall",
+      "text": "What did most of the men who joined Cortes do to equip themselves for the expedition?",
+      "held_out_passage": null
+    },
+    {
+      "id": 50,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "Why does the translator argue that Bernal Diaz's account is more valuable than other historical accounts of the conquest, and what evidence does he provide to support this claim?",
+      "held_out_passage": null
+    },
+    {
+      "id": 51,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "How does the translator's description of Bernal Diaz as both a participant and chronicler of the conquest relate to the translator's assertion about the reliability of his account?",
+      "held_out_passage": null
+    },
+    {
+      "id": 52,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "What does the translator suggest about the relationship between Bernal Diaz's military experience (mentioned as 119 battles) and his credibility as a historian?",
+      "held_out_passage": null
+    },
+    {
+      "id": 53,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "How does the translator's criticism of other Spanish historians' use of exaggeration and philosophical remarks contrast with his characterization of Bernal Diaz's writing style?",
+      "held_out_passage": null
+    },
+    {
+      "id": 54,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "Why does the translator believe that Bernal Diaz's detailed descriptions of horses and expedition equipment, which some readers might criticize, were actually necessary to his historical account?",
+      "held_out_passage": null
+    },
+    {
+      "id": 55,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "What does the translator imply about the relationship between Bernal Diaz's lack of reward during his lifetime and the subsequent treatment of his memoirs by other historians?",
+      "held_out_passage": null
+    },
+    {
+      "id": 56,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "How does Bernal Diaz's repeated use of the phrase 'Cortes and all of us' reflect both his character as described by the translator and his purpose in writing the memoirs?",
+      "held_out_passage": null
+    },
+    {
+      "id": 57,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "Based on the translator's description of Bernal Diaz's background and the nature of the conquest expedition, what can be inferred about the social status of the men who participated in the conquest?",
+      "held_out_passage": null
+    },
+    {
+      "id": 58,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "How does the translator's comparison of Bernal Diaz's work to Don Quixote in terms of originality relate to his earlier claims about other historians borrowing from Bernal Diaz's account?",
+      "held_out_passage": null
+    },
+    {
+      "id": 59,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "What does the translator suggest about the difference between Bernal Diaz's approach to writing history and that of Cortes, based on his comparison of their respective accounts?",
+      "held_out_passage": null
+    },
+    {
+      "id": 60,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "How does the translator's observation that Bernal Diaz devotes chapters to naming and describing all his companions in arms support his overall argument about the author's character and historical method?",
+      "held_out_passage": null
+    },
+    {
+      "id": 61,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What would Bernal Díaz del Castillo's opinion be on the modern Mexican government's policies regarding indigenous land rights?",
+      "held_out_passage": null
+    },
+    {
+      "id": 62,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "How many times did Bernal Díaz del Castillo experience clinical depression, and what were his specific symptoms?",
+      "held_out_passage": null
+    },
+    {
+      "id": 63,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What did Bernal Díaz del Castillo think about the invention of the printing press and its impact on literacy rates in 16th-century Spain?",
+      "held_out_passage": null
+    },
+    {
+      "id": 64,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "If Bernal Díaz del Castillo could choose any modern profession, what career would he have pursued instead of soldiering?",
+      "held_out_passage": null
+    },
+    {
+      "id": 65,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What were Bernal Díaz del Castillo's personal views on the abolition of slavery, which occurred centuries after his death?",
+      "held_out_passage": null
+    },
+    {
+      "id": 66,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "How did Bernal Díaz del Castillo's childhood experiences with specific family members shape his psychological development?",
+      "held_out_passage": null
+    },
+    {
+      "id": 67,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What would Bernal Díaz del Castillo have written about the discovery of the Americas by other European powers in subsequent centuries?",
+      "held_out_passage": null
+    },
+    {
+      "id": 68,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "Did Bernal Díaz del Castillo ever experience romantic love, and if so, what were the specific emotional details of those relationships?",
+      "held_out_passage": null
+    },
+    {
+      "id": 69,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "How would Bernal Díaz del Castillo have responded to 21st-century historical revisionism regarding the Spanish conquest of Mexico?",
+      "held_out_passage": null
+    },
+    {
+      "id": 70,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What were Bernal Díaz del Castillo's private thoughts on his own mortality and legacy that he never recorded in any document?",
+      "held_out_passage": null
+    },
+    {
+      "id": 71,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Diaz repeatedly emphasizes his own role and that of the common soldiers ('Cortes and all of us'), yet he also acknowledges Cortés's leadership as essential. If forced to choose, would he prioritize historical accuracy about Cortés's indispensability or his desire to ensure common soldiers received equal credit?",
+      "held_out_passage": null
+    },
+    {
+      "id": 72,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Diaz claims absolute commitment to truth ('You have only to read my history, and you see it is true'), yet he also admits to 'amusing vanity' about his 119 battles. How does he reconcile instances where his vanity might unconsciously distort his recollection of events?",
+      "held_out_passage": null
+    },
+    {
+      "id": 73,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "The translator notes Diaz was 'never rewarded for the great services he had rendered his country' and that his memoirs were later 'pillaged by court historians.' Does Diaz's bitterness about this injustice ever compromise his claimed impartiality in describing events?",
+      "held_out_passage": null
+    },
+    {
+      "id": 74,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Diaz devotes chapters to naming and describing all his fallen companions with apparent affection. If a companion had committed a serious moral wrong during the conquest, would his loyalty to their memory override his stated commitment to truthful reporting?",
+      "held_out_passage": null
+    },
+    {
+      "id": 75,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Diaz emphasizes the 'plainness and simplicity' of his style, yet the translator notes passages of 'great force and eloquence.' Is Diaz aware of when he is being eloquent versus plain, or does his eloquence emerge unconsciously when describing moments that moved him emotionally?",
+      "held_out_passage": null
+    },
+    {
+      "id": 76,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Diaz insists on describing minute details like horse colors because they were 'of the utmost importance.' By what criteria does he distinguish between details that serve historical truth and details that merely satisfy his own memory or interest?",
+      "held_out_passage": null
+    },
+    {
+      "id": 77,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "If Diaz discovered that Cortés had committed acts that contradicted the narrative of glorious conquest Diaz had spent years constructing, would he revise his account or suppress the information to preserve the coherence of his life's meaning?",
+      "held_out_passage": null
+    },
+    {
+      "id": 78,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Diaz criticizes other Spanish historians for 'exaggerations' and 'false interest,' yet he himself acknowledges 'amusing vanity.' How does he determine when his own selective emphasis crosses from honest memoir into the exaggeration he condemns in others?",
+      "held_out_passage": null
+    },
+    {
+      "id": 79,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "The translator suggests Diaz 'was born to show forth truth' and 'raises it to a divinity in his mind.' Does Diaz's near-religious reverence for truth ever conflict with his loyalty to his comrades or his desire to justify the conquest as a righteous enterprise?",
+      "held_out_passage": null
+    },
+    {
+      "id": 80,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Diaz notes that the men who joined Cortés 'equipped themselves at their own expense' and were 'adventurers of their own free choice.' Does this acknowledgment extend to questioning whether the conquest itself was morally justified, or does it only serve to defend the soldiers' honor?",
+      "held_out_passage": null
+    }
+  ]
+}

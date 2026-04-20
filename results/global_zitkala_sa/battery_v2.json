@@ -1,0 +1,580 @@
+{
+  "metadata": {
+    "subject": "Zitkala-Sa",
+    "subject_key": "zitkala_sa",
+    "generated": "2026-04-14T22:52:21.864842+00:00",
+    "model": "claude-haiku-4-5-20251001",
+    "method": "backward_design_from_heldout",
+    "total": 80,
+    "tiers": {
+      "behavioral_prediction": 39,
+      "recall": 10,
+      "inferential": 11,
+      "adversarial_abstention": 10,
+      "boundary_probing": 10
+    },
+    "checksum": "8e8a5e4684d3d709d7b9571eb158fa01"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Based on Zitkala-Sa's writing style and spiritual reflections in the training text, how would she likely describe her emotional state when observing natural phenomena like clouds and water?",
+      "held_out_passage": "With half-closed eyes I watch the huge cloud shadows in their noiseless play upon the high bluffs opposite me, while into my ear ripple the sweet, soft cadences of the river's song. Folded hands lie in my lap, for the time forgot."
+    },
+    {
+      "id": 2,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Given Zitkala-Sa's demonstrated perspective on indigenous spirituality and connection to nature in the training text, what would be her likely interpretation of natural objects like rocks or stones?",
+      "held_out_passage": "And here he lay--Inyan our great-great-grandfather, older than the hill he rested on, older than the race of men who love to tell of his wonderful career."
+    },
+    {
+      "id": 3,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "Based on Zitkala-Sa's critical stance toward institutions shown in the training text, how would she likely evaluate the actual impact of educational programs on Native American communities?",
+      "held_out_passage": "But few there are who have paused to question whether real life or long-lasting death lies beneath this semblance of civilization."
+    },
+    {
+      "id": 4,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How would Zitkala-Sa, given her demonstrated relationship with animals and nature in the training text, likely interact with a pet or animal companion?",
+      "held_out_passage": "In both my hands I hold her shaggy head and gaze into her large brown eyes. At once the dilated pupils contract into tiny black dots, as if the roguish spirit within would evade my questioning."
+    },
+    {
+      "id": 5,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "Based on Zitkala-Sa's reflective writing patterns in the training text, what philosophical conclusion would she likely reach about human diversity and connection?",
+      "held_out_passage": "The racial lines, which once were bitterly real, now serve nothing more than marking out a living mosaic of human beings."
+    },
+    {
+      "id": 6,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "Given Zitkala-Sa's demonstrated use of metaphor and symbolism in the training text, how would she likely employ comparison to explain human nature?",
+      "held_out_passage": "And those creatures who are for a time mere echoes of another's note are not unlike the fable of the thin sick man whose distorted shadow, dressed like a real creature, came to the old master to make him follow as a shadow."
+    },
+    {
+      "id": 7,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Based on Zitkala-Sa's spiritual perspective evident in the training text, what would she likely emphasize about the relationship between individual beings and the universe?",
+      "held_out_passage": "With the strong, happy sense that both great and small are so surely enfolded in His magnitude that, without a miss, each has his allotted individual ground of opportunities, I am buoyant with good nature."
+    },
+    {
+      "id": 8,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "How would Zitkala-Sa, given her demonstrated critical perspective in the training text, characterize the motivations of those who work in Indian institutions?",
+      "held_out_passage": "In this fashion many have passed idly through the Indian schools during the last decade, afterward to boast of their charity to the North American Indian."
+    },
+    {
+      "id": 9,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "Based on Zitkala-Sa's demonstrated understanding of indigenous knowledge in the training text, what would she likely identify as a key insight of Native American peoples?",
+      "held_out_passage": "Interwoven with the thread of this Indian legend of the rock, I fain would trace a subtle knowledge of the native folk which enabled them to recognize a kinship to any and all parts of this vast universe."
+    },
+    {
+      "id": 10,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "Given Zitkala-Sa's reflective and introspective nature shown in the training text, what would be her likely emotional response upon returning to her family home?",
+      "held_out_passage": "With these thoughts I reach the log cabin whither I am strongly drawn by the tie of a child to an aged mother."
+    },
+    {
+      "id": 11,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "When facing imminent death, would Zitkala-Sa express fear or maintain composure, and what spiritual questions might occupy her mind?",
+      "held_out_passage": "In his stern face I laugh aloud. I do not fear death. Yet I wonder who shall come to welcome me in the realm of strange sight. Will the loving Jesus grant me pardon and give my soul a soothing sleep? or will my warrior father greet me and receive me as his son?"
+    },
+    {
+      "id": 12,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "How would Zitkala-Sa likely respond to a story involving tribal conflict and a serious crime committed by someone close to her?",
+      "held_out_passage": "My temples throbbed like a pair of hearts!"
+    },
+    {
+      "id": 13,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "When learning about a tragic event from her past through storytelling, would Zitkala-Sa remain emotionally detached or become deeply affected?",
+      "held_out_passage": "The voice of the old woman broke. Swaying her stooped shoulders to and fro as she sat upon her feet, she muttered vain exclamations beneath her breath."
+    },
+    {
+      "id": 14,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "If placed in a situation where she must conceal strong emotions in front of others, what physical signs might betray her inner turmoil?",
+      "held_out_passage": "I longed to ask what doom awaited the young murderer, but dared not open my lips, lest I burst forth into screams instead."
+    },
+    {
+      "id": 15,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "When confronted with news of tribal justice and punishment, how would Zitkala-Sa's body physically respond?",
+      "held_out_passage": "My temples throbbed like a pair of hearts!"
+    },
+    {
+      "id": 16,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Would Zitkala-Sa view death as something to fear or as a transition to be faced with spiritual curiosity?",
+      "held_out_passage": "I do not fear death. Yet I wonder who shall come to welcome me in the realm of strange sight. Will the loving Jesus grant me pardon and give my soul a soothing sleep? or will my warrior father greet me and receive me as his son? Will my spirit fly upward to a happy heaven? or shall I sink into the bottomless pit, an outcast from a God of infinite love?"
+    },
+    {
+      "id": 17,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "When recalling traumatic historical events, would Zitkala-Sa's sensory memories remain vivid and emotionally charged?",
+      "held_out_passage": "Her eyes, closed tight against the night, beheld behind them the light of bygone days. They saw again a rolling black cloud spread itself over the land. Her ear heard the deep rumbling of a tempest in the west."
+    },
+    {
+      "id": 18,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "How would Zitkala-Sa demonstrate her acceptance of fate when facing execution?",
+      "held_out_passage": "My heart is strong. My face is calm. My eyes are dry and eager for new scenes. My hands hang quietly at my side. Serene and brave, my soul awaits the men to perch me on the gallows for another flight."
+    },
+    {
+      "id": 19,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "When hearing about a lover implicated in a serious crime, would Zitkala-Sa suspect herself of complicity or feel defensive?",
+      "held_out_passage": "With wild, suspecting eyes he glanced at me as if I were in league with the man-killer, my lover."
+    },
+    {
+      "id": 20,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Would Zitkala-Sa blend indigenous spiritual beliefs with Christian concepts when contemplating her spiritual fate?",
+      "held_out_passage": "Will the loving Jesus grant me pardon and give my soul a soothing sleep? or will my warrior father greet me and receive me as his son? Will my spirit fly upward to a happy heaven? or shall I sink into the bottomless pit, an outcast from a God of infinite love?"
+    },
+    {
+      "id": 21,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "When a young woman in Zitkala-Sa's stories encounters a man who has wronged her people, how does she typically respond to the situation?",
+      "held_out_passage": "Turning on heels firmly planted in the earth, the woman gives a wild spring forward, like a panther for its prey. In a husky voice she hissed between her teeth, \"I am a Dakota woman!\" From her unerring long knife the enemy falls heavily at her feet."
+    },
+    {
+      "id": 22,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "Based on Zitkala-Sa's portrayal of family bonds, what would a daughter likely do if her lover were in danger and needed rescue?",
+      "held_out_passage": "Stooping beneath his outstretched arms grasping at the air for support, Tusee lifts him upon her broad shoulders. With half-running, triumphant steps she carries him away into the open night."
+    },
+    {
+      "id": 23,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How does Zitkala-Sa characterize the spiritual strength of Dakota women when they act in defense of their people?",
+      "held_out_passage": "The Great Spirit heard Tusee's prayer on the hilltop. He gave her a warrior's strong heart to lessen the foe by one."
+    },
+    {
+      "id": 24,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When a young woman in Zitkala-Sa's narratives uses deception to lure an enemy away from safety, what is her underlying motivation?",
+      "held_out_passage": "Before him stands the young woman. Beckoning him with a slender hand, she steps backward, away from the light and the restless throng of onlookers."
+    },
+    {
+      "id": 25,
+      "tier": "behavioral_prediction",
+      "category": "change_over_time",
+      "text": "How does Zitkala-Sa depict a woman's physical and emotional transformation when she transitions from hiding to action?",
+      "held_out_passage": "Before his wide-open eyes the old bent figure straightens into its youthful stature. Tusee herself is beside him."
+    },
+    {
+      "id": 26,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "What does Zitkala-Sa suggest about the relationship between prayer and divine intervention in her stories?",
+      "held_out_passage": "The Great Spirit heard Tusee's prayer on the hilltop. He gave her a warrior's strong heart to lessen the foe by one."
+    },
+    {
+      "id": 27,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "When a captive is in despair, how does Zitkala-Sa use imagery to suggest hope for their rescue?",
+      "held_out_passage": "Yet the last red, crackling embers cast a faint light upon his long black hair, and, shining through the thick mats, caress his wan face with undying hope."
+    },
+    {
+      "id": 28,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "How does Zitkala-Sa portray a woman's response when she witnesses her lover's physical weakness after trauma?",
+      "held_out_passage": "The sight of his weakness makes her strong. A mighty power thrills her body."
+    },
+    {
+      "id": 29,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "Based on Zitkala-Sa's characterization of Dakota identity, what would a woman declare at the moment of taking decisive action against an enemy?",
+      "held_out_passage": "In a husky voice she hissed between her teeth, \"I am a Dakota woman!\""
+    },
+    {
+      "id": 30,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "How does Zitkala-Sa use the contrast between appearance and reality to develop her female characters' agency?",
+      "held_out_passage": "With a cautious, groping foot she enters. Whispering between her teeth a lullaby for her sleeping child in her blanket, she searches for something forgotten... Before his wide-open eyes the old bent figure straightens into its youthful stature."
+    },
+    {
+      "id": 31,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When faced with bureaucratic systems that have repeatedly failed to address tribal concerns, would Zitkala-Sa's writing suggest that an elderly tribal leader would attempt direct communication one more time, or would they abandon the effort entirely?",
+      "held_out_passage": "In face of repeated defeat, I am daring once more to send this one letter."
+    },
+    {
+      "id": 32,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Based on Zitkala-Sa's portrayal of Native American spiritual beliefs in the training text, how would a tribal elder likely respond to a failed attempt at written communication with American authorities?",
+      "held_out_passage": "He sent his message on the wings of fire and he believed she would get it."
+    },
+    {
+      "id": 33,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "When an elderly tribal member reflects on generational decline and loss of traditional virtues, what specific moral qualities would Zitkala-Sa's writing suggest they would lament as lost?",
+      "held_out_passage": "Those days were gone when the Indian youths were taught to be truthful,--to be merciful to the poor. Those days were gone when moral cleanliness was a chief virtue"
+    },
+    {
+      "id": 34,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How would Zitkala-Sa characterize the relationship between tribal leaders and their grandchildren based on patterns of mentorship shown in her work?",
+      "held_out_passage": "his little granddaughter from her play, \"You are my interpreter and scribe,\" he said."
+    },
+    {
+      "id": 35,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "When confronted with land disputes involving other Native Americans, would Zitkala-Sa's writing suggest a tribal leader would view this as a betrayal of tribal unity?",
+      "held_out_passage": "We do not know her. We were not asked to give land, but our land is taken from us to give to another Indian. This is not right."
+    },
+    {
+      "id": 36,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "Based on Zitkala-Sa's depiction of Native American perspectives on government promises, what would be an elder's likely assessment of written treaties?",
+      "held_out_passage": "I thought we made good treaties on paper, but now our children cry for food."
+    },
+    {
+      "id": 37,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "When an aging tribal leader attempts to communicate grievances to American authorities, what physical and emotional toll would Zitkala-Sa's writing suggest this effort would take?",
+      "held_out_passage": "His thin frame shook with emotion. He could not go there with his letter. He dismounted from his pony. His quavering voice chanted a bravery song"
+    },
+    {
+      "id": 38,
+      "tier": "behavioral_prediction",
+      "category": "change_over_time",
+      "text": "How would Zitkala-Sa portray an elderly Native American's awareness of their own physical decline in relation to their former capabilities?",
+      "held_out_passage": "Alas, I can no more leap into my saddle. I now must crawl about in my helplessness."
+    },
+    {
+      "id": 39,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Based on Zitkala-Sa's treatment of tribal governance and decision-making, would a chief prioritize personal reputation for honesty when addressing land disputes?",
+      "held_out_passage": "My memory is clear. My reputation for veracity is well known."
+    },
+    {
+      "id": 40,
+      "tier": "recall",
+      "category": "recall",
+      "text": "What is Zitkala-Sa's real name?",
+      "held_out_passage": null
+    },
+    {
+      "id": 41,
+      "tier": "recall",
+      "category": "recall",
+      "text": "What Native American tribe did Zitkala-Sa belong to?",
+      "held_out_passage": null
+    },
+    {
+      "id": 42,
+      "tier": "recall",
+      "category": "recall",
+      "text": "What is the title of one book written by Zitkala-Sa mentioned in the text?",
+      "held_out_passage": null
+    },
+    {
+      "id": 43,
+      "tier": "recall",
+      "category": "recall",
+      "text": "What organizations was Zitkala-Sa a member of, according to the text?",
+      "held_out_passage": null
+    },
+    {
+      "id": 44,
+      "tier": "recall",
+      "category": "recall",
+      "text": "At what age does Zitkala-Sa describe herself in the opening of 'Impressions of an Indian Childhood'?",
+      "held_out_passage": null
+    },
+    {
+      "id": 45,
+      "tier": "recall",
+      "category": "recall",
+      "text": "What river did Zitkala-Sa's mother go to in order to draw water?",
+      "held_out_passage": null
+    },
+    {
+      "id": 46,
+      "tier": "recall",
+      "category": "recall",
+      "text": "What was the name of Zitkala-Sa's cousin who was seventeen years old?",
+      "held_out_passage": null
+    },
+    {
+      "id": 47,
+      "tier": "recall",
+      "category": "recall",
+      "text": "According to Zitkala-Sa's mother, what did the paleface steal from the Dakota people?",
+      "held_out_passage": null
+    },
+    {
+      "id": 48,
+      "tier": "recall",
+      "category": "recall",
+      "text": "What happened to Zitkala-Sa's sister during the forced relocation of her people?",
+      "held_out_passage": null
+    },
+    {
+      "id": 49,
+      "tier": "recall",
+      "category": "recall",
+      "text": "In what year was 'American Indian Stories' published?",
+      "held_out_passage": null
+    },
+    {
+      "id": 50,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "Why does Zitkala-Sa's mother's emotional state seem connected to her warnings about the paleface, and what specific events does she reference to explain her sadness?",
+      "held_out_passage": null
+    },
+    {
+      "id": 51,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "How does the description of Zitkala-Sa as a 'wild little girl' with 'wild freedom and overflowing spirits' contrast with what her mother's stories suggest about the future possibilities for Dakota children?",
+      "held_out_passage": null
+    },
+    {
+      "id": 52,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "What can be inferred about the relationship between the forced relocation of the Dakota people and the deaths of Zitkala-Sa's sister and uncle?",
+      "held_out_passage": null
+    },
+    {
+      "id": 53,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "How does Zitkala-Sa's innocent promise to carry water for her mother become complicated by the mother's response about the paleface taking away the river?",
+      "held_out_passage": null
+    },
+    {
+      "id": 54,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "What does the mother's description of moving camp 'not in the grand, happy way' but 'driven like a herd of buffalo' reveal about the difference between her childhood experiences and those of her daughter?",
+      "held_out_passage": null
+    },
+    {
+      "id": 55,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "Why might Zitkala-Sa's mother have responded with 'a strange tremor in her voice' to her daughter's innocent statement about growing up to help with water, given the context of what she later reveals?",
+      "held_out_passage": null
+    },
+    {
+      "id": 56,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "How does the mother's statement that 'the bronzed Dakota is the only real man' relate to her earlier description of the paleface as 'a sham,--a sickly sham'?",
+      "held_out_passage": null
+    },
+    {
+      "id": 57,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "What does the progression from Zitkala-Sa's initial question 'Mother, who is this bad paleface?' to her declaration 'I hate the paleface that makes my mother cry!' suggest about how children internalize parental trauma?",
+      "held_out_passage": null
+    },
+    {
+      "id": 58,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "How do the details about Zitkala-Sa's sister's illness during the forced relocation (swollen throat, fever, refusal to drink) connect to the mother's claim that 'the Great Spirit had forgotten us'?",
+      "held_out_passage": null
+    },
+    {
+      "id": 59,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "What is the significance of the mother pointing to the burial hill while holding her daughter, and how does this physical gesture reinforce the connection between land loss and family death?",
+      "held_out_passage": null
+    },
+    {
+      "id": 60,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "How does the text suggest that Zitkala-Sa's early freedom and wild spirit are products of a way of life that her mother fears will be destroyed by the paleface?",
+      "held_out_passage": null
+    },
+    {
+      "id": 61,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What would Zitkala-Sa's position be on contemporary Native American cryptocurrency initiatives and blockchain technology for tribal sovereignty?",
+      "held_out_passage": null
+    },
+    {
+      "id": 62,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "How would Zitkala-Sa have voted in the 2020 U.S. presidential election?",
+      "held_out_passage": null
+    },
+    {
+      "id": 63,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What specific dietary preferences did Zitkala-Sa have regarding foods that were not commercially available until after her death in 1938?",
+      "held_out_passage": null
+    },
+    {
+      "id": 64,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "Which modern social media platform would Zitkala-Sa have found most effective for indigenous advocacy, and why?",
+      "held_out_passage": null
+    },
+    {
+      "id": 65,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Zitkala-Sa's personal opinion on the development of nuclear weapons and their use in World War II?",
+      "held_out_passage": null
+    },
+    {
+      "id": 66,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "How would Zitkala-Sa have approached the question of Native American representation in Hollywood films made after 1950?",
+      "held_out_passage": null
+    },
+    {
+      "id": 67,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What were Zitkala-Sa's private thoughts on her own physical appearance and beauty standards of her era?",
+      "held_out_passage": null
+    },
+    {
+      "id": 68,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "Would Zitkala-Sa have supported or opposed the American Indian Movement's tactics during the 1970s occupation of Wounded Knee?",
+      "held_out_passage": null
+    },
+    {
+      "id": 69,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What specific recommendations would Zitkala-Sa make for decolonizing university curricula in the 21st century?",
+      "held_out_passage": null
+    },
+    {
+      "id": 70,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "How did Zitkala-Sa's personal religious beliefs evolve regarding concepts and theological developments that emerged decades after her lifetime?",
+      "held_out_passage": null
+    },
+    {
+      "id": 71,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Given Zitkala-Sa's deep emotional attachment to her mother's grief over colonization and land loss, how would she have responded if offered a position of significant political power within the U.S. government that could materially help her people but required her to work within and legitimize the same colonial system she condemns?",
+      "held_out_passage": null
+    },
+    {
+      "id": 72,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Zitkala-Sa valorizes her mother's teachings about Dakota identity and 'wild freedom,' yet she became an educated author writing in English for American audiences. At what point does assimilation to communicate become complicity with the system she critiques, and how does she determine that boundary?",
+      "held_out_passage": null
+    },
+    {
+      "id": 73,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Her mother teaches her to hate the 'paleface' as a monolithic entity responsible for death and dispossession, yet Zitkala-Sa later collaborates with white reformers and institutions. How does she reconcile teaching children to hate an entire race with her adult advocacy work that requires partnership across racial lines?",
+      "held_out_passage": null
+    },
+    {
+      "id": 74,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "If Zitkala-Sa discovered that some Dakota people voluntarily chose assimilation or collaboration with the U.S. government believing it was the best survival strategy for their families, would her framework allow her to understand their choices as anything other than betrayal or delusion?",
+      "held_out_passage": null
+    },
+    {
+      "id": 75,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Zitkala-Sa emphasizes spiritual connection to the land and traditional ways, yet she pursues formal education, writing, and urban intellectual life. Does she believe these modern pursuits are compatible with authentic Dakota identity, or is she accepting a tragic compromise?",
+      "held_out_passage": null
+    },
+    {
+      "id": 76,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Her mother's narrative frames the paleface as uniformly 'heartless' and responsible for specific deaths, yet individual colonizers had varying degrees of agency and intent. Does Zitkala-Sa's moral framework accommodate nuance about individual culpability, or does systemic critique require treating all members of the colonizing group as equally responsible?",
+      "held_out_passage": null
+    },
+    {
+      "id": 77,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "If preserving Dakota culture required rejecting all European-American knowledge systems (including medicine, literacy, and political organization), would Zitkala-Sa advocate for that total separation, or does she believe selective adoption of external tools is possible without cultural death?",
+      "held_out_passage": null
+    },
+    {
+      "id": 78,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Zitkala-Sa's mother teaches her that 'the bronzed Dakota is the only real man,' establishing authenticity through racial/cultural purity. How does this framework apply to mixed-heritage Dakota people, and does Zitkala-Sa's own identity as someone navigating between worlds complicate this teaching?",
+      "held_out_passage": null
+    },
+    {
+      "id": 79,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Given that Zitkala-Sa uses emotional narrative and moral persuasion to appeal to American audiences' conscience, does she believe the colonizing society is capable of genuine moral transformation, or is she engaging in a strategic performance while holding a more pessimistic view of American capacity for justice?",
+      "held_out_passage": null
+    },
+    {
+      "id": 80,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Zitkala-Sa's mother's grief is presented as justified and noble, yet she also teaches her daughter to suppress emotional expression ('Hush; my little daughter must never talk about my tears'). Does Zitkala-Sa see this emotional restraint as a strength to be preserved, a trauma response to be healed, or something else entirely?",
+      "held_out_passage": null
+    }
+  ]
+}

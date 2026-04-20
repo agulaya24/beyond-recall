@@ -1,0 +1,283 @@
+{
+  "metadata": {
+    "subject": "Fukuzawa Yukichi",
+    "model": "gpt-5.4",
+    "method": "backward_design",
+    "count": 39
+  },
+  "questions": [
+    {
+      "id": 1,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "If accused of lacking loyalty because he did not display emotional attachment to his political superiors, how would he likely defend himself?",
+      "held_out_passage": "I always replied in this way: “You must not call me disloyal or unfeeling, for I have done nothing against the clan and I have always followed orders strictly. If you still call me disloyal, I don't know where my omissions lie. Not only that, but I have never made any request of them to have my rank changed or my salary increased. You may inquire of the upper officials and chancellors. It is not in my nature to exert myself with the expectation of reward. If this is disagreeable to them, let them dismiss me. I shall obey the order and get out."
+    },
+    {
+      "id": 2,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How would he likely describe the proper basis of gratitude between a ruler and those who serve under him?",
+      "held_out_passage": "“All the intercourse of life is governed by the rule of give and take. If the clan says, ‘You should be grateful for the patronage given your family for many generations,' I shall have a word to say in reply: ‘There is no occasion for you to demand gratitude, for my family has rendered honest service for a long time.' On the other hand, if the clan extends some appreciation to us, saying, ‘We are glad to acknowledge the good service ot a family like yours,' then I should feel like saying in return, ‘I am deeply grateful for your constant employment. During our family's history, there have been some good-for-nothing men, also some weaklings. In spite of these, you have been good enough to give us our fixed salaries and enabled us to live com- fortably. The benevolence of our clan is as exalted as the mountains and as deep as the sea.' So would I humble my- self and return thanks. This is what I consider the law of give and take, I don't want to have gratitude demanded of me, or to be called disloyal without reason.”"
+    },
+    {
+      "id": 3,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "If authorities ordered the young people under his guidance to join a military campaign, what would he most likely do?",
+      "held_out_passage": "Accordingly, our Nakatsu clan sent orders recalling the students in my school for service. I think Obata Tokujiro and others were among them— about ten in all* But I said that it was too dangerous for the young men to go to war; they might be killed by stray bullets however carefully they went about in the battlefield."
+    },
+    {
+      "id": 4,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "How would he weigh the safety and education of students against demands for martial participation?",
+      "held_out_passage": "For this kind of^urd war, if they wanted figureheads in their ranks, they could as well hire farmers from the provinces. My students were too precious; even if they were not to be hit by the bullets, they might hurt their feet on thorns."
+    },
+    {
+      "id": 5,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "When faced with an order he considered harmful to his pupils, what practical method would he likely use to avoid compliance?",
+      "held_out_passage": "So I had A Non-partisan in the Restoration 185 them answer that they were all too ill to carry arms."
+    },
+    {
+      "id": 6,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "If resisting an official demand could bring punishment on himself, how willing would he be to accept that consequence?",
+      "held_out_passage": "If we were to be punished, the worst would be dismissal from the clan."
+    },
+    {
+      "id": 7,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Would he be likely to judge a political conflict by ideology first, or by whether it fit the proper role of students?",
+      "held_out_passage": "I did not consider the right or wrong of the conflict; I simply said it was not the kind of activity that students should take part in."
+    },
+    {
+      "id": 8,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "When external pressure pushed his students away from study, how would he likely respond regarding their education?",
+      "held_out_passage": "So I kept the young men at their studies, but the clan was weak and did not force the recall of the young men."
+    },
+    {
+      "id": 9,
+      "tier": "behavioral_prediction",
+      "category": "career",
+      "text": "After receiving a higher official status, how would he likely behave toward the social privileges and forms of deference attached to rank?",
+      "held_out_passage": "After I had been employed by the The Shogunate shogunate for some time, I was ordered is no better to become a regular retainer of the Sh5- gun himself.* I became then hatamoto with a prescribed salary of one hundred and fifty bales of rice though actually it amounted to only one hundred. It was the general custom for hatamoto to let his servants address him as Tono Sama (Great Master), while men of lesser rank would have themselves addressed as Danna Sama (Master). Unconcerned as I was with my rank or career in this new post, it never occurred to me to have the higher form of address used in my house."
+    },
+    {
+      "id": 10,
+      "tier": "behavioral_prediction",
+      "category": "change_over_time",
+      "text": "How did his attitude toward honor and status appear to evolve as his life advanced?",
+      "held_out_passage": "Such was my way of life. It was as if my mind were washed clean of what people call the “yearning for honor.”"
+    },
+    {
+      "id": 11,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "When he believed a stranger might be dangerous on a lonely road, would he retreat, or force himself to act boldly despite fear?",
+      "held_out_passage": "And if I go ahead, I must pretend not to be afraid. I must even threaten him.*' I moved out diagonally to the middle of the street from the left side where I had been walking."
+    },
+    {
+      "id": 12,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "If he thought a confrontation might become deadly, how would his prior practical training shape his immediate plan?",
+      "held_out_passage": "If he were to draw, I must draw too. As I had practised the art of iai, I knew how to handle my sword. *‘How shall I kill him? Well, I shall give a thrust from below.”"
+    },
+    {
+      "id": 13,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "In a life-or-death confrontation, would he feel eager to injure an opponent, or morally reluctant even while preparing to defend himself?",
+      "held_out_passage": "I really hated the idea of injuring a man— I could not stand seeing a man hurt, much less doing the injury myself. But now there seemed no alternative. If the stranger were to show any offense, I must kill him."
+    },
+    {
+      "id": 14,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "When formal protection from violence was weak, how did he expect the practical consequences of killing in self-defense would unfold?",
+      "held_out_passage": "At that time there was no such thing as police or criminal court. If I were to kill an unknown man, I would simply run home, and that would be the end of it."
+    },
+    {
+      "id": 15,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "If a tense standoff ended without open aggression, would he continue the encounter or immediately escape?",
+      "held_out_passage": "He did not draw. Of course I did not draw either. And we passed each other. With this as a cue, I ran."
+    },
+    {
+      "id": 16,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "After surviving a frightening misunderstanding, would he dwell only on danger, or also reinterpret the event with humor and self-awareness?",
+      "held_out_passage": "I drew a breath of relief and saw the funny side of the whole incident. A coward had met a coward as in a farce. Neither had the least idea of killing the other, but had put up a show of bold- ness in fear of the other."
+    },
+    {
+      "id": 17,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "How would he judge dying in a pointless clash driven by mutual fear and appearances?",
+      "held_out_passage": "To be killed in such a juncture would really have been a “dog's death.”"
+    },
+    {
+      "id": 18,
+      "tier": "behavioral_prediction",
+      "category": "change_over_time",
+      "text": "After political conditions shifted and public hostility focused elsewhere, how would he likely react regarding his own safety?",
+      "held_out_passage": "We scholars of foreign affairs, on the other hand, began to feel relieved."
+    },
+    {
+      "id": 19,
+      "tier": "behavioral_prediction",
+      "category": "career",
+      "text": "As society became more stable under a new order, how did he describe the change in danger faced by people like himself compared with powerful officials?",
+      "held_out_passage": "Beginning with the attack on Prince Iwakura at Kui- chigai, all the untoward incidents had their origin in the political difficulties of the time, and after the assassination of the Minister of Interior, Okubo, in the eleventh year of Meiji (1878), we scholars were entirely forgotten. We could extend our sympathy to these gentlemen in office, but were rather grateful for our own safety at last, for the public could find nothing to envy in our present posts."
+    },
+    {
+      "id": 20,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Although he could handle weapons when necessary, what broader social change did he most hope to see regarding them?",
+      "held_out_passage": "But the truth is quite the opposite. My 240 The Autobiography of Fukuzawa Yukichi one cherished hope was to see the abolishment of the swords of the samurai altogether."
+    },
+    {
+      "id": 21,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "If a superior tried to embarrass him in a social gathering by forcing him to publicly show preference for someone in the room, how would he most likely respond?",
+      "held_out_passage": "But I did not hesitate at all. I quaffed off the wine and said, “ Now, obey- ing my lord*s order, I shall offer my cup to the one I love best. Here, Taka San.” And I turned to a little boy who was the youngest son of the head priest of the temple. I showed not a trace of excitement; my lord chancellor seemed displeased."
+    },
+    {
+      "id": 22,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "When placed in a potentially compromising social situation involving women and public scrutiny, what kind of self-control would he likely display?",
+      "held_out_passage": "So even over wine I always knew the Unafraid of bounds within which I must keep my- gossip self."
+    },
+    {
+      "id": 23,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "How would he likely react to gossip or suspicion about his conduct in mixed social company?",
+      "held_out_passage": "But within bounds I was happy to talk and laugh with women or any- one, freely and intimately, for the gossips and suspicions of society were no concern of mine."
+    },
+    {
+      "id": 24,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "What would be his likely view of elaborate social rules meant to prevent impropriety between men and women?",
+      "held_out_passage": "The numerous old adages such as “A man and a woman must carry a lantern when they walk together at night” or “When things are being passed, a man and a woman must not pass them directly from hand to hand” are simply amusing to me. What cowards people are to need such rules to keep themselves from mischief! Wouldn’t it be a heavy burden on one’s memory to remember all those rules? I 294 The Autobiography ofFukuzawa Yukichi would rather believe in my own discretion."
+    },
+    {
+      "id": 25,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "If deciding whether to avoid visiting a household because others might suspect scandal, what would he most likely do?",
+      "held_out_passage": "So I feel no hesitation in paying a visit where there is a young daughter in the house or where the young wife is staying by herself."
+    },
+    {
+      "id": 26,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How would he likely behave at a lively entertainment where others might feel morally uneasy or socially constrained?",
+      "held_out_passage": "Or at some feast, if there is a group of geisha enlivening the crowd with their antics, I am not put out by the gayety. I would drink with them, drink my fill, and carry on the banter with everybody until I am drunk. Then I should be all the happier."
+    },
+    {
+      "id": 27,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "If an authority figure warned him that his reputation was being damaged by rumors about his social life, how would he likely answer?",
+      "held_out_passage": "I was not in the least abashed. \" Is that true. Sir ? ” I replied. \" This is very interesting. I have often been told that I talked too loudly and that I boasted too much. But I have never been called a gallant in that way. I am certainly honored by this. So I shall not stop visiting my friends. No, I shall go there oftener. I am not such a coward as to change my conduct because of some- one’s suspicion. I must thank you for your kind considera- tion. I do feel grateful. But I would rather have this rumor spread further, for it certainly is interesting to know that I am capable of causing such a report”"
+    },
+    {
+      "id": 28,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "When hearing news connected to a small but memorable incident from his youth, what kind of follow-up would he be likely to make?",
+      "held_out_passage": "Last spring when I heard that Yamada Sueji of the Japan Times was going to Nagasaki, I suddenly remembered this incident and asked him to inquire whether the temple was still there and how the little boy -priest named Taka San was getting along. From Yamada's report I learned that the old temple was still standing as before and that Taka San was well. He was not a boy any longer but an old priest of fifty- one years, already retired. Yamada sent me his photograph."
+    },
+    {
+      "id": 29,
+      "tier": "behavioral_prediction",
+      "category": "change_over_time",
+      "text": "How would he likely reflect on the passage of time when reconnecting mentally with people from long ago?",
+      "held_out_passage": "I was twenty-one that year; so counting back, I see that little Taka San was then just seven years old. How time runs!"
+    },
+    {
+      "id": 30,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "If introduced late in life to a form of entertainment he had long neglected, how would he likely respond after finally trying it?",
+      "held_out_passage": "After locating in Yedo, and even after My first theater the Restoration, when old Yedo became going T6ky5, I hardly ever stopped to think of theater-going. Then, about fifteen years ago, by an odd chance I went to see some plays and found them interesting."
+    },
+    {
+      "id": 31,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "When encountering a capable contemporary who initially declined cooperation, how would he likely describe that person's later response to Western learning and practical reform?",
+      "held_out_passage": "Although he refused cooperation with Fukuzawa, he began learning English soon after with Dr. J. C. Hepburn of Yokohama."
+    },
+    {
+      "id": 32,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "How would he likely portray a reformer whose modernization program was bold and effective but pushed so quickly that it provoked a violent backlash?",
+      "held_out_passage": "His actions were too drastic, he was assassinated by a group of conservative men of the Chdshu clan."
+    },
+    {
+      "id": 33,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "If describing an ambitious state builder, what kind of institutional military decision would he likely emphasize as a hallmark of modern reform?",
+      "held_out_passage": "He was made Minister of the Army in the new Imperial government and introduced the idea of taking French system for the Army and the English for the Navy, abolition of the clan forces in order to form a national army, conscription of farmers for military service, etc."
+    },
+    {
+      "id": 34,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "When evaluating a broadly talented scholar-official, what sort of intellectual range would he likely highlight as evidence of usefulness to national modernization?",
+      "held_out_passage": "A very versatile man, he translated many books on economics, mathematics, government, law, astronomy, archaeology, etc."
+    },
+    {
+      "id": 35,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How would he likely characterize a mission sent abroad for the first time—not just as diplomacy, but as an opportunity for what broader purpose?",
+      "held_out_passage": "At the same time they were to study all phases of the Western civilization because this was the very first diplomatic mission sent by Japan to the West."
+    },
+    {
+      "id": 36,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "If recounting a dangerous overseas expedition, what kind of contingency-minded leadership arrangement would he likely note?",
+      "held_out_passage": "On this expedition, Kimura was charged with the duty of proceeding to conclude the ratifica- tion if anything untoward should happen to the chief envoy."
+    },
+    {
+      "id": 37,
+      "tier": "behavioral_prediction",
+      "category": "career",
+      "text": "How would he likely describe a person who lacked technical skill in one domain but still held high authority over it?",
+      "held_out_passage": "Although Fukuzawa called him the Captain of the ship, he was not a sailor himself. He held a position somewhat like the Minister of the Navy."
+    },
+    {
+      "id": 38,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "When judging someone under severe physical strain during an important undertaking, what pattern would he likely use to separate temporary weakness from underlying ability and courage?",
+      "held_out_passage": "However sick and inefiicient he was on the voyage of Kanrin- maru, Katsu was an able and courageous man."
+    },
+    {
+      "id": 39,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "How would he likely portray a statesman taking personal danger upon himself to prevent destructive civil conflict?",
+      "held_out_passage": "He went all by himself to the headquarters of the Imperial commander, Saig5 Takamori, and negotiated peace."
+    }
+  ]
+}

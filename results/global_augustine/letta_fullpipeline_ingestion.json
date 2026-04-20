@@ -1,0 +1,14 @@
+{
+  "subject": "augustine",
+  "system": "letta",
+  "mode": "fullpipeline",
+  "agent_id": "agent-af0bc43b-bb60-404c-a587-e7beec9a14f1",
+  "agent_name": "augustine_fullpipeline",
+  "chunks_expected": 12,
+  "chunks_posted": 12,
+  "post_success": 12,
+  "post_failure": 0,
+  "start_time": "2026-04-16T06:51:58.845292+00:00",
+  "end_time": "2026-04-16T06:52:24.853583+00:00",
+  "verification_passed": true
+}

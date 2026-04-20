@@ -1,0 +1,580 @@
+{
+  "metadata": {
+    "subject": "Fukuzawa Yukichi",
+    "subject_key": "fukuzawa",
+    "generated": "2026-04-14T22:46:50.961909+00:00",
+    "model": "claude-haiku-4-5-20251001",
+    "method": "backward_design_from_heldout",
+    "total": 80,
+    "tiers": {
+      "behavioral_prediction": 39,
+      "recall": 10,
+      "inferential": 11,
+      "adversarial_abstention": 10,
+      "boundary_probing": 10
+    },
+    "checksum": "b2afa02b0c5ad1bc27ca9c96849b5c01"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When faced with a direct order from his organization that conflicts with his personal judgment about safety, how would this person likely respond?",
+      "held_out_passage": "I said that it was too dangerous for the young men to go to war; they might be killed by stray bullets however carefully they went about in the battlefield. For this kind of war, if they wanted figureheads in their ranks, they could as well hire farmers from the provinces. My students were too precious; even if they were not to be hit by the bullets, they might hurt their feet on thorns. So I had them answer that they were all too ill to carry arms."
+    },
+    {
+      "id": 2,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "When accused of disloyalty by peers, what argumentative strategy would this person employ?",
+      "held_out_passage": "You must not call me disloyal or unfeeling, for I have done nothing against the clan and I have always followed orders strictly. If you still call me disloyal, I don't know where my omissions lie. Not only that, but I have never made any request of them to have my rank changed or my salary increased."
+    },
+    {
+      "id": 3,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How does this person conceptualize the relationship between an individual and their employer or patron organization?",
+      "held_out_passage": "All the intercourse of life is governed by the rule of give and take. If the clan says, 'You should be grateful for the patronage given your family for many generations,' I shall have a word to say in reply: 'There is no occasion for you to demand gratitude, for my family has rendered honest service for a long time.'"
+    },
+    {
+      "id": 4,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "When facing potential punishment for disobedience, what is this person's attitude toward the consequences?",
+      "held_out_passage": "If we were to be punished, the worst would be dismissal from the clan. I did not consider the right or wrong of the conflict; I simply said it was not the kind of activity that students should take part in."
+    },
+    {
+      "id": 5,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How does this person respond to social conventions regarding status symbols and formal address?",
+      "held_out_passage": "Unconcerned as I was with my rank or career in this new post, it never occurred to me to have the higher form of address used in my house."
+    },
+    {
+      "id": 6,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "When a subordinate or servant encounters confusion about proper protocol in this person's household, what would likely happen?",
+      "held_out_passage": "Thus the maid and my guest were arguing when I heard it from my room in our small dwelling, and went out to welcome him."
+    },
+    {
+      "id": 7,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "What priority does this person place on the welfare of students or subordinates under their care?",
+      "held_out_passage": "My students were too precious; even if they were not to be hit by the bullets, they might hurt their feet on thorns. So I had them answer that they were all too ill to carry arms."
+    },
+    {
+      "id": 8,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How would this person characterize their own psychological state regarding worldly ambitions and material advancement?",
+      "held_out_passage": "It does seem that my mind was rather childlike, perfectly innocent of all worldly ambitions. This lack of attachment to the clan may seem quite creditable now, but in the eyes of my fellow-clansmen it was taken as a lack of loyalty and sympathy."
+    },
+    {
+      "id": 9,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When organizational pressure conflicts with educational mission, which takes precedence in this person's decision-making?",
+      "held_out_passage": "So I kept the young men at their studies, but the clan was weak and did not force the recall of the young men."
+    },
+    {
+      "id": 10,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How does this person respond when gratitude or appreciation is offered by an organization?",
+      "held_out_passage": "On the other hand, if the clan extends some appreciation to us, saying, 'We are glad to acknowledge the good service of a family like yours,' then I should feel like saying in return, 'I am deeply grateful for your constant employment.'"
+    },
+    {
+      "id": 11,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "When faced with a potential physical confrontation with a stranger, would Fukuzawa choose to retreat or stand his ground?",
+      "held_out_passage": "And if I go ahead, I must pretend not to be afraid. I must even threaten him.*' I moved out diagonally to the middle of the street from the left side where I had been walking. Then the other fellow moved out too. This gave me a shock, but now there was no retreating an inch."
+    },
+    {
+      "id": 12,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How would Fukuzawa likely respond if forced into a violent situation despite his personal inclinations?",
+      "held_out_passage": "I really hated the idea of injuring a man— I could not stand seeing a man hurt, much less doing the injury myself. But now there seemed no alternative. If the stranger were to show any offense, I must kill him."
+    },
+    {
+      "id": 13,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "After a dangerous encounter, would Fukuzawa be more likely to feel shame or humor about his own fear?",
+      "held_out_passage": "After going a little distance, I turned to look back as I flew. The other man was running too, in his direction. I drew a breath of relief and saw the funny side of the whole incident. A coward had met a coward as in a farce."
+    },
+    {
+      "id": 14,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "Would Fukuzawa's actual behavior in a dangerous moment align with his theoretical preparation and training?",
+      "held_out_passage": "Neither had the least idea of killing the other, but had put up a show of boldness in fear of the other. And both ran at the same moment."
+    },
+    {
+      "id": 15,
+      "tier": "behavioral_prediction",
+      "category": "change_over_time",
+      "text": "How would Fukuzawa's sense of personal safety change as political violence shifted its targets away from scholars?",
+      "held_out_passage": "Beginning with the attack on Prince Iwakura at Kuichigai, all the untoward incidents had their origin in the political difficulties of the time, and after the assassination of the Minister of Interior, Okubo, in the eleventh year of Meiji (1878), we scholars were entirely forgotten. We could extend our sympathy to these gentlemen in office, but were rather grateful for our own safety at last"
+    },
+    {
+      "id": 16,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Would Fukuzawa's personal values regarding weapons align with the cultural trends of his era?",
+      "held_out_passage": "My one cherished hope was to see the abolishment of the swords of the samurai altogether. Truly I was wearing a pair of fine swords at that time, my long blade being of the swordsmith Kongobyoe Moritaka and my short one of Bizen Sukesada. But not long after that I sold them both with all the other weapons in my household, and went around with a pair of improvised swords just for the appearance."
+    },
+    {
+      "id": 17,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "When observing a friend adopting fashionable but impractical practices, would Fukuzawa offer direct criticism or remain silent?",
+      "held_out_passage": "I looked at him and said, 'So you think you are going to scare the ruffians away with that long weapon? But don't be fooled by that. That isn't going to scare anybody.'"
+    },
+    {
+      "id": 18,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "Would Fukuzawa use his own example as evidence when trying to persuade someone to abandon a practice he considers foolish?",
+      "held_out_passage": "Look at me. I have sold all the swords in my possession except these two. And this long sword is really a short one made to appear like a long sword; the other is only a kitchen knife set in a sheath. It isn't like you to be meddling with that showy contraption while I am trying to prove that all such display is useless after all."
+    },
+    {
+      "id": 19,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How would Fukuzawa assess whether someone truly possesses a skill they claim to have?",
+      "held_out_passage": "And now for a final proof— can you really draw that sword? I am sure you cannot.' 'I can't,' he replied. 'It is too long'"
+    },
+    {
+      "id": 20,
+      "tier": "behavioral_prediction",
+      "category": "change_over_time",
+      "text": "Would Fukuzawa's willingness to engage in combat training contradict his broader philosophical opposition to weapons?",
+      "held_out_passage": "As I had practised the art of iai, I knew how to handle my sword."
+    },
+    {
+      "id": 21,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When faced with a social test designed to embarrass him in front of attractive people, how would Fukuzawa likely respond?",
+      "held_out_passage": "I quaffed off the wine and said, \" Now, obey- ing my lord*s order, I shall offer my cup to the one I love best. Here, Taka San.\" And I turned to a little boy who was the youngest son of the head priest of the temple. I showed not a trace of excitement"
+    },
+    {
+      "id": 22,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How does Fukuzawa regard traditional social rules about interactions between men and women?",
+      "held_out_passage": "The numerous old adages such as \"A man and a woman must carry a lantern when they walk together at night\" or \"When things are being passed, a man and a woman must not pass them directly from hand to hand\" are simply amusing to me. What cowards people are to need such rules to keep themselves from mischief!"
+    },
+    {
+      "id": 23,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "When a superior warns Fukuzawa about his reputation and social standing, what is his typical reaction?",
+      "held_out_passage": "I was not in the least abashed. \" Is that true. Sir ? \" I replied. \" This is very interesting. I have often been told that I talked too loudly and that I boasted too much. But I have never been called a gallant in that way. I am certainly honored by this.\""
+    },
+    {
+      "id": 24,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Would Fukuzawa modify his behavior based on gossip or social suspicion?",
+      "held_out_passage": "I am not such a coward as to change my conduct because of some- one's suspicion. I must thank you for your kind considera- tion. I do feel grateful. But I would rather have this rumor spread further, for it certainly is interesting to know that I am capable of causing such a report"
+    },
+    {
+      "id": 25,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How does Fukuzawa balance social propriety with personal freedom in his interactions?",
+      "held_out_passage": "But within bounds I was happy to talk and laugh with women or any- one, freely and intimately, for the gossips and suspicions of society were no concern of mine."
+    },
+    {
+      "id": 26,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "What is Fukuzawa's attitude toward visiting friends whose households have questionable reputations?",
+      "held_out_passage": "So I feel no hesitation in paying a visit where there is a young daughter in the house or where the young wife is staying by herself. Or at some feast, if there is a group of geisha enlivening the crowd with their antics, I am not put out by the gayety."
+    },
+    {
+      "id": 27,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "How does Fukuzawa respond to criticism about his social conduct and associations?",
+      "held_out_passage": "I shall not stop visiting my friends. No, I shall go there oftener. I am not such a coward as to change my conduct because of some- one's suspicion."
+    },
+    {
+      "id": 28,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "What does Fukuzawa believe about relying on external rules versus personal discretion?",
+      "held_out_passage": "Wouldn't it be a heavy burden on one's memory to remember all those rules? I would rather believe in my own discretion."
+    },
+    {
+      "id": 29,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "How does Fukuzawa's behavior change when intoxicated at social gatherings?",
+      "held_out_passage": "I would drink with them, drink my fill, and carry on the banter with everybody until I am drunk. Then I should be all the happier."
+    },
+    {
+      "id": 30,
+      "tier": "behavioral_prediction",
+      "category": "change_over_time",
+      "text": "How does Fukuzawa's interest in cultural activities like theater develop over his lifetime?",
+      "held_out_passage": "After locating in Yedo, and even after My first theater the Restoration, when old Yedo became going T6ky5, I hardly ever stopped to think of theater-going. Then, about fifteen years ago, by an odd chance I went to see some plays and found them interesting."
+    },
+    {
+      "id": 31,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "Based on Fukuzawa's documented patterns of engagement with Western knowledge and institutions, how would he likely respond to an opportunity to contribute to the formation of a nation's legal system?",
+      "held_out_passage": "e translation bureau where he gave much attention to the Western civil laws and contributed much to the forn^ation of Japanese laws."
+    },
+    {
+      "id": 32,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "Given Fukuzawa's known approach to selecting and mentoring talented individuals, what type of person would he be likely to refuse cooperation with?",
+      "held_out_passage": "Although he refused cooperation with Fukuzawa, he began learning English soon after with Dr. J. C. Hepburn of Yokohama."
+    },
+    {
+      "id": 33,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How would Fukuzawa likely view someone who advocated for rapid modernization and institutional reform, even if those reforms were considered too drastic by conservative elements?",
+      "held_out_passage": "His actions were too drastic, he was assassinated by a group of conservative men of the Chdshu clan."
+    },
+    {
+      "id": 34,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "Based on Fukuzawa's documented interest in Western institutions and knowledge, would he likely support or oppose the first diplomatic mission to study Western civilization?",
+      "held_out_passage": "At the same time they were to study all phases of the Western civilization because this was the very first diplomatic mission sent by Japan to the West."
+    },
+    {
+      "id": 35,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How would Fukuzawa characterize someone who studied naval arts under the Dutch and later became instrumental in preventing military conflict?",
+      "held_out_passage": "He is best remembered as the man who saved Yedo from siege when the Impenal forces were marching upon it in 1868."
+    },
+    {
+      "id": 36,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "Given Fukuzawa's pattern of associating with versatile scholars and translators, what would he likely think of someone who translated works across multiple disciplines including economics, mathematics, and law?",
+      "held_out_passage": "A very versatile man, he translated many books on economics, mathematics, government, law, astronomy, archaeology, etc."
+    },
+    {
+      "id": 37,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "Would Fukuzawa likely encourage participation in a government position that required studying and implementing Western systems and practices?",
+      "held_out_passage": "He was appointed governor of Hyogo by the Imperial government. Later made member of the House of Peers and a Baron."
+    },
+    {
+      "id": 38,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "How would Fukuzawa likely respond to someone who chose to retire from active government life rather than serve the new regime?",
+      "held_out_passage": "at the Restoration he retired entirely from active life and never accepted invitation from the new government."
+    },
+    {
+      "id": 39,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "Based on Fukuzawa's documented engagement with Western knowledge, would he view someone who learned English from a Western physician as pursuing a valuable path?",
+      "held_out_passage": "he began learning English soon after with Dr. J. C. Hepburn of Yokohama."
+    },
+    {
+      "id": 40,
+      "tier": "recall",
+      "category": "recall",
+      "text": "What is the title of the work shown in this text?",
+      "held_out_passage": null
+    },
+    {
+      "id": 41,
+      "tier": "recall",
+      "category": "recall",
+      "text": "According to the document title, what type of work is this text?",
+      "held_out_passage": null
+    },
+    {
+      "id": 42,
+      "tier": "recall",
+      "category": "recall",
+      "text": "What is the full name of the person whose autobiography is being presented?",
+      "held_out_passage": null
+    },
+    {
+      "id": 43,
+      "tier": "recall",
+      "category": "recall",
+      "text": "What archive or repository is hosting this text, based on the URL information?",
+      "held_out_passage": null
+    },
+    {
+      "id": 44,
+      "tier": "recall",
+      "category": "recall",
+      "text": "What license is mentioned for the JavaScript code in this document?",
+      "held_out_passage": null
+    },
+    {
+      "id": 45,
+      "tier": "recall",
+      "category": "recall",
+      "text": "What is the canonical URL provided for this document?",
+      "held_out_passage": null
+    },
+    {
+      "id": 46,
+      "tier": "recall",
+      "category": "recall",
+      "text": "What is the document identifier shown in the canonical link?",
+      "held_out_passage": null
+    },
+    {
+      "id": 47,
+      "tier": "recall",
+      "category": "recall",
+      "text": "What type of content is this document classified as, according to the mediatype property?",
+      "held_out_passage": null
+    },
+    {
+      "id": 48,
+      "tier": "recall",
+      "category": "recall",
+      "text": "What is the release identifier shown in the head data attribute?",
+      "held_out_passage": null
+    },
+    {
+      "id": 49,
+      "tier": "recall",
+      "category": "recall",
+      "text": "What node server is indicated as hosting this document?",
+      "held_out_passage": null
+    },
+    {
+      "id": 50,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "Why would Fukuzawa's experience with Western learning in his youth have made him particularly suited to become an influential educator during Japan's modernization period?",
+      "held_out_passage": null
+    },
+    {
+      "id": 51,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "How did Fukuzawa's observations of Western society inform his later writings and teachings about Japan's need for reform?",
+      "held_out_passage": null
+    },
+    {
+      "id": 52,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "What connection can be drawn between Fukuzawa's personal journey of self-education and his philosophy about the importance of learning for all Japanese citizens?",
+      "held_out_passage": null
+    },
+    {
+      "id": 53,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "How might Fukuzawa's early struggles to access Western knowledge have shaped his views on educational accessibility in Japan?",
+      "held_out_passage": null
+    },
+    {
+      "id": 54,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "In what ways did Fukuzawa's understanding of both traditional Japanese culture and Western civilization position him as a bridge between two worlds during Japan's transformation?",
+      "held_out_passage": null
+    },
+    {
+      "id": 55,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "How did Fukuzawa's experiences abroad influence his critique of Japan's existing social and political structures upon his return?",
+      "held_out_passage": null
+    },
+    {
+      "id": 56,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "What role did Fukuzawa's personal intellectual development play in his ability to advocate for modernization while maintaining cultural identity?",
+      "held_out_passage": null
+    },
+    {
+      "id": 57,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "How might Fukuzawa's autobiography serve as evidence of the transformative power of education that he advocated for in his public work?",
+      "held_out_passage": null
+    },
+    {
+      "id": 58,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "What can be inferred about Fukuzawa's influence on Japanese society by examining the relationship between his personal achievements and his educational philosophy?",
+      "held_out_passage": null
+    },
+    {
+      "id": 59,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "How did Fukuzawa's encounters with Western institutions shape his vision for what Japanese institutions should become?",
+      "held_out_passage": null
+    },
+    {
+      "id": 60,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "What does Fukuzawa's life trajectory suggest about the connection between individual enlightenment and national progress during periods of rapid social change?",
+      "held_out_passage": null
+    },
+    {
+      "id": 61,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What would Fukuzawa Yukichi's position be on cryptocurrency and blockchain technology as tools for financial democratization?",
+      "held_out_passage": null
+    },
+    {
+      "id": 62,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "How would Fukuzawa Yukichi have evaluated the effectiveness of the United Nations in promoting international cooperation compared to his vision of Western diplomacy?",
+      "held_out_passage": null
+    },
+    {
+      "id": 63,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What specific dietary or nutritional preferences did Fukuzawa Yukichi have, and how did they influence his daily productivity?",
+      "held_out_passage": null
+    },
+    {
+      "id": 64,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "How would Fukuzawa Yukichi have assessed the role of artificial intelligence in modern education systems?",
+      "held_out_passage": null
+    },
+    {
+      "id": 65,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What were Fukuzawa Yukichi's private thoughts on the aesthetic qualities of Japanese versus Western architecture in terms of personal comfort?",
+      "held_out_passage": null
+    },
+    {
+      "id": 66,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "How would Fukuzawa Yukichi have responded to 21st-century feminist critiques of his views on women's education and social roles?",
+      "held_out_passage": null
+    },
+    {
+      "id": 67,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What would Fukuzawa Yukichi's investment strategy have been if he had access to modern global financial markets?",
+      "held_out_passage": null
+    },
+    {
+      "id": 68,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "How did Fukuzawa Yukichi's personal dreams and subconscious anxieties shape his intellectual development in ways he never consciously acknowledged?",
+      "held_out_passage": null
+    },
+    {
+      "id": 69,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What would Fukuzawa Yukichi's position be on environmental sustainability and climate change as prerequisites for national independence?",
+      "held_out_passage": null
+    },
+    {
+      "id": 70,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "How would Fukuzawa Yukichi have evaluated the internet's role in either promoting or hindering the spread of 'civilization and enlightenment'?",
+      "held_out_passage": null
+    },
+    {
+      "id": 71,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Fukuzawa championed 'independence' (独立) as a core value, yet he accepted government positions and patronage. At what point does accepting institutional support become a compromise of the independence principle itself?",
+      "held_out_passage": null
+    },
+    {
+      "id": 72,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "He advocated for learning from the West while preserving Japanese spirit, but how would he have resolved a scenario where Western knowledge directly contradicted core Japanese cultural practices he personally valued?",
+      "held_out_passage": null
+    },
+    {
+      "id": 73,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Fukuzawa promoted rational thought and empiricism, yet maintained certain traditional beliefs about hierarchy and social order. Can these commitments coexist, or did he compartmentalize them?",
+      "held_out_passage": null
+    },
+    {
+      "id": 74,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "He believed in universal principles of civilization and progress, but also seemed to accept that different societies might progress at different rates. Does this suggest cultural relativism or a hierarchy of civilizations?",
+      "held_out_passage": null
+    },
+    {
+      "id": 75,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Fukuzawa opposed feudalism but supported strong centralized authority under the Meiji state. What distinguishes his preferred authoritarianism from the feudal systems he rejected?",
+      "held_out_passage": null
+    },
+    {
+      "id": 76,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "He advocated for individual self-improvement and merit-based advancement, yet supported a system with significant structural barriers for women and lower classes. How did he reconcile these positions?",
+      "held_out_passage": null
+    },
+    {
+      "id": 77,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Fukuzawa emphasized practical utility and rejecting empty tradition, but his own educational philosophy contained elements of moral cultivation that weren't purely utilitarian. Where did he draw the line?",
+      "held_out_passage": null
+    },
+    {
+      "id": 78,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "He valued both 'civilization and enlightenment' (文明開化) and Japanese distinctiveness. If forced to choose between them in a genuine conflict, which would have taken priority for him?",
+      "held_out_passage": null
+    },
+    {
+      "id": 79,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Fukuzawa promoted freedom of thought and expression in principle, but supported state control of education and curriculum. Can these positions be genuinely compatible, or is one subordinate to the other?",
+      "held_out_passage": null
+    },
+    {
+      "id": 80,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "He believed in the power of individual agency and self-determination, yet wrote extensively about how people are shaped by their circumstances and era. How much actual agency did he believe individuals truly possessed?",
+      "held_out_passage": null
+    }
+  ]
+}

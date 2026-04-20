@@ -1,0 +1,580 @@
+{
+  "metadata": {
+    "subject": "Georg Ebers",
+    "subject_key": "ebers",
+    "generated": "2026-04-14T22:45:03.633976+00:00",
+    "model": "claude-haiku-4-5-20251001",
+    "method": "backward_design_from_heldout",
+    "total": 80,
+    "tiers": {
+      "behavioral_prediction": 39,
+      "recall": 10,
+      "inferential": 11,
+      "adversarial_abstention": 10,
+      "boundary_probing": 10
+    },
+    "checksum": "3f0826c61f5a904f8f82c31bf4fc514e"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Based on Ebers' demonstrated values in his autobiography, how would he likely respond to a persuasive appeal centered on spiritual duty and service to others?",
+      "held_out_passage": "Like the apostle, I would fain proclaim the gospel to all men according to the best of my powers, in order to bring them into close communion with the Redeemer."
+    },
+    {
+      "id": 2,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "When faced with a mentor's wisdom about understanding people from different walks of life, would Ebers show receptiveness to this critique of his own knowledge gaps?",
+      "held_out_passage": "You must be able to enter into the life of every one--here a peasant, there a mechanic. If you can not, do not hope for success; your influence will not extend far."
+    },
+    {
+      "id": 3,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "How would Ebers characterize the emotional impact of natural beauty combined with a mentor's persuasive words?",
+      "held_out_passage": "The heart of the young clergyman, tortured by anxious doubts, swelled at the sight of this magnificence, and Froebel, seeing what was passing in his mind, exclaimed: 'Come, comrade, let us have one of our old war-songs.'"
+    },
+    {
+      "id": 4,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "Based on Ebers' portrayal of decisive moments, what would prompt him to abandon a previously made commitment?",
+      "held_out_passage": "That very day a letter to the Counts Stolberg informed them that they must seek another tutor for their sons, and Froebel and Keilhau could congratulate themselves on having gained their Langethal."
+    },
+    {
+      "id": 5,
+      "tier": "behavioral_prediction",
+      "category": "change_over_time",
+      "text": "How does Ebers depict the influence of observing children in an educational setting on an adult's life choices?",
+      "held_out_passage": "He had come to take his brother away; but when he saw him, among other happy companions of his own age, complete the finest structure of all--a Gothic cathedral--it seemed almost wrong to tear the child from this circle."
+    },
+    {
+      "id": 6,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "What role does Ebers assign to a mentor's understanding of a younger person's inner conflicts in moments of persuasion?",
+      "held_out_passage": "Froebel, seeing what was passing in his mind, exclaimed: 'Come, comrade, let us have one of our old war-songs.' While speaking, he gazed steadfastly into his friend's tearful eyes, as if he had found his true object in life, and when he held out his hand Langethal clasped it--he could not help it."
+    },
+    {
+      "id": 7,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How would Ebers characterize the relationship between self-sacrifice and the success of an educational institution?",
+      "held_out_passage": "A work is established here which must be built by the hand of God! Implicit devotion and self-sacrifice are needed."
+    },
+    {
+      "id": 8,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "Based on Ebers' narrative patterns, how does he portray the resolution of practical difficulties in an organization?",
+      "held_out_passage": "The material difficulties with which the head-master had had to struggle after the erection of the large new buildings were also removed when Froebel's prosperous brother in Osterode decided to take part in the work and move to Keilhau."
+    },
+    {
+      "id": 9,
+      "tier": "behavioral_prediction",
+      "category": "career",
+      "text": "How does Ebers depict the importance of character and competence in institutional leadership?",
+      "held_out_passage": "The management of the school was henceforward in the hands of a man of character, while the extensive knowledge and the excellent method of a well-trained scholar had been obtained for the educational department."
+    },
+    {
+      "id": 10,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "What does Ebers suggest about the conditions necessary for an educational enterprise to flourish and gain renown?",
+      "held_out_passage": "The new institute now prospered rapidly. The renown of the fresh, healthful life and the able tuition of the pupils spread far beyond the limits of Thuringia."
+    },
+    {
+      "id": 11,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "When encountering an institution that is poorly managed, how does Ebers typically respond based on his character and values?",
+      "held_out_passage": "I had come hither full of beautiful ideals and animated by the best intentions; but the very first day made me suspect how many obstacles I should encounter"
+    },
+    {
+      "id": 12,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "How does Ebers react when he observes that students' social behavior contradicts proper institutional standards?",
+      "held_out_passage": "the views of life and habits which they brought with them so completely contradicted the idea which every sensible person has of a grammar-school boy, that their presence could not fail to injure the school"
+    },
+    {
+      "id": 13,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When faced with administrative problems at an institution, what does Ebers expect will eventually happen?",
+      "held_out_passage": "Of course, all this could not remain permanently concealed from the higher authorities. The old head-master was suddenly retired, and one of the best educators summoned in his place"
+    },
+    {
+      "id": 14,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How does Ebers characterize his attitude toward formal schooling versus his personal interests?",
+      "held_out_passage": "school seemed a necessary evil. My real life commenced after its close, and here also my natural cheerfulness ruled my whole nature"
+    },
+    {
+      "id": 15,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "What kind of relationships does Ebers seek to cultivate with people he meets in new environments?",
+      "held_out_passage": "my school life began. In many points I was in advance of the other pupils in the second class, in others behind them; but this troubled me very little"
+    },
+    {
+      "id": 16,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "How does Ebers respond to opportunities to visit pleasant homes and engage in social activities?",
+      "held_out_passage": "Even in the second year of my stay at Kottbus I went to every dance given on the estates in the neighbourhood and visited many a delightful home in the town"
+    },
+    {
+      "id": 17,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "When given the opportunity to spend time in natural settings, what is Ebers's typical behavior?",
+      "held_out_passage": "The town offered me few attractions, but the country was full of pleasures. Unfortunately, I could not go to Komptendorf as often as I wished, for it was a two hours' walk, and horses and carriages were not always at my disposal. Yet many a Saturday found me there"
+    },
+    {
+      "id": 18,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "How does Ebers describe his capacity for finding joy and maintaining his disposition during his school years?",
+      "held_out_passage": "my natural cheerfulness ruled my whole nature"
+    },
+    {
+      "id": 19,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "When reflecting on different periods of instruction he received, what pattern does Ebers notice about his memory and learning?",
+      "held_out_passage": "while Langethal's, Middendorf's, and Barop's instruction, which I received when so much younger, remains vividly impressed on my memory, and it is the same with Tzschirner's lessons, the knowledge I acquired between my fifteenth an"
+    },
+    {
+      "id": 20,
+      "tier": "behavioral_prediction",
+      "category": "change_over_time",
+      "text": "How does Ebers respond when a new authority figure implements reforms at an institution?",
+      "held_out_passage": "From the first day of the latter's government I can recall what was taught us in the class and how it influenced me, while I have entirely forgotten what occurred during the interim"
+    },
+    {
+      "id": 21,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "Based on the author's demonstrated approach to intellectual work, how would he likely respond when encountering a complex philosophical system he had not previously studied?",
+      "held_out_passage": "In regard to the whole Poem of the World I will observe that, up to the time I finished the last line, I had never studied the kindred systems of the Neo-Platonics or the Gnostics."
+    },
+    {
+      "id": 22,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "When the author creates allegorical characters representing abstract concepts, what pattern does he follow in terms of adding complexity or nuance to their portrayal?",
+      "held_out_passage": "The mother, Matter, whom for the sake of the verse I called by her Greek name Hyle, was also invested with a shade of comedy as a dissatisfied wife and the mother-in-law of Intellect."
+    },
+    {
+      "id": 23,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "How does the author typically evaluate the quality of his own creative work once it is completed?",
+      "held_out_passage": "The verses which described the moment when Matter drew her fiery children to her heart and thus warmed it, another passage in which men who were destitute of intellect sought to destroy themselves and Love resolved to sacrifice her own life, and, lastly, the song where Intellect rises from the lily, besides many others, were worthy, in my opinion, of being preserved."
+    },
+    {
+      "id": 24,
+      "tier": "behavioral_prediction",
+      "category": "change_over_time",
+      "text": "When the author encounters a distraction from his current creative project, what is his typical response?",
+      "held_out_passage": "What first diverted my attention from the work was, as has been mentioned, the study of"
+    },
+    {
+      "id": 25,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Based on the author's philosophical inclinations shown in his dedication, how would he likely portray the relationship between opposing forces or principles?",
+      "held_out_passage": "Yet she seemed to have been born to misery, and wandered mournfully about, weeping and lamenting because she lacked an object for which to labour."
+    },
+    {
+      "id": 26,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "How does the author characterize the nature of conflict between complementary but opposing principles in his allegorical thinking?",
+      "held_out_passage": "So, each fearing the other's tenderness, they shunned each other, though an invincible charm constantly drew them together."
+    },
+    {
+      "id": 27,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "What pattern does the author demonstrate in how he resolves tension between abstract concepts through narrative progression?",
+      "held_out_passage": "Then whoever Love and he joined in animating with their breath became an artist."
+    },
+    {
+      "id": 28,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "Based on the author's demonstrated approach to character creation, how would he likely treat a minor or subordinate character in an allegorical work?",
+      "held_out_passage": "There was also a thoroughly comic figure and one with many humorous touches. Intellect's page, Instinct, who had risen from the lily with him, was a comical fellow."
+    },
+    {
+      "id": 29,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "How does the author typically balance serious philosophical content with lighter elements in his creative work?",
+      "held_out_passage": "Only when some base advantage was to be gained on earth did this servant succeed better than his master."
+    },
+    {
+      "id": 30,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "What does the author's reflection on his own creative process reveal about his relationship to external influences and predetermined knowledge?",
+      "held_out_passage": "In regard to the whole Poem of the World I will observe that, up to the time I finished the last line, I had never studied the kindred systems of the Neo-Platonics or the Gnostics."
+    },
+    {
+      "id": 31,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "When encountering someone with deeply held religious convictions different from his own, how does Ebers typically respond?",
+      "held_out_passage": "At first I had avoided the subject, but the young girl constantly returned to it, and I soon perceived that I must summon all my energies to hold my ground against her subtle dialectics."
+    },
+    {
+      "id": 32,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "Based on Ebers' character, would he likely engage in detailed philosophical debate with someone he initially wanted to avoid discussing religion with?",
+      "held_out_passage": "At first I was very cautious, but when I perceived that the opinions of the doubters and deniers merely inspired her with pity, I spoke more freely."
+    },
+    {
+      "id": 33,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How does Ebers typically form attachments to people he encounters during periods of illness or recovery?",
+      "held_out_passage": "The young girl died shortly after our separation the following year. She had grown very dear to my heart."
+    },
+    {
+      "id": 34,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "When seeking a place of rest and recovery, what kind of environment does Ebers value most highly?",
+      "held_out_passage": "A quieter spot cannot be imagined, for I was the first who sought recreation here. Surrounded by memories of olden days, and absolutely undisturbed, I could create admirably."
+    },
+    {
+      "id": 35,
+      "tier": "behavioral_prediction",
+      "category": "change_over_time",
+      "text": "Does Ebers tend to remain isolated when given the opportunity for solitude, or does he eventually engage with his community?",
+      "held_out_passage": "But one cannot remain permanently secluded from mankind. First came the Herr Kameralverwalter, whose stately residence stood near the monastery, and in his wife's name invited us to use their pretty garden."
+    },
+    {
+      "id": 36,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "How does Ebers respond when he discovers he has misjudged someone's character or failed to learn their name?",
+      "held_out_passage": "This gentleman's title threw his name so far into the shade that I had known the pleasant couple five weeks before I found it was Belfinger."
+    },
+    {
+      "id": 37,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "When observing someone devoted to caring for an ill person, what is Ebers' likely emotional response?",
+      "held_out_passage": "Nothing could be more touching than the manner in which this admired, brilliant woman of the world devoted herself to the sick girl."
+    },
+    {
+      "id": 38,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How does Ebers characterize the intellectual resilience of someone with strong faith when exposed to opposing philosophical views?",
+      "held_out_passage": "Her soul was like a polished plate of metal on which a picture is etched. This, her belief, remained uninjured. Whatever else might be reflected from the mirror-like surface soon vanished, leaving no trace."
+    },
+    {
+      "id": 39,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "When physically unable to participate in social activities he would normally enjoy, how does Ebers manage his disappointment?",
+      "held_out_passage": "She went with me--both in wheel-chairs--to a ball at the Kursaal, and looked so pretty in an airy, white dress which her mother and sister had arranged for their darling, that I should have longed to dance with her had not this pleasure been denied me."
+    },
+    {
+      "id": 40,
+      "tier": "recall",
+      "category": "recall",
+      "text": "In what year was Georg Ebers born?",
+      "held_out_passage": null
+    },
+    {
+      "id": 41,
+      "tier": "recall",
+      "category": "recall",
+      "text": "In what city was Georg Ebers born?",
+      "held_out_passage": null
+    },
+    {
+      "id": 42,
+      "tier": "recall",
+      "category": "recall",
+      "text": "What is the name of the papyrus that Ebers discovered during his excavations at Thebes?",
+      "held_out_passage": null
+    },
+    {
+      "id": 43,
+      "tier": "recall",
+      "category": "recall",
+      "text": "From what century does the Ebers Papyrus date?",
+      "held_out_passage": null
+    },
+    {
+      "id": 44,
+      "tier": "recall",
+      "category": "recall",
+      "text": "What was the title of Ebers's first Egyptian novel?",
+      "held_out_passage": null
+    },
+    {
+      "id": 45,
+      "tier": "recall",
+      "category": "recall",
+      "text": "In what year did Ebers receive a professorship at Gottingen University?",
+      "held_out_passage": null
+    },
+    {
+      "id": 46,
+      "tier": "recall",
+      "category": "recall",
+      "text": "To which university was Ebers called to fill the chair of Egyptology after his first visit to Egypt?",
+      "held_out_passage": null
+    },
+    {
+      "id": 47,
+      "tier": "recall",
+      "category": "recall",
+      "text": "In what year was the novel Uarda published?",
+      "held_out_passage": null
+    },
+    {
+      "id": 48,
+      "tier": "recall",
+      "category": "recall",
+      "text": "What year did Ebers begin his series of tales of the middle ages with The Burgomaster's Wife?",
+      "held_out_passage": null
+    },
+    {
+      "id": 49,
+      "tier": "recall",
+      "category": "recall",
+      "text": "In what year did Ebers resign his chair at the university due to his health?",
+      "held_out_passage": null
+    },
+    {
+      "id": 50,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "Why would the loss of Ebers's health have been a turning point that led him toward Egyptian studies rather than away from intellectual pursuits entirely?",
+      "held_out_passage": null
+    },
+    {
+      "id": 51,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "How did Ebers's professorship at Göttingen in 1864 relate to the work he had completed by the time this autobiography ended in 1863?",
+      "held_out_passage": null
+    },
+    {
+      "id": 52,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "What connection can be drawn between Ebers's role as a professor of Egyptology and his ability to discover the Ebers Papyrus during excavations?",
+      "held_out_passage": null
+    },
+    {
+      "id": 53,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "How did the twelve-year gap between the publication of An Egyptian Princess and Uarda reflect changes in Ebers's life circumstances and professional responsibilities?",
+      "held_out_passage": null
+    },
+    {
+      "id": 54,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "Why would Mrs. Ebers's role in managing business details of his works have become increasingly important given his health challenges after 1889?",
+      "held_out_passage": null
+    },
+    {
+      "id": 55,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "How did Ebers's initial treatise on Egypt and the Book of Moses serve as a foundation for both his academic career and his later literary achievements?",
+      "held_out_passage": null
+    },
+    {
+      "id": 56,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "What does the dedication of this autobiography to his three sons suggest about how Ebers viewed the relationship between his personal struggles and his professional accomplishments?",
+      "held_out_passage": null
+    },
+    {
+      "id": 57,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "How did Ebers's travels to Egypt in 1872 build upon the fictional work he had already published in An Egyptian Princess?",
+      "held_out_passage": null
+    },
+    {
+      "id": 58,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "Why would Ebers's resignation from his university chair in 1889 not have ended his intellectual contributions, based on the pattern of his earlier life?",
+      "held_out_passage": null
+    },
+    {
+      "id": 59,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "How did the foundation laid by Champollion in 1821 enable Ebers to make his own discoveries in Egyptology decades later?",
+      "held_out_passage": null
+    },
+    {
+      "id": 60,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "What does the progression from his 'turbulent student' years to his later work as both professor and novelist reveal about how his health crisis redirected rather than halted his ambitions?",
+      "held_out_passage": null
+    },
+    {
+      "id": 61,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What would Georg Ebers's opinion be on the use of DNA analysis to authenticate ancient Egyptian papyri?",
+      "held_out_passage": null
+    },
+    {
+      "id": 62,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "If Ebers were alive today, which modern Egyptology journal would he choose to publish his research in?",
+      "held_out_passage": null
+    },
+    {
+      "id": 63,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What did Ebers think about the ethical implications of removing mummies from tombs for museum display?",
+      "held_out_passage": null
+    },
+    {
+      "id": 64,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "How would Ebers have responded to the discovery of King Tutankhamun's tomb in 1922?",
+      "held_out_passage": null
+    },
+    {
+      "id": 65,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Ebers's personal stance on whether ancient Egyptian medical texts should be freely accessible online?",
+      "held_out_passage": null
+    },
+    {
+      "id": 66,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "Did Ebers ever express views on the repatriation of Egyptian artifacts to modern Egypt?",
+      "held_out_passage": null
+    },
+    {
+      "id": 67,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "How would Ebers have rated the historical accuracy of modern Hollywood films depicting ancient Egypt?",
+      "held_out_passage": null
+    },
+    {
+      "id": 68,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What would Ebers think about using artificial intelligence to translate undeciphered hieroglyphic texts?",
+      "held_out_passage": null
+    },
+    {
+      "id": 69,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "Did Ebers ever discuss his preferences regarding metric versus imperial measurements in archaeological documentation?",
+      "held_out_passage": null
+    },
+    {
+      "id": 70,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Ebers's opinion on whether ancient Egyptian religious beliefs influenced his personal spiritual views?",
+      "held_out_passage": null
+    },
+    {
+      "id": 71,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Ebers dedicates his autobiography to his sons and emphasizes 'love for mankind, which putteth self aside,' yet he spent decades in academic competition and professional advancement. How did he reconcile his stated ideal of selfless love with the inherent self-promotion required to establish himself as a leading Egyptologist?",
+      "held_out_passage": null
+    },
+    {
+      "id": 72,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "He frames his 'errors' as instructive lessons for his sons, yet the autobiography ends before his marriage and most productive years. Does his willingness to expose past mistakes suggest he would have been equally candid about failures in his later, more celebrated period?",
+      "held_out_passage": null
+    },
+    {
+      "id": 73,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Ebers invokes divine mercy repeatedly in the dedication, suggesting deep religious faith, yet he became a rigorous empirical scientist studying ancient texts. At what point did his scientific methodology challenge his religious convictions, and how did he navigate that tension?",
+      "held_out_passage": null
+    },
+    {
+      "id": 74,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "He praises his sons' achievements—one in medicine, one in military service, one still studying—yet chose a solitary intellectual path himself. Would he have encouraged his sons to follow his example, or did he view his own trajectory as a cautionary tale?",
+      "held_out_passage": null
+    },
+    {
+      "id": 75,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "The text notes his health forced him to 'lead a quieter life' and eventually resign his chair, yet he maintained 'wonderful intellectual activity' despite suffering. How much of his turn to historical fiction was genuine inclination versus necessary adaptation to physical limitation?",
+      "held_out_passage": null
+    },
+    {
+      "id": 76,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Ebers emphasizes maternal love as a guiding light for his sons, yet his autobiography is notably about his own journey and self-examination. Does his dedication to his mother's memory suggest unresolved emotional dependency, or genuine gratitude?",
+      "held_out_passage": null
+    },
+    {
+      "id": 77,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "He describes his Egyptian studies as beginning from 'inclination,' yet the introduction suggests they emerged from health-forced lifestyle changes. Was Egyptology a passion discovered or a convenient intellectual refuge during physical decline?",
+      "held_out_passage": null
+    },
+    {
+      "id": 78,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "The autobiography ends in 1863 before his marriage and greatest professional achievements. Does his choice to conclude at this point suggest confidence in his sons' ability to write their own stories, or anxiety about documenting his later life?",
+      "held_out_passage": null
+    },
+    {
+      "id": 79,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Ebers credits his wife as 'active helpmate' in business matters, yet she is entirely absent from this autobiography covering his formative years. Does this omission reflect the historical period's gender dynamics, or his own blindspot regarding women's intellectual contributions?",
+      "held_out_passage": null
+    },
+    {
+      "id": 80,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "He frames his life as guided by two lights—divine mercy and maternal love—yet built his legacy on rigorous historical scholarship and empirical discovery. Which of these three forces (faith, family sentiment, or scientific rationalism) would he have prioritized if they fundamentally conflicted?",
+      "held_out_passage": null
+    }
+  ]
+}

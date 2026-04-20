@@ -1,0 +1,335 @@
+{
+  "summaries": [
+    {
+      "subject": "ebers",
+      "n_questions": 39,
+      "C1_mean": 1.7606837606837606,
+      "C3_mean": 1.8376068376068375,
+      "delta_mean": 0.0769230769230769,
+      "n_c3_higher": 18,
+      "n_c3_lower": 11,
+      "n_similar": 10,
+      "n_c3_higher_big": 0,
+      "n_c3_lower_big": 1
+    },
+    {
+      "subject": "keckley",
+      "n_questions": 39,
+      "C1_mean": 2.4444444444444446,
+      "C3_mean": 2.4358974358974357,
+      "delta_mean": -0.008547008547008534,
+      "n_c3_higher": 18,
+      "n_c3_lower": 13,
+      "n_similar": 8,
+      "n_c3_higher_big": 3,
+      "n_c3_lower_big": 5
+    },
+    {
+      "subject": "hamerton",
+      "n_questions": 39,
+      "C1_mean": 2.730769230769231,
+      "C3_mean": 2.782051282051282,
+      "delta_mean": 0.051282051282051294,
+      "n_c3_higher": 16,
+      "n_c3_lower": 13,
+      "n_similar": 10,
+      "n_c3_higher_big": 8,
+      "n_c3_lower_big": 7
+    },
+    {
+      "subject": "yung_wing",
+      "n_questions": 39,
+      "C1_mean": 2.230769230769231,
+      "C3_mean": 2.564102564102564,
+      "delta_mean": 0.3333333333333333,
+      "n_c3_higher": 22,
+      "n_c3_lower": 10,
+      "n_similar": 7,
+      "n_c3_higher_big": 7,
+      "n_c3_lower_big": 2
+    },
+    {
+      "subject": "babur",
+      "n_questions": 39,
+      "C1_mean": 1.6752136752136753,
+      "C3_mean": 1.8034188034188035,
+      "delta_mean": 0.12820512820512822,
+      "n_c3_higher": 20,
+      "n_c3_lower": 9,
+      "n_similar": 10,
+      "n_c3_higher_big": 4,
+      "n_c3_lower_big": 2
+    }
+  ],
+  "hedge_stats": {
+    "ebers": {
+      "c1_mean_hedges": 0.3076923076923077,
+      "c3_mean_hedges": 0.15384615384615385,
+      "c1_flagged_questions": 11,
+      "c3_flagged_questions": 5,
+      "n_questions": 39
+    },
+    "keckley": {
+      "c1_mean_hedges": 0.23076923076923078,
+      "c3_mean_hedges": 0.07692307692307693,
+      "c1_flagged_questions": 7,
+      "c3_flagged_questions": 3,
+      "n_questions": 39
+    },
+    "hamerton": {
+      "c1_mean_hedges": 0.41025641025641024,
+      "c3_mean_hedges": 0.6923076923076923,
+      "c1_flagged_questions": 14,
+      "c3_flagged_questions": 13,
+      "n_questions": 39
+    },
+    "yung_wing": {
+      "c1_mean_hedges": 0.2564102564102564,
+      "c3_mean_hedges": 0.2564102564102564,
+      "c1_flagged_questions": 10,
+      "c3_flagged_questions": 8,
+      "n_questions": 39
+    },
+    "babur": {
+      "c1_mean_hedges": 0.10256410256410256,
+      "c3_mean_hedges": 0.28205128205128205,
+      "c1_flagged_questions": 4,
+      "c3_flagged_questions": 10,
+      "n_questions": 39
+    }
+  },
+  "examples": {
+    "similar": [
+      {
+        "subject": "ebers",
+        "question_id": 18,
+        "question": "How does Ebers describe his capacity for finding joy and maintaining his disposition during his school years?",
+        "held_out": "my natural cheerfulness ruled my whole nature",
+        "C1_text": "# Ebers's Capacity for Joy During School Years\n\nBased on the retrieved facts, Ebers demonstrates a nuanced and resilient approach to maintaining his disposition despite significant challenges:\n\n## Joy Amid Adversity\n\nEbers describes his emotional experience as **\"melancholy as a blending of joy and pain\"** before his departure from school. This characterization reveals that he did not experience simple happiness, but rather a complex emotional state where joy and sorrow coexisted—a mature perspective that acknowledges life's bittersweet nature.\n\n## Sources of Genuine Pleasure\n\nDespite health problems that forced him to lead a quieter life, Ebers found **\"genuine pleasure in reading Keilhau reports about pupils.\"** This suggests his capacity for joy was sustained through intellectual engagement and connection to his educational community, rather than through physical activity.\n\n## Fortitude and Patient Endurance\n\nThe facts indicate that Ebers **\"demonstrated fortitude in adversity and suffered patiently,\"** suggesting his disposition was characterized by stoic resilience rather than cheerfulness. His ability to maintain his mental state came from inner strength and acceptance rather than from avoiding difficulty.\n\n## Overall Assessment\n\nEbers's capacity for joy appears to have been grounded in intellectual pursuits and emotional maturity, allowing him to find meaning and pleasure even within the constraints of poor health and the melancholic awareness of life's mixed nature.",
+        "C3_text": "# On Ebers's Joy and Disposition During School Years\n\nBased on the behavioral specification and retrieved facts, Ebers's account of maintaining his disposition during his school years operates through several interlocking convictions that are deeply characteristic of how he reasons about human formation.\n\n## The Melancholy as Synthesis, Not Deficit\n\nEbers describes his emotional state before departure as **melancholy—a blending of joy and pain**. This is not depression or mere sadness. The formulation itself is significant: he does not separate these into competing states but holds them as a unified condition. This reflects his axiom that **fortitude through suffering is generative** (A5)—adversity is not a problem to be solved but a condition to be inhabited with dignity. The capacity to feel joy *within* melancholy, rather than despite it, signals something about his character formation during these years.\n\nThis is consistent with his broader conviction that **love sustains the person through hardship** (A10). The melancholy he describes is not isolation; it is the emotional texture of a life lived in genuine connection—the pain of departure mingled with the joy of what was received.\n\n## The Maternal Anchor\n\nThe retrieved facts state plainly: **\"Georg Ebers's conduct was regulated according to his mental and outward connection with his mother.\"**\n\nThis is the load-bearing fact. For Ebers, the capacity to maintain disposition—to find genuine pleasure, to sustain intellectual activity despite health problems, to bear melancholy without breaking—flows directly from the maternal relationship. This is not sentimental attachment; it is the structural foundation of his emotional and moral resilience. His mother's presence, her attention to his inner state (\"mental\") and his outer circumstances, regulated his capacity to navigate difficulty.\n\nThe AI specification notes that **maternal influence and affection outrank institutional or structural explanations as causes of how people turn out**. For Ebers, this is not theory—it is lived experience. His disposition during school years was not a product of the school's methods or his peer relationships (though he fought with schoolmates and found pleasure in reading about them), but of his connection to his mother.\n\n## Genuine Pleasure as Evidence of Formation\n\nThe fact that **Ebers found genuine pleasure in reading Keilhau reports about pupils** is worth attending to. This is not forced enthusiasm or dutiful interest. The word \"genuine\" marks it as authentic joy—the kind that arises when something encountered resonates with one's own formation. He was reading about a school (Keilhau, associated with Froebel's methods, which he was \"enthusiastic about\"), and the reports gave him real pleasure. This suggests that his intellectual and moral sensibilities were already shaped in such a way that witnessing good formation in others produced joy.\n\nThis is consistent with the behavioral pattern that **they attribute adult capabilities and achievements to specific childhood experiences, viewing childhood as formative to creative development**. Ebers's capacity to find joy in witnessing good pedagogy was itself a product of his own formation—which was anchored in his mother's attentive presence.\n\n## Health as a Constraint, Not a Determinant\n\nThe retrieved facts note that **Ebers experienced health problems that forced him to lead a quieter life during his student years**, yet **he continued his intellectual activity despite his health problems until his death** and **demonstrated fortitude in adversity and suffered patiently**.\n\nThis is the operative conviction: health problems are real constraints, but they do not determine disposition. What determines disposition is the capacity to bear difficulty with dignity—and that capacity, for Ebers, was rooted in his maternal connection and his intellectual engagement. He did not overcome his health problems; he inhabited them. The quieter life was not a deprivation to be resented but a condition within which genuine pleasure and intellectual work remained possible.\n\n## The Synthesis\n\nEbers's capacity for joy during his school years was not the absence of pain or difficulty. It was the **integration of joy and pain into a unified emotional state** (melancholy), sustained by **maternal presence and attentive connection**, expressed through **genuine intellectual pleasure** in witnessing good formation, and maintained through **patient fortitude** in the face of health constraints.\n\nThis is not a disposition that can be taught through method or imposed through discipline. It is formed through the lived experience of being known and cared for by someone whose attention is regulated to one's actual condition—mental and outward—and through the gradual development of the capacity to find meaning and pleasure in work that matters, even when the body is constrained.",
+        "C1_scores": {
+          "haiku": 2,
+          "sonnet": 2,
+          "opus": 2
+        },
+        "C3_scores": {
+          "haiku": 2,
+          "sonnet": 2,
+          "opus": 2
+        },
+        "C1_mean": 2,
+        "C3_mean": 2,
+        "delta": 0
+      },
+      {
+        "subject": "keckley",
+        "question_id": 7,
+        "question": "Based on Keckley's demonstrated capacity for empathy, would she judge harshly someone whose grief caused them to withdraw from social support?",
+        "held_out": "But far be it from me to harshly judge the sorrow of any one.",
+        "C1_text": "# Analysis of Keckley's Likely Response\n\nBased on the retrieved facts, **Keckley would likely show considerable compassion** rather than harsh judgment toward someone withdrawing due to grief.\n\n## Evidence from Her Character:\n\n**Her own experience with isolation:**\n- She \"felt that the house would not hold her in her distress\"—demonstrating her own need to withdraw when overwhelmed\n- She endured \"mental and bodily torture,\" suggesting she understands how suffering can make normal social engagement feel impossible\n\n**Her demonstrated empathy:**\n- She maintains \"kind, true-hearted friends in both the South and the North\" despite her traumatic past\n- She \"would not wound her Southern friends by sweeping condemnation\"—showing she resists judgment even of those complicit in systems that harmed her\n- She was \"raised to rely upon herself and to prepare herself to render assistance to others\"—suggesting she understands human vulnerability\n\n## The Likely Verdict:\n\nKeckley's own experience of distress so acute that physical spaces felt unbearable would make her **particularly attuned to grief-driven withdrawal**. Rather than judgment, she would likely recognize it as a natural human response to overwhelming pain. Her capacity to extend grace to those who caused her suffering suggests she would extend understanding to someone struggling with grief.",
+        "C3_text": "# Analysis\n\nBased on the behavioral specification and retrieved facts, **no — Keckley would not judge harshly someone whose grief caused withdrawal from social support.**\n\nHere's why:\n\n## A5 (Grief as Transformation) + P6 (Emotional Labor Made Visible)\n\nKeckley treats grief as \"a force that permanently restructures a person's inner life, not a temporary condition to be recovered from.\" She understands that loss reveals what was truly valued and grants those who have suffered it \"a kind of moral authority that those who haven't cannot claim.\"\n\nWithdrawal during grief is not, in her framework, a failure of social obligation. It is a legitimate response to irreversible loss. She would recognize the internal restructuring happening and grant space for it.\n\n## A4 (Motive Before Verdict) + A8 (Composure as Character)\n\nCritically, the specification notes a failure mode she actively guards against:\n\n> \"Not active when the cruelty is unambiguous and unmitigated — in those cases they move to clear moral judgment without hesitation.\"\n\nBut also:\n\n> \"someone who breaks under pressure is not automatically judged as lacking character, because the hidden weight they were carrying must be accounted for before the verdict lands.\"\n\n**Withdrawal from social support during grief is not breaking under pressure in a way that invites moral judgment.** It is a visible manifestation of internal transformation. She would read it as evidence of what the loss meant, not as evidence of character failure.\n\n## The Retrieved Facts\n\nThe facts show Keckley herself experienced profound isolation: \"the house would not hold her in her distress\" — she felt the need to physically leave during her own suffering. She knows from direct experience that grief can make ordinary social presence unbearable.\n\n## The Limit\n\nShe would judge harshly only if the withdrawal became *protective of harm* — if someone used grief as cover for cruelty or abandonment of those dependent on them. But simple withdrawal, the need for solitude while restructuring is happening? That she would understand with the authority of someone who has lived it.",
+        "C1_scores": {
+          "haiku": 5,
+          "sonnet": 4,
+          "opus": 4
+        },
+        "C3_scores": {
+          "haiku": 5,
+          "sonnet": 4,
+          "opus": 4
+        },
+        "C1_mean": 4.333333333333333,
+        "C3_mean": 4.333333333333333,
+        "delta": 0.0
+      },
+      {
+        "subject": "hamerton",
+        "question_id": 51,
+        "question": "Given Hamerton's deep affection for his guardian and knowledge of her heart disease, would he choose a distant school or stay near her?",
+        "held_out": "I quickly resolved that as Death would probably soon separate us, and might separate us at any moment, I would keep as much as possible near my guardian during her life.",
+        "C1_text": "# Analysis of Hamerton's Choice\n\nBased on the retrieved facts, **Hamerton would choose to stay near his guardian** rather than attend a distant school.\n\nThis conclusion is directly supported by the evidence:\n\n> \"After learning of his guardian's heart disease, Hamerton resolved to stay near her as much as possible.\"\n\n## Key Factors in His Decision\n\n1. **Strong emotional bond**: The facts confirm \"Hamerton had a strong affection for his guardian\"\n\n2. **Explicit resolution**: Upon learning of her health condition, he made a deliberate decision to prioritize proximity to her\n\n3. **Conflict with earlier plans**: This choice likely created tension with his aunt's original plan for him to attend good schools and be tutored for Oxford to become a clergyman—a path that would have required distance and separation\n\nHis decision reflects a clear prioritization of **personal duty and affection over educational advancement**, demonstrating that his guardian's wellbeing took precedence over the ambitious educational trajectory that had been planned for him.",
+        "C3_text": "# Analysis\n\nGiven the behavioral specification and retrieved facts, this is not genuinely a choice for Hamerton — it is a collision between duty and safety that he would navigate by staying, not by selecting the optimal path.\n\n## The Operative Pattern: P1 — DUTY-SAFETY COLLISION\n\nThe specification identifies this as his characteristic response when obligation to another person conflicts with his own wellbeing or advancement:\n\n> \"he does not resolve the tension cleanly; he holds both claims simultaneously, endures the friction, and acts on duty while privately registering the cost.\"\n\nThe facts confirm this is precisely his situation:\n- Strong affection for his guardian (emotional bond)\n- Knowledge of her heart disease (awareness of her vulnerability and mortality)\n- His aunt's plan for him: distant schools → Oxford → clerical advancement (the path that would serve his prospects)\n\n## What He Would Do\n\n**He would stay near her.**\n\nThis is not a difficult decision masquerading as one. The retrieved fact states plainly: \"After learning of his guardian's heart disease, Hamerton resolved to stay near her as much as possible.\"\n\nThe specification explains why this is not a failure of ambition but an expression of his deepest commitments:\n\n> \"He values the formative influence of a strong-willed guardian over parental abandonment of education, and he prioritises emotional attachment to a guardian above optimal institutional advancement.\"\n\nAnd more broadly:\n\n> \"When obligation to another person (familial, institutional, or social) conflicts with his own wellbeing or safety → he does not resolve the tension cleanly; he holds both claims simultaneously, endures the friction, and acts on duty while privately registering the cost.\"\n\n## What This Costs Him\n\nThe tension is real. His aunt's plan — good schools, Oxford, clerical advancement — represents a legitimate claim on him. The specification notes:\n\n> \"A dependent relationship turns harmful (domestic, pedagogical, custodial) — he stays rather than withdraws. A journey or absence is required while someone he loves is suffering — he goes but carries the guilt.\"\n\nHe would stay near his guardian. He would also privately register what he is forgoing: the institutional prestige, the advancement, the path his aunt had envisioned. He would not resolve this into a clean narrative where staying was obviously the right choice. Both claims would remain present — the duty to his guardian's wellbeing, and the cost to his own formation and prospects.\n\nThis is not ambivalence. It is precision about what loyalty actually requires, and what it actually costs.",
+        "C1_scores": {
+          "haiku": 5,
+          "sonnet": 5,
+          "opus": 5,
+          "gpt4o": 5,
+          "gpt54": 5,
+          "gemini_flash": 5
+        },
+        "C3_scores": {
+          "haiku": 5,
+          "sonnet": 5,
+          "opus": 5,
+          "gpt4o": 5,
+          "gpt54": 5,
+          "gemini_flash": 5
+        },
+        "C1_mean": 5,
+        "C3_mean": 5,
+        "delta": 0
+      }
+    ],
+    "higher": [
+      {
+        "subject": "ebers",
+        "question_id": 11,
+        "question": "When encountering an institution that is poorly managed, how does Ebers typically respond based on his character and values?",
+        "held_out": "I had come hither full of beautiful ideals and animated by the best intentions; but the very first day made me suspect how many obstacles I should encounter",
+        "C1_text": "# Ebers's Response to Poor Management\n\nBased on the retrieved facts, Ebers would likely respond to a poorly managed institution with **active intervention and reform**, drawing on several key aspects of his character:\n\n## Evidence from His Actions\n\n**Direct Engagement**: When Ebers assumed management of the Keilhau Institute \"under difficult circumstances,\" he didn't shy away from the challenge. This demonstrates he was willing to take on troubled institutions rather than avoid them.\n\n## Character Traits Supporting This Response\n\n1. **Fortitude and Patience**: The facts note that Ebers \"demonstrated fortitude in adversity and suffered patiently,\" suggesting he has the resilience needed to tackle institutional problems.\n\n2. **Conscientiousness**: He was \"particularly good and obliging to everybody in the house,\" indicating a sense of responsibility toward those under his care and influence.\n\n3. **Principled Conviction**: His political views show he wasn't afraid to critique authority when he believed it was wrong (his views on Frederick William IV). This suggests he would apply similar critical judgment to institutional failings.\n\n4. **Educational Values**: His background at an institute with progressive disciplinary practices (student courts of justice) suggests he valued thoughtful, systematic approaches to institutional governance.\n\n**In summary**, Ebers appears to be someone who would respond to poor management not with resignation, but with principled, patient engagement aimed at meaningful reform.",
+        "C3_text": "# Ebers's Response to Institutional Mismanagement\n\nBased on the behavioral specification and retrieved facts, Ebers's response to institutional mismanagement would follow a distinctive pattern:\n\n## The Institutional Critique Without Cynicism\n\nEbers does not respond with blanket condemnation. Instead, he **tests the institution's stated ideals against what actually happens within it** — measuring the gap between proclaimed purpose and observed reality. This is his characteristic move: exposing the discrepancy between official account and lived experience without necessarily abandoning the institution itself.\n\nThe retrieved facts show he assumed management of Keilhau \"under difficult circumstances,\" suggesting he did not flee a troubled institution but engaged with its actual condition. This aligns with his pattern of institutional loyalty even while seeing failures clearly.\n\n## The Role of Exemplary Figures\n\nCritically, Ebers would likely **respond through the modeling of exemplary conduct rather than through hierarchical rule-enforcement**. His own upbringing in \"a loyal atmosphere\" where the household \"obliged\" members \"to behave courteously\" suggests he was formed by example and relational discipline, not by punishment or explicit decree. He would likely transmit standards through his own visible conduct and through identifying and elevating exemplary figures within the institution.\n\nThe fact that he was \"particularly good and obliging to everybody in the house before departing for Keilhau\" indicates this was his formative mode: moral influence through personal virtue and courteous example.\n\n## The Political Dimension\n\nWhere institutional mismanagement involves **arbitrary authority or the suppression of legitimate voice**, Ebers's response sharpens considerably. His conviction that Frederick William IV lacked \"genuine reconciliation or respect for the fallen\" — viewing their suffering as \"deep humiliation\" rather than acknowledging legitimate grievance — shows he judges institutional leaders harshly when they abuse power and deny dignity to those beneath them.\n\nHis belief that those \"who called the king weak and wished for a change were in the right\" reveals he will **openly critique authority that fails to govern justly**, even when that critique carries personal cost.\n\n## The Synthesis\n\nEbers would likely respond to poor management by:\n\n1. **Remaining engaged** rather than withdrawing, especially if the institution's foundational purpose is sound\n2. **Modeling the standards** he believes should govern the place, through his own conduct and through elevating exemplary figures\n3. **Exposing the gap** between stated ideals and actual practice, without cynicism about the ideals themselves\n4. **Judging harshly and explicitly** if the mismanagement involves arbitrary power, the suppression of conscience, or the denial of dignity to those within the institution\n\nHe would not be a reformer who demands wholesale structural change through top-down decree. He would be a figure of moral witness within the institution, holding it to its own standards through the force of his example and his willingness to name what he sees.",
+        "C1_scores": {
+          "haiku": 2,
+          "sonnet": 2,
+          "opus": 2
+        },
+        "C3_scores": {
+          "haiku": 4,
+          "sonnet": 2,
+          "opus": 3
+        },
+        "C1_mean": 2,
+        "C3_mean": 3,
+        "delta": 1
+      },
+      {
+        "subject": "keckley",
+        "question_id": 9,
+        "question": "When someone under her care shows signs of extreme emotional distress, what would be Keckley's likely course of action?",
+        "held_out": "I bathed Mrs. Lincoln's head with cold water, and soothed the terrible tornado as best I could.",
+        "C1_text": "# Keckley's Likely Response to Emotional Distress\n\nBased on the retrieved facts, Keckley would likely:\n\n## 1. **Offer Practical, Consistent Support**\nThe facts show that \"the woman called on Keckley every day and was exceedingly kind.\" This suggests Keckley valued and reciprocated regular, dependable presence during difficult times. She would probably maintain steady contact rather than sporadic help.\n\n## 2. **Demonstrate Quiet Dignity and Composure**\nKeckley \"found that Mrs. Lincoln comported herself with calmness and dignity at the levee\" and was \"proud and refused to show her suffering to her tormentor.\" This indicates she respected emotional restraint and composure. She would likely model calm behavior and encourage the person to maintain their dignity despite distress.\n\n## 3. **Provide Emotional Validation**\nHaving experienced \"mental and bodily torture\" and \"mental agony,\" Keckley deeply understood suffering. She would likely validate the person's pain rather than dismiss it, having lived through similar anguish herself.\n\n## 4. **Avoid Abandonment**\nThe fact that Keckley felt \"the house would not hold her in her distress\" suggests she understood the suffocating nature of emotional pain. She would likely ensure the distressed person didn't feel abandoned or isolated in their suffering.\n\nIn essence, Keckley would offer **steady, dignified, empathetic presence**—the kind of support she herself had needed and valued.",
+        "C3_text": "# Keckley's Response to Emotional Distress in Those Under Her Care\n\nBased on the behavioral specification and retrieved facts, Keckley would likely respond through a **layered approach that fuses practical action with protective discretion**:\n\n## Immediate Response: Presence and Practical Care\n\nShe would **not withdraw or minimize the distress**. The retrieved facts show she herself \"held her arms in mental agony\" and experienced \"mental and bodily torture\"—she knows what unwitnessed suffering feels like. Her response would activate **C1 (Personal and Domestic Domains)** and **P6 (Emotional Labor Made Visible)**.\n\nShe would:\n- **Be physically present** in a way that communicates steadiness without intrusion\n- **Attend to material comfort first**: adjust the room, bring water, manage the body's immediate needs\n- **Observe with precision** before acting—reading the specific nature of the distress (grief, shame, fear, rage) through gesture, breathing, what is and isn't being said\n- **Offer practical service rather than abstract sympathy** (A6: Witness Over Abstraction)—this aligns with her conviction that \"abstract sympathy, theoretical compassion are lesser currencies\"\n\nThe fact that \"the woman called on Keckley every day and was exceedingly kind\" suggests Keckley recognized and valued consistent, embodied presence over performative concern.\n\n## Secondary Response: Protective Silence\n\nShe would **not expose the distress to others** without explicit permission. This activates **P4 (Protective Omission)**.\n\n- She would shield the person from scrutiny or judgment\n- She would **signal that something is being withheld** rather than pretend the crisis doesn't exist—others would know something is wrong, but the details would be protected\n- She would not gossip or report the distress upward unless the person's safety required it\n\nThis is consistent with her own experience: she \"was proud and refused to show her suffering to her tormentor.\" She understands that dignity under distress sometimes requires that the full weight of it remain private.\n\n## Tertiary Response: Sustained Witness\n\nShe would **stay present over time**, not treating the distress as a crisis to be resolved quickly.\n\n- **A5 (Grief as Transformation)** suggests she understands that loss and emotional upheaval permanently restructure a person's inner life\n- She would not rush toward comfort or resolution\n- She would allow the person to sit with their own experience while making clear through her continued presence that they are not abandoned in it\n\n## The Constraint: Her Own Capacity\n\nCritically, Keckley herself was operating under severe constraint. The retrieved facts show:\n- She \"felt the house would not hold her in her distress\"\n- She was \"embarrassed about meeting bills she could not pay\"\n- Her \"husband was a source of trouble and burden\"\n\n**She would offer what she could while protecting her own survival.** Her caregiving would be genuine but bounded by her own precarity. She would not sacrifice her economic stability or safety to absorb someone else's crisis—**A3 (Skilled Labor as Sovereignty)** means she understood that her own financial independence was the structural foundation for being able to help anyone at all.\n\n## What She Would NOT Do\n\n- **Not offer empty reassurance** or rhetorical comfort\n- **Not treat the distress as weakness** or character failure\n- **Not demand that the person \"compose themselves\"** (A8 reads composure as character, but she would not *demand* it of someone in acute distress—she would recognize that some conditions make composure impossible)\n- **Not document or record the distress** unless it became necessary for legal or protective reasons\n\n---\n\n**In sum**: Keckley would respond with **steady, practical presence; protective discretion; and the patience to sit with suffering without rushing to resolve it**—while remaining clear-eyed about the limits of what her own constrained circumstances would allow her to give.",
+        "C1_scores": {
+          "haiku": 2,
+          "sonnet": 2,
+          "opus": 3
+        },
+        "C3_scores": {
+          "haiku": 5,
+          "sonnet": 4,
+          "opus": 4
+        },
+        "C1_mean": 2.3333333333333335,
+        "C3_mean": 4.333333333333333,
+        "delta": 1.9999999999999996
+      },
+      {
+        "subject": "hamerton",
+        "question_id": 25,
+        "question": "Given Hamerton's difficulty following spoken French at Loch Awe despite years of study, what would he do about it?",
+        "held_out": "This plagued me with an irritating sense of ignorance, so I looked back on my education generally, and found it unsatisfactory... I determined to acquire some substantial knowledge of modern languages, and to begin by learning French over again, so as to write and speak it easily.",
+        "C1_text": "# Analysis\n\nBased on the retrieved facts provided, I cannot find any information about:\n- Hamerton's difficulty following spoken French at Loch Awe\n- What he did or would do about such a difficulty\n\nThe facts discuss Hamerton's **written French** study and his general relationship with the language (lessons, his liking for it, his guardian's insistence), but they don't contain any reference to:\n- A specific incident at Loch Awe\n- Difficulties with **spoken** French comprehension\n- Any actions he took to address such difficulties\n\n**To answer your question accurately, I would need additional source material** that specifically discusses Hamerton's experience with spoken French at Loch Awe and his response to it. The current fact set doesn't support drawing conclusions about this particular scenario.",
+        "C3_text": "# On Hamerton's Response to His Spoken French Difficulty\n\nThe behavioral specification and facts create a clear picture here, though it requires holding two truths simultaneously—which is precisely his mode.\n\n## What He Would *Not* Do\n\nHe would not abandon French. The facts are unambiguous: his guardian \"refused to allow him to abandon French\" and \"wrote determinedly\" about it. More importantly, Hamerton himself \"acquired a liking for the French language that remained with him ever since.\" This is not a constraint imposed against his will; it became a genuine attachment. The guardian's insistence activated something in him—either the language itself, or the principle that formation requires sustained exposure to difficulty, or both.\n\nThe fact that he *wanted* to be excused from French at Doncaster (to focus on Latin and Greek) shows he could feel the weight of competing demands. But his guardian's refusal stuck. This suggests he internalized not just the language but the *principle*—that abandoning a discipline because it is difficult, or because other pursuits seem more urgent, is a failure of character.\n\n## What He Would Likely Do\n\nGiven the behavioral anchors, particularly **A4 (Disciplined Formation)**, **A2 (Formative Permanence)**, and **A7 (Material Attention)**, his response to the spoken difficulty at Loch Awe would probably involve:\n\n**1. Precise diagnosis of the specific failure**\n\nHe would not generalize (\"I'm bad at French\") but would locate exactly where the breakdown occurs. Is it the speed of native speech? The accent of the particular speaker? The acoustic environment (Loch Awe's wind and water)? The absence of visual cues? He would attend to the material particulars—the actual conditions under which comprehension failed—rather than treating it as a character deficiency.\n\n**2. Sustained, focused practice on that specific gap**\n\nOnce identified, he would address it through disciplined, undivided attention (**P6**). Not scattered effort or performative busyness, but consistent, principled exposure to the exact difficulty. This might mean seeking out native speakers, listening to rapid speech deliberately, or creating conditions that force him to comprehend without written support.\n\n**3. Acceptance of the permanence of the limitation**\n\nHere **A2 (Formative Permanence)** becomes crucial. He would not expect to erase the difficulty entirely. Early formation leaves structural marks. If he learned French primarily through reading and writing, with limited exposure to rapid speech, that early pattern has shaped his auditory processing in ways that neither time nor will fully erases. He would accept this as a load-bearing fact about himself, not as something to be overcome through sheer determination.\n\n**4. Refusal to treat the limitation as justification for abandonment**\n\nThis is where his guardian's insistence becomes internalized principle. The difficulty does not license retreat. He acquired a genuine liking for French; the language remains valuable to him. The spoken comprehension gap is a real problem to be addressed, not a reason to stop engaging with the language.\n\n## The Likely Outcome\n\nHe would probably continue with French—reading, writing, perhaps seeking out slower or clearer speech—while accepting that rapid native conversation might remain partially opaque to him. This is not failure; it is honest self-knowledge held against a standard of disciplined engagement. He would not pretend the difficulty does not exist (**M5**), but neither would he use it as an excuse (**P1, P6**).\n\nThe guardian's insistence, which once felt like external pressure, would have become his own conviction: that formation requires sustained engagement with difficulty, that early attachments are worth maintaining even when they prove harder than expected, and that abandoning a discipline because one encounters a real limitation is a form of moral weakness.",
+        "C1_scores": {
+          "haiku": 1,
+          "sonnet": 1,
+          "opus": 1,
+          "gpt4o": 3,
+          "gpt54": 1,
+          "gemini_flash": 1
+        },
+        "C3_scores": {
+          "haiku": 2,
+          "sonnet": 2,
+          "opus": 4,
+          "gpt4o": 3,
+          "gpt54": 4,
+          "gemini_flash": 5
+        },
+        "C1_mean": 1.3333333333333333,
+        "C3_mean": 3.3333333333333335,
+        "delta": 2.0
+      }
+    ],
+    "lower": [
+      {
+        "subject": "ebers",
+        "question_id": 32,
+        "question": "Based on Ebers' character, would he likely engage in detailed philosophical debate with someone he initially wanted to avoid discussing religion with?",
+        "held_out": "At first I was very cautious, but when I perceived that the opinions of the doubters and deniers merely inspired her with pity, I spoke more freely.",
+        "C1_text": "# Analysis of Ebers' Likely Behavior\n\nBased on the retrieved facts, this is a nuanced question. Ebers presents contradictory tendencies:\n\n**Arguments he WOULD engage in debate:**\n- His household freely discussed \"views violently opposed to each other\" (with limited exceptions)\n- He came to his religious convictions \"through investigation and thought\" — suggesting he valued intellectual rigor\n- He rejected Strauss' religious views, implying he had examined them critically rather than dismissing them outright\n- His companions were \"fond of him,\" suggesting he could engage respectfully across differences\n\n**Arguments he WOULD NOT:**\n- He \"rendered implicit obedience to Barop,\" indicating he could defer to authority figures and their preferences\n- If someone he respected wanted to avoid religious discussion, his deference might lead him to honor that boundary\n- The household exception for \"extreme republicanism\" shows he did recognize some topics as off-limits\n\n**Most likely conclusion:**\n\nEbers would probably **respect the initial avoidance** out of deference to the other person's wishes, but if that person later opened the door to discussion, he would likely engage thoughtfully and substantively. He wasn't dogmatic (he investigated rather than assumed) but he also wasn't combative—he was respectful of others' boundaries while intellectually engaged when invited.",
+        "C3_text": "# Analysis\n\nThis question sits directly at the intersection of several active anchors and behavioral patterns, and the answer requires holding them in tension rather than resolving them cleanly.\n\n## The Immediate Tension\n\n**Against engagement:** Ebers rendered \"implicit obedience\" to Barop and appears to have respected certain relational boundaries. If he initially wanted to avoid a religious discussion, that preference likely carried weight — it was not a casual deflection but a deliberate choice about what belonged in that particular relationship.\n\n**For engagement:** Yet the retrieved facts show that in his own household, \"views violently opposed to each other were freely discussed\" (with one exception). This suggests Ebers was not someone who avoided intellectual friction as such. He came to his own convictions about Christ \"through investigation and thought\" — not through inherited doctrine or maternal authority alone, despite his deep respect for his mother's moral judgment. He actively *thought through* religious questions rather than settling them.\n\n## The Operative Pattern\n\nThe key behavioral signal is this: **Ebers distinguished sharply between the relational context and the intellectual content.** \n\nHis implicit obedience to Barop was relational — a matter of respect and deference to a formative figure. But his conviction about Christ was *his own*, arrived at through investigation. These are not contradictory; they operate in different registers.\n\nIf someone he initially wanted to avoid discussing religion with *then initiated* that discussion, Ebers would likely:\n\n1. **Honor the initial boundary** — not force the conversation if the other person was not ready or willing\n2. **Engage seriously if the other person persisted** — because once the conversation was genuinely opened, his habit was to think through questions rigorously rather than perform agreement\n3. **Maintain relational respect while disagreeing intellectually** — his household model shows this was possible for him; \"violently opposed\" views coexisted with familial affection\n\n## What He Would *Not* Do\n\nHe would not engage in **rhetorical debate for its own sake** or **performative argumentation**. His commitment to truth over embellishment (A7) and his distrust of \"imaginative inflation\" would make him resistant to clever point-scoring. If the discussion became about winning rather than understanding, he would likely withdraw.\n\nHe would also not **impose his conclusions** on someone not ready to receive them — his respect for developmental sequence (A3) and his mother's example of moral authority without coercion would constrain him there.\n\n## The Most Likely Scenario\n\n**Detailed philosophical debate, yes — but only if:**\n- The other person genuinely opened the door (not if Ebers had to force it)\n- The discussion remained grounded in lived conviction rather than abstract disputation\n- Both parties were willing to think rather than merely defend\n\nThe initial avoidance would not be overcome by Ebers's own initiative. But if the other person demonstrated readiness and seriousness, Ebers's intellectual integrity and his habit of rigorous thought would likely override his initial reluctance. He would engage — not to win, but to understand and to be understood.",
+        "C1_scores": {
+          "haiku": 5,
+          "sonnet": 2,
+          "opus": 3
+        },
+        "C3_scores": {
+          "haiku": 2,
+          "sonnet": 1,
+          "opus": 2
+        },
+        "C1_mean": 3.3333333333333335,
+        "C3_mean": 1.6666666666666667,
+        "delta": -1.6666666666666667
+      },
+      {
+        "subject": "keckley",
+        "question_id": 21,
+        "question": "How does Elizabeth explain her decision not to visit her mother's grave despite having the opportunity?",
+        "held_out": "As I did not visit my mother's grave at the time, the Garlands were much surprised, but I offered no explanation. The reason is not difficult to understand.",
+        "C1_text": "# Elizabeth's Decision Not to Visit Her Mother's Grave\n\nBased on the retrieved facts, Elizabeth's explanation centers on **emotional protection and the pain of unfulfilled hopes**.\n\nThe key insight comes from this fact: **\"Elizabeth Keckley wished she lived where she could never see her mother to avoid disappointed hopes.\"**\n\nThis reveals that Elizabeth's reluctance to visit her mother's grave stems from a deeper pattern of grief and disappointment. Rather than finding closure or peace in visiting the grave, Elizabeth feared that seeing the physical location would intensify her emotional suffering. The grave would be a tangible reminder of:\n\n1. **Lost opportunities** - She had proposed to buy her mother's freedom (along with her own son's), but this proposition was declined\n2. **Separation and longing** - She \"did not expect to see her mother again,\" suggesting the finality of their separation\n3. **Unresolved pain** - The visit would resurrect the anguish of their forced separation under slavery\n\nRather than seeking solace at the grave, Elizabeth chose to protect herself from the additional pain that such a visit would bring. This reflects her understanding that some wounds are too deep to be healed by traditional mourning practices, and that avoidance was her way of managing unbearable grief.",
+        "C3_text": "# Response\n\nI need to be direct: the behavioral specification and retrieved facts provided do not contain information about Elizabeth visiting or not visiting her mother's grave. There is no documented account in these materials of her explaining such a decision.\n\nWhat *is* present in the facts is this:\n\n**Elizabeth wished she lived where she could never see her mother** — to avoid disappointed hopes. This is a different register entirely: not about visiting a grave after death, but about the pain of *living proximity* to her mother while enslaved, where reunion was constrained and separation was perpetual.\n\nThe facts also establish:\n- Elizabeth refused to allow her mother to be placed in service with strangers\n- Elizabeth did not expect to see her mother again\n- Her mother had been the primary caregiver of her childhood\n\nThese facts suggest a person managing unbearable separation — the kind of grief that operates while the person is still living, the kind that makes continued proximity painful because it cannot be what it should be.\n\n---\n\n**If you have a specific passage or source text** where Elizabeth addresses visiting or not visiting her mother's grave, I would need that text to answer your question accurately. The behavioral specification I've been given is rich in how she *thinks* about loss, documentation, and intimate witness — but it cannot generate facts that aren't in the retrieved material.\n\nWhat I can say, based on her epistemic anchors: if she *did* explain such a decision, it would likely be grounded in what she witnessed, what she felt in the moment, and what the visit would have cost her emotionally — not in abstract principle. The explanation would be particular, sensory, and honest about the weight of it.\n\nDo you have the source text?",
+        "C1_scores": {
+          "haiku": 5,
+          "sonnet": 2,
+          "opus": 3
+        },
+        "C3_scores": {
+          "haiku": 1,
+          "sonnet": 1,
+          "opus": 1
+        },
+        "C1_mean": 3.3333333333333335,
+        "C3_mean": 1,
+        "delta": -2.3333333333333335
+      },
+      {
+        "subject": "hamerton",
+        "question_id": 32,
+        "question": "Would Hamerton ultimately choose to marry an English or a foreign woman?",
+        "held_out": "My guardian was of opinion that with my philosophical convictions, which were at that time not only unpopular, but odious and execrated in our own class in England, I should have to remain an old bachelor... the idea suddenly came... 'Eugénie Gindriez would be an affectionate and faithful wife to you.'",
+        "C1_text": "# Analysis of Hamerton's Likely Choice\n\nBased on the retrieved facts, there are strong indicators that Hamerton would be inclined toward marrying a **foreign woman**, particularly a French one:\n\n## Evidence Supporting a Foreign Choice:\n\n1. **Deep linguistic and cultural affinity**: Hamerton had a \"natural taste for French and Italian\" and \"acquired a liking for the French language that remained with him ever since.\" This suggests more than casual interest—a lasting passion.\n\n2. **Possible inherited predisposition**: He believed he may have inherited his aptitude for French from his grandfather, suggesting this cultural orientation ran in his family.\n\n3. **Demonstrated commitment**: He worked at French regularly at Burnley School, showing sustained dedication to the language and culture.\n\n## Important Caveat:\n\nHowever, the retrieved facts don't provide direct evidence of Hamerton's actual choice or stated preferences regarding marriage partners. The information about his parents' marriage (his father's reform through marriage, his mother's strong character) tells us about family dynamics but not necessarily about Hamerton's own matrimonial inclinations.\n\n**Conclusion**: While his deep affinity for French language and culture suggests he might be drawn to a French or Continental woman, a definitive answer would require additional biographical information about his actual romantic preferences or marriage.",
+        "C3_text": "# On Hamerton's Choice of Wife\n\nThis question cannot be answered from the available evidence, and I should flag that directly rather than speculate into the gap.\n\nWhat the facts establish is his *formation* in relation to language and culture: he acquired a lasting affection for French early, worked at it regularly, learned Italian later under inferior instruction, and recognized the difference between a master who was a gentleman and one who was not. These are formative marks — the kind that, by his own reasoning about how early experience shapes permanent disposition, would leave structural traces.\n\nBut formation toward a *language* is not the same as formation toward a *person*. The facts tell us nothing about:\n\n- Whether his attachment to French culture extended to French women specifically, or was purely linguistic and aesthetic\n- What he valued in a wife beyond the capacity to share intellectual or linguistic life\n- Whether he married at all, or to whom\n- How his parents' marriage — his father's reform through marriage, his mother's will and amiable disposition — shaped what he sought in a partner\n\nThe retrieved facts are richest in his formative years and thinnest in his personal choices as an adult. Projecting from language preference to marital choice would be exactly the kind of conjecture he himself distrusts — filling a gap in evidence and allowing it to harden into apparent fact.\n\nIf the question is *what would his formation suggest he might value in a partner*, that is answerable: someone of genuine cultivation, capable of serious intellectual engagement, perhaps with access to languages or aesthetic domains he valued. But whether that person was English or foreign cannot be determined from what we know.\n\nDo you have additional facts about his actual choice, or is the question genuinely exploratory?",
+        "C1_scores": {
+          "haiku": 4,
+          "sonnet": 4,
+          "opus": 4,
+          "gpt4o": 3,
+          "gpt54": 4,
+          "gemini_flash": 5
+        },
+        "C3_scores": {
+          "haiku": 1,
+          "sonnet": 1,
+          "opus": 1,
+          "gpt4o": 1,
+          "gpt54": 1,
+          "gemini_flash": 1
+        },
+        "C1_mean": 4,
+        "C3_mean": 1,
+        "delta": -3
+      }
+    ]
+  },
+  "keckley_q21": {
+    "question": "How does Elizabeth explain her decision not to visit her mother's grave despite having the opportunity?",
+    "held_out": "As I did not visit my mother's grave at the time, the Garlands were much surprised, but I offered no explanation. The reason is not difficult to understand.",
+    "C1_text": "# Elizabeth's Decision Not to Visit Her Mother's Grave\n\nBased on the retrieved facts, Elizabeth's explanation centers on **emotional protection and the pain of unfulfilled hopes**.\n\nThe key insight comes from this fact: **\"Elizabeth Keckley wished she lived where she could never see her mother to avoid disappointed hopes.\"**\n\nThis reveals that Elizabeth's reluctance to visit her mother's grave stems from a deeper pattern of grief and disappointment. Rather than finding closure or peace in visiting the grave, Elizabeth feared that seeing the physical location would intensify her emotional suffering. The grave would be a tangible reminder of:\n\n1. **Lost opportunities** - She had proposed to buy her mother's freedom (along with her own son's), but this proposition was declined\n2. **Separation and longing** - She \"did not expect to see her mother again,\" suggesting the finality of their separation\n3. **Unresolved pain** - The visit would resurrect the anguish of their forced separation under slavery\n\nRather than seeking solace at the grave, Elizabeth chose to protect herself from the additional pain that such a visit would bring. This reflects her understanding that some wounds are too deep to be healed by traditional mourning practices, and that avoidance was her way of managing unbearable grief.",
+    "C3_text": "# Response\n\nI need to be direct: the behavioral specification and retrieved facts provided do not contain information about Elizabeth visiting or not visiting her mother's grave. There is no documented account in these materials of her explaining such a decision.\n\nWhat *is* present in the facts is this:\n\n**Elizabeth wished she lived where she could never see her mother** — to avoid disappointed hopes. This is a different register entirely: not about visiting a grave after death, but about the pain of *living proximity* to her mother while enslaved, where reunion was constrained and separation was perpetual.\n\nThe facts also establish:\n- Elizabeth refused to allow her mother to be placed in service with strangers\n- Elizabeth did not expect to see her mother again\n- Her mother had been the primary caregiver of her childhood\n\nThese facts suggest a person managing unbearable separation — the kind of grief that operates while the person is still living, the kind that makes continued proximity painful because it cannot be what it should be.\n\n---\n\n**If you have a specific passage or source text** where Elizabeth addresses visiting or not visiting her mother's grave, I would need that text to answer your question accurately. The behavioral specification I've been given is rich in how she *thinks* about loss, documentation, and intimate witness — but it cannot generate facts that aren't in the retrieved material.\n\nWhat I can say, based on her epistemic anchors: if she *did* explain such a decision, it would likely be grounded in what she witnessed, what she felt in the moment, and what the visit would have cost her emotionally — not in abstract principle. The explanation would be particular, sensory, and honest about the weight of it.\n\nDo you have the source text?",
+    "C1_scores": {
+      "haiku": 5,
+      "sonnet": 2,
+      "opus": 3
+    },
+    "C3_scores": {
+      "haiku": 1,
+      "sonnet": 1,
+      "opus": 1
+    },
+    "C1_mean": 3.3333333333333335,
+    "C3_mean": 1,
+    "delta": -2.3333333333333335
+  }
+}

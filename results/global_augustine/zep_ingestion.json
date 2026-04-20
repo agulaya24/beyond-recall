@@ -1,0 +1,16 @@
+{
+  "subject": "augustine",
+  "system": "zep",
+  "user_id": "augustine_run_20260415",
+  "facts_expected": 1146,
+  "facts_posted": 1146,
+  "post_success": 1146,
+  "post_failure": 0,
+  "failed_fact_indices": [],
+  "start_time": "2026-04-15T22:41:38.150706+00:00",
+  "last_successful_index": 1145,
+  "end_time": "2026-04-15T22:56:15.764270+00:00",
+  "verification_passed": true,
+  "verification_hits": 10,
+  "verification_total": 10
+}

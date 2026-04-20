@@ -1,0 +1,14 @@
+{
+  "subject": "ebers",
+  "system": "letta",
+  "mode": "fullpipeline",
+  "agent_id": "agent-97e7a5b4-ba0a-4e9e-bd18-a9fda9c8fb1f",
+  "agent_name": "ebers_fullpipeline",
+  "chunks_expected": 10,
+  "chunks_posted": 10,
+  "post_success": 10,
+  "post_failure": 0,
+  "start_time": "2026-04-16T06:52:27.869906+00:00",
+  "end_time": "2026-04-16T06:52:48.768576+00:00",
+  "verification_passed": true
+}

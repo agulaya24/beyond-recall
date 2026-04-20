@@ -1,0 +1,13 @@
+{
+  "subject": "fukuzawa",
+  "system": "supermemory",
+  "mode": "fullpipeline",
+  "container_tag": "fukuzawa_fullpipeline",
+  "chunks_expected": 25,
+  "chunks_posted": 25,
+  "post_success": 19,
+  "post_failure": 6,
+  "start_time": "2026-04-16T07:00:50.792534+00:00",
+  "end_time": "2026-04-16T07:02:51.685139+00:00",
+  "verification_passed": true
+}

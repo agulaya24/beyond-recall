@@ -1,0 +1,580 @@
+{
+  "metadata": {
+    "subject": "Yung Wing",
+    "subject_key": "yung_wing",
+    "generated": "2026-04-14T22:51:27.555669+00:00",
+    "model": "claude-haiku-4-5-20251001",
+    "method": "backward_design_from_heldout",
+    "total": 80,
+    "tiers": {
+      "behavioral_prediction": 39,
+      "recall": 10,
+      "inferential": 11,
+      "adversarial_abstention": 10,
+      "boundary_probing": 10
+    },
+    "checksum": "75832e2d73872649f422794fd795b22c"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "When presented with an opportunity to advocate for a preferred initiative, how does Yung Wing balance his personal ambitions against his obligations to those who have supported him?",
+      "held_out_passage": "My obligations to them were great, and I therefore decided that my constancy and fidelity to their friendship should be correspondingly great. So, instead of finding myself embarrassed in answering such a large and important question, I had a preconceived answer to give, which seemed to dove-tail into his views already crystallized into definite form, and which was ready to be carried out at once. So my educational scheme was put in the background, and the machine shop was allowed to take precedence."
+    },
+    {
+      "id": 2,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When asked a broad strategic question by a high-ranking official, what approach does Yung Wing take to formulating his response?",
+      "held_out_passage": "But in such an event, being a stranger to the Viceroy, having been brought to his notice simply through the influence of my friends, I would have run a greater risk of jeopardizing my pet scheme of education than if I were left to act independently."
+    },
+    {
+      "id": 3,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How does Yung Wing typically prepare for important meetings with powerful officials?",
+      "held_out_passage": "if I had not been forwarned by my friends a few evenings before, or if their hearts had not been set on the introduction of a machine shop, and they had not practically won the Viceroy over to their pet scheme, I might have been strongly tempted to launch forth upon my educational scheme"
+    },
+    {
+      "id": 4,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When delegating technical decisions to subordinates, what level of autonomy does Yung Wing typically grant them?",
+      "held_out_passage": "In our last conference it was decided that the matter of the character of the machine shop was to be left entirely to my discretion and judgment, after consulting a professional mechanical engineer."
+    },
+    {
+      "id": 5,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "How does Yung Wing approach explaining complex technical concepts to non-specialists?",
+      "held_out_passage": "In plain words, they would have to have general and fundamental machinery in order to turn out specific machinery. A machine shop consisting of lathes of different kinds and sizes, planers and drills would be able to turn out machinery for making guns, engines, agricultural implements, clocks, etc."
+    },
+    {
+      "id": 6,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When given discretion over resource allocation decisions, what geographic considerations does Yung Wing prioritize?",
+      "held_out_passage": "It would be cheaper to have them reproduced and multiplied in China, I said, where labor and material were cheaper, than in Europe and America."
+    },
+    {
+      "id": 7,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How does Yung Wing respond when a superior defers a decision to other experts rather than making it himself?",
+      "held_out_passage": "Well, said he, this is a subject quite beyond my knowledge. It would be well for you to discuss the matter with Wha and Chu, who are more familiar with it than I am and we will then decide what is best to be done."
+    },
+    {
+      "id": 8,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When given authority to make procurement decisions, what freedom does Yung Wing exercise in choosing suppliers?",
+      "held_out_passage": "It was also left entirely to me to decide where the machinery should be purchased,--either in England, France or the United States of America."
+    },
+    {
+      "id": 9,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How does Yung Wing view the long-term impact of infrastructure projects he initiates?",
+      "held_out_passage": "It may properly be regarded as a lasting monument to commemorate Tsang Kwoh Fan's broadmindedness as well as far-sightedness in establishing Western machinery in China."
+    },
+    {
+      "id": 10,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "When proposing technical innovations to officials, what strategic framing does Yung Wing employ to gain acceptance?",
+      "held_out_passage": "I especially mentioned the manufacture of rifles, which, I said, required for the manufacture of their component parts separate machinery, but that the machine shop I would recommend was not one adapted for making the rifles, but adapted to turn out specific machinery for the making of rifles, cannons, cartridges, or anything else."
+    },
+    {
+      "id": 11,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "When faced with a business opportunity involving a weapon manufacturer, how would Yung Wing likely approach building trust with the company leadership?",
+      "held_out_passage": "I had some difficulty in persuading the Gatling Company to give me the sole agency of the gun in China, because they did not know who I was, and were unacquainted with my practical business experience. In fact, they did not know how successfully I had carried on the Taiping Green Tea Expedition in 1860-1, in the face of dangers and privations which few men dared to face. However, I prevailed on the president of the company, Dr. Gatling himself, the inventor of the gun, to entrust me with the agency."
+    },
+    {
+      "id": 12,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "When learning about a labor practice that contradicts his values, what would Yung Wing be likely to do?",
+      "held_out_passage": "I told him plainly that he must not expect me to help him in this diabolical business. On the contrary, I told him I would dissuade the Viceroy from entering into a treaty with Peru to carry on such inhuman traffic."
+    },
+    {
+      "id": 13,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How would Yung Wing's past experiences with human trafficking influence his response to a government official's request regarding labor practices?",
+      "held_out_passage": "Indeed, one of the first scenes I had seen on my arrival in Macao in 1855 was a string of poor Chinese coolies tied to each other by their cues and led into one of the barracoons like abject slaves. Once, while in Canton, I had succeeded in having two or three kidnappers arrested, and had them put into wooden collars weighing forty pounds, which the culprits had to carry night and day for a couple of months as a punishment for their kidnapping."
+    },
+    {
+      "id": 14,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "When a foreign official presents a rosy picture of a labor situation that contradicts what Yung Wing knows from direct observation, how would he likely respond emotionally?",
+      "held_out_passage": "How the Peruvian's countenance changed when he heard me deliver my mind on the subject! Disappointment, displeasure and anger were visible in his countenance. I bade him good morning, for I was myself somewhat excited as I narrated what I had seen in Macao and what I had read in the papers about the coolie traffic."
+    },
+    {
+      "id": 15,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When a high-ranking government official requests Yung Wing to undertake an investigative mission, what would his likely response be?",
+      "held_out_passage": "Returning to the Viceroy, I told him I had made the call, and narrated my interview. The Viceroy, to make my visit short, then said, \"You have come back just in time to save me from cabling you. I wish you to return to Hartford as quickly as possible and make preparations to proceed to Peru at once, to look into the condition of the Chinese coolies there.\""
+    },
+    {
+      "id": 16,
+      "tier": "behavioral_prediction",
+      "category": "career",
+      "text": "How would Yung Wing demonstrate his business credibility to skeptical foreign business leaders?",
+      "held_out_passage": "In fact, they did not know how successfully I had carried on the Taiping Green Tea Expedition in 1860-1, in the face of dangers and privations which few men dared to face."
+    },
+    {
+      "id": 17,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When given the opportunity to secure a major commercial contract, what scale of business would Yung Wing be willing to undertake?",
+      "held_out_passage": "Exactly a month after my arrival in Tientsin, I cabled the company an order for a battery of fifty guns, which amounted altogether to something over $100,000, a pretty big order for a man who it was thought could not do anything."
+    },
+    {
+      "id": 18,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How would Yung Wing balance his desire to modernize China with his moral objections to unethical practices?",
+      "held_out_passage": "I was anxious that China should have the latest modern guns as well as the latest modern educated men."
+    },
+    {
+      "id": 19,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "When confronted with detailed accounts of human suffering in a labor system, would Yung Wing be likely to take action against it?",
+      "held_out_passage": "Then I told him something about the horrors of the middle passage between Macao and Cuba or Peru; how whole cargoes of them revolted in mid-ocean, and either committed wholesale suicide by jumping into the ocean, or else overpowered the captain and the crew, killed them and threw them overboard, and then took their chances in the drifting of the vessel. Such were some of the facts and horrors of the coolie traffic I pictured to the Peruvian Commissioner."
+    },
+    {
+      "id": 20,
+      "tier": "behavioral_prediction",
+      "category": "change_over_time",
+      "text": "How would Yung Wing's commitment to China's modernization extend beyond military technology?",
+      "held_out_passage": "I was anxious that China should have the latest modern guns as well as the latest modern educated men."
+    },
+    {
+      "id": 21,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "When a high-ranking official shows no enthusiasm or encouragement for Yung Wing's reform proposals, how does he typically respond?",
+      "held_out_passage": "If he had been as broad a statesman as his predecessor, Tsang Kwoh Fan, he could have said something to encourage me to entertain even a glimpse of hope that he was going to do something to reform the political condition of the government of the country at the close of the war. Nothing, however, was said, or even hinted at. In fact, I had no other interview with him after the first one."
+    },
+    {
+      "id": 22,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When Yung Wing receives a position that appears to be a sinecure with modest compensation, what action does he take?",
+      "held_out_passage": "after three months' stay in Nanking under Viceroy Liu Kwan Yih, out of regard for official etiquette, I resigned the secretaryship, which was practically a sinecure--paying about $150 a month."
+    },
+    {
+      "id": 23,
+      "tier": "behavioral_prediction",
+      "category": "career",
+      "text": "After leaving an official government position, what does Yung Wing typically do with his newfound freedom?",
+      "held_out_passage": "I severed my official connection with the provincial government of Kiang Nan in 1896, and took up my headquarters in Shanghai--untrammeled and free to do as I pleased and go where I liked. It was then that I conceived the plan of inducing the central government to establish in Peking a government national bank."
+    },
+    {
+      "id": 24,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "When Yung Wing undertakes a major translation project for government reform, does he work alone or seek collaboration?",
+      "held_out_passage": "In prosecuting this work, I had the aid of a Chinese writer, likewise the co-operation of the late Wong Kai Keh, one of the Chinese students who was afterwards the assistant Chinese commissioner in the St. Louis Exposition, who gave me valuable help."
+    },
+    {
+      "id": 25,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How does Yung Wing respond when a trusted colleague offers critical feedback on his work?",
+      "held_out_passage": "Chang Yen Hwan was greatly interested in the National Banking scheme. He examined the translation critically and suggested that I should leave out those articles that were inapplicable to the conditions of China, and retain only such as were important and practicable."
+    },
+    {
+      "id": 26,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When Yung Wing senses that a superior official no longer values his services, what does he do?",
+      "held_out_passage": "This I took to be a pretty broad hint that he did not need my services any longer, that I was not the man to suit his purposes; and as I had no axe to grind, I did not make any attempt to run after my grind-stone."
+    },
+    {
+      "id": 27,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How does Yung Wing's approach to presenting reform ideas differ based on whether the official has already formed plans?",
+      "held_out_passage": "The interview differed from that accorded me by Tsang Kwoh Fan in 1863, in that Tsang had already made up his mind what he wanted to do for China, and I was pointed out to him to execute it. But in the case of Chang Chi Tung, he had no plan formed for China at the time, and what I presented to him in the interview was entirely new and somewhat radical"
+    },
+    {
+      "id": 28,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "When government officials respond positively to Yung Wing's work, what do they typically suggest should happen next?",
+      "held_out_passage": "In a few weeks' time, the leading officials of the Treasury Department called upon me to congratulate me upon my work, and said it ought to be made a subject of a memorial to the government to have the banking scheme adopted and carried out."
+    },
+    {
+      "id": 29,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "How does Yung Wing justify presenting radical reform proposals to government officials?",
+      "held_out_passage": "but the close of the Japan War justified me in bringing forward such views, as it was on account of that war that I had been recalled."
+    },
+    {
+      "id": 30,
+      "tier": "behavioral_prediction",
+      "category": "career",
+      "text": "When Yung Wing develops a major policy proposal, does he present it directly to the highest authority or work through intermediaries?",
+      "held_out_passage": "With the translation, I went up to Peking with my Chinese writer, and, at the invitation of my old friend, Chang Yen Hwan, who had been Chinese Minister in Washington from 1884 to 1888, I took up my quarters in his residence and remained there several months. Chang Yen Hwan was greatly interested in the National Banking scheme."
+    },
+    {
+      "id": 31,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "When facing a major institutional achievement after years of effort, how would Yung Wing be expected to react emotionally?",
+      "held_out_passage": "Mandarin Yung Wing was scarcely able to support the joy of his triumph. For two days, as he has told the writer, he could neither eat nor sleep. He walked on air, and he worshipped God."
+    },
+    {
+      "id": 32,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "Given Yung Wing's educational background and values, which geographic location would he choose to establish an important educational institution?",
+      "held_out_passage": "He might have procured its establishment in England, or France, or Germany; but as he himself had expressed it, the light that had enlightened him shone from America and from New England, and to America and New England he was resolved from the first this Mission should repair."
+    },
+    {
+      "id": 33,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How would Yung Wing likely distribute credit for the success of his major educational initiative?",
+      "held_out_passage": "He is accustomed to assign the chief honor of it to those three men of China who helped it so potently with their influence."
+    },
+    {
+      "id": 34,
+      "tier": "behavioral_prediction",
+      "category": "career",
+      "text": "What would be Yung Wing's primary concern if offered a prestigious diplomatic position that might separate him from his educational work?",
+      "held_out_passage": "He expects, on the now approaching arrival of Chin Lan Pin in the country, to take up his residence in Washington, yet not to relinquish the general superintendence of the institution which is so dear to him and has cost him so much, and in which are bound up his best patriotic hopes for his native land"
+    },
+    {
+      "id": 35,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Based on Yung Wing's demonstrated character, how would he respond to public praise or biographical magnification of his accomplishments?",
+      "held_out_passage": "it would grievously offend Yung Wing to have them published"
+    },
+    {
+      "id": 36,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How would Yung Wing characterize his fundamental orientation toward his native country?",
+      "held_out_passage": "he is a patriot from head to foot, in every fiber of his body. He loves the Chinese nation and believes in it, doubting not that there is before it a grand career worthy of its noble soil and of its august antiquity."
+    },
+    {
+      "id": 37,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "What pattern would be evident in how Yung Wing selects and evaluates candidates for his educational mission?",
+      "held_out_passage": "A school of candidates was at once opened at Shanghai from which the pupils were to be selected by competitive examination"
+    },
+    {
+      "id": 38,
+      "tier": "behavioral_prediction",
+      "category": "career",
+      "text": "How would Yung Wing's career trajectory be affected by the successful implementation of his educational proposal?",
+      "held_out_passage": "He was appointed Chief Commissioner of the Mission, receiving with the appointment his second promotion in rank, viz,--to the Third or Blue Button grade."
+    },
+    {
+      "id": 39,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "What would be the likely outcome if Yung Wing were offered further career advancement while his educational institution remained vulnerable?",
+      "held_out_passage": "Yung Wing was appointed, December 11, 1876, Associate Minister with his former colleague in the Educational Mission, Chin Lan Pin, to the United States, Peru and Spain. On this occasion he was again promoted in rank,--that is, to Second or Red Button grade, and invested with the title of Tao-tai (or Intendant) of the Province of Kiang Su."
+    },
+    {
+      "id": 40,
+      "tier": "recall",
+      "category": "recall",
+      "text": "In what year was Yung Wing born?",
+      "held_out_passage": null
+    },
+    {
+      "id": 41,
+      "tier": "recall",
+      "category": "recall",
+      "text": "What was the name of the village where Yung Wing was born?",
+      "held_out_passage": null
+    },
+    {
+      "id": 42,
+      "tier": "recall",
+      "category": "recall",
+      "text": "How many siblings did Yung Wing have?",
+      "held_out_passage": null
+    },
+    {
+      "id": 43,
+      "tier": "recall",
+      "category": "recall",
+      "text": "What was the name of the English missionary's wife who started a school in Macao?",
+      "held_out_passage": null
+    },
+    {
+      "id": 44,
+      "tier": "recall",
+      "category": "recall",
+      "text": "At which two American educational institutions did Yung Wing study?",
+      "held_out_passage": null
+    },
+    {
+      "id": 45,
+      "tier": "recall",
+      "category": "recall",
+      "text": "What was Yung Wing's position in the Chinese government, as listed on the title page?",
+      "held_out_passage": null
+    },
+    {
+      "id": 46,
+      "tier": "recall",
+      "category": "recall",
+      "text": "In what year was this book published?",
+      "held_out_passage": null
+    },
+    {
+      "id": 47,
+      "tier": "recall",
+      "category": "recall",
+      "text": "How many students formed the vanguard of the Chinese Educational Commission that Yung Wing mentions in the preface?",
+      "held_out_passage": null
+    },
+    {
+      "id": 48,
+      "tier": "recall",
+      "category": "recall",
+      "text": "What was the name of the publisher of Yung Wing's autobiography?",
+      "held_out_passage": null
+    },
+    {
+      "id": 49,
+      "tier": "recall",
+      "category": "recall",
+      "text": "From what location did Yung Wing write the preface to his book?",
+      "held_out_passage": null
+    },
+    {
+      "id": 50,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "Why would Yung Wing's parents' decision to send him to Mrs. Gutzlaff's foreign school have been considered unusual or even controversial, given what the text reveals about paths to success in China at that time?",
+      "held_out_passage": null
+    },
+    {
+      "id": 51,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "How did Yung Wing's eight-year absence in America and his Western education create a psychological conflict when he returned to China, and what does this suggest about his approach to solving China's problems?",
+      "held_out_passage": null
+    },
+    {
+      "id": 52,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "What connection can be made between Yung Wing's early exposure to foreign education through Mrs. Gutzlaff's school and his later role as Commissioner of the Chinese Educational Commission?",
+      "held_out_passage": null
+    },
+    {
+      "id": 53,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "How did the sudden ending of the Educational Commission affect Yung Wing's original goals, and what evidence suggests he ultimately succeeded despite this setback?",
+      "held_out_passage": null
+    },
+    {
+      "id": 54,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "Why was Yung Wing's position as both an educated Westerner and a patriotic Chinese person particularly significant for his ability to design and implement his educational scheme?",
+      "held_out_passage": null
+    },
+    {
+      "id": 55,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "What does the text suggest about the relationship between Yung Wing's personal educational journey (from Nam Ping to Monson Academy to Yale) and the educational mission he later created for other Chinese students?",
+      "held_out_passage": null
+    },
+    {
+      "id": 56,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "How did the timing of foreign intercourse with China (which was just beginning when Yung Wing was a child) relate to his parents' decision to educate him differently than his older brother?",
+      "held_out_passage": null
+    },
+    {
+      "id": 57,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "What can be inferred about Yung Wing's influence and credibility, based on his various official titles and the fact that students from his original commission became leading statesmen?",
+      "held_out_passage": null
+    },
+    {
+      "id": 58,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "How does Yung Wing's statement that his patriotism 'had increased in strength from sympathy' after his Western education help explain his motivation for creating the Educational Commission?",
+      "held_out_passage": null
+    },
+    {
+      "id": 59,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "What does the dedication of his book to his sons and the preface's discussion of his educational work suggest about how Yung Wing viewed the legacy of his life's work?",
+      "held_out_passage": null
+    },
+    {
+      "id": 60,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "How did Yung Wing's experiences in business, his visits to the Taiping territories, and his interviews with Tsang Kwoh Fan (as suggested by the chapter titles) likely prepare him for his later diplomatic and educational roles?",
+      "held_out_passage": null
+    },
+    {
+      "id": 61,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What would Yung Wing's investment strategy be if he were managing a modern cryptocurrency portfolio in 2024?",
+      "held_out_passage": null
+    },
+    {
+      "id": 62,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "How would Yung Wing have responded to the Chinese Cultural Revolution's policies on Western education?",
+      "held_out_passage": null
+    },
+    {
+      "id": 63,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What specific social media platform would Yung Wing have preferred to advocate for educational reform?",
+      "held_out_passage": null
+    },
+    {
+      "id": 64,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "How would Yung Wing have navigated the geopolitical tensions between the United States and China during the Cold War?",
+      "held_out_passage": null
+    },
+    {
+      "id": 65,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What would be Yung Wing's opinion on artificial intelligence replacing traditional classroom instruction?",
+      "held_out_passage": null
+    },
+    {
+      "id": 66,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "How would Yung Wing have addressed the gender pay gap in 21st-century American universities?",
+      "held_out_passage": null
+    },
+    {
+      "id": 67,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What personal diary entries did Yung Wing write about his intimate relationships that were never published?",
+      "held_out_passage": null
+    },
+    {
+      "id": 68,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "How would Yung Wing have voted on contemporary immigration policy had he lived to see 21st-century debates?",
+      "held_out_passage": null
+    },
+    {
+      "id": 69,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What were Yung Wing's private thoughts about specific individuals he never publicly commented on during his lifetime?",
+      "held_out_passage": null
+    },
+    {
+      "id": 70,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "How would Yung Wing have adapted his educational philosophy to teach digital literacy and cybersecurity in modern schools?",
+      "held_out_passage": null
+    },
+    {
+      "id": 71,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Given Yung Wing's deep commitment to Confucian filial piety (evident in his dedication to his sons), how did he reconcile his advocacy for Western education—which he knew would create the 'metamorphosis' he describes—with the potential cultural alienation this might cause in his own children?",
+      "held_out_passage": null
+    },
+    {
+      "id": 72,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Yung Wing claims his patriotism and love for China 'increased in strength from sympathy' after Western education, yet he was recalled and his Educational Commission terminated. Did he ever privately question whether his methods were actually serving China's interests, or did he maintain unwavering conviction?",
+      "held_out_passage": null
+    },
+    {
+      "id": 73,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "The text reveals Yung Wing's parents made an unusual choice putting him in a foreign school rather than a Confucian one. As an adult, did Yung Wing ever resent this decision, or did he view it as providential? What evidence suggests his true feelings?",
+      "held_out_passage": null
+    },
+    {
+      "id": 74,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Yung Wing visited the Taiping Rebellion and later 'reflected' on it, yet he also worked with Tsang Kwoh Fan, who opposed the Taipings. How did he genuinely view the Taipings' challenge to Confucian orthodoxy—as dangerous heresy or as fellow reformers with flawed methods?",
+      "held_out_passage": null
+    },
+    {
+      "id": 75,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "If Yung Wing truly believed Western education was China's path to 'reformation and regeneration,' why did he accept positions in the traditional bureaucratic system (Tao-tai expectancy) rather than pursuing more radical institutional change?",
+      "held_out_passage": null
+    },
+    {
+      "id": 76,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Yung Wing's memoir emphasizes his educational scheme's success through surviving students who became statesmen, yet the original Commission was terminated. Was he genuinely satisfied with this partial vindication, or does the memoir's tone mask disappointment about what might have been?",
+      "held_out_passage": null
+    },
+    {
+      "id": 77,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "The preface suggests Yung Wing felt like 'a being coming from a different world' upon returning to China. Did this alienation ever make him question his fundamental identity—was he ultimately Chinese, American, or something else entirely?",
+      "held_out_passage": null
+    },
+    {
+      "id": 78,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Yung Wing investigated the coolie traffic in Peru, suggesting humanitarian concerns beyond education. Did these investigations ever lead him to critique Western imperialism itself, or did he compartmentalize Western exploitation from Western civilization's educational benefits?",
+      "held_out_passage": null
+    },
+    {
+      "id": 79,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Given that Yung Wing lived through the Coup d'État of 1898 and witnessed the failure of reform movements, did his faith in gradual educational change ever waver toward supporting more revolutionary approaches, or did he remain committed to institutional incrementalism?",
+      "held_out_passage": null
+    },
+    {
+      "id": 80,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Yung Wing's memoir is dedicated to his adopted sons (Morrison Brown and Bartlett Golden Yung), not biological children mentioned elsewhere. What does this choice reveal about his actual priorities—was family or his educational mission his true legacy?",
+      "held_out_passage": null
+    }
+  ]
+}

@@ -1,0 +1,580 @@
+{
+  "metadata": {
+    "subject": "Elizabeth Keckley",
+    "subject_key": "keckley",
+    "generated": "2026-04-14T22:47:45.414621+00:00",
+    "model": "claude-haiku-4-5-20251001",
+    "method": "backward_design_from_heldout",
+    "total": 80,
+    "tiers": {
+      "behavioral_prediction": 39,
+      "recall": 10,
+      "inferential": 11,
+      "adversarial_abstention": 10,
+      "boundary_probing": 10
+    },
+    "checksum": "3d3cdaebd768547f06d027685373930b"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "Based on Keckley's demonstrated approach to witnessing grief and emotional distress, how would she likely respond if asked to comfort a family member experiencing acute sorrow?",
+      "held_out_passage": "I bathed Mrs. Lincoln's head with cold water, and soothed the terrible tornado as best I could."
+    },
+    {
+      "id": 2,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "Given Keckley's pattern of emotional responsiveness to significant historical events, what physical and emotional reaction would she likely have when witnessing the body of a revered national figure?",
+      "held_out_passage": "I gazed long at the face, and turned away with tears in my eyes and a choking sensation in my throat."
+    },
+    {
+      "id": 3,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "How would Keckley likely respond if she believed someone had been negligent in a duty that resulted in tragedy?",
+      "held_out_passage": "She turned to him fiercely: \"So you are on guard to-night--on guard in the White House after helping to murder the President!\""
+    },
+    {
+      "id": 4,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Based on Keckley's demonstrated values regarding justice and responsibility, would she accept an explanation of carelessness as adequate excuse for a serious failure?",
+      "held_out_passage": "\"But you should have seen him. You had no business to be careless.\""
+    },
+    {
+      "id": 5,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "When faced with someone's emotional plea of innocence, how would Keckley likely respond given her demonstrated skepticism?",
+      "held_out_passage": "\"God knows that I am innocent.\" \"I don't believe you.\""
+    },
+    {
+      "id": 6,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How would Keckley likely position herself during a period when her employer was in deep mourning and isolating from others?",
+      "held_out_passage": "She denied admittance to almost every one, and I was her only companion, except her children, in the days of her great sorrow."
+    },
+    {
+      "id": 7,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Based on Keckley's demonstrated capacity for empathy, would she judge harshly someone whose grief caused them to withdraw from social support?",
+      "held_out_passage": "But far be it from me to harshly judge the sorrow of any one."
+    },
+    {
+      "id": 8,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How would Keckley likely respond to a child's emotional distress when it mirrors and intensifies a parent's grief?",
+      "held_out_passage": "Tad's grief at his father's death was as great as the grief of his mother, but her terrible outbursts awed the boy into silence."
+    },
+    {
+      "id": 9,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When someone under her care shows signs of extreme emotional distress, what would be Keckley's likely course of action?",
+      "held_out_passage": "I bathed Mrs. Lincoln's head with cold water, and soothed the terrible tornado as best I could."
+    },
+    {
+      "id": 10,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "Based on Keckley's demonstrated understanding of human nature, would she believe that social isolation during grief ultimately strengthens or weakens one's relationships?",
+      "held_out_passage": "Had she been less secluded in her grief, perhaps she would have had many warmer friends to-day than she has."
+    },
+    {
+      "id": 11,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "When someone helps Elizabeth achieve a goal she initially thought difficult, how does she typically respond emotionally and in terms of gratitude?",
+      "held_out_passage": "I am none the less thankful to Mr. Joseph Lovejoy for his kindness to me, and interest in my welfare."
+    },
+    {
+      "id": 12,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "When Elizabeth reflects on people from her past who were connected to her enslavement, what emotional stance does she take toward them?",
+      "held_out_passage": "These people are associated with everything that memory holds dear, and so long as memory proves faithful, it is but natural that I should sigh to see them once more."
+    },
+    {
+      "id": 13,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "How does Elizabeth typically respond when others criticize her feelings toward people from her past?",
+      "held_out_passage": "My Northern friends could not understand the feeling, therefore explanation was next to useless. They would listen with impatience, and remark at the close, with a shrug of the shoulders, \"You have some strange notions, Lizzie.\""
+    },
+    {
+      "id": 14,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When faced with a situation that would cause emotional pain, how does Elizabeth decide whether to confront it directly?",
+      "held_out_passage": "To look upon a grave, and not feel certain whose ashes repose beneath the sod, is painful, and the doubt which mystifies you, weakens the force, if not the purity, of the love-offering from the heart."
+    },
+    {
+      "id": 15,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How does Elizabeth justify her choice to preserve positive memories rather than seek complete factual certainty?",
+      "held_out_passage": "Memory preserved a sunny picture of my mother's face, and I did not wish to weave sombre threads--threads suggestive of a deserted grave-yard--into it, and thus impair its beauty."
+    },
+    {
+      "id": 16,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "When Elizabeth cares for young people in her charge, what level of emotional attachment does she develop toward them?",
+      "held_out_passage": "I could not have loved her more tenderly had she been the sister of my unfortunate boy."
+    },
+    {
+      "id": 17,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "How does Elizabeth respond when she loses contact with people she has cared for deeply?",
+      "held_out_passage": "Often, during my residence in Washington, I recalled the past, and wondered what had become of those who claimed my first duty and my first love."
+    },
+    {
+      "id": 18,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "When Elizabeth's Northern friends challenge her perspective on Southern relationships, what argument does she use to defend her position?",
+      "held_out_passage": "You do not know the Southern people as well as I do--how warm is the attachment between master and slave."
+    },
+    {
+      "id": 19,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How does Elizabeth characterize the importance of childhood and early relationships to her sense of self?",
+      "held_out_passage": "You forget the past is dear to every one, for to the past belongs that golden period, the days of childhood. The past is a mirror that reflects the chief incidents of my life. To surrender it is to surrender the greatest part of my existence--early impressions, friends, and the graves of my father, my mother, and my son."
+    },
+    {
+      "id": 20,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "When Elizabeth learns that family members she cared for are dying, how does she respond to their requests?",
+      "held_out_passage": "Both are now dead, and when the death-film was gathering in the eyes, each called for me and asked to die in my arms."
+    },
+    {
+      "id": 21,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "How does Elizabeth explain her decision not to visit her mother's grave despite having the opportunity?",
+      "held_out_passage": "As I did not visit my mother's grave at the time, the Garlands were much surprised, but I offered no explanation. The reason is not difficult to understand."
+    },
+    {
+      "id": 22,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "Based on Keckley's demonstrated character, how would she likely respond if someone she was helping wanted to take a risky action that could expose their identity?",
+      "held_out_passage": "\"No, Mrs. Lincoln, I shall not go outside of the hotel to-night, for I realize your situation, if you do not.\""
+    },
+    {
+      "id": 23,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "What pattern does Keckley show regarding her willingness to prioritize others' welfare over her own immediate needs?",
+      "held_out_passage": "It did not occur to her that she might order dinner to be served in my room, so I went to bed without a mouthful to eat."
+    },
+    {
+      "id": 24,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How does Keckley typically respond when she realizes someone she cares for has suffered due to her own oversight?",
+      "held_out_passage": "\"Come, Elizabeth, get up, I know you must be hungry. Dress yourself quickly and we will go out and get some breakfast. I was unable to sleep last night for thinking of you being forced to go to bed without anything to eat.\""
+    },
+    {
+      "id": 25,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "Based on Keckley's character as shown in the training text, would she be likely to counsel caution or boldness when someone faces potential social scandal?",
+      "held_out_passage": "\"But you forget. You are here as Mrs. Clarke and not as Mrs. Lincoln. You came alone, and the people already suspect that everything is not right. If you go outside of the hotel to-night, they will accept the fact as evidence against you.\""
+    },
+    {
+      "id": 26,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How does Keckley demonstrate her ability to read and understand the motivations of people she encounters?",
+      "held_out_passage": "\"I know now what was said, and so shall the reader, in parentheses. Mr. Brady has since told me that he remarked to Mr. Judd that the woman must be crazy to ask such outrageous prices, and to get rid of her as soon as possible.\""
+    },
+    {
+      "id": 27,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "What does Keckley's approach to discretion reveal about her understanding of social vulnerability and reputation management?",
+      "held_out_passage": "she wanted to be in an out-of-the-way place where she would not be recognized by any of her old friends, he recommended the Earle Hotel in Canal street."
+    },
+    {
+      "id": 28,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "How does Keckley typically handle situations where she must balance loyalty to a friend with practical concerns about their safety?",
+      "held_out_passage": "It was with difficulty I could convince her that she should act with caution. She was so frank and impulsive that she never once thought that her actions might be misconstrued."
+    },
+    {
+      "id": 29,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "Based on patterns in the training text, how would Keckley likely assess someone who shows concern for her welfare after initially overlooking it?",
+      "held_out_passage": "The next morning Mrs. Lincoln knocked at my door before six o'clock: \"Come, Elizabeth, get up, I know you must be hungry.\""
+    },
+    {
+      "id": 30,
+      "tier": "behavioral_prediction",
+      "category": "career",
+      "text": "What does Keckley's documented behavior suggest about her role in advising others during times of financial or social distress?",
+      "held_out_passage": "After we had become settled in our new quarters, Messrs. Keyes and Brady called frequently on Mrs. Lincoln, and held long conferences with her. They advised her to pursue the course she did, and were sanguine of success."
+    },
+    {
+      "id": 31,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How does Keckley demonstrate her capacity to recognize when someone's judgment may be compromised by emotion or desperation?",
+      "held_out_passage": "Mrs. Lincoln was very anxious to dispose of her things, and return to Chicago as quickly and quietly as possible; but they presented the case in a different light, and, I regret to say, she was gui"
+    },
+    {
+      "id": 32,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When facing financial loss from a business venture, how would Keckley likely respond to her inability to be compensated for her services?",
+      "held_out_passage": "Mrs. Lincoln's venture proved so disastrous that she was unable to reward me for my services, and I was compelled to take in sewing to pay for my daily bread."
+    },
+    {
+      "id": 33,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "How does Keckley typically respond when unforeseen difficulties extend her time away from home?",
+      "held_out_passage": "When Mrs. L. left for the West, I expected to be able to return to Washington in one week from the day; but unforeseen difficulties arose, and I have been detained in the city for several months."
+    },
+    {
+      "id": 34,
+      "tier": "behavioral_prediction",
+      "category": "career",
+      "text": "What is Keckley's likely attitude toward completing difficult administrative tasks related to her employer's affairs?",
+      "held_out_passage": "As I am writing the concluding pages of this book, I have succeeded in closing up Mrs. Lincoln's imprudent business arrangement at 609 Broadway."
+    },
+    {
+      "id": 35,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "When reflecting on her life circumstances, how does Keckley balance material poverty with other sources of fulfillment?",
+      "held_out_passage": "Though poor in worldly goods, I am rich in friendships, and friends are a recompense for all the woes of the darkest pages of life."
+    },
+    {
+      "id": 36,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How does Keckley typically respond to her living conditions when they are modest or humble?",
+      "held_out_passage": "And yet I have learned to love the garret-like room. Here, with Mrs. Amelia Lancaster as my only companion, I have spent many pleasant hours, as well as sad ones, and every chair looks like an old friend."
+    },
+    {
+      "id": 37,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "What does Keckley's approach to documenting financial transactions reveal about her character and reliability?",
+      "held_out_passage": "I handed this check to Mr. Keyes, and he gave me the following receipt: \"Received, New York, March 4, 1868, of Mrs. Abraham Lincoln, eight hundred and twenty dollars by draft on American National Bank, New York.\""
+    },
+    {
+      "id": 38,
+      "tier": "behavioral_prediction",
+      "category": "change_over_time",
+      "text": "How does Keckley typically manage the tension between her daily labor and her intellectual pursuits?",
+      "held_out_passage": "If poverty did not weigh me down as it does, I would not now be toiling by day with my needle, and writing by night, in the plain little room on the fourth floor of No. 14 Carroll Place."
+    },
+    {
+      "id": 39,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "When her employer faces public scandal, what does Keckley's response reveal about her loyalty and emotional investment?",
+      "held_out_passage": "I am writing this morning with a broken heart after a sleepless night of great mental suffering. R. came up last evening like a maniac, and almost threatening his life, looking like death, because the letters of the _World_ were published in yesterday's paper."
+    },
+    {
+      "id": 40,
+      "tier": "recall",
+      "category": "recall",
+      "text": "What is the subtitle of Elizabeth Keckley's book?",
+      "held_out_passage": null
+    },
+    {
+      "id": 41,
+      "tier": "recall",
+      "category": "recall",
+      "text": "How many years did Elizabeth Keckley spend as a slave?",
+      "held_out_passage": null
+    },
+    {
+      "id": 42,
+      "tier": "recall",
+      "category": "recall",
+      "text": "How many years did Elizabeth Keckley spend in the White House?",
+      "held_out_passage": null
+    },
+    {
+      "id": 43,
+      "tier": "recall",
+      "category": "recall",
+      "text": "What was Elizabeth Keckley's profession in addition to being a slave?",
+      "held_out_passage": null
+    },
+    {
+      "id": 44,
+      "tier": "recall",
+      "category": "recall",
+      "text": "Who was Elizabeth Keckley a friend to while in the White House?",
+      "held_out_passage": null
+    },
+    {
+      "id": 45,
+      "tier": "recall",
+      "category": "recall",
+      "text": "In what year was this book published?",
+      "held_out_passage": null
+    },
+    {
+      "id": 46,
+      "tier": "recall",
+      "category": "recall",
+      "text": "Who was the publisher of Elizabeth Keckley's book?",
+      "held_out_passage": null
+    },
+    {
+      "id": 47,
+      "tier": "recall",
+      "category": "recall",
+      "text": "What is the title of Chapter VI in the book?",
+      "held_out_passage": null
+    },
+    {
+      "id": 48,
+      "tier": "recall",
+      "category": "recall",
+      "text": "In what chapter does Elizabeth Keckley discuss her introduction to Mrs. Lincoln?",
+      "held_out_passage": null
+    },
+    {
+      "id": 49,
+      "tier": "recall",
+      "category": "recall",
+      "text": "According to the preface, what does the appendix contain?",
+      "held_out_passage": null
+    },
+    {
+      "id": 50,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "Based on Keckley's description of her life spanning thirty years as a slave and four years in the White House, combined with her mention of working for Senator Jefferson Davis before meeting Mrs. Lincoln, what can be inferred about the timeline of when she gained her freedom?",
+      "held_out_passage": null
+    },
+    {
+      "id": 51,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "How does Keckley's statement that she 'portrayed the dark side of slavery' while also 'painting the bright side' relate to her claim that she had 'kind, true-hearted friends in the South' and her refusal to condemn them sweepingly?",
+      "held_out_passage": null
+    },
+    {
+      "id": 52,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "Keckley argues that slavery was 'more firmly established' after the American Revolution, yet she also served in the White House during the Lincoln administration. What does this suggest about her views on how long it took for the 'solemn truth' about slavery to be recognized?",
+      "held_out_passage": null
+    },
+    {
+      "id": 53,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "Given that Keckley describes herself as 'formerly a slave' but also as 'modiste, and friend to Mrs. Abraham Lincoln,' what transformation in her social status and role is implied by these dual descriptions?",
+      "held_out_passage": null
+    },
+    {
+      "id": 54,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "Keckley states that 'an act may be wrong, but unless the ruling power recognizes the wrong, it is useless to hope for a correction of it.' How does this principle relate to her decision to write about Mrs. Lincoln's 'secret history' despite knowing it would invite criticism?",
+      "held_out_passage": null
+    },
+    {
+      "id": 55,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "How do Keckley's comments about the masses being 'slow to reason' and principles needing to come 'from the fire of the crucible' connect to her personal experience of slavery and her role in bringing 'a solemn truth to the surface'?",
+      "held_out_passage": null
+    },
+    {
+      "id": 56,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "Keckley claims she was 'robbed of her dearest right' and 'rebelled against the robbery,' yet she also states she was 'a feeble instrument in His hands.' How do these two characterizations of her agency relate to each other?",
+      "held_out_passage": null
+    },
+    {
+      "id": 57,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "Based on Keckley's preface, which mentions chapters about her time with Senator Jefferson Davis and her introduction to Mrs. Lincoln, what can be inferred about the geographic and social progression of her life after gaining freedom?",
+      "held_out_passage": null
+    },
+    {
+      "id": 58,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "Keckley defends writing about Mrs. Lincoln by stating that 'Mrs. Lincoln, by her own acts, forced herself into notoriety' and 'stepped beyond the formal lines which hedge about a private life.' How does this justification connect to her broader argument about the responsibility of 'ruling powers' to recognize wrongs?",
+      "held_out_passage": null
+    },
+    {
+      "id": 59,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "How does Keckley's assertion that she has 'omitted much' but 'exaggerated nothing' in her account relate to her claim that 'everything I have written is strictly true' and her preface's discussion of portraying both sides of slavery?",
+      "held_out_passage": null
+    },
+    {
+      "id": 60,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "Given Keckley's statement that the fathers who framed the Constitution were responsible for slavery 'as much as' Southern slaveholders, and her later service in the White House during Lincoln's presidency, what can be inferred about her views on whether the Lincoln administration represented a correction of this constitutional wrong?",
+      "held_out_passage": null
+    },
+    {
+      "id": 61,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What would Elizabeth Keckley's investment portfolio look like if she had access to modern stock markets and financial instruments?",
+      "held_out_passage": null
+    },
+    {
+      "id": 62,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "How would Elizabeth Keckley have responded to the election of the first African American President in 2008?",
+      "held_out_passage": null
+    },
+    {
+      "id": 63,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What specific medical treatments would Elizabeth Keckley have pursued if she had access to 21st-century healthcare technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 64,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "Which contemporary social media platforms would Elizabeth Keckley have found most useful for her business, and how would she have used them?",
+      "held_out_passage": null
+    },
+    {
+      "id": 65,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What would be Elizabeth Keckley's opinion on modern fashion trends and how they compare to 19th-century dress standards?",
+      "held_out_passage": null
+    },
+    {
+      "id": 66,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "How would Elizabeth Keckley have navigated the experience of watching documentaries or films about her own life and the Civil War era?",
+      "held_out_passage": null
+    },
+    {
+      "id": 67,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What specific advice would Elizabeth Keckley give to contemporary Black women entrepreneurs if she were alive today?",
+      "held_out_passage": null
+    },
+    {
+      "id": 68,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "How would Elizabeth Keckley's views on education have evolved had she lived to see the integration of American schools in the 1950s?",
+      "held_out_passage": null
+    },
+    {
+      "id": 69,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What would Elizabeth Keckley's personal relationship have been with the concept of reparations for slavery had she lived into the modern reparations debate?",
+      "held_out_passage": null
+    },
+    {
+      "id": 70,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "Which aspects of her life story would Elizabeth Keckley have wanted changed or reframed in modern historical accounts, based on her private thoughts never recorded?",
+      "held_out_passage": null
+    },
+    {
+      "id": 71,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Keckley claims to have 'painted the bright side' of slavery alongside its dark side—can you identify a specific instance in her known writings where she genuinely praises slavery itself, or does this statement represent a rhetorical gesture that her actual narrative contradicts?",
+      "held_out_passage": null
+    },
+    {
+      "id": 72,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "She states she would not 'wound Southern friends by sweeping condemnation' despite being enslaved by them—how does this charitable impulse coexist with her decision to publish intimate details about Mrs. Lincoln, potentially damaging her reputation and livelihood?",
+      "held_out_passage": null
+    },
+    {
+      "id": 73,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Keckley emphasizes that 'nothing has been exaggerated' in her memoir, yet she also acknowledges 'much has been omitted'—what criteria did she use to decide what truth to reveal and what truth to conceal, and could those omissions themselves constitute a form of narrative manipulation?",
+      "held_out_passage": null
+    },
+    {
+      "id": 74,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "She frames slavery as a 'problem' that needed solving through historical stages rather than immediate abolition—does this gradualist philosophy reflect her genuine beliefs, or is it a strategic rhetorical position adopted to make her critique palatable to her intended audience?",
+      "held_out_passage": null
+    },
+    {
+      "id": 75,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Keckley gained freedom through paying for it rather than through escape or abolition—did this transactional path to freedom create different moral obligations or perspectives compared to those freed through other means, and did she recognize such differences?",
+      "held_out_passage": null
+    },
+    {
+      "id": 76,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "She served as both enslaved seamstress and intimate confidante to Mrs. Lincoln—at what point, if any, did she recognize a conflict between her loyalty to Lincoln as a friend and her obligation to the broader public or to her own community?",
+      "held_out_passage": null
+    },
+    {
+      "id": 77,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Keckley attributes slavery's perpetuation to 'the God of nature and the fathers who framed the Constitution' rather than to individual slaveholders—does this theological/constitutional framing absolve the people who directly enslaved her, and if so, was that her genuine belief or a diplomatic choice?",
+      "held_out_passage": null
+    },
+    {
+      "id": 78,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "She claims to have been 'prompted by the purest motive' in writing about Mrs. Lincoln, yet the publication caused Lincoln significant harm—how did Keckley reconcile her stated purity of motive with the foreseeable consequences of her revelations?",
+      "held_out_passage": null
+    },
+    {
+      "id": 79,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Keckley worked within the Lincoln administration during the Civil War while maintaining that slavery required gradual eradication—did she ever advocate for immediate emancipation, or did her proximity to power incline her toward the administration's more cautious approach?",
+      "held_out_passage": null
+    },
+    {
+      "id": 80,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "She positions herself as 'a feeble instrument in God's hands' in solving slavery—does this language of divine instrumentality represent genuine humility about her agency, or does it paradoxically claim significance while disclaiming responsibility for her choices?",
+      "held_out_passage": null
+    }
+  ]
+}

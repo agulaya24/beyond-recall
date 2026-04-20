@@ -1,8 +1,24 @@
 # Memory Systems vs Behavioral Specification — Study Results & Methodology
 
 **Created:** Session 103 (2026-04-08)
-**Updated:** Session 105 (2026-04-11)
-**Status:** Hamerton COMPLETE. Franklin autobiography COMPLETE. Franklin obscure letters COMPLETE (judging). C8 raw corpus COMPLETE. Up to 6 judges from 3 providers.
+**Updated:** Session 113 (2026-04-18) — Full-stack refresh, Letta stateful-agent subsection, wrong-spec v2, Tier 2 circularity
+**Status:** Full-stack refresh complete across all 14 subjects. Letta stateful-agent test complete (Hamerton; Ebers follow-up in flight). Tier 2 circularity replication complete (3 subjects × 2 non-Haiku response models × GPT-5.4-generated battery). Wrong-spec v2 complete.
+
+> **Single source of truth for all numbers:** [`DATA_REFERENCE.md`](DATA_REFERENCE.md). The tables in §"Hamerton Results (COMPLETE — 4-Judge Consensus)" and §"The Meta-Hypothesis" below are historical (S105 brief-only run) and preserved for traceability. **For current, paper-ready values use DATA_REFERENCE.md.** See §S113 Summary immediately below for the current-state overview.
+
+## S113 Summary (current-state overview)
+
+**Flagship framing.** Base Layer is not a memory system. Layered on top of four commercial ones — Mem0, Letta, Zep, Supermemory — it improves all four on the users the model doesn't already know. The mechanism: there is an interpretive layer between *what a person said* and *how a person reasons* that retrieval alone does not supply — measurable via held-out behavioral prediction, and additive to every memory system tested here. The population of interest is the ~99% of real AI users who have negligible pretraining representation of their personal behavior; the study's low-baseline slice (n=9, C5 ≤ 2.0) approximates them.
+
+**Judge panel:** 7 judges, 3 providers. Haiku 4.5, Sonnet 4.6, Opus 4.6 (Anthropic), GPT-4o, GPT-5.4 (OpenAI), Gemini 2.5 Flash, Gemini 2.5 Pro (Google). Gemini Pro has coverage limited to Hamerton + Tier 2 replication only — effective 6-judge panel on the global gradient's main conditions. Paper methodology describes 7 judges; global-subjects effective coverage is 6. GPT-5.4 parse-failure rate is elevated at ~19% (detailed in DATA_REFERENCE §9); Gemini Pro parse-failure is ~0.5% with a +1.0 score offset vs the non-Gemini panel. Non-Gemini Krippendorff α = 0.659 (substantial); all-7 α = 0.535 (moderate).
+
+**Wrong-spec controls:** Both v1 (Franklin's spec applied to 13 non-Franklin subjects; 14-subject mean = 1.86) and v2 (random derangement, seed=42; 14-subject mean = 2.30) are reported. Primary interpretation is v2 as closer to a true random control. Both reported side-by-side. Correct-spec mean = 2.55.
+
+**Letta stateful-agent test (§4.3.1):** Single-subject test on Hamerton, Packer-methodology stateful-agent loop with 30-turn ingestion and self-editing memory blocks. Final `human` block 22,472 characters (~5,600 tokens) vs Base Layer full-stack spec 34,579 characters (~8,500 tokens). Matched-response-model test: Letta block 3.24 (6 judges), Base Layer spec 3.04 (7 judges). Structural parity at 65% context size. Ebers follow-up in flight. The main memory-system table uses Letta's archival path; the stateful-agent test is a separate architectural comparison.
+
+**Controlled vs native memory-system configurations:** Both reported. Controlled = identical pre-extracted fact set given to every system. Native = each system's own ingestion pipeline on raw corpus. Low-baseline slice (n=9) is the population of interest; see DATA_REFERENCE §4.
+
+**Analysis plan pre-registration:** Locked in [`ANALYSIS_PLAN_LOCK.md`](ANALYSIS_PLAN_LOCK.md) before final runs. Primary stats: Wilcoxon signed-rank on subject-level means (N=14), Krippendorff α ordinal inter-judge agreement. Unit of inference: subject.
 
 ---
 
@@ -20,7 +36,7 @@ The behavioral specification identifies **durable patterns that show up over tim
 
 ### Frontier Models Already Do This — For Famous People
 
-The Franklin results reveal that frontier LLMs already embed behavioral understanding from pretraining — but only for well-documented public figures. Franklin's autobiography baseline (3.99) and obscure letters baseline (3.50) show genuine behavioral inference, not just recall. The model has internalized enough about Franklin to predict his behavior in unfamiliar contexts. This is a form of behavioral compression that happens during pretraining. The spec provides this same capability for the 99.99% of people the model has never encountered.
+The Franklin results reveal that frontier LLMs already embed behavioral understanding from pretraining — but only for well-documented public figures. Franklin's autobiography baseline (3.99) and obscure letters baseline (3.50) show genuine behavioral inference, not just recall. The model has internalized enough about Franklin to predict his behavior in unfamiliar contexts. This is a form of behavioral compression that happens during pretraining. The spec provides this same capability for the ~99% of real AI users the model has never encountered.
 
 ---
 
@@ -30,7 +46,7 @@ The Franklin results reveal that frontier LLMs already embed behavioral understa
 
 | Subject | Known to LLM? | Source | Training chapters | Held-out chapters | Baseline score |
 |---|---|---|---|---|---|
-| **Philip Gilbert Hamerton** (1834-1894) | No (baseline 1.41/5) | Autobiography, Project Gutenberg | Ch 1-10 (25K words) | Ch 11-32 | 1.41 |
+| **Philip Gilbert Hamerton** (1834-1894) | No (baseline 1.41/5 S105; **1.25 S113**) | Autobiography, Project Gutenberg | Ch 1-10 (25K words) | Ch 11-32 | 1.41 (S105) / **1.25 (S113, current paper value)** |
 | **Benjamin Franklin** (1706-1790) | Yes (famous) | Autobiography, Project Gutenberg | Ch 0-10 (41K words) | Ch 11-19 | 4.10 (Haiku) |
 | **Benjamin Franklin** (obscure letters) | Partial | Complete Works Vol 2 (letters/essays) | First half (~63K words) | Second half (~89K words) | ~3.50 (Haiku) |
 
@@ -126,9 +142,11 @@ All responses generated by **Claude Haiku 4.5** (claude-haiku-4-5-20251001). Tem
 
 ---
 
-## Hamerton Results (COMPLETE — 4-Judge Consensus)
+## Hamerton Results (COMPLETE — 4-Judge Consensus) — S105 BRIEF-ONLY RUN (historical)
 
-### 4-Judge Comparison — Behavioral Prediction (39 questions)
+> **This section preserves the S105 4-judge brief-only run.** For current-state Hamerton numbers use DATA_REFERENCE.md §8 (Table 4.2 compression curve). Under the S113 full-stack refresh: C5 = 1.25, C2a = 3.04, C3 Mem0 = 2.77, C3 Supermemory = 2.86, C4a = 3.22. The table immediately below is not the paper's current table.
+
+### 4-Judge Comparison — Behavioral Prediction (39 questions) — S105 HISTORICAL
 
 | Condition | Haiku | Sonnet | Opus | GPT-4o | 4-Judge Avg |
 |---|---|---|---|---|---|
@@ -314,7 +332,9 @@ Each condition tests a specific hypothesis. This is the complete map of what was
 
 **Why this matters:** If baseline drops (preliminary 2.73 vs autobiography 3.99), it proves the autobiography result was recall, not prediction. And if the spec helps at 2.73 baseline, the spec's value extends to partially-known subjects — the realistic use case.
 
-### The Meta-Hypothesis (CONFIRMED — N=14, 11 Cultures)
+### The Meta-Hypothesis (CONFIRMED — N=14, 11 Cultures) — S105 BRIEF-ONLY RUN (historical)
+
+> **The gradient table below is the S105 brief-only run values.** The S113 full-stack refresh gradient (current paper values) is in DATA_REFERENCE.md §1. Key differences: C5 baselines drift (e.g. Sunity Devee 1.00 → 1.03, Hamerton 1.37 → 1.25, Augustine 2.98 → 2.79, Zitkala-Sa 3.20 → 2.60); best-spec condition and % improvement numbers drift accordingly. The paper's current gradient uses 9/9 low-baseline (C5 ≤ 2.0) positive and 12/14 all-subject positive with Wilcoxon p = 0.0063 (C5 vs C4a).
 
 **The spec's value is inversely proportional to the model's prior knowledge of the subject.**
 

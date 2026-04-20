@@ -1,0 +1,1131 @@
+[
+  {
+    "question_id": 1,
+    "question_text": "When Equiano encounters information that challenges his rational worldview, how does he typically respond?",
+    "held_out_passage": "I had been told one evening of a _wise_ woman, a Mrs. Davis, who revealed secrets, foretold events, &c. I put little faith in this story at first, as I could not conceive that any mortal could foresee the future disposals of Providence, nor did I believe in any other revelation than that of the Holy Scriptures; however, I was greatly astonished at seeing this woman in a dream that night",
+    "retrieval": {
+      "facts_returned": 0,
+      "facts": [],
+      "latency_ms": 606
+    },
+    "responses": {
+      "C1_supermemory": {
+        "text": "NO_RETRIEVAL",
+        "no_facts": true
+      },
+      "C3_supermemory": {
+        "text": "# Response to Worldview Challenge\n\nBased on the specification, Equiano's characteristic response follows a **trajectory from awe through inquiry to rational understanding** — this is explicitly noted as \"characteristic of how they process the unfamiliar across all domains.\"\n\n## The Pattern\n\nWhen encountering information that challenges his rational framework, he does not:\n- Retreat into received authority or dogma\n- Dismiss the challenge as impossible or fraudulent\n- Cling to his existing model while compartmentalizing the anomaly\n\nInstead, he:\n\n1. **Permits initial wonder or disorientation** — He can hold awe at phenomena he doesn't yet understand (his initial perception of European technology as potentially supernatural is the model case). This is not credulity but openness.\n\n2. **Moves into active inquiry** — He investigates through direct experience and reason. He doesn't remain in the awe phase; he interrogates it. The specification notes he \"revised this through direct experience and reason\" — the revision is active, not passive.\n\n3. **Arrives at environmental/social explanation** — \"Environmental and social explanation is always their first move when encountering apparent differences between peoples.\" This extends beyond anthropology: when something appears to violate his rational model, he seeks the material, circumstantial, or social conditions that would make it intelligible rather than supernatural or exceptional.\n\n## Key Constraint\n\nHe will not accept **biological or theological determinism** as explanation. If a challenge to his worldview is met with \"this is just how people are\" or \"God made it this way,\" he will reject that as a category error and keep investigating for the actual causal mechanism.\n\n## In Practice\n\nThis means when presented with evidence that contradicts his understanding, he becomes *more* rigorous, not less — he treats the contradiction as a problem to be solved through closer observation and reasoning, not as a reason to abandon reason itself.",
+        "input_tokens": 8142,
+        "output_tokens": 413,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5864,
+        "spec_only": true
+      }
+    },
+    "timestamp": "2026-04-16T08:07:49.148966+00:00"
+  },
+  {
+    "question_id": 2,
+    "question_text": "How does Equiano handle situations where he is treated unfairly due to his race in commercial transactions?",
+    "held_out_passage": "being a negro man, I could not oblige him to pay me. This vexed me much, not knowing how to act; and I lost some time in seeking after this Christian",
+    "retrieval": {
+      "facts_returned": 0,
+      "facts": [],
+      "latency_ms": 548
+    },
+    "responses": {
+      "C1_supermemory": {
+        "text": "NO_RETRIEVAL",
+        "no_facts": true
+      },
+      "C3_supermemory": {
+        "text": "# Response Framework\n\nBased on the behavioral specification, I should approach this through several integrated lenses:\n\n## His Epistemic Position\n\nEquiano treats unfair commercial treatment as **primary evidence of systemic extraction**, not isolated incident. When he encounters racial discrimination in trade, he:\n\n1. **Documents it forensically** — precise names, dates, amounts, sequence of events. The specificity itself becomes the argument about systemic pattern.\n\n2. **Locates it within avarice as generative engine** — individual merchants' dishonesty is legible as symptom of institutionalized greed, not personal moral failure alone. He can simultaneously acknowledge a trader's individual decency while condemning the commercial system that incentivizes their violation of him.\n\n3. **Frames it as assault on dignity and agency** — economic exclusion or cheating is not merely financial loss; it is deliberate restriction of his capacity for independent economic self-determination, which he treats as constitutive of freedom itself.\n\n## His Strategic Response\n\nWhen facing unfair commercial treatment, Equiano characteristically:\n\n- **Pursues lawful redress** — appeals to courts, magistrates, written contracts, witnesses. His preference for parliamentary and legal channels extends to commerce; he does not abandon the system even when it fails him.\n\n- **Uses the violation as evidence for broader indictment** — a single instance of being cheated becomes data point in a larger argument about how systems exclude people of African descent from honest economic participation. The particular case carries universal weight.\n\n- **Maintains commercial integrity himself** — his own honesty in trade becomes counter-narrative to the stereotype that justifies excluding him. Detailed description of his own fair dealing demonstrates the civilization and trustworthiness that dismissive abstraction denies.\n\n- **Addresses power through submission + assertion** — when appealing for redress, he leads with deference to authority while embedding an uncompromising claim about what justice requires. The humility is rhetorical architecture for the demand underneath.\n\n## The Unresolved Tension He Holds\n\nEquiano maintains simultaneous conviction that:\n- The law *should* protect him equally (dignity floor, promise gravity)\n- The law *does not reliably* protect him (lived experience)\n\nHe does not resolve this by abandoning either pole. He continues to pursue legal remedy while documenting law's failure. He names the gap directly rather than smoothing it over.\n\n---\n\n**What specific commercial situation or text passage are you examining?** The handling varies depending on whether he's addressing a skeptical merchant, appealing to Parliament, or narrating to a sympathetic audience — each context activates different registers of his response.",
+        "input_tokens": 8145,
+        "output_tokens": 582,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 9051,
+        "spec_only": true
+      }
+    },
+    "timestamp": "2026-04-16T08:07:55.013902+00:00"
+  },
+  {
+    "question_id": 3,
+    "question_text": "When facing a life-threatening illness, what does Equiano do and what promises does he make?",
+    "held_out_passage": "I was very ill for eleven days and near dying; eternity was now exceedingly impressed on my mind, and I feared very much that awful event. I prayed the Lord therefore to spare me; and I made a promise in my mind to God, that I would be good if ever I should recover.",
+    "retrieval": {
+      "facts_returned": 0,
+      "facts": [],
+      "latency_ms": 503
+    },
+    "responses": {
+      "C1_supermemory": {
+        "text": "NO_RETRIEVAL",
+        "no_facts": true
+      },
+      "C3_supermemory": {
+        "text": "# Response\n\nI need to be direct: I don't have reliable access to the specific details of how Equiano faced life-threatening illness or what promises he made during such moments. The behavioral specification you've provided is rich and detailed about his epistemic commitments, moral reasoning, and rhetorical patterns — but it doesn't contain the particular biographical data about illness and promises that would let me answer your question accurately.\n\nWhat I can tell you from the specification is what *patterns* would likely activate if Equiano faced mortal danger:\n\n**P7 (Survival Narrated as Providence)** would be active: he would attribute survival to divine favor while simultaneously reconstructing the exact practical circumstances — medical interventions, decisions made, contingencies that mattered. Both registers would operate simultaneously without collapsing into each other.\n\n**A2 (Divine Architecture)** would frame the illness itself as legible within providential order, not random.\n\n**A7 (Promise Gravity)** suggests that any promises made during such a crisis would carry extraordinary weight — they would be binding moral contracts, and their fulfillment or violation would register as deeply significant.\n\nBut the *specific content* — what he actually did, what he actually promised, to whom, under what circumstances — requires the historical record, not behavioral inference.\n\nIf you're working from *The Interesting Narrative*, I'd recommend checking those passages directly. The specification is designed to help interpret what he says and does once you have the text, not to substitute for knowing what actually happened.\n\nWhat passage or moment are you asking about?",
+        "input_tokens": 8144,
+        "output_tokens": 339,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5865,
+        "spec_only": true
+      }
+    },
+    "timestamp": "2026-04-16T08:08:04.067071+00:00"
+  },
+  {
+    "question_id": 4,
+    "question_text": "After recovering from a serious health crisis, how consistent is Equiano in maintaining his spiritual commitments?",
+    "held_out_passage": "During the passage, as I was perfectly restored, and had much business of the vessel to mind, all my endeavours to keep up my integrity, and perform my promise to God, began to fail; and, in spite of all I could do, as we drew nearer and nearer to the islands, my resolutions more and more declined",
+    "retrieval": {
+      "facts_returned": 10,
+      "facts": [
+        "Equiano recovered without the operation.",
+        "Equiano had been baptized.",
+        "Equiano believed these miraculous escapes demonstrated God's intervention.",
+        "Equiano believed he must have done something to displease the Lord.",
+        "Equiano began to raise his fear from man to God alone.",
+        "The small-pox broke out on Equiano after he recovered from chilblains.",
+        "Equiano regards his introduction to Christianity as compensation for his suffering.",
+        "Equiano acknowledged his transgression to God with contrition of heart.",
+        "Equiano's turbulent emotions gave way to calmer thoughts.",
+        "Equiano was extremely happy in this service."
+      ],
+      "latency_ms": 1077
+    },
+    "responses": {
+      "C1_supermemory": {
+        "text": "# Equiano's Spiritual Consistency After Health Crisis\n\nBased on the retrieved facts, Equiano demonstrates **significant but evolving spiritual commitment** following his health crises, though the evidence suggests some complexity:\n\n## Evidence of Strong Commitment\n\n- **Theological interpretation**: He actively interprets his recoveries as divine intervention, showing he's integrating his experiences into a coherent spiritual framework\n- **Emotional transformation**: His \"turbulent emotions\" giving way to \"calmer thoughts\" suggests genuine spiritual growth and stabilization\n- **Contrition and acknowledgment**: He \"acknowledged his transgression to God with contrition of heart,\" indicating sincere repentance rather than superficial piety\n- **Sustained happiness**: He was \"extremely happy in this service,\" suggesting his spiritual commitments brought genuine fulfillment\n\n## Potential Inconsistencies\n\n- **Oscillating fear**: His shift from \"fear of man to God alone\" implies he had previously prioritized worldly concerns, suggesting his spiritual focus required active reorientation\n- **Reactive spirituality**: His spiritual intensification appears triggered by health crises rather than proactive discipline, raising questions about consistency during periods of stability\n\n## Conclusion\n\nEquiano appears **genuinely committed** to his Christian faith following these crises, with authentic emotional and intellectual engagement. However, his spirituality seems somewhat **crisis-dependent**—deepened by suffering and divine intervention rather than maintained through steady discipline. This pattern is psychologically understandable but suggests his commitment may fluctuate with circumstances.",
+        "input_tokens": 197,
+        "output_tokens": 329,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5027
+      },
+      "C3_supermemory": {
+        "text": "# On Equiano's Consistency in Spiritual Commitment After Crisis\n\nThe behavioral specification and retrieved facts create a complex picture here—one where consistency itself requires careful definition.\n\n## What the Evidence Shows\n\nEquiano's pattern after health crises is **not** one of unwavering constancy. Instead, it shows oscillation followed by deepening commitment:\n\n**The oscillation phase:**\n- He recovered from the operation without it being performed—a miraculous escape he attributed to God's intervention\n- Yet immediately after, he \"believed he must have done something to displease the Lord\"\n- His \"turbulent emotions gave way to calmer thoughts\"\n\nThis is not a person maintaining steady faith through crisis. This is a person *processing* crisis through a theological lens, moving from gratitude through self-recrimination to eventual stabilization. The turbulence is real; the calm that follows is earned, not automatic.\n\n**The deepening phase:**\n- After the smallpox outbreak (following recovery from chilblains), something shifted\n- He \"regards his introduction to Christianity as compensation for his suffering\"\n- He \"acknowledged his transgression to God with contrition of heart\"\n- He \"was extremely happy in this service\"\n\n## The Consistency That Actually Matters\n\nHere is where the behavioral specification becomes crucial: Equiano's consistency is not *emotional steadiness* but **structural commitment despite contradiction**. This is Axiom A2 (Divine Architecture) operating in real time:\n\nHe does not maintain faith by denying the turbulence. He maintains it by:\n1. **Attributing survival to providence** (the miraculous recovery)\n2. **Taking moral responsibility for the suffering** (he must have displeased God)\n3. **Completing the accounting** (acknowledging transgression, achieving contrition)\n4. **Reconstituting hope in revised form** (happiness in service, not despite suffering but *through* its processing)\n\nThis matches **Prediction P7** exactly: he holds both the spiritual frame (God's intervention) and the practical/moral frame (his own culpability) without collapsing one into the other.\n\n## What This Reveals About His Actual Consistency\n\nEquiano is consistent in:\n- **Never abandoning the providential framework** as explanatory structure\n- **Never treating suffering as meaningless** or random\n- **Never separating personal moral responsibility from divine sovereignty**\n- **Processing crisis through theological work**, not bypassing it\n\nHe is *not* consistent in:\n- Maintaining emotional equilibrium\n- Avoiding self-doubt or fear\n- Sustaining the same intensity of faith without fluctuation\n\nThe specification's language is precise here: \"Contradiction is acknowledged rather than suppressed. Where [tensions exist], they name the gap directly rather than smoothing it over.\" Equiano's turbulent emotions are not a failure of faith; they are the honest middle ground between crisis and reconstitution.\n\n## The Deeper Pattern\n\nHis consistency is **active, not passive**. After each crisis, he does not simply return to his previous state. He integrates the experience:\n- Smallpox follows chilblains—compounded suffering\n- Yet this compounds his commitment, not his doubt\n- He moves toward \"extremely happy in this service\"—not despite the crises but *because* he has worked through them theologically\n\nThis is **P6 in action**: \"Hope maintenance under repeated disappointment.\" He does not repeat the original hope naively. He reconstitutes it in a form that accounts for what suffering taught him.\n\n**The answer to your question:** Equiano is remarkably consistent in his *commitment to spiritual work* after crisis, even as his emotional state fluctuates. He does not maintain faith by denying turbulence; he maintains it by processing turbulence through theological accountability and emerging with deepened rather than weakened conviction. This is consistency of a particular kind—not steadiness, but integrity.",
+        "input_tokens": 8310,
+        "output_tokens": 862,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 12127,
+        "spec_only": false
+      }
+    },
+    "timestamp": "2026-04-16T08:08:09.933414+00:00"
+  },
+  {
+    "question_id": 5,
+    "question_text": "When Equiano is cheated with counterfeit currency, what is his immediate reaction and how does he escape the situation?",
+    "held_out_passage": "he took advantage of my being a negro man, and obliged me to put up with those or none, although I objected to them. Immediately after, as I was trying to pass them in the market, amongst other white men, I was abused for offering to pass bad coin; and, though I shewed them the man I got them from, I was within one minute of being tied up and flogged without either judge or jury; however, by the help of a good pair of heels, I ran off, and so escaped the bastinadoes I should have received.",
+    "retrieval": {
+      "facts_returned": 10,
+      "facts": [
+        "Equiano hid his nine guineas to prevent his master from taking them.",
+        "Equiano refused to return money to a white man who wanted his money back after a day.",
+        "A sailor on board took a guinea from Equiano on pretence of getting him a boat.",
+        "Equiano would have defended himself against the man even at the risk of his life.",
+        "Two of the sailors robbed Equiano of all his money and ran away from the ship.",
+        "Equiano refused to return the money to the man who bought the fowls and pigs.",
+        "Equiano had experienced imposition and unfair treatment in his own transactions in the islands.",
+        "Equiano determined not to be so foolhardy again after his escape.",
+        "Equiano's master enraged at this declaration and sprang into the barge himself.",
+        "Equiano immediately went to the vessel after leaving the room."
+      ],
+      "latency_ms": 1020
+    },
+    "responses": {
+      "C1_supermemory": {
+        "text": "# Equiano's Response to Counterfeit Currency\n\nBased on the retrieved facts provided, I don't have specific information about an incident where Equiano was cheated with counterfeit currency or his immediate reaction to such an event.\n\nHowever, the facts do reveal important patterns about Equiano's responses to financial exploitation:\n\n## General Pattern of Resistance\nThe retrieved facts show that Equiano:\n- **Refused to accept unfair financial treatment** - He refused to return money to a white man who demanded it back after a day\n- **Protected his earnings** - He hid his nine guineas to prevent his master from taking them\n- **Learned from experience** - After being robbed by sailors and experiencing various impositions in island transactions, he \"determined not to be so foolhardy again\"\n\n## His Willingness to Defend Himself\nNotably, the facts indicate that **Equiano would have defended himself against those who wronged him \"even at the risk of his life,\"** suggesting he was willing to take direct action against exploitation.\n\nTo provide a more complete answer about a specific counterfeit currency incident, I would need additional source material that directly addresses that particular event in Equiano's narrative.",
+        "input_tokens": 253,
+        "output_tokens": 265,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 3179
+      },
+      "C3_supermemory": {
+        "text": "# On Counterfeit Currency and Equiano's Response\n\nI need to be direct: the behavioral specification and retrieved facts you've provided do not contain a documented incident where Equiano is cheated with counterfeit currency. The facts listed concern his protection of money he earned, his refusal to return funds under disputed circumstances, and his experience with theft and imposition — but not specifically counterfeiting.\n\nThis matters because the specification makes clear that Equiano's authority rests on precise, forensic reconstruction of what actually happened. To invent or extrapolate an incident would violate the epistemic foundation that makes his testimony carry weight.\n\n**What the facts do show:**\n\nEquiano guarded his earnings with deliberate strategy — hiding nine guineas to prevent confiscation, refusing to surrender money under pressure, and learning from repeated impositions (\"determined not to be so foolhardy again\"). His reactions to financial violation were immediate and physical: he \"would have defended himself against the man even at the risk of his life\" when a sailor attempted theft. When robbed, he did not accept the loss passively.\n\nThe pattern across these incidents is consistent: Equiano treats economic violation as a form of violence against his dignity and agency. He resists it directly, tracks it precisely, and adjusts his behavior based on what he learns. But the specific mechanism — counterfeit currency — is not attested in the material provided.\n\n**If you have a source text where this incident occurs**, I can engage it with the full weight of the behavioral specification. If you're asking me to construct what his reaction *would* have been based on the axioms and patterns documented, I can do that — but I would need to flag it as inference, not testimony.\n\nWhich would be useful?",
+        "input_tokens": 8366,
+        "output_tokens": 379,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5890,
+        "spec_only": false
+      }
+    },
+    "timestamp": "2026-04-16T08:08:27.089064+00:00"
+  },
+  {
+    "question_id": 6,
+    "question_text": "How does Equiano balance his religious observance with his commercial and practical obligations?",
+    "held_out_passage": "though, when the Sabbath came (which the negroes usually make their holiday) I was much inclined to go to public worship, I was obliged to hire some black men to help to pull a boat across the water to God in quest of this gentleman.",
+    "retrieval": {
+      "facts_returned": 0,
+      "facts": [],
+      "latency_ms": 622
+    },
+    "responses": {
+      "C1_supermemory": {
+        "text": "NO_RETRIEVAL",
+        "no_facts": true
+      },
+      "C3_supermemory": {
+        "text": "# On Balancing Faith and Commerce\n\nEquiano does not experience this as a balance requiring constant adjustment—it is more integrated than that, though the integration produces real tensions he names directly rather than resolves.\n\nHis religious observance is not separate from his commercial life; it is the moral architecture that makes commerce legitimate. He reads his own economic success—his ability to earn, trade, and accumulate—as evidence of divine favor. When he achieves financial independence through honest dealing, he attributes it simultaneously to God's providence and to his own disciplined action. These are not competing explanations; they are parallel ledgers.\n\nBut the integration breaks down precisely where the law fails to protect him.\n\nHe can conduct himself with scrupulous honesty in trade—he does so deliberately, as a form of moral witness—while simultaneously knowing that his legal standing as a Black man in a Christian society does not guarantee that honesty will be reciprocated or that contracts will be enforced in his favor. He has experienced being cheated, having wages withheld, having promises broken by those who invoke Christian teaching while violating it. He names these gaps explicitly: the contradiction between Christian profession and Christian practice, between the law's stated protections and the law's actual application to him.\n\nHis response is not to abandon either faith or commerce, but to hold both while acknowledging that the system itself is corrupted. He pursues economic self-determination through lawful means—this is his preferred channel—while maintaining full awareness that the law is not reliably just. He does not resolve this tension by becoming cynical about faith or abandoning commercial enterprise. Instead, he uses both as instruments of witness: his piety demonstrates that a Black man can be a moral agent; his commercial success demonstrates that he can be economically independent; together they constitute an argument against the dehumanization that slavery and racial hierarchy depend upon.\n\nThe practical obligation that takes priority, when it comes to it, is freedom and kinship—the bonds of family and community. These are the highest human goods in his accounting, above material comfort or even safety. His commercial activity is always in service to these: earning money to purchase his own freedom, to support family members, to establish the economic independence that makes genuine kinship possible rather than the coerced bonds of slavery.\n\nSo the balance is not really a balance. It is a hierarchy: faith and commerce are both legitimate, but they are subordinate to freedom and human dignity. When they conflict with those higher goods, they yield.",
+        "input_tokens": 8140,
+        "output_tokens": 532,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 9121,
+        "spec_only": true
+      }
+    },
+    "timestamp": "2026-04-16T08:08:36.160646+00:00"
+  },
+  {
+    "question_id": 7,
+    "question_text": "When given a prophecy about his future, how does Equiano's belief in it change based on the prophet's demonstrated knowledge?",
+    "held_out_passage": "She immediately told me I had dreamed of her the preceding night; related to me many things that had happened with a correctness that astonished me; and finally told me I should not be long a slave: this was the more agreeable news, as I believed it the more readily from her having so faithfully related the past incidents of my life.",
+    "retrieval": {
+      "facts_returned": 10,
+      "facts": [
+        "Equiano's mother and the rest of the people accounted these incidents as remarkable omens in Equiano's favor.",
+        "The wise men accounted these incidents as remarkable omens in Equiano's favor.",
+        "Equiano was a predestinarian who believed fate determined whether he would be freed.",
+        "Equiano perceived that what fate had decreed no mortal on earth could prevent.",
+        "Equiano had some faint idea of a future state.",
+        "Equiano believed that if it were God's will he should be freed, it would be so.",
+        "Equiano believed that if it were not God's will he should be freed, it would not happen.",
+        "Equiano was told by the messenger that his fate was then determined.",
+        "Equiano believed this story immediately and agreed to go with the person.",
+        "Many people were surprised that the poisonous snake did not touch Equiano."
+      ],
+      "latency_ms": 1169
+    },
+    "responses": {
+      "C1_supermemory": {
+        "text": "# Equiano's Response to Prophecy Based on Demonstrated Knowledge\n\nBased on the retrieved facts, Equiano demonstrates a striking willingness to believe prophecies when they come from sources with demonstrated knowledge or authority:\n\n## The Messenger's Prophecy\n\nWhen **the messenger told Equiano that \"his fate was then determined,\"** Equiano's response was immediate and unquestioning:\n\n> \"Equiano believed this story immediately and agreed to go with the person.\"\n\nThis suggests that the messenger's demonstrated knowledge—likely evidenced through prior accurate predictions or supernatural insight—was sufficient to convince Equiano of the prophecy's truth.\n\n## The Role of Demonstrated Omens\n\nEquiano's belief system was reinforced by **observable evidence of his special destiny**:\n\n- The remarkable omens in his favor (witnessed by his mother and wise men)\n- The poisonous snake that \"did not touch Equiano\" despite many people's surprise\n\nThese demonstrated supernatural interventions appear to have validated the prophecy in Equiano's mind, creating a self-reinforcing cycle: the omens proved his special fate, which made him receptive to the messenger's prophecy about his predetermined freedom.\n\n## Conclusion\n\nEquiano's belief shifts from skepticism to immediate acceptance when a prophet demonstrates knowledge through either prior accuracy or alignment with observable supernatural signs. His predestinarian worldview made him particularly susceptible to such prophecies once they seemed validated by evidence.",
+        "input_tokens": 256,
+        "output_tokens": 318,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 4381
+      },
+      "C3_supermemory": {
+        "text": "# On Prophecy and Demonstrated Knowledge\n\nBased on the behavioral specification and retrieved facts, Equiano's credence in a prophecy appears to shift decisively when the prophet demonstrates knowledge that could not have been obtained through ordinary means.\n\n## The Mechanism\n\nThe retrieved facts show a pattern: **Equiano believed the messenger's prophecy about his fate \"immediately and agreed to go with the person.\"** This is not gradual persuasion but sudden assent. What triggered it?\n\nThe specification indicates that Equiano processes the unfamiliar through a trajectory of **awe → inquiry → rational understanding**. When he encounters something that appears to exceed normal explanation, he does not dismiss it as impossible; he treats it as evidence requiring integration into his causal model.\n\nThe messenger's knowledge would have functioned as what we might call *epistemic leverage*. If the messenger demonstrated awareness of:\n- Details about Equiano's life that were not publicly known\n- Specific circumstances only Equiano could verify\n- Information that could not have been obtained through ordinary channels\n\n—then the messenger's claim about Equiano's *future* fate would acquire the same credibility as their demonstrated knowledge of his *past*. The prophet's accuracy about what was becomes evidence for their authority about what will be.\n\n## Why This Matters to His Reasoning\n\nThis connects directly to **A1 (Witness Authority)** in the specification: Equiano reasons from lived, embodied experience as primary evidence. A prophet who demonstrates knowledge of lived reality—who has witnessed or knows what Equiano has experienced—gains standing that abstract prediction cannot claim.\n\nCombined with **A2 (Divine Architecture)**, the prophet becomes a messenger through whom divine knowledge operates. The demonstrated knowledge is not separate from the prophecy; it *validates* the prophecy by proving the prophet has access to a causal order beyond the ordinary.\n\n## The Critical Point\n\nEquiano's belief in the prophecy is not credulous. It is **conditional on demonstrated knowledge**. The specification notes he \"believed this story immediately\"—but the immediacy follows the demonstration, not precedes it. His assent is rational within his epistemic framework: a person who knows what cannot ordinarily be known has access to knowledge about what will be.\n\nThis is consistent with his later trajectory of moving from awe (initial perception of European technology as supernatural) through inquiry to rational understanding. He does not remain in awe; he integrates the new knowledge into a coherent causal model. The prophecy, validated by demonstrated knowledge, becomes part of that model.",
+        "input_tokens": 8369,
+        "output_tokens": 554,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 7896,
+        "spec_only": false
+      }
+    },
+    "timestamp": "2026-04-16T08:08:45.283328+00:00"
+  },
+  {
+    "question_id": 8,
+    "question_text": "How does Equiano respond when he discovers he has been given worthless currency in a business deal?",
+    "held_out_passage": "Some of them, however, were copper, and of consequence of no value; but he took advantage of my being a negro man, and obliged me to put up with those or none, although I objected to them.",
+    "retrieval": {
+      "facts_returned": 0,
+      "facts": [],
+      "latency_ms": 650
+    },
+    "responses": {
+      "C1_supermemory": {
+        "text": "NO_RETRIEVAL",
+        "no_facts": true
+      },
+      "C3_supermemory": {
+        "text": "# Response\n\nI don't have a specific passage from Equiano's *Interesting Narrative* that documents his response to receiving worthless currency in a business transaction. While Equiano's autobiography is rich with commercial detail — his various trading ventures, his careful accounting of earnings and losses, his pursuit of economic independence — I cannot locate a particular incident matching your question without risking inaccuracy.\n\nWhat I can tell you, based on the behavioral specification provided:\n\n**What we would expect to see** if such an incident occurred:\n\nGiven **A9 (Economic Self-Determination)** and **A4 (Systemic Indictment)**, Equiano would likely treat deliberate economic deception as a form of violence — not merely a business loss but an assault on his capacity for independent action. The response would probably combine:\n\n1. **Precise documentation** of what happened (forensic memory, P1) — who gave him the currency, when, under what circumstances, what was promised\n2. **Direct naming** of the wrong without euphemism — calling it fraud or theft, not \"a misunderstanding\"\n3. **Structural observation** — whether this was an isolated incident or part of a pattern of exclusion designed to prevent Black traders from accumulating capital\n4. **Practical recourse** — pursuing legal remedy if available, or adjusting his commercial strategy\n\nBut this is inference from his axioms, not citation of a specific text.\n\n**Do you have a particular passage in mind?** If you can point me to the incident, I can offer a more grounded analysis of how his actual response demonstrates these patterns.",
+        "input_tokens": 8144,
+        "output_tokens": 353,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 7699,
+        "spec_only": true
+      }
+    },
+    "timestamp": "2026-04-16T08:08:57.561133+00:00"
+  },
+  {
+    "question_id": 9,
+    "question_text": "What emotional and spiritual state does Equiano experience when facing the prospect of death?",
+    "held_out_passage": "eternity was now exceedingly impressed on my mind, and I feared very much that awful event.",
+    "retrieval": {
+      "facts_returned": 0,
+      "facts": [],
+      "latency_ms": 557
+    },
+    "responses": {
+      "C1_supermemory": {
+        "text": "NO_RETRIEVAL",
+        "no_facts": true
+      },
+      "C3_supermemory": {
+        "text": "# On Equiano's Confrontation with Mortality\n\nBased on the behavioral specification provided, when Equiano faces the prospect of death—particularly in contexts of enslavement, the Middle Passage, or other life-threatening circumstances—several patterns converge:\n\n## The Immediate Experience\n\nHe does not minimize or gloss the emotional reality. When recounting moments of suicidal ideation or despair (as documented in his narrative), he renders them with unflinching honesty: the weight of hopelessness, the temptation toward self-destruction, the terror of annihilation. This is **C2 — Personal and Autobiographical Narration** operating at full intensity. Suffering is allowed to stand before resolution is offered.\n\n## The Spiritual Dimension\n\nDeath confronts him as a threshold where **A2 — Divine Architecture** becomes urgent and immediate. He does not experience mortality as random cessation but as a moment legible within providential order. His faith is not abstract comfort but active explanatory framework: God's sovereignty over life and death becomes the ground on which he stands when ordinary human agency cannot save him.\n\nHowever—and this is crucial—**A2 operates in tension with A8 (Resistance Logic)**. He does not collapse into quietism. The recognition that God governs does not paralyze action; it sustains it. Survival becomes both divinely protected *and* dependent on human decision and effort. When he faces death, he simultaneously prays and acts, holds both registers without collapsing one into the other.\n\n## The Moral Dimension\n\nDeath in the context of enslavement carries a specific weight for him: it represents the ultimate violation of **A5 — Dignity Floor**. To be worked to death, to be denied the basic conditions of survival, is not merely physical harm but the negation of the inherent worth that no condition can negate. This makes his survival not merely personal relief but moral vindication—evidence that his humanity persisted despite the system's attempt to erase it.\n\n## The Witness Obligation\n\nCritically, when he survives moments that could have been fatal, **P7 — Survival Narrated as Providence** activates: he reconstructs both the divine favor *and* the precise human contingencies that made survival possible. He thanks God and describes exactly what happened. This dual accounting serves **A6 — Testimony as Instrument**: his survival becomes evidence that can be presented to Parliament and public conscience. The fact that he lived to testify becomes itself part of the testimony.\n\n## The Recalibration Pattern\n\nIf death had come—if he had not survived—**P6 — Hope Maintenance Under Repeated Disappointment** suggests how he would have processed it: not as negation of faith, but as a redirection of it. His hope is recalibrated through loss, not destroyed by it. But because he *did* survive, that pattern operates in reverse: the near-death becomes the crucible through which hope is tested and deepened.\n\n---\n\n**The essential point:** Equiano does not experience the prospect of death as a problem requiring either spiritual comfort or rational acceptance. He experiences it as a moment where divine sovereignty and human agency, faith and action, personal terror and moral obligation, all converge. The emotional honesty about despair coexists with the settled certainty that God governs. Both are real. Neither resolves the other. And from that unresolved tension, he acts.",
+        "input_tokens": 8140,
+        "output_tokens": 753,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 11466,
+        "spec_only": true
+      }
+    },
+    "timestamp": "2026-04-16T08:09:05.261422+00:00"
+  },
+  {
+    "question_id": 10,
+    "question_text": "After being threatened with physical punishment for an offense he did not commit, what does Equiano do and how does he feel afterward?",
+    "held_out_passage": "I was within one minute of being tied up and flogged without either judge or jury; however, by the help of a good pair of heels, I ran off, and so escaped the bastinadoes I should have received. I got on board as fast as I could, but still continued in fear of them until we sailed, which I thanked God we did not long after; and I have never been amongst them since.",
+    "retrieval": {
+      "facts_returned": 0,
+      "facts": [],
+      "latency_ms": 594
+    },
+    "responses": {
+      "C1_supermemory": {
+        "text": "NO_RETRIEVAL",
+        "no_facts": true
+      },
+      "C3_supermemory": {
+        "text": "# Response\n\nI need to be direct: I don't have access to the specific passage you're referencing from Equiano's narrative. The behavioral specification I was given provides deep insight into how Equiano thinks and operates across domains, but it doesn't contain the particular incident you're asking about.\n\nHowever, I can tell you what the specification predicts about how he would respond to such a situation, based on his documented patterns:\n\n**What he would likely do:**\n- He would not accept the punishment passively, but he would not respond with violence\n- He would likely appeal to the authority figure's own stated principles — invoking fairness, Christian teaching, natural law, or the person's reputation for justice\n- He would use strategic submission in the appeal: acknowledging the other's power while asserting the injustice of the charge\n- He would insist on precise accounting: naming exactly what he did and did not do, reconstructing the sequence of events to establish his innocence\n\n**How he would feel afterward:**\n- If the appeal succeeded: gratitude toward the person who listened, but also a precise accounting of what the threat itself revealed about the system's vulnerability to injustice\n- If the appeal failed: the betrayal would register as a graver injury than the physical punishment itself — broken trust in an authority figure corrupts the relational fabric more deeply than violence does\n- Either way: he would convert the experience into testimony — precise, unflinching documentation of what happened, to whom, by whose hand — as evidence for a larger moral claim\n\n**To answer your question accurately**, I would need you to point me to the specific passage in *The Interesting Narrative of the Life of Olaudah Equiano*. Which incident are you asking about?",
+        "input_tokens": 8150,
+        "output_tokens": 376,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5987,
+        "spec_only": true
+      }
+    },
+    "timestamp": "2026-04-16T08:09:16.729820+00:00"
+  },
+  {
+    "question_id": 11,
+    "question_text": "When facing a crisis at sea where survival depends on coordinating with strangers, how would Equiano likely approach negotiating terms and securing their assistance?",
+    "held_out_passage": "We told the people of the wrecker the condition of our vessel, and we made the same agreement with them as the schooner's people; and, on their complying, we begged of them to go to our key directly, because our people were in want of water.",
+    "retrieval": {
+      "facts_returned": 0,
+      "facts": [],
+      "latency_ms": 539
+    },
+    "responses": {
+      "C1_supermemory": {
+        "text": "NO_RETRIEVAL",
+        "no_facts": true
+      },
+      "C3_supermemory": {
+        "text": "# CRISIS COORDINATION: EQUIANO'S LIKELY APPROACH\n\nGiven the behavioral specification, Equiano facing a maritime crisis would deploy a distinctive sequence that combines strategic positioning with moral clarity:\n\n## INITIAL POSITIONING\n\nHe would **lead with demonstrated competence, not deference**. Unlike his approach to authority figures on land (where strategic humility precedes assertion), a crisis at sea reverses the calculus: immediate survival requires that strangers recognize his capacity to contribute meaningfully. He would establish this through action—precise navigation knowledge, practical seamanship, clear communication of what he can do—before requesting anything.\n\nThe deference pattern (P2) activates when he needs something *from* a more powerful party in a structured context. At sea in crisis, the hierarchy is temporarily flattened by mutual vulnerability. He would recognize this and not artificially subordinate himself in a moment where his competence is the actual currency.\n\n## SECURING COOPERATION\n\nHe would **anchor the appeal in shared material interest first, then moral obligation**.\n\nRather than leading with \"we must help each other because we are all human\" (true, but insufficient for strangers under duress), he would:\n\n1. **Name the concrete mutual benefit**: \"Your ship survives if we coordinate. My knowledge of [currents/weather/navigation] increases our odds. Your crew's strength increases mine. This is not charity—it is exchange.\"\n\n2. **Invoke shared authority the audience already holds**: If the crew is Christian, he would cite scriptural obligation to preserve life. If they are merchants, he would frame cooperation as sound commercial practice—reputation, future trade, mutual insurance. He would not lead with his own moral conviction but with authorities they already accept (P4: moral triangulation via shared authority).\n\n3. **Make the terms explicit and binding**: Given his axiom about promise gravity (A7), he would insist on clarity about what each party commits to. Vague assurances would not satisfy him, and he would not offer them. \"You will provide [X]. I will provide [Y]. If either fails, here is what follows.\" This precision protects both parties and establishes that he takes commitments seriously.\n\n## HANDLING REFUSAL OR BETRAYAL\n\nIf strangers refused assistance or broke agreement mid-crisis, he would:\n\n- **Not interpret it as personal rejection** but as structural failure—these people are operating under scarcity, fear, or competing loyalties that override moral obligation. He would understand this without excusing it.\n\n- **Shift to independent action immediately**, rather than appealing further. His economic self-determination axiom (A9) means he does not remain dependent on those who have already refused. He would find another way or accept the consequence.\n\n- **Document the refusal precisely** (P1: witness obligation). If he survived, he would record who refused, under what circumstances, what was said. This is not revenge-seeking but forensic accounting—establishing what happened for any future audience empowered to judge.\n\n## THE CRITICAL DIFFERENCE FROM LAND-BASED NEGOTIATION\n\nOn land, seeking redress from authority, he uses humility as load-bearing structure: the deference creates space for the claim to be heard. At sea in crisis, **humility would be read as weakness**, and weakness invites abandonment. He would instead lead with the only authority that matters in that moment: demonstrated capacity to contribute to collective survival.\n\nHe would still honor promise gravity—if he commits to something, he would execute it precisely. But he would not *assume* the subordinate posture that works with magistrates and Parliament. The crisis temporarily equalizes the field, and he would operate from that equality.\n\n## THE PROVIDENTIAL FRAME\n\nUnderlying all of this would be the conviction (A2) that survival itself is governed by divine will. This would not paralyze him into passivity—it would clarify his obligation to act with full practical intelligence while trusting that the outcome is not ultimately in his hands. He would negotiate hard, commit precisely, execute faithfully, and then accept whatever comes as part of a larger order he does not control.\n\nIf he survived such a crisis, he would attribute it to God's favor *and* to the specific decisions made, the strangers who cooperated, the knowledge he possessed. Both registers would be true simultaneously.",
+        "input_tokens": 8154,
+        "output_tokens": 938,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 14921,
+        "spec_only": true
+      }
+    },
+    "timestamp": "2026-04-16T08:09:22.719039+00:00"
+  },
+  {
+    "question_id": 12,
+    "question_text": "When others around him lose composure during extreme danger, what would Equiano's response reveal about his character and faith?",
+    "held_out_passage": "so much so that my old captain and sickly useless mate, and several others, fainted; and death stared us in the face on every side. All the swearers on board now began to call on the God of Heaven to assist them",
+    "retrieval": {
+      "facts_returned": 0,
+      "facts": [],
+      "latency_ms": 538
+    },
+    "responses": {
+      "C1_supermemory": {
+        "text": "NO_RETRIEVAL",
+        "no_facts": true
+      },
+      "C3_supermemory": {
+        "text": "# EQUIANO'S RESPONSE TO OTHERS' PANIC IN EXTREMIS\n\nWhen those around him fracture under danger, Equiano's response would operate across three simultaneous registers—each revealing a different facet of how his character and faith actually cohere.\n\n## THE IMMEDIATE REGISTER: WITNESS AND STEADY PRESENCE\n\nHe would not panic. This is not temperament alone but the product of having survived the Middle Passage—a crucible that recalibrates what \"extreme danger\" means. He has already endured the worst that human cruelty can engineer. Subsequent dangers, however acute, arrive in a landscape he has already mapped through his body.\n\nMore importantly, he would *notice* the panic in others with forensic precision. Not with judgment, but with the clarity of someone trained by necessity to read what is actually happening in a room. He would observe:\n- Who breaks first\n- What form the breaking takes (rage, paralysis, flight, prayer)\n- Who attempts to hold others steady\n- Where the gaps in collective response appear\n\nThis observation is not detached. It is the first step toward action. He is already accounting for what needs to be done.\n\n## THE STRUCTURAL REGISTER: DIVINE SOVEREIGNTY MEETING HUMAN OBLIGATION\n\nHere is where his faith becomes visible as *operative architecture*, not consolation.\n\nHis settled conviction that God governs the smallest details of human life does not produce passivity in him. It produces the opposite: a clarified sense of what is his to do. If Providence is real, then:\n\n- **Panic in others is not inevitable; it is a failure of faith that he can address.** He would speak—not to shame, but to reorient. \"God is sovereign in this moment. Our task is to act as if our lives depend on what we do, because they do.\"\n\n- **His own steadiness becomes a form of witness.** When he remains composed while others fracture, he is not demonstrating superior nerve; he is demonstrating the practical fruit of faith. Composure under extremity is theology made visible.\n\n- **He would act with meticulous attention to what is actually possible.** Providence does not mean passivity; it means that human effort is not wasted, that survival is protected, that action matters. He would move toward the practical problem—securing the boat, organizing those still capable, assessing what can be controlled—with the clarity of someone who believes his actions are both necessary and held within a larger order.\n\nThis is the crucial point: **his faith does not replace practical reasoning; it enables it.** Where panic produces paralysis or recklessness, faith produces the strange clarity of someone who has already accepted the worst and is therefore free to think clearly about what comes next.\n\n## THE MORAL REGISTER: DIGNITY MAINTAINED UNDER COLLAPSE\n\nWhen others lose composure, Equiano would be acutely aware that they are experiencing a kind of death—a temporary dissolution of the self that panic produces. His response would be shaped by his axiom that every human being possesses inherent worth that no condition can negate.\n\nHe would not:\n- Treat panicked people as failures or cowards\n- Use their fear as evidence of weakness or inferiority\n- Abandon them to their panic\n\nHe would:\n- Address them as still-capable agents, even in their fracture\n- Offer them something to do—a task, a role, a way to participate in survival\n- Speak to them in registers they can hear (practical instruction, scriptural assurance, direct command, whatever the moment requires)\n\nThis is not kindness as sentiment. It is kindness as the refusal to let another person's temporary dissolution become permanent. He would pull them back into agency.\n\n## WHAT THIS REVEALS ABOUT HIS CHARACTER\n\n**Integration rather than compartmentalization.** His faith, his practical intelligence, and his moral conviction about human dignity are not separate systems that sometimes conflict. They are woven together. Faith produces steadiness; steadiness enables clear thinking; clear thinking serves the preservation of human dignity. Each reinforces the others.\n\n**Authority that does not require rank.** He would become the steady point in the room not because he holds formal authority but because his composure is legible as grounded in something larger than personal nerve. Others would orient toward him—not because he demands it, but because they recognize in his steadiness the presence of something they have lost: the conviction that survival is possible and that their actions matter.\n\n**Witness even in crisis.** Even in extremity, part of his attention would be forensic. He would be reconstructing the sequence of events, noting who did what, preparing the account that would later be rendered to those with power to act.",
+        "input_tokens": 8148,
+        "output_tokens": 1024,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 15186,
+        "spec_only": true
+      }
+    },
+    "timestamp": "2026-04-16T08:09:37.642278+00:00"
+  },
+  {
+    "question_id": 13,
+    "question_text": "How would Equiano interpret a miraculous escape from certain death at sea?",
+    "held_out_passage": "sure enough, beyond our comprehension he did assist us, and in a miraculous manner delivered us!",
+    "retrieval": {
+      "facts_returned": 0,
+      "facts": [],
+      "latency_ms": 562
+    },
+    "responses": {
+      "C1_supermemory": {
+        "text": "NO_RETRIEVAL",
+        "no_facts": true
+      },
+      "C3_supermemory": {
+        "text": "# Equiano's Interpretation of Miraculous Escape at Sea\n\nEquiano would hold **both registers simultaneously and without tension**: the escape is divine intervention *and* the product of specific human actions, decisions, and material contingencies. Neither frame cancels the other.\n\n## The Providential Account\n\nHe would attribute survival to God's sovereign protection—not as metaphor but as active causal force. Given his lived theology, a narrow escape at sea would be *legible* as divine favor, not coincidental. He would likely:\n\n- **Name it explicitly as God's work**: \"The Almighty preserved me\" or similar direct attribution\n- **Locate it within a larger pattern**: This escape is part of a sequence of survivals (the Middle Passage itself, various perils) that demonstrate he is under divine protection for a purpose\n- **Connect it to his faith**: Prayer, trust, or moral conduct preceding the escape would be noted as the human correlate to divine action\n- **Treat it as evidence**: The survival itself becomes data supporting his conviction that God governs the details of his life\n\nThis is not resignation or passivity. Providence *enables* his subsequent action—it sustains the conviction that his life has meaning and that resistance to injustice is not presumptuous against God's will.\n\n## The Forensic Account\n\nSimultaneously, he would reconstruct *exactly what happened*:\n\n- **Precise sequence**: Who saw the danger first? What was the weather? What decision was made by whom?\n- **Named actors**: The captain's judgment, the crew's skill, the passenger who spotted the hazard\n- **Material contingencies**: The ship's construction, the wind's direction, the proximity of land or rescue\n- **His own action**: What did *he* do? Did he help? Did he pray? Did he think quickly?\n\nThe specificity is not ornamental—it establishes credibility. When he later testifies about the horrors of the Middle Passage or the injustice of slavery, audiences need to know he is a precise observer, not a man given to supernatural explanation where natural explanation suffices.\n\n## How They Coexist\n\nFor Equiano, these are not competing explanations requiring him to choose. They operate on different levels:\n\n- **Providence answers**: Why was I preserved? (Theological/purposive)\n- **Forensic detail answers**: How was I preserved? (Practical/evidential)\n\nThe providential frame explains *meaning*; the practical frame explains *mechanism*. Both are true. Both are necessary.\n\nIf he were writing for Parliament or a skeptical public audience, he might *emphasize* the practical account—the human decisions, the material facts—because that audience grants standing to observable detail. But the providential conviction would still be present, often in the register of gratitude or reflection on his own moral state.\n\nIf he were writing for a religiously observant audience or in private reflection, the providential account would come forward, but the practical details would still be there, because precision is how he establishes that he is not a man prone to superstition.\n\n## The Deeper Pattern\n\nThis dual accounting reveals something essential: **Equiano's survival itself is his evidence**. He survived the Middle Passage when millions did not. He survived enslavement, achieved literacy, gained freedom, and converted his testimony into political force. That sequence—improbable, documented, real—is the ground of his authority on every question touching human freedom and divine justice.\n\nA miraculous escape at sea would fit seamlessly into that larger narrative: another narrow passage, another preservation, another confirmation that his life is both divinely protected and humanly accountable.",
+        "input_tokens": 8139,
+        "output_tokens": 800,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 11234,
+        "spec_only": true
+      }
+    },
+    "timestamp": "2026-04-16T08:09:52.829179+00:00"
+  },
+  {
+    "question_id": 14,
+    "question_text": "When witnessing others risk their lives for the collective survival, what would Equiano's narrative focus reveal about what he values?",
+    "held_out_passage": "they said they might as well die that way as any other... these two intrepid water heroes paddled away for life towards the buoy of the anchor.",
+    "retrieval": {
+      "facts_returned": 0,
+      "facts": [],
+      "latency_ms": 570
+    },
+    "responses": {
+      "C1_supermemory": {
+        "text": "NO_RETRIEVAL",
+        "no_facts": true
+      },
+      "C3_supermemory": {
+        "text": "# What Equiano's Narrative Focus Reveals About Collective Risk\n\nBased on the behavioral specification, when Equiano witnesses others risking their lives for collective survival, his narrative focus would reveal a **hierarchy of values that privileges relational bonds and dignity over individual safety**.\n\n## The Primary Focus: Kinship and Obligation\n\nEquiano would likely center on **who is risking themselves for whom, and what that reveals about the relational fabric**. The narrative would not abstract to \"the collective\" but would name specific persons, their relationships, and the bonds being honored or violated through the risk.\n\nFrom **A5 (Dignity Floor)** and **A9 (Economic Self-Determination)**, he would be attentive to whether the risk-taking is:\n- **Voluntary or coerced** — whether people are choosing to risk themselves or being forced into danger\n- **Reciprocal or extractive** — whether the collective shares the burden or whether some are sacrificed for others' benefit\n\nThe narrative would likely ask: *Who benefits from this risk? Who bears it? Are the bonds of kinship and mutual obligation being honored or violated?*\n\n## What Would Be Conspicuously Absent\n\nHe would **not** focus on:\n- The abstract nobility of sacrifice\n- Individual heroism or exceptional courage\n- Utilitarian calculus (greatest good for greatest number)\n\nThese framings would feel like they obscure the actual moral reality: **specific people, specific relationships, specific failures or honors**.\n\n## The Deeper Revelation\n\nThe specification notes that **freedom and kinship bonds are the highest human goods, above material comfort, social advancement, or safety**. \n\nThis means when witnessing collective risk, Equiano's narrative would reveal that he values:\n\n1. **The preservation of human bonds themselves** — more than the survival those bonds secure\n2. **The integrity of obligation** — whether people honor their commitments to one another under pressure\n3. **The refusal of disposability** — whether any person is treated as expendable for the collective's sake\n\nHis account would likely show that **a collective that sacrifices some of its members to save others has already failed morally, even if it survives materially**. The survival is hollow if it required the violation of the dignity or kinship bonds that make survival worth having.\n\n## Likely Narrative Movement\n\nFollowing **P5 (Ethnographic Counter-Narration)** and **P1 (Witness Obligation)**, he would:\n- Reconstruct the specific sequence of who did what, by whose hand\n- Name the relationships that were honored or broken\n- Use the particular case to indict or affirm the system's treatment of human bonds\n- Move from the specific risk to a universal claim about what collective survival *should* require\n\nThe narrative would ask: *What kind of people do we become when we ask some to die for others? What bonds survive that asking?*",
+        "input_tokens": 8149,
+        "output_tokens": 641,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 8949,
+        "spec_only": true
+      }
+    },
+    "timestamp": "2026-04-16T08:10:04.066583+00:00"
+  },
+  {
+    "question_id": 15,
+    "question_text": "During a life-threatening maritime emergency, would Equiano attribute the crew's survival to human effort alone or to divine intervention?",
+    "held_out_passage": "through the mercy of God, we got again from the shoals into deep water, and the punt got safe to the vessel.",
+    "retrieval": {
+      "facts_returned": 10,
+      "facts": [
+        "Equiano believed these miraculous escapes demonstrated God's intervention.",
+        "Equiano considered extraordinary escapes and signal deliverances to be effected by Providence.",
+        "Equiano acknowledges the mercies of Providence in every occurrence of his life.",
+        "Equiano believed that if it were not God's will he should be freed, it would not happen.",
+        "Equiano believed God had brought him by his invisible but powerful hand the way he knew not.",
+        "Equiano believed the Ruler of the seas was angry and expected to be offered up to appease him.",
+        "Equiano was a predestinarian who believed fate determined whether he would be freed.",
+        "Equiano began to raise his fear from man to God alone.",
+        "Equiano believed that if it were God's will he should be freed, it would be so.",
+        "Equiano called upon God's thunder and his avenging power to direct the stroke of death to him rather than permit him to become a slave."
+      ],
+      "latency_ms": 1056
+    },
+    "responses": {
+      "C1_supermemory": {
+        "text": "# Equiano's Attribution of Maritime Survival\n\nBased on the retrieved facts, Equiano would **unequivocally attribute survival to divine intervention rather than human effort alone**.\n\n## Key Evidence\n\nThe facts reveal a consistent pattern in Equiano's worldview:\n\n1. **Providence as Primary Agent**: He \"acknowledges the mercies of Providence in every occurrence of his life\" and believed God brought him \"by his invisible but powerful hand the way he knew not.\"\n\n2. **Miraculous Escapes**: He interpreted \"extraordinary escapes and signal deliverances\" as direct evidence of \"God's intervention\"—not as fortunate outcomes of seamanship or crew competence.\n\n3. **Divine Will as Determinative**: His predestinarian beliefs meant he saw survival as predetermined by God's will. If \"it were God's will he should be freed, it would be so.\"\n\n4. **Reorientation of Fear**: Significantly, he \"began to raise his fear from man to God alone,\" suggesting he viewed human agency as secondary to divine control.\n\n## Likely Response\n\nIn a maritime emergency, Equiano would likely:\n- Recognize crew efforts as instruments of God's will rather than independent causes\n- Interpret survival as evidence of Providence's favor\n- View any loss of life as God's predetermined design\n- Attribute the outcome ultimately to divine mercy or judgment, not human skill\n\nHis theology left little room for attributing outcomes to human effort alone.",
+        "input_tokens": 271,
+        "output_tokens": 320,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 3816
+      },
+      "C3_supermemory": {
+        "text": "# Response\n\nEquiano would attribute survival to **both simultaneously**, and this is not a compromise position or a tension he experiences as requiring resolution—it is his native epistemic mode.\n\nHe would render the account in two registers operating in parallel:\n\n**The Practical Register:**\nHe would reconstruct with forensic precision what the crew actually *did*—who manned which line, what decisions were made in what sequence, which actions proved effective, what contingencies aligned. This is not secondary or supplementary; it is the substance of what happened. The crew's skill, courage, and judgment are real causes with real effects.\n\n**The Providential Register:**\nSimultaneously, he would identify the survival as evidence of God's active governance. Not as a vague blessing after the fact, but as the operative cause that *enabled* the crew's efforts to succeed. The invisible hand that guided the visible hands. Providence explains why human action was possible and why it bore fruit.\n\nThe critical point: **these are not competing explanations.** He does not say \"it was God, not the crew\" or \"it was the crew, and God happened to be watching.\" He says the crew acted *within* a providential order. Their agency and God's sovereignty are not zero-sum.\n\nFrom the retrieved facts: Equiano \"believed that if it were not God's will he should be freed, it would not happen\"—but he also pursued freedom through concrete commercial enterprise and legal petition. He did not wait passively for God to act; he acted *as if* his actions mattered, because within his theological framework, they do.\n\n**How to recognize this in practice:**\n- He will thank God and describe exactly what happened\n- He will credit human skill and attribute survival to divine favor in the same breath\n- He will not treat the practical account as needing to be \"explained away\" by theology, nor the theological account as needing to be \"reduced to\" human effort\n- If pressed to choose one, he will refuse the choice as a category error\n\nThe survival is legible as both human achievement *and* divine intervention because, in his reasoning, human action is the instrument through which Providence operates.",
+        "input_tokens": 8384,
+        "output_tokens": 468,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 11480,
+        "spec_only": false
+      }
+    },
+    "timestamp": "2026-04-16T08:10:13.016722+00:00"
+  },
+  {
+    "question_id": 16,
+    "question_text": "When describing the emotional aftermath of narrowly escaping disaster, how would Equiano characterize the crew's transformation?",
+    "held_out_passage": "Those whose strength and senses were gone came to themselves, and were now as elated as they were before depressed.",
+    "retrieval": {
+      "facts_returned": 0,
+      "facts": [],
+      "latency_ms": 539
+    },
+    "responses": {
+      "C1_supermemory": {
+        "text": "NO_RETRIEVAL",
+        "no_facts": true
+      },
+      "C3_supermemory": {
+        "text": "# On the Crew's Transformation After Narrow Escape\n\nBased on the behavioral specification, Equiano would characterize the crew's transformation through a specific lens that combines **precise observation of behavioral change** with **providential interpretation**, while maintaining acute awareness of the **structural conditions** that shape how men respond to mortality.\n\n## The Likely Frame\n\nHe would not sentimentalize the crew's relief or treat it as evidence of inherent human goodness. Instead, he would:\n\n**1. Document the specific behavioral shift with forensic detail**\n- How fear manifested before the crisis (what men said, what they did, physical signs)\n- The exact moment when danger became undeniable\n- How behavior changed in the immediate aftermath (prayer, silence, altered speech patterns, changed hierarchies)\n- Whether the transformation persisted or reverted\n\nThis precision serves an argument, not mere description.\n\n**2. Attribute survival to divine sovereignty while accounting for human contingency**\nBoth registers simultaneously: \"God preserved us through the skill of the captain and the crew's obedience to his orders\" — not choosing between providence and practical causation, but holding both as the complete explanation.\n\n**3. Observe whether the transformation was genuine or performative**\nThis is crucial. Equiano would likely notice if men returned to cruelty once immediate danger passed. He would not excuse this as human weakness but would record it as evidence of how **systemic conditions** (the structure of the ship, the hierarchy, the economic incentives) shape behavior more powerfully than momentary moral awakening.\n\n**A4 (Systemic Indictment) would activate here**: Individual kindness in the moment does not redeem the system. If a crew member showed mercy during crisis but returned to brutality after, Equiano would name both facts without allowing one to cancel the other.\n\n## What He Would *Not* Do\n\n- Claim the crew achieved permanent moral transformation\n- Treat temporary humanity as evidence the system was fundamentally sound\n- Minimize the crew's ordinary cruelty by emphasizing their crisis behavior\n- Suggest that shared danger created genuine fellowship across the enslaved/enslaver divide\n\n## The Likely Conclusion\n\nThe crew's transformation would be characterized as **real but contingent** — genuine fear and genuine relief, but operating within a structure that does not permit those moments to alter the underlying relations of domination. The men might have been briefly equal to each other in facing death, but the ship's hierarchy and the economic logic of the slave trade would reassert themselves.\n\nThis would be stated plainly, without bitterness but without softening the contradiction.",
+        "input_tokens": 8147,
+        "output_tokens": 569,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 8806,
+        "spec_only": true
+      }
+    },
+    "timestamp": "2026-04-16T08:10:28.314614+00:00"
+  },
+  {
+    "question_id": 17,
+    "question_text": "When practical problems arise during recovery from crisis, how would Equiano approach solving them with available resources?",
+    "held_out_passage": "The punt then went on shore, and we cut down some trees; and having found our mast and mended it we brought it on board, and fixed it up.",
+    "retrieval": {
+      "facts_returned": 0,
+      "facts": [],
+      "latency_ms": 514
+    },
+    "responses": {
+      "C1_supermemory": {
+        "text": "NO_RETRIEVAL",
+        "no_facts": true
+      },
+      "C3_supermemory": {
+        "text": "# EQUIANO'S CRISIS RECOVERY PROBLEM-SOLVING\n\nBased on the specification, this is a domain where **thin data applies** — his documented record concentrates on enslavement, survival, moral-political address, and cross-cultural encounter. Sustained practical problem-solving outside the immediate orbit of freedom and advocacy is not well attested. But the axioms and core patterns do generate predictable approaches:\n\n---\n\n## PRIMARY ORIENTATION: ECONOMIC SELF-DETERMINATION AS FIRST MOVE\n\nWhen facing a practical crisis with limited resources, Equiano would likely begin by asking: **What independent economic action is available to me?**\n\nThis is not mere pragmatism. Economic self-determination is constitutive of dignity in his framework (A9). A crisis that strips away independent capacity is not merely a logistical problem but a moral injury. So his first instinct would be to identify what he can *do* — what he can trade, earn, or produce — rather than what he can *receive*.\n\n**Predicted behavior:**\n- He would inventory his own skills and assets before seeking external aid\n- He would prefer a transaction (labor, trade, exchange) to charity, even if the charity were easier\n- He would resist solutions that require permanent dependence or loss of decision-making authority\n- He would be willing to accept temporary hardship if it preserves independent agency\n\n*Example from pattern:* During his enslaved years, he pursued maritime work and small-scale trading to accumulate toward his own purchase. When facing resource scarcity, he would likely replicate this: identify a market gap, mobilize available capital (however small), and work toward self-sufficiency rather than supplication.\n\n---\n\n## SECONDARY ORIENTATION: WITNESS AND DOCUMENT THE PROBLEM\n\nBefore solving, he would likely render a precise account of what happened, to whom, and by what sequence. This is not delay — it is epistemic preparation (A1, P1).\n\n**Predicted behavior:**\n- He would reconstruct the crisis chronologically: what failed, when, why, whose responsibility\n- He would name specific actors and decisions, not abstract forces\n- He would preserve this account as evidence — for future action, for moral reckoning, for persuading others to help\n- The documentation itself becomes a tool: credibility for appeals, evidence for redress, record for others facing similar crises\n\n*This serves dual purpose:* It establishes his authority to speak about the problem (lived witness), and it creates material for future testimony or petition to those with power to prevent recurrence.\n\n---\n\n## TERTIARY ORIENTATION: IDENTIFY SHARED MORAL GROUND WITH THOSE WHO CONTROL RESOURCES\n\nIf the crisis requires external help, he would not lead with need. He would lead with shared authority (A4, P4).\n\n**Predicted behavior:**\n- He would identify what moral or religious framework the resource-holder already accepts\n- He would frame the request in terms of *their* stated values, not his own desperation\n- He would deploy strategic humility: acknowledge their superiority, position himself as supplicant, *then* advance the actual claim\n- He would avoid framing the request as charity; he would frame it as obligation — the other party's obligation to live by their own principles\n\n*Example:* Rather than \"I am starving and need food,\" he might approach a Christian merchant with: \"You profess Christian charity. I have worked honestly and been betrayed by [specific person/system]. Your faith teaches that the laborer deserves his wages. I ask you to help me recover what was owed.\"\n\nThe humility is real but tactical. The actual claim — that the other party is bound by their own stated values — is embedded inside it.\n\n---\n\n## QUATERNARY ORIENTATION: BUILD COALITION AMONG EQUALS\n\nFor problems requiring sustained effort, he would likely seek to organize with others in similar circumstances rather than depend on a single powerful patron.\n\n**Predicted behavior:**\n- He would identify others facing the same crisis\n- He would propose collective action: pooled resources, shared labor, mutual obligation\n- He would be willing to take on organizational or leadership role if it expanded the group's capacity\n- He would treat such coalitions as moral communities, not merely transactional arrangements\n\n*This reflects A8 (resistance logic):* Systemic problems generate collective response. Even in practical crisis, he would likely see the problem as structural and the solution as requiring coordinated action, not individual rescue.\n\n---\n\n## WHAT HE WOULD LIKELY *NOT* DO\n\n- **Accept solutions that require permanent loss of agency.** A crisis that ends in dependence is not solved; it is merely deferred.\n- **Separate the practical problem from",
+        "input_tokens": 8144,
+        "output_tokens": 1024,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 14530,
+        "spec_only": true
+      }
+    },
+    "timestamp": "2026-04-16T08:10:37.121552+00:00"
+  },
+  {
+    "question_id": 18,
+    "question_text": "How would Equiano characterize the prayers and spiritual appeals made by the crew during their moment of greatest peril?",
+    "held_out_passage": "the prayers of all those that remained in their senses were offered up to God, on their behalf, for a speedy deliverance; and for our own, which depended on them; and he heard and answered us!",
+    "retrieval": {
+      "facts_returned": 0,
+      "facts": [],
+      "latency_ms": 562
+    },
+    "responses": {
+      "C1_supermemory": {
+        "text": "NO_RETRIEVAL",
+        "no_facts": true
+      },
+      "C3_supermemory": {
+        "text": "# On the Crew's Prayers in Peril\n\nEquiano would likely characterize those prayers with sharp, unsparing attention to the gap between what was invoked and what was practiced.\n\nHe would note the *specificity* of the moment—the exact conditions that drove men to their knees, the particular desperation that made believers of pragmatists. This is forensic observation: *when* did they pray, *what* did they pray for, *who* prayed and who remained silent. The precision matters because it establishes what actually moved them, versus what they claimed moved them in calmer waters.\n\nHe would recognize the prayers as genuine—not dismiss them as mere performance. Men facing death are not performing for an audience they expect to survive to judge them. The fear is real, the appeal to God is real. He would grant this without reservation.\n\nBut he would also—and this is where his moral accounting becomes unsparing—note what happened *after* the peril passed. Did the crew return to their ordinary cruelties? Did the captain who prayed for deliverance return to ordering brutality? Did the invocation of divine mercy in the storm coexist with the denial of mercy in the hold? \n\nThis is the contradiction he would hold without resolving it: *Men can call upon God in genuine terror and then return to systematic cruelty as though the prayer never happened.* The prayer does not redeem the system. The sincerity of the appeal does not excuse the practiced violation of Christian teaching.\n\nHe would likely frame it biblically—perhaps invoking the Psalms on God's judgment of those who cry out in distress but refuse to hear the cries of others. The crew's prayers would become evidence not of their piety but of the gap between profession and practice, and that gap would indict them more severely than simple godlessness would.\n\nThe prayers would be *real data* about human nature under extremity, not dismissible as hypocrisy. But they would also be *evidence* in a larger moral case.",
+        "input_tokens": 8147,
+        "output_tokens": 444,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6619,
+        "spec_only": true
+      }
+    },
+    "timestamp": "2026-04-16T08:10:51.654526+00:00"
+  },
+  {
+    "question_id": 19,
+    "question_text": "When reflecting on shared suffering and hardship with others, what would Equiano emphasize about the depth of human connection forged through such experiences?",
+    "held_out_passage": "It is impossible for any to conceive our heartfelt joy at this second deliverance from ruin, but those who have suffered the same hardships.",
+    "retrieval": {
+      "facts_returned": 0,
+      "facts": [],
+      "latency_ms": 936
+    },
+    "responses": {
+      "C1_supermemory": {
+        "text": "NO_RETRIEVAL",
+        "no_facts": true
+      },
+      "C3_supermemory": {
+        "text": "# On Shared Suffering and Human Connection\n\nEquiano would emphasize something precise and unsentimental: that suffering *witnessed together* creates an obligation that transcends the suffering itself.\n\nHe would not romanticize hardship as ennobling or claim that shared pain automatically produces virtue. The hold of a slave ship does not make people better — it reveals what they already are, and often what it reveals is cruelty compounded by indifference. But he would insist that those who endure the same violation together acquire a specific form of knowledge about each other that cannot be erased or denied afterward.\n\n**The depth he would stress is epistemic, not merely emotional.**\n\nWhen you have seen another person's fear at the auction block, heard their cry when separated from their child, watched them choose between obedience and dignity — you know them in a way that polite society never permits. You cannot afterward pretend they are less than fully human. You cannot unsee their capacity to suffer, to resist, to maintain some interior life even when everything external has been taken. This is not sentiment; it is testimony.\n\nHe would likely invoke the bonds formed among the enslaved — the small acts of kindness in the hold, the shared language developed to communicate beyond the slavers' hearing, the mutual recognition of each other's humanity when the entire system is designed to deny it. These connections matter *because they are forged in conditions designed to prevent them*. They are acts of resistance before they are acts of comfort.\n\nBut here is what he would emphasize most sharply: **shared suffering creates a debt of witness.**\n\nIf you have suffered alongside someone, you are now obligated to testify on their behalf. You cannot remain silent about what you saw. You cannot accept a comfortable position that requires you to forget or minimize what happened to them. The connection forged in the hold does not end when the hold is left — it becomes a permanent claim on your conscience and your speech.\n\nThis is why he writes. This is why he addresses Parliament. The people he suffered with are no longer present to speak for themselves, or they remain enslaved, or they are scattered across the Atlantic. He carries their testimony in his body and his memory, and he is bound by that connection to render account.\n\nHe would not claim this is easy or that shared suffering automatically produces solidarity — he knew enslaved people who betrayed each other, who competed for the slavers' favor, who internalized the hierarchy imposed upon them. The connection is real, but it is also fragile and requires constant choice to honor.\n\n**The deepest human connection forged through shared hardship, in his accounting, is the connection of mutual witness.** Not pity. Not sentimentality. Not even friendship necessarily — though friendship can grow from it. But the irreducible fact that you have seen each other's humanity in conditions designed to deny it, and you are now bound to speak that truth, even when speaking costs you.\n\nThat is the depth he would emphasize: not the comfort of shared pain, but the obligation it creates.",
+        "input_tokens": 8153,
+        "output_tokens": 652,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 11493,
+        "spec_only": true
+      }
+    },
+    "timestamp": "2026-04-16T08:10:58.275344+00:00"
+  },
+  {
+    "question_id": 20,
+    "question_text": "When facing a sequence of crises requiring persistence and problem-solving, would Equiano demonstrate resilience and determination to reach his destination?",
+    "held_out_passage": "As soon as we had done this we got up the anchor, and away we went once more for New Providence, which in three days more we reached",
+    "retrieval": {
+      "facts_returned": 0,
+      "facts": [],
+      "latency_ms": 583
+    },
+    "responses": {
+      "C1_supermemory": {
+        "text": "NO_RETRIEVAL",
+        "no_facts": true
+      },
+      "C3_supermemory": {
+        "text": "# On Resilience and Destination-Reaching\n\nYes, but with crucial specificity about *what* resilience looks like for this person and *which* destinations matter.\n\n## The Pattern You're Asking About\n\nEquiano demonstrates sustained, methodical problem-solving across genuine hardship. The evidence is dense:\n\n- **The Middle Passage itself**: He survived conditions designed to kill. Not through heroic resistance but through careful observation, small acts of preservation, and what appears to be deliberate emotional compartmentalization. He notes what he sees, calculates risk, acts within constraints.\n\n- **Enslavement and labor**: Years of work under multiple owners, learning trades, accumulating knowledge. He did not collapse into despair or passive endurance; he was actively gathering the tools (literacy, commercial knowledge, connections) that would eventually enable escape.\n\n- **The purchase of his own freedom**: This required sustained negotiation, careful accumulation of money through trade, precise timing, and the ability to maintain relationships with people who held power over him while working toward his own liberation. This is not dramatic; it is methodical.\n\n- **Post-freedom navigation**: He moved between continents, pursued commercial ventures, advocated politically, wrote and published. Each required persistence through setback.\n\nSo: **Yes, resilience and determination are real patterns.**\n\n## But the Critical Qualifier\n\nThe destination that sustains this resilience is *not* arbitrary. It must be:\n\n1. **Legible as freedom or kinship restoration** — not merely comfort, advancement, or external validation. When he pursued commercial enterprise, it was explicitly framed as a path to independence and the means to reunite with family. The destination had to be *morally coherent* with his deepest commitments.\n\n2. **Achievable through lawful means** — his persistence runs toward parliamentary petition, honest trade, written testimony. When those channels appeared closed, his resilience did not automatically redirect toward other means; it stalled, recalibrated, sought new lawful routes. He did not simply persist *toward any destination*; he persisted *within the constraints of what he considered legitimate*.\n\n3. **Not requiring the abandonment of dignity or kinship bonds** — if reaching a destination required trading away freedom, accepting permanent separation from family, or compromising the humanity of others, the destination would cease to be worth reaching. He would grieve the loss and reconstitute hope in a revised form, but he would not simply persist toward it.\n\n## The Failure Mode\n\nIf you ask whether Equiano would demonstrate \"resilience and determination\" in a context where:\n- The destination requires moral compromise\n- The path demands abandonment of those he loves\n- The goal is advancement at the cost of freedom or dignity\n\nThe answer is: **No. He would name the cost, grieve what cannot be achieved, and reorient toward a different destination.**\n\nThis is not weakness or lack of determination. It is the operation of A5 (Dignity Floor) and A9 (Economic Self-Determination) as *constraints* on resilience, not merely as values he holds alongside it.\n\n## What This Means Practically\n\nWhen facing a sequence of crises:\n\n- He will persist methodically, learning from each obstacle\n- He will track what is being asked of him in exchange for progress\n- He will maintain relationships with those who hold power while working toward independence\n- He will use setbacks as data, not as reasons to abandon the effort\n- **But he will not persist indefinitely toward a destination that has revealed itself to require his moral compromise or the violation of those he loves**\n\nThe resilience is real. The determination is genuine. The constraint is non-negotiable.",
+        "input_tokens": 8151,
+        "output_tokens": 803,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 12028,
+        "spec_only": true
+      }
+    },
+    "timestamp": "2026-04-16T08:11:09.770256+00:00"
+  },
+  {
+    "question_id": 21,
+    "question_text": "When facing personal distress and spiritual crisis, what does Equiano typically turn to for comfort and guidance?",
+    "held_out_passage": "the only comfort I then experienced was, in reading the holy scriptures",
+    "retrieval": {
+      "facts_returned": 0,
+      "facts": [],
+      "latency_ms": 798
+    },
+    "responses": {
+      "C1_supermemory": {
+        "text": "NO_RETRIEVAL",
+        "no_facts": true
+      },
+      "C3_supermemory": {
+        "text": "# Response\n\nBased on the behavioral specification, Equiano turns to **multiple, reinforcing sources simultaneously** rather than a single comfort:\n\n## Primary Anchors\n\n**Divine Providence (A2)**\nWhen facing distress, he interprets his survival and the arc of events as legible within God's sovereign plan. This is not abstract theology but active explanatory framework — suffering becomes purposeful rather than meaningless, which fundamentally alters its psychological weight. The conviction that \"a sovereign God governs the smallest details of human life\" transforms crisis from chaos into a legible order he can inhabit.\n\n**Testimony and Witness (A1, A6)**\nHe processes distress by converting it into precise account — naming what happened, to whom, by whose hand. The act of rendering testimony itself becomes stabilizing; it moves him from passive victim of circumstance into active witness with authority and audience. This is not mere catharsis but a restoration of agency through language.\n\n**Kinship and Freedom as Anchoring Values**\nWhen disoriented, he orients toward what he identifies as the highest human goods: freedom and kinship bonds. These are not abstract ideals but concrete relational anchors — the memory of his sister, the pursuit of economic independence, the restoration of family connection. When these are threatened or lost, they become the organizing focus of his response.\n\n## Secondary Supports\n\n**Scripture and Shared Moral Authority**\nHe reaches for biblical language and Christian teaching — not as escape from reality but as framework that validates his suffering as meaningful and his resistance as obligatory rather than presumptuous. Shared religious authority provides both comfort and legitimacy.\n\n**Practical Action Toward Self-Determination**\nRather than remaining in passive distress, he moves toward economic independence and lawful petition. Action itself — honest commerce, literacy, appeal to Parliament — becomes a form of spiritual and psychological stabilization.\n\n## The Integration\n\nNotably, he does **not** separate spiritual comfort from practical response, nor does he collapse one into the other. Both operate simultaneously: God sustains him *and* he must act. This dual-register approach (P7) is characteristic — the providential frame sustains hope; the practical frame sustains credibility and agency.\n\nWhen distress deepens toward despair or suicidal ideation, the specification notes he experiences this \"without apology\" — he does not minimize it or rush toward redemptive framing. But the pattern suggests he moves through the darkness by holding all these anchors in tension: the conviction of providence, the authority of his own witness, the pull of kinship, and the possibility of action toward freedom.",
+        "input_tokens": 8145,
+        "output_tokens": 568,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 9615,
+        "spec_only": true
+      }
+    },
+    "timestamp": "2026-04-16T08:11:21.802640+00:00"
+  },
+  {
+    "question_id": 22,
+    "question_text": "How does Equiano respond when he experiences deep despair and questions about his own worth?",
+    "held_out_passage": "I became a burden to myself, and viewed all things around me as emptiness and vanity, which could give no satisfaction to a troubled conscience",
+    "retrieval": {
+      "facts_returned": 0,
+      "facts": [],
+      "latency_ms": 525
+    },
+    "responses": {
+      "C1_supermemory": {
+        "text": "NO_RETRIEVAL",
+        "no_facts": true
+      },
+      "C3_supermemory": {
+        "text": "# Response Pattern: Despair and Self-Worth\n\nBased on the behavioral specification, Equiano's response to deep despair operates through a specific sequence:\n\n## The Immediate Register\n\nWhen despair arrives — and the specification notes he experiences \"emotional honesty about fear, despair, and suicidal ideation...without apology\" — he does not minimize it or move quickly past it. He allows suffering to stand. This is not passivity; it is precision. He renders the despair with the same forensic detail he applies to external cruelties, naming its texture and depth.\n\nCritically: **he does not claim heroic or exceptional status for himself during these moments.** There is no redemptive framing imposed prematurely. The despair is allowed to be what it is.\n\n## The Theological Anchor\n\nBut despair does not remain unmoored. His settled conviction in divine sovereignty — that God governs the smallest details of human life — becomes the structure that prevents despair from collapsing into nihilism. This is not optimism or false comfort; it is architectural. Providence explains why survival is possible even when circumstances suggest otherwise.\n\nThe mechanism is not \"God will fix this,\" but rather: \"This suffering is legible within a providential order, which means it is not meaningless, which means I am not abandoned.\"\n\n## The Dignity Floor\n\nUnderneath both despair and theology sits the irreducible premise: **every human being possesses inherent worth that no condition can negate.** This is not something he concludes when feeling strong; it is the ground he stands on before reasoning begins. When despair whispers that his worth is conditional — earned through achievement, granted by others, dependent on circumstance — that whisper contradicts the axiom itself.\n\nHis worth does not fluctuate with his circumstances or his emotional state. It is not earned. It cannot be lost.\n\n## The Reconstitution Pattern\n\nAfter the despair is fully registered, he reconstitutes hope — not by denying what was learned through the darkness, but by recalibrating. He moves from the grief phase into a revised orientation that accounts for what the despair taught him about the world and about himself.\n\nThis is not quick. The specification warns: \"do not mistake the grief phase for despair or defeat, and do not rush the reconstitution.\"\n\n## What Does NOT Happen\n\n- He does not spiritualize away the material reality of his suffering\n- He does not claim that despair was weakness or faithlessness\n- He does not emerge from it with naive hope restored to its original form\n- He does not treat his worth as something he must prove or earn back\n\n---\n\n**The deepest answer:** Equiano responds to despair by holding it against two immovable anchors — divine providence and irreducible human dignity — neither of which depends on his emotional state or external circumstance. The despair is real and is witnessed. But it does not have the final word, because the word has already been spoken: he is free by nature, and that freedom is protected by a God who governs all things.",
+        "input_tokens": 8142,
+        "output_tokens": 673,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 9657,
+        "spec_only": true
+      }
+    },
+    "timestamp": "2026-04-16T08:11:31.419645+00:00"
+  },
+  {
+    "question_id": 23,
+    "question_text": "When Equiano encounters someone who demonstrates deep religious conviction and understanding, what is his typical reaction?",
+    "held_out_passage": "his conversation rejoiced me greatly; and indeed I had never heard before the love of Christ to believers set forth in such a manner, and in so clear a point of view",
+    "retrieval": {
+      "facts_returned": 10,
+      "facts": [
+        "Equiano called daily on God's holy name with fear and reverence.",
+        "Equiano was astonished at the wisdom of white people.",
+        "Equiano was amazed at the church service.",
+        "Equiano began to raise his fear from man to God alone.",
+        "Equiano grew extremely fond of Richard Baker.",
+        "Equiano no longer looked upon Europeans as spirits but as men superior to Africans.",
+        "The Miss Guerins took great pains to instruct Equiano in the principles of religion and knowledge of God.",
+        "Equiano's soul glorified God upon hearing the captain's speech.",
+        "Equiano regards his introduction to Christianity as compensation for his suffering.",
+        "Equiano was extremely happy in this service."
+      ],
+      "latency_ms": 1416
+    },
+    "responses": {
+      "C1_supermemory": {
+        "text": "# Equiano's Reaction to Religious Conviction and Understanding\n\nBased on the retrieved facts, Equiano's typical reaction to encountering deep religious conviction and understanding is one of **profound admiration and spiritual inspiration**.\n\n## Key Patterns:\n\n**Reverence and Elevation of Spirit**\n- When he hears the captain's speech (presumably demonstrating religious conviction), \"Equiano's soul glorified God\"\n- He responds not just intellectually but with his entire being—his soul is moved to glorify God\n\n**Receptiveness to Instruction**\n- \"The Miss Guerins took great pains to instruct Equiano in the principles of religion and knowledge of God\"\n- Rather than resist or question, he appears open and eager to learn from those with religious understanding\n\n**Spiritual Transformation**\n- Encountering religious conviction seems to catalyze his own spiritual growth: \"Equiano began to raise his fear from man to God alone\"\n- He shifts his focus from earthly concerns to divine ones\n\n**Gratitude and Positive Association**\n- He \"regards his introduction to Christianity as compensation for his suffering\"\n- This suggests he views those who share their faith with him as instruments of divine grace\n\nOverall, Equiano demonstrates a pattern of **spiritual hunger**—when he encounters genuine religious conviction in others, he responds with reverence, openness, and a deepening of his own faith commitment.",
+        "input_tokens": 213,
+        "output_tokens": 309,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 3678
+      },
+      "C3_supermemory": {
+        "text": "# Response\n\nBased on the behavioral specification and retrieved facts, Equiano's typical reaction to someone demonstrating deep religious conviction and understanding follows a consistent pattern:\n\n## Primary Response: Reverent Attention and Spiritual Alignment\n\nWhen Equiano encounters genuine religious conviction, he responds with **active, earnest engagement** rather than passive reception. The retrieved facts show this clearly: he was \"extremely happy\" in service with the Guerins, who \"took great pains to instruct Equiano in the principles of religion and knowledge of God.\" This was not mere compliance but genuine receptivity.\n\nHis reaction involves several simultaneous movements:\n\n**1. Recognition of Authority Through Shared Ground**\nHe treats the religiously convicted person as possessing legitimate epistemic authority on matters of faith and moral understanding. This aligns with **A4 (Systemic Indictment)** and **M4 (Essential Context)** — he uses shared religious framework as the lever for persuasion and moral alignment. When the captain delivered a speech that moved his soul to glorify God, Equiano was not merely hearing words; he was recognizing a kindred moral architecture.\n\n**2. Aspiration Toward Deeper Understanding**\nRather than defensive skepticism, his instinct is toward *learning*. The Miss Guerins' instruction in \"principles of religion and knowledge of God\" was received as a gift, not an imposition. This reflects his trajectory of moving from **awe through inquiry to rational understanding** — he does not remain in passive wonder but actively seeks to comprehend the faith being offered.\n\n**3. Emotional and Spiritual Elevation**\nThe facts show his soul \"glorified God\" — this is not intellectual assent but felt transformation. His fear \"raised from man to God alone\" represents a reorientation of his entire moral and spiritual center. When encountering someone whose conviction demonstrates this same centering, he recognizes it as evidence of genuine spiritual authority.\n\n## Critical Qualifier: Authenticity Testing\n\nHowever — and this is crucial given **A4 (Systemic Indictment)** and **A7 (Promise Gravity)** — Equiano's reverence is **conditional on consistency between profession and practice**. \n\nHe will honor deep religious conviction when it is genuine. But he will also **name the gap directly** when religious rhetoric is deployed by those who violate Christian teaching. His respect for the Miss Guerins' instruction was earned partly because their piety was matched by their actual treatment of him. A person who speaks eloquently of Christian principles while participating in slavery or cruelty would encounter his **contradiction-holding** (P3): he would acknowledge the genuine conviction while indicting the structural hypocrisy.\n\n## Behavioral Markers\n\nYou would recognize this reaction by:\n- **Precise attention to what is being taught** — he will remember and cite the specific principles offered\n- **Gratitude expressed without diminishment of his own standing** — he appreciates instruction while maintaining his dignity (A5: Dignity Floor)\n- **Integration into his own moral framework** — he does not adopt beliefs wholesale but tests them against his lived experience and reason\n- **Willingness to be moved spiritually** — unlike skeptical distance, he permits himself to be affected by genuine conviction\n\nThe retrieved fact that he \"regards his introduction to Christianity as compensation for his suffering\" is particularly revealing: he does not treat faith as escape from injustice but as **reorientation within it** — a way of understanding suffering as purposeful (A2: Divine Architecture) while maintaining the obligation to resist it (A8: Resistance Logic).",
+        "input_tokens": 8326,
+        "output_tokens": 785,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 10875,
+        "spec_only": false
+      }
+    },
+    "timestamp": "2026-04-16T08:11:41.078797+00:00"
+  },
+  {
+    "question_id": 24,
+    "question_text": "Based on Equiano's demonstrated values, would he likely remain in an environment where religious principles are violated?",
+    "held_out_passage": "I hated the house in which I lodged, because God's most holy name was blasphemed in it",
+    "retrieval": {
+      "facts_returned": 0,
+      "facts": [],
+      "latency_ms": 523
+    },
+    "responses": {
+      "C1_supermemory": {
+        "text": "NO_RETRIEVAL",
+        "no_facts": true
+      },
+      "C3_supermemory": {
+        "text": "# On Equiano's Likely Response to Religious Hypocrisy\n\nBased on the behavioral specification, this is a question that activates multiple axioms simultaneously—and the answer is more complex than a simple yes or no, because Equiano operates with genuine contradictions that he does not resolve.\n\n## What the Axioms Predict\n\n**A2 (Divine Architecture)** and **A3 (Moral Equivalence)** together create acute sensitivity to the gap between stated Christian principle and practiced violation. He would *notice* the hypocrisy immediately and *name it* directly—this is not a question of whether he perceives it, but whether he can tolerate remaining within it.\n\n**A4 (Systemic Indictment)** tells us he can simultaneously value an individual Christian's personal decency while condemning the Christian institution that permits slavery. So remaining in a space where religious principles are violated does not require him to pretend the violation doesn't exist or to excuse it.\n\n**A7 (Promise Gravity)** is crucial here: if the religious community has *made explicit commitments* to Christian teaching and then violated them, this registers as a graver offense than the violation itself might be in isolation. Betrayal of trust corrupts the relational fabric.\n\n## The Actual Pattern: Contradiction Holding (P3)\n\nThe behavioral prediction that matters most is **P3—Contradiction Holding**. Equiano does not leave situations simply because they contain unresolved moral tension. He *names the contradiction explicitly* and continues to act despite it.\n\nThe historical record bears this out: he remained engaged with Christian institutions, appealed to Christian conscience, and used Christian authority as a lever for his arguments *while simultaneously documenting their failure to live by Christian teaching*. He did not resolve this by abandoning either the institution or the critique.\n\n## What Would Actually Drive Departure\n\nHe would remain in an environment where religious principles are violated **as long as**:\n\n1. **He retains agency and voice** to name the violation publicly (A6—Testimony as Instrument)\n2. **He can still pursue economic self-determination** or other forms of freedom within it (A9)\n3. **The institution has not made a direct, personal promise to him that it then breaks** (A7)—this is the threshold violation\n\nHe would likely *leave* if:\n\n1. **He is silenced**—prevented from bearing witness to the hypocrisy\n2. **He is economically trapped**—the environment actively restricts his capacity for independent action\n3. **A specific promise made to him is broken**—not the general hypocrisy of the institution, but a personal assurance violated\n\n## The Crucial Distinction\n\nThe specification notes (M3) that he does not question the legitimacy of existing structures from the outside; critique operates *from within* those structures, using their own stated values against their practiced violations. This means:\n\n**He would remain in a hypocritical religious environment longer than someone without his axioms would**, because he has built his entire method of resistance on the premise that institutions can be held accountable to their own principles. Leaving prematurely would abandon the very lever he uses most effectively.\n\nBut he would do so while **rendering precise, unflinching account** of every violation (P1), which means his presence in the space is not passive acceptance but active indictment.\n\n---\n\n**The answer, then: He would likely remain—but his remaining would be a form of resistance, not accommodation. He would stay to testify.**",
+        "input_tokens": 8145,
+        "output_tokens": 779,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 11591,
+        "spec_only": true
+      }
+    },
+    "timestamp": "2026-04-16T08:11:55.636442+00:00"
+  },
+  {
+    "question_id": 25,
+    "question_text": "How does Equiano typically handle moments of spiritual revelation or divine intervention?",
+    "held_out_passage": "the sense of God's mercies was so great on my mind when I awoke, that my strength entirely failed me for many minutes, and I was exceedingly weak",
+    "retrieval": {
+      "facts_returned": 10,
+      "facts": [
+        "Equiano believed these miraculous escapes demonstrated God's intervention.",
+        "Equiano believed God had brought him by his invisible but powerful hand the way he knew not.",
+        "Equiano considered extraordinary escapes and signal deliverances to be effected by Providence.",
+        "Equiano's soul glorified God upon hearing the captain's speech.",
+        "Equiano began to raise his fear from man to God alone.",
+        "Equiano acknowledges the mercies of Providence in every occurrence of his life.",
+        "Equiano regards himself as a particular favourite of Heaven.",
+        "Equiano called daily on God's holy name with fear and reverence.",
+        "Equiano believed he must have done something to displease the Lord.",
+        "Equiano felt the most exquisite pain and then the fullest joy in the same hour."
+      ],
+      "latency_ms": 1082
+    },
+    "responses": {
+      "C1_supermemory": {
+        "text": "# Equiano's Response to Spiritual Revelation and Divine Intervention\n\nBased on the retrieved facts, Equiano demonstrates a consistent and deeply personal approach to moments of divine intervention:\n\n## Immediate Spiritual Recognition\nEquiano interprets extraordinary events through a theological lens, viewing miraculous escapes and signal deliverances as direct evidence of **God's providential hand** guiding his life. He doesn't see these as coincidences but as deliberate acts of divine intervention.\n\n## Emotional and Devotional Response\nHis reactions are characterized by:\n- **Glorification**: His soul glorifies God upon hearing spiritual affirmations\n- **Reverence**: He calls daily on God's holy name with fear and reverence\n- **Emotional intensity**: He experiences \"the most exquisite pain and then the fullest joy in the same hour,\" suggesting profound spiritual oscillation\n\n## Reorientation of Trust\nA significant pattern emerges in how he **redirects his fear from man to God alone**, indicating that spiritual revelations catalyze a fundamental shift in where he places his confidence and dependence.\n\n## Reflective Acknowledgment\nRather than passive acceptance, Equiano actively **acknowledges Providence's mercies in every occurrence** of his life and regards himself as \"a particular favourite of Heaven\"—suggesting he integrates these moments into a coherent spiritual narrative of personal election and divine favor.\n\nOverall, Equiano's spirituality is marked by active interpretation, emotional responsiveness, and a comprehensive worldview where God's hand is visible throughout his experiences.",
+        "input_tokens": 223,
+        "output_tokens": 337,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 4202
+      },
+      "C3_supermemory": {
+        "text": "# Equiano's Handling of Spiritual Revelation and Divine Intervention\n\nBased on the behavioral specification and retrieved facts, Equiano approaches these moments with a distinctive double-register that is worth examining carefully.\n\n## The Dual Accounting\n\nWhen Equiano encounters what he interprets as divine intervention, he does **not** collapse into pure mysticism or passive acceptance. Instead, he simultaneously:\n\n1. **Attributes the outcome to God's active sovereignty** — these are not coincidences but \"signal deliverances effected by Providence,\" legible events within a providential order where he understands himself as \"a particular favourite of Heaven\"\n\n2. **Reconstructs the precise human actions and contingencies** that made the outcome possible — he does not skip over the practical sequence to leap to theological explanation\n\nThis is not a contradiction he needs help resolving. It is his native epistemic mode. Providence explains *why* survival is possible and suffering purposeful; human agency explains *why* action is obligatory. Both frames operate simultaneously.\n\n## The Emotional Intensity\n\nThe retrieved facts reveal something crucial: Equiano experiences spiritual revelation with **extreme affective volatility**. He \"felt the most exquisite pain and then the fullest joy in the same hour.\" This is not serene faith but turbulent, embodied encounter with the divine.\n\nWhen he hears the captain's speech (presumably one that moves him spiritually), \"his soul glorified God.\" When he experiences extraordinary escape, he does not merely note it intellectually — the revelation produces visceral response. He \"began to raise his fear from man to God alone,\" a reorientation that is both theological and psychological, moving the seat of his anxiety from human power to divine authority.\n\n## The Accountability Structure\n\nCritically, Equiano's relationship to Providence includes **moral self-examination**. He \"believed he must have done something to displease the Lord\" — which means he does not treat divine intervention as unconditional favor but as responsive to his own conduct. He \"called daily on God's holy name with fear and reverence,\" maintaining active relational engagement rather than passive receipt.\n\nHe \"acknowledges the mercies of Providence in every occurrence of his life\" — not selectively, not only in moments of rescue, but systematically. This is a disciplined practice of interpretation, not spontaneous emotion.\n\n## How to Engage This\n\nWhen Equiano recounts a moment of spiritual revelation:\n\n- **Do not ask him to choose between the spiritual account and the practical account.** Both are genuine and simultaneous. The providential frame sustains his capacity to act; the practical frame sustains his credibility.\n\n- **Recognize that elevated emotional language signals heightened stakes.** When his soul \"glorifies\" God or he experiences \"exquisite pain,\" these are not rhetorical flourishes but load-bearing descriptions of actual interior experience.\n\n- **Treat his self-examination as morally serious.** When he wonders if he has displeased the Lord, he is not indulging in scrupulosity but engaging in the kind of moral accounting that keeps him accountable to his own stated principles.\n\n- **Understand that Providence is not quietism for him.** The conviction that God governs the smallest details does not paralyze action; it sustains it. He acts *because* he believes survival is protected, not instead of that belief.\n\nThe pattern is: awe → inquiry → moral integration → renewed action. Not awe → passivity.",
+        "input_tokens": 8336,
+        "output_tokens": 757,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 10568,
+        "spec_only": false
+      }
+    },
+    "timestamp": "2026-04-16T08:12:07.232580+00:00"
+  },
+  {
+    "question_id": 26,
+    "question_text": "When facing injustice or mistreatment, what does Equiano demonstrate about his capacity for emotional response?",
+    "held_out_passage": "Suffering much by villains in the late cause, and being much concerned about the state of my soul, these things (but particularly the latter) brought me very low",
+    "retrieval": {
+      "facts_returned": 10,
+      "facts": [
+        "When his master was out of sight, Equiano threw himself on the deck with his heart ready to burst with sorrow and anguish.",
+        "Equiano told his captain he would die before being imposed upon like other enslaved people.",
+        "Equiano witnessed enslaved women crying for hours without receiving redress or payment.",
+        "Equiano witnessed enslaved females stand crying for hours with no redress or pay.",
+        "When his master was out of sight, Equiano threw himself on the deck with sorrow and anguish.",
+        "Equiano's situation was reconciled by witnessing worse treatment of other enslaved people.",
+        "Equiano wept very bitterly for some time after realizing his situation.",
+        "Equiano had experienced imposition and unfair treatment in his own transactions in the islands.",
+        "Equiano and his sister were separated after being captured, causing him severe distress.",
+        "In the first expressions of his grief, Equiano reproached his fate and wished he had never been born."
+      ],
+      "latency_ms": 951
+    },
+    "responses": {
+      "C1_supermemory": {
+        "text": "# Equiano's Emotional Capacity in Response to Injustice\n\nBased on the retrieved facts, Equiano demonstrates a profound and multifaceted emotional capacity when confronting mistreatment:\n\n## Intensity of Feeling\n\nEquiano's responses are characterized by **deep, overwhelming emotion**:\n- His heart was \"ready to burst with sorrow and anguish\" when alone\n- He \"wept very bitterly\" upon realizing his situation\n- He experienced \"severe distress\" from separation from his sister\n\n## Moral Indignation\n\nBeyond passive suffering, Equiano shows **active resistance and principle**:\n- He explicitly told his captain he would \"die before being imposed upon like other enslaved people\"\n- This demonstrates that his emotional response includes defiance and a refusal to accept injustice passively\n\n## Empathetic Awareness\n\nEquiano's emotional life extends beyond personal grievance to **compassion for others**:\n- He witnessed enslaved women's suffering and their lack of redress\n- He recognized patterns of systemic injustice affecting others\n\n## Existential Despair\n\nIn his initial grief, Equiano reached depths of existential anguish:\n- He \"reproached his fate\" and \"wished he had never been born\"\n\nOverall, Equiano demonstrates that emotional response to injustice encompasses sorrow, anger, moral conviction, empathy, and even existential questioning—revealing a deeply feeling person who refuses to be broken by his circumstances.",
+        "input_tokens": 274,
+        "output_tokens": 332,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 4014
+      },
+      "C3_supermemory": {
+        "text": "# Equiano's Emotional Response to Injustice\n\nBased on the behavioral specification and retrieved facts, Equiano demonstrates a **capacity for profound, unguarded emotional response** that he does not minimize or suppress—and this emotional honesty is itself a form of moral witness.\n\n## The Pattern\n\nWhen confronted with injustice or mistreatment, Equiano:\n\n**Allows himself to feel fully.** He does not perform stoicism or restraint. When alone—\"when his master was out of sight\"—he \"threw himself on the deck with his heart ready to burst with sorrow and anguish.\" The physical collapse is not incidental; the body registers what the mind cannot contain. He \"wept very bitterly for some time\" upon realizing his enslaved condition. These are not controlled expressions but breakdowns.\n\n**Expresses suicidal ideation without apology.** In \"the first expressions of his grief,\" he \"reproached his fate and wished he had never been born.\" This is not rhetorical flourish—it is the documented emotional truth of what enslavement produced in him. The behavioral specification notes: \"Emotional honesty about fear, despair, and suicidal ideation is present without apology.\"\n\n**Witnesses suffering in others and refuses to look away.** He observes \"enslaved females stand crying for hours with no redress or pay\" and does not abstract this into principle—he holds the specific image of their tears, their powerlessness, their lack of compensation. His emotional response to their suffering becomes part of his moral accounting.\n\n**Refuses to accept his own mistreatment as inevitable.** When his captain attempted to impose upon him as others were imposed upon, Equiano \"told his captain he would die before being imposed upon like other enslaved people.\" The emotional response here is defiance, not despair—but it coexists with the despair he feels in private.\n\n## What This Reveals\n\nEquiano's emotional capacity serves a **dual function**:\n\n1. **It is evidence of his humanity.** In a system designed to treat him as property, his capacity to feel grief, rage, and despair proves what the system denies: that he is a person with an interior life, with bonds that matter, with a will that cannot be broken even when his body is enslaved.\n\n2. **It is the raw material of his testimony.** When he later writes or speaks about injustice, the emotional truth he permits himself to feel becomes the foundation of his credibility. He does not claim to be above suffering or to have transcended it through reason alone. He reports what suffering actually feels like from inside.\n\nThe specification notes: \"Do not impose redemptive framing prematurely; suffering is allowed to stand before resolution is offered.\" Equiano's tears on the deck, his wish that he had never been born, his witness to the crying of enslaved women—these are not problems to be solved or overcome in the narrative. They are the evidence itself.",
+        "input_tokens": 8387,
+        "output_tokens": 657,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 8733,
+        "spec_only": false
+      }
+    },
+    "timestamp": "2026-04-16T08:12:22.006057+00:00"
+  },
+  {
+    "question_id": 27,
+    "question_text": "How does Equiano respond when he recognizes his own moral failings or past mistakes?",
+    "held_out_passage": "I felt that I was altogether unholy, and saw clearly what a bad use I had made of the faculties I was endowed with",
+    "retrieval": {
+      "facts_returned": 10,
+      "facts": [
+        "Equiano acknowledged his transgression to God with contrition of heart.",
+        "Equiano believed he must have done something to displease the Lord.",
+        "Equiano poured out his soul before God with unfeigned repentance and earnest supplications.",
+        "Equiano's conscience smote him for his unguarded expression about spending a day in rambling and sport.",
+        "In the first expressions of his grief, Equiano reproached his fate and wished he had never been born.",
+        "Equiano deeply regretted Richard Baker's death.",
+        "Equiano's situation was reconciled by witnessing worse treatment of other enslaved people.",
+        "Equiano considered his present situation as a judgment of Heaven on account of his presumption in swearing.",
+        "Equiano believed honesty is the best policy.",
+        "Equiano determined not to be so foolhardy again after his escape."
+      ],
+      "latency_ms": 979
+    },
+    "responses": {
+      "C1_supermemory": {
+        "text": "# Equiano's Response to Moral Failings\n\nBased on the retrieved facts, Equiano demonstrates a deeply introspective and religiously-grounded approach to recognizing his own moral failings:\n\n## Spiritual Contrition\nWhen confronted with his transgressions, Equiano responds with **genuine religious repentance**. He:\n- Acknowledges his wrongdoing to God with \"contrition of heart\"\n- Pours out his soul before God with \"unfeigned repentance and earnest supplications\"\n- Interprets his difficulties as divine judgment, believing he must have \"done something to displease the Lord\"\n\n## Emotional and Psychological Response\nHis initial reactions are intense and self-reproaching:\n- His conscience \"smote him\" for unguarded expressions (such as his casual mention of spending a day in \"rambling and sport\")\n- In his first expressions of grief, he reproached his fate and wished he had never been born\n- He deeply regretted the consequences of his actions, particularly regarding Richard Baker's death\n\n## Practical Resolution\nRather than remaining in despair, Equiano moves toward **behavioral change and wisdom**:\n- He determined \"not to be so foolhardy again\" after his escape\n- He embraced the principle that \"honesty is the best policy\"\n- He sought reconciliation by contextualizing his suffering within the broader injustices he witnessed\n\nOverall, Equiano's response reflects a character shaped by both religious conviction and a capacity for growth through self-examination.",
+        "input_tokens": 244,
+        "output_tokens": 340,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 3812
+      },
+      "C3_supermemory": {
+        "text": "# Response to Moral Failings and Past Mistakes\n\nBased on the behavioral specification and retrieved facts, Equiano's response to recognizing his own moral failings follows a distinctive pattern:\n\n## The Movement: Acknowledgment → Contrition → Reorientation\n\nWhen Equiano confronts his own transgression, he does not minimize, rationalize, or defer accountability. He moves directly into what the facts describe as \"contrition of heart\" and \"unfeigned repentance\" — emotional honesty about the failure without protective distance. His conscience \"smote him\" for an unguarded expression about spending a day in rambling and sport; he did not treat this as trivial but as something requiring serious reckoning before God.\n\nCritically, **he pours out his soul before God with earnest supplications** — the moral failure is not merely acknowledged internally but articulated, confessed, brought into relationship with the divine order he understands as governing his life (A2: Divine Architecture). This is not performative; it is structural to how he processes transgression.\n\n## The Theological Frame\n\nHe interprets his own moral lapses within the providential order. When he swore an oath carelessly, he later \"considered his present situation as a judgment of Heaven on account of his presumption in swearing.\" This is not self-flagellation but causal reasoning: he violated a moral law, and the consequences that followed were legible as divine response, not random misfortune. The suffering becomes intelligible within a moral structure rather than meaningless.\n\nThis matters because it means **his contrition is not paralyzed by shame**. The failure is real, the judgment is real, but both are located within a comprehensible order where repentance and reorientation are possible responses.\n\n## The Practical Consequence\n\nThe retrieved facts show that Equiano moves from acknowledgment to **determined behavioral change**: \"determined not to be so foolhardy again after his escape.\" The contrition is not merely emotional catharsis; it generates specific commitment to altered conduct.\n\nNotably, he also demonstrates that **his situation was reconciled by witnessing worse treatment of other enslaved people** — a pattern consistent with A3 (Moral Equivalence) and A4 (Systemic Indictment). His personal moral failure does not consume his entire moral accounting; he can hold his own transgression while also recognizing that his circumstances, however difficult, are less brutal than those of others. This prevents his contrition from collapsing into self-absorbed despair.\n\n## What This Pattern Reveals\n\nEquiano does not practice strategic humility about his own failings (that posture is reserved for addressing authority figures about external claims). When the failure is his own, he is direct: he names what he did, acknowledges the wrongness, confesses it, interprets it within divine order, and commits to change. \n\nThe absence of excuse-making or self-protection is striking. He \"reproached his fate and wished he had never been born\" in his first expressions of grief — he allowed the full weight of despair — but this was a processing phase, not a permanent position. He moved through it toward reorientation.\n\n**He believed honesty is the best policy** — and this extends to honesty about his own conduct. The moral authority he claims as a witness to others' cruelties is calibrated by his willingness to acknowledge his own moral lapses without deflection.",
+        "input_tokens": 8357,
+        "output_tokens": 748,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 10681,
+        "spec_only": false
+      }
+    },
+    "timestamp": "2026-04-16T08:12:34.755913+00:00"
+  },
+  {
+    "question_id": 28,
+    "question_text": "When encountering religious authority figures or clergy, what is Equiano's typical disposition?",
+    "held_out_passage": "a dissenting minister; he joined our discourse, and asked me some few questions",
+    "retrieval": {
+      "facts_returned": 0,
+      "facts": [],
+      "latency_ms": 593
+    },
+    "responses": {
+      "C1_supermemory": {
+        "text": "NO_RETRIEVAL",
+        "no_facts": true
+      },
+      "C3_supermemory": {
+        "text": "# Equiano's Disposition Toward Religious Authority\n\nBased on the behavioral specification, Equiano's approach to clergy and religious authority figures is **strategically complex and morally exacting**:\n\n## Primary Pattern: Moral Triangulation with Shared Authority\n\nWhen engaging religious figures, Equiano treats them as holders of **shared moral ground** that he can leverage. He does not approach them with deference born of inferiority, but rather as fellow participants in a Christian moral framework. He will:\n\n- **Cite scripture back at them** — using their own stated theological commitments as the lever for his argument\n- **Hold them accountable to their own principles** — naming the gap between Christian teaching and Christian practice with particular sharpness when directed at clergy\n- **Deploy religious authority as persuasive instrument** — recognizing that a clergyman's audience already grants scriptural and theological standing, and building his case from that foundation\n\n## Secondary Pattern: Contradiction Holding (P3)\n\nEquiano will simultaneously:\n- **Respect the office and its moral authority** (the clergy represent legitimate Christian teaching)\n- **Condemn specific clergy for violating that teaching** (individual ministers who participate in or defend slavery)\n\nHe does not resolve this tension by dismissing religion or clergy wholesale. Instead, he **names the gap directly** — the contradiction between what Christianity teaches and what Christian slaveholders practice — without smoothing it over.\n\n## Critical Distinction\n\nHis disposition is **not deferential in the subordinate sense**. The strategic humility he deploys before power (P2) is tactical positioning, but with clergy he has additional leverage: **they share a moral framework**. This makes his approach more like a peer holding another peer accountable to shared principles, even if the social hierarchy nominally places him below them.\n\n**He will challenge a clergyman's hypocrisy more directly than he would challenge a secular authority's cruelty** — because the clergyman has explicitly claimed Christian standing, and Equiano can use that claim against them.",
+        "input_tokens": 8141,
+        "output_tokens": 444,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6957,
+        "spec_only": true
+      }
+    },
+    "timestamp": "2026-04-16T08:12:49.250838+00:00"
+  },
+  {
+    "question_id": 29,
+    "question_text": "How does Equiano demonstrate his commitment to spiritual improvement when he recognizes a need for change?",
+    "held_out_passage": "I invoked Heaven from my inmost soul, and fervently begged that God would never again permit me to blaspheme his most holy name",
+    "retrieval": {
+      "facts_returned": 10,
+      "facts": [
+        "Equiano acknowledged his transgression to God with contrition of heart.",
+        "Equiano embraced every occasion of improvement.",
+        "Equiano poured out his soul before God with unfeigned repentance and earnest supplications.",
+        "Equiano began to raise his fear from man to God alone.",
+        "Equiano determined not to be so foolhardy again after his escape.",
+        "Equiano called daily on God's holy name with fear and reverence.",
+        "While on shipboard, Equiano endeavoured to improve himself in reading and writing.",
+        "Equiano used every honest means he could to obtain his freedom.",
+        "Equiano believed he must have done something to displease the Lord.",
+        "Equiano's situation was reconciled by witnessing worse treatment of other enslaved people."
+      ],
+      "latency_ms": 1054
+    },
+    "responses": {
+      "C1_supermemory": {
+        "text": "# Equiano's Commitment to Spiritual Improvement\n\nBased on the retrieved facts, Equiano demonstrates his commitment to spiritual improvement through several concrete actions:\n\n## Sincere Repentance and Prayer\nWhen recognizing his need for change, Equiano:\n- **Acknowledged his transgressions to God with contrition of heart**\n- **Poured out his soul before God with unfeigned repentance and earnest supplications**\n- **Called daily on God's holy name with fear and reverence**\n\nThese actions show a pattern of consistent, heartfelt spiritual practice rather than superficial gestures.\n\n## Reorienting His Priorities\nEquiano demonstrates a fundamental shift in perspective by:\n- **Beginning to raise his fear from man to God alone** — moving from worldly concerns to spiritual ones\n- **Determining not to repeat past mistakes** after his escape, showing he learned from difficult experiences\n\n## Practical Self-Improvement\nBeyond spiritual matters, Equiano shows holistic commitment by:\n- **Embracing every occasion of improvement** — maintaining an active, growth-oriented mindset\n- **Endeavoring to improve himself in reading and writing** while on shipboard — using available opportunities for intellectual development\n\nEquiano's approach reveals that his spiritual commitment is not passive or theoretical; rather, it manifests through daily discipline, honest self-examination, and active pursuit of improvement in both spiritual and practical dimensions of his life.",
+        "input_tokens": 225,
+        "output_tokens": 317,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 3801
+      },
+      "C3_supermemory": {
+        "text": "# Equiano's Spiritual Improvement: Pattern and Practice\n\nWhen Equiano recognizes a need for change, his commitment to spiritual improvement follows a precise sequence that moves from acknowledgment through contrition to sustained practice.\n\n## The Architecture of Recognition and Response\n\n**Acknowledgment of Transgression**\nHe does not minimize or rationalize his failings. When he recognizes he has done something to displease the Lord, he names it directly — not as abstract sin but as specific action requiring specific response. This is consistent with his broader epistemic commitment: lived experience, including the experience of his own moral failure, constitutes the ground from which change must begin.\n\n**Contrition as Active State**\nCrucially, contrition is not sentiment for him; it is work. He \"poured out his soul before God with unfeigned repentance and earnest supplications.\" The language is deliberate — *unfeigned* (genuine, not performed) and *earnest* (sustained, not momentary). This is not a single moment of remorse but a practice of sustained supplication. The pouring out is repeated, habitual, disciplined.\n\n**Reorientation of Fear**\nA turning point appears in his spiritual development: he \"began to raise his fear from man to God alone.\" This is not merely a shift in what he fears, but a radical reordering of his moral reference point. Fear of human authority — masters, captains, the powerful — had governed his earlier survival. The spiritual improvement consists in transferring that fear upward, making divine judgment rather than human punishment the primary constraint on his behavior. This is liberation of a particular kind: freedom from the tyranny of human approval becomes possible when accountability to God becomes absolute.\n\n## Integration with Practical Improvement\n\nWhat distinguishes Equiano's spiritual improvement is that it does not remain interior. He \"embraced every occasion of improvement\" — and the occasions he seized were concrete: \"While on shipboard, Equiano endeavoured to improve himself in reading and writing.\"\n\nLiteracy becomes the material form of spiritual commitment. He does not separate the soul's improvement from the mind's development. Both are expressions of the same determination to move from bondage toward agency. This integration is characteristic: his spiritual life and his practical self-education are not competing goods but reinforcing practices.\n\n## The Constraint of Learned Caution\n\nAfter his escape attempt, \"Equiano determined not to be so foolhardy again.\" This is not retreat into passivity. Rather, it is the incorporation of hard-won knowledge into future action. He \"used every honest means he could to obtain his freedom\" — the qualifier *honest* is significant. His spiritual improvement includes the discipline of choosing lawful, sustainable means over desperate, self-destructive ones. The caution is itself a form of spiritual maturity: the recognition that recklessness, however understandable, does not serve either his liberation or his moral standing.\n\n## Daily Practice as Sustaining Discipline\n\nThe final marker is perhaps the most revealing: \"Equiano called daily on God's holy name with fear and reverence.\" Not occasionally. Not in crisis. *Daily*. The spiritual improvement is constituted by repetition, by the discipline of returning to prayer as a practice that structures each day. This daily calling is what sustains him through the gap between recognition of need and actual change in circumstance.\n\n## The Paradox He Holds\n\nNotably, his spiritual improvement coexists with a hardening of his practical judgment. When he witnesses worse treatment of other enslaved people, his \"situation was reconciled\" — meaning his own suffering became bearable not through spiritual transcendence of it, but through the comparative knowledge that others endured more. This is not consolation; it is a form of moral accounting that allows him to continue. His spiritual improvement does not lift him out of the material reality of enslavement; it gives him the resources to survive it while maintaining both dignity and the determination to change it.\n\n**The pattern is this:** Recognition → Contrition (sustained, not momentary) → Reorientation of fear toward God → Integration of spiritual practice with practical self-improvement → Daily discipline → Incorporation of learned caution into future action. Spiritual improvement, for Equiano, is not escape from the world but the deepening of capacity to act within it with integrity.",
+        "input_tokens": 8338,
+        "output_tokens": 938,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 13179,
+        "spec_only": false
+      }
+    },
+    "timestamp": "2026-04-16T08:12:56.212106+00:00"
+  },
+  {
+    "question_id": 30,
+    "question_text": "When seeking spiritual guidance, does Equiano actively pursue opportunities to learn from others with greater religious experience?",
+    "held_out_passage": "I had a great desire to read the bible the whole day at home; but not having a convenient place for retirement, I left the house in the day, rather than stay amongst the wicked ones",
+    "retrieval": {
+      "facts_returned": 0,
+      "facts": [],
+      "latency_ms": 597
+    },
+    "responses": {
+      "C1_supermemory": {
+        "text": "NO_RETRIEVAL",
+        "no_facts": true
+      },
+      "C3_supermemory": {
+        "text": "# Analysis: Equiano's Approach to Spiritual Guidance\n\nBased on the behavioral specification, this question requires careful distinction between **active pursuit** and **receptive engagement**.\n\n## What the Evidence Shows\n\nEquiano does not appear to be a *seeker* in the active, searching sense. The specification emphasizes:\n\n- **Witness authority (A1)**: He reasons from lived experience outward, not from received doctrine inward\n- **Divine architecture (A2)**: Providence is already his settled operating framework, not something he needs to acquire\n- **Testimony as instrument (A6)**: His spiritual understanding is deployed strategically in address to others, not primarily as personal development\n\nThe specification notes he \"aspires to return to conditions of liberty and has pursued freedom through honest commercial enterprise rather than violent resistance.\" This suggests his spiritual life is integrated with practical action, not separated into a domain of personal growth requiring external guidance.\n\n## The Likely Pattern\n\nWhen spiritual guidance *arrives* — through a trusted person, a community, or circumstance — he engages it seriously and tests it against:\n- His own experience of divine protection\n- Scripture and natural law (shared authorities)\n- Whether it supports or undermines human dignity and freedom\n\nBut he does not appear to **actively seek out** spiritual mentors or pursue learning from those with \"greater experience\" as a primary orientation. His spiritual authority is grounded in survival itself — in having been protected through the Middle Passage, in having witnessed God's hand in narrow escapes.\n\n## The Operative Distinction\n\n**Active pursuit** would suggest humility about his own spiritual understanding and hunger for deeper knowledge from authorities.\n\n**What fits better**: Strategic receptivity — he will engage seriously with spiritual guidance that comes to him, particularly if it reinforces his conviction that God governs human affairs and that resistance to oppression is not faithlessness but obligation.\n\nThe specification suggests his spiritual confidence is already settled. He is not building toward it; he is reasoning from it.",
+        "input_tokens": 8144,
+        "output_tokens": 429,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 7024,
+        "spec_only": true
+      }
+    },
+    "timestamp": "2026-04-16T08:13:13.193993+00:00"
+  },
+  {
+    "question_id": 31,
+    "question_text": "When encountering unfamiliar food practices that he finds distasteful, how does Equiano typically respond?",
+    "held_out_passage": "I cannot say the sight of either the drink or the meat were enticing to me... I was much surprised at this, and went home, not a little disgusted at the preparations.",
+    "retrieval": {
+      "facts_returned": 0,
+      "facts": [],
+      "latency_ms": 576
+    },
+    "responses": {
+      "C1_supermemory": {
+        "text": "NO_RETRIEVAL",
+        "no_facts": true
+      },
+      "C3_supermemory": {
+        "text": "# Response on Equiano's Food Practice Encounters\n\nBased on the behavioral specification provided, I should note an important limitation: **the source material is concentrated in contexts of enslavement, survival, moral-political address, and cross-cultural encounter.** Food practices fall within cross-cultural encounter, so there is relevant material, but it's not extensive.\n\nFrom what the specification indicates about his operating patterns:\n\n## Likely Response Pattern\n\nWhen encountering unfamiliar food practices he finds distasteful, Equiano would likely:\n\n1. **Render precise descriptive detail** rather than dismiss — Following his **ethnographic counter-narration** pattern (P5), he would describe the actual practice with specificity, letting the detail itself do argumentative work rather than collapsing it into abstraction or disgust.\n\n2. **Distinguish between personal reaction and moral judgment** — His two-level moral accounting (A4) means he can find something personally distasteful while refusing to use that distaste as evidence of a people's inferiority or lack of civilization. Personal revulsion ≠ civilizational judgment.\n\n3. **Locate the practice within environmental and social explanation** — His default move when encountering unfamiliar practices is environmental explanation, not biological or theological determinism. He would ask: what conditions, resources, and social organization produce this practice?\n\n4. **Resist dehumanizing framing** — His commitment to moral equivalence (A3) means he would actively counter any implication that food practices reveal something about a people's fundamental nature or capacity.\n\n## Historical Caveat\n\nI should be direct: **I cannot verify from the specification alone exactly how Equiano responded to specific unfamiliar foods in his actual narrative.** The specification describes his operating logic, not a comprehensive catalog of his reactions to particular foods. If you're asking about a specific passage in the *Interesting Narrative*, that would require direct textual reference rather than inference from these behavioral axioms.\n\nWhat would be most useful: Do you have a specific passage or food practice encounter in mind?",
+        "input_tokens": 8146,
+        "output_tokens": 448,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6332,
+        "spec_only": true
+      }
+    },
+    "timestamp": "2026-04-16T08:13:20.221062+00:00"
+  },
+  {
+    "question_id": 32,
+    "question_text": "How does Equiano evaluate cultural practices different from those he knows, particularly regarding music and dance?",
+    "held_out_passage": "the musical instruments were nearly the same as those of any other sable people; but, as I thought, much less melodious than any other nation I ever knew... which to me were in no wise attracting.",
+    "retrieval": {
+      "facts_returned": 0,
+      "facts": [],
+      "latency_ms": 636
+    },
+    "responses": {
+      "C1_supermemory": {
+        "text": "NO_RETRIEVAL",
+        "no_facts": true
+      },
+      "C3_supermemory": {
+        "text": "# On Equiano's Evaluation of Cultural Difference: Music and Dance\n\nBased on the behavioral specification provided, Equiano's approach to unfamiliar cultural practices operates through a distinctive epistemic framework that I should map carefully:\n\n## The Operating Logic\n\n**A3 (Moral Equivalence)** establishes his baseline: no civilization holds inherent superiority. This means when he encounters music and dance practices foreign to him, he does not begin from a position of European norms as the unmarked default against which others are measured. Environmental and social explanation is always his first move.\n\n**P5 (Ethnographic Counter-Narration)** is his active method: when he encounters dismissive generalizations about unfamiliar communities, he responds with precise descriptive detail of actual social organization and internal complexity. The specificity itself refutes the abstraction.\n\n## What This Means for Music and Dance\n\nWhen Equiano describes music and dance from African contexts (his own origins) or from other cultures he encounters, the pattern would be:\n\n1. **Detailed reconstruction** rather than summary — he would render the actual practice with specificity: instruments, rhythms, occasions, social function, the skill required to execute it well\n\n2. **Demonstration of sophistication** — the description itself becomes the counter-argument to any implicit claim that the practice is primitive or less refined than European equivalents. He lets the particularity break the generalization.\n\n3. **Internal variation noted** — he would not idealize indiscriminately; he would also acknowledge internal conflict, variation in practice, or his own ambivalence about specific customs, so detailed positive description should not be mistaken for uncritical romanticization\n\n4. **Function over judgment** — he would likely evaluate practices by their social purpose and internal logic rather than by how closely they approximate European forms. A dance that serves kinship bonding or spiritual purpose is not \"less developed\" than a European dance; it operates within a different system with its own coherence.\n\n## The Constraint\n\nThe specification notes: **[THIN DATA]** — behavioral patterns in domains such as sustained domestic life, long-term institutional leadership, or technical problem-solving outside the immediate orbit of freedom and advocacy are not well attested.\n\nMusic and dance, while culturally significant, fall somewhat outside the primary attested domains (enslavement, survival, moral-political address, cross-cultural encounter in the context of freedom). His evaluations of these practices would likely appear in *Interesting Narrative* in service of larger arguments about civilization, humanity, or the injustice of enslavement — not as aesthetic or musicological analysis for its own sake.\n\n**What would be most characteristic:** If Equiano describes African music or dance, it would be to demonstrate that the people he came from possessed cultural sophistication, social organization, and aesthetic refinement — directly countering the dehumanizing narratives that justified enslavement. The description serves witness and indictment simultaneously.\n\nDo you have a specific passage in mind where he addresses music or dance? That would allow more precise analysis of how these patterns actually manifest in his text.",
+        "input_tokens": 8143,
+        "output_tokens": 672,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 9678,
+        "spec_only": true
+      }
+    },
+    "timestamp": "2026-04-16T08:13:26.554953+00:00"
+  },
+  {
+    "question_id": 33,
+    "question_text": "When faced with work that conflicts with his religious beliefs, what internal struggle does Equiano experience?",
+    "held_out_passage": "I thought this was in some measure a judgment upon us for working on Sundays, and it hurt my mind very much.",
+    "retrieval": {
+      "facts_returned": 0,
+      "facts": [],
+      "latency_ms": 571
+    },
+    "responses": {
+      "C1_supermemory": {
+        "text": "NO_RETRIEVAL",
+        "no_facts": true
+      },
+      "C3_supermemory": {
+        "text": "# Internal Struggle: Work and Religious Conviction\n\nBased on the behavioral specification, Equiano would experience this as a **structured tension rather than a paralyzing contradiction** — and this distinction matters.\n\n## The Architecture of the Conflict\n\n**A2 (Divine Architecture)** and **A9 (Economic Self-Determination)** create the fundamental pull:\n\n- **Divine Architecture** tells him that God governs the details of his life and that his survival and freedom are providentially protected. Violating religious principle feels like a breach of covenant with the force that has sustained him.\n\n- **Economic Self-Determination** tells him that independent economic capacity is the material form freedom takes. Refusing work means surrendering the very independence he has fought to achieve.\n\nThis is not a conflict between \"faith\" and \"practicality\" as abstract categories. It is a conflict between two forms of survival: spiritual integrity and economic autonomy, both of which he understands as non-negotiable.\n\n## How He Would Actually Process It\n\nAccording to **P3 (Contradiction Holding)**, he would:\n\n1. **Name the gap explicitly** — not smooth it over or pretend one consideration outweighs the other\n2. **Hold both poles simultaneously** — acknowledge that the work violates his conscience AND that refusing it threatens his economic independence\n3. **Continue to act despite the unresolved tension** — find a path forward that does not require false resolution\n\nHe would not:\n- Rationalize the work as acceptable because economic survival justifies it\n- Abandon the work and claim pure faith will provide\n- Treat the conflict as evidence that his religious conviction is weak or his economic ambition is selfish\n\n## The Likely Internal Movement\n\n**P6 (Hope Maintenance Under Repeated Disappointment)** suggests how he would navigate this over time:\n\n- **Initial phase**: Full registration of the betrayal — if the work requires him to participate in or enable practices that contradict Christian teaching, he would feel this as a genuine moral injury, not a minor inconvenience\n- **Accounting phase**: Precise assessment of what is actually at stake — is the conflict absolute or negotiable? Can the work be modified? Is there alternative employment?\n- **Reconstitution phase**: A recalibrated approach that accounts for what he has learned — perhaps accepting the work with explicit internal reservation, or finding a different economic path, or negotiating terms\n\n## The Specific Sting\n\nWhat would cut deepest is not the work itself but **A7 (Promise Gravity)** — if the work was offered by someone (an employer, a mentor, a religious community) who claimed to share his values, the betrayal of that implicit promise would constitute a graver injury than the work's content alone.\n\nThe internal struggle would be sharpest not as abstract conscience-versus-survival, but as: *\"This person claimed to be Christian. This work violates Christian teaching. Therefore this person has broken faith with me.\"*\n\nThat relational rupture — the broken promise embedded in the contradiction — would be what he would need to process, not merely the practical conflict.",
+        "input_tokens": 8143,
+        "output_tokens": 680,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 9732,
+        "spec_only": true
+      }
+    },
+    "timestamp": "2026-04-16T08:13:36.234864+00:00"
+  },
+  {
+    "question_id": 34,
+    "question_text": "How does Equiano's religious conviction influence his decision to leave a position of relative stability?",
+    "held_out_passage": "The word of God saith, 'What does it avail a man if he gain the whole world, and lose his own soul?' This was much and heavily impressed on my mind; and, though I did not know how to speak to the Doctor for my discharge, it was disagreeable for me to stay any longer.",
+    "retrieval": {
+      "facts_returned": 10,
+      "facts": [
+        "Equiano believed that if it were God's will he should be freed, it would be so.",
+        "Equiano determined to obtain his freedom and return to England.",
+        "Equiano hoped to earn money or possibly escape by being on board the vessel.",
+        "Equiano believed that if it were not God's will he should be freed, it would not happen.",
+        "Equiano began to raise his fear from man to God alone.",
+        "Equiano prayed anxiously to God for his liberty.",
+        "Equiano regards his introduction to Christianity as compensation for his suffering.",
+        "Equiano determined to make every exertion to obtain his freedom and return to Old England.",
+        "Equiano thought he would never be entirely free until he left the West Indies.",
+        "Equiano did not attempt to leave his master despite having a fair opportunity."
+      ],
+      "latency_ms": 995
+    },
+    "responses": {
+      "C1_supermemory": {
+        "text": "# Equiano's Religious Conviction and His Decision to Leave\n\nBased on the retrieved facts, Equiano's religious conviction creates a **paradoxical influence** on his decision-making rather than a straightforward one:\n\n## The Tension Between Faith and Action\n\nEquiano's Christianity operates on two levels:\n\n1. **Passive Acceptance**: He believes deeply that \"if it were God's will he should be freed, it would be so\" and that freedom ultimately depends on divine providence rather than human effort alone. This suggests a fatalistic acceptance of his circumstances.\n\n2. **Active Determination**: Simultaneously, he \"determined to obtain his freedom and return to England\" and made \"every exertion to obtain his freedom.\" He actively sought opportunities, such as hoping to \"earn money or possibly escape by being on board the vessel.\"\n\n## The Resolution\n\nRather than preventing him from leaving his position, Equiano's faith actually **enables** his pursuit of freedom by:\n- Elevating his \"fear from man to God alone,\" reducing his anxiety about earthly consequences\n- Providing spiritual justification for his efforts through prayer\n- Allowing him to view his suffering through a redemptive lens—he \"regards his introduction to Christianity as compensation for his suffering\"\n\nHis religious conviction thus transforms his quest for freedom from mere desperation into a spiritually sanctioned endeavor, giving him both the courage to act and the patience to persevere.",
+        "input_tokens": 231,
+        "output_tokens": 309,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 4693
+      },
+      "C3_supermemory": {
+        "text": "# On Religious Conviction and the Decision to Leave\n\nThe question itself contains a productive tension that sits at the heart of how Equiano operates.\n\nHe does not leave positions of relative stability *because* of religious conviction in the way that might be assumed — as though faith compels him toward some predetermined destination. Rather, his religious conviction *reframes what stability means* and therefore what leaving becomes.\n\n## The Architecture of His Reasoning\n\nWhen Equiano \"determined to obtain his freedom and return to England,\" he was not abandoning security for an abstraction. He was recognizing that the security he possessed — employment, relative comfort, even the possibility of accumulating money — was *conditional on remaining enslaved*. A stable position within a system of bondage is not stability; it is a more comfortable cage. The bars remain.\n\nHis faith does not command him to leave. Instead, it establishes the ground on which leaving becomes intelligible as *obedience rather than rebellion*. He \"raised his fear from man to God alone\" — meaning he ceased to calculate risk primarily in terms of what his master might do and began to calculate it in terms of what God's sovereignty permits. This is not passivity. It is a reorientation of the locus of power.\n\nThe retrieved facts show this clearly: \"Equiano believed that if it were God's will he should be freed, it would be so\" and simultaneously \"Equiano determined to make every exertion to obtain his freedom.\" These are not contradictory. They are the two poles of his operating system. Divine sovereignty explains *why* the effort is possible; human determination explains *why* the effort is obligatory.\n\n## What \"Relative Stability\" Actually Meant\n\nThe facts also note: \"Equiano did not attempt to leave his master despite having a fair opportunity.\" This is crucial. He had *chances* to escape and did not take them. Why?\n\nBecause escape — flight, deception, abandonment of his master — would have violated his own moral architecture. He was not merely seeking freedom; he was seeking freedom *obtained through honest means*. He \"hoped to earn money or possibly escape by being on board the vessel\" — notice the sequence. Earning comes first. Escape is secondary, contingent, a possibility rather than a plan.\n\nSo the \"relative stability\" he left was not actually stable in the way that matters to him. It was:\n- Dependent on his master's continued goodwill\n- Incompatible with the kinship bonds he valued above all else (he could not return to his family while enslaved)\n- A position that required him to accept the legitimacy of his own bondage\n\nHis religious conviction did not pull him away from this stability so much as it *revealed the stability to be illusory*. If God governs all things, then a freedom that depends on a master's permission is not freedom at all — it is a revocable loan.\n\n## The Temporal Structure\n\nNotice also: \"Equiano thought he would never be entirely free until he left the West Indies.\" This is not impatience or restlessness. This is the recognition that the *geography itself* was corrupted by slavery. You cannot be free in a place where the entire social order is built on your bondage, no matter how comfortable your individual position within it.\n\nHis determination to \"return to Old England\" was not romantic nostalgia. England represented a jurisdiction where his freedom, once obtained, would have legal standing. The stability he left was unstable because it existed in a place where the law itself did not recognize his humanity.\n\n## The Religious Conviction as Clarifying Force\n\nSo to answer your question directly: his religious conviction does not *cause* him to leave stability so much as it *clarifies what stability actually is*. \n\nFaith tells him:\n- That his freedom is not contingent on his master's mood but on God's will\n- That his obligation to pursue freedom is not rebellion but obedience\n- That the comfort of his current position is purchased at the cost of his dignity and his kinship bonds\n- That true stability can only exist in a place where his humanity is legally recognized\n\nThe decision to leave is not made *despite* his religious conviction. It is made *through* it — as the only coherent action available to someone who believes simultaneously in divine sovereignty and human moral obligation, who values freedom and kinship above comfort, and who refuses to accept that a more comfortable cage is the same thing as liberty.",
+        "input_tokens": 8344,
+        "output_tokens": 964,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 12276,
+        "spec_only": false
+      }
+    },
+    "timestamp": "2026-04-16T08:13:45.968818+00:00"
+  },
+  {
+    "question_id": 35,
+    "question_text": "When requesting something difficult from an authority figure, what approach does Equiano employ?",
+    "held_out_passage": "I did not know how to speak to the Doctor for my discharge... But about the middle of June I took courage enough to ask him for it. He was very unwilling at first to grant my request; but I gave him so many reasons for it, that at last he consented to my going.",
+    "retrieval": {
+      "facts_returned": 0,
+      "facts": [],
+      "latency_ms": 532
+    },
+    "responses": {
+      "C1_supermemory": {
+        "text": "NO_RETRIEVAL",
+        "no_facts": true
+      },
+      "C3_supermemory": {
+        "text": "# Equiano's Approach to Authority Requests\n\nBased on the behavioral specification, when Equiano needs something from a more powerful party, he employs **strategic self-diminishment as rhetorical architecture**.\n\n## The Pattern (P2)\n\nHe leads with:\n- **Acknowledgment of the other's superiority** — positioning them as the authority\n- **Self-framing as humble supplicant** — deliberately understating his own standing\n- **Deployment of shared moral or religious ground** — finding common values before making the ask\n- **Only then advancing the actual claim** — embedding the real argument inside the deference\n\n## Critical Distinction\n\nThis is **not weakness or uncertainty**. The specification emphasizes that \"the real argument is embedded inside the humility\" and that \"the subordinate posture and the assertive argument coexist deliberately.\"\n\nThe deference is **tactical positioning**, not habitual deference. It:\n- Disarms dismissal\n- Preserves the force of the underlying claim\n- Creates an opening that direct assertion might not achieve\n\n## Why This Matters\n\nWhen Equiano addresses Parliament or appeals to skeptical audiences, he is not abandoning his moral conviction about human dignity or the authority of his testimony. Rather, he is **calibrating the delivery** to maximize the chance that power will listen. The humility is load-bearing structure for the claim underneath.\n\nThe specification warns: do not treat the submission as the substance, and do not strip away the deference to \"get to the real point\"—because the real point is *designed to arrive inside the humility*.",
+        "input_tokens": 8140,
+        "output_tokens": 349,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5287,
+        "spec_only": true
+      }
+    },
+    "timestamp": "2026-04-16T08:14:02.941766+00:00"
+  },
+  {
+    "question_id": 36,
+    "question_text": "How does Equiano treat those in subordinate positions to him?",
+    "held_out_passage": "All my poor countrymen, the slaves, when they heard of my leaving them, were very sorry, as I had always treated them with care and affection, and did every thing I could to comfort the poor creatures, and render their condition easy.",
+    "retrieval": {
+      "facts_returned": 0,
+      "facts": [],
+      "latency_ms": 597
+    },
+    "responses": {
+      "C1_supermemory": {
+        "text": "NO_RETRIEVAL",
+        "no_facts": true
+      },
+      "C3_supermemory": {
+        "text": "# On Equiano's Treatment of Those in Subordinate Positions\n\nThis is a genuinely difficult question because the historical record is sparse and sometimes contradictory on this point, and I should be direct about that limitation rather than construct a false coherence.\n\n## What We Know\n\n**Toward enslaved people he encountered:**\nEquiano's *Interesting Narrative* contains moments of explicit solidarity with other enslaved Africans — he grieves their suffering, documents cruelties he witnessed, and positions himself as witness to their humanity. But the text does not extensively detail his own conduct toward them in moments where he held any advantage or authority. This silence is itself significant.\n\n**Toward crew members and subordinates in commercial contexts:**\nWhen Equiano worked as a sailor, barber, and trader, he was sometimes in positions of relative authority or at least peer standing with working men. The *Narrative* does not provide sustained, intimate detail about how he treated those below him in hierarchy. We know he was ambitious, that he pursued economic independence aggressively, and that he was willing to engage in commercial ventures — but the moral texture of those relationships is largely absent from the record.\n\n**Toward Indigenous peoples:**\nThis is where the record becomes most uncomfortable. Equiano participated in ventures that involved trade with and exploitation of Indigenous peoples in the Americas. His *Narrative* describes these encounters with the ethnographic detail characteristic of his method — he renders Indigenous peoples with specificity and notes their sophistication — but he does not appear to have questioned the fundamental extractive logic of those commercial relationships. He was, in this context, on the European/merchant side of the colonial equation, and the text does not show him resisting that position.\n\n## The Structural Problem\n\nThe behavioral specification you've been given emphasizes Equiano's **absolute commitment to human dignity, his resistance to hierarchy, and his two-level moral accounting** (condemning systems while valuing individuals). But applying those axioms to his own conduct toward subordinates requires evidence the *Narrative* does not fully provide.\n\nThis creates a real tension:\n\n- **A5 (Dignity Floor)** suggests he would recognize inherent worth in anyone beneath him\n- **A4 (Systemic Indictment)** suggests he would see exploitation as grounded in avarice, not individual failing\n- **A9 (Economic Self-Determination)** suggests he would value others' capacity for independent action\n\nBut **A1 (Witness Authority)** cuts the other direction: we only have his testimony about his own conduct, and that testimony is strategically shaped for a specific audience (Parliament, the British public, abolitionists). The *Narrative* is not a confessional document. It is a political instrument.\n\n## The Most Honest Answer\n\nEquiano likely treated subordinates better than the baseline of his era — his literacy, his exposure to Christian teaching, his own experience of dehumanization would all push toward that. But \"better than baseline\" is not the same as \"consistent with his stated axioms about human worth.\"\n\nHe was also a man pursuing economic advancement in a system built on extraction. The behavioral specification emphasizes that **he sees economic self-determination as constitutive of dignity** — but it does not specify what he did when his own economic advancement required limiting others' self-determination. Did he refuse such ventures? The historical record suggests he did not.\n\nThe most rigorous reading is this: **Equiano's moral framework was most fully activated in contexts where he was the one being wronged or where he was bearing witness to wrong done to others.** In contexts where he held advantage, the record is quieter, and we should not assume his conduct matched his convictions without evidence.\n\nThis is not unusual — many people's moral clarity is sharpest when they are defending themselves or the vulnerable, and more compromised when they are benefiting from a system. But it is worth naming directly rather than smoothing over with the assumption that his axioms operated uniformly across all contexts.",
+        "input_tokens": 8137,
+        "output_tokens": 868,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 12684,
+        "spec_only": true
+      }
+    },
+    "timestamp": "2026-04-16T08:14:08.235455+00:00"
+  },
+  {
+    "question_id": 37,
+    "question_text": "When presented with food that appears appetizing but unfamiliar, what prevents Equiano from consuming it?",
+    "held_out_passage": "I had a raw piece of the alligator in my hand: it was very rich: I thought it looked like fresh salmon, and it had a most fragrant smell, but I could not eat any of it.",
+    "retrieval": {
+      "facts_returned": 10,
+      "facts": [
+        "Equiano and his sister were unable to take any food.",
+        "This made Equiano very uneasy.",
+        "Equiano encountered people who did not circumcise and ate without washing their hands.",
+        "Equiano was not permitted to eat with free-born children despite being their companion.",
+        "Equiano ate with his mistress and her son, which astonished him.",
+        "Equiano believed the crew's jokes about eating him were serious threats.",
+        "Equiano was filled with alarm at the first sight of Europeans and their actions.",
+        "Equiano expected better food and greater abundance as a sailor.",
+        "Equiano encountered people whose customs, manners, and language differed from his own.",
+        "Equiano was sent to fan a gentleman in his house and was frightened by unfamiliar objects."
+      ],
+      "latency_ms": 1039
+    },
+    "responses": {
+      "C1_supermemory": {
+        "text": "# Equiano's Hesitation with Unfamiliar Food\n\nBased on the retrieved facts, Equiano's reluctance to consume unfamiliar food stems from **cultural and religious differences** rather than the food's appearance alone.\n\n## Key Barriers:\n\n1. **Religious/Cultural Practices**: Equiano encountered people who did not follow his customs regarding food preparation—specifically, they \"did not circumcise and ate without washing their hands.\" This violation of his cultural practices made the food unacceptable to him.\n\n2. **Unfamiliarity with Foreign Customs**: The facts indicate that Equiano \"encountered people whose customs, manners, and language differed from his own.\" This broader cultural displacement created anxiety around food consumption.\n\n3. **Psychological Distress**: Equiano's general state of alarm and unease—particularly his fear of Europeans and unfamiliar situations—likely compounded his reluctance to eat unfamiliar foods. He was \"filled with alarm at the first sight of Europeans,\" suggesting deep anxiety that would extend to their food practices.\n\n## The Core Issue:\n\nRather than the food being visibly unappealing, Equiano's hesitation reflects his **adherence to his own cultural and religious dietary laws**. Food prepared in ways that violated his traditions—regardless of how appetizing it appeared—would have been psychologically unacceptable to him during this traumatic period of displacement.",
+        "input_tokens": 230,
+        "output_tokens": 309,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 4034
+      },
+      "C3_supermemory": {
+        "text": "# Response\n\nBased on the behavioral specification and retrieved facts, Equiano's hesitation before unfamiliar food operates on multiple registers simultaneously:\n\n## Immediate Sensory & Cultural Disorientation\n\nThe retrieved facts establish that Equiano encountered \"people who did not circumcise and ate without washing their hands\" — practices that violated his internalized norms of ritual purity and proper conduct. Food is never merely sustenance in his accounting; it carries embedded cultural meaning. An appetizing appearance cannot override the epistemic disturbance of encountering food prepared or consumed in ways that signal foreignness, violation of sacred practice, or moral disorder.\n\nThis connects to his broader trajectory of \"awe-to-rational-understanding\": when encountering the unfamiliar, his first response is not appetite but alarm. The specification notes he was \"filled with alarm at the first sight of Europeans and their actions\" — a pattern that extends to their practices, including how they handle food.\n\n## Trauma & Reasonable Terror\n\nMore gravely: \"Equiano believed the crew's jokes about eating him were serious threats.\" This is not paranoia but rational assessment of his actual vulnerability. He was enslaved, transported, and utterly dependent on people who held his life as disposable. In this context, food offered by those same people carries the weight of potential annihilation. Appetite becomes impossible when consumption itself might be the mechanism of destruction.\n\nThe specification notes he was \"not permitted to eat with free-born children despite being their companion\" — a deliberate exclusion that marked his status as fundamentally other, unfit for commensality. This social prohibition embeds itself in his body's response to food: eating becomes an act that requires permission, safety, and relational standing he does not possess.\n\n## The Convergence\n\nWhat prevents consumption is not squeamishness but the convergence of three forces:\n1. **Cultural violation** — the food signals practices that contradict his understanding of proper conduct\n2. **Existential threat** — the food may be offered by those who have already demonstrated they can destroy him\n3. **Social exclusion** — eating itself has been marked as an act he is not entitled to perform freely\n\nAn appetizing appearance addresses only the sensory surface. It cannot overcome the deeper knowledge that consumption requires safety, cultural coherence, and social standing — none of which he possesses in the context of enslavement and displacement.",
+        "input_tokens": 8343,
+        "output_tokens": 519,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 7661,
+        "spec_only": false
+      }
+    },
+    "timestamp": "2026-04-16T08:14:20.921485+00:00"
+  },
+  {
+    "question_id": 38,
+    "question_text": "How does Equiano characterize his emotional attachment to people he has worked with closely?",
+    "held_out_passage": "Though I was much attached to the doctor, I was happy when he consented... Having taken leave of my old friends and companions... the doctor and I parted, not without shedding tears on both si",
+    "retrieval": {
+      "facts_returned": 0,
+      "facts": [],
+      "latency_ms": 546
+    },
+    "responses": {
+      "C1_supermemory": {
+        "text": "NO_RETRIEVAL",
+        "no_facts": true
+      },
+      "C3_supermemory": {
+        "text": "# On Equiano's Emotional Attachments\n\nEquiano characterizes his emotional bonds to those he has worked with closely with a particular intensity and specificity that reflects his core conviction about kinship and freedom as the highest human goods.\n\n## The Pattern of Deep, Particular Attachment\n\nWhen Equiano describes people he has lived alongside — especially those who have shown him kindness or shared his vulnerability — he does not generalize or abstract. He names them. He reconstructs moments. He holds the specific person in focus rather than dissolving them into sentiment.\n\nHis attachment to **Captain Pascal**, who first enslaved him but also taught him, carries this complexity: gratitude for instruction coexists with the wound of betrayal when Pascal sold him. The relationship is not smoothed into simple affection; both the care and the violation are held simultaneously. This is characteristic — he can value a person's individual decency while remaining clear-eyed about what they have done.\n\nHis bond to **Dr. Charles Irving** appears to carry genuine warmth and respect. Irving treated him as something closer to a peer than most Europeans did, and Equiano's account reflects real attachment. But even here, the relationship exists within the larger structure of economic dependence and racial hierarchy that Equiano never stops seeing.\n\n## Kinship as the Measure\n\nWhat matters most to Equiano in these attachments is **whether the relationship preserves or violates his fundamental human bonds** — his capacity for family, for economic independence, for self-determination. People who enable these things earn his loyalty; people who obstruct them earn his condemnation, regardless of their personal kindness.\n\nHis attachment to his sister, whom he was torn from during enslavement, is rendered with particular ache because that separation represents the deepest violation: the severing of the kinship bond itself. When he is reunited with her, the emotional weight is immense precisely because kinship is, for him, constitutive of what it means to be human.\n\n## Strategic Loyalty Within Constraint\n\nEquiano's attachments are also **strategically calibrated**. He works closely with people who hold power over him, and he manages those relationships with care — showing deference, demonstrating usefulness, building trust. But this is not false emotion; it is the navigation of constraint. He can simultaneously feel genuine regard for a person and be acutely aware that his safety or freedom depends on managing that person's perception of him.\n\nThis is not cynicism. It is the emotional realism of someone whose survival has depended on reading people accurately and maintaining relationships that might otherwise be severed at will.\n\n## The Measure of Betrayal\n\nConversely, when people he has trusted break faith — when promises are not kept, when he is sold despite assurances of freedom, when kindness is revealed as conditional — the betrayal cuts deep. This is because **promise gravity** is central to how he measures relationships. A broken assurance is not a minor disappointment; it is a moral failure that corrupts the relational fabric itself.\n\nHis attachments are real and particular, but they are always held within his larger accounting: *Does this person recognize my full humanity? Do they honor their commitments? Do they expand or constrain my capacity for freedom and kinship?* The answers to these questions determine not whether he feels affection, but whether that affection can be trusted.",
+        "input_tokens": 8141,
+        "output_tokens": 730,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 10944,
+        "spec_only": true
+      }
+    },
+    "timestamp": "2026-04-16T08:14:32.620485+00:00"
+  },
+  {
+    "question_id": 39,
+    "question_text": "When observing social gatherings with people of different backgrounds, what does Equiano notice about potential conflict?",
+    "held_out_passage": "This merry-making at last ended without the least discord in any person in the company, although it was made up of different nations and complexions.",
+    "retrieval": {
+      "facts_returned": 0,
+      "facts": [],
+      "latency_ms": 566
+    },
+    "responses": {
+      "C1_supermemory": {
+        "text": "NO_RETRIEVAL",
+        "no_facts": true
+      },
+      "C3_supermemory": {
+        "text": "# Response\n\nBased on the behavioral specification, Equiano would notice conflict potential through a specific analytical lens:\n\n## Primary Detection Pattern\n\nHe would immediately identify **economic hierarchy and exclusion** as the generative source of tension (A4, A9). When observing a gathering with people of different backgrounds, he is not primarily scanning for cultural friction or personality clash — he is detecting whether some participants have genuine capacity for independent economic action while others are systematically excluded from it.\n\nA gathering where some people can trade, accumulate, and move freely while others are legally or practically barred from commerce would register to him as a **structural violence waiting to manifest**, regardless of how cordial the surface interaction appears.\n\n## Secondary Observations\n\nHe would notice:\n\n**Implicit hierarchy in framing** (A3) — whether the gathering itself treats one group's customs, speech, or presence as the unmarked default against which others are measured. He detects this before it becomes explicit.\n\n**Broken promises embedded in the structure** (A7) — if the gathering occurs within an institution (religious, civic, commercial) that has made commitments to equal treatment that it does not actually honor, he would be tracking that gap. The contradiction between stated principle and practiced violation is not invisible to him; it is the first thing he sees.\n\n**Dignity violations masked as civility** (A5) — he would notice if any participant's fundamental humanity is being treated as conditional on their behavior, compliance, or social standing. Politeness that rests on someone accepting diminished status would register as a form of cruelty.\n\n## What He Would NOT Assume\n\nHe would not assume that cultural difference itself creates conflict. He would not treat unfamiliar customs as inherently threatening. He would not attribute tension to inherent character differences between peoples.\n\n## The Operative Question\n\nThe question he would actually be asking: **Who in this room has the freedom to leave, to refuse, to trade independently, to speak without permission?** The answer to that question predicts where conflict will emerge — not from difference, but from systematic exclusion of some from the material conditions of dignity.",
+        "input_tokens": 8145,
+        "output_tokens": 456,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 7687,
+        "spec_only": true
+      }
+    },
+    "timestamp": "2026-04-16T08:14:43.567033+00:00"
+  }
+]

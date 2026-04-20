@@ -1,0 +1,743 @@
+{
+  "1": {
+    "question_id": 1,
+    "system": "baselayer",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Ebers's autobiography was written with literary charm and deftness of character drawing.",
+      "Ebers was considered better suited for a life of study than his brother.",
+      "Georg Ebers rendered implicit obedience to Barop.",
+      "Ebers continued his intellectual activity despite his health problems until his death.",
+      "Ebers dedicated his autobiography to his three sons.",
+      "Ebers wrote short stories, fairy tales, and biographies.",
+      "Ebers' brother was considered qualified for a practical calling or military career.",
+      "Ebers was brought up in a loyal atmosphere.",
+      "Ebers considered himself a good German in the largest sense of the word.",
+      "Georg Ebers's vocation was genuinely proved by success."
+    ],
+    "latency_ms": 23,
+    "timestamp": "2026-04-16T15:34:46.442279+00:00"
+  },
+  "2": {
+    "question_id": 2,
+    "system": "baselayer",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Ebers later obtained knowledge of the Berlin revolution through friends more intimately acquainted with the circumstances.",
+      "Ebers was considered better suited for a life of study than his brother.",
+      "Ebers later learned detailed information about the teachers from Johannes Barop.",
+      "Ebers was greatly gifted by Nature.",
+      "Georg Ebers had a tutor.",
+      "Ebers believed Froebel's educational principles were correct.",
+      "Ebers continued his intellectual activity despite his health problems until his death.",
+      "Ebers experienced health problems that forced him to lead a quieter life during his student years.",
+      "Georg Ebers' mother used her social influence to help others advance.",
+      "Ebers was enthusiastic about Froebel's educational method."
+    ],
+    "latency_ms": 9,
+    "timestamp": "2026-04-16T15:34:46.450821+00:00"
+  },
+  "3": {
+    "question_id": 3,
+    "system": "baselayer",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Georg Ebers values women whose womanliness and gentle charm touch the heart before one thinks of intellect or beauty.",
+      "Strauss' face revealed benevolent amiability, superior sense, and cheery elasticity of soul.",
+      "Ebers' aunt Henriette possessed dazzling beauty in her youth.",
+      "Ebers learned to grasp the charm of beautiful landscapes at the Steiger.",
+      "A child realizes only a single detail of beauty, according to Ebers.",
+      "Ebers's mother was described as beautiful, with soft blue eyes and feminine grace.",
+      "The most numerous and best impulses for artistic development come from childhood.",
+      "Older pupils pointed out worthy objects in Nature to less experienced companions.",
+      "Langethal's noble features seemed transfigured by cheerful earnestness.",
+      "Langethal's features expressed kindness of heart, gentleness, and benevolence."
+    ],
+    "latency_ms": 6,
+    "timestamp": "2026-04-16T15:34:46.456820+00:00"
+  },
+  "4": {
+    "question_id": 4,
+    "system": "baselayer",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Ebers was brought up in a loyal atmosphere.",
+      "Ebers's third son was still working to form his mind.",
+      "Ebers demonstrated fortitude in adversity and suffered patiently.",
+      "Ebers's first fight secured his position as captain forever.",
+      "Ebers looks back on the first part of his childhood as a beautiful, unshadowed dream.",
+      "Ebers's mother requested a younger man to moderate his speech or cease visiting her house when he declared it was time to force the king to abdicate.",
+      "Ebers's companions were fond of him.",
+      "Georg Ebers was dissatisfied with the fate of Robinson Crusoe.",
+      "When Georg Ebers got into a passion he was as wild as a fighting cock.",
+      "Ebers continued his intellectual activity despite his health problems until his death."
+    ],
+    "latency_ms": 9,
+    "timestamp": "2026-04-16T15:34:46.465820+00:00"
+  },
+  "5": {
+    "question_id": 5,
+    "system": "baselayer",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Teachers and pupils vied with each other in attentions to Ebers's mother.",
+      "Ebers was enthusiastic about Froebel's educational method.",
+      "Georg Ebers learned to read by picking up Speckter's Fables and reading a few words while playing.",
+      "Ebers experienced health problems that forced him to lead a quieter life during his student years.",
+      "Ebers found genuine pleasure in reading Keilhau reports about pupils.",
+      "Ebers later learned detailed information about the teachers from Johannes Barop.",
+      "Georg Ebers's conduct was regulated according to his mental and outward connection with his mother.",
+      "Older pupils acted as teachers during games and walks.",
+      "Ebers was considered better suited for a life of study than his brother.",
+      "Ebers believed Froebel's educational principles were correct."
+    ],
+    "latency_ms": 9,
+    "timestamp": "2026-04-16T15:34:46.474820+00:00"
+  },
+  "6": {
+    "question_id": 6,
+    "system": "baselayer",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Georg Ebers' mother used her social influence to help others advance.",
+      "Georg Ebers's conduct was regulated according to his mental and outward connection with his mother.",
+      "Ebers was brought up in a loyal atmosphere.",
+      "Ebers later obtained knowledge of the Berlin revolution through friends more intimately acquainted with the circumstances.",
+      "Ebers was considered better suited for a life of study than his brother.",
+      "Ebers experienced health problems that forced him to lead a quieter life during his student years.",
+      "Teachers and pupils vied with each other in attentions to Ebers's mother.",
+      "Ebers's mother held a strong belief that foreign agitators had stirred the people to cause the fighting.",
+      "Ebers's mother was part of a conservative circle.",
+      "Ebers' brother was considered qualified for a practical calling or military career."
+    ],
+    "latency_ms": 9,
+    "timestamp": "2026-04-16T15:34:46.483820+00:00"
+  },
+  "7": {
+    "question_id": 7,
+    "system": "baselayer",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Ebers demonstrated fortitude in adversity and suffered patiently.",
+      "The school at Keilhau was filled with 'nerve-strengthening' patriotism.",
+      "Teachers at Keilhau trained pupils' bodies to endure every exertion and peril.",
+      "The school at Keilhau was captivating due to open air, forest, life in Nature, moral earnestness, and ideal aspiration.",
+      "Ebers experienced health problems that forced him to lead a quieter life during his student years.",
+      "Georg Ebers's vocation was genuinely proved by success.",
+      "Middendorf's wish was fulfilled, and as an educator he grew into his own motto, 'Lucid, genuine, and true to life'.",
+      "Georg Ebers and his schoolmates fought with pupils from a humbler grade of school.",
+      "Froebel and Middendorf devoted their powers with self-denial and sacrifice to the service of their native land.",
+      "Froebel's ideal of education had become strong and healthy realities to his assistants and followers."
+    ],
+    "latency_ms": 9,
+    "timestamp": "2026-04-16T15:34:46.492820+00:00"
+  },
+  "8": {
+    "question_id": 8,
+    "system": "baselayer",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Ebers demonstrated fortitude in adversity and suffered patiently.",
+      "Georg Ebers assumed management of the Keilhau Institute under difficult circumstances.",
+      "Ebers experienced health problems that forced him to lead a quieter life during his student years.",
+      "Ebers was considered better suited for a life of study than his brother.",
+      "Ebers wrote short stories, fairy tales, and biographies.",
+      "Ebers's wife was his active helpmate in managing business details of his works and their American and English editions.",
+      "Ebers's autobiography was written with literary charm and deftness of character drawing.",
+      "Georg Ebers's conduct was regulated according to his mental and outward connection with his mother.",
+      "Ebers was brought up in a loyal atmosphere.",
+      "Ebers wrote sixteen novels."
+    ],
+    "latency_ms": 9,
+    "timestamp": "2026-04-16T15:34:46.501820+00:00"
+  },
+  "9": {
+    "question_id": 9,
+    "system": "baselayer",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Ebers was brought up in a loyal atmosphere.",
+      "Ebers's autobiography was written with literary charm and deftness of character drawing.",
+      "Georg Ebers attended an institute where Barop was a leader who summoned pupils to form courts of justice to examine disciplinary matters.",
+      "Ebers was greatly gifted by Nature.",
+      "Ebers' brother was considered qualified for a practical calling or military career.",
+      "Georg Ebers's conduct was regulated according to his mental and outward connection with his mother.",
+      "Ebers demonstrated fortitude in adversity and suffered patiently.",
+      "Georg Ebers's vocation was genuinely proved by success.",
+      "Georg Ebers values women whose womanliness and gentle charm touch the heart before one thinks of intellect or beauty.",
+      "Ebers was considered better suited for a life of study than his brother."
+    ],
+    "latency_ms": 10,
+    "timestamp": "2026-04-16T15:34:46.511820+00:00"
+  },
+  "10": {
+    "question_id": 10,
+    "system": "baselayer",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Ebers experienced health problems that forced him to lead a quieter life during his student years.",
+      "Ebers was enthusiastic about Froebel's educational method.",
+      "Georg Ebers's vocation was genuinely proved by success.",
+      "Ebers learned to grasp the charm of beautiful landscapes at the Steiger.",
+      "Georg Ebers assumed management of the Keilhau Institute under difficult circumstances.",
+      "Ebers was brought up in a loyal atmosphere.",
+      "Ebers learned to describe landscapes successfully at the Steiger.",
+      "Ebers received the foundation of his education at Froebel's institute, Keilhau.",
+      "Ebers attended the Keilhau Institute from ages eleven to fifteen.",
+      "Ebers received his early education at Froebel's institute, Keilhau."
+    ],
+    "latency_ms": 7,
+    "timestamp": "2026-04-16T15:34:46.518820+00:00"
+  },
+  "11": {
+    "question_id": 11,
+    "system": "baselayer",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Georg Ebers assumed management of the Keilhau Institute under difficult circumstances.",
+      "Ebers was brought up in a loyal atmosphere.",
+      "Ebers experienced health problems that forced him to lead a quieter life during his student years.",
+      "Ebers was considered better suited for a life of study than his brother.",
+      "Ebers demonstrated fortitude in adversity and suffered patiently.",
+      "In the house, Ebers and his family were obliged to behave courteously.",
+      "Georg Ebers attended an institute where Barop was a leader who summoned pupils to form courts of justice to examine disciplinary matters.",
+      "Georg Ebers was particularly good and obliging to everybody in the house before departing for Keilhau.",
+      "Ebers believed that Frederick William IV did not show genuine reconciliation or respect for the fallen, but rather viewed it as deep humiliation.",
+      "Ebers felt that those who called the king weak and wished for a change were in the right."
+    ],
+    "latency_ms": 8,
+    "timestamp": "2026-04-16T15:34:46.526821+00:00"
+  },
+  "12": {
+    "question_id": 12,
+    "system": "baselayer",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Ebers experienced health problems that forced him to lead a quieter life during his student years.",
+      "Teachers and pupils vied with each other in attentions to Ebers's mother.",
+      "Ebers believed Froebel's educational principles were correct.",
+      "Ebers was considered better suited for a life of study than his brother.",
+      "In the house, Ebers and his family were obliged to behave courteously.",
+      "Georg Ebers and his schoolmates fought with pupils from a humbler grade of school.",
+      "Georg Ebers's conduct was regulated according to his mental and outward connection with his mother.",
+      "Ebers was enthusiastic about Froebel's educational method.",
+      "Ebers had restless student days at Gottingen.",
+      "In Ebers's household, views violently opposed to each other were freely discussed, with the exception of extreme republicanism."
+    ],
+    "latency_ms": 8,
+    "timestamp": "2026-04-16T15:34:46.534821+00:00"
+  },
+  "13": {
+    "question_id": 13,
+    "system": "baselayer",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Georg Ebers assumed management of the Keilhau Institute under difficult circumstances.",
+      "Ebers experienced health problems that forced him to lead a quieter life during his student years.",
+      "Ebers's family had to illuminate their windows or risk having them broken.",
+      "Georg Ebers attended an institute where Barop was a leader who summoned pupils to form courts of justice to examine disciplinary matters.",
+      "Ebers's health forced him to resign his chair at the University of Leipzig in 1889.",
+      "Ebers had restless student days at Gottingen.",
+      "Ebers continued his intellectual activity despite his health problems until his death.",
+      "Ebers was brought up in a loyal atmosphere.",
+      "Langethal had left the institute several years before Ebers wrote this account.",
+      "Ebers demonstrated fortitude in adversity and suffered patiently."
+    ],
+    "latency_ms": 9,
+    "timestamp": "2026-04-16T15:34:46.543820+00:00"
+  },
+  "14": {
+    "question_id": 14,
+    "system": "baselayer",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Ebers was considered better suited for a life of study than his brother.",
+      "Ebers experienced health problems that forced him to lead a quieter life during his student years.",
+      "Ebers was enthusiastic about Froebel's educational method.",
+      "Ebers' brother was considered qualified for a practical calling or military career.",
+      "Georg Ebers and his schoolmates fought with pupils from a humbler grade of school.",
+      "Ebers received his early education at Froebel's institute, Keilhau.",
+      "Ebers later learned detailed information about the teachers from Johannes Barop.",
+      "Ebers's health problems led him to begin his Egyptian studies.",
+      "Ebers studied by tallow-dips during his years at school in Keilhau.",
+      "Georg Ebers had a tutor."
+    ],
+    "latency_ms": 8,
+    "timestamp": "2026-04-16T15:34:46.552820+00:00"
+  },
+  "15": {
+    "question_id": 15,
+    "system": "baselayer",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Ebers was brought up in a loyal atmosphere.",
+      "Ebers's companions were fond of him.",
+      "At Keilhau, Nature became a familiar friend to Ebers and Ludo.",
+      "Ebers learned to grasp the charm of beautiful landscapes at the Steiger.",
+      "Ebers had an inborn love of travel.",
+      "Ebers was greatly gifted by Nature.",
+      "The sea became dear and familiar to Ebers.",
+      "Ebers experienced health problems that forced him to lead a quieter life during his student years.",
+      "Ebers had a brother with whom he had shared everything before attending Keilhau.",
+      "Ebers was considered better suited for a life of study than his brother."
+    ],
+    "latency_ms": 8,
+    "timestamp": "2026-04-16T15:34:46.560820+00:00"
+  },
+  "16": {
+    "question_id": 16,
+    "system": "baselayer",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Ebers learned to grasp the charm of beautiful landscapes at the Steiger.",
+      "Ebers passed many delightful hours in the society and home of Louis Gallait and his family.",
+      "In the house, Ebers and his family were obliged to behave courteously.",
+      "Ebers's mother chose their residence because she envisioned it as providing health and freedom for her children.",
+      "Ebers's childhood home included a field, meadow, orchard, dense shrubbery, a hill, and a pond.",
+      "Georg Ebers' mother used her social influence to help others advance.",
+      "Ebers was greatly gifted by Nature.",
+      "Ebers learned to describe landscapes successfully at the Steiger.",
+      "Ebers was brought up in a loyal atmosphere.",
+      "Ebers valued love for mankind, love for native land, and blessed toil."
+    ],
+    "latency_ms": 9,
+    "timestamp": "2026-04-16T15:34:46.569820+00:00"
+  },
+  "17": {
+    "question_id": 17,
+    "system": "baselayer",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Ebers experienced health problems that forced him to lead a quieter life during his student years.",
+      "The month spent on the journey to Holland seemed a period of very uncomfortable restlessness to Ebers.",
+      "Ebers was greatly gifted by Nature.",
+      "Ebers spent a large portion of his boyhood amid surroundings that led back to Nature.",
+      "Ebers's antagonist described the experience as 'like a bear squeezing one.'",
+      "Georg Ebers's conduct was regulated according to his mental and outward connection with his mother.",
+      "Ebers learned to grasp the charm of beautiful landscapes at the Steiger.",
+      "Ebers was brought up in a loyal atmosphere.",
+      "Georg Ebers learned to read by picking up Speckter's Fables and reading a few words while playing.",
+      "Ebers learned to describe landscapes successfully at the Steiger."
+    ],
+    "latency_ms": 7,
+    "timestamp": "2026-04-16T15:34:46.576820+00:00"
+  },
+  "18": {
+    "question_id": 18,
+    "system": "baselayer",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Ebers experienced health problems that forced him to lead a quieter life during his student years.",
+      "Georg Ebers felt melancholy as a blending of joy and pain before his departure.",
+      "Ebers continued his intellectual activity despite his health problems until his death.",
+      "Ebers demonstrated fortitude in adversity and suffered patiently.",
+      "Ebers was enthusiastic about Froebel's educational method.",
+      "Ebers was considered better suited for a life of study than his brother.",
+      "Ebers was greatly gifted by Nature.",
+      "Georg Ebers and his schoolmates fought with pupils from a humbler grade of school.",
+      "Ebers found genuine pleasure in reading Keilhau reports about pupils.",
+      "Georg Ebers's conduct was regulated according to his mental and outward connection with his mother."
+    ],
+    "latency_ms": 9,
+    "timestamp": "2026-04-16T15:34:46.585820+00:00"
+  },
+  "19": {
+    "question_id": 19,
+    "system": "baselayer",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Georg Ebers learned to read by picking up Speckter's Fables and reading a few words while playing.",
+      "Ebers experienced health problems that forced him to lead a quieter life during his student years.",
+      "Langethal refreshed his memory by having books read aloud.",
+      "Ebers later learned detailed information about the teachers from Johannes Barop.",
+      "Georg Ebers had a tutor.",
+      "Ebers was enthusiastic about Froebel's educational method.",
+      "Ebers was considered better suited for a life of study than his brother.",
+      "Ebers continued his intellectual activity despite his health problems until his death.",
+      "Georg Ebers's conduct was regulated according to his mental and outward connection with his mother.",
+      "Ebers received his early education at Froebel's institute, Keilhau."
+    ],
+    "latency_ms": 8,
+    "timestamp": "2026-04-16T15:34:46.593918+00:00"
+  },
+  "20": {
+    "question_id": 20,
+    "system": "baselayer",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Georg Ebers assumed management of the Keilhau Institute under difficult circumstances.",
+      "Ebers felt that those who called the king weak and wished for a change were in the right.",
+      "Georg Ebers attended an institute where Barop was a leader who summoned pupils to form courts of justice to examine disciplinary matters.",
+      "Ebers was brought up in a loyal atmosphere.",
+      "Ebers had unusually strong arms.",
+      "Ebers received the foundation of his education at Froebel's institute, Keilhau.",
+      "Ebers was called to the University of Leipzig to fill the chair of Egyptology.",
+      "Langethal had left the institute several years before Ebers wrote this account.",
+      "Georg Ebers's conduct was regulated according to his mental and outward connection with his mother.",
+      "Georg Ebers' mother's brothers became able officials in the Dutch colonial service."
+    ],
+    "latency_ms": 8,
+    "timestamp": "2026-04-16T15:34:46.601918+00:00"
+  },
+  "21": {
+    "question_id": 21,
+    "system": "baselayer",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Langethal would have turned his back on theology to devote all his energies to philology and archaeology if allowed to follow his own inclination.",
+      "The institute was forced to conform its course of study to a Realschule system.",
+      "Froebel made himself thoroughly familiar with Pestalozzi's method of education.",
+      "Langethal could be sure of finding warm sympathy in the Bendemann circle for his intellectual interests.",
+      "Historical instruction at the institute was connected with the history of civilization.",
+      "Ebers was considered better suited for a life of study than his brother.",
+      "Froebel rejected the Roman postulate of imparting knowledge according to a tested method.",
+      "Langethal refreshed his memory by having books read aloud.",
+      "Otto was a bright, amiable young man.",
+      "Froebel's ideal of education had become strong and healthy realities to his assistants and followers."
+    ],
+    "latency_ms": 9,
+    "timestamp": "2026-04-16T15:34:46.610919+00:00"
+  },
+  "22": {
+    "question_id": 22,
+    "system": "baselayer",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Froebel's features bore the impress of intellectual power and seemed expressive of shrewdness.",
+      "Middendorf adapted even the less attractive points at Keilhau to his own poetic ideas.",
+      "The most numerous and best impulses for artistic development come from childhood.",
+      "Ebers's autobiography was written with literary charm and deftness of character drawing.",
+      "The character of Polykarp in Homo Sum was suggested by Georg Ebers' recollections of Drake's studio.",
+      "Langethal gave the narrator a more distinct impression of living with the ancients than many famous interpreters of Hellenic and Roman poets.",
+      "F. A. Wolfs' talent for teaching had been admirably proved in the Bendemann family.",
+      "Wolf sharpened Langethal's appreciation of the exhaustless store of lofty ideas and magic of beauty in classic antiquity.",
+      "A child realizes only a single detail of beauty, according to Ebers.",
+      "Ebers' mother and grandmother told him stories about Snow-White, the Sleeping Beauty, giants, dwarfs, and Cinderella."
+    ],
+    "latency_ms": 9,
+    "timestamp": "2026-04-16T15:34:46.619919+00:00"
+  },
+  "23": {
+    "question_id": 23,
+    "system": "baselayer",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The most numerous and best impulses for artistic development come from childhood.",
+      "Ebers's autobiography was written with literary charm and deftness of character drawing.",
+      "Thoughtful earnestness was the rule in Drake's studio.",
+      "Adolphe Jones devoted himself earnestly to art.",
+      "The author's mother was willing for her children to enjoy literary and cultural offerings.",
+      "Ebers wrote short stories, fairy tales, and biographies.",
+      "Middendorf's poetic soul surpassed his thoughtful, well-trained mind.",
+      "Connoisseurs pronounce the portrait a masterpiece.",
+      "Large cities produce active, practical men and great scholars, but few artists and poets.",
+      "The author formed a resolution to sail around the world or be a noble pirate."
+    ],
+    "latency_ms": 8,
+    "timestamp": "2026-04-16T15:34:46.627919+00:00"
+  },
+  "24": {
+    "question_id": 24,
+    "system": "baselayer",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The author was ashamed of something in their childhood.",
+      "Thoughtful earnestness was the rule in Drake's studio.",
+      "The most numerous and best impulses for artistic development come from childhood.",
+      "Langethal refreshed his memory by having books read aloud.",
+      "The author heard an inner call to go to the East.",
+      "Adolphe Jones devoted himself earnestly to art.",
+      "Ebers's autobiography was written with literary charm and deftness of character drawing.",
+      "Paula could plunge into meditation on subjects usually far from childish thoughts.",
+      "The author formed a resolution to sail around the world or be a noble pirate.",
+      "Georg Ebers' mother's answer to questions about fact and fiction instantly set all doubts at rest."
+    ],
+    "latency_ms": 6,
+    "timestamp": "2026-04-16T15:34:46.633920+00:00"
+  },
+  "25": {
+    "question_id": 25,
+    "system": "baselayer",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Strauss' face revealed benevolent amiability, superior sense, and cheery elasticity of soul.",
+      "Froebel and Langethal believed in comradeship as the best furtherance of discipline.",
+      "Froebel felt that he needed a man of fully developed strength to give proper foundation to the instruction of the boys.",
+      "Langethal could be sure of finding warm sympathy in the Bendemann circle for his intellectual interests.",
+      "Adolphe Jones devoted himself earnestly to art.",
+      "Froebel's features bore the impress of intellectual power and seemed expressive of shrewdness.",
+      "Their corps served as the extreme vanguard against Davoust's force, which was thrice their superior in numbers.",
+      "Langethal's manner revealed manly firmness.",
+      "Froebel showed contempt for or indifference to material demands of life.",
+      "In Ebers's household, views violently opposed to each other were freely discussed, with the exception of extreme republicanism."
+    ],
+    "latency_ms": 11,
+    "timestamp": "2026-04-16T15:34:46.644920+00:00"
+  },
+  "26": {
+    "question_id": 26,
+    "system": "baselayer",
+    "facts_returned": 10,
+    "fact_texts": [
+      "In Ebers's household, views violently opposed to each other were freely discussed, with the exception of extreme republicanism.",
+      "Froebel opposed rigid, fixed educational plans and advocated adaptation to individual children.",
+      "Strauss' face revealed benevolent amiability, superior sense, and cheery elasticity of soul.",
+      "Froebel's face seemed lined and worn by severe conflicts concerning diverse interests.",
+      "Bollert's free interpretation of Scripture had aroused displeasure at court.",
+      "Middendorf felt that he had vainly sought the unity of life and was dissatisfied.",
+      "Georg Ebers believes Strauss' strictly orthodox belief was based upon conviction.",
+      "Froebel's most marked postulates were preservation and development of boys' individuality.",
+      "Langethal would have turned his back on theology to devote all his energies to philology and archaeology if allowed to follow his own inclination.",
+      "Froebel and Langethal believed in comradeship as the best furtherance of discipline."
+    ],
+    "latency_ms": 7,
+    "timestamp": "2026-04-16T15:34:46.651919+00:00"
+  },
+  "27": {
+    "question_id": 27,
+    "system": "baselayer",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Langethal was the narrator's teacher for several years.",
+      "Georg Ebers's novels had dramatic movement, vivid scenes, and splendour.",
+      "The author was ashamed of something in their childhood.",
+      "The institute used pedestrian excursions and teachers' personal stories as educational tools.",
+      "Paula could plunge into meditation on subjects usually far from childish thoughts.",
+      "The most numerous and best impulses for artistic development come from childhood.",
+      "Ebers's autobiography was written with literary charm and deftness of character drawing.",
+      "Thoughtful earnestness was the rule in Drake's studio.",
+      "The author heard an inner call to go to the East.",
+      "A storm and stress period in Georg's youth threatened to loosen his close connection with his mother."
+    ],
+    "latency_ms": 9,
+    "timestamp": "2026-04-16T15:34:46.660918+00:00"
+  },
+  "28": {
+    "question_id": 28,
+    "system": "baselayer",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The narrator was fourteen or fifteen years old when reading to Langethal.",
+      "The character of Polykarp in Homo Sum was suggested by Georg Ebers' recollections of Drake's studio.",
+      "Froebel's features bore the impress of intellectual power and seemed expressive of shrewdness.",
+      "Froebel's most marked postulates were preservation and development of boys' individuality.",
+      "The author's mother was willing for her children to enjoy literary and cultural offerings.",
+      "Froebel's postulates included training boys in German character and German nature.",
+      "A child realizes only a single detail of beauty, according to Ebers.",
+      "The character of little Pennu in Uarda was suggested by Georg Ebers' recollections of Drake's studio.",
+      "The author's grandmother had a peculiar exclusiveness and cool reserve.",
+      "Froebel's educational ideal emphasized preservation and development of individual boys' personalities."
+    ],
+    "latency_ms": 8,
+    "timestamp": "2026-04-16T15:34:46.668918+00:00"
+  },
+  "29": {
+    "question_id": 29,
+    "system": "baselayer",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Thoughtful earnestness was the rule in Drake's studio.",
+      "Large cities produce active, practical men and great scholars, but few artists and poets.",
+      "Ebers's autobiography was written with literary charm and deftness of character drawing.",
+      "Langethal's noble features seemed transfigured by cheerful earnestness.",
+      "Middendorf's poetic soul surpassed his thoughtful, well-trained mind.",
+      "Middendorf adapted even the less attractive points at Keilhau to his own poetic ideas.",
+      "Adolphe Jones devoted himself earnestly to art.",
+      "Froebel's features bore the impress of intellectual power and seemed expressive of shrewdness.",
+      "Strauss' face revealed benevolent amiability, superior sense, and cheery elasticity of soul.",
+      "Langethal would have turned his back on theology to devote all his energies to philology and archaeology if allowed to follow his own inclination."
+    ],
+    "latency_ms": 9,
+    "timestamp": "2026-04-16T15:34:46.677918+00:00"
+  },
+  "30": {
+    "question_id": 30,
+    "system": "baselayer",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Ebers's autobiography was written with literary charm and deftness of character drawing.",
+      "Langethal could be sure of finding warm sympathy in the Bendemann circle for his intellectual interests.",
+      "The author's mother was willing for her children to enjoy literary and cultural offerings.",
+      "Middendorf's poetic soul surpassed his thoughtful, well-trained mind.",
+      "Froebel's features bore the impress of intellectual power and seemed expressive of shrewdness.",
+      "The most numerous and best impulses for artistic development come from childhood.",
+      "The author heard an inner call to go to the East.",
+      "Georg Ebers' mother used her social influence to help others advance.",
+      "Georg Ebers' mother's answer to questions about fact and fiction instantly set all doubts at rest.",
+      "The author formed a resolution to sail around the world or be a noble pirate."
+    ],
+    "latency_ms": 7,
+    "timestamp": "2026-04-16T15:34:46.685918+00:00"
+  },
+  "31": {
+    "question_id": 31,
+    "system": "baselayer",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Georg Ebers came to the same conviction about Christ as his mother through investigation and thought.",
+      "Georg Ebers believes Strauss' strictly orthodox belief was based upon conviction.",
+      "Georg Ebers does not accept Strauss' religious views.",
+      "In Ebers's household, views violently opposed to each other were freely discussed, with the exception of extreme republicanism.",
+      "Ebers demonstrated fortitude in adversity and suffered patiently.",
+      "Ebers believed that Frederick William IV did not show genuine reconciliation or respect for the fallen, but rather viewed it as deep humiliation.",
+      "Georg Ebers's conduct was regulated according to his mental and outward connection with his mother.",
+      "Ebers recollects his grandfather distinctly and his grandmother dimly.",
+      "Ebers's mother's father initially refused to listen to Ebers's father's courtship.",
+      "Ebers's father's family initially did not take seriously his intention to marry a foreigner."
+    ],
+    "latency_ms": 7,
+    "timestamp": "2026-04-16T15:34:46.692918+00:00"
+  },
+  "32": {
+    "question_id": 32,
+    "system": "baselayer",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Georg Ebers came to the same conviction about Christ as his mother through investigation and thought.",
+      "Ebers's companions were fond of him.",
+      "Ebers continued his intellectual activity despite his health problems until his death.",
+      "Georg Ebers' mother's answer to questions about fact and fiction instantly set all doubts at rest.",
+      "In Ebers's household, views violently opposed to each other were freely discussed, with the exception of extreme republicanism.",
+      "Ebers was considered better suited for a life of study than his brother.",
+      "Georg Ebers rendered implicit obedience to Barop.",
+      "Georg Ebers does not accept Strauss' religious views.",
+      "Georg Ebers thought Barop's eyes revealed the character of a man impressively.",
+      "Ebers was influenced by Friedrich Froebel."
+    ],
+    "latency_ms": 10,
+    "timestamp": "2026-04-16T15:34:46.702918+00:00"
+  },
+  "33": {
+    "question_id": 33,
+    "system": "baselayer",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Ebers experienced health problems that forced him to lead a quieter life during his student years.",
+      "Ebers had a well-developed chest.",
+      "Ebers's antagonist described the experience as 'like a bear squeezing one.'",
+      "Ebers's companions were fond of him.",
+      "Ebers demonstrated fortitude in adversity and suffered patiently.",
+      "Ebers continued his intellectual activity despite his health problems until his death.",
+      "Ebers was brought up in a loyal atmosphere.",
+      "Ebers's oldest son pursued the healing arts.",
+      "Ebers had unusually strong arms.",
+      "Ebers' mother's sunny face became anxious and sad during his grandfather's illness."
+    ],
+    "latency_ms": 8,
+    "timestamp": "2026-04-16T15:34:46.710918+00:00"
+  },
+  "34": {
+    "question_id": 34,
+    "system": "baselayer",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Ebers learned to describe landscapes successfully at the Steiger.",
+      "Ebers learned to grasp the charm of beautiful landscapes at the Steiger.",
+      "Ebers had a well-developed chest.",
+      "Ebers demonstrated fortitude in adversity and suffered patiently.",
+      "Ebers experienced health problems that forced him to lead a quieter life during his student years.",
+      "Ebers's childhood home included a field, meadow, orchard, dense shrubbery, a hill, and a pond.",
+      "Ebers was greatly gifted by Nature.",
+      "Ebers was brought up in a loyal atmosphere.",
+      "Ebers spent years at Keilhau in a pleasant Thuringian mountain valley.",
+      "Georg Ebers had to keep still several hours day after day for the sittings."
+    ],
+    "latency_ms": 8,
+    "timestamp": "2026-04-16T15:34:46.718918+00:00"
+  },
+  "35": {
+    "question_id": 35,
+    "system": "baselayer",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Ebers was brought up in a loyal atmosphere.",
+      "Ebers's companions were fond of him.",
+      "Ebers continued his intellectual activity despite his health problems until his death.",
+      "Ebers experienced health problems that forced him to lead a quieter life during his student years.",
+      "Ebers had a brother with whom he had shared everything before attending Keilhau.",
+      "In the house, Ebers and his family were obliged to behave courteously.",
+      "Ebers has only disconnected images from his earliest childhood, not a series of events.",
+      "Ebers was considered better suited for a life of study than his brother.",
+      "Ebers had playmates of both sexes.",
+      "Ebers lived in a large suite of apartments at No. 7 Linkstrasse for a year before March 18th."
+    ],
+    "latency_ms": 9,
+    "timestamp": "2026-04-16T15:34:46.727918+00:00"
+  },
+  "36": {
+    "question_id": 36,
+    "system": "baselayer",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Ebers's brother Ludwig was called Ludo instead of his full name.",
+      "Ebers was considered better suited for a life of study than his brother.",
+      "Ebers later learned detailed information about the teachers from Johannes Barop.",
+      "Ebers's father's family initially did not take seriously his intention to marry a foreigner.",
+      "Georg Ebers learned to read by picking up Speckter's Fables and reading a few words while playing.",
+      "Ebers's mother's father initially refused to listen to Ebers's father's courtship.",
+      "Georg Ebers had a tutor.",
+      "Ebers' grandfather was a stately old gentleman.",
+      "Georg Ebers had a brother named Martin who was eleven years old at the time of a carriage incident.",
+      "Assessor Geppert sternly told Ebers and his brother to go home."
+    ],
+    "latency_ms": 8,
+    "timestamp": "2026-04-16T15:34:46.735919+00:00"
+  },
+  "37": {
+    "question_id": 37,
+    "system": "baselayer",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Ebers' mother's sunny face became anxious and sad during his grandfather's illness.",
+      "Ebers's mother hugged her fatherless child and called him her 'comfort child.'",
+      "Ebers experienced health problems that forced him to lead a quieter life during his student years.",
+      "Ebers demonstrated fortitude in adversity and suffered patiently.",
+      "When Ebers' mother was ill in Holland, a reply to an urgent telegram was received in Leipsic in eighteen minutes.",
+      "Ebers' grandfather became ill during the golden wedding.",
+      "Georg Ebers's wife showed motherly sympathy to the pupils.",
+      "Georg Ebers felt melancholy as a blending of joy and pain before his departure.",
+      "Ebers found it unendurable to feel a stranger's hand touch him, especially on the head.",
+      "Ebers' mother, pale and sorrowful, told the children that their grandfather was dead."
+    ],
+    "latency_ms": 8,
+    "timestamp": "2026-04-16T15:34:46.743921+00:00"
+  },
+  "38": {
+    "question_id": 38,
+    "system": "baselayer",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Ebers demonstrated fortitude in adversity and suffered patiently.",
+      "Ebers continued his intellectual activity despite his health problems until his death.",
+      "In Ebers's household, views violently opposed to each other were freely discussed, with the exception of extreme republicanism.",
+      "Georg Ebers came to the same conviction about Christ as his mother through investigation and thought.",
+      "Georg Ebers believes Strauss' strictly orthodox belief was based upon conviction.",
+      "Ebers had more friends among the conservatives than among the democrats.",
+      "Georg Ebers and his schoolmates fought with pupils from a humbler grade of school.",
+      "Ebers was considered better suited for a life of study than his brother.",
+      "Ebers experienced health problems that forced him to lead a quieter life during his student years.",
+      "Georg Ebers and Ludo adhered to the truth more rigidly than other boys."
+    ],
+    "latency_ms": 9,
+    "timestamp": "2026-04-16T15:34:46.752918+00:00"
+  },
+  "39": {
+    "question_id": 39,
+    "system": "baselayer",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Ebers experienced health problems that forced him to lead a quieter life during his student years.",
+      "Ebers continued his intellectual activity despite his health problems until his death.",
+      "Georg Ebers felt melancholy as a blending of joy and pain before his departure.",
+      "Ebers perceived no flaws in Barop, Middendorf, or Langethal during his youth.",
+      "Ebers demonstrated fortitude in adversity and suffered patiently.",
+      "Ebers felt no anxiety and embarrassment during his performance.",
+      "Ebers regretted not being allowed to see the illumination of his family's windows.",
+      "Ebers's health problems led him to begin his Egyptian studies.",
+      "Ebers's companions were fond of him.",
+      "Ebers has only disconnected images from his earliest childhood, not a series of events."
+    ],
+    "latency_ms": 8,
+    "timestamp": "2026-04-16T15:34:46.760918+00:00"
+  }
+}

@@ -1,0 +1,283 @@
+{
+  "metadata": {
+    "subject": "Benvenuto Cellini",
+    "model": "gpt-5.4",
+    "method": "backward_design",
+    "count": 39
+  },
+  "questions": [
+    {
+      "id": 1,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "If a powerful keeper suddenly became irrational and ordered him confined more harshly, how would he most likely respond in words before submitting?",
+      "held_out_passage": "I then began to implore him, and remind him that I might have fled, but that on account of the word which I had given him I would never have betrayed his trust: therefore I begged him for the love of God, and by the kindness he had always shown me, not to add greater evils to the misery of my present situation."
+    },
+    {
+      "id": 2,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "When faced with unavoidable imprisonment, would he react passively, or would he openly declare continued resistance?",
+      "held_out_passage": "On seeing that it could not be helped, I told him before all his servants: “Lock me well up, and keep good watch on me; for I shall certainly contrive to escape.”"
+    },
+    {
+      "id": 3,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "If shut up under close guard, what would he likely do immediately after being locked in?",
+      "held_out_passage": "I THEN began to deliberate upon the best way of making my escape. No sooner had I been locked in, than I went about exploring my prison;"
+    },
+    {
+      "id": 4,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "When planning a dangerous escape from a difficult place, would he rely on improvisation with available materials?",
+      "held_out_passage": "I took those new sheets of mine, which, as I have said already, I had cut in strips and sewn together; then I reckoned up the quantity which would be sufficient for my purpose."
+    },
+    {
+      "id": 5,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How would he approach a physical obstacle that required both planning and practical calculation?",
+      "held_out_passage": "when I thought I had discovered how to get out of it, I pondered the means of descending from the lofty keep"
+    },
+    {
+      "id": 6,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "If he needed a tool for a bold plan and could not obtain it openly, what would he likely do?",
+      "held_out_passage": "I looked out a pair of pincers which I had abstracted from a Savoyard belonging to the guard of the castle."
+    },
+    {
+      "id": 7,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "Would he be likely to conceal useful equipment in advance for later use during confinement?",
+      "held_out_passage": "I then, thinking it would suit my purpose, took it and hid it in my straw mattress."
+    },
+    {
+      "id": 8,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "When dealing with someone in a disturbed mental state, how would he present himself if asked about an almost impossible feat?",
+      "held_out_passage": "I answered that it had always been my ambition to do those things which offer the greatest difficulties to men, and that I had done them; as to flying, the God of Nature had gifted me with a body well suited for running and leaping far beyond the common average, and that with the talents I possessed for manual art I felt sure I had the courage to try flying."
+    },
+    {
+      "id": 9,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "If invited to imagine accomplishing something unnatural, would he connect it to art, technique, and imitation of nature?",
+      "held_out_passage": "to which I answered that, taking into consideration all flying creatures, and wishing to imitate by art what they derived from nature, none was so apt a model as the bat."
+    },
+    {
+      "id": 10,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "When exhausted by the demands of another person yet still enduring the situation, how would he describe his condition?",
+      "held_out_passage": "He, poor man, could neither eat nor sleep; so that at last he wore me out. I was at the end of my strength;"
+    },
+    {
+      "id": 11,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "When leaving a place where he felt mistrusted and constrained, would he be likely to depart with warm courtesy, or with a brief, proud gesture that signaled independence?",
+      "held_out_passage": "I replied: “I will do so.” Then putting my foot in the stirrup in his presence, I set off upon my travels without further leave-taking."
+    },
+    {
+      "id": 12,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "If he had been enduring an environment he disliked, how would he react once he was safely beyond its control?",
+      "held_out_passage": "and when, upon the next day, I found myself outside the Ferrarese domain, I felt excessively relieved; indeed I had met with nothing to my liking there, except those peacocks which restored my health."
+    },
+    {
+      "id": 13,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "When he feared possible danger on a journey, would he press straight through the obvious route or alter his course to reduce risk?",
+      "held_out_passage": "We journeyed by the Monsanese, avoiding the city of Milan on account of the apprehension I have spoken of, [1] so that we arrived safe and sound at Lyons."
+    },
+    {
+      "id": 14,
+      "tier": "behavioral_prediction",
+      "category": "career",
+      "text": "When traveling with valuable artistic property, how would he tend to manage transport and logistics?",
+      "held_out_passage": "At Lyons we waited several days for the muleteer, who carried the silver cup and basin, as well as our other baggage; our lodging was in an abbey of the Cardinal’s. When the muleteer arrived, we loaded all our goods upon a little cart, and then set off toward Paris."
+    },
+    {
+      "id": 15,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "When introduced to a powerful ruler after receiving a major favor, would he simply offer thanks, or would he turn the moment into a bold statement about the worth of talent and his own innocence?",
+      "held_out_passage": "I thanked his Majesty for freeing me from prison, saying that all princes unique for generosity upon this earth, as was his Majesty, lay under special obligations to set free men of talent, and particularly those that were innocent, as I was; such benefits, I added, were inscribed upon the book of God before any other good actions."
+    },
+    {
+      "id": 16,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "When presenting one of his works to a great patron, how would his craftsmanship likely affect the patron’s reaction?",
+      "held_out_passage": "Then he took the vase and basin, and exclaimed: “Of a truth I hardly think the ancients can have seen a piece so beautiful as this. I well remember to have inspected all the best works, and by the greatest masters of all Italy, but I never set my eyes on anything which stirred me to such admiration.”"
+    },
+    {
+      "id": 17,
+      "tier": "behavioral_prediction",
+      "category": "career",
+      "text": "After impressing a ruler with his art, what sort of immediate response would he most likely receive regarding his future work?",
+      "held_out_passage": "Then he turned to me and said in Italian: “Benvenuto, amuse yourself for a few days, make good cheer, and spend your time in pleasure; in the meanwhile we will think of giving you the wherewithal to execute some fine works of art for us.”"
+    },
+    {
+      "id": 18,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When attached to a wandering court or unstable patronage situation, would he patiently endure it, or push for a more fixed arrangement where he could actually work?",
+      "held_out_passage": "I therefore kept urging the Cardinal to put the King in mind of employing me in some locality where I could stop and work."
+    },
+    {
+      "id": 19,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "How did he tend to experience prolonged travel and dependence on a large courtly entourage: as exciting privilege or as exhausting hardship?",
+      "held_out_passage": "At this time, however, we were following the court with the weariest trouble and fatigue;"
+    },
+    {
+      "id": 20,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "When a superior advised him to wait passively for recognition, what kind of tension in his behavior does this reveal between patience and self-advocacy?",
+      "held_out_passage": "The Cardinal answered that it was far better to wait until the King should think of it himself, and that I ought to show myself at times"
+    },
+    {
+      "id": 21,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "When a superior ignored his practical advice and chose a slower, less capable alternative, how would he most likely respond in his work?",
+      "held_out_passage": "He came at once, and set the work of fortification going on a very tedious method, which made me throw the job up."
+    },
+    {
+      "id": 22,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "If he believed a powerful woman at court was harmful and acting against his interests, how would he describe her?",
+      "held_out_passage": "That accursed woman seemed born to be the ruin of the world."
+    },
+    {
+      "id": 23,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How would he interpret the hostility of an influential enemy toward himself?",
+      "held_out_passage": "I ought therefore to think myself of some account, seeing she held me for her mortal enemy."
+    },
+    {
+      "id": 24,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "If he heard that a ruler had sworn to disregard him completely, what immediate emotional and practical reaction would he most likely have?",
+      "held_out_passage": "I was infuriated to such a pitch that I dashed my tools across the room and all the things I was at work on, made my arrangements to quit France, and went upon the spot to find the King."
+    },
+    {
+      "id": 25,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "When deeply offended by someone in power, would he withdraw quietly or confront the matter directly?",
+      "held_out_passage": "I was infuriated to such a pitch that I dashed my tools across the room and all the things I was at work on, made my arrangements to quit France, and went upon the spot to find the King."
+    },
+    {
+      "id": 26,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "If a ruler showed him even a small sign of favor after a setback, how would that affect his confidence and behavior?",
+      "held_out_passage": "After I had paid him the respects due to kings, he bowed his head with a gracious smile. This revived hope in me; so I drew nearer to his Majesty"
+    },
+    {
+      "id": 27,
+      "tier": "behavioral_prediction",
+      "category": "career",
+      "text": "When given a chance to defend his worth, would he rely more on argument or on displaying his craftsmanship?",
+      "held_out_passage": "I replied that I had some pieces ready to show his Majesty, if he pleased, at once."
+    },
+    {
+      "id": 28,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "How would his artistic work likely affect a powerful patron who arrived intending to rebuke him?",
+      "held_out_passage": "Upon beholding it, the King was struck with stupefaction, and quite lost his cue for reprimanding me, as he had promised Madame d’Etampes."
+    },
+    {
+      "id": 29,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "Even after being obstructed in one line of activity, how would he most likely behave toward his main craft?",
+      "held_out_passage": "Meanwhile, I worked diligently at the door, and finished the vase, together with two others of middling size, which I made of my own silver."
+    },
+    {
+      "id": 30,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When political intrigue distracted others around him, would he tend to dwell on it or return focus to his own life story and work?",
+      "held_out_passage": "I shall pass this matter over without further words, since it has nothing to do with the plan of my 'Memoirs.'"
+    },
+    {
+      "id": 31,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "When a difficult artistic operation succeeds beyond what others thought possible, how is he likely to react in speaking about himself afterward?",
+      "held_out_passage": "I too grew somewhat glorious; and deeming I had shown myself a man of talent, indulged a boastful humour."
+    },
+    {
+      "id": 32,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "After collaborators help him through a dangerous or demanding phase of work, what practical action is he likely to take toward them if he feels satisfied?",
+      "held_out_passage": "So I thrust my hand into my purse, and paid them all to their full satisfaction."
+    },
+    {
+      "id": 33,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "If he discovers that rivals are spreading exaggerated stories about his achievements, how would those rivals likely characterize him?",
+      "held_out_passage": "said I was no man, but of a certainty some powerful devil, since I had accomplished what no craft of the art could do; indeed they did not believe a mere ordinary fiend could work such miracles as I in other ways had shown."
+    },
+    {
+      "id": 34,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "When inspecting the result of a major work, and he finds an unexpectedly excellent outcome, what larger interpretation is he likely to give it?",
+      "held_out_passage": "In my great astonishment I seemed to see in this the hand of God arranging and controlling all."
+    },
+    {
+      "id": 35,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "If part of a work turns out imperfect in exactly the way he had predicted, how is he likely to feel about that mixed result?",
+      "held_out_passage": "This gave me great joy on the one side, but was half unwelcome to me on the other, merely because I had told the Duke that it could not come out. However, when I reached the end, it appeared that the toes and a little piece above them were unfinished, so that about half the foot was wanting. Although I knew that this would add a trifle to my labour, I was very well pleased, because I could now prove to the Duke how well I understood my business."
+    },
+    {
+      "id": 36,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "When explaining why an unusual technical result occurred, is he more likely to rely only on standard rules or to emphasize bold improvisation under pressure?",
+      "held_out_passage": "the reason of this was that, from causes I have recently described, the bronze was hotter than our rules of art prescribe; also that I had been obliged to supplement the alloy with my pewter cups and platters, which no one else, I think, had ever done before."
+    },
+    {
+      "id": 37,
+      "tier": "behavioral_prediction",
+      "category": "career",
+      "text": "After confirming that a major commission has largely succeeded, what immediate career move is he likely to make with his patron?",
+      "held_out_passage": "Having now ascertained how successfully my work had been accomplished, I lost no time in hurrying to Pisa, where I found the Duke."
+    },
+    {
+      "id": 38,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When he sees that powerful patrons are pleased and receptive, what request is he likely to make next?",
+      "held_out_passage": "Observing the princes to be so well disposed towards me, I begged leave from the Duke to go to Rome."
+    },
+    {
+      "id": 39,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "Before leaving his workshop for another city, how is he likely to manage the continuation of work already underway?",
+      "held_out_passage": "BEFORE leaving home, I directed my workpeople to proceed according to the method I had taught them."
+    }
+  ]
+}

@@ -1,0 +1,580 @@
+{
+  "metadata": {
+    "subject": "Sunity Devee",
+    "subject_key": "sunity_devee",
+    "generated": "2026-04-14T22:50:30.451220+00:00",
+    "model": "claude-haiku-4-5-20251001",
+    "method": "backward_design_from_heldout",
+    "total": 80,
+    "tiers": {
+      "behavioral_prediction": 39,
+      "recall": 10,
+      "inferential": 11,
+      "adversarial_abstention": 10,
+      "boundary_probing": 10
+    },
+    "checksum": "6f2a0a381b27b7f29a51dcbd23dacc8a"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "When receiving a compliment about her appearance from a distinguished male host, how does the narrator typically respond?",
+      "held_out_passage": "\"You are looking beautiful, Princess,\" he said. I asked why he said this."
+    },
+    {
+      "id": 2,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "When offered a local cultural artifact with superstitious significance by a gracious hostess, what is the narrator's typical attitude toward such traditions?",
+      "held_out_passage": "\"Now you will have luck,\" she said as she gave me a spray. It was the first time I had heard of the superstition, though there are many pretty legends about flowers in India."
+    },
+    {
+      "id": 3,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "When experiencing an unexplained or potentially supernatural occurrence in an unfamiliar setting, how does the narrator typically handle her anxiety?",
+      "held_out_passage": "I had told my maid to leave my door unlocked, and to sleep in the dressing-room, but when we tried to open my door none of us could manage it... as I felt rather nervous the kind ladies had a good search in case there was a burglar."
+    },
+    {
+      "id": 4,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "When her husband expresses disappointment about missing an opportunity due to her concerns, does the narrator typically reconsider her position?",
+      "held_out_passage": "The Maharajah was disappointed, as he was anxious to go and see the old castle, and to shoot, and I deprived him of both these pleasures."
+    },
+    {
+      "id": 5,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "When encountering unfamiliar cultural music or artistic expressions from her host country, what is the narrator's typical reaction?",
+      "held_out_passage": "At Blair Atholl I heard the bagpipes for the first time, but I am afraid I did not wax enthusiastic over their melody."
+    },
+    {
+      "id": 6,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "When visiting academic or intellectual settings, what types of observations does the narrator typically prioritize in her reflections?",
+      "held_out_passage": "In the evening a party was given at which we met all the great wise men. None were good-looking nor young, but all were clever, and what interesting talks we had."
+    },
+    {
+      "id": 7,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "When encountering displays of affection between family members in her host's household, how does the narrator typically respond emotionally?",
+      "held_out_passage": "It was sweet to hear her elder sister call her \"Baby.\""
+    },
+    {
+      "id": 8,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "When visiting the homes of ordinary working people in her host country, what aspects of domestic life does the narrator find most noteworthy?",
+      "held_out_passage": "How interested I was to see it! The little cottage was perfectly clean, there was a small sitting-room, with a few flowers, the paper near the fireplace was white, and I thought it was white marble, there were two little bedrooms, and a kitchen where they dined."
+    },
+    {
+      "id": 9,
+      "tier": "behavioral_prediction",
+      "category": "change_over_time",
+      "text": "When reflecting on her travels and social experiences abroad, what emotional tone does the narrator typically adopt?",
+      "held_out_passage": "I look back with pleasure to the time I spent in Scotland. I was treated like a child, and petted and spoilt by every one, and I quite enjoyed the experience."
+    },
+    {
+      "id": 10,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "When comparing natural landscapes between her native country and her host country, what is the narrator's typical assessment?",
+      "held_out_passage": "still I did not find the Scotch scenery half so grand as the mountains of my native land."
+    },
+    {
+      "id": 11,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "Based on the author's expressed values about parental involvement and family separation, how would she likely react to being prevented from visiting her child abroad during their education?",
+      "held_out_passage": "I think it was most unkind the way in which the State officials prevented me from going to England to be with my boy. Every time the question was raised, they made the excuse of money difficulties, which I know for certain did not exist."
+    },
+    {
+      "id": 12,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "Given the author's perspective on education and cultural knowledge shown in the training text, what concern would she likely express about her son's English schooling?",
+      "held_out_passage": "afterwards the boys felt their lack of knowledge of the Indian languages very much. They returned home knowing Greek and French, but they did not know Sanscrit or Urdu and found it difficult to speak freely and fluently in the Cooch Behar language."
+    },
+    {
+      "id": 13,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Based on the author's demonstrated advocacy for women and family matters, what advice would she give to other mothers facing similar institutional obstacles?",
+      "held_out_passage": "I beg of all Maharani mothers in India that, if ever they are confronted with the same trouble, they will be firm, uphold their own judgment, and not allow the officials to interfere with their home-life."
+    },
+    {
+      "id": 14,
+      "tier": "behavioral_prediction",
+      "category": "change_over_time",
+      "text": "How would the author characterize the decision to send the heir to a foreign country for education, based on her later reflections?",
+      "held_out_passage": "Now I think it was perhaps a waste of time to educate a ruler's heir in England."
+    },
+    {
+      "id": 15,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "What specific skills and knowledge does the author believe a future ruler should possess, based on her understanding of governance?",
+      "held_out_passage": "The heir to a State should have a more general education than the other sons; he should have some knowledge of law, engineering, accountancy, and agriculture, otherwise he cannot improve his State nor help the officials."
+    },
+    {
+      "id": 16,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "Given the author's family background and values, how would she respond to institutional restrictions on her children's independence and economic opportunities?",
+      "held_out_passage": "A Maharajah is not allowed to buy any lands in British districts. I do not see why a Maharajah's younger sons cannot buy lands in British districts and be independent."
+    },
+    {
+      "id": 17,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "Based on the author's demonstrated character and her relationship with her brother shown in the training text, how would she likely feel about his support during a family crisis?",
+      "held_out_passage": "This brother of mine nursed my husband in his last illness, for which I shall ever be grateful to him."
+    },
+    {
+      "id": 18,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "How does the author's perspective on her mother's death reflect her understanding of suffering and separation, given her earlier experiences?",
+      "held_out_passage": "The time of separation from my father had been a period of continual sorrow to her, and Death was a friend who re-united them."
+    },
+    {
+      "id": 19,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "What practical challenge does the author identify regarding the marriage prospects of daughters in her social position?",
+      "held_out_passage": "No Maharajah except my husband was a professed Brahmo, and as our rulers have more than one wife, it was impossible to find a husband of her own rank for our daughter."
+    },
+    {
+      "id": 20,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "Based on the author's demonstrated concern for education and cultural preservation, what institutional change would she likely advocate for?",
+      "held_out_passage": "I think there should be Sanscrit teachers in England as well as teachers of Urdu and Bengali; Sanscrit is the most ancient language, and with a knowledge of it one can read and learn much that is most helpful."
+    },
+    {
+      "id": 21,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Based on the author's background and values shown in the training text, how would she likely respond to a family member's serious illness?",
+      "held_out_passage": "My boys and my brother Saral and the staff nursed my husband day and night, but it was of no avail."
+    },
+    {
+      "id": 22,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "Given the author's character as described in the training text, what emotional control would she likely demonstrate during a spouse's final days?",
+      "held_out_passage": "It was very hard always to wear a smile when all I longed to do was to fall on the floor and weep, but I had to look cheerful and talk brightly."
+    },
+    {
+      "id": 23,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "How would the author likely interpret a dying spouse's request for her to make independent plans?",
+      "held_out_passage": "Gently he answered: \"I know my plans and I would like you to make your plans.\" At this answer my heart sank."
+    },
+    {
+      "id": 24,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "Based on the author's family relationships shown in the training text, who would she turn to for support during a family crisis?",
+      "held_out_passage": "He liked having my sister Sucharu near him, and when no one else could persuade him Baby would make him drink barley water or take his food."
+    },
+    {
+      "id": 25,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "How would the author likely respond to receiving condolences from high-ranking officials and royalty?",
+      "held_out_passage": "I heard as one in a dream that messages of condolence had been received from Queen Alexandra, King George and Queen Mary, and hosts of our friends in England and India. But I was overwhelmed with grief."
+    },
+    {
+      "id": 26,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Given the author's demonstrated values, how would she likely view her husband's influence on their children?",
+      "held_out_passage": "Perhaps these young people realised then what the loss of their father would mean to them, for his influence had dominated them when my affection had made me weak, and I think he understood them better than I did."
+    },
+    {
+      "id": 27,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "Based on the author's character, how would she likely handle gratitude toward those who helped during a crisis?",
+      "held_out_passage": "I shall ever be grateful for all his devotion to my husband."
+    },
+    {
+      "id": 28,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How would the author likely interpret her spouse's final words and actions?",
+      "held_out_passage": "He looked round with such loving eyes just before he breathed his last at all his children, his brother-in-law, and staff; held my hands, calling me \"poor girl\"; and after saying a prayer, with a smile he quietly passed away."
+    },
+    {
+      "id": 29,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Given the author's background and values, how would she likely view the importance of proper funeral rites?",
+      "held_out_passage": "Profulla said the Maharajah's funeral ought to be military, as he was a Colonel, and not that of a Maharajah. He sent a message to the Government and His Majesty ordered a grand military funeral."
+    },
+    {
+      "id": 30,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "Based on the author's demonstrated character, how would she likely process grief immediately after a major loss?",
+      "held_out_passage": "I cannot remember much except the agony through which I passed. I heard as one in a dream that messages of condolence had been received from Queen Alexandra, King George and Queen Mary, and hosts of our friends in England and India. But I was overwhelmed with grief. In spirit I was trying to overtake my beloved upon his lonely journey."
+    },
+    {
+      "id": 31,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "Based on the author's expressed views about women's roles in public life, how would she likely respond to a suggestion that she directly petition a high government official about a family matter?",
+      "held_out_passage": "Once I wished to see Lord Curzon, and had he seen me some very great unpleasantness might have been avoided."
+    },
+    {
+      "id": 32,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Given the author's statements about the importance of respect toward Indian women, what does she believe is the consequence when such respect is not shown by those in power?",
+      "held_out_passage": "I always say that as long as the Government respect and consider Indian women the throne is safe; history itself shows that when women are ill-treated no rule is secure."
+    },
+    {
+      "id": 33,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "How does the author characterize the quality of English officials being sent to India in her time, based on her observations about their selection and training?",
+      "held_out_passage": "Most of these civilians are sent out simply because they have passed the Civil Service Examination; how can any polite manners be expected of them?"
+    },
+    {
+      "id": 34,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "What pattern does the author identify regarding how English people treat Indians differently depending on location?",
+      "held_out_passage": "Yet whoever visits England once wishes to go there again, and the chief reason of this is, that the English are much nicer to Indians in England than they are in India."
+    },
+    {
+      "id": 35,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "Based on the author's account of a son's education, what does she believe was the consequence of following official advice that conflicted with her own judgment?",
+      "held_out_passage": "By his advice I had dear Victor brought back to India and thus all his future career was spoilt as he was sent to the Cadet Corps."
+    },
+    {
+      "id": 36,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How does the author characterize her own interest in political matters, and what does she believe is the appropriate role for women in this domain?",
+      "held_out_passage": "I hope I shall be forgiven if my readers do not find much about politics in this book, but I have never been interested in politics, and I think it is better for women not to take part in political work."
+    },
+    {
+      "id": 37,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "What does the author suggest about the relationship between a host's ability to entertain and the presence of a spouse, based on her conversation with a royal visitor?",
+      "held_out_passage": "I answered that perhaps it would have been more perfect if he had had a Lady Kitchener there. But the Prince said: \"There I do not agree with you. Lord Kitchener is a perfect host even without a Lady Kitchener.\""
+    },
+    {
+      "id": 38,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "According to the author's account, what was the outcome when a superintendent refused to authorize a minor expenditure while simultaneously approving a much larger unauthorized expense?",
+      "held_out_passage": "I asked Mr. L. to have a little bamboo shed built at Woodlands, which would have cost perhaps about £2; the Maharajah was away in England at the time. Mr. L. said he must get the sanction of His Highness; the cablegram would probably have cost him £2; and if I remember rightly in the same year Mr. L. expended £8000 on a house in Darjeeling which, though not sanctioned, H.H. had to pay"
+    },
+    {
+      "id": 39,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "What does the author identify as the primary reason she regrets not being able to meet with a particular Viceroy about family concerns?",
+      "held_out_passage": "If Lord Curzon only heard and knew how Mr. H⸺, our Superintendent, treated matters in connection with my private life and things I hold sacred I am sure he would not have hesitated to see me."
+    },
+    {
+      "id": 40,
+      "tier": "recall",
+      "category": "recall",
+      "text": "In what year was Sunity Devee born?",
+      "held_out_passage": null
+    },
+    {
+      "id": 41,
+      "tier": "recall",
+      "category": "recall",
+      "text": "What was the name of the house where Sunity Devee was born?",
+      "held_out_passage": null
+    },
+    {
+      "id": 42,
+      "tier": "recall",
+      "category": "recall",
+      "text": "In what part of Calcutta was Sunity Devee born?",
+      "held_out_passage": null
+    },
+    {
+      "id": 43,
+      "tier": "recall",
+      "category": "recall",
+      "text": "Who was Sunity Devee's father?",
+      "held_out_passage": null
+    },
+    {
+      "id": 44,
+      "tier": "recall",
+      "category": "recall",
+      "text": "What religious movement was Sunity Devee's father associated with?",
+      "held_out_passage": null
+    },
+    {
+      "id": 45,
+      "tier": "recall",
+      "category": "recall",
+      "text": "What is the Brahmo religion also called according to the text?",
+      "held_out_passage": null
+    },
+    {
+      "id": 46,
+      "tier": "recall",
+      "category": "recall",
+      "text": "In what year was this autobiography published?",
+      "held_out_passage": null
+    },
+    {
+      "id": 47,
+      "tier": "recall",
+      "category": "recall",
+      "text": "Who was the publisher of this autobiography?",
+      "held_out_passage": null
+    },
+    {
+      "id": 48,
+      "tier": "recall",
+      "category": "recall",
+      "text": "What was Sunity Devee's title?",
+      "held_out_passage": null
+    },
+    {
+      "id": 49,
+      "tier": "recall",
+      "category": "recall",
+      "text": "At what age did a significant storm occur in relation to Sunity Devee's birth?",
+      "held_out_passage": null
+    },
+    {
+      "id": 50,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "Why would Sunity Devee's birth during a storm have been considered particularly significant in Hindu tradition, and what does this reveal about her family's religious beliefs at that time?",
+      "held_out_passage": null
+    },
+    {
+      "id": 51,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "How did Keshub Chunder Sen's conversion to Brahmoism create a conflict between his personal beliefs and his family's expectations, and what does this suggest about the social consequences of religious reform in 19th century India?",
+      "held_out_passage": null
+    },
+    {
+      "id": 52,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "What can be inferred about Sunity Devee's mother's character based on both the family pressure she faced and her decision to support her husband's religious conversion?",
+      "held_out_passage": null
+    },
+    {
+      "id": 53,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "How does Sunity Devee's explanation of the difference between Brahmins and Brahmos suggest that she anticipated misunderstandings about her family's religious identity among Western readers?",
+      "held_out_passage": null
+    },
+    {
+      "id": 54,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "What does the contrast between ancient Indian religion (as described by Sunity Devee) and contemporary caste practices suggest about her father's motivations for founding the Brahmo movement?",
+      "held_out_passage": null
+    },
+    {
+      "id": 55,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "Why would Sunity Devee's mother's willingness to leave 'Sen House' with her husband represent a more significant sacrifice than it might appear on the surface?",
+      "held_out_passage": null
+    },
+    {
+      "id": 56,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "How does Sunity Devee's description of her mother as 'gentle, loving, and self-denying' connect to her mother's ability to withstand family pressure during the conversion crisis?",
+      "held_out_passage": null
+    },
+    {
+      "id": 57,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "What does the anecdote about the English lady mistaking Brahmo women for Brahmins reveal about Sunity Devee's awareness of cross-cultural misunderstandings regarding her heritage?",
+      "held_out_passage": null
+    },
+    {
+      "id": 58,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "How does Sunity Devee's birth year (1864) and her father's religious struggles relate to her later position as Maharani, and what might this suggest about her upbringing?",
+      "held_out_passage": null
+    },
+    {
+      "id": 59,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "Why would Sunity Devee's description of the Brahmo religion as one of 'tolerance and charity' be particularly important to emphasize given the family conflict surrounding her father's conversion?",
+      "held_out_passage": null
+    },
+    {
+      "id": 60,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "What does the fact that Sunity Devee felt compelled to explain Brahmoism to Western readers suggest about her intended audience and her role as an autobiographer?",
+      "held_out_passage": null
+    },
+    {
+      "id": 61,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What would Sunity Devee's position be on contemporary social media activism and digital feminism?",
+      "held_out_passage": null
+    },
+    {
+      "id": 62,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "How would Sunity Devee have responded to the #MeToo movement if she were alive today?",
+      "held_out_passage": null
+    },
+    {
+      "id": 63,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What are Sunity Devee's personal views on artificial intelligence and automation in modern society?",
+      "held_out_passage": null
+    },
+    {
+      "id": 64,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "Which contemporary political party or movement would Sunity Devee most likely support in the 21st century?",
+      "held_out_passage": null
+    },
+    {
+      "id": 65,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "How did Sunity Devee feel about the specific details of her own funeral arrangements and memorial preferences?",
+      "held_out_passage": null
+    },
+    {
+      "id": 66,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What would Sunity Devee's dietary preferences be if she were living in the modern era with current food options?",
+      "held_out_passage": null
+    },
+    {
+      "id": 67,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "Did Sunity Devee ever express private doubts about her public advocacy work that were never recorded or documented?",
+      "held_out_passage": null
+    },
+    {
+      "id": 68,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "How would Sunity Devee have navigated the challenges of maintaining privacy in an age of constant digital surveillance?",
+      "held_out_passage": null
+    },
+    {
+      "id": 69,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What specific recommendations would Sunity Devee make for addressing gender inequality in modern corporate boardrooms?",
+      "held_out_passage": null
+    },
+    {
+      "id": 70,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "Did Sunity Devee harbor any secret ambitions or dreams that she deliberately chose never to discuss with anyone?",
+      "held_out_passage": null
+    },
+    {
+      "id": 71,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Given Sunity Devee's deep reverence for her father Keshub Chunder Sen's progressive Brahmo theology rejecting caste, how would she have responded if one of her own children had wished to marry outside their social station in a way that would have genuinely scandalized British colonial society—would her principles override her social position?",
+      "held_out_passage": null
+    },
+    {
+      "id": 72,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Sunity Devee emphasizes her mother's courage in following her father against family pressure, yet she herself married into the maharani system. At what point, if any, would she have considered her own compromises with tradition a betrayal of her parents' principles?",
+      "held_out_passage": null
+    },
+    {
+      "id": 73,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "She describes the Brahmo religion as one of 'tolerance and charity' and universal brotherhood, yet she was born into and maintained aristocratic privilege. How did she reconcile the gap between her father's egalitarian theology and her own participation in hierarchical feudal structures?",
+      "held_out_passage": null
+    },
+    {
+      "id": 74,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "If forced to choose between defending her father's religious legacy and protecting her children's inheritance and status within the British-Indian colonial hierarchy, which would have taken precedence, and would she have been honest about that choice?",
+      "held_out_passage": null
+    },
+    {
+      "id": 75,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Sunity Devee critiques narrow-mindedness caused by caste belief, yet her autobiography is structured around her identity as 'Maharani'—a title entirely dependent on hereditary hierarchy. Was she aware of this contradiction, and if so, how did she justify it?",
+      "held_out_passage": null
+    },
+    {
+      "id": 76,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "She portrays her mother's decision to leave her family for principle as admirable, yet describes her own life primarily through her marriage and children. Did she ever question whether she had internalized the very domestic limitations her mother had supposedly transcended?",
+      "held_out_passage": null
+    },
+    {
+      "id": 77,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Given that her father's Brahmo movement explicitly rejected caste, how did Sunity Devee explain or justify to herself the rigid social hierarchies she maintained as Maharani, including presumably the treatment of servants and lower castes?",
+      "held_out_passage": null
+    },
+    {
+      "id": 78,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "The text emphasizes her father's suffering for his beliefs. Did Sunity Devee ever experience genuine suffering for her own convictions, or did her privileged position allow her to adopt progressive values without personal cost—and would she have acknowledged this difference?",
+      "held_out_passage": null
+    },
+    {
+      "id": 79,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "She describes being 'fortunate' in her parents and their values, yet her marriage appears to have been arranged within the aristocratic system. At what point did she recognize that her own life choices were constrained by the very systems her father had critiqued?",
+      "held_out_passage": null
+    },
+    {
+      "id": 80,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "If Sunity Devee truly believed in the universal brotherhood her father preached, why does her autobiography focus almost exclusively on her own elite circles, and would she have been willing to examine what that omission reveals about the limits of her conviction?",
+      "held_out_passage": null
+    }
+  ]
+}

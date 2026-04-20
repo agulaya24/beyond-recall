@@ -1,0 +1,13 @@
+{
+  "subject": "seacole",
+  "system": "supermemory",
+  "mode": "fullpipeline",
+  "container_tag": "seacole_fullpipeline",
+  "chunks_expected": 11,
+  "chunks_posted": 11,
+  "post_success": 11,
+  "post_failure": 0,
+  "start_time": "2026-04-16T06:53:48.782755+00:00",
+  "end_time": "2026-04-16T06:55:01.331020+00:00",
+  "verification_passed": true
+}

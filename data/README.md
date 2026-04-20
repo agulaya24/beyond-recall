@@ -1,0 +1,74 @@
+# `data/` — Per-subject inputs and generated artifacts
+
+This directory contains the **inputs and generated artifacts** for every subject in the "Beyond Recall" study. Model outputs, judge scores, retrieval logs, and memory-system ingestion records for each subject live under [`../results/`](../results/), which is the per-subject evidence tree.
+
+For the authoritative numbers the paper reports, see [`../docs/DATA_REFERENCE.md`](../docs/DATA_REFERENCE.md). For provenance (which file produced which claim), see [`../docs/PROVENANCE_INDEX.md`](../docs/PROVENANCE_INDEX.md).
+
+## Directory layout
+
+```
+data/
+├── global_subjects/      13 low-to-mid pretraining subjects (the gradient sample)
+│   ├── augustine/
+│   ├── babur/
+│   ├── bernal_diaz/
+│   ├── cellini/
+│   ├── ebers/
+│   ├── equiano/
+│   ├── fukuzawa/
+│   ├── keckley/
+│   ├── rousseau/
+│   ├── seacole/
+│   ├── sunity_devee/
+│   ├── yung_wing/
+│   └── zitkala_sa/
+├── hamerton/             high-depth single-subject study (reference subject)
+├── franklin/             known-figure control (high pretraining baseline)
+└── franklin_obscure/     Franklin counterfactual (obscure-scenario battery)
+```
+
+The 14 subjects in the paper are Hamerton + the 13 global subjects. Franklin is the known-figure control; `franklin_obscure` is a secondary counterfactual battery on Franklin with more obscure scenarios.
+
+## File schema — global subjects (richest, most uniform)
+
+Each `data/global_subjects/<subject>/` contains:
+
+| File | Purpose |
+|---|---|
+| `facts.json` | Extracted behavioral facts (47-predicate vocabulary) with provenance back to source text. Input to the specification pipeline and to every memory system. |
+| `battery.json` | Held-out behavioral prediction battery. Each item has a scenario, a ground-truth excerpt from the held-out half of the corpus, and metadata. This is the test set. |
+| `spec.md` | Early short-form spec (pre-final-layer). |
+| `spec_production.md` | The production behavioral specification used in the paper (the "~5,000 tokens" spec). |
+| `anchors_v4.md` | Anchors layer — axiom-style behavioral anchors authored blind from the facts. |
+| `core_v4.md` | Core layer — ~800-word behavioral narrative. |
+| `predictions_v4.md` | Predictions layer — behavioral patterns and decision heuristics. |
+| `brief_v5.md` | Unified brief composed from the three layers. |
+| `judgments.json` | Subject-level judge output (per-item scores, rubric). |
+| `results.json` | Subject-level aggregated results (condition means, CIs, raw responses). |
+
+The pipeline stages correspond to files as follows: extract → `facts.json`, author → `anchors_v4.md` + `core_v4.md` + `predictions_v4.md`, compose → `brief_v5.md` + `spec_production.md`.
+
+## Schema variation — Hamerton, Franklin, Franklin obscure
+
+Not every subject has every file. This reflects the study history (Hamerton was the deep-dive reference subject, Franklin is a known-figure control).
+
+| Subject | `facts.json` | `battery.json` | Spec files | Notes |
+|---|---|---|---|---|
+| `hamerton/` | yes (also `shared_facts.json`) | yes (also `questions_80.json`) | `hamerton/spec/` contains `anchors_v4.md`, `core_v4.md`, `predictions_v4.md`, `brief_v5_clean.md` | No `spec_production.md`; use `brief_v5_clean.md`. Empty `analysis/` placeholder. |
+| `franklin/` | yes (also `franklin_shared_facts.json`) | yes (also `questions_80_franklin.json`) | None stored here | Franklin is the known-figure control. Empty `analysis/` placeholder. |
+| `franklin_obscure/` | yes | yes | None | Obscure-scenario counterfactual battery on Franklin. |
+
+## Canonical filenames vs. legacy aliases
+
+Some files exist under two names (same content, different names kept for scripts that reference the older paths):
+
+- `hamerton/facts.json` == `hamerton/shared_facts.json`
+- `hamerton/battery.json` == `hamerton/questions_80.json`
+- `franklin/facts.json` == `franklin/franklin_shared_facts.json`
+- `franklin/battery.json` == `franklin/questions_80_franklin.json`
+
+Prefer the `facts.json` / `battery.json` names when reading programmatically.
+
+## Where the model outputs live
+
+All condition responses, retrieval logs, memory-system ingestion records, and per-judge judgment files live under [`../results/<subject>/`](../results/) — not here. `data/` holds inputs and pipeline-generated artifacts; `results/` holds evaluation outputs.

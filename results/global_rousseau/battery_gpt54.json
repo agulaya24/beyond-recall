@@ -1,0 +1,283 @@
+{
+  "metadata": {
+    "subject": "Jean-Jacques Rousseau",
+    "model": "gpt-5.4",
+    "method": "backward_design",
+    "count": 39
+  },
+  "questions": [
+    {
+      "id": 1,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "When placed in a financially inconvenient living arrangement, would he quietly endure the burden and maintain a difficult routine rather than immediately simplify his circumstances?",
+      "held_out_passage": "for my primary wants; being obliged to live in their neighborhood, a dear part of the town, in a furnished lodging, and having to pay for another lodging at the extremity of Paris, at the very top of the Rue Saint Jacques, to which, let the weather be as it would, I went almost every evening to supper."
+    },
+    {
+      "id": 2,
+      "tier": "behavioral_prediction",
+      "category": "change_over_time",
+      "text": "After entering a new line of work, would he tend to grow attached to it and develop an eager taste for study beyond what was strictly required?",
+      "held_out_passage": "I soon got into the track of my new occupations, and conceived a taste for them."
+    },
+    {
+      "id": 3,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "Would he pursue intellectual subjects enthusiastically even when his knowledge was still incomplete, experimenting and writing before mastering the basics?",
+      "held_out_passage": "I attached myself to the study of chemistry, and attended several courses of it with M. de Francueil at M. Rouelle's, and we began to scribble over paper upon that science, of which we scarcely possessed the elements."
+    },
+    {
+      "id": 4,
+      "tier": "behavioral_prediction",
+      "category": "change_over_time",
+      "text": "In a pleasant and comfortable setting, would he readily give himself over to enjoyment and bodily ease rather than strict self-denial?",
+      "held_out_passage": "We amused ourselves very agreeably in this beautiful place, and lived very well: I became as fat there as a monk."
+    },
+    {
+      "id": 5,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "Would he naturally turn to music as a favored form of relief and produce original compositions during periods of leisure?",
+      "held_out_passage": "Music was a favorite relaxation. I composed several trios full of harmony, and of which I may perhaps speak in my supplement if ever I should write one."
+    },
+    {
+      "id": 6,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "When seeking diversion, would he be likely to write quickly and energetically for the stage, valuing liveliness even if the work were slight?",
+      "held_out_passage": "Theatrical performances were another resource. I wrote a comedy in fifteen days, entitled 'l'Engagement Temeraire',--[The Rash Engagement]--which will be found amongst my papers; it has no other merit than that of being lively."
+    },
+    {
+      "id": 7,
+      "tier": "behavioral_prediction",
+      "category": "career",
+      "text": "Even while occupied with study and practical duties, would he continue producing small literary works rather than focusing on only one pursuit?",
+      "held_out_passage": "I composed several other little things: amongst others a poem entitled, 'l'Aliee de Sylvie', from the name of an alley in the park upon the bank of the Cher; and this without discontinuing my chemical studies, or interrupting what I had to do for Madam Dupin."
+    },
+    {
+      "id": 8,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "When confronted with a deeply embarrassing personal complication, would he frame the account with deliberate simplicity and avoid naming others so as not to shift blame or excuse himself?",
+      "held_out_passage": "This, on account of my situation, would have thrown me into the greatest embarrassment, had not one of my messmates furnished me with the only resource which could relieve me from it. This is one of those essential narratives which I cannot give with too much simplicity; because, in making an improper use of their names, I should either excuse or inculpate myself, both of which in this place are entirely out of the question."
+    },
+    {
+      "id": 9,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "Would he prefer social settings that are selective, orderly, and safe in company rather than open and disorderly gatherings?",
+      "held_out_passage": "he and I commonly ate in the neighborhood, almost opposite the cul de sac of the opera, at the house of a Madam la Selle, the wife of a tailor, who gave but very ordinary dinners, but whose table was much frequented on account of the safe company which generally resorted to it; no person was received without being introduced by one of those who used the house."
+    },
+    {
+      "id": 10,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "If he created a work expressing sincere praise that might be mistaken for flattery or compromise, would he hide it rather than publicly claim it?",
+      "held_out_passage": "[It was to this M. Ancelet I gave a little comedy, after my own manner entitled 'les Prisouniers de Guerre', which I wrote after the disasters of the French in Bavaria and Bohemia: I dared not either avow this comedy or show it, and this for the singular reason that neither the King of France nor the French were ever better spoken of nor praised with more sincerity of heart than in my piece though written by a professed republican, I dared not declare myself the panegyrist of a nation, whose maxims were exactly the reverse of my own. More grieved at the misfortunes of France than the French themselves I was afraid the public would construe into flattery and mean complaisance the marks of a sincere attachment, of which in my first part I have mentioned the date and the cause, and which I was ashamed to show.]"
+    },
+    {
+      "id": 11,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "When he comes to believe that someone close to his domestic life has acted with secrecy and ingratitude against him, how is he most likely to let that change his inward feelings while still preserving outward forms of respect?",
+      "held_out_passage": "These reflections at length alienated my affections from this woman, and to such a degree that I could no longer look upon her but with contempt. I nevertheless continued to treat with respect the mother of the friend of my bosom, and in everything to show her almost the reverence of a son;"
+    },
+    {
+      "id": 12,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "If he feels constrained by the presence of a person he believes has wronged him, what reaction is he most likely to describe in himself?",
+      "held_out_passage": "but I must confess I could not remain long with her without pain, and that I never knew how to bear restraint."
+    },
+    {
+      "id": 13,
+      "tier": "behavioral_prediction",
+      "category": "change_over_time",
+      "text": "When reflecting on a near approach to happiness that fails, how is he likely to assign responsibility?",
+      "held_out_passage": "This is another short moment of my life, in which I approached near to happiness without being able to attain it, and this by no fault of my own."
+    },
+    {
+      "id": 14,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "If he thinks harmony could have lasted under better dispositions in those around him, how is he likely to imagine the lost possibility?",
+      "held_out_passage": "Had the mother been of a good disposition we all three should have been happy to the end of our days; the longest liver only would have been to be pitied."
+    },
+    {
+      "id": 15,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "When he senses that another person is losing influence over someone attached to him, what manipulative response does he expect that person to attempt?",
+      "held_out_passage": "Madam le Vasseur, who perceived I had got more full possession of the heart of Theresa, and that she had lost ground with her, endeavored to regain it; and instead of striving to restore herself to my good opinion by the mediation of her daughter attempted to alienate her affections from me."
+    },
+    {
+      "id": 16,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How does he portray the escalation of secrecy once concealment enters an intimate bond?",
+      "held_out_passage": "When once we make a secret of anything to the person we love, we soon make little scruple of doing it in everything;"
+    },
+    {
+      "id": 17,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "When judging a gentle and attached companion under outside pressure, what limit does he tend to recognize in that person's compliance?",
+      "held_out_passage": "A mother has always great power over a daughter of a mild disposition; yet notwithstanding all the old woman could do, she was never able to prevail upon Theresa to enter into her views, nor to persuade her to join in the league against me."
+    },
+    {
+      "id": 18,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "If he later realizes he overlooked warning signs because of excessive trust, how is he likely to characterize that blindness?",
+      "held_out_passage": "Had I been more clear sighted, I should from this moment have perceived I nourished a serpent in my bosom. But my blind confidence, which nothing had yet diminished, was such that I could not imagine she wished to injure the person she ought to love."
+    },
+    {
+      "id": 19,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "When he feels surrounded by people who claim friendship while trying to direct his life, what kind of complaint is he most likely to make?",
+      "held_out_passage": "Though I saw numerous conspiracies formed on every side, all I complain of was the tyranny of persons who called themselves my friends, and who, as it seemed, would force me to be happy in the manner they should point out, and not in that I had chosen for myself."
+    },
+    {
+      "id": 20,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "Looking back on an intimate relationship, what educational regret is he likely to express about not having cultivated shared understanding earlier?",
+      "held_out_passage": "I now felt the neglect I had been guilty of during the first years of our connection, in not taking advantage of the docility with which her love inspired her, to improve her talents and give her knowledge, which, by more closely connecting us in our retirement would agreeably have filled up her time and my own, without once suffering us to perceive the length of a private conversation."
+    },
+    {
+      "id": 21,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "When he realizes that apparent coldness from respected people may come from jealousy rather than contempt, how is he most likely to steady himself emotionally and behave afterward?",
+      "held_out_passage": "This was a consolation to me, and calmed my mind. Certain of not being an object of contempt in the eyes of persons whom I esteemed, I worked upon my own heart with greater courage and success."
+    },
+    {
+      "id": 22,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "If he is struggling with a passion he judges to be wrong, is he more likely to indulge it openly or to discipline himself so it no longer leads to misconduct?",
+      "held_out_passage": "If I did not quite extinguish in it a guilty and an unhappy passion, I at least so well regulated the remains of it that they have never since that moment led me into the most trifling error."
+    },
+    {
+      "id": 23,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "After an intimate connection becomes improper or can no longer continue, how is he likely to maintain contact with the other person?",
+      "held_out_passage": "The copies of Madam d' Houdetot, which she prevailed upon me to take again, and my works, which I continued to send her as soon as they appeared, produced me from her a few notes and messages, indifferent but obliging."
+    },
+    {
+      "id": 24,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "When a personal association ends, what kind of separation does he present as honorable between two people?",
+      "held_out_passage": "the reciprocal conduct of her lover and myself, after our intercourse had ceased, may serve as an example of the manner in which persons of honor separate when it is no longer agreeable to them to associate with each other."
+    },
+    {
+      "id": 25,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "If others spread the claim that he has fallen out with everyone around him, what sort of evidence is likely to reassure him by publicly disproving the rumor?",
+      "held_out_passage": "Another advantage this dinner procured me was its being spoken of in Paris, where it served as a refutation of the rumor spread by my enemies, that I had quarrelled with every person who partook of it, and especially with M. d'Epinay."
+    },
+    {
+      "id": 26,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "After leaving a place under strained circumstances, how is he likely to behave toward former associates if he wants to preserve his sense of civility and honor?",
+      "held_out_passage": "When I left the Hermitage I had written him a very polite letter of thanks, to which he answered not less politely, and mutual civilities had continued, as well between us as between me and M. de la Lalive, his brother-in-law, who even came to see me at Montmorency, and sent me some of his engravings."
+    },
+    {
+      "id": 27,
+      "tier": "behavioral_prediction",
+      "category": "change_over_time",
+      "text": "When critics insist that his withdrawal from society is mere stubbornness, what kind of response from him would most likely reveal that his retreat genuinely suits his temperament?",
+      "held_out_passage": "The letter to D'Alembert breathed a gentleness of mind which every one perceived not to be affected. Had I been dissatisfied with my retreat, my style and manner would have borne evident marks of my ill-humor. This reigned in all the works I had written in Paris; but in the first I wrote in the country not the least appearance of it was to be found. To persons who knew how to distinguish, this remark was decisive. They perceived I was returned to my element."
+    },
+    {
+      "id": 28,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "If he tries to pay a subtle compliment to a fellow writer while guarding his pride, what kind of misunderstanding is he prone to create?",
+      "held_out_passage": "As I had too much pride to send my works to the authors of periodical publications, and wishing to send him this without his imagining it was in consequence of that title, or being desirous he should speak of it in the Mercure, I wrote upon the book that it was not for the author of the Mercure, but for M. Marmontel. I thought I paid him a fine compliment; he mistook it for a cruel offence, and became my irreconcilable enemy."
+    },
+    {
+      "id": 29,
+      "tier": "behavioral_prediction",
+      "category": "career",
+      "text": "When free from immediate disturbances, how does he tend to use solitude and independence in relation to his work?",
+      "held_out_passage": "Having nothing more to disturb me, I took advantage of my leisure and independence to continue my literary pursuits with more coherence. I this winter finished my Eloisa, and sent it to Rey, who had it printed the year following."
+    },
+    {
+      "id": 30,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "If he believes others are arrogantly taking control of something he created, is he more likely to let it pass or to revive a formal complaint and pursue the matter through official channels?",
+      "held_out_passage": "Enraged at seeing these people arrogantly dispose of my property, I again took up the memoir I had sent to M. D'Argenson, to which no answer had been returned, and having made some trifling alterations in it, I sent the manuscript by M. Sellon, resident from Geneva, and a letter with which he was pleased to charge himself, to the Comte de St. Florentin, who had succeeded M. D'Argenson in the opera department."
+    },
+    {
+      "id": 31,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "When he believes powerful enemies are acting against him, is he more likely to stay hidden where he is or leave at once to seek safety elsewhere?",
+      "held_out_passage": "I was determined to set off the same day rather than remain concealed in any place whatever."
+    },
+    {
+      "id": 32,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "If he feels attached to a place but thinks remaining there will endanger his peace, what choice is he most likely to make?",
+      "held_out_passage": "Knowing I had secret and powerful enemies in the kingdom, I thought, notwithstanding my attachment to France, I ought to quit it, the better to insure my future tranquillity."
+    },
+    {
+      "id": 33,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "When affection for his homeland conflicts with his fear of persecution and his sense of dignity, how is he likely to resolve that conflict?",
+      "held_out_passage": "Nevertheless, the love of my country called me to it, and could I have flattered myself I should there have lived in peace, I should not have hesitated; but neither honor nor reason permitting me to take refuge as a fugitive in a place of which I was a citizen, I resolved to approach it only, and to wait in Switzerland until something relative to me should be determined upon in Geneva."
+    },
+    {
+      "id": 34,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "When a trusted acquaintance strongly urges him toward a course he already dislikes, does he usually yield or become more resistant?",
+      "held_out_passage": "Madam de Boufflers highly disapproved this resolution, and renewed her efforts to induce me to go to England, but all she could say was of no effect; I had never loved England nor the English, and the eloquence of Madam de Boufflers, far from conquering my repugnancy, seemed to increase it without my knowing why."
+    },
+    {
+      "id": 35,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "When preparing for a sudden departure under pressure, how does he tend to handle his personal papers and records?",
+      "held_out_passage": "Since I had determined to write my own memoirs, I had collected a great number of letters and other papers, so that he was obliged to return several times. A part of these papers, already selected, were laid aside, and I employed the morning in sorting the rest, that I might take with me such only as were necessary and destroy what remained."
+    },
+    {
+      "id": 36,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "If he runs out of time to complete a delicate practical task, is he likely to entrust it to someone he considers loyal and careful?",
+      "held_out_passage": "The marechal offered to take upon himself to sort what I should leave behind me, and throw into the fire every sheet that he found useless, without trusting to any person whomsoever, and to send me those of which he should make choice. I accepted his offer, very glad to be delivered from that care"
+    },
+    {
+      "id": 37,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How does he typically react emotionally at the prospect of a final separation from someone with whom he has long shared daily life and affection?",
+      "held_out_passage": "Oh, friendship, affinity of sentiment, habit and intimacy. In this pleasing yet cruel moment, the remembrance of so many days of happiness, tenderness and peace passed together augmented the grief of a first separation after an union of seventeen years during which we had scarcely lost sight of each other for a single day."
+    },
+    {
+      "id": 38,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When someone close to him wants to follow him immediately in a crisis, is he more likely to accept the comfort or insist they stay behind for practical reasons?",
+      "held_out_passage": "Theresa determined never more to leave me out of her sight. I made her feel the inconvenience of accompanying me at that moment, and the necessity of her remaining to take care of my effects and collect my money."
+    },
+    {
+      "id": 39,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "When he expects legal or official action against him, how carefully does he plan for the management of his possessions and documents?",
+      "held_out_passage": "When an order is made to arrest a man, it is customary to seize his papers and put a seal upon his effects, or to make an inventory of them and appoint a guardian to whose care they are intrusted. It was necessary Theresa should remain to observe what passed, and get everything settled in the most advantageous manner possible."
+    }
+  ]
+}

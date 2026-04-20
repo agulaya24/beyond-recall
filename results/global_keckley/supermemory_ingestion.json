@@ -1,0 +1,16 @@
+{
+  "subject": "keckley",
+  "system": "supermemory",
+  "container_tag": "keckley_run_20260415",
+  "facts_expected": 542,
+  "facts_posted": 542,
+  "post_success": 542,
+  "post_failure": 0,
+  "failed_fact_indices": [],
+  "start_time": "2026-04-15T22:03:01.471269+00:00",
+  "last_successful_index": 541,
+  "end_time": "2026-04-15T22:25:52.174167+00:00",
+  "verification_passed": true,
+  "verification_hits": 10,
+  "verification_total": 10
+}
