@@ -1,0 +1,13 @@
+{
+  "subject": "equiano",
+  "system": "mem0",
+  "mode": "fullpipeline",
+  "user_id": "equiano_fullpipeline",
+  "chunks_expected": 23,
+  "chunks_posted": 23,
+  "post_success": 25,
+  "post_failure": 1,
+  "start_time": "2026-04-16T06:53:06.519650+00:00",
+  "end_time": "2026-04-16T06:53:46.769731+00:00",
+  "verification_passed": true
+}

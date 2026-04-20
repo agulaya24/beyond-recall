@@ -1,0 +1,363 @@
+{
+  "metadata": {
+    "subject": "Saint Augustine",
+    "total": 60,
+    "tiers": {
+      "behavioral_prediction": 40,
+      "recall": 10,
+      "adversarial_abstention": 10
+    }
+  },
+  "questions": [
+    {
+      "id": 1,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When Augustine decides to leave his Rhetoric Professorship, what does he credit as the source of his liberation?",
+      "held_out_passage": "Now was the day come wherein I was in deed to be freed of my Rhetoric Professorship, whereof in thought I was already freed. And it was done. Thou didst rescue my tongue, whence Thou hadst before rescued my heart."
+    },
+    {
+      "id": 2,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How does Augustine characterize his emotional state when reading the Psalms of David at the villa?",
+      "held_out_passage": "Oh, what accents did I utter unto Thee in those Psalms, and how was I by them kindled towards Thee, and on fire to rehearse them, if possible, through the whole world, against the pride of mankind!"
+    },
+    {
+      "id": 3,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "What is Augustine's primary emotional response to the Manichees during this period?",
+      "held_out_passage": "With what vehement and bitter sorrow was I angered at the Manichees! and again I pitied them, for they knew not those Sacraments, those medicines, and were mad against the antidote which might have recovered them of their madness."
+    },
+    {
+      "id": 4,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "What does Augustine value in his mother's character during this time at the villa?",
+      "held_out_passage": "my mother cleaving to us, in female garb with masculine faith, with the tranquillity of age, motherly love, Christian piety!"
+    },
+    {
+      "id": 5,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How does Augustine describe his relationship with Alypius regarding religious expression?",
+      "held_out_passage": "how Thou also subduedst the brother of my heart, Alypius, unto the name of Thy Only Begotten, our Lord and Saviour Jesus Christ, which he would not at first vouchsafe to have inserted in our writings."
+    },
+    {
+      "id": 6,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "What does Augustine wish regarding the Manichees' awareness of his spiritual transformation?",
+      "held_out_passage": "How I would they had then been somewhere near me, and without my knowing that they were there, could have beheld my countenance, and heard my words, when I read the fourth Psalm in that time of my rest"
+    },
+    {
+      "id": 7,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Why does Augustine believe his words would have less impact if the Manichees knew he was speaking to them?",
+      "held_out_passage": "Because in truth neither should I speak the same things, nor in the same way, if I perceived that they heard and saw me; nor if I spake them would they so receive them, as when I spake by and for myself before Thee, out of the natural feelings of my soul."
+    },
+    {
+      "id": 8,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "What physical and emotional manifestations does Augustine experience when reading Psalm 4?",
+      "held_out_passage": "I trembled for fear, and again kindled with hope, and with rejoicing in Thy mercy, O Father; and all issued forth both by mine eyes and voice"
+    },
+    {
+      "id": 9,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "How does Augustine characterize his previous spiritual state in terms of truth and falsehood?",
+      "held_out_passage": "For in those phantoms which I had held for truths, was there vanity and leasing; and I spake aloud many things earnestly and forcibly, in the bitterness of my remembrance."
+    },
+    {
+      "id": 10,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "What does Augustine hope would happen to those still trapped in vanity and falsehood?",
+      "held_out_passage": "Which would they had heard, who yet love vanity and seek after leasing! They would perchance have been troubled, and have vomited it up; and Thou wouldest hear them when they cried unto Thee"
+    },
+    {
+      "id": 11,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How does Augustine describe the contrast between the 'lofty cedars of the Schools' and what he now values?",
+      "held_out_passage": "For rather would he have them savour of the lofty cedars of the Schools, which the Lord hath now broken down, than of the wholesome herbs of the Church, the antidote against serpents."
+    },
+    {
+      "id": 12,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "What does Augustine identify as God's method of transforming him spiritually?",
+      "held_out_passage": "by what inward goads Thou tamedst me; and how Thou hast evened me, lowering the mountains and hills of my high imaginations, straightening my crookedness, and smoothing my rough ways"
+    },
+    {
+      "id": 13,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "What is Augustine's attitude toward his past pursuit of worldly knowledge and status?",
+      "held_out_passage": "For I had loved vanity, and sought after leasing. And Thou, O Lord, hadst already magnified Thy Holy One, raising Him from the dead, and setting Him at Thy right hand"
+    },
+    {
+      "id": 14,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How does Augustine describe his current relationship to anger based on his past?",
+      "held_out_passage": "I further read, Be angry, and sin not. And how was I moved, O my God, who had now learned to be angry at myself for things past, that I might not sin in time to come!"
+    },
+    {
+      "id": 15,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "What does Augustine identify as the risk he now seeks to avoid?",
+      "held_out_passage": "who had now learned to be angry at myself for things past, that I might not sin in time to come!"
+    },
+    {
+      "id": 16,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "How does Augustine characterize his writings during this transitional period?",
+      "held_out_passage": "What I there did in writing, which was now enlisted in Thy service, though still, in this breathing-time as it were, panting from the school of pride, my books may witness"
+    },
+    {
+      "id": 17,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "What does Augustine emphasize about the universality of God's truth through the Psalms?",
+      "held_out_passage": "And yet they are sung through the whole world, nor can any hide himself from Thy heat."
+    },
+    {
+      "id": 18,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How does Augustine view the relationship between Christ's glorification and the gift of the Spirit?",
+      "held_out_passage": "For till then, the Spirit was not yet given, because Jesus was not yet glorified."
+    },
+    {
+      "id": 19,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "What does Augustine identify as the basis for his hope during this period of transformation?",
+      "held_out_passage": "I trembled for fear, and again kindled with hope, and with rejoicing in Thy mercy, O Father"
+    },
+    {
+      "id": 20,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "How does Augustine describe the nature of his confession regarding his past errors?",
+      "held_out_passage": "For my remembrance recalls me, and pleasant is it to me, O Lord, to confess to Thee, by what inward goads Thou tamedst me"
+    },
+    {
+      "id": 21,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "When Augustine encounters people who hold false beliefs, how does he typically respond emotionally?",
+      "held_out_passage": "With what vehement and bitter sorrow was I angered at the Manichees! and again I pitied them"
+    },
+    {
+      "id": 22,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "What is Augustine's primary motivation for wanting to share his spiritual insights with others?",
+      "held_out_passage": "And yet they are sung through the whole world, nor can any hide himself from Thy heat."
+    },
+    {
+      "id": 23,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How does Augustine believe people should respond to divine truth when they encounter it?",
+      "held_out_passage": "They would perchance have been troubled, and have vomited it up; and Thou wouldest hear them when they cried unto Thee"
+    },
+    {
+      "id": 24,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "What does Augustine consider the proper relationship between anger and spiritual growth?",
+      "held_out_passage": "who had now learned to be angry at myself for things past, that I might not sin in time to come! Yea, to be justly angry"
+    },
+    {
+      "id": 25,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "When Augustine reflects on his past errors, what is his typical emotional state?",
+      "held_out_passage": "in the bitterness of my remembrance"
+    },
+    {
+      "id": 26,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How does Augustine view the pursuit of external, worldly goods?",
+      "held_out_passage": "Nor were my good things now without, nor sought with the eyes of flesh in that earthly sun; for they that would have joy from without soon become vain, and waste themselves on the things seen and temporal"
+    },
+    {
+      "id": 27,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "What does Augustine believe prevents people from receiving spiritual truth effectively?",
+      "held_out_passage": "so long as they brought me their heart in their eyes roving abroad from Thee"
+    },
+    {
+      "id": 28,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How does Augustine describe the moment when he experiences spiritual transformation?",
+      "held_out_passage": "there hadst Thou begun to grow sweet unto me, and hadst put gladness in my heart"
+    },
+    {
+      "id": 29,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "What decision does Augustine make regarding his old way of life?",
+      "held_out_passage": "where I had sacrificed, slaying my old man and commencing the purpose of a new life, putting my trust in Thee"
+    },
+    {
+      "id": 30,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How does Augustine characterize the difference between those who seek external goods versus eternal goods?",
+      "held_out_passage": "wasting away time, and wasted by time; whereas I had in Thy eternal Simple Essence other corn, and wine, and oil"
+    },
+    {
+      "id": 31,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "What is Augustine's attitude toward his former belief in Manichean doctrine?",
+      "held_out_passage": "For in those phantoms which I had held for truths, was there vanity and leasing"
+    },
+    {
+      "id": 32,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How does Augustine believe divine mercy operates in relation to human repentance?",
+      "held_out_passage": "by a true death in the flesh did He die for us, who now intercedeth unto Thee for us"
+    },
+    {
+      "id": 33,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "What does Augustine identify as the source of true joy and enlightenment?",
+      "held_out_passage": "The light of Thy countenance is sealed upon us"
+    },
+    {
+      "id": 34,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "How does Augustine respond when reading Scripture that resonates with his spiritual journey?",
+      "held_out_passage": "And I cried out, as I read this outwardly, finding it inwardly"
+    },
+    {
+      "id": 35,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "What does Augustine believe about the permanence and reliability of God compared to worldly things?",
+      "held_out_passage": "Thou surpassingly art the Self-same, Who art not changed; and in Thee is rest which forgetteth all toil"
+    },
+    {
+      "id": 36,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "How does Augustine characterize those who remain attached to vanity and falsehood?",
+      "held_out_passage": "they that treasure up wrath against the day of wrath, and of the revelation of Thy just judgment"
+    },
+    {
+      "id": 37,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "What does Augustine wish he could communicate to those still trapped in false beliefs?",
+      "held_out_passage": "Oh that they could see the eternal Internal, which having tasted, I was grieved that I could not show It them"
+    },
+    {
+      "id": 38,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How does Augustine's understanding of his own past errors influence his judgment of others?",
+      "held_out_passage": "I so long, not knowing, loved vanity, and sought after leasing: and therefore I heard and trembled, because it was spoken unto such as I remembered myself to have been"
+    },
+    {
+      "id": 39,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "What does Augustine believe is the ultimate source of human enlightenment?",
+      "held_out_passage": "we are not that light which enlighteneth every man, but we are enlightened by Thee; that having been sometimes darkness, we may be light in Thee"
+    },
+    {
+      "id": 40,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How does Augustine view the concept of rest and peace in relation to divine truth?",
+      "held_out_passage": "O in peace, O for The Self-same! O what said he, I will lay me down and sleep, for who shall hinder us, when cometh to pass that saying which is written, Death is swallowed up in victory?"
+    },
+    {
+      "id": 41,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Saint Augustine's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 42,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Saint Augustine's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 43,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Saint Augustine's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 44,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Saint Augustine's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 45,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Saint Augustine's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 46,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Saint Augustine's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 47,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Saint Augustine's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 48,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Saint Augustine's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 49,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Saint Augustine's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 50,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Saint Augustine's opinion on modern technology?",
+      "held_out_passage": null
+    }
+  ]
+}

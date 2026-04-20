@@ -1,0 +1,580 @@
+{
+  "metadata": {
+    "subject": "Saint Augustine",
+    "subject_key": "augustine",
+    "generated": "2026-04-14T22:41:21.561455+00:00",
+    "model": "claude-haiku-4-5-20251001",
+    "method": "backward_design_from_heldout",
+    "total": 80,
+    "tiers": {
+      "behavioral_prediction": 39,
+      "recall": 10,
+      "inferential": 11,
+      "adversarial_abstention": 10,
+      "boundary_probing": 10
+    },
+    "checksum": "0df30b0743a85bed6bc5d46b97c70e7e"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "When Augustine encounters a text that challenges his previous beliefs, how does he typically respond emotionally?",
+      "held_out_passage": "With what vehement and bitter sorrow was I angered at the Manichees! and again I pitied them, for they knew not those Sacraments, those medicines, and were mad against the antidote which might have recovered them of their madness."
+    },
+    {
+      "id": 2,
+      "tier": "behavioral_prediction",
+      "category": "change_over_time",
+      "text": "Based on Augustine's patterns of thought, when he withdraws from public life to focus on spiritual matters, what does he do with his time?",
+      "held_out_passage": "And it was done. Thou didst rescue my tongue, whence Thou hadst before rescued my heart. And I blessed Thee, rejoicing; retiring with all mine to the villa. What I there did in writing, which was now enlisted in Thy service"
+    },
+    {
+      "id": 3,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How does Augustine typically view his past errors and false beliefs once he has achieved spiritual clarity?",
+      "held_out_passage": "For in those phantoms which I had held for truths, was there vanity and leasing; and I spake aloud many things earnestly and forcibly, in the bitterness of my remembrance."
+    },
+    {
+      "id": 4,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "When Augustine reads sacred texts that resonate with his spiritual journey, what is his characteristic response?",
+      "held_out_passage": "Oh, in what accents spake I unto Thee, my God, when I read the Psalms of David, those faithful songs, and sounds of devotion, which allow of no swelling spirit, as yet a Catechumen, and a novice in Thy real love, resting in that villa"
+    },
+    {
+      "id": 5,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Based on Augustine's demonstrated values, how does he regard those who remain trapped in false doctrines?",
+      "held_out_passage": "and again I pitied them, for they knew not those Sacraments, those medicines, and were mad against the antidote which might have recovered them of their madness."
+    },
+    {
+      "id": 6,
+      "tier": "behavioral_prediction",
+      "category": "change_over_time",
+      "text": "When Augustine reflects on his transformation, what does he emphasize about the role of divine intervention in his change?",
+      "held_out_passage": "For my remembrance recalls me, and pleasant is it to me, O Lord, to confess to Thee, by what inward goads Thou tamedst me; and how Thou hast evened me, lowering the mountains and hills of my high imaginations, straightening my crookedness, and smoothing my rough ways"
+    },
+    {
+      "id": 7,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "How does Augustine's approach to communication change when he becomes aware that others are listening versus when he believes he is alone with God?",
+      "held_out_passage": "Because in truth neither should I speak the same things, nor in the same way, if I perceived that they heard and saw me; nor if I spake them would they so receive them, as when I spake by and for myself before Thee, out of the natural feelings of my soul."
+    },
+    {
+      "id": 8,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "What is Augustine's typical attitude toward close relationships that undergo spiritual transformation alongside his own?",
+      "held_out_passage": "and how Thou also subduedst the brother of my heart, Alypius, unto the name of Thy Only Begotten, our Lord and Saviour Jesus Christ, which he would not at first vouchsafe to have inserted in our writings."
+    },
+    {
+      "id": 9,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "When Augustine experiences emotional intensity during spiritual practice, what physical manifestations does he describe?",
+      "held_out_passage": "I trembled for fear, and again kindled with hope, and with rejoicing in Thy mercy, O Father; and all issued forth both by mine eyes and voice"
+    },
+    {
+      "id": 10,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Based on Augustine's demonstrated pattern, how does he view his former intellectual pride in relation to his spiritual growth?",
+      "held_out_passage": "For rather would he have them savour of the lofty cedars of the Schools, which the Lord hath now broken down, than of the wholesome herbs of the Church, the antidote against serpents."
+    },
+    {
+      "id": 11,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "When the author encounters a concept he has forgotten, how does he expect to recover knowledge of it?",
+      "held_out_passage": "For we do not believe it as something new, but, upon recollection, allow what was named to be right."
+    },
+    {
+      "id": 12,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When seeking something intangible and spiritual, what method does the author employ based on his understanding of memory?",
+      "held_out_passage": "I will seek Thee, that my soul may live."
+    },
+    {
+      "id": 13,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How does the author explain why all people universally desire a certain state, even if they cannot articulate it perfectly?",
+      "held_out_passage": "Known therefore it is to all, for they with one voice be asked, 'would they be happy?' they would answer without doubt, 'they would.'"
+    },
+    {
+      "id": 14,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "When the author recalls past experiences of joy, what emotional conflict does he experience?",
+      "held_out_passage": "nor did I ever with bodily sense see, hear, smell, taste, or touch my joy; but I experienced it in my mind, when I rejoiced; and the knowledge of it clave to my memory, so that I can recall it with disgust sometimes, at others with longing"
+    },
+    {
+      "id": 15,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "What distinction does the author make between remembering something physical versus something immaterial?",
+      "held_out_passage": "For a happy life is not seen with the eye, because it is not a body."
+    },
+    {
+      "id": 16,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "How does the author respond when confronted with the paradox of seeking something he may have already possessed?",
+      "held_out_passage": "How then do I seek a happy life, seeing I have it not, until I can say, where I ought to say it, 'It is enough'?"
+    },
+    {
+      "id": 17,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "When observing others possess a quality, what does the author believe must occur internally before one can desire to imitate them?",
+      "held_out_passage": "though indeed they would not be delighted but for some inward knowledge thereof, nor wish to be the like, unless they were thus delighted"
+    },
+    {
+      "id": 18,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "What does the author conclude about the relationship between knowledge and desire for an intangible good?",
+      "held_out_passage": "which, unless by some certain knowledge we knew, we should not with so certain a will desire"
+    },
+    {
+      "id": 19,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How does the author categorize different degrees of possessing a desired state?",
+      "held_out_passage": "Yea, there is another way, wherein when one hath it, then is he happy; and there are, who are blessed, in hope. These have it in a lower kind, than they who have it in very deed; yet are they better off than such as are happy neither in deed nor in hope."
+    },
+    {
+      "id": 20,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "When recalling joyful moments from morally questionable sources, what is the author's evaluative response?",
+      "held_out_passage": "For even from foul things have I been immersed in a sort of joy; which now recalling, I detest and execrate"
+    },
+    {
+      "id": 21,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "When Augustine encounters a complex philosophical problem that he cannot fully resolve, what does he typically do?",
+      "held_out_passage": "Permit me, Lord, to seek further. O my hope, let not my purpose be confounded."
+    },
+    {
+      "id": 22,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How does Augustine typically respond when he reaches the limits of human understanding?",
+      "held_out_passage": "Too far is this way of my ken: it is too mighty for me, I cannot attain unto it; but from Thee I can, when Thou shalt vouchsafe it, O sweet light of my hidden eyes."
+    },
+    {
+      "id": 23,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When Augustine is uncertain about a theological matter, does he tend to assert definitive answers or express humility about his knowledge?",
+      "held_out_passage": "Which yet if I cannot, yet I know, wherever they be, they are not there as future, or past, but present."
+    },
+    {
+      "id": 24,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How does Augustine typically handle intellectual inquiry when he is unsure of the answer?",
+      "held_out_passage": "I confess, O my God, I know not."
+    },
+    {
+      "id": 25,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "When Augustine examines a problem from multiple angles, what is his typical approach to presenting different possibilities?",
+      "held_out_passage": "Or are they also; and when from future it becometh present, doth it come out of some secret place; and so, when retiring, from present it becometh past?"
+    },
+    {
+      "id": 26,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How does Augustine typically address God when he is in the process of working through a difficult question?",
+      "held_out_passage": "I ask, Father, I affirm not: O my God, rule and guide me."
+    },
+    {
+      "id": 27,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "When Augustine uses concrete examples to illustrate abstract concepts, what is his typical method?",
+      "held_out_passage": "Let now the numerous variety of things furnish me some example. I behold the day-break, I foreshow, that the sun, is about to rise."
+    },
+    {
+      "id": 28,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "How does Augustine typically respond when he acknowledges the limitations of his own reasoning?",
+      "held_out_passage": "See, I object not, nor ga"
+    },
+    {
+      "id": 29,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "When Augustine is exploring a paradox about the nature of time and existence, what does he do to resolve his confusion?",
+      "held_out_passage": "What now is clear and plain is, that neither things to come nor past are."
+    },
+    {
+      "id": 30,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "How does Augustine typically conclude his analysis when he has worked through a complex philosophical problem?",
+      "held_out_passage": "If thus we be permitted to speak, I see three times, and I confess there are three."
+    },
+    {
+      "id": 31,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "When faced with multiple interpretations of a complex theological matter, would Augustine advocate for dismissing all but one perspective, or would he seek to find truth across different viewpoints?",
+      "held_out_passage": "In this diversity of the true opinions, let Truth herself produce concord."
+    },
+    {
+      "id": 32,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "If someone asked Augustine directly about the intended meaning of a scriptural passage, how would he respond regarding the limits of his own knowledge?",
+      "held_out_passage": "this were not the language of my Confessions, should I not confess unto Thee, \"I know not\""
+    },
+    {
+      "id": 33,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "When writing something meant to have authority, would Augustine prefer to present his own interpretation exclusively or to allow multiple valid interpretations to coexist?",
+      "held_out_passage": "I should prefer so to write, that whatever truth any could apprehend on those matters, might be conveyed in my words, rather than set down my own meaning so clearly as to exclude the rest"
+    },
+    {
+      "id": 34,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How does Augustine view the relationship between different people who perceive different truths in the same text?",
+      "held_out_passage": "And all we who, I confess, see and express the truth delivered in those words, let us love one another, and jointly love Thee our God"
+    },
+    {
+      "id": 35,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "When encountering interpretations that differ from his own but are not false, would Augustine feel threatened or offended?",
+      "held_out_passage": "which not being false, could not offend me"
+    },
+    {
+      "id": 36,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "Does Augustine believe that complex theological concepts can only be understood through elaborate explanation, or can they be conveyed simply?",
+      "held_out_passage": "delivering high things lowlily, and with few words a copious meaning"
+    },
+    {
+      "id": 37,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "When examining the creation of matter and form, does Augustine view the relationship between them as one of temporal sequence or of logical priority?",
+      "held_out_passage": "Nor is it first in time; because the forms of things give rise to time"
+    },
+    {
+      "id": 38,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How does Augustine respond to those who hold different but valid interpretations of scripture—with correction or with respect?",
+      "held_out_passage": "So when one says, \"Moses meant as I do\"; and another, \"Nay, but as I do,\" I suppose that I speak more reverently, \"Why not rather as both, if both be true?\""
+    },
+    {
+      "id": 39,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When faced with a logical paradox about creation and causation, does Augustine dismiss the questioner or attempt to resolve the apparent contradiction?",
+      "held_out_passage": "But when he says, God made matter first formless, then formed, there is no absurdity, if he be but qualified to discern, what precedes by eternity, what by time, what by choice, and what in original."
+    },
+    {
+      "id": 40,
+      "tier": "recall",
+      "category": "recall",
+      "text": "Who is the author of the Confessions?",
+      "held_out_passage": null
+    },
+    {
+      "id": 41,
+      "tier": "recall",
+      "category": "recall",
+      "text": "What is the title of the position held by Saint Augustine?",
+      "held_out_passage": null
+    },
+    {
+      "id": 42,
+      "tier": "recall",
+      "category": "recall",
+      "text": "In what year was this translation of the Confessions made?",
+      "held_out_passage": null
+    },
+    {
+      "id": 43,
+      "tier": "recall",
+      "category": "recall",
+      "text": "Who translated the Confessions according to the text?",
+      "held_out_passage": null
+    },
+    {
+      "id": 44,
+      "tier": "recall",
+      "category": "recall",
+      "text": "Which book of the Confessions is presented in this text?",
+      "held_out_passage": null
+    },
+    {
+      "id": 45,
+      "tier": "recall",
+      "category": "recall",
+      "text": "According to Augustine in this passage, what is the human heart restless until it does?",
+      "held_out_passage": null
+    },
+    {
+      "id": 46,
+      "tier": "recall",
+      "category": "recall",
+      "text": "What does Augustine say humans bear about them as a witness of sin?",
+      "held_out_passage": null
+    },
+    {
+      "id": 47,
+      "tier": "recall",
+      "category": "recall",
+      "text": "According to the text, through what was faith in God given to Augustine?",
+      "held_out_passage": null
+    },
+    {
+      "id": 48,
+      "tier": "recall",
+      "category": "recall",
+      "text": "What two things does Augustine say God made according to the opening passage?",
+      "held_out_passage": null
+    },
+    {
+      "id": 49,
+      "tier": "recall",
+      "category": "recall",
+      "text": "What does Augustine describe God as being most of, using multiple superlatives in his description?",
+      "held_out_passage": null
+    },
+    {
+      "id": 50,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "Augustine states that 'our heart is restless, until it repose in Thee' and later asks 'what room is there within me, whither my God can come into me?' How do these two statements relate to Augustine's understanding of the human condition and humanity's relationship with God?",
+      "held_out_passage": null
+    },
+    {
+      "id": 51,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "Augustine poses the question of whether one must know God before calling upon Him, but then suggests that calling on God may be how one comes to know Him. How does Augustine attempt to resolve this apparent logical contradiction, and what does this reveal about his view of faith?",
+      "held_out_passage": null
+    },
+    {
+      "id": 52,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "Augustine describes God as both 'most hidden, yet most present' and asks whether God fills all things wholly or only partially. What is Augustine trying to reconcile through these paradoxical descriptions, and what does this suggest about the nature of God's relationship to creation?",
+      "held_out_passage": null
+    },
+    {
+      "id": 53,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "Augustine argues that he could not exist unless God were in him, yet also questions where he can call God to come into him since he already exists in God. How does Augustine's reasoning about existence and divine presence support his theological argument?",
+      "held_out_passage": null
+    },
+    {
+      "id": 54,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "Given that Augustine describes himself as 'a particle of Thy creation' bearing 'the witness of his sin,' how does this self-assessment connect to his later plea for God to 'enter into my heart, and inebriate it, that I may forget my ills'?",
+      "held_out_passage": null
+    },
+    {
+      "id": 55,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "Augustine mentions that faith comes through 'the ministry of the Preacher' and references the scriptural principle that 'they that seek the Lord shall praise Him.' How do these two ideas work together in Augustine's understanding of how one comes to know and worship God?",
+      "held_out_passage": null
+    },
+    {
+      "id": 56,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "Augustine describes God as 'unchangeable, yet all-changing' and 'never new, never old; all-renewing.' How do these seemingly contradictory attributes support Augustine's larger argument about God's nature and relationship to creation?",
+      "held_out_passage": null
+    },
+    {
+      "id": 57,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "Augustine states that God 'fillest all things' yet asks whether God overflows beyond what creation can contain. What does this line of questioning suggest about Augustine's understanding of the limits of creation versus the infinity of God?",
+      "held_out_passage": null
+    },
+    {
+      "id": 58,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "How does Augustine's assertion that 'nothing which exists could exist without Thee' connect to his earlier statement that man is 'a particle of Thy creation' and his later concern about whether God can 'enter into me'?",
+      "held_out_passage": null
+    },
+    {
+      "id": 59,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "Augustine describes God as 'most merciful, yet most just' and 'art angry, yet serene.' What is Augustine attempting to demonstrate by pairing these opposing divine attributes, and how does this relate to his overall theological purpose in this passage?",
+      "held_out_passage": null
+    },
+    {
+      "id": 60,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "Given Augustine's statement that 'Thou madest us for Thyself, and our heart is restless, until it repose in Thee,' combined with his description of God as 'most hidden, yet most present,' what does Augustine suggest about why humans struggle to find peace and fulfillment?",
+      "held_out_passage": null
+    },
+    {
+      "id": 61,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What would Saint Augustine's position be on the use of artificial intelligence in modern theological education?",
+      "held_out_passage": null
+    },
+    {
+      "id": 62,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "How would Saint Augustine have responded to the discovery of non-Euclidean geometry in the 19th century?",
+      "held_out_passage": null
+    },
+    {
+      "id": 63,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What specific dietary recommendations would Saint Augustine give to someone with celiac disease?",
+      "held_out_passage": null
+    },
+    {
+      "id": 64,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "How would Saint Augustine have viewed the development of nuclear weapons and their ethical implications?",
+      "held_out_passage": null
+    },
+    {
+      "id": 65,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What would Saint Augustine's stance be on cryptocurrency and blockchain technology as tools for economic justice?",
+      "held_out_passage": null
+    },
+    {
+      "id": 66,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "How would Saint Augustine have addressed the psychological concept of cognitive behavioral therapy in treating scrupulosity?",
+      "held_out_passage": null
+    },
+    {
+      "id": 67,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What would Saint Augustine recommend regarding the ethics of human genetic engineering and CRISPR technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 68,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "How would Saint Augustine have interpreted the discovery of exoplanets and the possibility of extraterrestrial life?",
+      "held_out_passage": null
+    },
+    {
+      "id": 69,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What specific guidance would Saint Augustine provide on navigating social media addiction and digital privacy rights?",
+      "held_out_passage": null
+    },
+    {
+      "id": 70,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "How would Saint Augustine have responded to the findings of modern neuroscience regarding free will and determinism?",
+      "held_out_passage": null
+    },
+    {
+      "id": 71,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Augustine claims our hearts are restless until they repose in God, yet he spent decades in restless intellectual and sensual pursuit before conversion. How would he account for those who find genuine peace and fulfillment in pursuits explicitly outside Christian faith—are they deceiving themselves, or does his framework fail to explain their experience?",
+      "held_out_passage": null
+    },
+    {
+      "id": 72,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Augustine emphasizes that one must believe to call upon God, yet he also suggests God must already be within us for us to seek Him. At what precise point does someone transition from unbelief to belief in this circular dependency? Can this transition occur gradually, or must it be instantaneous?",
+      "held_out_passage": null
+    },
+    {
+      "id": 73,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "If God fills all things and contains all things, and Augustine exists within God, does this mean God is responsible for Augustine's sins in the same way a mind is responsible for its thoughts? How does Augustine preserve human moral culpability within this framework?",
+      "held_out_passage": null
+    },
+    {
+      "id": 74,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Augustine describes God as both 'most hidden, yet most present' and 'unchangeable, yet all-changing.' If God is truly unchangeable, how can He genuinely respond to human prayer or repent of His works, as Augustine claims He does?",
+      "held_out_passage": null
+    },
+    {
+      "id": 75,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Augustine abandoned his concubine and his son to pursue celibacy and Christian virtue. Given his framework that God works through all things, was his abandonment of them an act of virtue or a failure to recognize God's presence in that relationship? Could he have been wrong about what God required?",
+      "held_out_passage": null
+    },
+    {
+      "id": 76,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "If God's wisdom is infinite and He fills all things, could God have created a world where humans freely choose good without the necessity of divine grace? If yes, why didn't He? If no, doesn't this limit His omnipotence?",
+      "held_out_passage": null
+    },
+    {
+      "id": 77,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Augustine suggests that those who don't know God cannot truly call upon Him. Yet he also preaches to convert pagans and heretics. On what basis can he demand they call upon a God they don't yet know, given his own logical framework?",
+      "held_out_passage": null
+    },
+    {
+      "id": 78,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Augustine describes God as 'most merciful, yet most just' without apparent tension, but these attributes seem to conflict when applied to eternal punishment. Can infinite mercy coexist with infinite justice in condemning finite sins to eternal torment?",
+      "held_out_passage": null
+    },
+    {
+      "id": 79,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "If Augustine's restless heart found peace only in God, and this is universal human nature, how does he explain the apparent contentment of those who reject Christianity entirely? Are they self-deceived, or is his anthropology incomplete?",
+      "held_out_passage": null
+    },
+    {
+      "id": 80,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Augustine claims God 'receivest over and above, that Thou mayest owe' and 'exacting usury'—suggesting God gains something from creation. If God is truly complete and self-sufficient, what could He possibly gain, and doesn't the need to gain something contradict His perfection?",
+      "held_out_passage": null
+    }
+  ]
+}

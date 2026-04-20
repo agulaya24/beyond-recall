@@ -1,0 +1,17 @@
+{
+  "subject": "ebers",
+  "system": "letta",
+  "agent_name": "ebers_run_20260415",
+  "facts_expected": 1285,
+  "facts_posted": 1285,
+  "post_success": 1285,
+  "post_failure": 0,
+  "failed_fact_indices": [],
+  "start_time": "2026-04-15T21:51:54.359646+00:00",
+  "agent_id": "agent-9f9ba217-1757-40f1-aee3-6110e83fb64c",
+  "last_successful_index": 1284,
+  "end_time": "2026-04-15T23:57:34.975119+00:00",
+  "verification_passed": true,
+  "verification_hits": 10,
+  "verification_total": 10
+}

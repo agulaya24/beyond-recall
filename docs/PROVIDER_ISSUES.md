@@ -76,8 +76,8 @@ Issues encountered during the study, documented for reproducibility and as feedb
 1. **`user_id` mismatch.** `list_ordered()` returns named tuples, not User objects. Extracting `user_id` required `hasattr` checks. Initial runs failed silently with wrong user IDs.
    - **Workaround:** Standalone runner with explicit user_id handling.
 
-2. **Graph traversal bias.** Zep's knowledge graph retrieves the same high-connectivity node for unrelated queries. The father-property-settlement fact appeared for 39% of all Hamerton questions — regardless of query topic.
-   - **Impact:** Zep consistently scored lowest (C1_zep: 1.64). This appears to be a structural issue with graph-based retrieval for behavioral queries.
+2. **Graph traversal bias.** Zep's knowledge graph retrieves the same high-connectivity node for many unrelated queries. The most common single Zep top-1 fact on Hamerton appears in ~11% of questions; father-related facts (any fact mentioning "father") appear in ~54% of questions. Earlier drafts cited a specific "39% same-fact retrieval" figure that could not be reproduced from `fact_localization.json` (see `PAPER_CORRECTIONS.md` #10). The structural pattern — graph hubs dominating retrieval regardless of query — is the replicable finding.
+   - **Impact:** Zep consistently scored lowest on C1 in the S105 brief-only run. This appears to be a structural issue with graph-based retrieval for behavioral queries.
 
 3. **10,000 character limit per `graph.add()`.** Documentation recommends 500-char chunks with 50-char overlap for optimal graph construction. Raw corpus (142K-241K chars) requires 280-480+ API calls.
    - **Impact:** C8 ingestion is slow for Zep.

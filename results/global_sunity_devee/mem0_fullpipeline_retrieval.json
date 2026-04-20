@@ -1,0 +1,748 @@
+{
+  "1": {
+    "question_id": 1,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 7,
+    "fact_texts": [
+      "Sunity Devee remembers a story of a rich Maharajah rewarding Brahmin brothers with sayings, the youngest brother receiving a house and provision for life, and the Maharajah's reaction to a kobal's confession.",
+      "Sunity Devee's husband often said that a sculptor would give anything to have her father's foot as a model.",
+      "Sunity Devee remembers that the Maharajah's wife, a Maharani, requested to accompany him to battle, the Maharajah built a house on a rock for her, but she later offered herself on a funeral pyre after the Maharajah was killed.",
+      "Lord Dufferin remarked that Sunity Devee was Mr. Sen's daughter and complimented her as handsome.",
+      "Sunity Devee remembers a journey to Jubbalpore where she realized the devotion of Indian wives to their husbands.",
+      "Sir A. A. Chowdhuri’s father remarked that Mr. Keshub is no ordinary man, noting the perfect shape of his feet and pink sole.",
+      "Sunity Devee's father described as tall, broad‑shouldered, with a reputation for strength, eyes described as 'homes of silent prayer', wavy hair, white teeth, always smiles, a gentle clear voice audible in crowds, expression like Buddha calm and quiet, and noted his striking personality."
+    ],
+    "latency_ms": 581,
+    "timestamp": "2026-04-16T07:03:52.710095+00:00"
+  },
+  "2": {
+    "question_id": 2,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Sunity Devee's father had extraordinary powers, such as summoning a gentleman by drum call, and told stories from the Bible, including the Ten Virgins.",
+      "Sunity Devee's mother, a gentle, loving, self‑denying Hindu woman from a strict family, was married with Hindu rites and later left Coolootola with her father to be converted by Maharshi D. Tagore, facing opposition from family.",
+      "Sunity Devee remembers a story of a rich Maharajah rewarding Brahmin brothers with sayings, the youngest brother receiving a house and provision for life, and the Maharajah's reaction to a kobal's confession.",
+      "Sunity Devee remembers a journey to Jubbalpore where she realized the devotion of Indian wives to their husbands.",
+      "Sunity Devee remembers that the Maharajah's wife, a Maharani, requested to accompany him to battle, the Maharajah built a house on a rock for her, but she later offered herself on a funeral pyre after the Maharajah was killed.",
+      "Sir A. A. Chowdhuri’s father remarked that Mr. Keshub is no ordinary man, noting the perfect shape of his feet and pink sole.",
+      "Sunity Devee's family lost caste and faced difficulties with servants, as no Hindu would wait upon them and cooks objected to 'Christians'.",
+      "Sunity Devee visited Etawah, stayed overnight in an old public building, and her mother had a vivid vision of soldiers and a massacre, leading them to move to another house.",
+      "Sunity Devee's mother was a gentle, loving, self‑denying Hindu woman whose life was described as beautiful in its goodness and simplicity.",
+      "Sunity Devee travelled from Agra to Jaipur by a box-like horse carriage, which was uncomfortable."
+    ],
+    "latency_ms": 657,
+    "timestamp": "2026-04-16T07:03:53.369613+00:00"
+  },
+  "3": {
+    "question_id": 3,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 5,
+    "fact_texts": [
+      "Sunity Devee visited Etawah, stayed overnight in an old public building, and her mother had a vivid vision of soldiers and a massacre, leading them to move to another house.",
+      "Sunity Devee remembers that the Maharajah granted his wife's request, built a little house on a rock among hills, the Maharani awaited news but the Maharajah was killed, she did not return, and she offered herself on a funeral pyre near the house; the little house still stands.",
+      "Sunity Devee remembers a journey to Jubbalpore where she realized the devotion of Indian wives to their husbands.",
+      "Sunity Devee travelled from Agra to Jaipur by a box-like horse carriage, which was uncomfortable.",
+      "Sunity Devee's family lost caste and faced difficulties with servants, as no Hindu would wait upon them and cooks objected to 'Christians'."
+    ],
+    "latency_ms": 533,
+    "timestamp": "2026-04-16T07:03:53.906975+00:00"
+  },
+  "4": {
+    "question_id": 4,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Sunity Devee's husband often said that a sculptor would give anything to have her father's foot as a model.",
+      "Sunity Devee's father and mother were converted and lived at Maharshi Debendra Nath Tagore's house, where the Maharshi welcomed them and introduced her mother to his daughters, but her father later left Tagore due to caste issues and jealousy over his influence.",
+      "Sunity Devee visited Etawah, stayed overnight in an old public building, and her mother had a vivid vision of soldiers and a massacre, leading them to move to another house.",
+      "Sunity Devee remembers a journey to Jubbalpore where she realized the devotion of Indian wives to their husbands.",
+      "Sunity Devee's mother, a gentle, loving, self‑denying Hindu woman from a strict family, was married with Hindu rites and later left Coolootola with her father to be converted by Maharshi D. Tagore, facing opposition from family.",
+      "Sunity Devee's father fell seriously ill, and his eldest brother declared that he must return to the old home, supported the family's conversion, and helped them move back after his illness, where the family lived until his recovery.",
+      "Sunity Devee's family lost caste and faced difficulties with servants, as no Hindu would wait upon them and cooks objected to 'Christians'.",
+      "Lord Dufferin remarked that Sunity Devee was Mr. Sen's daughter and complimented her as handsome.",
+      "Sunity Devee remembers that the Maharajah granted his wife's request, built a little house on a rock among hills, the Maharani awaited news but the Maharajah was killed, she did not return, and she offered herself on a funeral pyre near the house; the little house still stands.",
+      "Sunity Devee remembers a story of a rich Maharajah rewarding Brahmin brothers with sayings, the youngest brother receiving a house and provision for life, and the Maharajah's reaction to a kobal's confession."
+    ],
+    "latency_ms": 630,
+    "timestamp": "2026-04-16T07:03:54.538313+00:00"
+  },
+  "5": {
+    "question_id": 5,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 9,
+    "fact_texts": [
+      "Sunity Devee's mother, a gentle, loving, self‑denying Hindu woman from a strict family, was married with Hindu rites and later left Coolootola with her father to be converted by Maharshi D. Tagore, facing opposition from family.",
+      "The user's mother helped the user and Dada prepare lessons in English and Bengali and the user and Dada prayed with her in a small room next to the user's and Dada's bedroom.",
+      "Sunity Devee travelled from Agra to Jaipur by a box-like horse carriage, which was uncomfortable.",
+      "Sunity Devee's husband often said that a sculptor would give anything to have her father's foot as a model.",
+      "Sunity Devee visited Etawah, stayed overnight in an old public building, and her mother had a vivid vision of soldiers and a massacre, leading them to move to another house.",
+      "Sunity Devee remembers a journey to Jubbalpore where she realized the devotion of Indian wives to their husbands.",
+      "Sunity Devee remembers that the Maharajah granted his wife's request, built a little house on a rock among hills, the Maharani awaited news but the Maharajah was killed, she did not return, and she offered herself on a funeral pyre near the house; the little house still stands.",
+      "Sunity Devee's family lost caste and faced difficulties with servants, as no Hindu would wait upon them and cooks objected to 'Christians'.",
+      "Sunity Devee's mother was a gentle, loving, self‑denying Hindu woman whose life was described as beautiful in its goodness and simplicity."
+    ],
+    "latency_ms": 591,
+    "timestamp": "2026-04-16T07:03:55.130550+00:00"
+  },
+  "6": {
+    "question_id": 6,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 3,
+    "fact_texts": [
+      "Miss Hemming, a teacher the user liked, cared for the user when the user was ill, putting the user on a couch, covering the user, and sending the user home when the user felt better.",
+      "Sunity Devee visited Etawah, stayed overnight in an old public building, and her mother had a vivid vision of soldiers and a massacre, leading them to move to another house.",
+      "Sunity Devee remembers a journey to Jubbalpore where she realized the devotion of Indian wives to their husbands."
+    ],
+    "latency_ms": 634,
+    "timestamp": "2026-04-16T07:03:55.768256+00:00"
+  },
+  "7": {
+    "question_id": 7,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Miss Hemming, a teacher the user liked, cared for the user when the user was ill, putting the user on a couch, covering the user, and sending the user home when the user felt better.",
+      "The user's mother helped the user and Dada prepare lessons in English and Bengali and the user and Dada prayed with her in a small room next to the user's and Dada's bedroom.",
+      "Sunity Devee's mother, a gentle, loving, self‑denying Hindu woman from a strict family, was married with Hindu rites and later left Coolootola with her father to be converted by Maharshi D. Tagore, facing opposition from family.",
+      "Sunity Devee's family lost caste and faced difficulties with servants, as no Hindu would wait upon them and cooks objected to 'Christians'.",
+      "Sunity Devee spent many happy days with her sister‑in‑law, Miss Kastogir, at the Asram.",
+      "Sunity Devee visited Etawah, stayed overnight in an old public building, and her mother had a vivid vision of soldiers and a massacre, leading them to move to another house.",
+      "Sunity Devee's husband often said that a sculptor would give anything to have her father's foot as a model.",
+      "Sunity Devee remembers a journey to Jubbalpore where she realized the devotion of Indian wives to their husbands.",
+      "Sunity Devee's father fell seriously ill, and his eldest brother declared that he must return to the old home, supported the family's conversion, and helped them move back after his illness, where the family lived until his recovery.",
+      "Lord Dufferin remarked that Sunity Devee was Mr. Sen's daughter and complimented her as handsome."
+    ],
+    "latency_ms": 565,
+    "timestamp": "2026-04-16T07:03:56.333874+00:00"
+  },
+  "8": {
+    "question_id": 8,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Sunity Devee's mother was a gentle, loving, self‑denying Hindu woman whose life was described as beautiful in its goodness and simplicity.",
+      "Miss Hemming, a teacher the user liked, cared for the user when the user was ill, putting the user on a couch, covering the user, and sending the user home when the user felt better.",
+      "In the zenana, rooms ran around a courtyard; purdah ladies were not allowed to walk outside, and when they went into town, palkis fetched them.",
+      "Sir A. A. Chowdhuri’s father remarked that Mr. Keshub is no ordinary man, noting the perfect shape of his feet and pink sole.",
+      "Sunity Devee remembers that Kaka Babu, a missionary, arranged money and details of everyday life for her and her eldest brother.",
+      "Sunity Devee visited Etawah, stayed overnight in an old public building, and her mother had a vivid vision of soldiers and a massacre, leading them to move to another house.",
+      "Sunity Devee spent many happy days with her sister‑in‑law, Miss Kastogir, at the Asram.",
+      "The user's mother helped the user and Dada prepare lessons in English and Bengali and the user and Dada prayed with her in a small room next to the user's and Dada's bedroom.",
+      "Sunity Devee remembers a journey to Jubbalpore where she realized the devotion of Indian wives to their husbands.",
+      "The user played hide-and-seek with other children around the courtyards and old house."
+    ],
+    "latency_ms": 526,
+    "timestamp": "2026-04-16T07:03:56.864986+00:00"
+  },
+  "9": {
+    "question_id": 9,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 6,
+    "fact_texts": [
+      "Miss Hemming, a teacher the user liked, cared for the user when the user was ill, putting the user on a couch, covering the user, and sending the user home when the user felt better.",
+      "The user's mother helped the user and Dada prepare lessons in English and Bengali and the user and Dada prayed with her in a small room next to the user's and Dada's bedroom.",
+      "In the zenana, rooms ran around a courtyard; purdah ladies were not allowed to walk outside, and when they went into town, palkis fetched them.",
+      "Sunity Devee visited Etawah, stayed overnight in an old public building, and her mother had a vivid vision of soldiers and a massacre, leading them to move to another house.",
+      "Sunity Devee remembers a journey to Jubbalpore where she realized the devotion of Indian wives to their husbands.",
+      "Sunity Devee's mother was a gentle, loving, self‑denying Hindu woman whose life was described as beautiful in its goodness and simplicity."
+    ],
+    "latency_ms": 597,
+    "timestamp": "2026-04-16T07:03:57.464298+00:00"
+  },
+  "10": {
+    "question_id": 10,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The user's mother helped the user and Dada prepare lessons in English and Bengali and the user and Dada prayed with her in a small room next to the user's and Dada's bedroom.",
+      "Miss Hemming, a teacher the user liked, cared for the user when the user was ill, putting the user on a couch, covering the user, and sending the user home when the user felt better.",
+      "Sunity Devee visited Etawah, stayed overnight in an old public building, and her mother had a vivid vision of soldiers and a massacre, leading them to move to another house.",
+      "The user played hide-and-seek with other children around the courtyards and old house.",
+      "In the zenana, rooms ran around a courtyard; purdah ladies were not allowed to walk outside, and when they went into town, palkis fetched them.",
+      "Sunity Devee's mother, a gentle, loving, self‑denying Hindu woman from a strict family, was married with Hindu rites and later left Coolootola with her father to be converted by Maharshi D. Tagore, facing opposition from family.",
+      "The user felt like an outsider in festivities due to loss of caste, but was fondly received by everyone at Coolootola.",
+      "Sunity Devee remembers a journey to Jubbalpore where she realized the devotion of Indian wives to their husbands.",
+      "Sunity Devee's mother was a gentle, loving, self‑denying Hindu woman whose life was described as beautiful in its goodness and simplicity.",
+      "Sunity Devee remembers that the Maharajah granted his wife's request, built a little house on a rock among hills, the Maharani awaited news but the Maharajah was killed, she did not return, and she offered herself on a funeral pyre near the house; the little house still stands."
+    ],
+    "latency_ms": 688,
+    "timestamp": "2026-04-16T07:03:58.152199+00:00"
+  },
+  "11": {
+    "question_id": 11,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Sunity Devee's mother, a gentle, loving, self‑denying Hindu woman from a strict family, was married with Hindu rites and later left Coolootola with her father to be converted by Maharshi D. Tagore, facing opposition from family.",
+      "Sunity Devee remembers a journey to Jubbalpore where she realized the devotion of Indian wives to their husbands.",
+      "The user's mother helped the user and Dada prepare lessons in English and Bengali and the user and Dada prayed with her in a small room next to the user's and Dada's bedroom.",
+      "The cousins hid their woolwork and canvas when visitors came.",
+      "Sunity Devee's father fell seriously ill, and his eldest brother declared that he must return to the old home, supported the family's conversion, and helped them move back after his illness, where the family lived until his recovery.",
+      "Sunity Devee's father started a female education movement and established an Asram where followers from different classes lived in happy disregard of caste and class.",
+      "Sunity Devee's family lost caste and faced difficulties with servants, as no Hindu would wait upon them and cooks objected to 'Christians'.",
+      "Miss Hemming, a teacher the user liked, cared for the user when the user was ill, putting the user on a couch, covering the user, and sending the user home when the user felt better.",
+      "Sunity Devee's husband often said that a sculptor would give anything to have her father's foot as a model.",
+      "Sunity Devee had a beautiful garden house called Belghuria garden‑house, filled with roses, where she had happy memories, and her father had written cards on trees forbidding plucking flowers."
+    ],
+    "latency_ms": 636,
+    "timestamp": "2026-04-16T07:03:58.794595+00:00"
+  },
+  "12": {
+    "question_id": 12,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The user's mother helped the user and Dada prepare lessons in English and Bengali and the user and Dada prayed with her in a small room next to the user's and Dada's bedroom.",
+      "Sunity Devee's father started a female education movement and established an Asram where followers from different classes lived in happy disregard of caste and class.",
+      "Sunity Devee's family lost caste and faced difficulties with servants, as no Hindu would wait upon them and cooks objected to 'Christians'.",
+      "Miss Hemming, a teacher the user liked, cared for the user when the user was ill, putting the user on a couch, covering the user, and sending the user home when the user felt better.",
+      "The user and her eldest brother, Dada, were ready for school by nine, the user attended Bethune College, Dada attended a boys’ school, they returned at four, the user had a second bath, arranged hair, and ate fruit and sweets.",
+      "Sunity Devee's husband often said that a sculptor would give anything to have her father's foot as a model.",
+      "Sunity Devee remembers a journey to Jubbalpore where she realized the devotion of Indian wives to their husbands.",
+      "Sunity Devee's father and mother were converted and lived at Maharshi Debendra Nath Tagore's house, where the Maharshi welcomed them and introduced her mother to his daughters, but her father later left Tagore due to caste issues and jealousy over his influence.",
+      "Lord Dufferin remarked that Sunity Devee was Mr. Sen's daughter and complimented her as handsome.",
+      "Mothers looked after housekeeping and played cards in their leisure time."
+    ],
+    "latency_ms": 663,
+    "timestamp": "2026-04-16T07:03:59.458430+00:00"
+  },
+  "13": {
+    "question_id": 13,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Mothers looked after housekeeping and played cards in their leisure time.",
+      "Domestic arrangements at Coolootola were patriarchal; family quarrels were rare; many women lived together under one roof.",
+      "Sunity Devee's mother, a gentle, loving, self‑denying Hindu woman from a strict family, was married with Hindu rites and later left Coolootola with her father to be converted by Maharshi D. Tagore, facing opposition from family.",
+      "Miss Hemming, a teacher the user liked, cared for the user when the user was ill, putting the user on a couch, covering the user, and sending the user home when the user felt better.",
+      "Sunity Devee's family lost caste and faced difficulties with servants, as no Hindu would wait upon them and cooks objected to 'Christians'.",
+      "The user's mother helped the user and Dada prepare lessons in English and Bengali and the user and Dada prayed with her in a small room next to the user's and Dada's bedroom.",
+      "The user admired cousins who made woolwork slippers for husbands.",
+      "Sunity Devee remembers a journey to Jubbalpore where she realized the devotion of Indian wives to their husbands.",
+      "Sunity Devee's husband often said that a sculptor would give anything to have her father's foot as a model.",
+      "Sunity Devee's father fell seriously ill, and his eldest brother declared that he must return to the old home, supported the family's conversion, and helped them move back after his illness, where the family lived until his recovery."
+    ],
+    "latency_ms": 603,
+    "timestamp": "2026-04-16T07:04:00.066689+00:00"
+  },
+  "14": {
+    "question_id": 14,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The grandmother had a warm corner in her heart for the user.",
+      "Miss Hemming, a teacher the user liked, cared for the user when the user was ill, putting the user on a couch, covering the user, and sending the user home when the user felt better.",
+      "The user's mother helped the user and Dada prepare lessons in English and Bengali and the user and Dada prayed with her in a small room next to the user's and Dada's bedroom.",
+      "Sunity Devee's mother, a gentle, loving, self‑denying Hindu woman from a strict family, was married with Hindu rites and later left Coolootola with her father to be converted by Maharshi D. Tagore, facing opposition from family.",
+      "The grandmother demanded utmost deference from daughters-in-law, who never spoke to husbands in her presence.",
+      "Sunity Devee's husband often said that a sculptor would give anything to have her father's foot as a model.",
+      "Sunity Devee's father and mother were converted and lived at Maharshi Debendra Nath Tagore's house, where the Maharshi welcomed them and introduced her mother to his daughters, but her father later left Tagore due to caste issues and jealousy over his influence.",
+      "Sunity Devee remembers that the Maharajah granted his wife's request, built a little house on a rock among hills, the Maharani awaited news but the Maharajah was killed, she did not return, and she offered herself on a funeral pyre near the house; the little house still stands.",
+      "The user and her eldest brother, Dada, were ready for school by nine, the user attended Bethune College, Dada attended a boys’ school, they returned at four, the user had a second bath, arranged hair, and ate fruit and sweets.",
+      "Sunity Devee visited Etawah, stayed overnight in an old public building, and her mother had a vivid vision of soldiers and a massacre, leading them to move to another house."
+    ],
+    "latency_ms": 751,
+    "timestamp": "2026-04-16T07:04:00.819720+00:00"
+  },
+  "15": {
+    "question_id": 15,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 3,
+    "fact_texts": [
+      "The grandmother demanded utmost deference from daughters-in-law, who never spoke to husbands in her presence.",
+      "The grandmother Thakoorma was a grand cook.",
+      "The user's grandmother, described as very handsome, was the head of the house."
+    ],
+    "latency_ms": 815,
+    "timestamp": "2026-04-16T07:04:01.635837+00:00"
+  },
+  "16": {
+    "question_id": 16,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Sunity Devee's mother, a gentle, loving, self‑denying Hindu woman from a strict family, was married with Hindu rites and later left Coolootola with her father to be converted by Maharshi D. Tagore, facing opposition from family.",
+      "Sunity Devee's family lost caste and faced difficulties with servants, as no Hindu would wait upon them and cooks objected to 'Christians'.",
+      "The grandmother demanded utmost deference from daughters-in-law, who never spoke to husbands in her presence.",
+      "The grandmother had a warm corner in her heart for the user.",
+      "Sunity Devee's father and mother were converted and lived at Maharshi Debendra Nath Tagore's house, where the Maharshi welcomed them and introduced her mother to his daughters, but her father later left Tagore due to caste issues and jealousy over his influence.",
+      "Sunity Devee's father fell seriously ill, and his eldest brother declared that he must return to the old home, supported the family's conversion, and helped them move back after his illness, where the family lived until his recovery.",
+      "Sunity Devee had a beautiful garden house called Belghuria garden‑house, filled with roses, where she had happy memories, and her father had written cards on trees forbidding plucking flowers.",
+      "The user and her eldest brother, Dada, were ready for school by nine, the user attended Bethune College, Dada attended a boys’ school, they returned at four, the user had a second bath, arranged hair, and ate fruit and sweets.",
+      "The grandmother and her sister-in-law hid brooms under beds to race to clean rooms.",
+      "The user's mother helped the user and Dada prepare lessons in English and Bengali and the user and Dada prayed with her in a small room next to the user's and Dada's bedroom."
+    ],
+    "latency_ms": 705,
+    "timestamp": "2026-04-16T07:04:02.341810+00:00"
+  },
+  "17": {
+    "question_id": 17,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The grandmother had a warm corner in her heart for the user.",
+      "The user's mother helped the user and Dada prepare lessons in English and Bengali and the user and Dada prayed with her in a small room next to the user's and Dada's bedroom.",
+      "Sunity Devee's father fell seriously ill, and his eldest brother declared that he must return to the old home, supported the family's conversion, and helped them move back after his illness, where the family lived until his recovery.",
+      "Sunity Devee remembers that Kaka Babu, a missionary, arranged money and details of everyday life for her and her eldest brother.",
+      "Sunity Devee's husband often said that a sculptor would give anything to have her father's foot as a model.",
+      "Sunity Devee's mother, a gentle, loving, self‑denying Hindu woman from a strict family, was married with Hindu rites and later left Coolootola with her father to be converted by Maharshi D. Tagore, facing opposition from family.",
+      "The grandmother demanded utmost deference from daughters-in-law, who never spoke to husbands in her presence.",
+      "Miss Hemming, a teacher the user liked, cared for the user when the user was ill, putting the user on a couch, covering the user, and sending the user home when the user felt better.",
+      "The user and her eldest brother, Dada, were ready for school by nine, the user attended Bethune College, Dada attended a boys’ school, they returned at four, the user had a second bath, arranged hair, and ate fruit and sweets.",
+      "Sunity Devee's family lost caste and faced difficulties with servants, as no Hindu would wait upon them and cooks objected to 'Christians'."
+    ],
+    "latency_ms": 617,
+    "timestamp": "2026-04-16T07:04:02.960681+00:00"
+  },
+  "18": {
+    "question_id": 18,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The grandmother had a warm corner in her heart for the user.",
+      "Sunity Devee visited Etawah, stayed overnight in an old public building, and her mother had a vivid vision of soldiers and a massacre, leading them to move to another house.",
+      "Sunity Devee's father and mother were converted and lived at Maharshi Debendra Nath Tagore's house, where the Maharshi welcomed them and introduced her mother to his daughters, but her father later left Tagore due to caste issues and jealousy over his influence.",
+      "The grandmother demanded utmost deference from daughters-in-law, who never spoke to husbands in her presence.",
+      "Sunity Devee's mother, a gentle, loving, self‑denying Hindu woman from a strict family, was married with Hindu rites and later left Coolootola with her father to be converted by Maharshi D. Tagore, facing opposition from family.",
+      "The user's mother helped the user and Dada prepare lessons in English and Bengali and the user and Dada prayed with her in a small room next to the user's and Dada's bedroom.",
+      "Miss Hemming, a teacher the user liked, cared for the user when the user was ill, putting the user on a couch, covering the user, and sending the user home when the user felt better.",
+      "Sunity Devee remembers that the Maharajah granted his wife's request, built a little house on a rock among hills, the Maharani awaited news but the Maharajah was killed, she did not return, and she offered herself on a funeral pyre near the house; the little house still stands.",
+      "Sunity Devee's mother was a gentle, loving, self‑denying Hindu woman whose life was described as beautiful in its goodness and simplicity.",
+      "Sunity Devee's father fell seriously ill, and his eldest brother declared that he must return to the old home, supported the family's conversion, and helped them move back after his illness, where the family lived until his recovery."
+    ],
+    "latency_ms": 570,
+    "timestamp": "2026-04-16T07:04:03.533457+00:00"
+  },
+  "19": {
+    "question_id": 19,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The grandmother demanded utmost deference from daughters-in-law, who never spoke to husbands in her presence.",
+      "The grandmother had a warm corner in her heart for the user.",
+      "The grandmother and her sister-in-law hid brooms under beds to race to clean rooms.",
+      "Sunity Devee's father and mother were converted and lived at Maharshi Debendra Nath Tagore's house, where the Maharshi welcomed them and introduced her mother to his daughters, but her father later left Tagore due to caste issues and jealousy over his influence.",
+      "The user's grandmother, described as very handsome, was the head of the house.",
+      "The user felt like an outsider in festivities due to loss of caste, but was fondly received by everyone at Coolootola.",
+      "The user's mother helped the user and Dada prepare lessons in English and Bengali and the user and Dada prayed with her in a small room next to the user's and Dada's bedroom.",
+      "Mothers looked after housekeeping and played cards in their leisure time.",
+      "Sunity Devee remembers a journey to Jubbalpore where she realized the devotion of Indian wives to their husbands.",
+      "The user delivered love letters between separated couples while young wives could not see husbands during the day."
+    ],
+    "latency_ms": 593,
+    "timestamp": "2026-04-16T07:04:04.130960+00:00"
+  },
+  "20": {
+    "question_id": 20,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Sunity Devee's father started a female education movement and established an Asram where followers from different classes lived in happy disregard of caste and class.",
+      "Miss Hemming, a teacher the user liked, cared for the user when the user was ill, putting the user on a couch, covering the user, and sending the user home when the user felt better.",
+      "The father's youngest brother would nail shutters when operas started if he thought it improper for ladies.",
+      "The grandmother had a warm corner in her heart for the user.",
+      "Sunity Devee's father was a Brahmo, a religious movement that rejects caste and promotes universal brotherhood, and he suffered for his faith.",
+      "An aunt was famous for card parties.",
+      "The user admired cousins who made woolwork slippers for husbands.",
+      "The user's mother helped the user and Dada prepare lessons in English and Bengali and the user and Dada prayed with her in a small room next to the user's and Dada's bedroom.",
+      "Sunity Devee's family lost caste and faced difficulties with servants, as no Hindu would wait upon them and cooks objected to 'Christians'.",
+      "The user and her eldest brother, Dada, were ready for school by nine, the user attended Bethune College, Dada attended a boys’ school, they returned at four, the user had a second bath, arranged hair, and ate fruit and sweets."
+    ],
+    "latency_ms": 652,
+    "timestamp": "2026-04-16T07:04:04.784309+00:00"
+  },
+  "21": {
+    "question_id": 21,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Sunity Devee's father fell seriously ill, and his eldest brother declared that he must return to the old home, supported the family's conversion, and helped them move back after his illness, where the family lived until his recovery.",
+      "Miss Hemming, a teacher the user liked, cared for the user when the user was ill, putting the user on a couch, covering the user, and sending the user home when the user felt better.",
+      "Sunity Devee's mother, a gentle, loving, self‑denying Hindu woman from a strict family, was married with Hindu rites and later left Coolootola with her father to be converted by Maharshi D. Tagore, facing opposition from family.",
+      "The grandmother had a warm corner in her heart for the user.",
+      "The user's mother helped the user and Dada prepare lessons in English and Bengali and the user and Dada prayed with her in a small room next to the user's and Dada's bedroom.",
+      "Sunity Devee's family lost caste and faced difficulties with servants, as no Hindu would wait upon them and cooks objected to 'Christians'.",
+      "The grandmother demanded utmost deference from daughters-in-law, who never spoke to husbands in her presence.",
+      "Sunity Devee's husband often said that a sculptor would give anything to have her father's foot as a model.",
+      "Sunity Devee remembers a journey to Jubbalpore where she realized the devotion of Indian wives to their husbands.",
+      "Sunity Devee remembers that the Maharajah granted his wife's request, built a little house on a rock among hills, the Maharani awaited news but the Maharajah was killed, she did not return, and she offered herself on a funeral pyre near the house; the little house still stands."
+    ],
+    "latency_ms": 643,
+    "timestamp": "2026-04-16T07:04:05.429394+00:00"
+  },
+  "22": {
+    "question_id": 22,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The user's grandmother, described as very handsome, was the head of the house.",
+      "Sunity Devee's mother was a gentle, loving, self‑denying Hindu woman whose life was described as beautiful in its goodness and simplicity.",
+      "The grandmother had a warm corner in her heart for the user.",
+      "Sunity Devee's husband often said that a sculptor would give anything to have her father's foot as a model.",
+      "Sunity Devee's father described as tall, broad‑shouldered, with a reputation for strength, eyes described as 'homes of silent prayer', wavy hair, white teeth, always smiles, a gentle clear voice audible in crowds, expression like Buddha calm and quiet, and noted his striking personality.",
+      "The user delivered love letters between separated couples while young wives could not see husbands during the day.",
+      "Miss Hemming, a teacher the user liked, cared for the user when the user was ill, putting the user on a couch, covering the user, and sending the user home when the user felt better.",
+      "Sunity Devee remembers a journey to Jubbalpore where she realized the devotion of Indian wives to their husbands.",
+      "The grandmother demanded utmost deference from daughters-in-law, who never spoke to husbands in her presence.",
+      "During Arati, elderly ladies, especially grandmother, bowed in homage to god in sanctuary."
+    ],
+    "latency_ms": 881,
+    "timestamp": "2026-04-16T07:04:06.311869+00:00"
+  },
+  "23": {
+    "question_id": 23,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The grandmother had a warm corner in her heart for the user.",
+      "Sunity Devee remembers that the Maharajah granted his wife's request, built a little house on a rock among hills, the Maharani awaited news but the Maharajah was killed, she did not return, and she offered herself on a funeral pyre near the house; the little house still stands.",
+      "The grandmother demanded utmost deference from daughters-in-law, who never spoke to husbands in her presence.",
+      "The father's youngest brother would nail shutters when operas started if he thought it improper for ladies.",
+      "Sunity Devee's husband often said that a sculptor would give anything to have her father's foot as a model.",
+      "Miss Hemming, a teacher the user liked, cared for the user when the user was ill, putting the user on a couch, covering the user, and sending the user home when the user felt better.",
+      "Sunity Devee remembers that Kaka Babu, a missionary, arranged money and details of everyday life for her and her eldest brother.",
+      "The user admired cousins who made woolwork slippers for husbands.",
+      "The grandmother and her sister-in-law hid brooms under beds to race to clean rooms.",
+      "Sunity Devee's mother, a gentle, loving, self‑denying Hindu woman from a strict family, was married with Hindu rites and later left Coolootola with her father to be converted by Maharshi D. Tagore, facing opposition from family."
+    ],
+    "latency_ms": 635,
+    "timestamp": "2026-04-16T07:04:06.949079+00:00"
+  },
+  "24": {
+    "question_id": 24,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The grandmother had a warm corner in her heart for the user.",
+      "The grandmother demanded utmost deference from daughters-in-law, who never spoke to husbands in her presence.",
+      "The Asram near Coolootola had two houses joined; the user lived there with many father's followers as a united family.",
+      "The user admired cousins who made woolwork slippers for husbands.",
+      "Miss Hemming, a teacher the user liked, cared for the user when the user was ill, putting the user on a couch, covering the user, and sending the user home when the user felt better.",
+      "Sunity Devee's mother, a gentle, loving, self‑denying Hindu woman from a strict family, was married with Hindu rites and later left Coolootola with her father to be converted by Maharshi D. Tagore, facing opposition from family.",
+      "Sunity Devee's father fell seriously ill, and his eldest brother declared that he must return to the old home, supported the family's conversion, and helped them move back after his illness, where the family lived until his recovery.",
+      "Sunity Devee's family lost caste and faced difficulties with servants, as no Hindu would wait upon them and cooks objected to 'Christians'.",
+      "The user's mother helped the user and Dada prepare lessons in English and Bengali and the user and Dada prayed with her in a small room next to the user's and Dada's bedroom.",
+      "Sunity Devee's husband often said that a sculptor would give anything to have her father's foot as a model."
+    ],
+    "latency_ms": 864,
+    "timestamp": "2026-04-16T07:04:07.817537+00:00"
+  },
+  "25": {
+    "question_id": 25,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Sunity Devee remembers a story of a rich Maharajah rewarding Brahmin brothers with sayings, the youngest brother receiving a house and provision for life, and the Maharajah's reaction to a kobal's confession.",
+      "The grandmother demanded utmost deference from daughters-in-law, who never spoke to husbands in her presence.",
+      "Sunity Devee's family lost caste and faced difficulties with servants, as no Hindu would wait upon them and cooks objected to 'Christians'.",
+      "The father's youngest brother would nail shutters when operas started if he thought it improper for ladies.",
+      "Sunity Devee's husband often said that a sculptor would give anything to have her father's foot as a model.",
+      "The user felt like an outsider in festivities due to loss of caste, but was fondly received by everyone at Coolootola.",
+      "The user's mother helped the user and Dada prepare lessons in English and Bengali and the user and Dada prayed with her in a small room next to the user's and Dada's bedroom.",
+      "Sunity Devee's father had extraordinary powers, such as summoning a gentleman by drum call, and told stories from the Bible, including the Ten Virgins.",
+      "Miss Hemming, a teacher the user liked, cared for the user when the user was ill, putting the user on a couch, covering the user, and sending the user home when the user felt better.",
+      "Sunity Devee's mother, a gentle, loving, self‑denying Hindu woman from a strict family, was married with Hindu rites and later left Coolootola with her father to be converted by Maharshi D. Tagore, facing opposition from family."
+    ],
+    "latency_ms": 718,
+    "timestamp": "2026-04-16T07:04:08.537435+00:00"
+  },
+  "26": {
+    "question_id": 26,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Sunity Devee remembers a journey to Jubbalpore where she realized the devotion of Indian wives to their husbands.",
+      "Sunity Devee's husband often said that a sculptor would give anything to have her father's foot as a model.",
+      "The grandmother had a warm corner in her heart for the user.",
+      "The grandmother demanded utmost deference from daughters-in-law, who never spoke to husbands in her presence.",
+      "The father's youngest brother would nail shutters when operas started if he thought it improper for ladies.",
+      "Sunity Devee's father and mother were converted and lived at Maharshi Debendra Nath Tagore's house, where the Maharshi welcomed them and introduced her mother to his daughters, but her father later left Tagore due to caste issues and jealousy over his influence.",
+      "Mothers looked after housekeeping and played cards in their leisure time.",
+      "The user's grandmother, described as very handsome, was the head of the house.",
+      "Sunity Devee's father was Keshub Chunder Sen, a prominent Brahmo leader considered one of the most remarkable men India has ever produced, with great influence, people followed him, and he was considered almost a divinity.",
+      "The user admired cousins who made woolwork slippers for husbands."
+    ],
+    "latency_ms": 569,
+    "timestamp": "2026-04-16T07:04:09.111922+00:00"
+  },
+  "27": {
+    "question_id": 27,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Miss Hemming, a teacher the user liked, cared for the user when the user was ill, putting the user on a couch, covering the user, and sending the user home when the user felt better.",
+      "The user's mother helped the user and Dada prepare lessons in English and Bengali and the user and Dada prayed with her in a small room next to the user's and Dada's bedroom.",
+      "The user promised to give money to the poor, never lie, feed animals and birds, and give cool beverages during hot weather.",
+      "The grandmother demanded utmost deference from daughters-in-law, who never spoke to husbands in her presence.",
+      "The grandmother had a warm corner in her heart for the user.",
+      "Sunity Devee remembers a journey to Jubbalpore where she realized the devotion of Indian wives to their husbands.",
+      "The user admired cousins who made woolwork slippers for husbands.",
+      "The user delivered love letters between separated couples while young wives could not see husbands during the day.",
+      "Sunity Devee's husband often said that a sculptor would give anything to have her father's foot as a model.",
+      "Sunity Devee remembers that the Maharajah granted his wife's request, built a little house on a rock among hills, the Maharani awaited news but the Maharajah was killed, she did not return, and she offered herself on a funeral pyre near the house; the little house still stands."
+    ],
+    "latency_ms": 654,
+    "timestamp": "2026-04-16T07:04:09.767661+00:00"
+  },
+  "28": {
+    "question_id": 28,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The grandmother had a warm corner in her heart for the user.",
+      "Sunity Devee's husband often said that a sculptor would give anything to have her father's foot as a model.",
+      "The user's mother helped the user and Dada prepare lessons in English and Bengali and the user and Dada prayed with her in a small room next to the user's and Dada's bedroom.",
+      "The father's youngest brother would nail shutters when operas started if he thought it improper for ladies.",
+      "The grandmother demanded utmost deference from daughters-in-law, who never spoke to husbands in her presence.",
+      "The grandmother and her sister-in-law hid brooms under beds to race to clean rooms.",
+      "Lord Dufferin remarked that Sunity Devee was Mr. Sen's daughter and complimented her as handsome.",
+      "The user associated perfume and soap with married cousins, believing some married to get unlimited supplies.",
+      "Miss Hemming, a teacher the user liked, cared for the user when the user was ill, putting the user on a couch, covering the user, and sending the user home when the user felt better.",
+      "Sunity Devee's family lost caste and faced difficulties with servants, as no Hindu would wait upon them and cooks objected to 'Christians'."
+    ],
+    "latency_ms": 655,
+    "timestamp": "2026-04-16T07:04:10.429504+00:00"
+  },
+  "29": {
+    "question_id": 29,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Sunity Devee remembers a journey to Jubbalpore where she realized the devotion of Indian wives to their husbands.",
+      "Sunity Devee's family lost caste and faced difficulties with servants, as no Hindu would wait upon them and cooks objected to 'Christians'.",
+      "Sunity Devee's mother, a gentle, loving, self‑denying Hindu woman from a strict family, was married with Hindu rites and later left Coolootola with her father to be converted by Maharshi D. Tagore, facing opposition from family.",
+      "Sunity Devee remembers that the Maharajah granted his wife's request, built a little house on a rock among hills, the Maharani awaited news but the Maharajah was killed, she did not return, and she offered herself on a funeral pyre near the house; the little house still stands.",
+      "The user's grandmother, described as very handsome, was the head of the house.",
+      "The father's youngest brother would nail shutters when operas started if he thought it improper for ladies.",
+      "The user's father held a morning service with motto Faith, Love, and Purity.",
+      "Sunity Devee's husband often said that a sculptor would give anything to have her father's foot as a model.",
+      "Sunity Devee had a beautiful garden house called Belghuria garden‑house, filled with roses, where she had happy memories, and her father had written cards on trees forbidding plucking flowers.",
+      "The grandmother had a warm corner in her heart for the user."
+    ],
+    "latency_ms": 576,
+    "timestamp": "2026-04-16T07:04:11.007725+00:00"
+  },
+  "30": {
+    "question_id": 30,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The user felt like an outsider in festivities due to loss of caste, but was fondly received by everyone at Coolootola.",
+      "Miss Hemming, a teacher the user liked, cared for the user when the user was ill, putting the user on a couch, covering the user, and sending the user home when the user felt better.",
+      "The grandmother had a warm corner in her heart for the user.",
+      "Sunity Devee remembers that the Maharajah granted his wife's request, built a little house on a rock among hills, the Maharani awaited news but the Maharajah was killed, she did not return, and she offered herself on a funeral pyre near the house; the little house still stands.",
+      "Sunity Devee's husband often said that a sculptor would give anything to have her father's foot as a model.",
+      "Sunity Devee remembers a journey to Jubbalpore where she realized the devotion of Indian wives to their husbands.",
+      "Sunity Devee's father fell seriously ill, and his eldest brother declared that he must return to the old home, supported the family's conversion, and helped them move back after his illness, where the family lived until his recovery.",
+      "The father's youngest brother would nail shutters when operas started if he thought it improper for ladies.",
+      "Mothers looked after housekeeping and played cards in their leisure time.",
+      "Sunity Devee had a son named Karuna, born after the family's conversion."
+    ],
+    "latency_ms": 570,
+    "timestamp": "2026-04-16T07:04:11.583041+00:00"
+  },
+  "31": {
+    "question_id": 31,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The grandmother had a warm corner in her heart for the user.",
+      "Sunity Devee remembers a journey to Jubbalpore where she realized the devotion of Indian wives to their husbands.",
+      "Miss Hemming, a teacher the user liked, cared for the user when the user was ill, putting the user on a couch, covering the user, and sending the user home when the user felt better.",
+      "Sunity Devee's husband often said that a sculptor would give anything to have her father's foot as a model.",
+      "Sunity Devee's mother was a gentle, loving, self‑denying Hindu woman whose life was described as beautiful in its goodness and simplicity.",
+      "The grandmother demanded utmost deference from daughters-in-law, who never spoke to husbands in her presence.",
+      "The user's mother helped the user and Dada prepare lessons in English and Bengali and the user and Dada prayed with her in a small room next to the user's and Dada's bedroom.",
+      "Sunity Devee's mother, a gentle, loving, self‑denying Hindu woman from a strict family, was married with Hindu rites and later left Coolootola with her father to be converted by Maharshi D. Tagore, facing opposition from family.",
+      "The grandmother Thakoorma was a grand cook.",
+      "Domestic arrangements at Coolootola were patriarchal; family quarrels were rare; many women lived together under one roof."
+    ],
+    "latency_ms": 563,
+    "timestamp": "2026-04-16T07:04:12.146716+00:00"
+  },
+  "32": {
+    "question_id": 32,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Sunity Devee remembers a journey to Jubbalpore where she realized the devotion of Indian wives to their husbands.",
+      "Miss Pigot headed an institution near their home that trained Christian Indian girls to visit Hindu houses and give lessons to women.",
+      "The user felt like an outsider in festivities due to loss of caste, but was fondly received by everyone at Coolootola.",
+      "The user's father formed the Native Ladies’ Normal School, the only institution of its kind in India at the time.",
+      "The grandmother demanded utmost deference from daughters-in-law, who never spoke to husbands in her presence.",
+      "The grandmother had a warm corner in her heart for the user.",
+      "Miss Hemming, a teacher the user liked, cared for the user when the user was ill, putting the user on a couch, covering the user, and sending the user home when the user felt better.",
+      "In the zenana, rooms ran around a courtyard; purdah ladies were not allowed to walk outside, and when they went into town, palkis fetched them.",
+      "The user's grandmother, described as very handsome, was the head of the house.",
+      "Sunity Devee remembers that the Maharajah granted his wife's request, built a little house on a rock among hills, the Maharani awaited news but the Maharajah was killed, she did not return, and she offered herself on a funeral pyre near the house; the little house still stands."
+    ],
+    "latency_ms": 652,
+    "timestamp": "2026-04-16T07:04:12.800580+00:00"
+  },
+  "33": {
+    "question_id": 33,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The user's father formed the Native Ladies’ Normal School, the only institution of its kind in India at the time.",
+      "The user's mother helped the user and Dada prepare lessons in English and Bengali and the user and Dada prayed with her in a small room next to the user's and Dada's bedroom.",
+      "Sunity Devee remembers a journey to Jubbalpore where she realized the devotion of Indian wives to their husbands.",
+      "The grandmother demanded utmost deference from daughters-in-law, who never spoke to husbands in her presence.",
+      "Miss Pigot headed an institution near their home that trained Christian Indian girls to visit Hindu houses and give lessons to women.",
+      "Mothers looked after housekeeping and played cards in their leisure time.",
+      "The grandmother had a warm corner in her heart for the user.",
+      "Sunity Devee visited Etawah, stayed overnight in an old public building, and her mother had a vivid vision of soldiers and a massacre, leading them to move to another house.",
+      "Miss Hemming, a teacher the user liked, cared for the user when the user was ill, putting the user on a couch, covering the user, and sending the user home when the user felt better.",
+      "Sadhankanan was the country house belonging to the user's father, near Calcutta, with small house but charming grounds of trees, flowers, and fruit."
+    ],
+    "latency_ms": 653,
+    "timestamp": "2026-04-16T07:04:13.454326+00:00"
+  },
+  "34": {
+    "question_id": 34,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The user's mother helped the user and Dada prepare lessons in English and Bengali and the user and Dada prayed with her in a small room next to the user's and Dada's bedroom.",
+      "The user delivered love letters between separated couples while young wives could not see husbands during the day.",
+      "The user's father formed the Native Ladies’ Normal School, the only institution of its kind in India at the time.",
+      "The grandmother had a warm corner in her heart for the user.",
+      "Miss Hemming, a teacher the user liked, cared for the user when the user was ill, putting the user on a couch, covering the user, and sending the user home when the user felt better.",
+      "Sunity Devee remembers that the Maharajah granted his wife's request, built a little house on a rock among hills, the Maharani awaited news but the Maharajah was killed, she did not return, and she offered herself on a funeral pyre near the house; the little house still stands.",
+      "Sunity Devee remembers a journey to Jubbalpore where she realized the devotion of Indian wives to their husbands.",
+      "The user admired cousins who made woolwork slippers for husbands.",
+      "The user felt like an outsider in festivities due to loss of caste, but was fondly received by everyone at Coolootola.",
+      "Sadhankanan was the country house belonging to the user's father, near Calcutta, with small house but charming grounds of trees, flowers, and fruit."
+    ],
+    "latency_ms": 581,
+    "timestamp": "2026-04-16T07:04:14.037115+00:00"
+  },
+  "35": {
+    "question_id": 35,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The grandmother had a warm corner in her heart for the user.",
+      "Sunity Devee's father started a female education movement and established an Asram where followers from different classes lived in happy disregard of caste and class.",
+      "Sunity Devee's mother, a gentle, loving, self‑denying Hindu woman from a strict family, was married with Hindu rites and later left Coolootola with her father to be converted by Maharshi D. Tagore, facing opposition from family.",
+      "Miss Hemming, a teacher the user liked, cared for the user when the user was ill, putting the user on a couch, covering the user, and sending the user home when the user felt better.",
+      "The user's mother helped the user and Dada prepare lessons in English and Bengali and the user and Dada prayed with her in a small room next to the user's and Dada's bedroom.",
+      "The grandmother demanded utmost deference from daughters-in-law, who never spoke to husbands in her presence.",
+      "Sunity Devee remembers that Kaka Babu, a missionary, arranged money and details of everyday life for her and her eldest brother.",
+      "Sunity Devee had a beautiful garden house called Belghuria garden‑house, filled with roses, where she had happy memories, and her father had written cards on trees forbidding plucking flowers.",
+      "Sunity Devee remembers a journey to Jubbalpore where she realized the devotion of Indian wives to their husbands.",
+      "Sunity Devee remembers that the Maharajah granted his wife's request, built a little house on a rock among hills, the Maharani awaited news but the Maharajah was killed, she did not return, and she offered herself on a funeral pyre near the house; the little house still stands."
+    ],
+    "latency_ms": 577,
+    "timestamp": "2026-04-16T07:04:14.616703+00:00"
+  },
+  "36": {
+    "question_id": 36,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 3,
+    "fact_texts": [
+      "The grandmother demanded utmost deference from daughters-in-law, who never spoke to husbands in her presence.",
+      "Mothers looked after housekeeping and played cards in their leisure time.",
+      "The user's grandmother, described as very handsome, was the head of the house."
+    ],
+    "latency_ms": 687,
+    "timestamp": "2026-04-16T07:04:15.308249+00:00"
+  },
+  "37": {
+    "question_id": 37,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The grandmother demanded utmost deference from daughters-in-law, who never spoke to husbands in her presence.",
+      "The grandmother had a warm corner in her heart for the user.",
+      "Sunity Devee remembers a story of a rich Maharajah rewarding Brahmin brothers with sayings, the youngest brother receiving a house and provision for life, and the Maharajah's reaction to a kobal's confession.",
+      "Sunity Devee remembers that the Maharajah granted his wife's request, built a little house on a rock among hills, the Maharani awaited news but the Maharajah was killed, she did not return, and she offered herself on a funeral pyre near the house; the little house still stands.",
+      "The user delivered love letters between separated couples while young wives could not see husbands during the day.",
+      "The user's mother helped the user and Dada prepare lessons in English and Bengali and the user and Dada prayed with her in a small room next to the user's and Dada's bedroom.",
+      "Miss Hemming, a teacher the user liked, cared for the user when the user was ill, putting the user on a couch, covering the user, and sending the user home when the user felt better.",
+      "Sunity Devee remembers a journey to Jubbalpore where she realized the devotion of Indian wives to their husbands.",
+      "Sunity Devee's husband often said that a sculptor would give anything to have her father's foot as a model.",
+      "The user's grandmother, described as very handsome, was the head of the house."
+    ],
+    "latency_ms": 651,
+    "timestamp": "2026-04-16T07:04:15.961448+00:00"
+  },
+  "38": {
+    "question_id": 38,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Miss Hemming, a teacher the user liked, cared for the user when the user was ill, putting the user on a couch, covering the user, and sending the user home when the user felt better.",
+      "Sunity Devee remembers a story of a rich Maharajah rewarding Brahmin brothers with sayings, the youngest brother receiving a house and provision for life, and the Maharajah's reaction to a kobal's confession.",
+      "In the zenana, rooms ran around a courtyard; purdah ladies were not allowed to walk outside, and when they went into town, palkis fetched them.",
+      "The grandmother had a warm corner in her heart for the user.",
+      "The user delivered love letters between separated couples while young wives could not see husbands during the day.",
+      "The father's youngest brother would nail shutters when operas started if he thought it improper for ladies.",
+      "The grandmother Thakoorma was a grand cook.",
+      "The cousins hid their woolwork and canvas when visitors came.",
+      "Sunity Devee's husband often said that a sculptor would give anything to have her father's foot as a model.",
+      "The user promised to give money to the poor, never lie, feed animals and birds, and give cool beverages during hot weather."
+    ],
+    "latency_ms": 583,
+    "timestamp": "2026-04-16T07:04:16.545036+00:00"
+  },
+  "39": {
+    "question_id": 39,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Sunity Devee's family lost caste and faced difficulties with servants, as no Hindu would wait upon them and cooks objected to 'Christians'.",
+      "Sunity Devee remembers that the Maharajah granted his wife's request, built a little house on a rock among hills, the Maharani awaited news but the Maharajah was killed, she did not return, and she offered herself on a funeral pyre near the house; the little house still stands.",
+      "The user's grandmother, described as very handsome, was the head of the house.",
+      "Sunity Devee remembers a journey to Jubbalpore where she realized the devotion of Indian wives to their husbands.",
+      "Sunity Devee's mother, a gentle, loving, self‑denying Hindu woman from a strict family, was married with Hindu rites and later left Coolootola with her father to be converted by Maharshi D. Tagore, facing opposition from family.",
+      "The user associated perfume and soap with married cousins, believing some married to get unlimited supplies.",
+      "Sunity Devee's husband often said that a sculptor would give anything to have her father's foot as a model.",
+      "The user delivered love letters between separated couples while young wives could not see husbands during the day.",
+      "Sunity Devee had a beautiful garden house called Belghuria garden‑house, filled with roses, where she had happy memories, and her father had written cards on trees forbidding plucking flowers.",
+      "The grandmother had a warm corner in her heart for the user."
+    ],
+    "latency_ms": 605,
+    "timestamp": "2026-04-16T07:04:17.155433+00:00"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "subject": "rousseau",
+  "system": "zep",
+  "user_id": "rousseau_run_20260415",
+  "facts_expected": 4562,
+  "facts_posted": 4562,
+  "post_success": 4562,
+  "post_failure": 0,
+  "failed_fact_indices": [],
+  "start_time": "2026-04-16T00:45:08.175347+00:00",
+  "last_successful_index": 4561,
+  "end_time": "2026-04-16T01:42:53.427196+00:00",
+  "verification_passed": true,
+  "verification_hits": 10,
+  "verification_total": 10
+}

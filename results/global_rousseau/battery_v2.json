@@ -1,0 +1,580 @@
+{
+  "metadata": {
+    "subject": "Jean-Jacques Rousseau",
+    "subject_key": "rousseau",
+    "generated": "2026-04-14T22:48:41.810207+00:00",
+    "model": "claude-haiku-4-5-20251001",
+    "method": "backward_design_from_heldout",
+    "total": 80,
+    "tiers": {
+      "behavioral_prediction": 39,
+      "recall": 10,
+      "inferential": 11,
+      "adversarial_abstention": 10,
+      "boundary_probing": 10
+    },
+    "checksum": "7d81bea5b25ea6e45332e15e9f4c4ed8"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When Rousseau encounters a situation requiring him to live in multiple locations simultaneously due to financial constraints, how does he respond?",
+      "held_out_passage": "being obliged to live in their neighborhood, a dear part of the town, in a furnished lodging, and having to pay for another lodging at the extremity of Paris, at the very top of the Rue Saint Jacques, to which, let the weather be as it would, I went almost every evening to supper."
+    },
+    {
+      "id": 2,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "Based on Rousseau's character as described in the training text, would he be likely to pursue intellectual study in a new field when given the opportunity?",
+      "held_out_passage": "I soon got into the track of my new occupations, and conceived a taste for them. I attached myself to the study of chemistry, and attended several courses of it"
+    },
+    {
+      "id": 3,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How does Rousseau typically handle collaborative intellectual work with peers?",
+      "held_out_passage": "and we began to scribble over paper upon that science, of which we scarcely possessed the elements."
+    },
+    {
+      "id": 4,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "When placed in pleasant circumstances with leisure time, what creative outlets does Rousseau pursue?",
+      "held_out_passage": "I composed several trios full of harmony, and of which I may perhaps speak in my supplement if ever I should write one. Theatrical performances were another resource. I wrote a comedy in fifteen days"
+    },
+    {
+      "id": 5,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "How does Rousseau respond when faced with a personal crisis or embarrassing situation?",
+      "held_out_passage": "This, on account of my situation, would have thrown me into the greatest embarrassment, had not one of my messmates furnished me with the only resource which could relieve me from it."
+    },
+    {
+      "id": 6,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "When Rousseau creates work that contradicts his stated political principles, what does he do?",
+      "held_out_passage": "I dared not either avow this comedy or show it, and this for the singular reason that neither the King of France nor the French were ever better spoken of nor praised with more sincerity of heart than in my piece though written by a professed republican, I dared not declare myself the panegyrist of a nation, whose maxims were exactly the reverse of my own."
+    },
+    {
+      "id": 7,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Given Rousseau's sensitivity and concern for consistency, how would he likely react to being perceived as insincere or flattering toward those he philosophically opposes?",
+      "held_out_passage": "More grieved at the misfortunes of France than the French themselves I was afraid the public would construe into flattery and mean complaisance the marks of a sincere attachment"
+    },
+    {
+      "id": 8,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How does Rousseau's acute sensitiveness and concern for propriety influence his social choices regarding which establishments he frequents?",
+      "held_out_passage": "This table was also frequented by commercial people, financiers and contractors, but extremely polite, and such as were distinguished amongst those of the same profession."
+    },
+    {
+      "id": 9,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Based on the training text's description of Rousseau's character, would he be comfortable in a social setting where indecent language or vulgarity is common?",
+      "held_out_passage": "nor did any indecent expression, which even women would not have pardoned him, escape his lips. His manner served as a rule to every person at table"
+    },
+    {
+      "id": 10,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "When Rousseau observes someone modeling refined behavior in a social setting, what is his likely response?",
+      "held_out_passage": "The old commander with all his smutty stories, with respect to the substance, never lost sight of the politeness of the old court; nor did any indecent expression, which even women would not have pardoned him, escape his lips. His manner served as a rule to every person at table; all the"
+    },
+    {
+      "id": 11,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "When Rousseau discovers that someone close to him has been conducting secret affairs without his knowledge, how does he typically respond emotionally?",
+      "held_out_passage": "These reflections at length alienated my affections from this woman, and to such a degree that I could no longer look upon her but with contempt."
+    },
+    {
+      "id": 12,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "Based on Rousseau's character as revealed in his confessions, when he feels betrayed by ingratitude from those he has supported, what is his likely emotional trajectory?",
+      "held_out_passage": "What monstrous ingratitude was hers, to endeavor to instil it into her from whom I expected my greatest consolation? These reflections at length alienated my affections from this woman"
+    },
+    {
+      "id": 13,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "How does Rousseau typically handle situations where he must maintain social propriety despite having lost respect for someone?",
+      "held_out_passage": "I nevertheless continued to treat with respect the mother of the friend of my bosom, and in everything to show her almost the reverence of a son; but I must confess I could not remain long with her without pain"
+    },
+    {
+      "id": 14,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "When Rousseau reflects on his own role in relationship failures, what pattern of self-assessment does he typically exhibit?",
+      "held_out_passage": "This is another short moment of my life, in which I approached near to happiness without being able to attain it, and this by no fault of my own."
+    },
+    {
+      "id": 15,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How does Rousseau characterize his own capacity for trust and suspicion when faced with evidence of conspiracy around him?",
+      "held_out_passage": "But my blind confidence, which nothing had yet diminished, was such that I could not imagine she wished to injure the person she ought to love."
+    },
+    {
+      "id": 16,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "When Rousseau identifies gaps in intellectual compatibility with his companion, what does he recognize as a missed opportunity?",
+      "held_out_passage": "I now felt the neglect I had been guilty of during the first years of our connection, in not taking advantage of the docility with which her love inspired her, to improve her talents and give her knowledge"
+    },
+    {
+      "id": 17,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "How does Rousseau respond when he perceives that those claiming to be his friends are attempting to control his choices?",
+      "held_out_passage": "Though I saw numerous conspiracies formed on every side, all I complain of was the tyranny of persons who called themselves my friends, and who, as it seemed, would force me to be happy in the manner they should point out, and not in that I had chosen for myself."
+    },
+    {
+      "id": 18,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "When someone close to him keeps secrets to maintain family loyalty, how does Rousseau interpret the impact on their relationship?",
+      "held_out_passage": "Although Theresa refused to join in the confederacy with her mother, she afterwards kept her secret. For this her motive was commendable, although I will not determine whether she did it well or ill. Two women, who have secrets between them, love to prattle together; this attracted them towards each other, and Theresa, by dividing herself, sometimes let me feel I was alone"
+    },
+    {
+      "id": 19,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "What does Rousseau identify as the consequence of allowing one secret to be kept between intimate parties?",
+      "held_out_passage": "When once we make a secret of anything to the person we love, we soon make little scruple of doing it in everything"
+    },
+    {
+      "id": 20,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "How does Rousseau characterize his own foresight when presented with warning signs of betrayal from those he trusts?",
+      "held_out_passage": "Had I been more clear sighted, I should from this moment have perceived I nourished a serpent in my bosom."
+    },
+    {
+      "id": 21,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "When Rousseau discovers that someone's distant behavior toward him stems from jealousy rather than contempt, how does he typically respond emotionally and behaviorally?",
+      "held_out_passage": "int Lambert were less changed than I had imagined, and I at length understood that his keeping her at a distance from me proceeded more from jealousy than from disesteem. [Such in the simplicity of my heart was my opinion when I wrote these confessions.] This was a consolation to me, and calmed my mind."
+    },
+    {
+      "id": 22,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "When Rousseau experiences a guilty passion that he cannot fully extinguish, what approach does he take to manage it?",
+      "held_out_passage": "If I did not quite extinguish in it a guilty and an unhappy passion, I at least so well regulated the remains of it that they have never since that moment led me into the most trifling error."
+    },
+    {
+      "id": 23,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How does Rousseau typically handle the continuation of contact with someone after a romantic relationship has ended?",
+      "held_out_passage": "The copies of Madam d' Houdetot, which she prevailed upon me to take again, and my works, which I continued to send her as soon as they appeared, produced me from her a few notes and messages, indifferent but obliging."
+    },
+    {
+      "id": 24,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "When rumors spread about Rousseau having quarreled with associates, what kind of evidence does he value as refutation?",
+      "held_out_passage": "Another advantage this dinner procured me was its being spoken of in Paris, where it served as a refutation of the rumor spread by my enemies, that I had quarrelled with every person who partook of it"
+    },
+    {
+      "id": 25,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "Based on Rousseau's character as described in the training text, how would he likely respond to critics who claim his retreat to the country is motivated by stubbornness rather than genuine preference?",
+      "held_out_passage": "The Coterie insisted this was from a motive of pure obstinacy, and that I was weary even to death of my retirement; but that, eaten up with pride, I chose rather to become a victim of my stubbornness than to recover from it and return to Paris."
+    },
+    {
+      "id": 26,
+      "tier": "behavioral_prediction",
+      "category": "change_over_time",
+      "text": "When Rousseau writes in a new setting after leaving an urban environment, what change does he observe in his own writing style?",
+      "held_out_passage": "This reigned in all the works I had written in Paris; but in the first I wrote in the country not the least appearance of it was to be found."
+    },
+    {
+      "id": 27,
+      "tier": "behavioral_prediction",
+      "category": "career",
+      "text": "How does Rousseau's excessive pride typically affect his professional relationships with other writers and editors?",
+      "held_out_passage": "As I had too much pride to send my works to the authors of periodical publications, and wishing to send him this without his imagining it was in consequence of that title, or being desirous he should speak of it in the Mercure, I wrote upon the book that it was not for the author of the Mercure, but for M. Marmontel."
+    },
+    {
+      "id": 28,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "When Rousseau intends to pay a compliment to a man of letters, what unintended consequence often results from his approach?",
+      "held_out_passage": "I thought I paid him a fine compliment; he mistook it for a cruel offence, and became my irreconcilable enemy."
+    },
+    {
+      "id": 29,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "What does Rousseau identify as a critical lesson about managing relationships with sensitive, proud individuals?",
+      "held_out_passage": "Such difficulty is there in managing the irritable self-love of men of letters, and so careful ought every person to be not to leave anything equivocal in the compliments they pay them."
+    },
+    {
+      "id": 30,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When Rousseau believes his intellectual property is being used without proper respect or compensation, how does he typically respond?",
+      "held_out_passage": "Enraged at seeing these people arrogantly dispose of my property, I again took up the memoir I had sent to M. D'Argenson, to which no answer had been returned, and having made some trifling alterations in it, I sent the manuscript by M. Sellon"
+    },
+    {
+      "id": 31,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When facing pressure from a well-meaning friend to relocate to a country, how does Rousseau typically respond?",
+      "held_out_passage": "Madam de Boufflers highly disapproved this resolution, and renewed her efforts to induce me to go to England, but all she could say was of no effect; I had never loved England nor the English, and the eloquence of Madam de Boufflers, far from conquering my repugnancy, seemed to increase it without my knowing why."
+    },
+    {
+      "id": 32,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When Rousseau believes powerful forces are working against him in a location, what does he typically decide to do?",
+      "held_out_passage": "Knowing I had secret and powerful enemies in the kingdom, I thought, notwithstanding my attachment to France, I ought to quit it, the better to insure my future tranquillity."
+    },
+    {
+      "id": 33,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How does Rousseau balance his love for his homeland against his perception of danger there?",
+      "held_out_passage": "Nevertheless, the love of my country called me to it, and could I have flattered myself I should there have lived in peace, I should not have hesitated; but neither honor nor reason permitting me to take refuge as a fugitive in a place of which I was a citizen, I resolved to approach it only, and to wait in Switzerland until something relative to me should be determined upon in Geneva."
+    },
+    {
+      "id": 34,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When preparing to flee, what does Rousseau prioritize regarding his personal documents and correspondence?",
+      "held_out_passage": "Since I had determined to write my own memoirs, I had collected a great number of letters and other papers, so that he was obliged to return several times. A part of these papers, already selected, were laid aside, and I employed the morning in sorting the rest, that I might take with me such only as were necessary and destroy what remained."
+    },
+    {
+      "id": 35,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "When facing an emotional farewell with a beloved family member, how does Rousseau typically behave?",
+      "held_out_passage": "In this pleasing yet cruel moment, the remembrance of so many days of happiness, tenderness and peace passed together augmented the grief of a first separation after an union of seventeen years during which we had scarcely lost sight of each other for a single day."
+    },
+    {
+      "id": 36,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How does Rousseau respond when someone close to him offers practical assistance during a crisis?",
+      "held_out_passage": "The marechal offered to take upon himself to sort what I should leave behind me, and throw into the fire every sheet that he found useless, without trusting to any person whomsoever, and to send me those of which he should make choice. I accepted his offer, very glad to be delivered from that care, that I might pass the few hours I had to remain with persons so dear to me, from whom I was going to separate forever."
+    },
+    {
+      "id": 37,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "When a dependent person discovers Rousseau's situation unexpectedly, what is his typical emotional response?",
+      "held_out_passage": "La Roche accompanied her to the castle in silence; she thought I was already far from Montmorency; on perceiving me, she made the place resound with her cries, and threw herself into my arms."
+    },
+    {
+      "id": 38,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "When someone close to him insists on accompanying him during a dangerous departure, how does Rousseau typically handle it?",
+      "held_out_passage": "Theresa determined never more to leave me out of her sight. I made her feel the inconvenience of accompanying me at that moment, and the necessity of her remaining to take care of my effects and collect my money."
+    },
+    {
+      "id": 39,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "How does Rousseau's suspicion of institutional power influence his strategic decisions about where to seek refuge?",
+      "held_out_passage": "I knew the ministry of France, more powerful at Geneva than at Paris, would not leave me more at peace in one of these cities than in the other, were a resolution taken to torment me. I was also convinced the 'Discourse upon Inequality' had excited against me in the council a hatred the more dangerous as the council dared not make it manifest."
+    },
+    {
+      "id": 40,
+      "tier": "recall",
+      "category": "recall",
+      "text": "In what year was this edition of The Confessions of Jean Jacques Rousseau privately printed?",
+      "held_out_passage": null
+    },
+    {
+      "id": 41,
+      "tier": "recall",
+      "category": "recall",
+      "text": "Who produced this edition of The Confessions?",
+      "held_out_passage": null
+    },
+    {
+      "id": 42,
+      "tier": "recall",
+      "category": "recall",
+      "text": "For whom was this edition privately printed?",
+      "held_out_passage": null
+    },
+    {
+      "id": 43,
+      "tier": "recall",
+      "category": "recall",
+      "text": "How many books is The Confessions of Jean Jacques Rousseau divided into?",
+      "held_out_passage": null
+    },
+    {
+      "id": 44,
+      "tier": "recall",
+      "category": "recall",
+      "text": "According to the text, which three figures chiefly represented the modern spirit against absolutism and feudalism?",
+      "held_out_passage": null
+    },
+    {
+      "id": 45,
+      "tier": "recall",
+      "category": "recall",
+      "text": "What Latin phrase does the text use to describe Rousseau's goal of showing himself to posterity?",
+      "held_out_passage": null
+    },
+    {
+      "id": 46,
+      "tier": "recall",
+      "category": "recall",
+      "text": "Which poet is mentioned as having a soul near akin to Rousseau's and whose writings were influenced by him?",
+      "held_out_passage": null
+    },
+    {
+      "id": 47,
+      "tier": "recall",
+      "category": "recall",
+      "text": "In which work by Lord Byron does the text say sympathy with Rousseau is expressed with truth and power?",
+      "held_out_passage": null
+    },
+    {
+      "id": 48,
+      "tier": "recall",
+      "category": "recall",
+      "text": "What is identified as Rousseau's greatest fault according to the text?",
+      "held_out_passage": null
+    },
+    {
+      "id": 49,
+      "tier": "recall",
+      "category": "recall",
+      "text": "Who was Madame de Warens in relation to Rousseau, according to the text?",
+      "held_out_passage": null
+    },
+    {
+      "id": 50,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "Why might Rousseau's acute sensitiveness and suspicion of his fellows have made his task of self-revelation in The Confessions particularly challenging, given what the text says about his character and his life experiences?",
+      "held_out_passage": null
+    },
+    {
+      "id": 51,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "How do Byron's observations about Rousseau's ability to 'make madness beautiful' and 'cast o'er erring deeds...a heavenly hue of words' relate to the text's earlier claim about the 'startling frankness' of The Confessions?",
+      "held_out_passage": null
+    },
+    {
+      "id": 52,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "The text suggests that Rousseau's faults stemmed from causes beyond his control, yet also describes him as having 'self-sought foes' and 'self-banished' friends. How can both of these characterizations be reconciled?",
+      "held_out_passage": null
+    },
+    {
+      "id": 53,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "Given that the text identifies Rousseau as a key representative of the modern spirit against absolutism and feudalism, what might explain why his personal character flaws—such as his treatment of Madame de Warens—seem to contradict his philosophical ideals?",
+      "held_out_passage": null
+    },
+    {
+      "id": 54,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "How does the text's description of Rousseau's 'overstrained sense of honour and independence' combined with his 'obstinate refusal to take advice' help explain Byron's characterization of him as someone whose 'mind had grown Suspicion's sanctuary'?",
+      "held_out_passage": null
+    },
+    {
+      "id": 55,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "The text notes that Rousseau's greatest fault was abandoning his paternal duties, which he later repented for bitterly. What does this pattern suggest about the relationship between his character flaws and his capacity for self-awareness?",
+      "held_out_passage": null
+    },
+    {
+      "id": 56,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "Why might the text's assertion that Rousseau 'exceeded his powers' in attempting complete self-revelation be particularly significant given that his work is praised for its 'startling frankness'?",
+      "held_out_passage": null
+    },
+    {
+      "id": 57,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "How do the text's references to Rousseau's 'incurable disease' and Byron's mention of him being 'frenzied by disease or woe' work together to complicate the moral judgment of his personal failings?",
+      "held_out_passage": null
+    },
+    {
+      "id": 58,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "The text suggests that Rousseau's political and philosophical works have largely been forgotten by the general public, yet his autobiography remains valuable. What does this imply about the relationship between his ideas and his personal character as sources of historical interest?",
+      "held_out_passage": null
+    },
+    {
+      "id": 59,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "Given that the text describes Rousseau as both deeply loving Madame de Warens and yet treating her memory with 'unnecessary and unbecoming lack of delicacy,' what does this contradiction reveal about the limitations of his self-awareness despite The Confessions' frankness?",
+      "held_out_passage": null
+    },
+    {
+      "id": 60,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "How might Rousseau's defective education, mentioned as a cause of his faults, have contributed to both his philosophical influence on the modern spirit and his personal inability to maintain stable relationships?",
+      "held_out_passage": null
+    },
+    {
+      "id": 61,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What would Rousseau's position be on artificial intelligence and machine learning algorithms making decisions about human welfare?",
+      "held_out_passage": null
+    },
+    {
+      "id": 62,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "How would Rousseau have responded to the invention of the internet and its role in creating both global community and social fragmentation?",
+      "held_out_passage": null
+    },
+    {
+      "id": 63,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What specific dietary recommendations would Rousseau endorse for people living in 21st-century urban environments?",
+      "held_out_passage": null
+    },
+    {
+      "id": 64,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "How would Rousseau have evaluated the effectiveness of modern psychotherapy compared to his theories of human nature?",
+      "held_out_passage": null
+    },
+    {
+      "id": 65,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What would Rousseau's stance be on genetic engineering and the modification of human DNA to eliminate hereditary diseases?",
+      "held_out_passage": null
+    },
+    {
+      "id": 66,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "How would Rousseau have assessed the role of social media influencers in shaping the general will of contemporary societies?",
+      "held_out_passage": null
+    },
+    {
+      "id": 67,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What specific policy recommendations would Rousseau propose for addressing climate change and environmental degradation?",
+      "held_out_passage": null
+    },
+    {
+      "id": 68,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "How would Rousseau have evaluated the concept of universal basic income as a solution to modern economic inequality?",
+      "held_out_passage": null
+    },
+    {
+      "id": 69,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What would Rousseau's personal opinion be on the scientific evidence regarding the heritability of intelligence?",
+      "held_out_passage": null
+    },
+    {
+      "id": 70,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "How would Rousseau have responded to the development of virtual reality technology and its potential to create alternative social contracts?",
+      "held_out_passage": null
+    },
+    {
+      "id": 71,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Given Rousseau's acute sensitivity and suspicion of others, how would he have responded if someone he trusted had genuinely tried to help him but he misinterpreted their motives—would his need for independence or his capacity for self-reflection have won out?",
+      "held_out_passage": null
+    },
+    {
+      "id": 72,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Rousseau advocated for natural education and authenticity, yet carefully curated his self-presentation in the Confessions. At what point does his selective honesty become incompatible with his philosophical commitment to transparency?",
+      "held_out_passage": null
+    },
+    {
+      "id": 73,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "His renunciation of paternal duty conflicted with his later repentance. If given the opportunity to raise his children after his philosophical awakening, would his theoretical ideals about education have actually guided his parenting, or would his character flaws have reasserted themselves?",
+      "held_out_passage": null
+    },
+    {
+      "id": 74,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Rousseau experienced both profound loneliness and self-imposed isolation through his suspicions. Could he distinguish between genuine rejection by others and rejection he unconsciously provoked, or was this distinction permanently blurred for him?",
+      "held_out_passage": null
+    },
+    {
+      "id": 75,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "His treatment of Madame de Warens' memory shows him criticizing her while acknowledging deep love. Does this reveal a capacity for nuanced judgment, or does it suggest he could rationalize contradictory feelings without recognizing the contradiction?",
+      "held_out_passage": null
+    },
+    {
+      "id": 76,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Given his chronic illness influenced his behavior, how much of Rousseau's philosophy was a rationalization of his physical and psychological limitations versus a genuine intellectual position?",
+      "held_out_passage": null
+    },
+    {
+      "id": 77,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Rousseau rejected advice from those who wished to befriend him. Would accepting such guidance have actually improved his life, or would it have compromised the authenticity he valued—making his refusal philosophically consistent rather than merely self-destructive?",
+      "held_out_passage": null
+    },
+    {
+      "id": 78,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "His 'startling frankness' in the Confessions is selective. If truly committed to showing himself 'intus et in cute' (inside and out), what prevented him from achieving complete transparency, and was he aware of these omissions?",
+      "held_out_passage": null
+    },
+    {
+      "id": 79,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Rousseau championed the general will and social contract while being constitutionally unable to function in stable social relationships. Can his political philosophy be separated from his personal pathology, or are they fundamentally entangled?",
+      "held_out_passage": null
+    },
+    {
+      "id": 80,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "His overstrained sense of honor and independence created conflict with benefactors. In moments of genuine vulnerability when he needed help, did he experience these values as protective principles or as prison walls—and did his perspective shift depending on his emotional state?",
+      "held_out_passage": null
+    }
+  ]
+}

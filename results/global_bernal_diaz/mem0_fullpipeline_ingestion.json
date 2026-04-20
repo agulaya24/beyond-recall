@@ -1,0 +1,13 @@
+{
+  "subject": "bernal_diaz",
+  "system": "mem0",
+  "mode": "fullpipeline",
+  "user_id": "bernal_diaz_fullpipeline",
+  "chunks_expected": 52,
+  "chunks_posted": 52,
+  "post_success": 54,
+  "post_failure": 1,
+  "start_time": "2026-04-16T06:57:18.726218+00:00",
+  "end_time": "2026-04-16T06:58:21.619439+00:00",
+  "verification_passed": true
+}

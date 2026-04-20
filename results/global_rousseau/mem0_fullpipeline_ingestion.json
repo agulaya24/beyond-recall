@@ -1,0 +1,13 @@
+{
+  "subject": "rousseau",
+  "system": "mem0",
+  "mode": "fullpipeline",
+  "user_id": "rousseau_fullpipeline",
+  "chunks_expected": 77,
+  "chunks_posted": 77,
+  "post_success": 79,
+  "post_failure": 1,
+  "start_time": "2026-04-16T06:58:22.526816+00:00",
+  "end_time": "2026-04-16T06:59:45.296629+00:00",
+  "verification_passed": true
+}

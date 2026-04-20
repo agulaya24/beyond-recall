@@ -1,0 +1,13 @@
+{
+  "subject": "hamerton",
+  "system": "zep",
+  "mode": "fullpipeline",
+  "user_id": "hamerton_fullpipeline",
+  "chunks_expected": 85,
+  "chunks_posted": 85,
+  "post_success": 85,
+  "post_failure": 0,
+  "start_time": "2026-04-16T06:51:05.371268+00:00",
+  "end_time": "2026-04-16T06:53:21.346919+00:00",
+  "verification_passed": true
+}

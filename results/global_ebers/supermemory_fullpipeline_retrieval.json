@@ -1,0 +1,410 @@
+{
+  "1": {
+    "question_id": 1,
+    "system": "supermemory",
+    "mode": "fullpipeline",
+    "facts_returned": 0,
+    "fact_texts": [],
+    "latency_ms": 571,
+    "timestamp": "2026-04-16T07:22:03.004691+00:00"
+  },
+  "2": {
+    "question_id": 2,
+    "system": "supermemory",
+    "mode": "fullpipeline",
+    "facts_returned": 0,
+    "fact_texts": [],
+    "latency_ms": 581,
+    "timestamp": "2026-04-16T07:22:03.590343+00:00"
+  },
+  "3": {
+    "question_id": 3,
+    "system": "supermemory",
+    "mode": "fullpipeline",
+    "facts_returned": 0,
+    "fact_texts": [],
+    "latency_ms": 602,
+    "timestamp": "2026-04-16T07:22:04.193615+00:00"
+  },
+  "4": {
+    "question_id": 4,
+    "system": "supermemory",
+    "mode": "fullpipeline",
+    "facts_returned": 0,
+    "fact_texts": [],
+    "latency_ms": 518,
+    "timestamp": "2026-04-16T07:22:04.712732+00:00"
+  },
+  "5": {
+    "question_id": 5,
+    "system": "supermemory",
+    "mode": "fullpipeline",
+    "facts_returned": 0,
+    "fact_texts": [],
+    "latency_ms": 556,
+    "timestamp": "2026-04-16T07:22:05.268606+00:00"
+  },
+  "6": {
+    "question_id": 6,
+    "system": "supermemory",
+    "mode": "fullpipeline",
+    "facts_returned": 0,
+    "fact_texts": [],
+    "latency_ms": 528,
+    "timestamp": "2026-04-16T07:22:05.798211+00:00"
+  },
+  "7": {
+    "question_id": 7,
+    "system": "supermemory",
+    "mode": "fullpipeline",
+    "facts_returned": 4,
+    "fact_texts": [
+      "He was, I repeat, every inch a man. When very young, the conviction that the education of German boys was his real calling obtained so firm a hold upon his mind that he could not be dissuaded from giving up the study of the law, in which he had made considerable progress at Halle, and devoting himself to pedagogy. His father, a busy lawyer, had threatened him with disinheritance if he did not relinquish his intention of accepting the by no means brilliant position of a teacher at Keilhau; but he remained loyal to his choice, though his father executed his threat and cast him off. After the old gentleman’s death his brothers and sisters voluntarily restored his portion of the property, but, as he himself told me long after, the quarrel with one so dear to him saddened his life for years. For the sake of the “fidelity to one’s self” which he required from others he had lost his father’s love, but he had obeyed a resistless inner voice, and the genuineness of his vocation was to be brilliantly proved.",
+      "The extreme kindness extended to her by Emperor William I and his sovereign spouse solaced her old age in various ways. One of the dearest friends of my sister Paula and of our family knew more of me, unfortunately, at this time than I of her. Her name was Babette Meyer, now Countess Palckreuth. She lived in our neighbourhood, and was a charming, graceful child, but not one of our acquaintances. When she was grown up--we were good friends then--she told me she was coming from school one winter day, and some boys threw snowballs at her. Then Ludo and I appeared--“the Ebers boys” and she thought that would be the end of her; but instead of attacking her we fell upon the boys, who turned upon us, and drove them away, she escaping betwixt Scylla and Charybdis. Before this praiseworthy deed we had, however, thrown snow at a young lady in wanton mischief.",
+      "I need not describe the state of mind in which she reached the deck, and her emotion when she found her nestling in his place, still holding the line in his hand. As the luckless son of Albion was rescued unharmed, we could look back upon the incident gaily, but neither of us forgot this anxiety--the first I was to cause my mother. I have forgotten everything else that happened on our way home; but when I think of this first journey, a long one for so young a child, and the many little trips--usually to Dresden, where my grandmother Ebers lived--which I was permitted to take, I wonder whether they inspired the love of travel which moved me so strongly later, or whether it was an inborn instinct. If a popular superstition is correct, I was predestined to journey.",
+      "It is difficult in these days to form an idea of the sharp divisions which succeeded the night of the revolution in Berlin, just as one can hardly conceive now, even in court circles, of the whole extent and enthusiastic strength of the sentiment of Prussian loyalty at that time. These opposite principles separated friends, estranged families long united in love, and made themselves felt even in the Schmidt school during the short time that we continued to go there. Our bold excursion over the barricades was unpunished, so far as I remember. Perhaps it was not even noticed, for our mother, in spite of her violent headache, had to make preparations for the illumination of our tolerably long row of windows. Not to have lighted the house would have imperilled the window-panes. To my regret, we were not allowed to see the illumination."
+    ],
+    "latency_ms": 1072,
+    "timestamp": "2026-04-16T07:22:06.871428+00:00"
+  },
+  "8": {
+    "question_id": 8,
+    "system": "supermemory",
+    "mode": "fullpipeline",
+    "facts_returned": 0,
+    "fact_texts": [],
+    "latency_ms": 544,
+    "timestamp": "2026-04-16T07:22:07.419456+00:00"
+  },
+  "9": {
+    "question_id": 9,
+    "system": "supermemory",
+    "mode": "fullpipeline",
+    "facts_returned": 0,
+    "fact_texts": [],
+    "latency_ms": 629,
+    "timestamp": "2026-04-16T07:22:08.048059+00:00"
+  },
+  "10": {
+    "question_id": 10,
+    "system": "supermemory",
+    "mode": "fullpipeline",
+    "facts_returned": 0,
+    "fact_texts": [],
+    "latency_ms": 527,
+    "timestamp": "2026-04-16T07:22:08.578866+00:00"
+  },
+  "11": {
+    "question_id": 11,
+    "system": "supermemory",
+    "mode": "fullpipeline",
+    "facts_returned": 0,
+    "fact_texts": [],
+    "latency_ms": 665,
+    "timestamp": "2026-04-16T07:22:09.244482+00:00"
+  },
+  "12": {
+    "question_id": 12,
+    "system": "supermemory",
+    "mode": "fullpipeline",
+    "facts_returned": 0,
+    "fact_texts": [],
+    "latency_ms": 550,
+    "timestamp": "2026-04-16T07:22:09.795432+00:00"
+  },
+  "13": {
+    "question_id": 13,
+    "system": "supermemory",
+    "mode": "fullpipeline",
+    "facts_returned": 0,
+    "fact_texts": [],
+    "latency_ms": 558,
+    "timestamp": "2026-04-16T07:22:10.354950+00:00"
+  },
+  "14": {
+    "question_id": 14,
+    "system": "supermemory",
+    "mode": "fullpipeline",
+    "facts_returned": 0,
+    "fact_texts": [],
+    "latency_ms": 861,
+    "timestamp": "2026-04-16T07:22:11.217719+00:00"
+  },
+  "15": {
+    "question_id": 15,
+    "system": "supermemory",
+    "mode": "fullpipeline",
+    "facts_returned": 0,
+    "fact_texts": [],
+    "latency_ms": 854,
+    "timestamp": "2026-04-16T07:22:12.076930+00:00"
+  },
+  "16": {
+    "question_id": 16,
+    "system": "supermemory",
+    "mode": "fullpipeline",
+    "facts_returned": 0,
+    "fact_texts": [],
+    "latency_ms": 583,
+    "timestamp": "2026-04-16T07:22:12.661271+00:00"
+  },
+  "17": {
+    "question_id": 17,
+    "system": "supermemory",
+    "mode": "fullpipeline",
+    "facts_returned": 0,
+    "fact_texts": [],
+    "latency_ms": 575,
+    "timestamp": "2026-04-16T07:22:13.240267+00:00"
+  },
+  "18": {
+    "question_id": 18,
+    "system": "supermemory",
+    "mode": "fullpipeline",
+    "facts_returned": 0,
+    "fact_texts": [],
+    "latency_ms": 736,
+    "timestamp": "2026-04-16T07:22:13.976779+00:00"
+  },
+  "19": {
+    "question_id": 19,
+    "system": "supermemory",
+    "mode": "fullpipeline",
+    "facts_returned": 0,
+    "fact_texts": [],
+    "latency_ms": 580,
+    "timestamp": "2026-04-16T07:22:14.558822+00:00"
+  },
+  "20": {
+    "question_id": 20,
+    "system": "supermemory",
+    "mode": "fullpipeline",
+    "facts_returned": 0,
+    "fact_texts": [],
+    "latency_ms": 586,
+    "timestamp": "2026-04-16T07:22:15.146088+00:00"
+  },
+  "21": {
+    "question_id": 21,
+    "system": "supermemory",
+    "mode": "fullpipeline",
+    "facts_returned": 0,
+    "fact_texts": [],
+    "latency_ms": 556,
+    "timestamp": "2026-04-16T07:22:15.703480+00:00"
+  },
+  "22": {
+    "question_id": 22,
+    "system": "supermemory",
+    "mode": "fullpipeline",
+    "facts_returned": 0,
+    "fact_texts": [],
+    "latency_ms": 577,
+    "timestamp": "2026-04-16T07:22:16.281072+00:00"
+  },
+  "23": {
+    "question_id": 23,
+    "system": "supermemory",
+    "mode": "fullpipeline",
+    "facts_returned": 0,
+    "fact_texts": [],
+    "latency_ms": 549,
+    "timestamp": "2026-04-16T07:22:16.830602+00:00"
+  },
+  "24": {
+    "question_id": 24,
+    "system": "supermemory",
+    "mode": "fullpipeline",
+    "facts_returned": 0,
+    "fact_texts": [],
+    "latency_ms": 495,
+    "timestamp": "2026-04-16T07:22:17.329924+00:00"
+  },
+  "25": {
+    "question_id": 25,
+    "system": "supermemory",
+    "mode": "fullpipeline",
+    "facts_returned": 0,
+    "fact_texts": [],
+    "latency_ms": 521,
+    "timestamp": "2026-04-16T07:22:17.855597+00:00"
+  },
+  "26": {
+    "question_id": 26,
+    "system": "supermemory",
+    "mode": "fullpipeline",
+    "facts_returned": 6,
+    "fact_texts": [
+      "And this name was explained by the circumstance that whoever would approach the king must do so by the way of “Hengstenberg.” We knew that quip, too, and yet the son of this mischievous enemy of progress was a particularly fine, bright boy, whom we all liked, and whose father, when I saw him, astonished me, for he was a kindly man and could laugh as cheerfully as anybody. It was all very difficult to understand; and, as we had more friends among the conservatives than among the democrats, we played usually with the former, and troubled ourselves very little about the politics of our friends’ fathers. There was, however, some looking askance at each other, and cries of “Loyal Legioner!” “Pietist!” “Democrat!” “Friend of Light!” were not wanting. As often happens in the course of history, uncomprehended or only half-comprehended catchwords serve as a banner around which a great following collects. The parties did not come to blows, probably for the sole reason that we conservatives were by far the stronger.",
+      "Then people came who wanted to till the ground. They began to clear (lichten) these woods at Lichtstadt. This was a difficult task, and they had used axes (Keile) for the purpose. At Eichfeld they felled the oaks (Fiche), and carried the trunks to Schaale, where the bark (Schale) was stripped off to make tan for the tanners on the Saale. So the name of Lichtstadt came from the clearing of the forests, Eichfeld from the felling of the oaks, Schaale from stripping off the bark, and Keilhau from the hewing with axes. This simple tale of ancient times had sprung from the Thuringian soil, so rich in legends, and, little as it might satisfy the etymologist, it delighted me. I believed it, and when afterward I looked down from a height into the valley and saw the Saale, my imagination clothed the bare or pineclad mountain slopes with huge oak forests, and beheld the giant forms of the ancient Thuringians felling the trees with their heavy axes. The idea of violence which seemed to be connected with the name of Keilhau had suddenly disappeared.",
+      "There lurked the enemy, and we sought them out. The enemy were the pupils of a humbler grade of school who called us Privy Councillor’s youngsters, which most of us were; and we called them, in return, ‘Knoten,’ which in its original meaning was anything but an insult, coming as it does by a natural philological process from “Genote,” the older form of “Genosse” or comrade. But to accuse us of arrogance on this account would be doing us wrong. Children don’t fight regularly with those whom they despise. Our “Knoten” was only a smart answer to their “Geheimrathsjoren.” If they had called us boobies we should probably have called them blockheads, or something of that sort. This troop, which was not over-well-dressed even before the beginning of the conflict, was led by some boys whose father kept a so-called flower cellar--that is, a basement shop for plants, wreaths, etc.--at the head of Leipzigerstrasse.",
+      "She gave various lessons to my sisters, and criticised our proceedings sharply, as she did those of her fellow-creatures in general. “I can’t help it--I Must say what I think,” was the palliating remark which followed every severe censure; and I owe to her the conviction that it is much easier to express disapproval, when it can be done with impunity, than to keep it to one’s self, as I am also indebted to her for the subject of my fairy tale, The Elixir. I shall return to Fraulein Lamperi, for her connection with our family did not cease until her death, and she lived to be ninety. Her aristocratic connections in Florence--be it said to their honour--never repudiated her, but visited her when they came to Berlin, and the equipage of the Italian ambassador followed at her funeral, for he, too, belonged to her father’s kindred. The extreme kindness extended to her by Emperor William I and his sovereign spouse solaced her old age in various ways.",
+      "He says: “Both these views are equally well founded, for only the united effort of the two forces could insure a possibility of victory.” Here again the great historian has found the true solution. It was for the interest of the Poles, the French, and other revolutionary spirits, to bring about a bloody conflict in Berlin, and there were many of them in the capital that spring, among whom must have been men who knew how to build barricades and organize revolts; and it can hardly be doubted that, at the decisive moment, they tried to enhance the vengefulness and combativeness of the people by strong drink and fiery speeches, perhaps, in regard to the dregs of the populace, by money. There is weighty evidence in support of this. But it is still more certain--and, though I was but eleven years old and brought up in a loyal atmosphere, I, too, felt and experienced it--that before the 18th of March the general discontent was at the highest point. There was no controlling it.",
+      "When I got into a passion I was as wild as a fighting cock, and even quiet Ludo could deal hard blows; and I can say the same of most of the “Geheimrathsjoren” and “Knoten.” It was not often that any decided success attended the fight, for the janitor or some inhabitant of the house usually interfered and brought it all to an untimely end. I remember still how a fat woman, probably a cook, seized me by the collar and pushed me out into the street, crying: “Fie! fie! such young gentlemen ought to be ashamed of themselves.” Hegel, however, whose influence at that time was still great in the learned circles of Berlin, had called shame “anger against what is natural,” and we liked what was natural. So the battles with the “Knoten” were continued until the Berlin revolution called forth more serious struggles, and our mother sent us away to Keilhau. Our sisters went to school also, a school kept by Fraulein Sollmann in the Dorotheenstrasse. And yet we had a tutor, I do not really know why."
+    ],
+    "latency_ms": 1690,
+    "timestamp": "2026-04-16T07:22:19.546935+00:00"
+  },
+  "27": {
+    "question_id": 27,
+    "system": "supermemory",
+    "mode": "fullpipeline",
+    "facts_returned": 5,
+    "fact_texts": [
+      "These exaggerations ran through the city, arousing indignation; and the correspondents of foreign papers, knowing that readers often like best what is most incredible, had sent the accounts to the provinces and foreign countries. But blood had flowed. Hatred of the soldiery, to which, however, some among the insurgents had once been proud to belong, grew with fateful rapidity, and was still further inflamed by those who saw in the military the brazen wall that stood between them and the fulfillment of their most ardent wishes. A spark might spring the open and overcharged mine into the air; an ill-chosen or misunderstood expression, a thoughtless act, might bring about an explosion. The greatest danger threatened from fresh conflicts between the army and the people, and it was to the fear of this that various young or elderly gentlemen owed their office of going about wherever a crowd was assembled and urging the populace to keep the peace.",
+      "The idea of violence which seemed to be connected with the name of Keilhau had suddenly disappeared. It had gained meaning to me, and Herr Middendorf had given us an excellent proof of a fundamental requirement of Friedrich Froebel, the founder of the institution: “The external must be spiritualized and given an inner significance.” The same talented pedagogue had said, “Our education associates instruction with the external world which surrounds the human being as child and youth”; and Middendorf carried out this precept when, at the first meeting, he questioned us about the trees and bushes by the wayside, and when we were obliged to confess our ignorance of most of them, he mentioned their names and described their peculiarities. At last we reached the Keilhau plain, a bowl whose walls formed tolerably high mountains which surrounded it on all sides except toward Rudolstadt, where an opening permitted the Schaalbach to wind through meadows and fields.",
+      "And this name was explained by the circumstance that whoever would approach the king must do so by the way of “Hengstenberg.” We knew that quip, too, and yet the son of this mischievous enemy of progress was a particularly fine, bright boy, whom we all liked, and whose father, when I saw him, astonished me, for he was a kindly man and could laugh as cheerfully as anybody. It was all very difficult to understand; and, as we had more friends among the conservatives than among the democrats, we played usually with the former, and troubled ourselves very little about the politics of our friends’ fathers. There was, however, some looking askance at each other, and cries of “Loyal Legioner!” “Pietist!” “Democrat!” “Friend of Light!” were not wanting. As often happens in the course of history, uncomprehended or only half-comprehended catchwords serve as a banner around which a great following collects. The parties did not come to blows, probably for the sole reason that we conservatives were by far the stronger.",
+      "That these frequently repeated pleasures were harmful to us children I willingly admit. And yet--when in after years I was told that I succeeded admirably in describing large bodies of men seized by some strong excitement, and that my novels did not lack dramatic movement or their scenes vividness, and, where it was requisite, splendour--I perhaps owe this to the superb pictures, interwoven with thrilling bursts of melody, which impressed themselves upon my soul when a child. Fortunately, the outdoor life at Keilhau counteracted the perils which might have arisen from attending theatrical performances too young. What I beheld there, in field and forest, enabled me in after life, when I desired a background for my stories, not to paint stage scenes, but take Nature herself for a model. I must also record another influence which had its share in my creative toil--my early intercourse with artists and the opportunity of seeing their work.",
+      "I have seen men--even our humble Kurschner--weep during the account of it by eye-witnesses. Whoever knew Frederick William IV. also knew that neither genuine reconciliation nor respect for the fallen champions of liberty induced him to show this outward token of respect, which was to him the deepest humiliation. The insincerity of the sovereign’s agreement with the ideas, events, and men of his day was evident in the reaction which appeared only too soon. His conviction showed itself under different forms, but remained unchanged, both in political and religious affairs. During the interval life had assumed a new aspect. The minority had become the majority, and many a son of a strictly conservative man was forbidden to oppose the “red.” Only no one needed to conceal his loyalty to the king, for at that"
+    ],
+    "latency_ms": 1004,
+    "timestamp": "2026-04-16T07:22:20.555527+00:00"
+  },
+  "28": {
+    "question_id": 28,
+    "system": "supermemory",
+    "mode": "fullpipeline",
+    "facts_returned": 6,
+    "fact_texts": [
+      "What I could not understand, the calm, kindly man explained with unfailing patience, and so I got an early insight into the sculptor’s creative art. It was these recollections of my childhood that suggested to me the character of little Pennu in Uarda, of Polykarp in Homo Sum, of Pollux in The Emperor, and the cheery Alexander in Per Aspera. I often visited also, during my last years in Berlin, the studio of another sculptor. His name was Streichenberg, and his workshop was in our garden in the Linkstrasse. If a thoughtful earnestness was the rule in Drake’s studio, in that of Prof. Streichenberg artistic gaiety reigned. He often whistled or sang at his work, and his young Italian assistant played the guitar. But while I still know exactly what Drake executed in our presence, so that I could draw the separate groups of the charming relief, the Genii of the Thiergarten, I do not remember a single stroke of Streichenberg’s work, though I can recall all the better the gay manner of the artist whom we again met in 1848 as a demagogue.",
+      "She gave various lessons to my sisters, and criticised our proceedings sharply, as she did those of her fellow-creatures in general. “I can’t help it--I Must say what I think,” was the palliating remark which followed every severe censure; and I owe to her the conviction that it is much easier to express disapproval, when it can be done with impunity, than to keep it to one’s self, as I am also indebted to her for the subject of my fairy tale, The Elixir. I shall return to Fraulein Lamperi, for her connection with our family did not cease until her death, and she lived to be ninety. Her aristocratic connections in Florence--be it said to their honour--never repudiated her, but visited her when they came to Berlin, and the equipage of the Italian ambassador followed at her funeral, for he, too, belonged to her father’s kindred. The extreme kindness extended to her by Emperor William I and his sovereign spouse solaced her old age in various ways.",
+      "And this name was explained by the circumstance that whoever would approach the king must do so by the way of “Hengstenberg.” We knew that quip, too, and yet the son of this mischievous enemy of progress was a particularly fine, bright boy, whom we all liked, and whose father, when I saw him, astonished me, for he was a kindly man and could laugh as cheerfully as anybody. It was all very difficult to understand; and, as we had more friends among the conservatives than among the democrats, we played usually with the former, and troubled ourselves very little about the politics of our friends’ fathers. There was, however, some looking askance at each other, and cries of “Loyal Legioner!” “Pietist!” “Democrat!” “Friend of Light!” were not wanting. As often happens in the course of history, uncomprehended or only half-comprehended catchwords serve as a banner around which a great following collects. The parties did not come to blows, probably for the sole reason that we conservatives were by far the stronger.",
+      "That these frequently repeated pleasures were harmful to us children I willingly admit. And yet--when in after years I was told that I succeeded admirably in describing large bodies of men seized by some strong excitement, and that my novels did not lack dramatic movement or their scenes vividness, and, where it was requisite, splendour--I perhaps owe this to the superb pictures, interwoven with thrilling bursts of melody, which impressed themselves upon my soul when a child. Fortunately, the outdoor life at Keilhau counteracted the perils which might have arisen from attending theatrical performances too young. What I beheld there, in field and forest, enabled me in after life, when I desired a background for my stories, not to paint stage scenes, but take Nature herself for a model. I must also record another influence which had its share in my creative toil--my early intercourse with artists and the opportunity of seeing their work.",
+      "When I wrote my fairy-tale, The Nuts, I had the Christmas fair at Berlin in my mind’s eye, and I seemed to see the wretched little girl who, among all the happy folk, had found nothing but cold, pain, anguish, and a handful of nuts, and who afterward fared so happily--not, indeed, among men, but with the most beautiful angels in heaven. Why are the Berlin children defrauded of this bright and innocent pleasure, and their hearts denied the practice of exercising charity? Turning my thoughts backward, it seems to me as if almost too much beauty and pleasure were crowded together at Christmas, richly provided with presents as we were besides, for over and above the Christmas fair there was Kroll’s Christmas exhibition, where clever heads and skilful hands transformed a series of great halls, at one time into the domain of winter, at another into the kingdom of the fairies. There was nothing to do but look. Imagination came to a standstill, for what could it add to these wonders?",
+      "I have seen men--even our humble Kurschner--weep during the account of it by eye-witnesses. Whoever knew Frederick William IV. also knew that neither genuine reconciliation nor respect for the fallen champions of liberty induced him to show this outward token of respect, which was to him the deepest humiliation. The insincerity of the sovereign’s agreement with the ideas, events, and men of his day was evident in the reaction which appeared only too soon. His conviction showed itself under different forms, but remained unchanged, both in political and religious affairs. During the interval life had assumed a new aspect. The minority had become the majority, and many a son of a strictly conservative man was forbidden to oppose the “red.” Only no one needed to conceal his loyalty to the king, for at that"
+    ],
+    "latency_ms": 931,
+    "timestamp": "2026-04-16T07:22:21.487635+00:00"
+  },
+  "29": {
+    "question_id": 29,
+    "system": "supermemory",
+    "mode": "fullpipeline",
+    "facts_returned": 5,
+    "fact_texts": [
+      "That these frequently repeated pleasures were harmful to us children I willingly admit. And yet--when in after years I was told that I succeeded admirably in describing large bodies of men seized by some strong excitement, and that my novels did not lack dramatic movement or their scenes vividness, and, where it was requisite, splendour--I perhaps owe this to the superb pictures, interwoven with thrilling bursts of melody, which impressed themselves upon my soul when a child. Fortunately, the outdoor life at Keilhau counteracted the perils which might have arisen from attending theatrical performances too young. What I beheld there, in field and forest, enabled me in after life, when I desired a background for my stories, not to paint stage scenes, but take Nature herself for a model. I must also record another influence which had its share in my creative toil--my early intercourse with artists and the opportunity of seeing their work.",
+      "What I could not understand, the calm, kindly man explained with unfailing patience, and so I got an early insight into the sculptor’s creative art. It was these recollections of my childhood that suggested to me the character of little Pennu in Uarda, of Polykarp in Homo Sum, of Pollux in The Emperor, and the cheery Alexander in Per Aspera. I often visited also, during my last years in Berlin, the studio of another sculptor. His name was Streichenberg, and his workshop was in our garden in the Linkstrasse. If a thoughtful earnestness was the rule in Drake’s studio, in that of Prof. Streichenberg artistic gaiety reigned. He often whistled or sang at his work, and his young Italian assistant played the guitar. But while I still know exactly what Drake executed in our presence, so that I could draw the separate groups of the charming relief, the Genii of the Thiergarten, I do not remember a single stroke of Streichenberg’s work, though I can recall all the better the gay manner of the artist whom we again met in 1848 as a demagogue.",
+      "been dissatisfied with the fate of Robinson Crusoe. The Christmas exhibition at Fuchs’s, Unter den Linden, was merely entertaining--Berlin jokes in pictures mainly of a political or satirical order. Most distinctly of all I remember the sentimental lady of rank who orders her servant to catch a fly on a tea-tray and put it carefully out of the window. The obedient Thomas gets hold of the insect, takes it to the window, and with the remark, “Your ladyship, it is pouring, the poor thing might take cold,” brings it back again to the tea-tray. There was plenty of such entertainment in winter, and we had our part in much of it. Rellstab, the well-known editor of Voss’s journal, made a clever collection of such jokes in his Christmas Wanderings. We could read, and whatever was offered by that literary St. Nicholas and highly respected musical critic for cultivated Berlin our mother was quite willing we should enjoy. CHAPTER VIII.",
+      "She gave various lessons to my sisters, and criticised our proceedings sharply, as she did those of her fellow-creatures in general. “I can’t help it--I Must say what I think,” was the palliating remark which followed every severe censure; and I owe to her the conviction that it is much easier to express disapproval, when it can be done with impunity, than to keep it to one’s self, as I am also indebted to her for the subject of my fairy tale, The Elixir. I shall return to Fraulein Lamperi, for her connection with our family did not cease until her death, and she lived to be ninety. Her aristocratic connections in Florence--be it said to their honour--never repudiated her, but visited her when they came to Berlin, and the equipage of the Italian ambassador followed at her funeral, for he, too, belonged to her father’s kindred. The extreme kindness extended to her by Emperor William I and his sovereign spouse solaced her old age in various ways.",
+      "Most distinctly of all I remember the sentimental lady of rank who orders her servant to catch a fly on a tea-tray and put it carefully out of the window. The obedient Thomas gets hold of the insect, takes it to the window, and with the remark, “Your ladyship, it is pouring, the poor thing might take cold,” brings it back again to the tea-tray. There was plenty of such entertainment in winter, and we had our part in much of it. Rellstab, the well-known editor of Voss’s journal, made a clever collection of such jokes in his Christmas Wanderings. We could read, and whatever was offered by that literary St. Nicholas and highly respected musical critic for cultivated Berlin our mother was quite willing we should enjoy. CHAPTER VIII. THE REVOLUTIONARY PERIOD BEFORE THE REVOLUTION On the 18th of March, the day of the fighting in the streets of Berlin, we had been living for a year in the large suite of apartments at No. 7 Linkstrasse. Of those who"
+    ],
+    "latency_ms": 1524,
+    "timestamp": "2026-04-16T07:22:23.015412+00:00"
+  },
+  "30": {
+    "question_id": 30,
+    "system": "supermemory",
+    "mode": "fullpipeline",
+    "facts_returned": 7,
+    "fact_texts": [
+      "I must also record another influence which had its share in my creative toil--my early intercourse with artists and the opportunity of seeing their work. The statement has been made often enough, but I should like to repeat it here from my own experience, that the most numerous and best impulses which urge the author to artistic development come from his childhood. This law, which results from observing the life and works of the greatest writers, has shown itself very distinctly in a minor one like myself. There was certainly no lack of varied stimulus during this early period of my existence; but when I look back upon it, I become vividly aware of the serious perils which threaten not only the external but the internal development of the children who grow up in large cities. Careful watching can guard them from the transgressions to which there are many temptations, but not from the strong and varying impressions which life is constantly forcing upon them. They are thrust too early from the paradise of childhood into the arena of life.",
+      "The idea of violence which seemed to be connected with the name of Keilhau had suddenly disappeared. It had gained meaning to me, and Herr Middendorf had given us an excellent proof of a fundamental requirement of Friedrich Froebel, the founder of the institution: “The external must be spiritualized and given an inner significance.” The same talented pedagogue had said, “Our education associates instruction with the external world which surrounds the human being as child and youth”; and Middendorf carried out this precept when, at the first meeting, he questioned us about the trees and bushes by the wayside, and when we were obliged to confess our ignorance of most of them, he mentioned their names and described their peculiarities. At last we reached the Keilhau plain, a bowl whose walls formed tolerably high mountains which surrounded it on all sides except toward Rudolstadt, where an opening permitted the Schaalbach to wind through meadows and fields.",
+      "What I could not understand, the calm, kindly man explained with unfailing patience, and so I got an early insight into the sculptor’s creative art. It was these recollections of my childhood that suggested to me the character of little Pennu in Uarda, of Polykarp in Homo Sum, of Pollux in The Emperor, and the cheery Alexander in Per Aspera. I often visited also, during my last years in Berlin, the studio of another sculptor. His name was Streichenberg, and his workshop was in our garden in the Linkstrasse. If a thoughtful earnestness was the rule in Drake’s studio, in that of Prof. Streichenberg artistic gaiety reigned. He often whistled or sang at his work, and his young Italian assistant played the guitar. But while I still know exactly what Drake executed in our presence, so that I could draw the separate groups of the charming relief, the Genii of the Thiergarten, I do not remember a single stroke of Streichenberg’s work, though I can recall all the better the gay manner of the artist whom we again met in 1848 as a demagogue.",
+      "This man appeared to be in very good circumstances, for he always wore patent-leather boots, and a large diamond ring on his finger; but with his vivacious, even passionate temperament, he trampled in the dust the things I had always revered. I hung on his lips when he talked of the rights of the people, and of his own vocation to break the way for freedom, or when he anathematized those who oppressed a noble nation with the odious yoke of slavery. Catch phrases, like “hanging the last king with the guts of the last priest,” I heard for the first time from him, and although such speeches did not please me, they made an impression because they awakened so much surprise, and more than once he called upon us to be true sons of our time and not a tyrant’s bondmen. We heard similar remarks elsewhere in a more moderate form, and from our companions at school in boyish language.",
+      "I must remind myself again that I am not writing a history of the Berlin revolution. Nor would my own youthful impressions justify me in forming an independent opinion as to the motives of that remarkable and somewhat incomprehensible event; but, with the assistance of friends more intimately acquainted with the circumstances, I have of late obtained a not wholly superficial knowledge of them, which, with my own recollections, leads me to adopt the opinion of Heinrich von Sybel concerning the much discussed and still unanswered question, whether the Berlin revolution was the result of a long-prepared conspiracy or the spontaneous outburst of enthusiasm for liberty among the citizens. He says: “Both these views are equally well founded, for only the united effort of the two forces could insure a possibility of victory.” Here again the great historian has found the true solution.",
+      "There was nothing to do but look. Imagination came to a standstill, for what could it add to these wonders? Yet the fairyland of which Ludo and I had dreamed was more beautiful and more real than this palpable magnificence of tin and pasteboard; which is, perhaps, one reason why the overexcited imagination of a city child shrinks back and tries to find in reality what a boy brought up in the quiet of the country can conjure up before his mind himself. Then, too, there were delightful sights in the Gropius panorama and Fuchs’s confectioner’s shop--in the one place entertaining things, in the other instructive. At the panorama half the world was spread out before us in splendid pictures, so presented and exhibited as to give the most vivid impression of reality.",
+      "She gave various lessons to my sisters, and criticised our proceedings sharply, as she did those of her fellow-creatures in general. “I can’t help it--I Must say what I think,” was the palliating remark which followed every severe censure; and I owe to her the conviction that it is much easier to express disapproval, when it can be done with impunity, than to keep it to one’s self, as I am also indebted to her for the subject of my fairy tale, The Elixir. I shall return to Fraulein Lamperi, for her connection with our family did not cease until her death, and she lived to be ninety. Her aristocratic connections in Florence--be it said to their honour--never repudiated her, but visited her when they came to Berlin, and the equipage of the Italian ambassador followed at her funeral, for he, too, belonged to her father’s kindred. The extreme kindness extended to her by Emperor William I and his sovereign spouse solaced her old age in various ways."
+    ],
+    "latency_ms": 1555,
+    "timestamp": "2026-04-16T07:22:24.573532+00:00"
+  },
+  "31": {
+    "question_id": 31,
+    "system": "supermemory",
+    "mode": "fullpipeline",
+    "facts_returned": 5,
+    "fact_texts": [
+      "His religious views I do not accept, but I believe his strictly orthodox belief was based upon conviction, and cannot be charged to any odious display of piety to ingratiate himself with the king. It was in the time of our boyhood that Alexander von Humboldt, going once with the king to church, in Potsdam, in answer to the sneering question how he, who passed for a freethinker at court, could go to the house of God, made the apt reply, “In order to get on, your Excellency.” When Strauss met us in the street and called to us with a certain unction in his melodious voice, “Good-morning, my dear children in Christ!” our hearts went out to him, and it seemed as if we had received a blessing.",
+      "The extreme kindness extended to her by Emperor William I and his sovereign spouse solaced her old age in various ways. One of the dearest friends of my sister Paula and of our family knew more of me, unfortunately, at this time than I of her. Her name was Babette Meyer, now Countess Palckreuth. She lived in our neighbourhood, and was a charming, graceful child, but not one of our acquaintances. When she was grown up--we were good friends then--she told me she was coming from school one winter day, and some boys threw snowballs at her. Then Ludo and I appeared--“the Ebers boys” and she thought that would be the end of her; but instead of attacking her we fell upon the boys, who turned upon us, and drove them away, she escaping betwixt Scylla and Charybdis. Before this praiseworthy deed we had, however, thrown snow at a young lady in wanton mischief.",
+      "I need not describe the state of mind in which she reached the deck, and her emotion when she found her nestling in his place, still holding the line in his hand. As the luckless son of Albion was rescued unharmed, we could look back upon the incident gaily, but neither of us forgot this anxiety--the first I was to cause my mother. I have forgotten everything else that happened on our way home; but when I think of this first journey, a long one for so young a child, and the many little trips--usually to Dresden, where my grandmother Ebers lived--which I was permitted to take, I wonder whether they inspired the love of travel which moved me so strongly later, or whether it was an inborn instinct. If a popular superstition is correct, I was predestined to journey.",
+      "His conviction showed itself under different forms, but remained unchanged, both in political and religious affairs. During the interval life had assumed a new aspect. The minority had become the majority, and many a son of a strictly conservative man was forbidden to oppose the “red.” Only no one needed to conceal his loyalty to the king, for at that time the democrats still shared it. A good word for the Prince of Prussia, on the contrary, inevitably led to a brawl, but we did not shrink from it, and, thank Heaven, we were among the strongest boys. This intrusion of politics into the school-room and the whole tense life of the capital was extremely undesirable, and, if continued, could not fail to have an injurious influence upon immature lads; so my mother hastily decided that, instead of waiting until the next year, we should go to Keilhau at once.",
+      "I have seen men--even our humble Kurschner--weep during the account of it by eye-witnesses. Whoever knew Frederick William IV. also knew that neither genuine reconciliation nor respect for the fallen champions of liberty induced him to show this outward token of respect, which was to him the deepest humiliation. The insincerity of the sovereign’s agreement with the ideas, events, and men of his day was evident in the reaction which appeared only too soon. His conviction showed itself under different forms, but remained unchanged, both in political and religious affairs. During the interval life had assumed a new aspect. The minority had become the majority, and many a son of a strictly conservative man was forbidden to oppose the “red.” Only no one needed to conceal his loyalty to the king, for at that"
+    ],
+    "latency_ms": 3371,
+    "timestamp": "2026-04-16T07:22:27.946013+00:00"
+  },
+  "32": {
+    "question_id": 32,
+    "system": "supermemory",
+    "mode": "fullpipeline",
+    "facts_returned": 5,
+    "fact_texts": [
+      "His religious views I do not accept, but I believe his strictly orthodox belief was based upon conviction, and cannot be charged to any odious display of piety to ingratiate himself with the king. It was in the time of our boyhood that Alexander von Humboldt, going once with the king to church, in Potsdam, in answer to the sneering question how he, who passed for a freethinker at court, could go to the house of God, made the apt reply, “In order to get on, your Excellency.” When Strauss met us in the street and called to us with a certain unction in his melodious voice, “Good-morning, my dear children in Christ!” our hearts went out to him, and it seemed as if we had received a blessing.",
+      "The extreme kindness extended to her by Emperor William I and his sovereign spouse solaced her old age in various ways. One of the dearest friends of my sister Paula and of our family knew more of me, unfortunately, at this time than I of her. Her name was Babette Meyer, now Countess Palckreuth. She lived in our neighbourhood, and was a charming, graceful child, but not one of our acquaintances. When she was grown up--we were good friends then--she told me she was coming from school one winter day, and some boys threw snowballs at her. Then Ludo and I appeared--“the Ebers boys” and she thought that would be the end of her; but instead of attacking her we fell upon the boys, who turned upon us, and drove them away, she escaping betwixt Scylla and Charybdis. Before this praiseworthy deed we had, however, thrown snow at a young lady in wanton mischief.",
+      "His conviction showed itself under different forms, but remained unchanged, both in political and religious affairs. During the interval life had assumed a new aspect. The minority had become the majority, and many a son of a strictly conservative man was forbidden to oppose the “red.” Only no one needed to conceal his loyalty to the king, for at that time the democrats still shared it. A good word for the Prince of Prussia, on the contrary, inevitably led to a brawl, but we did not shrink from it, and, thank Heaven, we were among the strongest boys. This intrusion of politics into the school-room and the whole tense life of the capital was extremely undesirable, and, if continued, could not fail to have an injurious influence upon immature lads; so my mother hastily decided that, instead of waiting until the next year, we should go to Keilhau at once.",
+      "The expression he uttered in the Assembly in the course of his speech--“I and my people will serve the Lord”--came from the very depths of his heart; and nothing could be more sincerely meant than the remark, “From one weakness I know myself to be absolutely free: I do not strive for vain public favour. My only effort is to do my duty to the best of my knowledge and according to my conscience, and to deserve the gratitude of my people, though it should be denied me.” The last words have a foreboding sound, and prove what is indeed evident from many other expressions--that he had begun to experience in his own person the truth of the remark he had made when full of hope, and hailed with joyful anticipations at his coronation--“The path of a king is full of sorrow, unless his people stand by him with loyal heart and mind.” His people did not do that, and it was well for them; for the path indicated by the royal hand would have led them to darkness and to the indignity of ever-increasing bondage, mental and temporal.",
+      "I have seen men--even our humble Kurschner--weep during the account of it by eye-witnesses. Whoever knew Frederick William IV. also knew that neither genuine reconciliation nor respect for the fallen champions of liberty induced him to show this outward token of respect, which was to him the deepest humiliation. The insincerity of the sovereign’s agreement with the ideas, events, and men of his day was evident in the reaction which appeared only too soon. His conviction showed itself under different forms, but remained unchanged, both in political and religious affairs. During the interval life had assumed a new aspect. The minority had become the majority, and many a son of a strictly conservative man was forbidden to oppose the “red.” Only no one needed to conceal his loyalty to the king, for at that"
+    ],
+    "latency_ms": 1674,
+    "timestamp": "2026-04-16T07:22:29.626006+00:00"
+  },
+  "33": {
+    "question_id": 33,
+    "system": "supermemory",
+    "mode": "fullpipeline",
+    "facts_returned": 5,
+    "fact_texts": [
+      "The extreme kindness extended to her by Emperor William I and his sovereign spouse solaced her old age in various ways. One of the dearest friends of my sister Paula and of our family knew more of me, unfortunately, at this time than I of her. Her name was Babette Meyer, now Countess Palckreuth. She lived in our neighbourhood, and was a charming, graceful child, but not one of our acquaintances. When she was grown up--we were good friends then--she told me she was coming from school one winter day, and some boys threw snowballs at her. Then Ludo and I appeared--“the Ebers boys” and she thought that would be the end of her; but instead of attacking her we fell upon the boys, who turned upon us, and drove them away, she escaping betwixt Scylla and Charybdis. Before this praiseworthy deed we had, however, thrown snow at a young lady in wanton mischief.",
+      "I need not describe the state of mind in which she reached the deck, and her emotion when she found her nestling in his place, still holding the line in his hand. As the luckless son of Albion was rescued unharmed, we could look back upon the incident gaily, but neither of us forgot this anxiety--the first I was to cause my mother. I have forgotten everything else that happened on our way home; but when I think of this first journey, a long one for so young a child, and the many little trips--usually to Dresden, where my grandmother Ebers lived--which I was permitted to take, I wonder whether they inspired the love of travel which moved me so strongly later, or whether it was an inborn instinct. If a popular superstition is correct, I was predestined to journey.",
+      "The latter appeared in the theatre for the first time since a severe illness, the enthusiasm was great, and there was no end to the cries of “Long live the king and queen!” which were repeated between every act. I relate the circumstance to show with what a devoted and faithful affection the people of Berlin still clung to the royal pair. On the other hand, their regard for the Prince of Prussia, afterward Emperor William, was already shaken. He who alone remained firm when all about the king were wavering, was regarded as the embodiment of military rule, against which a violent opposition was rising. Our mother was even then devoted to him with a reverence which bordered upon affection, and we children with her. We felt more familiar with him, too; than with any other members of the ruling house, for Fraulein Lamperi, who was in a measure like one of our own family, was always relating the most attractive stories about him and his noble spouse, whose waiting-woman she had been.",
+      "Whoever once gazed into his eyes could never forget them. He was a little man, with waxen-pale, and almost harsh, though well-formed features, and smooth, long, coal-black hair. He might scarcely have been noticed save for his eyes, which overpowered all else, as the sunlight puts out starlight. Those eyes would have drawn attention to him anywhere. His peculiar seriousness and his aristocratic reserve of manner were calculated to keep children at a distance, even to repel them, and we avoided the stern little man whom we had heard belonged to the greatest of the great. When he and his amiable wife became acquainted with our mother, however, and he called us to him, it is indescribable how his harsh features softened in the intercourse with us little ones, till they assumed an expression of the utmost benevolence, and with what penetrating, I might say fatherly kindness, he talked and even jested with us in his impressive way.",
+      "The bakery, a small dwelling, and the large gymnasium were at our left; on the right, the so-called Lower House, with the residences of the head-masters’ families, and the school and sleeping-rooms of the smaller pupils, whom we dubbed the “Panzen,” and among whom were boys only eight and nine years old. The large house before whose central door--to which a flight of stone steps led--we stopped, was the Upper House, our future home. Almost at the same moment we heard a loud noise inside, and an army of boys came rushing down the steps. These were the “pupils,” and my heart began to throb faster. They gathered around the Rudolstadt carriage boldly enough and stared at us. I noticed that almost all were bareheaded. Many wore their hair falling in long locks down their backs. The few who had any coverings used black velvet caps, such as in Berlin would be seen only at the theatre or in an artist’s studio. Middendorf had stepped quickly among the lads, and as they came running up to take his hand or hang on his arm we saw how they loved him."
+    ],
+    "latency_ms": 4327,
+    "timestamp": "2026-04-16T07:22:33.954528+00:00"
+  },
+  "34": {
+    "question_id": 34,
+    "system": "supermemory",
+    "mode": "fullpipeline",
+    "facts_returned": 0,
+    "fact_texts": [],
+    "latency_ms": 518,
+    "timestamp": "2026-04-16T07:22:34.474891+00:00"
+  },
+  "35": {
+    "question_id": 35,
+    "system": "supermemory",
+    "mode": "fullpipeline",
+    "facts_returned": 0,
+    "fact_texts": [],
+    "latency_ms": 615,
+    "timestamp": "2026-04-16T07:22:35.096303+00:00"
+  },
+  "36": {
+    "question_id": 36,
+    "system": "supermemory",
+    "mode": "fullpipeline",
+    "facts_returned": 0,
+    "fact_texts": [],
+    "latency_ms": 600,
+    "timestamp": "2026-04-16T07:22:35.698640+00:00"
+  },
+  "37": {
+    "question_id": 37,
+    "system": "supermemory",
+    "mode": "fullpipeline",
+    "facts_returned": 0,
+    "fact_texts": [],
+    "latency_ms": 575,
+    "timestamp": "2026-04-16T07:22:36.278757+00:00"
+  },
+  "38": {
+    "question_id": 38,
+    "system": "supermemory",
+    "mode": "fullpipeline",
+    "facts_returned": 0,
+    "fact_texts": [],
+    "latency_ms": 571,
+    "timestamp": "2026-04-16T07:22:36.851576+00:00"
+  },
+  "39": {
+    "question_id": 39,
+    "system": "supermemory",
+    "mode": "fullpipeline",
+    "facts_returned": 0,
+    "fact_texts": [],
+    "latency_ms": 529,
+    "timestamp": "2026-04-16T07:22:37.383482+00:00"
+  }
+}

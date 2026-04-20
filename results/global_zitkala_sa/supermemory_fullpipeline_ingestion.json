@@ -1,0 +1,13 @@
+{
+  "subject": "zitkala_sa",
+  "system": "supermemory",
+  "mode": "fullpipeline",
+  "container_tag": "zitkala_sa_fullpipeline",
+  "chunks_expected": 6,
+  "chunks_posted": 6,
+  "post_success": 6,
+  "post_failure": 0,
+  "start_time": "2026-04-16T06:49:31.245576+00:00",
+  "end_time": "2026-04-16T06:50:22.815545+00:00",
+  "verification_passed": true
+}

@@ -1,0 +1,14 @@
+{
+  "subject": "bernal_diaz",
+  "system": "letta",
+  "mode": "fullpipeline",
+  "agent_id": "agent-7026822d-1417-4c19-9f38-67ee42aeee8b",
+  "agent_name": "bernal_diaz_fullpipeline",
+  "chunks_expected": 20,
+  "chunks_posted": 20,
+  "post_success": 20,
+  "post_failure": 0,
+  "start_time": "2026-04-16T06:54:14.571530+00:00",
+  "end_time": "2026-04-16T06:55:00.879629+00:00",
+  "verification_passed": true
+}

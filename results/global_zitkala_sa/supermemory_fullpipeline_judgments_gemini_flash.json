@@ -1,0 +1,626 @@
+[
+  {
+    "question_id": 1,
+    "condition": "C1_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 3,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 1,
+    "condition": "C3_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 5,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 2,
+    "condition": "C1_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 5,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 2,
+    "condition": "C3_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 5,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 3,
+    "condition": "C1_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 5,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 3,
+    "condition": "C3_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 5,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 4,
+    "condition": "C1_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 2,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 4,
+    "condition": "C3_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 2,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 5,
+    "condition": "C1_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 5,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 5,
+    "condition": "C3_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 3,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 6,
+    "condition": "C1_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 4,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 6,
+    "condition": "C3_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 2,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 7,
+    "condition": "C1_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 4,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 7,
+    "condition": "C3_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 5,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 8,
+    "condition": "C1_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 5,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 8,
+    "condition": "C3_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 5,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 9,
+    "condition": "C1_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 5,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 9,
+    "condition": "C3_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 5,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 10,
+    "condition": "C1_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 3,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 10,
+    "condition": "C3_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 3,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 11,
+    "condition": "C1_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 5,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 11,
+    "condition": "C3_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 2,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 12,
+    "condition": "C1_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 4,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 12,
+    "condition": "C3_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 1,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 13,
+    "condition": "C1_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 4,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 13,
+    "condition": "C3_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 2,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 14,
+    "condition": "C1_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 4,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 14,
+    "condition": "C3_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 5,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 15,
+    "condition": "C1_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 3,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 15,
+    "condition": "C3_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 2,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 16,
+    "condition": "C1_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 3,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 16,
+    "condition": "C3_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 2,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 17,
+    "condition": "C1_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 5,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 17,
+    "condition": "C3_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 5,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 18,
+    "condition": "C1_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 1,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 18,
+    "condition": "C3_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 1,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 19,
+    "condition": "C1_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 3,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 19,
+    "condition": "C3_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 1,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 20,
+    "condition": "C1_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 5,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 20,
+    "condition": "C3_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 2,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 21,
+    "condition": "C1_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 4,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 21,
+    "condition": "C3_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 2,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 22,
+    "condition": "C1_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 2,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 22,
+    "condition": "C3_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 3,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 23,
+    "condition": "C1_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 5,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 23,
+    "condition": "C3_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 2,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 24,
+    "condition": "C1_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 2,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 24,
+    "condition": "C3_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 1,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 25,
+    "condition": "C1_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 2,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 25,
+    "condition": "C3_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 2,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 26,
+    "condition": "C1_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 2,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 26,
+    "condition": "C3_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 2,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 27,
+    "condition": "C1_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 4,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 27,
+    "condition": "C3_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 5,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 28,
+    "condition": "C1_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 2,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 28,
+    "condition": "C3_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 2,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 29,
+    "condition": "C1_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 4,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 29,
+    "condition": "C3_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 2,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 30,
+    "condition": "C1_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 4,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 30,
+    "condition": "C3_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 2,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 31,
+    "condition": "C1_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 2,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 31,
+    "condition": "C3_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 1,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 32,
+    "condition": "C1_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 2,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 32,
+    "condition": "C3_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 3,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 33,
+    "condition": "C1_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 5,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 33,
+    "condition": "C3_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 5,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 34,
+    "condition": "C1_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 5,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 34,
+    "condition": "C3_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 2,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 35,
+    "condition": "C1_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 2,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 35,
+    "condition": "C3_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 2,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 36,
+    "condition": "C1_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 5,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 36,
+    "condition": "C3_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 5,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 37,
+    "condition": "C1_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 5,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 37,
+    "condition": "C3_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 5,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 38,
+    "condition": "C1_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 4,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 38,
+    "condition": "C3_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 5,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 39,
+    "condition": "C1_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 1,
+    "raw_response": "",
+    "parse_failure": false
+  },
+  {
+    "question_id": 39,
+    "condition": "C3_supermemory_fp",
+    "judge": "gemini_flash",
+    "score": 1,
+    "raw_response": "",
+    "parse_failure": false
+  }
+]

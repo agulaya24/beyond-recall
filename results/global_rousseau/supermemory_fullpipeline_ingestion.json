@@ -1,0 +1,13 @@
+{
+  "subject": "rousseau",
+  "system": "supermemory",
+  "mode": "fullpipeline",
+  "container_tag": "rousseau_fullpipeline",
+  "chunks_expected": 50,
+  "chunks_posted": 50,
+  "post_success": 0,
+  "post_failure": 50,
+  "start_time": "2026-04-16T07:08:03.866729+00:00",
+  "end_time": "2026-04-16T07:11:32.934054+00:00",
+  "verification_passed": true
+}

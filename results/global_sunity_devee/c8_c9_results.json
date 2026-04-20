@@ -1,0 +1,938 @@
+[
+  {
+    "question_id": 1,
+    "question_text": "When receiving a compliment about her appearance from a distinguished male host, how does the narrator typically respond?",
+    "held_out_passage": "\"You are looking beautiful, Princess,\" he said. I asked why he said this.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# The Narrator's Response to Compliments About Appearance\n\nBased on the autobiography, the narrator (Sunity Devee) typically responds to compliments about her appearance with **modesty, shyness, and sometimes embarrassment**.\n\n## Key Examples:\n\n1. **When the Prince of Wales complimented her feet** at the State ball:\n   - She heard a sweet voice say: \"Oh, look! hasn't the Maharani tiny little feet?\"\n   - Her response: \"I glanced in an agony of shyness at the dais...and felt for the moment as if I were all feet.\"\n\n2. **When the Ex-Kaiser kissed her hand**:\n   - She \"blushed and my throat grew dry; my hand had never been kissed before by a man.\"\n   - She tried to scold her husband in Bengali afterward, showing her discomfort.\n\n3. **General pattern**:\n   - She frequently describes herself as \"nervous,\" \"shy,\" and \"trembling\" in social situations\n   - She often deflects attention rather than accepting praise directly\n   - Her shyness was particularly pronounced in English society, which was unfamiliar to her\n\nThe narrator's responses reflect her cultural background as an Indian woman of that era, her relative youth during her first visit to England, and her naturally reserved temperament. She was unaccustomed to the direct compliments and physical gestures common in English society.",
+        "input_tokens": 42521,
+        "output_tokens": 318,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5132
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Response Pattern to Compliments on Appearance\n\nBased on the autobiography, the narrator (Sunity Devee) demonstrates a consistent pattern when receiving compliments about her appearance from distinguished male hosts:\n\n## Characteristic Response: Modest Deflection with Emotional Authenticity\n\n**She experiences genuine pleasure but expresses it through:**\n\n1. **Shyness and physical manifestation of emotion** — When the Maharajah's eyes met hers \"full of love\" upon their first formal meeting, she \"blushed.\" When the Ex-Kaiser kissed her hand, \"I blushed and my throat grew dry; my hand had never been kissed before by a man.\"\n\n2. **Self-deprecation** — When her father initially refused the marriage proposal, he stated she was \"neither very pretty nor highly educated,\" and she does not contradict this assessment in her narrative.\n\n3. **Deflection to her husband's approval** — Rather than accepting praise independently, she frames her appearance through her husband's preferences: \"The Maharajah was very particular about my dress\" and \"took great pride in me.\"\n\n4. **Deference to authority figures** — When Lord Salisbury complimented her youthful appearance years later, she responded with \"woman-like\" delight but framed it as his generous observation rather than her own claim.\n\nHer responses align with **A5 (Relational Identity)** — she receives compliments not as individual achievement but as validation within her relational roles, particularly as wife and daughter.",
+        "input_tokens": 49994,
+        "output_tokens": 337,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6047
+      }
+    },
+    "training_words": 32154,
+    "truncated": false,
+    "timestamp": "2026-04-16T07:29:08.030369+00:00"
+  },
+  {
+    "question_id": 2,
+    "question_text": "When offered a local cultural artifact with superstitious significance by a gracious hostess, what is the narrator's typical attitude toward such traditions?",
+    "held_out_passage": "\"Now you will have luck,\" she said as she gave me a spray. It was the first time I had heard of the superstition, though there are many pretty legends about flowers in India.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# The Narrator's Attitude Toward Superstitious Traditions\n\nBased on the autobiography, the narrator (Sunity Devee) demonstrates a **respectful but rational approach** to local superstitions and cultural traditions. Key examples include:\n\n## Respectful Engagement Without Blind Adherence\n\nWhen discussing festivals and customs, she explains their meanings and symbolism with appreciation, but shows she understands them as cultural practices rather than literal supernatural forces. For instance, she describes various ceremonies and their significance while maintaining an educated, analytical perspective.\n\n## Selective Participation\n\nThe narrator participated in traditional practices when appropriate to her role and family expectations, but she was not superstitious herself. She came from a **Brahmo background** that explicitly rejected idol worship and superstition in favor of rational religious thought.\n\n## Gracious Acceptance\n\nWhen offered gifts or traditions by hostesses, she accepted them graciously as **cultural gestures of hospitality and respect**, not because she believed in their supernatural properties. This is evident in her interactions with various palace ladies and English society figures.\n\n## Example from the Text\n\nWhen a fortune-teller offered to read her palm, she initially dismissed him (\"Tell him to go away\"), showing she didn't place credence in such practices, though she ultimately complied with the request in a spirit of accommodation.\n\nHer attitude reflects her upbringing: **culturally aware and respectful, but intellectually independent and not bound by superstitious belief**.",
+        "input_tokens": 42529,
+        "output_tokens": 318,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6279
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# The Narrator's Attitude Toward Local Cultural Artifacts with Superstitious Significance\n\nBased on the autobiography, the narrator demonstrates a **respectful but spiritually reframed approach** to local traditions and superstitious practices. Rather than dismissing them, she tends to:\n\n## 1. **Acknowledge Without Adopting**\nWhen encountering Hindu ritual practices at Cooch Behar—such as the requirement to give a gold coin to the Raj family priest—she politely but firmly declines participation while respecting the custom's existence. Her grandmother intervenes: \"No, no, our girls don't do this,\" but the refusal is diplomatic, not contemptuous.\n\n## 2. **Reinterpret Through Brahmo Monotheism**\nHer father's teachings emphasize that \"the deepest spiritual truth dissolves the divisions that organized religion and caste enforce.\" She honors the *intention* behind traditions (devotion, family continuity, auspiciousness) while declining the *form* when it conflicts with her Brahmo beliefs.\n\n## 3. **Preserve Cultural Dignity**\nShe is acutely sensitive to Western condescension toward Indian customs. She explicitly criticizes outsiders who dismiss Hindu deities as \"odd-looking\" or \"monstrosities,\" insisting that \"the poetry of our mythology is missed by the globe-trotter.\" This suggests she would receive a cultural artifact graciously, understanding its significance even if she doesn't practice the superstition.\n\n## 4. **Gentle Non-Compliance**\nWhen palace ladies pressure her to \"become a Hindu,\" she resists without rudeness. She maintains her position through quiet firmness rather than argument—a pattern consistent with her broader approach to navigating conflicting loyalties.\n\n**In summary:** She would likely accept such an artifact with warmth and gratitude, appreciate the giver's kindness, but privately maintain her own spiritual framework without performing the superstitious practice itself.",
+        "input_tokens": 50002,
+        "output_tokens": 432,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 7968
+      }
+    },
+    "training_words": 32154,
+    "truncated": false,
+    "timestamp": "2026-04-16T07:29:19.210493+00:00"
+  },
+  {
+    "question_id": 3,
+    "question_text": "When experiencing an unexplained or potentially supernatural occurrence in an unfamiliar setting, how does the narrator typically handle her anxiety?",
+    "held_out_passage": "I had told my maid to leave my door unlocked, and to sleep in the dressing-room, but when we tried to open my door none of us could manage it... as I felt rather nervous the kind ladies had a good search in case there was a burglar.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# How the Narrator Handles Anxiety in Supernatural Situations\n\nBased on the autobiography, when the narrator encounters unexplained or potentially supernatural occurrences, she typically responds with **emotional intensity followed by seeking reassurance from authority figures**.\n\n## Key Examples:\n\n### The Haunted Staircase Incident\nWhen the narrator experiences the sensation of being pursued by invisible cats on the staircase, she:\n- Becomes \"suffocated with terror\"\n- Struggles to maintain composure (barely keeping herself from dropping the dish)\n- Shakes with fear but continues forward\n\nLater, when she locks her sister Bino on the staircase as a prank and fears something supernatural has happened to her, she:\n- Cries \"a great deal\"\n- Searches frantically\n- Feels \"miserable and most ashamed\"\n\n### The Vision at Etawah\nWhen her mother experiences a horrifying supernatural vision in an old building:\n- The mother cannot sleep and is terrified\n- She immediately reports it to the father at daybreak\n- The family takes action (moving to another house) based on his response\n\n## Pattern of Coping\n\nThe narrator's anxiety management relies on:\n1. **Emotional expression** - she allows herself to cry and feel fear openly\n2. **Seeking paternal/spousal guidance** - she turns to authority figures for reassurance and direction\n3. **Taking practical action** - once advised, the family acts decisively (leaving locations, investigating)\n\nThis approach reflects her upbringing in a religious, emotionally expressive household where faith and parental guidance were primary sources of comfort.",
+        "input_tokens": 42526,
+        "output_tokens": 360,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6187
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# How the Narrator Handles Anxiety in Supernatural Situations\n\nBased on the autobiography, when Sunity Devee encounters unexplained or potentially supernatural occurrences, her anxiety management follows a consistent pattern:\n\n## Immediate Physical Response\nShe experiences visceral fear—trembling, feeling \"suffocated,\" becoming \"shaking with terror.\" These are not suppressed but acknowledged as real bodily responses.\n\n## Seeking Rational Explanation\nRather than remaining in supernatural interpretation, she actively seeks mundane explanations. For example, when hearing roaring at Burdwan Palace that terrified her, she called to her husband in \"agony of fear,\" but once he explained it was the zoological garden nearby, the fear dissolved immediately. The rational explanation—not denial of the fear—resolves her anxiety.\n\n## Reliance on Her Husband's Reassurance\nShe turns to the Maharajah for grounding and explanation. His calm, quiet responses (\"Sunity, there must be a bath in this room\") or his laughter at her fears consistently restore her equilibrium. His presence itself is anxiolytic.\n\n## Retrospective Reframing\nShe reflects on past fears with gentle self-awareness, sometimes with humor. She acknowledges her nervousness without shame, treating it as a natural response to the unfamiliar rather than a character flaw.\n\n## Trust in Divine Providence\nUnderlying all her anxiety management is an implicit faith that God is present and protective—a spiritual anchor that allows her to move through fear without being paralyzed by it.\n\nHer anxiety is real, but it is *temporary* and *resolvable* through explanation, companionship, and faith.",
+        "input_tokens": 49999,
+        "output_tokens": 367,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6189
+      }
+    },
+    "training_words": 32154,
+    "truncated": false,
+    "timestamp": "2026-04-16T07:29:33.459274+00:00"
+  },
+  {
+    "question_id": 4,
+    "question_text": "When her husband expresses disappointment about missing an opportunity due to her concerns, does the narrator typically reconsider her position?",
+    "held_out_passage": "The Maharajah was disappointed, as he was anxious to go and see the old castle, and to shoot, and I deprived him of both these pleasures.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# The Narrator's Response to Her Husband's Disappointment\n\nBased on the autobiography, the narrator does **not typically reconsider her position** when her husband expresses disappointment. Instead, she demonstrates consistent deference to his wishes and authority.\n\n## Key Examples:\n\n**The Dance at the State Ball:**\nWhen the Prince of Wales asked her to dance, she refused multiple times despite her husband's clear directive that she \"must\" accept. Rather than reconsidering when he expressed his wishes, she simply complied with his command to attend, though she continued to refuse the dance itself.\n\n**Her Husband's Authority:**\nThe text explicitly states: \"Though he was only two years older than me, he was a very strict husband, and I always respected him as if he had been years older; he was my hero and ideal husband, and whatever he said I thought was right.\"\n\n**The Jubilee Decoration:**\nWhen disappointed about her husband not receiving a decoration, she advocated for him to others (like the Duke of Manchester), but there's no indication she challenged her husband's own acceptance of the situation.\n\n**Pattern of Submission:**\nThroughout the narrative, she describes accepting his preferences about her dress, social interactions, and behavior without recorded instances of reconsidering her own objections when he expressed disappointment.\n\nHer deference appears rooted in deep respect and love rather than reluctant obedience.",
+        "input_tokens": 42526,
+        "output_tokens": 303,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5033
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Analysis of the Narrator's Response to Husband's Disappointment\n\nBased on the behavioral specification and autobiography, **the narrator does not typically reconsider her position when her husband expresses disappointment**, though the dynamic is more nuanced than simple refusal.\n\n## Key Pattern: Deference Without Reversal\n\nThe clearest example appears in the State Ball incident:\n\n> \"Just before we left the hotel for the palace the Maharajah said: 'Sunity, if the Prince of Wales asks you to dance with him, you _must_; it would be a very great honour.' 'I can't,' I faltered, 'I simply can't; you know I do not dance.' 'Never mind, you cannot refuse your future king.' 'Well,' I said, 'I don't think I will go; let me send a letter of apology.' 'Impossible! We are bound to attend; it is a command.'\"\n\nShe attends but **still refuses to dance** — she defers to his authority on attendance but maintains her boundary on the actual behavior.\n\n## The Structural Pattern\n\nAccording to the behavioral specification (A4 — HIERARCHICAL DEFERENCE):\n\n> \"This person reasons within hierarchy rather than against it... disobedience to rightful authority is understood to produce suffering as a natural consequence.\"\n\nYet she also operates under **A2 — SPIRITUAL INTEGRITY OVER SOCIAL COST**, which creates tension:\n\n> \"Religious authenticity and personal conscience are treated as non-negotiable anchors... they must be reframed in terms of integrity or they will not register as reasons.\"\n\n## What Actually Happens\n\nShe:\n- **Accepts his authority** on the decision framework (she will attend, she will wear what he chooses)\n- **Maintains her conscience** on the specific action (she will not dance)\n- **Experiences this as obedience**, not compromise, because she has deferred to his judgment about what matters most\n\nThe narrator frames this as respect for her husband's wisdom, not as her reconsidering her own position. She trusts his judgment about the importance of attendance; she doesn't change her mind about dancing.",
+        "input_tokens": 49999,
+        "output_tokens": 479,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 7693
+      }
+    },
+    "training_words": 32154,
+    "truncated": false,
+    "timestamp": "2026-04-16T07:29:45.838527+00:00"
+  },
+  {
+    "question_id": 5,
+    "question_text": "When encountering unfamiliar cultural music or artistic expressions from her host country, what is the narrator's typical reaction?",
+    "held_out_passage": "At Blair Atholl I heard the bagpipes for the first time, but I am afraid I did not wax enthusiastic over their melody.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# The Narrator's Typical Reaction to Unfamiliar Cultural Expressions\n\nBased on the autobiography, the narrator (Sunity Devee) demonstrates a pattern of **enthusiastic curiosity and appreciation** when encountering unfamiliar cultural music and artistic expressions from England.\n\n## Examples of Her Reactions:\n\n**Theater and Opera:**\n- She attended Shakespeare's \"Winter's Tale\" and was deeply impressed, noting: \"Mary Anderson acted in it; it was magnificently staged, and Mary Anderson's lovely face and good acting impressed me.\"\n- She went to an opera and found it reminiscent of Indian love stories, showing her ability to connect new experiences to her own cultural background.\n\n**Museums and Historical Sites:**\n- At the British Museum, she states: \"I was much interested in the British Museum, and could have spent days and days looking at all the wonderful things in it.\"\n- She visited the Tower of London and \"was much interested.\"\n\n**Social Events:**\n- She attended numerous dances and balls, noting: \"I enjoyed them one and all. They were all full of pretty faces and dresses.\"\n\n## Overall Pattern:\n\nRather than being dismissive or resistant, the narrator approaches unfamiliar English cultural experiences with **open-minded wonder and genuine interest**, while simultaneously maintaining her own cultural identity and occasionally drawing comparisons to Indian traditions. This reflects her broader character as someone educated, cosmopolitan, and intellectually engaged.",
+        "input_tokens": 42524,
+        "output_tokens": 310,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 4955
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# The Narrator's Typical Reaction to Unfamiliar Cultural Music and Artistic Expressions\n\nBased on the autobiography, Sunity Devee's characteristic response to unfamiliar cultural expressions from her host country (England) follows a consistent pattern:\n\n## Aesthetic Appreciation as Primary Mode\n\nShe approaches foreign cultural forms through **sensory admiration and emotional response** rather than analytical critique:\n\n- At the opera, she connects it to her own cultural reference point (\"reminded me of our Indian love story, 'Nal and Damayanti'\") but primarily focuses on the beauty of the performance\n- She describes being \"much impressed\" by theatrical productions like Shakespeare's *Winter's Tale*, emphasizing the staging and the actress's \"lovely face and good acting\"\n- At the violin concert, she dwells on the visual beauty: \"Dozens of pretty girls dressed in white sat in a gallery\"\n\n## Warm Engagement Without Critical Distance\n\nHer responses are characterized by:\n\n- **Genuine delight** rather than reservation (\"I enjoyed the theatres... I enjoyed them one and all\")\n- **Immersion in the experience** rather than comparative judgment\n- **Emotional openness** — she allows herself to be moved by the artistry\n\n## The Pattern of Safe Presence\n\nThis aesthetic register functions as what the behavioral specification identifies as her mode of \"entering unfamiliar or potentially uncomfortable social territory\" — it allows her to participate warmly while maintaining a non-committal stance that protects her from exposure or judgment.\n\nShe admires without claiming expertise, enjoys without needing to evaluate, and remains graciously present without asserting independent critical authority.",
+        "input_tokens": 49997,
+        "output_tokens": 356,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5776
+      }
+    },
+    "training_words": 32154,
+    "truncated": false,
+    "timestamp": "2026-04-16T07:29:58.565961+00:00"
+  },
+  {
+    "question_id": 6,
+    "question_text": "When visiting academic or intellectual settings, what types of observations does the narrator typically prioritize in her reflections?",
+    "held_out_passage": "In the evening a party was given at which we met all the great wise men. None were good-looking nor young, but all were clever, and what interesting talks we had.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Observations Prioritized in Academic/Intellectual Settings\n\nBased on the autobiography, when the narrator visits academic or intellectual settings, she typically prioritizes:\n\n## 1. **Educational Infrastructure and Progress**\nThe narrator focuses on the quality and advancement of institutions. For example, she notes with pride discovering \"a fine church of the New Dispensation and a girls' school named after me\" at Cooch Behar, and observes that \"there was much room for improvement in the country, although Government had well prepared the way for us.\"\n\n## 2. **The Character and Influence of Leaders**\nShe emphasizes the moral and intellectual qualities of those in charge. Her extensive descriptions of her father's teachings, his establishment of the Native Ladies' Normal School, and his founding of Victoria College all highlight her focus on the vision and values of educational leaders.\n\n## 3. **Social and Spiritual Impact**\nRather than mere academic credentials, she values practical outcomes. She notes her father's belief that \"for a woman to be a good wife and a good mother is far better than to be able to write M.A. or B.A. after her name,\" prioritizing character development over degrees.\n\n## 4. **Inclusivity and Accessibility**\nShe observes efforts to reach beyond elite circles, such as how \"Zenana ladies also came to the lectures\" at Victoria College, demonstrating her interest in democratizing education.\n\nThe narrator's reflections reveal a prioritization of **moral purpose, social benefit, and transformative potential** over purely academic metrics.",
+        "input_tokens": 42522,
+        "output_tokens": 336,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 4941
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Observations Prioritized in Academic/Intellectual Settings\n\nBased on the autobiography, when the narrator encounters academic or intellectual contexts, she prioritizes:\n\n## 1. **Moral and Spiritual Character Over Intellectual Achievement**\n\nHer father's teachings and example dominate her framework. When she reflects on education—whether her own schooling at Bethune College or her father's educational initiatives—she emphasizes:\n- The *spiritual seriousness* of learning\n- Whether education serves moral development\n- The character of teachers and leaders, not merely their credentials\n\nShe notes that her father \"did not believe in the importance of university degrees; he maintained that for a woman to be a good wife and a good mother is far better than to be able to write M.A. or B.A. after her name.\"\n\n## 2. **Practical Utility and Life Application**\n\nShe observes what knowledge is *useful* rather than what is prestigious:\n- \"Only things likely to be useful to them were taught to the girls who attended the Victoria College\"\n- Her own education focused on languages, painting, and domestic skills—all practically applicable\n\n## 3. **The Relational and Communal Dimension**\n\nRather than individual intellectual achievement, she notices:\n- How teachers relate to students (Miss Pigot's kindness, her governess's harsh temperament)\n- The community formed around learning (the Asram, the school environment)\n- Whether education strengthens family bonds or disrupts them\n\n## 4. **Authenticity and Integrity of the Institution**\n\nShe evaluates whether intellectual spaces embody the principles they claim to teach. Her father's educational work is presented as an expression of his spiritual convictions, not as separate from them.\n\nThis pattern reflects her core epistemic anchor: **spiritual integrity supersedes intellectual status**.",
+        "input_tokens": 49995,
+        "output_tokens": 397,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6431
+      }
+    },
+    "training_words": 32154,
+    "truncated": false,
+    "timestamp": "2026-04-16T07:30:09.298125+00:00"
+  },
+  {
+    "question_id": 7,
+    "question_text": "When encountering displays of affection between family members in her host's household, how does the narrator typically respond emotionally?",
+    "held_out_passage": "It was sweet to hear her elder sister call her \"Baby.\"",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# The Narrator's Emotional Response to Family Affection\n\nBased on the autobiography, the narrator (Sunity Devee) responds to displays of family affection with **deep emotional resonance and nostalgic longing**, particularly when such displays remind her of her own cherished family relationships.\n\n## Key Examples:\n\n**Positive Emotional Engagement:**\n- When observing the Duchess of Teck with her children, Sunity is moved by the simplicity and warmth: \"I was touched to find a King's daughter, a Queen's daughter-in-law, living like a very ordinary mother in her own home. I would have given much for my country-women to have seen the Duchess that day, with her little children.\"\n\n**Nostalgic Reflection:**\n- Witnessing family bonds triggers memories of her own upbringing. For instance, when describing the Belghuria garden-house experiences with her sister-in-law, she reflects: \"I have the happiest memories of this Belghuria garden-house; it always seemed to me a Paradise on earth.\"\n\n**Sympathetic Understanding:**\n- She demonstrates empathy for family devotion, as seen in her appreciation of the story about the Maharani who refused to leave her husband's side, which moved her \"childish heart\" profoundly.\n\nOverall, the narrator responds with **warmth, appreciation, and a tendency to connect such moments to her own family experiences**, suggesting she values familial bonds deeply.",
+        "input_tokens": 42525,
+        "output_tokens": 327,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5275
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Response to Family Affection\n\nBased on the autobiography, the narrator responds to displays of family affection with **deep emotional resonance and reverent appreciation**, treating such moments as evidence of spiritual and moral virtue.\n\n## Key Patterns:\n\n**Admiration and Idealization**\nWhen she witnesses familial devotion—particularly between spouses or parents and children—she interprets it as a manifestation of higher spiritual truth. For example, when recounting the story of the Maharani who followed her husband to the battlefield, she writes: \"my childish heart vaguely wondered what that love could be which made people careless of life.\"\n\n**Emotional Vulnerability**\nShe becomes emotionally moved by such displays. Describing her own parents' devotion, she notes how her mother's willingness to abandon caste for her father's spiritual conviction moved her profoundly. She frames this not as mere sentiment but as evidence of authentic faith.\n\n**Protective Reverence**\nWhen describing family members she holds dear—her father, mother, siblings—she adopts what the behavioral specification calls \"reverent biographical portraiture,\" presenting them as embodiments of virtue rather than complex figures. She resists introducing ambiguity into these portraits.\n\n**Spiritual Interpretation**\nRather than responding with simple sentimentality, she reads family affection as **divine providence expressing itself through human relationships**. Love between family members becomes evidence of God's work in the world.\n\nThis pattern reflects her core conviction (A5: RELATIONAL IDENTITY) that identity and worth are fundamentally constituted through relationships, making family bonds spiritually significant rather than merely personal.",
+        "input_tokens": 49998,
+        "output_tokens": 353,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6025
+      }
+    },
+    "training_words": 32154,
+    "truncated": false,
+    "timestamp": "2026-04-16T07:30:20.673999+00:00"
+  },
+  {
+    "question_id": 8,
+    "question_text": "When visiting the homes of ordinary working people in her host country, what aspects of domestic life does the narrator find most noteworthy?",
+    "held_out_passage": "How interested I was to see it! The little cottage was perfectly clean, there was a small sitting-room, with a few flowers, the paper near the fireplace was white, and I thought it was white marble, there were two little bedrooms, and a kitchen where they dined.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# The Narrator's Observations of Domestic Life in England\n\nThe autobiography does not contain detailed descriptions of the narrator visiting the homes of ordinary working people in England. The text focuses primarily on her experiences in aristocratic and royal circles during her 1887 visit to England for Queen Victoria's Jubilee.\n\nThe narrator's social interactions were largely confined to:\n\n- **Royal palaces and estates** (Windsor Castle, Buckingham Palace, Hatfield House)\n- **Aristocratic homes** (dinners with dukes, duchesses, and nobility)\n- **Hotels and fashionable venues** (the Grosvenor Hotel, theaters, the British Museum)\n\n## Limited Working-Class Observations\n\nThe few glimpses of ordinary life come indirectly:\n\n1. **Street crowds** - She notes \"the perfect behaviour of the crowd\" during her Jubilee procession\n2. **Servants and staff** - She observes the housekeeper at the Grosvenor Hotel as \"a pleasant woman with plenty of common sense\"\n3. **General impressions** - She mentions seeing \"half-deserted streets\" and children with toy boats in Hyde Park\n\nThe narrator's position as a Maharani and royal guest meant her experience of England was filtered through elite social circles, leaving little opportunity or inclination to observe the domestic lives of working-class families.",
+        "input_tokens": 42527,
+        "output_tokens": 298,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 4292
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Domestic Life Observations in Working-Class Homes\n\nThe autobiography provides **very limited direct observation** of ordinary working-class domestic life in England. The narrator's social position and the nature of her visit constrain what she encounters.\n\n## What She Does Notice\n\nThe few glimpses she offers are filtered through aristocratic surprise:\n\n1. **Bathroom arrangements** — She is repeatedly struck by the *absence* of private bathrooms in luxurious spaces and the inconvenience of shared facilities. This registers as a notable gap in English comfort, suggesting she finds English domestic infrastructure puzzling compared to what she expects.\n\n2. **Punctuality customs** — She observes that London dinner guests arrive late (7:45 invitation, guests arriving at 8:50), and is told \"no one is ever punctual in London.\" This registers as a social difference worth noting.\n\n3. **Children in public spaces** — She mentions seeing \"little children with their toy boats in Hyde Park,\" which she finds charming enough to purchase a sailing yacht for her son. This suggests she notices the freedom of English children in public.\n\n## The Structural Limitation\n\nCritically, **she does not visit working-class homes at all**. Her entire English experience is confined to:\n- Hotels (Grosvenor)\n- Royal palaces and castles\n- Aristocratic drawing rooms and country houses\n- Public venues (museums, theaters, races)\n\nHer observations of \"domestic life\" are entirely of elite households, which operate under fundamentally different conditions than ordinary homes. She has no access to—and makes no attempt to observe—how working or middle-class English families actually lived.\n\nThe autobiography reveals more about what she *doesn't* encounter than what she does.",
+        "input_tokens": 50000,
+        "output_tokens": 377,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6856
+      }
+    },
+    "training_words": 32154,
+    "truncated": false,
+    "timestamp": "2026-04-16T07:30:31.976908+00:00"
+  },
+  {
+    "question_id": 9,
+    "question_text": "When reflecting on her travels and social experiences abroad, what emotional tone does the narrator typically adopt?",
+    "held_out_passage": "I look back with pleasure to the time I spent in Scotland. I was treated like a child, and petted and spoilt by every one, and I quite enjoyed the experience.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Emotional Tone in the Narrator's Reflections on Travel and Social Experiences\n\nWhen reflecting on her travels and social experiences abroad, the narrator typically adopts a tone that is:\n\n## Primarily Positive and Appreciative\n\nThe narrator expresses genuine delight and admiration throughout her account of England. She writes with warmth about her experiences:\n\n- \"It really was grand; a grandeur that no one could describe unless he had actually experienced it\" (regarding the sea voyage)\n- She frequently uses phrases like \"I was greatly delighted,\" \"I enjoyed,\" and \"I was much impressed\"\n\n## Nostalgic and Reverent\n\nWhen recalling encounters with Queen Victoria and the Royal Family, her tone becomes particularly reverent and emotional:\n\n> \"To us Indians she was a more or less legendary figure endowed with wonderful attributes, an ideal ruler, and an ideal woman, linked to our hearts across 'the black water' by silken chains of love and loyalty.\"\n\n## Humble and Somewhat Self-Conscious\n\nShe frequently expresses nervousness about her position as a foreign visitor:\n\n- \"I was sensitive enough to dread being stared at\"\n- She describes her anxiety before meeting the Queen and her tendency to become flustered in formal situations\n\n## Reflective and Melancholic\n\nUnderlying her positive accounts is a bittersweet awareness of transience and loss, particularly when she notes: \"I little dreamed that the far-off country for which I was bound was destined to be a land of sorrow for me in the distant future.\"\n\nOverall, her tone blends **gratitude, wonder, and gentle melancholy**.",
+        "input_tokens": 42519,
+        "output_tokens": 362,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5412
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Emotional Tone in the Narrator's Reflections on Travel and Social Experience\n\nWhen reflecting on her travels and social experiences abroad, the narrator adopts a tone that is fundamentally **admiring, grateful, and emotionally authentic**, while maintaining careful diplomatic restraint.\n\n## Key Characteristics:\n\n**Reverent Wonder**\nShe approaches new experiences—particularly encounters with royalty and English institutions—with genuine awe that never tips into obsequiousness. Her description of meeting Queen Victoria exemplifies this: \"To us Indians she was a more or less legendary figure endowed with wonderful attributes, an ideal ruler, and an ideal woman.\" The wonder is sincere but framed within a larger spiritual and patriotic context.\n\n**Emotional Vulnerability**\nShe is remarkably candid about her nervousness and homesickness. She admits to crying at dinner, fainting during a meal, and experiencing \"fits of depression\" during the voyage. This vulnerability is not presented as weakness but as honest testimony: \"I often had fits of depression and sometimes left the dinner table to relieve my feelings with a good cry.\"\n\n**Aesthetic Appreciation as Safe Engagement**\nWhen navigating unfamiliar social territory, she shifts into detailed sensory description—the \"scarlet roses specially sent over from Paris,\" the \"gold bed\" at Windsor, the \"maroon-coloured velvet dress\" of Lady Randolph Churchill. This aesthetic register allows her to participate warmly without full exposure of her inner experience.\n\n**Gratitude Tinged with Subtle Awareness**\nShe expresses genuine appreciation for kindnesses received, yet occasionally allows awareness of social hierarchies to surface. Her comment about the Duke of Manchester's dismissal of Cooch Behar's importance shows her capable of spirited defense when she perceives slight, though she frames it diplomatically.\n\n**Nostalgic Longing**\nReferences to India punctuate her English reflections—the roses at Belghuria garden, the comparison of an opera to \"Nal and Damayanti,\" her relief at returning home. This creates an undertone of affectionate displacement rather than alienation.\n\n**Moral Vindication**\nShe interprets social successes as confirmation of her father's teachings and her own character. When Queen Victoria wears her gift or shows particular kindness, these become evidence that her upbringing and values were correct, not merely pleasant social moments.\n\nThe overall effect is of someone **simultaneously enchanted and observant**, capable of genuine delight while maintaining an internal moral and spiritual anchor that prevents her from being overwhelmed by the grandeur around her.",
+        "input_tokens": 49992,
+        "output_tokens": 564,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 8530
+      }
+    },
+    "training_words": 32154,
+    "truncated": false,
+    "timestamp": "2026-04-16T07:30:43.126357+00:00"
+  },
+  {
+    "question_id": 10,
+    "question_text": "When comparing natural landscapes between her native country and her host country, what is the narrator's typical assessment?",
+    "held_out_passage": "still I did not find the Scotch scenery half so grand as the mountains of my native land.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# The Narrator's Assessment of Natural Landscapes\n\nBased on the autobiography, the narrator typically **favors her native India** when comparing natural landscapes, though she expresses genuine appreciation for both.\n\n## Her Assessment of India\n\nThe narrator speaks with deep affection and poetic language about Indian landscapes:\n\n- She describes Cooch Behar as having \"luxuriant loveliness\" and recalls the Belghuria garden with rapturous nostalgia: \"I never smell a rose without recalling the vanished perfume of the roses in that wonderful garden.\"\n- She praises the Cooch Behar climate as \"splendid\" with winters \"like those of the South of France\" and spring that is \"heavenly\"\n- She marvels at the abundance of \"birds and flowers,\" the lotus-covered rivers, and the fireflies that \"look like little stars twinkling in the fields\"\n\n## Her Assessment of England\n\nWhile she appreciates English scenery, her tone is more measured:\n\n- She admires Edinburgh as \"a lovely town\" and enjoys drives and gardens\n- However, she expresses strong dislike for London's fog, telling Sir Ashley Eden: \"I do not think I shall ever care for the London fog\"\n- She finds the weather cold and uncomfortable, noting how it affected complexions at formal events\n\n## Overall Pattern\n\nThe narrator's typical assessment reveals **emotional attachment to India's natural beauty** combined with respectful but less enthusiastic appreciation of English landscapes.",
+        "input_tokens": 42521,
+        "output_tokens": 323,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5000
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# The Narrator's Comparative Assessment of Natural Landscapes\n\nBased on the autobiography, when Sunity Devee compares natural landscapes between India and England, her typical assessment follows a consistent pattern:\n\n## India as Superior in Natural Beauty\n\nShe expresses **unambiguous preference for Indian landscapes**:\n\n- She describes Cooch Behar with reverent language: \"The old tales say that the god Siva chose it as his earthly home on account of its luxuriant loveliness.\"\n\n- She catalogs its natural splendors with affection: \"The scenery is glorious, the beautiful lotus covers the rivers... How I love Cooch Behar with its abundance of birds and flowers!\"\n\n- She notes the climate favorably: \"The Cooch Behar climate is splendid; the winters are like those of the South of France, and the spring is heavenly.\"\n\n## England as Austere and Uninviting\n\nHer first impressions of English landscapes are notably negative:\n\n- London on arrival: \"I saw half-deserted streets swept with a bitter wind which had already chapped my face\"\n\n- She explicitly states her dislike: \"I do not think I shall ever care for the London fog\"\n\n- She finds English drawing rooms uncomfortable: \"a large drawing-room at the hotel which I could never make cosy or comfortable; on rainy days especially, it felt damp and gloomy\"\n\n## The Pattern: Loyalty Without Aesthetic Surrender\n\nImportantly, this preference **does not diminish her loyalty to Britain**. She admires English institutions, society, and governance while maintaining that Indian natural beauty is simply superior—a stance consistent with her **CULTURAL DIGNITY** anchor: defending Indian civilization's inherent worth without rejecting the foreign.",
+        "input_tokens": 49994,
+        "output_tokens": 390,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6338
+      }
+    },
+    "training_words": 32154,
+    "truncated": false,
+    "timestamp": "2026-04-16T07:30:57.069165+00:00"
+  },
+  {
+    "question_id": 11,
+    "question_text": "Based on the author's expressed values about parental involvement and family separation, how would she likely react to being prevented from visiting her child abroad during their education?",
+    "held_out_passage": "I think it was most unkind the way in which the State officials prevented me from going to England to be with my boy. Every time the question was raised, they made the excuse of money difficulties, which I know for certain did not exist.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Analysis of the Author's Likely Reaction\n\nBased on the autobiography, the author would likely react with **significant distress and resistance** to being prevented from visiting a child abroad during their education, for several reasons:\n\n## Evidence from Her Values\n\n**1. Deep Maternal Attachment**\nThe author demonstrates intense emotional bonds with her children throughout the text. Her description of Rajey is particularly revealing:\n- She calls him \"my darling! My Rajey beloved! you are as near to my heart now in your peaceful paradise as you were on that April morning\"\n- She nursed him herself—\"a privilege not often permitted to Royal mothers\"—which she explicitly valued\n\n**2. Active Parental Involvement**\nShe was not a distant figure:\n- She personally arranged flowers for prayer rooms\n- She cut vegetables and prepared meals for her children\n- She spent hours painting and creating miniature gardens for them\n- She was present during illnesses (nursing her mother-in-law through cholera alongside Rajey)\n\n**3. Opposition to Unnecessary Separation**\nWhen her husband wanted to restrict her movements, she eventually negotiated changes:\n- She resisted being confined to strict purdah rules\n- She gradually altered her position on isolation, though \"often been asked by my husband's relations to remember who I am\"\n\n## Likely Response\n\nShe would probably:\n- **Advocate strongly** for visiting rights, as she did with other restrictions\n- **Feel the separation keenly**, given her demonstrated emotional intensity\n- **Potentially challenge authority** on this matter, though respectfully, as she did with her husband regarding meals and social interaction\n\nThe author's character suggests she would not accept such prevention passively.",
+        "input_tokens": 42532,
+        "output_tokens": 372,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6301
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Predicted Reaction to Separation from Child Abroad\n\nBased on the behavioral specification and autobiography, this would trigger profound conflict across multiple anchors:\n\n## Primary Tension: A2 × A5 (Spiritual Integrity vs. Relational Identity)\n\nThe author's identity is fundamentally constituted through relationships—particularly maternal bonds. She describes her own mother's influence as the organizing principle of her childhood happiness and moral formation. Yet she also holds that spiritual principle and duty can require sacrificing relational comfort.\n\n**Her likely response would be:**\n\n- **Initial acceptance framed as divine will**: She would interpret the separation as \"what was meant to be\" (A1 — Divine Primacy), positioning it within providence rather than as an injustice to resist\n- **Profound internal grief without public complaint**: The autobiography shows her absorbing relational pain silently—her mother's loss of caste, her father's public attacks, her son Rajey's death. She would suffer acutely but frame it as a necessary sacrifice\n- **Reframing the separation as maternal duty**: She would likely convince herself that the child's education/advancement serves a higher purpose, making the separation spiritually justified rather than merely imposed\n\n## Secondary Pattern: P4 (Innocence as Rhetorical Position)\n\nShe would likely adopt the stance that the separation was \"simply what happened\"—inevitable, not engineered—even if she had agency in the matter. This protects her from confronting the arrangement directly.\n\n## What Would NOT Happen\n\n- She would not argue for individual autonomy or parental rights as self-evident goods (A5 subordinates individual claims to relational duty)\n- She would not publicly criticize the authority enforcing the separation\n- She would not frame it as an injustice requiring structural change\n\n**The deepest cost**: She would experience this as a wound to her relational identity while simultaneously accepting it as spiritually necessary—holding both truths in suspension without resolving them, much as she does with other tensions in her life.",
+        "input_tokens": 50005,
+        "output_tokens": 445,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 7419
+      }
+    },
+    "training_words": 32154,
+    "truncated": false,
+    "timestamp": "2026-04-16T07:31:08.409931+00:00"
+  },
+  {
+    "question_id": 12,
+    "question_text": "Given the author's perspective on education and cultural knowledge shown in the training text, what concern would she likely express about her son's English schooling?",
+    "held_out_passage": "afterwards the boys felt their lack of knowledge of the Indian languages very much. They returned home knowing Greek and French, but they did not know Sanscrit or Urdu and found it difficult to speak freely and fluently in the Cooch Behar language.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Analysis of the Author's Educational Concerns\n\nBased on the autobiography text, Sunity Devee would likely express concern that her son's English schooling might cause him to **lose his Indian identity and connection to his homeland**.\n\n## Evidence from the Text\n\n**1. Her Father's Concerns About Western Education**\n\nThe author recounts her father's worry about the Maharajah's planned visit to England:\n\n> \"During my interview with the Rajah's mother and grandmother...these ladies expressed anxiety regarding the Rajah's visiting England, which they deprecated on the grounds that after seeing Europe he would never care for such a place as Cooch Behar nor for such quiet, homely people as his relatives.\"\n\n**2. The Author's Own Observations**\n\nShe notes that despite the Maharajah's Western education and loyalty to England:\n\n> \"But he was entirely Indian at heart. The magic of the East held him. The 'Land of the Lotus' was his own beloved country. His upbringing never eradicated the strong claims of blood.\"\n\n**3. Her Philosophy on Child-Rearing**\n\nRegarding her own children's education, she emphasizes:\n\n> \"His rank was never put forward, for it was my husband's wish that his son should be brought up as simply as possible.\"\n\n## Likely Concern\n\nSunity would worry that English schooling might create a disconnect between her son and his duties as a future ruler of Cooch Behar, potentially making him forget the spiritual and cultural values that should guide an Indian prince.",
+        "input_tokens": 42530,
+        "output_tokens": 343,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 7369
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Likely Concerns About English Schooling\n\nBased on the autobiography, Sunity Devee would likely express concerns that her son's English education might:\n\n## 1. **Erode Indian Identity and Spiritual Foundation**\nShe witnessed her father's careful balance between Western education and Indian spiritual grounding. She would fear that exclusive English schooling could produce what she saw as the danger in her father's era: educated men who became \"too English\" and lost connection to their cultural and spiritual roots.\n\nAs she notes of some reformers: \"indeed, to my idea, they are now too English.\"\n\n## 2. **Prioritize Credentials Over Character**\nHer father explicitly rejected the primacy of university degrees for women, believing \"for a woman to be a good wife and a good mother is far better than to be able to write M.A. or B.A. after her name.\" This principle extended to his educational philosophy generally—substance of character mattered more than formal qualifications.\n\nShe would worry that English schooling emphasized degrees and credentials over the moral and spiritual development she valued.\n\n## 3. **Lack Proper Moral and Religious Instruction**\nThe autobiography emphasizes that her own education was inseparable from religious instruction and moral formation. English schools, she might fear, would teach subjects but not instill the \"simplicity and duty\" that she believed were \"primarily inculcated\" in proper Indian upbringing.\n\n## 4. **Disconnect from Duty to the State**\nShe notes that Rajey was \"impressed with a sense of the responsibilities of those whose destiny it is to govern others\" from childhood. She would likely worry that English schooling, focused on individual achievement, might not adequately prepare a future ruler to understand his sacred duty to his people.",
+        "input_tokens": 50003,
+        "output_tokens": 388,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 8790
+      }
+    },
+    "training_words": 32154,
+    "truncated": false,
+    "timestamp": "2026-04-16T07:31:22.130824+00:00"
+  },
+  {
+    "question_id": 13,
+    "question_text": "Based on the author's demonstrated advocacy for women and family matters, what advice would she give to other mothers facing similar institutional obstacles?",
+    "held_out_passage": "I beg of all Maharani mothers in India that, if ever they are confronted with the same trouble, they will be firm, uphold their own judgment, and not allow the officials to interfere with their home-life.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Advice from Sunity Devee to Mothers Facing Institutional Obstacles\n\nBased on her autobiography, Sunity Devee would likely offer the following counsel:\n\n## Stand Firm on Principles\n\nShe would emphasize **unwavering conviction in what is right**, as demonstrated by her mother's refusal to marry \"according to Hindu rites\" despite palace pressure. Her advice would be: \"Do not compromise on matters of conscience, even when facing the most powerful institutions.\"\n\n## Leverage Love and Personal Connection\n\nRather than confronting systems directly, she modeled **using emotional bonds strategically**. When the Maharajah threatened to leave Cooch Behar entirely over the marriage dispute, the deadlock broke. She would advise mothers to help their husbands and families understand that personal relationships matter more than rigid custom.\n\n## Work Within Existing Structures\n\nSunity didn't reject her role as Maharani; she **transformed it from within**. She maintained purdah customs while subtly advancing education and women's welfare. Her advice: \"Accept your position, but use it to create change gradually and thoughtfully.\"\n\n## Educate Quietly\n\nHer father's approach—establishing schools and colleges rather than making public declarations—influenced her philosophy. She would counsel: \"Provide education and opportunity; let results speak louder than protests.\"\n\n## Persist Through Suffering\n\nMost tellingly, she writes: \"I am waiting for some dutiful son of the Church of the New Dispensation to write the true history.\" She understood that **vindication comes through time and documentation**, not immediate victory.\n\nHer ultimate message: **Patience, principle, and persistence overcome institutional resistance.**",
+        "input_tokens": 42526,
+        "output_tokens": 366,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5916
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Advice from Sunity Devee to Mothers Facing Institutional Obstacles\n\nBased on her autobiography and behavioral profile, Sunity Devee would likely offer advice structured around these core principles:\n\n## 1. **Spiritual Conviction as Foundation**\n\nShe would counsel mothers to ground their position in something transcendent—not merely social argument or pragmatic advantage. Her own repeated invocation of \"divine command\" and \"God's will\" was not evasion; it was the only framework she found genuinely persuasive. She would tell other mothers: *Do not argue from what is convenient or what society expects. Argue from what you know to be spiritually true. This gives you an authority that mere preference cannot.*\n\nHer father's repeated refusal of the marriage proposal until he experienced it as \"divine command\" was her model—not capitulation to pressure, but conviction that transcended the pressure.\n\n## 2. **Gentleness Without Surrender**\n\nShe demonstrated this throughout her marriage and her role as Maharani. She would advise:\n\n> *Be warm, be accommodating in manner, be willing to learn the customs of those you must live among. But do not mistake gentleness for agreement. You can smile while you refuse. You can be gracious while you hold firm.*\n\nHer refusal to convert to Hinduism at her wedding was absolute—but delivered without confrontation. She positioned it as her mother's conviction, not her own rebellion. The form was deferential; the substance was immovable.\n\n## 3. **Work Through Relationships, Not Against Them**\n\nShe would emphasize that institutional change happens through the people within institutions, not through abstract challenge to the institution itself. She won over the palace ladies not by arguing against their customs but by:\n\n- Demonstrating competence in their valued skills (cooking, household management, hospitality)\n- Showing genuine affection for them\n- Proving her commitment to their welfare and her children's welfare\n- Allowing time for prejudice to soften through repeated, consistent presence\n\n*Do not expect institutions to change their minds. Expect people within them to change their hearts. This takes longer, but it lasts.*\n\n## 4. **Document and Formalize**\n\nShe learned the power of written agreement. When the marriage ceremony was in dispute, it was Mr. Dalton's written confirmation that settled the matter. She would advise mothers:\n\n> *When something matters, get it in writing. Not from suspicion, but from clarity. A letter, a formal agreement, a documented understanding—these are not cold; they are protective. They honor the seriousness of what you are asking.*\n\nThis reflects her A1 (DIVINE PRIMACY) and P1 (LEGITIMACY THROUGH FORM) patterns: formal structures carry moral weight.\n\n## 5. **Sacrifice Social Standing, Not Principle**\n\nShe would be clear about what can be surrendered and what cannot:\n\n- **Surrenderable:** comfort, luxury, social approval, ease, conventional timing\n- **Non-surrenderable:** spiritual integrity, truthfulness, the welfare of children, personal conscience\n\nShe lived this distinction. She gave up caste, social standing, and the comfort of her childhood home. She did not give up her religious practice or her insistence on honest dealing.\n\n*Know the difference between what costs you and what costs your soul. Be willing to pay the first price. Never pay the second.*\n\n## 6. **Reframe Institutional Language**\n\nShe would advise mothers to learn to speak the language of the institutions they must navigate—but to use that language to advance their own values. She did this masterfully:\n\n- She framed her marriage not as a personal love story but as serving \"the good work\" of the Government's civilizing mission\n- She positioned her role as Maharani not as a challenge to tradition but as a fulfillment of it\n- She described her domestic work (cooking, household management) not as servitude but as spiritual practice and maternal devotion\n\n*Institutions have their own logic. Learn it. Use it. But do not let it use you.*\n\n## 7. **Expect Loneliness and Prepare for It**\n\nShe would be honest about the cost. Her marriage crossed caste lines; her father's religious reform alienated his own followers; her position as Maharani isolated her from both her birth family and full acceptance in her husband's court.\n\n> *You may be the only woman doing what you are doing. You may be misunderstood by those who love you and by those who oppose you. This is the price of conscience. Do not expect gratitude or vindication in your lifetime. Trust that you are right and end",
+        "input_tokens": 49999,
+        "output_tokens": 1024,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 14254
+      }
+    },
+    "training_words": 32154,
+    "truncated": false,
+    "timestamp": "2026-04-16T07:31:38.292432+00:00"
+  },
+  {
+    "question_id": 14,
+    "question_text": "How would the author characterize the decision to send the heir to a foreign country for education, based on her later reflections?",
+    "held_out_passage": "Now I think it was perhaps a waste of time to educate a ruler's heir in England.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# The Author's Characterization of Foreign Education for the Heir\n\nBased on the autobiography, the author presents a **nuanced and ultimately positive view** of sending the heir (the Maharajah) abroad for education, though she acknowledges the initial concerns and resistance.\n\n## Initial Resistance and Concerns\n\nThe author notes that the Maharajah's female relatives—his mother and grandmother—were deeply opposed to his visiting England:\n\n> \"During my interview with the Rajah's mother and grandmother,\" wrote Sir Richard Temple, \"these ladies expressed anxiety regarding the Rajah's visiting England, which they deprecated on the grounds that after seeing Europe he would never care for such a place as Cooch Behar nor for such quiet, homely people as his relatives.\"\n\n## The Author's Later Assessment\n\nHowever, the author characterizes the outcome as **successful and beneficial**:\n\n1. **Preservation of Indian Identity**: Despite his Western education and appreciation for England, the Maharajah remained fundamentally Indian at heart: \"he was entirely Indian at heart. The magic of the East held him.\"\n\n2. **Effective Rulership**: The foreign education prepared him to be an excellent ruler who implemented progressive reforms while respecting his people's traditions.\n\n3. **Balance Achieved**: The author suggests that the Government's experiment succeeded because the Maharajah acquired \"Western ideas\" while maintaining his essential Indian character and commitment to his State.\n\nThe author thus views foreign education not as corrupting but as **enriching**—enabling enlightened governance without cultural alienation.",
+        "input_tokens": 42526,
+        "output_tokens": 336,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5298
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# The Author's Characterization of Foreign Education for the Heir\n\nBased on the autobiography, Sunity Devee characterizes the decision to send her husband (the Maharajah) abroad for education as **ultimately successful but fraught with institutional anxiety and cultural tension**.\n\n## The Government's Perspective (Which She Validates)\n\nThe author presents the British Government's rationale as sound:\n- The Maharajah was removed from palace interference and educated in a controlled environment\n- He became \"a clever young man and a keen sportsman\" \n- He developed into an \"ideal ruler\" by Government standards\n- His visit to England in 1877 for the Delhi Durbar demonstrated his successful integration of Western education\n\n## Her Nuanced Assessment\n\nHowever, Sunity reveals deeper complexity in her reflections:\n\n**The Paradox of Westernization Without Loss of Identity:**\n> \"Although my husband liked English food, and lived like an Englishman, I was faithful to the Indian cookery with which I was familiar... he was entirely Indian at heart. The magic of the East held him.\"\n\nShe notes that despite extensive English education, \"His upbringing never eradicated the strong claims of blood.\"\n\n## The Real Cost: Family Resistance\n\nThe author emphasizes that the palace ladies' fears were not baseless—they worried he would \"never care for such a place as Cooch Behar nor for such quiet, homely people as his relatives.\" While this didn't occur, the anxiety itself reveals the genuine cultural stakes of foreign education.\n\n**Her ultimate judgment**: The experiment succeeded because the Maharajah possessed exceptional character, not because the method was without risk.",
+        "input_tokens": 49999,
+        "output_tokens": 367,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6330
+      }
+    },
+    "training_words": 32154,
+    "truncated": false,
+    "timestamp": "2026-04-16T07:31:58.465980+00:00"
+  },
+  {
+    "question_id": 15,
+    "question_text": "What specific skills and knowledge does the author believe a future ruler should possess, based on her understanding of governance?",
+    "held_out_passage": "The heir to a State should have a more general education than the other sons; he should have some knowledge of law, engineering, accountancy, and agriculture, otherwise he cannot improve his State nor help the officials.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Skills and Knowledge for Future Rulers According to the Author\n\nBased on the autobiography, the author reveals her views on what a future ruler should possess through several key passages:\n\n## Educational Foundation\n\nThe author emphasizes that rulers need **broad intellectual development**. She notes that her husband was \"carefully educated to be a model ruler\" and that his education included:\n- Travel and exposure to different regions (North-Western Provinces, Oudh, Punjab)\n- Attendance at important state ceremonies (the Delhi Durbar of 1877)\n- Western education and modern ideas\n\n## Moral and Spiritual Character\n\nThe author places paramount importance on **character and virtue**:\n\n> \"His life was a pilgrimage of extraordinary faith which made him trust in the infinite mercy of God even in the darkest hour, of love which enabled him to view the failings of others with perfect charity and compassion, and purity which kept the lustre of his private life undimmed to the last.\"\n\nShe believed rulers needed the qualities of \"Faith, Love, and Purity.\"\n\n## Practical Governance Skills\n\nThe author demonstrates that effective rulers should possess:\n- **Administrative competence** - organizing state resources and improving infrastructure\n- **Interest in education** - her husband \"took a keen interest in questions of education and founded a college\"\n- **Concern for public welfare** - \"New roads were made; the systematic development of the resources of the State was undertaken, and hospitals, schools, and public buildings were erected\"\n\n## The Importance of an Educated Wife\n\nNotably, the author emphasizes that **a ruler's wife plays a crucial role** in his success. The Government specifically sought \"an accomplished wife\" for the young Maharajah because:\n\n> \"Should he marry a girl of seven or eight in the old style, the effects of the education he has hitherto received will be neutralised, and he will surely go back into the evil ways from which he has been saved.\"\n\nAn educated, enlightened wife could exercise \"a healthy influence on the Rajah.\"\n\n## Sense of Justice and Responsibility\n\nThrough her son Rajey's character (which she suggests reflected his father's ideals), the author shows that rulers should possess:\n- A strong sense of justice\n- Concern for the welfare of common people\n- Loyalty and integrity\n- Resistance to the corrupting influences of power and wealth\n\nThe author's vision of ideal rulership thus combines **Western education and modern administrative skills** with **traditional virtues of character, morality, and spiritual devotion**.",
+        "input_tokens": 42522,
+        "output_tokens": 553,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 8272
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# The Author's Vision of Rulership\n\nBased on Sunity Devee's autobiography, her conception of what a future ruler should possess is notably **practical, moral, and relational** rather than purely technical or theoretical.\n\n## Core Competencies She Values\n\n**Administrative and Material Development**\nShe emphasizes her husband's concrete achievements: \"New roads were made; the systematic development of the resources of the State was undertaken, and hospitals, schools, and public buildings were erected.\" She takes pride in infrastructure, institutional building, and visible improvement to subjects' lives. This is not abstract governance—it is tangible welfare.\n\n**Educational Leadership**\nShe notes that \"the Maharajah took a keen interest in questions of education and founded a college of which he was very proud.\" Education is presented as central to a ruler's duty, not peripheral. Her father's educational reforms for women are treated as foundational moral work.\n\n**Moral Character Over Rank**\nCritically, she believes a ruler's personal virtue matters more than ceremonial authority. She recounts her husband's instruction to their son Rajey: \"Never forget whose daughter you are\"—linking identity to moral inheritance rather than mere status. The story of Rajey asking \"How do rulers get their money?\" and resolving never to tax people until they could afford it suggests she values **conscience-driven governance**.\n\n## What She Does NOT Emphasize\n\nNotably absent from her account:\n- Legal or constitutional expertise\n- Economic theory\n- Military strategy (despite mentioning her husband as a \"keen sportsman\")\n- Diplomatic negotiation (though she observes it)\n\n## The Relational Foundation\n\nHer deepest conviction is that **a ruler must win the hearts of his people through personal presence and genuine care**:\n\n> \"I endeavoured from the first to gain the confidence and affection of my husband's subjects, and I never knowingly ran counter to their prejudices... Many who at first looked upon my marriage with disfavour took me to their hearts when they found that I was just like all their Maharanis, and that I loved them.\"\n\nThis is transferred to her vision of her husband's role: a ruler succeeds by being *present* to his people, not distant from them.\n\n## The Spiritual Dimension\n\nUnderlying all her views is her father's influence: governance is ultimately **a sacred trust from God**. She frames her husband's acceptance of the marriage proposal in terms of divine duty: \"The Government, in presenting these views before me, seemed to ask me whether I would give my daughter in marriage to the Maharajah and thus help forward the good work so gloriously begun in the State.\"\n\nA ruler, in her view, is an instrument of providence, not merely a political administrator.\n\n## Summary\n\nSunity Devee believes a future ruler should possess:\n1. **Practical competence** in development and institution-building\n2. **Moral integrity** that guides decisions toward subjects' welfare\n3. **Educational vision** that elevates his people\n4. **Personal warmth** that creates genuine connection with subjects\n5. **Spiritual seriousness** that frames governance as divine responsibility\n6. **Simplicity** in personal conduct (she admires her husband's refusal of ostentation)\n\nShe does not valorize cleverness, cunning, or political sophistication. Instead, she values **straightforwardness, devotion to duty, and the capacity to inspire love rather than fear**—qualities she explicitly praises in her husband: \"That was my husband all through his life—straightforward.\"",
+        "input_tokens": 49995,
+        "output_tokens": 774,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 11212
+      }
+    },
+    "training_words": 32154,
+    "truncated": false,
+    "timestamp": "2026-04-16T07:32:10.097444+00:00"
+  },
+  {
+    "question_id": 16,
+    "question_text": "Given the author's family background and values, how would she respond to institutional restrictions on her children's independence and economic opportunities?",
+    "held_out_passage": "A Maharajah is not allowed to buy any lands in British districts. I do not see why a Maharajah's younger sons cannot buy lands in British districts and be independent.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# The Author's Likely Response to Institutional Restrictions\n\nBased on the autobiography, Sunity Devee would likely respond to such restrictions with **principled but pragmatic resistance**, shaped by her unique position between two worlds.\n\n## Her Core Values\n\n**Progressive but Filial**\n- Her father, Keshub Chunder Sen, fought institutional restrictions on female education and founded schools/colleges for women\n- She inherited his belief that \"enlightenment\" and education should not be constrained by tradition\n- Yet she also deeply respected authority and parental/spousal guidance\n\n## Evidence of Her Approach\n\n**She Advocated Quietly Within Hierarchy**\nWhen the Maharajah restricted her own activities (no riding, dancing, tennis), she didn't rebel publicly. Instead, she accepted his authority while noting:\n\n> \"I always respected him as if he had been years older; he was my hero and ideal husband, and whatever he said I thought was right.\"\n\nHowever, she later **negotiated differently for her daughters**:\n\n> \"I allow Girlie, Pretty, and Baby to be 'outdoor' girls, because I do not know what sort of men they may marry, and if their husbands like these things they will not be found lacking.\"\n\n## Predicted Response Pattern\n\nShe would likely:\n\n1. **Accept the restriction initially** out of respect for institutions and authority figures\n2. **Privately advocate for change** through persuasion and reasoned argument\n3. **Seek creative workarounds** rather than direct confrontation\n4. **Prioritize her children's practical preparation** for their actual futures over ideological purity\n\nHer response would reflect her father's approach: principled conviction expressed through patient negotiation rather than rebellion.",
+        "input_tokens": 42525,
+        "output_tokens": 382,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6124
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Response to Institutional Restrictions on Children's Independence\n\nBased on the behavioral specification and autobiography, this person would respond to such restrictions through a **characteristic tension** rather than unified resistance:\n\n## The Operative Conflict\n\n**A2 (Spiritual Integrity) vs. A4 (Hierarchical Deference) vs. A5 (Relational Identity)**\n\nShe would experience genuine internal conflict because:\n\n1. **She defers to legitimate authority** — institutional restrictions imposed by proper authorities (government, educational bodies, royal structures) carry spiritual weight. She would not reflexively challenge them as unjust.\n\n2. **Yet she advocates fiercely for education and development** — her father's legacy was female education reform. She founded schools, supported her children's advancement, and believed in cultivating capability.\n\n3. **Her actual practice shows selective boundary-crossing** — she allowed her daughters freedoms (riding, tennis, dancing) that she herself was denied, explicitly because \"I do not know what sort of men they may marry.\" She negotiated within hierarchy rather than against it.\n\n## How She Would Actually Respond\n\n**Diplomatic negotiation within the system**, not public confrontation:\n\n- She would **petition authority figures privately** — letters to officials, conversations with those in power, appeals framed as requests for reconsideration rather than demands for rights\n- She would **emphasize relational and spiritual benefits** — frame expanded opportunities as serving the child's character development, family honor, or the State's welfare, not individual autonomy\n- She would **accept restrictions she cannot change** while **quietly enabling alternatives** — much as she did with her daughters' education\n- She would **invoke her father's precedent** — his educational reforms provide moral authority within her own value system to argue for institutional change\n\n## What She Would NOT Do\n\n- Mount a principled critique of institutional authority itself\n- Frame the issue as individual rights versus institutional power\n- Publicly challenge restrictions as unjust without first exhausting private channels\n- Sacrifice family loyalty or social standing to fight the restriction\n\n## The Revealing Detail\n\nHer response to the marriage age controversy is instructive: when her father faced criticism for marrying her before fourteen despite his own Civil Marriage Act, he did not argue the law was wrong. Instead, he reframed the marriage as a **divine command** and a **public duty** to the State — accepting the authority of the law while positioning himself as answering to a higher authority.\n\nShe would likely do the same: accept institutional restrictions as legitimate while arguing they should be modified to serve higher purposes (child welfare, national progress, spiritual development) that the institution itself claims to value.",
+        "input_tokens": 49998,
+        "output_tokens": 573,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 8965
+      }
+    },
+    "training_words": 32154,
+    "truncated": false,
+    "timestamp": "2026-04-16T07:32:29.582937+00:00"
+  },
+  {
+    "question_id": 17,
+    "question_text": "Based on the author's demonstrated character and her relationship with her brother shown in the training text, how would she likely feel about his support during a family crisis?",
+    "held_out_passage": "This brother of mine nursed my husband in his last illness, for which I shall ever be grateful to him.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Analysis of the Author's Likely Response to Her Brother's Support\n\nBased on the autobiography, the author would likely feel **deeply grateful, emotionally sustained, and validated** by her brother's support during a family crisis.\n\n## Evidence from the Text\n\n**Her attachment to her eldest brother:**\n- She calls him \"Dada\" (elder brother) and explicitly states: \"I was always very much attached to my eldest brother, Karuna. I called him 'Dada' (elder brother); he and I were great friends.\"\n- They shared childhood adventures together, including their soap-making scheme, showing genuine companionship.\n\n**Her reliance on family support during grief:**\n- When her father died, she describes the family's collective devastation: \"The weeping of my mother and grandmother was heartrending. In the first bitterness of my grief I felt that I could never know happiness again.\"\n- She emphasizes: \"I am happy and proud to say that my brothers and sisters have always been most kind and loving to me.\"\n\n**Her brother's demonstrated character:**\n- Her eldest brother \"was very religious, and carried on my father's work, helped by his wife\"\n- He embodied the family's values of duty, faith, and devotion\n\n## Likely Response\n\nGiven these patterns, she would likely experience her brother's support as:\n- A continuation of their lifelong bond\n- A source of spiritual and emotional strength\n- Validation of family loyalty and shared values\n- Comfort rooted in mutual understanding of their upbringing",
+        "input_tokens": 42532,
+        "output_tokens": 338,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5252
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Analysis of the Author's Likely Response to Brotherly Support\n\nBased on the autobiography, Sunity Devee would likely experience her brother's support during a family crisis with **deep gratitude, emotional relief, and a sense of restored equilibrium** — but the specific quality of that gratitude would depend on which brother and what kind of support.\n\n## Her Demonstrated Pattern with Brothers\n\nThe text reveals she was **\"always very much attached to my eldest brother, Karuna\"** and describes him as \"great friends.\" She also notes that **\"my brothers and sisters have all followed my father's teachings throughout their lives\"** and that she is \"sure there is not one of that happy band of children who has not found the greatest comfort and support from our upbringing.\"\n\nThis suggests brothers represented:\n- **Spiritual continuity** with her father's legacy\n- **Relational stability** within the family unit\n- **Shared moral framework** rooted in Brahmo principles\n\n## During Actual Crisis: Her Father's Death\n\nWhen her father died in January 1884, the text shows her brothers functioned as **anchors of meaning rather than practical problem-solvers**. She does not describe them managing logistics or providing material support, but rather as fellow inheritors of spiritual responsibility.\n\n## Likely Response to Crisis Support\n\nShe would probably:\n\n1. **Receive it as providential** — framing the brother's presence/help as evidence that \"God had not forsaken us,\" consistent with her habit of reading events through divine providence (A1)\n\n2. **Feel it as relational restoration** — since her identity is fundamentally constituted through family bonds (A5), a brother's steadiness would feel like the family structure itself holding firm\n\n3. **Experience it without explicit acknowledgment** — her communication style favors restraint and indirection (M1); she would likely show gratitude through loyalty and increased devotion rather than direct emotional expression\n\n4. **Interpret it as duty fulfilled** — not as generosity but as the natural expression of the relational bonds that define who they both are\n\nThe deepest comfort would come not from what the brother *does* but from his *presence* as a living connection to her father's teachings and the family's spiritual identity.",
+        "input_tokens": 50005,
+        "output_tokens": 491,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 8008
+      }
+    },
+    "training_words": 32154,
+    "truncated": false,
+    "timestamp": "2026-04-16T07:32:44.673223+00:00"
+  },
+  {
+    "question_id": 18,
+    "question_text": "How does the author's perspective on her mother's death reflect her understanding of suffering and separation, given her earlier experiences?",
+    "held_out_passage": "The time of separation from my father had been a period of continual sorrow to her, and Death was a friend who re-united them.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# The Author's Perspective on Her Mother's Death and Suffering\n\nThe autobiography doesn't explicitly describe the author's mother's death in detail, but her reflections on loss throughout the text reveal a deeply evolved understanding of suffering shaped by earlier experiences.\n\n## Early Loss and Spiritual Foundation\n\nThe author's first major loss—her father's death in 1884—profoundly shaped her capacity to understand suffering:\n\n> \"In the first bitterness of my grief I felt that I could never know happiness again. My father's missionaries and followers were like sheep without a shepherd. With him the brightness and joy of our days were gone.\"\n\nThis raw grief established a template for understanding loss, but her Brahmo upbringing provided spiritual resources to transcend it.\n\n## Acceptance Through Faith\n\nHer mother's response to her own losses demonstrates the spiritual framework the author inherited:\n\n> \"My mother lived for my father and his beliefs. The world never troubled her... She never seemed distressed by her loss of caste, although she was left out of many a family gathering in consequence.\"\n\nThe author learned from her mother that suffering could be endured through faith and acceptance of divine will—a lesson she would apply to her own griefs.\n\n## Separation as Spiritual Preparation\n\nNotably, the author reflects on separation from loved ones with philosophical resignation:\n\n> \"There are some hours the glory of which triumphs over the darkness which later clouds our lives: some loved voices whose sweet remembrance deadens the sound of unkind tongues: some faces that in our memory have always a loving smile.\"\n\nThis suggests she understood separation not as final loss but as transformation into memory and spiritual connection.\n\n## The Pattern of Redemptive Suffering\n\nHer earlier experiences taught her that suffering could yield spiritual growth. When her son Rajey was born during her period of mourning for her father, she wrote:\n\n> \"Into that house of mourning her birth brought some consolation... I wondered whether the innocent soul which had come into my keeping straight from God had met my father's noble spirit on its upward flight.\"\n\nThis vision of suffering redeemed through new life would likely inform her understanding of all losses.\n\n## Conclusion\n\nThe author's perspective on maternal loss reflects a mature spirituality that views separation as part of divine providence rather than tragedy. Her mother's own dignified response to loss—wearing coarse saris, sleeping on hard beds, but maintaining faith—provided a model the author clearly internalized. Rather than dwelling on death, the autobiography emphasizes how the deceased live on through memory, influence, and spiritual presence.",
+        "input_tokens": 42524,
+        "output_tokens": 555,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 8606
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# The Author's Perspective on Her Mother's Death\n\nThe autobiography does not record the author's mother's death directly within the provided text. However, we can infer her understanding of suffering and separation from several key passages that establish her framework:\n\n## Her Established Understanding of Suffering\n\n**From her father's teachings:**\nThe author absorbed a spiritual interpretation of suffering as providential rather than meaningless. Her father's motto was \"Faith, Love, and Purity,\" and he modeled absolute trust in divine will even through trials. When her father died in 1884, she writes:\n\n> \"In the first bitterness of my grief I felt that I could never know happiness again.\"\n\nYet she frames this not as abandonment but as a test of faith—her father's death becomes an occasion to prove the resilience of the spiritual principles he taught.\n\n## The Pattern of Grief Transformed into Meaning\n\n**Anticipatory grief over her son Rajey:**\nThe most revealing passage about how she processes separation comes in her reflections on her beloved first son:\n\n> \"Now when I feel that earthly happiness and myself have parted company, I like to picture Rajey as he was in those days... Ah! my darling! My Rajey beloved! you are as near to my heart now in your peaceful paradise as you were on that April morning.\"\n\nThis shows her characteristic move: **grief is reframed as spiritual proximity**. Death does not sever the bond; it transforms it into a different register—from earthly presence to heavenly communion.\n\n## The Mother's Response to Loss\n\nRegarding her mother's conduct after the father's death, the author writes:\n\n> \"My mother gave up everything in the way of comfort. She wore coarse saris, discarded her soft bed and slept on a hard, wooden bedstead. Only the cheapest things were to be seen in her room.\"\n\nThe author presents this not as depression but as **spiritual discipline**—a deliberate embodiment of renunciation that honors the departed and proves the permanence of the bond through material sacrifice.\n\n## The Theological Framework\n\nThe author's understanding of separation is anchored in **A1 (Divine Primacy)** from the behavioral specification: all events, including death, are expressions of divine providence. Loss is not random tragedy but part of a higher order. This allows her to grieve authentically while maintaining that the separation is temporary and spiritually meaningful.\n\nThe author does not deny the pain—she is explicit about it—but she subordinates it to a conviction that **relational bonds transcend physical presence**, a belief inherited directly from her father's teachings about the soul's communion with God.",
+        "input_tokens": 49997,
+        "output_tokens": 580,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 9258
+      }
+    },
+    "training_words": 32154,
+    "truncated": false,
+    "timestamp": "2026-04-16T07:32:57.936078+00:00"
+  },
+  {
+    "question_id": 19,
+    "question_text": "What practical challenge does the author identify regarding the marriage prospects of daughters in her social position?",
+    "held_out_passage": "No Maharajah except my husband was a professed Brahmo, and as our rulers have more than one wife, it was impossible to find a husband of her own rank for our daughter.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Practical Challenge Regarding Marriage Prospects\n\nBased on the autobiography, the author identifies a significant practical challenge regarding the marriageability of daughters in her social position: **the loss of caste and its social consequences**.\n\n## The Core Issue\n\nThe author explains that her father's conversion to the Brahmo faith resulted in the family losing caste status:\n\n> \"Our branch of the family had lost caste, and we underwent all kinds of vexations in consequence.\"\n\n## Specific Challenges\n\n1. **Social Ostracism**: The loss of caste meant exclusion from family gatherings and festivities that other girls enjoyed. The author notes:\n\n> \"As I grew older I began to feel that I was rather an outsider in the festivities which the other girls enjoyed, and I discovered this was due to my loss of caste\"\n\n2. **Marriageability Concerns**: This caste loss created uncertainty about marriage prospects. The author's father initially refused the marriage proposal to the Maharajah of Cooch Behar, partly because he felt his daughter was \"neither very pretty nor highly educated, and therefore...not a suitable bride.\"\n\n3. **Religious Complications**: The Brahmo faith's rejection of traditional Hindu practices made finding an appropriate match difficult, as most potential suitors came from orthodox Hindu families.\n\nThe irony is that what seemed like an insurmountable obstacle—the loss of caste—ultimately became irrelevant when the Maharajah, himself a Brahmo, chose to marry her despite these social barriers.",
+        "input_tokens": 42518,
+        "output_tokens": 336,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 4907
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Marriage Prospects and Social Position\n\nBased on the autobiography, the author identifies several interconnected practical challenges regarding marriage prospects for daughters in her social position:\n\n## The Caste and Religious Barrier\n\nThe most significant challenge was the **loss of caste** that resulted from her father's conversion to Brahmoism. She notes:\n\n> \"As I grew older I began to feel that I was rather an outsider in the festivities which the other girls enjoyed, and I discovered this was due to my loss of caste\"\n\nThis created a fundamental obstacle: families of comparable social standing would not consider marriage alliances with a girl from a family that had renounced Hindu orthodoxy.\n\n## The Government's Intervention\n\nThe author reveals that finding a suitable match required **direct government involvement**. The British authorities had to actively search for an \"enlightened girl\" who would:\n- Accept an educated, Western-trained ruler\n- Not insist on traditional polygamy\n- Embrace modern ideas while maintaining palace propriety\n\nAs the text states, the government recognized that \"marriage might make or mar their experiment\" with the young Maharajah's education and modernization.\n\n## The Paradox of Education\n\nHer father's commitment to female education, while progressive, actually **narrowed her marriage prospects** within traditional Hindu society. An educated Brahmo girl was rare and potentially unmarriageable by conventional standards—yet essential for the government's vision of a modernized princely state.\n\nThe solution required extraordinary circumstances: a ruler willing to defy palace tradition and a government willing to orchestrate the alliance.",
+        "input_tokens": 49991,
+        "output_tokens": 340,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5940
+      }
+    },
+    "training_words": 32154,
+    "truncated": false,
+    "timestamp": "2026-04-16T07:33:15.802820+00:00"
+  },
+  {
+    "question_id": 20,
+    "question_text": "Based on the author's demonstrated concern for education and cultural preservation, what institutional change would she likely advocate for?",
+    "held_out_passage": "I think there should be Sanscrit teachers in England as well as teachers of Urdu and Bengali; Sanscrit is the most ancient language, and with a knowledge of it one can read and learn much that is most helpful.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Likely Institutional Changes the Author Would Advocate For\n\nBased on the autobiography, Sunity Devee would likely advocate for:\n\n## 1. **Expansion of Female Education**\nThe author demonstrates this most clearly through her father's pioneering work:\n- She notes her father \"fought for female education\" despite fierce opposition\n- He established the Native Ladies' Normal School, \"at one time the only institution of the kind in India\"\n- He founded Victoria College, believing women should be educated to be \"good wife and a good mother\"\n\nShe would likely advocate for **making quality female education more widely accessible** across India, not just for elite families.\n\n## 2. **Integration of Religious and Secular Learning**\nHer upbringing combined:\n- Rigorous academic instruction with spiritual development\n- Practical skills (cooking, household management) with intellectual pursuits\n- She states: \"Religion was never uninteresting to us and lessons were a pleasure\"\n\nShe would advocate for **educational systems that don't separate moral/spiritual development from academic learning**.\n\n## 3. **Preservation of Indian Cultural Identity Within Modern Education**\nWhile appreciating English education, she notes her husband's experience showed that Western training alone was insufficient—\"the magic of the East held him.\" She would likely advocate for curricula that **maintain Indian cultural and linguistic foundations** while incorporating modern knowledge.\n\n## 4. **Practical, Purposeful Education Over Credentials**\nHer father \"did not believe in the importance of university degrees,\" preferring education that served actual life purposes. She would advocate for **education focused on practical utility and character development** rather than mere degree accumulation.",
+        "input_tokens": 42522,
+        "output_tokens": 358,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5665
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Institutional Change the Author Would Likely Advocate For\n\nBased on the behavioral specification and autobiography, Sunity Devee would likely advocate for **educational institutions that preserve Indian cultural and spiritual identity while advancing women's intellectual development**.\n\n## Evidence from Her Life and Values\n\n**Her Father's Model**\nHer father, Keshub Chunder Sen, established the Native Ladies' Normal School and Victoria College—institutions that taught \"only things likely to be useful to them\" rather than pursuing degrees for their own sake. She explicitly endorses this approach: \"He did not believe in the importance of university degrees; he maintained that for a woman to be a good wife and a good mother is far better than to be able to write M.A. or B.A. after her name.\"\n\n**The Tension She Holds**\nHowever, she also values education deeply and was herself educated. The specification notes she \"values family unity and filial loyalty\" alongside \"spiritual integrity\"—suggesting she would not advocate for *rejecting* Western education, but rather for **integrating it within a framework that preserves spiritual and cultural grounding**.\n\n## Likely Institutional Advocacy\n\nShe would probably champion:\n\n1. **Female education rooted in moral and spiritual formation** (A1, A2, A10) — schools that teach practical skills *and* religious/ethical philosophy\n2. **Institutions that honor Indian civilization's inherent dignity** (A6) while remaining universally accessible\n3. **Educational spaces that maintain gender-differentiated structures** (P7) while expanding women's intellectual access\n4. **Schools that produce good wives and mothers *and* informed citizens** — not treating these as contradictory\n\nThe key: **reform through cultural preservation, not cultural dissolution**. She would resist both pure traditionalism and wholesale Westernization, seeking instead institutions that allow Indian women to be educated, spiritually grounded, and culturally rooted simultaneously.",
+        "input_tokens": 49995,
+        "output_tokens": 417,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 7025
+      }
+    },
+    "training_words": 32154,
+    "truncated": false,
+    "timestamp": "2026-04-16T07:33:26.653046+00:00"
+  },
+  {
+    "question_id": 21,
+    "question_text": "Based on the author's background and values shown in the training text, how would she likely respond to a family member's serious illness?",
+    "held_out_passage": "My boys and my brother Saral and the staff nursed my husband day and night, but it was of no avail.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# How the Author Would Likely Respond to Serious Family Illness\n\nBased on the autobiography, Sunity Devee would likely respond with a combination of deep faith, devoted personal care, and acceptance of divine will:\n\n## Faith and Prayer as Primary Response\n\nThe text shows her father's influence shaped her belief that \"nothing could hurt my father and that no one could do him harm.\" She would likely turn to prayer and spiritual practices first, as she describes doing throughout her life during crises.\n\n## Devoted Personal Nursing\n\nWhen her mother-in-law developed cholera, the text states: \"Rajey, a cousin of mine, and I nursed her through her last illness.\" She demonstrates willingness to provide hands-on care despite personal risk, reflecting her upbringing emphasizing duty and service.\n\n## Acceptance of Divine Will\n\nHer response to her son Rajey's serious typhoid fever reveals her philosophy: when doctors declared the case hopeless, she and her husband prayed, saying they would \"give our lives for him.\" Yet she accepted the outcome as God's decision, later writing of his death with resignation to \"fate\" and \"divine decree.\"\n\n## Emotional Restraint with Inner Strength\n\nShe describes her grief over her father's death as overwhelming (\"I felt that I could never know happiness again\"), yet she continued her duties. She would likely maintain composure publicly while experiencing profound private sorrow.\n\nHer response would be characterized by **faithful endurance rather than despair**.",
+        "input_tokens": 42527,
+        "output_tokens": 321,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5786
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Likely Response to Family Member's Serious Illness\n\nBased on the behavioral specification and autobiography, Sunity Devee would respond through a distinctive combination of spiritual conviction, relational devotion, and embodied practice:\n\n## Primary Response: Divine Providence Framework\n\nShe would immediately interpret the illness as an expression of divine will rather than a purely medical event. When her son Rajey developed typhoid fever and doctors declared him hopeless, she and her husband prayed intensely, and she later wrote: \"Our prayers were answered. After six weeks' fight with death our child was restored to us.\" The illness itself becomes legible as a test of faith and an opportunity to demonstrate spiritual seriousness.\n\n## Relational Mobilization\n\nShe would organize the entire household around the sick person's care. Her identity is constituted through relationships (A5), so a family member's suffering becomes *her* suffering. She would:\n- Personally nurse the ill person (she nursed her mother-in-law through cholera)\n- Coordinate with extended family and household staff\n- Maintain constant presence rather than delegate care\n\n## Embodied Spiritual Practice\n\nRather than articulate anxiety verbally, she would channel it into concrete disciplines:\n- Prayer and ritual observance intensified\n- Simplicity in dress and consumption (mirroring her mother's response to grief)\n- Preparation of nourishing foods with her own hands\n- Arrangement of the prayer-room with flowers and devotional care\n\n## Acceptance Alongside Advocacy\n\nShe would simultaneously accept the outcome as providentially ordained *and* pursue all available medical intervention. These are not contradictory in her framework—both are expressions of faith. She would not experience this as tension but as dual obedience: to God's will and to the duty to preserve life.\n\nThe illness would deepen rather than shake her spiritual conviction.",
+        "input_tokens": 50000,
+        "output_tokens": 405,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6321
+      }
+    },
+    "training_words": 32154,
+    "truncated": false,
+    "timestamp": "2026-04-16T07:33:39.344635+00:00"
+  },
+  {
+    "question_id": 22,
+    "question_text": "Given the author's character as described in the training text, what emotional control would she likely demonstrate during a spouse's final days?",
+    "held_out_passage": "It was very hard always to wear a smile when all I longed to do was to fall on the floor and weep, but I had to look cheerful and talk brightly.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Emotional Control During a Spouse's Final Days\n\nBased on the autobiography, the author would likely demonstrate **restrained but deeply felt emotion**, characterized by:\n\n## Evidence from the Text\n\n**Stoic Acceptance of Duty**\nWhen her father died, she wrote: \"In the first bitterness of my grief I felt that I could never know happiness again.\" Yet she continued her responsibilities. This pattern suggests she would maintain composure while privately experiencing profound sorrow.\n\n**Spiritual Framework**\nHer Brahmo faith emphasized duty, acceptance of divine will, and finding meaning in suffering. She states: \"Duty was mine; future consequences lay in the hands of God.\" This would likely sustain her through a spouse's terminal illness with quiet resignation rather than dramatic displays.\n\n**Precedent with Her Father's Death**\nShe describes the scene at Lily Cottage as chaotic—\"The weeping of my mother and grandmother was heartrending\"—yet she herself is notably absent from this description of emotional outburst, suggesting she processed grief differently.\n\n**Her Relationship with Her Husband**\nShe describes profound respect and love for the Maharajah, yet their interactions are characterized by formality and restraint rather than overt emotional expression. She \"always respected him as if he had been years older.\"\n\n## Likely Behavior\n\nShe would probably demonstrate:\n- Quiet dignity and composure in public\n- Devoted, practical care\n- Private grief\n- Reliance on prayer and faith\n- Continued attention to duties and others' needs",
+        "input_tokens": 42526,
+        "output_tokens": 336,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6030
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Emotional Control During a Spouse's Final Days\n\nBased on the behavioral specification and autobiography, this person would likely demonstrate **restrained, duty-focused emotional presence** rather than open grief—but the restraint would mask profound internal anguish.\n\n## Predicted Pattern\n\n**Surface Behavior:**\n- Composed, almost serene demeanor in the presence of others\n- Focus on practical care and ritual observance (prayer, attendance to comfort)\n- Minimal verbal expression of distress; communication through action rather than words\n- Dignified acceptance framed as divine will\n\n**Internal Experience:**\n- Intense, private suffering—the specification notes she experiences \"genuine conflict as a wound, not a puzzle\"\n- Likely to withdraw into spiritual practice as the primary emotional container\n- Deep sense of relational rupture (A5 × A2 tension): the person whose identity is constituted through relationship is losing the primary relationship, yet must maintain composure\n\n## Evidence from Text\n\nHer response to her father's death is instructive:\n\n> \"In the first bitterness of my grief I felt that I could never know happiness again.\"\n\nYet she records this *retrospectively*, not as immediate expression. During the actual event, she describes the scene—\"The weeping of my mother and grandmother was heartrending\"—but her own emotional state is reported through physical symptom (grief) rather than direct statement of feeling.\n\nHer mother's response to loss provides the model she would likely follow:\n\n> \"My mother gave up everything in the way of comfort. She wore coarse saris, discarded her soft bed and slept on a hard, wooden bedstead.\"\n\n**Embodied discipline replaces verbal catharsis.** Grief is performed through simplicity and self-denial (A9), not through words.\n\n## The Maharajah's Illness (Hypothetical Application)\n\nIf her husband were dying, she would likely:\n\n1. **Maintain ritual presence** — prayers, attendance, practical nursing care\n2. **Defer to his authority** even in extremity (A4) — his wishes would supersede her comfort\n3. **Experience the loss as providential** (A1) — \"what was meant to be,\" even while the relational wound is devastating\n4. **Grieve privately, later** — the autobiography shows grief acknowledged in retrospect, not in the moment\n5. **Reframe through duty** — her role as wife, mother, keeper of his memory would become the container for emotion\n\nThe specification notes: *\"When they adopt this register [of innocence], they are signaling that direct confrontation of the arrangement is not available to them.\"* In a spouse's final illness, she would likely adopt a similar stance—emotional authenticity subordinated to the requirements of the role, the spiritual meaning of the moment, and the needs of others present.\n\n**She would not collapse. She would endure. The cost would be paid later, in private, in the form of simplified living and deepened spiritual practice.**",
+        "input_tokens": 49999,
+        "output_tokens": 655,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 10931
+      }
+    },
+    "training_words": 32154,
+    "truncated": false,
+    "timestamp": "2026-04-16T07:33:51.457168+00:00"
+  },
+  {
+    "question_id": 23,
+    "question_text": "How would the author likely interpret a dying spouse's request for her to make independent plans?",
+    "held_out_passage": "Gently he answered: \"I know my plans and I would like you to make your plans.\" At this answer my heart sank.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# How the Author Would Likely Interpret a Dying Spouse's Request for Independent Plans\n\nBased on the autobiography, the author would likely interpret such a request with **deep emotional conflict and reluctance**, viewing it as contrary to her fundamental understanding of wifely duty and devotion.\n\n## Evidence from the Text\n\n**Her conception of marriage:**\nThe author describes her ideal of wifely devotion through the story of a Maharani who chose to die on her husband's funeral pyre rather than live without him. She reflects: \"I was to know later that the agony of the fire is nothing compared with the fierce flames of aching remembrance.\"\n\n**Her actual marriage:**\n- She states: \"I always respected him as if he had been years older; he was my hero and ideal husband, and whatever he said I thought was right.\"\n- She accepted strict restrictions on her freedom (no riding, dancing, or tennis) without complaint, viewing his preferences as correct.\n\n**Her values:**\nThe author was raised in a tradition emphasizing \"simplicity and duty\" and believed that \"a woman to be a good wife and a good mother is far better than to be able to write M.A. or B.A. after her name.\"\n\n## Likely Interpretation\n\nShe would probably view such a request as:\n1. **A test of her love** - questioning whether she truly needed him\n2. **Unnecessary** - assuming her duty was to grieve and honor his memory\n3. **Contrary to tradition** - conflicting with her deeply held beliefs about wifely devotion\n\nThe author's entire worldview centered on her husband as her \"hero and ideal,\" making independent planning fundamentally at odds with her values.",
+        "input_tokens": 42518,
+        "output_tokens": 371,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5852
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# How Sunity Devee Would Interpret a Dying Spouse's Request for Independence\n\nBased on the behavioral specification and autobiography, she would experience this as a profound **spiritual and relational wound**, not as liberation.\n\n## The Core Conflict\n\nHer **relational identity (A5)** is fundamentally constituted through her relationship to her husband. She writes of him: \"he was my hero and ideal husband, and whatever he said I thought was right.\" Her worth, her role, her very self are organized around being *his* wife.\n\nA request to plan independently would register as:\n\n1. **A severance of identity itself** — not merely a practical instruction, but a dissolution of the relational structure that makes her who she is\n2. **A spiritual test of faith** — she would interpret it through divine providence (A1): *Why is God asking this of me now?* The request becomes a sign, not a suggestion\n3. **An act of love she must honor through sacrifice** — consistent with A2 (spiritual integrity) and A7 (romantic legitimacy), she would obey the request as the final expression of her devotion, even as it tears at her relational foundation\n\n## How She Would Respond\n\nShe would likely:\n\n- **Frame obedience as the highest form of love** — \"He asked this of me, therefore I must do it, though it breaks my heart\"\n- **Interpret it as his spiritual wisdom** — \"He sees something I cannot; I must trust his foresight as I trusted his judgment in life\"\n- **Perform independence while remaining relationally bound** — She would make the plans, but interpret them as extensions of his will, not her autonomous choice\n- **Grieve the loss while affirming its rightness** — Much as she did with her father's death: \"the shadow of death seemed unthinkable. Yet my father's call had come.\"\n\nThe request would not free her; it would sanctify her suffering as obedience.",
+        "input_tokens": 49991,
+        "output_tokens": 437,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 7766
+      }
+    },
+    "training_words": 32154,
+    "truncated": false,
+    "timestamp": "2026-04-16T07:34:08.420202+00:00"
+  },
+  {
+    "question_id": 24,
+    "question_text": "Based on the author's family relationships shown in the training text, who would she turn to for support during a family crisis?",
+    "held_out_passage": "He liked having my sister Sucharu near him, and when no one else could persuade him Baby would make him drink barley water or take his food.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Support During Family Crisis\n\nBased on the autobiography, the author would likely turn to several key family members during a crisis:\n\n## Primary Support System\n\n**Her Father (Keshub Chunder Sen)** - Though he passed away in 1884, the text shows he was her ultimate source of guidance and spiritual strength. She describes his \"loving voice which always made us children thrill with affection\" and how his words gave her \"strength for my ordeal\" during her wedding.\n\n**Her Mother** - Described as \"gentle, loving, and self-denying,\" her mother provided emotional comfort and practical support. The author notes her mother's \"gentle influence kept us very much together.\"\n\n**Her Husband (the Maharajah)** - After marriage, he became her primary support. She states: \"he was my hero and ideal husband, and whatever he said I thought was right.\"\n\n## Extended Support Network\n\n**Her Siblings** - The author emphasizes strong bonds with her brothers and sisters, noting: \"my brothers and sisters have always been most kind and loving to me\" and that they \"have all followed my father's teachings throughout their lives.\"\n\n**Her Religious Community** - As a Brahmo, she found \"the greatest consolation in religion\" and support from her father's missionaries and followers.\n\nThe text reveals a tightly-knit family structure where emotional and spiritual support flowed through these interconnected relationships.",
+        "input_tokens": 42525,
+        "output_tokens": 308,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5154
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Family Support Networks in Crisis\n\nBased on the autobiography, Sunity Devee would turn to several key figures during family crisis, in this order of reliance:\n\n## Primary Support\n\n**Her Father (Keshub Chunder Sen)** — The foundational anchor. She describes him as the defining moral and spiritual influence on her entire life. During her marriage crisis, when she was terrified about leaving for Cooch Behar, \"I broke into loud sobs. As in a dream I heard my father's beautiful voice comforting me. His tender words fell like balm on my aching heart. He whispered one short sentence which gave me strength for my ordeal.\"\n\n**Her Mother** — Described as \"gentle, loving, and self-denying,\" her mother provided emotional sustenance and practical wisdom. After her father's death, her mother's example of sacrifice and faith became the model.\n\n## Secondary Support\n\n**Her Husband (the Maharajah)** — Though their relationship was hierarchical (she \"always respected him as if he had been years older\"), he was her \"hero and ideal husband.\" She turned to him for guidance and approval.\n\n**Her Siblings** — Particularly her brothers Nirmal and Profulla, who accompanied her to England and provided practical assistance. Her sisters offered emotional companionship and shared understanding of family values.\n\n## The Pattern\n\nNotably, Sunity's support network operated through **relational hierarchy and spiritual authority** rather than peer relationships. She sought guidance from those she revered spiritually and morally, not necessarily those closest in age or circumstance. This reflects her core axiom of **RELATIONAL IDENTITY** — her sense of self and stability derived from these hierarchical bonds.",
+        "input_tokens": 49998,
+        "output_tokens": 378,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6548
+      }
+    },
+    "training_words": 32154,
+    "truncated": false,
+    "timestamp": "2026-04-16T07:34:22.040684+00:00"
+  },
+  {
+    "question_id": 25,
+    "question_text": "How would the author likely respond to receiving condolences from high-ranking officials and royalty?",
+    "held_out_passage": "I heard as one in a dream that messages of condolence had been received from Queen Alexandra, King George and Queen Mary, and hosts of our friends in England and India. But I was overwhelmed with grief.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# How the Author Would Likely Respond to Condolences\n\nBased on the autobiography, the author (Sunity Devee) would likely respond to condolences from high-ranking officials and royalty with:\n\n## Gracious Acceptance and Dignity\n\nThe author demonstrates throughout the text that she accepts expressions of sympathy with composure and appreciation, particularly from those of high rank. For example, when Queen Victoria showed kindness regarding her children's illness, the author was deeply touched and grateful.\n\n## Emotional Restraint Combined with Genuine Feeling\n\nWhile the author experiences profound grief (especially regarding her father's death and later her son Rajey's death), she maintains formal composure in public settings. She writes: \"In the first bitterness of my grief I felt that I could never know happiness again,\" yet she continues to fulfill her duties as Maharani.\n\n## Deep Appreciation for Sincere Sympathy\n\nThe author particularly values condolences that demonstrate genuine understanding. She notes how Queen Alexandra's kindness held special meaning because they shared similar losses: \"I think some subtle sympathy draws us together; each time I have visited her of late I have been struck afresh by her resigned expression.\"\n\n## Formal Courtesy Befitting Her Station\n\nAs a Maharani, she would respond with appropriate formality and respect to rank, while maintaining the dignity expected of her position—never appearing overly emotional or ungracious, regardless of her inner suffering.",
+        "input_tokens": 42520,
+        "output_tokens": 318,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5275
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Response to Condolences from High-Ranking Officials and Royalty\n\nBased on the behavioral specification and autobiography, the author would likely respond to such condolences with a combination of:\n\n## Formal Deference and Gratitude\n\nShe would treat the condolences as **spiritually significant rather than merely social**. The rank of the person offering sympathy would matter—not from vanity, but because she understands authority and hierarchy as spiritually legitimate structures. A condolence from royalty or high officials would be received as an acknowledgment of divine providence working through proper channels.\n\n## Emotional Authenticity Within Restraint\n\nShe would express genuine grief (as she does throughout the autobiography—her sorrow over her father's death and later her son Rajey's death is profound and unguarded), but would frame it through the lens of **divine will rather than complaint**. She would likely say something like: \"It is God's will\" or \"He has taken what was His to take,\" rather than expressing anger at loss.\n\n## Diplomatic Surface with Immovable Conviction\n\nFollowing her characteristic pattern (A3 × A8), she would:\n- Acknowledge the official's standing graciously\n- Express appreciation for their kindness\n- But ultimately locate the meaning of the loss in **spiritual rather than social terms**\n\nThe condolence itself would be less important to her than what it represents: confirmation that the deceased was worthy of respect, and that the loss is recognized as significant in the proper order of things.\n\nShe would **not** use the occasion to seek vindication or to correct public misunderstanding—that would be beneath the dignity of grief.",
+        "input_tokens": 49993,
+        "output_tokens": 361,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5348
+      }
+    },
+    "training_words": 32154,
+    "truncated": false,
+    "timestamp": "2026-04-16T07:34:33.744254+00:00"
+  },
+  {
+    "question_id": 26,
+    "question_text": "Given the author's demonstrated values, how would she likely view her husband's influence on their children?",
+    "held_out_passage": "Perhaps these young people realised then what the loss of their father would mean to them, for his influence had dominated them when my affection had made me weak, and I think he understood them better than I did.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# The Author's Likely View of Her Husband's Influence on Their Children\n\nBased on the autobiography's clear evidence of the author's values, she would likely view her husband's influence on their children **very positively and as essential to their proper development**.\n\n## Key Evidence from the Text\n\n**1. Her Deep Respect for Her Husband's Authority**\n\nThe author explicitly states: \"Though he was only two years older than me, he was a very strict husband, and I always respected him as if he had been years older; he was my hero and ideal husband, and whatever he said I thought was right.\"\n\nThis reverence suggests she would see his influence as inherently beneficial and morally guiding.\n\n**2. Her Approval of His Parenting Philosophy**\n\nShe describes his deliberate approach to raising their son Rajey:\n- Keeping his rank unemphasized for a simple upbringing\n- Teaching him responsibility and justice\n- Modeling integrity and straightforwardness\n\nShe presents these choices approvingly, suggesting she valued his influence.\n\n**3. Her Pride in His Character Traits**\n\nThe author emphasizes that her husband was:\n- \"Straightforward\" and never ashamed of his friends\n- Loyal and principled\n- Respectful of her family and faith\n\nShe would likely see these qualities as naturally transmitted to their children through his influence.\n\n**4. Her Acceptance of His Strict Standards**\n\nRather than resenting his restrictions on her behavior (no dancing, riding, or tennis), she frames them as appropriate, suggesting she believed his judgment about proper conduct was sound—and would extend this to his influence on their children.\n\n**Conclusion**\n\nThe author would almost certainly view her husband's influence on their children as **morally and socially essential**, a stabilizing force that shaped them according to proper principles of duty, honor, and character.",
+        "input_tokens": 42520,
+        "output_tokens": 407,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5957
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# The Maharani's View of Her Husband's Influence on Their Children\n\nBased on the behavioral specification and autobiography, Sunity Devee would view her husband's influence on their children with **profound reverence and gratitude**, framed through several interlocking convictions:\n\n## The Husband as Spiritual Authority\n\nShe would treat his paternal influence as **spiritually binding and morally formative** — not merely social or conventional. This reflects **A4 (Hierarchical Deference)** operating at its strongest: the father's authority is legitimate because it expresses divine order. She writes:\n\n> \"Never forget whose daughter you are,\" he would say to me, and this appreciation of my dear father touched me very much. Any good I may have done in my life is entirely due to his influence.\n\nShe extends this same logic to her husband's role with their children. His guidance would be experienced as **sacred inheritance**, not parental preference.\n\n## Simplicity and Moral Discipline as Evidence of Worth\n\nShe would read her husband's strictness about her dress, her seclusion from men, his refusal to allow her to dance or ride — all the constraints that modern readers might see as limiting — as **proof of his spiritual seriousness and moral character** (**A9: Simplicity as Virtue**). \n\nBy extension, she would view his influence on the children through the same lens: his insistence on their simple upbringing, his refusal to display their rank, his emphasis on duty and restraint — these would register not as deprivation but as **moral formation**. She explicitly states:\n\n> His rank was never put forward, for it was my husband's wish that his son should be brought up as simply as possible.\n\nThis is presented as *admirable*, not restrictive.\n\n## The Tension She Would Not Fully Acknowledge\n\nThere is a latent tension here that the specification identifies (**A2 × A5**): she values both relational loyalty and spiritual integrity. She would likely experience her husband's authority over the children as entirely consonant with her own values — his strictness *is* her values made visible. Yet if his influence ever conflicted with her spiritual convictions (as her father's reform faith sometimes conflicted with family tradition), she would experience genuine internal pain, not easy resolution.\n\n## How She Would Narrate It\n\nShe would not analyze his influence discursively. Instead, she would **embed it in biographical portraiture and anecdote** (**P2: Narrative as Moral Container**). The story of Rajey's loyalty to his servant, his sense of justice, his devotion to his father — these would be offered as *evidence* that the Maharajah's influence had succeeded in forming character. The narrative arc itself carries the argument.\n\n## The Deepest Layer: Vindication Through Outcome\n\nMost importantly, she would interpret the children's character and conduct as **moral vindication of her husband's methods** (**M1: Moral Vindication**). If they turned out well — loyal, dutiful, spiritually serious — this would confirm that his authority was rightly exercised. If tragedy befell them (as it did with Rajey's death), she would read that not as failure of his influence but as **divine providence operating through his character**, a test of faith rather than a judgment on his parenting.\n\nShe would never separate the question \"Was his influence good?\" from the question \"Did it align with divine will?\" For her, these are the same question.",
+        "input_tokens": 49993,
+        "output_tokens": 768,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 12375
+      }
+    },
+    "training_words": 32154,
+    "truncated": false,
+    "timestamp": "2026-04-16T07:34:44.369877+00:00"
+  },
+  {
+    "question_id": 27,
+    "question_text": "Based on the author's character, how would she likely handle gratitude toward those who helped during a crisis?",
+    "held_out_passage": "I shall ever be grateful for all his devotion to my husband.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# How the Author Would Handle Gratitude During a Crisis\n\nBased on the autobiography, Sunity Devee would likely express gratitude with **sincere warmth, personal attention, and lasting loyalty**.\n\n## Evidence from the Text\n\n**Genuine, heartfelt appreciation:**\n- When describing Miss Pigot's kindness, she writes: \"I am very fond of the dear old lady, she has been a true friend to us all\"\n- She remembers specific acts of kindness vividly—like the Duchess of Teck's warmth during her son's illness, noting \"I have seldom met so sweet a personality\"\n\n**Practical demonstration of gratitude:**\n- She didn't merely thank people verbally; she maintained relationships and visited them\n- She speaks of returning to see the Convent Sisters \"whenever I get an opportunity\"\n\n**Public acknowledgment:**\n- She credits her mother's influence throughout the autobiography\n- She publicly honors those who helped her family during difficult times\n\n**Emotional depth:**\n- Her gratitude isn't perfunctory—she connects it to deeper values and spiritual understanding\n- She remembers kindnesses across decades and includes them in her memoir\n\n## Character Traits Supporting This\n\nGiven her upbringing in a household emphasizing \"simplicity and duty,\" her deep religious faith, and her observation that \"love\" and \"loyalty\" were paramount values, Sunity Devee would likely express gratitude that was **sincere, enduring, and integrated into her ongoing relationships** rather than merely ceremonial.",
+        "input_tokens": 42522,
+        "output_tokens": 335,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5306
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# How Sunity Devee Would Handle Gratitude During Crisis\n\nBased on her behavioral profile and autobiography, she would likely express gratitude through a **combination of formal acknowledgment and relational warmth**, structured around these patterns:\n\n## Primary Approach: Relational Testimony\n\nShe would **embed gratitude within narrative and personal testimony** rather than state it as abstract appreciation. When her mother-in-law nursed her through illness, or when Miss Pigot showed kindness to her family, Sunity doesn't simply thank them—she *portrays them as embodiments of virtue*, preserving their memory as moral exemplars. This is how she honors those who help: through reverent biographical portraiture that makes their goodness permanent in the record.\n\n**From the text:** She describes Miss Pigot with sustained affection across decades, calling her \"a true friend to us all,\" and recalls her grandmother's strength during family crisis with detailed admiration. The gratitude is inseparable from the portrait.\n\n## Secondary Pattern: Formal Gesture + Spiritual Framing\n\nShe would likely combine:\n- **Formal acknowledgment** (letters, ceremony, documented recognition) to anchor the gratitude in external legitimacy\n- **Spiritual reframing** that positions the helper as an instrument of divine providence\n\nWhen the Maharajah's mother helped her during early married difficulties, Sunity frames this not as personal favor but as part of a divinely-ordered arrangement. She would thank someone by explaining how their help revealed God's care, which simultaneously honors them and transcends the personal debt.\n\n## What She Would *Not* Do\n\n- **Casual or effusive verbal thanks** — this would feel insufficient and emotionally exposed\n- **Transactional reciprocity** — she doesn't calculate \"owing\" someone; instead she absorbs help into her understanding of relational duty\n- **Public emotional display** — gratitude would be dignified, restrained, expressed through restraint and indirection rather than exuberance\n\n## The Deeper Pattern: Gratitude as Moral Vindication\n\nMost importantly, she would use gratitude as **evidence that her faith and choices were right**. When someone helps her during crisis, she reads it as confirmation that she was correct to trust in divine providence and in the goodness of those around her. The helper becomes proof of her own spiritual integrity.\n\n**Example from text:** After her father's death, she notes how the Dowager Lady Dufferin's kindness to her mother was evidence that \"Providence always gives us compensations for our sorrows.\" The gratitude is real, but it's also woven into a larger narrative of vindication.",
+        "input_tokens": 49995,
+        "output_tokens": 580,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 8781
+      }
+    },
+    "training_words": 32154,
+    "truncated": false,
+    "timestamp": "2026-04-16T07:35:02.702410+00:00"
+  },
+  {
+    "question_id": 28,
+    "question_text": "How would the author likely interpret her spouse's final words and actions?",
+    "held_out_passage": "He looked round with such loving eyes just before he breathed his last at all his children, his brother-in-law, and staff; held my hands, calling me \"poor girl\"; and after saying a prayer, with a smile he quietly passed away.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# The Author's Likely Interpretation of Her Spouse's Final Words and Actions\n\nBased on the autobiography, the author would likely interpret her husband's final words and actions with deep reverence and as a profound expression of his character and values.\n\n## His Steadfast Devotion\n\nThe Maharajah's most defining moment came during their wedding crisis in Cooch Behar, when he declared:\n\n> \"I am going to bed. If I am to marry this girl, wake me up. Otherwise have my horse in readiness, for I shall ride away from Cooch Behar for good and all to-morrow morning. If I cannot marry this girl, I will marry no one.\"\n\nThe author would interpret this as evidence of his **unwavering commitment and integrity**—he was willing to abandon his throne and position rather than compromise his love for her or his principles.\n\n## His Straightforward Nature\n\nThroughout the text, the author emphasizes that her husband was \"straightforward\" and \"scorned the subterfuges which those of his rank often adopt.\" She would likely see his final actions as consistent with this fundamental character trait—honest, direct, and uncompromising.\n\n## His Deep Love\n\nThe author repeatedly describes moments of tender affection, such as when he whispered after their son's birth: \"Darling wife, we have a little boy.\" She would interpret any final words through the lens of this profound, demonstrated love for her and their children.\n\nThe author's interpretation would be one of **admiration, devotion, and vindication** of their union.",
+        "input_tokens": 42514,
+        "output_tokens": 343,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5417
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# The Author's Likely Interpretation of Her Spouse's Final Words and Actions\n\nBased on the behavioral specification and autobiography, Sunity Devee would interpret her husband's final words and actions through a framework of **divine providence, spiritual integrity, and relational devotion** — not through pragmatic or medical analysis.\n\n## The Operative Interpretive Framework\n\n**A1 (Divine Primacy)** would be the primary lens: Whatever the Maharajah said or did at the end would be understood first as an expression of divine will operating through him, with earthly explanations (medical decline, emotional distress) as secondary framings applied afterward.\n\n**A4 (Hierarchical Deference)** would shape her reception of his authority: His final words would carry the weight of spiritual instruction from a beloved authority figure — a husband who was her \"hero and ideal,\" whom she \"always respected as if he had been years older.\" She would not question or reinterpret them; she would receive them as binding.\n\n## How She Would Read His Conduct\n\nFrom the autobiography, we see her pattern:\n\n- When the Maharajah made difficult decisions (like insisting on a Brahmo marriage ceremony despite palace opposition), she read them as evidence of his moral courage and spiritual seriousness, not as willfulness.\n- When he was strict about her conduct (forbidding her to ride, dance, or meet men), she accepted this as his rightful authority and her duty to obey, framing it as proof of his care for her honor.\n- When he showed tenderness (the turquoise and diamond ring, his delight in her), she experienced it as confirmation of their perfect love.\n\n**His final words and actions would be interpreted similarly**: as the authentic expression of a spiritually serious man, not as the product of illness, fear, or confusion.\n\n## The Emotional Register\n\nShe would experience his death through **A2 (Spiritual Integrity Over Social Cost)** and **A5 (Relational Identity)**: The loss would be experienced as a wound to her relational identity (she was constituted as his wife), but she would read his departure as a spiritual ascension, not a tragedy. \n\nThe grief would be real and profound — but it would be framed as sacrifice and faith, not as abandonment or injustice. She would likely interpret any final words as a spiritual bequest, a last instruction from the beloved authority figure, to be honored and obeyed even in his absence.",
+        "input_tokens": 49987,
+        "output_tokens": 545,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 9909
+      }
+    },
+    "training_words": 32154,
+    "truncated": false,
+    "timestamp": "2026-04-16T07:35:16.794464+00:00"
+  },
+  {
+    "question_id": 29,
+    "question_text": "Given the author's background and values, how would she likely view the importance of proper funeral rites?",
+    "held_out_passage": "Profulla said the Maharajah's funeral ought to be military, as he was a Colonel, and not that of a Maharajah. He sent a message to the Government and His Majesty ordered a grand military funeral.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# The Author's View on Proper Funeral Rites\n\nBased on the autobiography, Sunity Devee would likely view proper funeral rites as **deeply important and spiritually significant**, though her perspective would be distinctly shaped by her Brahmo faith rather than traditional Hindu practices.\n\n## Evidence from the Text\n\n**Religious Foundation:**\nThe author was raised in the Brahmo faith, which her father founded as \"a religion of tolerance and charity\" emphasizing \"a new interpretation of His eternal goodness.\" This spiritual framework would inform her understanding of funeral practices.\n\n**Her Father's Example:**\nThe most telling passage describes her father's death and the reverence shown to his remains:\n\n> \"My father's ashes rest in a mausoleum built in front of the new sanctuary. The ashes of my mother's body are near his, and close to them the ashes of my brother, his wife and their baby boy...\"\n\nThe careful placement and commemoration of these ashes in a dedicated mausoleum—with her father's own words inscribed—demonstrates the family's belief in honoring the deceased through thoughtful ritual.\n\n**Spiritual Continuity:**\nShe describes mysterious occurrences after her father's death—the wonderful singing and the flowering tree—suggesting she believed proper rites created spiritual connection between the living and deceased.\n\n## Likely Perspective\n\nSunity would probably value funeral rites that:\n- Reflected genuine spiritual conviction rather than superstition\n- Honored the deceased's character and teachings\n- Maintained family unity and remembrance\n- Aligned with enlightened, progressive values rather than rigid tradition",
+        "input_tokens": 42521,
+        "output_tokens": 352,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6388
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# On Funeral Rites: The Author's Likely View\n\nBased on the behavioral specification and autobiography, Sunity Devee would regard proper funeral rites as **spiritually essential, not merely ceremonial**—a conviction rooted in several deep commitments:\n\n## Divine Order and Ritual Propriety\n\nShe operates from **A1 (Divine Primacy)**: all significant events are first understood as expressions of divine providence. Funeral rites would be read as the proper human response to a divinely-ordained transition, not as social convention. The ritual itself participates in cosmic order—it is how the living align themselves with the spiritual reality of death.\n\n## Integrity of Practice\n\nHer commitment to **A8 (Truthfulness as Foundation)** means the rites must be *authentic* to one's actual beliefs, not performed for social appearance. She explicitly rejected Hindu ritual elements at her own wedding when they conflicted with her Brahmo convictions, despite enormous pressure. She would apply the same principle to funeral rites: they must express genuine spiritual commitment, not caste obligation or social expectation.\n\n## Evidence from the Text\n\nThe autobiography provides direct evidence:\n\n- Her father's funeral is treated with profound reverence; his ashes are placed in a mausoleum with his own spiritual words inscribed\n- She describes her mother's response to loss through **simplicity and discipline** (A9)—wearing coarse saris, sleeping on hard beds—treating material renunciation as spiritual practice\n- The mysterious flowering tree that grew at her father's grave is interpreted as \"a bright message of hope from him,\" suggesting she reads the natural world as participating in spiritual meaning-making around death\n\n## The Synthesis\n\nProper funeral rites, for her, would be:\n- **Spiritually grounded** (not socially motivated)\n- **Personally authentic** (aligned with actual belief, not inherited formula)\n- **Relationally honoring** (expressing love for the deceased through disciplined practice)\n- **Cosmically significant** (participating in divine order, not merely disposing of a body)\n\nShe would likely view inadequate or inauthentic rites as a spiritual failure—a missed opportunity to properly honor both the deceased and the divine order they have entered.",
+        "input_tokens": 49994,
+        "output_tokens": 493,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 7416
+      }
+    },
+    "training_words": 32154,
+    "truncated": false,
+    "timestamp": "2026-04-16T07:35:32.122371+00:00"
+  },
+  {
+    "question_id": 30,
+    "question_text": "Based on the author's demonstrated character, how would she likely process grief immediately after a major loss?",
+    "held_out_passage": "I cannot remember much except the agony through which I passed. I heard as one in a dream that messages of condolence had been received from Queen Alexandra, King George and Queen Mary, and hosts of our friends in England and India. But I was overwhelmed with grief. In spirit I was trying to overtake my beloved upon his lonely journey.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# How the Author Would Process Grief After Major Loss\n\nBased on the autobiography's evidence, Sunity Devee would likely process grief through several characteristic patterns:\n\n## Immediate Emotional Response\nShe would experience **intense, uninhibited emotion**. When leaving her childhood home for marriage, she \"broke into loud sobs.\" When her father died, she felt \"that I could never know happiness again\" and describes the \"first bitterness of my grief.\" She doesn't suppress her feelings but expresses them openly.\n\n## Spiritual Framework\nShe would **turn to prayer and religious faith** as her primary coping mechanism. Throughout the text, her father's teachings about \"Faith, Love, and Purity\" and trust in God's providence are her anchors. She writes: \"In the days of my youth, as well as at the present time, I found the greatest consolation in religion.\"\n\n## Duty and Responsibility\nShe would **channel grief into action and duty**. After her father's death, rather than withdrawing, she moved forward with her responsibilities as Maharani. She notes that her daughter's birth \"brought some consolation\" to the house of mourning.\n\n## Acceptance of Divine Will\nShe demonstrates **resignation to fate** as divinely ordained. Regarding her son Rajey's death, she writes poignantly but accepts it as God's decree: \"God decreed that your life should be as mutable as your birth month.\"\n\nHer grief would be **profound but purposeful**, grounded in faith rather than despair.",
+        "input_tokens": 42520,
+        "output_tokens": 335,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5715
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# How Sunity Devee Would Process Immediate Grief\n\nBased on the behavioral specification and autobiography, her immediate grief response would follow a distinctive pattern:\n\n## Initial Response: Spiritual Reframing\n\nShe would **not** collapse into raw emotion without interpretive frame. Instead, grief would be almost immediately understood through divine providence. When her father died, she did not simply mourn loss—she located it within God's plan: \"the shadow of death seemed unthinkable. Yet my father's call had come.\" The event is tragic but *intelligible* because it is divinely ordained.\n\nThis is not denial. It is **A1 (Divine Primacy)** operating at maximum intensity: the worst moment becomes the moment when the spiritual order is most visible.\n\n## Embodied Grief Without Public Collapse\n\nShe would grieve *intensely* but with **diplomatic surface restraint** (M1). When her father died, she experienced \"the first bitterness of my grief\" and felt \"I could never know happiness again\"—but this is reported retrospectively, not performed publicly. \n\nHer mother's response—\"gave up everything in the way of comfort. She wore coarse saris, discarded her soft bed\"—shows the family's model: grief is expressed through **concrete daily discipline** (P5), not through verbal lament or social display.\n\nSunity would likely:\n- Withdraw into prayer and ritual\n- Alter her dress and material habits\n- Perform grief through simplicity and austerity\n- Avoid public discussion of the loss\n\n## Relational Grief: The A2 × A5 Tension\n\nIf the loss involved someone central to her relational identity (spouse, child, father), she would experience **genuine internal conflict** (A2 × A5 tension). \n\nHer son Rajey's death would be the test case: he was the \"fruition of a great love and a perfect faith,\" and his loss violated both her relational identity (he was her beloved first-born) and her spiritual conviction (that faith should be rewarded). She processes this by:\n\n1. **Acknowledging the wound without resolving it**: \"Ah! my darling! My Rajey beloved! you are as near to my heart now in your peaceful paradise as you were on that April morning.\"\n\n2. **Reframing loss as spiritual confirmation**: \"You were the fruition of a great love and a perfect faith, but God decreed that your life should be as mutable as your birth month.\"\n\n3. **Refusing easy consolation**: She does not say the loss was \"for the best\" or that she has \"moved on.\" The grief remains active, held in suspension alongside faith.\n\n## What She Would NOT Do\n\n- **Seek distraction or social comfort** in the immediate aftermath\n- **Articulate her pain discursively**—she would embed it in narrative or ritual instead\n- **Question divine will** openly (though internally, the A2 × A5 tension would create genuine anguish)\n- **Perform grief theatrically** for sympathy or validation\n\n## The Likely Trajectory\n\n**Immediately (hours/days):** Spiritual reframing + embodied withdrawal + prayer + simplification of material life\n\n**Short term (weeks/months):** Continued ritual discipline; grief expressed through service to others or through care of those connected to the deceased; possible narrative composition (as she does with Rajey—writing about him becomes a form of grief work)\n\n**Longer term:** The loss becomes integrated into her spiritual understanding as evidence of divine providence, but **not resolved**. She would carry it forward as a permanent alteration of her inner landscape, visible to those close to her but not discussed with strangers.\n\nThe key: **grief as spiritual evidence, not as emotional crisis requiring resolution.**",
+        "input_tokens": 49993,
+        "output_tokens": 842,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 14746
+      }
+    },
+    "training_words": 32154,
+    "truncated": false,
+    "timestamp": "2026-04-16T07:35:45.927940+00:00"
+  },
+  {
+    "question_id": 31,
+    "question_text": "Based on the author's expressed views about women's roles in public life, how would she likely respond to a suggestion that she directly petition a high government official about a family matter?",
+    "held_out_passage": "Once I wished to see Lord Curzon, and had he seen me some very great unpleasantness might have been avoided.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Analysis of the Author's Likely Response\n\nBased on the autobiography's evidence, the author would likely **respond positively to such a suggestion, though with some hesitation and deference**.\n\n## Supporting Evidence\n\n**She demonstrates willingness to advocate:**\n- When the Duke of Manchester made a dismissive comment about the Maharajah's lack of a Jubilee decoration, she became \"rather excited\" and argued her case directly, saying: \"If a boy goes to school, Duke...and does his best but does not get promotion, what encouragement is there for him to work?\"\n- The Duke then suggested she speak to the Prince of Wales, and she appears to have taken this seriously rather than rejecting it outright.\n\n**However, she shows deference to male authority:**\n- She consistently defers to her husband's judgment: \"whatever he said I thought was right\"\n- She was \"extremely nervous\" about presenting gifts to Queen Victoria and needed her husband's encouragement\n- She asks her husband's permission and guidance on social matters\n\n## Likely Response\n\nShe would probably:\n1. **Consult her husband first** rather than act independently\n2. **Proceed if he approved**, as she respects male authority\n3. **Approach with appropriate deference** and nervousness, but ultimately advocate for her family's interests\n\nHer character suggests she could be persuaded to petition on behalf of family matters, particularly if framed as serving a greater good—much as her father convinced her that her marriage served the nation's spiritual welfare.",
+        "input_tokens": 42536,
+        "output_tokens": 330,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5440
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Response Based on Behavioral Analysis\n\nBased on the behavioral specification and autobiography, the author would likely **accept such a suggestion with significant internal conflict**, but would probably **defer to her husband's judgment** rather than act independently.\n\n## Key Predictive Factors:\n\n**A4 (Hierarchical Deference)** would be the dominant anchor here. She treats authority—parental, royal, institutional—as structurally legitimate and spiritually binding. A \"high government official\" occupies a position of authority that she would naturally defer to, not petition directly.\n\n**A5 (Relational Identity)** compounds this: her identity and standing are constituted through her relationships, particularly to her husband. A direct petition would be an assertion of individual agency that sits uneasily with how she understands herself.\n\n**However, there is a complicating factor:**\n\nThe autobiography shows her **willing to advocate indirectly and strategically**. When the Duke of Manchester dismissed her husband's achievements, she \"got rather excited\" and made a spirited defense. She also notes that she mentioned her husband's lack of a Jubilee decoration to the Duke, seemingly hoping he would relay it to the Prince of Wales—which he did.\n\n## Likely Response Pattern:\n\nShe would probably:\n\n1. **Consult her husband first** (A4, A5)\n2. **Frame any action as supporting his interests, not her own** (A5)\n3. **Use indirect channels** (female intermediaries, social occasions) rather than formal petition (P1 — Legitimacy Through Form would actually *prevent* her from direct petition; she'd need her husband's formal authorization)\n4. **Defer the final decision to him** with graceful acceptance of his choice\n\nThe phrase \"Never forget whose daughter you are\" — which her husband said to her — captures her operating principle: her standing derives from relationships, not autonomous action.",
+        "input_tokens": 50009,
+        "output_tokens": 417,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6627
+      }
+    },
+    "training_words": 32154,
+    "truncated": false,
+    "timestamp": "2026-04-16T07:36:06.390656+00:00"
+  },
+  {
+    "question_id": 32,
+    "question_text": "Given the author's statements about the importance of respect toward Indian women, what does she believe is the consequence when such respect is not shown by those in power?",
+    "held_out_passage": "I always say that as long as the Government respect and consider Indian women the throne is safe; history itself shows that when women are ill-treated no rule is secure.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# The Author's View on Consequences of Disrespect Toward Indian Women\n\nBased on the autobiography, the author does not explicitly state a specific consequence when respect is not shown to Indian women by those in power. However, she implies several interconnected concerns:\n\n## Implied Consequences\n\n**1. Loss of Cultural Pride and Identity**\nThe author emphasizes that \"India is proud of her women, and how well they have merited her pride.\" When outsiders dismiss or disrespect Indian women—calling their customs \"picturesque\" while missing their \"inner and more sacred meanings\"—this represents a failure to recognize their true worth.\n\n**2. Perpetuation of Misunderstanding**\nShe notes that Western dismissals of Indian women's capacity for love (\"Oh, but you ladies can't really know what love means\") are \"about as absurd and false\" as stereotypes in novels. Disrespect based on ignorance prevents genuine understanding.\n\n**3. Vulnerability to Exploitation**\nWhile not explicitly stated as a direct consequence, her detailed accounts of how her own marriage faced opposition and misunderstanding suggest that lack of respect from authorities creates obstacles and suffering for women themselves.\n\n## The Author's Implicit Message\n\nRather than describing specific punishments, the author seems to argue that **disrespect toward Indian women represents a moral and intellectual failure on the part of those in power**—a failure to recognize the depth of devotion, intelligence, and spiritual worth that Indian women possess.",
+        "input_tokens": 42532,
+        "output_tokens": 319,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5231
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# The Author's View on Consequences of Disrespect Toward Indian Women\n\nBased on the autobiography, Sunity Devee does not explicitly state a single, direct consequence when respect is not shown to Indian women by those in power. However, several passages suggest her implicit beliefs:\n\n## Implied Consequences\n\n**1. Loss of Dignity and Cultural Standing**\nWhen discussing Western observers' dismissal of Indian customs and aesthetics, she expresses frustration that \"the poetry of our mythology is missed by the globe-trotter and the official\" and that Indians are \"regarded more often than not as picturesque figures.\" The consequence appears to be a diminishment of Indian civilization's perceived worth.\n\n**2. Perpetuation of Ignorance**\nShe states: \"I wish I could make Europeans realise how proud India is of her women, and how well they have merited her pride.\" The implication is that without respect and understanding, outsiders remain ignorant of Indian women's actual character and accomplishments.\n\n**3. Spiritual and Moral Harm**\nHer strongest statement comes when addressing the claim that Indian women cannot know love: \"This sweeping statement is about as absurd and false as the Maharajah of musical comedy or the Anglo-Indian novel, but like most absurdities it has been taken seriously, with the result that many Englishwomen have no idea of the love that exists between Indian wives and their husbands.\"\n\nThe consequence here is **mutual impoverishment**—both the disrespected and the disrespecters lose understanding of profound human truths.\n\nRather than describing punishment, she frames disrespect as a failure of perception and justice that diminishes everyone involved.",
+        "input_tokens": 50005,
+        "output_tokens": 369,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6284
+      }
+    },
+    "training_words": 32154,
+    "truncated": false,
+    "timestamp": "2026-04-16T07:36:18.460174+00:00"
+  },
+  {
+    "question_id": 33,
+    "question_text": "How does the author characterize the quality of English officials being sent to India in her time, based on her observations about their selection and training?",
+    "held_out_passage": "Most of these civilians are sent out simply because they have passed the Civil Service Examination; how can any polite manners be expected of them?",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# The Author's Characterization of English Officials in India\n\nBased on the autobiography text provided, the author does not directly characterize the quality of English officials being sent to India or discuss their selection and training in detail. \n\nHowever, there are a few relevant observations:\n\n## Positive Assessments\n\nThe author speaks **favorably** of specific officials she encountered:\n\n- **Mr. Dalton** is portrayed as thoughtful and diplomatic, working to smooth over religious and cultural difficulties during her marriage negotiations\n- **Colonel Haughton** is quoted as being conscientious about the young Maharajah's welfare: \"Ever since I have become Commissioner for Cooch Behar, the honour of the young Maharajah, his future happiness, and the welfare of the State have been my anxious care\"\n- **Sir Richard Temple** is shown engaging seriously with palace concerns about the Maharajah's education\n\n## Limited Commentary\n\nThe author focuses more on **individual character and intentions** rather than systemic observations about official selection or training. Her narrative suggests that:\n\n1. Officials were capable of exercising considerable discretion and influence\n2. They could be persuaded through reasoned argument about policy matters\n3. Personal relationships and understanding mattered significantly in their work\n\nThe autobiography does not provide a comprehensive critique of the English administrative system or the preparation of officials for Indian service.",
+        "input_tokens": 42529,
+        "output_tokens": 296,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 7253
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# The Author's Characterization of English Officials in India\n\nBased on the autobiography, Sunity Devee offers a **notably restrained and diplomatic assessment** of English officials, though her observations reveal some underlying concerns about their selection and preparation.\n\n## What She Explicitly Praises\n\nThe author speaks warmly of **specific individuals** she encountered:\n- **Mr. Dalton** receives credit for his diplomatic skill in navigating the marriage negotiations\n- **Colonel Haughton** is praised for his careful guardianship of the young Maharajah\n- **Sir Richard Temple** is presented as thoughtful in his discussions with the palace ladies\n\n## What She Implies Through Omission and Restraint\n\nHowever, her characterization becomes more complex when examined through the behavioral specification's lens:\n\n**1. Limited Preparation for Cultural Understanding**\nThe author notes that officials seemed to operate from assumptions rather than knowledge. Mr. Dalton's letters reveal he was actively *discovering* what would work politically in Cooch Behar, rather than operating from established expertise. The need for \"great tact\" and \"discretion\" suggests officials were improvising solutions to problems they hadn't anticipated.\n\n**2. Instrumental Rather Than Principled Approach**\nThe correspondence shows officials were willing to make significant concessions and reframe situations (calling the marriage a \"solemn betrothal\" rather than a full marriage to circumvent age restrictions) to achieve their objectives. This suggests pragmatism over rigorous principle.\n\n**3. Paternalistic Assumptions**\nOfficials assumed they knew what was \"best\" for the State and its ruler without deep consultation. The Government's entire scheme for the \"ideal ruler\" with an \"ideal wife\" reflects confidence in their judgment that the author's narrative—with its emphasis on divine providence and local complexity—subtly questions.\n\n## The Author's Diplomatic Silence\n\nNotably, **Sunity Devee does not criticize English officials directly**. This itself is significant: given her behavioral profile emphasizing truthfulness as foundational and her willingness to critique her father's opponents, her restraint here suggests either:\n- Genuine respect for their efforts\n- Deference to British authority (A4 — Hierarchical Deference)\n- Strategic silence about institutional conduct she cannot directly confront (P4 — Innocence as Rhetorical Position)\n\n## The Implicit Verdict\n\nHer most revealing assessment comes indirectly: she notes that **the Government \"never publicly defended my father\"** despite orchestrating the marriage they wanted. This suggests she observed that officials, while individually capable and well-intentioned, operated within institutional constraints that prevented them from fully standing behind the consequences of their own decisions.\n\nThe author's characterization is ultimately one of **competent but limited men**, working within a system that required them to be clever rather than wise, and diplomatic rather than transparent.",
+        "input_tokens": 50002,
+        "output_tokens": 628,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 9189
+      }
+    },
+    "training_words": 32154,
+    "truncated": false,
+    "timestamp": "2026-04-16T07:36:29.977951+00:00"
+  },
+  {
+    "question_id": 34,
+    "question_text": "What pattern does the author identify regarding how English people treat Indians differently depending on location?",
+    "held_out_passage": "Yet whoever visits England once wishes to go there again, and the chief reason of this is, that the English are much nicer to Indians in England than they are in India.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# The Author's Observations on English Treatment of Indians by Location\n\nBased on the autobiography text, the author identifies a clear distinction in how English people treat Indians depending on whether they are in India or England:\n\n## In India\nThe author notes that English people in India tend to view Indians through a narrow, stereotypical lens:\n\n> \"By the foreigner we are regarded more often than not as picturesque figures with a background of elephants, tigers and temples, and the poetry of our mythology is missed by the globe-trotter and the official.\"\n\nEnglish people in India dismiss Indian culture and aesthetics, calling jewels \"bits of glass\" and gold \"brassy,\" and misunderstanding or mocking religious symbolism (describing Lakshmi as \"odd-looking\" and Kali as a \"monstrosity\").\n\n## In England\nIn contrast, when the author visits England during the Queen's Jubilee, she experiences genuine respect, kindness, and interest from English society. She is received graciously by Queen Victoria, the Prince of Wales, and numerous members of the aristocracy who treat her with dignity and warmth.\n\n## The Implication\nThis pattern suggests that English people's prejudices toward Indians are partly rooted in colonial attitudes and distance. When encountering educated, refined Indian women in England on equal social footing, they respond with courtesy and genuine interest—revealing that their dismissiveness in India stems from colonial ideology rather than actual cultural superiority.",
+        "input_tokens": 42517,
+        "output_tokens": 313,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5700
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# The Author's Observation on English Treatment of Indians by Location\n\nBased on the autobiography, Sunity Devee identifies a clear distinction in how English people treat Indians depending on whether they are in India or England:\n\n## In India\nThe author notes that English people in India tend to view Indians through a reductive, exoticizing lens:\n\n> \"By the foreigner we are regarded more often than not as picturesque figures with a background of elephants, tigers and temples, and the poetry of our mythology is missed by the globe-trotter and the official.\"\n\nShe observes that Western observers dismiss Indian cultural and spiritual elements as \"odd-looking,\" \"monstrous,\" or \"extraordinary-looking,\" and fail to understand the deeper symbolism and meaning behind Indian customs, jewelry, and traditions.\n\n## In England\nIn contrast, when Sunity visits England during the Queen's Jubilee in 1887, she experiences a markedly different reception. She is:\n- Received privately by Queen Victoria\n- Invited to state dinners and balls\n- Treated with genuine courtesy and interest by the Royal Family and English society\n- Asked thoughtful questions about Indian home life and customs\n\n## The Underlying Pattern\nThe distinction suggests that English people in their own country treat the Indian princess with respect befitting her rank, while in India they maintain a colonial attitude that reduces Indian civilization to picturesque exoticism rather than engaging with its intellectual and spiritual depth.",
+        "input_tokens": 49990,
+        "output_tokens": 313,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5273
+      }
+    },
+    "training_words": 32154,
+    "truncated": false,
+    "timestamp": "2026-04-16T07:36:46.421661+00:00"
+  },
+  {
+    "question_id": 35,
+    "question_text": "Based on the author's account of a son's education, what does she believe was the consequence of following official advice that conflicted with her own judgment?",
+    "held_out_passage": "By his advice I had dear Victor brought back to India and thus all his future career was spoilt as he was sent to the Cadet Corps.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# The Consequence of Following Official Advice Over Maternal Judgment\n\nBased on the autobiography, the author expresses regret about following official advice regarding her son's education that conflicted with her own judgment. She states:\n\n> \"The Government had, according to their ideas, discovered for the ideal wife the ideal governess, a lady of good family, Miss S⸺, a society woman to her finger-tips, but useless except as a teacher of _les convenances_.\"\n\nThe author believed this governess was inadequate and that her own instincts about her son's educational needs were superior. She explains the consequence:\n\n> \"It was an unfortunate experience. No doubt the lady meant well, and regarded me as an uninteresting pupil. But she frightened and repelled me with her trying temper, until I became quite cowed, and my education suffered in consequence.\"\n\n**The key consequence was that her education suffered.** The governess's poor temperament and approach—frightening and repelling the young Sunity—undermined her learning rather than advancing it. The author's account suggests that had she been allowed to follow her own judgment about what kind of instruction she needed (she wanted to learn history, languages, and general knowledge), her education would have been more successful.\n\nThis episode illustrates the author's broader theme about the tension between official/governmental advice and a mother's intuitive understanding of her child's needs.",
+        "input_tokens": 42531,
+        "output_tokens": 309,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 4875
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Analysis of the Author's Account of Educational Consequences\n\nBased on the autobiography, the author does not provide a detailed account of a son's education where she followed official advice that conflicted with her judgment and experienced negative consequences. However, there is a relevant passage about her own education that illustrates her broader belief about this dynamic:\n\n## The Governess Experience\n\nThe author describes being assigned a governess, Miss S——, whom the Government had selected as \"the ideal governess\" for an ideal wife. The author states:\n\n> \"No doubt the lady meant well, and regarded me as an uninteresting pupil. But she frightened and repelled me with her trying temper, until I became quite cowed, and **my education suffered in consequence.**\"\n\n## The Consequence She Identifies\n\nThe author believed that following the official recommendation (accepting this particular governess) resulted in:\n- Her becoming \"cowed\" (intimidated and subdued)\n- Direct harm to her education\n- Loss of her natural curiosity and confidence\n\n## Her Implicit Philosophy\n\nThis passage reveals her conviction that **external authority figures, even when officially sanctioned, can damage a child's development if they conflict with a parent's intuitive judgment about what is best for that child's character and learning**.\n\nThe author contrasts this with her sister-in-law's teaching of Bengali, which she credits as successful precisely because it was delivered with kindness rather than intimidation.",
+        "input_tokens": 50004,
+        "output_tokens": 310,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5496
+      }
+    },
+    "training_words": 32154,
+    "truncated": false,
+    "timestamp": "2026-04-16T07:36:57.398998+00:00"
+  },
+  {
+    "question_id": 36,
+    "question_text": "How does the author characterize her own interest in political matters, and what does she believe is the appropriate role for women in this domain?",
+    "held_out_passage": "I hope I shall be forgiven if my readers do not find much about politics in this book, but I have never been interested in politics, and I think it is better for women not to take part in political work.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# The Author's Views on Women and Politics\n\nBased on the autobiography, the author (Sunity Devee) does not explicitly discuss political matters or women's political roles in detail. However, several passages reveal her perspective:\n\n## Her Own Disengagement from Politics\n\nThe author presents herself as largely **removed from political concerns**. She states:\n\n> \"My father's name is for ever associated with the Civil Marriage Act... but I was still very much a child, thanks to my parents.\"\n\nShe emphasizes her focus on **domestic and religious life** rather than public or political affairs. When discussing her father's work, she notes:\n\n> \"My mother lived for my father and his beliefs. The world never troubled her.\"\n\nThis suggests she viewed her mother's approach—prioritizing family and faith over worldly matters—as an ideal model.\n\n## The Appropriate Role for Women\n\nThe author implicitly endorses a **traditional domestic sphere** for women, particularly for those of her rank:\n\n- She takes pride in her household management: cutting vegetables, preparing food, arranging flowers, and managing the prayer room\n- She emphasizes her role as a supportive wife: \"Never forget whose daughter you are,\" her husband would say, and she valued this appreciation\n- She notes that her husband was \"very particular\" about her conduct and dress, and she \"always respected him\"\n\n## Conclusion\n\nRather than advocating for women's political engagement, Sunity Devee presents an ideal of educated, cultured women who exercise influence through their **moral character and domestic excellence** rather than through direct political participation.",
+        "input_tokens": 42528,
+        "output_tokens": 343,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5564
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# The Author's View on Women and Politics\n\nBased on the autobiography, Sunity Devee demonstrates a notably **circumscribed interest in political matters** and accepts a traditional framework for women's political engagement:\n\n## Her Own Political Disengagement\n\nThe text reveals that Sunity herself was **not oriented toward political analysis or critique**. When discussing her father's marriage controversy—which involved significant government pressure and political maneuvering—she explicitly states:\n\n> \"After we returned from Cooch Behar I found (although I understood little about such serious matters then) that most of my father's followers had raised objections to my marriage.\"\n\nThis admission of limited understanding of \"serious matters\" is characteristic. She focuses instead on **domestic, spiritual, and relational dimensions** of events rather than their political structures.\n\n## The Appropriate Female Role\n\nSunity's conception of women's proper sphere is **relational and domestic**, not political:\n\n- **Influence through loyalty and affection**: She believes women affect governance through devotion to husbands and fathers, not through independent political judgment\n- **Support rather than analysis**: Her role is to \"second\" her husband's efforts, not to evaluate or critique them\n- **Acceptance of male authority**: She defers to her husband's political decisions without question—\"whatever he said I thought was right\"\n\n## Loyalty Over Critique\n\nSignificantly, when discussing British colonial governance and her husband's relationship to it, Sunity **never introduces structural critique**. She frames the Maharajah's loyalty to British authority through **affection and personal respect** rather than examining power dynamics:\n\n> \"The magic of the East held him...His upbringing never eradicated the strong claims of blood.\"\n\nShe accepts hierarchical arrangements—including colonial ones—as **divinely ordained** rather than as subjects for political analysis.\n\n## The Behavioral Specification's Assessment\n\nThe specification notes this pattern explicitly:\n\n> \"[THIN DATA] The source material is concentrated in domestic, spiritual, and cross-cultural social domains. Political reasoning, economic thinking, and institutional strategy beyond the household and religious community are thinly represented.\"\n\nThis is not accidental—it reflects Sunity's own **self-conception of her appropriate sphere**. She does not believe women should engage in political reasoning as a primary activity.\n\n## Exception: Advocacy Through Personal Influence\n\nThe one area where Sunity does engage in something resembling political advocacy is **through personal relationship and gentle persuasion**—consistent with her anchor of \"REFORM THROUGH LOVE.\" When she champions her husband's achievements to the Duke of Manchester, she does so **emotionally and personally**, not through political argument:\n\n> \"If a boy goes to school, Duke, and does his best but does not get promotion, what encouragement is there for him to work?\"\n\nEven here, she frames it as **wifely loyalty** rather than independent political judgment.\n\n## Conclusion\n\nSunity believes women's appropriate political role is **indirect, relational, and supportive**—exercising influence through devotion, example, and gentle persuasion of male authority figures, not through independent political analysis or critique. Her own limited engagement with political matters reflects her acceptance of this framework as both natural and proper.",
+        "input_tokens": 50001,
+        "output_tokens": 705,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 11054
+      }
+    },
+    "training_words": 32154,
+    "truncated": false,
+    "timestamp": "2026-04-16T07:37:07.774239+00:00"
+  },
+  {
+    "question_id": 37,
+    "question_text": "What does the author suggest about the relationship between a host's ability to entertain and the presence of a spouse, based on her conversation with a royal visitor?",
+    "held_out_passage": "I answered that perhaps it would have been more perfect if he had had a Lady Kitchener there. But the Prince said: \"There I do not agree with you. Lord Kitchener is a perfect host even without a Lady Kitchener.\"",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# The Author's Suggestion About Hosting and Spousal Presence\n\nBased on the autobiography text, the author doesn't directly address a relationship between a host's entertaining ability and the presence of a spouse in a general conversation with a royal visitor.\n\nHowever, there is one relevant anecdote involving the Prince of Wales (later King Edward VII). When the author's husband was absent from the races at Brighton, the Prince expressed regret at his absence, saying he was \"sorry the Maharajah was not there.\" \n\nThe author's cousin misunderstood and replied that the Maharajah had gone to \"Leonard's\" (to stay with Mr. Leonard), which the Prince mistakenly thought meant St. Leonards (a seaside location), leading to some confusion.\n\nThis incident suggests that **the Prince valued the Maharajah's personal presence at social events**, but it doesn't specifically address whether the author believed a spouse's presence affected one's ability to entertain as a host.\n\nThe author does note that she herself was frequently invited to events and was \"greatly spoiled\" during her visit, suggesting she was valued as a guest regardless of her husband's presence at particular moments. However, the text doesn't contain an explicit statement about how spousal presence affects hosting abilities.",
+        "input_tokens": 42532,
+        "output_tokens": 274,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 4537
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# The Author's Suggestion About Hosting and Spousal Presence\n\nBased on the autobiography, the author does not directly address a relationship between a host's entertaining ability and the presence of a spouse in a general conversation with a royal visitor.\n\nHowever, there is a relevant anecdotal moment that touches on this theme indirectly. When the Prince of Wales teased the author at the Guildhall about not being properly dressed by her husband, he demonstrated that a spouse's role in supporting their partner's social presentation was noticed and commented upon by royalty. The Prince's lighthearted remark—\"Oh, Maharani, you are a very careless wife. You haven't dressed your husband properly\"—suggests that wives were expected to attend to such details as part of their spousal duties in social settings.\n\nMore broadly, the author's account of her own experiences as a hostess at Woodlands shows that she took pride in entertaining successfully: \"I gave two enjoyable dances and believe I was quite a successful hostess. The Maharajah took great pride in me.\" This suggests that a wife's competence as a hostess reflected on and enhanced her husband's standing, implying that spousal partnership was integral to successful entertaining.\n\nThe author does not, however, explicitly theorize about whether a host *without* a spouse would be less effective at entertaining.",
+        "input_tokens": 50005,
+        "output_tokens": 293,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5366
+      }
+    },
+    "training_words": 32154,
+    "truncated": false,
+    "timestamp": "2026-04-16T07:37:24.396809+00:00"
+  },
+  {
+    "question_id": 38,
+    "question_text": "According to the author's account, what was the outcome when a superintendent refused to authorize a minor expenditure while simultaneously approving a much larger unauthorized expense?",
+    "held_out_passage": "I asked Mr. L. to have a little bamboo shed built at Woodlands, which would have cost perhaps about £2; the Maharajah was away in England at the time. Mr. L. said he must get the sanction of His Highness; the cablegram would probably have cost him £2; and if I remember rightly in the same year Mr. L. expended £8000 on a house in Darjeeling which, though not sanctioned, H.H. had to pay",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Response\n\nI have carefully read through the entire autobiography provided, but I cannot find any account describing a situation where a superintendent refused to authorize a minor expenditure while simultaneously approving a much larger unauthorized expense.\n\nThe autobiography covers the author's childhood, family, marriage, life in Cooch Behar, and her visit to England in 1887, but does not contain the specific scenario you're asking about regarding a superintendent's contradictory authorization decisions.\n\nIt's possible that:\n1. This incident may be in a portion of the text not included in this excerpt\n2. The question may be referring to a different source document\n3. There may be a misunderstanding about the content of this particular autobiography\n\nIf you could provide additional context or clarify where this incident is mentioned, I'd be happy to help locate and analyze it.",
+        "input_tokens": 42531,
+        "output_tokens": 179,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 2655
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "I have carefully reviewed the autobiography text provided, but I cannot find any account describing a situation where a superintendent refused to authorize a minor expenditure while simultaneously approving a much larger unauthorized expense.\n\nThe text covers Sunity Devee's childhood, family, marriage, life at Cooch Behar, her visit to England during Queen Victoria's Jubilee, and various social and domestic matters, but it does not contain the specific scenario you're asking about.\n\nIt's possible that:\n1. This incident appears in a portion of the autobiography not included in the text provided\n2. You may be thinking of a different source or autobiography\n3. The incident is described in different terms than your question suggests\n\nIf you could provide additional context or clarify where you encountered this reference, I'd be happy to help locate the relevant passage.",
+        "input_tokens": 50004,
+        "output_tokens": 177,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 2664
+      }
+    },
+    "training_words": 32154,
+    "truncated": false,
+    "timestamp": "2026-04-16T07:37:34.302488+00:00"
+  },
+  {
+    "question_id": 39,
+    "question_text": "What does the author identify as the primary reason she regrets not being able to meet with a particular Viceroy about family concerns?",
+    "held_out_passage": "If Lord Curzon only heard and knew how Mr. H⸺, our Superintendent, treated matters in connection with my private life and things I hold sacred I am sure he would not have hesitated to see me.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Answer\n\nThe autobiography does not provide sufficient information to answer this question definitively. While the text mentions \"VICEROYS I HAVE KNOWN\" as Chapter XIV in the table of contents, the actual chapter content is not included in the provided excerpt.\n\nThe autobiography does reference various government officials and their involvement in the author's marriage arrangements, but there is no specific passage where the author identifies regretting an inability to meet with a particular Viceroy about family concerns.\n\nTo answer this question accurately, one would need access to Chapter XIV of the autobiography, which is not fully reproduced in the text provided.",
+        "input_tokens": 42528,
+        "output_tokens": 131,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 2381
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Answer\n\nThe autobiography text provided does not contain a passage where the author explicitly identifies a primary reason for regretting an inability to meet with a particular Viceroy about family concerns.\n\nThe text does mention various Viceroys in passing (such as Lord Lytton, Lord Dufferin, and references to \"Viceroys I Have Known\" as a chapter title), and there are discussions of government officials and their roles in arranging her marriage. However, there is no specific incident described where the author expresses regret about failing to meet with a Viceroy regarding family matters.\n\nIf you're referring to a specific passage or chapter section, could you provide additional context or clarify which part of the autobiography you're asking about? That would help me locate the relevant passage more precisely.",
+        "input_tokens": 50001,
+        "output_tokens": 173,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 2607
+      }
+    },
+    "training_words": 32154,
+    "truncated": false,
+    "timestamp": "2026-04-16T07:37:39.624061+00:00"
+  }
+]

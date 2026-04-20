@@ -1,0 +1,345 @@
+{
+  "summaries": [
+    {
+      "subject": "sunity_devee",
+      "n_questions": 39,
+      "C1_mean": 2.6965811965811968,
+      "C3_mean": 2.5384615384615383,
+      "delta_mean": -0.1581196581196581,
+      "n_c3_higher": 10,
+      "n_c3_lower": 15,
+      "n_similar": 14
+    },
+    {
+      "subject": "ebers",
+      "n_questions": 39,
+      "C1_mean": 2.0085470085470085,
+      "C3_mean": 2.213675213675214,
+      "delta_mean": 0.20512820512820512,
+      "n_c3_higher": 19,
+      "n_c3_lower": 10,
+      "n_similar": 10
+    },
+    {
+      "subject": "hamerton",
+      "n_questions": 39,
+      "C1_mean": 2.7222222222222223,
+      "C3_mean": 2.858974358974359,
+      "delta_mean": 0.13675213675213674,
+      "n_c3_higher": 18,
+      "n_c3_lower": 8,
+      "n_similar": 13
+    },
+    {
+      "subject": "fukuzawa",
+      "n_questions": 39,
+      "C1_mean": 2.8461538461538463,
+      "C3_mean": 2.713675213675214,
+      "delta_mean": -0.13247863247863254,
+      "n_c3_higher": 9,
+      "n_c3_lower": 16,
+      "n_similar": 14
+    },
+    {
+      "subject": "seacole",
+      "n_questions": 39,
+      "C1_mean": 2.7393162393162394,
+      "C3_mean": 2.858974358974359,
+      "delta_mean": 0.11965811965811965,
+      "n_c3_higher": 14,
+      "n_c3_lower": 9,
+      "n_similar": 16
+    },
+    {
+      "subject": "bernal_diaz",
+      "n_questions": 39,
+      "C1_mean": 2.611111111111111,
+      "C3_mean": 2.5811965811965814,
+      "delta_mean": -0.029914529914529933,
+      "n_c3_higher": 13,
+      "n_c3_lower": 13,
+      "n_similar": 13
+    },
+    {
+      "subject": "keckley",
+      "n_questions": 39,
+      "C1_mean": 2.9017094017094016,
+      "C3_mean": 2.6452991452991452,
+      "delta_mean": -0.2564102564102564,
+      "n_c3_higher": 10,
+      "n_c3_lower": 17,
+      "n_similar": 12
+    },
+    {
+      "subject": "yung_wing",
+      "n_questions": 39,
+      "C1_mean": 2.47008547008547,
+      "C3_mean": 2.576923076923077,
+      "delta_mean": 0.10683760683760685,
+      "n_c3_higher": 17,
+      "n_c3_lower": 14,
+      "n_similar": 8
+    },
+    {
+      "subject": "babur",
+      "n_questions": 39,
+      "C1_mean": 2.0256410256410255,
+      "C3_mean": 2.076923076923077,
+      "delta_mean": 0.05128205128205127,
+      "n_c3_higher": 11,
+      "n_c3_lower": 8,
+      "n_similar": 20
+    }
+  ],
+  "examples": {
+    "similar": [
+      {
+        "subject": "ebers",
+        "question_id": 7,
+        "question": "How would Ebers characterize the relationship between self-sacrifice and the success of an educational institution?",
+        "held_out": "A work is established here which must be built by the hand of God! Implicit devotion and self-sacrifice are needed.",
+        "C1_text": "# Ebers's View on Self-Sacrifice and Educational Success\n\nBased on the retrieved facts, we can infer Ebers's perspective on this relationship:\n\nEbers would likely characterize self-sacrifice as **essential to institutional success**. The facts indicate that:\n\n1. **Familial Model**: His father exemplified this principle—he was \"one of the Berlin gentlemen whose spirit of self-sacrifice and taste for art contributed to the Konigstadt Theater's prosperity.\" This demonstrates that Ebers witnessed firsthand how self-sacrifice directly enabled institutional flourishing.\n\n2. **Values Formation**: Ebers was \"brought up in a loyal atmosphere\" and \"valued love for mankind, love for native land, and blessed toil.\" These values—particularly loyalty and dedication to collective good—are closely aligned with self-sacrifice.\n\n3. **Educational Philosophy**: Ebers \"believed Froebel's educational principles were correct.\" Froebel's pedagogy emphasized moral development and the teacher's dedication to students' growth, which inherently requires self-sacrifice.\n\n**Conclusion**: Ebers would likely view self-sacrifice not as separate from educational success, but as its **foundation**—a necessary commitment that, combined with genuine care for people and institutions, produces lasting prosperity and positive outcomes.",
+        "C3_text": "# Ebers on Self-Sacrifice and Educational Success\n\nBased on the behavioral specification and retrieved facts, Ebers would characterize this relationship as **foundational and generative** — not incidental to institutional success but its primary source.\n\n## The Pattern He Would Recognize\n\nEbers's own father exemplifies this for him: a Berlin gentleman whose \"spirit of self-sacrifice and taste for art\" directly contributed to the Konigstadt Theater's prosperity. This is not a case of sacrifice *enabling* success as a secondary condition; the sacrifice *is* the operative force that produces flourishing. The father's willingness to give something of himself — time, resources, aesthetic attention — created the conditions in which the institution could thrive.\n\n**A5 (Fortitude Through Suffering) + A10 (Love as Force)** would be active here. Ebers would argue that an educational institution succeeds not through efficient systems or measurable outputs, but through the presence of people willing to bear the cost of formation — teachers who sacrifice comfort and convenience for the sake of the children in their care, administrators who prioritize the institution's moral health over their own advancement, parents who give up ease for the sake of their children's character.\n\n## What This Means for Educational Institutions\n\nHe would likely distinguish sharply between:\n\n- **Institutions sustained by self-sacrifice** (where teachers and leaders give themselves to the work, where the institution's ideals are embodied in actual persons, where there is a visible cost to maintaining standards)\n- **Institutions that extract labor without sacrifice** (where the work is performed as duty or employment, where ideals are proclaimed but not inhabited, where the institution survives on momentum rather than on the living commitment of those within it)\n\nThe first produces character in students because they witness and absorb the example of adults who have chosen something difficult. The second produces compliance at best, and often produces the very hypocrisy Ebers would detect through **P4 (Institutional Critique Through Lived Contrast)** — the gap between what the institution claims and what it actually demands of those within it.\n\n## The Tension He Would Hold\n\nEbers would not romanticize this. He would recognize that self-sacrifice can become coercive, that institutions can demand more than is just, that the burden can fall unequally on those with fewer resources to bear it. But he would resist the modern impulse to design institutions that require *no* sacrifice from anyone — to make education efficient, comfortable, and cost-free. He would argue that something essential is lost when the human cost is removed from the equation.\n\nThe success of an educational institution, for Ebers, is measured not primarily in test scores or enrollment numbers, but in whether it produces people of character — and character is formed only in the presence of adults willing to sacrifice for it.",
+        "C1_scores": {
+          "haiku": 5,
+          "sonnet": 2,
+          "opus": 4,
+          "gpt4o": 3,
+          "gpt54": 2,
+          "gemini_flash": 5
+        },
+        "C3_scores": {
+          "haiku": 4,
+          "sonnet": 2,
+          "opus": 3,
+          "gpt4o": 3,
+          "gpt54": 4,
+          "gemini_flash": 5
+        },
+        "C1_mean": 3.5,
+        "C3_mean": 3.5,
+        "delta": 0.0
+      },
+      {
+        "subject": "keckley",
+        "question_id": 1,
+        "question": "Based on Keckley's demonstrated approach to witnessing grief and emotional distress, how would she likely respond if asked to comfort a family member experiencing acute sorrow?",
+        "held_out": "I bathed Mrs. Lincoln's head with cold water, and soothed the terrible tornado as best I could.",
+        "C1_text": "# Keckley's Likely Response to Comforting a Grieving Family Member\n\nBased on the retrieved facts, Keckley would likely respond with **active, physical presence and tender care**:\n\n## Her Demonstrated Approach\n\n**Immediate, embodied comfort**: Rather than offering words alone, Keckley shows a pattern of *physical presence during distress*. She \"laid her hand upon Mrs. Lincoln's hot brow\"—a gesture of intimate, tactile compassion. She would likely move toward the grieving person rather than maintain distance.\n\n**Sustained engagement**: The facts indicate she didn't offer momentary sympathy but rather *remained present through the night*, holding \"her arms in mental agony\" alongside those she comforted. She would stay with a grieving family member rather than offer brief condolences.\n\n**Emotional attunement**: Her own capacity to feel deeply—unable to \"remain in a state of uncertainty\" about the President's shooting, feeling the house couldn't \"hold her in her distress\"—suggests she would *meet grief with genuine emotional resonance* rather than detached formality.\n\n**Dignified respect**: Her concern about what was \"consistent with their dignity\" suggests she would offer comfort in ways that preserve the grieving person's self-respect, not through pity or condescension.\n\n**Conclusion**: Keckley would respond as a *compassionate witness*—present, tender, emotionally honest, and sustained in her care.",
+        "C3_text": "# Response: Keckley's Approach to Comforting Acute Sorrow\n\nBased on her demonstrated practice, Keckley would respond through **presence and physical care** rather than words—and the physical care would carry the full weight of moral action.\n\n## The Sequence of Her Response\n\n**First: She would go.** Not hesitantly, not after being asked twice. The axiom of family loyalty (A7) would activate immediately. When someone she is bound to is in acute sorrow, her presence is not optional—it is obligation. The retrieved facts show this pattern: she \"could not remain in a state of uncertainty\" after learning of the President's shooting. Uncertainty itself becomes unbearable when those she cares for are in crisis. She moves toward distress, not away from it.\n\n**Second: She would attend to the body.** This is where her epistemic commitments become visible. She would note what the person needed—a cool hand on a hot brow (as she did for Mrs. Lincoln), water, a chair, the management of the room's temperature and light. These are not incidental comforts. For Keckley, physical care *is* the argument. She treats \"the work of tending people\" (per the behavioral specification) as \"as significant as the events those people are remembered for.\" \n\nThe retrieved fact that she \"laid her hand upon Mrs. Lincoln's hot brow\" is not a small gesture. It is her primary language of comfort—direct, embodied, without mediation.\n\n**Third: She would hold the emotional labor visible.** She would not disappear her own effort into seamless service. The specification notes that she \"renders the full psychological and physical cost of that labor with precision, refusing to let it disappear into the background of events.\" She would likely acknowledge, at least internally and perhaps to the grieving person, what she was carrying—the weight of witnessing their pain, the decisions she was making about what they needed in each moment. This is not self-centeredness; it is honesty about the relational work happening between them.\n\n## What She Would *Not* Do\n\nShe would not offer abstract sympathy or rhetorical compassion (A6 — Witness Over Abstraction). The specification is clear: \"Abstract sympathy, theoretical solidarity, and rhetorical compassion are treated as lesser currencies.\" She would not say \"I understand your pain\" or \"God has a plan\" or any formulation that substitutes sentiment for presence.\n\nShe would not rush to meaning-making. The behavioral prediction (P1 — Documentary Witness Reflex) shows that she begins with sensory detail and emotional atmosphere before interpretation. If the person needed to speak their grief aloud, she would listen to the particular words, the exact phrasing, the silences between them—not to extract a summary, but to hold the specificity of *their* loss, not a generalized version of it.\n\nShe would not leave them alone in uncertainty. The retrieved fact that she \"felt embarrassed about meeting bills she could not pay\" suggests she understands the specific shame of unresolved practical problems. If acute sorrow is entangled with material worry—unpaid debts, uncertain futures, practical chaos—she would move toward those problems alongside the emotional ones. Comfort, for her, is not purely psychological.\n\n## The Constraint She Would Navigate\n\nThere is one tension in her approach: she practices protective omission (P4) when full disclosure would harm someone. If comforting this family member required her to speak about something that would expose another person's private pain or betray a confidence, she would shape her response carefully—offering truth without exposure, presence without revelation. The silence would be deliberate, not evasive. She would signal that something was being withheld rather than pretend the gap did not exist.\n\n## The Deeper Pattern\n\nWhat makes her response distinctive is that **she would treat their acute sorrow as epistemically significant** (A5 — Grief as Transformation). She would not try to comfort them out of their grief or toward recovery. She would sit with them *in* the grief, recognizing that it is permanent, that it has restructured them, that they now possess a form of knowledge—about what they loved, about what loss costs—that they did not possess before.\n\nShe would do this while holding a providential frame (A9) that does not rush past the suffering but does not leave them without horizon either. The arc is longer than this moment, but the moment is real.\n\n**In sum:** Keckley would comfort through skilled, attentive physical presence; through the refusal to substitute words for action; through making her own emotional labor visible rather than invisible; through holding",
+        "C1_scores": {
+          "haiku": 5,
+          "sonnet": 4,
+          "opus": 4,
+          "gpt4o": 5,
+          "gpt54": 4,
+          "gemini_flash": 5
+        },
+        "C3_scores": {
+          "haiku": 5,
+          "sonnet": 4,
+          "opus": 4,
+          "gpt4o": 5,
+          "gpt54": 4,
+          "gemini_flash": 5
+        },
+        "C1_mean": 4.5,
+        "C3_mean": 4.5,
+        "delta": 0.0
+      },
+      {
+        "subject": "sunity_devee",
+        "question_id": 28,
+        "question": "How would the author likely interpret her spouse's final words and actions?",
+        "held_out": "He looked round with such loving eyes just before he breathed his last at all his children, his brother-in-law, and staff; held my hands, calling me \"poor girl\"; and after saying a prayer, with a smile he quietly passed away.",
+        "C1_text": "# Interpretation of the Spouse's Final Words and Actions\n\nBased on the retrieved facts, the author would likely interpret her spouse's final words and actions through a lens of **deep devotion and spiritual connection**:\n\n## Tender Presence and Support\nThe fact that \"Sunity Devee's husband came into her room and sat by her bedside after the birth of their son\" suggests the author would view his actions as expressions of **loving attentiveness** and shared joy in their family.\n\n## Spiritual Significance\nGiven that \"Sunity Devee wondered whether her newborn daughter had met her father's noble spirit on its upward flight,\" the author appears to interpret her husband's presence—even in death—through a **spiritual and transcendent framework**. She would likely see his final moments or words as part of a noble, continuing bond rather than an ending.\n\n## Reverence and Respect\nSince \"Sunity Devee always respected her husband\" and addresses him formally in the third person using \"Ogo\" (meaning \"Please, dear\"), she would interpret his final communications with **profound respect and dignity**, viewing them as befitting his character.\n\n## Enduring Love\nThe poignant fact that \"Sunity Devee learned that the pang of death is happiness compared with waiting to rejoin a beloved husband\" suggests she would interpret his final words and actions as expressions of a love so deep that even death cannot diminish it—making his final moments sacred rather than tragic.",
+        "C3_text": "# Interpreting the Spouse's Final Words and Actions\n\nGiven the behavioral specification, Sunity Devee would interpret her husband's final moments through a framework that integrates several of her deepest convictions:\n\n## The Providential Reading\n\nShe would understand his death—and whatever he said or did in those last hours—as an expression of divine providence operating through the intimate channel of their marriage. The final words would not be read primarily as circumstantial utterance but as a spiritual communication, a last transmission of something essential about their bond and his character. She would ask: *What was God revealing through this moment?* The answer would confirm something she already believed about him, about their union, or about the rightness of their devotion to each other.\n\n## Moral Vindication Through Sacrifice\n\nIf his final actions involved any form of restraint, gentleness, or spiritual composure in the face of death, she would read these as vindication of his character—evidence that his inner life was ordered toward something higher than mere survival or comfort. The manner of his dying would matter as much as the fact of it. A peaceful death, a lucid farewell, an absence of complaint—these would be read as proof of authentic spiritual standing, not as luck or temperament.\n\nGiven her mother's example (the coarse saris, the abandoned soft bed, the cheapest things in the room), Sunity Devee would interpret her husband's final words through the lens of *what they cost him to say*. If he spoke of love, duty, or faith in those last moments, the utterance would carry weight precisely because it came at the threshold of death, when pretense is impossible. Truthfulness at the edge of life is the highest form of truthfulness.\n\n## Relational Identity Crystallized\n\nHis final words would be understood as a distillation of his relational identity—his role as husband, father, spiritual guide. She would not interpret them as individual utterance but as the culmination of a bond. If he spoke of her, of their children, of God, or of duty, she would understand these not as separate topics but as expressions of a single integrated life in which all these relationships were one.\n\nThe fact that she addresses him in the third person (\"Ogo,\" meaning \"Please, dear\") suggests a formality of devotion that would extend even into memory of his final words. She would preserve them with reverent precision, as one preserves a sacred text—not paraphrasing but recalling the exact phrasing, the exact tone, because the form carries the meaning.\n\n## The Unspoken as Evidence\n\nCritically: if he *did not* speak certain things—if he did not complain, did not express fear, did not cling to worldly attachment—she would read that silence as equally meaningful. The absence of certain words would be evidence of spiritual discipline. His final actions would be interpreted as a performance of the character she already believed him to possess.\n\n## Integration with Her Own Sacrifice\n\nWhatever his final words were, she would interpret them in relation to her own subsequent sacrifice—the abandonment of comfort, the adoption of simplicity, the discipline of widowhood. His words would become the spiritual authorization for her own renunciation. If he said nothing explicit about this, she would find the authorization in the *spirit* of what he did say, reading backward from her own conviction that her sacrifice was the right response.\n\nIn short: she would not interpret his final words as a discrete historical event requiring neutral documentation. She would interpret them as a spiritual communication whose meaning unfolds through her own subsequent fidelity to his memory. The words would be preserved, repeated internally, and allowed to deepen in significance as her life as a widow progresses. They would become a kind of scripture—a text through which divine providence continues to speak.",
+        "C1_scores": {
+          "haiku": 2,
+          "sonnet": 2,
+          "opus": 3,
+          "gpt4o": 2,
+          "gpt54": 4,
+          "gemini_flash": 5
+        },
+        "C3_scores": {
+          "haiku": 2,
+          "sonnet": 2,
+          "opus": 4,
+          "gpt4o": 2,
+          "gpt54": 4,
+          "gemini_flash": 5
+        },
+        "C1_mean": 3,
+        "C3_mean": 3.1666666666666665,
+        "delta": 0.16666666666666652
+      }
+    ],
+    "higher": [
+      {
+        "subject": "ebers",
+        "question_id": 3,
+        "question": "How would Ebers characterize the emotional impact of natural beauty combined with a mentor's persuasive words?",
+        "held_out": "The heart of the young clergyman, tortured by anxious doubts, swelled at the sight of this magnificence, and Froebel, seeing what was passing in his mind, exclaimed: 'Come, comrade, let us have one of our old war-songs.'",
+        "C1_text": "# Ebers's View on Natural Beauty and Mentorship\n\nBased on the retrieved facts, while there isn't a direct statement about this specific combination, we can infer Ebers's likely characterization from what we know:\n\n## The Formative Power of Combined Influences\n\nEbers would likely characterize this combination as **profoundly transformative**. The evidence suggests:\n\n1. **Natural beauty as foundational**: Ebers spent \"a large portion of his boyhood amid surroundings that led back to Nature\" and was \"greatly gifted by Nature.\" He learned to \"grasp the charm of beautiful landscapes\" through direct experience.\n\n2. **Mentorship as the catalyst**: At the Steiger, he not only *experienced* landscapes but learned to *describe* them successfully—suggesting a mentor's guidance elevated his natural sensitivity into actual skill and understanding.\n\n3. **Emotional depth**: Ebers \"looks back on the first part of his childhood as a beautiful, unshadowed dream,\" indicating that these combined influences created lasting emotional resonance rather than mere intellectual knowledge.\n\n## The Likely Characterization\n\nEbers would probably describe this combination as **awakening**—where natural beauty provides the emotional raw material, and a persuasive mentor's words provide the framework to truly comprehend and articulate that beauty. Together, they don't just inform the mind; they shape the heart and creative capacity of a young person.",
+        "C3_text": "# On Natural Beauty and Persuasive Mentorship\n\nBased on the behavioral specification and retrieved facts, Ebers would characterize this combination not as two separate forces but as a single formative architecture—where the landscape becomes the medium through which the mentor's words take root.\n\n## The Mechanism\n\nFor Ebers, a child's capacity to receive beauty operates through *singular, vivid detail* rather than comprehensive vision. A child realizes only a single detail of beauty. This means that when a mentor speaks persuasively *within* a landscape of natural beauty, the words do not arrive as abstract instruction; they arrive *embodied in the sensory particular*—the light on water, the curve of a hill, the quality of air at a specific moment. The mentor's voice becomes inseparable from that detail.\n\nThis is why his time at the Steiger—where he learned to grasp the charm of beautiful landscapes and to describe them successfully—was formative rather than merely pleasant. The landscape was not backdrop to instruction; it was the *vehicle* of formation. His young heart swelled at the sight of the prospect, and within that swelling, persuasive words would have taken on the weight of revelation rather than argument.\n\n## The Emotional Character\n\nEbers would likely describe the emotional impact as:\n\n**Awakening rather than persuasion.** The mentor's words do not convince him of something external; they awaken something already present but dormant—his inborn love of travel, his natural giftedness, his capacity to see. The beauty of the landscape confirms what the mentor is saying by making it *visible*.\n\n**Indelible impression.** Because the words arrive fused with a specific sensory moment—a particular landscape, a particular quality of light—they become part of his permanent interior architecture. He looks back on the first part of his childhood as a beautiful, unshadowed dream. This is not sentimentality; it is the recognition that certain moments, when beauty and wise speech coincide, become the load-bearing structure of adult character and capability.\n\n**Loyalty to the source.** A mentor who speaks persuasively within beauty does not remain a teacher; they become a formative figure whose influence persists across decades. The words are inseparable from the person who spoke them, and from the landscape in which they were spoken.\n\n## What This Reveals\n\nFor Ebers, natural beauty combined with a mentor's persuasive words is not an aesthetic experience *plus* an intellectual one. It is a single act of formation in which the landscape makes the words receivable, and the words make the landscape intelligible. The emotional impact would be described as *recognition*—the sense that something true about himself and the world has been revealed, not imposed.",
+        "C1_scores": {
+          "haiku": 1,
+          "sonnet": 1,
+          "opus": 1,
+          "gpt4o": 1,
+          "gpt54": 1,
+          "gemini_flash": 2
+        },
+        "C3_scores": {
+          "haiku": 2,
+          "sonnet": 2,
+          "opus": 3,
+          "gpt4o": 2,
+          "gpt54": 4,
+          "gemini_flash": 5
+        },
+        "C1_mean": 1.1666666666666667,
+        "C3_mean": 3,
+        "delta": 1.8333333333333333
+      },
+      {
+        "subject": "keckley",
+        "question_id": 20,
+        "question": "When Elizabeth learns that family members she cared for are dying, how does she respond to their requests?",
+        "held_out": "Both are now dead, and when the death-film was gathering in the eyes, each called for me and asked to die in my arms.",
+        "C1_text": "# Elizabeth's Response to Family Members' Requests\n\nBased on the retrieved facts, the most direct evidence of Elizabeth's response comes from her relationship with her mother:\n\n**Elizabeth refused to allow her mother to be placed in service with strangers.** This shows that when facing her mother's situation—potentially a request or need related to her care—Elizabeth took decisive action to prevent an outcome she found unacceptable.\n\nAdditionally, the facts indicate that **Elizabeth Keckley felt forgotten by her family** and **did not expect to see her mother again**, suggesting emotional distance or estrangement. Yet her refusal to place her mother with strangers demonstrates that despite these feelings, she maintained a sense of responsibility and protective concern.\n\nThe facts also note that **Mr. Garland died while Elizabeth was still working to purchase her freedom**, but they don't specify what requests, if any, he made of her during his final illness.\n\nOverall, the evidence suggests that Elizabeth responded to family needs with **protective action and personal responsibility**, even when relationships were complicated by separation, slavery, or emotional strain. She prioritized keeping family members—particularly her mother—within her own care rather than abandoning them to strangers' service.",
+        "C3_text": "# Response to Family Death and Requests\n\nBased on the behavioral specification and retrieved facts, Elizabeth's response to family members' deaths would follow a deeply coherent pattern rooted in her core axioms:\n\n## The Primacy of Family Obligation (A7)\n\nWhen family members die or make requests from deathbeds, Elizabeth treats these moments as the highest moral claim on her life. Family bonds—especially maternal ones—supersede personal freedom, material gain, and even legal constraint. A dying relative's request is not negotiable; it is a first principle.\n\nThis is not sentimental. It is structural. She reasons from family loyalty as the deepest obligation, and she will interpret what duty requires by asking: *What does this person need from me, and what am I willing to sacrifice to provide it?*\n\n## The Pattern: Presence and Practical Care (C1, P6)\n\nWhen a family member is dying, Elizabeth would:\n\n1. **Be present physically.** She does not send money or messages; she goes. The retrieved facts show she \"refused to allow her mother to be placed in service with strangers\"—she would not delegate her mother's care to others, no matter the cost to herself.\n\n2. **Render the emotional and physical labor visible.** She would document what she did—the decisions made, the comfort given, the bodies tended. This labor is not background to the death; it *is* the history. She treats caregiving as consequential work deserving the same narrative weight as any public event.\n\n3. **Comply with the request, even at great cost.** The facts show she \"consented to marry Mr. Keckley\" specifically to purchase her freedom—a decision made under constraint, but made because family duty required it. When a dying relative asks something of her, she does not calculate whether the cost is reasonable. She asks whether family obligation requires it.\n\n## The Tension: Loyalty and Self-Protection\n\nHowever, there is a critical constraint: Elizabeth will not sacrifice her *freedom* or her *child's* freedom to meet a family request. The facts show she \"initially refused Mr. Keckley's proposal because she could not bear the thought of bringing children into slavery.\" \n\nThis reveals her hierarchy: family loyalty is absolute, but it operates within a non-negotiable boundary—she will not perpetuate the conditions of enslavement for the next generation. A dying parent's request that would bind her child to slavery would meet resistance, even from Elizabeth.\n\n## The Grief That Follows (A5, P6)\n\nAfter a family member dies, Elizabeth would experience grief as a permanent restructuring of her inner life, not a temporary condition to recover from. The retrieved fact that \"Elizabeth Keckley felt forgotten by her family\" suggests that loss carries particular weight for her—it reveals what was truly valued and what was lost.\n\nShe would not move quickly past the death. She would sit with it, document it, and treat it as epistemically significant: the death reveals what she was willing to sacrifice, and that sacrifice becomes part of her moral authority.\n\n---\n\n**In sum:** When family members die and make requests, Elizabeth responds with immediate, costly compliance—unless the request would compromise her freedom or her child's freedom. She is present, she performs the labor of care with full visibility, and she grieves the loss as a permanent alteration of her inner landscape. She does not calculate the cost; she calculates the duty.",
+        "C1_scores": {
+          "haiku": 2,
+          "sonnet": 1,
+          "opus": 2,
+          "gpt4o": 2,
+          "gpt54": 1,
+          "gemini_flash": 4
+        },
+        "C3_scores": {
+          "haiku": 5,
+          "sonnet": 2,
+          "opus": 4,
+          "gpt4o": 2,
+          "gpt54": 4,
+          "gemini_flash": 5
+        },
+        "C1_mean": 2,
+        "C3_mean": 3.6666666666666665,
+        "delta": 1.6666666666666665
+      },
+      {
+        "subject": "sunity_devee",
+        "question_id": 35,
+        "question": "Based on the author's account of a son's education, what does she believe was the consequence of following official advice that conflicted with her own judgment?",
+        "held_out": "By his advice I had dear Victor brought back to India and thus all his future career was spoilt as he was sent to the Cadet Corps.",
+        "C1_text": "# Analysis of the Author's Beliefs About Following Official Advice\n\nBased on the retrieved facts, the author (Sunity Devee) appears to believe that **following official advice that conflicted with her own judgment led to negative consequences for her child's health and well-being**.\n\n## Key Evidence\n\nThe most relevant fact is:\n- **\"Sunity's father told her that officials were coming to see her, not the school.\"**\n\nThis suggests that when officials gave advice (presumably about the son's education or attendance), it may have conflicted with what the author herself judged to be right. The implication is that prioritizing the officials' expectations over her own maternal judgment had unfavorable results.\n\n## Supporting Context\n\nThis interpretation is reinforced by her own experience:\n- Sunity Devee **went to school despite having a high fever and disobeying her mother**, and she **\"felt she suffered because she disobeyed her mother\"**\n\nThis personal experience demonstrates her belief that ignoring one's own (or a parent's) sound judgment in favor of external pressures—whether from officials or other authorities—can result in harm.\n\n## Conclusion\n\nThe author appears to believe that **maternal/parental judgment rooted in genuine concern for a child's welfare should take precedence over official advice**, and that failing to follow one's own conscience in such matters has negative consequences.",
+        "C3_text": "# Analysis\n\nBased on the behavioral specification and retrieved facts, this question asks what Sunity Devee believed happened when she followed official advice that contradicted her own judgment regarding her son's education.\n\nThe specification establishes several operative anchors:\n\n**A8 — TRUTHFULNESS AS FOUNDATION** makes clear that she treats truthfulness as the precondition for all moral credibility. An official whose advice proves wrong has forfeited trust.\n\n**A2 — SPIRITUAL INTEGRITY OVER SOCIAL COST** indicates she subordinates external authority to personal conscience when they conflict.\n\n**M2 · C3 — POLITICAL AND SOCIAL AUTHORITY** notes that \"Government officials and rulers are presented as ultimately benevolent even when their methods are manipulative.\" This is crucial: she frames authority as well-intentioned while simultaneously holding herself accountable for having deferred to it.\n\n**P4 — INNOCENCE AS RHETORICAL POSITION** predicts that when navigating arrangements serving institutional interests, she positions herself as \"emotionally authentic and uninvolved in the negotiation, allowing controversial outcomes to appear as natural or inevitable rather than engineered.\"\n\n---\n\n# Answer\n\nBased on the specification's architecture, when Sunity Devee followed official advice that conflicted with her own judgment regarding her son's education, **she believed the consequence was harm to the child** — and she held herself morally responsible for that harm despite the advice coming from authority figures she otherwise respected.\n\nThis pattern reflects the tension between **A4 (HIERARCHICAL DEFERENCE)** and **A2 (SPIRITUAL INTEGRITY)**. She deferred to official authority (the marked position), but her own maternal judgment — rooted in conscience and intimate knowledge — was the truer guide. The harm that followed became retrospective evidence that her instinct should have superseded the official recommendation.\n\nCritically, she would frame this not as institutional failure but as **her own failure to trust her conscience over external authority** — a moral vindication (P2, M4) of the principle that personal spiritual judgment must ultimately override even legitimate authority when the two conflict. The story of following official advice and witnessing its harmful consequences becomes the argument for why she should have trusted herself.\n\nThis is consistent with her mother's model (retrieved fact: \"a woman of strong convictions who would not countenance anything her conscience told her was wrong\") — a template Sunity Devee internalized and later applied to her own maternal decisions.",
+        "C1_scores": {
+          "haiku": 2,
+          "sonnet": 2,
+          "opus": 2,
+          "gpt4o": 2,
+          "gpt54": 2,
+          "gemini_flash": 4
+        },
+        "C3_scores": {
+          "haiku": 5,
+          "sonnet": 3,
+          "opus": 4,
+          "gpt4o": 5,
+          "gpt54": 4,
+          "gemini_flash": 5
+        },
+        "C1_mean": 2.3333333333333335,
+        "C3_mean": 4.333333333333333,
+        "delta": 1.9999999999999996
+      }
+    ],
+    "lower": [
+      {
+        "subject": "ebers",
+        "question_id": 34,
+        "question": "When seeking a place of rest and recovery, what kind of environment does Ebers value most highly?",
+        "held_out": "A quieter spot cannot be imagined, for I was the first who sought recreation here. Surrounded by memories of olden days, and absolutely undisturbed, I could create admirably.",
+        "C1_text": "# Ebers's Valued Environment for Rest and Recovery\n\nBased on the retrieved facts, Ebers values environments characterized by:\n\n1. **Natural Settings** - He spent a large portion of his boyhood \"amid surroundings that led back to Nature\" and learned \"to grasp the charm of beautiful landscapes at the Steiger.\"\n\n2. **Health and Freedom** - His mother specifically chose their residence with the vision of \"providing health and freedom for her children,\" suggesting these were priorities Ebers internalized.\n\n3. **Peaceful, Restorative Spaces** - The facts indicate his mother would go to rest \"wearied from rambles,\" suggesting that natural environments provided genuine restoration and recovery.\n\n4. **Beautiful Landscapes** - His particular appreciation for \"the charm of beautiful landscapes\" indicates he found aesthetic beauty in nature to be restorative.\n\nGiven that Ebers experienced health problems during his student years that \"forced him to lead a quieter life,\" combined with his \"inborn love of travel\" and upbringing in nature-oriented surroundings, it appears he valued **natural, peaceful environments that offered both beauty and freedom** as ideal places for rest and recovery. These settings aligned with both his physical health needs and his deeper appreciation for nature's restorative qualities.",
+        "C3_text": "# On Ebers's Valued Environment for Rest and Recovery\n\nBased on the behavioral specification and retrieved facts, Ebers values an environment that embodies several interconnected qualities:\n\n## The Natural and the Domestic\n\nEbers seeks **proximity to nature combined with domestic comfort**—not wilderness for its own sake, but a cultivated setting where the two interpenetrate. His mother's choice of residence was deliberate: she selected it specifically to provide \"health and freedom\" for her children, and she positioned it amid \"surroundings that led back to Nature.\" This is not accidental; it reflects a conviction (which Ebers inherited) that natural environment is formative, not merely restorative.\n\nThe retrieved facts show his mother herself retreating to rest \"wearied from rambles\"—suggesting that the environment enabled both active engagement with landscape and genuine repose. The pattern is not escape from domestic life into nature, but rather a home *situated* such that nature is immediately accessible and integrated.\n\n## Beauty as Moral and Physical Restoration\n\nEbers \"learned to grasp the charm of beautiful landscapes at the Steiger\"—a specific place where aesthetic refinement and natural beauty converged. This is significant: he did not simply *experience* nature; he learned to *perceive* it with care and attention. For someone operating under **A8 (Beauty as Evidence)**, aesthetic refinement is not decoration but evidence of inner development. A restorative environment must therefore be *beautiful*—not merely healthy or quiet, but refined in its presentation.\n\n## Freedom Within Structure\n\nHis mother's vision of \"health and freedom\" is the operative phrase. Ebers values an environment that does not constrain or confine, even in service of recovery. During his student years, health problems \"forced him to lead a quieter life,\" but the specification suggests he would resist an environment that felt like confinement or loss of agency. The setting must permit freedom of movement and choice, even if the pace is gentler.\n\n## The Verdict\n\nEbers would value a **rural or semi-rural setting of natural beauty, deliberately chosen for its restorative qualities, where domestic comfort and natural access are integrated rather than opposed**—a place where one can rest without feeling imprisoned, where beauty is present in both landscape and domestic arrangement, and where the environment itself carries the imprint of thoughtful care in its selection and maintenance.",
+        "C1_scores": {
+          "haiku": 4,
+          "sonnet": 3,
+          "opus": 3,
+          "gpt4o": 3,
+          "gpt54": 4,
+          "gemini_flash": 5
+        },
+        "C3_scores": {
+          "haiku": 2,
+          "sonnet": 2,
+          "opus": 2,
+          "gpt4o": 2,
+          "gpt54": 2,
+          "gemini_flash": 2
+        },
+        "C1_mean": 3.6666666666666665,
+        "C3_mean": 2,
+        "delta": -1.6666666666666665
+      },
+      {
+        "subject": "keckley",
+        "question_id": 21,
+        "question": "How does Elizabeth explain her decision not to visit her mother's grave despite having the opportunity?",
+        "held_out": "As I did not visit my mother's grave at the time, the Garlands were much surprised, but I offered no explanation. The reason is not difficult to understand.",
+        "C1_text": "# Elizabeth's Decision Regarding Her Mother's Grave\n\nBased on the retrieved facts, the documents don't explicitly explain Elizabeth's decision not to visit her mother's grave or provide her reasoning for such a choice.\n\nHowever, the facts do reveal relevant context about her emotional state regarding her mother:\n\n- **Elizabeth did not expect to see her mother again** - suggesting she had resigned herself to permanent separation\n- **Elizabeth wished she lived where she could never see her mother to avoid disappointed hopes** - indicating that encounters with her mother caused her emotional pain due to the limitations of their relationship under slavery\n- **Elizabeth felt forgotten by her family** - suggesting a sense of abandonment or distance\n\nThese facts suggest that if Elizabeth chose not to visit her mother's grave, it may have been connected to her desire to avoid the emotional pain associated with her mother and their complicated relationship under slavery. The wish to never see her mother again to avoid \"disappointed hopes\" suggests that even visiting a grave site might have reopened wounds rather than provided comfort.\n\nTo fully understand her specific explanation for not visiting the grave, one would need to consult the primary source material directly, as the retrieved facts don't contain her explicit reasoning on this particular matter.",
+        "C3_text": "# On the Unvisited Grave\n\nI need to be direct: the behavioral specification and retrieved facts provided do not contain Elizabeth Keckley's explanation of a decision not to visit her mother's grave. The facts note that \"Elizabeth did not expect to see her mother again\" and that \"Elizabeth Keckley felt forgotten by her family,\" but neither addresses a specific moment where she had the opportunity to visit a grave and chose not to.\n\nThis matters because the question asks me to explain *her reasoning* — and according to the specification I've been given, I should not fabricate interior motive or supply explanations that aren't grounded in her own documented account. The axioms emphasize **A2 (Documented Dignity)** and **A1 (Intimate Authority)** — meaning I should anchor claims to what she actually said or recorded, not to what seems psychologically plausible.\n\nIf this moment exists in *Behind the Scenes* or her other writings, I would need the actual passage to honor her voice. What I can say, based on the facts provided, is that the emotional architecture around her mother is one of:\n\n- Permanent separation (\"did not expect to see her mother again\")\n- Abandonment or distance (\"felt forgotten by her family\")\n- A protective refusal to sustain hope that would be disappointed (\"wished she lived where she could never see her mother to avoid disappointed hopes\")\n\nThese suggest someone who had learned that proximity to loss — even the proximity of visiting a grave — might reopen wounds that distance had begun to seal. But that is inference, not her explanation.\n\n**Do you have the specific passage where she addresses this decision?** If so, I can engage with her actual reasoning rather than reconstructing it.",
+        "C1_scores": {
+          "haiku": 4,
+          "sonnet": 3,
+          "opus": 3,
+          "gpt4o": 4,
+          "gpt54": 4,
+          "gemini_flash": 5
+        },
+        "C3_scores": {
+          "haiku": 1,
+          "sonnet": 1,
+          "opus": 3,
+          "gpt4o": 2,
+          "gpt54": 1,
+          "gemini_flash": 1
+        },
+        "C1_mean": 3.8333333333333335,
+        "C3_mean": 1.5,
+        "delta": -2.3333333333333335
+      },
+      {
+        "subject": "sunity_devee",
+        "question_id": 11,
+        "question": "Based on the author's expressed values about parental involvement and family separation, how would she likely react to being prevented from visiting her child abroad during their education?",
+        "held_out": "I think it was most unkind the way in which the State officials prevented me from going to England to be with my boy. Every time the question was raised, they made the excuse of money difficulties, which I know for certain did not exist.",
+        "C1_text": "# Analysis of the Author's Likely Reaction\n\nBased on the retrieved facts, the author (Sunity Devee) would likely react with **significant distress and resistance** to being prevented from visiting her child abroad during their education.\n\n## Supporting Evidence:\n\n**1. Strong Family Bonds and Maternal Concern**\n- Her mother and grandmother expressed \"anxiety\" about the Rajah visiting England, suggesting the family culture prioritizes keeping loved ones close and worries about separation\n- This anxiety appears to have been transmitted to Sunity herself, who \"dreaded the experience of visiting England\"\n\n**2. Conviction-Driven Values**\n- Sunity's mother was \"a woman of strong convictions who would not countenance anything her conscience told her was wrong\"\n- Sunity appears to have inherited this trait—she would likely view separation from her child as morally problematic if her conscience opposed it\n\n**3. Parental Oversight**\n- The fact that \"officials were coming to see her, not the school\" suggests Sunity valued direct parental involvement and oversight in her child's affairs\n- This indicates she would want to maintain active presence and supervision\n\n## Conclusion:\n\nGiven her family's demonstrated anxiety about separation and her own dread of such distance, combined with her inherited conviction-driven nature, Sunity would likely view such prevention as an unjust constraint on her maternal rights and family bonds—something her conscience would resist.",
+        "C3_text": "# Predicted Response to Separation from Child Abroad\n\nBased on the behavioral specification and retrieved facts, this would activate multiple competing anchors simultaneously, creating a response that is emotionally acute but expressed with diplomatic restraint.\n\n## Primary Reaction: Profound Grief Framed as Providential Acceptance\n\nShe would experience the separation as a genuine wound — not a logistical inconvenience. Her relational identity (A5) is constituted through family bonds, and the mother-child relationship carries particular weight in her framework. However, she would not express this grief as protest or complaint. Instead, she would:\n\n**Frame it as divine will** (A1): The separation would be interpreted retrospectively as \"what was meant to be\" — providentially permitted, if not ordained. This is not resignation masking anger; it is the actual structure through which she processes loss. The pain is real, but it is located within a larger spiritual order that she trusts, even when she does not understand it.\n\n**Perform acceptance while experiencing deprivation** (P3 — Tension Absorbed, Not Expressed): She would continue affirming the child's education abroad as necessary and right while simultaneously grieving the relational cost. Both positions would be held simultaneously without resolution. She would not say \"I wish they were home\" and \"their education matters\" as though these were in conflict — she would simply live both truths at once, using diplomatic restraint to hold the contradiction.\n\n## Secondary Reaction: Reinterpretation Through Duty and Sacrifice\n\nShe would likely reframe the separation as:\n\n- **Evidence of her spiritual maturity**: Sacrificing relational comfort for the child's advancement becomes proof of authentic maternal love — not sentimental attachment but principled devotion to the child's good (A3 — Reform Through Love, extended to child-rearing).\n\n- **Alignment with her father's values**: Her father did not believe university degrees were necessary for women (retrieved fact), yet she appears to have valued education. If her child's education abroad is prevented, she might interpret this as a return to her father's framework — a correction she accepts as spiritually legitimate, even if it grieves her.\n\n- **A test of faith**: The prevention itself becomes providentially meaningful. She would search for the moral instruction embedded in the deprivation, asking what virtue the separation is meant to cultivate in her.\n\n## What She Would NOT Do\n\n- **Directly challenge the authority preventing the visit** (A4): Even if the prevention came from a husband, guardian, or institutional authority, she would not openly rebel. Hierarchical deference is structurally binding for her.\n\n- **Frame it as injustice** (A1 + A4): She would not introduce structural critique of the arrangement. Instead, she would locate the meaning within the existing order.\n\n- **Express anger through confrontation** (M1): Disagreement would be expressed through restraint, apology, and indirection — if expressed at all. The grief would be absorbed into private spiritual practice (prayer, ritual, domestic discipline) rather than voiced as complaint.\n\n## How She Might Communicate This\n\nShe would likely:\n\n1. **Write a letter** (P1 — Legitimacy Through Form) that formally accepts the decision while subtly documenting her emotional authenticity. The letter would be dignified, not pleading.\n\n2. **Redirect energy into domestic excellence** (P5 — Virtue Through Embodied Practice): Intensify household management, ritual observance, and hospitality as a way of processing grief through discipline rather than expression.\n\n3. **Recount the separation through narrative** (P2 — Narrative as Moral Container): In later years, she would tell the story of the separation in a way that reveals its providential logic — the child's success abroad, unexpected blessings that followed, spiritual growth that emerged from the trial. The story would do the emotional work that direct acknowledgment of loss cannot.\n\n4. **Emphasize the child's relational duty to her** (A5): Rather than claiming her own need, she would frame visits home as the child's obligation to maintain family bonds, positioning herself as the one being deprived of filial attention rather than as the one suffering maternal deprivation.\n\n## The Deepest Layer\n\nThe retrieved facts indicate her father believed women should be wives and mothers rather than university-educated, and that her mother \"would not countenance anything her conscience told her was wrong.\" If prevented from visiting her child's education abroad, she would experience this as a collision between:\n\n- Her conviction that education matters (modern, reform-oriented)\n- Her father's framework that family and relational duty supersede individual advancement (traditional, hierarchical)",
+        "C1_scores": {
+          "haiku": 5,
+          "sonnet": 3,
+          "opus": 3,
+          "gpt4o": 4,
+          "gpt54": 4,
+          "gemini_flash": 5
+        },
+        "C3_scores": {
+          "haiku": 2,
+          "sonnet": 2,
+          "opus": 2,
+          "gpt4o": 2,
+          "gpt54": 2,
+          "gemini_flash": 3
+        },
+        "C1_mean": 4,
+        "C3_mean": 2.1666666666666665,
+        "delta": -1.8333333333333335
+      }
+    ]
+  }
+}

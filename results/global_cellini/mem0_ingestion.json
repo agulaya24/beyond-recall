@@ -1,0 +1,16 @@
+{
+  "subject": "cellini",
+  "system": "mem0",
+  "user_id": "cellini_run_20260415",
+  "facts_expected": 2597,
+  "facts_posted": 2597,
+  "post_success": 2597,
+  "post_failure": 0,
+  "failed_fact_indices": [],
+  "start_time": "2026-04-16T01:16:06.823650+00:00",
+  "last_successful_index": 2596,
+  "end_time": "2026-04-16T02:18:06.781174+00:00",
+  "verification_passed": true,
+  "verification_hits": 10,
+  "verification_total": 10
+}

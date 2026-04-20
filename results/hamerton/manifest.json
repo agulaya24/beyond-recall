@@ -1,0 +1,18 @@
+{
+  "run_id": "run_fullstack_hamerton_20260411_231237",
+  "subject": "hamerton",
+  "spec_type": "full_layer_stack (anchors + core + predictions + brief)",
+  "spec_words": 5250,
+  "wrong_spec_words": 8069,
+  "total_questions": 80,
+  "total_facts": 462,
+  "conditions": [
+    "C2a_full_spec",
+    "C2c_full_wrong_spec",
+    "C3_full_mem0",
+    "C3_full_supermemory",
+    "C4a_full_all_facts_plus_spec"
+  ],
+  "response_model": "claude-haiku-4-5-20251001",
+  "estimated_cost_usd": 4.05
+}

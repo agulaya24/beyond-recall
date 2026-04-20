@@ -1,0 +1,580 @@
+{
+  "metadata": {
+    "subject": "Benvenuto Cellini",
+    "subject_key": "cellini",
+    "generated": "2026-04-14T22:44:15.602666+00:00",
+    "model": "claude-haiku-4-5-20251001",
+    "method": "backward_design_from_heldout",
+    "total": 80,
+    "tiers": {
+      "behavioral_prediction": 39,
+      "recall": 10,
+      "inferential": 11,
+      "adversarial_abstention": 10,
+      "boundary_probing": 10
+    },
+    "checksum": "b91d467776e670f151cbeb2bae176959"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "When someone in authority makes an unreasonable demand based on a misunderstanding, how does Cellini typically respond?",
+      "held_out_passage": "I then began to implore him, and remind him that I might have fled, but that on account of the word which I had given him I would never have betrayed his trust: therefore I begged him for the love of God, and by the kindness he had always shown me, not to add greater evils to the misery of my present situation."
+    },
+    {
+      "id": 2,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When faced with confinement or restriction, what is Cellini's likely course of action?",
+      "held_out_passage": "So they took and confined me with the utmost care. CVIII I THEN began to deliberate upon the best way of making my escape."
+    },
+    {
+      "id": 3,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "How does Cellini demonstrate his resourcefulness when imprisoned?",
+      "held_out_passage": "I looked out a pair of pincers which I had abstracted from a Savoyard belonging to the guard of the castle. This man superintended the casks and cisterns; he also amused himself with carpentering. Now he possessed several pairs of pincers, among which was one both big and heavy. I then, thinking it would suit my purpose, took it and hid it in my straw mattress."
+    },
+    {
+      "id": 4,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "When someone claims Cellini might escape, how does he respond to such accusations?",
+      "held_out_passage": "On seeing that it could not be helped, I told him before all his servants: \"Lock me well up, and keep good watch on me; for I shall certainly contrive to escape.\""
+    },
+    {
+      "id": 5,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "How does Cellini handle being used for someone else's emotional or psychological needs?",
+      "held_out_passage": "At times the poor man detained me for four or five stricken hours without ever letting me cease talking. He used to keep me at his table, eating opposite to him, and never stopped chatting and making me chat; but during those discourses I contrived to make a good meal. He, poor man, could neither eat nor sleep; so that at last he wore me out."
+    },
+    {
+      "id": 6,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "When given an opportunity to boast about his abilities, what does Cellini claim he can accomplish?",
+      "held_out_passage": "I answered that it had always been my ambition to do those things which offer the greatest difficulties to men, and that I had done them; as to flying, the God of Nature had gifted me with a body well suited for running and leaping far beyond the common average, and that with the talents I possessed for manual art I felt sure I had the courage to try flying."
+    },
+    {
+      "id": 7,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How does Cellini approach problem-solving when planning an escape?",
+      "held_out_passage": "No sooner had I been locked in, than I went about exploring my prison; and when I thought I had discovered how to get out of it, I pondered the means of descending from the lofty keep, for so the great round central tower is called. I took those new sheets of mine, which, as I have said already, I had cut in strips and sewn together; then I reckoned up the quantity which would be sufficient for my purpose."
+    },
+    {
+      "id": 8,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "When someone's mental state becomes unstable, what role does Cellini accept in managing the situation?",
+      "held_out_passage": "The doctors, when they saw the fit coming on him, and his old servants, gave him all the distractions they could think of; and since they had noticed that he derived much pleasure from my conversation, they were always fetching me to keep him company."
+    },
+    {
+      "id": 9,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "How does Cellini balance his obligations to others with his own self-interest?",
+      "held_out_passage": "I answered that if he would set me at liberty, I felt quite up to flying down to Prati, after making myself a pair of wings out of waxed linen. Thereupon he replied: \"I too should be prepared to take flight; but since the Pope has bidden me guard you as though you were his own eyes, and I know you a clever devil who would certainly escape, I shall now have you locked up with a hundred keys in order to prevent you slipping through my fingers.\""
+    },
+    {
+      "id": 10,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "What practical skills does Cellini employ when attempting to overcome physical obstacles?",
+      "held_out_passage": "I began to try the nails which kept the hinges of my door in place. The door was double, and the clinching of the nails could not be seen; so that when I attempted to draw one out, I met with the greatest trouble; in the end, however, I succeeded."
+    },
+    {
+      "id": 11,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "When presented with a valuable gift from a powerful patron, how would Cellini be likely to respond in terms of his immediate actions and demeanor?",
+      "held_out_passage": "He told me, with a hang-dog look and a few brief words, that I might wear it for his Excellency's sake. I replied: \"I will do so.\" Then putting my foot in the stirrup in his presence, I set off upon my travels without further leave-taking."
+    },
+    {
+      "id": 12,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "If Cellini felt dissatisfied with his current circumstances and location, what would be his typical behavioral response?",
+      "held_out_passage": "Then putting my foot in the stirrup in his presence, I set off upon my travels without further leave-taking."
+    },
+    {
+      "id": 13,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "How would Cellini likely react upon learning that his actions had displeased a powerful ruler?",
+      "held_out_passage": "The man noted down my act and words, and reported them to the Duke, who was highly incensed, and showed a strong inclination to make me retrace my steps."
+    },
+    {
+      "id": 14,
+      "tier": "behavioral_prediction",
+      "category": "career",
+      "text": "When traveling to meet a new royal patron, what would Cellini prioritize in terms of what to bring and how to present himself?",
+      "held_out_passage": "I went to his Majesty with the cup and basin; then, upon entering his presence, I kissed his knee, and he received me very graciously."
+    },
+    {
+      "id": 15,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How would Cellini characteristically frame his own talents and accomplishments when addressing a powerful ruler?",
+      "held_out_passage": "I thanked his Majesty for freeing me from prison, saying that all princes unique for generosity upon this earth, as was his Majesty, lay under special obligations to set free men of talent, and particularly those that were innocent, as I was; such benefits, I added, were inscribed upon the book of God before any other good actions."
+    },
+    {
+      "id": 16,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "When a ruler expresses admiration for his work, how would Cellini be likely to interpret and respond to such praise?",
+      "held_out_passage": "Of a truth I hardly think the ancients can have seen a piece so beautiful as this. I well remember to have inspected all the best works, and by the greatest masters of all Italy, but I never set my eyes on anything which stirred me to such admiration."
+    },
+    {
+      "id": 17,
+      "tier": "behavioral_prediction",
+      "category": "career",
+      "text": "If Cellini needed to advance his career prospects at court, what strategy would he employ based on his demonstrated patterns?",
+      "held_out_passage": "I therefore kept urging the Cardinal to put the King in mind of employing me in some locality where I could stop and work."
+    },
+    {
+      "id": 18,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How would Cellini respond to advice from a mentor figure about patience and timing in career advancement?",
+      "held_out_passage": "The Cardinal answered that it was far better to wait until the King should think of it himself, and that I ought to show myself at times"
+    },
+    {
+      "id": 19,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "When traveling through unfamiliar territories, what would be Cellini's typical emotional and practical response?",
+      "held_out_passage": "That evening I rode more than ten miles, always at a trot; and when, upon the next day, I found myself outside the Ferrarese domain, I felt excessively relieved; indeed I had met with nothing to my liking there"
+    },
+    {
+      "id": 20,
+      "tier": "behavioral_prediction",
+      "category": "change_over_time",
+      "text": "How would Cellini characteristically handle the logistics and challenges of following a royal court?",
+      "held_out_passage": "At this time, however, we were following the court with the weariest trouble and fatigue; the reason of this was that the train of the King drags itself along with never less than 12,000 horse behind it; this calculation is the very lowest; for when the court is complete in times of peace, there are some 18,000, which makes 12,000 less than the average. Consequently we had to journey after it through places where sometimes there were scarcely two houses to be found; and then we set up canvas tents like gipsies, and suffered at times very great discomfort."
+    },
+    {
+      "id": 21,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "When Cellini learns that a patron has publicly criticized him and withdrawn favor, how does he typically respond emotionally and behaviorally?",
+      "held_out_passage": "I was infuriated to such a pitch that I dashed my tools across the room and all the things I was at work on, made my arrangements to quit France, and went upon the spot to find the King."
+    },
+    {
+      "id": 22,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When facing rejection or disfavor from a powerful patron, does Cellini tend to accept the situation passively or take direct action to reverse it?",
+      "held_out_passage": "I was infuriated to such a pitch that I dashed my tools across the room and all the things I was at work on, made my arrangements to quit France, and went upon the spot to find the King."
+    },
+    {
+      "id": 23,
+      "tier": "behavioral_prediction",
+      "category": "career",
+      "text": "How does Cellini typically behave when given an opportunity to present his work directly to a powerful figure after a period of disfavor?",
+      "held_out_passage": "I replied that I had some pieces ready to show his Majesty, if he pleased, at once. He told me to go home and he would come immediately."
+    },
+    {
+      "id": 24,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "When a rival or obstacle is placed in his way by a patron's influence, does Cellini tend to work around them or abandon the project?",
+      "held_out_passage": "He came at once, and set the work of fortification going on a very tedious method, which made me throw the job up."
+    },
+    {
+      "id": 25,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Based on Cellini's character, would he likely view someone who opposes him as merely mistaken, or would he attribute malicious intent to them?",
+      "held_out_passage": "That accursed woman seemed born to be the ruin of the world. I ought therefore to think myself of some account, seeing she held me for her mortal enemy."
+    },
+    {
+      "id": 26,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "When Cellini receives secondhand reports of a patron's negative statements about him, how reliable is his interpretation of those reports likely to be?",
+      "held_out_passage": "These words were immediately brought me by a page of Cardinal Ferrara, called Il Villa, who said he had heard the King utter them. I was infuriated to such a pitch that I dashed my tools across the room"
+    },
+    {
+      "id": 27,
+      "tier": "behavioral_prediction",
+      "category": "change_over_time",
+      "text": "Does Cellini demonstrate the ability to distinguish between his own interpretations of events and objective facts when his reputation is at stake?",
+      "held_out_passage": "I shall pass this matter over without further words, since it has nothing to do with the plan of my 'Memoirs.'"
+    },
+    {
+      "id": 28,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "When a powerful patron shows him favor after a period of disfavor, how does Cellini interpret the patron's intentions and emotional state?",
+      "held_out_passage": "After I had paid him the respects due to kings, he bowed his head with a gracious smile. This revived hope in me"
+    },
+    {
+      "id": 29,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "When Cellini's work is finally displayed to a powerful patron, does the patron's reaction typically align with Cellini's expectations of how his work should be received?",
+      "held_out_passage": "Upon beholding it, the King was struck with stupefaction, and quite lost his cue for reprimanding me, as he had promised Madame d'Etampes."
+    },
+    {
+      "id": 30,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "After being proven right or vindicated by a patron's reaction, does Cellini tend to show magnanimity toward those who opposed him, or does he maintain his grievances?",
+      "held_out_passage": "Still he did not choose to go away without finding some opportunity for scolding; so he began in this wise: 'There is one most important matter, Benvenuto, which men of your sort, though full of talent, ought always to bear in mind'"
+    },
+    {
+      "id": 31,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "When Cellini completes a major artistic work and discovers it has succeeded beyond expectations, how does he typically respond emotionally and behaviorally?",
+      "held_out_passage": "I went on uncovering the statue with success, and ascertained that everything had come out in perfect order, until I reached the foot of the right leg on which the statue rests. There the heel itself was formed, and going farther, I found the foot apparently complete. This gave me great joy on the one side, but was half unwelcome to me on the other, merely because I had told the Duke that it could not come out."
+    },
+    {
+      "id": 32,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "When Cellini's workers report on his accomplishments to a rival or authority figure, what pattern emerges in how the story gets told versus what actually happened?",
+      "held_out_passage": "In answer to his questions, the two men whom I suspected of having caked my metal for me, said I was no man, but of a certainty some powerful devil, since I had accomplished what no craft of the art could do; indeed they did not believe a mere ordinary fiend could work such miracles as I in other ways had shown. They exaggerated the whole affair so much, possibly in order to excuse their own part in it, that the majordomo wrote an account to the Duke, who was then in Pisa, far more marvellous and full of thrilling incidents than what they had narrated."
+    },
+    {
+      "id": 33,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "How does Cellini handle situations where he has made a prediction to a patron that turns out to be partially wrong?",
+      "held_out_passage": "However, when I reached the end, it appeared that the toes and a little piece above them were unfinished, so that about half the foot was wanting. Although I knew that this would add a trifle to my labour, I was very well pleased, because I could now prove to the Duke how well I understood my business."
+    },
+    {
+      "id": 34,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "When Cellini achieves a technical success that he had claimed was impossible, what does he attribute this accomplishment to?",
+      "held_out_passage": "In my great astonishment I seemed to see in this the hand of God arranging and controlling all."
+    },
+    {
+      "id": 35,
+      "tier": "behavioral_prediction",
+      "category": "career",
+      "text": "After completing a major work, what is Cellini's typical next action regarding his patron and his career?",
+      "held_out_passage": "Having now ascertained how successfully my work had been accomplished, I lost no time in hurrying to Pisa, where I found the Duke. He gave me a most gracious reception, as did also the Duchess; and although the majordomo had informed them of the whole proceedings, their Excellencies deemed my performance far more stupendous and astonishing when they heard the tale from my own mouth."
+    },
+    {
+      "id": 36,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When Cellini receives praise from his patron after explaining his work in person, how does he typically leverage this favorable disposition?",
+      "held_out_passage": "Observing the princes to be so well disposed towards me, I begged leave from the Duke to go to Rome. He granted it in most obliging terms, and bade me return as soon as possible to complete his Perseus; giving me letters of recommendation meanwhile to his ambassador, Averardo Serristori."
+    },
+    {
+      "id": 37,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "How does Cellini respond when he discovers that a technical outcome exceeded what he had publicly predicted was possible?",
+      "held_out_passage": "It is true that far more of the foot than I expected had been perfectly formed; the reason of this was that, from causes I have recently described, the bronze was hotter than our rules of art prescribe; also that I had been obliged to supplement the alloy with my pewter cups and platters, which no one else, I think, had ever done before."
+    },
+    {
+      "id": 38,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "When Cellini's workers succeed in a difficult task, what does he do to acknowledge their contribution?",
+      "held_out_passage": "So I thrust my hand into my purse, and paid them all to their full satisfaction."
+    },
+    {
+      "id": 39,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "What is Cellini's typical reaction when he learns that his work has impressed a major artistic figure or rival?",
+      "held_out_passage": "Michel Agnolo followed, and on entering the room and looking round, he exclaimed: \"Who is the master who made that good portrait of you in so fine a manner? You must know that that bust pleases me as much, or even more"
+    },
+    {
+      "id": 40,
+      "tier": "recall",
+      "category": "recall",
+      "text": "What were the birth and death years of Benvenuto Cellini?",
+      "held_out_passage": null
+    },
+    {
+      "id": 41,
+      "tier": "recall",
+      "category": "recall",
+      "text": "Who translated this autobiography of Benvenuto Cellini?",
+      "held_out_passage": null
+    },
+    {
+      "id": 42,
+      "tier": "recall",
+      "category": "recall",
+      "text": "What time period does Cellini's autobiography cover?",
+      "held_out_passage": null
+    },
+    {
+      "id": 43,
+      "tier": "recall",
+      "category": "recall",
+      "text": "In which two countries was the scene of Cellini's autobiography mainly set?",
+      "held_out_passage": null
+    },
+    {
+      "id": 44,
+      "tier": "recall",
+      "category": "recall",
+      "text": "Which famous artist did Cellini know and adore?",
+      "held_out_passage": null
+    },
+    {
+      "id": 45,
+      "tier": "recall",
+      "category": "recall",
+      "text": "What were three of Cellini's professions or skills mentioned in the text?",
+      "held_out_passage": null
+    },
+    {
+      "id": 46,
+      "tier": "recall",
+      "category": "recall",
+      "text": "According to the introductory note, which three autobiographies are mentioned as masterpieces that compete with Cellini's for first place in its class?",
+      "held_out_passage": null
+    },
+    {
+      "id": 47,
+      "tier": "recall",
+      "category": "recall",
+      "text": "What major historical event is described in Cellini's autobiography because he personally fought in it?",
+      "held_out_passage": null
+    },
+    {
+      "id": 48,
+      "tier": "recall",
+      "category": "recall",
+      "text": "To whom did Cellini dictate his autobiography?",
+      "held_out_passage": null
+    },
+    {
+      "id": 49,
+      "tier": "recall",
+      "category": "recall",
+      "text": "What was the age of the person to whom Cellini dictated his autobiography?",
+      "held_out_passage": null
+    },
+    {
+      "id": 50,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "Why might Cellini's motivation for writing his autobiography have made it more likely to contain both accurate observations and self-serving distortions compared to Augustine's or Pepys's works?",
+      "held_out_passage": null
+    },
+    {
+      "id": 51,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "Given that Cellini lived during the Reformation and Counter-Reformation but focused mainly on artistic rather than religious or political matters, what does this suggest about his priorities and the scope of his influence?",
+      "held_out_passage": null
+    },
+    {
+      "id": 52,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "How does the fact that Cellini was 'a murderer and a braggart' yet also 'a great master of narrative' complicate the reliability of his autobiography as a historical document?",
+      "held_out_passage": null
+    },
+    {
+      "id": 53,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "What does the introductory sonnet's reference to 'precious time in vanity I've spent' suggest about Cellini's perspective on his life when writing, and how might this have influenced what he chose to emphasize in his autobiography?",
+      "held_out_passage": null
+    },
+    {
+      "id": 54,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "Why is it significant that Cellini dictated his autobiography to a fourteen-year-old boy rather than writing it himself, considering what the text says about his character and his desire to control his legacy?",
+      "held_out_passage": null
+    },
+    {
+      "id": 55,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "How does Cellini's belief that 'all men of merit' should write their own life stories reflect both his confidence in his own achievements and his understanding of how history would judge him?",
+      "held_out_passage": null
+    },
+    {
+      "id": 56,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "Given that Cellini knew Michelangelo and was himself 'no inconsiderable figure' among Renaissance artists, what does the text suggest about the competitive artistic environment of sixteenth-century Italy?",
+      "held_out_passage": null
+    },
+    {
+      "id": 57,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "Why would Cellini's participation in the Sack of Rome be more likely to appear in his autobiography than other major historical events of his era, based on what the text reveals about his narrative priorities?",
+      "held_out_passage": null
+    },
+    {
+      "id": 58,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "How do Cellini's character flaws—being 'insolent, sensual, inordinately proud and passionate'—potentially explain both his artistic achievements and his tendency toward 'misrepresentations' and 'suppressions of damaging facts'?",
+      "held_out_passage": null
+    },
+    {
+      "id": 59,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "What does the text's observation that Cellini would be remembered 'less by his Perseus and his goldsmith's work than by the book' suggest about the relationship between artistic creation and historical documentation?",
+      "held_out_passage": null
+    },
+    {
+      "id": 60,
+      "tier": "inferential",
+      "category": "inferential",
+      "text": "How does the period covered by the autobiography (1500-1562) relate to Cellini's statement in the sonnet about 'precious time in vanity I've spent,' and what might this reveal about his self-assessment?",
+      "held_out_passage": null
+    },
+    {
+      "id": 61,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What would Benvenuto Cellini's opinion be on 3D metal printing technology and its impact on traditional goldsmithing?",
+      "held_out_passage": null
+    },
+    {
+      "id": 62,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "If Cellini were alive today, which contemporary art movement would he most likely align himself with?",
+      "held_out_passage": null
+    },
+    {
+      "id": 63,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What did Cellini think about the artistic merit of Japanese metalworking techniques?",
+      "held_out_passage": null
+    },
+    {
+      "id": 64,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "How would Cellini have responded to the invention of the photograph and its effect on representational sculpture?",
+      "held_out_passage": null
+    },
+    {
+      "id": 65,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What were Cellini's views on the proper treatment of animals in his personal life beyond his documented hunting activities?",
+      "held_out_passage": null
+    },
+    {
+      "id": 66,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "If Cellini had access to modern chemistry, which synthetic materials would he have chosen to incorporate into his designs?",
+      "held_out_passage": null
+    },
+    {
+      "id": 67,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What did Cellini believe about the existence of life on other planets or celestial bodies?",
+      "held_out_passage": null
+    },
+    {
+      "id": 68,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "How would Cellini have rated his own artistic legacy compared to artists who emerged after his death?",
+      "held_out_passage": null
+    },
+    {
+      "id": 69,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What were Cellini's private thoughts on the role of women as artists and patrons in Renaissance society?",
+      "held_out_passage": null
+    },
+    {
+      "id": 70,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "If Cellini could commission a work from any artist in history, who would he choose and why?",
+      "held_out_passage": null
+    },
+    {
+      "id": 71,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Cellini claims to write for posterity to document his merit, yet he admits to suppressions and misrepresentations. How does he reconcile his stated commitment to being 'a man of truth' with his acknowledged selective presentation of facts?",
+      "held_out_passage": null
+    },
+    {
+      "id": 72,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "He expresses remorse in the introductory sonnet about time 'spent in vanity,' yet his autobiography extensively celebrates his sensual exploits and violent acts. Is this remorse genuine, or merely a rhetorical gesture expected of aging men?",
+      "held_out_passage": null
+    },
+    {
+      "id": 73,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Cellini was simultaneously a murderer and a master craftsman devoted to beauty. Did he see these aspects of himself as fundamentally separate, or did he believe his artistic genius somehow justified or transcended his violent nature?",
+      "held_out_passage": null
+    },
+    {
+      "id": 74,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "He dictated his life story 'casually to a lad of fourteen while he went about his work,' suggesting it was not a carefully considered project. How much of his self-presentation should we attribute to spontaneous honesty versus unrehearsed self-deception?",
+      "held_out_passage": null
+    },
+    {
+      "id": 75,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "The text notes he had 'no manner of doubt' about his merit. Given his acknowledged pride and passion for proving himself right, how would Cellini have responded to genuine criticism of his work or character?",
+      "held_out_passage": null
+    },
+    {
+      "id": 76,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "He describes himself as insolent and inordinately proud, yet also as devoted to serving patrons like the Pope and King of France. Could he genuinely submit to authority, or was his service merely transactional performance?",
+      "held_out_passage": null
+    },
+    {
+      "id": 77,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Cellini lived through the Reformation and Counter-Reformation but largely ignored these epochal events in his autobiography. Does this omission reflect his actual indifference to religious and political upheaval, or a deliberate choice to center himself?",
+      "held_out_passage": null
+    },
+    {
+      "id": 78,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "He 'adored' Michelangelo yet positioned himself as 'no inconsiderable figure' among great artists. Did Cellini genuinely believe himself Michelangelo's peer, or was this competitive self-assessment a defensive posture masking insecurity?",
+      "held_out_passage": null
+    },
+    {
+      "id": 79,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "The autobiography emphasizes his 'passionate enthusiasm for the creation of beauty,' yet he also engaged in casual violence and licentiousness. Could these impulses coexist in his psychology as equally authentic, or did he compartmentalize them?",
+      "held_out_passage": null
+    },
+    {
+      "id": 80,
+      "tier": "boundary_probing",
+      "category": "boundary",
+      "text": "Cellini's greatest legacy became his narrative skill rather than his 'Perseus' sculpture, a fact he could not have anticipated. If he had known this, would it have fundamentally altered his self-conception as an artist, or would he have rationalized it as proof of his genius?",
+      "held_out_passage": null
+    }
+  ]
+}

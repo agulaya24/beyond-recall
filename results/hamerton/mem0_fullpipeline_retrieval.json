@@ -1,0 +1,782 @@
+{
+  "21": {
+    "question_id": 21,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "John Hammerton wrote a formal letter to his grandmother on June 1st 1833 from Shaw, addressed to a Dear Madam, expressing hope for a favorable answer and will wait upon her on Monday, promising a steady, sober married life, noting his custom to write the family name with a double 'm', and indicating his intention to reform his way of life",
+      "John Hammerton's mother died at age 24, left all her property to him, and her early death caused melancholy over his childhood and led to his father's loss of interest in his profession",
+      "After his wife's death, John Hammerton's father lived alone with servants, had little interest in his profession, and had no desire to accumulate wealth.",
+      "John Hammerton's father was physically strong, believed he could drink deeply without harm, but years of brandy and tobacco consumption weakened his constitution and led to gradual health decline.",
+      "John Hammerton's father was a lawyer with a lucrative practice in 1834, received a testimonial from client Mr. Waring for services in a case, but after his wife's death in September 1834, his practice suffered and he sought relief from depression in society of lively companions",
+      "John Hammerton has no relations near him, no family ties, no domestic comforts, has lost inclination for keeping company of young men, and is looking for a steady sober married life",
+      "The grandfather had an estrangement with his brother James Hamerton, the squire of Hellifield Peel, due to a land disagreement, which prevented family visits.",
+      "In 1876, John Hammerton found a lock of his mother's hair in a legal document, which he now possesses",
+      "John Hammerton's mother was well brought up, refined, and would not have encouraged a notorious evil-liver",
+      "The narrator's grandfather, Gilbert Hamerton, a second son of an ancient Yorkshire family, lived in a large old house near Towneley Park, owned property in the town and elsewhere, and married Jane Smith, a farmer's daughter, in an imprudent but socially acceptable union."
+    ],
+    "latency_ms": 664,
+    "timestamp": "2026-04-16T07:02:12.903441+00:00"
+  },
+  "22": {
+    "question_id": 22,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "John Hammerton's mother died at age 24, left all her property to him, and her early death caused melancholy over his childhood and led to his father's loss of interest in his profession",
+      "After his wife's death, John Hammerton's father lived alone with servants, had little interest in his profession, and had no desire to accumulate wealth.",
+      "John Hammerton's father was a lawyer with a lucrative practice in 1834, received a testimonial from client Mr. Waring for services in a case, but after his wife's death in September 1834, his practice suffered and he sought relief from depression in society of lively companions",
+      "The grandfather had an estrangement with his brother James Hamerton, the squire of Hellifield Peel, due to a land disagreement, which prevented family visits.",
+      "John Hammerton wrote a formal letter to his grandmother on June 1st 1833 from Shaw, addressed to a Dear Madam, expressing hope for a favorable answer and will wait upon her on Monday, promising a steady, sober married life, noting his custom to write the family name with a double 'm', and indicating his intention to reform his way of life",
+      "John Hammerton's mother was well brought up, refined, and would not have encouraged a notorious evil-liver",
+      "Upon Grandfather's death, his entire property passed to his eldest son; Grandfather had trained his three sons to be solicitors, but they had no affinity for law, and the narrator's father wished the narrator never to become a lawyer.",
+      "John Hammerton's father was physically strong, believed he could drink deeply without harm, but years of brandy and tobacco consumption weakened his constitution and led to gradual health decline.",
+      "The narrator's grandfather, Gilbert Hamerton, a second son of an ancient Yorkshire family, lived in a large old house near Towneley Park, owned property in the town and elsewhere, and married Jane Smith, a farmer's daughter, in an imprudent but socially acceptable union.",
+      "Grandfather lived in excellent health until age 77, then died suddenly at Hollins after his eldest daughter Mary asked him to open a window and say a prayer, and he died before she finished the prayer."
+    ],
+    "latency_ms": 608,
+    "timestamp": "2026-04-16T07:02:13.514148+00:00"
+  },
+  "23": {
+    "question_id": 23,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "John Hammerton is uncertain whether his mother was consumptive or only suffered from debility",
+      "John Hammerton's mother was well brought up, refined, and would not have encouraged a notorious evil-liver",
+      "The grandfather had an estrangement with his brother James Hamerton, the squire of Hellifield Peel, due to a land disagreement, which prevented family visits.",
+      "John Hammerton has no relations near him, no family ties, no domestic comforts, has lost inclination for keeping company of young men, and is looking for a steady sober married life",
+      "John Hammerton's father was popular, bore himself with dignity, and was seen as owning the town when walking through the main street at Shaw",
+      "John Hammerton's father had no literary or artistic interests, rarely read books, only the Times newspaper, and owned a small collection of non-literary works such as a biography of William IV, sketches of Reform Ministers, Baines's History of Lancashire, and a Geographical Dictionary.",
+      "John Hammerton has only one or two formal compositions written by his mother at school",
+      "The narrator has a rule to say nothing that can hurt the living and to treat the dead with tenderness compatible with a truthful account.",
+      "John Hammerton wrote a formal letter to his grandmother on June 1st 1833 from Shaw, addressed to a Dear Madam, expressing hope for a favorable answer and will wait upon her on Monday, promising a steady, sober married life, noting his custom to write the family name with a double 'm', and indicating his intention to reform his way of life",
+      "The narrator's grandfather, Gilbert Hamerton, a second son of an ancient Yorkshire family, lived in a large old house near Towneley Park, owned property in the town and elsewhere, and married Jane Smith, a farmer's daughter, in an imprudent but socially acceptable union."
+    ],
+    "latency_ms": 699,
+    "timestamp": "2026-04-16T07:02:14.213670+00:00"
+  },
+  "24": {
+    "question_id": 24,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The grandfather had an estrangement with his brother James Hamerton, the squire of Hellifield Peel, due to a land disagreement, which prevented family visits.",
+      "John Hammerton's mother was well brought up, refined, and would not have encouraged a notorious evil-liver",
+      "John Hammerton's mother died at age 24, left all her property to him, and her early death caused melancholy over his childhood and led to his father's loss of interest in his profession",
+      "John Hammerton's mother was lively, amiable, physically active, a good horsewoman, rode with her husband, and once went shooting with him and cried over her victim",
+      "John Hammerton has no relations near him, no family ties, no domestic comforts, has lost inclination for keeping company of young men, and is looking for a steady sober married life",
+      "John Hammerton wrote a formal letter to his grandmother on June 1st 1833 from Shaw, addressed to a Dear Madam, expressing hope for a favorable answer and will wait upon her on Monday, promising a steady, sober married life, noting his custom to write the family name with a double 'm', and indicating his intention to reform his way of life",
+      "The narrator has a rule to say nothing that can hurt the living and to treat the dead with tenderness compatible with a truthful account.",
+      "John Hammerton's father was a lawyer with a lucrative practice in 1834, received a testimonial from client Mr. Waring for services in a case, but after his wife's death in September 1834, his practice suffered and he sought relief from depression in society of lively companions",
+      "A child about five years old, 40 miles away, saw an empty chair and described a man who matched Grandfather's appearance, coinciding with Grandfather's sudden death, an incident noted by the narrator.",
+      "The narrator's grandfather, Gilbert Hamerton, a second son of an ancient Yorkshire family, lived in a large old house near Towneley Park, owned property in the town and elsewhere, and married Jane Smith, a farmer's daughter, in an imprudent but socially acceptable union."
+    ],
+    "latency_ms": 707,
+    "timestamp": "2026-04-16T07:02:14.921816+00:00"
+  },
+  "25": {
+    "question_id": 25,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "John Hammerton's father was physically strong, believed he could drink deeply without harm, but years of brandy and tobacco consumption weakened his constitution and led to gradual health decline.",
+      "John Hammerton's mother was well brought up, refined, and would not have encouraged a notorious evil-liver",
+      "Grandfather had a great liking for French, wrote an original French grammar printed in synoptic sheets at his private expense, never completed or published, never visited France, and conversed in French mainly with a Roman Catholic chaplain at Towneley Hall.",
+      "John Hammerton's mother died at age 24, left all her property to him, and her early death caused melancholy over his childhood and led to his father's loss of interest in his profession",
+      "The narrator received early education from aunts, learned to read English with great facility, was sent to Grammar School at Burnley at five and a half years, set to Latin, struggled with Latin, and developed a horror of printed Latin.",
+      "In 1876, John Hammerton found a lock of his mother's hair in a legal document, which he now possesses",
+      "The narrator's grandmother, a farmer's daughter whose well-to-do parents helped the grandfather financially, was part of the family.",
+      "John Hammerton has no relations near him, no family ties, no domestic comforts, has lost inclination for keeping company of young men, and is looking for a steady sober married life",
+      "John Hammerton has only one or two formal compositions written by his mother at school",
+      "John Hammerton wrote a formal letter to his grandmother on June 1st 1833 from Shaw, addressed to a Dear Madam, expressing hope for a favorable answer and will wait upon her on Monday, promising a steady, sober married life, noting his custom to write the family name with a double 'm', and indicating his intention to reform his way of life"
+    ],
+    "latency_ms": 613,
+    "timestamp": "2026-04-16T07:02:15.539234+00:00"
+  },
+  "26": {
+    "question_id": 26,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "After his wife's death, John Hammerton's father lived alone with servants, had little interest in his profession, and had no desire to accumulate wealth.",
+      "John Hammerton has no relations near him, no family ties, no domestic comforts, has lost inclination for keeping company of young men, and is looking for a steady sober married life",
+      "John Hammerton's mother was well brought up, refined, and would not have encouraged a notorious evil-liver",
+      "John Hammerton wrote a formal letter to his grandmother on June 1st 1833 from Shaw, addressed to a Dear Madam, expressing hope for a favorable answer and will wait upon her on Monday, promising a steady, sober married life, noting his custom to write the family name with a double 'm', and indicating his intention to reform his way of life",
+      "The grandfather had an estrangement with his brother James Hamerton, the squire of Hellifield Peel, due to a land disagreement, which prevented family visits.",
+      "The narrator's father employed a tailor to make a suit for the narrator, but the father forbade wearing it, and the narrator still regrets the absurd costume.",
+      "The narrator's grandfather, Gilbert Hamerton, a second son of an ancient Yorkshire family, lived in a large old house near Towneley Park, owned property in the town and elsewhere, and married Jane Smith, a farmer's daughter, in an imprudent but socially acceptable union.",
+      "John Hammerton's mother died at age 24, left all her property to him, and her early death caused melancholy over his childhood and led to his father's loss of interest in his profession",
+      "John Hammerton's father was a lawyer with a lucrative practice in 1834, received a testimonial from client Mr. Waring for services in a case, but after his wife's death in September 1834, his practice suffered and he sought relief from depression in society of lively companions",
+      "The road passing the house was steep, narrow, and inconvenient, leading up to an elevated tract of dreary country, with one or two fields above the stone quarry offering a good view toward Rochdale, and the house abutted a hill with a cotton-mill behind it."
+    ],
+    "latency_ms": 563,
+    "timestamp": "2026-04-16T07:02:16.103275+00:00"
+  },
+  "27": {
+    "question_id": 27,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "John Hammerton's mother died at age 24, left all her property to him, and her early death caused melancholy over his childhood and led to his father's loss of interest in his profession",
+      "John Hammerton has only one or two formal compositions written by his mother at school",
+      "John Hammerton's mother was well brought up, refined, and would not have encouraged a notorious evil-liver",
+      "After his wife's death, John Hammerton's father lived alone with servants, had little interest in his profession, and had no desire to accumulate wealth.",
+      "John Hammerton wrote a formal letter to his grandmother on June 1st 1833 from Shaw, addressed to a Dear Madam, expressing hope for a favorable answer and will wait upon her on Monday, promising a steady, sober married life, noting his custom to write the family name with a double 'm', and indicating his intention to reform his way of life",
+      "John Hammerton is uncertain whether his mother was consumptive or only suffered from debility",
+      "Grandfather had a great liking for French, wrote an original French grammar printed in synoptic sheets at his private expense, never completed or published, never visited France, and conversed in French mainly with a Roman Catholic chaplain at Towneley Hall.",
+      "John Hammerton's father was a lawyer with a lucrative practice in 1834, received a testimonial from client Mr. Waring for services in a case, but after his wife's death in September 1834, his practice suffered and he sought relief from depression in society of lively companions",
+      "The grandfather had an estrangement with his brother James Hamerton, the squire of Hellifield Peel, due to a land disagreement, which prevented family visits.",
+      "Upon Grandfather's death, his entire property passed to his eldest son; Grandfather had trained his three sons to be solicitors, but they had no affinity for law, and the narrator's father wished the narrator never to become a lawyer."
+    ],
+    "latency_ms": 773,
+    "timestamp": "2026-04-16T07:02:16.880261+00:00"
+  },
+  "28": {
+    "question_id": 28,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "John Hammerton's mother was well brought up, refined, and would not have encouraged a notorious evil-liver",
+      "John Hammerton wrote a formal letter to his grandmother on June 1st 1833 from Shaw, addressed to a Dear Madam, expressing hope for a favorable answer and will wait upon her on Monday, promising a steady, sober married life, noting his custom to write the family name with a double 'm', and indicating his intention to reform his way of life",
+      "John Hammerton's father had no literary or artistic interests, rarely read books, only the Times newspaper, and owned a small collection of non-literary works such as a biography of William IV, sketches of Reform Ministers, Baines's History of Lancashire, and a Geographical Dictionary.",
+      "John Hammerton's mother died at age 24, left all her property to him, and her early death caused melancholy over his childhood and led to his father's loss of interest in his profession",
+      "After his wife's death, John Hammerton's father lived alone with servants, had little interest in his profession, and had no desire to accumulate wealth.",
+      "The grandfather had an estrangement with his brother James Hamerton, the squire of Hellifield Peel, due to a land disagreement, which prevented family visits.",
+      "John Hammerton's father was a lawyer with a lucrative practice in 1834, received a testimonial from client Mr. Waring for services in a case, but after his wife's death in September 1834, his practice suffered and he sought relief from depression in society of lively companions",
+      "John Hammerton is uncertain whether his mother was consumptive or only suffered from debility",
+      "The narrator was born in 1834 at Laneside near Shaw, Lancashire, about two miles from Oldham and four miles from Rochdale, a small estate with a stone house and a cotton-mill owned by their maternal grandfather.",
+      "John Hammerton has no portrait of his mother"
+    ],
+    "latency_ms": 668,
+    "timestamp": "2026-04-16T07:02:17.553203+00:00"
+  },
+  "29": {
+    "question_id": 29,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "John Hammerton's father had no literary or artistic interests, rarely read books, only the Times newspaper, and owned a small collection of non-literary works such as a biography of William IV, sketches of Reform Ministers, Baines's History of Lancashire, and a Geographical Dictionary.",
+      "John Hammerton's mother was well brought up, refined, and would not have encouraged a notorious evil-liver",
+      "The narrator's grandfather, Gilbert Hamerton, a second son of an ancient Yorkshire family, lived in a large old house near Towneley Park, owned property in the town and elsewhere, and married Jane Smith, a farmer's daughter, in an imprudent but socially acceptable union.",
+      "John Hammerton wrote a formal letter to his grandmother on June 1st 1833 from Shaw, addressed to a Dear Madam, expressing hope for a favorable answer and will wait upon her on Monday, promising a steady, sober married life, noting his custom to write the family name with a double 'm', and indicating his intention to reform his way of life",
+      "John Hammerton's father was a lawyer with a lucrative practice in 1834, received a testimonial from client Mr. Waring for services in a case, but after his wife's death in September 1834, his practice suffered and he sought relief from depression in society of lively companions",
+      "The grandfather had an estrangement with his brother James Hamerton, the squire of Hellifield Peel, due to a land disagreement, which prevented family visits.",
+      "The narrator was born in 1834 at Laneside near Shaw, Lancashire, about two miles from Oldham and four miles from Rochdale, a small estate with a stone house and a cotton-mill owned by their maternal grandfather.",
+      "John Hammerton remembers a charade where people said his mother's likeness was striking",
+      "In 1876, John Hammerton found a lock of his mother's hair in a legal document, which he now possesses",
+      "The Laneside house had a stone roof of stone slate, faced the road, was separated by a small enclosure that could be called a garden, and when the user was a child there were two or three poplar trees in the enclosure, but now there are probably none."
+    ],
+    "latency_ms": 590,
+    "timestamp": "2026-04-16T07:02:18.144342+00:00"
+  },
+  "30": {
+    "question_id": 30,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "John Hammerton's mother was well brought up, refined, and would not have encouraged a notorious evil-liver",
+      "John Hammerton wrote a formal letter to his grandmother on June 1st 1833 from Shaw, addressed to a Dear Madam, expressing hope for a favorable answer and will wait upon her on Monday, promising a steady, sober married life, noting his custom to write the family name with a double 'm', and indicating his intention to reform his way of life",
+      "John Hammerton is uncertain whether his mother was consumptive or only suffered from debility",
+      "The grandfather had an estrangement with his brother James Hamerton, the squire of Hellifield Peel, due to a land disagreement, which prevented family visits.",
+      "John Hammerton's mother died at age 24, left all her property to him, and her early death caused melancholy over his childhood and led to his father's loss of interest in his profession",
+      "John Hammerton's father was a lawyer with a lucrative practice in 1834, received a testimonial from client Mr. Waring for services in a case, but after his wife's death in September 1834, his practice suffered and he sought relief from depression in society of lively companions",
+      "The narrator's grandfather, Gilbert Hamerton, a second son of an ancient Yorkshire family, lived in a large old house near Towneley Park, owned property in the town and elsewhere, and married Jane Smith, a farmer's daughter, in an imprudent but socially acceptable union.",
+      "User writes an autobiography to provide a truthful account of their life and to avoid inaccurate biographers, and they contemplate death, feeling that writing after death gives freedom from anxiety.",
+      "The narrator received early education from aunts, learned to read English with great facility, was sent to Grammar School at Burnley at five and a half years, set to Latin, struggled with Latin, and developed a horror of printed Latin.",
+      "After his wife's death, John Hammerton's father lived alone with servants, had little interest in his profession, and had no desire to accumulate wealth."
+    ],
+    "latency_ms": 650,
+    "timestamp": "2026-04-16T07:02:18.795051+00:00"
+  },
+  "31": {
+    "question_id": 31,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "John Hammerton is uncertain whether his mother was consumptive or only suffered from debility",
+      "The narrator's father employed a tailor to make a suit for the narrator, but the father forbade wearing it, and the narrator still regrets the absurd costume.",
+      "The user believes an autobiography must be an untrue representation because no man can judge himself correctly.",
+      "John Hammerton wrote a formal letter to his grandmother on June 1st 1833 from Shaw, addressed to a Dear Madam, expressing hope for a favorable answer and will wait upon her on Monday, promising a steady, sober married life, noting his custom to write the family name with a double 'm', and indicating his intention to reform his way of life",
+      "The narrator's grandfather, Gilbert Hamerton, a second son of an ancient Yorkshire family, lived in a large old house near Towneley Park, owned property in the town and elsewhere, and married Jane Smith, a farmer's daughter, in an imprudent but socially acceptable union.",
+      "The narrator received early education from aunts, learned to read English with great facility, was sent to Grammar School at Burnley at five and a half years, set to Latin, struggled with Latin, and developed a horror of printed Latin.",
+      "The grandfather had an estrangement with his brother James Hamerton, the squire of Hellifield Peel, due to a land disagreement, which prevented family visits.",
+      "Grandfather had a great liking for French, wrote an original French grammar printed in synoptic sheets at his private expense, never completed or published, never visited France, and conversed in French mainly with a Roman Catholic chaplain at Towneley Hall.",
+      "Upon Grandfather's death, his entire property passed to his eldest son; Grandfather had trained his three sons to be solicitors, but they had no affinity for law, and the narrator's father wished the narrator never to become a lawyer.",
+      "After his wife's death, John Hammerton's father lived alone with servants, had little interest in his profession, and had no desire to accumulate wealth."
+    ],
+    "latency_ms": 574,
+    "timestamp": "2026-04-16T07:02:19.370368+00:00"
+  },
+  "32": {
+    "question_id": 32,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The narrator's grandfather, Gilbert Hamerton, a second son of an ancient Yorkshire family, lived in a large old house near Towneley Park, owned property in the town and elsewhere, and married Jane Smith, a farmer's daughter, in an imprudent but socially acceptable union.",
+      "John Hammerton's mother was well brought up, refined, and would not have encouraged a notorious evil-liver",
+      "John Hammerton is uncertain whether his mother was consumptive or only suffered from debility",
+      "The grandfather had an estrangement with his brother James Hamerton, the squire of Hellifield Peel, due to a land disagreement, which prevented family visits.",
+      "John Hammerton wrote a formal letter to his grandmother on June 1st 1833 from Shaw, addressed to a Dear Madam, expressing hope for a favorable answer and will wait upon her on Monday, promising a steady, sober married life, noting his custom to write the family name with a double 'm', and indicating his intention to reform his way of life",
+      "The road passing the house was steep, narrow, and inconvenient, leading up to an elevated tract of dreary country, with one or two fields above the stone quarry offering a good view toward Rochdale, and the house abutted a hill with a cotton-mill behind it.",
+      "John Hammerton has only one or two formal compositions written by his mother at school",
+      "Anne Cocker, the narrator's mother, was a sweet and amiable woman descended from the De Cromptons of Crompton Hall, had a little property, valued money, and after Philip Cocker's premature death favored wealthy suitors.",
+      "Grandfather had a great liking for French, wrote an original French grammar printed in synoptic sheets at his private expense, never completed or published, never visited France, and conversed in French mainly with a Roman Catholic chaplain at Towneley Hall.",
+      "The narrator received early education from aunts, learned to read English with great facility, was sent to Grammar School at Burnley at five and a half years, set to Latin, struggled with Latin, and developed a horror of printed Latin."
+    ],
+    "latency_ms": 664,
+    "timestamp": "2026-04-16T07:02:20.034956+00:00"
+  },
+  "33": {
+    "question_id": 33,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "John Hammerton has no relations near him, no family ties, no domestic comforts, has lost inclination for keeping company of young men, and is looking for a steady sober married life",
+      "The narrator's grandfather, Gilbert Hamerton, a second son of an ancient Yorkshire family, lived in a large old house near Towneley Park, owned property in the town and elsewhere, and married Jane Smith, a farmer's daughter, in an imprudent but socially acceptable union.",
+      "John Hammerton's mother was well brought up, refined, and would not have encouraged a notorious evil-liver",
+      "The grandfather had an estrangement with his brother James Hamerton, the squire of Hellifield Peel, due to a land disagreement, which prevented family visits.",
+      "John Hammerton wrote a formal letter to his grandmother on June 1st 1833 from Shaw, addressed to a Dear Madam, expressing hope for a favorable answer and will wait upon her on Monday, promising a steady, sober married life, noting his custom to write the family name with a double 'm', and indicating his intention to reform his way of life",
+      "John Hammerton's father was a lawyer with a lucrative practice in 1834, received a testimonial from client Mr. Waring for services in a case, but after his wife's death in September 1834, his practice suffered and he sought relief from depression in society of lively companions",
+      "User's father, Philip Cocker, was a young attorney who married Anne Cocker after a public charity ball where she declined to dance with other gentlemen until he presented himself; he had a reputation for dissolute habits, was a good horseman and excellent shot, had no money except his professional earnings, and had fifteen quarterings.",
+      "John Hammerton's mother died at age 24, left all her property to him, and her early death caused melancholy over his childhood and led to his father's loss of interest in his profession",
+      "Anne Cocker, the narrator's mother, was a sweet and amiable woman descended from the De Cromptons of Crompton Hall, had a little property, valued money, and after Philip Cocker's premature death favored wealthy suitors.",
+      "Upon Grandfather's death, his entire property passed to his eldest son; Grandfather had trained his three sons to be solicitors, but they had no affinity for law, and the narrator's father wished the narrator never to become a lawyer."
+    ],
+    "latency_ms": 731,
+    "timestamp": "2026-04-16T07:02:20.768815+00:00"
+  },
+  "34": {
+    "question_id": 34,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "After his wife's death, John Hammerton's father lived alone with servants, had little interest in his profession, and had no desire to accumulate wealth.",
+      "John Hammerton's father was a lawyer with a lucrative practice in 1834, received a testimonial from client Mr. Waring for services in a case, but after his wife's death in September 1834, his practice suffered and he sought relief from depression in society of lively companions",
+      "User writes an autobiography to provide a truthful account of their life and to avoid inaccurate biographers, and they contemplate death, feeling that writing after death gives freedom from anxiety.",
+      "John Hammerton's mother died at age 24, left all her property to him, and her early death caused melancholy over his childhood and led to his father's loss of interest in his profession",
+      "John Hammerton's mother was well brought up, refined, and would not have encouraged a notorious evil-liver",
+      "John Hammerton wrote a formal letter to his grandmother on June 1st 1833 from Shaw, addressed to a Dear Madam, expressing hope for a favorable answer and will wait upon her on Monday, promising a steady, sober married life, noting his custom to write the family name with a double 'm', and indicating his intention to reform his way of life",
+      "The grandfather had an estrangement with his brother James Hamerton, the squire of Hellifield Peel, due to a land disagreement, which prevented family visits.",
+      "John Hammerton has only one or two formal compositions written by his mother at school",
+      "John Hammerton is uncertain whether his mother was consumptive or only suffered from debility",
+      "John Hammerton has no portrait of his mother"
+    ],
+    "latency_ms": 543,
+    "timestamp": "2026-04-16T07:02:21.313123+00:00"
+  },
+  "35": {
+    "question_id": 35,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "John Hammerton's mother was well brought up, refined, and would not have encouraged a notorious evil-liver",
+      "Grandfather had a great liking for French, wrote an original French grammar printed in synoptic sheets at his private expense, never completed or published, never visited France, and conversed in French mainly with a Roman Catholic chaplain at Towneley Hall.",
+      "John Hammerton's father was physically strong, believed he could drink deeply without harm, but years of brandy and tobacco consumption weakened his constitution and led to gradual health decline.",
+      "John Hammerton is uncertain whether his mother was consumptive or only suffered from debility",
+      "In 1876, John Hammerton found a lock of his mother's hair in a legal document, which he now possesses",
+      "John Hammerton's mother died at age 24, left all her property to him, and her early death caused melancholy over his childhood and led to his father's loss of interest in his profession",
+      "John Hammerton's father was a lawyer with a lucrative practice in 1834, received a testimonial from client Mr. Waring for services in a case, but after his wife's death in September 1834, his practice suffered and he sought relief from depression in society of lively companions",
+      "John Hammerton has only one or two formal compositions written by his mother at school",
+      "John Hammerton's father had no literary or artistic interests, rarely read books, only the Times newspaper, and owned a small collection of non-literary works such as a biography of William IV, sketches of Reform Ministers, Baines's History of Lancashire, and a Geographical Dictionary.",
+      "John Hammerton wrote a formal letter to his grandmother on June 1st 1833 from Shaw, addressed to a Dear Madam, expressing hope for a favorable answer and will wait upon her on Monday, promising a steady, sober married life, noting his custom to write the family name with a double 'm', and indicating his intention to reform his way of life"
+    ],
+    "latency_ms": 543,
+    "timestamp": "2026-04-16T07:02:21.861451+00:00"
+  },
+  "36": {
+    "question_id": 36,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "John Hammerton wrote a formal letter to his grandmother on June 1st 1833 from Shaw, addressed to a Dear Madam, expressing hope for a favorable answer and will wait upon her on Monday, promising a steady, sober married life, noting his custom to write the family name with a double 'm', and indicating his intention to reform his way of life",
+      "John Hammerton's mother died at age 24, left all her property to him, and her early death caused melancholy over his childhood and led to his father's loss of interest in his profession",
+      "The grandfather had an estrangement with his brother James Hamerton, the squire of Hellifield Peel, due to a land disagreement, which prevented family visits.",
+      "John Hammerton's mother was well brought up, refined, and would not have encouraged a notorious evil-liver",
+      "After his wife's death, John Hammerton's father lived alone with servants, had little interest in his profession, and had no desire to accumulate wealth.",
+      "John Hammerton remembers a charade where people said his mother's likeness was striking",
+      "Grandfather had a great liking for French, wrote an original French grammar printed in synoptic sheets at his private expense, never completed or published, never visited France, and conversed in French mainly with a Roman Catholic chaplain at Towneley Hall.",
+      "John Hammerton is uncertain whether his mother was consumptive or only suffered from debility",
+      "John Hammerton's father was a lawyer with a lucrative practice in 1834, received a testimonial from client Mr. Waring for services in a case, but after his wife's death in September 1834, his practice suffered and he sought relief from depression in society of lively companions",
+      "Upon Grandfather's death, his entire property passed to his eldest son; Grandfather had trained his three sons to be solicitors, but they had no affinity for law, and the narrator's father wished the narrator never to become a lawyer."
+    ],
+    "latency_ms": 588,
+    "timestamp": "2026-04-16T07:02:22.452088+00:00"
+  },
+  "37": {
+    "question_id": 37,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The grandfather had an estrangement with his brother James Hamerton, the squire of Hellifield Peel, due to a land disagreement, which prevented family visits.",
+      "John Hammerton's mother died at age 24, left all her property to him, and her early death caused melancholy over his childhood and led to his father's loss of interest in his profession",
+      "John Hammerton wrote a formal letter to his grandmother on June 1st 1833 from Shaw, addressed to a Dear Madam, expressing hope for a favorable answer and will wait upon her on Monday, promising a steady, sober married life, noting his custom to write the family name with a double 'm', and indicating his intention to reform his way of life",
+      "After his wife's death, John Hammerton's father lived alone with servants, had little interest in his profession, and had no desire to accumulate wealth.",
+      "John Hammerton's mother was well brought up, refined, and would not have encouraged a notorious evil-liver",
+      "John Hammerton is uncertain whether his mother was consumptive or only suffered from debility",
+      "John Hammerton's father was physically strong, believed he could drink deeply without harm, but years of brandy and tobacco consumption weakened his constitution and led to gradual health decline.",
+      "John Hammerton's father was a lawyer with a lucrative practice in 1834, received a testimonial from client Mr. Waring for services in a case, but after his wife's death in September 1834, his practice suffered and he sought relief from depression in society of lively companions",
+      "The narrator's grandfather, Gilbert Hamerton, a second son of an ancient Yorkshire family, lived in a large old house near Towneley Park, owned property in the town and elsewhere, and married Jane Smith, a farmer's daughter, in an imprudent but socially acceptable union.",
+      "John Hammerton has only one or two formal compositions written by his mother at school"
+    ],
+    "latency_ms": 571,
+    "timestamp": "2026-04-16T07:02:23.023982+00:00"
+  },
+  "38": {
+    "question_id": 38,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "John Hammerton's mother died at age 24, left all her property to him, and her early death caused melancholy over his childhood and led to his father's loss of interest in his profession",
+      "John Hammerton's father was physically strong, believed he could drink deeply without harm, but years of brandy and tobacco consumption weakened his constitution and led to gradual health decline.",
+      "John Hammerton's mother was well brought up, refined, and would not have encouraged a notorious evil-liver",
+      "The grandfather had an estrangement with his brother James Hamerton, the squire of Hellifield Peel, due to a land disagreement, which prevented family visits.",
+      "John Hammerton is uncertain whether his mother was consumptive or only suffered from debility",
+      "John Hammerton has only one or two formal compositions written by his mother at school",
+      "The narrator's grandfather, Gilbert Hamerton, a second son of an ancient Yorkshire family, lived in a large old house near Towneley Park, owned property in the town and elsewhere, and married Jane Smith, a farmer's daughter, in an imprudent but socially acceptable union.",
+      "John Hammerton has no relations near him, no family ties, no domestic comforts, has lost inclination for keeping company of young men, and is looking for a steady sober married life",
+      "John Hammerton's father had no literary or artistic interests, rarely read books, only the Times newspaper, and owned a small collection of non-literary works such as a biography of William IV, sketches of Reform Ministers, Baines's History of Lancashire, and a Geographical Dictionary.",
+      "John Hammerton's father was a lawyer with a lucrative practice in 1834, received a testimonial from client Mr. Waring for services in a case, but after his wife's death in September 1834, his practice suffered and he sought relief from depression in society of lively companions"
+    ],
+    "latency_ms": 532,
+    "timestamp": "2026-04-16T07:02:23.557573+00:00"
+  },
+  "39": {
+    "question_id": 39,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The grandfather had an estrangement with his brother James Hamerton, the squire of Hellifield Peel, due to a land disagreement, which prevented family visits.",
+      "John Hammerton wrote a formal letter to his grandmother on June 1st 1833 from Shaw, addressed to a Dear Madam, expressing hope for a favorable answer and will wait upon her on Monday, promising a steady, sober married life, noting his custom to write the family name with a double 'm', and indicating his intention to reform his way of life",
+      "The narrator's grandfather, Gilbert Hamerton, a second son of an ancient Yorkshire family, lived in a large old house near Towneley Park, owned property in the town and elsewhere, and married Jane Smith, a farmer's daughter, in an imprudent but socially acceptable union.",
+      "John Hammerton has no relations near him, no family ties, no domestic comforts, has lost inclination for keeping company of young men, and is looking for a steady sober married life",
+      "After his wife's death, John Hammerton's father lived alone with servants, had little interest in his profession, and had no desire to accumulate wealth.",
+      "John Hammerton's mother died at age 24, left all her property to him, and her early death caused melancholy over his childhood and led to his father's loss of interest in his profession",
+      "John Hammerton's mother was well brought up, refined, and would not have encouraged a notorious evil-liver",
+      "John Hammerton's father was popular, bore himself with dignity, and was seen as owning the town when walking through the main street at Shaw",
+      "The narrator's grandmother, a farmer's daughter whose well-to-do parents helped the grandfather financially, was part of the family.",
+      "John Hammerton's father was physically strong, believed he could drink deeply without harm, but years of brandy and tobacco consumption weakened his constitution and led to gradual health decline."
+    ],
+    "latency_ms": 612,
+    "timestamp": "2026-04-16T07:02:24.170515+00:00"
+  },
+  "40": {
+    "question_id": 40,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The narrator's grandfather, Gilbert Hamerton, a second son of an ancient Yorkshire family, lived in a large old house near Towneley Park, owned property in the town and elsewhere, and married Jane Smith, a farmer's daughter, in an imprudent but socially acceptable union.",
+      "John Hammerton wrote a formal letter to his grandmother on June 1st 1833 from Shaw, addressed to a Dear Madam, expressing hope for a favorable answer and will wait upon her on Monday, promising a steady, sober married life, noting his custom to write the family name with a double 'm', and indicating his intention to reform his way of life",
+      "The grandfather had an estrangement with his brother James Hamerton, the squire of Hellifield Peel, due to a land disagreement, which prevented family visits.",
+      "John Hammerton's mother was well brought up, refined, and would not have encouraged a notorious evil-liver",
+      "John Hammerton's father was a lawyer with a lucrative practice in 1834, received a testimonial from client Mr. Waring for services in a case, but after his wife's death in September 1834, his practice suffered and he sought relief from depression in society of lively companions",
+      "Grandfather had a great liking for French, wrote an original French grammar printed in synoptic sheets at his private expense, never completed or published, never visited France, and conversed in French mainly with a Roman Catholic chaplain at Towneley Hall.",
+      "After his wife's death, John Hammerton's father lived alone with servants, had little interest in his profession, and had no desire to accumulate wealth.",
+      "In 1876, John Hammerton found a lock of his mother's hair in a legal document, which he now possesses",
+      "John Hammerton's mother died at age 24, left all her property to him, and her early death caused melancholy over his childhood and led to his father's loss of interest in his profession",
+      "John Hammerton remembers a charade where people said his mother's likeness was striking"
+    ],
+    "latency_ms": 620,
+    "timestamp": "2026-04-16T07:02:24.795656+00:00"
+  },
+  "41": {
+    "question_id": 41,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The grandfather had an estrangement with his brother James Hamerton, the squire of Hellifield Peel, due to a land disagreement, which prevented family visits.",
+      "John Hammerton's mother was well brought up, refined, and would not have encouraged a notorious evil-liver",
+      "John Hammerton's father was popular, bore himself with dignity, and was seen as owning the town when walking through the main street at Shaw",
+      "John Hammerton's mother died at age 24, left all her property to him, and her early death caused melancholy over his childhood and led to his father's loss of interest in his profession",
+      "John Hammerton wrote a formal letter to his grandmother on June 1st 1833 from Shaw, addressed to a Dear Madam, expressing hope for a favorable answer and will wait upon her on Monday, promising a steady, sober married life, noting his custom to write the family name with a double 'm', and indicating his intention to reform his way of life",
+      "After his wife's death, John Hammerton's father lived alone with servants, had little interest in his profession, and had no desire to accumulate wealth.",
+      "The narrator's grandfather, Gilbert Hamerton, a second son of an ancient Yorkshire family, lived in a large old house near Towneley Park, owned property in the town and elsewhere, and married Jane Smith, a farmer's daughter, in an imprudent but socially acceptable union.",
+      "John Hammerton is uncertain whether his mother was consumptive or only suffered from debility",
+      "John Hammerton's father was physically strong, believed he could drink deeply without harm, but years of brandy and tobacco consumption weakened his constitution and led to gradual health decline.",
+      "John Hammerton's father was a lawyer with a lucrative practice in 1834, received a testimonial from client Mr. Waring for services in a case, but after his wife's death in September 1834, his practice suffered and he sought relief from depression in society of lively companions"
+    ],
+    "latency_ms": 634,
+    "timestamp": "2026-04-16T07:02:25.431822+00:00"
+  },
+  "42": {
+    "question_id": 42,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "John Hammerton's mother died at age 24, left all her property to him, and her early death caused melancholy over his childhood and led to his father's loss of interest in his profession",
+      "John Hammerton's mother was well brought up, refined, and would not have encouraged a notorious evil-liver",
+      "After his wife's death, John Hammerton's father lived alone with servants, had little interest in his profession, and had no desire to accumulate wealth.",
+      "The grandfather had an estrangement with his brother James Hamerton, the squire of Hellifield Peel, due to a land disagreement, which prevented family visits.",
+      "The narrator's grandfather, Gilbert Hamerton, a second son of an ancient Yorkshire family, lived in a large old house near Towneley Park, owned property in the town and elsewhere, and married Jane Smith, a farmer's daughter, in an imprudent but socially acceptable union.",
+      "John Hammerton's father had no literary or artistic interests, rarely read books, only the Times newspaper, and owned a small collection of non-literary works such as a biography of William IV, sketches of Reform Ministers, Baines's History of Lancashire, and a Geographical Dictionary.",
+      "The narrator has a topographic habit of mind, observing buildings and landscapes, and has an inborn love for beautiful materials.",
+      "John Hammerton's father was a lawyer with a lucrative practice in 1834, received a testimonial from client Mr. Waring for services in a case, but after his wife's death in September 1834, his practice suffered and he sought relief from depression in society of lively companions",
+      "John Hammerton's mother had blue eyes, a very fair complexion, and rich auburn hair",
+      "John Hammerton's mother was lively, amiable, physically active, a good horsewoman, rode with her husband, and once went shooting with him and cried over her victim"
+    ],
+    "latency_ms": 741,
+    "timestamp": "2026-04-16T07:02:26.175903+00:00"
+  },
+  "43": {
+    "question_id": 43,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "John Hammerton's mother was well brought up, refined, and would not have encouraged a notorious evil-liver",
+      "John Hammerton's father was popular, bore himself with dignity, and was seen as owning the town when walking through the main street at Shaw",
+      "John Hammerton has no relations near him, no family ties, no domestic comforts, has lost inclination for keeping company of young men, and is looking for a steady sober married life",
+      "The grandfather had an estrangement with his brother James Hamerton, the squire of Hellifield Peel, due to a land disagreement, which prevented family visits.",
+      "John Hammerton's mother died at age 24, left all her property to him, and her early death caused melancholy over his childhood and led to his father's loss of interest in his profession",
+      "John Hammerton wrote a formal letter to his grandmother on June 1st 1833 from Shaw, addressed to a Dear Madam, expressing hope for a favorable answer and will wait upon her on Monday, promising a steady, sober married life, noting his custom to write the family name with a double 'm', and indicating his intention to reform his way of life",
+      "John Hammerton's wife died at 11:20 pm on the night of her death, when John was 29, and the doctors agreed she died of mere weakness without any absolute disease",
+      "The narrator's grandfather, Gilbert Hamerton, a second son of an ancient Yorkshire family, lived in a large old house near Towneley Park, owned property in the town and elsewhere, and married Jane Smith, a farmer's daughter, in an imprudent but socially acceptable union.",
+      "In 1876, John Hammerton found a lock of his mother's hair in a legal document, which he now possesses",
+      "John Hammerton's father was a lawyer with a lucrative practice in 1834, received a testimonial from client Mr. Waring for services in a case, but after his wife's death in September 1834, his practice suffered and he sought relief from depression in society of lively companions"
+    ],
+    "latency_ms": 615,
+    "timestamp": "2026-04-16T07:02:26.793319+00:00"
+  },
+  "44": {
+    "question_id": 44,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "John Hammerton has only one or two formal compositions written by his mother at school",
+      "John Hammerton is uncertain whether his mother was consumptive or only suffered from debility",
+      "John Hammerton's mother was well brought up, refined, and would not have encouraged a notorious evil-liver",
+      "John Hammerton's father had no literary or artistic interests, rarely read books, only the Times newspaper, and owned a small collection of non-literary works such as a biography of William IV, sketches of Reform Ministers, Baines's History of Lancashire, and a Geographical Dictionary.",
+      "John Hammerton wrote a formal letter to his grandmother on June 1st 1833 from Shaw, addressed to a Dear Madam, expressing hope for a favorable answer and will wait upon her on Monday, promising a steady, sober married life, noting his custom to write the family name with a double 'm', and indicating his intention to reform his way of life",
+      "John Hammerton's father was popular, bore himself with dignity, and was seen as owning the town when walking through the main street at Shaw",
+      "Grandfather had a great liking for French, wrote an original French grammar printed in synoptic sheets at his private expense, never completed or published, never visited France, and conversed in French mainly with a Roman Catholic chaplain at Towneley Hall.",
+      "The grandfather had an estrangement with his brother James Hamerton, the squire of Hellifield Peel, due to a land disagreement, which prevented family visits.",
+      "The narrator received early education from aunts, learned to read English with great facility, was sent to Grammar School at Burnley at five and a half years, set to Latin, struggled with Latin, and developed a horror of printed Latin.",
+      "The narrator's grandfather, Gilbert Hamerton, a second son of an ancient Yorkshire family, lived in a large old house near Towneley Park, owned property in the town and elsewhere, and married Jane Smith, a farmer's daughter, in an imprudent but socially acceptable union."
+    ],
+    "latency_ms": 984,
+    "timestamp": "2026-04-16T07:02:27.778153+00:00"
+  },
+  "45": {
+    "question_id": 45,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The grandfather had an estrangement with his brother James Hamerton, the squire of Hellifield Peel, due to a land disagreement, which prevented family visits.",
+      "The narrator's grandfather, Gilbert Hamerton, a second son of an ancient Yorkshire family, lived in a large old house near Towneley Park, owned property in the town and elsewhere, and married Jane Smith, a farmer's daughter, in an imprudent but socially acceptable union.",
+      "John Hammerton wrote a formal letter to his grandmother on June 1st 1833 from Shaw, addressed to a Dear Madam, expressing hope for a favorable answer and will wait upon her on Monday, promising a steady, sober married life, noting his custom to write the family name with a double 'm', and indicating his intention to reform his way of life",
+      "John Hammerton's mother was well brought up, refined, and would not have encouraged a notorious evil-liver",
+      "John Hammerton's father was a lawyer with a lucrative practice in 1834, received a testimonial from client Mr. Waring for services in a case, but after his wife's death in September 1834, his practice suffered and he sought relief from depression in society of lively companions",
+      "John Hammerton has no relations near him, no family ties, no domestic comforts, has lost inclination for keeping company of young men, and is looking for a steady sober married life",
+      "The narrator's father employed a tailor to make a suit for the narrator, but the father forbade wearing it, and the narrator still regrets the absurd costume.",
+      "John Hammerton's father had no literary or artistic interests, rarely read books, only the Times newspaper, and owned a small collection of non-literary works such as a biography of William IV, sketches of Reform Ministers, Baines's History of Lancashire, and a Geographical Dictionary.",
+      "John Hammerton's mother was lively, amiable, physically active, a good horsewoman, rode with her husband, and once went shooting with him and cried over her victim",
+      "Grandfather lived in excellent health until age 77, then died suddenly at Hollins after his eldest daughter Mary asked him to open a window and say a prayer, and he died before she finished the prayer."
+    ],
+    "latency_ms": 630,
+    "timestamp": "2026-04-16T07:02:28.410356+00:00"
+  },
+  "46": {
+    "question_id": 46,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "John Hammerton is uncertain whether his mother was consumptive or only suffered from debility",
+      "John Hammerton's mother was lively, amiable, physically active, a good horsewoman, rode with her husband, and once went shooting with him and cried over her victim",
+      "John Hammerton's father was physically strong, believed he could drink deeply without harm, but years of brandy and tobacco consumption weakened his constitution and led to gradual health decline.",
+      "John Hammerton's mother died at age 24, left all her property to him, and her early death caused melancholy over his childhood and led to his father's loss of interest in his profession",
+      "The grandfather had an estrangement with his brother James Hamerton, the squire of Hellifield Peel, due to a land disagreement, which prevented family visits.",
+      "John Hammerton has only one or two formal compositions written by his mother at school",
+      "John Hammerton wrote a formal letter to his grandmother on June 1st 1833 from Shaw, addressed to a Dear Madam, expressing hope for a favorable answer and will wait upon her on Monday, promising a steady, sober married life, noting his custom to write the family name with a double 'm', and indicating his intention to reform his way of life",
+      "John Hammerton's mother was well brought up, refined, and would not have encouraged a notorious evil-liver",
+      "John Hammerton remembers a charade where people said his mother's likeness was striking",
+      "After his wife's death, John Hammerton's father lived alone with servants, had little interest in his profession, and had no desire to accumulate wealth."
+    ],
+    "latency_ms": 545,
+    "timestamp": "2026-04-16T07:02:28.957689+00:00"
+  },
+  "47": {
+    "question_id": 47,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "John Hammerton's mother died at age 24, left all her property to him, and her early death caused melancholy over his childhood and led to his father's loss of interest in his profession",
+      "After his wife's death, John Hammerton's father lived alone with servants, had little interest in his profession, and had no desire to accumulate wealth.",
+      "John Hammerton's mother was well brought up, refined, and would not have encouraged a notorious evil-liver",
+      "John Hammerton wrote a formal letter to his grandmother on June 1st 1833 from Shaw, addressed to a Dear Madam, expressing hope for a favorable answer and will wait upon her on Monday, promising a steady, sober married life, noting his custom to write the family name with a double 'm', and indicating his intention to reform his way of life",
+      "The grandfather had an estrangement with his brother James Hamerton, the squire of Hellifield Peel, due to a land disagreement, which prevented family visits.",
+      "John Hammerton is uncertain whether his mother was consumptive or only suffered from debility",
+      "The narrator's grandfather, Gilbert Hamerton, a second son of an ancient Yorkshire family, lived in a large old house near Towneley Park, owned property in the town and elsewhere, and married Jane Smith, a farmer's daughter, in an imprudent but socially acceptable union.",
+      "John Hammerton's father had no literary or artistic interests, rarely read books, only the Times newspaper, and owned a small collection of non-literary works such as a biography of William IV, sketches of Reform Ministers, Baines's History of Lancashire, and a Geographical Dictionary.",
+      "John Hammerton's father was popular, bore himself with dignity, and was seen as owning the town when walking through the main street at Shaw",
+      "John Hammerton has only one or two formal compositions written by his mother at school"
+    ],
+    "latency_ms": 538,
+    "timestamp": "2026-04-16T07:02:29.498987+00:00"
+  },
+  "48": {
+    "question_id": 48,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The grandfather had an estrangement with his brother James Hamerton, the squire of Hellifield Peel, due to a land disagreement, which prevented family visits.",
+      "The narrator's grandfather, Gilbert Hamerton, a second son of an ancient Yorkshire family, lived in a large old house near Towneley Park, owned property in the town and elsewhere, and married Jane Smith, a farmer's daughter, in an imprudent but socially acceptable union.",
+      "John Hammerton wrote a formal letter to his grandmother on June 1st 1833 from Shaw, addressed to a Dear Madam, expressing hope for a favorable answer and will wait upon her on Monday, promising a steady, sober married life, noting his custom to write the family name with a double 'm', and indicating his intention to reform his way of life",
+      "John Hammerton's mother was well brought up, refined, and would not have encouraged a notorious evil-liver",
+      "After his wife's death, John Hammerton's father lived alone with servants, had little interest in his profession, and had no desire to accumulate wealth.",
+      "John Hammerton's father was a lawyer with a lucrative practice in 1834, received a testimonial from client Mr. Waring for services in a case, but after his wife's death in September 1834, his practice suffered and he sought relief from depression in society of lively companions",
+      "John Hammerton's mother died at age 24, left all her property to him, and her early death caused melancholy over his childhood and led to his father's loss of interest in his profession",
+      "Grandfather lived in excellent health until age 77, then died suddenly at Hollins after his eldest daughter Mary asked him to open a window and say a prayer, and he died before she finished the prayer.",
+      "Grandfather had a great liking for French, wrote an original French grammar printed in synoptic sheets at his private expense, never completed or published, never visited France, and conversed in French mainly with a Roman Catholic chaplain at Towneley Hall.",
+      "John Hammerton has no relations near him, no family ties, no domestic comforts, has lost inclination for keeping company of young men, and is looking for a steady sober married life"
+    ],
+    "latency_ms": 611,
+    "timestamp": "2026-04-16T07:02:30.115131+00:00"
+  },
+  "49": {
+    "question_id": 49,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "After his wife's death, John Hammerton's father lived alone with servants, had little interest in his profession, and had no desire to accumulate wealth.",
+      "John Hammerton's father was a lawyer with a lucrative practice in 1834, received a testimonial from client Mr. Waring for services in a case, but after his wife's death in September 1834, his practice suffered and he sought relief from depression in society of lively companions",
+      "John Hammerton's mother died at age 24, left all her property to him, and her early death caused melancholy over his childhood and led to his father's loss of interest in his profession",
+      "John Hammerton's mother was well brought up, refined, and would not have encouraged a notorious evil-liver",
+      "The grandfather had an estrangement with his brother James Hamerton, the squire of Hellifield Peel, due to a land disagreement, which prevented family visits.",
+      "John Hammerton wrote a formal letter to his grandmother on June 1st 1833 from Shaw, addressed to a Dear Madam, expressing hope for a favorable answer and will wait upon her on Monday, promising a steady, sober married life, noting his custom to write the family name with a double 'm', and indicating his intention to reform his way of life",
+      "John Hammerton's father was physically strong, believed he could drink deeply without harm, but years of brandy and tobacco consumption weakened his constitution and led to gradual health decline.",
+      "John Hammerton has no portrait of his mother",
+      "Upon Grandfather's death, his entire property passed to his eldest son; Grandfather had trained his three sons to be solicitors, but they had no affinity for law, and the narrator's father wished the narrator never to become a lawyer.",
+      "John Hammerton is uncertain whether his mother was consumptive or only suffered from debility"
+    ],
+    "latency_ms": 651,
+    "timestamp": "2026-04-16T07:02:30.768462+00:00"
+  },
+  "51": {
+    "question_id": 51,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "John Hammerton's mother died at age 24, left all her property to him, and her early death caused melancholy over his childhood and led to his father's loss of interest in his profession",
+      "John Hammerton has no relations near him, no family ties, no domestic comforts, has lost inclination for keeping company of young men, and is looking for a steady sober married life",
+      "John Hammerton wrote a formal letter to his grandmother on June 1st 1833 from Shaw, addressed to a Dear Madam, expressing hope for a favorable answer and will wait upon her on Monday, promising a steady, sober married life, noting his custom to write the family name with a double 'm', and indicating his intention to reform his way of life",
+      "John Hammerton's mother was lively, amiable, physically active, a good horsewoman, rode with her husband, and once went shooting with him and cried over her victim",
+      "John Hammerton has only one or two formal compositions written by his mother at school",
+      "John Hammerton's mother was well brought up, refined, and would not have encouraged a notorious evil-liver",
+      "John Hammerton is uncertain whether his mother was consumptive or only suffered from debility",
+      "John Hammerton's wife died at 11:20 pm on the night of her death, when John was 29, and the doctors agreed she died of mere weakness without any absolute disease",
+      "John Hammerton's father was a lawyer with a lucrative practice in 1834, received a testimonial from client Mr. Waring for services in a case, but after his wife's death in September 1834, his practice suffered and he sought relief from depression in society of lively companions",
+      "The narrator's grandfather, Gilbert Hamerton, a second son of an ancient Yorkshire family, lived in a large old house near Towneley Park, owned property in the town and elsewhere, and married Jane Smith, a farmer's daughter, in an imprudent but socially acceptable union."
+    ],
+    "latency_ms": 630,
+    "timestamp": "2026-04-16T07:02:31.402914+00:00"
+  },
+  "52": {
+    "question_id": 52,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "John Hammerton's father was a lawyer with a lucrative practice in 1834, received a testimonial from client Mr. Waring for services in a case, but after his wife's death in September 1834, his practice suffered and he sought relief from depression in society of lively companions",
+      "John Hammerton wrote a formal letter to his grandmother on June 1st 1833 from Shaw, addressed to a Dear Madam, expressing hope for a favorable answer and will wait upon her on Monday, promising a steady, sober married life, noting his custom to write the family name with a double 'm', and indicating his intention to reform his way of life",
+      "John Hammerton's mother was well brought up, refined, and would not have encouraged a notorious evil-liver",
+      "John Hammerton's father was physically strong, believed he could drink deeply without harm, but years of brandy and tobacco consumption weakened his constitution and led to gradual health decline.",
+      "The grandfather had an estrangement with his brother James Hamerton, the squire of Hellifield Peel, due to a land disagreement, which prevented family visits.",
+      "The narrator's grandfather, Gilbert Hamerton, a second son of an ancient Yorkshire family, lived in a large old house near Towneley Park, owned property in the town and elsewhere, and married Jane Smith, a farmer's daughter, in an imprudent but socially acceptable union.",
+      "John Hammerton's father had no literary or artistic interests, rarely read books, only the Times newspaper, and owned a small collection of non-literary works such as a biography of William IV, sketches of Reform Ministers, Baines's History of Lancashire, and a Geographical Dictionary.",
+      "John Hammerton is uncertain whether his mother was consumptive or only suffered from debility",
+      "Anne Cocker, the narrator's mother, was a sweet and amiable woman descended from the De Cromptons of Crompton Hall, had a little property, valued money, and after Philip Cocker's premature death favored wealthy suitors.",
+      "In 1876, John Hammerton found a lock of his mother's hair in a legal document, which he now possesses"
+    ],
+    "latency_ms": 783,
+    "timestamp": "2026-04-16T07:02:32.187549+00:00"
+  },
+  "53": {
+    "question_id": 53,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "John Hammerton's father had no literary or artistic interests, rarely read books, only the Times newspaper, and owned a small collection of non-literary works such as a biography of William IV, sketches of Reform Ministers, Baines's History of Lancashire, and a Geographical Dictionary.",
+      "John Hammerton has only one or two formal compositions written by his mother at school",
+      "John Hammerton has no relations near him, no family ties, no domestic comforts, has lost inclination for keeping company of young men, and is looking for a steady sober married life",
+      "John Hammerton is uncertain whether his mother was consumptive or only suffered from debility",
+      "John Hammerton's mother was well brought up, refined, and would not have encouraged a notorious evil-liver",
+      "John Hammerton wrote a formal letter to his grandmother on June 1st 1833 from Shaw, addressed to a Dear Madam, expressing hope for a favorable answer and will wait upon her on Monday, promising a steady, sober married life, noting his custom to write the family name with a double 'm', and indicating his intention to reform his way of life",
+      "John Hammerton's father was a lawyer with a lucrative practice in 1834, received a testimonial from client Mr. Waring for services in a case, but after his wife's death in September 1834, his practice suffered and he sought relief from depression in society of lively companions",
+      "John Hammerton's father was popular, bore himself with dignity, and was seen as owning the town when walking through the main street at Shaw",
+      "John Hammerton's mother had blue eyes, a very fair complexion, and rich auburn hair",
+      "In 1876, John Hammerton found a lock of his mother's hair in a legal document, which he now possesses"
+    ],
+    "latency_ms": 632,
+    "timestamp": "2026-04-16T07:02:32.821992+00:00"
+  },
+  "54": {
+    "question_id": 54,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The narrator's grandfather, Gilbert Hamerton, a second son of an ancient Yorkshire family, lived in a large old house near Towneley Park, owned property in the town and elsewhere, and married Jane Smith, a farmer's daughter, in an imprudent but socially acceptable union.",
+      "The grandfather had an estrangement with his brother James Hamerton, the squire of Hellifield Peel, due to a land disagreement, which prevented family visits.",
+      "John Hammerton's mother was well brought up, refined, and would not have encouraged a notorious evil-liver",
+      "John Hammerton has no relations near him, no family ties, no domestic comforts, has lost inclination for keeping company of young men, and is looking for a steady sober married life",
+      "John Hammerton's father was a lawyer with a lucrative practice in 1834, received a testimonial from client Mr. Waring for services in a case, but after his wife's death in September 1834, his practice suffered and he sought relief from depression in society of lively companions",
+      "John Hammerton wrote a formal letter to his grandmother on June 1st 1833 from Shaw, addressed to a Dear Madam, expressing hope for a favorable answer and will wait upon her on Monday, promising a steady, sober married life, noting his custom to write the family name with a double 'm', and indicating his intention to reform his way of life",
+      "The narrator was born in 1834 at Laneside near Shaw, Lancashire, about two miles from Oldham and four miles from Rochdale, a small estate with a stone house and a cotton-mill owned by their maternal grandfather.",
+      "John Hammerton's mother died at age 24, left all her property to him, and her early death caused melancholy over his childhood and led to his father's loss of interest in his profession",
+      "John Hammerton's father was physically strong, believed he could drink deeply without harm, but years of brandy and tobacco consumption weakened his constitution and led to gradual health decline.",
+      "The narrator grew up in Burnley, a manufacturing town of about seventy thousand inhabitants, living with his aunts and mother during childhood."
+    ],
+    "latency_ms": 609,
+    "timestamp": "2026-04-16T07:02:33.431795+00:00"
+  },
+  "55": {
+    "question_id": 55,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "John Hammerton's mother was well brought up, refined, and would not have encouraged a notorious evil-liver",
+      "After his wife's death, John Hammerton's father lived alone with servants, had little interest in his profession, and had no desire to accumulate wealth.",
+      "John Hammerton's father was a lawyer with a lucrative practice in 1834, received a testimonial from client Mr. Waring for services in a case, but after his wife's death in September 1834, his practice suffered and he sought relief from depression in society of lively companions",
+      "John Hammerton's mother died at age 24, left all her property to him, and her early death caused melancholy over his childhood and led to his father's loss of interest in his profession",
+      "John Hammerton is uncertain whether his mother was consumptive or only suffered from debility",
+      "The grandfather had an estrangement with his brother James Hamerton, the squire of Hellifield Peel, due to a land disagreement, which prevented family visits.",
+      "John Hammerton wrote a formal letter to his grandmother on June 1st 1833 from Shaw, addressed to a Dear Madam, expressing hope for a favorable answer and will wait upon her on Monday, promising a steady, sober married life, noting his custom to write the family name with a double 'm', and indicating his intention to reform his way of life",
+      "John Hammerton's father was physically strong, believed he could drink deeply without harm, but years of brandy and tobacco consumption weakened his constitution and led to gradual health decline.",
+      "John Hammerton remembers a charade where people said his mother's likeness was striking",
+      "John Hammerton has no portrait of his mother"
+    ],
+    "latency_ms": 518,
+    "timestamp": "2026-04-16T07:02:33.950342+00:00"
+  },
+  "56": {
+    "question_id": 56,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "John Hammerton's father was physically strong, believed he could drink deeply without harm, but years of brandy and tobacco consumption weakened his constitution and led to gradual health decline.",
+      "John Hammerton's mother died at age 24, left all her property to him, and her early death caused melancholy over his childhood and led to his father's loss of interest in his profession",
+      "John Hammerton's mother was well brought up, refined, and would not have encouraged a notorious evil-liver",
+      "John Hammerton's father was a lawyer with a lucrative practice in 1834, received a testimonial from client Mr. Waring for services in a case, but after his wife's death in September 1834, his practice suffered and he sought relief from depression in society of lively companions",
+      "John Hammerton is uncertain whether his mother was consumptive or only suffered from debility",
+      "John Hammerton wrote a formal letter to his grandmother on June 1st 1833 from Shaw, addressed to a Dear Madam, expressing hope for a favorable answer and will wait upon her on Monday, promising a steady, sober married life, noting his custom to write the family name with a double 'm', and indicating his intention to reform his way of life",
+      "In 1876, John Hammerton found a lock of his mother's hair in a legal document, which he now possesses",
+      "After his wife's death, John Hammerton's father lived alone with servants, had little interest in his profession, and had no desire to accumulate wealth.",
+      "John Hammerton remembers a charade where people said his mother's likeness was striking",
+      "John Hammerton has no portrait of his mother"
+    ],
+    "latency_ms": 551,
+    "timestamp": "2026-04-16T07:02:34.502586+00:00"
+  },
+  "57": {
+    "question_id": 57,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "John Hammerton is uncertain whether his mother was consumptive or only suffered from debility",
+      "John Hammerton's mother was well brought up, refined, and would not have encouraged a notorious evil-liver",
+      "John Hammerton has only one or two formal compositions written by his mother at school",
+      "John Hammerton's father had no literary or artistic interests, rarely read books, only the Times newspaper, and owned a small collection of non-literary works such as a biography of William IV, sketches of Reform Ministers, Baines's History of Lancashire, and a Geographical Dictionary.",
+      "John Hammerton's mother died at age 24, left all her property to him, and her early death caused melancholy over his childhood and led to his father's loss of interest in his profession",
+      "John Hammerton wrote a formal letter to his grandmother on June 1st 1833 from Shaw, addressed to a Dear Madam, expressing hope for a favorable answer and will wait upon her on Monday, promising a steady, sober married life, noting his custom to write the family name with a double 'm', and indicating his intention to reform his way of life",
+      "The grandfather had an estrangement with his brother James Hamerton, the squire of Hellifield Peel, due to a land disagreement, which prevented family visits.",
+      "The narrator has a rule to say nothing that can hurt the living and to treat the dead with tenderness compatible with a truthful account.",
+      "John Hammerton's father was physically strong, believed he could drink deeply without harm, but years of brandy and tobacco consumption weakened his constitution and led to gradual health decline.",
+      "John Hammerton's father was a lawyer with a lucrative practice in 1834, received a testimonial from client Mr. Waring for services in a case, but after his wife's death in September 1834, his practice suffered and he sought relief from depression in society of lively companions"
+    ],
+    "latency_ms": 578,
+    "timestamp": "2026-04-16T07:02:35.081509+00:00"
+  },
+  "58": {
+    "question_id": 58,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The narrator's grandfather, Gilbert Hamerton, a second son of an ancient Yorkshire family, lived in a large old house near Towneley Park, owned property in the town and elsewhere, and married Jane Smith, a farmer's daughter, in an imprudent but socially acceptable union.",
+      "The grandfather had an estrangement with his brother James Hamerton, the squire of Hellifield Peel, due to a land disagreement, which prevented family visits.",
+      "John Hammerton's father was physically strong, believed he could drink deeply without harm, but years of brandy and tobacco consumption weakened his constitution and led to gradual health decline.",
+      "Grandfather had a great liking for French, wrote an original French grammar printed in synoptic sheets at his private expense, never completed or published, never visited France, and conversed in French mainly with a Roman Catholic chaplain at Towneley Hall.",
+      "John Hammerton wrote a formal letter to his grandmother on June 1st 1833 from Shaw, addressed to a Dear Madam, expressing hope for a favorable answer and will wait upon her on Monday, promising a steady, sober married life, noting his custom to write the family name with a double 'm', and indicating his intention to reform his way of life",
+      "John Hammerton's father was a lawyer with a lucrative practice in 1834, received a testimonial from client Mr. Waring for services in a case, but after his wife's death in September 1834, his practice suffered and he sought relief from depression in society of lively companions",
+      "John Hammerton's mother was well brought up, refined, and would not have encouraged a notorious evil-liver",
+      "John Hammerton has only one or two formal compositions written by his mother at school",
+      "A child about five years old, 40 miles away, saw an empty chair and described a man who matched Grandfather's appearance, coinciding with Grandfather's sudden death, an incident noted by the narrator.",
+      "User's father, Philip Cocker, was a young attorney who married Anne Cocker after a public charity ball where she declined to dance with other gentlemen until he presented himself; he had a reputation for dissolute habits, was a good horseman and excellent shot, had no money except his professional earnings, and had fifteen quarterings."
+    ],
+    "latency_ms": 584,
+    "timestamp": "2026-04-16T07:02:35.670857+00:00"
+  },
+  "59": {
+    "question_id": 59,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "After his wife's death, John Hammerton's father lived alone with servants, had little interest in his profession, and had no desire to accumulate wealth.",
+      "The narrator's grandfather, Gilbert Hamerton, a second son of an ancient Yorkshire family, lived in a large old house near Towneley Park, owned property in the town and elsewhere, and married Jane Smith, a farmer's daughter, in an imprudent but socially acceptable union.",
+      "John Hammerton's father was physically strong, believed he could drink deeply without harm, but years of brandy and tobacco consumption weakened his constitution and led to gradual health decline.",
+      "The grandfather had an estrangement with his brother James Hamerton, the squire of Hellifield Peel, due to a land disagreement, which prevented family visits.",
+      "John Hammerton remembers a charade where people said his mother's likeness was striking",
+      "John Hammerton is uncertain whether his mother was consumptive or only suffered from debility",
+      "John Hammerton's mother was well brought up, refined, and would not have encouraged a notorious evil-liver",
+      "John Hammerton wrote a formal letter to his grandmother on June 1st 1833 from Shaw, addressed to a Dear Madam, expressing hope for a favorable answer and will wait upon her on Monday, promising a steady, sober married life, noting his custom to write the family name with a double 'm', and indicating his intention to reform his way of life",
+      "John Hammerton's father had no literary or artistic interests, rarely read books, only the Times newspaper, and owned a small collection of non-literary works such as a biography of William IV, sketches of Reform Ministers, Baines's History of Lancashire, and a Geographical Dictionary.",
+      "John Hammerton has only one or two formal compositions written by his mother at school"
+    ],
+    "latency_ms": 598,
+    "timestamp": "2026-04-16T07:02:36.272557+00:00"
+  },
+  "60": {
+    "question_id": 60,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "John Hammerton wrote a formal letter to his grandmother on June 1st 1833 from Shaw, addressed to a Dear Madam, expressing hope for a favorable answer and will wait upon her on Monday, promising a steady, sober married life, noting his custom to write the family name with a double 'm', and indicating his intention to reform his way of life",
+      "John Hammerton has no relations near him, no family ties, no domestic comforts, has lost inclination for keeping company of young men, and is looking for a steady sober married life",
+      "John Hammerton is uncertain whether his mother was consumptive or only suffered from debility",
+      "John Hammerton's mother died at age 24, left all her property to him, and her early death caused melancholy over his childhood and led to his father's loss of interest in his profession",
+      "John Hammerton's father had no literary or artistic interests, rarely read books, only the Times newspaper, and owned a small collection of non-literary works such as a biography of William IV, sketches of Reform Ministers, Baines's History of Lancashire, and a Geographical Dictionary.",
+      "Grandfather had a great liking for French, wrote an original French grammar printed in synoptic sheets at his private expense, never completed or published, never visited France, and conversed in French mainly with a Roman Catholic chaplain at Towneley Hall.",
+      "John Hammerton's father was a lawyer with a lucrative practice in 1834, received a testimonial from client Mr. Waring for services in a case, but after his wife's death in September 1834, his practice suffered and he sought relief from depression in society of lively companions",
+      "The narrator's grandfather, Gilbert Hamerton, a second son of an ancient Yorkshire family, lived in a large old house near Towneley Park, owned property in the town and elsewhere, and married Jane Smith, a farmer's daughter, in an imprudent but socially acceptable union.",
+      "After his wife's death, John Hammerton's father lived alone with servants, had little interest in his profession, and had no desire to accumulate wealth.",
+      "John Hammerton has only one or two formal compositions written by his mother at school"
+    ],
+    "latency_ms": 558,
+    "timestamp": "2026-04-16T07:02:36.835478+00:00"
+  }
+}

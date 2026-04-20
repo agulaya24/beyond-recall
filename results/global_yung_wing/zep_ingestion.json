@@ -1,0 +1,16 @@
+{
+  "subject": "yung_wing",
+  "system": "zep",
+  "user_id": "yung_wing_run_20260415",
+  "facts_expected": 747,
+  "facts_posted": 747,
+  "post_success": 747,
+  "post_failure": 0,
+  "failed_fact_indices": [],
+  "start_time": "2026-04-15T21:54:54.192949+00:00",
+  "last_successful_index": 746,
+  "end_time": "2026-04-15T22:04:29.250572+00:00",
+  "verification_passed": true,
+  "verification_hits": 10,
+  "verification_total": 10
+}

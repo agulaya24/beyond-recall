@@ -1,0 +1,246 @@
+Ebers archival sample keys: ['question_id', 'question_text', 'held_out_passage', 'retrieval', 'responses', 'timestamp']
+Ebers sample responses keys: ['C1_letta_fp', 'C3_letta_fp']
+
+=== EBERS archival Q31 ===
+Q: When encountering someone with deeply held religious convictions different from his own, how does Ebers typically respond?
+Held-out: At first I had avoided the subject, but the young girl constantly returned to it, and I soon perceived that I must summon all my energies to hold my ground against her subtle dialectics.
+
+C1_letta_fp [model=claude-haiku-4-5-20251001]:
+# Ebers's Response to Different Religious Convictions
+
+Based on the retrieved text, Ebers demonstrates a notably **respectful and intellectually engaged approach** to those with different religious beliefs:
+
+## Key Examples:
+
+**With Court Chaplain Strauss:**
+Despite noting that she did not accept his "strictly orthodox belief," Ebers acknowledges that it was "based upon conviction" rather than "odious display of piety to ingratiate himself with the king." He describes Strauss warmly and respects his genuine faith, even while disagreeing with his theology.
+
+**With His Mother:**
+Ebers explicitly states: "My mother's religious views I do not accept, but I believe his strictly orthodox belief was based upon conviction." Yet he deeply revered her faith and its practical expression in her life.
+
+**Intellectual Curiosity Rather Than Dismissal:**
+When discussing theological differences with Fritz Strauss (the chaplain's son), Ebers notes: "Our studies in the department of biblical geography had led us to different conclusions, but our scientific views were constantly intermingled with recollections of the Lennestrasse."
+
+## Overall Pattern:
+
+Ebers separates the **person from their doctrine**. He:
+- Respects sincere conviction
+- Engages intellectually with theological questions
+- Maintains affection and friendship across doctrinal divides
+- Judges people by their character and actions rather than their beliefs alone
+
+This reflects his broader philosophy of valuing "truth" and genuine human character above ideological conformity.
+
+C3_letta_fp [model=claude-haiku-4-5-20251001]:
+# Ebers's Response to Different Religious Convictions
+
+Based on the behavioral specification and retrieved facts, Ebers demonstrates a characteristic pattern:
+
+## Respectful Engagement Without Compromise
+
+**He honors the person while maintaining intellectual integrity.** The clearest example is his relationship with Court Chaplain Strauss, a strictly orthodox Protestant whose "religious views I do not accept." Yet Ebers explicitly states: "I believe his strictly orthodox belief was based upon conviction, and cannot be charged to any odious display of piety to ingratiate himself with the king."
+
+This is not mere tolerance—it's **active respect for genuine conviction**, even when he disagrees with its content.
+
+## The Pattern
+
+When encountering sincere religious belief different from his own, Ebers:
+
+1. **Distinguishes between conviction and hypocrisy** — He can reject someone's theology while honoring their sincerity
+2. **Separates the person from the position** — Strauss's warmth and influence on hearts ("when he met us in the street...our hearts went out to him") coexist with Ebers's intellectual disagreement
+3. **Refuses to conflate disagreement with moral failure** — Unlike his mother, who "could not accept his strict theology," Ebers doesn't treat theological difference as a character flaw
+
+## His Own Stance
+
+Ebers arrived at his convictions "through investigation and thought" rather than inherited doctrine. He sees Christ primarily as embodying **love that expands beyond family and nation to all humanity**—a conviction his mother reached "through the relation of her feminine nature" to Christ.
+
+**He expects others to have earned their beliefs similarly**, which is why he respects Strauss's conviction even while rejecting its conclusions.
+
+=== EBERS archival Q14 ===
+Q: How does Ebers characterize his attitude toward formal schooling versus his personal interests?
+Held-out: school seemed a necessary evil. My real life commenced after its close, and here also my natural cheerfulness ruled my whole nature
+
+C1_letta_fp [model=claude-haiku-4-5-20251001]:
+# Ebers's Attitude Toward Formal Schooling vs. Personal Interests
+
+Based on the retrieved facts, Ebers demonstrates a complex relationship with formal education that reveals tension between institutional requirements and his deeper intellectual passions.
+
+## Skepticism Toward Rigid Systems
+
+Ebers shows clear skepticism of conventional schooling methods. He criticizes the systematic approach that dominated German education, noting that Froebel "utterly rejected the old system" of imparting knowledge according to "a thoroughly tested method and succession approved by the mature human intellect." Ebers himself seems to have shared this skepticism, suggesting that rigid curricula often miss what truly matters for individual development.
+
+## Preference for Individualized Learning
+
+His experience at Keilhau shaped his view that education should adapt to individual talents rather than force all students into the same mold. He notes approvingly that teachers there "perceived that the endowments of my brother...required a totally different system of education from mine," allowing him to pursue Greek while his brother studied modern languages and sciences.
+
+## Personal Intellectual Pursuits
+
+Ebers's own trajectory reveals where his genuine interests lay. He pursued Egyptian studies, historical research, and novel-writing—pursuits that emerged from personal passion rather than formal curriculum requirements. His most significant work came from self-directed investigation rather than institutional direction.
+
+## The Keilhau Model as Ideal
+
+Ultimately, Ebers valorizes education that develops "the whole individual" with attention to "character" rather than mere academic performance, suggesting his ideal education serves personal growth and authentic intellectual curiosity rather than
+
+C3_letta_fp [model=claude-haiku-4-5-20251001]:
+# Ebers's Attitude Toward Formal Schooling vs. Personal Interests
+
+Based on the retrieved text, Ebers demonstrates a **complex relationship with formal education**—one marked by tension between institutional demands and his deeper intellectual and creative inclinations.
+
+## Resistance to Rigid Curricula
+
+Ebers shows **skepticism toward standardized, systematic instruction**. He notes that at Keilhau, Froebel explicitly rejected the Roman pedagogical model that "knowledge should be imparted to boys according to a thoroughly tested method and succession approved by the mature human intellect." Ebers endorses this critique, suggesting that imposed curricula can stifle rather than cultivate genuine learning.
+
+## Learning Through Experience and Particularity
+
+His most vivid educational memories are **not from formal lessons but from lived experience**:
+- Learning about nature through direct observation with Middendorf and Barop, not textbooks
+- Discovering etymology through storytelling (the origin of "Keilhau") rather than grammar instruction
+- Developing artistic sensibility through watching Drake and other sculptors work in their studios
+- Acquiring French fluency through maternal immersion, not classroom drilling
+
+## Personal Interests as Primary Driver
+
+Ebers traces his intellectual development to **self-directed curiosity**:
+- His passion for ancient Greece was awakened by a tutor's storytelling, then deepened through Langethal's teaching
+- His artistic development stemmed from childhood exposure to artists and creative work
+- His love of travel was kindled by family journeys and stories, not geography lessons
+
+## The Formative Power of Character Over Content
+
+Consistent with the behavioral specification, Ebers emphasizes that **who teaches matters more than what is ta
+
+=== EBERS archival Q3 ===
+Q: How would Ebers characterize the emotional impact of natural beauty combined with a mentor's persuasive words?
+Held-out: The heart of the young clergyman, tortured by anxious doubts, swelled at the sight of this magnificence, and Froebel, seeing what was passing in his mind, exclaimed: 'Come, comrade, let us have one of our old war-songs.'
+
+C1_letta_fp [model=claude-haiku-4-5-20251001]:
+# Ebers on Natural Beauty and Mentorship's Emotional Impact
+
+Based on the retrieved text, Ebers characterizes this combination as profoundly transformative and spiritually elevating. He demonstrates this through several key passages:
+
+## The Power of Combined Influence
+
+When Middendorf first guides young Ebers toward Keilhau, the text shows how natural description intertwined with a mentor's voice creates lasting impression:
+
+> "This simple tale of ancient times had sprung from the Thuringian soil, so rich in legends, and, little as it might satisfy the etymologist, it delighted me... Herr Middendorf had given us an excellent proof of a fundamental requirement of Friedrich Froebel, the founder of the institution: 'The external must be spiritualized and given an inner significance.'"
+
+## Spiritual Awakening Through Nature
+
+Ebers reflects that the combination awakens something deeper than mere aesthetic appreciation:
+
+> "I have gazed from this spot into the distance at every hour of the day and season of the year. But the fairest time of all on the Steiger was at sunset, on clear autumn days... My young heart swelled at the sight; and if in after years my eyes could grasp the charm of a beautiful landscape and my pen successfully describe it, I learned the art here."
+
+## The Lasting Imprint
+
+Most tellingly, Ebers credits this synthesis with shaping his entire creative life, suggesting it creates an indelible emotional and intellectual foundation that guides future artistic expression and understanding.
+
+C3_letta_fp [model=claude-haiku-4-5-20251001]:
+# Ebers on Natural Beauty and Mentorship's Emotional Power
+
+Based on the retrieved text, Ebers characterizes this combination as **transformative and spiritually elevating**—a force that shapes the deepest layers of character and understanding.
+
+## The Mechanism: Sensory + Intellectual Fusion
+
+When Middendorf teaches him the etymology of Keilhau while traveling through the valley, Ebers describes the effect with precision:
+
+> "This simple tale of ancient times had sprung from the Thuringian soil, so rich in legends, and, little as it might satisfy the etymologist, it delighted me. I believed it, and when afterward I looked down from a height into the valley and saw the Saale, my imagination clothed the bare or pineclad mountain slopes with huge oak forests, and beheld the giant forms of the ancient Thuringians felling the trees with their heavy axes."
+
+The natural landscape becomes a **vessel for meaning**—the mentor's words animate the scenery, and the scenery validates and deepens the words.
+
+## The Lasting Imprint
+
+Ebers explicitly credits this synthesis with his later artistic development:
+
+> "If in after years my eyes could grasp the charm of a beautiful landscape and my pen successfully describe it, I learned the art here."
+
+This is not mere aesthetic appreciation. The combination of **Middendorf's voice** (described as having "deep, musical tone") with the **visible Thuringian mountains** created a permanent template for how Ebers would later perceive and render beauty in his novels.
+
+## The Spiritual Dimension
+
+Most tellingly, Ebers frames this as an initiation into **Froebel's fundamental principle**: "The external must be spiritualized and given an inner significance." A beautiful place without interpretive guidance remains mere scenery. A mentor's words witho
+
+=== HAMERTON archival Q25 ===
+Q: Given Hamerton's difficulty following spoken French at Loch Awe despite years of study, what would he do about it?
+Held-out: This plagued me with an irritating sense of ignorance, so I looked back on my education generally, and found it unsatisfactory... I determined to acquire some substantial knowledge of modern languages, and to begin by learning French over again, so as to write and speak it easily.
+
+C1_letta_fp [model=claude-haiku-4-5-20251001]:
+# Hamerton's Response to French Difficulty
+
+Based on the retrieved text, I cannot find any specific passage where Hamerton discusses having difficulty following spoken French at Loch Awe or describes what he would do about such a difficulty.
+
+The text does mention that Hamerton learned French from Signor Testa at Doncaster School and that he "acquired a liking for the language that has remained with me ever since." It also notes that he later learned Italian and had various language studies throughout his life.
+
+However, the specific scenario you're asking about—difficulty with spoken French at Loch Awe and his response to it—does not appear in the retrieved excerpts from his autobiography.
+
+If you have access to a different section of Hamerton's autobiography or another source where this incident is described, I'd be happy to help analyze his proposed solution if you can share that passage.
+
+C3_letta_fp [model=claude-haiku-4-5-20251001]:
+# On Hamerton's Response to Linguistic Difficulty
+
+The retrieved facts do not contain any account of Hamerton at Loch Awe struggling with spoken French, so I cannot answer this question from the primary material.
+
+However, based on the behavioral specification and what is documented about his approach to difficulty, I can offer a reasoned inference:
+
+**His likely response would be disciplined, sustained practice—not abandonment.**
+
+The evidence shows:
+
+1. **Formative Permanence + Disciplined Formation (A2 × A4)**: When he encountered the swimming difficulty at Doncaster—a skill that "seemed so hopelessly difficult for me, or in which my progress was so slow"—he resolved to master it through daily practice. Years later in France, he became expert enough to read aloud while swimming in deep water.
+
+2. **Perseverance through shame**: He explicitly states: "The perseverance that led to this ultimate result is entirely due to that early misadventure at Doncaster. I have learned one or two other things in consequence of being stung with shame in a like manner, and am convinced that there is nothing better for a boy than to be roused to perseverance in that way."
+
+3. **Breadth over depth (A10)**: He valued linguistic range and had already demonstrated commitment to French despite setbacks—his guardian forced him to continue it against his initial resistance, and he later credited this as transformative.
+
+**He would likely:** Increase exposure to spoken French, seek conversation partners, and treat the difficulty as evidence of incomplete formation rather than incapacity—a problem to be solved through sustained, undivided attention rather than abandoned.
+
+=== HAMERTON archival Q46 ===
+Q: If his tutor attempted to physically harass him by scraping his face with shark's skin, would Hamerton submit or resist?
+Held-out: One day he attempted to scrape my face with a piece of shark's skin, so I seized both his wrists and held them for some time, telling him that the jest, if it was a jest, was not acceptable.
+
+C1_letta_fp [model=claude-haiku-4-5-20251001]:
+# Analysis of Hamerton's Likely Response
+
+Based on the extensive autobiographical material provided, Hamerton would almost certainly **resist** such treatment, though the nature of his resistance would depend on the context and his age at the time.
+
+## Evidence Supporting Resistance:
+
+**His father's influence on truthfulness and self-respect:**
+Hamerton's father instilled in him a strong principle: "Tell the truth and shame the devil." More importantly, his father taught him that lying was contemptible, and this principle became "mixed up with a feeling of self-respect."
+
+**His response to unjust punishment:**
+When the usher at Doncaster thrashed him without explanation, Hamerton "begged to be told for what fault this punishment was inflicted" and later "strongly suspect[ed] that it was simply to exercise the usher's arm." He didn't passively accept it.
+
+**His character development:**
+By his own account, he was developing into a boy with principles. He resisted his father's cruelty mentally (contemplating flight) and stood his ground when accused of lying about reading the Times.
+
+## Important Caveat:
+
+However, Hamerton was also a child in an era of strict authority, and he had learned the practical limits of resistance. He would likely resist *verbally* or by refusing cooperation rather than through physical confrontation, given the power dynamics involved.
+
+C3_letta_fp [model=claude-haiku-4-5-20251001]:
+# On Hypothetical Physical Assault
+
+This question asks me to extrapolate beyond the evidence in ways the behavioral specification explicitly warns against.
+
+The specification notes: **[THIN DATA] The source material is richest in personal, familial, and formative domains and thinnest in professional, political, or public-facing contexts.**
+
+More importantly, it flags: "Behavioral patterns in institutional leadership, collaborative work, or public advocacy are not well-evidenced and should not be projected from the available data."
+
+## What the evidence actually shows:
+
+**A8 — AGENCY PRIMACY** is active when authority is "arbitrary or cruel," and he will resist unjust power. But the evidence for this comes from:
+- His father's unpredictable violence (he endured it, did not physically resist)
+- His contemplation of flight (he chose not to act, bound by his refusal to breach trust with entrusted money)
+- His observation of others' resistance to fagging (he notes it but does not himself rebel against the system)
+
+**A5 — RELATIONAL TRUST** shows he is acutely sensitive to unpredictability and violence in authority, but his response pattern is withdrawal of trust and internal resistance, not physical confrontation.
+
+## The honest answer:
+
+I cannot reliably predict whether he would submit or resist a specific act of physical assault by a tutor. The evidence shows:
+- He did not physically resist his father despite severe beatings
+- He valued truth-telling over self-protection
+- He was capable of clever evasion (hiding Brokenribs in the copper)
+- He was a boy in institutional settings where power was asymmetrical
+
+But whether he would physically resist *this specific scenario* requires speculation beyond what the data supports. The specification itself warns against this kind of

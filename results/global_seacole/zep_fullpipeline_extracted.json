@@ -1,0 +1,7 @@
+{
+  "subject": "seacole",
+  "system": "zep",
+  "mode": "fullpipeline",
+  "memories": [],
+  "error": "headers: {'date': 'Thu, 16 Apr 2026 07:01:13 GMT', 'content-type': 'application/json; charset=utf-8', 'content-length': '60', 'connection': 'keep-alive', 'vary': 'Origin', 'x-content-type-options': 'nosniff', 'x-ratelimit-increment': '1', 'x-ratelimit-limit': '600', 'x-ratelimit-remaining': '595', 'x-ratelimit-reset': '1776322920', 'strict-transport-security': 'max-age=31536000; includeSubDomains', 'cf-cache-status': 'DYNAMIC', 'server': 'cloudflare', 'cf-ray': '9ed151471dd1b74c-LAX'}, status_code: 400, body: message='limit cannot contain more than 50 items (max)'"
+}

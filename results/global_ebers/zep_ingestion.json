@@ -1,0 +1,16 @@
+{
+  "subject": "ebers",
+  "system": "zep",
+  "user_id": "ebers_run_20260415",
+  "facts_expected": 1285,
+  "facts_posted": 1285,
+  "post_success": 1285,
+  "post_failure": 0,
+  "failed_fact_indices": [],
+  "start_time": "2026-04-15T22:56:50.856173+00:00",
+  "last_successful_index": 1284,
+  "end_time": "2026-04-15T23:13:13.691559+00:00",
+  "verification_passed": true,
+  "verification_hits": 10,
+  "verification_total": 10
+}

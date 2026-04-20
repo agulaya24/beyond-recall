@@ -1,0 +1,14 @@
+{
+  "subject": "equiano",
+  "system": "letta",
+  "mode": "fullpipeline",
+  "agent_id": "agent-ae28e2db-a6fe-40c7-9a52-4ea02c1c2439",
+  "agent_name": "equiano_fullpipeline",
+  "chunks_expected": 9,
+  "chunks_posted": 9,
+  "post_success": 9,
+  "post_failure": 0,
+  "start_time": "2026-04-16T06:51:39.210688+00:00",
+  "end_time": "2026-04-16T06:51:56.677138+00:00",
+  "verification_passed": true
+}

@@ -1,0 +1,17 @@
+{
+  "subject": "hamerton",
+  "system": "letta",
+  "agent_name": "hamerton_run_20260415",
+  "facts_expected": 462,
+  "facts_posted": 462,
+  "post_success": 462,
+  "post_failure": 0,
+  "failed_fact_indices": [],
+  "start_time": "2026-04-15T21:50:34.015473+00:00",
+  "agent_id": "agent-6e795225-44fb-4aa2-85d0-a7ae5d9cce7d",
+  "last_successful_index": 461,
+  "end_time": "2026-04-15T22:35:20.589203+00:00",
+  "verification_passed": true,
+  "verification_hits": 10,
+  "verification_total": 10
+}

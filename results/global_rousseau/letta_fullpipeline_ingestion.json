@@ -1,0 +1,14 @@
+{
+  "subject": "rousseau",
+  "system": "letta",
+  "mode": "fullpipeline",
+  "agent_id": "agent-f357d8e0-46b4-461a-8e82-a81c8b2920f7",
+  "agent_name": "rousseau_fullpipeline",
+  "chunks_expected": 29,
+  "chunks_posted": 29,
+  "post_success": 29,
+  "post_failure": 0,
+  "start_time": "2026-04-16T06:55:04.013585+00:00",
+  "end_time": "2026-04-16T06:56:16.324958+00:00",
+  "verification_passed": true
+}

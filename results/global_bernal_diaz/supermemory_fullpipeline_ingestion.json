@@ -1,0 +1,13 @@
+{
+  "subject": "bernal_diaz",
+  "system": "supermemory",
+  "mode": "fullpipeline",
+  "container_tag": "bernal_diaz_fullpipeline",
+  "chunks_expected": 33,
+  "chunks_posted": 33,
+  "post_success": 0,
+  "post_failure": 33,
+  "start_time": "2026-04-16T07:05:37.627674+00:00",
+  "end_time": "2026-04-16T07:08:03.163839+00:00",
+  "verification_passed": true
+}

@@ -1,0 +1,14 @@
+{
+  "subject": "cellini",
+  "system": "letta",
+  "mode": "fullpipeline",
+  "agent_id": "agent-03a5b256-beef-46ea-9c80-5d342f1ff4ba",
+  "agent_name": "cellini_fullpipeline",
+  "chunks_expected": 20,
+  "chunks_posted": 20,
+  "post_success": 20,
+  "post_failure": 0,
+  "start_time": "2026-04-16T06:53:28.244626+00:00",
+  "end_time": "2026-04-16T06:54:11.716533+00:00",
+  "verification_passed": true
+}

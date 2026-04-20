@@ -1,0 +1,17 @@
+{
+  "subject": "rousseau",
+  "system": "letta",
+  "agent_name": "rousseau_run_20260415",
+  "facts_expected": 4562,
+  "facts_posted": 4562,
+  "post_success": 4562,
+  "post_failure": 0,
+  "failed_fact_indices": [],
+  "start_time": "2026-04-15T21:52:03.680597+00:00",
+  "agent_id": "agent-b4a4f7d5-b6fb-4124-9070-65aafb67053e",
+  "last_successful_index": 4561,
+  "end_time": "2026-04-16T03:09:39.602318+00:00",
+  "verification_passed": true,
+  "verification_hits": 10,
+  "verification_total": 10
+}

@@ -1,11 +1,168 @@
 # Paper Corrections: Beyond Recall
 
 **Generated:** 2026-04-13
+**Updated:** 2026-04-18 (Session 113 — full-stack refresh + framing corrections)
 **Method:** Every quantitative claim in the paper verified against raw data files. Zero inference.
+
+**The current single source of truth for numbers is `docs/DATA_REFERENCE.md`. Any conflict between that file and this changelog or the paper is resolved in favor of DATA_REFERENCE.md.**
 
 ---
 
-## CORRECTIONS REQUIRED
+## S113 CORRECTIONS (2026-04-18)
+
+Full-stack refresh of all 14 subjects plus framing rewrite. The corrections below supersede specific earlier entries in this file; historical entries are retained for traceability.
+
+### S113-A. Hamerton C5 baseline drift: 1.41 (S105) → 1.25 (S113)
+
+- **Status:** Baseline moved under the refreshed full-stack run. `DATA_REFERENCE.md` §1 and §7 both report 1.25 as the current Hamerton C5 baseline.
+- **Relationship to earlier correction #1:** Correction #1 (below) locked in 1.41 as the S105 brief-only value. That lock is now **superseded by the S113 refresh**, not retracted. 1.41 was correct for the brief-only data; 1.25 is correct for the S113 full-stack data used by the current paper draft.
+- **Flag for Aarik:** Confirm which run the paper should present as primary. Current draft uses 1.25. Do NOT re-open correction #1 — instead, retain both values with the run that produced each.
+
+### S113-B. §4.1.1 Hamerton lift (spec − baseline): +0.55 → +0.67
+
+- **Previous:** +0.55 (computed against older spec-only score)
+- **Current:** +0.67 under S113 refresh. DATA_REFERENCE §8 shows C2a spec-only = 3.04, C5 baseline = 1.25. Lift ≠ 3.04 − 1.25 directly; the +0.67 is the cross-subject mean lift on Table 4.1 (see §1 aggregates: mean Δ facts+spec = +0.67 all-14).
+- **Action:** Paper text updated S113.
+
+### S113-C. §4.2 Table 4.2 Hamerton-condition scores
+
+| Condition | Old value (paper) | New value (DATA_REFERENCE §8) |
+|---|---:|---:|
+| C3 Mem0 + spec | 3.31 | **2.77** |
+| C3 Supermemory + spec | 3.14 | **2.86** |
+| C4a Facts + spec | 3.28 | **3.22** |
+| C2a Spec only | (carried over) | **3.04** |
+| C8 Raw corpus | 2.32 | 2.32 (unchanged) |
+| C9 Raw + spec | 3.22 | 3.22 (unchanged) |
+| C5 Baseline | 1.41 | 1.25 |
+
+### S113-D. §4.1.2 Judge parse-failure — corrected attribution
+
+- **Old paper text:** "Gemini Pro has ~40% parse failure rate."
+- **Source data:** DATA_REFERENCE §9 shows Gemini Pro parse failure ~0.5%; GPT-5.4 parse failure ~19%.
+- **Correction:** The high-parse-failure judge is **GPT-5.4 (~19%)**, not Gemini Pro. Gemini Pro's issue is coverage (only ran on Hamerton + Tier 2), not parse failure. Gemini Pro's score offset vs non-Gemini panel is +1.0 (see §4.1.2 sensitivity analysis).
+
+### S113-E. §4.5 Wrong-spec v2 (random derangement): 2.21 → 2.30
+
+- **Old value:** 2.21 (this was in fact the S105 brief-only wrong-spec Franklin-for-Hamerton number — mislabeled as v2)
+- **Correct values per DATA_REFERENCE §6:**
+  - C5 baseline = 2.02 (14-subject mean)
+  - C2a correct spec = 2.55 (14-subject mean)
+  - C2c v1 (Franklin-for-all) = 1.86 (−0.16 vs baseline, −0.69 vs correct)
+  - C2c v2 (random derangement, seed=42) = **2.30** (+0.28 vs baseline, −0.25 vs correct)
+- **Interpretation:** v1 is the cleaner null. v2 is noisier because random pairings sometimes land on loosely-similar specs. Both are far below correct-spec scores; content specificity matters.
+
+### S113-F. §4.3 "94% retrieval disagreement" — FLAGGED FOR VERIFICATION
+
+- **Paper claim:** "94% retrieval disagreement across embedding systems."
+- **Prior documented number (PAPER_CORRECTIONS #12):** 66% top-1 all-different (Mem0/Letta/Supermemory across 80 Hamerton questions).
+- **Gap:** The 94% figure does not match the 66% top-1 disagreement nor the 92.5% (1 − 7.5% all-agree) figure. It may come from a top-3 or top-5 overlap computation, or from an updated 14-subject analysis. **Cannot be verified from current `DATA_REFERENCE.md` or from any file in the repo during this audit.**
+- **Action for Aarik:** Either (a) source the 94% from a specific computation file and add to DATA_REFERENCE, (b) revert to the verified 66% top-1 disagreement, or (c) strike the specific percentage.
+
+### S113-G. §4.3.1 Letta stateful-agent test — NEW SECTION
+
+Added to DATA_REFERENCE.md as §7:
+
+- Final Letta `human` memory block: 22,472 chars (~3,167 words, ~5,600 tokens)
+- Base Layer full-stack spec: 34,579 chars (~5,250 words, ~8,500 tokens)
+- Size ratio Letta / BL = 0.65
+- Run A (gpt-4o-mini + Letta agent loop, native): 3.38 (6 judges)
+- Run B (Haiku + Letta block as context, matched to C2a): **3.24** (6 judges); **3.12** non-Gemini (4 judges); **3.04** reference C2a (7 judges)
+- At matched response model, Letta block predicts +0.20 above Base Layer spec at 65% the context size
+- **Interpretation:** Structural parity, size efficiency. Single-subject result (Hamerton only); n=2 Ebers generalization in flight.
+
+### S113-H. §4.4 Base Layer repositioning (framing, not numeric)
+
+Paper and public docs now consistently state: **Base Layer is not a memory provider. It is a behavioral-specification layer that layers on top of any memory system.** DATA_REFERENCE §12 shows BL's standalone retrieval wins C1 outright on only 1 of 9 low-baseline subjects (Hamerton — the pipeline-development subject, so pipeline-tuning bias is present). BL is typically middle-of-pack or behind Letta on retrieval. Removed from all public docs: any implication that Base Layer outperforms memory providers in general.
+
+### S113-I. §5.7 Memory-provider reframing (referee, not competitor)
+
+The paper now presents memory providers as the substrate Base Layer layers on top of, not as competitors that Base Layer replaces. The load-bearing claim is the additive spec layer, tested in the controlled configuration and confirmed on the low-baseline slice (DATA_REFERENCE §4): adding the spec improves all 4 commercial memory systems (Mem0 +0.13, Letta +0.23, Zep +0.20, Supermemory +0.004 — all positive or barely positive on the population of interest).
+
+### S113-J. §5.8 Architectural convergence with Letta
+
+New subsection added per §4.3.1: Letta's stateful-agent path produces an interpretive representation (not just retrieval) and reaches Base-Layer-parity representation at 65% the context size. Five overlapping behavioral patterns identified by independent Opus comparison. This is architectural convergence on the same finding (the value is in compressed interpretive representation) reached by two independent methods.
+
+### S113-K. Flagship sentence adopted
+
+Consistent wording across README, blog, paper: **"Base Layer is not a memory system. Layered on top of four commercial ones — Mem0, Letta, Zep, Supermemory — it improves all four on the users the model doesn't already know."** Always co-located with the low-baseline (n=9) qualifier and the ~99% real-user framing from DATA_REFERENCE §1.
+
+### S113-L. Inter-judge statistic substitution
+
+Legacy docs cite "pairwise Spearman ρ 0.89–0.98" (4-judge Hamerton brief-only). Current statistic per DATA_REFERENCE §2 is **Krippendorff α = 0.535 (all 7 judges, ordinal, moderate)** and **α = 0.659 (non-Gemini 5-judge panel, substantial)**, plus Wilcoxon W=10.0 p=0.0076 (C5 vs C2a) and W=9.0 p=0.0063 (C5 vs C4a). Docs updated to use α + Wilcoxon; Spearman ρ retained only where it references the historical 4-judge Hamerton computation and is labeled as such.
+
+---
+
+## S113 AUDIT DISCREPANCIES (2026-04-18, discovered during pre-launch audit)
+
+These are discrepancies found during the S113 provenance audit against `beyond_recall_v6_draft.md`. They are NOT pre-existing corrections — they are newly surfaced inconsistencies the paper currently contains. Listed here for Aarik to resolve before launch. Do NOT silently "fix" these without confirmation; these are load-bearing and the paper must be updated, not the audit docs.
+
+### S113-M. §3.7 Krippendorff α = 0.723 conflicts with §4.1 α = 0.535 / 0.659
+
+- **§3.7 line 601:** "Krippendorff's alpha (ordinal): 0.723 across all 7 judges (absolute agreement on question-level scores)."
+- **§4.1 line 626:** "Krippendorff's alpha (ordinal) across 7 judges: 0.535 (all judges) / 0.659 (5 non-Gemini judges)."
+- **DATA_REFERENCE §2:** 0.535 (all 7), 0.659 (non-Gemini 5).
+- **Diagnosis:** §3.7 value (0.723) is stale from a pre-S113 run. The S113-L correction updated §4.1 and DATA_REFERENCE but §3.7 was missed.
+- **Action:** Update §3.7 to match §4.1 (0.535 / 0.659). Also revise surrounding prose ("α=0.723 exceeds the 0.667 threshold") — 0.535 is below the 0.667 threshold, so the sentence's qualitative interpretation must also change (consistent with §4.1.2 framing that non-Gemini 0.659 is the substantive value).
+- **Severity:** HIGH — internally contradictory within the paper.
+
+### S113-N. §4.6 Hamerton C4a = 3.28 conflicts with §4.1 Table 4.1 C4a = 3.22
+
+- **§4.6 line 865:** "His C4a score of **3.28** represents the largest absolute improvement in the study (+1.97 points from baseline)..."
+- **§4.1 Table 4.1 line 636:** Hamerton C4a = 3.22, Δ = +1.97.
+- **§4.2 Table 4.2 line 707:** C4a = 3.22.
+- **DATA_REFERENCE §1 / §8:** C4a = 3.22.
+- **Math check:** 3.22 − 1.25 = 1.97 ✓. 3.28 − 1.25 = 2.03, which contradicts the "+1.97" stated in the same sentence.
+- **Diagnosis:** 3.28 is a typo in §4.6; 3.22 is correct.
+- **Action:** Change §4.6 "3.28" to "3.22".
+- **Severity:** MEDIUM — internally contradictory within the paper.
+
+### S113-O. Reproducibility cost: $60 vs $500-700
+
+- **§3.3 line 435 / §5.10 line 1116:** "$500-700 in LLM API charges plus ~$80 in commercial memory system subscriptions" for the full study; "Reproducible for under $60" at §5.10.
+- **Diagnosis:** These refer to different things (full 14-subject study vs. single-spec generation), but the paper does not clarify which is which at §5.10.
+- **Action:** Either scope the $60 line ("The pipeline is reproducible — generating one spec for one subject costs under $1 and running the full battery for one subject costs under $60 per condition") or remove the $60 line.
+- **Severity:** LOW — apparent contradiction; trivial to resolve.
+
+### S113-P. Twin-2K: abstract says "71.83% accuracy" — external claim
+
+- **§2.3 line 359:** "Twin-2K (Toubia et al., 2025): Behavioral prediction at scale (2,000 participants, 71.83% accuracy)."
+- **Source:** Toubia et al. 2025 paper (REF-07).
+- **Status:** Accurate per external record; no source file in study repo.
+- **Action:** None; standard external citation.
+
+### S113-Q. Supermemory vendor numbers (81.6%, 85.2%) — external, unsourced in paper
+
+- **§2.1 line 344:** "Scores 81.6% on LongMemEval with GPT-4o (85.2% with Gemini 3 Pro)."
+- **Source:** Supermemory marketing page / their own benchmark. Not independently reproduced in our study.
+- **Action:** Add "(per Supermemory's own reported results on LongMemEval)" or footnote the source.
+- **Severity:** LOW — standard practice to cite vendor claims.
+
+### S113-R. Letta team / funding details (§5.8) — external, unsourced
+
+- **§5.8 line 1078:** "Charles Packer and Sarah Wooders at UC Berkeley, connected to Ion Stoica and Joseph Gonzalez's Sky Computing group... raised ~$10M in seed funding (Felicis, GV)."
+- **Status:** External public reporting; no repo source.
+- **Action:** Accept as editorial context in a discussion section, or cite a TechCrunch/press release URL. Consider whether the personal/funding framing belongs in a research paper at all (Gemini Pro review round 2 flagged §5.8's personal tone as unconventional).
+- **Severity:** LOW — editorial judgment, not a numerical correctness issue.
+
+### S113-S. §5.4 hedging table (127/507, 13/507, 3/507) — missing source file
+
+- **§5.4 Table lines 1023-1026.**
+- **Status:** Not present in DATA_REFERENCE.md; likely computed from a per-response hedging-detection script over `results/` files.
+- **Action:** Add a row to DATA_REFERENCE.md (new §N: Hedging Analysis) pointing to the source script/JSON. Until then, PROVENANCE_INDEX flags this as NOT FOUND.
+- **Severity:** MEDIUM — prominent finding (abstract + §1 + §5.4) should be sourced in the single source of truth.
+
+### S113-T. §4.1.2 Gemini "~35% of responses scored 5.0" and "p < 0.02 non-Gemini recomputation" — not in DATA_REFERENCE
+
+- **§4.1.2 line 673:** "Gemini judges assign 5.0 to approximately 35% of responses, compared to 0.4-9% for the other five judges."
+- **§4.1.2 line 677:** "Recomputing on the 5-judge non-Gemini aggregate yields p < 0.02."
+- **Source:** Per-judge score histograms + Wilcoxon recomputation — computable from `RESULTS_S113.json`, but not tabulated in DATA_REFERENCE §2 or §9.
+- **Action:** Add explicit rows to DATA_REFERENCE §2 (non-Gemini p-value) and §9 (per-judge 5.0 assignment rate).
+- **Severity:** MEDIUM — sensitivity analysis is load-bearing for the paper's robustness claim.
+
+---
+
+## CORRECTIONS REQUIRED (S105 — historical, preserved)
 
 ### 1. Hamerton C5 Baseline: 1.37 -> 1.41
 

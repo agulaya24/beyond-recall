@@ -1,0 +1,37 @@
+[
+  {
+    "question_id": 22,
+    "condition": "C2a_full_spec",
+    "judge": "gemini_pro",
+    "score": 0,
+    "parse_failure": true
+  },
+  {
+    "question_id": 22,
+    "condition": "C2c_wrong_spec",
+    "judge": "gemini_pro",
+    "score": 0,
+    "parse_failure": true
+  },
+  {
+    "question_id": 22,
+    "condition": "C4_factdump",
+    "judge": "gemini_pro",
+    "score": 0,
+    "parse_failure": true
+  },
+  {
+    "question_id": 22,
+    "condition": "C4a_full_facts_plus_spec",
+    "judge": "gemini_pro",
+    "score": 0,
+    "parse_failure": true
+  },
+  {
+    "question_id": 23,
+    "condition": "C5_baseline",
+    "judge": "gemini_pro",
+    "score": 0,
+    "parse_failure": true
+  }
+]

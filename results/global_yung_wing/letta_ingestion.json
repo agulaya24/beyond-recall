@@ -1,0 +1,17 @@
+{
+  "subject": "yung_wing",
+  "system": "letta",
+  "agent_name": "yung_wing_run_20260415",
+  "facts_expected": 747,
+  "facts_posted": 747,
+  "post_success": 747,
+  "post_failure": 0,
+  "failed_fact_indices": [],
+  "start_time": "2026-04-15T21:50:36.344146+00:00",
+  "agent_id": "agent-7d7401a5-c667-4400-b393-6ec427006460",
+  "last_successful_index": 746,
+  "end_time": "2026-04-15T23:00:31.834585+00:00",
+  "verification_passed": true,
+  "verification_hits": 10,
+  "verification_total": 10
+}

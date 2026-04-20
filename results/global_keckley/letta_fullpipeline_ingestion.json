@@ -1,0 +1,14 @@
+{
+  "subject": "keckley",
+  "system": "letta",
+  "mode": "fullpipeline",
+  "agent_id": "agent-9337c4fd-8f5a-434c-80dc-06153df01064",
+  "agent_name": "keckley_fullpipeline",
+  "chunks_expected": 7,
+  "chunks_posted": 7,
+  "post_success": 7,
+  "post_failure": 0,
+  "start_time": "2026-04-16T06:50:08.728605+00:00",
+  "end_time": "2026-04-16T06:50:30.114604+00:00",
+  "verification_passed": true
+}

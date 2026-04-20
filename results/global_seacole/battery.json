@@ -1,0 +1,363 @@
+{
+  "metadata": {
+    "subject": "Mary Seacole",
+    "total": 60,
+    "tiers": {
+      "behavioral_prediction": 40,
+      "recall": 10,
+      "adversarial_abstention": 10
+    }
+  },
+  "questions": [
+    {
+      "id": 1,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "When Mary Seacole encounters a suffering soldier being loaded onto boats, how does she typically respond to witnessing pain and distress?",
+      "held_out_passage": "when they raised a sufferer somewhat awkwardly, and he groaned deeply, that rough man broke out all at once with an oath, that was strangely like a prayer, and bade the men, for God's sake, take more care."
+    },
+    {
+      "id": 2,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "Based on Mary's character, would she comfort a delirious soldier who mistakes her for his wife?",
+      "held_out_passage": "Poor fellow! I could not undeceive him. I think the fancy happily caused by the touch of a woman's hand soothed his dying hour"
+    },
+    {
+      "id": 3,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How does Mary Seacole typically handle receiving praise or recognition for her charitable work?",
+      "held_out_passage": "And here, lest the reader should consider that I am speaking too highly of my own actions, I must have recourse to a plan which I shall frequently adopt in the following pages, and let another voice speak for me"
+    },
+    {
+      "id": 4,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "What is Mary's relationship with military officers who witness the suffering of wounded soldiers?",
+      "held_out_passage": "Major R---- was a brave and experienced officer, but the scenes on the sick-wharf unmanned him often. I have known him nervously restless if the people were behindhand, even for a few minutes, in their preparations for the wounded."
+    },
+    {
+      "id": 5,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Does Mary Seacole believe women are inherently better suited to nursing work than men?",
+      "held_out_passage": "Only women could have done more than they did who attended to this melancholy duty; and they, not because their hearts could be softer, but because their hands are moulded for this work."
+    },
+    {
+      "id": 6,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How does Mary respond to wounded soldiers who maintain good humor despite their injuries?",
+      "held_out_passage": "Sometimes a light-hearted fellow--generally a sailor--would forget his pain, and do his best to keep the rest in good spirits."
+    },
+    {
+      "id": 7,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "Would Mary Seacole recognize and acknowledge someone from her past life in Jamaica?",
+      "held_out_passage": "Once I heard my name eagerly pronounced, and turning round, recognised a sailor whom I remembered as one of the crew of the \"Alarm,\" stationed at Kingston, a few years back."
+    },
+    {
+      "id": 8,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How does Mary typically react when a soldier expresses gratitude despite his hardship?",
+      "held_out_passage": "\"You bear your troubles well, my son.\" \"Eh! do I, Aunty?\" and he seemed surprised. \"Why, look'ye, when I've seen so many pretty fellows knocked off the ship's roll altogether, don't you think I ought to be thankful if I can answer the bo'swain's call anyhow?\""
+    },
+    {
+      "id": 9,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "What kind of food does Mary Seacole prepare for wounded soldiers, and what does she believe about its significance?",
+      "held_out_passage": "I used to make sponge-cakes on board the \"Medora,\" with eggs brought from Constantinople. These, with some lemonade, were all the doctors would allow me to give to the wounded. They all liked the cake, poor fellows, better than anything else: perhaps because it tasted of \"home.\""
+    },
+    {
+      "id": 10,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "Does Mary Seacole maintain connections with officers she has worked alongside during her service?",
+      "held_out_passage": "Only the other day, Captain S----, who had charge of the \"Medora,\" reminded me of them."
+    },
+    {
+      "id": 11,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How does Mary characterize the physical challenges of her life in Balaclava?",
+      "held_out_passage": "My life in Balaclava could not but be a rough one. The exposure by day was enough to try any woman's strength; and at night one was not always certain of repose."
+    },
+    {
+      "id": 12,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "What risks does Mary Seacole face in her daily work at the harbor?",
+      "held_out_passage": "Nor was it the easiest thing to clamber up the steep sides of the \"Medora;\" and more than once I narrowly escaped a sousing in the harbour."
+    },
+    {
+      "id": 13,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How does Mary Seacole view the emotional impact of witnessing mass suffering on experienced military men?",
+      "held_out_passage": "But in this feeling all shared alike. Only women could have done more than they did who attended to this melancholy duty; and they, not because their hearts could be softer, but because their hands are moulded for this work."
+    },
+    {
+      "id": 14,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Does Mary Seacole believe that soldiers' morale can be improved through the presence and actions of compassionate individuals?",
+      "held_out_passage": "And this brave fellow, after he had sipped some lemonade, and laid down, when he heard the men groaning, raised his head and comforted them in the same strain again; and, it may seem strange, but it quieted them."
+    },
+    {
+      "id": 15,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How does Mary Seacole handle the emotional burden of caring for dying soldiers?",
+      "held_out_passage": "I never knew it for certain, but I always felt sure that he would never wake from that dream of home in this world."
+    },
+    {
+      "id": 16,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "What does Mary Seacole's use of testimonial letters from officers reveal about her approach to self-presentation?",
+      "held_out_passage": "And here, lest the reader should consider that I am speaking too highly of my own actions, I must have recourse to a plan which I shall frequently adopt in the following pages, and let another voice speak for me in the kind letter received long after Balaclava had been left to its old masters"
+    },
+    {
+      "id": 17,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Does Mary Seacole believe that soldiers' gratitude for her service would persist after the war?",
+      "held_out_passage": "\"No one knows better than I do how much you did to help poor sick and wounded soldiers; and I feel sure you will find in your day of trouble that they have not forgotten it.\""
+    },
+    {
+      "id": 18,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How does Mary Seacole interpret a soldier's philosophical acceptance of his amputation?",
+      "held_out_passage": "\"Why, look'ye, when I've seen so many pretty fellows knocked off the ship's roll altogether, don't you think I ought to be thankful if I can answer the bo'swain's call anyhow?\" And this was the sailors' philosophy always."
+    },
+    {
+      "id": 19,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "What does Mary Seacole's willingness to work in dangerous harbor conditions suggest about her commitment to her mission?",
+      "held_out_passage": "My life in Balaclava could not but be a rough one. The exposure by day was enough to try any woman's strength; and at night one was not always certain of repose. Nor was it the easiest thing to clamber up the steep sides of the \"Medora;\" and more than once I narrowly escaped a sousing in the harbour."
+    },
+    {
+      "id": 20,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How does Mary Seacole view the relationship between small acts of comfort and soldiers' emotional well-being?",
+      "held_out_passage": "I think the fancy happily caused by the touch of a woman's hand soothed his dying hour; for I do not fancy he could have lived to reach Scutari."
+    },
+    {
+      "id": 21,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How does Mary Seacole typically respond when she encounters someone from her past in a difficult situation?",
+      "held_out_passage": "Once I heard my name eagerly pronounced, and turning round, recognised a sailor whom I remembered as one of the crew of the \"Alarm,\" stationed at Kingston, a few years back."
+    },
+    {
+      "id": 22,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "What is Mary Seacole's attitude toward soldiers who have suffered severe injuries?",
+      "held_out_passage": "\"Never fear for me, Aunty Seacole; I'll make the best of the leg the Rooshians have left me.\""
+    },
+    {
+      "id": 23,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "How does Mary Seacole handle situations where she must break rules or regulations?",
+      "held_out_passage": "But I used to put my lantern into a deep basin, behind some boxes, and so evaded the regulation. I felt rather ashamed of this breach of discipline one night, when another ammunition ship caught fire in the crowded harbour."
+    },
+    {
+      "id": 24,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "What does Mary Seacole believe about the emotional capacity of women versus men in caregiving roles?",
+      "held_out_passage": "Only women could have done more than they did who attended to this melancholy duty; and they, not because their hearts could be softer, but because their hands are moulded for this work."
+    },
+    {
+      "id": 25,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How does Mary Seacole respond to witnessing soldiers' suffering and emotional distress?",
+      "held_out_passage": "Major R---- was a brave and experienced officer, but the scenes on the sick-wharf unmanned him often. I have known him nervously restless if the people were behindhand, even for a few minutes, in their preparations for the wounded."
+    },
+    {
+      "id": 26,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "What practical items does Mary Seacole choose to provide to wounded soldiers, and why?",
+      "held_out_passage": "These, with some lemonade, were all the doctors would allow me to give to the wounded. They all liked the cake, poor fellows, better than anything else: perhaps because it tasted of \"home.\""
+    },
+    {
+      "id": 27,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How does Mary Seacole interpret a soldier's resilience in the face of amputation?",
+      "held_out_passage": "\"Why, look'ye, when I've seen so many pretty fellows knocked off the ship's roll altogether, don't you think I ought to be thankful if I can answer the bo'swain's call anyhow?\""
+    },
+    {
+      "id": 28,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "What risks is Mary Seacole willing to accept in her living quarters during wartime?",
+      "held_out_passage": "It was an ammunition ship, and we slept over barrels of gunpowder and tons of cartridges, with the by no means impossible contingency of their prematurely igniting, and giving us no time to say our prayers before launching us into eternity."
+    },
+    {
+      "id": 29,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "How does Mary Seacole respond to discovering that boatmen are stealing from her supplies?",
+      "held_out_passage": "Not only did they demand exorbitant sums for the carriage, but they contrived to rob us by the way in the most ingenious manner. Thus many things of value were lost in the little journey from the \"Albatross\" and \"Nonpareil\" to the shore, which had made the long voyage from England safely. Keep as sharp a look out as I might, some package or box would be tipped overboard."
+    },
+    {
+      "id": 30,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "What does Mary Seacole's choice to keep a hidden lantern reveal about her character?",
+      "held_out_passage": "But I used to put my lantern into a deep basin, behind some boxes, and so evaded the regulation."
+    },
+    {
+      "id": 31,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How does Mary Seacole characterize the physical demands of her work in Balaclava?",
+      "held_out_passage": "My life in Balaclava could not but be a rough one. The exposure by day was enough to try any woman's strength; and at night one was not always certain of repose."
+    },
+    {
+      "id": 32,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "What does Mary Seacole's interaction with the one-legged sailor suggest about her approach to morale?",
+      "held_out_passage": "And this brave fellow, after he had sipped some lemonade, and laid down, when he heard the men groaning, raised his head and comforted them in the same strain again; and, it may seem strange, but it quieted them."
+    },
+    {
+      "id": 33,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "How does Mary Seacole assess the danger posed by the fire in the ammunition ship harbor?",
+      "held_out_passage": "We all knew, if they failed in extinguishing the fire pretty quickly, what our chances of life were worth, and I think the bravest drew his breath heavily at the thought of our danger."
+    },
+    {
+      "id": 34,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "What is Mary Seacole's reaction to physical dangers specific to boarding ships?",
+      "held_out_passage": "Nor was it the easiest thing to clamber up the steep sides of the \"Medora;\" and more than once I narrowly escaped a sousing in the harbour."
+    },
+    {
+      "id": 35,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How does Mary Seacole view the relationship between soldiers' gratitude and her past kindness?",
+      "held_out_passage": "\"and I feel sure you will find in your day of trouble that they have not forgotten it.\""
+    },
+    {
+      "id": 36,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "What does Mary Seacole's observation about sailors' philosophy reveal about her values?",
+      "held_out_passage": "And this was the sailors' philosophy always."
+    },
+    {
+      "id": 37,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "How does Mary Seacole handle the challenge of obtaining supplies in a hostile environment?",
+      "held_out_passage": "Harassing work, indeed, was the getting our stores on shore, with the aid of the Greek and Maltese boatmen, whose profession is thievery."
+    },
+    {
+      "id": 38,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "What does Mary Seacole's concern about the fire incident suggest about her judgment of rule-breaking?",
+      "held_out_passage": "I felt rather ashamed of this breach of discipline one night, when another ammunition ship caught fire in the crowded harbour."
+    },
+    {
+      "id": 39,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How does Mary Seacole interpret the cause of the harbor fire?",
+      "held_out_passage": "It was said that the Russians had employed an incendiary; but it would have been strange if in that densely crowded harbour some accidents had not happened without their agency."
+    },
+    {
+      "id": 40,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "What does Mary Seacole's provision of sponge cakes suggest about her understanding of soldiers' emotional needs?",
+      "held_out_passage": "I used to make sponge-cakes on board the \"Medora,\" with eggs brought from Constantinople. These, with some lemonade, were all the doctors would allow me to give to the wounded. They all liked the cake, poor fellows, better than anything else: perhaps because it tasted of \"home.\""
+    },
+    {
+      "id": 41,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Mary Seacole's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 42,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Mary Seacole's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 43,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Mary Seacole's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 44,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Mary Seacole's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 45,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Mary Seacole's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 46,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Mary Seacole's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 47,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Mary Seacole's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 48,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Mary Seacole's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 49,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Mary Seacole's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 50,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Mary Seacole's opinion on modern technology?",
+      "held_out_passage": null
+    }
+  ]
+}

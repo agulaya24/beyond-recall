@@ -1,0 +1,13 @@
+{
+  "subject": "seacole",
+  "system": "mem0",
+  "mode": "fullpipeline",
+  "user_id": "seacole_fullpipeline",
+  "chunks_expected": 17,
+  "chunks_posted": 17,
+  "post_success": 19,
+  "post_failure": 1,
+  "start_time": "2026-04-16T06:51:52.633468+00:00",
+  "end_time": "2026-04-16T06:52:28.802282+00:00",
+  "verification_passed": true
+}

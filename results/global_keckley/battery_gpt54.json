@@ -1,0 +1,283 @@
+{
+  "metadata": {
+    "subject": "Elizabeth Keckley",
+    "model": "gpt-5.4",
+    "method": "backward_design",
+    "count": 39
+  },
+  "questions": [
+    {
+      "id": 1,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "When confronted with the body of a beloved leader after a shocking loss, how would she most likely respond emotionally and physically?",
+      "held_out_passage": "I gazed long at the face, and turned away with tears in my eyes and a choking sensation in my throat."
+    },
+    {
+      "id": 2,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "If someone under her care fell into overwhelming grief, what would she most likely do in the moment to help?",
+      "held_out_passage": "I bathed Mrs. Lincoln's head with cold water, and soothed the terrible tornado as best I could."
+    },
+    {
+      "id": 3,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "When a grieving child tried to calm an anguished parent, how would she likely describe and interpret that child's reaction?",
+      "held_out_passage": "Tad's grief at his father's death was as great as the grief of his mother, but her terrible outbursts awed the boy into silence."
+    },
+    {
+      "id": 4,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "During a household's period of intense mourning, would she be more likely to remain close and personally supportive, or to withdraw?",
+      "held_out_passage": "She denied admittance to almost every one, and I was her only companion, except her children, in the days of her great sorrow."
+    },
+    {
+      "id": 5,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "If the woman she served became suspicious that an attendant had failed in a grave duty, how would she likely portray that accusation and exchange?",
+      "held_out_passage": "\"What! the man who attended us to the theatre on the night my dear, good husband was murdered! He, I believe, is one of the murderers. Tell him to come in to me.\""
+    },
+    {
+      "id": 6,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "How would she likely depict the reaction of a person being directly accused by an emotionally volatile superior?",
+      "held_out_passage": "The messenger had overheard Mrs. Lincoln's words through the half-open door, and when he came in he was trembling violently."
+    },
+    {
+      "id": 7,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "When observing someone insist on blame despite a denial, what kind of response would she likely record?",
+      "held_out_passage": "\"I don't believe you. Why were you not at the door to keep the assassin out when he rushed into the box?\""
+    },
+    {
+      "id": 8,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "After a tense confrontation ended, how would she likely describe the accused person's departure?",
+      "held_out_passage": "With mechanical step and white face the messenger left the room,"
+    },
+    {
+      "id": 9,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "In a time of bereavement, how would she likely characterize the bond between an older child and his distressed mother?",
+      "held_out_passage": "Robert was very tender to his mother in the days of her sorrow. He suffered deeply, as his haggard face indicated, but he was ever manly and collected when in the presence of his mother."
+    },
+    {
+      "id": 10,
+      "tier": "behavioral_prediction",
+      "category": "change_over_time",
+      "text": "If reflecting afterward on a bereaved woman's refusal to receive visitors, how would she likely balance sympathy with social consequence?",
+      "held_out_passage": "Had she been less secluded in her grief, perhaps she would have had many warmer friends to-day than she has. But far be it from me to harshly judge the sorrow of any one."
+    },
+    {
+      "id": 11,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "If a sympathetic public official offered to push her claim aggressively, even through a very public process, how would she most likely respond regarding publicity?",
+      "held_out_passage": "I did not desire public agitation, and Mr. Lovejoy prepared my claim and laid it before the Commissioners."
+    },
+    {
+      "id": 12,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "When someone from a different political camp helped advance her interests, how would she most likely react to that help?",
+      "held_out_passage": "Mr. Joseph Lovejoy was inclined to the Democratic party, and he pressed my claim with great earnestness; he hoped that the claim would not be allowed, as he said the rejection of it would make capital for his party. Nevertheless the pension was granted, and I am none the less thankful to Mr. Joseph Lovejoy for his kindness to me, and interest in my welfare."
+    },
+    {
+      "id": 13,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How would she likely describe her emotional bond with young women she had long cared for and helped present well in society?",
+      "held_out_passage": "I loved them both tenderly, and they were warmly attached to me."
+    },
+    {
+      "id": 14,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "If people she had nurtured in youth were dying, what role would she most likely take at their bedside?",
+      "held_out_passage": "Both are now dead, and when the death-film was gathering in the eyes, each called for me and asked to die in my arms."
+    },
+    {
+      "id": 15,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "When entrusted with a child in a household where she served, how would she most likely behave toward that child?",
+      "held_out_passage": "She slept in my bed, and I watched over her as if she had been my own child."
+    },
+    {
+      "id": 16,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "If visiting the burial place of a loved one would leave uncertainty about the exact grave, what would she most likely choose to do?",
+      "held_out_passage": "As I did not visit my mother's grave at the time, the Garlands were much surprised, but I offered no explanation."
+    },
+    {
+      "id": 17,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "How would she likely explain avoiding a painful act of remembrance when certainty and dignity could not be preserved?",
+      "held_out_passage": "The reason is not difficult to understand. My mother was buried in a public ground, and the marks of her grave, as I learned, were so obscure that the spot could not be readily designated. To look upon a grave, and not feel certain whose ashes repose beneath the sod, is painful, and the doubt which mystifies you, weakens the force, if not the purity, of the love-offering from the heart. Memory preserved a sunny picture of my mother's face, and I did not wish to weave sombre threads--threads suggestive of a deserted grave-yard--into it, and thus impair its beauty."
+    },
+    {
+      "id": 18,
+      "tier": "behavioral_prediction",
+      "category": "change_over_time",
+      "text": "After years of separation caused by major upheaval, how would she most likely think about people from her earlier life who had once claimed her loyalty?",
+      "held_out_passage": "Often, during my residence in Washington, I recalled the past, and wondered what had become of those who claimed my first duty and my first love."
+    },
+    {
+      "id": 19,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "When criticized for retaining affection toward people connected to her enslavement, what broader principle would she most likely invoke?",
+      "held_out_passage": "\"You forget the past is dear to every one, for to the past belongs that golden period, the days of childhood. The past is a mirror that reflects the chief incidents of my life. To surrender it is to surrender the greatest part of my existence--early impressions, friends, and the graves of my father, my mother, and my son. These people are associated with everything that memory holds dear, and so long as memory proves faithful, it is but natural that I should sigh to see them once more.\""
+    },
+    {
+      "id": 20,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "If others doubted that former oppressors could still feel attachment, how would she most likely answer based on her experience?",
+      "held_out_passage": "\"Perhaps so, but I cannot believe it. You do not know the Southern people as well as I do--how warm is the attachment between master and slave.\""
+    },
+    {
+      "id": 21,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "When her companion urged caution about public appearances during a delicate situation, how would Elizabeth most likely respond regarding whether to go out?",
+      "held_out_passage": "\"No, Mrs. Lincoln, I shall not go outside of the hotel to-night, for I realize your situation, if you do not. Mrs. Lincoln has no reason to care what these people may say about her as Mrs. Lincoln, but she should be prudent, and give them no opportunity to say anything about her as Mrs. Clarke.\""
+    },
+    {
+      "id": 22,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "If the person she was assisting behaved impulsively in a way that might invite gossip or misunderstanding, what kind of advice would Elizabeth be likely to give?",
+      "held_out_passage": "\"It was with difficulty I could convince her that she should act with caution. She was so frank and impulsive that she never once thought that her actions might be misconstrued.\""
+    },
+    {
+      "id": 23,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "When placed in an uncomfortable situation because of loyalty to someone she served, how would Elizabeth most likely handle her own immediate discomfort?",
+      "held_out_passage": "\"It did not occur to her that she might order dinner to be served in my room, so I went to bed without a mouthful to eat.\""
+    },
+    {
+      "id": 24,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "After a difficult night caused by another person's poor judgment, how would Elizabeth likely respond the next morning when that person tried to make amends?",
+      "held_out_passage": "\"I dressed myself as quickly as I could, and together we went out and took breakfast, at a restaurant on Broadway, some place between 609 and the St. Denis Hotel.\""
+    },
+    {
+      "id": 25,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "When discussing a troubling episode afterward, how would Elizabeth most likely recount another person's mistaken actions?",
+      "held_out_passage": "\"Lizzie, yesterday morning I called for the _Herald_ at the breakfast table, and on looking over the list of diamond brokers advertised, I selected the firm of W. H. Brady & Co., 609 Broadway. After breakfast I walked down to the house, and tried to sell them a lot of jewelry. I gave my name as Mrs. Clarke.\""
+    },
+    {
+      "id": 26,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "If she observed that a small oversight had increased danger in a sensitive negotiation, what detail would Elizabeth be likely to preserve in her account?",
+      "held_out_passage": "\"He came to the counter, and in looking over my jewelry discovered my name inside of one of the rings. I had forgotten the ring, and when I saw him looking at the name so earnestly, I snatched the bauble from him and put it into my pocket.\""
+    },
+    {
+      "id": 27,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "When someone outside her circle proved sympathetic and useful in a crisis, how would Elizabeth likely describe that person's reaction?",
+      "held_out_passage": "\"Scarcely had we returned to the hotel when Mr. Keyes called, and Mrs. Clarke disclosed to him that she was Mrs. Lincoln. He was much elated to find his surmise correct. Mrs. L. exhibited to him a large number of shawls, dresses, and fine laces, and told him that she was compelled to sell them in order to live. He was an earnest Republican, was much affected by her story, and denounced the ingratitude of the government in the severest terms.\""
+    },
+    {
+      "id": 28,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "If practical difficulties forced a sudden change of plans while trying to remain unnoticed, how would Elizabeth most likely proceed?",
+      "held_out_passage": "\"Unfortunately, the Earle Hotel was full, and we had to select another place. We drove to the Union Place Hotel, where we secured rooms for Mrs. Clarke, Mrs. Lincoln changing her mind, deeming it would not be prudent to disclose her real name to any one.\""
+    },
+    {
+      "id": 29,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "When helping manage a precarious situation involving reputation and secrecy, what kind of compromise would Elizabeth be inclined to suggest?",
+      "held_out_passage": "\"On the way down to the hotel that morning she acceded to a suggestion made by me, and supported by Mr. Keyes, that she confide in the landlord, and give him her name without registering, so as to ensure the proper respect.\""
+    },
+    {
+      "id": 30,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "When others encouraged a vulnerable person toward a questionable course, how would Elizabeth likely frame her reaction in retrospect?",
+      "held_out_passage": "\"After we had become settled in our new quarters, Messrs. Keyes and Brady called frequently on Mrs. Lincoln, and held long conferences with her. They advised her to pursue the course she did, and were sanguine of success. Mrs. Lincoln was very anxious to dispose of her things, and return to Chicago as quickly and quietly as possible; but they presented the case in a different light, and, I regret to say, she was gui\""
+    },
+    {
+      "id": 31,
+      "tier": "behavioral_prediction",
+      "category": "career",
+      "text": "When a business arrangement tied to someone she felt loyal to became burdensome and unprofitable, how would she likely respond in order to survive financially?",
+      "held_out_passage": "Mrs. Lincoln's venture proved so disastrous that she was unable to reward me for my services, and I was compelled to take in sewing to pay for my daily bread."
+    },
+    {
+      "id": 32,
+      "tier": "behavioral_prediction",
+      "category": "change_over_time",
+      "text": "If obligations to another person kept her from returning home as soon as she expected, how would she likely describe and handle that delay?",
+      "held_out_passage": "When Mrs. L. left for the West, I expected to be able to return to Washington in one week from the day; but unforeseen difficulties arose, and I have been detained in the city for several months."
+    },
+    {
+      "id": 33,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "When faced with prolonged financial strain, what kind of work habits would she most likely adopt?",
+      "held_out_passage": "During the entire winter I have worked early and late, and practised the closest economy."
+    },
+    {
+      "id": 34,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "If a troublesome arrangement remained unresolved, would she be more likely to abandon it or persist until it was formally settled?",
+      "held_out_passage": "As I am writing the concluding pages of this book, I have succeeded in closing up Mrs. Lincoln's imprudent business arrangement at 609 Broadway."
+    },
+    {
+      "id": 35,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How would she likely behave when entrusted with another person's financial and material affairs that needed careful resolution?",
+      "held_out_passage": "Mrs. Lincoln sent me a check for this amount. I handed this check to Mr. Keyes, and he gave me the following receipt:"
+    },
+    {
+      "id": 36,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "After completing a disputed or difficult transaction, what step would she likely take to protect herself and ensure clarity?",
+      "held_out_passage": "I then demanded and received a receipt worded as follows:"
+    },
+    {
+      "id": 37,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "After many hardships and little financial reward, what broader lesson or outlook would she most likely express about her life?",
+      "held_out_passage": "I have experienced many ups and downs, but still am stout of heart. The labor of a lifetime has brought me nothing in a pecuniary way. I have worked hard, but fortune, fickle dame, has not smiled upon me."
+    },
+    {
+      "id": 38,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "If living in poverty while reflecting on her past, how would she likely describe her emotional relationship to a humble room and its contents?",
+      "held_out_passage": "And yet I have learned to love the garret-like room. Here, with Mrs. Amelia Lancaster as my only companion, I have spent many pleasant hours, as well as sad ones, and every chair looks like an old friend."
+    },
+    {
+      "id": 39,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "How would she likely use memory and reflection to transform a plain living space into something meaningful?",
+      "held_out_passage": "In memory I have travelled through the shadows and the sunshine of the past, and the bare walls are associated with the visions that have come to me from the long-ago. As I love the children of memory, so I love every article in this room, for each has become a part of memory itself."
+    }
+  ]
+}

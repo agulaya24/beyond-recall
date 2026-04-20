@@ -1,0 +1,283 @@
+{
+  "metadata": {
+    "subject": "Olaudah Equiano",
+    "model": "gpt-5.4",
+    "method": "backward_design",
+    "count": 39
+  },
+  "questions": [
+    {
+      "id": 1,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "If he heard a report about someone claiming unusual spiritual insight, how would he likely react at first, given his usual reliance on Providence and Scripture?",
+      "held_out_passage": "I put little faith in this story at first, as I could not conceive that any mortal could foresee the future disposals of Providence, nor did I believe in any other revelation than that of the Holy Scriptures;"
+    },
+    {
+      "id": 2,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "If an experience seemed to him like a striking sign or providential impression, what would he likely decide to do next?",
+      "held_out_passage": "this made such an impression on me, that I could not get the idea the next day out of my mind, and I then became as anxious to see her as I was before indifferent; accordingly in the evening, after we left off working, I inquired where she lived, and being directed to her, to my inexpressible surprise, beheld the very woman in the very same dress she appeared to me to wear in the vision."
+    },
+    {
+      "id": 3,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "When someone seemed to prove credibility by accurately recounting his past, how would that affect his willingness to believe what they said about his future?",
+      "held_out_passage": "She immediately told me I had dreamed of her the preceding night; related to me many things that had happened with a correctness that astonished me; and finally told me I should not be long a slave: this was the more agreeable news, as I believed it the more readily from her having so faithfully related the past incidents of my life."
+    },
+    {
+      "id": 4,
+      "tier": "behavioral_prediction",
+      "category": "career",
+      "text": "In his work, how would he likely behave when he thought greater effort might shorten a difficult undertaking and improve his prospects?",
+      "held_out_passage": "I had always exerted myself and did double work, in order to make our voyages as short as possible;"
+    },
+    {
+      "id": 5,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "When brought near death by illness, what kind of inward response would he most likely have?",
+      "held_out_passage": "I was very ill for eleven days and near dying; eternity was now exceedingly impressed on my mind, and I feared very much that awful event. I prayed the Lord therefore to spare me; and I made a promise in my mind to God, that I would be good if ever I should recover."
+    },
+    {
+      "id": 6,
+      "tier": "behavioral_prediction",
+      "category": "change_over_time",
+      "text": "After recovering from danger and returning to ordinary business, how might his religious resolutions change over time?",
+      "held_out_passage": "During the passage, as I was perfectly restored, and had much business of the vessel to mind, all my endeavours to keep up my integrity, and perform my promise to God, began to fail; and, in spite of all I could do, as we drew nearer and nearer to the islands, my resolutions more and more declined, as if the very air of that country or climate seemed fatal to piety. When we were safe arrived at Montserrat, and I had got ashore, I forgot my former resolutions."
+    },
+    {
+      "id": 7,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "If treated unfairly in a commercial exchange because others looked down on him, how would he likely feel and respond?",
+      "held_out_passage": "There was one gentleman particularly who bought a puncheon of rum of me, which gave me a great deal of trouble; and, although I used the interest of my friendly captain, I could not obtain any thing for it; for, being a negro man, I could not oblige him to pay me. This vexed me much, not knowing how to act; and I lost some time in seeking after this Christian;"
+    },
+    {
+      "id": 8,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When trying to recover what was owed to him, would he likely persist even at personal inconvenience and at the cost of preferred activities?",
+      "held_out_passage": "and though, when the Sabbath came (which the negroes usually make their holiday) I was much inclined to go to public worship, I was obliged to hire some black men to help to pull a boat across the water to God in quest of this gentleman."
+    },
+    {
+      "id": 9,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "If pressured into accepting an unjust or inferior payment because of his vulnerable position, what kind of treatment would he likely endure?",
+      "held_out_passage": "When I found him, after much entreaty, both from myself and my worthy captain, he at last paid me in dollars; some of them, however, were copper, and of consequence of no value; but he took advantage of my being a negro man, and obliged me to put up with those or none, although I objected to them."
+    },
+    {
+      "id": 10,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "If suddenly threatened with violent punishment by hostile strangers without fair hearing, how would he most likely react to protect himself?",
+      "held_out_passage": "Immediately after, as I was trying to pass them in the market, amongst other white men, I was abused for offering to pass bad coin; and, though I shewed them the man I got them from, I was within one minute of being tied up and flogged without either judge or jury; however, by the help of a good pair of heels, I ran off, and so escaped the bastinadoes I should have received."
+    },
+    {
+      "id": 11,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "When stranded companions were suffering from a basic necessity, would he press rescuers to go first to relieve those left behind rather than focus only on his own immediate safety?",
+      "held_out_passage": "We told the people of the wrecker the condition of our vessel, and we made the same agreement with them as the schooner's people; and, on their complying, we begged of them to go to our key directly, because our people were in want of water."
+    },
+    {
+      "id": 12,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "If a practical bargain with strangers offered the best chance of preserving lives and recovering property, would he readily make that agreement?",
+      "held_out_passage": "We told the people of the wrecker the condition of our vessel, and we made the same agreement with them as the schooner's people;"
+    },
+    {
+      "id": 13,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When rescue created limits on space and provisions, would he accept leaving some work and equipment behind in order to secure survival for the larger group?",
+      "held_out_passage": "they therefore hired the schooner's people to work on our wreck, and we left them our boat, and embarked for New Providence."
+    },
+    {
+      "id": 14,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "In recounting an unexpected escape from danger, would he interpret the event as a special mercy of Providence rather than mere luck alone?",
+      "held_out_passage": "All the swearers on board now began to call on the God of Heaven to assist them: and, sure enough, beyond our comprehension he did assist us, and in a miraculous manner delivered us!"
+    },
+    {
+      "id": 15,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "Under extreme danger at sea, would he describe even hardened or irreligious people turning to prayer?",
+      "held_out_passage": "All the swearers on board now began to call on the God of Heaven to assist them:"
+    },
+    {
+      "id": 16,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "When others around him lost courage in a crisis, would he emphasize how death seemed imminent and how fear overcame the company?",
+      "held_out_passage": "Here we expected every minute that she would have gone to pieces, and each moment to be our last; so much so that my old captain and sickly useless mate, and several others, fainted; and death stared us in the face on every side."
+    },
+    {
+      "id": 17,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "If survival depended on a hazardous attempt by a few capable people, would he admire and highlight their bravery in vivid terms?",
+      "held_out_passage": "and these two intrepid water heroes paddled away for life towards the buoy of the anchor."
+    },
+    {
+      "id": 18,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "When ordinary means failed in an emergency, would he support an improvised plan using whatever tools and skills were available?",
+      "held_out_passage": "A coil of very small rope, with a little buoy, was put in along with them; and, at last, with great hazard, they got the punt clear from the vessel; and these two intrepid water heroes paddled away for life towards the buoy of the anchor."
+    },
+    {
+      "id": 19,
+      "tier": "behavioral_prediction",
+      "category": "change_over_time",
+      "text": "After deliverance from severe danger, would he portray the emotional shift from despair to renewed spirits among the group?",
+      "held_out_passage": "Those whose strength and senses were gone came to themselves, and were now as elated as they were before depressed."
+    },
+    {
+      "id": 20,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "Once immediate danger had passed, would he turn quickly to practical repair and resourcefulness in order to continue the journey?",
+      "held_out_passage": "The punt then went on shore, and we cut down some trees; and having found our mast and mended it we brought it on board, and fixed it up. As soon as we had done this we got up the anchor, and away we went once more for New Providence"
+    },
+    {
+      "id": 21,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "When overwhelmed by guilt and inward distress, would he be more likely to seek comfort in worldly diversions or in religious reading and submission to Providence?",
+      "held_out_passage": "All this appeared to be against me, and the only comfort I then experienced was, in reading the holy scriptures, where I saw that 'there is no new thing under the sun,' Eccles. i. 9; and what was appointed for me I must submit to."
+    },
+    {
+      "id": 22,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "If he believed his circumstances were worsening and his plans were frustrated, would he tend to form a resolution to leave his current situation entirely?",
+      "held_out_passage": "I was again determined to go to Turkey, and resolved, at that time, never more to return to England."
+    },
+    {
+      "id": 23,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "When troubled by moral and spiritual anxiety, would he interpret vivid dreams or night experiences in religious terms?",
+      "held_out_passage": "In these severe conflicts the Lord answered me by awful 'visions of the night, when deep sleep falleth upon men, in slumberings upon the bed,' Job xxxiii. 15. He was pleased, in much mercy, to give me to see, and in some measure to understand, the great and awful scene of the judgment-day, that 'no unclean person, no unholy thing, can enter into the kingdom of God,' Eph. v. 5."
+    },
+    {
+      "id": 24,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "If he felt he had sinned grievously, would he respond with repentance and direct prayer for mercy and amendment?",
+      "held_out_passage": "I then requested the divine Creator that he would grant me a small space of time to repent of my follies and vile iniquities, which I felt were grievous."
+    },
+    {
+      "id": 25,
+      "tier": "behavioral_prediction",
+      "category": "change_over_time",
+      "text": "After believing he had received divine mercy, would he make a specific personal vow concerning his speech and conduct?",
+      "held_out_passage": "This was the first spiritual mercy I ever was sensible of, and being on praying ground, as soon as I recovered a little strength, and got out of bed and dressed myself, I invoked Heaven from my inmost soul, and fervently begged that God would never again permit me to blaspheme his most holy name."
+    },
+    {
+      "id": 26,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Would he judge his abilities as something entrusted for a higher purpose rather than merely for personal advantage?",
+      "held_out_passage": "I felt that I was altogether unholy, and saw clearly what a bad use I had made of the faculties I was endowed with; they were given me to glorify God with; I thought, therefore, I had better want them here, and enter into life eternal, than abuse them and be cast into hell fire."
+    },
+    {
+      "id": 27,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "If dissatisfied with the moral character of the people around him, would he actively seek out more devout companions and guidance?",
+      "held_out_passage": "I prayed to be directed, if there were any holier than those with whom I was acquainted, that the Lord would point them out to me."
+    },
+    {
+      "id": 28,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "When living among people whose behavior offended his conscience, would he withdraw from that environment rather than remain comfortably in it?",
+      "held_out_passage": "At length I hated the house in which I lodged, because God's most holy name was blasphemed in it; then I saw the word of God verified, viz. 'Before they call, I will answer; and while they are yet speaking, I will hear.' I had a great desire to read the bible the whole day at home; but not having a convenient place for retirement, I left the house in the day, rather than stay amongst the wicked ones;"
+    },
+    {
+      "id": 29,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "If he encountered an experienced and pious stranger who spoke deeply about religion, would he respond with eager questioning and receptiveness?",
+      "held_out_passage": "and that day as I was walking, it pleased God to direct me to a house where there was an old sea-faring man, who experienced much of the love of God shed abroad in his heart. He began to discourse with me; and, as I desired to love the Lord, his conversation rejoiced me greatly; and indeed I had never heard before the love of Christ to believers set forth in such a manner, and in so clear a point of view. Here I had more questions to put to the man than his time would permit him to answer;"
+    },
+    {
+      "id": 30,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "When asked about his religious practice by someone more doctrinally precise, would he answer plainly from his own understanding even if he did not fully grasp the terms being used?",
+      "held_out_passage": "he joined our discourse, and asked me some few questions; among others, where I heard the gospel preached. I knew not what he meant by hearing the gospel; I told him I had read the gospel: and he asked where I went to church, or whether I went at all or not. To which I replied, 'I attended St. James's, St. Martin's, and St. Ann's, Soho;'--'So,' said he, 'you are a churchman.' I answered, I was."
+    },
+    {
+      "id": 31,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "When encountering a communal feast whose food preparation and customs seemed unclean or morally unsettling to him, how would he most likely react internally and immediately afterward?",
+      "held_out_passage": "I was much surprised at this, and went home, not a little disgusted at the preparations."
+    },
+    {
+      "id": 32,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "If invited to a social celebration among people whose music and dancing differed greatly from what he admired, how would he likely judge those performances?",
+      "held_out_passage": "and the musical instruments were nearly the same as those of any other sable people; but, as I thought, much less melodious than any other nation I ever knew. They had many curious gestures in dancing, and a variety of motions and postures of their bodies, which to me were in no wise attracting."
+    },
+    {
+      "id": 33,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "When surrounded by practices he regarded as spiritually wrong, how would he interpret later misfortune affecting the group?",
+      "held_out_passage": "I thought this was in some measure a judgment upon us for working on Sundays, and it hurt my mind very much."
+    },
+    {
+      "id": 34,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "If his living situation came to feel religiously troubling and personally burdensome, what course of action would he likely begin to desire?",
+      "held_out_passage": "I often wished to leave this place and sail for Europe; for our mode of procedure and living in this heathenish form was very irksome to me."
+    },
+    {
+      "id": 35,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "When conscience pressed heavily on him but he felt hesitant to speak to a superior, how would he eventually handle the matter?",
+      "held_out_passage": "This was much and heavily impressed on my mind; and, though I did not know how to speak to the Doctor for my discharge, it was disagreeable for me to stay any longer. But about the middle of June I took courage enough to ask him for it."
+    },
+    {
+      "id": 36,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "If he wanted to leave a position but his superior resisted at first, how would he most likely try to obtain permission?",
+      "held_out_passage": "He was very unwilling at first to grant my request; but I gave him so many reasons for it, that at last he consented to my going"
+    },
+    {
+      "id": 37,
+      "tier": "behavioral_prediction",
+      "category": "career",
+      "text": "What kind of reputation would he be likely to earn from an employer after years of faithful service?",
+      "held_out_passage": "'The bearer, Gustavus Vassa, has served me several years with strict honesty, sobriety, and fidelity. I can, therefore, with justice recommend him for these qualifications; and indeed in every respect I consider him as an excellent servant. I do hereby certify that he always behaved well, and that he is perfectly trust-worthy.'"
+    },
+    {
+      "id": 38,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "Even after forming a strong attachment to a superior, how would he likely feel once granted leave to depart from an environment he found troubling?",
+      "held_out_passage": "Though I was much attached to the doctor, I was happy when he consented."
+    },
+    {
+      "id": 39,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How would those under his care most likely respond if they learned he was leaving, given his usual manner toward them?",
+      "held_out_passage": "All my poor countrymen, the slaves, when they heard of my leaving them, were very sorry, as I had always treated them with care and affection, and did every thing I could to comfort the poor creatures, and render their condition easy."
+    }
+  ]
+}

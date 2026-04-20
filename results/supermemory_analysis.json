@@ -1,0 +1,20 @@
+{
+  "system": "supermemory",
+  "run_id": "20260415",
+  "subjects": {
+    "babur": {
+      "c1_avg": 2.03,
+      "c3_avg": 2.08,
+      "improvement_pct": 2.5,
+      "c1_n": 117,
+      "c3_n": 117,
+      "display_name": "Babur"
+    }
+  },
+  "overall": {
+    "c1_avg": 2.03,
+    "c3_avg": 2.08,
+    "c1_n": 117,
+    "c3_n": 117
+  }
+}

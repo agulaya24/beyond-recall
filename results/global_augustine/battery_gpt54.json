@@ -1,0 +1,283 @@
+{
+  "metadata": {
+    "subject": "Saint Augustine",
+    "model": "gpt-5.4",
+    "method": "backward_design",
+    "count": 39
+  },
+  "questions": [
+    {
+      "id": 1,
+      "tier": "behavioral_prediction",
+      "category": "career",
+      "text": "When he believes he is being freed from a worldly occupation and redirected toward God, how is he most likely to respond emotionally and spiritually?",
+      "held_out_passage": "Now was the day come wherein I was in deed to be freed of my Rhetoric Professorship, whereof in thought I was already freed. And it was done. Thou didst rescue my tongue, whence Thou hadst before rescued my heart. And I blessed Thee, rejoicing; retiring with all mine to the villa."
+    },
+    {
+      "id": 2,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "If he enters a quieter period after leaving behind prideful public work, what kind of use is he most likely to make of his writing?",
+      "held_out_passage": "What I there did in writing, which was now enlisted in Thy service, though still, in this breathing-time as it were, panting from the school of pride, my books may witness, as well what I debated with others, as what with myself alone, before Thee:"
+    },
+    {
+      "id": 3,
+      "tier": "behavioral_prediction",
+      "category": "change_over_time",
+      "text": "How does he tend to interpret inner correction and the humbling of his former self-exaltation?",
+      "held_out_passage": "For my remembrance recalls me, and pleasant is it to me, O Lord, to confess to Thee, by what inward goads Thou tamedst me; and how Thou hast evened me, lowering the mountains and hills of my high imaginations, straightening my crookedness, and smoothing my rough ways;"
+    },
+    {
+      "id": 4,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "When someone close to him resists explicitly Christian expression in shared intellectual work, what outcome would he welcome?",
+      "held_out_passage": "and how Thou also subduedst the brother of my heart, Alypius, unto the name of Thy Only Begotten, our Lord and Saviour Jesus Christ, which he would not at first vouchsafe to have inserted in our writings. For rather would he have them savour of the lofty cedars of the Schools, which the Lord hath now broken down, than of the wholesome herbs of the Church, the antidote against serpents."
+    },
+    {
+      "id": 5,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "What effect do sacred songs and prayers most likely have on him when he reads them in a state of new devotion?",
+      "held_out_passage": "Oh, in what accents spake I unto Thee, my God, when I read the Psalms of David, those faithful songs, and sounds of devotion, which allow of no swelling spirit, as yet a Catechumen, and a novice in Thy real love, resting in that villa, with Alypius a Catechumen, my mother cleaving to us, in female garb with masculine faith, with the tranquillity of age, motherly love, Christian piety! Oh, what accents did I utter unto Thee in those Psalms, and how was I by them kindled towards Thee, and on fire to rehearse them, if possible, through the whole world, against the pride of mankind!"
+    },
+    {
+      "id": 6,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "How is he likely to react toward people he believes are trapped in serious religious error?",
+      "held_out_passage": "With what vehement and bitter sorrow was I angered at the Manichees! and again I pitied them, for they knew not those Sacraments, those medicines, and were mad against the antidote which might have recovered them of their madness."
+    },
+    {
+      "id": 7,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "If he wants opponents to encounter his deepest convictions authentically, under what conditions would he prefer they hear him?",
+      "held_out_passage": "How I would they had then been somewhere near me, and without my knowing that they were there, could have beheld my countenance, and heard my words, when I read the fourth Psalm in that time of my rest, and how that Psalm wrought upon me: When I called, the God of my righteousness heard me; in tribulation Thou enlargedst me. Have mercy upon me, O Lord, and hear my prayer. Would that what I uttered on these words, they could hear, without my knowing whether they heard, lest they should think I spake it for their sakes! Because in truth neither should I speak the same things, nor in the same way, if I perceived that they heard and saw me; nor if I spake them would they so receive them, as when I spake by and for myself before Thee, out of the natural feelings of my soul."
+    },
+    {
+      "id": 8,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "When confronted by words that expose his former errors, what mixed emotional response is he most likely to experience before God?",
+      "held_out_passage": "I trembled for fear, and again kindled with hope, and with rejoicing in Thy mercy, O Father; and all issued forth both by mine eyes and voice, when Thy good Spirit turning unto us, said, O ye sons of men, how long slow of heart? why do ye love vanity, and seek after leasing? For I had loved vanity, and sought after leasing."
+    },
+    {
+      "id": 9,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How does he interpret his past attachment to falsehood once he comes to believe divine truth has been revealed?",
+      "held_out_passage": "He cries out, How long? He cries out, Know this: and I so long, not knowing, loved vanity, and sought after leasing: and therefore I heard and trembled, because it was spoken unto such as I remembered myself to have been. For in those phantoms which I had held for truths, was there vanity and leasing;"
+    },
+    {
+      "id": 10,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "After recognizing his past wrongdoing, what practical moral stance does he adopt toward his own anger and future conduct?",
+      "held_out_passage": "I further read, Be angry, and sin not. And how was I moved, O my God, who had now learned to be angry at myself for things past, that I might not sin in time to come!"
+    },
+    {
+      "id": 11,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "When reflecting on the search for the highest good, would he treat that search as something tied to God rather than merely bodily well-being?",
+      "held_out_passage": "How then do I seek Thee, O Lord? For when I seek Thee, my God, I seek a happy life. I will seek Thee, that my soul may live. For my body liveth by my soul; and my soul by Thee."
+    },
+    {
+      "id": 12,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "If he cannot fully explain how people know the good they desire, would he openly admit perplexity rather than pretend certainty?",
+      "held_out_passage": "They have known it then, I know not how, and so have it by some sort of knowledge, what, I know not, and am perplexed whether it be in the memory, which if it be, then we have been happy once;"
+    },
+    {
+      "id": 13,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "When considering a universal human desire, would he argue that people must already possess some inward awareness of it in order to love it?",
+      "held_out_passage": "For neither should we love it, did we not know it."
+    },
+    {
+      "id": 14,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "Would he expect all people, regardless of language or culture, to agree in desiring blessedness?",
+      "held_out_passage": "Known therefore it is to all, for they with one voice be asked, \"would they be happy?\" they would answer without doubt, \"they would.\""
+    },
+    {
+      "id": 15,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "When distinguishing kinds of knowledge, would he deny that the deepest good is known through bodily sight like a physical object?",
+      "held_out_passage": "But is it so, as one remembers Carthage who hath seen it? No. For a happy life is not seen with the eye, because it is not a body."
+    },
+    {
+      "id": 16,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "If comparing inner joy with external sensory experience, would he rely on inward mental experience rather than the bodily senses?",
+      "held_out_passage": "As then we remember joy? Perchance; for my joy I remember, even when sad, as a happy life, when unhappy; nor did I ever with bodily sense see, hear, smell, taste, or touch my joy; but I experienced it in my mind, when I rejoiced;"
+    },
+    {
+      "id": 17,
+      "tier": "behavioral_prediction",
+      "category": "change_over_time",
+      "text": "When recalling past pleasures that were morally corrupt, would he respond with condemnation and rejection rather than nostalgia?",
+      "held_out_passage": "For even from foul things have I been immersed in a sort of joy; which now recalling, I detest and execrate;"
+    },
+    {
+      "id": 18,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "When remembering former joys connected with good things that are now absent, would he feel longing mixed with sadness?",
+      "held_out_passage": "otherwhiles in good and honest things, which I recall with longing, although perchance no longer present; and therefore with sadness I recall former joy."
+    },
+    {
+      "id": 19,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "If trying to recover something forgotten, would he reject irrelevant thoughts until the fitting one returns from memory?",
+      "held_out_passage": "For instance, if we see or think of some one known to us, and having forgotten his name, try to recover it; whatever else occurs, connects itself not therewith; because it was not wont to be thought upon together with him, and therefore is rejected, until that present itself, whereon the knowledge reposes equably as its wonted object."
+    },
+    {
+      "id": 20,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "Would he hold that a person cannot even search for what has been completely erased from memory?",
+      "held_out_passage": "What then we have utterly forgotten, though lost, we cannot even seek after."
+    },
+    {
+      "id": 21,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "When he reaches the limits of his understanding about a difficult subject, how is he most likely to respond?",
+      "held_out_passage": "I ask, Father, I affirm not: O my God, rule and guide me."
+    },
+    {
+      "id": 22,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "If he is pursuing a subtle question and remains uncertain, what will he likely ask for before continuing?",
+      "held_out_passage": "Permit me, Lord, to seek further. O my hope, let not my purpose be confounded."
+    },
+    {
+      "id": 23,
+      "tier": "behavioral_prediction",
+      "category": "change_over_time",
+      "text": "How is he likely to treat common teachings learned in youth when deeper reflection makes him question them?",
+      "held_out_passage": "\"Who will tell me that there are not three times (as we learned when boys, and taught boys), past, present, and future; but present only, because those two are not?"
+    },
+    {
+      "id": 24,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "When speaking about matters beyond his certainty, does he tend to state conclusions boldly or with humility and qualification?",
+      "held_out_passage": "Whether there be a like cause of foretelling things to come also; that of things which as yet are not, the images may be perceived before, already existing, I confess, O my God, I know not."
+    },
+    {
+      "id": 25,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "If he notices a pattern in ordinary experience that may explain a harder spiritual or philosophical issue, what kind of move is he likely to make?",
+      "held_out_passage": "This indeed I know, that we generally think before on our future actions, and that that forethinking is present, but the action whereof we forethink is not yet, because it is to come."
+    },
+    {
+      "id": 26,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "When trying to explain how people speak truly about what has already passed away, where is he most likely to locate the basis for that knowledge?",
+      "held_out_passage": "Although when past facts are related, there are drawn out of the memory, not the things themselves which are past, but words which, conceived by the images of the things, they, in passing, have through the senses left as traces in the mind."
+    },
+    {
+      "id": 27,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "How does he tend to react when confronting a mystery that seems too great for human understanding alone?",
+      "held_out_passage": "Too far is this way of my ken: it is too mighty for me, I cannot attain unto it; but from Thee I can, when Thou shalt vouchsafe it, O sweet light of my hidden eyes."
+    },
+    {
+      "id": 28,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "When he wants to test an abstract claim, is he more likely to stay purely theoretical or to introduce a concrete example?",
+      "held_out_passage": "Let now the numerous variety of things furnish me some example. I behold the day-break, I foreshow, that the sun, is about to rise."
+    },
+    {
+      "id": 29,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "If he believes ordinary language is imprecise but still useful, how will he likely handle that tension?",
+      "held_out_passage": "Let it be said too, \"there be three times, past, present, and to come\": in our incorrect way. See, I object not, nor ga"
+    },
+    {
+      "id": 30,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "When considering how hidden knowledge might be given to human beings, to whom does he ultimately attribute that power?",
+      "held_out_passage": "Thou then, Ruler of Thy creation, by what way dost Thou teach souls things to come? For Thou didst teach Thy Prophets."
+    },
+    {
+      "id": 31,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "When faced with a difficult question about the order of creation, how would he likely respond to a simplistic objection that assumes one thing must have been made first and another afterward?",
+      "held_out_passage": "d made this first, what made He afterwards?\" and after the universe, he will find nothing; whereupon must he against his will hear another question; \"How did God make this first, if nothing after?\" But when he says, God made matter first formless, then formed, there is no absurdity, if he be but qualified to discern, what precedes by eternity, what by time, what by choice, and what in original."
+    },
+    {
+      "id": 32,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How does he tend to handle subtle distinctions when explaining divine matters that are hard to understand?",
+      "held_out_passage": "Of these four, the first and last mentioned, are with extreme difficulty understood, the two middle, easily. For a rare and too lofty a vision is it, to behold Thy Eternity, O Lord, unchangeably making things changeable; and thereby before them."
+    },
+    {
+      "id": 33,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "If he wanted to teach a difficult abstract idea, would he be likely to use an analogy drawn from ordinary experience?",
+      "held_out_passage": "And who, again, is of so sharp-sighted understanding, as to be able without great pains to discern, how the sound is therefore before the tune; because a tune is a formed sound; and a thing not formed, may exist; whereas that which existeth not, cannot be formed."
+    },
+    {
+      "id": 34,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When analyzing whether one thing comes before another, what kind of careful reasoning would he likely apply instead of assuming only a time sequence?",
+      "held_out_passage": "Thus is the matter before the thing made; not because it maketh it, seeing itself is rather made; nor is it before by interval of time; for we do not first in time utter formless sounds without singing, and subsequently adapt or fashion them into the form of a chant, as wood or silver, whereof a chest or vessel is fashioned."
+    },
+    {
+      "id": 35,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "How would he likely react to the challenge of explaining something that cannot easily be described in ordinary temporal terms?",
+      "held_out_passage": "Yet was it not made first in time; because the forms of things give rise to time; but that was without form, but now is, in time, an object of sense together with its form. And yet nothing can be related of that matter, but as though prior in time, whereas in value it is last"
+    },
+    {
+      "id": 36,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "When multiple interpretations seem true, what attitude would he most likely take toward preserving unity?",
+      "held_out_passage": "In this diversity of the true opinions, let Truth herself produce concord. And our God have mercy upon us, that we may use the law lawfully, the end of the commandment, pure charity."
+    },
+    {
+      "id": 37,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "If asked to identify with certainty which interpretation an inspired writer intended, how likely is he to admit uncertainty?",
+      "held_out_passage": "By this if man demands of me, \"which of these was the meaning of Thy servant Moses\"; this were not the language of my Confessions, should I not confess unto Thee, \"I know not\"; and yet I know that those senses are true, those carnal ones excepted, of which I have spoken what seemed necessary."
+    },
+    {
+      "id": 38,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How does he tend to regard less mature readers who understand sacred words in a simpler way?",
+      "held_out_passage": "And even those hopeful little ones who so think, have this benefit, that the words of Thy Book affright them not, delivering high things lowlily, and with few words a copious meaning."
+    },
+    {
+      "id": 39,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "When he and others all perceive truth in sacred words, what shared response does he encourage among them?",
+      "held_out_passage": "And all we who, I confess, see and express the truth delivered in those words, let us love one another, and jointly love Thee our God, the fountain of truth, if we are athirst for it, and not for vanities;"
+    }
+  ]
+}

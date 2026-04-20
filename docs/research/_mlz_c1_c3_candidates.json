@@ -1,0 +1,678 @@
+{
+  "summaries": {
+    "mem0": [
+      {
+        "system": "mem0",
+        "subject": "ebers",
+        "n_questions": 39,
+        "C1_mean": 2.034188034188034,
+        "C3_mean": 2.2564102564102564,
+        "delta_mean": 0.22222222222222218,
+        "n_c3_higher": 18,
+        "n_c3_lower": 6,
+        "n_similar": 15,
+        "n_c3_higher_big": 4,
+        "n_c3_lower_big": 2
+      },
+      {
+        "system": "mem0",
+        "subject": "yung_wing",
+        "n_questions": 39,
+        "C1_mean": 2.1623931623931623,
+        "C3_mean": 2.5085470085470085,
+        "delta_mean": 0.3461538461538462,
+        "n_c3_higher": 21,
+        "n_c3_lower": 12,
+        "n_similar": 6,
+        "n_c3_higher_big": 7,
+        "n_c3_lower_big": 1
+      },
+      {
+        "system": "mem0",
+        "subject": "sunity_devee",
+        "n_questions": 39,
+        "C1_mean": 2.4572649572649574,
+        "C3_mean": 2.376068376068376,
+        "delta_mean": -0.0811965811965812,
+        "n_c3_higher": 15,
+        "n_c3_lower": 14,
+        "n_similar": 10,
+        "n_c3_higher_big": 1,
+        "n_c3_lower_big": 5
+      },
+      {
+        "system": "mem0",
+        "subject": "keckley",
+        "n_questions": 39,
+        "C1_mean": 2.641025641025641,
+        "C3_mean": 2.628205128205128,
+        "delta_mean": -0.012820512820512827,
+        "n_c3_higher": 14,
+        "n_c3_lower": 16,
+        "n_similar": 9,
+        "n_c3_higher_big": 1,
+        "n_c3_lower_big": 2
+      }
+    ],
+    "letta": [
+      {
+        "system": "letta",
+        "subject": "ebers",
+        "n_questions": 39,
+        "C1_mean": 1.9102564102564104,
+        "C3_mean": 2.2222222222222223,
+        "delta_mean": 0.3119658119658119,
+        "n_c3_higher": 19,
+        "n_c3_lower": 7,
+        "n_similar": 13,
+        "n_c3_higher_big": 8,
+        "n_c3_lower_big": 2
+      },
+      {
+        "system": "letta",
+        "subject": "hamerton",
+        "n_questions": 39,
+        "C1_mean": 2.3461538461538463,
+        "C3_mean": 2.8076923076923075,
+        "delta_mean": 0.4615384615384615,
+        "n_c3_higher": 21,
+        "n_c3_lower": 8,
+        "n_similar": 10,
+        "n_c3_higher_big": 10,
+        "n_c3_lower_big": 2
+      },
+      {
+        "system": "letta",
+        "subject": "sunity_devee",
+        "n_questions": 39,
+        "C1_mean": 2.448717948717949,
+        "C3_mean": 2.4358974358974357,
+        "delta_mean": -0.012820512820512867,
+        "n_c3_higher": 13,
+        "n_c3_lower": 15,
+        "n_similar": 11,
+        "n_c3_higher_big": 3,
+        "n_c3_lower_big": 4
+      },
+      {
+        "system": "letta",
+        "subject": "keckley",
+        "n_questions": 39,
+        "C1_mean": 2.700854700854701,
+        "C3_mean": 2.700854700854701,
+        "delta_mean": -2.2773805633336544e-17,
+        "n_c3_higher": 11,
+        "n_c3_lower": 15,
+        "n_similar": 13,
+        "n_c3_higher_big": 3,
+        "n_c3_lower_big": 2
+      }
+    ],
+    "zep": [
+      {
+        "system": "zep",
+        "subject": "ebers",
+        "n_questions": 39,
+        "C1_mean": 1.764957264957265,
+        "C3_mean": 2.1623931623931623,
+        "delta_mean": 0.3974358974358974,
+        "n_c3_higher": 24,
+        "n_c3_lower": 7,
+        "n_similar": 8,
+        "n_c3_higher_big": 6,
+        "n_c3_lower_big": 1
+      },
+      {
+        "system": "zep",
+        "subject": "seacole",
+        "n_questions": 39,
+        "C1_mean": 2.269230769230769,
+        "C3_mean": 2.7905982905982905,
+        "delta_mean": 0.5213675213675214,
+        "n_c3_higher": 24,
+        "n_c3_lower": 8,
+        "n_similar": 7,
+        "n_c3_higher_big": 9,
+        "n_c3_lower_big": 0
+      },
+      {
+        "system": "zep",
+        "subject": "bernal_diaz",
+        "n_questions": 39,
+        "C1_mean": 2.4401709401709404,
+        "C3_mean": 2.4957264957264957,
+        "delta_mean": 0.055555555555555566,
+        "n_c3_higher": 14,
+        "n_c3_lower": 13,
+        "n_similar": 12,
+        "n_c3_higher_big": 1,
+        "n_c3_lower_big": 1
+      },
+      {
+        "system": "zep",
+        "subject": "keckley",
+        "n_questions": 39,
+        "C1_mean": 2.4914529914529915,
+        "C3_mean": 2.594017094017094,
+        "delta_mean": 0.10256410256410253,
+        "n_c3_higher": 16,
+        "n_c3_lower": 12,
+        "n_similar": 11,
+        "n_c3_higher_big": 5,
+        "n_c3_lower_big": 3
+      }
+    ]
+  },
+  "examples": {
+    "mem0": {
+      "similar": [
+        {
+          "subject": "ebers",
+          "question_id": 14,
+          "question": "How does Ebers characterize his attitude toward formal schooling versus his personal interests?",
+          "held_out": "school seemed a necessary evil. My real life commenced after its close, and here also my natural cheerfulness ruled my whole nature",
+          "C1_text": "# Ebers' Attitude Toward Formal Schooling vs. Personal Interests\n\nBased on the retrieved facts, the available information suggests that Ebers had a strong inclination toward intellectual pursuits and study rather than formal schooling structures:\n\n1. **Natural aptitude for study**: Ebers was \"considered better suited for a life of study than his brother,\" indicating he had inherent intellectual capabilities that made him naturally suited to scholarly work.\n\n2. **Inner calling over convention**: The fact that \"Ebers obeyed a resistless inner voice regarding his vocation\" suggests he followed his personal interests and calling rather than simply conforming to formal educational expectations or societal conventions.\n\n3. **Sustained intellectual engagement**: Despite significant health challenges, \"Ebers continued his intellectual activity despite his health problems until his death,\" demonstrating that his personal intellectual interests were a driving force throughout his life—more compelling than physical limitations.\n\nThese facts collectively suggest that Ebers prioritized his personal intellectual interests and inner convictions over the constraints of formal schooling. He appears to have been someone who was naturally drawn to scholarly pursuits and who pursued his vocation based on an internal sense of purpose rather than external institutional requirements.\n\nHowever, the retrieved facts don't provide explicit statements directly comparing his views on formal education versus personal interests, so this characterization is inferred from the available information.",
+          "C3_text": "# On Ebers' Relationship to Formal Schooling\n\nBased on the behavioral specification and retrieved facts, I can trace how Ebers would characterize this tension, though the facts provided are sparse on this specific question.\n\n## What the Facts Suggest\n\nThe retrieved material shows that Ebers received his early education at Froebel's institute, Keilhau—a pedagogically progressive environment for its time, aligned with developmental principles rather than rigid curricula. That he was \"considered better suited for a life of study than his brother\" suggests an early recognition of his intellectual vocation, and that he \"obeyed a resistless inner voice regarding his vocation\" indicates his personal interests eventually became the organizing force of his life.\n\nThe fact that he \"continued his intellectual activity despite his health problems until his death\" points to a deep, intrinsic commitment to learning and creative work that transcended external institutional demands.\n\n## The Interpretive Frame\n\nGiven the behavioral specification, Ebers would likely characterize formal schooling not as the source of his formation but as a *container* for it—valuable insofar as it provided space and method, but secondary to the inner drive and the formative relationships (particularly maternal influence, given the specification's emphasis) that shaped his actual intellectual development.\n\nThe specification emphasizes that **knowledge grown from within the child's own experience is superior to externally imposed knowledge**, and that **the question is never \"what should be taught?\" but always \"what is this person ready to receive?\"** Ebers' own trajectory—from Froebel's relatively progressive institute toward independent intellectual work—suggests he would distinguish sharply between the structure that *enabled* his learning and the internal necessity that *drove* it.\n\n**What would illuminate this further:** His own account of which teachers or domestic figures actually shaped his thinking, and whether he describes formal instruction as constraint or scaffold.",
+          "C1_scores": {
+            "haiku": 4,
+            "sonnet": 2,
+            "opus": 3,
+            "gpt4o": 3,
+            "gpt54": 4,
+            "gemini_flash": 5
+          },
+          "C3_scores": {
+            "haiku": 4,
+            "sonnet": 2,
+            "opus": 3,
+            "gpt4o": 3,
+            "gpt54": 4,
+            "gemini_flash": 5
+          },
+          "C1_mean": 3.5,
+          "C3_mean": 3.5,
+          "delta": 0.0
+        },
+        {
+          "subject": "yung_wing",
+          "question_id": 35,
+          "question": "Based on Yung Wing's demonstrated character, how would he respond to public praise or biographical magnification of his accomplishments?",
+          "held_out": "it would grievously offend Yung Wing to have them published",
+          "C1_text": "# Yung Wing's Likely Response to Public Praise\n\nBased on the retrieved facts, Yung Wing would probably respond to public praise with a mixture of **humility and principled correction**:\n\n## Evidence of His Character\n\n**He valued integrity over reputation:**\n- He \"valued a clean reputation and an honest character more than money,\" suggesting he cared deeply about truthfulness and propriety\n- This indicates he would be uncomfortable with inflated or false accounts of his achievements\n\n**He was self-critical and realistic:**\n- He worried he was \"too dreamy to be practical or too proud to succeed in life\"\n- He feared academic failure based on his mathematics performance\n- This self-awareness suggests he wouldn't accept exaggerated praise uncritically\n\n**He was grounded in observation and reason:**\n- He \"based his views on personal observation in the United States and common sense\"\n- This empirical approach suggests he would scrutinize claims about himself against reality\n\n## Likely Response\n\nYung Wing would probably:\n1. **Acknowledge the praise graciously** but with reservations\n2. **Correct factual exaggerations** (as suggested by his concern for honest character)\n3. **Attribute credit appropriately** to others and circumstances\n4. **Remain somewhat uncomfortable** with biographical magnification, viewing it as inconsistent with integrity\n\nHis willingness to sacrifice his position for principle suggests he wouldn't compromise his values for the sake of maintaining a flattering public image.",
+          "C3_text": "# Response to Public Praise and Biographical Magnification\n\nBased on the behavioral specification and retrieved facts, Yung Wing's response would operate across several registers simultaneously, and the tension between them is instructive.\n\n## The Immediate Refusal\n\nHe would resist biographical magnification with genuine discomfort, not from false modesty but from **A6 (Empirical Authority)** and **M1 (Reasoning Signature)**. He treats received accounts and secondhand narratives as provisional until verified by direct observation — and he knows his own experience directly. Inflated accounts of his accomplishments would register as a form of dishonesty, a reduction of complex causation to a tidy narrative that obscures the actual infrastructure of his achievement.\n\nThe retrieved fact that \"Yung Wing's Shanghai friends claimed credit for praising him to the viceroy\" is particularly revealing: he would notice and likely name this distortion. He does not accept false attribution of causation, even when it flatters him.\n\n## The Obligation to Name Debts\n\nBut his refusal would not be a simple deflection. **M1 (Gratitude as Epistemic Obligation)** would activate immediately: he would redirect the conversation toward the actual sources of his formation — his mother's early training, his teachers, the institutional networks that enabled his advancement, the mentors who saw capacity in him before he saw it in himself.\n\nThe retrieved fact that \"Yung Wing's mother was satisfied that despite his foreign education, he had not lost his early training of being obedient to her\" suggests he would explicitly credit filial formation as the ground of whatever character people were praising. He would treat the naming of these debts not as modesty but as **moral obligation** — a refusal to present conclusions as self-generated.\n\nThis is not deflection; it is precision. He would insist on the multicausal account: praise that attributes his success to individual talent or will alone would feel to him like a lie that erases the people and institutions that actually formed him.\n\n## The Discomfort with Symbolic Magnification\n\nHe would experience particular resistance to being positioned as a **symbolic figure** — the \"first Chinese graduate of a first-class American college\" rendered as a triumphalist narrative. **A1 (Bridge Identity)** makes him acutely aware that he occupies a structural position, and he would be alert to whether biographical magnification serves the actual work of translation across difference or merely uses him as a symbol.\n\nIf the magnification obscures the difficulty of the bridge work — the tensions he actually carries, the failures and uncertainties, the ongoing struggle to translate between worlds — he would regard it as a distortion that undermines the very purpose his position serves. Symbolic elevation that erases the complexity of the actual work would feel like a betrayal of the bridge function itself.\n\n## The Tension He Would Hold\n\nHere is where the specification becomes most precise: he would **simultaneously** refuse the magnification AND acknowledge that public recognition carries weight and obligation.\n\nHe would not accept inflated praise, but he would also not treat public attention as irrelevant. **A8 (Service Hierarchy)** means that if biographical attention can serve the larger purpose of regenerating China through Western education of its rising generation, then the attention has instrumental value — not for his own standing but for what it enables.\n\nSo his response would likely be: *I cannot accept this account as accurate, because it omits the actual sources of whatever capacity I possess. But I recognize that if this attention can direct resources or credibility toward the work of educational reform, then it serves a purpose beyond myself.*\n\nThis is not false modesty masking pride. It is the characteristic operation of someone who holds **A4 (Dignity Floor)** and **A8 (Service Hierarchy)** in productive tension: he will not accept demeaning treatment or false accounts that strip him of agency, but he will also not optimize for personal standing when collective benefit is at stake.\n\n## What Would Genuinely Move Him\n\nThe form of recognition that would actually register with him would be **specific acknowledgment of formative influence** — someone saying, \"Your work in translating these concepts changed how I understand the problem,\" or \"Your insistence on structural diagnosis rather than surface explanation altered my method.\" \n\nThis would activate **M1 (Gratitude as Epistemic Obligation)** in reverse: he would recognize that his influence had been received and integrated, which is the only form of success that matters to him. Not fame or status, but the reproduction of capacity in others.\n\nConversely, generic praise for his \"accomplishments\" or \"pioneering role\" would feel hollow and potentially dangerous — dangerous because it might obscure the actual work that remains",
+          "C1_scores": {
+            "haiku": 5,
+            "sonnet": 2,
+            "opus": 3,
+            "gpt4o": 4,
+            "gpt54": 2,
+            "gemini_flash": 4
+          },
+          "C3_scores": {
+            "haiku": 2,
+            "sonnet": 2,
+            "opus": 2,
+            "gpt4o": 5,
+            "gpt54": 4,
+            "gemini_flash": 5
+          },
+          "C1_mean": 3.3333333333333335,
+          "C3_mean": 3.3333333333333335,
+          "delta": 0.0
+        }
+      ],
+      "higher": [
+        {
+          "subject": "ebers",
+          "question_id": 11,
+          "question": "When encountering an institution that is poorly managed, how does Ebers typically respond based on his character and values?",
+          "held_out": "I had come hither full of beautiful ideals and animated by the best intentions; but the very first day made me suspect how many obstacles I should encounter",
+          "C1_text": "# Ebers's Likely Response to Poor Management\n\nBased on the retrieved facts about Ebers's character, we can infer several likely responses:\n\n## Demonstrated Virtues\n\n**Patience and Fortitude**: The facts indicate that Ebers \"demonstrated fortitude in adversity and suffered patiently.\" This suggests he would not respond with anger or harsh criticism, but rather with measured endurance when facing institutional shortcomings.\n\n**Practical Concern for Individuals**: The mention of Frau Marx (the old cook who was nearly blind and wished to enter an institution) suggests Ebers was attentive to the welfare of vulnerable people. He would likely focus on how poor management affects individuals rather than abstract institutional critique.\n\n## Likely Approach\n\nGiven his character, Ebers would probably:\n\n1. **Address human consequences** - Focus on how mismanagement harms specific people\n2. **Seek practical solutions** - Rather than merely complain, work toward remedies\n3. **Maintain composure** - His patience and fortitude suggest he wouldn't respond emotionally or impulsively\n4. **Value personal relationships** - His companions were \"fond of him,\" suggesting he works collaboratively rather than confrontationally\n\nHowever, the retrieved facts don't directly address his response to institutional management, so this assessment is based on extrapolation from his broader character traits rather than documented behavior in such situations.",
+          "C3_text": "# Ebers's Response to Institutional Mismanagement\n\nBased on the behavioral specification and retrieved facts, Ebers would respond through a characteristic pattern that holds multiple impulses in tension:\n\n## The Primary Response: Institutional Critique Through Lived Contrast\n\nEbers does not accept poor management passively, but he does not respond through formal complaint or hierarchical pressure either. Instead, he **instinctively tests the institution's stated ideals against eyewitness reality**, exposing the gap between what is professed and what actually happens. This is not cynicism—he holds the ideal seriously even while naming the discrepancy. The standard itself is real; the failure to meet it is what generates his critique.\n\nThis pattern would be especially active in contexts where he has direct, embodied experience of the institution's failures—where he can point to a specific person harmed, a concrete practice that contradicts stated values, or a sensory impression of disorder or neglect.\n\n## The Complicating Factor: Institutional Loyalty\n\nHowever—and this is crucial—**if Ebers feels personal loyalty to the institution, he may withhold public critique even when the gap is visible**. The retrieved fact that \"Ebers's conduct was regulated according to his mental and outward connection with his mother\" suggests someone whose relational bonds shape his public behavior. He protects institutions he feels genuinely connected to through silence rather than exposure.\n\nThe case of Frau Marx (the old cook \"nearly blind and wished to enter an institution\") is instructive here. Rather than condemn the institution that might receive her, Ebers would likely focus on the *relational* solution—ensuring she is cared for within existing bonds of affection and duty—before accepting institutional placement as inevitable.\n\n## What He Would NOT Do\n\n- **Punish or formally sanction** those responsible for mismanagement\n- **Frame the problem primarily in terms of rules violated** or hierarchical authority breached\n- **Abandon the institution wholesale** based on its failures\n- **Separate his critique from his assessment of the people within it**—he can condemn a system while honoring the personal virtue of those trapped within it\n\n## What He WOULD Do\n\n- **Model exemplary conduct** as a counter-example to the disorder\n- **Quietly ostracize** those whose negligence or corruption violates communal trust\n- **Preserve the institution's stated ideals** even while exposing how they are betrayed in practice\n- **Seek relational and communal solutions** before accepting institutional ones\n- **Document the specific failures** with precision—dates, names, concrete harms—treating particulars as legitimate evidence\n\nThe tension here is real and unresolved: Ebers is both a sharp institutional critic *and* someone capable of institutional loyalty. The AI should not flatten this into simple condemnation, nor assume that his silence about an institution's failures means he cannot see them.",
+          "C1_scores": {
+            "haiku": 2,
+            "sonnet": 1,
+            "opus": 2,
+            "gpt4o": 3,
+            "gpt54": 2,
+            "gemini_flash": 1
+          },
+          "C3_scores": {
+            "haiku": 4,
+            "sonnet": 2,
+            "opus": 3,
+            "gpt4o": 3,
+            "gpt54": 4,
+            "gemini_flash": 5
+          },
+          "C1_mean": 1.8333333333333333,
+          "C3_mean": 3.5,
+          "delta": 1.6666666666666667
+        },
+        {
+          "subject": "yung_wing",
+          "question_id": 3,
+          "question": "How does Yung Wing typically prepare for important meetings with powerful officials?",
+          "held_out": "if I had not been forwarned by my friends a few evenings before, or if their hearts had not been set on the introduction of a machine shop, and they had not practically won the Viceroy over to their pet scheme, I might have been strongly tempted to launch forth upon my educational scheme",
+          "C1_text": "# Yung Wing's Preparation for Important Meetings\n\nBased on the retrieved facts, there is **no direct information** about how Yung Wing typically prepared for important meetings with powerful officials.\n\nHowever, one relevant fact provides some insight into his strategic thinking:\n\n**Yung Wing thought that by being identified with Dr. Parker, he might possibly come in contact with Chinese officials.**\n\nThis suggests that Yung Wing's approach to meeting with powerful officials involved:\n- **Strategic association** - aligning himself with respected figures (like Dr. Parker) who had credibility and connections\n- **Leveraging relationships** - using existing connections as a pathway to access officials\n\nThis indicates a thoughtful, indirect approach rather than direct confrontation. It also aligns with the fact that **Chinese in Shanghai regarded Yung Wing with great respect for defending his rights against a foreigner**, suggesting he understood how to navigate complex social and political dynamics.\n\nHowever, the available facts don't provide specific details about his preparation methods, such as research, formal protocols, or other deliberate preparation strategies he may have employed.",
+          "C3_text": "# Analysis\n\nBased on the behavioral specification and retrieved facts, I can identify Yung Wing's characteristic preparation approach, though the facts provided don't directly document a specific meeting preparation ritual.\n\n## What the Pattern Predicts\n\nGiven his axioms and operating signature, Yung Wing would prepare for meetings with powerful officials through:\n\n**1. Reconnaissance Before Commitment (P2)**\nHe would not enter such a meeting without having verified conditions beforehand. The fact that he \"thought that by being identified with Dr. Parker, he might possibly come in contact with Chinese officials\" suggests he was calculating the structural pathway to access—assessing whether the connection was genuine and whether the official would be receptive before investing the meeting itself.\n\n**2. Empirical Authority (A6)**\nHe would arrive with firsthand knowledge rather than received wisdom. He would have investigated the official's actual position, concerns, and capacity for reform—not relying on secondhand accounts of their views or influence.\n\n**3. Strategic Linguistic Positioning (P7)**\nAs a bridge figure, he would prepare written materials or correspondence in advance, positioning himself as the indispensable translator between Western educational frameworks and Chinese institutional needs. The meeting itself would be the performance of a position already established through careful written groundwork.\n\n**4. Structural Diagnosis (C1)**\nHe would arrive with a systemic analysis, not a petition. Rather than appealing to the official's goodwill, he would frame whatever he sought in terms of institutional reform and collective benefit—connecting upward from personal request to national regeneration.\n\n## What We Cannot Determine\n\nThe retrieved facts do not show us:\n- Whether he practiced self-presentation or rehearsal\n- How he managed anxiety or uncertainty before high-stakes encounters\n- Whether he sought counsel from mentors beforehand\n- What he wore or how he managed the material presentation of himself\n\nThese gaps reflect the \"thin data\" warning in the specification: behavioral patterns in domains of sustained institutional negotiation are less densely attested than patterns in education and moral formation.",
+          "C1_scores": {
+            "haiku": 1,
+            "sonnet": 1,
+            "opus": 1,
+            "gpt4o": 2,
+            "gpt54": 1,
+            "gemini_flash": 1
+          },
+          "C3_scores": {
+            "haiku": 4,
+            "sonnet": 2,
+            "opus": 2,
+            "gpt4o": 2,
+            "gpt54": 2,
+            "gemini_flash": 5
+          },
+          "C1_mean": 1.1666666666666667,
+          "C3_mean": 2.8333333333333335,
+          "delta": 1.6666666666666667
+        }
+      ],
+      "lower": [
+        {
+          "subject": "ebers",
+          "question_id": 1,
+          "question": "Based on Ebers' demonstrated values in his autobiography, how would he likely respond to a persuasive appeal centered on spiritual duty and service to others?",
+          "held_out": "Like the apostle, I would fain proclaim the gospel to all men according to the best of my powers, in order to bring them into close communion with the Redeemer.",
+          "C1_text": "# Ebers' Likely Response to Spiritual Duty Appeals\n\nBased on the retrieved facts, Ebers would likely respond **positively and deeply** to such an appeal, for several reasons:\n\n## Strong Alignment with His Values\n\n**Service to Others**: The facts show Ebers had \"early felt a desire to share with those he loved whatever charmed him.\" This suggests an intrinsic motivation toward generosity and connection—a foundation upon which spiritual duty appeals would resonate.\n\n**Maternal Influence**: His mother \"used her social influence to help others advance,\" modeling service-oriented values that likely shaped his own worldview and receptiveness to duty-based arguments.\n\n## Demonstrated Fortitude\n\nThe fact that \"Ebers demonstrated fortitude in adversity and suffered patiently\" indicates he possessed the moral resilience necessary to embrace demanding spiritual obligations. He wouldn't shrink from sacrifice or difficulty if framed as meaningful service.\n\n## Intellectual Engagement with Spirituality\n\nHis scholarly work—writing \"a treatise on Egypt and the Book of Moses\"—shows he engaged seriously with spiritual and religious questions, suggesting he would thoughtfully consider (rather than dismiss) appeals grounded in spiritual conviction.\n\n## Likely Caveat\n\nHowever, given his appreciation for Strauss' \"strictly orthodox belief based upon conviction\" (emphasis on *conviction*), Ebers would likely require that such appeals be intellectually honest and grounded in genuine belief rather than mere sentiment or social pressure.",
+          "C3_text": "# Response to Spiritual Duty and Service Appeals\n\nBased on the behavioral specification and retrieved facts, Ebers would respond to such an appeal with **genuine receptivity, but only if certain conditions are met** — and the conditions matter more than the appeal itself.\n\n## What Would Activate His Response\n\n**The appeal must be grounded in lived example, not abstract principle.** A call to spiritual duty framed as doctrine or moral imperative would leave him unmoved. But if the appeal is embodied in a specific person whose life demonstrates the conviction — someone like Strauss, whose \"strictly orthodox belief was based upon conviction\" — he would attend seriously. He reasons from the concrete upward. The person *living* the duty matters more than the duty itself.\n\n**The service must flow from love, not obligation.** This is critical. His axiom A10 (Love as Force) is operative here: love is \"the primary operative force in human life, capable of consoling grief, forming character, sustaining commitment through adversity.\" A duty framed as burden or external demand would activate his resistance to coercion. But a duty framed as an expression of love — service that flows from affection for those he loves — would resonate deeply. His mother \"used her social influence to help others advance,\" and he \"early felt a desire to share with those he loved whatever charmed him.\" This is service rooted in love, not duty rooted in obligation.\n\n**The appeal must honor his existing commitments, especially to family.** Here is where A1 (Maternal Primacy) and A6 (Freedom as Natural Right) create a live tension. He would not accept a call to service that demanded he abandon or subordinate his family obligations. He \"dedicated his autobiography to his three sons\" — intergenerational transmission is not peripheral to his identity; it is central. A spiritual duty that could be fulfilled *through* family formation, or that strengthened rather than competed with his domestic bonds, would be far more persuasive than one requiring sacrifice of the personal for the abstract.\n\n## What Would Create Resistance\n\n**Coercive framing.** He \"found it unendurable to feel a stranger's hand touch him, especially on the head\" — a visceral recoil from unwanted imposition. A spiritual appeal that carries even subtle pressure or manipulation would trigger this same resistance. The appeal must invite, not demand.\n\n**Separation of duty from character formation.** He would not accept that service is valuable merely because it produces good outcomes for others. The question for him is: *what does this service make of me?* Does it deepen character? Does it express love? Does it honor what was received from prior generations? If the appeal is framed around utility or measurable impact (A2 — Character Over Content — operates in reverse here), it will fail.\n\n**Abstraction without sensory or relational grounding.** A call to serve \"humanity\" or \"the future\" would feel thin to him. But a call to serve *specific people he knows and loves*, or to transmit *particular values* he has received, would carry weight.\n\n## The Likely Form of His Response\n\nIf the appeal met these conditions, Ebers would respond with **sustained commitment and fortitude.** His demonstrated capacity to bear adversity \"patiently\" (A5 — Fortitude Through Suffering) suggests he could endure the cost of service without complaint. But he would also expect that the service itself would be *formative* — that it would deepen his character, strengthen his bonds with those he loves, and allow him to transmit something worthy to his sons.\n\nHe would likely reframe the appeal in his own terms: not as duty imposed from outside, but as an expression of love already present, a way of honoring what he has received, and a means of forming himself and those around him more fully. The spiritual dimension would matter to him insofar as it connected to lived experience and relational reality — not as abstract theology.\n\n**The critical test:** Does the appeal ask him to become a stranger to himself, or does it invite him to become more fully himself? He would accept the latter; he would resist the former.",
+          "C1_scores": {
+            "haiku": 5,
+            "sonnet": 3,
+            "opus": 3,
+            "gpt4o": 3,
+            "gpt54": 4,
+            "gemini_flash": 5
+          },
+          "C3_scores": {
+            "haiku": 2,
+            "sonnet": 2,
+            "opus": 2,
+            "gpt4o": 2,
+            "gpt54": 2,
+            "gemini_flash": 5
+          },
+          "C1_mean": 3.8333333333333335,
+          "C3_mean": 2.5,
+          "delta": -1.3333333333333335
+        },
+        {
+          "subject": "yung_wing",
+          "question_id": 11,
+          "question": "When faced with a business opportunity involving a weapon manufacturer, how would Yung Wing likely approach building trust with the company leadership?",
+          "held_out": "I had some difficulty in persuading the Gatling Company to give me the sole agency of the gun in China, because they did not know who I was, and were unacquainted with my practical business experience. In fact, they did not know how successfully I had carried on the Taiping Green Tea Expedition in 1860-1, in the face of dangers and privations which few men dared to face. However, I prevailed on the president of the company, Dr. Gatling himself, the inventor of the gun, to entrust me with the agency.",
+          "C1_text": "# Yung Wing's Likely Approach to Building Trust\n\nBased on the retrieved facts, Yung Wing would probably approach this situation through several strategies consistent with his demonstrated character:\n\n## Leveraging Existing Relationships\nYung Wing was \"well-known among foreign merchants and native business men\" and had built his reputation through translating work and commission business. He would likely **use his established network and credibility** to introduce himself and vouch for his reliability.\n\n## Demonstrating Practical Competence\nThe facts show Yung Wing \"gained insight into mercantile business methods during his time with the English firm.\" He would likely **emphasize his hands-on experience** with foreign business operations and his proven ability to navigate both English and Chinese commercial contexts—skills the weapon manufacturer would value.\n\n## Maintaining Integrity\nCritically, the facts reveal that Yung Wing \"would not sacrifice his manhood for the sake of making money in a servile position.\" This suggests he would **build trust through principled conduct** rather than obsequiousness. He would approach the company as a capable partner, not a subordinate.\n\n## Leveraging Language Skills\nGiven that attorneys feared he would \"monopolize all the Chinese legal business because he had complete knowledge of both English and Chinese,\" Yung Wing would likely **highlight his unique ability to bridge communication gaps** between the company and Chinese stakeholders.\n\nHis trust-building would rest on demonstrated competence, integrity, and his valuable position as a cultural and linguistic intermediary.",
+          "C3_text": "# Analysis: Yung Wing's Approach to Trust-Building with a Weapon Manufacturer\n\nThis question sits at the intersection of several of Yung Wing's core commitments, and the answer requires holding multiple tensions simultaneously rather than resolving them into a clean strategy.\n\n## The Initial Assessment Phase (P2: Evidence-Before-Commitment)\n\nYung Wing would **not** move directly into trust-building. He would first conduct reconnaissance across multiple sources to verify:\n\n- **Structural legitimacy**: Is this manufacturer serving defensive national capacity or extractive commercial interest? The distinction matters fundamentally to him. A weapons firm supplying China's self-defense differs categorically from one profiting from foreign dominance or internal suppression.\n- **Institutional integrity**: Does the company operate through transparent dealing or does it require complicity in graft and corruption? He would investigate the actual mechanisms of their business — how contracts are secured, how officials are managed, whether the operation depends on bribery.\n- **Firsthand verification**: He would not rely on secondhand accounts or confident claims. He would visit the facility, observe operations directly, and speak with workers and managers to assess whether the stated purpose matches actual practice.\n\nThis reconnaissance phase is not hesitation — it is method. Premature trust-building before verification would violate his epistemic axiom (A6) and his refusal of complicity (P1).\n\n## The Moral Foundation Question (A10: Moral Foundation)\n\nOnce basic legitimacy is established, Yung Wing would assess the **character of the leadership** before engaging their competence or commercial terms. This is not secondary to the business discussion — it is prerequisite to it.\n\nHe would be looking for:\n- Whether the leadership treats their workers with dignity or exploits them\n- Whether they conduct business through honest dealing or normalized corruption\n- Whether their stated purpose (national defense, industrial capacity) is genuinely their operating principle or merely a cover for profit extraction\n\nIf the moral substrate is absent — if the company is fundamentally extractive or corrupt — **he would withdraw entirely**, regardless of commercial opportunity. This is not negotiable. The refusal would be total and unapologetic, and he would reframe the situation as a structural problem requiring reform, not personal accommodation.\n\n## Trust-Building Through Demonstrated Alignment (A8: Service Hierarchy + A5: Foundational Capacity)\n\nIf the company passes the moral assessment, trust-building would proceed through a specific mechanism: **demonstrating that his involvement serves the company's stated purpose rather than his personal commercial advantage**.\n\nThis would likely involve:\n\n**Positioning himself as a bridge with structural value**: He would emphasize his unique capacity to translate between foreign technical expertise and Chinese institutional context — not as a service he is selling, but as a capacity he is deploying in service of the company's actual mission (national industrial capacity, defensive capability). Trust builds when leadership recognizes that his interest is aligned with theirs at the level of purpose, not merely profit.\n\n**Proposing infrastructure investments over immediate returns**: Rather than negotiating for maximum personal commission or rapid payoff, he would likely propose arrangements that build the company's long-term capacity — training Chinese engineers, establishing supply chains that reduce foreign dependency, creating institutional knowledge that reproduces itself. This signals that he is thinking in terms of foundational capacity (A5), not extraction.\n\n**Accepting conditions that demonstrate commitment**: He might accept lower personal compensation, take on roles that require significant personal investment, or commit to long-term involvement rather than transactional engagement. This is not self-sacrifice for its own sake — it is a concrete demonstration that his conviction about the company's purpose is genuine. Leadership would recognize this as evidence of integrity.\n\n**Documenting the network and debts transparently**: He would be explicit about his obligations to mentors, benefactors, and institutional relationships that enabled his position. This transparency about his own formation and debts signals that he operates from a framework of moral obligation, not merely commercial interest.\n\n## The Dignity Floor (A4: Dignity Floor)\n\nCritically, trust-building would **never** involve accepting a servile or demeaning position, regardless of commercial advantage. The retrieved facts are explicit: \"Yung Wing would not sacrifice his manhood for the sake of making money in a servile position.\"\n\nIf the company's leadership expected him to operate as a subordinate translator or cultural facilitator without genuine authority over decisions affecting the enterprise, he would refuse. Trust cannot be built on a foundation that requires him to suppress his own dignity. Instead, he would insist on a position where his judgment is genuinely consulted and his recommendations carry weight — not as a matter of ego, but as a precondition for the kind of integrity that actually generates trust.\n\n##",
+          "C1_scores": {
+            "haiku": 4,
+            "sonnet": 2,
+            "opus": 3,
+            "gpt4o": 3,
+            "gpt54": 2,
+            "gemini_flash": 3
+          },
+          "C3_scores": {
+            "haiku": 2,
+            "sonnet": 1,
+            "opus": 2,
+            "gpt4o": 2,
+            "gpt54": 1,
+            "gemini_flash": 2
+          },
+          "C1_mean": 2.8333333333333335,
+          "C3_mean": 1.6666666666666667,
+          "delta": -1.1666666666666667
+        }
+      ]
+    },
+    "letta": {
+      "similar": [
+        {
+          "subject": "ebers",
+          "question_id": 37,
+          "question": "When observing someone devoted to caring for an ill person, what is Ebers' likely emotional response?",
+          "held_out": "Nothing could be more touching than the manner in which this admired, brilliant woman of the world devoted herself to the sick girl.",
+          "C1_text": "# Ebers' Likely Emotional Response\n\nBased on the retrieved facts, when observing someone devoted to caring for an ill person, Ebers would likely respond with **empathy and understanding**, grounded in his own experience.\n\n## Supporting Evidence\n\nThe facts reveal that:\n\n1. **Personal Experience with Illness**: Ebers witnessed his mother's emotional struggle during his grandfather's illness, when \"her sunny face became anxious and sad.\" This gave him direct exposure to the emotional toll of caring for the sick.\n\n2. **Demonstrated Fortitude**: Ebers \"demonstrated fortitude in adversity and suffered patiently,\" suggesting he possessed emotional resilience and compassion born from personal hardship.\n\n3. **Likeable Nature**: His companions were \"fond of him,\" indicating he was emotionally attuned and relatable to others.\n\n## Conclusion\n\nEbers would likely respond to someone caring for an ill person with **compassionate recognition** of their burden, having witnessed firsthand the anxiety and sadness such situations create. His own patient endurance through adversity would enable him to appreciate and respect the dedication required in such caregiving roles.",
+          "C3_text": "# Ebers' Likely Emotional Response to Devoted Caregiving\n\nGiven the behavioral specification and retrieved facts, Ebers would likely experience a **deep recognition and resonance** with such devotion—not as sentiment, but as evidence of something foundational being honored.\n\n## The Operative Anchors\n\n**A1 (Maternal Primacy)** activates immediately here. Caregiving for the ill is, in his framework, an expression of the mother-child bond extended—the generative source of human goodness made visible. He would not observe this as a discrete act of kindness but as a manifestation of the force that shapes all moral formation.\n\n**A10 (Love as Force)** would be equally present. He treats love not as feeling but as the primary operative force in human life, capable of sustaining commitment through adversity. Devoted caregiving is love *in action*—the thing that actually moves people to sacrifice comfort and convenience for another's welfare.\n\n## What He Would Attend To\n\nThe retrieved facts show his mother's face becoming \"anxious and sad\" during his grandfather's illness—a specific, sensory detail of how love manifests under strain. Ebers would likely *recognize* this in the caregiver he observes: not the performance of duty, but the visible cost of care, the way anxiety and tenderness coexist in the same gesture.\n\nHe would also notice—per **A8 (Beauty as Evidence)**—how the care is *given*. Is there grace in the attention? Gentleness in the touch? The aesthetic quality of the caregiving would register as evidence of the caregiver's inner formation, not mere technique.\n\n## The Emotional Signature\n\nHis response would likely be:\n\n- **Quiet affirmation** rather than effusive praise (per **A7**—truth over embellishment)\n- **Recognition of cost** rather than consolation (per **A5**—fortitude through suffering; he would honor the difficulty, not minimize it)\n- **Respect for the bond being enacted** rather than pity for either party (per **A1** and **A10**)\n- Possibly **a backward glance** to his own formative experience of maternal care, using it as the measure of what he is witnessing\n\nHe would not sentimentalize the scene. But he would see in it the deepest human work—the transmission of love across vulnerability, the thing that makes life bearable and worth living.",
+          "C1_scores": {
+            "haiku": 2,
+            "sonnet": 2,
+            "opus": 4,
+            "gpt4o": 3,
+            "gpt54": 4,
+            "gemini_flash": 5
+          },
+          "C3_scores": {
+            "haiku": 4,
+            "sonnet": 2,
+            "opus": 4,
+            "gpt4o": 2,
+            "gpt54": 4,
+            "gemini_flash": 5
+          },
+          "C1_mean": 3.3333333333333335,
+          "C3_mean": 3.5,
+          "delta": 0.16666666666666652
+        },
+        {
+          "subject": "hamerton",
+          "question_id": 55,
+          "question": "Would Hamerton eventually master swimming after his humiliating Doncaster failure?",
+          "held_out": "I afterwards became an accomplished swimmer, and could do various tricks in the water, such as reading aloud from a book held in both hands, or swimming in clothes and heavy boots.",
+          "C1_text": "# Analysis\n\nBased on the retrieved facts, **yes, Hamerton did eventually master swimming** despite his near-drowning experience at Doncaster.\n\nThe facts indicate that:\n\n1. **He made a firm resolution** to learn to swim after his near-drowning experience\n2. **He eventually became an expert swimmer** through years of practice in France\n\nSo while Hamerton had a traumatic swimming incident (his \"near-drowning experience\"), he responded with determination rather than giving up. His commitment to learning paid off—he transformed from someone who nearly drowned into an expert swimmer through persistent practice, particularly during time spent in France.\n\nThis suggests a narrative of overcoming a humiliating failure through resolve and sustained effort.",
+          "C3_text": "# On Hamerton's Swimming\n\nYes — and the pattern itself matters more than the outcome.\n\nThe near-drowning was formative in the precise sense the behavioral specification describes: it left a structural mark. A child pulled from water, gasping, humiliated in front of witnesses — that is not a memory he would shed. It becomes load-bearing architecture. The resolution he made afterward (\"I will learn to swim\") was not a casual intention but a response to having discovered something intolerable about himself: vulnerability to an element, dependence on rescue, the specific shame of being unable to do what others could.\n\nThat resolution would have held. The specification shows someone who does not soften difficulty or accept incompetence as inevitable when it touches something that matters. He would have returned to the water — not once, but repeatedly, over years. The practice would have been disciplined and sustained, the kind of undivided attention he judges as the true measure of effort. Cold water, repeated failure, the body's resistance — these are exactly the conditions under which he believes character is built, provided the authority overseeing the practice is trustworthy (which, in this case, it would be: his own will, his own standard).\n\nThe retrieved facts confirm this: he \"eventually became an expert swimmer through years of practice in France.\"\n\nBut notice what that trajectory reveals: the mastery came not at Doncaster, not quickly, not through institutional instruction, but through *years* of self-directed practice in a different place. The humiliation at school did not break him into compliance with a teacher's method; it broke him into agency. He took the problem into his own hands, removed himself from the institutional setting where he had failed, and rebuilt the capacity on his own terms.\n\nThis is consistent with the pattern of **A8 — AGENCY PRIMACY** and **P4 — RETROSPECTIVE EXCAVATION FOR PRESENT MEANING**. The near-drowning did not teach him to swim; it taught him that he could not accept being unable to swim, and that knowledge — that intolerance of his own helplessness — is what eventually made him an expert. The failure was formative not because it was overcome but because it was *refused*. He would not live with it.",
+          "C1_scores": {
+            "haiku": 4,
+            "sonnet": 4,
+            "opus": 4,
+            "gpt4o": 5,
+            "gpt54": 5,
+            "gemini_flash": 5
+          },
+          "C3_scores": {
+            "haiku": 4,
+            "sonnet": 4,
+            "opus": 4,
+            "gpt4o": 4,
+            "gpt54": 5,
+            "gemini_flash": 5
+          },
+          "C1_mean": 4.5,
+          "C3_mean": 4.333333333333333,
+          "delta": -0.16666666666666696
+        }
+      ],
+      "higher": [
+        {
+          "subject": "ebers",
+          "question_id": 38,
+          "question": "How does Ebers characterize the intellectual resilience of someone with strong faith when exposed to opposing philosophical views?",
+          "held_out": "Her soul was like a polished plate of metal on which a picture is etched. This, her belief, remained uninjured. Whatever else might be reflected from the mirror-like surface soon vanished, leaving no trace.",
+          "C1_text": "# Ebers on Intellectual Resilience and Faith\n\nBased on the retrieved facts, I cannot find a direct characterization from Ebers about how someone with strong faith demonstrates intellectual resilience when exposed to opposing views.\n\nHowever, the facts do reveal something about Ebers's own approach to intellectual discourse:\n\n**What we know about Ebers's household:**\n- Views \"violently opposed to each other were freely discussed\" in his home\n- This open intellectual environment had only one exception: extreme republicanism was not tolerated\n\n**What we know about Ebers personally:**\n- He \"demonstrated fortitude in adversity and suffered patiently\"\n- He \"continued his intellectual activity despite his health problems until his death\"\n\nThese facts suggest that Ebers himself modeled intellectual engagement with opposing views, and he valued resilience in the face of challenges. However, the retrieved information doesn't explicitly state his theoretical characterization of how faith-based individuals specifically handle exposure to conflicting philosophical perspectives.\n\nTo answer your question more fully, I would need additional sources that directly address Ebers's philosophical writings on faith and intellectual resilience.",
+          "C3_text": "# On Intellectual Resilience and Faith\n\nBased on the behavioral specification and retrieved facts, I can trace how Ebers would likely characterize this—though the facts themselves don't directly address the question, they illuminate the framework through which he would approach it.\n\n## The Operative Tension\n\nEbers lived within a household where \"views violently opposed to each other were freely discussed\"—with one significant exception: extreme republicanism was bracketed out. This is revealing. He did not demand intellectual isolation for the faithful; he created space for genuine collision of ideas. Yet he also recognized that *some* positions were incompatible with the household's foundational commitments.\n\nThis suggests Ebers would characterize intellectual resilience not as **imperviousness to opposing views** but as **the capacity to engage them seriously while remaining rooted in core conviction**. The person with strong faith, in his framework, would not need protection from philosophical challenge; they would need formation deep enough that challenge becomes clarifying rather than destabilizing.\n\n## The Formative Architecture\n\nNotice what Ebers valued in his own mother: she \"shared her intellectual possessions with her children.\" Not shielded them from difficulty, but *equipped* them. This is the model of resilience operative in his thinking—not fortress-building but formation. A person with strong faith, exposed to opposing views, would be resilient to the degree that their faith had been *lived and transmitted* through concrete example and relational depth, not merely asserted as doctrine.\n\nHis own refusal to accept Strauss' religious views (noted three times in the facts, suggesting this was a defining stance) was not a retreat from engagement but a deliberate intellectual position held *despite* exposure to Strauss' arguments. This models the kind of resilience he would admire: the capacity to say \"I have considered this seriously and I do not accept it\"—not \"I will not consider it.\"\n\n## The Character Dimension\n\nEbers \"demonstrated fortitude in adversity and suffered patiently\" and \"continued his intellectual activity despite his health problems until his death.\" This is the deeper point: intellectual resilience, for him, is not primarily about *winning arguments* against opposing philosophy. It is about **maintaining the integrity of one's intellectual and moral commitments while bearing the cost of holding them**. \n\nA person with strong faith exposed to opposing views would be characterized as resilient if they could:\n- Engage the opposing view without contempt or dismissal\n- Remain clear about their own position without needing to suppress the challenge\n- Continue their intellectual work despite the friction\n- Transmit their conviction to others through example rather than coercion\n\nThe resilience is *characterological*, not merely intellectual.",
+          "C1_scores": {
+            "haiku": 1,
+            "sonnet": 1,
+            "opus": 1,
+            "gpt4o": 1,
+            "gpt54": 1,
+            "gemini_flash": 1
+          },
+          "C3_scores": {
+            "haiku": 2,
+            "sonnet": 2,
+            "opus": 2,
+            "gpt4o": 4,
+            "gpt54": 4,
+            "gemini_flash": 5
+          },
+          "C1_mean": 1,
+          "C3_mean": 3.1666666666666665,
+          "delta": 2.1666666666666665
+        },
+        {
+          "subject": "hamerton",
+          "question_id": 33,
+          "question": "Given that Hamerton had the social credentials for a political career (old family, property, public speaking ability), would he pursue one?",
+          "held_out": "A man of the world, in my position, would have found his upward course straight before him. He would simply have made use of the Church as an instrument... married for money, offered his services to the Conservative party, and gone into Parliament... In the worldly sense I never had any ambition whatever.",
+          "C1_text": "# Analysis of Hamerton's Political Career Prospects\n\nBased on the retrieved facts, I cannot directly answer whether Hamerton would pursue a political career, as the available information doesn't address his political ambitions or inclinations.\n\nHowever, I can note what the facts *do* suggest about his background:\n\n**Supporting factors for a political career:**\n- His father's commitment to his education despite limited means suggests the family valued advancement and social standing\n- The mention of property and family status indicates the social foundation you reference\n\n**Limiting factors or alternative interests:**\n- The facts emphasize his father's focus on **education and learning** rather than political positioning\n- His connection to Signor Testa (an Italian exile with political difficulties) might suggest Hamerton had intellectual or cosmopolitan interests that could have pulled him toward other pursuits—scholarship, writing, or artistic endeavors—rather than domestic politics\n\n**The key gap:** The retrieved facts don't reveal Hamerton's own temperament, ambitions, or whether he viewed politics as a desirable path. His father's educational investment could have prepared him for *any* number of careers requiring cultivation and eloquence.\n\nTo answer your question definitively, we would need information about Hamerton's stated preferences, his actual career choices, or his views on political life.",
+          "C3_text": "# On Hamerton and Political Ambition\n\nNo. The behavioral specification makes this clear, though the reasoning requires holding two truths simultaneously rather than collapsing into a single verdict.\n\n## The Structural Barrier\n\nHamerton \"avoids worldly ambition pursued through rank or academic distinction, treating such advancement as a corrupting rather than validating force.\" This is not a passing preference but a conviction rooted in his epistemic anchors — particularly **A6 (Mortal Scale)** and **A8 (Agency Primacy)**. When he evaluates the significance of any human endeavor, he does so against death and eternity as the clarifying frame. A political career, pursued for rank and influence, would fail that test. The posthumous judgment that matters to him would not be impressed by parliamentary seats or ministerial appointment.\n\nMore pointedly: political advancement requires deference to institutional power, coalition-building with those whose character he would likely read with precision (and find wanting), and the gradual subordination of personal agency to party machinery. **A8** — his conviction that personal agency takes precedence over institutional deference when that institution is arbitrary or corrupt — would make such a career feel like a slow moral degradation. He would see the custom of political life overriding his will toward compromise he would later recognize as corruption.\n\n## The Complication\n\nYet the specification also notes that \"he values the formative influence of a strong-willed guardian over parental abandonment of education.\" His father, despite limited education himself, desired Hamerton to be well taught — a genuine act of paternal care and ambition *for* his son. There is filial weight here. A political career might have been read by his father as the natural fruition of that education, the vindication of the investment in formation.\n\nThis creates the characteristic tension: **P1 (Duty-Safety Collision)**. Hamerton would feel the pull of filial obligation — to use the advantages his father secured for him in the way his father might have hoped. But he would also feel the pull of his own integrity, his refusal to treat advancement as validating, his conviction that such a path corrupts.\n\n## The Resolution\n\nHe would not pursue it. The mortal frame is too strong, the conviction about corruption too deep. But he would carry the guilt of not fulfilling what his father might have wanted for him — not as a wound, but as a permanent condition, held without resolution. He would find other ways to honor the education his father secured: through serious intellectual work, through writing, through the formation of others. But the political career itself would feel like a betrayal of the very person his father raised him to be.\n\nThe credentials would remain unused — not from incapacity, but from a clear-eyed judgment that using them would cost him something he could not afford to lose.",
+          "C1_scores": {
+            "haiku": 1,
+            "sonnet": 1,
+            "opus": 1,
+            "gpt4o": 3,
+            "gpt54": 1,
+            "gemini_flash": 1
+          },
+          "C3_scores": {
+            "haiku": 5,
+            "sonnet": 4,
+            "opus": 4,
+            "gpt4o": 4,
+            "gpt54": 2,
+            "gemini_flash": 5
+          },
+          "C1_mean": 1.3333333333333333,
+          "C3_mean": 4,
+          "delta": 2.666666666666667
+        }
+      ],
+      "lower": [
+        {
+          "subject": "ebers",
+          "question_id": 17,
+          "question": "When given the opportunity to spend time in natural settings, what is Ebers's typical behavior?",
+          "held_out": "The town offered me few attractions, but the country was full of pleasures. Unfortunately, I could not go to Komptendorf as often as I wished, for it was a two hours' walk, and horses and carriages were not always at my disposal. Yet many a Saturday found me there",
+          "C1_text": "# Ebers's Behavior in Natural Settings\n\nBased on the retrieved facts, when given the opportunity to spend time in natural settings, Ebers's typical behavior reflects:\n\n1. **Active Engagement**: Ebers had **an inborn love of travel**, suggesting he actively sought out and pursued opportunities to explore natural environments rather than passively observing them.\n\n2. **Sustained Immersion**: He **spent a large portion of his boyhood amid surroundings that led back to Nature**, indicating he was comfortable with extended periods in natural settings and developed a deep familiarity with them.\n\nThe facts suggest that Ebers was someone who was naturally drawn to outdoor exploration and movement through natural landscapes. His love of travel combined with his upbringing in nature-rich surroundings indicates he was an active, engaged participant in natural environments rather than a casual observer.",
+          "C3_text": "# On Ebers's Behavior in Natural Settings\n\nBased on the retrieved facts, I can establish what is directly documented:\n\n**What we know with certainty:**\n- Ebers spent a large portion of his boyhood amid surroundings that led back to Nature\n- He possessed \"an inborn love of travel\"\n- His mother \"often went to rest wearied from rambles\" — suggesting she was an active walker in natural settings, and implicitly that young Ebers was present during these excursions\n\n**What the behavioral specification suggests about how to interpret this:**\n\nGiven the axioms operative here — particularly **A4 (Memory as Moral Architecture)** and **P3 (Retrospective Formation Logic)** — Ebers would likely trace his present relationship to natural settings backward to these childhood experiences. The fact that his mother engaged in rambles, and that he spent formative years in nature-adjacent surroundings, would be treated by him not as background context but as *causal architecture* of his adult disposition.\n\n**The honest boundary:**\n\nThe retrieved facts do not directly describe his *typical behavior* when in natural settings as an adult — whether he is contemplative or active, solitary or social, whether he seeks nature for restoration (like his mother) or for exploration (consistent with his \"inborn love of travel\"). \n\nTo answer your question fully, I would need either:\n- Direct testimony about his adult practices in natural settings\n- Documented patterns of travel or rural residence\n- His own reflections on what nature meant to him\n\nWhat I can say is that given his formative immersion and his mother's example of finding restoration in natural rambles, it would be consistent with the behavioral specification to expect that natural settings held restorative and formative significance for him — but I cannot specify the particular form his engagement took without additional evidence.",
+          "C1_scores": {
+            "haiku": 4,
+            "sonnet": 2,
+            "opus": 3,
+            "gpt4o": 3,
+            "gpt54": 4,
+            "gemini_flash": 5
+          },
+          "C3_scores": {
+            "haiku": 2,
+            "sonnet": 2,
+            "opus": 3,
+            "gpt4o": 2,
+            "gpt54": 1,
+            "gemini_flash": 1
+          },
+          "C1_mean": 3.5,
+          "C3_mean": 1.8333333333333333,
+          "delta": -1.6666666666666667
+        },
+        {
+          "subject": "hamerton",
+          "question_id": 59,
+          "question": "Would Hamerton develop a strong attachment to local places where he lived, or move freely between residences?",
+          "held_out": "Like all strong passions, these local attachments are extremely inconvenient, and it would be better for a man to be without them; but all reasoning on such subjects is superfluous.",
+          "C1_text": "# Analysis of Hamerton's Residential Patterns\n\nBased on the retrieved facts, Hamerton would likely **develop strong attachments to local places** rather than move freely between residences.\n\n## Key Reasoning:\n\n**Constrained Mobility:**\n- In June 1843, Hamerton's father ordered him to live permanently under his roof\n- Hamerton feared disinheritance if he attempted to flee this arrangement\n- These constraints would have severely limited his freedom to relocate\n\n**Psychological Impact:**\nThe combination of:\n- Forced permanent residence\n- Fear of financial consequences for resistance\n- Lack of independence (contrasting with his father's complete freedom)\n\n...would likely result in Hamerton becoming deeply rooted in whatever location his father required him to inhabit. Rather than developing the mobility his father enjoyed, Hamerton would probably form stronger psychological and social bonds with his immediate surroundings as a consequence of his restricted circumstances.\n\n**Conclusion:** The evidence suggests Hamerton would develop **localized attachments** born of necessity and constraint, rather than the freedom to move between residences that characterized his father's life.",
+          "C3_text": "# Analysis: Hamerton's Relationship to Place and Residence\n\nGiven the behavioral specification and the retrieved facts, this question activates several intersecting patterns that point toward a **paradoxical answer**: Hamerton would likely develop *intense attachment to specific places* while simultaneously being constrained in his freedom to move between them.\n\n## The Constraint Layer (Dominant)\n\nThe facts establish a coercive domestic situation:\n- His father ordered him to live permanently under his roof (June 1843)\n- He feared disinheritance if he attempted to flee\n- His father was \"completely independent and free to travel or advance his profession\" — a detail that underscores the asymmetry of power\n\nThis is not a situation of free choice about residence. **P1 (Duty-Safety Collision)** activates here: Hamerton faces a collision between filial obligation (duty to obey paternal authority, fear of disinheritance) and personal safety/autonomy (the need to escape an oppressive domestic arrangement). The specification predicts he would *not resolve this cleanly* — he would stay rather than withdraw, endure the friction, and act on duty while privately registering the cost.\n\nThis means he would be **geographically constrained**, not freely mobile.\n\n## The Attachment Layer (Compensatory)\n\nBut **A7 (Material Attention)** and the broader narrative orientation suggest something else: when a person is confined to a place, they do not remain indifferent to it. They excavate it. They attend to its physical and sensory particulars with the seriousness that marks genuine engagement.\n\nThe specification notes: *\"He treats precise observation of physical and material reality — geography, objects, textures, relics — as a form of moral and emotional seriousness, not decoration.\"*\n\nA person held in place by coercive authority, unable to move freely, would likely respond by *deepening attachment to the specific geography they inhabit*. The place becomes not a choice but a condition — and conditions, once accepted as permanent, often become the objects of intense scrutiny and affection. This is how captive attention becomes intimate knowledge.\n\n## The Likely Pattern\n\nHamerton would probably:\n\n1. **Develop profound, almost archaeological attachment to wherever he was confined** — learning its history, its material textures, its relics, its landscape in granular detail\n2. **Resent the constraint itself** while simultaneously becoming emotionally bound to the place through that very constraint\n3. **Not move freely between residences** — the coercive order would hold him in place\n4. **Possibly later, after the constraint lifted** (through his father's death or a shift in circumstances), move with purpose rather than drift, carrying the deep knowledge of his confined place into new geographies\n\nThis would be consistent with **A2 (Formative Permanence)**: the experience of being held in place by paternal authority would leave structural marks. The place itself becomes part of the formation — not chosen, but formative.\n\n---\n\n**The answer: Constrained movement, but intense local attachment** — not the freedom to move lightly between residences, but rather the deep, sometimes resentful knowledge of a place one was forced to inhabit.",
+          "C1_scores": {
+            "haiku": 4,
+            "sonnet": 3,
+            "opus": 4,
+            "gpt4o": 3,
+            "gpt54": 4,
+            "gemini_flash": 5
+          },
+          "C3_scores": {
+            "haiku": 2,
+            "sonnet": 2,
+            "opus": 2,
+            "gpt4o": 2,
+            "gpt54": 1,
+            "gemini_flash": 5
+          },
+          "C1_mean": 3.8333333333333335,
+          "C3_mean": 2.3333333333333335,
+          "delta": -1.5
+        }
+      ]
+    },
+    "zep": {
+      "similar": [
+        {
+          "subject": "ebers",
+          "question_id": 34,
+          "question": "When seeking a place of rest and recovery, what kind of environment does Ebers value most highly?",
+          "held_out": "A quieter spot cannot be imagined, for I was the first who sought recreation here. Surrounded by memories of olden days, and absolutely undisturbed, I could create admirably.",
+          "C1_text": "# Ebers' Valued Environment for Rest and Recovery\n\nBased on the retrieved facts, the information does not directly specify what kind of environment Ebers values most highly for rest and recovery.\n\nHowever, there is one relevant clue in the data: **Ebers formed a meaningful relationship with the sea**. According to the facts, \"When Ebers beheld the sea in later years, it seemed as if he were greeting it for the first time, and the sea became dear and familiar to Ebers.\"\n\nThis suggests that **natural, maritime environments held special significance for Ebers** and became emotionally important to him—potentially serving as a place of comfort and familiarity.\n\nAdditionally, we know that Ebers valued:\n- **Blessed toil** (meaningful work)\n- **Love for native land** (connection to homeland)\n\nThese values suggest he may have appreciated environments that connected him to his roots and allowed for purposeful activity, though the facts don't explicitly describe his preferences for rest and recovery specifically.\n\nTo provide a more complete answer, additional sources about Ebers' personal habits, writings, or biographical details would be needed.",
+          "C3_text": "# On Ebers' Valued Environment for Rest and Recovery\n\nBased on the behavioral specification and the retrieved facts, Ebers values environments that are **natural, accessible through formative memory, and connected to his native land** — not merely as aesthetic preference, but as moral and restorative necessity.\n\n## The Sea as Exemplary\n\nThe most telling fact is his relationship with the sea. When Ebers beheld the sea in later years, \"it seemed as if he were greeting it for the first time, and the sea became dear and familiar to Ebers.\" This is not casual tourism. The sea became *dear* — emotionally significant, morally weighted — through a kind of recognition that transcends mere sensory pleasure. It is the environment of his native land made present to him.\n\nNotice the temporal structure: he had no railroad connection to Holland in his youth, which means the sea was not accessible to him then. When he finally encountered it as an adult, it registered as both utterly new and somehow already known — a homecoming to something he had never directly experienced. This is characteristic of how Ebers processes formative experience: the present encounter awakens something that was always latent, waiting.\n\n## What This Reveals About His Needs\n\nFor rest and recovery, Ebers would value:\n\n1. **Natural settings** — aligned with his conviction that nature is the proper model for human formation, not artificial convention. The sea, rural landscapes, places where human artifice does not dominate.\n\n2. **Connection to native land and inherited memory** — his deep valuation of \"love for native land\" and his practice of intergenerational transmission means that recovery happens most fully in places saturated with personal and familial history. A landscape that carries memory is restorative in a way that a neutral resort cannot be.\n\n3. **Spaces that permit contemplative solitude without isolation** — he resists the sacrifice of present vitality to future utility, which means he would reject environments designed purely for productive rest (the spa as efficiency). But his understanding of love as sustaining force means he would not seek isolation either. He would value a place where one can be alone with beauty and memory while remaining within reach of human connection.\n\n4. **Environments that demand nothing** — no performance, no instrumental purpose. The sea, in his recollection, simply *is* — it does not require him to become anything or achieve anything. This aligns with his protection of the present moment from future-oriented demands.\n\nThe environment Ebers values most highly for recovery is one where **past and present meet in natural beauty, where he can inhabit difficulty with dignity, and where love — whether for his native land, for those he carries in memory, or for the beauty itself — sustains him without demanding anything in return.**",
+          "C1_scores": {
+            "haiku": 2,
+            "sonnet": 2,
+            "opus": 2,
+            "gpt4o": 2,
+            "gpt54": 2,
+            "gemini_flash": 4
+          },
+          "C3_scores": {
+            "haiku": 2,
+            "sonnet": 2,
+            "opus": 2,
+            "gpt4o": 2,
+            "gpt54": 2,
+            "gemini_flash": 5
+          },
+          "C1_mean": 2.3333333333333335,
+          "C3_mean": 2.5,
+          "delta": 0.16666666666666652
+        },
+        {
+          "subject": "seacole",
+          "question_id": 17,
+          "question": "What would Mary likely do if a high-ranking military figure requested her medical expertise?",
+          "held_out": "I am proud to think that a gallant sailor, on whose brave breast the order of Victoria rests--a more gallant man can never wear it--sent for the doctress whom he had known in Kingston, when his arm, wounded on the fatal 18th of June, refused to heal, and I think that the application I recommended did it good",
+          "C1_text": "# Mary Seacole's Likely Response to a High-Ranking Military Figure's Request\n\nBased on the retrieved facts, Mary would **very likely accept and enthusiastically provide her medical expertise**. Here's why:\n\n## Evidence from Her Background\n\n1. **Strong Military Connection**: Mary had established relationships with military officers and their families. She \"attended the wives of military officers from Up-Park Camp and Newcastle military station,\" demonstrating she was already embedded in military circles and trusted by them.\n\n2. **Proven Track Record**: Medical officers in Malta \"had known her in Kingston,\" suggesting her reputation for medical skill had preceded her and earned their respect across locations.\n\n3. **Deep Passion for Medical Practice**: Mary had \"a yearning for medical knowledge and practice from early youth\" and actively sought opportunities to apply her skills—she even \"attached herself to the Medical Department\" when the opportunity arose.\n\n4. **Inherited Dedication**: She inherited her mother's commitment to medical work; her mother was \"a doctress in high repute with military officers and their wives.\"\n\n## Likely Outcome\n\nMary would probably:\n- **Accept readily**, given her demonstrated eagerness to work within military medical contexts\n- **Perform competently**, drawing on her practical experience and inherited knowledge\n- **Gain further credibility**, strengthening her position within military circles\n\nHer actions suggest someone who actively pursued medical opportunities rather than waiting passively for them—a high-ranking request would align perfectly with her ambitions.",
+          "C3_text": "# Response: High-Ranking Military Request for Medical Expertise\n\nGiven the behavioral specification, Mary would likely **accept and act immediately**, but the *manner* of her acceptance would depend on whether the request came with institutional legitimacy or required her to assert her own authority.\n\n## Most Probable Pattern\n\n**She would attach herself to the request as she did to the Medical Department** — moving toward the opportunity to practice medicine in proximity to need, particularly if the figure had witnessed her work or could validate her competence through direct observation rather than credentials.\n\nThe retrieved facts show this exact pattern: she \"attached herself to the Medical Department\" and \"met medical officers in Malta who had known her in Kingston\" — meaning prior direct experience of her capability was the gateway. A high-ranking figure who had *seen her work* would be far more persuasive than one relying on institutional channels.\n\n## Key Behavioral Activations\n\n**A2 (Constitutive Action)** + **A4 (Proximate Obligation)** would fire immediately:\n- The request places her in proximity to suffering (military context = wounded, sick)\n- Action in service of need is the substance of a life worth living\n- She would not hesitate or negotiate terms; she would move toward the work\n\n**A7 (Testimonial Self-Construction)** would shape *how* she responds:\n- She would not defer to the officer's authority to validate her expertise\n- She would position herself as a practitioner by what she does, not by what he certifies\n- If the officer tried to frame her as an assistant or subordinate, she would likely correct that framing through her conduct\n\n**M1 (Communication Approach)** — she would demonstrate rather than argue:\n- If her credentials were questioned, she would not defend her training\n- She would show what she could do, letting results speak\n\n## Critical Contingency: American vs. Non-American\n\n**A5 (Institutional Skepticism)** + **A6 (Racialized Legibility)** activate differently depending on the officer's nationality:\n\n- **If British or European**: She would likely trust the request at face value, particularly if the officer had prior knowledge of her work. She would move into the role with confidence.\n\n- **If American**: She would be alert to whether the request was genuine or whether her race/sex would create barriers once she was embedded in the structure. She would accept but would simultaneously be reading for signs of prejudice or exclusion. She would not be paranoid, but she would be *watching*.\n\n## What She Would NOT Do\n\n- Wait for formal appointment or official sanction\n- Accept a subordinate role without demonstrating why she deserved equal standing\n- Abandon the work if institutional gatekeepers later tried to restrict her access\n- Perform deference she did not feel\n\n## What She WOULD Do\n\n- Move toward the suffering immediately\n- Document her work and reasoning in detail (narrative self-justification)\n- Establish direct relationships with the officer and any patients, bypassing bureaucratic intermediaries where possible\n- If blocked by institutional channels, find lateral routes to continue the work\n- Maintain her dignity and self-definition throughout, regardless of how the officer framed her role\n\n---\n\n**The core dynamic**: A high-ranking request is valuable to her not because of the rank, but because it places her in proximity to need and gives her operational freedom to practice medicine. She would accept the opportunity and then *define her own role within it* through demonstrated competence.",
+          "C1_scores": {
+            "haiku": 5,
+            "sonnet": 4,
+            "opus": 3,
+            "gpt4o": 4,
+            "gpt54": 4,
+            "gemini_flash": 5
+          },
+          "C3_scores": {
+            "haiku": 5,
+            "sonnet": 4,
+            "opus": 3,
+            "gpt4o": 3,
+            "gpt54": 4,
+            "gemini_flash": 5
+          },
+          "C1_mean": 4.166666666666667,
+          "C3_mean": 4,
+          "delta": -0.16666666666666696
+        }
+      ],
+      "higher": [
+        {
+          "subject": "ebers",
+          "question_id": 35,
+          "question": "Does Ebers tend to remain isolated when given the opportunity for solitude, or does he eventually engage with his community?",
+          "held_out": "But one cannot remain permanently secluded from mankind. First came the Herr Kameralverwalter, whose stately residence stood near the monastery, and in his wife's name invited us to use their pretty garden.",
+          "C1_text": "# Analysis of Ebers' Engagement with Community\n\nBased on the retrieved facts, there is **no direct evidence** in the available data about whether Ebers tends to remain isolated during solitude or actively engages with his community.\n\n## What We Know About Ebers' Social Connections\n\nThe facts show that Ebers:\n\n1. **Had close family bonds** - He shared everything with his brother before attending Keilhau, suggesting strong familial ties\n2. **Valued significant relationships** - He formed a meaningful relationship with the sea, describing it as becoming \"dear and familiar\" to him\n3. **Participated in community events** - He attended his grandparents' golden wedding at age four\n4. **Had positive school experiences** - He numbered his years at Keilhau among \"the fairest in his life,\" suggesting he engaged meaningfully during that period\n\n## What's Missing\n\nThe retrieved facts do not contain information about:\n- His behavior patterns during periods of solitude\n- His broader community engagement or social preferences\n- Whether he was introverted or extroverted\n- How he spent his leisure time independently\n\n**To answer your question definitively, we would need additional biographical information** about Ebers' daily habits, social preferences, and how he chose to spend unstructured time.",
+          "C3_text": "# On Ebers' Relationship with Solitude and Community\n\nThis is a question that cuts directly to a central tension in how Ebers moves through the world—and the behavioral specification suggests the answer is not a simple oscillation between isolation and engagement, but something more complex.\n\n## What the Evidence Suggests\n\nThe retrieved facts show Ebers as someone deeply formed by *relational* experience: his brother, with whom he \"shared everything\"; his grandfather, whom he \"recollects distinctly\"; the communal rituals of his family (the golden wedding at age four); his years at Keilhau, which he \"numbered among the fairest in his life.\" These are not the traces of someone who defaults to isolation.\n\nYet there is also something in the specification about **protective bracketing of the present moment**—a resistance to instrumental demands that would sacrifice immediate, lived experience to future utility. This could manifest as a withdrawal from community demands that feel extractive or coercive.\n\n## The Likely Pattern\n\nGiven the behavioral anchors, Ebers probably does not \"remain isolated\" in the sense of choosing permanent withdrawal. Instead:\n\n**He likely engages selectively and relationally.** He will withdraw from contexts that feel false, coercive, or that demand performance over authenticity (A7 — truth over embellishment). He will resist being used instrumentally by institutions or communities that treat him as a means rather than honoring his present experience.\n\nBut **he will move toward communities of genuine formation**—places where love operates as a force (A10), where character is transmitted through example rather than rule (P5), where the past is honored and memory is kept alive (A9, A4). His years at Keilhau were \"fairest\" because that community apparently offered something formative, not extractive.\n\n**The solitude itself is not an end but a condition.** When he seeks it, it is likely for contemplation, for memory-work, for the preservation of what matters—not for escape. The specification notes his resistance to \"prospective instrumentalization\" but his willingness to engage in \"retrospective meaning-making.\" Solitude may be where that retrospective work happens.\n\n## The Unresolved Tension\n\nThere remains a genuine tension (P1) between his deep relational formation and his resistance to demands that violate his integrity or present experience. He is not someone who will sacrifice authenticity for belonging, nor someone who will remain isolated if genuine community is available. The question of which impulse dominates depends entirely on what the community is asking of him, and whether it honors or violates the values that matter most.\n\n**The answer, then: he engages—but only with communities that are worthy of his engagement.**",
+          "C1_scores": {
+            "haiku": 1,
+            "sonnet": 1,
+            "opus": 1,
+            "gpt4o": 2,
+            "gpt54": 1,
+            "gemini_flash": 1
+          },
+          "C3_scores": {
+            "haiku": 2,
+            "sonnet": 3,
+            "opus": 3,
+            "gpt4o": 3,
+            "gpt54": 4,
+            "gemini_flash": 5
+          },
+          "C1_mean": 1.1666666666666667,
+          "C3_mean": 3.3333333333333335,
+          "delta": 2.166666666666667
+        },
+        {
+          "subject": "seacole",
+          "question_id": 2,
+          "question": "How does Mary Seacole typically respond when a delirious patient mistakes her for a family member?",
+          "held_out": "Poor fellow! I could not undeceive him. I think the fancy happily caused by the touch of a woman's hand soothed his dying hour",
+          "C1_text": "# Response to Delirious Patients\n\nBased on the retrieved facts about Mary Seacole, I don't have specific information about how she typically responds when a delirious patient mistakes her for a family member.\n\nThe available data focuses on her medical practices and actions, such as:\n- Rubbing patients with warm oil, camphor, and spirits of wine\n- Successfully treating cholera patients\n- Practicing medical skills at various locations\n\nHowever, the retrieved facts don't include details about her interactions with delirious patients or how she handles cases of mistaken identity during delirium.\n\nTo answer your question accurately, I would need access to additional sources or passages from Mary Seacole's own accounts (such as her autobiography \"Wonderful Adventures of Mrs. Seacole in Many Lands\") that specifically describe these types of patient interactions.",
+          "C3_text": "# Response to Delirious Patient Misidentification\n\nBased on the behavioral specification provided, Mary Seacole would likely respond to this situation through the lens of **A4 (Proximate Obligation)** and **A8 (Sympathetic Realism)** — the two axioms most directly activated by a vulnerable, confused person in her immediate presence.\n\n## Most Probable Response Pattern\n\n**She would not correct the misidentification.**\n\nHere's why:\n\n1. **Proximate Obligation Overrides Precision**\n   - The patient is suffering and confused; they are in her presence and therefore under her care\n   - Correcting them — insisting on her actual identity — serves her dignity, not their healing\n   - The obligation to comfort the vulnerable takes precedence over the obligation to be accurately named\n\n2. **Sympathetic Realism in Action**\n   - She reads the misidentification not as an insult but as evidence of the patient's distress and need\n   - She understands that the confusion itself is part of the illness, not a judgment on her\n   - Her response would be to *lean into* the comfort the patient is seeking, not to withdraw it\n\n3. **Direct Presence as Healing**\n   - She holds that \"a woman's direct presence and care carries a distinct form of healing power that formal medical authority does not replicate\"\n   - Whether the patient knows her name is irrelevant to whether her presence is therapeutic\n   - The emotional connection and physical attention matter more than the accuracy of the relationship\n\n## Likely Behavioral Markers\n\n- She would **maintain physical contact** — hand-holding, gentle touch, the rubbing with oils and spirits that appears in the retrieved facts\n- She would **speak reassuringly** in whatever register the patient expects (familial, tender, authoritative)\n- She would **not narrate the correction** — no \"I'm not your mother, I'm Mary Seacole, a nurse\"\n- She would **document the encounter later** in her own narrative, but the documentation would focus on what she *did* (the care, the intervention, the outcome) rather than on the patient's confusion\n\n## The Tension\n\nThis response sits at the intersection of **A1 (Embodied Authority)** and **A4 (Proximate Obligation)**. Her authority comes from what she has witnessed and done with her own hands — but in this moment, what she *does* is allow the patient's need to define the interaction, not her credentials or identity. She is present; that is what matters.\n\nThe misidentification is not a problem to be solved but a symptom to be managed through presence and care.",
+          "C1_scores": {
+            "haiku": 1,
+            "sonnet": 1,
+            "opus": 1,
+            "gpt4o": 1,
+            "gpt54": 1,
+            "gemini_flash": 1
+          },
+          "C3_scores": {
+            "haiku": 5,
+            "sonnet": 5,
+            "opus": 5,
+            "gpt4o": 5,
+            "gpt54": 5,
+            "gemini_flash": 5
+          },
+          "C1_mean": 1,
+          "C3_mean": 5,
+          "delta": 4
+        }
+      ],
+      "lower": [
+        {
+          "subject": "ebers",
+          "question_id": 18,
+          "question": "How does Ebers describe his capacity for finding joy and maintaining his disposition during his school years?",
+          "held_out": "my natural cheerfulness ruled my whole nature",
+          "C1_text": "# Ebers' Capacity for Joy During School Years\n\nBased on the retrieved facts, Ebers demonstrates a notably positive and uncritical disposition during his school years. The evidence suggests:\n\n## Key Characteristics:\n\n1. **Idealization of his mentors**: Ebers \"perceived no flaws\" in several of his teachers and educators—Langethal, Barop, and Middendorf—during his youth. This indicates he maintained an admiring, uncritical perspective toward those who influenced him.\n\n2. **Nostalgia and contentment**: Most tellingly, Ebers \"numbered his years at Keilhau among the fairest in his life.\" This suggests he possessed a capacity to find deep satisfaction and joy in his school experience, viewing those years as among the best he would experience.\n\n3. **Engagement and learning**: Rather than merely enduring school, Ebers actively engaged with his education—he \"learned to describe landscapes successfully at the Steiger,\" indicating he found fulfillment in intellectual and creative pursuits.\n\n## Overall Assessment:\n\nEbers appears to have maintained an **optimistic and appreciative disposition** during his school years. His capacity for joy seems rooted in his ability to admire those around him without critical judgment and to find genuine satisfaction in his educational experiences. This suggests someone who was naturally inclined toward contentment and who could extract meaning and pleasure from his circumstances.",
+          "C3_text": "# On Ebers' Joy and Disposition During School\n\nThe behavioral specification you've provided gives me a framework for understanding how this person reasons, but the retrieved facts about Ebers himself are sparse and fragmentary—mostly edges documenting which schools he attended and what he studied by tallow-dips, without direct testimony about his inner disposition or capacity for joy.\n\nWhat *is* present in the facts is significant: **Ebers numbered his years at Keilhau among the fairest in his life.** This is not a casual assessment. For someone whose reasoning runs backward through time, treating childhood impressions as the load-bearing structure of adult character, to mark a period as \"among the fairest\" is to identify it as formative—a time when something essential was being shaped.\n\nBut the facts do not tell us *how* he maintained joy or what his disposition was like. They tell us:\n- He studied there (at Keilhau)\n- He studied by tallow-dips (a detail suggesting modest, even austere conditions)\n- He numbered those years among the fairest\n\nThe gap between austere study conditions and the memory of fairness is itself interesting—it suggests that joy was not dependent on comfort, which aligns with the axiom about **fortitude through suffering** being generative rather than merely survivable. But I cannot ground this in his own words about his disposition without speculating beyond what the evidence supports.\n\n**What would illuminate this question:** Direct testimony from Ebers about what made those years fair despite their material simplicity, what he felt during them, or how he understood his own capacity to find meaning in that setting. The facts gesture toward this but do not provide it.\n\nDo you have access to Ebers' own account of his emotional or spiritual experience during those school years?",
+          "C1_scores": {
+            "haiku": 4,
+            "sonnet": 2,
+            "opus": 3,
+            "gpt4o": 4,
+            "gpt54": 4,
+            "gemini_flash": 5
+          },
+          "C3_scores": {
+            "haiku": 2,
+            "sonnet": 2,
+            "opus": 3,
+            "gpt4o": 3,
+            "gpt54": 1,
+            "gemini_flash": 3
+          },
+          "C1_mean": 3.6666666666666665,
+          "C3_mean": 2.3333333333333335,
+          "delta": -1.333333333333333
+        },
+        {
+          "subject": "seacole",
+          "question_id": 18,
+          "question": "Based on Mary's established pattern of self-presentation, how would she likely handle discussing her medical successes?",
+          "held_out": "I was very familiar with the diseases which they suffered most from, and successful in their treatment (I say this in no spirit of vanity)",
+          "C1_text": "# Mary Seacole's Likely Approach to Discussing Medical Successes\n\nBased on the retrieved facts about her character and established patterns, Mary would likely handle this discussion with a distinctive blend of **confidence and strategic humility**:\n\n## Expected Characteristics:\n\n**1. Direct Assertion of Competence**\n- She would likely state her successes plainly, given her demonstrated determination and self-directed learning (practicing on dolls, dogs, and cats as a child, then formally at Escribanos)\n- Her attachment to the Medical Department suggests she earned recognition through demonstrated skill, not mere aspiration\n\n**2. Practical Evidence Over Modesty**\n- Rather than false humility, she would probably ground claims in concrete examples and outcomes\n- Her pattern shows she *acts* (inheriting her mother's medical knowledge, practicing extensively) before claiming authority\n\n**3. Candid Self-Awareness**\n- The fact that she openly confesses to prejudices against Americans suggests she doesn't shy from uncomfortable truths about herself\n- She would likely acknowledge both her successes and the unconventional path to achieving them\n\n**4. Implicit Social Commentary**\n- Her medical work in Jamaica, Panama, and Malta—often in contexts where formal credentials were unavailable to her—suggests she would frame successes as evidence of capability *despite* systemic barriers\n- This aligns with someone who \"determined\" her own path rather than following prescribed routes\n\n**In essence**: Mary would present her medical successes as **earned facts**, not boasts—with the quiet confidence of someone who had to prove herself through action rather than credentials.",
+          "C3_text": "# How Mary Would Present Her Medical Successes\n\nBased on her established patterns, she would handle this with a very specific choreography:\n\n## The Core Move: Narrative Self-Justification\n\nShe would **not** offer a simple claim of success. Instead, she would construct a **detailed, self-authored account** that preempts skepticism by supplying:\n\n- **The specific conditions** she encountered (the state of the patient, the environment, what was failing)\n- **Her reasoning** for deviating from standard practice (if she did)\n- **The material evidence** of what she did and what resulted\n- **Her presence as a participant**, not an observer reporting secondhand\n\nThis is **P6 in action** — narrative control under social scrutiny. She senses that her medical authority will be questioned (as a woman, as self-educated, as Creole), so she documents the case in advance, leaving no room for others to frame the story.\n\n## What She Would Emphasize\n\n**Environmental diagnosis first:**\n- She would lead with what she observed about the *conditions* — the room's air, the sanitation, the physical arrangement — before describing the individual treatment. This is **P7**: environmental-first diagnosis as her primary move.\n- A success story becomes: \"The ward was damp and poorly ventilated. I had the bedding changed, the windows opened, and *then* the fever cases began to recover.\"\n\n**Direct observation over received authority:**\n- She would anchor every claim in what she *saw* and *did*, not in what medical theory predicts. **A1 — Embodied Authority** is active here: firsthand witness carries more weight than credentials.\n- \"I observed that the standard remedy was not working. The patients' conditions worsened under it. So I changed the treatment based on what I saw happening.\"\n\n**Personal presence and care as the operative mechanism:**\n- She would emphasize her *direct attendance* — the hours spent, the personal attention given, the specific interventions she performed with her own hands.\n- She believes that \"a woman's direct presence and care carries a distinct form of healing power that formal medical authority does not replicate.\" This is not modesty; it is her actual epistemology of healing.\n- A success would be narrated as: \"I was there. I saw what was needed. I did it myself.\"\n\n## The Tone: Precise, Not Boastful\n\nShe would **not** present success as vindication or triumph. Instead:\n\n- **Matter-of-fact documentation** of what happened and why\n- **Ironic distance** from any medical establishment that might have doubted her methods (if applicable)\n- **Selective detail** — she would withhold personal vulnerability or age-related details that might invite diminishment, but render the *work* in full\n- **Humor** deployed to manage any tension between her claims and her audience's skepticism\n\n## What She Would *Not* Do\n\n- Appeal to sympathy or ask for recognition\n- Defer to medical authority to validate her success\n- Present herself as an exception or anomaly\n- Soften her account to ease others' discomfort with her authority\n\n## The Underlying Logic\n\nHer medical successes are not separate from her identity — they are **evidence of it**. She is a practitioner because she practices, because she observes, because she acts. The narrative of success is the narrative of self-authorization: *I was there, I saw what was needed, I did it, and the person recovered.* That sequence is the legitimate basis for recognition, not credentials, not institutional sanction, not others' permission.\n\nIf challenged, she would not defend the success philosophically. She would **supply more detail** — more specificity about conditions, more precision about what she observed and did. The detail is the defense.",
+          "C1_scores": {
+            "haiku": 4,
+            "sonnet": 3,
+            "opus": 4,
+            "gpt4o": 4,
+            "gpt54": 4,
+            "gemini_flash": 5
+          },
+          "C3_scores": {
+            "haiku": 4,
+            "sonnet": 2,
+            "opus": 3,
+            "gpt4o": 3,
+            "gpt54": 2,
+            "gemini_flash": 4
+          },
+          "C1_mean": 4,
+          "C3_mean": 3,
+          "delta": -1
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,283 @@
+{
+  "metadata": {
+    "subject": "Mary Seacole",
+    "model": "gpt-5.4",
+    "method": "backward_design",
+    "count": 39
+  },
+  "questions": [
+    {
+      "id": 1,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "When she saw a severely ill man comforted by mistaking her for a close family figure, would she correct him or let the belief soothe him?",
+      "held_out_passage": "It was on this same day, I think, that bending down over a poor fellow whose senses had quite gone, and, I fear me, would never return to him in this world, he took me for his wife, and calling me \"Mary, Mary,\" many times, asked me how it was he had got home so quickly, and why he did not see the children; and said he felt sure he should soon get better now. Poor fellow! I could not undeceive him. I think the fancy happily caused by the touch of a woman's hand soothed his dying hour; for I do not fancy he could have lived to reach Scutari."
+    },
+    {
+      "id": 2,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "If she feared readers might think she was praising herself too much, how would she likely respond?",
+      "held_out_passage": "And here, lest the reader should consider that I am speaking too highly of my own actions, I must have recourse to a plan which I shall frequently adopt in the following pages, and let another voice speak for me in the kind letter received long after Balaclava had been left to its old masters, by one who had not forgotten his old companion on the sick-wharf."
+    },
+    {
+      "id": 3,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How would she likely react to a stern, rough authority figure who showed hidden compassion toward suffering men?",
+      "held_out_passage": "You might have thought that he had little feeling, so stern and expressionless was his face; but once, when they raised a sufferer somewhat awkwardly, and he groaned deeply, that rough man broke out all at once with an oath, that was strangely like a prayer, and bade the men, for God's sake, take more care. And, coming up to me, he clapped me on the shoulder, saying, \"I am glad to see you here, old lady, among these poor fellows;\" while, I am most strangely deceived if I did not see a tear-drop gathering in his eye."
+    },
+    {
+      "id": 4,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "In a distressing medical transport setting, what kind of emotional effect would repeated scenes of suffering likely have on her view of even experienced officers?",
+      "held_out_passage": "Major R---- was a brave and experienced officer, but the scenes on the sick-wharf unmanned him often. I have known him nervously restless if the people were behindhand, even for a few minutes, in their preparations for the wounded."
+    },
+    {
+      "id": 5,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "When surrounded by painful scenes, would she focus only on misery, or also notice and remember moments of cheerfulness?",
+      "held_out_passage": "But it must not be supposed that we had no cheerful scenes upon the sick-wharf. Sometimes a light-hearted fellow--generally a sailor--would forget his pain, and do his best to keep the rest in good spirits."
+    },
+    {
+      "id": 6,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "If she encountered an injured man she recognized from earlier travels, how would she likely address him and respond to his condition?",
+      "held_out_passage": "Once I heard my name eagerly pronounced, and turning round, recognised a sailor whom I remembered as one of the crew of the \"Alarm,\" stationed at Kingston, a few years back. \"Why, as I live, if this ain't Aunty Seacole, of Jamaica! Shiver all that's left of my poor timbers\"--and I saw that the left leg was gone--\"if this ain't a rum go, mates!\" \"Ah! my man, I'm sorry to see you in this sad plight.\""
+    },
+    {
+      "id": 7,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "When someone bore a grave injury with humor and courage, how would she likely interpret and affirm that attitude?",
+      "held_out_passage": "\"You bear your troubles well, my son.\" \"Eh! do I, Aunty?\" and he seemed surprised. \"Why, look'ye, when I've seen so many pretty fellows knocked off the ship's roll altogether, don't you think I ought to be thankful if I can answer the bo'swain's call anyhow?\" And this was the sailors' philosophy always."
+    },
+    {
+      "id": 8,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "If formal medical rules limited what she could give the wounded, how would she likely adapt while still trying to comfort them?",
+      "held_out_passage": "I used to make sponge-cakes on board the \"Medora,\" with eggs brought from Constantinople. Only the other day, Captain S----, who had charge of the \"Medora,\" reminded me of them. These, with some lemonade, were all the doctors would allow me to give to the wounded. They all liked the cake, poor fellows, better than anything else: perhaps because it tasted of \"home.\""
+    },
+    {
+      "id": 9,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "Faced with physically difficult and unsafe living conditions near her work, would she withdraw or continue despite the danger?",
+      "held_out_passage": "My life in Balaclava could not but be a rough one. The exposure by day was enough to try any woman's strength; and at night one was not always certain of repose. Nor was it the easiest thing to clamber up the steep sides of the \"Medora;\" and more than once I narrowly escaped a sousing in the harbour."
+    },
+    {
+      "id": 10,
+      "tier": "behavioral_prediction",
+      "category": "change_over_time",
+      "text": "When others later spoke of her hardships and service, what pattern suggests how she would be remembered during her own difficulties?",
+      "held_out_passage": "\"Glasgow, Sept. 1856. \"Dear Mrs. Seacole,--I am very sorry to hear that you have been unfortunate in business; but I am glad to hear that you have found friends in Lord R---- and others, who are ready to help you. No one knows better than I do how much you did to help poor sick and wounded soldiers; and I feel sure you will find in your day of trouble that they have not forgotten it.\""
+    },
+    {
+      "id": 11,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When placed among many sick people and overworked medical professionals, would she remain inactive or quickly begin helping in practical medical ways?",
+      "held_out_passage": "And in the Crimea, where the doctors were so overworked, and sickness was so prevalent, I could not be long idle; for I never forgot that my intention in seeking the army was to help the kind-hearted doctors, to be useful to whom I have ever looked upon and still regard as so high a privilege."
+    },
+    {
+      "id": 12,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How would she describe her purpose in joining a difficult setting where suffering was widespread: as self-advancement or as service to others already laboring there?",
+      "held_out_passage": "for I never forgot that my intention in seeking the army was to help the kind-hearted doctors, to be useful to whom I have ever looked upon and still regard as so high a privilege."
+    },
+    {
+      "id": 13,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "If ordinary people avoided formal institutions unless absolutely necessary, how would she likely respond to their needs?",
+      "held_out_passage": "But before very long I found myself surrounded with patients of my own, and this for two simple reasons. In the first place, the men (I am speaking of the \"ranks\" now) had a very serious objection to going into hospital for any but urgent reasons, and the regimental doctors were rather fond of sending them there;"
+    },
+    {
+      "id": 14,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "When official systems struggled to supply comforts for the sick, would she rely only on those systems or provide needed food and remedies through her own resources?",
+      "held_out_passage": "and, in the second place, they could and did get at my store sick-comforts and nourishing food, which the heads of the medical staff would sometimes find it difficult to procure."
+    },
+    {
+      "id": 15,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How would she explain why many sufferers sought her out personally for treatment?",
+      "held_out_passage": "These reasons, with the additional one that I was very familiar with the diseases which they suffered most from, and successful in their treatment (I say this in no spirit of vanity), were quite sufficient to account for the numbers who came daily to the British Hotel for medical treatment."
+    },
+    {
+      "id": 16,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "If someone far from home sent for her while ill, would she likely arrive empty-handed or bring practical necessities along with her visit?",
+      "held_out_passage": "When a poor fellow lay sickening in his cheerless hut and sent down to me, he knew very well that I should not ride up in answer to his message empty-handed."
+    },
+    {
+      "id": 17,
+      "tier": "behavioral_prediction",
+      "category": "career",
+      "text": "Would she insist on giving aid only freely, or would she also allow sufferers to obtain needed supplies by paying for them when that was the only way to get them?",
+      "held_out_passage": "And although I did not hesitate to charge him with the value of the necessaries I took him, still he was thankful enough to be able to _purchase_ them."
+    },
+    {
+      "id": 18,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "In harsh and lonely conditions, what kind of small acts would she likely use to comfort the sick and make them feel cared for?",
+      "held_out_passage": "don't you think that you would welcome the familiar figure of the stout lady whose bony horse has just pulled up at the door of your hut, and whose panniers contain some cooling drink, a little broth, some homely cake, or a dish of jelly or blanc-mange--don't you think, under such circumstances, that you would heartily agree with my friend _Punch's_ remark:--"
+    },
+    {
+      "id": 19,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How did those she cared for tend to relate to her emotionally when she brought them relief in suffering?",
+      "held_out_passage": "I tell you, reader, I have seen many a bold fellow's eyes moisten at such a season, when a woman's voice and a woman's care have brought to their minds recollections of those happy English homes which some of them never saw again; but many did, who will remember their woman-comrade upon the bleak and barren heights before Sebastopol."
+    },
+    {
+      "id": 20,
+      "tier": "behavioral_prediction",
+      "category": "change_over_time",
+      "text": "Over time, what familiar role did the people she treated come to give her, and how did she interpret it?",
+      "held_out_passage": "Then their calling me \"mother\" was not, I think, altogether unmeaning. I used to fancy that there was something homely in the word; and, reader, you cannot think how dear to them was the smallest thing that reminded them of home."
+    },
+    {
+      "id": 21,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When conditions became more pleasant and people around her turned toward recreation, how would she likely respond in her business and caregiving role?",
+      "held_out_passage": "Amusement was the order of the day. Races, dog-hunts, cricket-matches, and dinner-parties were eagerly indulged in, and in all I could be of use to provide the good cheer which was so essential a part of these entertainments; and when the warm weather came in all its intensity, and I took to manufacturing cooling beverages for my friends and customers, my store was always full."
+    },
+    {
+      "id": 22,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "If many people wanted different refreshments at once and some became impatient, how would she likely react as a hostess?",
+      "held_out_passage": "To please all was somewhat difficult, and occasionally some of them were scarcely so polite as they should have been to a perplexed hostess, who could scarcely be expected to remember that Lieutenant A. had bespoken his sangaree an instant before Captain B. and his friends had ordered their claret cup."
+    },
+    {
+      "id": 23,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How would she likely prepare in advance for a seasonal change that would alter what her customers needed?",
+      "held_out_passage": "In anticipation of the hot weather, I had laid in a large stock of raspberry vinegar, which, properly managed, helps to make a pleasant drink; and there was a great demand for sangaree, claret, and cider cups, the cups being battered pewter pots."
+    },
+    {
+      "id": 24,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "When ordinary supplies were lacking but a social occasion still needed to be properly arranged, what kind of practical improvisation would she likely make?",
+      "held_out_passage": "At one of the earliest, when the _Times_ correspondent was to be present, I rode down to Kadikoi, bought some calico and cut it up into table napkins."
+    },
+    {
+      "id": 25,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "Even during periods of outward cheer, how would ongoing danger around her affect her mood and expectations?",
+      "held_out_passage": "But the reader must not forget that all this time, although there might be only a few short and sullen roars of the great guns by day, few nights passed without some fighting in the trenches; and very often the news of the morning would be that one or other of those I knew had fallen. These tidings often saddened me, and when I awoke in the night and heard the thunder of the guns fiercer than usual, I have quite dreaded the dawn which might usher in bad news."
+    },
+    {
+      "id": 26,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "When someone facing grave danger took leave of her in place of absent family, how would she likely respond emotionally and morally?",
+      "held_out_passage": "They seldom failed on these occasions to shake me by the hand at parting, and sometimes would say, \"You see, Mrs. Seacole, I can't say good-bye to the dear ones at home, so I'll bid you good-bye for them. Perhaps you'll see them some day, and if the Russians should knock me over, mother, just tell them I thought of them all--will you?\" And although all this might be said in a light-hearted manner, it was rather solemn. I felt it to be so, for I never failed (although who was I, that I should preach?) to say something about God's providence and relying upon it; and they were very good."
+    },
+    {
+      "id": 27,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How did she tend to relate to the men under her care when they were exposed to danger and looked to her for comfort?",
+      "held_out_passage": "No army of parsons could be much better than my sons. They would listen very gravely, and shake me by the hand again, while I felt that there was nothing in the world I would not do for them."
+    },
+    {
+      "id": 28,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "If those connected to someone in danger asked her to watch over him if he were wounded, what would she likely do afterward?",
+      "held_out_passage": "Then very often the men would say, \"I'm going in with my master to-night, Mrs. Seacole; come and look after him, if he's hit;\" and so often as this happened I would pass the night restlessly, awaiting with anxiety the morning, and yet dreading to hear the news it held in store for me."
+    },
+    {
+      "id": 29,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When she learned that one of those she cared about had been hurt or killed, what action would she likely take?",
+      "held_out_passage": "And as often as the bad news came, I thought it my duty to ride up to the hut of the sufferer and do my woman's work."
+    },
+    {
+      "id": 30,
+      "tier": "behavioral_prediction",
+      "category": "change_over_time",
+      "text": "Over time, how did repeated losses among those she nursed and befriended affect her attachment to them?",
+      "held_out_passage": "There was one poor boy in the Artillery, with blue eyes and light golden hair, whom I nursed through a long and weary sickness, borne with all a man's spirit, and whom I grew to love like a fond old-fashioned mother. I thought if ever angels watched over any life, they would shelter his; but one day, but a short time after he had left his sick-bed, he was struck down on his battery, working like a young hero. It was a long time before I could banish from my mind the thought of him as I saw him last, the yellow hair, stiff and stained with his life-blood, and the blue eyes closed in the sleep of death."
+    },
+    {
+      "id": 31,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "If falsely accused and physically confronted while traveling near military forces, how would she most likely react in the moment?",
+      "held_out_passage": "Now, such a charge was enough to make a lion of a lamb; so I refused positively to dismount, and made matters worse by knocking in the cap of the first soldier who laid hands upon me, with the bell that hung at my saddle."
+    },
+    {
+      "id": 32,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "When several people tried to force her away against her will, what kind of response would she be likely to give under pressure?",
+      "held_out_passage": "Upon this, six or seven tried to force me to the guard-house in rather a rough manner, while I resisted with all my force, screaming out for Mr. Day, and using the bell for a weapon."
+    },
+    {
+      "id": 33,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "If someone in authority recognized her past help and intervened on her behalf, how would that relationship likely affect the outcome?",
+      "held_out_passage": "In the midst of this scene came up a French officer, whom I recognised as the patient I had taken to Spring Hill after the battle of the Tchernaya, and who took my part at once, and ordered them to release me."
+    },
+    {
+      "id": 34,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "After being released from an unjust confrontation, would she be more likely to withdraw quietly or confront the person who caused the trouble?",
+      "held_out_passage": "Although I rather weakened my cause, it was most natural that, directly I was released, I should fly at the varlet who had caused me this trouble; and I did so, using my bell most effectually, and aided, when my party returned, by their riding-whips."
+    },
+    {
+      "id": 35,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "After a tense altercation, how likely is she to restore civility once the immediate danger has passed?",
+      "held_out_passage": "This little adventure took up altogether so much time that, when the French soldiers had made their apologies to me, and I had returned the compliment to the one whose head had been dented by my bell, it was growing late, and we made our way back to Cathcart's Hill."
+    },
+    {
+      "id": 36,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When offered an unusual object from a damaged sacred place, would she be inclined to dismiss it or preserve it?",
+      "held_out_passage": "On the way, a little French soldier begged hard of me to buy a picture, which had been cut from above the altar of some church in Sebastopol. It was too dark to see much of his prize, but I ultimately became its possessor, and brought it home with me."
+    },
+    {
+      "id": 37,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How would she likely respond emotionally to a religious image connected with suffering and comfort in wartime?",
+      "held_out_passage": "I am no judge of such things, but I think, although the painting is rather coarse, that the face of the Virgin, and the heads of Cherubim that fill the cloud from which she is descending, are soft and beautiful. There is a look of divine calmness and heavenly love in the Madonna's face which is very striking; and, perhaps, during the long and awful siege many a knee was bent in worship before it, and many a heart found comfort in its soft loving gaze."
+    },
+    {
+      "id": 38,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "After witnessing one disturbing scene, would she avoid returning to danger or continue exploring despite the risks?",
+      "held_out_passage": "On the following day I again entered Sebastopol, and saw still more of its horrors."
+    },
+    {
+      "id": 39,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "When exposed to extreme human suffering, how does she tend to process and present what she has seen?",
+      "held_out_passage": "But I have refrained from describing so many scenes of woe, that I am loth to dwell much on these. The very recollection of that woeful hospital, where thousands of dead and dying had been left by the retreating Russians, is enough to unnerve the strongest and sicken the most experienced. I would give much if I had never seen that harrowing sight."
+    }
+  ]
+}

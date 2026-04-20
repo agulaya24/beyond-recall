@@ -1,0 +1,58 @@
+{
+  "subject": "babur",
+  "chunks_total": 242,
+  "turns": 243,
+  "final_blocks": [
+    {
+      "label": "human",
+      "size": 335349
+    },
+    {
+      "label": "persona",
+      "size": 431
+    }
+  ],
+  "error_count": 25,
+  "first_errors": [
+    [
+      204,
+      "Server error '524 <none>' for url 'https://api.letta.com/v1/agents/agent-924a71e0-6e38-45fe-9d26-9f25697aea6f/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/524"
+    ],
+    [
+      206,
+      "Server error '524 <none>' for url 'https://api.letta.com/v1/agents/agent-924a71e0-6e38-45fe-9d26-9f25697aea6f/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/524"
+    ],
+    [
+      211,
+      "Server error '524 <none>' for url 'https://api.letta.com/v1/agents/agent-924a71e0-6e38-45fe-9d26-9f25697aea6f/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/524"
+    ],
+    [
+      221,
+      "Client error '400 Bad Request' for url 'https://api.letta.com/v1/agents/agent-924a71e0-6e38-45fe-9d26-9f25697aea6f/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    ],
+    [
+      222,
+      "Client error '400 Bad Request' for url 'https://api.letta.com/v1/agents/agent-924a71e0-6e38-45fe-9d26-9f25697aea6f/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    ],
+    [
+      223,
+      "Client error '400 Bad Request' for url 'https://api.letta.com/v1/agents/agent-924a71e0-6e38-45fe-9d26-9f25697aea6f/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    ],
+    [
+      224,
+      "Client error '400 Bad Request' for url 'https://api.letta.com/v1/agents/agent-924a71e0-6e38-45fe-9d26-9f25697aea6f/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    ],
+    [
+      225,
+      "Client error '400 Bad Request' for url 'https://api.letta.com/v1/agents/agent-924a71e0-6e38-45fe-9d26-9f25697aea6f/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    ],
+    [
+      226,
+      "Client error '400 Bad Request' for url 'https://api.letta.com/v1/agents/agent-924a71e0-6e38-45fe-9d26-9f25697aea6f/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    ],
+    [
+      227,
+      "Client error '400 Bad Request' for url 'https://api.letta.com/v1/agents/agent-924a71e0-6e38-45fe-9d26-9f25697aea6f/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+    ]
+  ]
+}

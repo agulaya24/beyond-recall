@@ -1,0 +1,283 @@
+{
+  "metadata": {
+    "subject": "Yung Wing",
+    "model": "gpt-5.4",
+    "method": "backward_design",
+    "count": 39
+  },
+  "questions": [
+    {
+      "id": 1,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When asked by a powerful superior what would be best for his country, would he press his long-cherished educational plan immediately, or set it aside in favor of a more practical proposal already supported by allies?",
+      "held_out_passage": "But in such an event, being a stranger to the Viceroy, having been brought to his notice simply through the influence of my friends, I would have run a greater risk of jeopardizing my pet scheme of education than if I were left to act independently. My obligations to them were great, and I therefore decided that my constancy and fidelity to their friendship should be correspondingly great. So, instead of finding myself embarrassed in answering such a large and important question, I had a preconceived answer to give, which seemed to dove-tail into his views already crystallized into definite form, and which was ready to be carried out at once. So my educational scheme was put in the background, and the machine shop was allowed to take precedence."
+    },
+    {
+      "id": 2,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "If friends had advanced him through their influence and hoped for a certain outcome, how would he likely balance loyalty to them against promoting his own favorite reform?",
+      "held_out_passage": "My obligations to them were great, and I therefore decided that my constancy and fidelity to their friendship should be correspondingly great."
+    },
+    {
+      "id": 3,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "When proposing industrial modernization, would he favor buying finished products directly, or building foundational capacity that could reproduce and expand itself?",
+      "held_out_passage": "words, I told them they ought to have a machine shop that would be able to create or reproduce other machine shops of the same character as itself; each and all of these should be able to turn out specific machinery for the manufacture of specific things. In plain words, they would have to have general and fundamental machinery in order to turn out specific machinery."
+    },
+    {
+      "id": 4,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How would he likely explain a modernization plan: in abstract theory, or by breaking it down into concrete examples of tools and practical outputs?",
+      "held_out_passage": "A machine shop consisting of lathes of different kinds and sizes, planers and drills would be able to turn out machinery for making guns, engines, agricultural implements, clocks, etc."
+    },
+    {
+      "id": 5,
+      "tier": "behavioral_prediction",
+      "category": "change_over_time",
+      "text": "When thinking about reform on a national scale, would he tend to recommend a single isolated institution or a network of cooperating centers that could multiply over time?",
+      "held_out_passage": "In a large country like China, I told them, they would need many primary or fundamental machine shops, but that after they had one (and a first-class one at that) they could make it the mother shop for reproducing others--perhaps better and more improved. If they had a number of them, it would enable them to have the shops co-operate with each other in case of need."
+    },
+    {
+      "id": 6,
+      "tier": "behavioral_prediction",
+      "category": "career",
+      "text": "Would he be inclined to argue that modernization should be adapted to domestic conditions and costs rather than relying entirely on foreign production?",
+      "held_out_passage": "It would be cheaper to have them reproduced and multiplied in China, I said, where labor and material were cheaper, than in Europe and America."
+    },
+    {
+      "id": 7,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "When a superior admits limited expertise, how would he likely respond: insist on his own authority alone, or welcome consultation with more technically knowledgeable people?",
+      "held_out_passage": "“Well,” said he, “this is a subject quite beyond my knowledge. It would be well for you to discuss the matter with Wha and Chu, who are more familiar with it than I am and we will then decide what is best to be done.”"
+    },
+    {
+      "id": 8,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "After an important interview with a high official, how would he likely react toward the associates who had helped arrange it?",
+      "held_out_passage": "After I left him, I met my friends, who were anxious to know the result of the interview. I told them of the outcome. They were highly elated over it."
+    },
+    {
+      "id": 9,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "If entrusted with a major technical mission outside his own full expertise, would he rely only on personal judgment or seek specialist advice before acting?",
+      "held_out_passage": "In our last conference it was decided that the matter of the character of the machine shop was to be left entirely to my discretion and judgment, after consulting a professional mechanical engineer."
+    },
+    {
+      "id": 10,
+      "tier": "behavioral_prediction",
+      "category": "career",
+      "text": "When given broad authority for an important national project, would he prefer tightly fixed instructions or flexible discretion over where and how to proceed?",
+      "held_out_passage": "At the end of another two weeks, Wha was authorized to tell me that the Viceroy, after having seen all the four men, had decided to empower me to go abroad and make purchases of such machinery as in the opinion of a professional engineer would be the best and the right machinery for China to adopt. It was also left entirely to me to decide where the machinery should be purchased,--either in England, France or the United States of America."
+    },
+    {
+      "id": 11,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When given a chance to make his reform project more durable and harder for officials to reverse, what kind of practical step would he most likely choose?",
+      "held_out_passage": "The motive which led me to build permanent headquarters of our own was to have the educational mission as deeply rooted in the United States as possible, so as not to give the Chinese government any chance of retrograding in this movement."
+    },
+    {
+      "id": 12,
+      "tier": "behavioral_prediction",
+      "category": "career",
+      "text": "If he believed his country needed both modern knowledge and modern tools, how would he likely act when an opportunity arose to introduce a new foreign technology?",
+      "held_out_passage": "In the spring of 1873, I returned to China on a flying visit for the sole purpose of introducing the Gatling gun--a comparatively new weapon of warfare of a most destructive character."
+    },
+    {
+      "id": 13,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "When outsiders doubted his ability because they did not know his background, how would he most likely respond?",
+      "held_out_passage": "I had some difficulty in persuading the Gatling Company to give me the sole agency of the gun in China, because they did not know who I was, and were unacquainted with my practical business experience."
+    },
+    {
+      "id": 14,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "If initially mistrusted by a foreign business partner, would he tend to persist until he won responsibility through direct persuasion?",
+      "held_out_passage": "However, I prevailed on the president of the company, Dr. Gatling himself, the inventor of the gun, to entrust me with the agency."
+    },
+    {
+      "id": 15,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "When trying to prove his competence in a new undertaking, what scale of action would he be inclined to take?",
+      "held_out_passage": "Exactly a month after my arrival in Tientsin, I cabled the company an order for a battery of fifty guns, which amounted altogether to something over $100,000, a pretty big order for a man who it was thought could not do anything."
+    },
+    {
+      "id": 16,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How would he likely explain his broader motive when promoting foreign innovations for his homeland?",
+      "held_out_passage": "I was anxious that China should have the latest modern guns as well as the latest modern educated men."
+    },
+    {
+      "id": 17,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "If a diplomat described an exploitative labor system in flattering terms and sought his support, how would he likely react?",
+      "held_out_passage": "I told him plainly that he must not expect me to help him in this diabolical business. On the contrary, I told him I would dissuade the Viceroy from entering into a treaty with Peru to carry on such inhuman traffic."
+    },
+    {
+      "id": 18,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "When morally outraged by abuse he had witnessed and studied, how would his emotions likely show during a confrontation?",
+      "held_out_passage": "I bade him good morning, for I was myself somewhat excited as I narrated what I had seen in Macao and what I had read in the papers about the coolie traffic."
+    },
+    {
+      "id": 19,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Based on his past conduct toward abuses against vulnerable countrymen, what would he likely do when he had a chance to punish perpetrators?",
+      "held_out_passage": "Once, while in Canton, I had succeeded in having two or three kidnappers arrested, and had them put into wooden collars weighing forty pounds, which the culprits had to carry night and day for a couple of months as a punishment for their kidnapping."
+    },
+    {
+      "id": 20,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "When a superior entrusted him with an urgent humanitarian investigation abroad, how would he likely respond to the assignment?",
+      "held_out_passage": "The Viceroy, to make my visit short, then said, “You have come back just in time to save me from cabling you. I wish you to return to Hartford as quickly as possible and make preparations to proceed to Peru at once, to look into the condition of the Chinese coolies there.”"
+    },
+    {
+      "id": 21,
+      "tier": "behavioral_prediction",
+      "category": "career",
+      "text": "If a high official listened to his reform ideas without offering encouragement and later signaled that his help was no longer wanted, how would he most likely respond?",
+      "held_out_passage": "This I took to be a pretty broad hint that he did not need my services any longer, that I was not the man to suit his purposes; and as I had no axe to grind, I did not make any attempt to run after my grind-stone. On the contrary, after three months’ stay in Nanking under Viceroy Liu Kwan Yih, out of regard for official etiquette, I resigned the secretaryship, which was practically a sinecure--paying about $150 a month."
+    },
+    {
+      "id": 22,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "When his proposals for national improvement were met with silence rather than support, what kind of judgment would he likely form about the leader involved?",
+      "held_out_passage": "If he had been as broad a statesman as his predecessor, Tsang Kwoh Fan, he could have said something to encourage me to entertain even a glimpse of hope that he was going to do something to reform the political condition of the government of the country at the close of the war. Nothing, however, was said, or even hinted at."
+    },
+    {
+      "id": 23,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "After leaving an official post that gave him little real work, what would he most likely do next with his independence?",
+      "held_out_passage": "I severed my official connection with the provincial government of Kiang Nan in 1896, and took up my headquarters in Shanghai--untrammeled and free to do as I pleased and go where I liked. It was then that I conceived the plan of inducing the central government to establish in Peking a government national bank."
+    },
+    {
+      "id": 24,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How would he likely try to persuade his government to adopt a Western-style institution unfamiliar to them?",
+      "held_out_passage": "For this object I set to work translating into Chinese the National Banking Act and other laws relating to national banks from the Revised Statutes of the United States with Amendments and additional Acts of 1875."
+    },
+    {
+      "id": 25,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "When undertaking a complex reform project, would he tend to work entirely alone or seek practical assistance from others?",
+      "held_out_passage": "In prosecuting this work, I had the aid of a Chinese writer, likewise the co-operation of the late Wong Kai Keh, one of the Chinese students who was afterwards the assistant Chinese commissioner in the St. Louis Exposition, who gave me valuable help."
+    },
+    {
+      "id": 26,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "If an experienced ally reviewed his reform draft and advised adapting foreign models to local conditions, how would he likely proceed?",
+      "held_out_passage": "Chang Yen Hwan was greatly interested in the National Banking scheme. He examined the translation critically and suggested that I should leave out those articles that were inapplicable to the conditions of China, and retain only such as were important and practicable."
+    },
+    {
+      "id": 27,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "What kind of reform style would he most likely favor when introducing foreign institutions into his home country: abstract advocacy or detailed practical planning?",
+      "held_out_passage": "To have a basis upon which to start the National Bank of China, it was necessary to have the government advance the sum of Tls. 10,000,000; of this sum, upwards of Tls. 2,000,000 were to be spent on machinery for printing government bonds and bank-notes of different denominations and machinery for a mint; Tls. 2,000,000 for the purchase of land and buildings; and Tls. 6,000,000 were to be held in reserve in the Treasury for the purchase of gold, silver and copper for minting coins of different denominations for general circulation."
+    },
+    {
+      "id": 28,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "When he believed a reform was worthwhile, how persistent would he be in building support among influential officials?",
+      "held_out_passage": "After the translation and selection were completed, he showed it to Ung Tung Hwo, president of the Treasury. They were both highly pleased with it, and had all the Treasury officials look it over carefully and pass their judgment upon it. In a few weeks’ time, the leading officials of the Treasury Department called upon me to congratulate me upon my work, and said it ought to be made a subject of a memorial to the government to have the banking scheme adopted and carried out. Chang Yen Hwan came forward to champion it, backed by Ung Tung Hwo, the president."
+    },
+    {
+      "id": 29,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How does his reaction to being sidelined suggest his attitude toward status and salary?",
+      "held_out_passage": "On the contrary, after three months’ stay in Nanking under Viceroy Liu Kwan Yih, out of regard for official etiquette, I resigned the secretaryship, which was practically a sinecure--paying about $150 a month."
+    },
+    {
+      "id": 30,
+      "tier": "behavioral_prediction",
+      "category": "change_over_time",
+      "text": "Compared with earlier periods when he worked under stronger official direction, how did his later approach to public service change when left on his own?",
+      "held_out_passage": "The interview differed from that accorded me by Tsang Kwoh Fan in 1863, in that Tsang had already made up his mind what he wanted to do for China, and I was pointed out to him to execute it. But in the case of Chang Chi Tung, he had no plan formed for China at the time, and what I presented to him in the interview was entirely new and somewhat radical;"
+    },
+    {
+      "id": 31,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "When his long-pursued educational plan was finally approved, how was he likely to react emotionally and spiritually?",
+      "held_out_passage": "Mandarin Yung Wing was scarcely able to support the joy of his triumph. For two days, as he has told the writer, he could neither eat nor sleep. He walked on air, and he worshipped God."
+    },
+    {
+      "id": 32,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "If he were given major responsibility for shaping an overseas educational program, what kind of training duration would he be inclined to support?",
+      "held_out_passage": "The feature of the long term of fifteen years resolved upon for the course of study and training to be pursued, is particularly due to him and reflects the size of the man, the type of his mind and character."
+    },
+    {
+      "id": 33,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "If allowed to choose among Western countries for sending students abroad, where would he most likely direct them, based on his formative loyalties?",
+      "held_out_passage": "He might have procured its establishment in England, or France, or Germany; but as he himself had expressed it, the light that had enlightened him shone from America and from New England, and to America and New England he was resolved from the first this Mission should repair."
+    },
+    {
+      "id": 34,
+      "tier": "behavioral_prediction",
+      "category": "career",
+      "text": "When entrusted with leadership of an educational mission, how would his official standing likely change?",
+      "held_out_passage": "He was appointed Chief Commissioner of the Mission, receiving with the appointment his second promotion in rank, viz,--to the Third or Blue Button grade."
+    },
+    {
+      "id": 35,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "If an older associate in his work withdrew early, what kind of replacement would likely be chosen to continue alongside him?",
+      "held_out_passage": "With him was associated, as co-commissioner, a venerable scholar and dignitary,--Chin Lan Pin by name,--who, however, remained in this country less than two years, yielding his place to a younger man, Ngau Ngoh Liang, well-born, distinguished for learning, and a most agreeable gentleman."
+    },
+    {
+      "id": 36,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "Based on his educational ideals, how would the students under his system likely be described in terms of scholarship and conduct?",
+      "held_out_passage": "The students of the Mission have thus far, with very few exceptions, exhibited excellent ability as scholars, and in many instances extraordinary ability, and with fewer exceptions still have been marked by their exemplary conduct."
+    },
+    {
+      "id": 37,
+      "tier": "behavioral_prediction",
+      "category": "career",
+      "text": "As his public service expanded beyond education, what sort of diplomatic role would he likely accept, and how would that affect his rank?",
+      "held_out_passage": "Yung Wing was appointed, December 11, 1876, Associate Minister with his former colleague in the Educational Mission, Chin Lan Pin, to the United States, Peru and Spain. On this occasion he was again promoted in rank,--that is, to Second or Red Button grade, and invested with the title of Tao-tai (or Intendant) of the Province of Kiang Su."
+    },
+    {
+      "id": 38,
+      "tier": "behavioral_prediction",
+      "category": "change_over_time",
+      "text": "If he took on a new diplomatic post, would he likely abandon the educational enterprise he built, or try to remain involved with it?",
+      "held_out_passage": "He expects, on the now approaching arrival of Chin Lan Pin in the country, to take up his residence in Washington, yet not to relinquish the general superintendence of the institution which is so dear to him and has cost him so much, and in which are bound up his best patriotic hopes for his native land,--for he is a patriot from head to foot, in every fiber of his body."
+    },
+    {
+      "id": 39,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How would an observer likely characterize his patriotism and expectations for his country's future?",
+      "held_out_passage": "He loves the Chinese nation and believes in it, doubting not that there is before it a grand career worthy of its noble soil and of its august antiquity."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "subject": "keckley",
+  "system": "mem0",
+  "user_id": "keckley_run_20260415",
+  "facts_expected": 542,
+  "facts_posted": 542,
+  "post_success": 542,
+  "post_failure": 0,
+  "failed_fact_indices": [],
+  "start_time": "2026-04-15T21:52:33.218864+00:00",
+  "last_successful_index": 541,
+  "end_time": "2026-04-15T22:04:27.769122+00:00",
+  "verification_passed": true,
+  "verification_hits": 9,
+  "verification_total": 10
+}

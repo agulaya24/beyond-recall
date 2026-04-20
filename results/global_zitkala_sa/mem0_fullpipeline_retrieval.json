@@ -1,0 +1,775 @@
+{
+  "1": {
+    "question_id": 1,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Zitkala-Sa (Gertrude Bonnin) is a Dakota Sioux Indian lecturer and author of 'American Indian Stories' (1921), which includes 'Old Indian Legends' and 'Americanize The First American'; she is a member of the Woman's National Foundation, League of American Pen-Women, and the Washington Salon.",
+      "The narrator of the book is a Dakota Sioux Indian girl who grew up near the Missouri River and often accompanied her mother to draw water from the river.",
+      "The narrator's cousin Warca-Ziwin (Sunflower) is 17 and often goes to the river alone for water.",
+      "The narrator learned to invite old men and women to supper and to listen to legends told by them, especially stories about a woman with a cross tattooed on her cheeks.",
+      "The narrator's mother is described as medium height, often sad and silent, and taught the narrator to respect others and to be free and spirited.",
+      "The book 'American Indian Stories' includes chapters like 'Impressions of an Indian Childhood', 'The School Days of an Indian Girl', and 'An Indian Teacher Among Indians'.",
+      "User's mother and the old warrior respected User's hospitality, even though the coffee was made on dead ashes, and User later realized the act was ridiculous.",
+      "The narrator developed a suspicion of tattooed people after hearing a story about a woman with a cross tattooed on each cheek.",
+      "User received a bag of marbles from missionaries, and later saw rainbow colors in river ice that reminded them of the marbles.",
+      "User's aunt was jovial, had a string of large blue beads around her neck given by her uncle, and often made the mother laugh."
+    ],
+    "latency_ms": 588,
+    "timestamp": "2026-04-16T07:01:49.417820+00:00"
+  },
+  "2": {
+    "question_id": 2,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Zitkala-Sa (Gertrude Bonnin) is a Dakota Sioux Indian lecturer and author of 'American Indian Stories' (1921), which includes 'Old Indian Legends' and 'Americanize The First American'; she is a member of the Woman's National Foundation, League of American Pen-Women, and the Washington Salon.",
+      "The narrator of the book is a Dakota Sioux Indian girl who grew up near the Missouri River and often accompanied her mother to draw water from the river.",
+      "The narrator learned to invite old men and women to supper and to listen to legends told by them, especially stories about a woman with a cross tattooed on her cheeks.",
+      "A ground squirrel frequently ate corn from the drying corn near the tepee, and User tried to catch it but was told it would bite fingers.",
+      "The narrator's mother is described as medium height, often sad and silent, and taught the narrator to respect others and to be free and spirited.",
+      "The book 'American Indian Stories' includes chapters like 'Impressions of an Indian Childhood', 'The School Days of an Indian Girl', and 'An Indian Teacher Among Indians'.",
+      "User's aunt was jovial, had a string of large blue beads around her neck given by her uncle, and often made the mother laugh.",
+      "User received a bag of marbles from missionaries, and later saw rainbow colors in river ice that reminded them of the marbles.",
+      "The narrator developed a suspicion of tattooed people after hearing a story about a woman with a cross tattooed on each cheek.",
+      "User's mother and the old warrior respected User's hospitality, even though the coffee was made on dead ashes, and User later realized the act was ridiculous."
+    ],
+    "latency_ms": 559,
+    "timestamp": "2026-04-16T07:01:49.977616+00:00"
+  },
+  "3": {
+    "question_id": 3,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Zitkala-Sa (Gertrude Bonnin) is a Dakota Sioux Indian lecturer and author of 'American Indian Stories' (1921), which includes 'Old Indian Legends' and 'Americanize The First American'; she is a member of the Woman's National Foundation, League of American Pen-Women, and the Washington Salon.",
+      "The book 'American Indian Stories' includes chapters like 'Impressions of an Indian Childhood', 'The School Days of an Indian Girl', and 'An Indian Teacher Among Indians'.",
+      "The narrator developed a suspicion of tattooed people after hearing a story about a woman with a cross tattooed on each cheek.",
+      "User's mother and the old warrior respected User's hospitality, even though the coffee was made on dead ashes, and User later realized the act was ridiculous.",
+      "The narrator of the book is a Dakota Sioux Indian girl who grew up near the Missouri River and often accompanied her mother to draw water from the river.",
+      "A ground squirrel frequently ate corn from the drying corn near the tepee, and User tried to catch it but was told it would bite fingers.",
+      "User prepared coffee on a heap of dead ashes and served it with bread to the old warrior Wiyaka-Napbina, then later their mother built a fire to make real coffee.",
+      "The narrator's family was forced to move due to white colonists who stole their land, causing the death of the narrator's sister and uncle during the move.",
+      "The narrator learned to invite old men and women to supper and to listen to legends told by them, especially stories about a woman with a cross tattooed on her cheeks.",
+      "The narrator's mother is described as medium height, often sad and silent, and taught the narrator to respect others and to be free and spirited."
+    ],
+    "latency_ms": 642,
+    "timestamp": "2026-04-16T07:01:50.620746+00:00"
+  },
+  "4": {
+    "question_id": 4,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Zitkala-Sa (Gertrude Bonnin) is a Dakota Sioux Indian lecturer and author of 'American Indian Stories' (1921), which includes 'Old Indian Legends' and 'Americanize The First American'; she is a member of the Woman's National Foundation, League of American Pen-Women, and the Washington Salon.",
+      "A ground squirrel frequently ate corn from the drying corn near the tepee, and User tried to catch it but was told it would bite fingers.",
+      "The narrator learned to invite old men and women to supper and to listen to legends told by them, especially stories about a woman with a cross tattooed on her cheeks.",
+      "The narrator of the book is a Dakota Sioux Indian girl who grew up near the Missouri River and often accompanied her mother to draw water from the river.",
+      "User's aunt was jovial, had a string of large blue beads around her neck given by her uncle, and often made the mother laugh.",
+      "The narrator developed a suspicion of tattooed people after hearing a story about a woman with a cross tattooed on each cheek.",
+      "The narrator's mother is described as medium height, often sad and silent, and taught the narrator to respect others and to be free and spirited.",
+      "User prepared coffee on a heap of dead ashes and served it with bread to the old warrior Wiyaka-Napbina, then later their mother built a fire to make real coffee.",
+      "The narrator's cousin Warca-Ziwin (Sunflower) is 17 and often goes to the river alone for water.",
+      "User's mother and the old warrior respected User's hospitality, even though the coffee was made on dead ashes, and User later realized the act was ridiculous."
+    ],
+    "latency_ms": 643,
+    "timestamp": "2026-04-16T07:01:51.264078+00:00"
+  },
+  "5": {
+    "question_id": 5,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 8,
+    "fact_texts": [
+      "Zitkala-Sa (Gertrude Bonnin) is a Dakota Sioux Indian lecturer and author of 'American Indian Stories' (1921), which includes 'Old Indian Legends' and 'Americanize The First American'; she is a member of the Woman's National Foundation, League of American Pen-Women, and the Washington Salon.",
+      "The narrator developed a suspicion of tattooed people after hearing a story about a woman with a cross tattooed on each cheek.",
+      "The narrator learned to invite old men and women to supper and to listen to legends told by them, especially stories about a woman with a cross tattooed on her cheeks.",
+      "The narrator's mother is described as medium height, often sad and silent, and taught the narrator to respect others and to be free and spirited.",
+      "User's mother and the old warrior respected User's hospitality, even though the coffee was made on dead ashes, and User later realized the act was ridiculous.",
+      "The narrator of the book is a Dakota Sioux Indian girl who grew up near the Missouri River and often accompanied her mother to draw water from the river.",
+      "The narrator's cousin Warca-Ziwin (Sunflower) is 17 and often goes to the river alone for water.",
+      "The book 'American Indian Stories' includes chapters like 'Impressions of an Indian Childhood', 'The School Days of an Indian Girl', and 'An Indian Teacher Among Indians'."
+    ],
+    "latency_ms": 586,
+    "timestamp": "2026-04-16T07:01:51.850576+00:00"
+  },
+  "6": {
+    "question_id": 6,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Zitkala-Sa (Gertrude Bonnin) is a Dakota Sioux Indian lecturer and author of 'American Indian Stories' (1921), which includes 'Old Indian Legends' and 'Americanize The First American'; she is a member of the Woman's National Foundation, League of American Pen-Women, and the Washington Salon.",
+      "The narrator's mother is described as medium height, often sad and silent, and taught the narrator to respect others and to be free and spirited.",
+      "A ground squirrel frequently ate corn from the drying corn near the tepee, and User tried to catch it but was told it would bite fingers.",
+      "The narrator learned to invite old men and women to supper and to listen to legends told by them, especially stories about a woman with a cross tattooed on her cheeks.",
+      "User received a bag of marbles from missionaries, and later saw rainbow colors in river ice that reminded them of the marbles.",
+      "The narrator of the book is a Dakota Sioux Indian girl who grew up near the Missouri River and often accompanied her mother to draw water from the river.",
+      "User's aunt was jovial, had a string of large blue beads around her neck given by her uncle, and often made the mother laugh.",
+      "User's mother and the old warrior respected User's hospitality, even though the coffee was made on dead ashes, and User later realized the act was ridiculous.",
+      "The narrator's cousin Warca-Ziwin (Sunflower) is 17 and often goes to the river alone for water.",
+      "The narrator developed a suspicion of tattooed people after hearing a story about a woman with a cross tattooed on each cheek."
+    ],
+    "latency_ms": 530,
+    "timestamp": "2026-04-16T07:01:52.383469+00:00"
+  },
+  "7": {
+    "question_id": 7,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Zitkala-Sa (Gertrude Bonnin) is a Dakota Sioux Indian lecturer and author of 'American Indian Stories' (1921), which includes 'Old Indian Legends' and 'Americanize The First American'; she is a member of the Woman's National Foundation, League of American Pen-Women, and the Washington Salon.",
+      "The narrator developed a suspicion of tattooed people after hearing a story about a woman with a cross tattooed on each cheek.",
+      "The narrator learned to invite old men and women to supper and to listen to legends told by them, especially stories about a woman with a cross tattooed on her cheeks.",
+      "The narrator's mother is described as medium height, often sad and silent, and taught the narrator to respect others and to be free and spirited.",
+      "User's mother and the old warrior respected User's hospitality, even though the coffee was made on dead ashes, and User later realized the act was ridiculous.",
+      "The narrator of the book is a Dakota Sioux Indian girl who grew up near the Missouri River and often accompanied her mother to draw water from the river.",
+      "A ground squirrel frequently ate corn from the drying corn near the tepee, and User tried to catch it but was told it would bite fingers.",
+      "User prepared coffee on a heap of dead ashes and served it with bread to the old warrior Wiyaka-Napbina, then later their mother built a fire to make real coffee.",
+      "The narrator's cousin Warca-Ziwin (Sunflower) is 17 and often goes to the river alone for water.",
+      "User met their old grandfather Wiyaka-Napbina, who had often told Iktomi legends, and he asked about User's mother, who is soon returning from aunt's tepee."
+    ],
+    "latency_ms": 498,
+    "timestamp": "2026-04-16T07:01:52.883158+00:00"
+  },
+  "8": {
+    "question_id": 8,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Zitkala-Sa (Gertrude Bonnin) is a Dakota Sioux Indian lecturer and author of 'American Indian Stories' (1921), which includes 'Old Indian Legends' and 'Americanize The First American'; she is a member of the Woman's National Foundation, League of American Pen-Women, and the Washington Salon.",
+      "The book 'American Indian Stories' includes chapters like 'Impressions of an Indian Childhood', 'The School Days of an Indian Girl', and 'An Indian Teacher Among Indians'.",
+      "The narrator of the book is a Dakota Sioux Indian girl who grew up near the Missouri River and often accompanied her mother to draw water from the river.",
+      "The narrator developed a suspicion of tattooed people after hearing a story about a woman with a cross tattooed on each cheek.",
+      "The narrator's family was forced to move due to white colonists who stole their land, causing the death of the narrator's sister and uncle during the move.",
+      "User received a bag of marbles from missionaries, and later saw rainbow colors in river ice that reminded them of the marbles.",
+      "User's mother and the old warrior respected User's hospitality, even though the coffee was made on dead ashes, and User later realized the act was ridiculous.",
+      "User met their old grandfather Wiyaka-Napbina, who had often told Iktomi legends, and he asked about User's mother, who is soon returning from aunt's tepee.",
+      "The narrator learned to invite old men and women to supper and to listen to legends told by them, especially stories about a woman with a cross tattooed on her cheeks.",
+      "The narrator's mother is described as medium height, often sad and silent, and taught the narrator to respect others and to be free and spirited."
+    ],
+    "latency_ms": 685,
+    "timestamp": "2026-04-16T07:01:53.568857+00:00"
+  },
+  "9": {
+    "question_id": 9,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Zitkala-Sa (Gertrude Bonnin) is a Dakota Sioux Indian lecturer and author of 'American Indian Stories' (1921), which includes 'Old Indian Legends' and 'Americanize The First American'; she is a member of the Woman's National Foundation, League of American Pen-Women, and the Washington Salon.",
+      "The book 'American Indian Stories' includes chapters like 'Impressions of an Indian Childhood', 'The School Days of an Indian Girl', and 'An Indian Teacher Among Indians'.",
+      "The narrator developed a suspicion of tattooed people after hearing a story about a woman with a cross tattooed on each cheek.",
+      "The narrator of the book is a Dakota Sioux Indian girl who grew up near the Missouri River and often accompanied her mother to draw water from the river.",
+      "The narrator learned to invite old men and women to supper and to listen to legends told by them, especially stories about a woman with a cross tattooed on her cheeks.",
+      "A ground squirrel frequently ate corn from the drying corn near the tepee, and User tried to catch it but was told it would bite fingers.",
+      "User prepared coffee on a heap of dead ashes and served it with bread to the old warrior Wiyaka-Napbina, then later their mother built a fire to make real coffee.",
+      "The narrator's mother is described as medium height, often sad and silent, and taught the narrator to respect others and to be free and spirited.",
+      "User received a bag of marbles from missionaries, and later saw rainbow colors in river ice that reminded them of the marbles.",
+      "The narrator's family was forced to move due to white colonists who stole their land, causing the death of the narrator's sister and uncle during the move."
+    ],
+    "latency_ms": 568,
+    "timestamp": "2026-04-16T07:01:54.139353+00:00"
+  },
+  "10": {
+    "question_id": 10,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The narrator's mother is described as medium height, often sad and silent, and taught the narrator to respect others and to be free and spirited.",
+      "User's aunt was jovial, had a string of large blue beads around her neck given by her uncle, and often made the mother laugh.",
+      "The narrator of the book is a Dakota Sioux Indian girl who grew up near the Missouri River and often accompanied her mother to draw water from the river.",
+      "The narrator's family was forced to move due to white colonists who stole their land, causing the death of the narrator's sister and uncle during the move.",
+      "Zitkala-Sa (Gertrude Bonnin) is a Dakota Sioux Indian lecturer and author of 'American Indian Stories' (1921), which includes 'Old Indian Legends' and 'Americanize The First American'; she is a member of the Woman's National Foundation, League of American Pen-Women, and the Washington Salon.",
+      "The narrator learned to invite old men and women to supper and to listen to legends told by them, especially stories about a woman with a cross tattooed on her cheeks.",
+      "User met their old grandfather Wiyaka-Napbina, who had often told Iktomi legends, and he asked about User's mother, who is soon returning from aunt's tepee.",
+      "The narrator's cousin Warca-Ziwin (Sunflower) is 17 and often goes to the river alone for water.",
+      "A ground squirrel frequently ate corn from the drying corn near the tepee, and User tried to catch it but was told it would bite fingers.",
+      "User's mother and the old warrior respected User's hospitality, even though the coffee was made on dead ashes, and User later realized the act was ridiculous."
+    ],
+    "latency_ms": 544,
+    "timestamp": "2026-04-16T07:01:54.685769+00:00"
+  },
+  "11": {
+    "question_id": 11,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Zitkala-Sa (Gertrude Bonnin) is a Dakota Sioux Indian lecturer and author of 'American Indian Stories' (1921), which includes 'Old Indian Legends' and 'Americanize The First American'; she is a member of the Woman's National Foundation, League of American Pen-Women, and the Washington Salon.",
+      "The narrator's mother is described as medium height, often sad and silent, and taught the narrator to respect others and to be free and spirited.",
+      "The narrator learned to invite old men and women to supper and to listen to legends told by them, especially stories about a woman with a cross tattooed on her cheeks.",
+      "A ground squirrel frequently ate corn from the drying corn near the tepee, and User tried to catch it but was told it would bite fingers.",
+      "User's aunt was jovial, had a string of large blue beads around her neck given by her uncle, and often made the mother laugh.",
+      "The narrator's cousin Warca-Ziwin (Sunflower) is 17 and often goes to the river alone for water.",
+      "User's mother and the old warrior respected User's hospitality, even though the coffee was made on dead ashes, and User later realized the act was ridiculous.",
+      "The narrator's family was forced to move due to white colonists who stole their land, causing the death of the narrator's sister and uncle during the move.",
+      "The narrator of the book is a Dakota Sioux Indian girl who grew up near the Missouri River and often accompanied her mother to draw water from the river.",
+      "User met their old grandfather Wiyaka-Napbina, who had often told Iktomi legends, and he asked about User's mother, who is soon returning from aunt's tepee."
+    ],
+    "latency_ms": 573,
+    "timestamp": "2026-04-16T07:01:55.259911+00:00"
+  },
+  "12": {
+    "question_id": 12,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Zitkala-Sa (Gertrude Bonnin) is a Dakota Sioux Indian lecturer and author of 'American Indian Stories' (1921), which includes 'Old Indian Legends' and 'Americanize The First American'; she is a member of the Woman's National Foundation, League of American Pen-Women, and the Washington Salon.",
+      "The narrator developed a suspicion of tattooed people after hearing a story about a woman with a cross tattooed on each cheek.",
+      "The narrator learned to invite old men and women to supper and to listen to legends told by them, especially stories about a woman with a cross tattooed on her cheeks.",
+      "The narrator of the book is a Dakota Sioux Indian girl who grew up near the Missouri River and often accompanied her mother to draw water from the river.",
+      "A ground squirrel frequently ate corn from the drying corn near the tepee, and User tried to catch it but was told it would bite fingers.",
+      "The narrator's family was forced to move due to white colonists who stole their land, causing the death of the narrator's sister and uncle during the move.",
+      "User's aunt was jovial, had a string of large blue beads around her neck given by her uncle, and often made the mother laugh.",
+      "The narrator's cousin Warca-Ziwin (Sunflower) is 17 and often goes to the river alone for water.",
+      "User prepared coffee on a heap of dead ashes and served it with bread to the old warrior Wiyaka-Napbina, then later their mother built a fire to make real coffee.",
+      "The narrator's mother is described as medium height, often sad and silent, and taught the narrator to respect others and to be free and spirited."
+    ],
+    "latency_ms": 564,
+    "timestamp": "2026-04-16T07:01:55.828367+00:00"
+  },
+  "13": {
+    "question_id": 13,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Zitkala-Sa (Gertrude Bonnin) is a Dakota Sioux Indian lecturer and author of 'American Indian Stories' (1921), which includes 'Old Indian Legends' and 'Americanize The First American'; she is a member of the Woman's National Foundation, League of American Pen-Women, and the Washington Salon.",
+      "The narrator learned to invite old men and women to supper and to listen to legends told by them, especially stories about a woman with a cross tattooed on her cheeks.",
+      "The narrator developed a suspicion of tattooed people after hearing a story about a woman with a cross tattooed on each cheek.",
+      "The narrator of the book is a Dakota Sioux Indian girl who grew up near the Missouri River and often accompanied her mother to draw water from the river.",
+      "User's aunt was jovial, had a string of large blue beads around her neck given by her uncle, and often made the mother laugh.",
+      "User received a bag of marbles from missionaries, and later saw rainbow colors in river ice that reminded them of the marbles.",
+      "User met their old grandfather Wiyaka-Napbina, who had often told Iktomi legends, and he asked about User's mother, who is soon returning from aunt's tepee.",
+      "User's mother forbids picking plums from the dead man's plum bush, explaining it is sacred because a brave was buried there and his plum seeds grew the bush.",
+      "The narrator's mother had a brother who was a brave warrior, whose name was remembered by old men and praised for his valor and kindness.",
+      "User prepared coffee on a heap of dead ashes and served it with bread to the old warrior Wiyaka-Napbina, then later their mother built a fire to make real coffee."
+    ],
+    "latency_ms": 595,
+    "timestamp": "2026-04-16T07:01:56.424862+00:00"
+  },
+  "14": {
+    "question_id": 14,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 9,
+    "fact_texts": [
+      "User's aunt was jovial, had a string of large blue beads around her neck given by her uncle, and often made the mother laugh.",
+      "The narrator's mother is described as medium height, often sad and silent, and taught the narrator to respect others and to be free and spirited.",
+      "User received a bag of marbles from missionaries, and later saw rainbow colors in river ice that reminded them of the marbles.",
+      "The narrator developed a suspicion of tattooed people after hearing a story about a woman with a cross tattooed on each cheek.",
+      "The narrator learned to invite old men and women to supper and to listen to legends told by them, especially stories about a woman with a cross tattooed on her cheeks.",
+      "User's mother forbids picking plums from the dead man's plum bush, explaining it is sacred because a brave was buried there and his plum seeds grew the bush.",
+      "The narrator's mother had a brother who was a brave warrior, whose name was remembered by old men and praised for his valor and kindness.",
+      "The narrator's family was forced to move due to white colonists who stole their land, causing the death of the narrator's sister and uncle during the move.",
+      "The narrator's cousin Warca-Ziwin (Sunflower) is 17 and often goes to the river alone for water."
+    ],
+    "latency_ms": 507,
+    "timestamp": "2026-04-16T07:01:56.933257+00:00"
+  },
+  "15": {
+    "question_id": 15,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Zitkala-Sa (Gertrude Bonnin) is a Dakota Sioux Indian lecturer and author of 'American Indian Stories' (1921), which includes 'Old Indian Legends' and 'Americanize The First American'; she is a member of the Woman's National Foundation, League of American Pen-Women, and the Washington Salon.",
+      "The narrator developed a suspicion of tattooed people after hearing a story about a woman with a cross tattooed on each cheek.",
+      "A ground squirrel frequently ate corn from the drying corn near the tepee, and User tried to catch it but was told it would bite fingers.",
+      "User prepared coffee on a heap of dead ashes and served it with bread to the old warrior Wiyaka-Napbina, then later their mother built a fire to make real coffee.",
+      "The narrator learned to invite old men and women to supper and to listen to legends told by them, especially stories about a woman with a cross tattooed on her cheeks.",
+      "The narrator's family was forced to move due to white colonists who stole their land, causing the death of the narrator's sister and uncle during the move.",
+      "User's mother and the old warrior respected User's hospitality, even though the coffee was made on dead ashes, and User later realized the act was ridiculous.",
+      "User received a bag of marbles from missionaries, and later saw rainbow colors in river ice that reminded them of the marbles.",
+      "The narrator of the book is a Dakota Sioux Indian girl who grew up near the Missouri River and often accompanied her mother to draw water from the river.",
+      "The narrator's mother is described as medium height, often sad and silent, and taught the narrator to respect others and to be free and spirited."
+    ],
+    "latency_ms": 578,
+    "timestamp": "2026-04-16T07:01:57.512503+00:00"
+  },
+  "16": {
+    "question_id": 16,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Zitkala-Sa (Gertrude Bonnin) is a Dakota Sioux Indian lecturer and author of 'American Indian Stories' (1921), which includes 'Old Indian Legends' and 'Americanize The First American'; she is a member of the Woman's National Foundation, League of American Pen-Women, and the Washington Salon.",
+      "The narrator learned to invite old men and women to supper and to listen to legends told by them, especially stories about a woman with a cross tattooed on her cheeks.",
+      "The narrator's mother is described as medium height, often sad and silent, and taught the narrator to respect others and to be free and spirited.",
+      "The narrator developed a suspicion of tattooed people after hearing a story about a woman with a cross tattooed on each cheek.",
+      "The narrator's family was forced to move due to white colonists who stole their land, causing the death of the narrator's sister and uncle during the move.",
+      "A ground squirrel frequently ate corn from the drying corn near the tepee, and User tried to catch it but was told it would bite fingers.",
+      "User prepared coffee on a heap of dead ashes and served it with bread to the old warrior Wiyaka-Napbina, then later their mother built a fire to make real coffee.",
+      "The narrator's cousin Warca-Ziwin (Sunflower) is 17 and often goes to the river alone for water.",
+      "The narrator of the book is a Dakota Sioux Indian girl who grew up near the Missouri River and often accompanied her mother to draw water from the river.",
+      "User's mother forbids picking plums from the dead man's plum bush, explaining it is sacred because a brave was buried there and his plum seeds grew the bush."
+    ],
+    "latency_ms": 551,
+    "timestamp": "2026-04-16T07:01:58.069291+00:00"
+  },
+  "17": {
+    "question_id": 17,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 8,
+    "fact_texts": [
+      "Zitkala-Sa (Gertrude Bonnin) is a Dakota Sioux Indian lecturer and author of 'American Indian Stories' (1921), which includes 'Old Indian Legends' and 'Americanize The First American'; she is a member of the Woman's National Foundation, League of American Pen-Women, and the Washington Salon.",
+      "The narrator learned to invite old men and women to supper and to listen to legends told by them, especially stories about a woman with a cross tattooed on her cheeks.",
+      "A ground squirrel frequently ate corn from the drying corn near the tepee, and User tried to catch it but was told it would bite fingers.",
+      "The narrator's mother had a brother who was a brave warrior, whose name was remembered by old men and praised for his valor and kindness.",
+      "The narrator's mother is described as medium height, often sad and silent, and taught the narrator to respect others and to be free and spirited.",
+      "User received a bag of marbles from missionaries, and later saw rainbow colors in river ice that reminded them of the marbles.",
+      "The narrator's family was forced to move due to white colonists who stole their land, causing the death of the narrator's sister and uncle during the move.",
+      "The narrator developed a suspicion of tattooed people after hearing a story about a woman with a cross tattooed on each cheek."
+    ],
+    "latency_ms": 552,
+    "timestamp": "2026-04-16T07:01:58.622143+00:00"
+  },
+  "18": {
+    "question_id": 18,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Zitkala-Sa (Gertrude Bonnin) is a Dakota Sioux Indian lecturer and author of 'American Indian Stories' (1921), which includes 'Old Indian Legends' and 'Americanize The First American'; she is a member of the Woman's National Foundation, League of American Pen-Women, and the Washington Salon.",
+      "The narrator of the book is a Dakota Sioux Indian girl who grew up near the Missouri River and often accompanied her mother to draw water from the river.",
+      "The narrator's family was forced to move due to white colonists who stole their land, causing the death of the narrator's sister and uncle during the move.",
+      "The narrator learned to invite old men and women to supper and to listen to legends told by them, especially stories about a woman with a cross tattooed on her cheeks.",
+      "User's aunt was jovial, had a string of large blue beads around her neck given by her uncle, and often made the mother laugh.",
+      "The narrator developed a suspicion of tattooed people after hearing a story about a woman with a cross tattooed on each cheek.",
+      "A ground squirrel frequently ate corn from the drying corn near the tepee, and User tried to catch it but was told it would bite fingers.",
+      "User prepared coffee on a heap of dead ashes and served it with bread to the old warrior Wiyaka-Napbina, then later their mother built a fire to make real coffee.",
+      "User received a bag of marbles from missionaries, and later saw rainbow colors in river ice that reminded them of the marbles.",
+      "The book 'American Indian Stories' includes chapters like 'Impressions of an Indian Childhood', 'The School Days of an Indian Girl', and 'An Indian Teacher Among Indians'."
+    ],
+    "latency_ms": 560,
+    "timestamp": "2026-04-16T07:01:59.185663+00:00"
+  },
+  "19": {
+    "question_id": 19,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The narrator developed a suspicion of tattooed people after hearing a story about a woman with a cross tattooed on each cheek.",
+      "Zitkala-Sa (Gertrude Bonnin) is a Dakota Sioux Indian lecturer and author of 'American Indian Stories' (1921), which includes 'Old Indian Legends' and 'Americanize The First American'; she is a member of the Woman's National Foundation, League of American Pen-Women, and the Washington Salon.",
+      "The narrator learned to invite old men and women to supper and to listen to legends told by them, especially stories about a woman with a cross tattooed on her cheeks.",
+      "A ground squirrel frequently ate corn from the drying corn near the tepee, and User tried to catch it but was told it would bite fingers.",
+      "The narrator of the book is a Dakota Sioux Indian girl who grew up near the Missouri River and often accompanied her mother to draw water from the river.",
+      "User's aunt was jovial, had a string of large blue beads around her neck given by her uncle, and often made the mother laugh.",
+      "The narrator's family was forced to move due to white colonists who stole their land, causing the death of the narrator's sister and uncle during the move.",
+      "The narrator's cousin Warca-Ziwin (Sunflower) is 17 and often goes to the river alone for water.",
+      "User's mother and the old warrior respected User's hospitality, even though the coffee was made on dead ashes, and User later realized the act was ridiculous.",
+      "The narrator's mother is described as medium height, often sad and silent, and taught the narrator to respect others and to be free and spirited."
+    ],
+    "latency_ms": 559,
+    "timestamp": "2026-04-16T07:01:59.745136+00:00"
+  },
+  "20": {
+    "question_id": 20,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Zitkala-Sa (Gertrude Bonnin) is a Dakota Sioux Indian lecturer and author of 'American Indian Stories' (1921), which includes 'Old Indian Legends' and 'Americanize The First American'; she is a member of the Woman's National Foundation, League of American Pen-Women, and the Washington Salon.",
+      "The narrator of the book is a Dakota Sioux Indian girl who grew up near the Missouri River and often accompanied her mother to draw water from the river.",
+      "The narrator learned to invite old men and women to supper and to listen to legends told by them, especially stories about a woman with a cross tattooed on her cheeks.",
+      "The narrator developed a suspicion of tattooed people after hearing a story about a woman with a cross tattooed on each cheek.",
+      "User prepared coffee on a heap of dead ashes and served it with bread to the old warrior Wiyaka-Napbina, then later their mother built a fire to make real coffee.",
+      "User's mother and the old warrior respected User's hospitality, even though the coffee was made on dead ashes, and User later realized the act was ridiculous.",
+      "The narrator's cousin Warca-Ziwin (Sunflower) is 17 and often goes to the river alone for water.",
+      "The narrator's family was forced to move due to white colonists who stole their land, causing the death of the narrator's sister and uncle during the move.",
+      "The book 'American Indian Stories' includes chapters like 'Impressions of an Indian Childhood', 'The School Days of an Indian Girl', and 'An Indian Teacher Among Indians'.",
+      "User met their old grandfather Wiyaka-Napbina, who had often told Iktomi legends, and he asked about User's mother, who is soon returning from aunt's tepee."
+    ],
+    "latency_ms": 567,
+    "timestamp": "2026-04-16T07:02:00.316237+00:00"
+  },
+  "21": {
+    "question_id": 21,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The narrator learned to invite old men and women to supper and to listen to legends told by them, especially stories about a woman with a cross tattooed on her cheeks.",
+      "The narrator of the book is a Dakota Sioux Indian girl who grew up near the Missouri River and often accompanied her mother to draw water from the river.",
+      "Zitkala-Sa (Gertrude Bonnin) is a Dakota Sioux Indian lecturer and author of 'American Indian Stories' (1921), which includes 'Old Indian Legends' and 'Americanize The First American'; she is a member of the Woman's National Foundation, League of American Pen-Women, and the Washington Salon.",
+      "The narrator developed a suspicion of tattooed people after hearing a story about a woman with a cross tattooed on each cheek.",
+      "The narrator's family was forced to move due to white colonists who stole their land, causing the death of the narrator's sister and uncle during the move.",
+      "User's aunt was jovial, had a string of large blue beads around her neck given by her uncle, and often made the mother laugh.",
+      "User met their old grandfather Wiyaka-Napbina, who had often told Iktomi legends, and he asked about User's mother, who is soon returning from aunt's tepee.",
+      "The narrator's mother had a brother who was a brave warrior, whose name was remembered by old men and praised for his valor and kindness.",
+      "The book 'American Indian Stories' includes chapters like 'Impressions of an Indian Childhood', 'The School Days of an Indian Girl', and 'An Indian Teacher Among Indians'.",
+      "The narrator's cousin Warca-Ziwin (Sunflower) is 17 and often goes to the river alone for water."
+    ],
+    "latency_ms": 899,
+    "timestamp": "2026-04-16T07:02:01.217731+00:00"
+  },
+  "22": {
+    "question_id": 22,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Zitkala-Sa (Gertrude Bonnin) is a Dakota Sioux Indian lecturer and author of 'American Indian Stories' (1921), which includes 'Old Indian Legends' and 'Americanize The First American'; she is a member of the Woman's National Foundation, League of American Pen-Women, and the Washington Salon.",
+      "User's aunt was jovial, had a string of large blue beads around her neck given by her uncle, and often made the mother laugh.",
+      "The narrator learned to invite old men and women to supper and to listen to legends told by them, especially stories about a woman with a cross tattooed on her cheeks.",
+      "The narrator of the book is a Dakota Sioux Indian girl who grew up near the Missouri River and often accompanied her mother to draw water from the river.",
+      "The narrator's family was forced to move due to white colonists who stole their land, causing the death of the narrator's sister and uncle during the move.",
+      "The narrator developed a suspicion of tattooed people after hearing a story about a woman with a cross tattooed on each cheek.",
+      "The narrator's cousin Warca-Ziwin (Sunflower) is 17 and often goes to the river alone for water.",
+      "The narrator's mother had a brother who was a brave warrior, whose name was remembered by old men and praised for his valor and kindness.",
+      "The narrator's mother is described as medium height, often sad and silent, and taught the narrator to respect others and to be free and spirited.",
+      "User's mother and the old warrior respected User's hospitality, even though the coffee was made on dead ashes, and User later realized the act was ridiculous."
+    ],
+    "latency_ms": 1106,
+    "timestamp": "2026-04-16T07:02:02.325272+00:00"
+  },
+  "23": {
+    "question_id": 23,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Zitkala-Sa (Gertrude Bonnin) is a Dakota Sioux Indian lecturer and author of 'American Indian Stories' (1921), which includes 'Old Indian Legends' and 'Americanize The First American'; she is a member of the Woman's National Foundation, League of American Pen-Women, and the Washington Salon.",
+      "The narrator of the book is a Dakota Sioux Indian girl who grew up near the Missouri River and often accompanied her mother to draw water from the river.",
+      "The narrator learned to invite old men and women to supper and to listen to legends told by them, especially stories about a woman with a cross tattooed on her cheeks.",
+      "User's mother and the old warrior respected User's hospitality, even though the coffee was made on dead ashes, and User later realized the act was ridiculous.",
+      "The narrator developed a suspicion of tattooed people after hearing a story about a woman with a cross tattooed on each cheek.",
+      "User prepared coffee on a heap of dead ashes and served it with bread to the old warrior Wiyaka-Napbina, then later their mother built a fire to make real coffee.",
+      "The narrator's mother is described as medium height, often sad and silent, and taught the narrator to respect others and to be free and spirited.",
+      "The book 'American Indian Stories' includes chapters like 'Impressions of an Indian Childhood', 'The School Days of an Indian Girl', and 'An Indian Teacher Among Indians'.",
+      "The narrator's cousin Warca-Ziwin (Sunflower) is 17 and often goes to the river alone for water.",
+      "The narrator's family was forced to move due to white colonists who stole their land, causing the death of the narrator's sister and uncle during the move."
+    ],
+    "latency_ms": 627,
+    "timestamp": "2026-04-16T07:02:02.953518+00:00"
+  },
+  "24": {
+    "question_id": 24,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The narrator of the book is a Dakota Sioux Indian girl who grew up near the Missouri River and often accompanied her mother to draw water from the river.",
+      "Zitkala-Sa (Gertrude Bonnin) is a Dakota Sioux Indian lecturer and author of 'American Indian Stories' (1921), which includes 'Old Indian Legends' and 'Americanize The First American'; she is a member of the Woman's National Foundation, League of American Pen-Women, and the Washington Salon.",
+      "The narrator learned to invite old men and women to supper and to listen to legends told by them, especially stories about a woman with a cross tattooed on her cheeks.",
+      "The narrator developed a suspicion of tattooed people after hearing a story about a woman with a cross tattooed on each cheek.",
+      "The narrator's cousin Warca-Ziwin (Sunflower) is 17 and often goes to the river alone for water.",
+      "User's mother forbids picking plums from the dead man's plum bush, explaining it is sacred because a brave was buried there and his plum seeds grew the bush.",
+      "User met their old grandfather Wiyaka-Napbina, who had often told Iktomi legends, and he asked about User's mother, who is soon returning from aunt's tepee.",
+      "User's aunt was jovial, had a string of large blue beads around her neck given by her uncle, and often made the mother laugh.",
+      "A ground squirrel frequently ate corn from the drying corn near the tepee, and User tried to catch it but was told it would bite fingers.",
+      "The narrator's mother is described as medium height, often sad and silent, and taught the narrator to respect others and to be free and spirited."
+    ],
+    "latency_ms": 522,
+    "timestamp": "2026-04-16T07:02:03.476503+00:00"
+  },
+  "25": {
+    "question_id": 25,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Zitkala-Sa (Gertrude Bonnin) is a Dakota Sioux Indian lecturer and author of 'American Indian Stories' (1921), which includes 'Old Indian Legends' and 'Americanize The First American'; she is a member of the Woman's National Foundation, League of American Pen-Women, and the Washington Salon.",
+      "The narrator of the book is a Dakota Sioux Indian girl who grew up near the Missouri River and often accompanied her mother to draw water from the river.",
+      "The narrator learned to invite old men and women to supper and to listen to legends told by them, especially stories about a woman with a cross tattooed on her cheeks.",
+      "The narrator's mother is described as medium height, often sad and silent, and taught the narrator to respect others and to be free and spirited.",
+      "A ground squirrel frequently ate corn from the drying corn near the tepee, and User tried to catch it but was told it would bite fingers.",
+      "The narrator developed a suspicion of tattooed people after hearing a story about a woman with a cross tattooed on each cheek.",
+      "User prepared coffee on a heap of dead ashes and served it with bread to the old warrior Wiyaka-Napbina, then later their mother built a fire to make real coffee.",
+      "The narrator's cousin Warca-Ziwin (Sunflower) is 17 and often goes to the river alone for water.",
+      "The narrator's family was forced to move due to white colonists who stole their land, causing the death of the narrator's sister and uncle during the move.",
+      "User met their old grandfather Wiyaka-Napbina, who had often told Iktomi legends, and he asked about User's mother, who is soon returning from aunt's tepee."
+    ],
+    "latency_ms": 508,
+    "timestamp": "2026-04-16T07:02:03.986409+00:00"
+  },
+  "26": {
+    "question_id": 26,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Zitkala-Sa (Gertrude Bonnin) is a Dakota Sioux Indian lecturer and author of 'American Indian Stories' (1921), which includes 'Old Indian Legends' and 'Americanize The First American'; she is a member of the Woman's National Foundation, League of American Pen-Women, and the Washington Salon.",
+      "The narrator learned to invite old men and women to supper and to listen to legends told by them, especially stories about a woman with a cross tattooed on her cheeks.",
+      "The book 'American Indian Stories' includes chapters like 'Impressions of an Indian Childhood', 'The School Days of an Indian Girl', and 'An Indian Teacher Among Indians'.",
+      "The narrator of the book is a Dakota Sioux Indian girl who grew up near the Missouri River and often accompanied her mother to draw water from the river.",
+      "The narrator developed a suspicion of tattooed people after hearing a story about a woman with a cross tattooed on each cheek.",
+      "User met their old grandfather Wiyaka-Napbina, who had often told Iktomi legends, and he asked about User's mother, who is soon returning from aunt's tepee.",
+      "The narrator's cousin Warca-Ziwin (Sunflower) is 17 and often goes to the river alone for water.",
+      "User's aunt was jovial, had a string of large blue beads around her neck given by her uncle, and often made the mother laugh.",
+      "User's mother and the old warrior respected User's hospitality, even though the coffee was made on dead ashes, and User later realized the act was ridiculous.",
+      "The narrator's mother is described as medium height, often sad and silent, and taught the narrator to respect others and to be free and spirited."
+    ],
+    "latency_ms": 536,
+    "timestamp": "2026-04-16T07:02:04.527240+00:00"
+  },
+  "27": {
+    "question_id": 27,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The narrator's cousin Warca-Ziwin (Sunflower) is 17 and often goes to the river alone for water.",
+      "Zitkala-Sa (Gertrude Bonnin) is a Dakota Sioux Indian lecturer and author of 'American Indian Stories' (1921), which includes 'Old Indian Legends' and 'Americanize The First American'; she is a member of the Woman's National Foundation, League of American Pen-Women, and the Washington Salon.",
+      "User prepared coffee on a heap of dead ashes and served it with bread to the old warrior Wiyaka-Napbina, then later their mother built a fire to make real coffee.",
+      "The narrator of the book is a Dakota Sioux Indian girl who grew up near the Missouri River and often accompanied her mother to draw water from the river.",
+      "A ground squirrel frequently ate corn from the drying corn near the tepee, and User tried to catch it but was told it would bite fingers.",
+      "User received a bag of marbles from missionaries, and later saw rainbow colors in river ice that reminded them of the marbles.",
+      "User met their old grandfather Wiyaka-Napbina, who had often told Iktomi legends, and he asked about User's mother, who is soon returning from aunt's tepee.",
+      "The narrator's mother is described as medium height, often sad and silent, and taught the narrator to respect others and to be free and spirited.",
+      "The narrator developed a suspicion of tattooed people after hearing a story about a woman with a cross tattooed on each cheek.",
+      "The narrator's family was forced to move due to white colonists who stole their land, causing the death of the narrator's sister and uncle during the move."
+    ],
+    "latency_ms": 524,
+    "timestamp": "2026-04-16T07:02:05.056248+00:00"
+  },
+  "28": {
+    "question_id": 28,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Zitkala-Sa (Gertrude Bonnin) is a Dakota Sioux Indian lecturer and author of 'American Indian Stories' (1921), which includes 'Old Indian Legends' and 'Americanize The First American'; she is a member of the Woman's National Foundation, League of American Pen-Women, and the Washington Salon.",
+      "The narrator developed a suspicion of tattooed people after hearing a story about a woman with a cross tattooed on each cheek.",
+      "The narrator learned to invite old men and women to supper and to listen to legends told by them, especially stories about a woman with a cross tattooed on her cheeks.",
+      "The narrator of the book is a Dakota Sioux Indian girl who grew up near the Missouri River and often accompanied her mother to draw water from the river.",
+      "User prepared coffee on a heap of dead ashes and served it with bread to the old warrior Wiyaka-Napbina, then later their mother built a fire to make real coffee.",
+      "User's aunt was jovial, had a string of large blue beads around her neck given by her uncle, and often made the mother laugh.",
+      "The narrator's mother had a brother who was a brave warrior, whose name was remembered by old men and praised for his valor and kindness.",
+      "A ground squirrel frequently ate corn from the drying corn near the tepee, and User tried to catch it but was told it would bite fingers.",
+      "The narrator's mother is described as medium height, often sad and silent, and taught the narrator to respect others and to be free and spirited.",
+      "User's mother and the old warrior respected User's hospitality, even though the coffee was made on dead ashes, and User later realized the act was ridiculous."
+    ],
+    "latency_ms": 731,
+    "timestamp": "2026-04-16T07:02:05.787923+00:00"
+  },
+  "29": {
+    "question_id": 29,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Zitkala-Sa (Gertrude Bonnin) is a Dakota Sioux Indian lecturer and author of 'American Indian Stories' (1921), which includes 'Old Indian Legends' and 'Americanize The First American'; she is a member of the Woman's National Foundation, League of American Pen-Women, and the Washington Salon.",
+      "The narrator of the book is a Dakota Sioux Indian girl who grew up near the Missouri River and often accompanied her mother to draw water from the river.",
+      "The narrator developed a suspicion of tattooed people after hearing a story about a woman with a cross tattooed on each cheek.",
+      "The narrator learned to invite old men and women to supper and to listen to legends told by them, especially stories about a woman with a cross tattooed on her cheeks.",
+      "User prepared coffee on a heap of dead ashes and served it with bread to the old warrior Wiyaka-Napbina, then later their mother built a fire to make real coffee.",
+      "The book 'American Indian Stories' includes chapters like 'Impressions of an Indian Childhood', 'The School Days of an Indian Girl', and 'An Indian Teacher Among Indians'.",
+      "The narrator's mother is described as medium height, often sad and silent, and taught the narrator to respect others and to be free and spirited.",
+      "The narrator's family was forced to move due to white colonists who stole their land, causing the death of the narrator's sister and uncle during the move.",
+      "The narrator's cousin Warca-Ziwin (Sunflower) is 17 and often goes to the river alone for water.",
+      "A ground squirrel frequently ate corn from the drying corn near the tepee, and User tried to catch it but was told it would bite fingers."
+    ],
+    "latency_ms": 680,
+    "timestamp": "2026-04-16T07:02:06.468965+00:00"
+  },
+  "30": {
+    "question_id": 30,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 8,
+    "fact_texts": [
+      "Zitkala-Sa (Gertrude Bonnin) is a Dakota Sioux Indian lecturer and author of 'American Indian Stories' (1921), which includes 'Old Indian Legends' and 'Americanize The First American'; she is a member of the Woman's National Foundation, League of American Pen-Women, and the Washington Salon.",
+      "The narrator's mother is described as medium height, often sad and silent, and taught the narrator to respect others and to be free and spirited.",
+      "The narrator learned to invite old men and women to supper and to listen to legends told by them, especially stories about a woman with a cross tattooed on her cheeks.",
+      "The narrator of the book is a Dakota Sioux Indian girl who grew up near the Missouri River and often accompanied her mother to draw water from the river.",
+      "The narrator's cousin Warca-Ziwin (Sunflower) is 17 and often goes to the river alone for water.",
+      "The narrator developed a suspicion of tattooed people after hearing a story about a woman with a cross tattooed on each cheek.",
+      "User's mother and the old warrior respected User's hospitality, even though the coffee was made on dead ashes, and User later realized the act was ridiculous.",
+      "The book 'American Indian Stories' includes chapters like 'Impressions of an Indian Childhood', 'The School Days of an Indian Girl', and 'An Indian Teacher Among Indians'."
+    ],
+    "latency_ms": 478,
+    "timestamp": "2026-04-16T07:02:06.948050+00:00"
+  },
+  "31": {
+    "question_id": 31,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Zitkala-Sa (Gertrude Bonnin) is a Dakota Sioux Indian lecturer and author of 'American Indian Stories' (1921), which includes 'Old Indian Legends' and 'Americanize The First American'; she is a member of the Woman's National Foundation, League of American Pen-Women, and the Washington Salon.",
+      "The narrator learned to invite old men and women to supper and to listen to legends told by them, especially stories about a woman with a cross tattooed on her cheeks.",
+      "A ground squirrel frequently ate corn from the drying corn near the tepee, and User tried to catch it but was told it would bite fingers.",
+      "The narrator developed a suspicion of tattooed people after hearing a story about a woman with a cross tattooed on each cheek.",
+      "User prepared coffee on a heap of dead ashes and served it with bread to the old warrior Wiyaka-Napbina, then later their mother built a fire to make real coffee.",
+      "The book 'American Indian Stories' includes chapters like 'Impressions of an Indian Childhood', 'The School Days of an Indian Girl', and 'An Indian Teacher Among Indians'.",
+      "The narrator's family was forced to move due to white colonists who stole their land, causing the death of the narrator's sister and uncle during the move.",
+      "The narrator of the book is a Dakota Sioux Indian girl who grew up near the Missouri River and often accompanied her mother to draw water from the river.",
+      "User received a bag of marbles from missionaries, and later saw rainbow colors in river ice that reminded them of the marbles.",
+      "The narrator's cousin Warca-Ziwin (Sunflower) is 17 and often goes to the river alone for water."
+    ],
+    "latency_ms": 541,
+    "timestamp": "2026-04-16T07:02:07.490070+00:00"
+  },
+  "32": {
+    "question_id": 32,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Zitkala-Sa (Gertrude Bonnin) is a Dakota Sioux Indian lecturer and author of 'American Indian Stories' (1921), which includes 'Old Indian Legends' and 'Americanize The First American'; she is a member of the Woman's National Foundation, League of American Pen-Women, and the Washington Salon.",
+      "The book 'American Indian Stories' includes chapters like 'Impressions of an Indian Childhood', 'The School Days of an Indian Girl', and 'An Indian Teacher Among Indians'.",
+      "The narrator learned to invite old men and women to supper and to listen to legends told by them, especially stories about a woman with a cross tattooed on her cheeks.",
+      "The narrator developed a suspicion of tattooed people after hearing a story about a woman with a cross tattooed on each cheek.",
+      "The narrator of the book is a Dakota Sioux Indian girl who grew up near the Missouri River and often accompanied her mother to draw water from the river.",
+      "User prepared coffee on a heap of dead ashes and served it with bread to the old warrior Wiyaka-Napbina, then later their mother built a fire to make real coffee.",
+      "A ground squirrel frequently ate corn from the drying corn near the tepee, and User tried to catch it but was told it would bite fingers.",
+      "The narrator's family was forced to move due to white colonists who stole their land, causing the death of the narrator's sister and uncle during the move.",
+      "User received a bag of marbles from missionaries, and later saw rainbow colors in river ice that reminded them of the marbles.",
+      "The narrator's mother had a brother who was a brave warrior, whose name was remembered by old men and praised for his valor and kindness."
+    ],
+    "latency_ms": 600,
+    "timestamp": "2026-04-16T07:02:08.092217+00:00"
+  },
+  "33": {
+    "question_id": 33,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Zitkala-Sa (Gertrude Bonnin) is a Dakota Sioux Indian lecturer and author of 'American Indian Stories' (1921), which includes 'Old Indian Legends' and 'Americanize The First American'; she is a member of the Woman's National Foundation, League of American Pen-Women, and the Washington Salon.",
+      "The narrator's mother is described as medium height, often sad and silent, and taught the narrator to respect others and to be free and spirited.",
+      "The book 'American Indian Stories' includes chapters like 'Impressions of an Indian Childhood', 'The School Days of an Indian Girl', and 'An Indian Teacher Among Indians'.",
+      "User's mother and the old warrior respected User's hospitality, even though the coffee was made on dead ashes, and User later realized the act was ridiculous.",
+      "The narrator learned to invite old men and women to supper and to listen to legends told by them, especially stories about a woman with a cross tattooed on her cheeks.",
+      "The narrator's mother had a brother who was a brave warrior, whose name was remembered by old men and praised for his valor and kindness.",
+      "User prepared coffee on a heap of dead ashes and served it with bread to the old warrior Wiyaka-Napbina, then later their mother built a fire to make real coffee.",
+      "A ground squirrel frequently ate corn from the drying corn near the tepee, and User tried to catch it but was told it would bite fingers.",
+      "The narrator of the book is a Dakota Sioux Indian girl who grew up near the Missouri River and often accompanied her mother to draw water from the river.",
+      "The narrator developed a suspicion of tattooed people after hearing a story about a woman with a cross tattooed on each cheek."
+    ],
+    "latency_ms": 600,
+    "timestamp": "2026-04-16T07:02:08.693598+00:00"
+  },
+  "34": {
+    "question_id": 34,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Zitkala-Sa (Gertrude Bonnin) is a Dakota Sioux Indian lecturer and author of 'American Indian Stories' (1921), which includes 'Old Indian Legends' and 'Americanize The First American'; she is a member of the Woman's National Foundation, League of American Pen-Women, and the Washington Salon.",
+      "The narrator of the book is a Dakota Sioux Indian girl who grew up near the Missouri River and often accompanied her mother to draw water from the river.",
+      "The narrator learned to invite old men and women to supper and to listen to legends told by them, especially stories about a woman with a cross tattooed on her cheeks.",
+      "User's aunt was jovial, had a string of large blue beads around her neck given by her uncle, and often made the mother laugh.",
+      "User prepared coffee on a heap of dead ashes and served it with bread to the old warrior Wiyaka-Napbina, then later their mother built a fire to make real coffee.",
+      "The narrator's family was forced to move due to white colonists who stole their land, causing the death of the narrator's sister and uncle during the move.",
+      "User met their old grandfather Wiyaka-Napbina, who had often told Iktomi legends, and he asked about User's mother, who is soon returning from aunt's tepee.",
+      "The narrator's cousin Warca-Ziwin (Sunflower) is 17 and often goes to the river alone for water.",
+      "The narrator developed a suspicion of tattooed people after hearing a story about a woman with a cross tattooed on each cheek.",
+      "The narrator's mother is described as medium height, often sad and silent, and taught the narrator to respect others and to be free and spirited."
+    ],
+    "latency_ms": 525,
+    "timestamp": "2026-04-16T07:02:09.220645+00:00"
+  },
+  "35": {
+    "question_id": 35,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Zitkala-Sa (Gertrude Bonnin) is a Dakota Sioux Indian lecturer and author of 'American Indian Stories' (1921), which includes 'Old Indian Legends' and 'Americanize The First American'; she is a member of the Woman's National Foundation, League of American Pen-Women, and the Washington Salon.",
+      "The narrator's family was forced to move due to white colonists who stole their land, causing the death of the narrator's sister and uncle during the move.",
+      "The narrator developed a suspicion of tattooed people after hearing a story about a woman with a cross tattooed on each cheek.",
+      "A ground squirrel frequently ate corn from the drying corn near the tepee, and User tried to catch it but was told it would bite fingers.",
+      "The narrator of the book is a Dakota Sioux Indian girl who grew up near the Missouri River and often accompanied her mother to draw water from the river.",
+      "The narrator learned to invite old men and women to supper and to listen to legends told by them, especially stories about a woman with a cross tattooed on her cheeks.",
+      "User prepared coffee on a heap of dead ashes and served it with bread to the old warrior Wiyaka-Napbina, then later their mother built a fire to make real coffee.",
+      "The narrator's mother had a brother who was a brave warrior, whose name was remembered by old men and praised for his valor and kindness.",
+      "User received a bag of marbles from missionaries, and later saw rainbow colors in river ice that reminded them of the marbles.",
+      "The book 'American Indian Stories' includes chapters like 'Impressions of an Indian Childhood', 'The School Days of an Indian Girl', and 'An Indian Teacher Among Indians'."
+    ],
+    "latency_ms": 555,
+    "timestamp": "2026-04-16T07:02:09.776422+00:00"
+  },
+  "36": {
+    "question_id": 36,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Zitkala-Sa (Gertrude Bonnin) is a Dakota Sioux Indian lecturer and author of 'American Indian Stories' (1921), which includes 'Old Indian Legends' and 'Americanize The First American'; she is a member of the Woman's National Foundation, League of American Pen-Women, and the Washington Salon.",
+      "The book 'American Indian Stories' includes chapters like 'Impressions of an Indian Childhood', 'The School Days of an Indian Girl', and 'An Indian Teacher Among Indians'.",
+      "The narrator learned to invite old men and women to supper and to listen to legends told by them, especially stories about a woman with a cross tattooed on her cheeks.",
+      "The narrator developed a suspicion of tattooed people after hearing a story about a woman with a cross tattooed on each cheek.",
+      "The narrator of the book is a Dakota Sioux Indian girl who grew up near the Missouri River and often accompanied her mother to draw water from the river.",
+      "User's mother and the old warrior respected User's hospitality, even though the coffee was made on dead ashes, and User later realized the act was ridiculous.",
+      "The narrator's mother is described as medium height, often sad and silent, and taught the narrator to respect others and to be free and spirited.",
+      "A ground squirrel frequently ate corn from the drying corn near the tepee, and User tried to catch it but was told it would bite fingers.",
+      "User prepared coffee on a heap of dead ashes and served it with bread to the old warrior Wiyaka-Napbina, then later their mother built a fire to make real coffee.",
+      "The narrator's family was forced to move due to white colonists who stole their land, causing the death of the narrator's sister and uncle during the move."
+    ],
+    "latency_ms": 623,
+    "timestamp": "2026-04-16T07:02:10.399935+00:00"
+  },
+  "37": {
+    "question_id": 37,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Zitkala-Sa (Gertrude Bonnin) is a Dakota Sioux Indian lecturer and author of 'American Indian Stories' (1921), which includes 'Old Indian Legends' and 'Americanize The First American'; she is a member of the Woman's National Foundation, League of American Pen-Women, and the Washington Salon.",
+      "The narrator learned to invite old men and women to supper and to listen to legends told by them, especially stories about a woman with a cross tattooed on her cheeks.",
+      "A ground squirrel frequently ate corn from the drying corn near the tepee, and User tried to catch it but was told it would bite fingers.",
+      "The narrator of the book is a Dakota Sioux Indian girl who grew up near the Missouri River and often accompanied her mother to draw water from the river.",
+      "The narrator's family was forced to move due to white colonists who stole their land, causing the death of the narrator's sister and uncle during the move.",
+      "The narrator's mother is described as medium height, often sad and silent, and taught the narrator to respect others and to be free and spirited.",
+      "The book 'American Indian Stories' includes chapters like 'Impressions of an Indian Childhood', 'The School Days of an Indian Girl', and 'An Indian Teacher Among Indians'.",
+      "User prepared coffee on a heap of dead ashes and served it with bread to the old warrior Wiyaka-Napbina, then later their mother built a fire to make real coffee.",
+      "The narrator's cousin Warca-Ziwin (Sunflower) is 17 and often goes to the river alone for water.",
+      "User met their old grandfather Wiyaka-Napbina, who had often told Iktomi legends, and he asked about User's mother, who is soon returning from aunt's tepee."
+    ],
+    "latency_ms": 676,
+    "timestamp": "2026-04-16T07:02:11.076967+00:00"
+  },
+  "38": {
+    "question_id": 38,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Zitkala-Sa (Gertrude Bonnin) is a Dakota Sioux Indian lecturer and author of 'American Indian Stories' (1921), which includes 'Old Indian Legends' and 'Americanize The First American'; she is a member of the Woman's National Foundation, League of American Pen-Women, and the Washington Salon.",
+      "User prepared coffee on a heap of dead ashes and served it with bread to the old warrior Wiyaka-Napbina, then later their mother built a fire to make real coffee.",
+      "The narrator learned to invite old men and women to supper and to listen to legends told by them, especially stories about a woman with a cross tattooed on her cheeks.",
+      "The narrator of the book is a Dakota Sioux Indian girl who grew up near the Missouri River and often accompanied her mother to draw water from the river.",
+      "The narrator's family was forced to move due to white colonists who stole their land, causing the death of the narrator's sister and uncle during the move.",
+      "User met their old grandfather Wiyaka-Napbina, who had often told Iktomi legends, and he asked about User's mother, who is soon returning from aunt's tepee.",
+      "The narrator's mother is described as medium height, often sad and silent, and taught the narrator to respect others and to be free and spirited.",
+      "The book 'American Indian Stories' includes chapters like 'Impressions of an Indian Childhood', 'The School Days of an Indian Girl', and 'An Indian Teacher Among Indians'.",
+      "A ground squirrel frequently ate corn from the drying corn near the tepee, and User tried to catch it but was told it would bite fingers.",
+      "The narrator developed a suspicion of tattooed people after hearing a story about a woman with a cross tattooed on each cheek."
+    ],
+    "latency_ms": 566,
+    "timestamp": "2026-04-16T07:02:11.644388+00:00"
+  },
+  "39": {
+    "question_id": 39,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Zitkala-Sa (Gertrude Bonnin) is a Dakota Sioux Indian lecturer and author of 'American Indian Stories' (1921), which includes 'Old Indian Legends' and 'Americanize The First American'; she is a member of the Woman's National Foundation, League of American Pen-Women, and the Washington Salon.",
+      "The narrator developed a suspicion of tattooed people after hearing a story about a woman with a cross tattooed on each cheek.",
+      "The narrator's family was forced to move due to white colonists who stole their land, causing the death of the narrator's sister and uncle during the move.",
+      "The narrator learned to invite old men and women to supper and to listen to legends told by them, especially stories about a woman with a cross tattooed on her cheeks.",
+      "User prepared coffee on a heap of dead ashes and served it with bread to the old warrior Wiyaka-Napbina, then later their mother built a fire to make real coffee.",
+      "The narrator of the book is a Dakota Sioux Indian girl who grew up near the Missouri River and often accompanied her mother to draw water from the river.",
+      "User's mother and the old warrior respected User's hospitality, even though the coffee was made on dead ashes, and User later realized the act was ridiculous.",
+      "The narrator's mother had a brother who was a brave warrior, whose name was remembered by old men and praised for his valor and kindness.",
+      "The narrator's cousin Warca-Ziwin (Sunflower) is 17 and often goes to the river alone for water.",
+      "A ground squirrel frequently ate corn from the drying corn near the tepee, and User tried to catch it but was told it would bite fingers."
+    ],
+    "latency_ms": 588,
+    "timestamp": "2026-04-16T07:02:12.233274+00:00"
+  }
+}

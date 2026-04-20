@@ -1,0 +1,363 @@
+{
+  "metadata": {
+    "subject": "Sunity Devee",
+    "total": 60,
+    "tiers": {
+      "behavioral_prediction": 40,
+      "recall": 10,
+      "adversarial_abstention": 10
+    }
+  },
+  "questions": [
+    {
+      "id": 1,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "Based on Sunity Devee's character as shown in the training text, how would she likely respond to a compliment about her appearance from a stranger?",
+      "held_out_passage": "compliment. \"You are looking beautiful, Princess,\" he said. I asked why he said this."
+    },
+    {
+      "id": 2,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Given Sunity Devee's background and values, would she be interested in visiting famous natural landmarks during her travels?",
+      "held_out_passage": "We paid a delightful visit to Blair Atholl. The Duke and Duchess were very kind, and I thoroughly enjoyed myself; still I did not find the Scotch scenery half so grand as the mountains of my native land."
+    },
+    {
+      "id": 3,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How would Sunity Devee likely react to learning about local superstitions and folklore from her hosts?",
+      "held_out_passage": "\"Now you will have luck,\" she said as she gave me a spray. It was the first time I had heard of the superstition, though there are many pretty legends about flowers in India."
+    },
+    {
+      "id": 4,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "Based on her upbringing, would Sunity Devee be cautious or dismissive when experiencing unexplained phenomena?",
+      "held_out_passage": "I had told my maid to leave my door unlocked, and to sleep in the dressing-room, but when we tried to open my door none of us could manage it. One of the ladies therefore went round and woke up the maid, who simply turned the handle and the door was open. We looked at each other with surprise, and as I felt rather nervous the kind ladies had a good search in case there was a burglar."
+    },
+    {
+      "id": 5,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "Would Sunity Devee prioritize her husband's wishes over her own concerns about supernatural matters?",
+      "held_out_passage": "I am very sorry I never accepted any of her kind invitations, but I had heard about the ghosts of Glamis Castle. The Maharajah was disappointed, as he was anxious to go and see the old castle, and to shoot, and I deprived him of both these pleasures."
+    },
+    {
+      "id": 6,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How would Sunity Devee respond to being treated with special attention and affection by her hosts?",
+      "held_out_passage": "I was treated like a child, and petted and spoilt by every one, and I quite enjoyed the experience."
+    },
+    {
+      "id": 7,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Given her intellectual background, would Sunity Devee be interested in meeting scholars and academics?",
+      "held_out_passage": "In the evening a party was given at which we met all the great wise men. None were good-looking nor young, but all were clever, and what interesting talks we had."
+    },
+    {
+      "id": 8,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "Would Sunity Devee be observant of details in unfamiliar domestic settings?",
+      "held_out_passage": "The little cottage was perfectly clean, there was a small sitting-room, with a few flowers, the paper near the fireplace was white, and I thought it was white marble, there were two little bedrooms, and a kitchen where they dined."
+    },
+    {
+      "id": 9,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How would Sunity Devee react to witnessing affectionate family interactions between adults?",
+      "held_out_passage": "As we came near the room Lady Ripon most affectionately called, \"Darling, are you there?\" I was very touched."
+    },
+    {
+      "id": 10,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Would Sunity Devee appreciate fine art and valuable furnishings in homes she visits?",
+      "held_out_passage": "Mrs. Vyner's house was furnished with most valuable things. The marble figures and furniture were wonderful."
+    },
+    {
+      "id": 11,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Based on her character, would Sunity Devee be drawn to homes that incorporate elements from her native culture?",
+      "held_out_passage": "Studley Royal is a picturesque and pretty place; many of the rooms have Indian furniture, and there is a huge stuffed tiger in the hall."
+    },
+    {
+      "id": 12,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How would Sunity Devee respond to being asked to participate in religious observances unfamiliar to her?",
+      "held_out_passage": "The next day was Sunday, and we went to church three times."
+    },
+    {
+      "id": 13,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "Would Sunity Devee be interested in the domestic arrangements and living conditions of common people?",
+      "held_out_passage": "One day I went to see Mrs. Vyner, Lady Ripon's mother. On our way we visited a cottage, the home of a ploughman, whose middle-aged wife welcomed us. How interested I was to see it!"
+    },
+    {
+      "id": 14,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Given her refined upbringing, how would Sunity Devee judge musical performances?",
+      "held_out_passage": "A boy with a most glorious voice sang by himself; it filled the church and thrilled our hearts."
+    },
+    {
+      "id": 15,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "Would Sunity Devee connect new experiences to teachings from her childhood?",
+      "held_out_passage": "In one, an old building without any roof, I was struck by a fine carving on a mantelpiece of King Solomon's judgment, and I remembered how this story had been told to us by our dear father at the Asram when we were young."
+    },
+    {
+      "id": 16,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How would Sunity Devee react to her husband receiving compliments about his social abilities?",
+      "held_out_passage": "At Blair Atholl a very unusual compliment was paid to my husband's dancing; Lady Salterne said: \"It is a dream to dance with the Maharajah of Cooch Behar.\""
+    },
+    {
+      "id": 17,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Would Sunity Devee be honest about her aesthetic preferences even when they differ from local customs?",
+      "held_out_passage": "At Blair Atholl I heard the bagpipes for the first time, but I am afraid I did not wax enthusiastic over their melody."
+    },
+    {
+      "id": 18,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "Based on her character, would Sunity Devee be reflective about her travel experiences?",
+      "held_out_passage": "I look back with pleasure to the time I spent in Scotland."
+    },
+    {
+      "id": 19,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "Would Sunity Devee be curious about the reasons behind people's statements and actions?",
+      "held_out_passage": "\"Because,\" he answered, \"your voice is so lovely.\" I was not to leave England without experiencing some of the famous country-house hospitality."
+    },
+    {
+      "id": 20,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How would Sunity Devee respond to being given a gift with cultural significance by her hosts?",
+      "held_out_passage": "The dear old Duke got down from the carriage and dutifully gathered the coveted flowers, while Lady Strathmore explained their mystic properties to me."
+    },
+    {
+      "id": 21,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "Based on Sunity Devee's character as shown in her childhood and family background, how would she likely react to being complimented by English society members?",
+      "held_out_passage": "usual compliment was paid to my husband's dancing; Lady Salterne said: \"It is a dream to dance with the Maharajah of Cooch Behar.\""
+    },
+    {
+      "id": 22,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "Given Sunity Devee's upbringing and values, would she be enthusiastic about unfamiliar cultural experiences?",
+      "held_out_passage": "At Blair Atholl I heard the bagpipes for the first time, but I am afraid I did not wax enthusiastic over their melody."
+    },
+    {
+      "id": 23,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How would Sunity Devee respond to being treated with affection and indulgence by her hosts?",
+      "held_out_passage": "I was treated like a child, and petted and spoilt by every one, and I quite enjoyed the experience."
+    },
+    {
+      "id": 24,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Based on her father's teachings about tolerance and understanding, how would Sunity Devee react to meeting intellectuals from a different culture?",
+      "held_out_passage": "In the evening a party was given at which we met all the great wise men. None were good-looking nor young, but all were clever, and what interesting talks we had."
+    },
+    {
+      "id": 25,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "Would Sunity Devee be moved by spiritual or artistic experiences in English settings?",
+      "held_out_passage": "A boy with a most glorious voice sang by himself; it filled the church and thrilled our hearts."
+    },
+    {
+      "id": 26,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How would Sunity Devee handle being shown the domestic life of common English people?",
+      "held_out_passage": "On our way we visited a cottage, the home of a ploughman, whose middle-aged wife welcomed us. How interested I was to see it!"
+    },
+    {
+      "id": 27,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "Given her gentle upbringing, how would Sunity Devee respond to witnessing affectionate family interactions?",
+      "held_out_passage": "As we came near the room Lady Ripon most affectionately called, \"Darling, are you there?\" I was very touched."
+    },
+    {
+      "id": 28,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "How would the Maharajah, as Sunity Devee's husband, likely handle a confrontation with a rude stranger?",
+      "held_out_passage": "\"I'm very sorry,\" said my husband, \"but you must get out.\""
+    },
+    {
+      "id": 29,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Would the Maharajah maintain courtesy even when being disrespected?",
+      "held_out_passage": "\"I'm really very sorry you are so inconvenienced.\""
+    },
+    {
+      "id": 30,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "How would Sunity Devee's health concerns influence her social decisions?",
+      "held_out_passage": "I could not accept an invitation to Sandringham, as I was in delicate health, and beginning to feel over-fatigued by much travelling."
+    },
+    {
+      "id": 31,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Would Sunity Devee be honored by recognition from the British royal family?",
+      "held_out_passage": "Her Majesty graciously intimated that she wished to be godmother to the expected baby, an honour which we greatly appreciated."
+    },
+    {
+      "id": 32,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "How would Sunity Devee manage the care of her children during extended travel?",
+      "held_out_passage": "the children, in the charge of my brother Profulla, went back to India a few weeks before I did."
+    },
+    {
+      "id": 33,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "Based on her character, would Sunity Devee be surprised by English staff members choosing to marry in India?",
+      "held_out_passage": "every English girl I have had in the house has got married in India; even Mrs. Eldridge left me to marry a station-master."
+    },
+    {
+      "id": 34,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How would Sunity Devee view the quality and value of furnishings in English homes?",
+      "held_out_passage": "Mrs. Vyner's house was furnished with most valuable things. The marble figures and furniture were wonderful."
+    },
+    {
+      "id": 35,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Would Sunity Devee appreciate seeing Indian cultural elements in English settings?",
+      "held_out_passage": "many of the rooms have Indian furniture, and there is a huge stuffed tiger in the hall."
+    },
+    {
+      "id": 36,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How would Sunity Devee respond to being shown historical and cultural landmarks?",
+      "held_out_passage": "Lady Ripon kindly drove me over to see several interesting ruins."
+    },
+    {
+      "id": 37,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "Would Sunity Devee connect English historical stories to her own religious upbringing?",
+      "held_out_passage": "I was struck by a fine carving on a mantelpiece of King Solomon's judgment, and I remembered how this story had been told to us by our dear father at the Asram when we were young."
+    },
+    {
+      "id": 38,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "How would Sunity Devee's husband respond to being questioned about his authority?",
+      "held_out_passage": "\"But I tell you it is,\" said the Maharajah. \"The omission of the ticket is due to an oversight on the part of the station-master.\""
+    },
+    {
+      "id": 39,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "Would Sunity Devee find pleasure in rural English landscapes and estates?",
+      "held_out_passage": "I look back with pleasure to the time I spent in Scotland."
+    },
+    {
+      "id": 40,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How would Sunity Devee's father's teachings about universal love influence her observations of English society?",
+      "held_out_passage": "My hostess afterwards told me some of them exclaimed, \"What sparkling eyes!\" when they first saw me."
+    },
+    {
+      "id": 41,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Sunity Devee's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 42,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Sunity Devee's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 43,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Sunity Devee's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 44,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Sunity Devee's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 45,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Sunity Devee's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 46,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Sunity Devee's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 47,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Sunity Devee's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 48,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Sunity Devee's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 49,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Sunity Devee's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 50,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Sunity Devee's opinion on modern technology?",
+      "held_out_passage": null
+    }
+  ]
+}

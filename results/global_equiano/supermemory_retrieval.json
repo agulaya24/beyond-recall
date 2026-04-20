@@ -1,0 +1,513 @@
+{
+  "1": {
+    "question_id": 1,
+    "question_text": "When Equiano encounters information that challenges his rational worldview, how does he typically respond?",
+    "system": "supermemory",
+    "facts_returned": 0,
+    "fact_texts": [],
+    "latency_ms": 606,
+    "status": 401,
+    "timestamp": "2026-04-16T08:07:21.136416+00:00"
+  },
+  "2": {
+    "question_id": 2,
+    "question_text": "How does Equiano handle situations where he is treated unfairly due to his race in commercial transactions?",
+    "system": "supermemory",
+    "facts_returned": 0,
+    "fact_texts": [],
+    "latency_ms": 548,
+    "status": 401,
+    "timestamp": "2026-04-16T08:07:21.685373+00:00"
+  },
+  "3": {
+    "question_id": 3,
+    "question_text": "When facing a life-threatening illness, what does Equiano do and what promises does he make?",
+    "system": "supermemory",
+    "facts_returned": 0,
+    "fact_texts": [],
+    "latency_ms": 503,
+    "status": 401,
+    "timestamp": "2026-04-16T08:07:22.190646+00:00"
+  },
+  "4": {
+    "question_id": 4,
+    "question_text": "After recovering from a serious health crisis, how consistent is Equiano in maintaining his spiritual commitments?",
+    "system": "supermemory",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Equiano recovered without the operation.",
+      "Equiano had been baptized.",
+      "Equiano believed these miraculous escapes demonstrated God's intervention.",
+      "Equiano believed he must have done something to displease the Lord.",
+      "Equiano began to raise his fear from man to God alone.",
+      "The small-pox broke out on Equiano after he recovered from chilblains.",
+      "Equiano regards his introduction to Christianity as compensation for his suffering.",
+      "Equiano acknowledged his transgression to God with contrition of heart.",
+      "Equiano's turbulent emotions gave way to calmer thoughts.",
+      "Equiano was extremely happy in this service."
+    ],
+    "latency_ms": 1077,
+    "status": 200,
+    "timestamp": "2026-04-16T08:07:23.269078+00:00"
+  },
+  "5": {
+    "question_id": 5,
+    "question_text": "When Equiano is cheated with counterfeit currency, what is his immediate reaction and how does he escape the situation?",
+    "system": "supermemory",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Equiano hid his nine guineas to prevent his master from taking them.",
+      "Equiano refused to return money to a white man who wanted his money back after a day.",
+      "A sailor on board took a guinea from Equiano on pretence of getting him a boat.",
+      "Equiano would have defended himself against the man even at the risk of his life.",
+      "Two of the sailors robbed Equiano of all his money and ran away from the ship.",
+      "Equiano refused to return the money to the man who bought the fowls and pigs.",
+      "Equiano had experienced imposition and unfair treatment in his own transactions in the islands.",
+      "Equiano determined not to be so foolhardy again after his escape.",
+      "Equiano's master enraged at this declaration and sprang into the barge himself.",
+      "Equiano immediately went to the vessel after leaving the room."
+    ],
+    "latency_ms": 1020,
+    "status": 200,
+    "timestamp": "2026-04-16T08:07:24.290411+00:00"
+  },
+  "6": {
+    "question_id": 6,
+    "question_text": "How does Equiano balance his religious observance with his commercial and practical obligations?",
+    "system": "supermemory",
+    "facts_returned": 0,
+    "fact_texts": [],
+    "latency_ms": 622,
+    "status": 401,
+    "timestamp": "2026-04-16T08:07:24.913644+00:00"
+  },
+  "7": {
+    "question_id": 7,
+    "question_text": "When given a prophecy about his future, how does Equiano's belief in it change based on the prophet's demonstrated knowledge?",
+    "system": "supermemory",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Equiano's mother and the rest of the people accounted these incidents as remarkable omens in Equiano's favor.",
+      "The wise men accounted these incidents as remarkable omens in Equiano's favor.",
+      "Equiano was a predestinarian who believed fate determined whether he would be freed.",
+      "Equiano perceived that what fate had decreed no mortal on earth could prevent.",
+      "Equiano had some faint idea of a future state.",
+      "Equiano believed that if it were God's will he should be freed, it would be so.",
+      "Equiano believed that if it were not God's will he should be freed, it would not happen.",
+      "Equiano was told by the messenger that his fate was then determined.",
+      "Equiano believed this story immediately and agreed to go with the person.",
+      "Many people were surprised that the poisonous snake did not touch Equiano."
+    ],
+    "latency_ms": 1169,
+    "status": 200,
+    "timestamp": "2026-04-16T08:07:26.083727+00:00"
+  },
+  "8": {
+    "question_id": 8,
+    "question_text": "How does Equiano respond when he discovers he has been given worthless currency in a business deal?",
+    "system": "supermemory",
+    "facts_returned": 0,
+    "fact_texts": [],
+    "latency_ms": 650,
+    "status": 401,
+    "timestamp": "2026-04-16T08:07:26.735076+00:00"
+  },
+  "9": {
+    "question_id": 9,
+    "question_text": "What emotional and spiritual state does Equiano experience when facing the prospect of death?",
+    "system": "supermemory",
+    "facts_returned": 0,
+    "fact_texts": [],
+    "latency_ms": 557,
+    "status": 401,
+    "timestamp": "2026-04-16T08:07:27.292574+00:00"
+  },
+  "10": {
+    "question_id": 10,
+    "question_text": "After being threatened with physical punishment for an offense he did not commit, what does Equiano do and how does he feel afterward?",
+    "system": "supermemory",
+    "facts_returned": 0,
+    "fact_texts": [],
+    "latency_ms": 594,
+    "status": 401,
+    "timestamp": "2026-04-16T08:07:27.887149+00:00"
+  },
+  "11": {
+    "question_id": 11,
+    "question_text": "When facing a crisis at sea where survival depends on coordinating with strangers, how would Equiano likely approach negotiating terms and securing their assistance?",
+    "system": "supermemory",
+    "facts_returned": 0,
+    "fact_texts": [],
+    "latency_ms": 539,
+    "status": 401,
+    "timestamp": "2026-04-16T08:07:28.427002+00:00"
+  },
+  "12": {
+    "question_id": 12,
+    "question_text": "When others around him lose composure during extreme danger, what would Equiano's response reveal about his character and faith?",
+    "system": "supermemory",
+    "facts_returned": 0,
+    "fact_texts": [],
+    "latency_ms": 538,
+    "status": 401,
+    "timestamp": "2026-04-16T08:07:28.971267+00:00"
+  },
+  "13": {
+    "question_id": 13,
+    "question_text": "How would Equiano interpret a miraculous escape from certain death at sea?",
+    "system": "supermemory",
+    "facts_returned": 0,
+    "fact_texts": [],
+    "latency_ms": 562,
+    "status": 401,
+    "timestamp": "2026-04-16T08:07:29.538155+00:00"
+  },
+  "14": {
+    "question_id": 14,
+    "question_text": "When witnessing others risk their lives for the collective survival, what would Equiano's narrative focus reveal about what he values?",
+    "system": "supermemory",
+    "facts_returned": 0,
+    "fact_texts": [],
+    "latency_ms": 570,
+    "status": 401,
+    "timestamp": "2026-04-16T08:07:30.108941+00:00"
+  },
+  "15": {
+    "question_id": 15,
+    "question_text": "During a life-threatening maritime emergency, would Equiano attribute the crew's survival to human effort alone or to divine intervention?",
+    "system": "supermemory",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Equiano believed these miraculous escapes demonstrated God's intervention.",
+      "Equiano considered extraordinary escapes and signal deliverances to be effected by Providence.",
+      "Equiano acknowledges the mercies of Providence in every occurrence of his life.",
+      "Equiano believed that if it were not God's will he should be freed, it would not happen.",
+      "Equiano believed God had brought him by his invisible but powerful hand the way he knew not.",
+      "Equiano believed the Ruler of the seas was angry and expected to be offered up to appease him.",
+      "Equiano was a predestinarian who believed fate determined whether he would be freed.",
+      "Equiano began to raise his fear from man to God alone.",
+      "Equiano believed that if it were God's will he should be freed, it would be so.",
+      "Equiano called upon God's thunder and his avenging power to direct the stroke of death to him rather than permit him to become a slave."
+    ],
+    "latency_ms": 1056,
+    "status": 200,
+    "timestamp": "2026-04-16T08:07:31.167399+00:00"
+  },
+  "16": {
+    "question_id": 16,
+    "question_text": "When describing the emotional aftermath of narrowly escaping disaster, how would Equiano characterize the crew's transformation?",
+    "system": "supermemory",
+    "facts_returned": 0,
+    "fact_texts": [],
+    "latency_ms": 539,
+    "status": 401,
+    "timestamp": "2026-04-16T08:07:31.709533+00:00"
+  },
+  "17": {
+    "question_id": 17,
+    "question_text": "When practical problems arise during recovery from crisis, how would Equiano approach solving them with available resources?",
+    "system": "supermemory",
+    "facts_returned": 0,
+    "fact_texts": [],
+    "latency_ms": 514,
+    "status": 401,
+    "timestamp": "2026-04-16T08:07:32.228597+00:00"
+  },
+  "18": {
+    "question_id": 18,
+    "question_text": "How would Equiano characterize the prayers and spiritual appeals made by the crew during their moment of greatest peril?",
+    "system": "supermemory",
+    "facts_returned": 0,
+    "fact_texts": [],
+    "latency_ms": 562,
+    "status": 401,
+    "timestamp": "2026-04-16T08:07:32.791478+00:00"
+  },
+  "19": {
+    "question_id": 19,
+    "question_text": "When reflecting on shared suffering and hardship with others, what would Equiano emphasize about the depth of human connection forged through such experiences?",
+    "system": "supermemory",
+    "facts_returned": 0,
+    "fact_texts": [],
+    "latency_ms": 936,
+    "status": 401,
+    "timestamp": "2026-04-16T08:07:33.727373+00:00"
+  },
+  "20": {
+    "question_id": 20,
+    "question_text": "When facing a sequence of crises requiring persistence and problem-solving, would Equiano demonstrate resilience and determination to reach his destination?",
+    "system": "supermemory",
+    "facts_returned": 0,
+    "fact_texts": [],
+    "latency_ms": 583,
+    "status": 401,
+    "timestamp": "2026-04-16T08:07:34.312106+00:00"
+  },
+  "21": {
+    "question_id": 21,
+    "question_text": "When facing personal distress and spiritual crisis, what does Equiano typically turn to for comfort and guidance?",
+    "system": "supermemory",
+    "facts_returned": 0,
+    "fact_texts": [],
+    "latency_ms": 798,
+    "status": 401,
+    "timestamp": "2026-04-16T08:07:35.111388+00:00"
+  },
+  "22": {
+    "question_id": 22,
+    "question_text": "How does Equiano respond when he experiences deep despair and questions about his own worth?",
+    "system": "supermemory",
+    "facts_returned": 0,
+    "fact_texts": [],
+    "latency_ms": 525,
+    "status": 401,
+    "timestamp": "2026-04-16T08:07:35.636571+00:00"
+  },
+  "23": {
+    "question_id": 23,
+    "question_text": "When Equiano encounters someone who demonstrates deep religious conviction and understanding, what is his typical reaction?",
+    "system": "supermemory",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Equiano called daily on God's holy name with fear and reverence.",
+      "Equiano was astonished at the wisdom of white people.",
+      "Equiano was amazed at the church service.",
+      "Equiano began to raise his fear from man to God alone.",
+      "Equiano grew extremely fond of Richard Baker.",
+      "Equiano no longer looked upon Europeans as spirits but as men superior to Africans.",
+      "The Miss Guerins took great pains to instruct Equiano in the principles of religion and knowledge of God.",
+      "Equiano's soul glorified God upon hearing the captain's speech.",
+      "Equiano regards his introduction to Christianity as compensation for his suffering.",
+      "Equiano was extremely happy in this service."
+    ],
+    "latency_ms": 1416,
+    "status": 200,
+    "timestamp": "2026-04-16T08:07:37.053309+00:00"
+  },
+  "24": {
+    "question_id": 24,
+    "question_text": "Based on Equiano's demonstrated values, would he likely remain in an environment where religious principles are violated?",
+    "system": "supermemory",
+    "facts_returned": 0,
+    "fact_texts": [],
+    "latency_ms": 523,
+    "status": 401,
+    "timestamp": "2026-04-16T08:07:37.577989+00:00"
+  },
+  "25": {
+    "question_id": 25,
+    "question_text": "How does Equiano typically handle moments of spiritual revelation or divine intervention?",
+    "system": "supermemory",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Equiano believed these miraculous escapes demonstrated God's intervention.",
+      "Equiano believed God had brought him by his invisible but powerful hand the way he knew not.",
+      "Equiano considered extraordinary escapes and signal deliverances to be effected by Providence.",
+      "Equiano's soul glorified God upon hearing the captain's speech.",
+      "Equiano began to raise his fear from man to God alone.",
+      "Equiano acknowledges the mercies of Providence in every occurrence of his life.",
+      "Equiano regards himself as a particular favourite of Heaven.",
+      "Equiano called daily on God's holy name with fear and reverence.",
+      "Equiano believed he must have done something to displease the Lord.",
+      "Equiano felt the most exquisite pain and then the fullest joy in the same hour."
+    ],
+    "latency_ms": 1082,
+    "status": 200,
+    "timestamp": "2026-04-16T08:07:38.661450+00:00"
+  },
+  "26": {
+    "question_id": 26,
+    "question_text": "When facing injustice or mistreatment, what does Equiano demonstrate about his capacity for emotional response?",
+    "system": "supermemory",
+    "facts_returned": 10,
+    "fact_texts": [
+      "When his master was out of sight, Equiano threw himself on the deck with his heart ready to burst with sorrow and anguish.",
+      "Equiano told his captain he would die before being imposed upon like other enslaved people.",
+      "Equiano witnessed enslaved women crying for hours without receiving redress or payment.",
+      "Equiano witnessed enslaved females stand crying for hours with no redress or pay.",
+      "When his master was out of sight, Equiano threw himself on the deck with sorrow and anguish.",
+      "Equiano's situation was reconciled by witnessing worse treatment of other enslaved people.",
+      "Equiano wept very bitterly for some time after realizing his situation.",
+      "Equiano had experienced imposition and unfair treatment in his own transactions in the islands.",
+      "Equiano and his sister were separated after being captured, causing him severe distress.",
+      "In the first expressions of his grief, Equiano reproached his fate and wished he had never been born."
+    ],
+    "latency_ms": 951,
+    "status": 200,
+    "timestamp": "2026-04-16T08:07:39.614871+00:00"
+  },
+  "27": {
+    "question_id": 27,
+    "question_text": "How does Equiano respond when he recognizes his own moral failings or past mistakes?",
+    "system": "supermemory",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Equiano acknowledged his transgression to God with contrition of heart.",
+      "Equiano believed he must have done something to displease the Lord.",
+      "Equiano poured out his soul before God with unfeigned repentance and earnest supplications.",
+      "Equiano's conscience smote him for his unguarded expression about spending a day in rambling and sport.",
+      "In the first expressions of his grief, Equiano reproached his fate and wished he had never been born.",
+      "Equiano deeply regretted Richard Baker's death.",
+      "Equiano's situation was reconciled by witnessing worse treatment of other enslaved people.",
+      "Equiano considered his present situation as a judgment of Heaven on account of his presumption in swearing.",
+      "Equiano believed honesty is the best policy.",
+      "Equiano determined not to be so foolhardy again after his escape."
+    ],
+    "latency_ms": 979,
+    "status": 200,
+    "timestamp": "2026-04-16T08:07:40.596034+00:00"
+  },
+  "28": {
+    "question_id": 28,
+    "question_text": "When encountering religious authority figures or clergy, what is Equiano's typical disposition?",
+    "system": "supermemory",
+    "facts_returned": 0,
+    "fact_texts": [],
+    "latency_ms": 593,
+    "status": 401,
+    "timestamp": "2026-04-16T08:07:41.190150+00:00"
+  },
+  "29": {
+    "question_id": 29,
+    "question_text": "How does Equiano demonstrate his commitment to spiritual improvement when he recognizes a need for change?",
+    "system": "supermemory",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Equiano acknowledged his transgression to God with contrition of heart.",
+      "Equiano embraced every occasion of improvement.",
+      "Equiano poured out his soul before God with unfeigned repentance and earnest supplications.",
+      "Equiano began to raise his fear from man to God alone.",
+      "Equiano determined not to be so foolhardy again after his escape.",
+      "Equiano called daily on God's holy name with fear and reverence.",
+      "While on shipboard, Equiano endeavoured to improve himself in reading and writing.",
+      "Equiano used every honest means he could to obtain his freedom.",
+      "Equiano believed he must have done something to displease the Lord.",
+      "Equiano's situation was reconciled by witnessing worse treatment of other enslaved people."
+    ],
+    "latency_ms": 1054,
+    "status": 200,
+    "timestamp": "2026-04-16T08:07:42.244937+00:00"
+  },
+  "30": {
+    "question_id": 30,
+    "question_text": "When seeking spiritual guidance, does Equiano actively pursue opportunities to learn from others with greater religious experience?",
+    "system": "supermemory",
+    "facts_returned": 0,
+    "fact_texts": [],
+    "latency_ms": 597,
+    "status": 401,
+    "timestamp": "2026-04-16T08:07:42.844062+00:00"
+  },
+  "31": {
+    "question_id": 31,
+    "question_text": "When encountering unfamiliar food practices that he finds distasteful, how does Equiano typically respond?",
+    "system": "supermemory",
+    "facts_returned": 0,
+    "fact_texts": [],
+    "latency_ms": 576,
+    "status": 401,
+    "timestamp": "2026-04-16T08:07:43.422498+00:00"
+  },
+  "32": {
+    "question_id": 32,
+    "question_text": "How does Equiano evaluate cultural practices different from those he knows, particularly regarding music and dance?",
+    "system": "supermemory",
+    "facts_returned": 0,
+    "fact_texts": [],
+    "latency_ms": 636,
+    "status": 401,
+    "timestamp": "2026-04-16T08:07:44.059094+00:00"
+  },
+  "33": {
+    "question_id": 33,
+    "question_text": "When faced with work that conflicts with his religious beliefs, what internal struggle does Equiano experience?",
+    "system": "supermemory",
+    "facts_returned": 0,
+    "fact_texts": [],
+    "latency_ms": 571,
+    "status": 401,
+    "timestamp": "2026-04-16T08:07:44.631239+00:00"
+  },
+  "34": {
+    "question_id": 34,
+    "question_text": "How does Equiano's religious conviction influence his decision to leave a position of relative stability?",
+    "system": "supermemory",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Equiano believed that if it were God's will he should be freed, it would be so.",
+      "Equiano determined to obtain his freedom and return to England.",
+      "Equiano hoped to earn money or possibly escape by being on board the vessel.",
+      "Equiano believed that if it were not God's will he should be freed, it would not happen.",
+      "Equiano began to raise his fear from man to God alone.",
+      "Equiano prayed anxiously to God for his liberty.",
+      "Equiano regards his introduction to Christianity as compensation for his suffering.",
+      "Equiano determined to make every exertion to obtain his freedom and return to Old England.",
+      "Equiano thought he would never be entirely free until he left the West Indies.",
+      "Equiano did not attempt to leave his master despite having a fair opportunity."
+    ],
+    "latency_ms": 995,
+    "status": 200,
+    "timestamp": "2026-04-16T08:07:45.627000+00:00"
+  },
+  "35": {
+    "question_id": 35,
+    "question_text": "When requesting something difficult from an authority figure, what approach does Equiano employ?",
+    "system": "supermemory",
+    "facts_returned": 0,
+    "fact_texts": [],
+    "latency_ms": 532,
+    "status": 401,
+    "timestamp": "2026-04-16T08:07:46.161120+00:00"
+  },
+  "36": {
+    "question_id": 36,
+    "question_text": "How does Equiano treat those in subordinate positions to him?",
+    "system": "supermemory",
+    "facts_returned": 0,
+    "fact_texts": [],
+    "latency_ms": 597,
+    "status": 401,
+    "timestamp": "2026-04-16T08:07:46.761312+00:00"
+  },
+  "37": {
+    "question_id": 37,
+    "question_text": "When presented with food that appears appetizing but unfamiliar, what prevents Equiano from consuming it?",
+    "system": "supermemory",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Equiano and his sister were unable to take any food.",
+      "This made Equiano very uneasy.",
+      "Equiano encountered people who did not circumcise and ate without washing their hands.",
+      "Equiano was not permitted to eat with free-born children despite being their companion.",
+      "Equiano ate with his mistress and her son, which astonished him.",
+      "Equiano believed the crew's jokes about eating him were serious threats.",
+      "Equiano was filled with alarm at the first sight of Europeans and their actions.",
+      "Equiano expected better food and greater abundance as a sailor.",
+      "Equiano encountered people whose customs, manners, and language differed from his own.",
+      "Equiano was sent to fan a gentleman in his house and was frightened by unfamiliar objects."
+    ],
+    "latency_ms": 1039,
+    "status": 200,
+    "timestamp": "2026-04-16T08:07:47.801199+00:00"
+  },
+  "38": {
+    "question_id": 38,
+    "question_text": "How does Equiano characterize his emotional attachment to people he has worked with closely?",
+    "system": "supermemory",
+    "facts_returned": 0,
+    "fact_texts": [],
+    "latency_ms": 546,
+    "status": 401,
+    "timestamp": "2026-04-16T08:07:48.347965+00:00"
+  },
+  "39": {
+    "question_id": 39,
+    "question_text": "When observing social gatherings with people of different backgrounds, what does Equiano notice about potential conflict?",
+    "system": "supermemory",
+    "facts_returned": 0,
+    "fact_texts": [],
+    "latency_ms": 566,
+    "status": 401,
+    "timestamp": "2026-04-16T08:07:48.921967+00:00"
+  }
+}

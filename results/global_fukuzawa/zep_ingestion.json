@@ -1,0 +1,16 @@
+{
+  "subject": "fukuzawa",
+  "system": "zep",
+  "user_id": "fukuzawa_run_20260415",
+  "facts_expected": 1657,
+  "facts_posted": 1657,
+  "post_success": 1657,
+  "post_failure": 0,
+  "failed_fact_indices": [],
+  "start_time": "2026-04-15T23:13:48.982862+00:00",
+  "last_successful_index": 1656,
+  "end_time": "2026-04-15T23:34:45.137704+00:00",
+  "verification_passed": true,
+  "verification_hits": 10,
+  "verification_total": 10
+}

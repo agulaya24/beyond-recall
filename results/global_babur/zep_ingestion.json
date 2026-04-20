@@ -1,0 +1,16 @@
+{
+  "subject": "babur",
+  "system": "zep",
+  "user_id": "babur_run_20260415",
+  "facts_expected": 4815,
+  "facts_posted": 4815,
+  "post_success": 4815,
+  "post_failure": 0,
+  "failed_fact_indices": [],
+  "start_time": "2026-04-16T01:43:31.579287+00:00",
+  "last_successful_index": 4814,
+  "end_time": "2026-04-16T02:44:20.667661+00:00",
+  "verification_passed": true,
+  "verification_hits": 10,
+  "verification_total": 10
+}

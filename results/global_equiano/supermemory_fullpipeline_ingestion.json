@@ -1,0 +1,13 @@
+{
+  "subject": "equiano",
+  "system": "supermemory",
+  "mode": "fullpipeline",
+  "container_tag": "equiano_fullpipeline",
+  "chunks_expected": 15,
+  "chunks_posted": 15,
+  "post_success": 15,
+  "post_failure": 0,
+  "start_time": "2026-04-16T06:56:17.881423+00:00",
+  "end_time": "2026-04-16T06:57:46.828229+00:00",
+  "verification_passed": true
+}

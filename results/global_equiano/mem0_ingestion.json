@@ -1,0 +1,16 @@
+{
+  "subject": "equiano",
+  "system": "mem0",
+  "user_id": "equiano_run_20260415",
+  "facts_expected": 1145,
+  "facts_posted": 1145,
+  "post_success": 1145,
+  "post_failure": 0,
+  "failed_fact_indices": [],
+  "start_time": "2026-04-15T23:01:35.125787+00:00",
+  "last_successful_index": 1144,
+  "end_time": "2026-04-15T23:31:11.771470+00:00",
+  "verification_passed": true,
+  "verification_hits": 10,
+  "verification_total": 10
+}

@@ -1,0 +1,363 @@
+{
+  "metadata": {
+    "subject": "Bernal Diaz del Castillo",
+    "total": 60,
+    "tiers": {
+      "behavioral_prediction": 40,
+      "recall": 10,
+      "adversarial_abstention": 10
+    }
+  },
+  "questions": [
+    {
+      "id": 1,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "Based on Diaz's character as described in the training text, how would he likely respond to Motecusuma's gifts of gold and cotton stuffs?",
+      "held_out_passage": "all of which our general received with a friendly smile."
+    },
+    {
+      "id": 2,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Given Diaz's reputation for veracity and stating only what he knows to be true, how would he handle Motecusuma's characterization of the Tlascallans as 'uncivilized' and 'thievish'?",
+      "held_out_passage": "They then said that their monarch could not help feeling astonished that we had made such a long stay among a poor and uncivilized people, who were even not fit for slaves, but at the same time so viciously disposed, so treacherous and thievish"
+    },
+    {
+      "id": 3,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How would Diaz's documented honesty influence his account of Cortes's diplomatic response to the ambassadors?",
+      "held_out_passage": "Cortes returned them many thanks, in the most flattering manner, for their civilities and the expressions of friendship they made in the name of their monarch"
+    },
+    {
+      "id": 4,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "Based on Diaz's character as a soldier and witness, would he approve of Cortes sending officers to Mexico without proper reconnaissance?",
+      "held_out_passage": "we desired that they might be recalled from their journey, as nothing could ensue from this but a mere view of that city; and a despatch was accordingly sent after them, with orders for their immediate return to our camp."
+    },
+    {
+      "id": 5,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Given Diaz's emphasis on truthful reporting, how would he document the physical descriptions of Alvarado and Tapia that Motecusuma's ambassadors provided?",
+      "held_out_passage": "These ambassadors, it appears, informed him, that Alvarado was a man whose countenance was particularly graceful and noble, shone like the sun, and that he was an officer."
+    },
+    {
+      "id": 6,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How would Diaz's role as a soldier-witness affect his ability to recall details about the officers' journey to Mexico?",
+      "held_out_passage": "At that time I was suffering from a severe wound, accompanied by fever, and could procure no medicine to relieve my sufferings, so that I cannot now recall to my memory how far these two officers proceeded on their journey"
+    },
+    {
+      "id": 7,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Based on Diaz's documented honesty, would he acknowledge when his personal condition prevented him from witnessing events?",
+      "held_out_passage": "At that time I was suffering from a severe wound, accompanied by fever, and could procure no medicine to relieve my sufferings, so that I cannot now recall to my memory how far these two officers proceeded on their journey: this, however, I have not forgotten"
+    },
+    {
+      "id": 8,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How would Diaz characterize the relationship between Cortes and the Tlascallans based on his observations?",
+      "held_out_passage": "being aware that we stood in close friendship with its inhabitants, and that the caziques to strengthen the union had given their daughters to Malinche and his officers."
+    },
+    {
+      "id": 9,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "Given Diaz's reputation for impartiality, how would he assess Motecusuma's true motivations in sending ambassadors?",
+      "held_out_passage": "These expressions of friendship were merely sent by Motecusuma in order to entice us from Tlascalla, being aware that we stood in close friendship with its inhabitants"
+    },
+    {
+      "id": 10,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How would Diaz's character as a truthful chronicler influence his description of the ambassadors' status and importance?",
+      "held_out_passage": "The Tlascallans were personally acquainted with these ambassadors, and they told our captain that all of them were great personages and landed proprietors, who had subjects of their own."
+    },
+    {
+      "id": 11,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "Based on Diaz's documented military experience, would he view the recall of Alvarado and Tapia as a prudent decision?",
+      "held_out_passage": "a despatch was accordingly sent after them, with orders for their immediate return to our camp. They were not long returning, as Tapia had been attacked by fever on the road."
+    },
+    {
+      "id": 12,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "How would Diaz react to learning that Motecusuma was grieved by the officers' return?",
+      "held_out_passage": "Motecusuma was sorely grieved to hear of their return"
+    },
+    {
+      "id": 13,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "Given Diaz's emphasis on accurate observation, how would he verify the physical descriptions the ambassadors gave of Alvarado?",
+      "held_out_passage": "for Alvarado was in every sense beautifully proportioned in body, noble in his gait, had very pleasing features, and an amiable manner of expressing himself, so that there always appeared a smile on his countenance"
+    },
+    {
+      "id": 14,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "How would Diaz's character as a soldier-witness influence his assessment of the risk posed by Motecusuma's invitation?",
+      "held_out_passage": "Motecusuma begged of us rather to visit his town, where, at least, we might enjoy the good things it offered, though even these should be below our deserts, and not equal to what he could wish."
+    },
+    {
+      "id": 15,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Based on Diaz's documented honesty, would he acknowledge the universal disapprobation among the troops regarding Cortes's decision?",
+      "held_out_passage": "it met with universal disapprobation, and we desired that they might be recalled from their journey"
+    },
+    {
+      "id": 16,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "How would Diaz characterize the strategic thinking behind Motecusuma's use of these particular ambassadors?",
+      "held_out_passage": "These ambassadors Motecusuma employed on the most important matters only."
+    },
+    {
+      "id": 17,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Given Diaz's reputation for veracity, how would he report on the value of the gifts presented by the ambassadors?",
+      "held_out_passage": "consisting of valuable gold trinkets of various workmanship, worth about 10,000 pesos; and in ten packages of cotton stuffs, most beautifully interwoven with feathers"
+    },
+    {
+      "id": 18,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How would Diaz's role as a participant-observer affect his emotional response to the officers' safe return?",
+      "held_out_passage": "For the rest, we were not a little delighted when they reappeared in our quarters"
+    },
+    {
+      "id": 19,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Based on Diaz's character, would he acknowledge the ambassadors' accurate assessment of the officers' physical appearance and status?",
+      "held_out_passage": "his ambassadors, however, had correctly delineated their physiognomies and stature: for Alvarado was in every sense beautifully proportioned in body, noble in his gait, had very pleasing features, and an amiable manner of expressing himself"
+    },
+    {
+      "id": 20,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "How would Diaz interpret Motecusuma's strategy of using gifts and flattery to separate the Spanish from their Tlascallan allies?",
+      "held_out_passage": "For he would easily conjecture that nothing good could ensue to the Mexicans from our alliance with them, and this was the reason why he baited us with gold and other presents that we might enter into his territory, or that we should, at least, quit the country of the Tlascallans."
+    },
+    {
+      "id": 21,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When Cortés receives a disrespectful embassy from Cholulla consisting of low-ranking messengers, how does he typically respond to such affronts to his authority?",
+      "held_out_passage": "Cortés to despatch four Indians of Sempoalla to Cholulla, telling them to acquaint the inhabitants there that he should expect an embassy from them within the space of three days, consisting of men of rank and authority."
+    },
+    {
+      "id": 22,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "Based on Bernal Diaz's character as established in the training text, would he likely criticize Cortés's decision to send Alvarado and Vazquez de Tapia to Mexico in advance?",
+      "held_out_passage": "we desired that they might be recalled from their journey, as nothing could ensue from this but a mere view of that city; and a despatch was accordingly sent after them, with orders for their immediate return to our camp."
+    },
+    {
+      "id": 23,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How does Bernal Diaz characteristically handle situations where he lacks complete information due to personal circumstances?",
+      "held_out_passage": "At that time I was suffering from a severe wound, accompanied by fever, and could procure no medicine to relieve my sufferings, so that I cannot now recall to my memory how far these two officers proceeded on their journey"
+    },
+    {
+      "id": 24,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "When describing the physical appearance of Spanish officers, does Bernal Diaz tend to provide detailed, admiring descriptions?",
+      "held_out_passage": "Alvarado was in every sense beautifully proportioned in body, noble in his gait, had very pleasing features, and an amiable manner of expressing himself, so that there always appeared a smile on his countenance"
+    },
+    {
+      "id": 25,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "Does Bernal Diaz show concern for the welfare and safety of his fellow conquistadores?",
+      "held_out_passage": "For the rest, we were not a little delighted when they reappeared in our quarters; nor did we make a secret of our opinion, that their mission had not exactly been the most prudent of Cortes' resolves."
+    },
+    {
+      "id": 26,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "How does Bernal Diaz respond when he believes a course of action taken by Cortés is imprudent?",
+      "held_out_passage": "nor did we make a secret of our opinion, that their mission had not exactly been the most prudent of Cortes' resolves. But I will say nothing further of this matter, as it has little to do with my history."
+    },
+    {
+      "id": 27,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "When indigenous peoples show disrespect through low-ranking messengers, does Bernal Diaz recognize this as a significant insult?",
+      "held_out_passage": "The caziques of Tlascalla who were present when these messengers arrived, were struck with their appearance, and remarked to Cortes that this message was a real insult to him and all of us, since these messengers were Macehuales, and people of mean condition."
+    },
+    {
+      "id": 28,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "Does Bernal Diaz acknowledge when he is uncertain about details or when his memory fails him?",
+      "held_out_passage": "so that I cannot now recall to my memory how far these two officers proceeded on their journey"
+    },
+    {
+      "id": 29,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "How does Bernal Diaz characterize Cortés's diplomatic approach when responding to Motecusuma's ambassadors?",
+      "held_out_passage": "Cortes returned them many thanks, in the most flattering manner, for their civilities and the expressions of friendship they made in the name of their monarch"
+    },
+    {
+      "id": 30,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "Does Bernal Diaz show interest in how indigenous leaders perceive and react to Spanish officers?",
+      "held_out_passage": "Motecusuma was very curious to know something about the features and the height of these two teules, who had been on their way to Mexico, and whether they were officers."
+    },
+    {
+      "id": 31,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "When describing indigenous responses to Spanish officers, does Bernal Diaz report what the natives actually said about them?",
+      "held_out_passage": "These ambassadors, it appears, informed him, that Alvarado was a man whose countenance was particularly graceful and noble, shone like the sun, and that he was an officer."
+    },
+    {
+      "id": 32,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "Does Bernal Diaz acknowledge when he is setting aside matters he considers tangential to his main narrative?",
+      "held_out_passage": "But I will say nothing further of this matter, as it has little to do with my history."
+    },
+    {
+      "id": 33,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "How does Bernal Diaz respond when Cortés makes a decision that the group collectively disapproves of?",
+      "held_out_passage": "it met with universal disapprobation, and we desired that they might be recalled from their journey"
+    },
+    {
+      "id": 34,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "Does Bernal Diaz recognize and report on the social hierarchy and rank distinctions among indigenous peoples?",
+      "held_out_passage": "The Tlascallans were personally acquainted with these ambassadors, and they told our captain that all of them were great personages and landed proprietors, who had subjects of their own."
+    },
+    {
+      "id": 35,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When Cortés issues ultimatums to indigenous towns, does Bernal Diaz report the specific terms and timeframes?",
+      "held_out_passage": "he should expect an embassy from them within the space of three days, consisting of men of rank and authority. The distance between them and him was merely twenty miles, and if no one appeared within the stated time, he should consider the town of Cholulla in rebellion against us."
+    },
+    {
+      "id": 36,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Does Bernal Diaz show appreciation for the physical bearing and demeanor of his fellow Spanish officers?",
+      "held_out_passage": "Tapia, notwithstanding a certain expression of bodily strength which he had about him, had great nobleness in his carriage."
+    },
+    {
+      "id": 37,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How does Bernal Diaz characterize the quality of indigenous intelligence gathering about Spanish officers?",
+      "held_out_passage": "They had indeed taken a faithful likeness of him, and gave him the name of Tonatio, which he retained ever after among them, and signifies the Sun, son of the Sun."
+    },
+    {
+      "id": 38,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "Does Bernal Diaz show concern about the risks of sending Spanish officers into potentially hostile territory?",
+      "held_out_passage": "we desired that they might be recalled from their journey, as nothing could ensue from this but a mere view of that city; and a despatch was accordingly sent after them, with orders for their immediate return to our camp."
+    },
+    {
+      "id": 39,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "When indigenous leaders show curiosity about Spanish officers, does Bernal Diaz view this as significant?",
+      "held_out_passage": "Motecusuma was sorely grieved to hear of their return; his ambassadors, however, had correctly delineated their physiognomies and stature"
+    },
+    {
+      "id": 40,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "Does Bernal Diaz acknowledge when his personal suffering affects his ability to record historical details accurately?",
+      "held_out_passage": "At that time I was suffering from a severe wound, accompanied by fever, and could procure no medicine to relieve my sufferings, so that I cannot now recall to my memory how far these two officers proceeded on their journey"
+    },
+    {
+      "id": 41,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Bernal Diaz del Castillo's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 42,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Bernal Diaz del Castillo's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 43,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Bernal Diaz del Castillo's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 44,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Bernal Diaz del Castillo's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 45,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Bernal Diaz del Castillo's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 46,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Bernal Diaz del Castillo's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 47,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Bernal Diaz del Castillo's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 48,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Bernal Diaz del Castillo's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 49,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Bernal Diaz del Castillo's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 50,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Bernal Diaz del Castillo's opinion on modern technology?",
+      "held_out_passage": null
+    }
+  ]
+}

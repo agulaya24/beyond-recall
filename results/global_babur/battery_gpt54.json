@@ -1,0 +1,283 @@
+{
+  "metadata": {
+    "subject": "Babur",
+    "model": "gpt-5.4",
+    "method": "backward_design",
+    "count": 39
+  },
+  "questions": [
+    {
+      "id": 1,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "After a successful military action, how is he likely to respond to supporters who come before him and have done well?",
+      "held_out_passage": "Prayer; I praised and thanked them and led them to expect guerdon and kindness."
+    },
+    {
+      "id": 2,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "When a younger or less experienced companion witnesses a first campaign event, how is he likely to frame that experience?",
+      "held_out_passage": "`Askarī also came; this was the first affair he had seen; one well-omened for him!"
+    },
+    {
+      "id": 3,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "If his army has not yet fully crossed a river after battle, what kind of immediate lodging choice is he likely to make?",
+      "held_out_passage": "As the camp had not yet crossed the river, I took my rest in the boat Gunjāīsh, near an island."
+    },
+    {
+      "id": 4,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When he needs intelligence about a nearby situation during a pause in operations, what does he tend to do?",
+      "held_out_passage": "On Sunday (_29th_) Kūkī was sent to Ḥājīpūr for news."
+    },
+    {
+      "id": 5,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How does he tend to treat a subordinate who had once been forced into doubtful company but had previously shown loyalty and then returned promptly to serve?",
+      "held_out_passage": "He now came to this ground and waited on me."
+    },
+    {
+      "id": 6,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When troubling news arrives that an official in a distant place has died and local order may suffer, what action is he likely to take?",
+      "held_out_passage": "`Abdu'l-lāh (_kitābdār_) was ordered to go and maintain order in Sanbal."
+    },
+    {
+      "id": 7,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "If a frontier commander reports both shortages in reinforcement and a successful strike against local enemies, how is he likely to respond strategically?",
+      "held_out_passage": "Orders were sent through `Abdu'l-lāh (_kitābdār_) for the Sulṯān that he and Sl. Muḥammad _Dūldāī_, Muḥammadī, and some of the begs and braves of that country-side should assemble in Āgra and there remain ready to move to wherever an enemy appeared."
+    },
+    {
+      "id": 8,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When a large body of former opponents comes in submission, how does he typically balance generosity with fiscal control?",
+      "held_out_passage": "Not to make vain the hope with which some 7 or 8,000 _Nūḥānī_ Afghāns had come in to me, I bestowed 50 _laks_ from Bīhār on Maḥmūd Khān _Nūḥānī_, after reserving one _krūr_ for Government uses (_khalṣa_), and gave the remainder of the Bihār revenues in trust for the above-mentioned Jalāl Khān who for his part agreed to pay one _krūr_ of tribute."
+    },
+    {
+      "id": 9,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "When his main objective has largely been achieved, seasonal conditions are worsening, and the opposing ruler signals acceptance of terms, what course is he likely to choose?",
+      "held_out_passage": "As the object of this campaign was to put down the rebel Afghāns of whom some had taken their heads and gone off, some had come in submissive and accepting my service, and the remaining few were in the hands of the Bengalī [Sidenote: Fol. 376.] (Naṣrat Shāh) who had taken them in charge, and as, moreover, the Rains were near, we in our turn wrote and despatched words for peace on the conditions mentioned."
+    },
+    {
+      "id": 10,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How does he usually reward notable service and submission among high-ranking followers after matters have been settled?",
+      "held_out_passage": "Today guerdon was bestowed on Aīsān-tīmūr Sl. and Tūkhta-būghā Sl., of swords and daggers with belts, cuirasses, dresses of honour, and _tīpūchāq_ horses; also they were made to kneel, Aīsān-tīmūr Sl. for the grant of 36 _laks_ from the Nārnūl _pargana_, Tūkhta-bughā Sl. for 30 _laks_ from that of Shamsābād."
+    },
+    {
+      "id": 11,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "When a local defense was failing and an important leader was absent, how would Babur most likely react to the inability to organize resistance?",
+      "held_out_passage": "He tried vainly to get the town defended. \"Would to God Bābur Mīrzā were here!\" he is reported as saying, by Muḥ. Ṣāliḥ."
+    },
+    {
+      "id": 12,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "If allies or chroniclers tried to protect a powerful figure from blame for a death, how would Babur likely treat that explanation?",
+      "held_out_passage": "The Sh. N. and _Naṣrat-nāma_ attempt to lift the blame of `Alī's death from Shaibāq; the second saying that he fell into the Kohik-water when drunk."
+    },
+    {
+      "id": 13,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "When cut off by hostile territory and exhausted by movement, what kind of condition would Babur likely describe or emphasize?",
+      "held_out_passage": "Cut off by alien lands and weary travel."
+    },
+    {
+      "id": 14,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How would Babur likely note a customary pattern in gift-giving among his people when describing exchanges or rewards?",
+      "held_out_passage": "Amongst Turks and Mughūls, gifts were made by nines."
+    },
+    {
+      "id": 15,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "When facing difficult mountain travel, how would Babur likely adapt his route to overcome terrain obstacles?",
+      "held_out_passage": "Many of these will have been climbed in order to get over places impassable at the river's level."
+    },
+    {
+      "id": 16,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "If clothing or equipment became unfit during a campaign, what practical explanation would Babur likely give for replacing or remarking on it?",
+      "held_out_passage": "It seems likely that the cloth was soiled."
+    },
+    {
+      "id": 17,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How would Babur likely respond to a dream or vision connected with a revered religious place or figure?",
+      "held_out_passage": "This account of a dream compares well for naturalness with that in the seemingly-spurious passage, entered with the Ḥai. MS. on f. 118."
+    },
+    {
+      "id": 18,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When a rival began using a place as if planning to remain there, what inference would Babur likely draw from that arrival?",
+      "held_out_passage": "This arrival shews that Shaibānī expected to stay in Samarkand."
+    },
+    {
+      "id": 19,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "If Babur encountered wordplay or poetic exchange with technical flaws, how would he likely evaluate it?",
+      "held_out_passage": "Bābur's refrain is _ghūsīdūr_, his rhymes _būl_, _(buyur)ūl_ and _tūl_. Binā'ī makes _būlghūsīdūr_ his refrain but his rhymes are not true _viz._ _yīr_, _(sa)mar_ and _lār_."
+    },
+    {
+      "id": 20,
+      "tier": "behavioral_prediction",
+      "category": "change_over_time",
+      "text": "When reflecting on his own achievements in relation to a famous ancestor, how might Babur handle the comparison?",
+      "held_out_passage": "Bābur might have compared his taking of Samarkand with Tīmūr's capture of Qarshī, also with 240 followers (Z̤.N. i, 127). Firishta (lith. ed. p. 196) ascribes his omission to do so to reluctance to rank himself with his great ancestor."
+    },
+    {
+      "id": 21,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "When the narrator is unsure about the identity or meaning of a term, how does she usually respond—by stating certainty, by offering multiple possibilities, or by ignoring the ambiguity?",
+      "held_out_passage": "I have not discovered the name of this old servant or the meaning of his seeming-sobriquet, Hindū."
+    },
+    {
+      "id": 22,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "When faced with an unclear label or nickname, does the narrator tend to generate cautious hypotheses rather than settle on one explanation?",
+      "held_out_passage": "This is however conjecture merely. Another suggestion is that as _hindū_ can mean _black_, it may stand for the common _qarā_ of the Turks, _e.g._ Qarā Barlās, Black Barlās."
+    },
+    {
+      "id": 23,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "If a word or title has more than one possible interpretation, does the narrator openly acknowledge uncertainty instead of forcing a definite reading?",
+      "held_out_passage": "I am uncertain whether Qarā-qūzī is the name of a place, or the jesting sobriquet of more than one meaning it can be."
+    },
+    {
+      "id": 24,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "When a source gives conflicting versions of an office or role, does the narrator compare them and judge which seems most plausible from context?",
+      "held_out_passage": "The _Akbar-nāma_ varies to _jāmadār_, wardrobe-keeper, cup-holder (_Bib. Ind._ ed. i, 107), and Firishta to _sar-jāmadar_, head wardrobe-keeper (lith. ed. p. 209 top). It would be surprising to find such an official sent as envoy to `Irāq, as Asad was both before and after he fought at Kānwa."
+    },
+    {
+      "id": 25,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "When discussing rank or advancement, does the narrator tend to explain it in terms of loyalty and service?",
+      "held_out_passage": "The honourable post given to this amīr of Hind is likely to be due to his loyalty to Bābur."
+    },
+    {
+      "id": 26,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "When another scholar offers an interpretation the narrator finds doubtful, does she dismiss it entirely or record it while signaling skepticism?",
+      "held_out_passage": "Though the suggestion appears to me improbable, looking to the record of Bābur's officer, to the prevalence of sobriquets amongst his people, and to what would be the sporadic appearance of a Chinese title or even class-name borne by a single man amongst them. I add this suggestion to those of my note on the meaning of the words"
+    },
+    {
+      "id": 27,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "When translating a difficult phrase, does the narrator admit difficulty rather than pretend confidence?",
+      "held_out_passage": "_jūldū ba nām al `azīz-i-barādar shud_, a phrase not easy to translate."
+    },
+    {
+      "id": 28,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "If evidence is incomplete about a military or logistical term, does the narrator prefer a restrained interpretation tied closely to ordinary meaning?",
+      "held_out_passage": "As Bābur does not in any place mention metal missiles, it seems safest to translate _sang_ by its plain meaning of _stone_."
+    },
+    {
+      "id": 29,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "When a passage may contain layered imagery or metaphor, does the narrator explore symbolic meaning instead of reading it only literally?",
+      "held_out_passage": "The comparison may be between the darkening smoke of the fire-arms and the heresy darkening pagan hearts."
+    },
+    {
+      "id": 30,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "When interpreting pronouns or authorial voice in a text, does the narrator weigh evidence on both sides before reaching a conclusion?",
+      "held_out_passage": "This phrase \"our brother\" would support the view that Shaikh Zain wrote as for Bābur, if there were not, on the other hand, mention of Bābur as His Majesty, and the precious royal soul."
+    },
+    {
+      "id": 31,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "When a regional military leader under pressure from a stronger ruler becomes dissatisfied with his allegiance, is he more likely to stay loyal or to defect and flee?",
+      "held_out_passage": "Mīān +Ma`rūf+ _Farmūlī Afghān_[2909]—disaffected to Ibrāhīm and (later) to Bābur (932) 523; his opposition 530; flees 533-4;"
+    },
+    {
+      "id": 32,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "If a close female relative acts disloyally, is the expected response harsh punishment or a personal visit that preserves family ties?",
+      "held_out_passage": "+Mihr-nigār Khānīm+ _Chaghatāī Chingīz-khānid_, daughter of Yūnas—particulars 21, 149; joins Bābur in Kābul (911) 246; visited by him after her disloyalty (912"
+    },
+    {
+      "id": 33,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When arranging a politically useful marriage, is the pattern to formalize the match first and bring the bride later, rather than acting impulsively?",
+      "held_out_passage": "+Ma`ṣūma-sulṯān Begīm+ _Mīrān-shāhī Tīmūrid_, _Barlās Turk_, daughter of Aḥmad and Habība-sulṯān, and wife of Bābur—particulars 36, ☛ 711; her marriage arranged (912) 306, ☛ 714; brought from Ḥerāt (913) 330; married 339;"
+    },
+    {
+      "id": 34,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "After the death of a wife in childbirth, would the family be more likely to preserve her memory through naming than to avoid the name out of grief?",
+      "held_out_passage": "+Ma`ṣūma-sulṯān Begīm+ _Mīrān-shāhī Tīmūrid_, _Barlās Turk_, daughter of Aḥmad and Habība-sulṯān, and wife of Bābur—particulars 36, ☛ 711; her marriage arranged (912) 306, ☛ 714; brought from Ḥerāt (913) 330; married 339; dies in child-bed and her name at once given to her child 36;"
+    },
+    {
+      "id": 35,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When facing a fortified opponent, is the expected behavior to try negotiation before launching a full assault?",
+      "held_out_passage": "+Medinī Rāo+ var. Mindī _etc._—particulars 593 n. 5; his force at Kānwa (933) 562; holding Chanderī (934) 483, 593; Bābur negociates with him 594;"
+    },
+    {
+      "id": 36,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "If an envoy from a frontier tribe offers alliance through kinship, is the likely response to accept and integrate that group through marriage ties?",
+      "held_out_passage": "Malik Shāh +Manṣūr+ _Yūsuf-zāī Afghān_, son of Sulaimān—envoy of his tribe to Bābur (924) 371; his daughter's marriage with Bābur (925) 375, App. K; waits on him 399, 400; his brother T̤aus Khān and cousin Aḥmad _q.v._; a follower 377."
+    },
+    {
+      "id": 37,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "When someone in service suffers a dangerous mishap during an expedition, does the narrative pattern tend to record the incident as part of practical campaign experience rather than omit it?",
+      "held_out_passage": "+Maqṣūd+ _sūchī_, _shārbatchī_, _karg_—in the left centre at Qandahār (913) 335, 338; his tossing by a rhinoceros (_karg_) 400."
+    },
+    {
+      "id": 38,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "If a commander publicly praises the enemy at the wrong moment, is that likely to be treated as poor judgment because it could weaken morale?",
+      "held_out_passage": "Shah +Manṣūr+ _Barlās_—on service (932) 465-6, 475, 530, (933) 545; in the right centre at Pānīpat (932) 472, 473, and at Kānwa (933) 565, 569; his untimely praise of the Rājpūt army 548, 550."
+    },
+    {
+      "id": 39,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "When a ruler receives news from a learned courtier marking an important birth with literary wit, does that suggest appreciation for cultured expression alongside politics?",
+      "held_out_passage": "+Maulānā Sayyidī+, or _Mashhadī_—his chronogram on Humāyūn's birth (913) 344."
+    }
+  ]
+}

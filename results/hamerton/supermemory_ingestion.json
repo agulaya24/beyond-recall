@@ -1,0 +1,16 @@
+{
+  "subject": "hamerton",
+  "system": "supermemory",
+  "container_tag": "hamerton_run_20260415",
+  "facts_expected": 462,
+  "facts_posted": 462,
+  "post_success": 462,
+  "post_failure": 0,
+  "failed_fact_indices": [],
+  "start_time": "2026-04-15T21:43:04.708928+00:00",
+  "last_successful_index": 461,
+  "end_time": "2026-04-15T22:02:14.243707+00:00",
+  "verification_passed": true,
+  "verification_hits": 10,
+  "verification_total": 10
+}

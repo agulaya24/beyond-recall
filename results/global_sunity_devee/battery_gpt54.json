@@ -1,0 +1,283 @@
+{
+  "metadata": {
+    "subject": "Sunity Devee",
+    "model": "gpt-5.4",
+    "method": "backward_design",
+    "count": 39
+  },
+  "questions": [
+    {
+      "id": 1,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "When praised in a flattering way during conversation, how is she most likely to respond?",
+      "held_out_passage": "“You are looking beautiful, Princess,” he said. I asked why he said this. “Because,” he answered, “your voice is so lovely.”"
+    },
+    {
+      "id": 2,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "When enjoying hospitality in a foreign country, how is she likely to compare its natural beauty with that of her homeland?",
+      "held_out_passage": "We paid a delightful visit to Blair Atholl. The Duke and Duchess were very kind, and I thoroughly enjoyed myself; still I did not find the Scotch scenery half so grand as the mountains of my native land."
+    },
+    {
+      "id": 3,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How is she likely to react when introduced to a local superstition connected with good fortune?",
+      "held_out_passage": "One day when the Duke was taking Lady Strathmore and me for a drive we passed some white heather, and she exclaimed: “Oh, do stop, there’s white heather, the Maharani must have some.” The dear old Duke got down from the carriage and dutifully gathered the coveted flowers, while Lady Strathmore explained their mystic properties to me. “Now you will have luck,” she said as she gave me a spray. It was the first time I had heard of the superstition, though there are many pretty legends about flowers in India."
+    },
+    {
+      "id": 4,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "If something unsettling happens at night in unfamiliar surroundings, what kind of reaction is she likely to have?",
+      "held_out_passage": "One evening we went with the Duchess to a ball, and she decided to go home early. I was tired and asked if I might go with her, and so the Duchess, her sister Lady Strathmore, and I returned to the castle. I had told my maid to leave my door unlocked, and to sleep in the dressing-room, but when we tried to open my door none of us could manage it. One of the ladies therefore went round and woke up the maid, who simply turned the handle and the door was open. We looked at each other with surprise, and as I felt rather nervous the kind ladies had a good search in case there was a burglar. I well remember Lady Strathmore saying: “There are things in this world which our human eyes cannot see.”"
+    },
+    {
+      "id": 5,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "When faced with an invitation associated with something she finds eerie or unsettling, what decision is she likely to make?",
+      "held_out_passage": "I liked Lady Strathmore, she was such a handsome woman and very clever. I am very sorry I never accepted any of her kind invitations, but I had heard about the ghosts of Glamis Castle. The Maharajah was disappointed, as he was anxious to go and see the old castle, and to shoot, and I deprived him of both these pleasures."
+    },
+    {
+      "id": 6,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How does she tend to respond when her spouse receives social praise in elite company?",
+      "held_out_passage": "At the Blair gathering a very unusual compliment was paid to my husband’s dancing; Lady Salterne said: “It is a dream to dance with the Maharajah of Cooch Behar.”"
+    },
+    {
+      "id": 7,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "When encountering a celebrated local art form for the first time, is she likely to pretend enthusiasm or state her true reaction plainly?",
+      "held_out_passage": "At Blair Atholl I heard the bagpipes for the first time, but I am afraid I did not wax enthusiastic over their melody."
+    },
+    {
+      "id": 8,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "In warm social settings where she is treated with affection and indulgence, how is she likely to describe her experience?",
+      "held_out_passage": "I look back with pleasure to the time I spent in Scotland. I was treated like a child, and petted and spoilt by every one, and I quite enjoyed the experience."
+    },
+    {
+      "id": 9,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "When introduced to an unfamiliar social custom or form of address, what is she likely to do?",
+      "held_out_passage": "While we were talking our hostess said: “Baby is coming.” I asked her who “Baby” was, and she said, “My sister.” Soon after “Baby” arrived—the mother of children. It was sweet to hear her elder sister call her “Baby.”"
+    },
+    {
+      "id": 10,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "When visiting places of learning or worship abroad, what kind of response is she likely to have to intellectual conversation and beautiful music?",
+      "held_out_passage": "In the evening a party was given at which we met all the great wise men. None were good-looking nor young, but all were clever, and what interesting talks we had. My hostess afterwards told me some of them exclaimed, “What sparkling eyes!” when they first saw me. The next day was Sunday, and we went to church three times. A boy with a most glorious voice sang by himself; it filled the church and thrilled our hearts."
+    },
+    {
+      "id": 11,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "How would she likely respond if she believed authorities were keeping a mother from joining her child abroad during the child’s education?",
+      "held_out_passage": "I think it was most unkind the way in which the State officials prevented me from going to England to be with my boy. Every time the question was raised, they made the excuse of money difficulties, which I know for certain did not exist. I beg of all Maharani mothers in India that, if ever they are confronted with the same trouble, they will be firm, uphold their own judgment, and not allow the officials to interfere with their home-life. It is cruel to part the heirs when they are so young from their mothers."
+    },
+    {
+      "id": 12,
+      "tier": "behavioral_prediction",
+      "category": "change_over_time",
+      "text": "If her family chose a highly Western education for children of high rank, how would she later evaluate that choice?",
+      "held_out_passage": "Now I think it was perhaps a waste of time to educate a ruler’s heir in England. The Maharajah did what he and the Government thought best at the time by sending our boys to England for a thorough English education, but afterwards the boys felt their lack of knowledge of the Indian languages very much. They returned home knowing Greek and French, but they did not know Sanscrit or Urdu and found it difficult to speak freely and fluently in the Cooch Behar language."
+    },
+    {
+      "id": 13,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "What kind of education would she likely want for a future ruler, beyond a narrow literary schooling?",
+      "held_out_passage": "I think there should be Sanscrit teachers in England as well as teachers of Urdu and Bengali; Sanscrit is the most ancient language, and with a knowledge of it one can read and learn much that is most helpful. The heir to a State should have a more general education than the other sons; he should have some knowledge of law, engineering, accountancy, and agriculture, otherwise he cannot improve his State nor help the officials."
+    },
+    {
+      "id": 14,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How would she likely judge social criticism directed at young men from her country living abroad?",
+      "held_out_passage": "I do not blame either the Indian students or the Government for the troubles that have arisen, but as a mother I beg of the English people to go thoroughly into the whole matter before they judge the students."
+    },
+    {
+      "id": 15,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "If people of high rank were prevented by law or custom from securing independence for younger sons, what position would she likely take?",
+      "held_out_passage": "The education of a Maharajah’s younger sons, too, is a difficulty. A Maharajah is not allowed to buy any lands in British districts. I do not know what the reason of this is, but I think I once heard that if the sons of a ruler or his servants commit any crime they cannot be tried by British law because of the Maharajah’s own laws, which may account for it. This comes very hard on the younger sons; they can never make themselves rich nor independent. They have to live on their father’s estate on whatever allowance the heir is pleased to give them after their father’s death. I do not see why a Maharajah’s younger sons cannot buy lands in British districts and be independent."
+    },
+    {
+      "id": 16,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "How would she likely describe the emotional effect of losing a beloved parent after long sorrow and separation in the family?",
+      "held_out_passage": "We lost our dear mother in 1898, and I do not think she was sorry to go. The time of separation from my father had been a period of continual sorrow to her, and Death was a friend who re-united them. Her beautiful face wore a smile and she looked like one asleep dreaming of happiness. We could not wish her back again, although our hearts were aching at her loss."
+    },
+    {
+      "id": 17,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "What sort of family devotion would she especially admire in a brother caring for unmarried sisters?",
+      "held_out_passage": "After my mother had passed away my unmarried sisters lived with my brother Saral at Lily Cottage. Saral said: “Unless my sisters marry I shall remain single, and I shall not accept any post that will take me away from them.” Although he was younger than my third sister he took care of them like a guardian. He simply lived for his sisters and they one and all adored him."
+    },
+    {
+      "id": 18,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How would she likely remember someone in her family who gave practical, loyal care during a spouse’s final illness?",
+      "held_out_passage": "Eventually he married a Miss Sen of Rangoon and built a little house in the grounds of Lily Cottage. This brother of mine nursed my husband in his last illness, for which I shall ever be grateful to him."
+    },
+    {
+      "id": 19,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "If arranging a daughter’s marriage within a reformist religious identity and elite social rank created obstacles, how would she likely frame the problem?",
+      "held_out_passage": "The question of Girlie’s marriage came up in 1899, and we realised for the first time what difficulties might arise over it. No Maharajah except my husband was a professed Brahmo, and as our rulers have more than one wife, it was impossible to find a husband of her own rank for our daughter."
+    },
+    {
+      "id": 20,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How would she likely react to kindness shown by powerful hosts toward a child living far from home?",
+      "held_out_passage": "If Rajey was home-sick he did not say so, and I was happy to know that he made some very nice friends, amongst them Prince Arthur of Connaught. The Duke and Duchess were most kind to the little exile, and often invited him to spend his holidays with their Royal Highnesses at Bagshot. From there Rajey wrote: “I have a room to myself, a table of my own, a penknife, a pen and pencil on the table.” I shall always be indebted to them for their kindness."
+    },
+    {
+      "id": 21,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "When her husband was nearing death, how would she most likely regulate her outward emotions in his presence?",
+      "held_out_passage": "My children always said: “Mother, you must not shed any tears before father.” It was very hard always to wear a smile when all I longed to do was to fall on the floor and weep, but I had to look cheerful and talk brightly."
+    },
+    {
+      "id": 22,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "If the person she loved most were suffering and could not bear to see her distressed, what would she most likely do?",
+      "held_out_passage": "He used to listen for my footstep, and though in great pain and sickness his face always beamed when I came into the room, but he could not bear to see tears in my eyes."
+    },
+    {
+      "id": 23,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "When faced with impending loss, would she be more likely to cling emotionally or to try to be brave for the sake of the dying person?",
+      "held_out_passage": "They understood nothing of this, but he did. I saw it when he looked at me, I felt it as his hand clasped mine, but I knew he wished me to be brave and not hinder his passing."
+    },
+    {
+      "id": 24,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How would she likely respond to devoted care from relatives and attendants during a family crisis?",
+      "held_out_passage": "We had a very good male nurse, Francis. I shall ever be grateful for all his devotion to my husband."
+    },
+    {
+      "id": 25,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "If a loved one asked her about future plans while seriously ill, how would she initially frame her answer?",
+      "held_out_passage": "Just a few days before he passed away he said to me: “Sunity, what are your plans?” I said: “My plans are your plans. When you are better we shall return home.”"
+    },
+    {
+      "id": 26,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "When reality began to contradict her hopes during a grave illness, how would she likely react internally?",
+      "held_out_passage": "Gently he answered: “I know my plans and I would like you to make your plans.” At this answer my heart sank."
+    },
+    {
+      "id": 27,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "In the final moments of a loved one’s life, what kind of meaning would she be most likely to notice in the scene around her?",
+      "held_out_passage": "He looked round with such loving eyes just before he breathed his last at all his children, his brother-in-law, and staff; held my hands, calling me “poor girl”; and after saying a prayer, with a smile he quietly passed away."
+    },
+    {
+      "id": 28,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "After a devastating bereavement, would she be more likely to focus on public messages and ceremony or on private grief and spiritual attachment?",
+      "held_out_passage": "I cannot remember much except the agony through which I passed. I heard as one in a dream that messages of condolence had been received from Queen Alexandra, King George and Queen Mary, and hosts of our friends in England and India. But I was overwhelmed with grief. In spirit I was trying to overtake my beloved upon his lonely journey. Naught else troubled me."
+    },
+    {
+      "id": 29,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "When saying farewell after death, would she be more likely to seek a private moment of parting or remain within formal arrangements?",
+      "held_out_passage": "I saw my husband lying in his coffin, and I bade him my last farewell alone, before he was taken to London."
+    },
+    {
+      "id": 30,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "If there were uncertainty about how a major funeral should be conducted, what outcome would she likely value and later emphasize?",
+      "held_out_passage": "Profulla said the Maharajah’s funeral ought to be military, as he was a Colonel, and not that of a Maharajah. He sent a message to the Government and His Majesty ordered a grand military funeral. The Coldstream Guards played the “Dead March” and the “Last Post,” and both at Bexhill and in London, from Victoria Station to Golders’ Green Crematorium, people came in throngs. Even the relations in India said H.H. could not have had a grander or more impressive funeral. His Majesty was most gracious, and for this kind act of his, one and all in Cooch Behar, family, friends, and subjects, will be for ever grateful."
+    },
+    {
+      "id": 31,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Based on her memoir style and values, how would she likely explain her lack of interest in public affairs and the proper role of women in that sphere?",
+      "held_out_passage": "I hope I shall be forgiven if my readers do not find much about politics in this book, but I have never been interested in politics, and I think it is better for women not to take part in political work."
+    },
+    {
+      "id": 32,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "If she felt authorities were interfering with domestic or sacred family matters, how would she likely justify speaking out despite generally avoiding political involvement?",
+      "held_out_passage": "It is another thing though for the mothers and wives of rulers in India to complain of the Government if they find it interfering with them."
+    },
+    {
+      "id": 33,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How would she likely react to officials who dealt insensitively or discourteously with Indian women and families under their charge?",
+      "held_out_passage": "And I regret to say that the Government officials now are often of a different type from those in olden days, and this causes trouble in the country. Some of these Englishmen do not know how to talk or to write to Indian ladies, neither do they know how to address gentlemen."
+    },
+    {
+      "id": 34,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "From her perspective, what explanation would she give for poor manners among certain administrators?",
+      "held_out_passage": "Most of these civilians are sent out simply because they have passed the Civil Service Examination; how can any polite manners be expected of them?"
+    },
+    {
+      "id": 35,
+      "tier": "behavioral_prediction",
+      "category": "change_over_time",
+      "text": "How would she likely compare social treatment in Britain with treatment under colonial administration in India?",
+      "held_out_passage": "Yet whoever visits England once wishes to go there again, and the chief reason of this is, that the English are much nicer to Indians in England than they are in India."
+    },
+    {
+      "id": 36,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "What principle would she likely state about the importance of respecting women for the stability of political rule?",
+      "held_out_passage": "I always say that as long as the Government respect and consider Indian women the throne is safe; history itself shows that when women are ill-treated no rule is secure."
+    },
+    {
+      "id": 37,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "If denied direct access to a powerful authority figure on a serious personal matter, how would she likely describe the consequences of that refusal?",
+      "held_out_passage": "Once I wished to see Lord Curzon, and had he seen me some very great unpleasantness might have been avoided."
+    },
+    {
+      "id": 38,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "How would she likely respond when a subordinate official handled a deeply personal request in an impersonal or dismissive way?",
+      "held_out_passage": "I fully expected to get a letter written by his own hand, instead of that Mr. ⸺, the secretary, replied to this effect: “H.E. wishes the Maharajah to write him if there is anything wanted.”"
+    },
+    {
+      "id": 39,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When faced with administrative obstruction over a small household improvement while larger waste was tolerated, how would she likely portray that contrast?",
+      "held_out_passage": "I asked Mr. L. to have a little bamboo shed built at Woodlands, which would have cost perhaps about £2; the Maharajah was away in England at the time. Mr. L. said he must get the sanction of His Highness; the cablegram would probably have cost him £2; and if I remember rightly in the same year Mr. L. expended £8000 on a house in Darjeeling which, though not sanctioned, H.H. had to pay; such can be the power and folly of a Superintendent."
+    }
+  ]
+}

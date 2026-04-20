@@ -1,0 +1,283 @@
+{
+  "metadata": {
+    "subject": "Bernal Diaz del Castillo",
+    "model": "gpt-5.4",
+    "method": "backward_design",
+    "count": 39
+  },
+  "questions": [
+    {
+      "id": 1,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "When receiving envoys from a powerful ruler who bring gifts and courteous words, how is the commander likely to respond outwardly before giving his reply?",
+      "held_out_passage": "all of which our general received with a friendly smile."
+    },
+    {
+      "id": 2,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "If a distant ruler sends flattering assurances and invitations through representatives, how is the commander likely to answer in diplomatic terms?",
+      "held_out_passage": "Cortes returned them many thanks, in the most flattering manner, for their civilities and the expressions of friendship they made in the name of their monarch, and he desired them to say that in a short time he would pay his respects to him."
+    },
+    {
+      "id": 3,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "After a formal exchange with visiting representatives, what further hospitable step is the commander likely to take toward them?",
+      "held_out_passage": "He then invited them to pass some time amongst us."
+    },
+    {
+      "id": 4,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "When trying to learn more about a formidable city and its defenses before advancing, what kind of action is the commander likely to take?",
+      "held_out_passage": "About this time Cortes also sent two of our chief officers in advance to communicate with Motecusuma and view the great city of Mexico, and inspect its strong fortifications and other works of defence."
+    },
+    {
+      "id": 5,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "How might the commander try to reduce danger when sending trusted men ahead into uncertain territory?",
+      "held_out_passage": "and the four ambassadors who had brought the last present remained with us as hostages."
+    },
+    {
+      "id": 6,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "If the soldiers believe a reconnaissance mission is too dangerous or useless, how are they likely to react collectively?",
+      "held_out_passage": "as soon as it was known that Cortes had sent these cavaliers at a venture to Mexico, it met with universal disapprobation, and we desired that they might be recalled from their journey, as nothing could ensue from this but a mere view of that city;"
+    },
+    {
+      "id": 7,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When strong objections arise within the force about a hazardous move, what corrective decision is likely to follow?",
+      "held_out_passage": "and a despatch was accordingly sent after them, with orders for their immediate return to our camp."
+    },
+    {
+      "id": 8,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "How does the narrator typically explain gaps in his recollection when he is physically unwell during events?",
+      "held_out_passage": "At that time I was suffering from a severe wound, accompanied by fever, and could procure no medicine to relieve my sufferings, so that I cannot now recall to my memory how far these two officers proceeded on their journey:"
+    },
+    {
+      "id": 9,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Even when admitting limits in memory, what does the narrator tend to do with details he still remembers clearly?",
+      "held_out_passage": "this, however, I have not forgotten, that as soon as it was known that Cortes had sent these cavaliers at a venture to Mexico, it met with universal disapprobation"
+    },
+    {
+      "id": 10,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "When companions return safely from a mission that had worried the group, how are the soldiers likely to react emotionally?",
+      "held_out_passage": "For the rest, we were not a little delighted when they reappeared in our quarters;"
+    },
+    {
+      "id": 11,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "When describing an unfamiliar custom that he expects readers might find ridiculous, how is he most likely to respond?",
+      "held_out_passage": "I can easily imagine that many of my readers will laugh at this; however, what I have stated is a fact,"
+    },
+    {
+      "id": 12,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "If faced with an enormous number of observable details in a place he is describing, what choice is he likely to make about how much to record?",
+      "held_out_passage": "But why should I so minutely detail every article exposed for sale in this great market? If I had to enumerate everything singly, I should not so easily get to the end."
+    },
+    {
+      "id": 13,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "When he realizes he has omitted important items from an account, how does he tend to handle the omission?",
+      "held_out_passage": "And yet I have not mentioned the paper, which in this country is called amatl; the tubes filled with liquid amber and tobacco; the various sweet-scented salves, and similar things; nor the various seeds which were exposed for sale in the porticoes of this market, nor the medicinal herbs."
+    },
+    {
+      "id": 14,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "How does he typically react when trying to give a truthful account of something too vast to fully capture?",
+      "held_out_passage": "The variety was so great that it would occupy more space than I can well spare to note them down in; besides which, the market was so crowded with people, and the thronging so excessive in the porticoes, that it was quite impossible to see all in one day."
+    },
+    {
+      "id": 15,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "When observing organized public order in a foreign setting, what kinds of institutional details is he likely to notice and report?",
+      "held_out_passage": "In this market-place there were also courts of justice, to which three judges and several constables were appointed, who inspected the goods exposed for sale."
+    },
+    {
+      "id": 16,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "If offered physical assistance during a demanding ascent, how is his commander likely to respond according to his style of narration?",
+      "held_out_passage": "There were 114 steps to the summit, and, as they feared that Cortes would experience the same fatigue in mounting as Motecusuma had, they were going to assist him by taking hold of his arms. Cortes, however, would not accept of their proffered aid."
+    },
+    {
+      "id": 17,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "How does he tend to characterize religious practices he finds morally repellent while still reporting them in detail?",
+      "held_out_passage": "Near these stood a large idol, in the shape of a dragon, surrounded by various other abominable figures, with a quantity of fresh blood lying in front of it."
+    },
+    {
+      "id": 18,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "When received courteously by a powerful ruler from another culture, how does he usually portray that interaction?",
+      "held_out_passage": "Motecusuma himself stepped out of a chapel, in which his cursed gods were standing, accompanied by two papas, and received Cortes and the whole of us very courteously."
+    },
+    {
+      "id": 19,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "When challenged indirectly about hardship or fatigue, what sort of response does he present from his side?",
+      "held_out_passage": "\"Ascending this temple, Malinche,\" said he to our commander, \"must certainly have fatigued you!\" Cortes, however, assured him, through our interpreters, that it was not possible for anything to tire us."
+    },
+    {
+      "id": 20,
+      "tier": "behavioral_prediction",
+      "category": "change_over_time",
+      "text": "How does he connect present observation with later events when recounting a significant place?",
+      "held_out_passage": "From this place we could likewise see the three causeways which led into Mexico,--that from Iztapalapan, by which we had entered the city four days ago; that from Tlacupa, along which we took our flight eight months after, when we were beaten out of the city by the new monarch Cuitlahuatzin; the third was that of Tepeaquilla."
+    },
+    {
+      "id": 21,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "When an allied ruler privately warned that religious authorities were pressing for violence, how would he likely respond outwardly while assessing the danger?",
+      "held_out_passage": "Cortes, however, hid his fears from the monarch, and thanked him for his information,"
+    },
+    {
+      "id": 22,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "If escape seemed difficult and enemies might soon attack, what kind of strategic proposal would he be likely to make to buy time and preserve control?",
+      "held_out_passage": "adding, that he was sorry we had no vessels left in which we could leave the country; and that if we even did leave it, we must take him, the monarch, along with us, that he might be presented to our emperor: he therefore begged of him to amuse his priests and officers until we should have constructed three vessels on the sea-coast."
+    },
+    {
+      "id": 23,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "When facing possible betrayal inside a hostile city, would he rely only on words, or also push for immediate practical preparations?",
+      "held_out_passage": "And that Motecusuma might convince himself that he would fulfil his promise, he desired he would despatch two of his chief officers with our carpenters to the coast to cut wood for the building of the vessels."
+    },
+    {
+      "id": 24,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How would he likely deal with local religious leaders if he thought their demands threatened his men and violated his principles?",
+      "held_out_passage": "Our general also desired him to call the papas and officers to acquaint them that it was unnecessary to raise the town into open rebellion; they might, for the present, appease the gods by offerings, but we forbade any sacrifice of human beings."
+    },
+    {
+      "id": 25,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "When danger increased, what sort of work would he order his subordinates and specialists to begin without delay?",
+      "held_out_passage": "After this important disclosure Cortes left the monarch, and we now lived in constant fear of hostilities breaking out. Cortes, however, fulfilled his promise, and sent for Martin Lopez and Andreas Nuñez, described to them the size of the three vessels he wished them to build, and to march to Vera Cruz with the Mexican carpenters, where all the necessary materials, consisting in iron, rigging, tar and tow would be found."
+    },
+    {
+      "id": 26,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "If there were uncertainty about whether a major project was sincere or merely a ruse, how would the narrator likely present that uncertainty?",
+      "held_out_passage": "Whether Cortes gave Lopez any secret instructions I do not know; but I cannot pass by this circumstance in silence, as Gomara mentions it likewise in his history, and maintains that all this building of the vessels was mere artifice to amuse Motecusuma. May those who know more about this matter publish the truth."
+    },
+    {
+      "id": 27,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How does he tend to handle disputed reports when he lacks full certainty but has testimony from someone he trusts?",
+      "held_out_passage": "All I know is that Lopez told me in confidence, that the building of the vessels was really commenced, and that the three vessels were actually lying on the staples."
+    },
+    {
+      "id": 28,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "When he believed an attack could come at any moment, what level of personal readiness would he and his companions maintain?",
+      "held_out_passage": "I must here for the last time acquaint the reader, that whether night or day, we never took off our gorgets or our armour, while our arms were never for a moment out of our hands. A bundle of straw and a mat formed a couch; our horses stood ready saddled, and in short every soldier was ready for action at a moment's notice."
+    },
+    {
+      "id": 29,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "Under prolonged threat, what routine security measures would he consider necessary even during the night?",
+      "held_out_passage": "At night we also took the precaution of posting such numbers of sentinels, that each of us in turn, had at least one watch every night."
+    },
+    {
+      "id": 30,
+      "tier": "behavioral_prediction",
+      "category": "change_over_time",
+      "text": "How did long exposure to campaigning and danger shape his habits later in life?",
+      "held_out_passage": "I do not mention this in praise of myself; but I grew so accustomed to being armed night and day, as it were living in armour, that after the conquest of New Spain I could not accustom myself for a length of time to undress on going to lie down, or make use of a bed, but slept better in soldier fashion than on the softest down."
+    },
+    {
+      "id": 31,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "When expected honors and supplies failed to appear, how would he likely react emotionally after earlier boasting about his authority?",
+      "held_out_passage": "But when Cortes found how the aspect of affairs had changed at Tezcuco, that no one stirred a foot to give the splendid reception he had boasted of, that none of the principal personages showed themselves, that even the worst of provisions were brought him with great reluctance, and found this ill feeling towards us show itself even more strongly in Mexico, and that although he had returned with additional troops, the inhabitants no longer furnished him with provisions, his pride turned into moroseness and anger,"
+    },
+    {
+      "id": 32,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "If a ruler who had formerly shown favor sought an interview during a tense shortage, how would he likely answer in the heat of anger?",
+      "held_out_passage": "when Motecusuma sent two of his grandees to announce that he was desirous of paying Cortes a visit, as he had something to communicate to him, he said, \"He might go to the devil! since he would not allow any weekly markets to be held, nor any provisions to be sent us.\""
+    },
+    {
+      "id": 33,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "When companions urged moderation by reminding him of past kindnesses received from an ally, how would he tend to respond?",
+      "held_out_passage": "These words carried with them the idea of a reproach, and, consequently, only served the more to embitter his feelings, and he burst out as follows: \"Why should I stand upon any further ceremony with this dog? Did he not secretly connive with Narvaez, and now refuses us provisions?\""
+    },
+    {
+      "id": 34,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "In a worsening political situation, would he be more likely to accept prudent counsel from fellow officers or rely on force and issue threats?",
+      "held_out_passage": "Cortes, however, relied upon the strength of his troops, and would not allow his anger to be pacified in any way, but commissioned the two Mexican grandees to tell their master that he must issue immediate orders for the re-opening of the markets, otherwise he should find himself obliged to take other steps."
+    },
+    {
+      "id": 35,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How might insulting language toward a powerful counterpart affect intermediaries who overhear it?",
+      "held_out_passage": "Both these Mexicans had understood the reviling language used by Cortes against their monarch, and also how our other officers had remonstrated with him on that account. They knew these officers well; for they had by turns been captains of the guard which was placed over their monarch's person, and knew they were greatly attached to him. They therefore repaired, either in the bitterness of their hearts, or because the attack upon us had already been determined upon, and related to Motecusuma what they had heard;"
+    },
+    {
+      "id": 36,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "After receiving a report that travel routes were occupied, captives seized, and an escapee wounded, how would the soldiers likely assess their situation?",
+      "held_out_passage": "When Cortes and some of us soldiers heard this, we began to look very serious, for those among us who had been several times engaged with the Indians knew, from experience, with what vast crowds they always entered the field of battle, and, although our numbers had been greatly augmented, and that there was little doubt but we should defend ourselves courageously, yet we were well aware of our dangerous position."
+    },
+    {
+      "id": 37,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "What lesson would experienced soldiers draw from prior fighting when signs of a large uprising appeared?",
+      "held_out_passage": "for those among us who had been several times engaged with the Indians knew, from experience, with what vast crowds they always entered the field of battle,"
+    },
+    {
+      "id": 38,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "When trapped in a hostile and fortified city with supplies threatened, what dangers would he expect most strongly?",
+      "held_out_passage": "We soldiers also knew that we should run great risk of losing our lives either from hunger or from the advantages which the enemy would have over us in such a strongly fortified city."
+    },
+    {
+      "id": 39,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "After hearing alarming but uncertain news from the road, what measured military step would he likely take before committing fully?",
+      "held_out_passage": "Cortes, after questioning the man who had come from Tlacupa, despatched Ordas with 400 men, mostly armed with crossbows and muskets, and a few horse, to see what truth there was in his statement. He recommended him, however, to avoid, if possible, all hostilities, and to settle the affair amicably."
+    }
+  ]
+}

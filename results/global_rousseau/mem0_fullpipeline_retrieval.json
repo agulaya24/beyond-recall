@@ -1,0 +1,782 @@
+{
+  "1": {
+    "question_id": 1,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Rousseau lived at home in Wootton, Staffordshire, near the Peak Country, paying a rent of £30 a year and receiving a £100 pension from George III, which he declined after the first annual payment.",
+      "Rousseau's father was banished after a quarrel with a man named G----, leading Rousseau to be sent to Bossey to learn Latin under uncle Bernard.",
+      "In 1770, Rousseau settled in Paris, living continuously for seven years on a street that now bears his name, and earned a living by copying music.",
+      "In June 1766, Rousseau wrote a violent letter to Hume calling him 'one of the worst of men.' In spring 1767, he fled first to Spalding, Lincolnshire, then to Calais, landing in May 1767, and thereafter frequently changed residence, earning the title 'Voyageur Perpetuel.'",
+      "Rousseau had a brother seven years older who was neglected, became a libertine, disappeared to Germany, and was never heard from again.",
+      "Rousseau had a mistress named Madame de Warens, whom he called his 'Mamma'.",
+      "The user describes their upbringing: staying with uncle, learning drawing and Euclid, but facing limited instruction due to family neglect, and considering a ministerial career despite financial constraints.",
+      "Rousseau was born in Geneva in 1712 to Isaac Rousseau, a watchmaker with a modest income divided among fifteen children, and Susannah Bernard, daughter of Mons. Bernard, a minister; his mother died during his birth and his father never fully recovered from the loss.",
+      "Rousseau had no recollection of learning to read before age five or six; he read romances with his mother and father after supper, often all night, developing facility. After summer 1719 he studied history, biographies, and classical works, with Plutarch becoming his favorite author, republican spirit and love of liberty.",
+      "Rousseau renounced his father's duty but later expiated it through a long and bitter repentance."
+    ],
+    "latency_ms": 623,
+    "timestamp": "2026-04-16T07:06:48.284340+00:00"
+  },
+  "2": {
+    "question_id": 2,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Rousseau's father was banished after a quarrel with a man named G----, leading Rousseau to be sent to Bossey to learn Latin under uncle Bernard.",
+      "Lord Byron's writings influenced Rousseau, and Byron expressed sympathy with Rousseau's character in some stanzas of 'Childe Harold'.",
+      "Rousseau's works 'Reveries d'un Promeneur Solitaire' and 'La Nouvelle Heloise' are closely allied in tone and spirit to the Confessions.",
+      "In June 1766, Rousseau wrote a violent letter to Hume calling him 'one of the worst of men.' In spring 1767, he fled first to Spalding, Lincolnshire, then to Calais, landing in May 1767, and thereafter frequently changed residence, earning the title 'Voyageur Perpetuel.'",
+      "In 1770, Rousseau settled in Paris, living continuously for seven years on a street that now bears his name, and earned a living by copying music.",
+      "Rousseau's remains were first interred in the Ile des Peupliers, later moved to the Pantheon after the Revolution, and a statue modeled by Pradier was erected on an island in the Rhone by the Government of Geneva.",
+      "Rousseau had no recollection of learning to read before age five or six; he read romances with his mother and father after supper, often all night, developing facility. After summer 1719 he studied history, biographies, and classical works, with Plutarch becoming his favorite author, republican spirit and love of liberty.",
+      "Rousseau had a profound sense of justice and a real desire for the improvement and advancement of the race.",
+      "Rousseau lived at home in Wootton, Staffordshire, near the Peak Country, paying a rent of £30 a year and receiving a £100 pension from George III, which he declined after the first annual payment.",
+      "Rousseau had a mistress named Madame de Warens, whom he called his 'Mamma'."
+    ],
+    "latency_ms": 572,
+    "timestamp": "2026-04-16T07:06:48.857057+00:00"
+  },
+  "3": {
+    "question_id": 3,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Rousseau had no recollection of learning to read before age five or six; he read romances with his mother and father after supper, often all night, developing facility. After summer 1719 he studied history, biographies, and classical works, with Plutarch becoming his favorite author, republican spirit and love of liberty.",
+      "Rousseau had a mistress named Madame de Warens, whom he called his 'Mamma'.",
+      "Lord Byron's writings influenced Rousseau, and Byron expressed sympathy with Rousseau's character in some stanzas of 'Childe Harold'.",
+      "Rousseau's father was banished after a quarrel with a man named G----, leading Rousseau to be sent to Bossey to learn Latin under uncle Bernard.",
+      "Rousseau had a governess named Jaqueline, whose music and singing influenced his taste for music.",
+      "Rousseau had a profound sense of justice and a real desire for the improvement and advancement of the race.",
+      "Rousseau was under tuition of uncle Bernard at Bossey, learning Latin, and developed a passion for rural life.",
+      "Rousseau renounced his father's duty but later expiated it through a long and bitter repentance.",
+      "Rousseau was born in Geneva in 1712 to Isaac Rousseau, a watchmaker with a modest income divided among fifteen children, and Susannah Bernard, daughter of Mons. Bernard, a minister; his mother died during his birth and his father never fully recovered from the loss.",
+      "Rousseau had a brother seven years older who was neglected, became a libertine, disappeared to Germany, and was never heard from again."
+    ],
+    "latency_ms": 648,
+    "timestamp": "2026-04-16T07:06:49.509506+00:00"
+  },
+  "4": {
+    "question_id": 4,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "In 1770, Rousseau settled in Paris, living continuously for seven years on a street that now bears his name, and earned a living by copying music.",
+      "Rousseau had no recollection of learning to read before age five or six; he read romances with his mother and father after supper, often all night, developing facility. After summer 1719 he studied history, biographies, and classical works, with Plutarch becoming his favorite author, republican spirit and love of liberty.",
+      "Lord Byron's writings influenced Rousseau, and Byron expressed sympathy with Rousseau's character in some stanzas of 'Childe Harold'.",
+      "Rousseau's father was banished after a quarrel with a man named G----, leading Rousseau to be sent to Bossey to learn Latin under uncle Bernard.",
+      "He lived with Therese in Wootton, devoting time to herb gathering and writing the first six books of his Confessions.",
+      "Rousseau had a governess named Jaqueline, whose music and singing influenced his taste for music.",
+      "Rousseau was under tuition of uncle Bernard at Bossey, learning Latin, and developed a passion for rural life.",
+      "Bernardin de Saint-Pierre, author of 'Paul and Virginia', met Rousseau in 1772 and documented details of his daily life during that period.",
+      "In June 1766, Rousseau wrote a violent letter to Hume calling him 'one of the worst of men.' In spring 1767, he fled first to Spalding, Lincolnshire, then to Calais, landing in May 1767, and thereafter frequently changed residence, earning the title 'Voyageur Perpetuel.'",
+      "Rousseau was born in Geneva in 1712 to Isaac Rousseau, a watchmaker with a modest income divided among fifteen children, and Susannah Bernard, daughter of Mons. Bernard, a minister; his mother died during his birth and his father never fully recovered from the loss."
+    ],
+    "latency_ms": 604,
+    "timestamp": "2026-04-16T07:06:50.114336+00:00"
+  },
+  "5": {
+    "question_id": 5,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Rousseau's father was banished after a quarrel with a man named G----, leading Rousseau to be sent to Bossey to learn Latin under uncle Bernard.",
+      "Rousseau had no recollection of learning to read before age five or six; he read romances with his mother and father after supper, often all night, developing facility. After summer 1719 he studied history, biographies, and classical works, with Plutarch becoming his favorite author, republican spirit and love of liberty.",
+      "Rousseau renounced his father's duty but later expiated it through a long and bitter repentance.",
+      "The Confessions covers leading personages and transactions of a momentous epoch when absolutism and feudalism were rallying against the modern spirit represented by Voltaire, the Encyclopedists, and Rousseau himself.",
+      "Rousseau had a mistress named Madame de Warens, whom he called his 'Mamma'.",
+      "Rousseau had a brother seven years older who was neglected, became a libertine, disappeared to Germany, and was never heard from again.",
+      "Rousseau had a profound sense of justice and a real desire for the improvement and advancement of the race.",
+      "Lord Byron's writings influenced Rousseau, and Byron expressed sympathy with Rousseau's character in some stanzas of 'Childe Harold'.",
+      "Rousseau was born in Geneva in 1712 to Isaac Rousseau, a watchmaker with a modest income divided among fifteen children, and Susannah Bernard, daughter of Mons. Bernard, a minister; his mother died during his birth and his father never fully recovered from the loss.",
+      "Rousseau suffered from an incurable disease for most of his life."
+    ],
+    "latency_ms": 614,
+    "timestamp": "2026-04-16T07:06:50.728943+00:00"
+  },
+  "6": {
+    "question_id": 6,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "In 1770, Rousseau settled in Paris, living continuously for seven years on a street that now bears his name, and earned a living by copying music.",
+      "Rousseau renounced his father's duty but later expiated it through a long and bitter repentance.",
+      "Rousseau had a mistress named Madame de Warens, whom he called his 'Mamma'.",
+      "Rousseau had a governess named Jaqueline, whose music and singing influenced his taste for music.",
+      "Rousseau had no recollection of learning to read before age five or six; he read romances with his mother and father after supper, often all night, developing facility. After summer 1719 he studied history, biographies, and classical works, with Plutarch becoming his favorite author, republican spirit and love of liberty.",
+      "Rousseau suffered from an incurable disease for most of his life.",
+      "Bernardin de Saint-Pierre, author of 'Paul and Virginia', met Rousseau in 1772 and documented details of his daily life during that period.",
+      "Rousseau had a profound sense of justice and a real desire for the improvement and advancement of the race.",
+      "Rousseau had a brother seven years older who was neglected, became a libertine, disappeared to Germany, and was never heard from again.",
+      "While at Trye in Gisors during 1767-8, he wrote the second part of his Confessions, assumed the surname Renou, and declared before two witnesses that Therese was his wife."
+    ],
+    "latency_ms": 806,
+    "timestamp": "2026-04-16T07:06:51.535625+00:00"
+  },
+  "7": {
+    "question_id": 7,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Rousseau had no recollection of learning to read before age five or six; he read romances with his mother and father after supper, often all night, developing facility. After summer 1719 he studied history, biographies, and classical works, with Plutarch becoming his favorite author, republican spirit and love of liberty.",
+      "Rousseau had a mistress named Madame de Warens, whom he called his 'Mamma'.",
+      "Lord Byron's writings influenced Rousseau, and Byron expressed sympathy with Rousseau's character in some stanzas of 'Childe Harold'.",
+      "Rousseau's works 'Reveries d'un Promeneur Solitaire' and 'La Nouvelle Heloise' are closely allied in tone and spirit to the Confessions.",
+      "Rousseau had a profound sense of justice and a real desire for the improvement and advancement of the race.",
+      "Rousseau's father was banished after a quarrel with a man named G----, leading Rousseau to be sent to Bossey to learn Latin under uncle Bernard.",
+      "Rousseau had a governess named Jaqueline, whose music and singing influenced his taste for music.",
+      "In June 1766, Rousseau wrote a violent letter to Hume calling him 'one of the worst of men.' In spring 1767, he fled first to Spalding, Lincolnshire, then to Calais, landing in May 1767, and thereafter frequently changed residence, earning the title 'Voyageur Perpetuel.'",
+      "He lived with Therese in Wootton, devoting time to herb gathering and writing the first six books of his Confessions.",
+      "Rousseau was under tuition of uncle Bernard at Bossey, learning Latin, and developed a passion for rural life."
+    ],
+    "latency_ms": 2413,
+    "timestamp": "2026-04-16T07:06:53.949505+00:00"
+  },
+  "8": {
+    "question_id": 8,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Rousseau had a governess named Jaqueline, whose music and singing influenced his taste for music.",
+      "Rousseau had no recollection of learning to read before age five or six; he read romances with his mother and father after supper, often all night, developing facility. After summer 1719 he studied history, biographies, and classical works, with Plutarch becoming his favorite author, republican spirit and love of liberty.",
+      "Rousseau had a profound sense of justice and a real desire for the improvement and advancement of the race.",
+      "Rousseau's works 'Reveries d'un Promeneur Solitaire' and 'La Nouvelle Heloise' are closely allied in tone and spirit to the Confessions.",
+      "Rousseau lived at home in Wootton, Staffordshire, near the Peak Country, paying a rent of £30 a year and receiving a £100 pension from George III, which he declined after the first annual payment.",
+      "In 1770, Rousseau settled in Paris, living continuously for seven years on a street that now bears his name, and earned a living by copying music.",
+      "Rousseau had a mistress named Madame de Warens, whom he called his 'Mamma'.",
+      "Rousseau was under tuition of uncle Bernard at Bossey, learning Latin, and developed a passion for rural life.",
+      "Rousseau renounced his father's duty but later expiated it through a long and bitter repentance.",
+      "Rousseau's father was banished after a quarrel with a man named G----, leading Rousseau to be sent to Bossey to learn Latin under uncle Bernard."
+    ],
+    "latency_ms": 627,
+    "timestamp": "2026-04-16T07:06:54.578419+00:00"
+  },
+  "9": {
+    "question_id": 9,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Rousseau's father was banished after a quarrel with a man named G----, leading Rousseau to be sent to Bossey to learn Latin under uncle Bernard.",
+      "Rousseau had no recollection of learning to read before age five or six; he read romances with his mother and father after supper, often all night, developing facility. After summer 1719 he studied history, biographies, and classical works, with Plutarch becoming his favorite author, republican spirit and love of liberty.",
+      "Lord Byron's writings influenced Rousseau, and Byron expressed sympathy with Rousseau's character in some stanzas of 'Childe Harold'.",
+      "Rousseau had a profound sense of justice and a real desire for the improvement and advancement of the race.",
+      "In June 1766, Rousseau wrote a violent letter to Hume calling him 'one of the worst of men.' In spring 1767, he fled first to Spalding, Lincolnshire, then to Calais, landing in May 1767, and thereafter frequently changed residence, earning the title 'Voyageur Perpetuel.'",
+      "Rousseau's remains were first interred in the Ile des Peupliers, later moved to the Pantheon after the Revolution, and a statue modeled by Pradier was erected on an island in the Rhone by the Government of Geneva.",
+      "Rousseau had a mistress named Madame de Warens, whom he called his 'Mamma'.",
+      "Rousseau lived at home in Wootton, Staffordshire, near the Peak Country, paying a rent of £30 a year and receiving a £100 pension from George III, which he declined after the first annual payment.",
+      "Rousseau's works 'Reveries d'un Promeneur Solitaire' and 'La Nouvelle Heloise' are closely allied in tone and spirit to the Confessions.",
+      "In 1770, Rousseau settled in Paris, living continuously for seven years on a street that now bears his name, and earned a living by copying music."
+    ],
+    "latency_ms": 644,
+    "timestamp": "2026-04-16T07:06:55.222982+00:00"
+  },
+  "10": {
+    "question_id": 10,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Rousseau had a governess named Jaqueline, whose music and singing influenced his taste for music.",
+      "Rousseau renounced his father's duty but later expiated it through a long and bitter repentance.",
+      "In 1770, Rousseau settled in Paris, living continuously for seven years on a street that now bears his name, and earned a living by copying music.",
+      "Rousseau had a mistress named Madame de Warens, whom he called his 'Mamma'.",
+      "Rousseau had a profound sense of justice and a real desire for the improvement and advancement of the race.",
+      "Rousseau had a brother seven years older who was neglected, became a libertine, disappeared to Germany, and was never heard from again.",
+      "Rousseau was born in Geneva in 1712 to Isaac Rousseau, a watchmaker with a modest income divided among fifteen children, and Susannah Bernard, daughter of Mons. Bernard, a minister; his mother died during his birth and his father never fully recovered from the loss.",
+      "Rousseau suffered from an incurable disease for most of his life.",
+      "Rousseau's father was banished after a quarrel with a man named G----, leading Rousseau to be sent to Bossey to learn Latin under uncle Bernard.",
+      "Rousseau was under tuition of uncle Bernard at Bossey, learning Latin, and developed a passion for rural life."
+    ],
+    "latency_ms": 629,
+    "timestamp": "2026-04-16T07:06:55.853136+00:00"
+  },
+  "11": {
+    "question_id": 11,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Rousseau had a mistress named Madame de Warens, whom he called his 'Mamma'.",
+      "Rousseau had no recollection of learning to read before age five or six; he read romances with his mother and father after supper, often all night, developing facility. After summer 1719 he studied history, biographies, and classical works, with Plutarch becoming his favorite author, republican spirit and love of liberty.",
+      "Rousseau renounced his father's duty but later expiated it through a long and bitter repentance.",
+      "Bernardin de Saint-Pierre, author of 'Paul and Virginia', met Rousseau in 1772 and documented details of his daily life during that period.",
+      "Rousseau suffered from an incurable disease for most of his life.",
+      "In June 1766, Rousseau wrote a violent letter to Hume calling him 'one of the worst of men.' In spring 1767, he fled first to Spalding, Lincolnshire, then to Calais, landing in May 1767, and thereafter frequently changed residence, earning the title 'Voyageur Perpetuel.'",
+      "Rousseau had a brother seven years older who was neglected, became a libertine, disappeared to Germany, and was never heard from again.",
+      "Rousseau's father was banished after a quarrel with a man named G----, leading Rousseau to be sent to Bossey to learn Latin under uncle Bernard.",
+      "Rousseau had a governess named Jaqueline, whose music and singing influenced his taste for music.",
+      "In 1770, Rousseau settled in Paris, living continuously for seven years on a street that now bears his name, and earned a living by copying music."
+    ],
+    "latency_ms": 680,
+    "timestamp": "2026-04-16T07:06:56.538732+00:00"
+  },
+  "12": {
+    "question_id": 12,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Rousseau's works 'Reveries d'un Promeneur Solitaire' and 'La Nouvelle Heloise' are closely allied in tone and spirit to the Confessions.",
+      "Rousseau had no recollection of learning to read before age five or six; he read romances with his mother and father after supper, often all night, developing facility. After summer 1719 he studied history, biographies, and classical works, with Plutarch becoming his favorite author, republican spirit and love of liberty.",
+      "Rousseau had a mistress named Madame de Warens, whom he called his 'Mamma'.",
+      "Lord Byron's writings influenced Rousseau, and Byron expressed sympathy with Rousseau's character in some stanzas of 'Childe Harold'.",
+      "Rousseau renounced his father's duty but later expiated it through a long and bitter repentance.",
+      "While at Trye in Gisors during 1767-8, he wrote the second part of his Confessions, assumed the surname Renou, and declared before two witnesses that Therese was his wife.",
+      "The Confessions covers leading personages and transactions of a momentous epoch when absolutism and feudalism were rallying against the modern spirit represented by Voltaire, the Encyclopedists, and Rousseau himself.",
+      "Rousseau suffered from an incurable disease for most of his life.",
+      "Rousseau's remains were first interred in the Ile des Peupliers, later moved to the Pantheon after the Revolution, and a statue modeled by Pradier was erected on an island in the Rhone by the Government of Geneva.",
+      "He lived with Therese in Wootton, devoting time to herb gathering and writing the first six books of his Confessions."
+    ],
+    "latency_ms": 618,
+    "timestamp": "2026-04-16T07:06:57.157748+00:00"
+  },
+  "13": {
+    "question_id": 13,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Rousseau had a mistress named Madame de Warens, whom he called his 'Mamma'.",
+      "Rousseau suffered from an incurable disease for most of his life.",
+      "Rousseau had a profound sense of justice and a real desire for the improvement and advancement of the race.",
+      "Rousseau had a governess named Jaqueline, whose music and singing influenced his taste for music.",
+      "Rousseau was under tuition of uncle Bernard at Bossey, learning Latin, and developed a passion for rural life.",
+      "Rousseau renounced his father's duty but later expiated it through a long and bitter repentance.",
+      "Rousseau left the Isle de Saint-Pierre, travelled to Strasbourg, then to Paris arriving December 16, 1765, where Prince de Conti provided lodging at Hotel Saint-Simon.",
+      "Rousseau had no recollection of learning to read before age five or six; he read romances with his mother and father after supper, often all night, developing facility. After summer 1719 he studied history, biographies, and classical works, with Plutarch becoming his favorite author, republican spirit and love of liberty.",
+      "In 1770, Rousseau settled in Paris, living continuously for seven years on a street that now bears his name, and earned a living by copying music.",
+      "Rousseau's father was banished after a quarrel with a man named G----, leading Rousseau to be sent to Bossey to learn Latin under uncle Bernard."
+    ],
+    "latency_ms": 779,
+    "timestamp": "2026-04-16T07:06:57.937393+00:00"
+  },
+  "14": {
+    "question_id": 14,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Rousseau had a mistress named Madame de Warens, whom he called his 'Mamma'.",
+      "Rousseau suffered from an incurable disease for most of his life.",
+      "Rousseau had no recollection of learning to read before age five or six; he read romances with his mother and father after supper, often all night, developing facility. After summer 1719 he studied history, biographies, and classical works, with Plutarch becoming his favorite author, republican spirit and love of liberty.",
+      "In 1770, Rousseau settled in Paris, living continuously for seven years on a street that now bears his name, and earned a living by copying music.",
+      "Rousseau renounced his father's duty but later expiated it through a long and bitter repentance.",
+      "The user reflects on their ambition, feeling like Brutus or Aristides, and considers the construction of the aqueduct a supreme glory, comparing it to Caesar's achievements.",
+      "Bernardin de Saint-Pierre, author of 'Paul and Virginia', met Rousseau in 1772 and documented details of his daily life during that period.",
+      "In spring 1778, Monsieur de Girardin offered Rousseau and Therese asylum at Ermemonville; they resided there briefly before Rousseau died of apoplexy on 3 July 1778.",
+      "Rousseau had a brother seven years older who was neglected, became a libertine, disappeared to Germany, and was never heard from again.",
+      "In June 1766, Rousseau wrote a violent letter to Hume calling him 'one of the worst of men.' In spring 1767, he fled first to Spalding, Lincolnshire, then to Calais, landing in May 1767, and thereafter frequently changed residence, earning the title 'Voyageur Perpetuel.'"
+    ],
+    "latency_ms": 608,
+    "timestamp": "2026-04-16T07:06:58.548234+00:00"
+  },
+  "15": {
+    "question_id": 15,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Rousseau had a profound sense of justice and a real desire for the improvement and advancement of the race.",
+      "Rousseau had no recollection of learning to read before age five or six; he read romances with his mother and father after supper, often all night, developing facility. After summer 1719 he studied history, biographies, and classical works, with Plutarch becoming his favorite author, republican spirit and love of liberty.",
+      "Rousseau had a governess named Jaqueline, whose music and singing influenced his taste for music.",
+      "The Confessions covers leading personages and transactions of a momentous epoch when absolutism and feudalism were rallying against the modern spirit represented by Voltaire, the Encyclopedists, and Rousseau himself.",
+      "Rousseau suffered from an incurable disease for most of his life.",
+      "In June 1766, Rousseau wrote a violent letter to Hume calling him 'one of the worst of men.' In spring 1767, he fled first to Spalding, Lincolnshire, then to Calais, landing in May 1767, and thereafter frequently changed residence, earning the title 'Voyageur Perpetuel.'",
+      "Rousseau renounced his father's duty but later expiated it through a long and bitter repentance.",
+      "Rousseau was under tuition of uncle Bernard at Bossey, learning Latin, and developed a passion for rural life.",
+      "Bernardin de Saint-Pierre, author of 'Paul and Virginia', met Rousseau in 1772 and documented details of his daily life during that period.",
+      "Lord Byron's writings influenced Rousseau, and Byron expressed sympathy with Rousseau's character in some stanzas of 'Childe Harold'."
+    ],
+    "latency_ms": 550,
+    "timestamp": "2026-04-16T07:06:59.099063+00:00"
+  },
+  "16": {
+    "question_id": 16,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Rousseau had a mistress named Madame de Warens, whom he called his 'Mamma'.",
+      "Rousseau had no recollection of learning to read before age five or six; he read romances with his mother and father after supper, often all night, developing facility. After summer 1719 he studied history, biographies, and classical works, with Plutarch becoming his favorite author, republican spirit and love of liberty.",
+      "Rousseau had a governess named Jaqueline, whose music and singing influenced his taste for music.",
+      "In 1770, Rousseau settled in Paris, living continuously for seven years on a street that now bears his name, and earned a living by copying music.",
+      "Rousseau was born in Geneva in 1712 to Isaac Rousseau, a watchmaker with a modest income divided among fifteen children, and Susannah Bernard, daughter of Mons. Bernard, a minister; his mother died during his birth and his father never fully recovered from the loss.",
+      "Rousseau's father was banished after a quarrel with a man named G----, leading Rousseau to be sent to Bossey to learn Latin under uncle Bernard.",
+      "Lord Byron's writings influenced Rousseau, and Byron expressed sympathy with Rousseau's character in some stanzas of 'Childe Harold'.",
+      "Rousseau had a brother seven years older who was neglected, became a libertine, disappeared to Germany, and was never heard from again.",
+      "Rousseau had a profound sense of justice and a real desire for the improvement and advancement of the race.",
+      "Rousseau renounced his father's duty but later expiated it through a long and bitter repentance."
+    ],
+    "latency_ms": 647,
+    "timestamp": "2026-04-16T07:06:59.747363+00:00"
+  },
+  "17": {
+    "question_id": 17,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Rousseau had a mistress named Madame de Warens, whom he called his 'Mamma'.",
+      "Rousseau's father was banished after a quarrel with a man named G----, leading Rousseau to be sent to Bossey to learn Latin under uncle Bernard.",
+      "Rousseau had no recollection of learning to read before age five or six; he read romances with his mother and father after supper, often all night, developing facility. After summer 1719 he studied history, biographies, and classical works, with Plutarch becoming his favorite author, republican spirit and love of liberty.",
+      "Rousseau renounced his father's duty but later expiated it through a long and bitter repentance.",
+      "Rousseau had a governess named Jaqueline, whose music and singing influenced his taste for music.",
+      "Rousseau's works 'Reveries d'un Promeneur Solitaire' and 'La Nouvelle Heloise' are closely allied in tone and spirit to the Confessions.",
+      "Rousseau suffered from an incurable disease for most of his life.",
+      "Bernardin de Saint-Pierre, author of 'Paul and Virginia', met Rousseau in 1772 and documented details of his daily life during that period.",
+      "In 1770, Rousseau settled in Paris, living continuously for seven years on a street that now bears his name, and earned a living by copying music.",
+      "In June 1766, Rousseau wrote a violent letter to Hume calling him 'one of the worst of men.' In spring 1767, he fled first to Spalding, Lincolnshire, then to Calais, landing in May 1767, and thereafter frequently changed residence, earning the title 'Voyageur Perpetuel.'"
+    ],
+    "latency_ms": 559,
+    "timestamp": "2026-04-16T07:07:00.308271+00:00"
+  },
+  "18": {
+    "question_id": 18,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Rousseau's father was banished after a quarrel with a man named G----, leading Rousseau to be sent to Bossey to learn Latin under uncle Bernard.",
+      "Rousseau had a brother seven years older who was neglected, became a libertine, disappeared to Germany, and was never heard from again.",
+      "The Confessions covers leading personages and transactions of a momentous epoch when absolutism and feudalism were rallying against the modern spirit represented by Voltaire, the Encyclopedists, and Rousseau himself.",
+      "Rousseau had a mistress named Madame de Warens, whom he called his 'Mamma'.",
+      "In June 1766, Rousseau wrote a violent letter to Hume calling him 'one of the worst of men.' In spring 1767, he fled first to Spalding, Lincolnshire, then to Calais, landing in May 1767, and thereafter frequently changed residence, earning the title 'Voyageur Perpetuel.'",
+      "Rousseau renounced his father's duty but later expiated it through a long and bitter repentance.",
+      "Rousseau had a profound sense of justice and a real desire for the improvement and advancement of the race.",
+      "The user describes their upbringing: staying with uncle, learning drawing and Euclid, but facing limited instruction due to family neglect, and considering a ministerial career despite financial constraints.",
+      "The user reflects on their ambition, feeling like Brutus or Aristides, and considers the construction of the aqueduct a supreme glory, comparing it to Caesar's achievements.",
+      "User planted a walnut tree on a terrace outside the courtyard door to shade from sun, with a cousin, singing songs of triumph and attending the planting with solemnity."
+    ],
+    "latency_ms": 742,
+    "timestamp": "2026-04-16T07:07:01.055894+00:00"
+  },
+  "19": {
+    "question_id": 19,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Rousseau's father was banished after a quarrel with a man named G----, leading Rousseau to be sent to Bossey to learn Latin under uncle Bernard.",
+      "Rousseau had a brother seven years older who was neglected, became a libertine, disappeared to Germany, and was never heard from again.",
+      "The book 'The Confessions of Jean Jacques Rousseau' was privately printed for members of the Aldus Society in London in 1903 by David Widger.",
+      "In June 1766, Rousseau wrote a violent letter to Hume calling him 'one of the worst of men.' In spring 1767, he fled first to Spalding, Lincolnshire, then to Calais, landing in May 1767, and thereafter frequently changed residence, earning the title 'Voyageur Perpetuel.'",
+      "Bernardin de Saint-Pierre, author of 'Paul and Virginia', met Rousseau in 1772 and documented details of his daily life during that period.",
+      "Rousseau had a profound sense of justice and a real desire for the improvement and advancement of the race.",
+      "Rousseau suffered from an incurable disease for most of his life.",
+      "Rousseau had a mistress named Madame de Warens, whom he called his 'Mamma'.",
+      "The Confessions covers leading personages and transactions of a momentous epoch when absolutism and feudalism were rallying against the modern spirit represented by Voltaire, the Encyclopedists, and Rousseau himself.",
+      "Lord Byron's writings influenced Rousseau, and Byron expressed sympathy with Rousseau's character in some stanzas of 'Childe Harold'."
+    ],
+    "latency_ms": 803,
+    "timestamp": "2026-04-16T07:07:01.860078+00:00"
+  },
+  "20": {
+    "question_id": 20,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Rousseau had no recollection of learning to read before age five or six; he read romances with his mother and father after supper, often all night, developing facility. After summer 1719 he studied history, biographies, and classical works, with Plutarch becoming his favorite author, republican spirit and love of liberty.",
+      "Rousseau had a mistress named Madame de Warens, whom he called his 'Mamma'.",
+      "Rousseau suffered from an incurable disease for most of his life.",
+      "Rousseau had a brother seven years older who was neglected, became a libertine, disappeared to Germany, and was never heard from again.",
+      "Rousseau renounced his father's duty but later expiated it through a long and bitter repentance.",
+      "Lord Byron's writings influenced Rousseau, and Byron expressed sympathy with Rousseau's character in some stanzas of 'Childe Harold'.",
+      "In June 1766, Rousseau wrote a violent letter to Hume calling him 'one of the worst of men.' In spring 1767, he fled first to Spalding, Lincolnshire, then to Calais, landing in May 1767, and thereafter frequently changed residence, earning the title 'Voyageur Perpetuel.'",
+      "Rousseau was born in Geneva in 1712 to Isaac Rousseau, a watchmaker with a modest income divided among fifteen children, and Susannah Bernard, daughter of Mons. Bernard, a minister; his mother died during his birth and his father never fully recovered from the loss.",
+      "Rousseau had a profound sense of justice and a real desire for the improvement and advancement of the race.",
+      "The Confessions covers leading personages and transactions of a momentous epoch when absolutism and feudalism were rallying against the modern spirit represented by Voltaire, the Encyclopedists, and Rousseau himself."
+    ],
+    "latency_ms": 596,
+    "timestamp": "2026-04-16T07:07:02.461151+00:00"
+  },
+  "21": {
+    "question_id": 21,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Rousseau had a mistress named Madame de Warens, whom he called his 'Mamma'.",
+      "Rousseau had a brother seven years older who was neglected, became a libertine, disappeared to Germany, and was never heard from again.",
+      "Rousseau had a profound sense of justice and a real desire for the improvement and advancement of the race.",
+      "Rousseau suffered from an incurable disease for most of his life.",
+      "Rousseau had a governess named Jaqueline, whose music and singing influenced his taste for music.",
+      "Rousseau renounced his father's duty but later expiated it through a long and bitter repentance.",
+      "Rousseau had no recollection of learning to read before age five or six; he read romances with his mother and father after supper, often all night, developing facility. After summer 1719 he studied history, biographies, and classical works, with Plutarch becoming his favorite author, republican spirit and love of liberty.",
+      "In June 1766, Rousseau wrote a violent letter to Hume calling him 'one of the worst of men.' In spring 1767, he fled first to Spalding, Lincolnshire, then to Calais, landing in May 1767, and thereafter frequently changed residence, earning the title 'Voyageur Perpetuel.'",
+      "Rousseau lived at home in Wootton, Staffordshire, near the Peak Country, paying a rent of £30 a year and receiving a £100 pension from George III, which he declined after the first annual payment.",
+      "Bernardin de Saint-Pierre, author of 'Paul and Virginia', met Rousseau in 1772 and documented details of his daily life during that period."
+    ],
+    "latency_ms": 705,
+    "timestamp": "2026-04-16T07:07:03.167120+00:00"
+  },
+  "22": {
+    "question_id": 22,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Rousseau renounced his father's duty but later expiated it through a long and bitter repentance.",
+      "Rousseau had a mistress named Madame de Warens, whom he called his 'Mamma'.",
+      "Rousseau was under tuition of uncle Bernard at Bossey, learning Latin, and developed a passion for rural life.",
+      "Rousseau had no recollection of learning to read before age five or six; he read romances with his mother and father after supper, often all night, developing facility. After summer 1719 he studied history, biographies, and classical works, with Plutarch becoming his favorite author, republican spirit and love of liberty.",
+      "Rousseau had a profound sense of justice and a real desire for the improvement and advancement of the race.",
+      "Rousseau's father was banished after a quarrel with a man named G----, leading Rousseau to be sent to Bossey to learn Latin under uncle Bernard.",
+      "In June 1766, Rousseau wrote a violent letter to Hume calling him 'one of the worst of men.' In spring 1767, he fled first to Spalding, Lincolnshire, then to Calais, landing in May 1767, and thereafter frequently changed residence, earning the title 'Voyageur Perpetuel.'",
+      "Rousseau had a governess named Jaqueline, whose music and singing influenced his taste for music.",
+      "Rousseau was born in Geneva in 1712 to Isaac Rousseau, a watchmaker with a modest income divided among fifteen children, and Susannah Bernard, daughter of Mons. Bernard, a minister; his mother died during his birth and his father never fully recovered from the loss.",
+      "Rousseau suffered from an incurable disease for most of his life."
+    ],
+    "latency_ms": 724,
+    "timestamp": "2026-04-16T07:07:03.894490+00:00"
+  },
+  "23": {
+    "question_id": 23,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Rousseau's father was banished after a quarrel with a man named G----, leading Rousseau to be sent to Bossey to learn Latin under uncle Bernard.",
+      "Rousseau had no recollection of learning to read before age five or six; he read romances with his mother and father after supper, often all night, developing facility. After summer 1719 he studied history, biographies, and classical works, with Plutarch becoming his favorite author, republican spirit and love of liberty.",
+      "Rousseau renounced his father's duty but later expiated it through a long and bitter repentance.",
+      "Rousseau suffered from an incurable disease for most of his life.",
+      "Rousseau had a mistress named Madame de Warens, whom he called his 'Mamma'.",
+      "Rousseau had a brother seven years older who was neglected, became a libertine, disappeared to Germany, and was never heard from again.",
+      "Rousseau lived at home in Wootton, Staffordshire, near the Peak Country, paying a rent of £30 a year and receiving a £100 pension from George III, which he declined after the first annual payment.",
+      "Rousseau had a profound sense of justice and a real desire for the improvement and advancement of the race.",
+      "Rousseau was under tuition of uncle Bernard at Bossey, learning Latin, and developed a passion for rural life.",
+      "Rousseau's remains were first interred in the Ile des Peupliers, later moved to the Pantheon after the Revolution, and a statue modeled by Pradier was erected on an island in the Rhone by the Government of Geneva."
+    ],
+    "latency_ms": 598,
+    "timestamp": "2026-04-16T07:07:04.495341+00:00"
+  },
+  "24": {
+    "question_id": 24,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Rousseau had a mistress named Madame de Warens, whom he called his 'Mamma'.",
+      "Rousseau had no recollection of learning to read before age five or six; he read romances with his mother and father after supper, often all night, developing facility. After summer 1719 he studied history, biographies, and classical works, with Plutarch becoming his favorite author, republican spirit and love of liberty.",
+      "Lord Byron's writings influenced Rousseau, and Byron expressed sympathy with Rousseau's character in some stanzas of 'Childe Harold'.",
+      "Rousseau's father was banished after a quarrel with a man named G----, leading Rousseau to be sent to Bossey to learn Latin under uncle Bernard.",
+      "Bernardin de Saint-Pierre, author of 'Paul and Virginia', met Rousseau in 1772 and documented details of his daily life during that period.",
+      "In June 1766, Rousseau wrote a violent letter to Hume calling him 'one of the worst of men.' In spring 1767, he fled first to Spalding, Lincolnshire, then to Calais, landing in May 1767, and thereafter frequently changed residence, earning the title 'Voyageur Perpetuel.'",
+      "The Confessions covers leading personages and transactions of a momentous epoch when absolutism and feudalism were rallying against the modern spirit represented by Voltaire, the Encyclopedists, and Rousseau himself.",
+      "Rousseau had a profound sense of justice and a real desire for the improvement and advancement of the race.",
+      "Rousseau had a governess named Jaqueline, whose music and singing influenced his taste for music.",
+      "Rousseau had a brother seven years older who was neglected, became a libertine, disappeared to Germany, and was never heard from again."
+    ],
+    "latency_ms": 599,
+    "timestamp": "2026-04-16T07:07:05.096317+00:00"
+  },
+  "25": {
+    "question_id": 25,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "In June 1766, Rousseau wrote a violent letter to Hume calling him 'one of the worst of men.' In spring 1767, he fled first to Spalding, Lincolnshire, then to Calais, landing in May 1767, and thereafter frequently changed residence, earning the title 'Voyageur Perpetuel.'",
+      "Rousseau's father was banished after a quarrel with a man named G----, leading Rousseau to be sent to Bossey to learn Latin under uncle Bernard.",
+      "Lord Byron's writings influenced Rousseau, and Byron expressed sympathy with Rousseau's character in some stanzas of 'Childe Harold'.",
+      "Rousseau's remains were first interred in the Ile des Peupliers, later moved to the Pantheon after the Revolution, and a statue modeled by Pradier was erected on an island in the Rhone by the Government of Geneva.",
+      "Rousseau lived at home in Wootton, Staffordshire, near the Peak Country, paying a rent of £30 a year and receiving a £100 pension from George III, which he declined after the first annual payment.",
+      "In 1770, Rousseau settled in Paris, living continuously for seven years on a street that now bears his name, and earned a living by copying music.",
+      "Rousseau's works 'Reveries d'un Promeneur Solitaire' and 'La Nouvelle Heloise' are closely allied in tone and spirit to the Confessions.",
+      "Rousseau had no recollection of learning to read before age five or six; he read romances with his mother and father after supper, often all night, developing facility. After summer 1719 he studied history, biographies, and classical works, with Plutarch becoming his favorite author, republican spirit and love of liberty.",
+      "Rousseau had a brother seven years older who was neglected, became a libertine, disappeared to Germany, and was never heard from again.",
+      "He lived with Therese in Wootton, devoting time to herb gathering and writing the first six books of his Confessions."
+    ],
+    "latency_ms": 552,
+    "timestamp": "2026-04-16T07:07:05.650752+00:00"
+  },
+  "26": {
+    "question_id": 26,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "In 1770, Rousseau settled in Paris, living continuously for seven years on a street that now bears his name, and earned a living by copying music.",
+      "In June 1766, Rousseau wrote a violent letter to Hume calling him 'one of the worst of men.' In spring 1767, he fled first to Spalding, Lincolnshire, then to Calais, landing in May 1767, and thereafter frequently changed residence, earning the title 'Voyageur Perpetuel.'",
+      "Rousseau had no recollection of learning to read before age five or six; he read romances with his mother and father after supper, often all night, developing facility. After summer 1719 he studied history, biographies, and classical works, with Plutarch becoming his favorite author, republican spirit and love of liberty.",
+      "Rousseau lived at home in Wootton, Staffordshire, near the Peak Country, paying a rent of £30 a year and receiving a £100 pension from George III, which he declined after the first annual payment.",
+      "Rousseau suffered from an incurable disease for most of his life.",
+      "He lived with Therese in Wootton, devoting time to herb gathering and writing the first six books of his Confessions.",
+      "Rousseau had a mistress named Madame de Warens, whom he called his 'Mamma'.",
+      "Rousseau's remains were first interred in the Ile des Peupliers, later moved to the Pantheon after the Revolution, and a statue modeled by Pradier was erected on an island in the Rhone by the Government of Geneva.",
+      "Rousseau had a governess named Jaqueline, whose music and singing influenced his taste for music.",
+      "Rousseau's father was banished after a quarrel with a man named G----, leading Rousseau to be sent to Bossey to learn Latin under uncle Bernard."
+    ],
+    "latency_ms": 650,
+    "timestamp": "2026-04-16T07:07:06.301919+00:00"
+  },
+  "27": {
+    "question_id": 27,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Lord Byron's writings influenced Rousseau, and Byron expressed sympathy with Rousseau's character in some stanzas of 'Childe Harold'.",
+      "Rousseau had no recollection of learning to read before age five or six; he read romances with his mother and father after supper, often all night, developing facility. After summer 1719 he studied history, biographies, and classical works, with Plutarch becoming his favorite author, republican spirit and love of liberty.",
+      "Rousseau's father was banished after a quarrel with a man named G----, leading Rousseau to be sent to Bossey to learn Latin under uncle Bernard.",
+      "Rousseau's works 'Reveries d'un Promeneur Solitaire' and 'La Nouvelle Heloise' are closely allied in tone and spirit to the Confessions.",
+      "Rousseau had a governess named Jaqueline, whose music and singing influenced his taste for music.",
+      "Rousseau had a mistress named Madame de Warens, whom he called his 'Mamma'.",
+      "Rousseau had a profound sense of justice and a real desire for the improvement and advancement of the race.",
+      "Rousseau renounced his father's duty but later expiated it through a long and bitter repentance.",
+      "Rousseau suffered from an incurable disease for most of his life.",
+      "He lived with Therese in Wootton, devoting time to herb gathering and writing the first six books of his Confessions."
+    ],
+    "latency_ms": 567,
+    "timestamp": "2026-04-16T07:07:06.869482+00:00"
+  },
+  "28": {
+    "question_id": 28,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Rousseau's father was banished after a quarrel with a man named G----, leading Rousseau to be sent to Bossey to learn Latin under uncle Bernard.",
+      "Rousseau had a brother seven years older who was neglected, became a libertine, disappeared to Germany, and was never heard from again.",
+      "Rousseau had a mistress named Madame de Warens, whom he called his 'Mamma'.",
+      "Rousseau suffered from an incurable disease for most of his life.",
+      "Rousseau had a governess named Jaqueline, whose music and singing influenced his taste for music.",
+      "Rousseau had no recollection of learning to read before age five or six; he read romances with his mother and father after supper, often all night, developing facility. After summer 1719 he studied history, biographies, and classical works, with Plutarch becoming his favorite author, republican spirit and love of liberty.",
+      "Rousseau had a profound sense of justice and a real desire for the improvement and advancement of the race.",
+      "Rousseau renounced his father's duty but later expiated it through a long and bitter repentance.",
+      "Rousseau was born in Geneva in 1712 to Isaac Rousseau, a watchmaker with a modest income divided among fifteen children, and Susannah Bernard, daughter of Mons. Bernard, a minister; his mother died during his birth and his father never fully recovered from the loss.",
+      "Rousseau lived at home in Wootton, Staffordshire, near the Peak Country, paying a rent of £30 a year and receiving a £100 pension from George III, which he declined after the first annual payment."
+    ],
+    "latency_ms": 614,
+    "timestamp": "2026-04-16T07:07:07.487264+00:00"
+  },
+  "29": {
+    "question_id": 29,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Rousseau's father was banished after a quarrel with a man named G----, leading Rousseau to be sent to Bossey to learn Latin under uncle Bernard.",
+      "Rousseau had a profound sense of justice and a real desire for the improvement and advancement of the race.",
+      "Rousseau had a mistress named Madame de Warens, whom he called his 'Mamma'.",
+      "Rousseau had a governess named Jaqueline, whose music and singing influenced his taste for music.",
+      "Lord Byron's writings influenced Rousseau, and Byron expressed sympathy with Rousseau's character in some stanzas of 'Childe Harold'.",
+      "Rousseau renounced his father's duty but later expiated it through a long and bitter repentance.",
+      "Rousseau was born in Geneva in 1712 to Isaac Rousseau, a watchmaker with a modest income divided among fifteen children, and Susannah Bernard, daughter of Mons. Bernard, a minister; his mother died during his birth and his father never fully recovered from the loss.",
+      "Rousseau was under tuition of uncle Bernard at Bossey, learning Latin, and developed a passion for rural life.",
+      "Rousseau had a brother seven years older who was neglected, became a libertine, disappeared to Germany, and was never heard from again.",
+      "Rousseau had no recollection of learning to read before age five or six; he read romances with his mother and father after supper, often all night, developing facility. After summer 1719 he studied history, biographies, and classical works, with Plutarch becoming his favorite author, republican spirit and love of liberty."
+    ],
+    "latency_ms": 600,
+    "timestamp": "2026-04-16T07:07:08.088092+00:00"
+  },
+  "30": {
+    "question_id": 30,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Rousseau had a mistress named Madame de Warens, whom he called his 'Mamma'.",
+      "Rousseau renounced his father's duty but later expiated it through a long and bitter repentance.",
+      "Rousseau had no recollection of learning to read before age five or six; he read romances with his mother and father after supper, often all night, developing facility. After summer 1719 he studied history, biographies, and classical works, with Plutarch becoming his favorite author, republican spirit and love of liberty.",
+      "Rousseau had a governess named Jaqueline, whose music and singing influenced his taste for music.",
+      "Rousseau suffered from an incurable disease for most of his life.",
+      "In 1770, Rousseau settled in Paris, living continuously for seven years on a street that now bears his name, and earned a living by copying music.",
+      "Rousseau had a profound sense of justice and a real desire for the improvement and advancement of the race.",
+      "The Confessions covers leading personages and transactions of a momentous epoch when absolutism and feudalism were rallying against the modern spirit represented by Voltaire, the Encyclopedists, and Rousseau himself.",
+      "Rousseau lived at home in Wootton, Staffordshire, near the Peak Country, paying a rent of £30 a year and receiving a £100 pension from George III, which he declined after the first annual payment.",
+      "Rousseau's father was banished after a quarrel with a man named G----, leading Rousseau to be sent to Bossey to learn Latin under uncle Bernard."
+    ],
+    "latency_ms": 551,
+    "timestamp": "2026-04-16T07:07:08.641572+00:00"
+  },
+  "31": {
+    "question_id": 31,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Rousseau had a brother seven years older who was neglected, became a libertine, disappeared to Germany, and was never heard from again.",
+      "Rousseau's father was banished after a quarrel with a man named G----, leading Rousseau to be sent to Bossey to learn Latin under uncle Bernard.",
+      "Rousseau lived at home in Wootton, Staffordshire, near the Peak Country, paying a rent of £30 a year and receiving a £100 pension from George III, which he declined after the first annual payment.",
+      "Rousseau renounced his father's duty but later expiated it through a long and bitter repentance.",
+      "In June 1766, Rousseau wrote a violent letter to Hume calling him 'one of the worst of men.' In spring 1767, he fled first to Spalding, Lincolnshire, then to Calais, landing in May 1767, and thereafter frequently changed residence, earning the title 'Voyageur Perpetuel.'",
+      "Rousseau had a mistress named Madame de Warens, whom he called his 'Mamma'.",
+      "Rousseau had a profound sense of justice and a real desire for the improvement and advancement of the race.",
+      "Rousseau had a governess named Jaqueline, whose music and singing influenced his taste for music.",
+      "Rousseau suffered from an incurable disease for most of his life.",
+      "In 1770, Rousseau settled in Paris, living continuously for seven years on a street that now bears his name, and earned a living by copying music."
+    ],
+    "latency_ms": 699,
+    "timestamp": "2026-04-16T07:07:09.342046+00:00"
+  },
+  "32": {
+    "question_id": 32,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "In June 1766, Rousseau wrote a violent letter to Hume calling him 'one of the worst of men.' In spring 1767, he fled first to Spalding, Lincolnshire, then to Calais, landing in May 1767, and thereafter frequently changed residence, earning the title 'Voyageur Perpetuel.'",
+      "Rousseau's father was banished after a quarrel with a man named G----, leading Rousseau to be sent to Bossey to learn Latin under uncle Bernard.",
+      "Rousseau had a profound sense of justice and a real desire for the improvement and advancement of the race.",
+      "Rousseau had a mistress named Madame de Warens, whom he called his 'Mamma'.",
+      "In 1770, Rousseau settled in Paris, living continuously for seven years on a street that now bears his name, and earned a living by copying music.",
+      "Rousseau renounced his father's duty but later expiated it through a long and bitter repentance.",
+      "Rousseau's works 'Reveries d'un Promeneur Solitaire' and 'La Nouvelle Heloise' are closely allied in tone and spirit to the Confessions.",
+      "The Confessions covers leading personages and transactions of a momentous epoch when absolutism and feudalism were rallying against the modern spirit represented by Voltaire, the Encyclopedists, and Rousseau himself.",
+      "Rousseau had no recollection of learning to read before age five or six; he read romances with his mother and father after supper, often all night, developing facility. After summer 1719 he studied history, biographies, and classical works, with Plutarch becoming his favorite author, republican spirit and love of liberty.",
+      "Rousseau had a brother seven years older who was neglected, became a libertine, disappeared to Germany, and was never heard from again."
+    ],
+    "latency_ms": 580,
+    "timestamp": "2026-04-16T07:07:09.926371+00:00"
+  },
+  "33": {
+    "question_id": 33,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Rousseau had no recollection of learning to read before age five or six; he read romances with his mother and father after supper, often all night, developing facility. After summer 1719 he studied history, biographies, and classical works, with Plutarch becoming his favorite author, republican spirit and love of liberty.",
+      "Rousseau suffered from an incurable disease for most of his life.",
+      "Rousseau had a mistress named Madame de Warens, whom he called his 'Mamma'.",
+      "In spring 1778, Monsieur de Girardin offered Rousseau and Therese asylum at Ermemonville; they resided there briefly before Rousseau died of apoplexy on 3 July 1778.",
+      "Rousseau renounced his father's duty but later expiated it through a long and bitter repentance.",
+      "Rousseau had a profound sense of justice and a real desire for the improvement and advancement of the race.",
+      "Rousseau had a governess named Jaqueline, whose music and singing influenced his taste for music.",
+      "Rousseau was under tuition of uncle Bernard at Bossey, learning Latin, and developed a passion for rural life.",
+      "In June 1766, Rousseau wrote a violent letter to Hume calling him 'one of the worst of men.' In spring 1767, he fled first to Spalding, Lincolnshire, then to Calais, landing in May 1767, and thereafter frequently changed residence, earning the title 'Voyageur Perpetuel.'",
+      "In 1770, Rousseau settled in Paris, living continuously for seven years on a street that now bears his name, and earned a living by copying music."
+    ],
+    "latency_ms": 540,
+    "timestamp": "2026-04-16T07:07:10.467907+00:00"
+  },
+  "34": {
+    "question_id": 34,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Rousseau renounced his father's duty but later expiated it through a long and bitter repentance.",
+      "Rousseau had a brother seven years older who was neglected, became a libertine, disappeared to Germany, and was never heard from again.",
+      "Rousseau had no recollection of learning to read before age five or six; he read romances with his mother and father after supper, often all night, developing facility. After summer 1719 he studied history, biographies, and classical works, with Plutarch becoming his favorite author, republican spirit and love of liberty.",
+      "Bernardin de Saint-Pierre, author of 'Paul and Virginia', met Rousseau in 1772 and documented details of his daily life during that period.",
+      "Rousseau's father was banished after a quarrel with a man named G----, leading Rousseau to be sent to Bossey to learn Latin under uncle Bernard.",
+      "The Confessions covers leading personages and transactions of a momentous epoch when absolutism and feudalism were rallying against the modern spirit represented by Voltaire, the Encyclopedists, and Rousseau himself.",
+      "In June 1766, Rousseau wrote a violent letter to Hume calling him 'one of the worst of men.' In spring 1767, he fled first to Spalding, Lincolnshire, then to Calais, landing in May 1767, and thereafter frequently changed residence, earning the title 'Voyageur Perpetuel.'",
+      "Rousseau had a mistress named Madame de Warens, whom he called his 'Mamma'.",
+      "Rousseau suffered from an incurable disease for most of his life.",
+      "In 1770, Rousseau settled in Paris, living continuously for seven years on a street that now bears his name, and earned a living by copying music."
+    ],
+    "latency_ms": 518,
+    "timestamp": "2026-04-16T07:07:10.989005+00:00"
+  },
+  "35": {
+    "question_id": 35,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Rousseau suffered from an incurable disease for most of his life.",
+      "Rousseau's father was banished after a quarrel with a man named G----, leading Rousseau to be sent to Bossey to learn Latin under uncle Bernard.",
+      "Rousseau renounced his father's duty but later expiated it through a long and bitter repentance.",
+      "Rousseau had a mistress named Madame de Warens, whom he called his 'Mamma'.",
+      "Rousseau had a brother seven years older who was neglected, became a libertine, disappeared to Germany, and was never heard from again.",
+      "Rousseau had a governess named Jaqueline, whose music and singing influenced his taste for music.",
+      "Rousseau had a profound sense of justice and a real desire for the improvement and advancement of the race.",
+      "The Confessions covers leading personages and transactions of a momentous epoch when absolutism and feudalism were rallying against the modern spirit represented by Voltaire, the Encyclopedists, and Rousseau himself.",
+      "Rousseau was born in Geneva in 1712 to Isaac Rousseau, a watchmaker with a modest income divided among fifteen children, and Susannah Bernard, daughter of Mons. Bernard, a minister; his mother died during his birth and his father never fully recovered from the loss.",
+      "Lord Byron's writings influenced Rousseau, and Byron expressed sympathy with Rousseau's character in some stanzas of 'Childe Harold'."
+    ],
+    "latency_ms": 607,
+    "timestamp": "2026-04-16T07:07:11.597250+00:00"
+  },
+  "36": {
+    "question_id": 36,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Rousseau's father was banished after a quarrel with a man named G----, leading Rousseau to be sent to Bossey to learn Latin under uncle Bernard.",
+      "Rousseau had a brother seven years older who was neglected, became a libertine, disappeared to Germany, and was never heard from again.",
+      "Rousseau renounced his father's duty but later expiated it through a long and bitter repentance.",
+      "Rousseau had a profound sense of justice and a real desire for the improvement and advancement of the race.",
+      "In June 1766, Rousseau wrote a violent letter to Hume calling him 'one of the worst of men.' In spring 1767, he fled first to Spalding, Lincolnshire, then to Calais, landing in May 1767, and thereafter frequently changed residence, earning the title 'Voyageur Perpetuel.'",
+      "Rousseau had a mistress named Madame de Warens, whom he called his 'Mamma'.",
+      "Rousseau was born in Geneva in 1712 to Isaac Rousseau, a watchmaker with a modest income divided among fifteen children, and Susannah Bernard, daughter of Mons. Bernard, a minister; his mother died during his birth and his father never fully recovered from the loss.",
+      "Bernardin de Saint-Pierre, author of 'Paul and Virginia', met Rousseau in 1772 and documented details of his daily life during that period.",
+      "The Confessions covers leading personages and transactions of a momentous epoch when absolutism and feudalism were rallying against the modern spirit represented by Voltaire, the Encyclopedists, and Rousseau himself.",
+      "Rousseau was under tuition of uncle Bernard at Bossey, learning Latin, and developed a passion for rural life."
+    ],
+    "latency_ms": 666,
+    "timestamp": "2026-04-16T07:07:12.265435+00:00"
+  },
+  "37": {
+    "question_id": 37,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Rousseau's father was banished after a quarrel with a man named G----, leading Rousseau to be sent to Bossey to learn Latin under uncle Bernard.",
+      "Rousseau had a mistress named Madame de Warens, whom he called his 'Mamma'.",
+      "Rousseau renounced his father's duty but later expiated it through a long and bitter repentance.",
+      "Rousseau had a governess named Jaqueline, whose music and singing influenced his taste for music.",
+      "Rousseau's works 'Reveries d'un Promeneur Solitaire' and 'La Nouvelle Heloise' are closely allied in tone and spirit to the Confessions.",
+      "Lord Byron's writings influenced Rousseau, and Byron expressed sympathy with Rousseau's character in some stanzas of 'Childe Harold'.",
+      "Rousseau suffered from an incurable disease for most of his life.",
+      "Rousseau had a brother seven years older who was neglected, became a libertine, disappeared to Germany, and was never heard from again.",
+      "Rousseau was born in Geneva in 1712 to Isaac Rousseau, a watchmaker with a modest income divided among fifteen children, and Susannah Bernard, daughter of Mons. Bernard, a minister; his mother died during his birth and his father never fully recovered from the loss.",
+      "The Confessions covers leading personages and transactions of a momentous epoch when absolutism and feudalism were rallying against the modern spirit represented by Voltaire, the Encyclopedists, and Rousseau himself."
+    ],
+    "latency_ms": 626,
+    "timestamp": "2026-04-16T07:07:12.892055+00:00"
+  },
+  "38": {
+    "question_id": 38,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Rousseau renounced his father's duty but later expiated it through a long and bitter repentance.",
+      "Rousseau's father was banished after a quarrel with a man named G----, leading Rousseau to be sent to Bossey to learn Latin under uncle Bernard.",
+      "In June 1766, Rousseau wrote a violent letter to Hume calling him 'one of the worst of men.' In spring 1767, he fled first to Spalding, Lincolnshire, then to Calais, landing in May 1767, and thereafter frequently changed residence, earning the title 'Voyageur Perpetuel.'",
+      "Rousseau had a brother seven years older who was neglected, became a libertine, disappeared to Germany, and was never heard from again.",
+      "Rousseau had a mistress named Madame de Warens, whom he called his 'Mamma'.",
+      "Rousseau had a governess named Jaqueline, whose music and singing influenced his taste for music.",
+      "Bernardin de Saint-Pierre, author of 'Paul and Virginia', met Rousseau in 1772 and documented details of his daily life during that period.",
+      "Rousseau was born in Geneva in 1712 to Isaac Rousseau, a watchmaker with a modest income divided among fifteen children, and Susannah Bernard, daughter of Mons. Bernard, a minister; his mother died during his birth and his father never fully recovered from the loss.",
+      "The user recounts traveling to Geneva in 1754, visiting Bossey, and reflecting on the walnut tree's age, expressing a desire to water it with tears if it still exists.",
+      "In 1770, Rousseau settled in Paris, living continuously for seven years on a street that now bears his name, and earned a living by copying music."
+    ],
+    "latency_ms": 605,
+    "timestamp": "2026-04-16T07:07:13.500278+00:00"
+  },
+  "39": {
+    "question_id": 39,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Rousseau's father was banished after a quarrel with a man named G----, leading Rousseau to be sent to Bossey to learn Latin under uncle Bernard.",
+      "Rousseau had no recollection of learning to read before age five or six; he read romances with his mother and father after supper, often all night, developing facility. After summer 1719 he studied history, biographies, and classical works, with Plutarch becoming his favorite author, republican spirit and love of liberty.",
+      "Rousseau's remains were first interred in the Ile des Peupliers, later moved to the Pantheon after the Revolution, and a statue modeled by Pradier was erected on an island in the Rhone by the Government of Geneva.",
+      "Rousseau left the Isle de Saint-Pierre, travelled to Strasbourg, then to Paris arriving December 16, 1765, where Prince de Conti provided lodging at Hotel Saint-Simon.",
+      "In June 1766, Rousseau wrote a violent letter to Hume calling him 'one of the worst of men.' In spring 1767, he fled first to Spalding, Lincolnshire, then to Calais, landing in May 1767, and thereafter frequently changed residence, earning the title 'Voyageur Perpetuel.'",
+      "Lord Byron's writings influenced Rousseau, and Byron expressed sympathy with Rousseau's character in some stanzas of 'Childe Harold'.",
+      "Rousseau had a profound sense of justice and a real desire for the improvement and advancement of the race.",
+      "Rousseau's works 'Reveries d'un Promeneur Solitaire' and 'La Nouvelle Heloise' are closely allied in tone and spirit to the Confessions.",
+      "Rousseau suffered from an incurable disease for most of his life.",
+      "Rousseau renounced his father's duty but later expiated it through a long and bitter repentance."
+    ],
+    "latency_ms": 785,
+    "timestamp": "2026-04-16T07:07:14.286964+00:00"
+  }
+}

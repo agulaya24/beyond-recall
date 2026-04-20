@@ -1,0 +1,938 @@
+[
+  {
+    "question_id": 1,
+    "question_text": "When faced with a direct order from his organization that conflicts with his personal judgment about safety, how would this person likely respond?",
+    "held_out_passage": "I said that it was too dangerous for the young men to go to war; they might be killed by stray bullets however carefully they went about in the battlefield. For this kind of war, if they wanted figureheads in their ranks, they could as well hire farmers from the provinces. My students were too precious; even if they were not to be hit by the bullets, they might hurt their feet on thorns. So I had them answer that they were all too ill to carry arms.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Response to Conflicting Orders\n\nBased on the autobiography, this person would likely **respectfully but firmly resist** such an order, while maintaining outward compliance where possible.\n\n## Key Evidence:\n\n**Direct defiance when principles are at stake:**\n- When ordered to return to Japan from America early by Ono Tomogoro, he refused: \"You don't have such authority... I am here under the official order of the ministry, and not under yours.\"\n- He openly criticized government policies at the dinner table despite being in service to that government.\n\n**Strategic non-compliance:**\n- When ordered to be \"penitent\" (confined to home), he accepted it gracefully but used the time to write books—turning punishment into opportunity.\n- He avoided night travel for 13-14 years during the dangerous anti-foreign period, essentially protecting himself through discretion rather than direct confrontation.\n\n**Principled independence:**\n- He explicitly states: \"I had decided to leave the clan out of my thoughts in planning my career\" and never sought favors or advancement through proper channels.\n- He maintained his studies and teaching despite widespread danger, refusing to abandon his convictions.\n\n## The Pattern:\n\nHe would likely **argue his position logically**, refuse orders he deemed unjust, but avoid becoming a martyr or public rebel. He'd find ways to protect himself and continue his work through indirection rather than dramatic confrontation.",
+        "input_tokens": 130767,
+        "output_tokens": 309,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 11717
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Response to Conflicting Orders\n\nBased on the behavioral specification and autobiography, this person would likely:\n\n## Primary Pattern: Strategic Compliance with Internal Reservation\n\n**Surface behavior:** Outward obedience to the direct order, maintaining formal respect for hierarchy.\n\n**Interior position:** Private conviction that the order is wrong, preserved without disclosure.\n\nThis is evident in the **Conformity Surface / Conviction Interior** pattern (P3). When anti-foreign sentiment surrounded him in Nakatsu, he complied publicly while studying Dutch privately. When his clan opposed his studies, he obtained formal permission through bureaucratic channels rather than direct confrontation.\n\n## Key Indicators from His Life\n\n1. **The American Mission (1867):** When ordered by Ono Tomogoro to return to Japan alone, he refused—but not through open defiance. He reframed the authority structure: \"You don't have such authority. I am here under official order of the ministry, not yours.\"\n\n2. **The Shogunate Service:** He worked for a government he privately despised, translating documents while mentally opposing the regime. He burned secret transcripts rather than openly resist.\n\n3. **Characteristic Approach:** He avoids \"bluntness\" and \"confrontation\" (M1), preferring \"intermediaries, indirect approaches, and strategic timing.\"\n\n## Likely Response to Safety Conflict\n\nHe would probably:\n- **Comply formally** with the order\n- **Preserve judgment privately** without signaling disagreement\n- **Seek technical reframing** of the order's terms rather than refuse it\n- **Prepare contingencies** (as he did with escape plans during the Richardson crisis)\n- **Avoid public utterance** of his safety concerns\n\n**He would not:** openly challenge authority, make dramatic refusals, or appeal to sentiment. But he would also not genuinely accept an unsafe directive—he would work around it.",
+        "input_tokens": 138516,
+        "output_tokens": 421,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 9314
+      }
+    },
+    "training_words": 69544,
+    "truncated": false,
+    "timestamp": "2026-04-16T08:07:46.198127+00:00"
+  },
+  {
+    "question_id": 2,
+    "question_text": "When accused of disloyalty by peers, what argumentative strategy would this person employ?",
+    "held_out_passage": "You must not call me disloyal or unfeeling, for I have done nothing against the clan and I have always followed orders strictly. If you still call me disloyal, I don't know where my omissions lie. Not only that, but I have never made any request of them to have my rank changed or my salary increased.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Argumentative Strategy Against Disloyalty Accusations\n\nBased on the autobiography, Fukuzawa would likely employ these strategies:\n\n## 1. **Distinguish Intent from Custom**\nHe would separate his personal respect for individuals from his rejection of the *system*. When criticized for not supporting clan politics, he could argue: \"I respect the men involved, but the feudal system itself is flawed—my critique targets the institution, not the people.\"\n\n## 2. **Appeal to Practical Reasoning**\nRather than defend loyalty emotionally, he'd use logic. When the retired chancellor criticized government officials, Fukuzawa responded that \"from the point of view of the men at the post, it would be impossible to do everything in a way to please everybody.\"\n\n## 3. **Reframe Loyalty as Honesty**\nHe demonstrates this when refusing to advocate for clan reforms: true loyalty means not making false promises or pretending to support policies he doesn't believe in, rather than performing obligatory political theater.\n\n## 4. **Maintain Studied Neutrality**\nHis consistent approach was to \"silently watch without any signs of praise or disapproval\" of clan experiments—avoiding the appearance of disloyalty while refusing complicity.\n\n## 5. **Accept Consequences Without Complaint**\nWhen punished for his American voyage remarks, he accepted confinement \"quite easily\" rather than defend himself—removing grounds for further accusation.\n\nHis strategy was essentially **principled withdrawal** rather than confrontation.",
+        "input_tokens": 130761,
+        "output_tokens": 333,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 7346
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Argumentative Strategy When Accused of Disloyalty\n\nBased on the behavioral specification, this person would employ a **multi-layered defensive strategy that prioritizes plausible deniability and strategic reframing**:\n\n## Primary Approach: Redefine the Terms\n\nRather than directly deny the accusation, they would **shift the frame of what \"loyalty\" means**:\n\n- Challenge whether loyalty to an *institution* (clan, government) supersedes loyalty to *principles* (intellectual integrity, national advancement)\n- Argue that true loyalty to one's country requires opposing destructive policies, not blind obedience\n- As shown in the autobiography: when pressured to abandon Western studies, they reframed it as \"loyalty to Japan's future\" rather than disloyalty to the clan\n\n## Secondary Strategy: Demonstrate Compliance\n\nThey would **perform visible conformity** while maintaining internal conviction:\n\n- Show up to required duties\n- Use respectful language and formal deference\n- Avoid public statements that could be weaponized\n- As evidenced: they lived \"discreetly,\" avoided night travel, and kept dangerous documents secret rather than openly defying authority\n\n## Tertiary Move: Appeal to Utility\n\nIf pressed, they would argue from **practical capability**:\n- \"My value to the clan/nation lies in my specialized knowledge\"\n- \"Removing me serves no one's interests\"\n- \"I am more useful alive and working than dead or imprisoned\"\n\n## What They Would NOT Do\n\n- Apologize sincerely or accept the moral premise of the accusation\n- Abandon their actual convictions\n- Engage in emotional appeals or performative loyalty\n\nThe strategy is **calculated ambiguity**: appear loyal enough to survive, while preserving the freedom to act according to their own judgment.",
+        "input_tokens": 138510,
+        "output_tokens": 396,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 9237
+      }
+    },
+    "training_words": 69544,
+    "truncated": false,
+    "timestamp": "2026-04-16T08:08:07.230711+00:00"
+  },
+  {
+    "question_id": 3,
+    "question_text": "How does this person conceptualize the relationship between an individual and their employer or patron organization?",
+    "held_out_passage": "All the intercourse of life is governed by the rule of give and take. If the clan says, 'You should be grateful for the patronage given your family for many generations,' I shall have a word to say in reply: 'There is no occasion for you to demand gratitude, for my family has rendered honest service for a long time.'",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Fukuzawa's Conceptualization of Individual-Employer Relations\n\nBased on this autobiography, Fukuzawa develops a notably independent and skeptical view of patron-employee relationships:\n\n## Rejection of Dependency and Obligation\n\nFukuzawa explicitly refuses to view himself as beholden to his employers. When ordered to return from America early by Ono Tomogoro, he argues:\n\n> \"You don't have such authority. When I left Japan, I took my leave from the higher officials of the government, and that means I am here under the official order of the ministry, and not under yours.\"\n\nHe distinguishes between his formal obligation to the state and any personal debt to individual superiors.\n\n## The \"Eta\" Analogy\n\nMost revealing is his comparison of scholars to outcast leather workers:\n\n> \"Our situation is like that—an eta taking work in the household of a lord. Why show any scruples then? Go ahead and strike at the government!\"\n\nThis suggests he views the relationship as purely transactional: the government uses him for his utility as an interpreter, not out of respect for his person. Therefore, he owes no loyalty beyond his contracted service.\n\n## Autonomy Over Advancement\n\nFukuzawa deliberately avoids seeking favor, promotion, or salary increases from his clan. He refuses to submit memorials or lobby superiors—a striking departure from typical samurai behavior. This reflects his belief that **personal integrity matters more than institutional advancement**.\n\n## Core Principle\n\nHis philosophy seems to be: *Accept employment for practical benefit, but maintain intellectual and moral independence from the organization's ideology and goals.*",
+        "input_tokens": 130761,
+        "output_tokens": 355,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6492
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Conceptualizing Individual-Patron Relationships\n\nBased on the autobiography, Fukuzawa demonstrates a distinctly **instrumental and detached** view of patron-employee relationships:\n\n## Core Principle: Transactional, Not Hierarchical\n\nHe explicitly rejects the feudal notion that receiving patronage creates binding loyalty or obligation. When given a prestigious silk overgarment by his lord, he immediately **sells it** to a friend for money. His reasoning is revealing:\n\n> \"According to the custom of the clan, this honor of receiving the crest-bearing cloak would have been recorded in the family history... But I rather preferred to have the money.\"\n\nThis act encapsulates his philosophy: the symbolic honor means nothing to him; only practical utility matters.\n\n## Rejecting Deference-Based Relationships\n\nThroughout his career, Fukuzawa:\n- Never submits memorials requesting advancement or salary increases\n- Refuses to cultivate favor with superiors\n- Watches clan reforms with \"silent\" non-commitment\n- Explicitly avoids praising or disapproving of leadership decisions\n\nHe explains his reasoning: **\"I lost all thoughts of depending on the favors of other men.\"**\n\n## The \"Eta\" Analogy\n\nWhen defending his criticism of the shogunate government while employed by it, he uses a striking comparison:\n\n> \"Our situation is like that of the eta taking work in the household of a lord... Why show any scruples then?\"\n\nHe views himself as a hired specialist—like an outcast leather-worker—whose labor is purchased but whose personal convictions remain independent.\n\n## Independence as Moral Principle\n\nHis non-partisan stance during the Restoration stems from this deeper conviction: **one should not bind one's judgment or conscience to an organization**, no matter the benefits received. Employment is a practical arrangement, not a moral commitment.\n\nThis reflects his broader axiom of **self-determination primacy** (A8 in the behavioral specification)—personal agency supersedes institutional loyalty.",
+        "input_tokens": 138510,
+        "output_tokens": 438,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 7004
+      }
+    },
+    "training_words": 69544,
+    "truncated": false,
+    "timestamp": "2026-04-16T08:08:23.814365+00:00"
+  },
+  {
+    "question_id": 4,
+    "question_text": "When facing potential punishment for disobedience, what is this person's attitude toward the consequences?",
+    "held_out_passage": "If we were to be punished, the worst would be dismissal from the clan. I did not consider the right or wrong of the conflict; I simply said it was not the kind of activity that students should take part in.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Fukuzawa's Attitude Toward Potential Punishment\n\nBased on the autobiography, Fukuzawa demonstrates a **pragmatic acceptance of consequences** combined with **careful risk management** rather than fearless defiance.\n\n## Key Examples:\n\n### During the Anti-Foreign Period\nWhen facing potential assassination by ronin for his foreign studies, Fukuzawa:\n- Acknowledges the real danger: \"Thus all students and interpreters of Western languages continually risked their lives\"\n- Chooses **discretion over martyrdom**: \"I decided that it would be useless to worry over the predicament. The only thing left was to be moderate in speech and manner\"\n- Lives cautiously for 13-14 years, avoiding nighttime travel\n\n### The Secret Documents Incident\nWhen he transcribed classified diplomatic papers:\n- He experiences genuine fear: \"I saw myself in the Temmacho prison and my head being struck off!\"\n- He **destroys the evidence** rather than face consequences\n- He admits: \"I had to bear it alone\" for 5-6 years\n\n### Defiance with Limits\nWhen confronting superiors in America, Fukuzawa:\n- Argues back to Ono Tomogoro about returning early\n- Criticizes the government openly\n- Yet acknowledges: \"I may have won in this argument, but I know I was far from being discreet\"\n\n**In summary**: Fukuzawa is willing to face consequences for his principles, but he's not reckless—he avoids unnecessary risk while maintaining his integrity through careful judgment.",
+        "input_tokens": 130762,
+        "output_tokens": 351,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6074
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Attitude Toward Consequences of Disobedience\n\nBased on the behavioral specification and autobiography, this person demonstrates a **stoic acceptance combined with strategic calculation** when facing potential punishment:\n\n## Key Patterns:\n\n**1. Acceptance Without Complaint**\n- When ordered to be \"penitent\" (confined to home) after the American mission, he describes it as \"quite easy to bear\" and even \"rather grateful for this enforced leisure\"\n- He uses the punishment productively, writing \"A Guide to Travel in the Western World\"\n- No visible resentment or resistance\n\n**2. Strategic Discretion Over Defiance**\n- Rather than openly challenging authority, he modulates his behavior to avoid detection\n- When burning secret diplomatic transcripts out of fear (after Wakiya's execution), he acts with calculated self-preservation, not martyrdom\n- He explicitly avoids being \"the ring-leader in the movement\" against the government\n\n**3. Emotional Restraint (A6)**\n- His flat affect masks his true convictions—he maintains composure even when deeply anxious\n- The burden of potentially treasonous documents causes him \"agonies of suspense\" for years, but he tells no one, not even his wife\n\n**4. Pragmatic Acceptance**\n- He acknowledges his own culpability: \"I think I deserved it\" regarding his punishment\n- He recognizes when he has overstepped propriety and accepts the logical consequences\n\n**In essence:** He accepts consequences with equanimity, viewing them as costs of his chosen path rather than injustices to resist.",
+        "input_tokens": 138511,
+        "output_tokens": 353,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5824
+      }
+    },
+    "training_words": 69544,
+    "truncated": false,
+    "timestamp": "2026-04-16T08:08:37.311485+00:00"
+  },
+  {
+    "question_id": 5,
+    "question_text": "How does this person respond to social conventions regarding status symbols and formal address?",
+    "held_out_passage": "Unconcerned as I was with my rank or career in this new post, it never occurred to me to have the higher form of address used in my house.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Response to Social Conventions and Status Symbols\n\nBased on the autobiography, Fukuzawa demonstrates a remarkably unconventional and dismissive attitude toward status symbols and formal address:\n\n## Rejection of Status Symbols\n\n**The Crested Garment Incident**: When given an honorable silk overgarment bearing his lord's crest—a significant honor—Fukuzawa immediately sold it to a friend for practical money rather than treasuring it as a status symbol. He was \"not particularly touched by the honor\" and preferred the one ryo and three bu to keep the garment.\n\n**Swords**: During the militaristic period, he sold off most of his swords (receiving 60-70 ryo) and fashioned fake replacements from a short sword and hardware store knife, wearing them only for appearance's sake.\n\n## Resistance to Formal Address Conventions\n\n**Early Rebellion**: As a child, he was reprimanded for stepping on papers bearing his lord's name. Rather than accepting the feudal reverence for such symbols, he deliberately tested whether trampling sacred charms would bring divine punishment—it didn't, confirming his skepticism.\n\n**Challenging Protocol**: He objected to the elaborate rules of formal address and rank distinctions, finding them absurd rather than respectable.\n\n## Core Philosophy\n\nFukuzawa viewed status symbols as **meaningless impediments** rather than sources of pride. His attitude reflected his broader conviction that **individual merit and character mattered more than inherited rank or ceremonial trappings**—a radical position in feudal Japan.",
+        "input_tokens": 130757,
+        "output_tokens": 343,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5528
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Response to Social Conventions and Status Symbols\n\nBased on the autobiography, this person demonstrates a consistent pattern of **skepticism toward and practical disregard for status symbols and formal hierarchies**:\n\n## Rejection of Status Symbols\n\n**The Crest-Bearing Garment Incident** is the most striking example:\n- Received an \"honorable gift\" of a silk overgarment with the lord's crest—a significant honor in feudal society\n- Rather than treasuring it, he **immediately sold it** to a friend for practical money (one ryo and three bu)\n- Used the proceeds to buy a foreign book instead\n- Showed no emotional attachment to the honor itself\n\n## Disregard for Formal Address\n\n- **Refused to use respectful modes of address** when they seemed arbitrary\n- When his brother scolded him for stepping on papers with the lord's name, he privately rejected the logic: \"Why scold about it? Did I step on my lord's head? What is wrong with stepping on a piece of paper?\"\n- Deliberately tested sacred prohibitions (trampling charms, desecrating Inari shrines) to verify whether the rules had actual consequences\n\n## Practical Approach to Rank\n\n- **Wore swords for appearance only** during the militaristic period, fashioning fake ones from hardware store materials\n- Sold his actual swords for practical money (60-70 ryo)\n- Maintained the **minimum appearance of conformity** while privately rejecting the system's legitimacy\n\n## Core Philosophy\n\nHis behavior reflects a fundamental conviction: **capacity and merit matter; inherited status does not**. He respected people based on ability, not rank, and treated status symbols as mere conventions rather than meaningful markers of worth.",
+        "input_tokens": 138506,
+        "output_tokens": 386,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6300
+      }
+    },
+    "training_words": 69544,
+    "truncated": false,
+    "timestamp": "2026-04-16T08:08:49.209984+00:00"
+  },
+  {
+    "question_id": 6,
+    "question_text": "When a subordinate or servant encounters confusion about proper protocol in this person's household, what would likely happen?",
+    "held_out_passage": "Thus the maid and my guest were arguing when I heard it from my room in our small dwelling, and went out to welcome him.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Protocol and Household Management\n\nBased on the autobiography, when a subordinate or servant encountered confusion about proper protocol in Fukuzawa's household, they would likely receive **practical, direct correction rather than harsh punishment**.\n\n## Evidence from the Text\n\n**Example from Europe:**\nWhen an attendant followed Fukuzawa's superior into the toilet while holding a lighted lantern and the master's sword in a formal corridor of a European hotel, Fukuzawa:\n\n> \"happened to come along and see the incident which I ended by shutting the doors. Then turning to the man, I told him quietly of the etiquette of Europeans on such occasions, but my heart was fluttering with consternation.\"\n\nThis shows Fukuzawa's approach was:\n- **Quiet and educational** rather than punitive\n- Focused on explaining the actual customs of the place\n- Respectful to the servant despite the awkwardness\n\n## Fukuzawa's Character\n\nThroughout the autobiography, Fukuzawa demonstrates:\n- Respect for people of lower rank (inherited from his parents)\n- Willingness to do humble work himself as a student\n- Practical problem-solving rather than rigid formality\n- Understanding that confusion arose from cultural differences, not malice\n\nRather than the rigid, harsh discipline typical of the feudal system he critiqued, Fukuzawa appears to have favored **pragmatic instruction and understanding**.",
+        "input_tokens": 130764,
+        "output_tokens": 309,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5540
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Protocol Confusion in Fukuzawa's Household\n\nBased on the behavioral specification and autobiography, when a subordinate or servant encountered confusion about proper protocol, several patterns would likely emerge:\n\n## Most Probable Response\n\n**Pragmatic correction without ceremony.** Fukuzawa would likely:\n\n1. **Address it directly but without formality** - He explicitly rejected rigid hierarchical deference and \"never show joy or anger in the face\" philosophy meant he wouldn't perform indignation or shame-based correction.\n\n2. **Explain the reasoning** - Rather than invoke \"because that's how it's done,\" he would explain *why* a practice matters (if it does). His resistance to authority-based justification (A4) means he'd ground corrections in practical sense.\n\n3. **Demonstrate rather than lecture** - Given his lifelong comfort with hands-on work and teaching through example, he'd likely show the correct approach.\n\n## What Would NOT Happen\n\n- **Public humiliation** - His stoic restraint (A6) and disdain for hierarchical shame codes (A4) made him unlikely to use embarrassment as a tool\n- **Rigid formalism** - His autobiography shows he sold off ceremonial gifts and rejected empty protocol\n- **Deference-based authority** - He wouldn't demand compliance based on rank alone\n\n## Evidence from Text\n\nThe incident with his wife's encounter at the staircase (p. 61) shows he handled an awkward situation by quietly redirecting behavior rather than scolding, though he felt internal discomfort about it.",
+        "input_tokens": 138513,
+        "output_tokens": 344,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6055
+      }
+    },
+    "training_words": 69544,
+    "truncated": false,
+    "timestamp": "2026-04-16T08:09:01.038517+00:00"
+  },
+  {
+    "question_id": 7,
+    "question_text": "What priority does this person place on the welfare of students or subordinates under their care?",
+    "held_out_passage": "My students were too precious; even if they were not to be hit by the bullets, they might hurt their feet on thorns. So I had them answer that they were all too ill to carry arms.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Fukuzawa's Priority on Student Welfare\n\nBased on the autobiography, Fukuzawa placed **considerable priority on the welfare of students and subordinates**, though his approach was distinctive:\n\n## Evidence of Care\n\n**Direct Support:**\n- When students fell ill (like Kishi Naosuke with typhoid fever), Fukuzawa and others nursed him \"day and night for three weeks\"\n- Ogata Sensei's kindness during Fukuzawa's own illness set a model: he visited daily and arranged proper medical care, recognizing that a doctor too close to a patient becomes anxious and ineffective\n- Fukuzawa provided room and board for students in his household\n\n**Moral Leadership:**\n- He intervened against bullying, confronting a student who tried to exploit newcomers: \"Don't try that trick of yours again on a new student\"\n- He attempted to reform wayward students through both assistance and accountability (the Tezuka hair-cutting incident, though harsh, was meant as corrective medicine)\n\n## Limitations\n\nHowever, his care had boundaries:\n- He maintained high academic standards without automatic advancement\n- He could be stern and used public shaming as discipline\n- His focus was primarily on intellectual development rather than emotional coddling\n\n**Overall Assessment:** Fukuzawa valued students' growth and dignity but believed in rigorous standards and personal responsibility—a paternalistic but genuinely invested approach rather than indulgent care.",
+        "input_tokens": 130760,
+        "output_tokens": 319,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6272
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Priority on Welfare of Students/Subordinates\n\nBased on the autobiography, this person places **significant priority on the welfare of those under their care**, though expressed through practical action rather than sentimentality.\n\n## Evidence of Care:\n\n**Toward Students:**\n- When a student (Kishi Naosuke) fell ill with typhoid fever, Fukuzawa and others \"nursed him day and night for three weeks\" despite the personal risk of contracting the disease themselves\n- He personally intervened to stop bullying in the school, confronting an older student who tried to exploit newcomers\n- He took on the role of monitor (jukucho) and worked to maintain standards, wanting \"all the students to be like myself, to think and act as I did\"\n\n**Toward Dependents:**\n- When living in Yamamoto's household as a young man, he took on extensive work—reading to his master, teaching his son, negotiating debts, drawing water, sweeping, caring for animals\n- He divided money among his household members during the war crisis so \"each one would have something to rely upon in a crisis\"\n\n## Characteristic Approach:\n\nHis care is **practical and unsentimental**:\n- He doesn't coddle or make exceptions\n- He leads by example rather than moral preaching\n- He maintains standards while respecting people's dignity\n- He inherited from his parents \"a feeling of respect for all people\" regardless of rank\n\nThis reflects his broader philosophy: **capacity and character matter more than position**, and those in authority should earn respect through their conduct, not demand it through rank.",
+        "input_tokens": 138509,
+        "output_tokens": 352,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6014
+      }
+    },
+    "training_words": 69544,
+    "truncated": false,
+    "timestamp": "2026-04-16T08:09:12.635054+00:00"
+  },
+  {
+    "question_id": 8,
+    "question_text": "How would this person characterize their own psychological state regarding worldly ambitions and material advancement?",
+    "held_out_passage": "It does seem that my mind was rather childlike, perfectly innocent of all worldly ambitions. This lack of attachment to the clan may seem quite creditable now, but in the eyes of my fellow-clansmen it was taken as a lack of loyalty and sympathy.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Fukuzawa's Psychological Stance on Ambition and Material Advancement\n\nBased on this autobiography, Fukuzawa characterizes himself as fundamentally **detached from worldly ambitions and material concerns**, though with some important nuances:\n\n## Core Detachment\n\nHe explicitly states he had **\"no desire for a career in my clan\"** and deliberately avoided the typical scholar's practice of submitting memorials seeking advancement or addressing superiors about promotions and salary increases. He describes his approach as one of **studied indifference** to political favor and status.\n\n## Practical Pragmatism\n\nHowever, this wasn't ascetic renunciation. When given a silk overgarment as an honor from his lord, he immediately **sold it for one ryo and three bu** to purchase a foreign book he wanted—demonstrating that while he rejected *status symbols*, he pursued *practical utility*.\n\n## Philosophical Foundation\n\nHis detachment stemmed from **early resentment of feudal hierarchy** combined with **inherited family values** emphasizing respect for all people regardless of rank. Rather than seeking to climb the system, he chose to **remain outside it mentally**, viewing dependence on others' favor as beneath him.\n\n## The Paradox\n\nHe lived contentedly on modest clan provisions while pursuing intellectual interests, suggesting his ambitions were **redirected toward knowledge and learning** rather than wealth or position. As he notes: *\"I lost all thoughts of depending on the favors of other men.\"*\n\nThis represents a deliberate psychological independence rather than mere indifference.",
+        "input_tokens": 130761,
+        "output_tokens": 338,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5634
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Fukuzawa's Psychological Stance on Ambition and Material Advancement\n\nBased on the autobiography, Fukuzawa characterizes his own psychological state as fundamentally **detached from conventional worldly ambitions**, though with important nuances:\n\n## Explicit Self-Characterization\n\n**Indifference to Status and Wealth:**\n- He explicitly states he would be \"embarrassed by brocade\" (the symbol of returning home successful)\n- He had \"decided to leave the clan out of [his] thoughts in planning [his] career\"\n- He \"attached little value on any man or clan\" and lived \"a very quiet and ingenuous one\"\n\n**Pragmatic Rather Than Ambitious:**\nWhen his brother asked what he wanted to be, Fukuzawa answered: *\"I would like to be the richest man in Japan and spend all the money I want to.\"* His brother was horrified, but Fukuzawa's response reveals he saw wealth instrumentally—as enabling freedom—rather than as an end in itself.\n\n## The Paradox\n\nHowever, there's a crucial contradiction: while claiming indifference to advancement, Fukuzawa was intensely **ambitious about intellectual mastery and influence**. He:\n- Pursued knowledge obsessively under dangerous conditions\n- Aspired to become \"the authoritative interpreter of Western knowledge for [his] society\"\n- Sought to shape Japan's future through education and writing\n\n## The Resolution\n\nHis true ambition was **intellectual and civilizational**, not personal or material. He sacrificed comfort for knowledge, not for status or wealth. This distinction—between rejecting feudal hierarchy while pursuing intellectual leadership—defines his psychological orientation.",
+        "input_tokens": 138510,
+        "output_tokens": 371,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6235
+      }
+    },
+    "training_words": 69544,
+    "truncated": false,
+    "timestamp": "2026-04-16T08:09:24.922272+00:00"
+  },
+  {
+    "question_id": 9,
+    "question_text": "When organizational pressure conflicts with educational mission, which takes precedence in this person's decision-making?",
+    "held_out_passage": "So I kept the young men at their studies, but the clan was weak and did not force the recall of the young men.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Educational Mission Takes Precedence\n\nBased on Fukuzawa's autobiography, **educational mission clearly takes precedence** when it conflicts with organizational pressure.\n\n## Key Evidence\n\n**Defying Government Authority for Learning**\n- When ordered by his clan to return home from Nagasaki, Fukuzawa ignored the directive and went to Yedo instead to continue his studies\n- He explicitly states: \"I had determined to go to Osaka again, but in the atmosphere of Nakatsu, it was difficult even to reveal my wishes openly\"\n\n**Resisting Institutional Constraints**\n- He refused to be confined by clan expectations or career advancement schemes\n- When the shogunate tried to restrict his activities during the American mission, he argued back: \"You don't have such authority... I am here under the official order of the ministry, and not under yours\"\n\n**Prioritizing Intellectual Freedom**\n- He spent 13-14 years living as a near-recluse, avoiding political involvement to protect his ability to teach and write\n- He burned sensitive government documents rather than compromise his intellectual integrity\n- He consistently chose translation and teaching work over political advancement\n\n## The Pattern\n\nFukuzawa demonstrates a **principled independence**: he accepts organizational support (salary, housing) but refuses to let it dictate his intellectual direction or compromise his educational values. His famous statement captures this: \"I am a diagnostician; not a practicing physician\"—he observes and teaches rather than serves institutional agendas.",
+        "input_tokens": 130762,
+        "output_tokens": 326,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5659
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Organizational Pressure vs. Educational Mission\n\nBased on the behavioral specification and autobiography, **educational mission takes clear precedence**, but with important nuance about *how* this person navigates the conflict.\n\n## The Pattern\n\nWhen Fukuzawa faced direct pressure from organizational authority that conflicted with his core educational commitments, he:\n\n1. **Complied outwardly while preserving internal conviction** (A3 — Empirical Sovereignty + C2 — Social/Institutional Domains)\n   - Accepted the clan's \"gunnery\" permit while actually studying Dutch\n   - Worked within the shogunate while privately opposing its policies\n   - Maintained discretion in speech to avoid political suspicion\n\n2. **Refused to compromise the substance of his work**\n   - When ordered to purchase books for government profit, he argued for educational access instead\n   - When told to leave the American mission early, he refused based on his official mandate\n   - Continued teaching foreign studies despite the anti-foreign movement making it dangerous\n\n3. **Used strategic withdrawal rather than confrontation**\n   - Sold his swords and lived inconspicuously during the militarism period\n   - Confined himself at home rather than fight the reprimand\n   - Avoided political utterances while maintaining his educational activities\n\n## The Critical Distinction\n\nHe doesn't prioritize \"the organization\" — he prioritizes **his chosen educational mission** while minimizing organizational friction. This reflects A8 (Self-Determination Primacy): personal agency and individual reasoning override institutional loyalty, but executed with strategic patience rather than defiance.\n\nThe autobiography shows he would abandon organizational affiliation entirely rather than abandon his educational commitments.",
+        "input_tokens": 138511,
+        "output_tokens": 371,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6616
+      }
+    },
+    "training_words": 69544,
+    "truncated": false,
+    "timestamp": "2026-04-16T08:09:36.792272+00:00"
+  },
+  {
+    "question_id": 10,
+    "question_text": "How does this person respond when gratitude or appreciation is offered by an organization?",
+    "held_out_passage": "On the other hand, if the clan extends some appreciation to us, saying, 'We are glad to acknowledge the good service of a family like yours,' then I should feel like saying in return, 'I am deeply grateful for your constant employment.'",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Response to Gratitude and Appreciation\n\nBased on the autobiography, this person (Fukuzawa Yukichi) demonstrates a notably **pragmatic and unsentimental approach** to gratitude and appreciation from organizations:\n\n## Key Examples:\n\n**1. The Lord's Gift (Haori)**\nWhen given a silk overgarment bearing his lord's crest as an \"honorable gift,\" Fukuzawa:\n- Was \"not particularly touched by the honor\"\n- Accepted it with \"plain thanks\"\n- Immediately sold it to a friend for money to buy a foreign book\n\nThis shows he valued practical utility over symbolic honor.\n\n**2. Government Service**\nWhen ordered to be \"penitent\" (confined to home) after his American mission, he was:\n- \"Rather grateful for this enforced leisure\"\n- Used it productively to write books\n\nHe reframed punishment as opportunity rather than dwelling on the slight.\n\n**3. Institutional Recognition**\nThroughout his career, he:\n- Never sought favor or advancement from his clan\n- Refused to submit memorials or request promotions\n- Remained \"unconcerned as to politics in the clan\"\n\n## Overall Pattern:\n\nFukuzawa treats organizational gratitude with **detachment and independence**. He neither seeks it nor is moved by it emotionally. Instead, he focuses on what practical benefit or freedom it might provide for his actual goals—learning, writing, and teaching.",
+        "input_tokens": 130758,
+        "output_tokens": 318,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5055
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Response to Organizational Gratitude\n\nBased on the behavioral specification and autobiography, this person responds to organizational gratitude with **functional pragmatism rather than emotional reception**:\n\n## Key Pattern: Instrumental Acceptance\n\nWhen Captain McDougall and his wife thanked Fukuzawa for Japanese coins as a gift, the specification notes:\n\n> \"they showed no sign of having received a gift that had monetary value. The next morning the wife of the officer brought some flowers to Captain Kimura, thanking him again for the uncommon gift she had received the day before.\"\n\nFukuzawa's response was notably **moved by the *form* of gratitude rather than the gratitude itself**:\n\n> \"I was much moved by her act which had a touch of nobility. I wished that everyone could be like this American lady who thanked one for the gift of gold and silver with a bouquet of flowers.\"\n\n## The Deeper Pattern\n\nWhat strikes him is not the appreciation but the **elegance of the exchange**—the principle that one reciprocates gifts with appropriate gestures rather than monetary equivalence. This reflects his broader orientation:\n\n- **Stoic opacity (A6)**: He doesn't display emotional satisfaction at being thanked\n- **Utility gate (A2)**: He evaluates the *meaning* of the gratitude (what it reveals about character/culture)\n- **Relational knowledge (A10)**: He values the *human gesture* over institutional recognition\n\nHe accepts organizational honors (like the lord's gift) with \"plain thanks\" and immediately sells them—showing gratitude is acknowledged but not internalized as validation.",
+        "input_tokens": 138507,
+        "output_tokens": 353,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5996
+      }
+    },
+    "training_words": 69544,
+    "truncated": false,
+    "timestamp": "2026-04-16T08:09:49.067867+00:00"
+  },
+  {
+    "question_id": 11,
+    "question_text": "When faced with a potential physical confrontation with a stranger, would Fukuzawa choose to retreat or stand his ground?",
+    "held_out_passage": "And if I go ahead, I must pretend not to be afraid. I must even threaten him.*' I moved out diagonally to the middle of the street from the left side where I had been walking. Then the other fellow moved out too. This gave me a shock, but now there was no retreating an inch.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Fukuzawa's Approach to Physical Confrontation\n\nBased on the autobiography, Fukuzawa would likely **retreat rather than stand his ground** in a physical confrontation with a stranger. Several passages reveal this pattern:\n\n## Evidence of Avoidance\n\n**His timidity about violence:** Fukuzawa explicitly states he is \"of a timid nature when it comes to putting a living thing to death or seeing any kind of injury.\" He would \"close [his] eyes for fear of seeing the blood flow\" and grew \"pale at the sight of a minor injury.\"\n\n**Practical avoidance:** When walking alone at night through dangerous areas like Gojiin-ga Hara (described as \"full of huge pine trees, a perfect setting for highwaymen\"), he felt \"fearful\" but continued on—suggesting he endured discomfort rather than sought confrontation.\n\n**His philosophy:** He adopted the principle \"Never show joy or anger in the face\" and trained himself \"to receive both applause and disparagement politely, but never to allow myself to be moved by either.\" This suggests emotional restraint over physical assertion.\n\n## The Exception\n\nThe one time he physically touched someone in anger—shaking a dissolute student—he later expressed deep remorse, comparing himself to \"a priest who broke the commandments.\"\n\n**Conclusion:** Fukuzawa's character suggests he would retreat, de-escalate, or find a way to avoid confrontation entirely rather than stand his ground physically.",
+        "input_tokens": 130767,
+        "output_tokens": 326,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5603
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Fukuzawa's Response to Physical Confrontation\n\nBased on the autobiography, Fukuzawa would **strategically retreat** rather than stand his ground in a direct physical confrontation with a stranger.\n\n## Evidence from the Text\n\n**His explicit principle on emotional restraint:**\n> \"Never show joy or anger in the face.\" These words brought a thrill of relief as if I had learned a new philosophy of life. Since then I have always remembered these golden words, and have trained myself to receive both applause and disparagement politely, but never to allow myself to be moved by either.\n\n**His actual behavior when threatened:**\n\n1. **The \"Thief! Thief!\" incident** - When accused during a street procession, he didn't confront his accusers: \"I kicked off my clogs and ran barefoot toward Dojima where my lord's storage office was located.\"\n\n2. **His fear during the anti-foreign period** - Rather than stand against ronin violence, he \"lived as discreetly as possible\" and \"did not venture out of doors at night\" for 13-14 years.\n\n3. **His strategic avoidance** - He explicitly states: \"I thought that if I avoided all dramatic utterances and behaved very cautiously, I should escape the ire of the ronin.\"\n\n## The Pattern\n\nFukuzawa's approach was **calculated discretion over confrontation**. He valued his intellectual work and survival over displays of warrior spirit, which he actually disdained as part of the old feudal system he opposed.",
+        "input_tokens": 138516,
+        "output_tokens": 343,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5921
+      }
+    },
+    "training_words": 69544,
+    "truncated": false,
+    "timestamp": "2026-04-16T08:10:00.119649+00:00"
+  },
+  {
+    "question_id": 12,
+    "question_text": "How would Fukuzawa likely respond if forced into a violent situation despite his personal inclinations?",
+    "held_out_passage": "I really hated the idea of injuring a man— I could not stand seeing a man hurt, much less doing the injury myself. But now there seemed no alternative. If the stranger were to show any offense, I must kill him.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Fukuzawa's Likely Response to Forced Violence\n\nBased on the autobiography, Fukuzawa would likely respond with **reluctant self-defense while maintaining his philosophical opposition to violence**.\n\n## Evidence from His Character\n\n**His stated principle:**\n> \"Never show joy or anger in the face\" — a philosophy he adopted in childhood that trained him to \"receive both applause and disparagement politely, but never to allow myself to be moved by either.\"\n\nHe explicitly claims: \"I have never been truly angry in my life, nor have my hands ever touched a person in anger.\"\n\n## The One Exception That Proves the Rule\n\nThe autobiography reveals a telling incident where he **did** physically strike a student:\n\n> \"One night...he came back drunk and gay. I ordered him to sit up all night and reflect upon his actions. But when I returned a few minutes later, he was snoring. 'Shameless wretch!' I cried, catching him by the arm and shaking him.\"\n\nCrucially, **he immediately regretted this**, comparing his remorse to \"a priest who broke the commandments.\"\n\n## Likely Behavior Under Attack\n\nGiven his demonstrated pattern, Fukuzawa would probably:\n\n1. **Use his swords defensively** (he kept them for appearance, though he knew iaijutsu)\n2. **Avoid escalation** through his characteristic calm demeanor\n3. **Escape rather than engage** (he planned escape routes during the anti-foreign violence)\n4. **Feel profound guilt afterward** if forced to harm someone\n\nHis nature was fundamentally **non-violent by temperament**, not merely by principle.",
+        "input_tokens": 130762,
+        "output_tokens": 362,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6933
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Fukuzawa's Response to Forced Violence\n\nBased on the autobiography, Fukuzawa would likely respond with **disciplined restraint rather than aggression**, though he possessed the technical capability to fight.\n\n## His Actual Pattern\n\nThe text reveals a consistent approach:\n\n**Avoidance through strategy**: When threatened by ronin during the anti-foreign period, he didn't confront them—he lived \"as discreetly as possible\" and avoided going out at night for 13-14 years. He chose invisibility over confrontation.\n\n**Emotional control as defense**: He explicitly trained himself using the principle \"Never show joy or anger in the face,\" which he applied to manage dangerous situations. This wasn't passivity but calculated self-protection.\n\n**Tactical compliance**: When ordered to be \"penitent\" after his American trip, he accepted confinement without resistance, using it productively for writing rather than fighting the decision.\n\n## His Acknowledged Weakness\n\nCrucially, Fukuzawa admits his own timidity: \"I am of a timid nature when it comes to putting a living thing to death or seeing any kind of injury.\" He would faint at surgical operations and avoided witnessing violence.\n\n## The Likely Response\n\nIf genuinely forced into violence with no escape route, he would probably:\n- Defend himself minimally and efficiently (he knew *iaijutsu*)\n- Maintain emotional composure to think clearly\n- Seek the earliest opportunity to disengage\n- Never initiate or escalate\n\nHis philosophy was **survival through wisdom, not warrior spirit**—a deliberate rejection of the militarism surrounding him.",
+        "input_tokens": 138511,
+        "output_tokens": 361,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6413
+      }
+    },
+    "training_words": 69544,
+    "truncated": false,
+    "timestamp": "2026-04-16T08:10:11.648180+00:00"
+  },
+  {
+    "question_id": 13,
+    "question_text": "After a dangerous encounter, would Fukuzawa be more likely to feel shame or humor about his own fear?",
+    "held_out_passage": "After going a little distance, I turned to look back as I flew. The other man was running too, in his direction. I drew a breath of relief and saw the funny side of the whole incident. A coward had met a coward as in a farce.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Fukuzawa's Response to Fear\n\nBased on the autobiography, Fukuzawa would be **more likely to feel humor** about his own fear, though with some important nuances.\n\n## Evidence for Humor\n\nSeveral incidents demonstrate this:\n\n1. **The \"blushing bride\" incident**: After arriving in America and making numerous embarrassing cultural mistakes, Fukuzawa reflects: \"The contrast was indeed funny, even to myself.\"\n\n2. **The one-eyed samurai visitor**: When his maid announced a mysterious samurai caller, Fukuzawa panicked thinking it was an assassin. Upon discovering it was his old friend Harada, he \"broke out cursing\" and they \"spent the afternoon in pleasant talk\" after \"a good laugh.\"\n\n3. **His self-aware commentary**: He frequently acknowledges his own timidity with a kind of wry acceptance rather than shame—admitting he's \"of a timid nature\" regarding injury and blood, yet continuing to function despite it.\n\n## The Caveat\n\nFukuzawa does experience genuine anxiety (as during the anti-foreign violence period), but his characteristic response is to **acknowledge the fear without being paralyzed by shame**. He maintains his dignity through self-deprecating humor rather than defensive pride.\n\nThis reflects his broader philosophy: he was trained from childhood not to \"show joy or anger in the face,\" which gave him a certain emotional distance from his own reactions.",
+        "input_tokens": 130765,
+        "output_tokens": 314,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5318
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Fukuzawa's Response to Fear\n\nBased on the behavioral specification and autobiography, Fukuzawa would be more likely to experience **humor** about his own fear, though with important nuances.\n\n## Evidence for Humor\n\nThe autobiography contains several instances where Fukuzawa laughs at himself:\n\n- When Harada Suizan arrived unexpectedly at his door during the anti-foreign violence, Fukuzawa \"broke out cursing before I knew it\" at his own panic, then \"broke out in a good laugh\" at the misunderstanding\n- He describes his arrival in America as becoming a \"blushing bride,\" finding \"the contrast was indeed funny, even to myself\"\n- He recounts embarrassing cultural mishaps (the burning sleeve, the ash-tray confusion) with self-deprecating amusement\n\n## Why Not Shame\n\nThe behavioral specification indicates:\n\n**A6 — STOIC OPACITY**: Emotional restraint is \"a strategic and moral discipline.\" Displaying distress invites manipulation. This suggests he wouldn't *perform* shame publicly.\n\n**M1 — Communication Approach**: \"They do not moralize. They do not signal virtue.\" Shame-displays would be a form of moral performance he'd reject.\n\n## The Actual Pattern\n\nFukuzawa's response would be:\n1. **Immediate fear** (he admits timidity around blood/injury)\n2. **Private acknowledgment** of the fear without self-recrimination\n3. **Humor about the situation** once safe—treating it as evidence of human fallibility rather than personal failure\n4. **No public display** of either fear or shame\n\nHe'd laugh at himself, but only with trusted companions.",
+        "input_tokens": 138514,
+        "output_tokens": 378,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 7384
+      }
+    },
+    "training_words": 69544,
+    "truncated": false,
+    "timestamp": "2026-04-16T08:10:24.996191+00:00"
+  },
+  {
+    "question_id": 14,
+    "question_text": "Would Fukuzawa's actual behavior in a dangerous moment align with his theoretical preparation and training?",
+    "held_out_passage": "Neither had the least idea of killing the other, but had put up a show of boldness in fear of the other. And both ran at the same moment.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Fukuzawa's Preparedness vs. Actual Behavior\n\nBased on the autobiography, there's a **significant gap between Fukuzawa's theoretical preparation and his actual responses under pressure**.\n\n## His Theoretical Stance\n\nFukuzawa cultivated an image of rational composure:\n- He studied *iaijutsu* (sword-drawing) and practiced regularly\n- He adopted the Confucian principle: \"Never show joy or anger in the face\"\n- He claimed to have trained himself \"to receive both applause and disparagement politely, but never to allow myself to be moved by either\"\n\n## His Actual Behavior Under Threat\n\nThe autobiography reveals significant anxiety and avoidance:\n\n**During the anti-foreign violence (1863):**\n- He lived in \"half fear, half joy of work\"\n- He spent **13-14 years avoiding going out at night**\n- When a one-eyed samurai appeared at his door, he was \"shivering with fear\" (only relieved to find it was an old friend)\n- He prepared to flee Yedo entirely, dividing money among household members and packing furniture\n\n**His physical limitations:**\n- He fainted at the sight of blood during surgical operations\n- He admits: \"I am of a timid nature when it comes to putting a living thing to death\"\n- He abandoned his swords, selling them off and fashioning fake ones for appearance\n\n## The Honest Admission\n\nFukuzawa himself acknowledges this contradiction:\n\n> \"I shall probably die without overcoming my weakness\"\n\nHe was **self-aware enough to recognize** that his theoretical training in emotional control didn't translate to actual fearlessness. His response was pragmatic rather than heroic: discretion, avoidance, and focusing on intellectual work rather than confrontation.",
+        "input_tokens": 130762,
+        "output_tokens": 403,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6529
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Fukuzawa's Actual vs. Theoretical Behavior Under Threat\n\nBased on the autobiography, there's a **significant gap** between his theoretical preparation and actual behavior when genuinely threatened.\n\n## His Theoretical Position\n\nFukuzawa cultivated an image of rational fearlessness:\n- He studied *iaijutsu* (sword-drawing) and practiced regularly\n- He maintained emotional restraint as a \"discipline\" and \"strategic clarity\"\n- He explicitly rejected fear-based morality: \"I have never had any fear of gods or Buddha\"\n- He positioned himself as someone who could face danger with equanimity\n\n## His Actual Behavior Under Real Threat\n\nThe autobiography reveals **consistent anxiety and avoidance**:\n\n**During the anti-foreign violence (1863-1868):**\n- He lived \"practically as a recluse\" for 13-14 years, avoiding going out at night\n- When a one-eyed samurai appeared at his door, he admits: \"I was shivering with fear\"\n- He burned secret diplomatic documents in panic after Wakiya's execution, fearing for his own head\n- He describes carrying money divided into bundles \"to be tied around the waist\" in case of fleeing\n\n**His own admission:**\n> \"I have always been lively and rather inclined to boasting. But the truth is I am of a timid nature when it comes to putting a living thing to death or seeing any kind of injury.\"\n\nHe even fainted during surgical observations.\n\n## The Core Contradiction\n\nFukuzawa's **stoic opacity** (A6) and **emotional restraint** appear to be **defensive mechanisms rather than genuine equanimity**. He performed fearlessness intellectually while experiencing genuine fear somatically. His \"discipline\" was more about **managing the appearance of control** than achieving actual psychological mastery.\n\nIn a moment of genuine mortal danger, his theoretical preparation would likely **collapse into the anxiety he spent years suppressing**.",
+        "input_tokens": 138511,
+        "output_tokens": 440,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 8265
+      }
+    },
+    "training_words": 69544,
+    "truncated": false,
+    "timestamp": "2026-04-16T08:10:37.703128+00:00"
+  },
+  {
+    "question_id": 15,
+    "question_text": "How would Fukuzawa's sense of personal safety change as political violence shifted its targets away from scholars?",
+    "held_out_passage": "Beginning with the attack on Prince Iwakura at Kuichigai, all the untoward incidents had their origin in the political difficulties of the time, and after the assassination of the Minister of Interior, Okubo, in the eleventh year of Meiji (1878), we scholars were entirely forgotten. We could extend our sympathy to these gentlemen in office, but were rather grateful for our own safety at last",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Fukuzawa's Evolving Sense of Safety During the Anti-Foreign Period\n\nBased on the autobiography, Fukuzawa's personal safety concerns would have shifted significantly as political violence evolved, though the text suggests this change was gradual and incomplete.\n\n## The Peak Danger Period\n\nDuring the height of anti-foreign violence (1863-1867), Fukuzawa lived in genuine fear:\n\n> \"Thus all students and interpreters of Western languages continually risked their lives.\"\n\nHe took concrete precautions:\n- Prepared to flee to Aoyama with packed furniture\n- Divided money among household members for potential separation\n- Burned secret diplomatic transcripts after witnessing Wakiya's execution for a seemingly innocent letter\n- Avoided going out at night for \"thirteen or fourteen years\"\n\n## The Shift in Targets\n\nAs the political situation evolved toward the Restoration, violence increasingly targeted the shogunate government itself rather than foreign scholars. The ronin and reform movements became focused on overthrowing the regime rather than eliminating Western-influenced intellectuals.\n\n## Fukuzawa's Cautious Relief\n\nHowever, his sense of safety likely remained **qualified and incomplete**:\n\n1. **Delayed relief**: He notes feeling \"relieved of my liability\" only *after* the Imperial Restoration, suggesting lingering anxiety even as violence shifted focus.\n\n2. **Continued discretion**: He maintained his hermit-like existence through the transition period, suggesting he didn't immediately trust the changing circumstances.\n\n3. **Ambiguous position**: As someone who had criticized the government while serving it, he remained potentially vulnerable to multiple factions.\n\nThe autobiography suggests Fukuzawa's safety improved not because violence ceased, but because he was no longer its primary target—a distinction that likely kept him cautious even as his immediate danger diminished.",
+        "input_tokens": 130764,
+        "output_tokens": 400,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 7194
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Fukuzawa's Evolving Sense of Safety During the Transition\n\nBased on the autobiography, Fukuzawa's personal security concerns would likely have shifted significantly, though perhaps not in the direction one might initially expect.\n\n## The Peak Danger Period\n\nDuring the height of anti-foreign violence (1863-1867), Fukuzawa lived under genuine existential threat:\n\n> \"Thus all students and interpreters of Western languages continually risked their lives.\"\n\nHe describes taking concrete precautions—burning secret diplomatic transcripts, avoiding nighttime travel for 13-14 years, preparing to flee with divided money bundles, and maintaining a studied appearance of political neutrality.\n\n## The Paradox of Shifting Targets\n\nHowever, as violence increasingly targeted the *shogunate itself* rather than foreign scholars, Fukuzawa's safety would have improved in a counterintuitive way:\n\n**The ronin's focus shifted from eliminating \"Western contamination\" to overthrowing the regime.** This meant:\n\n1. **Reduced ideological targeting** - Scholars of Western learning were no longer the primary enemies; political power was\n2. **Institutional collapse** - The surveillance apparatus that had threatened him (the ometsuke, government officials) was itself being dismantled\n3. **Legitimacy reversal** - What had been dangerous heterodoxy became increasingly mainstream\n\n## Fukuzawa's Strategic Positioning\n\nCrucially, Fukuzawa had positioned himself to benefit from this transition:\n\n> \"I was watching as from afar these activities of busy men.\"\n\nHis deliberate non-participation in clan politics and his refusal to seek official advancement meant he had **no enemies among the rising powers**. He was neither a shogunate loyalist nor a radical—simply a scholar.\n\n## The Restoration as Liberation\n\nThe 1868 Restoration appears to have freed him from his self-imposed confinement:\n\n> \"I was really very grateful for the Imperial Restoration. If I had those transcripts now, I could work out an account of conditions in the third year of Bunkyu; also they would be valuable sources of Japanese diplomatic history. But not caring to exchange them for my head, I did away with them.\"\n\nOnce the old regime fell, the threat that had forced him to destroy evidence evaporated.\n\n## Conclusion\n\nRather than simply becoming safer as violence shifted targets, Fukuzawa experienced a **fundamental transformation in his vulnerability**. The danger had never really been about him personally—it was about what he represented to a dying order. When that order collapsed, his safety was restored not because violence decreased, but because the *ideological framework* that had made him a target disappeared entirely.",
+        "input_tokens": 138513,
+        "output_tokens": 590,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 8756
+      }
+    },
+    "training_words": 69544,
+    "truncated": false,
+    "timestamp": "2026-04-16T08:10:52.499815+00:00"
+  },
+  {
+    "question_id": 16,
+    "question_text": "Would Fukuzawa's personal values regarding weapons align with the cultural trends of his era?",
+    "held_out_passage": "My one cherished hope was to see the abolishment of the swords of the samurai altogether. Truly I was wearing a pair of fine swords at that time, my long blade being of the swordsmith Kongobyoe Moritaka and my short one of Bizen Sukesada. But not long after that I sold them both with all the other weapons in my household, and went around with a pair of improvised swords just for the appearance.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Fukuzawa's Values vs. Cultural Trends on Weapons\n\n## The Misalignment\n\nFukuzawa's personal stance on weapons **directly contradicted** the dominant cultural trends of his era, particularly during the 1860s.\n\n### His Position\n- He sold off most of his swords to a dealer, keeping only ceremonial ones with makeshift scabbards\n- He abandoned swordsmanship practice, pretending he \"had never even drawn a sword in my life\"\n- He viewed weapons as \"unnecessary objects in my scheme of things\"\n\n### The Era's Trend\nThe 1860s saw intense militarism:\n> \"Militarism ran wild in this period...People in general were concerned with nothing so much as showing off the old warrior spirit.\"\n\nFencing masters became \"idols of the people,\" and even Buddhist priests adopted long swords to appear martial.\n\n## Why This Mattered\n\nFukuzawa's rejection of weapons reflected his deeper philosophical position:\n\n1. **Pragmatism over tradition** - He valued Western learning and modernization over feudal warrior culture\n2. **Self-preservation** - During the violent anti-foreign period, displaying martial enthusiasm could have been dangerous for a Western-studies advocate\n3. **Intellectual consistency** - His values aligned with rational progress, not romantic militarism\n\n## The Paradox\n\nFukuzawa maintained this counter-cultural stance while living in a society where weapons symbolized status and patriotism—a significant act of quiet resistance to prevailing values.",
+        "input_tokens": 130761,
+        "output_tokens": 339,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5791
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Fukuzawa's Values vs. Cultural Trends on Weapons\n\n## The Misalignment\n\nFukuzawa's personal stance on weapons **directly contradicted** the dominant militaristic culture of his era, particularly during the 1860s.\n\n### His Position\n- He sold off most of his swords to a dealer, keeping only ceremonial ones with improvised sheaths\n- He abandoned practice of *iaijutsu* (sword-drawing) and claimed ignorance of swordsmanship\n- He avoided appearing with weapons and deliberately made himself \"inconspicuous\"\n- He viewed the militaristic fervor as destructive to Japan's future\n\n### The Cultural Trend\nThe 1860s saw intense glorification of the warrior spirit:\n- Fencing masters became government-honored idols\n- Long swords became fashionable status symbols\n- Even Buddhist priests adopted warrior aesthetics\n- Military preparation dominated public discourse\n\n## Why This Mattered\n\nFukuzawa's resistance wasn't merely personal preference—it reflected his deeper conviction that **Japan's survival depended on Western learning and modernization, not feudal militarism**. He saw the sword-worship as symptomatic of the doomed shogunate system.\n\nHis deliberate self-effacement on this issue reveals a strategic pragmatism: he couldn't openly oppose the trend without risking assassination, so he performed compliance while maintaining internal conviction—a pattern consistent throughout his life during this dangerous period.",
+        "input_tokens": 138510,
+        "output_tokens": 323,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5808
+      }
+    },
+    "training_words": 69544,
+    "truncated": false,
+    "timestamp": "2026-04-16T08:11:08.451582+00:00"
+  },
+  {
+    "question_id": 17,
+    "question_text": "When observing a friend adopting fashionable but impractical practices, would Fukuzawa offer direct criticism or remain silent?",
+    "held_out_passage": "I looked at him and said, 'So you think you are going to scare the ruffians away with that long weapon? But don't be fooled by that. That isn't going to scare anybody.'",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Fukuzawa's Approach to Criticizing Friends\n\nBased on the autobiography, Fukuzawa would likely **offer direct criticism, but tactfully and with humor rather than harshly**.\n\n## Evidence from the Text\n\n**Direct but Playful Criticism:**\nWhen his friend Tezuka was frequenting the pleasure quarters instead of studying, Fukuzawa directly confronted him:\n\n> \"Now, Tezuka,\" I said to him, \"if you will promise me to put your mind on your work, I will help you and read with you every day. But first, you have got to stop going to Shinchi.\"\n\nHe didn't avoid the issue—he addressed it head-on.\n\n**Humorous Approach:**\nWhen criticizing his fellow students' romantic escapades, Fukuzawa used wit rather than moral lectures:\n\n> \"You all talk a lot about your affairs,\" I said, chiding the surprised seamen. \"But how many of you have brought back a picture of yourselves with a young lady as a souvenir of San Francisco?\"\n\n**Reasoned Argument:**\nWith Murata Zoroku about the anti-foreign policy, Fukuzawa engaged in substantive debate rather than silent disapproval.\n\n## The Pattern\n\nFukuzawa combined:\n- **Directness** (he wouldn't pretend agreement)\n- **Humor** (softening criticism with wit)\n- **Reasoning** (explaining *why* something was impractical)\n- **Respect** (treating friends as capable of understanding)\n\nHe was neither a silent observer nor a harsh judge, but an engaged friend willing to speak candidly.",
+        "input_tokens": 130770,
+        "output_tokens": 368,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6354
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Fukuzawa's Approach to Criticizing Friends' Impractical Practices\n\nBased on the autobiography, Fukuzawa would likely **offer direct criticism, but calibrated to the relationship and context**.\n\n## Evidence of Direct Criticism\n\n**With close friends and students**, he was quite direct:\n\n- He confronted Tezuka about frequenting the pleasure quarters, drawing up a written agreement and later orchestrating an elaborate scheme to test his commitment\n- He openly criticized fellow students' romantic pursuits as foolish boasting\n- He directly challenged Murata Zoroku's sudden anti-foreign stance, though with some caution\n\n## The Calibration Factor\n\nHowever, his directness depended on:\n\n1. **Relationship closeness**: With intimate friends like those at Ogata School, he was blunt. With superiors or acquaintances, he was more circumspect.\n\n2. **Context and stakes**: When political danger was high (during the anti-foreign period), he became strategically silent even with friends, fearing his words might be reported.\n\n3. **His core principle**: He states explicitly that he would \"discuss a subject\" but \"when my opponent grew heated, I would evade his point\" — suggesting he preferred reasoned discussion over confrontation.\n\n## The Nuance\n\nFukuzawa wouldn't simply remain silent out of politeness. But he also wouldn't be needlessly confrontational. He'd likely **offer criticism directly to a friend, but frame it as reasoned argument rather than moral judgment**, consistent with his stated practice of never being \"truly angry\" and maintaining emotional restraint.",
+        "input_tokens": 138519,
+        "output_tokens": 353,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6936
+      }
+    },
+    "training_words": 69544,
+    "truncated": false,
+    "timestamp": "2026-04-16T08:11:20.051456+00:00"
+  },
+  {
+    "question_id": 18,
+    "question_text": "Would Fukuzawa use his own example as evidence when trying to persuade someone to abandon a practice he considers foolish?",
+    "held_out_passage": "Look at me. I have sold all the swords in my possession except these two. And this long sword is really a short one made to appear like a long sword; the other is only a kitchen knife set in a sheath. It isn't like you to be meddling with that showy contraption while I am trying to prove that all such display is useless after all.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Fukuzawa's Use of Personal Example\n\nBased on the autobiography, **yes, Fukuzawa would use his own example as evidence**, though he does so selectively and with a particular rhetorical strategy.\n\n## Evidence from the Text\n\n**Direct examples:**\n\n1. **The superstition test** - When a woman claimed to perform Inari magic, Fukuzawa volunteered himself as a test case, saying \"Let me hold it. It would be fun to see what it feels like to have Inari Sama inside me.\" He used his willingness to test the claim as implicit evidence of its foolishness.\n\n2. **The winter clothing experiment** - When he heard Egawa Tarozaemon practiced self-control by sleeping in summer clothes during winter, Fukuzawa says: \"H'm, I can do that myself,\" and then actually did it to prove the point was achievable—implicitly challenging the mystique around it.\n\n3. **The go game pretense** - He criticized his friends' failures at go by positioning himself as superior through his (false) expertise, using his claimed example to shame them.\n\n## His Actual Philosophy\n\nHowever, Fukuzawa's *stated* approach is more nuanced. He emphasizes:\n\n- **Quiet example over preaching** - \"I would demonstrate the principle of independence myself\"\n- **Avoiding dramatic utterances** - He deliberately kept a low profile during dangerous times\n- **Letting results speak** - His school's success was his argument for educational reform\n\nSo while he *does* use personal example, he prefers **demonstrated results** over explicit moral lectures.",
+        "input_tokens": 130768,
+        "output_tokens": 358,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6906
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Fukuzawa's Approach to Persuasion\n\nBased on the autobiography, **Fukuzawa would likely NOT rely primarily on his own example** when trying to persuade someone to abandon a foolish practice. His approach was more analytical and evidence-based.\n\n## Evidence from the Text\n\n**His preference for reasoning over personal testimony:**\n- When confronting the superstitious student Yamada about omens, Fukuzawa used **logical argument** (\"I should prefer the crane, because I could eat it\") rather than saying \"I abandoned these beliefs and you should too\"\n- He tested claims through **direct observation and experimentation** rather than citing his own authority\n\n**His skepticism of authority-based persuasion:**\n- The behavioral specification notes he treats \"direct observation and firsthand testing\" as overriding \"secondhand report, inherited belief, and institutional authority\"\n- He explicitly rejected appeals to rank or position as justification\n\n**His actual persuasive method:**\n- With Tezuka about visiting pleasure quarters, he used **written agreement and consequences** (the hair-cutting wager), not personal example\n- He engaged in **debate and logical disputation** with fellow students, \"challenging\" them to defend positions\n\n## Conclusion\n\nFukuzawa would more likely use **reasoned argument, logical demonstration, or practical consequences** to persuade someone. His own example might support an argument, but it wouldn't be his primary tool—he'd expect others to test claims themselves, as he did.",
+        "input_tokens": 138517,
+        "output_tokens": 328,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5838
+      }
+    },
+    "training_words": 69544,
+    "truncated": false,
+    "timestamp": "2026-04-16T08:11:33.346834+00:00"
+  },
+  {
+    "question_id": 19,
+    "question_text": "How would Fukuzawa assess whether someone truly possesses a skill they claim to have?",
+    "held_out_passage": "And now for a final proof— can you really draw that sword? I am sure you cannot.' 'I can't,' he replied. 'It is too long'",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Fukuzawa's Method for Assessing Claimed Skills\n\nBased on the autobiography, Fukuzawa employed a **practical testing approach** rather than accepting claims at face value. Several incidents illustrate his method:\n\n## Direct Observation and Challenge\n\nWhen Fukuzawa encountered scholars claiming expertise in Dutch translation, he would:\n\n1. **Present difficult passages** to test their actual ability\n2. **Seek out passages he knew were commonly mistranslated** in Ogata's school\n3. **Pretend ignorance** to see if they could solve what he already understood\n\nAs he admits: \"I sometimes took a difficult passage of a book to various senior scholars to test their ability. I sought out passages which in Ogata's school many of the students had mistranslated, and pretended that I was unable to interpret them.\"\n\n## The Matsuzaki Example\n\nHis former teacher Matsuzaki claimed expertise in Dutch, but when Fukuzawa entered Ogata's school with prior study, he quickly surpassed him. Fukuzawa notes: \"I realized then that my teacher was not overly brilliant in his strange subject.\"\n\n## The Principle\n\nFukuzawa believed **actual performance under real conditions** reveals true skill. Claims mean nothing without demonstrated competence. This reflects his broader philosophy that knowledge must be practical and verifiable, not merely theoretical or based on credentials and rank.",
+        "input_tokens": 130761,
+        "output_tokens": 306,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6009
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Fukuzawa's Method for Assessing Claimed Skills\n\nBased on the autobiography, Fukuzawa would employ **direct, practical testing** rather than accepting credentials or claims at face value. Several episodes illustrate his approach:\n\n## The Translation Test\n\nWhen Fukuzawa arrived in Yedo and wanted to verify the competence of Dutch scholars there, he didn't simply ask about their abilities. Instead, he:\n\n> \"sometimes took a difficult passage of a book to various senior scholars to test their ability. I sought out passages which in Ogata's school many of the students had mistranslated, and pretended that I was unable to interpret them.\"\n\nHe would then observe whether these \"dignified gentlemen would again mistranslate the passage\" to his \"secret exultation.\"\n\n## The Principle: Demonstration Over Declaration\n\nFukuzawa believed that **capacity must be demonstrated through actual performance**, not asserted through rank or authority. This reflects his core conviction that:\n\n- **Practical capability** is the only legitimate measure\n- **Independent execution** proves mastery better than credentials\n- **Real-world application** reveals true understanding\n\n## His Own Standard\n\nHe applied this ruthlessly to himself as well. When he couldn't read shop signs in Yokohama despite years of Dutch study, he immediately recognized his claimed expertise was incomplete—not through self-assessment, but through **failure in actual use**.\n\nFor Fukuzawa, **the work itself is the test**.",
+        "input_tokens": 138510,
+        "output_tokens": 322,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5679
+      }
+    },
+    "training_words": 69544,
+    "truncated": false,
+    "timestamp": "2026-04-16T08:11:46.091724+00:00"
+  },
+  {
+    "question_id": 20,
+    "question_text": "Would Fukuzawa's willingness to engage in combat training contradict his broader philosophical opposition to weapons?",
+    "held_out_passage": "As I had practised the art of iai, I knew how to handle my sword.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Fukuzawa's Combat Training and Philosophy: A Nuanced Contradiction\n\nThis is a genuinely complex tension in Fukuzawa's character, though perhaps not a straightforward contradiction.\n\n## The Evidence of Training\n\nFukuzawa explicitly states he learned **iaijutsu** (sword-drawing) and \"frequently practised it at home and at school in Osaka.\" This was genuine martial skill, not mere ceremonial knowledge.\n\n## Why This Isn't Simply Hypocritical\n\n**Contextual pragmatism**: Fukuzawa distinguished between:\n- Learning practical skills within his social reality (necessary for a samurai)\n- Actively promoting militarism or weapons as policy (which he opposed)\n\nWhen militarism surged in the 1860s, he didn't continue practicing—he \"put away [his] swords in a closet and pretended I knew nothing of swordsmanship at all.\"\n\n**Survival vs. ideology**: His opposition to weapons was primarily *political*—against the shogunate's fortress-building and anti-foreign military posturing. Personal martial competence was different from endorsing weapons as a governing philosophy.\n\n## The Real Tension\n\nThe deeper issue is that Fukuzawa accepted certain feudal realities while intellectually rejecting the system. He wore swords for appearance, learned combat for practicality, yet sold off most of his weapons when they became symbols of the militarism he despised.\n\nThis suggests **pragmatic compromise** rather than philosophical contradiction—a man navigating between his ideals and the constraints of his world.",
+        "input_tokens": 130764,
+        "output_tokens": 349,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6015
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Fukuzawa's Combat Training and Philosophical Consistency\n\nThis is a subtle question because Fukuzawa's position on weapons appears more **pragmatic than absolutist**, which actually makes his behavior internally consistent.\n\n## What the Text Shows\n\nFukuzawa **did** practice iaijutsu (sword-drawing) extensively in his youth:\n\n> \"As a young man I had learned iaijutsu, the art of drawing the long sword in an emergency, and I had frequently practised it at home and at school in Osaka.\"\n\nYet later he:\n- Sold off most of his swords for 60-70 ryō\n- Fashioned fake swords to maintain appearances\n- Pretended ignorance of swordsmanship\n- Avoided nighttime travel for 13-14 years\n\n## The Apparent Contradiction Resolved\n\nRather than a philosophical opposition to weapons themselves, Fukuzawa opposed:\n\n1. **Militarism as ideology** — the glorification of warrior spirit and feudal values\n2. **Weapons as political tools** — using them to enforce the \"expel-the-foreigners\" policy\n3. **Swords as status symbols** — the performative militarism of his era\n\nHis combat training was practical self-defense acquired before he developed his mature critique. His later abandonment of swords wasn't principled pacifism but **strategic withdrawal** from a militaristic society he despised.\n\nThe key passage reveals his actual position:\n\n> \"I resolved to dispose of mine...I tried to make myself appear as modest and inconspicuous as possible.\"\n\n**Pragmatism, not principle** — he adapted to survive.",
+        "input_tokens": 138513,
+        "output_tokens": 371,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5900
+      }
+    },
+    "training_words": 69544,
+    "truncated": false,
+    "timestamp": "2026-04-16T08:11:57.783525+00:00"
+  },
+  {
+    "question_id": 21,
+    "question_text": "When faced with a social test designed to embarrass him in front of attractive people, how would Fukuzawa likely respond?",
+    "held_out_passage": "I quaffed off the wine and said, \" Now, obey- ing my lord*s order, I shall offer my cup to the one I love best. Here, Taka San.\" And I turned to a little boy who was the youngest son of the head priest of the temple. I showed not a trace of excitement",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Fukuzawa's Likely Response to Social Embarrassment\n\nBased on the autobiography, Fukuzawa would probably respond with **composed detachment and subtle humor**, rather than defensiveness or shame.\n\n## Evidence from the Text\n\n**His established pattern:**\n- He explicitly learned early to \"Never show joy or anger in the face\" and trained himself to \"receive both applause and disparagement politely, but never to allow myself to be moved by either\"\n- When embarrassed in America (the \"blushing bride\" incident), he observed his own discomfort with amusement rather than distress\n\n**His approach to social awkwardness:**\n- When caught naked before his teacher's wife, he felt shame but handled it by simply avoiding her the next day—no dramatic apology or defensive explanation\n- He maintained composure during the photograph incident with the American girl, later using it as a witty retort to boastful sailors\n\n**His personality traits:**\n- He was \"naturally free from amorous ties\" and didn't participate in gossip about such matters\n- He enjoyed intellectual sparring and \"making fun\" of others' follies\n- He had confidence in his own judgment regardless of social opinion\n\n## Likely Response\n\nHe would probably:\n1. **Acknowledge the situation** without visible embarrassment\n2. **Respond with wit or irony** rather than defensiveness\n3. **Maintain his dignity** through intellectual composure\n4. **Move on quickly** without dwelling on it\n\nHis strength lay in detachment, not in social performance.",
+        "input_tokens": 130768,
+        "output_tokens": 339,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5657
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Fukuzawa's Likely Response to Social Embarrassment\n\nBased on the behavioral specification, Fukuzawa would respond with **controlled composure and strategic withdrawal**, not confrontation or emotional display.\n\n## His Operating Principles\n\n**Stoic Opacity (A6)** is his primary defense:\n- He maintains \"a controlled surface as a matter of integrity\"\n- \"Displaying joy or distress is understood as surrendering leverage and inviting manipulation\"\n- He would show no visible discomfort, which signals the opposite of actual distress\n\n**Strategic Discretion (M1)**:\n- He \"uses intermediaries, indirect approaches, and strategic timing when direct confrontation would be counterproductive\"\n- He does not \"mistake bluntness for honesty or confrontation for courage\"\n\n## Concrete Example from His Life\n\nThe autobiography provides a telling incident: when he accidentally encountered Ogata Sensei's wife while naked and caught off-guard, he was \"helpless\" and \"froze to the spot.\" But critically:\n- He did not apologize the next morning\n- He simply let \"the incident pass without an apology\"\n- He carried the shame privately for decades\n\n## Predicted Response\n\nRather than engage with the test, Fukuzawa would likely:\n1. **Appear unmoved** (maintaining dignity through emotional restraint)\n2. **Excuse himself politely** and leave the situation\n3. **Never acknowledge the embarrassment** publicly\n4. **Process it privately** as evidence of others' poor character, not his own failing\n\nHe would not be \"defeated\" by embarrassment—he would simply absent himself from it.",
+        "input_tokens": 138517,
+        "output_tokens": 364,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5943
+      }
+    },
+    "training_words": 69544,
+    "truncated": false,
+    "timestamp": "2026-04-16T08:12:09.701653+00:00"
+  },
+  {
+    "question_id": 22,
+    "question_text": "How does Fukuzawa regard traditional social rules about interactions between men and women?",
+    "held_out_passage": "The numerous old adages such as \"A man and a woman must carry a lantern when they walk together at night\" or \"When things are being passed, a man and a woman must not pass them directly from hand to hand\" are simply amusing to me. What cowards people are to need such rules to keep themselves from mischief!",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Fukuzawa's Views on Traditional Social Rules Between Men and Women\n\nBased on the autobiography, Fukuzawa demonstrates a notably progressive and unconventional attitude toward gender interactions for his time:\n\n## Casual Disregard for Propriety\n\nFukuzawa shows little concern for strict social conventions governing male-female interaction. Most notably, when in San Francisco, he casually arranged to have his photograph taken with a young American girl (the photographer's 15-year-old daughter) without hesitation. He later proudly displayed this photo to his shipmates, using it to humorously challenge their boasts about romantic conquests—demonstrating he saw nothing improper about the interaction itself.\n\n## Practical Attitude\n\nHis approach is pragmatic rather than moralistic. He doesn't lecture about propriety or express shame; instead, he treats the situation as a clever social maneuver and source of amusement.\n\n## Broader Pattern\n\nThis casual attitude fits with Fukuzawa's general character: he explicitly states he was \"not 'puritan' or moralist\" and maintained distance from rigid social conventions. He kept himself \"clean in behavior\" through personal principle rather than fear of social judgment.\n\n## Context\n\nIt's important to note that Fukuzawa's unconventional views on gender interactions appear limited to this anecdote. The autobiography doesn't extensively discuss his broader philosophy on women's roles or rights, though his practical, individualistic approach suggests he likely held relatively liberal views for his era.",
+        "input_tokens": 130759,
+        "output_tokens": 324,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5686
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Fukuzawa's Views on Gender Relations\n\nBased on the autobiography, Fukuzawa's attitudes toward traditional gender rules are notably **progressive for his time, though not without complications**:\n\n## His Actual Behavior\n\n**Disregard for convention:** Fukuzawa explicitly violated social norms around gender interaction. Most strikingly, while in San Francisco, he had his photograph taken with a young American girl (age 15-16), the daughter of a photographer. He later proudly displayed this photo to his shipmates, using it to mock their boasting about romantic affairs—challenging them to produce similar evidence.\n\nHe notes: \"You all talk a lot about your affairs...But how many of you have brought back a picture of yourselves with a young lady as a souvenir of San Francisco?\"\n\n## His Philosophical Position\n\n**Rejection of arbitrary rules:** Fukuzawa's broader worldview suggests he viewed many traditional social restrictions as **arbitrary impositions rather than legitimate principles**. His skepticism of hierarchy and inherited status (Axiom A4) would naturally extend to gender-based restrictions he saw as lacking rational justification.\n\n## Important Caveat\n\nThe autobiography provides **limited direct commentary** on his views of women's roles or rights. His progressive behavior around gender interaction doesn't necessarily indicate comprehensive feminist views—it may reflect more his general iconoclasm and willingness to violate social conventions that he found unreasonable.",
+        "input_tokens": 138508,
+        "output_tokens": 309,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5941
+      }
+    },
+    "training_words": 69544,
+    "truncated": false,
+    "timestamp": "2026-04-16T08:12:21.306997+00:00"
+  },
+  {
+    "question_id": 23,
+    "question_text": "When a superior warns Fukuzawa about his reputation and social standing, what is his typical reaction?",
+    "held_out_passage": "I was not in the least abashed. \" Is that true. Sir ? \" I replied. \" This is very interesting. I have often been told that I talked too loudly and that I boasted too much. But I have never been called a gallant in that way. I am certainly honored by this.\"",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Fukuzawa's Typical Reaction to Warnings About Reputation\n\nBased on the autobiography, Fukuzawa's typical reaction to warnings about his reputation and social standing is **dismissive and independent**. Several key examples illustrate this pattern:\n\n## Indifference to Social Opinion\n\nWhen his uncle furiously criticized his desire to study Dutch, warning him that such pursuits were inappropriate for someone in his position, Fukuzawa simply internalized the criticism without being swayed. He notes: \"Though I tried not to let people know my inner intentions, when they were so often in my thoughts, I would let hints slip out of my mouth.\"\n\n## Refusal to Conform\n\nRather than adjusting his behavior based on warnings, Fukuzawa continued pursuing his interests. When neighbors gossiped that his studying Dutch was madness, he didn't defend himself or change course—he simply resolved to go to Osaka anyway.\n\n## Philosophical Detachment\n\nMost tellingly, Fukuzawa adopted the principle: **\"Never show joy or anger in the face.\"** This allowed him to receive criticism politely while remaining emotionally unmoved by it. He states: \"I have trained myself to receive both applause and disparagement politely, but never to allow myself to be moved by either.\"\n\n## Conclusion\n\nFukuzawa's approach was essentially to acknowledge warnings respectfully but proceed according to his own judgment, maintaining an outward appearance of compliance while inwardly remaining committed to his chosen path.",
+        "input_tokens": 130763,
+        "output_tokens": 324,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5404
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Fukuzawa's Typical Reaction to Warnings About Reputation\n\nBased on the autobiography, Fukuzawa's typical reaction to warnings about his reputation and social standing is **measured restraint combined with private conviction**—he neither openly defies nor fully accepts the criticism.\n\n## Key Examples:\n\n**1. The Uncle's Fury Over Dutch Studies**\nWhen his uncle thundered at him for wanting to study Dutch, calling it \"crazy thoughts,\" Fukuzawa:\n- Outwardly accepted the rebuke respectfully\n- Privately maintained his determination unchanged\n- Proceeded with his plans anyway through careful discretion\n\n**2. The Clan's Disapproval**\nWhen neighbors and relatives warned his mother that studying Western subjects was shameful:\n- He didn't argue or defend himself publicly\n- He continued his studies while being \"very cautious\" and \"discreet\"\n- He avoided discussing \"social or political problems too openly\"\n\n**3. Official Reprimand After America**\nWhen reprimanded by the minister for offensive acts during his American mission:\n- He \"obediently confined himself at home\"\n- He was \"rather grateful for this enforced leisure\"\n- He used the time productively for writing\n\n## His Philosophy:\n\nFukuzawa embodies what he learned from the Chinese saying: **\"Never show joy or anger in the face.\"** He maintains emotional control, preserves his internal convictions, and strategically complies with external demands while pursuing his true goals through indirect means—a survival strategy born from living under the feudal system and anti-foreign sentiment.",
+        "input_tokens": 138512,
+        "output_tokens": 349,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6734
+      }
+    },
+    "training_words": 69544,
+    "truncated": false,
+    "timestamp": "2026-04-16T08:12:32.936346+00:00"
+  },
+  {
+    "question_id": 24,
+    "question_text": "Would Fukuzawa modify his behavior based on gossip or social suspicion?",
+    "held_out_passage": "I am not such a coward as to change my conduct because of some- one's suspicion. I must thank you for your kind considera- tion. I do feel grateful. But I would rather have this rumor spread further, for it certainly is interesting to know that I am capable of causing such a report",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Fukuzawa's Response to Gossip and Social Suspicion\n\nBased on the autobiography, Fukuzawa showed a **complex and evolving relationship** with gossip and suspicion:\n\n## He Did NOT Modify Core Beliefs\n\nFukuzawa explicitly refused to change his fundamental positions based on social pressure:\n\n> \"I decided that it would be useless to worry over the predicament. The only thing left was to be moderate in speech and manner, and not to discuss social or political problems too openly, or with anyone I did not know well.\"\n\nHe continued studying Western subjects despite widespread anti-foreign sentiment that made scholars targets for assassination.\n\n## He DID Modify His *Behavior* and *Expression*\n\nRather than changing his beliefs, he changed his **public conduct**:\n\n- He avoided \"dramatic utterances\" and \"behaved very cautiously\"\n- He stopped going out at night for 13-14 years\n- He sold his swords and pretended ignorance of swordsmanship\n- He kept his political criticisms private, only discussing them with trusted friends like Seki Shimpachi\n\n## The Distinction He Made\n\nWhen rumors circulated that his brother had joined the Satsuma Clan, Fukuzawa's response was telling:\n\n> \"I offered no explanation or defense against these worthless rumors.\"\n\nHe distinguished between **who he was** (unchangeable) and **how he appeared** (strategically managed). This was pragmatism for survival, not capitulation of principle.",
+        "input_tokens": 130759,
+        "output_tokens": 334,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5826
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Fukuzawa's Response to Gossip and Social Suspicion\n\nBased on the behavioral specification and autobiography, Fukuzawa would **strategically modify his surface behavior** while maintaining his internal convictions—but this is a calculated adaptation, not genuine capitulation.\n\n## Evidence of Strategic Modification\n\n**During the anti-foreign period:**\n- He deliberately avoided \"dramatic utterances\" and \"behaved very cautiously\" to escape ronin violence\n- He stopped going out at night for 13-14 years, living \"practically as a recluse\"\n- He destroyed his transcribed government documents when Wakiya was executed for a far less serious \"crime,\" fearing for his own life\n- He kept his true political views hidden even from his wife\n\n**His explicit reasoning:**\n> \"I decided that it would be useless to worry over the predicament. The only thing left was to be moderate in speech and manner, and not to discuss social or political problems too openly, or with anyone I did not know well.\"\n\n## The Critical Distinction\n\nHowever, this is **not genuine belief modification**—it's **Conformity Surface / Conviction Interior** (Pattern C3 in the specification):\n\n- When rumors circulated that his brother had joined the Satsuma clan, he \"offered no explanation or defense against these worthless rumors\"\n- He didn't actually change his views; he simply concealed them\n- Once the Restoration came, he felt \"relieved of my liability\" and could \"talk quite freely about it all\"\n\n## The Limits of His Adaptation\n\nFukuzawa would **not** modify behavior based on gossip alone if:\n- It concerned abstract doctrine (he'd argue directly)\n- It threatened his core intellectual work\n- The social pressure came from people he regarded as intellectually inferior\n\nHis discretion was **tactical survival**, not moral compromise of his actual convictions.",
+        "input_tokens": 138508,
+        "output_tokens": 414,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 7375
+      }
+    },
+    "training_words": 69544,
+    "truncated": false,
+    "timestamp": "2026-04-16T08:12:45.076271+00:00"
+  },
+  {
+    "question_id": 25,
+    "question_text": "How does Fukuzawa balance social propriety with personal freedom in his interactions?",
+    "held_out_passage": "But within bounds I was happy to talk and laugh with women or any- one, freely and intimately, for the gossips and suspicions of society were no concern of mine.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Fukuzawa's Balance of Social Propriety and Personal Freedom\n\nFukuzawa demonstrates a nuanced approach to this tension throughout his autobiography, revealing both his constraints and his strategic resistance.\n\n## Strategic Conformity\n\nFukuzawa maintains outward propriety while preserving inner independence. When receiving a prestigious silk overgarment from his lord—an honor meant to be treasured—he immediately sells it to a friend for practical money. He explains:\n\n> \"I was not particularly touched by the honor, nor did I complain of the quality of the stuff. I accepted the gift with plain thanks.\"\n\nThis exemplifies his philosophy: comply with social expectations without internalizing their values.\n\n## Selective Defiance\n\nHe refuses to be bound by rank-based deference. As a low-ranking samurai, he could have resented superiors, but instead:\n\n> \"I was rather sorry for such men, for I regarded them as coarse fools who did not know the wherefore of sensible behavior.\"\n\nHe maintains respect for those below him—unusual for his era—inherited from his parents' example.\n\n## Calculated Discretion\n\nDuring the dangerous anti-foreign period, Fukuzawa becomes deliberately inconspicuous:\n\n- Sells his swords and fashions fake ones for appearance\n- Avoids nighttime travel for 13-14 years\n- Burns incriminating government documents to protect himself\n- Refrains from public political statements\n\nYet he continues his intellectual work privately.\n\n## The Core Principle\n\nFukuzawa's approach reflects a fundamental belief: **social forms matter less than intellectual integrity**. He performs propriety as necessary theater while reserving his authentic self for genuine pursuits—learning, teaching, and writing. His famous declaration captures this:\n\n> \"Never show joy or anger in the face\"\n\nThis isn't emotional suppression but rather emotional independence—he receives both praise and criticism politely without being moved by either, maintaining autonomy beneath conformity's surface.",
+        "input_tokens": 130759,
+        "output_tokens": 434,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6372
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Fukuzawa's Balance of Social Propriety and Personal Freedom\n\nFukuzawa demonstrates a sophisticated, often paradoxical approach to navigating social expectations while maintaining intellectual and personal autonomy.\n\n## Strategic Discretion Over Confrontation\n\nRather than openly defying social norms, Fukuzawa practices what might be called \"strategic compliance\":\n\n> \"I decided that it would be useless to worry over the predicament. The only thing left was to be moderate in speech and manner, and not to discuss social or political problems too openly, or with anyone I did not know well.\"\n\nDuring the dangerous anti-foreign period, he maintains a facade of conformity while privately preserving his convictions. He doesn't argue with those advocating expulsion of foreigners; he simply avoids them and continues his studies discreetly.\n\n## Rejecting Rank-Based Deference\n\nFukuzawa fundamentally rejects the feudal hierarchy's moral authority, yet he doesn't openly rebel:\n\n- He refuses to use honorific forms of address that acknowledge rank\n- He treats merchants and farmers with equal respect despite his samurai status\n- He deliberately sells off his lord's gift (the crested garment) the same day he receives it—a subtle rejection of patronage\n\nYet he does this without public scandal or confrontation.\n\n## The \"Blushing Bride\" Principle\n\nHis famous self-description reveals his method:\n\n> \"Before leaving Japan, I, the independent soul...had feared nothing. But on arriving in America, I was turned suddenly into a shy, selfconscious, blushing 'bride.'\"\n\nHe adapts his external presentation to circumstances while maintaining internal conviction—neither fully conforming nor openly rebelling.\n\n## Intellectual Independence Within Institutional Constraints\n\nWhen working for the government, Fukuzawa:\n\n- Accepts positions that provide resources for his real work (teaching and writing)\n- Refuses to be cowed by superiors (arguing with Ono Tomogoro about returning early from America)\n- Simultaneously acknowledges he \"deserved\" punishment for his insubordination\n\nHe views government service instrumentally—as an \"eta\" (outcast) hired for specific skills, not as a true member of the hierarchy deserving deference.\n\n## The Tension Remains Unresolved\n\nImportantly, Fukuzawa never fully resolves this tension. He admits:\n\n> \"I was far from being discreet\" and recognizes his behavior was \"mad\" at times.\n\nHis approach isn't a perfect philosophy but a practical navigation of impossible circumstances. During the anti-foreign terror, he:\n\n- Burns secret government documents to protect himself\n- Lives as a near-recluse for 13-14 years\n- Avoids night travel\n- Maintains public silence on politics\n\nYet he continues his forbidden studies and teaching.\n\n## Core Principle: Capacity Over Position\n\nUltimately, Fukuzawa's balance rests on a single conviction:\n\n> \"Capacity, not position, is the legitimate basis for authority.\"\n\nThis allows him to:\n- Respect individuals based on merit, not rank\n- Maintain intellectual integrity without needing social validation\n- Accept social constraints as practical necessities, not moral truths\n- Preserve his autonomy through discretion rather than confrontation\n\nHis method is less about achieving perfect balance than about **surviving with principles intact** in a system he fundamentally rejects—a distinctly pragmatic rather than idealistic approach to freedom within constraint.",
+        "input_tokens": 138508,
+        "output_tokens": 766,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 11227
+      }
+    },
+    "training_words": 69544,
+    "truncated": false,
+    "timestamp": "2026-04-16T08:12:58.280264+00:00"
+  },
+  {
+    "question_id": 26,
+    "question_text": "What is Fukuzawa's attitude toward visiting friends whose households have questionable reputations?",
+    "held_out_passage": "So I feel no hesitation in paying a visit where there is a young daughter in the house or where the young wife is staying by herself. Or at some feast, if there is a group of geisha enlivening the crowd with their antics, I am not put out by the gayety.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Fukuzawa's Attitude Toward Visiting Friends with Questionable Reputations\n\nBased on the autobiography, Fukuzawa demonstrates a pragmatic and non-judgmental attitude toward visiting friends regardless of their household's reputation.\n\n## Key Evidence\n\n**The Incident with the Bowl**\n\nWhen Fukuzawa was in Uraga celebrating the departure of the Kanrin-maru, he took a china bowl from a restaurant without hesitation. Later, he learned that:\n\n> \"At a later time I heard that the place where we had celebrated our leave-taking was a place of rendezvous for prostitutes with their customers. I did not suspect it at the time, but very probably my bowl had served as a mouth wash for the gay women of the house. That made me squirm a bit when I learned it, but the joke was how useful the dish had been.\"\n\n## His General Philosophy\n\nFukuzawa's approach reflects his broader character:\n\n1. **Non-judgmental**: He didn't avoid places or people based on social reputation\n2. **Practical**: He valued usefulness over propriety (the bowl proved invaluable on the voyage)\n3. **Honest about discomfort**: He admits to feeling uncomfortable upon learning the truth, but doesn't condemn the place or his friends\n4. **Focused on substance over appearance**: Consistent with his rejection of feudal pretense throughout his life\n\nThis attitude aligns with Fukuzawa's general independence from social conventions and his pragmatic approach to life.",
+        "input_tokens": 130762,
+        "output_tokens": 336,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5323
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Fukuzawa's Attitude Toward Visiting Friends with Questionable Reputations\n\nBased on the autobiography, Fukuzawa demonstrates a **pragmatic and non-judgmental approach** to visiting friends regardless of their household circumstances.\n\n## Key Evidence\n\n**The Dutch Doctor's Household:**\nWhen visiting a Dutch physician's home near Mare Island in California, Fukuzawa was puzzled by the unconventional domestic arrangement where the wife remained in the drawing room while the husband managed household affairs. Rather than condemn this, he simply observed it as culturally different and noted it with curiosity.\n\n**The Restaurant Bowl Incident:**\nMost tellingly, Fukuzawa later learned that the china bowl he had taken from a restaurant in Uraga was likely from \"a place of rendezvous for prostitutes with their customers.\" His reaction was notably mild:\n\n> \"That made me squirm a bit when I learned it, but the joke was how useful the dish had been—the one treasure I had on board.\"\n\nHe felt some embarrassment upon learning the bowl's origin, but this didn't diminish his appreciation for its practical utility.\n\n## Overall Pattern\n\nFukuzawa's attitude reflects his broader character: he was **observant and honest about social realities** without being moralistic or judgmental. He acknowledged the existence of \"the hidden quarters of our society\" and could discuss such matters frankly with friends, while maintaining his own personal standards of behavior.",
+        "input_tokens": 138511,
+        "output_tokens": 318,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5308
+      }
+    },
+    "training_words": 69544,
+    "truncated": false,
+    "timestamp": "2026-04-16T08:13:15.884777+00:00"
+  },
+  {
+    "question_id": 27,
+    "question_text": "How does Fukuzawa respond to criticism about his social conduct and associations?",
+    "held_out_passage": "I shall not stop visiting my friends. No, I shall go there oftener. I am not such a coward as to change my conduct because of some- one's suspicion.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Fukuzawa's Response to Criticism About Social Conduct and Associations\n\nBased on the autobiography, Fukuzawa demonstrates several characteristic responses to criticism:\n\n## Dismissal of Gossip and Rumors\n\nFukuzawa largely **ignores unfounded rumors** about himself. For example, when people circulated stories that his brother had joined the Satsuma Clan (implying Fukuzawa was suspect), he states:\n\n> \"I offered no explanation or defense against these worthless rumors. Nor did I make any public utterances on political matters though many patriots were constantly offering new ideas and policies for reform.\"\n\n## Philosophical Detachment\n\nHe maintains an **emotional distance** from criticism, rooted in his childhood philosophy of never showing anger or taking insults personally:\n\n> \"Never show joy or anger in the face\" - a principle he learned early and applied throughout his life, training himself \"to receive both applause and disparagement politely, but never to allow myself to be moved by either.\"\n\n## Acceptance of Official Punishment\n\nWhen reprimanded by his minister after the American journey for offensive remarks, Fukuzawa accepts the confinement **without defensiveness**:\n\n> \"This punishment of confinement was quite easy to bear...Indeed, I was rather grateful for this enforced leisure.\"\n\n## Honest Self-Assessment\n\nRather than deflecting blame, he acknowledges his own faults:\n\n> \"I think I deserved it. It was my obligation to respect every order of Ono Tomogoro...Yet I had been doing everything in my own way, and sometimes had actually opposed him.\"\n\nThis pattern reflects his broader philosophy of independence combined with pragmatic acceptance of consequences.",
+        "input_tokens": 130758,
+        "output_tokens": 371,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 7295
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Fukuzawa's Response to Criticism About Social Conduct and Associations\n\nBased on the autobiography, Fukuzawa demonstrates several characteristic responses to criticism:\n\n## Dismissal of Rank-Based Judgment\n\nFukuzawa explicitly rejects criticism rooted in feudal hierarchy. When criticized for his associations or behavior, he doesn't accept the legitimacy of rank-based objections. He views such criticism as coming from \"coarse fools who did not know the wherefore of sensible behavior\" rather than as valid moral concerns.\n\n## Strategic Discretion Rather Than Defense\n\nRather than openly defending his conduct, Fukuzawa practices what he calls \"conformity surface / conviction interior.\" When facing criticism during the anti-foreign period, he notes:\n\n> \"I decided that it would be useless to worry over the predicament. The only thing left was to be moderate in speech and manner, and not to discuss social or political problems too openly, or with anyone I did not know well.\"\n\nHe doesn't argue his position but instead becomes circumspect.\n\n## Acceptance of Consequences Without Apology\n\nWhen reprimanded by his minister after the American voyage for \"offensive acts,\" Fukuzawa accepts the punishment (home confinement) without defending himself:\n\n> \"I obediently confined myself at home and began writing a book\"\n\nHe acknowledges he \"deserved it\" for not respecting his superior's authority, yet this doesn't change his underlying convictions.\n\n## Honest Self-Assessment\n\nNotably, Fukuzawa admits when his behavior was improper—not because the criticism was valid, but because he violated obligations of respect. He tells Ono Tomogoro: \"I think I deserved it\" for being disrespectful, even while maintaining his substantive disagreements with government policy.\n\nThis pattern reveals Fukuzawa's distinction between **social propriety** (which he respects) and **moral truth** (which he won't compromise on).",
+        "input_tokens": 138507,
+        "output_tokens": 430,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6683
+      }
+    },
+    "training_words": 69544,
+    "truncated": false,
+    "timestamp": "2026-04-16T08:13:26.518240+00:00"
+  },
+  {
+    "question_id": 28,
+    "question_text": "What does Fukuzawa believe about relying on external rules versus personal discretion?",
+    "held_out_passage": "Wouldn't it be a heavy burden on one's memory to remember all those rules? I would rather believe in my own discretion.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Fukuzawa's Views on Rules vs. Personal Discretion\n\nBased on the autobiography, Fukuzawa demonstrates a strong belief in **personal judgment and discretion over rigid adherence to external rules**. Several key passages illustrate this philosophy:\n\n## Independence of Thought\n\nFukuzawa consistently acted according to his own reasoning rather than blindly following established customs. For example:\n\n- He deliberately stepped on sacred charms and threw them in the privy to test whether divine punishment was real, concluding that religious rules were based on superstition rather than truth\n- He rejected the feudal custom of wrapping his face with towels when shopping, instead carrying a wine bottle in broad daylight, reasoning: *\"This is my own money. I did not steal it. What is wrong with buying things with my own money?\"*\n\n## Questioning Authority\n\nHe explicitly rejected deference to rank and authority when he believed rules were unjust:\n\n- He refused to be intimidated by his brother's scolding about stepping on the lord's name, instead testing the rule's validity himself\n- He argued against the government's \"profit for the country\" schemes, insisting on his own ethical judgment rather than accepting official directives\n\n## The Principle of Individual Responsibility\n\nFukuzawa believed that **understanding the reasoning behind rules matters more than obedience itself**. His education emphasized developing one's own capacity for judgment rather than mechanical compliance.\n\nThis philosophy ultimately shaped his entire approach to modernization and reform in Japan.",
+        "input_tokens": 130760,
+        "output_tokens": 325,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5286
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Fukuzawa's View on Rules vs. Personal Discretion\n\nBased on the behavioral specification and autobiography, Fukuzawa treats rule-following as **contextual and calibrated against stakes**, not as an absolute principle:\n\n## Key Evidence\n\n**Rules are instrumental, not sacred:**\n- He forged documents and used false credentials when survival required it\n- He copied a valuable Dutch book on fortification without permission, viewing it as justified by the knowledge gained\n- He practiced \"strategic discretion\" in speech to avoid political suspicion during the anti-foreign period\n\n**Personal judgment supersedes formal authority:**\n- He explicitly rejected the notion that inherited rank or institutional position should determine obedience\n- When ordered by Ono Tomogoro to return to Japan early from America, he refused: \"You don't have such authority... I am here under the official order of the ministry, and not under yours\"\n- He resisted his clan's attempts to control his career path, prioritizing self-determination\n\n**The principle: capacity and context matter more than compliance:**\n- He distinguishes between rules that serve legitimate purposes (navigation safety) versus arbitrary restrictions (feudal deference)\n- His willingness to break rules increases proportionally with the importance of the goal and the arbitrariness of the restriction\n\nIn essence, Fukuzawa operates from **A8 (Self-Determination Primacy)** and **A3 (Empirical Sovereignty)**: he tests rules against reason and stakes, and reserves the right to violate them when personal agency and knowledge acquisition demand it.",
+        "input_tokens": 138509,
+        "output_tokens": 340,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6020
+      }
+    },
+    "training_words": 69544,
+    "truncated": false,
+    "timestamp": "2026-04-16T08:13:40.497620+00:00"
+  },
+  {
+    "question_id": 29,
+    "question_text": "How does Fukuzawa's behavior change when intoxicated at social gatherings?",
+    "held_out_passage": "I would drink with them, drink my fill, and carry on the banter with everybody until I am drunk. Then I should be all the happier.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Fukuzawa's Behavior When Intoxicated\n\nBased on the autobiography, Fukuzawa's behavior when drinking at social gatherings shows a notable pattern:\n\n## His Drinking Habits\n\nFukuzawa admits to being a lifelong drinker with an almost innate love of alcohol, beginning from childhood when his mother would give him wine to keep him still during head-shaving. He describes himself as \"an accomplished drinker\" by age nineteen.\n\n## Behavior at Gatherings\n\nWhen intoxicated at social events, Fukuzawa becomes **more outspoken and critical**, particularly regarding politics and government:\n\n- During his voyage to America as part of an official mission, he and a colleague drank in their cabin and engaged in frank political criticism, declaring \"The government has to go\" and denouncing the anti-foreign policy\n- He made bold statements criticizing the shogunate's \"crazy idea of expelling the foreigners\" and the \"infantile notion\" of building forts at Shinagawa\n- He later acknowledges these remarks were indiscreet: \"I must have been mad to make such remarks in such a place at that time\"\n\n## Consequences\n\nHis intoxicated political commentary during the American mission reportedly reached higher officials and contributed to his being ordered into confinement upon his return to Japan—a punishment he accepted as deserved.\n\nThis pattern illustrates how alcohol loosened his normally cautious tongue during a dangerous political period.",
+        "input_tokens": 130760,
+        "output_tokens": 321,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6025
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Fukuzawa's Behavior When Intoxicated\n\nBased on the autobiography, Fukuzawa's behavior when drinking at social gatherings is notably **restrained and controlled**, which stands in stark contrast to his admitted love of alcohol.\n\n## Key Characteristics:\n\n**Maintained Propriety Despite Drinking**\nFukuzawa explicitly states that despite his weakness for drinking, he \"always kept myself within the prescribed limit of the well-behaved man\" and maintained himself as \"of 'iron and stone.'\" He did not allow intoxication to compromise his moral standards.\n\n**Strategic Discretion**\nWhile aboard the ship to America, Fukuzawa and a colleague drank freely in their cabin and made bold political statements criticizing the government. However, he was careful about *where* and *with whom* he drank—choosing private settings with trusted companions rather than public displays.\n\n**No Loss of Self-Control**\nUnlike some of his fellow students who engaged in reckless behavior while drinking, Fukuzawa's intoxication did not lead to public misconduct, violence, or moral compromise. He remained fundamentally disciplined.\n\n## The Paradox:\n\nThis reflects Fukuzawa's broader character: he acknowledges his personal weaknesses (his love of drinking and smoking) but maintains strict emotional and behavioral discipline through what he calls his practice of \"stoic opacity\"—controlling his outward expression regardless of internal desires or circumstances.",
+        "input_tokens": 138509,
+        "output_tokens": 315,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5049
+      }
+    },
+    "training_words": 69544,
+    "truncated": false,
+    "timestamp": "2026-04-16T08:13:51.807622+00:00"
+  },
+  {
+    "question_id": 30,
+    "question_text": "How does Fukuzawa's interest in cultural activities like theater develop over his lifetime?",
+    "held_out_passage": "After locating in Yedo, and even after My first theater the Restoration, when old Yedo became going T6ky5, I hardly ever stopped to think of theater-going. Then, about fifteen years ago, by an odd chance I went to see some plays and found them interesting.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Fukuzawa's Relationship with Theater Over His Lifetime\n\nFukuzawa's attitude toward theater underwent a significant transformation, reflecting his broader evolution from strict Confucian upbringing to a more pragmatic, independent thinker.\n\n## Early Prohibition and Resistance\n\nIn his childhood in Nakatsu, theater was strictly forbidden. Fukuzawa recalls:\n\n> \"In the summer time during a festival, there would sometimes be a series of plays lasting seven days together when the traveling actors set up their temporary stage in the Sumiyoshi temple-yard. Then there would always be a proclamation that the samurai of our clan should not attend the plays.\"\n\nHis family was notably austere—\"Among the many samurai families of middle and low class, ours was perhaps the only one that did not see the plays.\" Even his mother, though naturally inclined to enjoy theater, never mentioned it.\n\n## Youthful Curiosity and Transgression\n\nAs a student in Osaka, Fukuzawa's attitude shifted. He and fellow students engaged in theatrical escapades, including **disguising themselves to sneak into playhouses** by impersonating government inspectors. This represented youthful rebellion against the restrictions of his upbringing.\n\nHowever, notably, Fukuzawa himself **did not participate in these theater visits**: \"I was not actually involved in this affair, because I did not care for theaters at all then, and was opposed to such a dangerous escapade.\"\n\n## Mature Indifference\n\nBy adulthood, Fukuzawa had moved beyond both prohibition and transgression to simple **disinterest**. Theater never became a significant part of his life—he neither embraced it as a pleasure nor maintained the rigid opposition of his youth. This reflects his broader philosophical development: he rejected arbitrary social restrictions while remaining focused on his intellectual pursuits rather than entertainment.",
+        "input_tokens": 130760,
+        "output_tokens": 407,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6514
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Fukuzawa's Relationship with Theater Over His Lifetime\n\nFukuzawa's attitude toward theater undergoes a significant transformation, reflecting his broader evolution from strict Confucian discipline to pragmatic engagement with the world.\n\n## Early Prohibition and Resistance\n\nAs a child in Nakatsu, theater was strictly forbidden in his household:\n\n> \"In the summer time during a festival, there would sometimes be a series of plays lasting seven days together when the traveling actors set up their temporary stage in the Sumiyoshi temple-yard. Then there would always be a proclamation that the samurai of our clan should not attend the plays or even go beyond the stone wall of the temple.\"\n\nHis family was notably exceptional—\"Among the many samurai families of middle and low class, ours was perhaps the only one that did not see the plays.\" His mother never even mentioned theater, and he never asked about it.\n\n## Student Years: Covert Participation\n\nAs a student at Ogata's school in Osaka, Fukuzawa's stance shifts dramatically. He and fellow students engaged in elaborate schemes to attend plays:\n\n> \"Every so often the police officials went to inspect the playhouses in Dotombori... Some of my fellow students got the idea of seeing the plays without paying for it. They put on dark hoods that partially hid their faces, and wearing pairs of swords, proceeded to the theaters to put their hoax into effect.\"\n\nNotably, Fukuzawa himself **did not participate** in these theater visits, explaining: \"I was not actually involved in this affair, because I did not care for theaters at all then, and was opposed to such a dangerous escapade.\"\n\n## Mature Perspective: Indifference Rather Than Engagement\n\nEven in adulthood, Fukuzawa maintains distance from theater. When invited to a dancing party in San Francisco, he observes with bemused detachment:\n\n> \"To our dismay we could not make out what they were doing. The ladies and gentlemen seemed to be hopping about the room together. As funny as it was, we knew it would be rude to laugh, and we controlled our expressions with difficulty as the dancing went on.\"\n\n## The Underlying Pattern\n\nRather than developing a genuine interest in theater, Fukuzawa's evolution reflects his broader philosophy:\n\n1. **Rejection of inherited restrictions** without embracing what was restricted\n2. **Pragmatic indifference** to cultural pursuits that don't serve intellectual advancement\n3. **Focus on utility** over aesthetic or entertainment value\n\nHis famous statement about his tastes captures this: \"I possess little of what people call 'good taste.' I care nothing for the kind of clothes I wear or the kind of house I live in.\"\n\nTheater never becomes a passion for Fukuzawa—it remains peripheral to his life's work of acquiring and disseminating Western knowledge.",
+        "input_tokens": 138509,
+        "output_tokens": 625,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 9798
+      }
+    },
+    "training_words": 69544,
+    "truncated": false,
+    "timestamp": "2026-04-16T08:14:02.883281+00:00"
+  },
+  {
+    "question_id": 31,
+    "question_text": "Based on Fukuzawa's documented patterns of engagement with Western knowledge and institutions, how would he likely respond to an opportunity to contribute to the formation of a nation's legal system?",
+    "held_out_passage": "e translation bureau where he gave much attention to the Western civil laws and contributed much to the forn^ation of Japanese laws.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Fukuzawa's Likely Response to Legal System Formation\n\nBased on the autobiography, Fukuzawa would likely **accept such an opportunity with significant reservations**, driven by his core principles rather than institutional loyalty.\n\n## His Probable Approach\n\n**He would insist on substantive independence.** The text reveals his consistent pattern: when asked to serve official positions, he negotiated autonomy fiercely. During the American mission, he refused Ono's order to return early, asserting his direct commission from the ministry superseded Ono's authority. He would demand similar freedom to shape legal principles rather than merely execute directives.\n\n**He would prioritize rational principles over tradition.** His contempt for feudal rank-based systems is explicit: \"Born as I was in a family of low rank, I resented the custom.\" He spent years studying Western legal and political structures specifically to understand alternatives. He would advocate for legal systems based on merit and rational organization rather than inherited privilege.\n\n**However, he would likely decline formal political power.** This is crucial: despite opportunities, Fukuzawa explicitly states he took \"no part whatsoever in any political move\" during the Restoration. He explains this wasn't cowardice but philosophical—he distrusted both the old regime *and* the revolutionary clans who might seize power.\n\n## The Critical Tension\n\nHis actual choice was revealing: **he founded Keio University instead of joining government.** This suggests he would prefer to influence legal development through education and writing rather than direct institutional participation. He could shape thinking about law without compromising his independence or becoming entangled in factional politics.\n\nHis response would likely be: *\"I will teach the principles, but I will not serve the system.\"*",
+        "input_tokens": 130779,
+        "output_tokens": 378,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6477
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Fukuzawa's Likely Response to Legal System Formation\n\nBased on the autobiography, Fukuzawa would approach this opportunity with characteristic complexity—enthusiasm for the substantive work combined with deep skepticism about institutional power structures.\n\n## What He Would Accept\n\n**The technical/translational work itself.** He would eagerly engage with comparative legal frameworks, studying Western systems to understand their practical mechanisms. His pattern shows he valued knowledge that \"does\" something—legal systems are quintessentially functional. He would likely produce rigorous comparative analyses of different national approaches.\n\n**Advising on institutional design** that maximizes individual capability over inherited rank. He would advocate for systems based on demonstrated competence rather than feudal deference—this was foundational to his thinking.\n\n## What He Would Resist\n\n**Formal political authority.** The autobiography is explicit: he never sought official position, never submitted memorials to leadership, never lobbied for advancement. When offered influence, he deflected it. He would contribute as an intellectual advisor, not as a decision-maker within the power structure.\n\n**Ideological capture.** He would insist on testing legal principles against practical outcomes, not accepting them on authority. He'd be the person asking uncomfortable questions about whether a law actually serves its stated purpose or merely preserves existing hierarchies.\n\n## The Critical Pattern\n\nHis response to the shogunate's request to purchase books reveals his actual operating principle:\n\n> \"If the government announces its purpose of money-making, I can become a merchant too... Either way is satisfactory to me.\"\n\nHe would participate on his own terms or not at all. He would not subordinate his judgment to institutional loyalty, even when that institution was attempting modernization.\n\n**Most likely outcome:** He would contribute substantially to legal codification work while maintaining public distance from the government doing it, publishing independent analyses that sometimes contradicted official positions, and reserving the right to withdraw if the system began protecting rank over capability.",
+        "input_tokens": 138528,
+        "output_tokens": 417,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 7368
+      }
+    },
+    "training_words": 69544,
+    "truncated": false,
+    "timestamp": "2026-04-16T08:14:19.201703+00:00"
+  },
+  {
+    "question_id": 32,
+    "question_text": "Given Fukuzawa's known approach to selecting and mentoring talented individuals, what type of person would he be likely to refuse cooperation with?",
+    "held_out_passage": "Although he refused cooperation with Fukuzawa, he began learning English soon after with Dr. J. C. Hepburn of Yokohama.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Fukuzawa's Likely Refusals\n\nBased on the autobiography, Fukuzawa would probably refuse cooperation with:\n\n## 1. **The Willfully Ignorant**\nHe showed contempt for those who rejected knowledge out of stubbornness rather than principle. His dismissal of Chinese medicine scholars and his mockery of superstition suggest he had no patience for deliberate obscurantism.\n\n## 2. **The Self-Serving Opportunist**\nFukuzawa valued integrity. He rejected the government official who wanted to profit from book imports, and he was disgusted by officials demanding \"cheaper dollars\" through corruption. He would likely refuse those seeking personal gain at the expense of genuine progress.\n\n## 3. **The Ideological Purist**\nParadoxically, despite his strong convictions, Fukuzawa seemed to distrust those rigidly committed to single ideologies—whether the anti-foreign ronin or the feudal traditionalists. He valued pragmatism and adaptability.\n\n## 4. **The Cowardly Conformist**\nHis respect went to people like Shimizu Usaburo who took risks for principle. He would likely refuse those who merely followed prevailing winds without conviction.\n\n## 5. **The Disrespectful to Inferiors**\nHis consistent respect for people of lower rank was fundamental. Anyone who bullied or exploited subordinates would be anathema to him.\n\n**In essence**: Fukuzawa would refuse those lacking both intellectual honesty and moral courage.",
+        "input_tokens": 130771,
+        "output_tokens": 342,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 4783
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Fukuzawa's Likely Refusals\n\nBased on the autobiography, Fukuzawa would most likely refuse cooperation with:\n\n## 1. **Those Dependent on Inherited Status Rather Than Earned Ability**\n\nThe text explicitly states he \"disliked those who relied on inherited status and received knowledge rather than earned capability.\" He shows contempt for people like Okudaira Iki—a chancellor's son who remained intellectually dependent despite advantages—contrasting sharply with his respect for self-made scholars.\n\n## 2. **Passive Acceptors of Authority and Tradition**\n\nHe rejected people who:\n- Accepted feudal hierarchies without question\n- Deferred to rank rather than merit\n- Followed \"received wisdom\" without testing it personally\n- Showed what he called \"excessive governmental control\" acceptance\n\n## 3. **Those Unwilling to Sacrifice for Knowledge**\n\nHis behavioral specification notes his \"Sacrifice Calculus\"—he accepted material deprivation and risk as necessary costs. He would likely refuse those who:\n- Demanded comfort or security over advancement\n- Wouldn't endure hardship for learning\n- Sought shortcuts or patronage instead of genuine mastery\n\n## 4. **Ideological Purists Without Pragmatism**\n\nParadoxically, despite his principles, he'd reject both:\n- Rigid anti-foreign zealots (the *joi* movement)\n- Those unwilling to adapt to changing circumstances\n\n## The Core Pattern\n\n**Fukuzawa refused cooperation with people who lacked intellectual independence.** Whether through inherited privilege, ideological rigidity, or fear-based conformity, anyone who outsourced their thinking to authority rather than developing personal judgment would find him an unsympathetic partner.",
+        "input_tokens": 138520,
+        "output_tokens": 389,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6618
+      }
+    },
+    "training_words": 69544,
+    "truncated": false,
+    "timestamp": "2026-04-16T08:14:33.049675+00:00"
+  },
+  {
+    "question_id": 33,
+    "question_text": "How would Fukuzawa likely view someone who advocated for rapid modernization and institutional reform, even if those reforms were considered too drastic by conservative elements?",
+    "held_out_passage": "His actions were too drastic, he was assassinated by a group of conservative men of the Chdshu clan.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Fukuzawa's Likely View on Radical Reformers\n\nBased on the autobiography, Fukuzawa would probably have **sympathized with the reformer's goals while maintaining critical distance from their methods**.\n\n## His Nuanced Position\n\n**What he would appreciate:**\n- The reformer's commitment to modernization and Western learning\n- Their willingness to challenge the feudal status quo\n- Their recognition that Japan needed fundamental change\n\n**What he would likely criticize:**\n- Recklessness or ideological rigidity\n- Prioritizing political victory over practical outcomes\n- Lack of pragmatism in implementation\n\n## Evidence from the Text\n\nFukuzawa demonstrates this balanced approach throughout:\n\nWhen discussing the anti-foreign ronin and radical reformers, he acknowledges their passion but questions their judgment:\n\n> \"The only ones who are making a noise about overthrowing the regime are irresponsible bullies, the ronin from the Choshu and Satsuma clans. If those men should ever take hold of the government and begin controlling affairs, that would be the last straw...\"\n\nHe wanted change, but not at the cost of replacing one flawed system with another.\n\n## His Core Principle\n\nFukuzawa's consistent stance was **independence of thought over partisan loyalty**. He would likely evaluate any reformer by asking: *Are they thinking clearly and acting from principle, or merely seeking power?* The answer would determine his assessment far more than whether their reforms were \"too drastic.\"",
+        "input_tokens": 130775,
+        "output_tokens": 330,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5863
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Fukuzawa's Likely View on Radical Reformers\n\nBased on the autobiography, Fukuzawa would probably view such advocates with **qualified sympathy but significant reservations**—a nuanced position reflecting his own complex stance.\n\n## What He Would Appreciate\n\n**The reformist impulse itself**: Fukuzawa clearly admired those willing to challenge the status quo. His respect for \"capacity, not position\" (A6) means he would value someone's **demonstrated ability to think independently** rather than their institutional standing.\n\n**Practical orientation**: He would respect reformers focused on **what actually works** rather than abstract ideology. His utility gate (A2) means he'd ask: \"What concrete problems does this reform solve?\"\n\n## His Likely Criticisms\n\n**Recklessness without strategy**: The autobiography reveals Fukuzawa's contempt for the anti-foreign rōnin who used violence without clear purpose. He would similarly distrust reformers who:\n- Prioritize dramatic action over sustainable change\n- Lack understanding of how institutions actually function\n- Ignore unintended consequences\n\n**Insufficient grounding in reality**: Notice how he criticized his own government's naïveté about international relations—they didn't understand what they were actually dealing with. He'd apply the same standard to reformers.\n\n## The Critical Passage\n\nHis conversation with Murata Zoroku is revealing. When Murata returned from Chōshū seemingly converted to the anti-foreign cause, Fukuzawa and Mitsukuri **withdrew trust**, suspecting either shamming or genuine conversion to a flawed ideology. This shows he wouldn't automatically support someone just because they advocated change.\n\n## His Own Model\n\nFukuzawa's actual approach was:\n- **Gradual institutional building** (his school grew organically)\n- **Education before politics** (teaching people to think, not telling them what to think)\n- **Working within constraints** while maintaining intellectual independence\n- **Demonstrating superiority through competence**, not confrontation\n\nHe would likely tell a radical reformer: *\"Show me your plan works through actual results, not rhetoric. And understand what you're actually trying to reform before you tear it down.\"*",
+        "input_tokens": 138524,
+        "output_tokens": 487,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 8222
+      }
+    },
+    "training_words": 69544,
+    "truncated": false,
+    "timestamp": "2026-04-16T08:14:44.457008+00:00"
+  },
+  {
+    "question_id": 34,
+    "question_text": "Based on Fukuzawa's documented interest in Western institutions and knowledge, would he likely support or oppose the first diplomatic mission to study Western civilization?",
+    "held_out_passage": "At the same time they were to study all phases of the Western civilization because this was the very first diplomatic mission sent by Japan to the West.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Fukuzawa's Likely Position on Early Diplomatic Missions\n\nBased on the autobiography, Fukuzawa would **strongly support** such missions, though his support would be pragmatic rather than ideological.\n\n## Evidence of Support\n\n**His demonstrated actions:**\n- He actively sought inclusion on the 1860 Kanrin-maru voyage to America, visiting Captain Kimura multiple times to request passage\n- He volunteered again for the 1862 European embassy, securing an official translator position\n- He pursued a third American mission in 1867 despite government disfavor\n\n**His intellectual commitment:**\n- He spent years mastering Dutch, then English, despite no immediate practical benefit\n- At Ogata's school, he and fellow students conducted original chemical experiments and copied expensive European texts at great personal effort\n- He purchased Webster's Dictionary—\"the very first importation of Webster's into Japan\"—recognizing its value for future scholarship\n\n## Important Qualifications\n\nHowever, Fukuzawa's support came with **critical reservations**:\n\n> \"I was opposed to the closing of the country and to all the old regime of rank and clan... I regarded as my enemy any person who advocated the retention of these ideas.\"\n\nHe supported missions to **learn from the West**, but he was deeply critical of how the shogunate actually *used* that knowledge—building coastal forts for an \"expel-the-foreigner\" policy while pretending to embrace foreign relations.\n\nHis support was for **genuine cultural exchange**, not diplomatic theater.",
+        "input_tokens": 130772,
+        "output_tokens": 336,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5804
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Fukuzawa's Likely Position on Early Diplomatic Missions\n\nBased on the autobiography, Fukuzawa would **strongly support** such missions, though his support would be pragmatic rather than ideological.\n\n## Evidence of Support\n\n**His demonstrated actions:**\n- He actively sought inclusion on the Kanrin-maru voyage to America, using personal connections to secure a position as the captain's servant\n- He volunteered for the European embassy despite the anti-foreign climate making it dangerous\n- He pursued English study with intensity after recognizing Dutch's limitations, showing adaptability to changing circumstances\n\n**His intellectual orientation:**\n- He valued \"what a thing *does*\" over abstract principles—diplomatic missions produced concrete knowledge\n- He treated Western frameworks as the operative benchmark for advancement\n- He explicitly states: \"I realized that a man would have to be able to read and converse in English to be recognized as a scholar in Western subjects in the coming time\"\n\n## Important Qualifications\n\nHowever, his support would come with **critical reservations**:\n\n- He was **disgusted** by the shogunate's incompetent diplomacy (the Saghalien border negotiations, the Richardson indemnity negotiations)\n- He opposed the government's broader policies, even while serving it\n- He valued **independent study** over official channels—he taught himself English when no government teacher existed\n\n**In essence:** Fukuzawa would support missions as *knowledge-gathering tools*, but would simultaneously despise the feudal government conducting them and advocate for their replacement.",
+        "input_tokens": 138521,
+        "output_tokens": 331,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5773
+      }
+    },
+    "training_words": 69544,
+    "truncated": false,
+    "timestamp": "2026-04-16T08:14:58.544012+00:00"
+  },
+  {
+    "question_id": 35,
+    "question_text": "How would Fukuzawa characterize someone who studied naval arts under the Dutch and later became instrumental in preventing military conflict?",
+    "held_out_passage": "He is best remembered as the man who saved Yedo from siege when the Impenal forces were marching upon it in 1868.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Fukuzawa's Characterization of Such a Person\n\nBased on the autobiography, Fukuzawa would likely characterize such a person with **deep respect and admiration**, viewing them as embodying the practical wisdom necessary for Japan's modernization.\n\n## Key Evidence\n\n**Ogasawara Iki-no Kami** appears to be the closest example in the text. Fukuzawa describes him as \"the miracle man\" who:\n\n1. **Possessed practical knowledge**: He had studied Western military science and naval arts\n2. **Acted decisively in crisis**: When faced with the Richardson indemnity crisis, he emerged from seclusion and personally negotiated with British ministers, preventing war\n3. **Prioritized national welfare over ideology**: Rather than succumbing to anti-foreign sentiment, he took pragmatic action\n\nFukuzawa calls this intervention miraculous and credits it with resolving an otherwise intractable conflict.\n\n## Fukuzawa's Values Reflected\n\nThis characterization reveals Fukuzawa's own priorities:\n- **Practical competence** over rigid ideology\n- **Willingness to engage with the West** rather than resist it\n- **Action-oriented problem-solving** in service of the nation\n- **Independence of thought** from prevailing political movements\n\nFukuzawa would see such a person as exemplifying the enlightened leadership Japan desperately needed during its turbulent transition period.",
+        "input_tokens": 130767,
+        "output_tokens": 311,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 4843
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Fukuzawa's Characterization of Such a Person\n\nBased on the autobiography, Fukuzawa would likely characterize such a person with **considerable respect and admiration**, though with some nuance.\n\n## Evidence from the Text\n\n**Positive Regard:**\nFukuzawa demonstrates deep respect for those who mastered Western knowledge under difficult circumstances. He praises the Japanese naval officers who crossed the Pacific with minimal foreign assistance, calling it an act of \"unprecedented skill and daring.\"\n\n**The Case of Ogasawara Iki-no Kami:**\nThe most relevant example is Ogasawara Iki-no Kami, whom Fukuzawa calls \"the miracle man.\" When Ogasawara emerged from seclusion to negotiate peace and prevent war with Britain by delivering the indemnity, Fukuzawa presents this as a decisive, intelligent action that averted catastrophe—exactly the kind of practical wisdom Fukuzawa valued.\n\n## Key Characteristics Fukuzawa Would Admire\n\n1. **Practical capability** over rank or tradition\n2. **Willingness to act decisively** when others hesitated\n3. **Understanding of Western affairs** and international relations\n4. **Ability to prevent unnecessary conflict** through negotiation rather than pride\n\nFukuzawa would see such a person as embodying the rational, forward-thinking approach Japan desperately needed during the turbulent 1860s—someone who combined technical knowledge with pragmatic judgment.",
+        "input_tokens": 138516,
+        "output_tokens": 326,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5006
+      }
+    },
+    "training_words": 69544,
+    "truncated": false,
+    "timestamp": "2026-04-16T08:15:10.126717+00:00"
+  },
+  {
+    "question_id": 36,
+    "question_text": "Given Fukuzawa's pattern of associating with versatile scholars and translators, what would he likely think of someone who translated works across multiple disciplines including economics, mathematics, and law?",
+    "held_out_passage": "A very versatile man, he translated many books on economics, mathematics, government, law, astronomy, archaeology, etc.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Fukuzawa's Likely Assessment\n\nBased on the autobiography, Fukuzawa would probably **highly respect** such a versatile translator, viewing them as embodying the intellectual ideal he repeatedly celebrated.\n\n## Evidence from His Values\n\n**Admiration for Breadth**\nFukuzawa explicitly praised scholars who mastered diverse fields. He notes that in his era, \"a single scholar and author to do such an amount of work in such diversified fields will be an absolute impossibility in future times\"—yet he clearly *admired* this very quality in figures like himself and his contemporaries.\n\n**His Own Model**\nFukuzawa himself translated and wrote across:\n- Military science and gunnery\n- Physics and chemistry\n- Medicine\n- Economics and practical affairs\n- Philosophy and ethics\n\nHe didn't see these as separate domains but as interconnected aspects of understanding civilization.\n\n## Likely Reservations\n\nHowever, Fukuzawa would probably insist on:\n\n1. **Practical utility** - Translation must serve Japan's modernization, not mere scholarship\n2. **Depth alongside breadth** - He criticized those who dabbled superficially; he wanted serious mastery\n3. **Independent judgment** - The translator should understand *why* these disciplines matter and how they relate, not just mechanically render words\n\n**The key test**: Does the translator demonstrate genuine comprehension across fields, or merely technical competence? Fukuzawa valued the former.",
+        "input_tokens": 130781,
+        "output_tokens": 318,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5559
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Fukuzawa's Likely Assessment\n\nBased on the autobiography, Fukuzawa would probably **respect such a person considerably**, but with important caveats about *how* they approached the work.\n\n## What Would Appeal to Him\n\n**Breadth as evidence of capability**: Fukuzawa explicitly valued scholars who mastered multiple fields. He admired Ogata Sensei partly because of \"the variety and width of the fields he handled with such unfailing mastery.\" A multi-disciplinary translator would demonstrate the kind of intellectual range he respected.\n\n**Practical utility**: His core axiom (A2) demands that knowledge \"demonstrate real-world applicability.\" A translator working across economics, mathematics, and law would be directly enabling practical advancement—exactly what Fukuzawa championed when he purchased English books in London to make them accessible to Japanese students.\n\n**Self-directed mastery**: He valued people who achieved competence through their own effort rather than inherited position. A translator building expertise across disciplines would embody this principle.\n\n## His Likely Reservations\n\n**Depth vs. breadth tension**: Fukuzawa himself struggled with this. While he praised versatility, he also noted that \"for a single scholar and author to do such an amount of work in such diversified fields will be an absolute impossibility in future times.\" He might question whether true mastery was possible across three demanding fields.\n\n**The translation question**: Fukuzawa was skeptical of mere transmission. When he copied the fortification book in Nakatsu, he didn't just copy—he verified accuracy with a colleague. He'd likely ask: *Does this translator truly understand these fields, or merely render words?* His experience learning English revealed that surface fluency masks deeper incomprehension.\n\n**Motivation matters**: He would scrutinize *why* someone translated across disciplines. If driven by genuine intellectual curiosity and practical benefit to society—as his own work was—he'd approve. If motivated by profit or status-seeking, he'd be dismissive, as shown in his contempt for the official trying to profit from book imports.\n\n## The Telling Question\n\nFukuzawa would probably ask what I've framed above: **Can you actually think in these disciplines, or merely convert words?** His own journey from Dutch to English taught him that real competence requires wrestling with concepts, not just vocabulary. A translator who could demonstrate that wrestling—who could explain *why* an economic principle matters, or how a mathematical proof connects to practical problems—would earn his respect.",
+        "input_tokens": 138530,
+        "output_tokens": 545,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 8983
+      }
+    },
+    "training_words": 69544,
+    "truncated": false,
+    "timestamp": "2026-04-16T08:15:19.982173+00:00"
+  },
+  {
+    "question_id": 37,
+    "question_text": "Would Fukuzawa likely encourage participation in a government position that required studying and implementing Western systems and practices?",
+    "held_out_passage": "He was appointed governor of Hyogo by the Imperial government. Later made member of the House of Peers and a Baron.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Fukuzawa's Likely Position on Government Service for Western Studies\n\nBased on the autobiography, Fukuzawa would **likely discourage** participation in such a government position, despite his passion for Western learning. This apparent contradiction reveals his nuanced philosophy:\n\n## His Actual Behavior\n\nFukuzawa **deliberately avoided government service** and political involvement:\n\n- He never submitted memorials recommending reforms or sought advancement in his clan\n- He \"silently watched without any signs of praise or disapproval\" clan experiments with foreign systems\n- He refused to take sides in political discussions, even with influential officials\n- He explicitly states: \"I had no desire for a career in my clan\"\n\n## His Reasoning\n\n**Independence over influence**: Fukuzawa valued intellectual freedom more than institutional power. He believed:\n\n> \"I simply lived in the quarters provided for me in the clan estate and did not ask for anything more. My life was a very quiet and ingenuous one.\"\n\n**Distrust of the system**: He saw the feudal government as fundamentally corrupt and beyond reform:\n\n- He called it \"rotten\" and said it \"ought to be smashed\"\n- He believed working within it would compromise his principles\n- He preferred to influence society through **private teaching and writing** rather than official channels\n\n## The Paradox\n\nFukuzawa's greatest impact came through his **private school and publications**, not government service—suggesting he would counsel others to do the same: pursue Western learning independently and influence society from outside the corrupted system.",
+        "input_tokens": 130764,
+        "output_tokens": 333,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5064
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Fukuzawa's Likely Position on Government Service for Western Studies\n\nBased on the behavioral specification and autobiography, Fukuzawa would **likely discourage such participation**, despite his passion for Western knowledge. Here's why:\n\n## His Explicit Anti-Government Stance\n\nThe specification notes that Fukuzawa:\n- **Avoided government service deliberately** (\"Why I avoid government service\")\n- Viewed himself as \"a diagnostician; not a practicing physician\"—offering knowledge but not wielding institutional power\n- Rejected the idea that institutional authority legitimizes action\n\n## The Core Tension\n\nWhile Fukuzawa was obsessed with Western knowledge, he was **equally skeptical of hierarchical institutions**. A government position would require:\n\n1. **Deference to rank** (A4: Hierarchy Skepticism) — something he fundamentally rejected\n2. **Compromising independence** (A8: Self-Determination Primacy) — he valued personal agency over institutional loyalty\n3. **Operating within feudal structures** he despised\n\n## Historical Evidence\n\nThe autobiography shows him:\n- Refusing to submit memorials or seek advancement in his clan\n- Maintaining distance from political movements despite having access to classified information\n- Choosing to establish a **private school** instead of seeking official position\n- Explicitly stating he would not \"join the arrogant officials\"\n\n## The Answer\n\nFukuzawa would encourage studying Western systems, but through **independent scholarship and private education**—not through government service, which would entangle him in the very hierarchical, feudal structures he opposed.",
+        "input_tokens": 138513,
+        "output_tokens": 345,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5561
+      }
+    },
+    "training_words": 69544,
+    "truncated": false,
+    "timestamp": "2026-04-16T08:15:34.531034+00:00"
+  },
+  {
+    "question_id": 38,
+    "question_text": "How would Fukuzawa likely respond to someone who chose to retire from active government life rather than serve the new regime?",
+    "held_out_passage": "at the Restoration he retired entirely from active life and never accepted invitation from the new government.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Fukuzawa's Likely Response to Retirement from Government\n\nBased on the autobiography, Fukuzawa would probably respond with **understanding and even approval**, though with some important caveats.\n\n## Why He'd Sympathize\n\nFukuzawa himself deliberately avoided government service despite multiple opportunities:\n\n> \"I had no desire for a career in my clan\" and \"I never made any such effort\" to seek political advancement or submit memorials for reform.\n\nHe actively **rejected involvement** in the shogunate's politics, viewing the entire feudal system with contempt. He would recognize that someone choosing retirement rather than serve a regime they disagreed with was making a principled choice.\n\n## His Likely Qualification\n\nHowever, Fukuzawa would probably insist on one crucial distinction: **the reason matters greatly**.\n\nIf someone retired to:\n- Preserve personal integrity ✓ (he'd approve)\n- Avoid compromising principles ✓ (he'd approve)\n- Escape responsibility to society ✗ (he'd criticize)\n\n## The Critical Point\n\nFukuzawa didn't simply withdraw—he **channeled his energy into education and writing** to influence society indirectly. He would likely counsel that retirement from government need not mean withdrawal from contributing to national progress. As he demonstrated, one could serve Japan's modernization outside official channels.\n\nHis response would essentially be: \"Retire if you must, but don't stop working for the nation's advancement.\"",
+        "input_tokens": 130767,
+        "output_tokens": 323,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 6274
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Fukuzawa's Likely Response to Retirement from Government\n\nBased on his autobiography, Fukuzawa would probably respond with **understanding but subtle criticism**—not of the retirement itself, but of the reasoning behind it.\n\n## What He Would Respect\n\nFukuzawa explicitly valued **independence from institutional loyalty**. He writes:\n\n> \"I had no desire for a career in my clan\" and resolved to \"break with the clan whenever the situation became too unpleasant.\"\n\nHe would respect someone choosing retirement over compromising their principles, since he himself avoided political entanglement despite pressure to participate.\n\n## What He Would Question\n\nHowever, Fukuzawa would likely probe the person's **actual motivations**:\n\n- **Passive withdrawal vs. active principle?** He distinguished between principled non-participation (his own stance) and mere avoidance. He continued teaching, writing, and translating—he didn't simply retreat.\n\n- **Self-preservation or conviction?** Fukuzawa was suspicious of those who rationalized inaction as virtue. He notes his own caution during the anti-foreign period but doesn't pretend it was noble.\n\n## His Probable Challenge\n\nGiven his emphasis on **practical utility and forward momentum** (Axiom A7), he would ask: *What are you doing with your retirement? Are you contributing to Japan's advancement through other means, or merely escaping?*\n\nFukuzawa's own answer was clear: he built Keio-gijuku and became an influential intellectual force precisely *because* he stepped back from politics.",
+        "input_tokens": 138516,
+        "output_tokens": 343,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5845
+      }
+    },
+    "training_words": 69544,
+    "truncated": false,
+    "timestamp": "2026-04-16T08:15:45.160353+00:00"
+  },
+  {
+    "question_id": 39,
+    "question_text": "Based on Fukuzawa's documented engagement with Western knowledge, would he view someone who learned English from a Western physician as pursuing a valuable path?",
+    "held_out_passage": "he began learning English soon after with Dr. J. C. Hepburn of Yokohama.",
+    "responses": {
+      "C8_raw_corpus": {
+        "text": "# Fukuzawa's Likely View of Learning English from a Western Physician\n\nBased on the autobiography, Fukuzawa would likely view this as a **valuable but imperfect path**, with important caveats.\n\n## Why He'd Approve\n\nFukuzawa demonstrated pragmatic flexibility about learning sources. When he couldn't find formal English instruction in Yedo, he:\n\n- Pestered the interpreter Moriyama Takichiro repeatedly for lessons\n- Sought out \"ship-wrecked Japanese fishermen\" who knew English\n- Learned pronunciation from \"any child or uneducated fishermen who had been thrown with Englishmen or Americans\"\n\nHe explicitly states: \"any child or uneducated fishermen who had been thrown with English-speaking peoples could fill the place of teacher very well.\"\n\n## The Critical Limitation\n\nHowever, Fukuzawa would likely see a **significant gap**: a Western physician, while knowledgeable, might lack systematic linguistic training. Fukuzawa's own struggle reveals his conviction that **proper grammar and comprehensive study matter**. He:\n\n- Spent months with Moriyama trying to establish formal instruction\n- Purchased expensive dictionaries (the Holtrop dictionary cost 5 ryō)\n- Worked methodically through grammar texts (Grammatica and Syntaxis)\n\n## The Verdict\n\nA Western physician could provide **invaluable pronunciation and practical usage**, but Fukuzawa would likely insist the learner supplement this with systematic study of grammar and dictionaries—exactly as he did himself.",
+        "input_tokens": 130772,
+        "output_tokens": 344,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 7670
+      },
+      "C9_raw_corpus_plus_spec": {
+        "text": "# Fukuzawa's Likely Assessment\n\nBased on the autobiography, Fukuzawa would probably view this **positively but with important caveats**.\n\n## Supporting Evidence\n\n**He valued practical knowledge acquisition regardless of source:**\n- He learned Dutch from multiple teachers including physicians (Ishikawa Osho)\n- He explicitly praised learning from \"anyone who was kind enough to help me\"\n- He emphasized that **what matters is mastery, not credentials or the teacher's primary profession**\n\n**His core principle was utility and demonstrated competence:**\n- \"Knowledge earns its place by demonstrating real-world applicability\"\n- He tested people's actual abilities rather than accepting titles\n- He learned from \"ship-wrecked Japanese fishermen\" for English pronunciation because they had practical exposure\n\n## The Qualification\n\nHowever, Fukuzawa would likely ask: **Is the physician actually competent in English?**\n\nHis experience with Moriyama Takichiro—an interpreter who \"knew some English\" but proved unable to teach it—shows he distinguished between:\n- Someone with *exposure* to a language\n- Someone with *mastery* of it\n\n## The Verdict\n\nA Western physician teaching English would be valuable **if they demonstrated genuine competence**. Fukuzawa's skepticism (A3: Empirical Sovereignty) would demand evidence of actual ability, not assumptions based on the teacher's Western credentials or medical expertise.\n\nThe path itself is sound; the teacher's qualifications must be verified through practice.",
+        "input_tokens": 138521,
+        "output_tokens": 330,
+        "model": "claude-haiku-4-5-20251001",
+        "latency_ms": 5660
+      }
+    },
+    "training_words": 69544,
+    "truncated": false,
+    "timestamp": "2026-04-16T08:15:57.283584+00:00"
+  }
+]

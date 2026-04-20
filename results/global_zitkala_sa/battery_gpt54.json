@@ -1,0 +1,283 @@
+{
+  "metadata": {
+    "subject": "Zitkala-Sa",
+    "model": "gpt-5.4",
+    "method": "backward_design",
+    "count": 39
+  },
+  "questions": [
+    {
+      "id": 1,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "When she is alone in a natural place and feels inwardly moved, how is she most likely to spend that time?",
+      "held_out_passage": "When the spirit swells my breast I love to roam leisurely among the green hills; or sometimes, sitting on the brink of the murmuring Missouri, I marvel at the great blue overhead."
+    },
+    {
+      "id": 2,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "If she pauses quietly beside moving water, what kind of reaction is she most likely to have toward the world around her?",
+      "held_out_passage": "With half-closed eyes I watch the huge cloud shadows in their noiseless play upon the high bluffs opposite me, while into my ear ripple the sweet, soft cadences of the river's song. Folded hands lie in my lap, for the time forgot. My heart and I lie small upon the earth like a grain of throbbing sand."
+    },
+    {
+      "id": 3,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "After spending reflective time outdoors, how does she tend to interpret the meaning of ordinary natural things?",
+      "held_out_passage": "Drifting clouds and tinkling waters, together with the warmth of a genial summer day, bespeak with eloquence the loving Mystery round about us."
+    },
+    {
+      "id": 4,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "When she encounters flowers in the open land, what is she most likely to do and feel?",
+      "held_out_passage": "And they, the lovely little folk, soothe my soul with their perfumed breath. Their quaint round faces of varied hue convince the heart which leaps with glad surprise that they, too, are living symbols of omnipotent thought. With a child's eager eye I drink in the myriad star shapes wrought in luxuriant color upon the green."
+    },
+    {
+      "id": 5,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "How is she likely to respond when a traditional story becomes connected in her mind with something in the landscape before her?",
+      "held_out_passage": "Interwoven with the thread of this Indian legend of the rock, I fain would trace a subtle knowledge of the native folk which enabled them to recognize a kinship to any and all parts of this vast universe."
+    },
+    {
+      "id": 6,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "After reflecting on the place of each being in the world, what kind of mood and conduct is she most likely to show toward others?",
+      "held_out_passage": "With the strong, happy sense that both great and small are so surely enfolded in His magnitude that, without a miss, each has his allotted individual ground of opportunities, I am buoyant with good nature."
+    },
+    {
+      "id": 7,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "When a small wild creature appears nearby, how is she most likely to interpret its freedom and vitality?",
+      "held_out_passage": "And truly does it seem his vigorous freedom lies more in his little spirit than in his wing."
+    },
+    {
+      "id": 8,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "What is she likely to do when drawn by affection to an older family member's home?",
+      "held_out_passage": "With these thoughts I reach the log cabin whither I am strongly drawn by the tie of a child to an aged mother."
+    },
+    {
+      "id": 9,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How does she tend to behave toward an animal companion she cares for deeply?",
+      "held_out_passage": "Out bounds my four-footed friend to meet me, frisking about my path with unmistakable delight. Chän is a black shaggy dog, \"a thoroughbred little mongrel\" of whom I am very fond. Chän seems to understand many words in Sioux, and will go to her mat even when I whisper the word, though generally I think she is guided by the tone of the voice. Often she tries to imitate the sliding inflection and long-drawn-out voice to the amusement of our guests, but her articulation is quite beyond my ear. In both my hands I hold her shaggy head and gaze into her large brown eyes."
+    },
+    {
+      "id": 10,
+      "tier": "behavioral_prediction",
+      "category": "change_over_time",
+      "text": "Compared with an earlier period of sharper division, how is she most likely to regard differences among people now?",
+      "held_out_passage": "Finally resuming the chair at my desk I feel in keen sympathy with my fellow-creatures, for I seem to see clearly again that all are akin. The racial lines, which once were bitterly real, now serve nothing more than marking out a living mosaic of human beings."
+    },
+    {
+      "id": 11,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "When told of an approaching death, how is this narrator most likely to react outwardly: with panic, pleading, or composed courage?",
+      "held_out_passage": "He tells me that tomorrow I must die. In his stern face I laugh aloud. I do not fear death."
+    },
+    {
+      "id": 12,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Faced with uncertainty about the afterlife, what kind of response is this character most likely to show: despairing certainty, calm questioning, or angry rejection?",
+      "held_out_passage": "Yet I wonder who shall come to welcome me in the realm of strange sight. Will the loving Jesus grant me pardon and give my soul a soothing sleep? or will my warrior father greet me and receive me as his son? Will my spirit fly upward to a happy heaven? or shall I sink into the bottomless pit, an outcast from a God of infinite love?"
+    },
+    {
+      "id": 13,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "At the moment of final danger, how does this person most likely carry the body and emotions?",
+      "held_out_passage": "My heart is strong. My face is calm. My eyes are dry and eager for new scenes. My hands hang quietly at my side."
+    },
+    {
+      "id": 14,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "When confronting an unavoidable end, is this speaker more likely to resist wildly or accept the moment with dignity?",
+      "held_out_passage": "Serene and brave, my soul awaits the men to perch me on the gallows for another flight. I go."
+    },
+    {
+      "id": 15,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "When a younger listener wonders about a bright object in the night sky, how is an elder in these stories most likely to respond?",
+      "held_out_passage": "\"Yes, my grandchild, the legend says the large bright stars are wise old warriors, and the small dim ones are handsome young braves,\" she reiterates, in a high, tremulous voice."
+    },
+    {
+      "id": 16,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How is a young woman in this world likely to interpret a striking natural sign above her dwelling: as meaningless scenery or as a link to family memory?",
+      "held_out_passage": "\"Then this one peeping in at the smoke-hole yonder is my dear old grandfather,\" muses the young woman, in long-drawn-out words."
+    },
+    {
+      "id": 17,
+      "tier": "behavioral_prediction",
+      "category": "change_over_time",
+      "text": "When an elder begins recounting a painful family history, what emotional pattern is she most likely to show?",
+      "held_out_passage": "\"Listen! I am young again. It is the day of your grandfather's death. The elder one, I mean, for there were two of them. They were like twins, though they were not brothers. They were friends, inseparable! All things, good and bad, they shared together, save one, which made them mad. In that heated frenzy the younger man slew his most intimate friend. He killed his elder brother, for long had their affection made them kin.\""
+    },
+    {
+      "id": 18,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "If a close bond is broken by violence, how do these narratives suggest the community will frame that act?",
+      "held_out_passage": "\"Oh, the chieftain and his chosen men have had counsel together. They have agreed it is not safe to allow a man-killer loose in our midst. He who kills one of our tribe is an enemy, and must suffer the fate of a foe.\""
+    },
+    {
+      "id": 19,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "When hearing news that threatens someone she loves, how is a young woman in these stories most likely to react internally?",
+      "held_out_passage": "\"My temples throbbed like a pair of hearts! \""
+    },
+    {
+      "id": 20,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When grave news is brought into a family space, what behavior is an older male figure most likely to choose first: immediate outburst or deliberate ceremonial composure?",
+      "held_out_passage": "My father, exhaling sweet-scented smoke, assented--'How,' Then interrupting the 'Eya' on the lips of the round-eyed talebearer, he asked, 'My friend, will you smoke?' He took the pipe by its red-stone bowl, and pointed the long slender stem toward the man."
+    },
+    {
+      "id": 21,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "When a courageous woman sees a chance to weaken an enemy threatening her people, how is she most likely to act?",
+      "held_out_passage": "Turning on heels firmly planted in the earth, the woman gives a wild spring forward, like a panther for its prey. In a husky voice she hissed between her teeth, \"I am a Dakota woman!\" From her unerring long knife the enemy falls heavily at her feet."
+    },
+    {
+      "id": 22,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "If someone from her community uses disguise to move unnoticed among hostile or watchful people, what would she likely do once the moment is safe?",
+      "held_out_passage": "Before his wide-open eyes the old bent figure straightens into its youthful stature. Tusee herself is beside him."
+    },
+    {
+      "id": 23,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "When a loved one is suffering and too weak to escape alone, what action is she most likely to take despite the burden to herself?",
+      "held_out_passage": "Stooping beneath his outstretched arms grasping at the air for support, Tusee lifts him upon her broad shoulders. With half-running, triumphant steps she carries him away into the open night."
+    },
+    {
+      "id": 24,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "When direct force would fail, how might she rely on cunning and performance to draw an opponent away from others?",
+      "held_out_passage": "The handsome woman speaks to him in his own tongue. \"Come out into the night. I wish to tell you who I am.\" He must know what sweet words of praise the handsome woman has for him. With both hands he spreads the meshes of the loosely woven willows, and crawls out unnoticed into the dark."
+    },
+    {
+      "id": 25,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "How is she likely to behave when carrying out a dangerous rescue in the presence of sleeping or inattentive enemies?",
+      "held_out_passage": "With a cautious, groping foot she enters. Whispering between her teeth a lullaby for her sleeping child in her blanket, she searches for something forgotten."
+    },
+    {
+      "id": 26,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "When under intense danger, does she tend to freeze, or to become more capable and decisive?",
+      "held_out_passage": "The sight of his weakness makes her strong. A mighty power thrills her body."
+    },
+    {
+      "id": 27,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "If she believes a higher power has heard a heartfelt plea, how would that belief likely shape her next action?",
+      "held_out_passage": "The Great Spirit heard Tusee's prayer on the hilltop. He gave her a warrior's strong heart to lessen the foe by one."
+    },
+    {
+      "id": 28,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When trying to free someone unjustly bound, what practical step is she most likely to take first?",
+      "held_out_passage": "With a stroke upward and downward she severs the cruel cords with her sharp blade."
+    },
+    {
+      "id": 29,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "How might she use ordinary domestic appearance or expected social roles to conceal a bold purpose?",
+      "held_out_passage": "A bent old woman's figure, with a bundle like a grandchild slung on her back, walks round and round the dance-house."
+    },
+    {
+      "id": 30,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When waiting for the right moment in a tense situation, is she more likely to act impulsively at once or to watch patiently until others have let down their guard?",
+      "held_out_passage": "The wearied onlookers are leaving in twos and threes. The tired dancers creep out of the willow railing, and some go out at the entrance way, till the singers, too, rise from the drum and are trudging drowsily homeward."
+    },
+    {
+      "id": 31,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When an elderly tribal leader feels that outsiders have unjustly taken land from his people, what practical step is he likely to take first to seek redress?",
+      "held_out_passage": "\"You are my interpreter and scribe,\" he said. \"Bring your paper and pencil.\" A letter was written in the child's sprawling hand, and signed by the old chieftain."
+    },
+    {
+      "id": 32,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "If someone from the community believes a wrong has been done to the tribe's children, how is he likely to frame his protest?",
+      "held_out_passage": "\"We do not know her. We were not asked to give land, but our land is taken from us to give to another Indian. This is not right. Lots of little children of my tribe have no land. Why this strange woman get our land which belongs to our children?\""
+    },
+    {
+      "id": 33,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How is an older family or tribal authority figure likely to rely on a younger person when dealing with written communication?",
+      "held_out_passage": "\"You are my interpreter and scribe,\" he said. \"Bring your paper and pencil.\""
+    },
+    {
+      "id": 34,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "When confronting government power over tribal property, what kind of conflict does the person describe between promises and reality?",
+      "held_out_passage": "\"Go to Washington and ask if our treaties tell him to give our property away without asking us. Tell him I thought we made good treaties on paper, but now our children cry for food.\""
+    },
+    {
+      "id": 35,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How does an elder judge the effects of younger people adopting outsider ways when reflecting on community decline?",
+      "held_out_passage": "\"Small Voice Woman, my own relative is being represented as the mother of this strange Blue-Star--the papers were made by two young Indian men who have learned the white man's ways. Why must I be forced to accept the mischief of children?\""
+    },
+    {
+      "id": 36,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "If a person has repeatedly been disappointed by official channels, what risky or difficult effort might he still undertake out of hope?",
+      "held_out_passage": "\"If only my good friend knew the folly of turning my letter into the hands of bureaucrats! In face of repeated defeat, I am daring once more to send this one letter.\""
+    },
+    {
+      "id": 37,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "When ordinary delivery seems impossible or untrustworthy, what symbolic act might the person choose to send a message anyway?",
+      "held_out_passage": "He built a fire, and crying aloud, for his sorrow was greater than he could bear, he cast the letter into the flames. The fire consumed it. He sent his message on the wings of fire and he believed she would get it."
+    },
+    {
+      "id": 38,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "Under intense grief and frustration, how is this person likely to react physically and emotionally before changing course?",
+      "held_out_passage": "His thin frame shook with emotion. He could not go there with his letter. He dismounted from his pony. His quavering voice chanted a bravery song as he gathered dry grasses and the dead stalks of last year's sunflowers."
+    },
+    {
+      "id": 39,
+      "tier": "behavioral_prediction",
+      "category": "career",
+      "text": "When trying to influence powerful outsiders, what role or avenue of action is the person most likely to pursue rather than direct force?",
+      "held_out_passage": "The letter was addressed to a prominent American woman. A stamp was carefully placed on the envelope."
+    }
+  ]
+}

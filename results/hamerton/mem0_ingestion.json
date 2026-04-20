@@ -1,0 +1,16 @@
+{
+  "subject": "hamerton",
+  "system": "mem0",
+  "user_id": "hamerton_run_20260415",
+  "facts_expected": 462,
+  "facts_posted": 462,
+  "post_success": 462,
+  "post_failure": 0,
+  "failed_fact_indices": [],
+  "start_time": "2026-04-15T21:42:37.316317+00:00",
+  "last_successful_index": 461,
+  "end_time": "2026-04-15T21:52:17.480111+00:00",
+  "verification_passed": true,
+  "verification_hits": 10,
+  "verification_total": 10
+}

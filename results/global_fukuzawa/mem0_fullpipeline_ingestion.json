@@ -1,0 +1,13 @@
+{
+  "subject": "fukuzawa",
+  "system": "mem0",
+  "mode": "fullpipeline",
+  "user_id": "fukuzawa_fullpipeline",
+  "chunks_expected": 39,
+  "chunks_posted": 39,
+  "post_success": 41,
+  "post_failure": 1,
+  "start_time": "2026-04-16T06:55:20.323337+00:00",
+  "end_time": "2026-04-16T06:56:13.795192+00:00",
+  "verification_passed": true
+}

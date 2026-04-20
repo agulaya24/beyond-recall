@@ -1,0 +1,13 @@
+{
+  "subject": "cellini",
+  "system": "zep",
+  "mode": "fullpipeline",
+  "user_id": "cellini_fullpipeline",
+  "chunks_expected": 313,
+  "chunks_posted": 313,
+  "post_success": 313,
+  "post_failure": 0,
+  "start_time": "2026-04-16T07:22:27.007136+00:00",
+  "end_time": "2026-04-16T07:30:31.229257+00:00",
+  "verification_passed": true
+}

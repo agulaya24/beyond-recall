@@ -1,0 +1,283 @@
+{
+  "metadata": {
+    "subject": "Georg Ebers",
+    "model": "gpt-5.4",
+    "method": "backward_design",
+    "count": 39
+  },
+  "questions": [
+    {
+      "id": 1,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When trying to persuade a principled young man to join an educational cause, how would he most likely proceed: by direct pressure, or by patiently creating experiences that let the other person decide inwardly?",
+      "held_out_passage": "He did so, and the “diplomacy” with which Froebel succeeded in changing the decision of the resolute young man and gaining him over to his own interests, is really remarkable."
+    },
+    {
+      "id": 2,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How would he likely react when seeing children joyfully engaged in constructive play that reflects thoughtful guidance and healthy development?",
+      "held_out_passage": "Froebel received his former comrade with the utmost cordiality, and the sight of the robust, healthy, merry boys who were lying on the floor that evening, building forts and castles with the wooden blocks which Froebel had had made for them according to his own plan, excited the keenest interest."
+    },
+    {
+      "id": 3,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "If someone came intending to remove a child from a thriving circle of companions, how might he respond after seeing the child happy and flourishing there?",
+      "held_out_passage": "He had come to take his brother away; but when he saw him, among other happy companions of his own age, complete the finest structure of all--a Gothic cathedral--it seemed almost wrong to tear the child from this circle."
+    },
+    {
+      "id": 4,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "When hearing that an important educational task would be shared with an unknown and untested partner, what concern would he most likely express?",
+      "held_out_passage": "When he heard that a second tutor was to relieve Langethal of half his work, he exclaimed, with the greatest anxiety: “You do not know him, and yet intend to finish a work of education with him? What great chances you are hazarding!”"
+    },
+    {
+      "id": 5,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How would he likely advise an idealistic person who wants to guide others spiritually but lacks practical knowledge of ordinary people and their lives?",
+      "held_out_passage": "Froebel answered, thoughtfully: “If you desire that, you must, like the apostles, know men. You must be able to enter into the life of every one--here a peasant, there a mechanic. If you can not, do not hope for success; your influence will not extend far.”"
+    },
+    {
+      "id": 6,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "When he notices inward uncertainty in a friend, how might he use shared memory, music, or emotion to reach the person more deeply than argument alone?",
+      "held_out_passage": "The heart of the young clergyman, tortured by anxious doubts, swelled at the sight of this magnificence, and Froebel, seeing what was passing in his mind, exclaimed: “Come, comrade, let us have one of our old war-songs.”"
+    },
+    {
+      "id": 7,
+      "tier": "behavioral_prediction",
+      "category": "career",
+      "text": "If he believed a meaningful mission already existed nearby, how would he likely urge someone who was looking elsewhere for purpose?",
+      "held_out_passage": "When it died away, the older man passed his arm around his friend’s shoulders, and, pointing to the beautiful region lying before them in the sunset glow, exclaimed: “Why seek so far away what is close at hand? A work is established here which must be built by the hand of God! Implicit devotion and self-sacrifice are needed.”"
+    },
+    {
+      "id": 8,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "When appealing to another person’s conscience and sense of calling, what kind of commitment would he most likely ask for?",
+      "held_out_passage": "“Why seek so far away what is close at hand? A work is established here which must be built by the hand of God! Implicit devotion and self-sacrifice are needed.”"
+    },
+    {
+      "id": 9,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "How might a sincere, emotionally charged personal appeal affect someone who had been planning a different path?",
+      "held_out_passage": "While speaking, he gazed steadfastly into his friend’s tearful eyes, as if he had found his true object in life, and when he held out his hand Langethal clasped it--he could not help it."
+    },
+    {
+      "id": 10,
+      "tier": "behavioral_prediction",
+      "category": "change_over_time",
+      "text": "After gaining a capable, principled collaborator, what broader change would he most likely bring about in a young institution over time?",
+      "held_out_passage": "The management of the school was henceforward in the hands of a man of character, while the extensive knowledge and the excellent method of a well-trained scholar had been obtained for the educational department. The new institute now prospered rapidly. The renown of the fresh, healthful life and the able tuition of the pupils spread far beyond the limits of Thuringia."
+    },
+    {
+      "id": 11,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "When entering a new school environment with high hopes, how would he likely react if the first impressions suggested serious problems and poor discipline?",
+      "held_out_passage": "I had come hither full of beautiful ideals and animated by the best intentions; but the very first day made me suspect how many obstacles I should encounter; though I did not yet imagine the perils which lay in my companion’s words."
+    },
+    {
+      "id": 12,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "If placed among well-born students whose social habits conflicted with proper scholarly conduct, how would he likely judge that situation?",
+      "held_out_passage": "All the young gentlemen who had been drawn hither by the examination were sons of good families, but the part which these pupils, and I with them, played in society, at balls, and in all the amusements of the cultivated circle in the town was so prominent, the views of life and habits which they brought with them so completely contradicted the idea which every sensible person has of a grammar-school boy, that their presence could not fail to injure the school."
+    },
+    {
+      "id": 13,
+      "tier": "behavioral_prediction",
+      "category": "change_over_time",
+      "text": "How would he likely respond to a major institutional reform led by a capable educator after a period of mismanagement?",
+      "held_out_passage": "The old head-master was suddenly retired, and one of the best educators summoned in his place man who quickly succeeded in making the decaying Kottbus School one of the most excellent in all Prussia. I had the misfortune of being for more than two years a pupil under the government of the first head-master, and the good luck of spending nearly the same length of time under the charge of his successor."
+    },
+    {
+      "id": 14,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How did he tend to form attachments with warm and trustworthy relatives in the countryside?",
+      "held_out_passage": "Frau von Berndt, the youngest daughter of our beloved kinsman, Moritz von Oppenfeld, united to the elegance of a woman reared in a large city the cordiality of the mistress of a country home. Her husband won the entire confidence of every one who met the gaze of his honest blue eyes."
+    },
+    {
+      "id": 15,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "If an older family acquaintance recognized his knowledge and invited him to visit often, what would he likely do?",
+      "held_out_passage": "He was pleased that I, a city boy, knew so much about field and forest, so at my very first visit he invited me to repeat it often."
+    },
+    {
+      "id": 16,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How did he generally regard formal schooling compared with the life he felt began outside the classroom?",
+      "held_out_passage": "In many points I was in advance of the other pupils in the second class, in others behind them; but this troubled me very little--school seemed a necessary evil. My real life commenced after its close, and here also my natural cheerfulness ruled my whole nature."
+    },
+    {
+      "id": 17,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When distance and limited transportation made visits to beloved rural surroundings difficult, what choice would he still often make?",
+      "held_out_passage": "Unfortunately, I could not go to Komptendorf as often as I wished, for it was a two hours’ walk, and horses and carriages were not always at my disposal. Yet many a Saturday found me there, enjoying the delight of chatting with my kind hostess about home news and other pleasant things, or reading aloud to her."
+    },
+    {
+      "id": 18,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "How would he likely behave socially during youth when given access to cultured households, dances, and excursions beyond school life?",
+      "held_out_passage": "Even in the second year of my stay at Kottbus I went to every dance given on the estates in the neighbourhood and visited many a delightful home in the town. Then there were long walks--sometimes with Dr. Boltze and my school-mates, sometimes with friends, and often alone."
+    },
+    {
+      "id": 19,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "What kinds of leisure experiences most strongly attracted him when town life felt limited?",
+      "held_out_passage": "The town offered me few attractions, but the country was full of pleasures."
+    },
+    {
+      "id": 20,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How did strong teaching and reform affect what he retained from his education over time?",
+      "held_out_passage": "Although the events of my school-days at Kottbus long since blended together in my memory, my life there is divided into two sharply defined portions. The latter commences with Professor Tzschirner’s appointment and the reform in the school. From the first day of the latter’s government I can recall what was taught us in the class and how it influenced me, while I have entirely forgotten what occurred during the interim."
+    },
+    {
+      "id": 21,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "When describing an imaginative youthful work, would he be more likely to frame the origin of the world through personified abstract forces rather than through plain factual explanation?",
+      "held_out_passage": "From their loveless union sprang the earth, the stars-in short, all inorganic life."
+    },
+    {
+      "id": 22,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "If he portrays opposing elements joined together, would he tend to emphasize compulsion and emotional distance in the bond rather than harmony?",
+      "held_out_passage": "she feared her restless, unyielding partner; yet the power of the ruler of the higher world forced them to wed."
+    },
+    {
+      "id": 23,
+      "tier": "behavioral_prediction",
+      "category": "change_over_time",
+      "text": "When imagining how harshness can be softened, would he depict care and restraint as gradually transforming coldness into warmth?",
+      "held_out_passage": "as, to soothe them, she drew into her embrace the flaming spheres, which dashed each other to pieces in their mad career, and restrained the fiercest, her chill heart was warmed by her children’s fire."
+    },
+    {
+      "id": 24,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Would he likely present a noble feeling as arising out of struggle and then suffering because it lacks a worthy object?",
+      "held_out_passage": "another child sprang from their union, love. But she seemed to have been born to misery, and wandered mournfully about, weeping and lamenting because she lacked an object for which to labour."
+    },
+    {
+      "id": 25,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When depicting perseverance, would he show a figure continuing to create despite repeated disappointment and disorder?",
+      "held_out_passage": "But Love did not cease to form new shapes until she attained the most beautiful, the human form."
+    },
+    {
+      "id": 26,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "If confronted with despair after rejection, would his imagined character be likely to make a drastic self-destructive gesture that nevertheless does not end the story?",
+      "held_out_passage": "till, repelled by her savage father and her listless mother, she flung herself in despair from a rock. But being immortal, she did not perish."
+    },
+    {
+      "id": 27,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "Would he tend to portray higher mental power as coming from above, carrying only a dim memory of a better realm into earthly life?",
+      "held_out_passage": "from the blood of Love grew at his sign a lily, from which arose, radiant in white garments, Intellect, which the Most High had breathed into the flower. He came from that higher world to ours, but only a vague memory of his former home was permitted"
+    },
+    {
+      "id": 28,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "In describing attraction between unlike forces, would he emphasize mutual longing mixed with fear and repeated separation?",
+      "held_out_passage": "As soon as he met Love he was attracted towards her, and she ardently accepted his suit; yet the first embrace chilled her, and her fervour startled and repelled him. So, each fearing the other’s tenderness, they shunned each other, though an invincible charm constantly drew them together."
+    },
+    {
+      "id": 29,
+      "tier": "behavioral_prediction",
+      "category": "career",
+      "text": "Would he likely connect the highest artistic power with moments when feeling and intellect act together at their strongest?",
+      "held_out_passage": "but when he had succeeded in reaching its circle of light, he returned wonderfully invigorated. Then whoever Love and he joined in animating with their breath became an artist."
+    },
+    {
+      "id": 30,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "When adding humor to a serious symbolic scheme, would he include a lesser companion whose failed attempts create comic relief and whose success is limited to petty advantage?",
+      "held_out_passage": "Intellect’s page, Instinct, who had risen from the lily with him, was a comical fellow. When he tried to follow his master’s flight he fell after the first few strokes of his wings, and usually among nettles. Only when some base advantage was to be gained on earth did this servant succeed better than his master."
+    },
+    {
+      "id": 31,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "When the narrator encountered a deeply religious young woman whose beliefs differed from his own, how did he initially handle discussions about religion?",
+      "held_out_passage": "At first I had avoided the subject, but the young girl constantly returned to it, and I soon perceived that I must summon all my energies to hold my ground against her subtle dialectics."
+    },
+    {
+      "id": 32,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "If someone persistently asked him to explain difficult philosophical ideas, how would the narrator likely proceed at first and then after judging the listener’s reaction?",
+      "held_out_passage": "she gave me no peace until I had explained the meaning of the words pantheism, atheism, materialism, etc. At first I was very cautious, but when I perceived that the opinions of the doubters and deniers merely inspired her with pity, I spoke more freely."
+    },
+    {
+      "id": 33,
+      "tier": "behavioral_prediction",
+      "category": "creativity",
+      "text": "How would the narrator likely respond when he found a quiet, historically rich place that suited both recovery and work?",
+      "held_out_passage": "A quieter spot cannot be imagined, for I was the first who sought recreation here. Surrounded by memories of olden days, and absolutely undisturbed, I could create admirably."
+    },
+    {
+      "id": 34,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When choosing between continuing onward and staying in a place that met his needs, what would the narrator most likely decide?",
+      "held_out_passage": "But we found what we sought, the most suitable house possible, whose landlady proved to have been trained as a cook in a Frankfort hotel."
+    },
+    {
+      "id": 35,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How did the narrator tend to form attachments to admirable people he met during periods of illness or convalescence?",
+      "held_out_passage": "The young girl died shortly after our separation the following year. She had grown very dear to my heart."
+    },
+    {
+      "id": 36,
+      "tier": "behavioral_prediction",
+      "category": "stress",
+      "text": "When physically limited but still drawn to beauty and social life, how would the narrator likely react to festive surroundings?",
+      "held_out_passage": "She went with me--both in wheel-chairs--to a ball at the Kursaal, and looked so pretty in an airy, white dress which her mother and sister had arranged for their darling, that I should have longed to dance with her had not this pleasure been denied me."
+    },
+    {
+      "id": 37,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How would the narrator likely judge a person whose faith remained firm even after hearing skeptical or opposing views?",
+      "held_out_passage": "Her soul was like a polished plate of metal on which a picture is etched. This, her belief, remained uninjured. Whatever else might be reflected from the mirror-like surface soon vanished, leaving no trace."
+    },
+    {
+      "id": 38,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "When meeting a striking and socially accomplished woman who also showed tender devotion to a suffering relative, what kind of impression would she likely make on the narrator?",
+      "held_out_passage": "When she at last appeared I was surprised, for I had never met a woman who combined with such rare beauty and queenly dignity so much winning amiability. Nothing could be more touching than the manner in which this admired, brilliant woman of the world devoted herself to the sick girl."
+    },
+    {
+      "id": 39,
+      "tier": "behavioral_prediction",
+      "category": "change_over_time",
+      "text": "After spending a long period in seclusion that helped his work, what did the narrator seem to believe about remaining apart from other people indefinitely?",
+      "held_out_passage": "But one cannot remain permanently secluded from mankind."
+    }
+  ]
+}

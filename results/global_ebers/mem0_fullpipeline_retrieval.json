@@ -1,0 +1,703 @@
+{
+  "1": {
+    "question_id": 1,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Georg Ebers finished his autobiography in 1863.",
+      "Georg Ebers' autobiography includes sections on his early childhood, education at the Keilhau Institute, the revolutionary period, university life, and his literary works.",
+      "Georg Ebers' life was marked by fortitude in adversity, as described in his autobiography.",
+      "The user is a son of Georg Ebers and is presenting his autobiography to his sons.",
+      "Georg Ebers died on August 7, 1898 at Villa Ebers in Tutzing, near Munich, on Starnberg Lake, and a monument was erected to his memory, comprising sixteen novels, treatises on Egypt and Palestine, and other works.",
+      "Georg Ebers' autobiography 'The Story of My Life' is titled as such and is dedicated to his sons.",
+      "Georg Ebers became a professor of Egyptology at the University of Leipzig in 1864 after receiving a professorship at Göttingen, after his first visit to Egypt, and the year after he finished his autobiography.",
+      "Georg Ebers was raised by a mother who named him \"comfort child\" and told him that posthumous children are Fortune's favorites, giving him confidence that he is one of Fortune's favorites.",
+      "Georg Ebers resigned his chair at the University of Leipzig in 1889 due to health issues, but continued his intellectual activity until his death.",
+      "Georg Ebers was born on March 1, 1837 in Berlin, two weeks after his father's death on February 14, 1837; he was sturdy, merry, and laughed on the third day of life."
+    ],
+    "latency_ms": 538,
+    "timestamp": "2026-04-16T07:05:07.644251+00:00"
+  },
+  "2": {
+    "question_id": 2,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The user is a son of Georg Ebers and is presenting his autobiography to his sons.",
+      "Georg Ebers' autobiography includes sections on his early childhood, education at the Keilhau Institute, the revolutionary period, university life, and his literary works.",
+      "Georg Ebers' life was marked by fortitude in adversity, as described in his autobiography.",
+      "Georg Ebers' autobiography 'The Story of My Life' is titled as such and is dedicated to his sons.",
+      "Georg Ebers became a professor of Egyptology at the University of Leipzig in 1864 after receiving a professorship at Göttingen, after his first visit to Egypt, and the year after he finished his autobiography.",
+      "Georg Ebers resigned his chair at the University of Leipzig in 1889 due to health issues, but continued his intellectual activity until his death.",
+      "Georg Ebers was raised by a mother who named him \"comfort child\" and told him that posthumous children are Fortune's favorites, giving him confidence that he is one of Fortune's favorites.",
+      "Georg Ebers finished his autobiography in 1863.",
+      "Georg Ebers married the daughter of a burgomaster of Riga soon after 1864, and his wife helped manage the business details of his works and their American and English editions.",
+      "Georg Ebers went to Egypt in 1872, excavated at Thebes, and unearthed the Ebers Papyrus, a treatise on medicine from the second century B.C."
+    ],
+    "latency_ms": 747,
+    "timestamp": "2026-04-16T07:05:08.392635+00:00"
+  },
+  "3": {
+    "question_id": 3,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The user is a son of Georg Ebers and is presenting his autobiography to his sons.",
+      "Georg Ebers grew up in a house at No. 4 Thiergartenstrasse in Berlin, surrounded by a garden, orchard, pond, and a stable with horses.",
+      "User's mother had a portrait by Schadow, now in possession of User's brother Dr. Martin Ebers of Berlin, but the portrait lacks coloring.",
+      "Georg Ebers studied at the Keilhau Institute, where he was influenced by the educational methods of Froebel and Pestalozzi.",
+      "Georg Ebers was raised by a mother who named him \"comfort child\" and told him that posthumous children are Fortune's favorites, giving him confidence that he is one of Fortune's favorites.",
+      "Georg Ebers married the daughter of a burgomaster of Riga soon after 1864, and his wife helped manage the business details of his works and their American and English editions.",
+      "User's mother was 35 at User's birth, had beauty, and father was a Berlin gentleman connected to Konigstadt Theater.",
+      "Georg Ebers went to Egypt in 1872, excavated at Thebes, and unearthed the Ebers Papyrus, a treatise on medicine from the second century B.C.",
+      "Georg Ebers' life was marked by fortitude in adversity, as described in his autobiography.",
+      "Georg Ebers became a professor of Egyptology at the University of Leipzig in 1864 after receiving a professorship at Göttingen, after his first visit to Egypt, and the year after he finished his autobiography."
+    ],
+    "latency_ms": 625,
+    "timestamp": "2026-04-16T07:05:09.018445+00:00"
+  },
+  "4": {
+    "question_id": 4,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Georg Ebers was raised by a mother who named him \"comfort child\" and told him that posthumous children are Fortune's favorites, giving him confidence that he is one of Fortune's favorites.",
+      "Georg Ebers died on August 7, 1898 at Villa Ebers in Tutzing, near Munich, on Starnberg Lake, and a monument was erected to his memory, comprising sixteen novels, treatises on Egypt and Palestine, and other works.",
+      "The user is a son of Georg Ebers and is presenting his autobiography to his sons.",
+      "Georg Ebers' autobiography includes sections on his early childhood, education at the Keilhau Institute, the revolutionary period, university life, and his literary works.",
+      "Georg Ebers resigned his chair at the University of Leipzig in 1889 due to health issues, but continued his intellectual activity until his death.",
+      "Georg Ebers finished his autobiography in 1863.",
+      "Georg Ebers went to Egypt in 1872, excavated at Thebes, and unearthed the Ebers Papyrus, a treatise on medicine from the second century B.C.",
+      "Georg Ebers became a professor of Egyptology at the University of Leipzig in 1864 after receiving a professorship at Göttingen, after his first visit to Egypt, and the year after he finished his autobiography.",
+      "Georg Ebers married the daughter of a burgomaster of Riga soon after 1864, and his wife helped manage the business details of his works and their American and English editions.",
+      "Georg Ebers was born on March 1, 1837 in Berlin, two weeks after his father's death on February 14, 1837; he was sturdy, merry, and laughed on the third day of life."
+    ],
+    "latency_ms": 664,
+    "timestamp": "2026-04-16T07:05:09.683381+00:00"
+  },
+  "5": {
+    "question_id": 5,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Georg Ebers studied at the Keilhau Institute, where he was influenced by the educational methods of Froebel and Pestalozzi.",
+      "Georg Ebers' autobiography includes sections on his early childhood, education at the Keilhau Institute, the revolutionary period, university life, and his literary works.",
+      "Georg Ebers was raised by a mother who named him \"comfort child\" and told him that posthumous children are Fortune's favorites, giving him confidence that he is one of Fortune's favorites.",
+      "Georg Ebers' autobiography 'The Story of My Life' is titled as such and is dedicated to his sons.",
+      "Georg Ebers' life was marked by fortitude in adversity, as described in his autobiography.",
+      "Georg Ebers wrote the novel \"An Egyptian Princess\", finished in 1863, and later published \"Uarda\" in 1876, along with other novels such as Homo Sum, The Sisters, The Emperor, and The Burgomaster’s Wife.",
+      "Georg Ebers was born on March 1, 1837 in Berlin, two weeks after his father's death on February 14, 1837; he was sturdy, merry, and laughed on the third day of life.",
+      "The user is a son of Georg Ebers and is presenting his autobiography to his sons.",
+      "Georg Ebers resigned his chair at the University of Leipzig in 1889 due to health issues, but continued his intellectual activity until his death.",
+      "Georg Ebers finished his autobiography in 1863."
+    ],
+    "latency_ms": 579,
+    "timestamp": "2026-04-16T07:05:10.266664+00:00"
+  },
+  "6": {
+    "question_id": 6,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The user is a son of Georg Ebers and is presenting his autobiography to his sons.",
+      "Georg Ebers became a professor of Egyptology at the University of Leipzig in 1864 after receiving a professorship at Göttingen, after his first visit to Egypt, and the year after he finished his autobiography.",
+      "Georg Ebers was raised by a mother who named him \"comfort child\" and told him that posthumous children are Fortune's favorites, giving him confidence that he is one of Fortune's favorites.",
+      "Georg Ebers resigned his chair at the University of Leipzig in 1889 due to health issues, but continued his intellectual activity until his death.",
+      "User's mother had a portrait by Schadow, now in possession of User's brother Dr. Martin Ebers of Berlin, but the portrait lacks coloring.",
+      "Georg Ebers went to Egypt in 1872, excavated at Thebes, and unearthed the Ebers Papyrus, a treatise on medicine from the second century B.C.",
+      "Georg Ebers' autobiography 'The Story of My Life' is titled as such and is dedicated to his sons.",
+      "Georg Ebers married the daughter of a burgomaster of Riga soon after 1864, and his wife helped manage the business details of his works and their American and English editions.",
+      "Georg Ebers finished his autobiography in 1863.",
+      "Georg Ebers wrote the novel \"An Egyptian Princess\", finished in 1863, and later published \"Uarda\" in 1876, along with other novels such as Homo Sum, The Sisters, The Emperor, and The Burgomaster’s Wife."
+    ],
+    "latency_ms": 534,
+    "timestamp": "2026-04-16T07:05:10.801470+00:00"
+  },
+  "7": {
+    "question_id": 7,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Georg Ebers studied at the Keilhau Institute, where he was influenced by the educational methods of Froebel and Pestalozzi.",
+      "The user is a son of Georg Ebers and is presenting his autobiography to his sons.",
+      "Georg Ebers' autobiography includes sections on his early childhood, education at the Keilhau Institute, the revolutionary period, university life, and his literary works.",
+      "Georg Ebers resigned his chair at the University of Leipzig in 1889 due to health issues, but continued his intellectual activity until his death.",
+      "Georg Ebers' autobiography 'The Story of My Life' is titled as such and is dedicated to his sons.",
+      "Georg Ebers wrote the novel \"An Egyptian Princess\", finished in 1863, and later published \"Uarda\" in 1876, along with other novels such as Homo Sum, The Sisters, The Emperor, and The Burgomaster’s Wife.",
+      "Georg Ebers married the daughter of a burgomaster of Riga soon after 1864, and his wife helped manage the business details of his works and their American and English editions.",
+      "Georg Ebers became a professor of Egyptology at the University of Leipzig in 1864 after receiving a professorship at Göttingen, after his first visit to Egypt, and the year after he finished his autobiography.",
+      "Georg Ebers was raised by a mother who named him \"comfort child\" and told him that posthumous children are Fortune's favorites, giving him confidence that he is one of Fortune's favorites.",
+      "Georg Ebers went to Egypt in 1872, excavated at Thebes, and unearthed the Ebers Papyrus, a treatise on medicine from the second century B.C."
+    ],
+    "latency_ms": 517,
+    "timestamp": "2026-04-16T07:05:11.318949+00:00"
+  },
+  "8": {
+    "question_id": 8,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Georg Ebers finished his autobiography in 1863.",
+      "Georg Ebers' life was marked by fortitude in adversity, as described in his autobiography.",
+      "The user is a son of Georg Ebers and is presenting his autobiography to his sons.",
+      "Georg Ebers died on August 7, 1898 at Villa Ebers in Tutzing, near Munich, on Starnberg Lake, and a monument was erected to his memory, comprising sixteen novels, treatises on Egypt and Palestine, and other works.",
+      "Georg Ebers wrote the novel \"An Egyptian Princess\", finished in 1863, and later published \"Uarda\" in 1876, along with other novels such as Homo Sum, The Sisters, The Emperor, and The Burgomaster’s Wife.",
+      "Georg Ebers went to Egypt in 1872, excavated at Thebes, and unearthed the Ebers Papyrus, a treatise on medicine from the second century B.C.",
+      "Georg Ebers was raised by a mother who named him \"comfort child\" and told him that posthumous children are Fortune's favorites, giving him confidence that he is one of Fortune's favorites.",
+      "Georg Ebers' autobiography includes sections on his early childhood, education at the Keilhau Institute, the revolutionary period, university life, and his literary works.",
+      "Georg Ebers was born on March 1, 1837 in Berlin, two weeks after his father's death on February 14, 1837; he was sturdy, merry, and laughed on the third day of life.",
+      "Georg Ebers resigned his chair at the University of Leipzig in 1889 due to health issues, but continued his intellectual activity until his death."
+    ],
+    "latency_ms": 507,
+    "timestamp": "2026-04-16T07:05:11.827020+00:00"
+  },
+  "9": {
+    "question_id": 9,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The user is a son of Georg Ebers and is presenting his autobiography to his sons.",
+      "Georg Ebers studied at the Keilhau Institute, where he was influenced by the educational methods of Froebel and Pestalozzi.",
+      "Georg Ebers finished his autobiography in 1863.",
+      "Georg Ebers married the daughter of a burgomaster of Riga soon after 1864, and his wife helped manage the business details of his works and their American and English editions.",
+      "Georg Ebers resigned his chair at the University of Leipzig in 1889 due to health issues, but continued his intellectual activity until his death.",
+      "Georg Ebers went to Egypt in 1872, excavated at Thebes, and unearthed the Ebers Papyrus, a treatise on medicine from the second century B.C.",
+      "Georg Ebers wrote the novel \"An Egyptian Princess\", finished in 1863, and later published \"Uarda\" in 1876, along with other novels such as Homo Sum, The Sisters, The Emperor, and The Burgomaster’s Wife.",
+      "Georg Ebers' life was marked by fortitude in adversity, as described in his autobiography.",
+      "Georg Ebers' autobiography includes sections on his early childhood, education at the Keilhau Institute, the revolutionary period, university life, and his literary works.",
+      "Georg Ebers was raised by a mother who named him \"comfort child\" and told him that posthumous children are Fortune's favorites, giving him confidence that he is one of Fortune's favorites."
+    ],
+    "latency_ms": 532,
+    "timestamp": "2026-04-16T07:05:12.360758+00:00"
+  },
+  "10": {
+    "question_id": 10,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Georg Ebers studied at the Keilhau Institute, where he was influenced by the educational methods of Froebel and Pestalozzi.",
+      "Georg Ebers' autobiography includes sections on his early childhood, education at the Keilhau Institute, the revolutionary period, university life, and his literary works.",
+      "Georg Ebers went to Egypt in 1872, excavated at Thebes, and unearthed the Ebers Papyrus, a treatise on medicine from the second century B.C.",
+      "Georg Ebers died on August 7, 1898 at Villa Ebers in Tutzing, near Munich, on Starnberg Lake, and a monument was erected to his memory, comprising sixteen novels, treatises on Egypt and Palestine, and other works.",
+      "Georg Ebers married the daughter of a burgomaster of Riga soon after 1864, and his wife helped manage the business details of his works and their American and English editions.",
+      "Georg Ebers resigned his chair at the University of Leipzig in 1889 due to health issues, but continued his intellectual activity until his death.",
+      "Georg Ebers became a professor of Egyptology at the University of Leipzig in 1864 after receiving a professorship at Göttingen, after his first visit to Egypt, and the year after he finished his autobiography.",
+      "Georg Ebers finished his autobiography in 1863.",
+      "Georg Ebers wrote the novel \"An Egyptian Princess\", finished in 1863, and later published \"Uarda\" in 1876, along with other novels such as Homo Sum, The Sisters, The Emperor, and The Burgomaster’s Wife.",
+      "The user is a son of Georg Ebers and is presenting his autobiography to his sons."
+    ],
+    "latency_ms": 615,
+    "timestamp": "2026-04-16T07:05:12.976824+00:00"
+  },
+  "11": {
+    "question_id": 11,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Georg Ebers was raised by a mother who named him \"comfort child\" and told him that posthumous children are Fortune's favorites, giving him confidence that he is one of Fortune's favorites.",
+      "The user is a son of Georg Ebers and is presenting his autobiography to his sons.",
+      "Georg Ebers' autobiography includes sections on his early childhood, education at the Keilhau Institute, the revolutionary period, university life, and his literary works.",
+      "Georg Ebers died on August 7, 1898 at Villa Ebers in Tutzing, near Munich, on Starnberg Lake, and a monument was erected to his memory, comprising sixteen novels, treatises on Egypt and Palestine, and other works.",
+      "Georg Ebers' autobiography 'The Story of My Life' is titled as such and is dedicated to his sons.",
+      "Georg Ebers' life was marked by fortitude in adversity, as described in his autobiography.",
+      "Georg Ebers resigned his chair at the University of Leipzig in 1889 due to health issues, but continued his intellectual activity until his death.",
+      "Georg Ebers married the daughter of a burgomaster of Riga soon after 1864, and his wife helped manage the business details of his works and their American and English editions.",
+      "Georg Ebers finished his autobiography in 1863.",
+      "Georg Ebers was born on March 1, 1837 in Berlin, two weeks after his father's death on February 14, 1837; he was sturdy, merry, and laughed on the third day of life."
+    ],
+    "latency_ms": 669,
+    "timestamp": "2026-04-16T07:05:13.646545+00:00"
+  },
+  "12": {
+    "question_id": 12,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Georg Ebers was raised by a mother who named him \"comfort child\" and told him that posthumous children are Fortune's favorites, giving him confidence that he is one of Fortune's favorites.",
+      "Georg Ebers studied at the Keilhau Institute, where he was influenced by the educational methods of Froebel and Pestalozzi.",
+      "Georg Ebers finished his autobiography in 1863.",
+      "Georg Ebers became a professor of Egyptology at the University of Leipzig in 1864 after receiving a professorship at Göttingen, after his first visit to Egypt, and the year after he finished his autobiography.",
+      "The user is a son of Georg Ebers and is presenting his autobiography to his sons.",
+      "Georg Ebers resigned his chair at the University of Leipzig in 1889 due to health issues, but continued his intellectual activity until his death.",
+      "Georg Ebers' autobiography includes sections on his early childhood, education at the Keilhau Institute, the revolutionary period, university life, and his literary works.",
+      "Georg Ebers was born on March 1, 1837 in Berlin, two weeks after his father's death on February 14, 1837; he was sturdy, merry, and laughed on the third day of life.",
+      "Georg Ebers went to Egypt in 1872, excavated at Thebes, and unearthed the Ebers Papyrus, a treatise on medicine from the second century B.C.",
+      "Georg Ebers grew up in a house at No. 4 Thiergartenstrasse in Berlin, surrounded by a garden, orchard, pond, and a stable with horses."
+    ],
+    "latency_ms": 498,
+    "timestamp": "2026-04-16T07:05:14.148650+00:00"
+  },
+  "13": {
+    "question_id": 13,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Georg Ebers grew up in a house at No. 4 Thiergartenstrasse in Berlin, surrounded by a garden, orchard, pond, and a stable with horses.",
+      "Georg Ebers' autobiography includes sections on his early childhood, education at the Keilhau Institute, the revolutionary period, university life, and his literary works.",
+      "Georg Ebers resigned his chair at the University of Leipzig in 1889 due to health issues, but continued his intellectual activity until his death.",
+      "Georg Ebers studied at the Keilhau Institute, where he was influenced by the educational methods of Froebel and Pestalozzi.",
+      "Georg Ebers went to Egypt in 1872, excavated at Thebes, and unearthed the Ebers Papyrus, a treatise on medicine from the second century B.C.",
+      "Georg Ebers' life was marked by fortitude in adversity, as described in his autobiography.",
+      "Georg Ebers died on August 7, 1898 at Villa Ebers in Tutzing, near Munich, on Starnberg Lake, and a monument was erected to his memory, comprising sixteen novels, treatises on Egypt and Palestine, and other works.",
+      "Georg Ebers wrote the novel \"An Egyptian Princess\", finished in 1863, and later published \"Uarda\" in 1876, along with other novels such as Homo Sum, The Sisters, The Emperor, and The Burgomaster’s Wife.",
+      "Georg Ebers finished his autobiography in 1863.",
+      "Georg Ebers became a professor of Egyptology at the University of Leipzig in 1864 after receiving a professorship at Göttingen, after his first visit to Egypt, and the year after he finished his autobiography."
+    ],
+    "latency_ms": 623,
+    "timestamp": "2026-04-16T07:05:14.773291+00:00"
+  },
+  "14": {
+    "question_id": 14,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Georg Ebers' autobiography includes sections on his early childhood, education at the Keilhau Institute, the revolutionary period, university life, and his literary works.",
+      "The user is a son of Georg Ebers and is presenting his autobiography to his sons.",
+      "Georg Ebers resigned his chair at the University of Leipzig in 1889 due to health issues, but continued his intellectual activity until his death.",
+      "Georg Ebers finished his autobiography in 1863.",
+      "Georg Ebers studied at the Keilhau Institute, where he was influenced by the educational methods of Froebel and Pestalozzi.",
+      "Georg Ebers' life was marked by fortitude in adversity, as described in his autobiography.",
+      "Georg Ebers was raised by a mother who named him \"comfort child\" and told him that posthumous children are Fortune's favorites, giving him confidence that he is one of Fortune's favorites.",
+      "Georg Ebers' autobiography 'The Story of My Life' is titled as such and is dedicated to his sons.",
+      "Georg Ebers married the daughter of a burgomaster of Riga soon after 1864, and his wife helped manage the business details of his works and their American and English editions.",
+      "Georg Ebers became a professor of Egyptology at the University of Leipzig in 1864 after receiving a professorship at Göttingen, after his first visit to Egypt, and the year after he finished his autobiography."
+    ],
+    "latency_ms": 541,
+    "timestamp": "2026-04-16T07:05:15.319159+00:00"
+  },
+  "15": {
+    "question_id": 15,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Georg Ebers grew up in a house at No. 4 Thiergartenstrasse in Berlin, surrounded by a garden, orchard, pond, and a stable with horses.",
+      "Georg Ebers studied at the Keilhau Institute, where he was influenced by the educational methods of Froebel and Pestalozzi.",
+      "Georg Ebers became a professor of Egyptology at the University of Leipzig in 1864 after receiving a professorship at Göttingen, after his first visit to Egypt, and the year after he finished his autobiography.",
+      "Georg Ebers finished his autobiography in 1863.",
+      "The user is a son of Georg Ebers and is presenting his autobiography to his sons.",
+      "Georg Ebers married the daughter of a burgomaster of Riga soon after 1864, and his wife helped manage the business details of his works and their American and English editions.",
+      "Georg Ebers resigned his chair at the University of Leipzig in 1889 due to health issues, but continued his intellectual activity until his death.",
+      "Georg Ebers' life was marked by fortitude in adversity, as described in his autobiography.",
+      "Georg Ebers was raised by a mother who named him \"comfort child\" and told him that posthumous children are Fortune's favorites, giving him confidence that he is one of Fortune's favorites.",
+      "Georg Ebers went to Egypt in 1872, excavated at Thebes, and unearthed the Ebers Papyrus, a treatise on medicine from the second century B.C."
+    ],
+    "latency_ms": 538,
+    "timestamp": "2026-04-16T07:05:15.858675+00:00"
+  },
+  "16": {
+    "question_id": 16,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Georg Ebers grew up in a house at No. 4 Thiergartenstrasse in Berlin, surrounded by a garden, orchard, pond, and a stable with horses.",
+      "Georg Ebers became a professor of Egyptology at the University of Leipzig in 1864 after receiving a professorship at Göttingen, after his first visit to Egypt, and the year after he finished his autobiography.",
+      "Georg Ebers died on August 7, 1898 at Villa Ebers in Tutzing, near Munich, on Starnberg Lake, and a monument was erected to his memory, comprising sixteen novels, treatises on Egypt and Palestine, and other works.",
+      "The user is a son of Georg Ebers and is presenting his autobiography to his sons.",
+      "Georg Ebers resigned his chair at the University of Leipzig in 1889 due to health issues, but continued his intellectual activity until his death.",
+      "Georg Ebers finished his autobiography in 1863.",
+      "Georg Ebers' life was marked by fortitude in adversity, as described in his autobiography.",
+      "Georg Ebers married the daughter of a burgomaster of Riga soon after 1864, and his wife helped manage the business details of his works and their American and English editions.",
+      "Georg Ebers went to Egypt in 1872, excavated at Thebes, and unearthed the Ebers Papyrus, a treatise on medicine from the second century B.C.",
+      "Georg Ebers was raised by a mother who named him \"comfort child\" and told him that posthumous children are Fortune's favorites, giving him confidence that he is one of Fortune's favorites."
+    ],
+    "latency_ms": 606,
+    "timestamp": "2026-04-16T07:05:16.465616+00:00"
+  },
+  "17": {
+    "question_id": 17,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Georg Ebers was raised by a mother who named him \"comfort child\" and told him that posthumous children are Fortune's favorites, giving him confidence that he is one of Fortune's favorites.",
+      "The user is a son of Georg Ebers and is presenting his autobiography to his sons.",
+      "Georg Ebers resigned his chair at the University of Leipzig in 1889 due to health issues, but continued his intellectual activity until his death.",
+      "Georg Ebers grew up in a house at No. 4 Thiergartenstrasse in Berlin, surrounded by a garden, orchard, pond, and a stable with horses.",
+      "Georg Ebers' life was marked by fortitude in adversity, as described in his autobiography.",
+      "Georg Ebers went to Egypt in 1872, excavated at Thebes, and unearthed the Ebers Papyrus, a treatise on medicine from the second century B.C.",
+      "Georg Ebers' autobiography 'The Story of My Life' is titled as such and is dedicated to his sons.",
+      "Georg Ebers died on August 7, 1898 at Villa Ebers in Tutzing, near Munich, on Starnberg Lake, and a monument was erected to his memory, comprising sixteen novels, treatises on Egypt and Palestine, and other works.",
+      "Georg Ebers became a professor of Egyptology at the University of Leipzig in 1864 after receiving a professorship at Göttingen, after his first visit to Egypt, and the year after he finished his autobiography.",
+      "Georg Ebers finished his autobiography in 1863."
+    ],
+    "latency_ms": 594,
+    "timestamp": "2026-04-16T07:05:17.060253+00:00"
+  },
+  "18": {
+    "question_id": 18,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Georg Ebers' autobiography includes sections on his early childhood, education at the Keilhau Institute, the revolutionary period, university life, and his literary works.",
+      "Georg Ebers resigned his chair at the University of Leipzig in 1889 due to health issues, but continued his intellectual activity until his death.",
+      "Georg Ebers finished his autobiography in 1863.",
+      "Georg Ebers' life was marked by fortitude in adversity, as described in his autobiography.",
+      "The user is a son of Georg Ebers and is presenting his autobiography to his sons.",
+      "Georg Ebers married the daughter of a burgomaster of Riga soon after 1864, and his wife helped manage the business details of his works and their American and English editions.",
+      "Georg Ebers was raised by a mother who named him \"comfort child\" and told him that posthumous children are Fortune's favorites, giving him confidence that he is one of Fortune's favorites.",
+      "Georg Ebers became a professor of Egyptology at the University of Leipzig in 1864 after receiving a professorship at Göttingen, after his first visit to Egypt, and the year after he finished his autobiography.",
+      "Georg Ebers was born on March 1, 1837 in Berlin, two weeks after his father's death on February 14, 1837; he was sturdy, merry, and laughed on the third day of life.",
+      "Georg Ebers died on August 7, 1898 at Villa Ebers in Tutzing, near Munich, on Starnberg Lake, and a monument was erected to his memory, comprising sixteen novels, treatises on Egypt and Palestine, and other works."
+    ],
+    "latency_ms": 553,
+    "timestamp": "2026-04-16T07:05:17.614546+00:00"
+  },
+  "19": {
+    "question_id": 19,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Georg Ebers' autobiography includes sections on his early childhood, education at the Keilhau Institute, the revolutionary period, university life, and his literary works.",
+      "Georg Ebers studied at the Keilhau Institute, where he was influenced by the educational methods of Froebel and Pestalozzi.",
+      "The user is a son of Georg Ebers and is presenting his autobiography to his sons.",
+      "Georg Ebers became a professor of Egyptology at the University of Leipzig in 1864 after receiving a professorship at Göttingen, after his first visit to Egypt, and the year after he finished his autobiography.",
+      "Georg Ebers died on August 7, 1898 at Villa Ebers in Tutzing, near Munich, on Starnberg Lake, and a monument was erected to his memory, comprising sixteen novels, treatises on Egypt and Palestine, and other works.",
+      "Georg Ebers was raised by a mother who named him \"comfort child\" and told him that posthumous children are Fortune's favorites, giving him confidence that he is one of Fortune's favorites.",
+      "Georg Ebers resigned his chair at the University of Leipzig in 1889 due to health issues, but continued his intellectual activity until his death.",
+      "Georg Ebers was born on March 1, 1837 in Berlin, two weeks after his father's death on February 14, 1837; he was sturdy, merry, and laughed on the third day of life.",
+      "Georg Ebers went to Egypt in 1872, excavated at Thebes, and unearthed the Ebers Papyrus, a treatise on medicine from the second century B.C.",
+      "Georg Ebers finished his autobiography in 1863."
+    ],
+    "latency_ms": 672,
+    "timestamp": "2026-04-16T07:05:18.287054+00:00"
+  },
+  "20": {
+    "question_id": 20,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Georg Ebers resigned his chair at the University of Leipzig in 1889 due to health issues, but continued his intellectual activity until his death.",
+      "Georg Ebers' autobiography includes sections on his early childhood, education at the Keilhau Institute, the revolutionary period, university life, and his literary works.",
+      "Georg Ebers became a professor of Egyptology at the University of Leipzig in 1864 after receiving a professorship at Göttingen, after his first visit to Egypt, and the year after he finished his autobiography.",
+      "The user is a son of Georg Ebers and is presenting his autobiography to his sons.",
+      "Georg Ebers studied at the Keilhau Institute, where he was influenced by the educational methods of Froebel and Pestalozzi.",
+      "Georg Ebers grew up in a house at No. 4 Thiergartenstrasse in Berlin, surrounded by a garden, orchard, pond, and a stable with horses.",
+      "Georg Ebers died on August 7, 1898 at Villa Ebers in Tutzing, near Munich, on Starnberg Lake, and a monument was erected to his memory, comprising sixteen novels, treatises on Egypt and Palestine, and other works.",
+      "Georg Ebers went to Egypt in 1872, excavated at Thebes, and unearthed the Ebers Papyrus, a treatise on medicine from the second century B.C.",
+      "Georg Ebers was raised by a mother who named him \"comfort child\" and told him that posthumous children are Fortune's favorites, giving him confidence that he is one of Fortune's favorites.",
+      "Georg Ebers finished his autobiography in 1863."
+    ],
+    "latency_ms": 535,
+    "timestamp": "2026-04-16T07:05:18.823956+00:00"
+  },
+  "21": {
+    "question_id": 21,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 0,
+    "fact_texts": [],
+    "latency_ms": 565,
+    "timestamp": "2026-04-16T07:05:19.389565+00:00"
+  },
+  "22": {
+    "question_id": 22,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 0,
+    "fact_texts": [],
+    "latency_ms": 551,
+    "timestamp": "2026-04-16T07:05:19.940656+00:00"
+  },
+  "23": {
+    "question_id": 23,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 3,
+    "fact_texts": [
+      "The user is a son of Georg Ebers and is presenting his autobiography to his sons.",
+      "User wrote a poem titled \"The child who first beholds the light of day After his father’s eyes are closed for aye, Fortune will guard from every threatening ill, For God himself a father’s place will fill.\",",
+      "Georg Ebers' life was marked by fortitude in adversity, as described in his autobiography."
+    ],
+    "latency_ms": 597,
+    "timestamp": "2026-04-16T07:05:20.539208+00:00"
+  },
+  "24": {
+    "question_id": 24,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 2,
+    "fact_texts": [
+      "The user is a son of Georg Ebers and is presenting his autobiography to his sons.",
+      "Georg Ebers' life was marked by fortitude in adversity, as described in his autobiography."
+    ],
+    "latency_ms": 530,
+    "timestamp": "2026-04-16T07:05:21.071593+00:00"
+  },
+  "25": {
+    "question_id": 25,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 3,
+    "fact_texts": [
+      "The user is a son of Georg Ebers and is presenting his autobiography to his sons.",
+      "Georg Ebers' life was marked by fortitude in adversity, as described in his autobiography.",
+      "User wrote a poem titled \"The child who first beholds the light of day After his father’s eyes are closed for aye, Fortune will guard from every threatening ill, For God himself a father’s place will fill.\","
+    ],
+    "latency_ms": 530,
+    "timestamp": "2026-04-16T07:05:21.603716+00:00"
+  },
+  "26": {
+    "question_id": 26,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 3,
+    "fact_texts": [
+      "The user is a son of Georg Ebers and is presenting his autobiography to his sons.",
+      "Georg Ebers wrote the novel \"An Egyptian Princess\", finished in 1863, and later published \"Uarda\" in 1876, along with other novels such as Homo Sum, The Sisters, The Emperor, and The Burgomaster’s Wife.",
+      "User wrote a poem titled \"The child who first beholds the light of day After his father’s eyes are closed for aye, Fortune will guard from every threatening ill, For God himself a father’s place will fill.\","
+    ],
+    "latency_ms": 495,
+    "timestamp": "2026-04-16T07:05:22.099524+00:00"
+  },
+  "27": {
+    "question_id": 27,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 3,
+    "fact_texts": [
+      "Georg Ebers wrote the novel \"An Egyptian Princess\", finished in 1863, and later published \"Uarda\" in 1876, along with other novels such as Homo Sum, The Sisters, The Emperor, and The Burgomaster’s Wife.",
+      "The user is a son of Georg Ebers and is presenting his autobiography to his sons.",
+      "User wrote a poem titled \"The child who first beholds the light of day After his father’s eyes are closed for aye, Fortune will guard from every threatening ill, For God himself a father’s place will fill.\","
+    ],
+    "latency_ms": 493,
+    "timestamp": "2026-04-16T07:05:22.594580+00:00"
+  },
+  "28": {
+    "question_id": 28,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 4,
+    "fact_texts": [
+      "Georg Ebers wrote the novel \"An Egyptian Princess\", finished in 1863, and later published \"Uarda\" in 1876, along with other novels such as Homo Sum, The Sisters, The Emperor, and The Burgomaster’s Wife.",
+      "The user is a son of Georg Ebers and is presenting his autobiography to his sons.",
+      "Georg Ebers was raised by a mother who named him \"comfort child\" and told him that posthumous children are Fortune's favorites, giving him confidence that he is one of Fortune's favorites.",
+      "Georg Ebers wrote the novel 'Arachne', which was issued shortly before his death."
+    ],
+    "latency_ms": 583,
+    "timestamp": "2026-04-16T07:05:23.179449+00:00"
+  },
+  "29": {
+    "question_id": 29,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 2,
+    "fact_texts": [
+      "The user is a son of Georg Ebers and is presenting his autobiography to his sons.",
+      "User wrote a poem titled \"The child who first beholds the light of day After his father’s eyes are closed for aye, Fortune will guard from every threatening ill, For God himself a father’s place will fill.\","
+    ],
+    "latency_ms": 593,
+    "timestamp": "2026-04-16T07:05:23.773165+00:00"
+  },
+  "30": {
+    "question_id": 30,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 3,
+    "fact_texts": [
+      "Georg Ebers' autobiography includes sections on his early childhood, education at the Keilhau Institute, the revolutionary period, university life, and his literary works.",
+      "The user is a son of Georg Ebers and is presenting his autobiography to his sons.",
+      "User wrote a poem titled \"The child who first beholds the light of day After his father’s eyes are closed for aye, Fortune will guard from every threatening ill, For God himself a father’s place will fill.\","
+    ],
+    "latency_ms": 584,
+    "timestamp": "2026-04-16T07:05:24.358058+00:00"
+  },
+  "31": {
+    "question_id": 31,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Georg Ebers' life was marked by fortitude in adversity, as described in his autobiography.",
+      "The user is a son of Georg Ebers and is presenting his autobiography to his sons.",
+      "Georg Ebers went to Egypt in 1872, excavated at Thebes, and unearthed the Ebers Papyrus, a treatise on medicine from the second century B.C.",
+      "Georg Ebers resigned his chair at the University of Leipzig in 1889 due to health issues, but continued his intellectual activity until his death.",
+      "Georg Ebers finished his autobiography in 1863.",
+      "Georg Ebers wrote the novel 'Arachne', which was issued shortly before his death.",
+      "Georg Ebers' autobiography includes sections on his early childhood, education at the Keilhau Institute, the revolutionary period, university life, and his literary works.",
+      "Georg Ebers married the daughter of a burgomaster of Riga soon after 1864, and his wife helped manage the business details of his works and their American and English editions.",
+      "Georg Ebers died on August 7, 1898 at Villa Ebers in Tutzing, near Munich, on Starnberg Lake, and a monument was erected to his memory, comprising sixteen novels, treatises on Egypt and Palestine, and other works.",
+      "Georg Ebers was raised by a mother who named him \"comfort child\" and told him that posthumous children are Fortune's favorites, giving him confidence that he is one of Fortune's favorites."
+    ],
+    "latency_ms": 520,
+    "timestamp": "2026-04-16T07:05:24.880147+00:00"
+  },
+  "32": {
+    "question_id": 32,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Georg Ebers grew up in a house at No. 4 Thiergartenstrasse in Berlin, surrounded by a garden, orchard, pond, and a stable with horses.",
+      "Georg Ebers was raised by a mother who named him \"comfort child\" and told him that posthumous children are Fortune's favorites, giving him confidence that he is one of Fortune's favorites.",
+      "Georg Ebers was born on March 1, 1837 in Berlin, two weeks after his father's death on February 14, 1837; he was sturdy, merry, and laughed on the third day of life.",
+      "Georg Ebers studied at the Keilhau Institute, where he was influenced by the educational methods of Froebel and Pestalozzi.",
+      "Georg Ebers resigned his chair at the University of Leipzig in 1889 due to health issues, but continued his intellectual activity until his death.",
+      "Georg Ebers' autobiography includes sections on his early childhood, education at the Keilhau Institute, the revolutionary period, university life, and his literary works.",
+      "Georg Ebers died on August 7, 1898 at Villa Ebers in Tutzing, near Munich, on Starnberg Lake, and a monument was erected to his memory, comprising sixteen novels, treatises on Egypt and Palestine, and other works.",
+      "Georg Ebers' life was marked by fortitude in adversity, as described in his autobiography.",
+      "Georg Ebers finished his autobiography in 1863.",
+      "Georg Ebers went to Egypt in 1872, excavated at Thebes, and unearthed the Ebers Papyrus, a treatise on medicine from the second century B.C."
+    ],
+    "latency_ms": 610,
+    "timestamp": "2026-04-16T07:05:25.491563+00:00"
+  },
+  "33": {
+    "question_id": 33,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Georg Ebers was raised by a mother who named him \"comfort child\" and told him that posthumous children are Fortune's favorites, giving him confidence that he is one of Fortune's favorites.",
+      "Georg Ebers resigned his chair at the University of Leipzig in 1889 due to health issues, but continued his intellectual activity until his death.",
+      "The user is a son of Georg Ebers and is presenting his autobiography to his sons.",
+      "Georg Ebers went to Egypt in 1872, excavated at Thebes, and unearthed the Ebers Papyrus, a treatise on medicine from the second century B.C.",
+      "Georg Ebers studied at the Keilhau Institute, where he was influenced by the educational methods of Froebel and Pestalozzi.",
+      "Georg Ebers became a professor of Egyptology at the University of Leipzig in 1864 after receiving a professorship at Göttingen, after his first visit to Egypt, and the year after he finished his autobiography.",
+      "Georg Ebers died on August 7, 1898 at Villa Ebers in Tutzing, near Munich, on Starnberg Lake, and a monument was erected to his memory, comprising sixteen novels, treatises on Egypt and Palestine, and other works.",
+      "Georg Ebers' autobiography 'The Story of My Life' is titled as such and is dedicated to his sons.",
+      "Georg Ebers' life was marked by fortitude in adversity, as described in his autobiography.",
+      "Georg Ebers finished his autobiography in 1863."
+    ],
+    "latency_ms": 607,
+    "timestamp": "2026-04-16T07:05:26.100088+00:00"
+  },
+  "34": {
+    "question_id": 34,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Georg Ebers married the daughter of a burgomaster of Riga soon after 1864, and his wife helped manage the business details of his works and their American and English editions.",
+      "Georg Ebers grew up in a house at No. 4 Thiergartenstrasse in Berlin, surrounded by a garden, orchard, pond, and a stable with horses.",
+      "The user is a son of Georg Ebers and is presenting his autobiography to his sons.",
+      "Georg Ebers died on August 7, 1898 at Villa Ebers in Tutzing, near Munich, on Starnberg Lake, and a monument was erected to his memory, comprising sixteen novels, treatises on Egypt and Palestine, and other works.",
+      "Georg Ebers was raised by a mother who named him \"comfort child\" and told him that posthumous children are Fortune's favorites, giving him confidence that he is one of Fortune's favorites.",
+      "Georg Ebers went to Egypt in 1872, excavated at Thebes, and unearthed the Ebers Papyrus, a treatise on medicine from the second century B.C.",
+      "Georg Ebers became a professor of Egyptology at the University of Leipzig in 1864 after receiving a professorship at Göttingen, after his first visit to Egypt, and the year after he finished his autobiography.",
+      "Georg Ebers studied at the Keilhau Institute, where he was influenced by the educational methods of Froebel and Pestalozzi.",
+      "User's mother had a portrait by Schadow, now in possession of User's brother Dr. Martin Ebers of Berlin, but the portrait lacks coloring.",
+      "Georg Ebers resigned his chair at the University of Leipzig in 1889 due to health issues, but continued his intellectual activity until his death."
+    ],
+    "latency_ms": 535,
+    "timestamp": "2026-04-16T07:05:26.638194+00:00"
+  },
+  "35": {
+    "question_id": 35,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The user is a son of Georg Ebers and is presenting his autobiography to his sons.",
+      "Georg Ebers resigned his chair at the University of Leipzig in 1889 due to health issues, but continued his intellectual activity until his death.",
+      "Georg Ebers finished his autobiography in 1863.",
+      "Georg Ebers became a professor of Egyptology at the University of Leipzig in 1864 after receiving a professorship at Göttingen, after his first visit to Egypt, and the year after he finished his autobiography.",
+      "Georg Ebers' autobiography includes sections on his early childhood, education at the Keilhau Institute, the revolutionary period, university life, and his literary works.",
+      "Georg Ebers' autobiography 'The Story of My Life' is titled as such and is dedicated to his sons.",
+      "Georg Ebers was raised by a mother who named him \"comfort child\" and told him that posthumous children are Fortune's favorites, giving him confidence that he is one of Fortune's favorites.",
+      "Georg Ebers' life was marked by fortitude in adversity, as described in his autobiography.",
+      "Georg Ebers grew up in a house at No. 4 Thiergartenstrasse in Berlin, surrounded by a garden, orchard, pond, and a stable with horses.",
+      "Georg Ebers studied at the Keilhau Institute, where he was influenced by the educational methods of Froebel and Pestalozzi."
+    ],
+    "latency_ms": 533,
+    "timestamp": "2026-04-16T07:05:27.173321+00:00"
+  },
+  "36": {
+    "question_id": 36,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Georg Ebers was raised by a mother who named him \"comfort child\" and told him that posthumous children are Fortune's favorites, giving him confidence that he is one of Fortune's favorites.",
+      "Georg Ebers finished his autobiography in 1863.",
+      "The user is a son of Georg Ebers and is presenting his autobiography to his sons.",
+      "Georg Ebers became a professor of Egyptology at the University of Leipzig in 1864 after receiving a professorship at Göttingen, after his first visit to Egypt, and the year after he finished his autobiography.",
+      "Georg Ebers married the daughter of a burgomaster of Riga soon after 1864, and his wife helped manage the business details of his works and their American and English editions.",
+      "Georg Ebers studied at the Keilhau Institute, where he was influenced by the educational methods of Froebel and Pestalozzi.",
+      "Georg Ebers was born on March 1, 1837 in Berlin, two weeks after his father's death on February 14, 1837; he was sturdy, merry, and laughed on the third day of life.",
+      "Georg Ebers died on August 7, 1898 at Villa Ebers in Tutzing, near Munich, on Starnberg Lake, and a monument was erected to his memory, comprising sixteen novels, treatises on Egypt and Palestine, and other works.",
+      "Georg Ebers' autobiography includes sections on his early childhood, education at the Keilhau Institute, the revolutionary period, university life, and his literary works.",
+      "Georg Ebers resigned his chair at the University of Leipzig in 1889 due to health issues, but continued his intellectual activity until his death."
+    ],
+    "latency_ms": 540,
+    "timestamp": "2026-04-16T07:05:27.719444+00:00"
+  },
+  "37": {
+    "question_id": 37,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "The user is a son of Georg Ebers and is presenting his autobiography to his sons.",
+      "Georg Ebers was raised by a mother who named him \"comfort child\" and told him that posthumous children are Fortune's favorites, giving him confidence that he is one of Fortune's favorites.",
+      "Georg Ebers' autobiography 'The Story of My Life' is titled as such and is dedicated to his sons.",
+      "Georg Ebers went to Egypt in 1872, excavated at Thebes, and unearthed the Ebers Papyrus, a treatise on medicine from the second century B.C.",
+      "Georg Ebers' life was marked by fortitude in adversity, as described in his autobiography.",
+      "Georg Ebers died on August 7, 1898 at Villa Ebers in Tutzing, near Munich, on Starnberg Lake, and a monument was erected to his memory, comprising sixteen novels, treatises on Egypt and Palestine, and other works.",
+      "Georg Ebers resigned his chair at the University of Leipzig in 1889 due to health issues, but continued his intellectual activity until his death.",
+      "Georg Ebers finished his autobiography in 1863.",
+      "Georg Ebers wrote the novel 'Arachne', which was issued shortly before his death.",
+      "User wrote a poem titled \"The child who first beholds the light of day After his father’s eyes are closed for aye, Fortune will guard from every threatening ill, For God himself a father’s place will fill.\","
+    ],
+    "latency_ms": 618,
+    "timestamp": "2026-04-16T07:05:28.343408+00:00"
+  },
+  "38": {
+    "question_id": 38,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Georg Ebers resigned his chair at the University of Leipzig in 1889 due to health issues, but continued his intellectual activity until his death.",
+      "The user is a son of Georg Ebers and is presenting his autobiography to his sons.",
+      "Georg Ebers studied at the Keilhau Institute, where he was influenced by the educational methods of Froebel and Pestalozzi.",
+      "Georg Ebers' autobiography 'The Story of My Life' is titled as such and is dedicated to his sons.",
+      "Georg Ebers' life was marked by fortitude in adversity, as described in his autobiography.",
+      "Georg Ebers went to Egypt in 1872, excavated at Thebes, and unearthed the Ebers Papyrus, a treatise on medicine from the second century B.C.",
+      "Georg Ebers finished his autobiography in 1863.",
+      "Georg Ebers was raised by a mother who named him \"comfort child\" and told him that posthumous children are Fortune's favorites, giving him confidence that he is one of Fortune's favorites.",
+      "Georg Ebers became a professor of Egyptology at the University of Leipzig in 1864 after receiving a professorship at Göttingen, after his first visit to Egypt, and the year after he finished his autobiography.",
+      "Georg Ebers' autobiography includes sections on his early childhood, education at the Keilhau Institute, the revolutionary period, university life, and his literary works."
+    ],
+    "latency_ms": 600,
+    "timestamp": "2026-04-16T07:05:28.945745+00:00"
+  },
+  "39": {
+    "question_id": 39,
+    "system": "mem0",
+    "mode": "fullpipeline",
+    "facts_returned": 10,
+    "fact_texts": [
+      "Georg Ebers resigned his chair at the University of Leipzig in 1889 due to health issues, but continued his intellectual activity until his death.",
+      "Georg Ebers' life was marked by fortitude in adversity, as described in his autobiography.",
+      "Georg Ebers married the daughter of a burgomaster of Riga soon after 1864, and his wife helped manage the business details of his works and their American and English editions.",
+      "Georg Ebers finished his autobiography in 1863.",
+      "The user is a son of Georg Ebers and is presenting his autobiography to his sons.",
+      "Georg Ebers was raised by a mother who named him \"comfort child\" and told him that posthumous children are Fortune's favorites, giving him confidence that he is one of Fortune's favorites.",
+      "Georg Ebers became a professor of Egyptology at the University of Leipzig in 1864 after receiving a professorship at Göttingen, after his first visit to Egypt, and the year after he finished his autobiography.",
+      "Georg Ebers died on August 7, 1898 at Villa Ebers in Tutzing, near Munich, on Starnberg Lake, and a monument was erected to his memory, comprising sixteen novels, treatises on Egypt and Palestine, and other works.",
+      "Georg Ebers grew up in a house at No. 4 Thiergartenstrasse in Berlin, surrounded by a garden, orchard, pond, and a stable with horses.",
+      "Georg Ebers was born on March 1, 1837 in Berlin, two weeks after his father's death on February 14, 1837; he was sturdy, merry, and laughed on the third day of life."
+    ],
+    "latency_ms": 605,
+    "timestamp": "2026-04-16T07:05:29.552390+00:00"
+  }
+}

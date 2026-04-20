@@ -1,0 +1,13 @@
+{
+  "subject": "keckley",
+  "system": "supermemory",
+  "mode": "fullpipeline",
+  "container_tag": "keckley_fullpipeline",
+  "chunks_expected": 11,
+  "chunks_posted": 11,
+  "post_success": 9,
+  "post_failure": 2,
+  "start_time": "2026-04-16T06:51:31.284515+00:00",
+  "end_time": "2026-04-16T06:52:34.441568+00:00",
+  "verification_passed": true
+}

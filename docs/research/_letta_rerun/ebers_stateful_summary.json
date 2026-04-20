@@ -1,0 +1,22 @@
+{
+  "subject": "ebers",
+  "chunks_total": 52,
+  "turns": 53,
+  "final_blocks": [
+    {
+      "label": "human",
+      "size": 68413
+    },
+    {
+      "label": "persona",
+      "size": 431
+    }
+  ],
+  "error_count": 1,
+  "first_errors": [
+    [
+      1,
+      "Server error '524 <none>' for url 'https://api.letta.com/v1/agents/agent-cff379a8-761f-40ed-bdd0-1e655f0ffdc6/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/524"
+    ]
+  ]
+}

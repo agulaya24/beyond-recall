@@ -1,0 +1,17 @@
+{
+  "subject": "seacole",
+  "system": "letta",
+  "agent_name": "seacole_run_20260415",
+  "facts_expected": 775,
+  "facts_posted": 775,
+  "post_success": 775,
+  "post_failure": 0,
+  "failed_fact_indices": [],
+  "start_time": "2026-04-15T21:50:37.149110+00:00",
+  "agent_id": "agent-cc95f728-46c3-4caa-bf2c-aa663597f9dc",
+  "last_successful_index": 774,
+  "end_time": "2026-04-15T23:16:53.742399+00:00",
+  "verification_passed": true,
+  "verification_hits": 10,
+  "verification_total": 10
+}

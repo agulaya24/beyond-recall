@@ -1,0 +1,363 @@
+{
+  "metadata": {
+    "subject": "Olaudah Equiano",
+    "total": 60,
+    "tiers": {
+      "behavioral_prediction": 40,
+      "recall": 10,
+      "adversarial_abstention": 10
+    }
+  },
+  "questions": [
+    {
+      "id": 1,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "When Equiano hears about Mrs. Davis, a woman who claims to reveal secrets and foretell events, how does he initially respond?",
+      "held_out_passage": "I put little faith in this story at first, as I could not conceive that any mortal could foresee the future disposals of Providence, nor did I believe in any other revelation than that of the Holy Scriptures"
+    },
+    {
+      "id": 2,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "After dreaming of Mrs. Davis and then seeing her in person, what change occurs in Equiano's attitude toward her?",
+      "held_out_passage": "this made such an impression on me, that I could not get the idea the next day out of my mind, and I then became as anxious to see her as I was before indifferent"
+    },
+    {
+      "id": 3,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "When Equiano falls ill with fever and ague in Georgia, what does he do in response to his fear of death?",
+      "held_out_passage": "I prayed the Lord therefore to spare me; and I made a promise in my mind to God, that I would be good if ever I should recover."
+    },
+    {
+      "id": 4,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "After recovering from his illness, does Equiano maintain his promise to God made during his sickness?",
+      "held_out_passage": "all my endeavours to keep up my integrity, and perform my promise to God, began to fail; and, in spite of all I could do, as we drew nearer and nearer to the islands, my resolutions more and more declined"
+    },
+    {
+      "id": 5,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How does Equiano characterize his own struggle with maintaining piety once he returns to Montserrat?",
+      "held_out_passage": "Alas! how prone is the heart to leave that God it wishes to love! and how strongly do the things of this world strike the senses and captivate the soul!"
+    },
+    {
+      "id": 6,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "When a white gentleman in Charlestown refuses to pay Equiano for rum, what action does Equiano take?",
+      "held_out_passage": "I lost some time in seeking after this Christian; and though, when the Sabbath came (which the negroes usually make their holiday) I was much inclined to go to public worship, I was obliged to hire some black men to help to pull a boat across the water to God in quest of this gentleman."
+    },
+    {
+      "id": 7,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "When the white gentleman finally pays Equiano with copper dollars of no value, how does Equiano respond?",
+      "held_out_passage": "he took advantage of my being a negro man, and obliged me to put up with those or none, although I objected to them."
+    },
+    {
+      "id": 8,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "When white men in the market accuse Equiano of trying to pass bad coin, what is his immediate reaction?",
+      "held_out_passage": "I was within one minute of being tied up and flogged without either judge or jury; however, by the help of a good pair of heels, I ran off, and so escaped the bastinadoes I should have received."
+    },
+    {
+      "id": 9,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "Based on his experience being cheated and nearly flogged in Charlestown, what does Equiano do afterward?",
+      "held_out_passage": "I got on board as fast as I could, but still continued in fear of them until we sailed, which I thanked God we did not long after; and I have never been amongst them since."
+    },
+    {
+      "id": 10,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How does Equiano's work ethic manifest during his voyages?",
+      "held_out_passage": "I had always exerted myself and did double work, in order to make our voyages as short as possible"
+    },
+    {
+      "id": 11,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "When Equiano hears news of the repeal of the stamp act in Charlestown, what does he observe about the town's reaction?",
+      "held_out_passage": "I saw the town illuminated; the guns were fired, and bonfires and other demonstrations of joy shewn, on account of the repeal of the stamp act."
+    },
+    {
+      "id": 12,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "What does Mrs. Davis predict will happen to Equiano regarding his enslavement?",
+      "held_out_passage": "She said I should not be long a slave"
+    },
+    {
+      "id": 13,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "What specific dangers does Mrs. Davis warn Equiano about?",
+      "held_out_passage": "She said I should be twice in very great danger of my life within eighteen months, which, if I escaped, I should afterwards go on well"
+    },
+    {
+      "id": 14,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How does Equiano's belief in Mrs. Davis's credibility develop?",
+      "held_out_passage": "this was the more agreeable news, as I believed it the more readily from her having so faithfully related the past incidents of my life."
+    },
+    {
+      "id": 15,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "When conducting his own trading business in Charlestown, what does Equiano experience from white merchants?",
+      "held_out_passage": "the white men buying them with smooth promises and fair words, giving me however but very indifferent payment."
+    },
+    {
+      "id": 16,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How does Equiano describe the effect of the island climate on his spiritual resolve?",
+      "held_out_passage": "as if the very air of that country or climate seemed fatal to piety."
+    },
+    {
+      "id": 17,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "What is Equiano's relationship with his captain regarding the dispute over payment?",
+      "held_out_passage": "I used the interest of my friendly captain, I could not obtain any thing for it"
+    },
+    {
+      "id": 18,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "How does Equiano's status as a Black man affect his legal recourse in Charlestown?",
+      "held_out_passage": "being a negro man, I could not oblige him to pay me"
+    },
+    {
+      "id": 19,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "What does Equiano's near-flogging incident reveal about his vulnerability in colonial America?",
+      "held_out_passage": "I was within one minute of being tied up and flogged without either judge or jury"
+    },
+    {
+      "id": 20,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "How does Equiano's experience in Charlestown affect his subsequent behavior regarding that location?",
+      "held_out_passage": "I have never been amongst them since."
+    },
+    {
+      "id": 21,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "When Equiano becomes ill during a voyage, what type of promise does he make to secure his recovery?",
+      "held_out_passage": "I prayed the Lord therefore to spare me; and I made a promise in my mind to God, that I would be good if ever I should recover."
+    },
+    {
+      "id": 22,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How does Equiano's commitment to his religious promises change as the ship approaches the Caribbean islands?",
+      "held_out_passage": "as we drew nearer and nearer to the islands, my resolutions more and more declined, as if the very air of that country or climate seemed fatal to piety."
+    },
+    {
+      "id": 23,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "What does Equiano do immediately after arriving in Montserrat regarding his earlier religious commitments?",
+      "held_out_passage": "When we were safe arrived at Montserrat, and I had got ashore, I forgot my former resolutions."
+    },
+    {
+      "id": 24,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "When Equiano engages in commerce in Charlestown, what type of treatment does he receive from white merchants?",
+      "held_out_passage": "the white men buying them with smooth promises and fair words, giving me however but very indifferent payment."
+    },
+    {
+      "id": 25,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "What obstacle prevents Equiano from compelling a white gentleman to pay him for rum?",
+      "held_out_passage": "although I used the interest of my friendly captain, I could not obtain any thing for it; for, being a negro man, I could not oblige him to pay me."
+    },
+    {
+      "id": 26,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "How does Equiano respond when he discovers he has been given counterfeit coins by the white gentleman?",
+      "held_out_passage": "he took advantage of my being a negro man, and obliged me to put up with those or none, although I objected to them."
+    },
+    {
+      "id": 27,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "What danger does Equiano face when attempting to use the counterfeit coins in the market?",
+      "held_out_passage": "I was abused for offering to pass bad coin; and, though I shewed them the man I got them from, I was within one minute of being tied up and flogged without either judge or jury"
+    },
+    {
+      "id": 28,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "How does Equiano escape the threat of flogging in the Charlestown market?",
+      "held_out_passage": "by the help of a good pair of heels, I ran off, and so escaped the bastinadoes I should have received."
+    },
+    {
+      "id": 29,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "What is Equiano's emotional state after escaping the market incident?",
+      "held_out_passage": "I got on board as fast as I could, but still continued in fear of them until we sailed, which I thanked God we did not long after"
+    },
+    {
+      "id": 30,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "Who attacks Equiano in Savannah, and what is the stated reason for the attack?",
+      "held_out_passage": "their master, one Doctor Perkins, who was a very severe and cruel man, came in drunk; and, not liking to see any strange negroes in his yard, he and a ruffian of a white man he had in his service beset me in an instant"
+    },
+    {
+      "id": 31,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "How does Equiano attempt to defend himself during the attack by Doctor Perkins?",
+      "held_out_passage": "I cried out as long as I could for help and mercy; but, though I gave a good account of myself, and he knew my captain, who lodged hard by him, it was to no purpose."
+    },
+    {
+      "id": 32,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "What is the severity of the injuries Equiano sustains from Doctor Perkins' attack?",
+      "held_out_passage": "They beat and mangled me in a shameful manner, leaving me near dead. I lost so much blood from the wounds I received, that I lay quite motionless, and was so benumbed that I could not feel any thing for many hours."
+    },
+    {
+      "id": 33,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "Where is Equiano taken after the attack, and who discovers his location?",
+      "held_out_passage": "Early in the morning they took me away to the jail. As I did not return to the ship all night, my captain, not knowing where I was, and being uneasy that I did not then make my appearance, he made inquiry after me; and, having found where I was, immediately came to me."
+    },
+    {
+      "id": 34,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How does Equiano's captain respond emotionally upon seeing his injuries?",
+      "held_out_passage": "As soon as the good man saw me so cut and mangled, he could not forbear weeping"
+    },
+    {
+      "id": 35,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "What legal recourse is available to Equiano's captain when he consults with lawyers about the assault?",
+      "held_out_passage": "My captain on this went to all the lawyers in the town for their advice, but they told him they could do nothing for me as I was a negro."
+    },
+    {
+      "id": 36,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "How does Equiano's captain attempt to seek justice against Doctor Perkins?",
+      "held_out_passage": "He then went to Doctor Perkins, the hero who had vanquished me, and menaced him, swearing he would be revenged of him, and challenged him to fight."
+    },
+    {
+      "id": 37,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "What is Doctor Perkins' response to the captain's challenge?",
+      "held_out_passage": "But cowardice is ever the companion of cruelty--and the Doctor refused."
+    },
+    {
+      "id": 38,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "Who ultimately provides medical care that allows Equiano to begin recovering from his injuries?",
+      "held_out_passage": "However, by the skilfulness of one Doctor Brady of that place, I began at last to amend"
+    },
+    {
+      "id": 39,
+      "tier": "behavioral_prediction",
+      "category": "risk",
+      "text": "What is Equiano's physical condition during his recovery from the beating?",
+      "held_out_passage": "although I was so sore and bad with the wounds I had all over me that I could not rest in any posture"
+    },
+    {
+      "id": 40,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "Based on Equiano's earlier statements about Christian nations, how might he view the treatment he receives in these American ports?",
+      "held_out_passage": "the introduction I have thence obtained to the knowledge of the Christian religion, and of a nation which, by its liberal sentiments, its humanity, the glorious freedom of its government, and its proficiency in arts and sciences, has exalted the dignity of human nature."
+    },
+    {
+      "id": 41,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Olaudah Equiano's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 42,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Olaudah Equiano's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 43,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Olaudah Equiano's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 44,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Olaudah Equiano's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 45,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Olaudah Equiano's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 46,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Olaudah Equiano's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 47,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Olaudah Equiano's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 48,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Olaudah Equiano's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 49,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Olaudah Equiano's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 50,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Olaudah Equiano's opinion on modern technology?",
+      "held_out_passage": null
+    }
+  ]
+}

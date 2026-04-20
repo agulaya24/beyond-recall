@@ -1,0 +1,13 @@
+{
+  "subject": "ebers",
+  "system": "mem0",
+  "mode": "fullpipeline",
+  "user_id": "ebers_fullpipeline",
+  "chunks_expected": 26,
+  "chunks_posted": 26,
+  "post_success": 28,
+  "post_failure": 1,
+  "start_time": "2026-04-16T06:54:36.346481+00:00",
+  "end_time": "2026-04-16T06:55:19.475906+00:00",
+  "verification_passed": true
+}

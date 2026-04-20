@@ -1,120 +1,172 @@
-<!-- IF YOU ARE AN AI AGENT: Start with agents/study-guide.md — it tells you how to navigate this repo, verify every claim, and report issues you find. -->
+<!-- IF YOU ARE AN AI AGENT: Start with agents/study-guide.md — it tells you how to navigate this repo, verify every claim, and report issues you find. The single source of truth for every number is docs/DATA_REFERENCE.md. -->
 
 # Beyond Recall: Behavioral Specification as the Missing Primitive for AI Personalization
 
-> **If you're an AI agent reading this repository**, see [agents/study-guide.md](agents/study-guide.md) for structured navigation, claim verification paths, and issue reporting instructions.
+> **If you're an AI agent reading this repository**, see [agents/study-guide.md](agents/study-guide.md) for structured navigation, claim verification paths, and issue reporting instructions. The single source of truth for every number in this repo is [docs/DATA_REFERENCE.md](docs/DATA_REFERENCE.md).
 
-> **TLDR:** Enter into your LLM: *"What in the world is this? (github.com/agulaya24/baselayer) and how can it help me"*
+## The Flagship Claim
 
-What if the bottleneck in AI personalization isn't retrieval — it's representation?
+**Base Layer is not a memory system. Layered on top of four commercial ones — Mem0, Letta, Zep, Supermemory — it improves all four on the users the model doesn't already know.**
 
-This study tests whether a behavioral specification (a structured model of how someone thinks, decides, and communicates) improves held-out behavioral prediction when added to state-of-the-art (SOTA) memory systems. Across 14 subjects from 11 cultures, 6 response models, and 7 judges: it does. Adding a spec to any of four funded SOTA memory systems makes them better. The effect is largest for subjects the model has never seen — which is every real user.
+The mechanism: **there is an interpretive layer between what a person said and how a person reasons that retrieval alone does not supply — measurable via behavioral prediction, and additive to every memory system tested here.**
+
+This study tests whether a behavioral specification (a compressed, structured model of how someone reasons) adds predictive accuracy when layered on top of state-of-the-art memory systems. It does. The effect is a gradient in the baseline: the less the model already knows about the subject from pretraining, the more the spec helps.
+
+## The Claim — Tested, Extrapolated, Not Made
+
+- **Tested (primary result):** Base Layer is not a memory system. Layered on top of four commercial ones — Mem0, Letta, Zep, Supermemory — it improves all four on the users the model doesn't already know.
+- **Extrapolated:** ~99% of real AI users are the users the model doesn't already know. The study's low-baseline slice (n=9) approximates them.
+- **Not made:** Base Layer does not outperform memory providers in general. It isn't a better retriever. It's an orthogonal layer.
+
+## What This Study Is — And Is Not
+
+- It **is** a test of a behavioral-specification layer as an additive primitive on top of existing memory systems.
+- It **is not** a benchmark of memory systems against each other.
+- It **is not** a claim that Base Layer outperforms memory providers in general — it doesn't, and it's not supposed to.
+- **Base Layer is an orthogonal layer**, not a replacement retriever.
+
+## The Population That Matters
+
+The 9 "low-baseline" subjects (C5 ≤ 2.0) are the sample subset whose baseline is low enough to matter. The population *outside* this study — living people with private decisions not in any training corpus — is overwhelmingly low-baseline by construction. Approximately **99% of real AI users have negligible pretraining representation of their personal behavior**. The low-baseline slice is the operationally relevant population for real deployment; everything else is a sub-analysis.
+
+## Study Scale
+
+- **14 public-domain autobiographical subjects** from 11 cultures spanning 2,500 years (Augustine of Hippo to Zitkala-Sa)
+- **5 retrieval systems tested:** Mem0, Letta (MemGPT), Supermemory, Zep, Base Layer
+- **Two memory-system configurations:** controlled (identical pre-extracted facts) and native (each system's own ingestion)
+- **7 judges, 3 providers:** Haiku 4.5, Sonnet 4.6, Opus 4.6 (Anthropic), GPT-4o, GPT-5.4 (OpenAI), Gemini 2.5 Flash, Gemini 2.5 Pro (Google). Gemini Pro has limited coverage (Hamerton + Tier 2 only); effective 6-judge panel on the global gradient.
+- **6 response models** across conditions; primary response model Haiku 4.5
+- **~65,000 individual judgments**
 
 ## Key Findings
 
-### Hamerton Study (Unknown Subject — Baseline 1.41)
+See [docs/DATA_REFERENCE.md](docs/DATA_REFERENCE.md) for the authoritative numbers and CIs. The summaries below are paraphrases; the source of truth is the data reference.
 
-| Condition | 4-Judge Avg | What it proves |
-|---|---|---|
-| **C4a (all facts + spec)** | **3.23** | Spec helps even with complete information |
-| C3 (spec + retrieved facts) | 2.96-3.13 | **Spec + facts beats facts alone (p=0.012)** |
-| C4 (all 462 facts, no spec) | 2.69 | All facts without framework |
-| C1 (memory system facts only) | 1.64-2.67 | Memory systems alone |
-| C9 (raw corpus, 25K words) | 2.31 | **Raw text loses to spec + 10 facts** |
-| C5 (baseline) | 1.41 | Model doesn't know the subject |
+### 1. The gradient: the less the model knows, the more the spec helps
 
-### Franklin Study (Known Subject — Baseline 4.10)
+On the 9 low-baseline subjects (C5 ≤ 2.0 — the population of interest), the spec improves prediction on **9 of 9**. Across all 14 subjects (including 5 higher-baseline), 12 of 14 show positive lift from spec+facts; the two negatives (Zitkala-Sa, Equiano) sit at the top of the low-baseline-adjacent range, consistent with the gradient mechanism. Linear regression of Δ on C5 baseline yields slope −0.98 [95% CI −1.30, −0.74].
 
-| Condition | 4-Judge Avg | What it proves |
-|---|---|---|
-| **C5 (baseline, no context)** | **4.10** | Model already knows Franklin |
-| C3 (spec + facts) | 3.83 | Context hurts when model already knows |
-| C7 (named baseline) | 3.89 | Model identifies Franklin without being told |
+### 2. The spec improves every commercial memory system — on the users the model doesn't already know
 
-### The Meta-Finding
+In the controlled configuration on the 9 low-baseline subjects, adding the behavioral specification to retrieved facts produces **positive mean delta on all four commercial systems**: Mem0 +0.13, Letta +0.23, Zep +0.20, Supermemory +0.004, plus Base Layer +0.13. Aggregated across all 14 subjects, Supermemory's spec-delta is near-zero (−0.04 controlled, −0.11 native) — a ceiling artifact: on subjects where Supermemory's own retrieval has already saturated, the spec has no headroom to add. See DATA_REFERENCE §3–§5.
 
-The spec's value is inversely proportional to the model's prior knowledge.
+### 3. Information is not what's missing — structure is
 
-- **Unknown subjects (every real user):** Spec transforms prediction (+128%)
-- **Known subjects (famous figures):** Spec is unnecessary (-4%)
-- **Raw text in context:** Loses to spec + 10 facts despite having 8x more information
+On Hamerton, a 7K-token spec (C2a, score 3.04) outperforms 34K tokens of raw corpus (C8, score 2.32) and matches spec-augmented raw corpus (C9, 3.22). The raw corpus contains every fact the spec is derived from. The model cannot extract interpretive structure from unstructured text alone. See DATA_REFERENCE §8.
 
-## Study Design
+### 4. Letta's stateful-agent path produces a parity result at 65% context size (n=1, Hamerton)
 
-- **2 subjects:** Philip Gilbert Hamerton (unknown) + Benjamin Franklin (known)
-- **4 memory systems:** Mem0, Letta (MemGPT), Supermemory, Zep
-- **15 conditions:** C1-C9, C4a, C7 (see methodology)
-- **80 questions per subject:** 40 behavioral prediction with held-out ground truth
-- **7 judges, 3 providers:** Haiku 4.5, Sonnet 4.6, Opus 4.6 (Anthropic), GPT-4o, GPT-5.4 (OpenAI), Gemini 2.5 Flash, Gemini 2.5 Pro (Google)
-- **Inter-rater reliability:** Pairwise Spearman rho 0.89-0.98
+When Letta's stateful-agent path is invoked properly (30-turn ingestion with self-editing memory blocks, per Packer et al.), it produces a 22,472-character `human` memory block that predicts **3.24** (matched response model, 6 judges) vs Base Layer's full-stack spec at **3.04** — at 65% the context size. This is architectural convergence on the same finding reached by two independent methods: the value is in compressed interpretive representation. Single-subject result (Ebers follow-up in flight). See DATA_REFERENCE §7.
+
+### 5. Content specificity matters — wrong specs score near baseline
+
+Wrong-spec v1 (Franklin's spec applied to 13 other subjects): 1.86 (−0.16 vs baseline). Wrong-spec v2 (random derangement, seed=42): 2.30 (+0.28 vs baseline, but −0.25 vs correct spec). Neither reaches correct-spec scores. See DATA_REFERENCE §6.
+
+### 6. Statistical robustness
+
+- Wilcoxon signed-rank, C5 vs C2a (N=14): W=10.0, p=0.0076
+- Wilcoxon signed-rank, C5 vs C4a (N=14): W=9.0, p=0.0063
+- Regression slope on gradient: −0.98 [−1.30, −0.74]
+- Krippendorff α = 0.535 across all 7 judges (ordinal, moderate); 0.659 across non-Gemini 5-judge panel (substantial)
+
+## Experimental Conditions
+
+| Condition | Description |
+|---|---|
+| C1_{system} | Retrieved facts only (no spec), per memory system |
+| C2a | Spec only (no facts) |
+| C3_{system} | Spec + retrieved facts (per memory system) |
+| C4 | All extracted facts, no spec |
+| C4a | All extracted facts + spec |
+| C5 | Baseline (no context — model only) |
+| C8 | Raw training corpus in context |
+| C9 | Raw training corpus + spec |
+| C2c v1 | Franklin's spec applied to the other 13 subjects (wrong-spec control) |
+| C2c v2 | Random-derangement wrong-spec (seed=42) |
+
+Memory-system conditions run in two configurations:
+- **Option A (controlled):** identical pre-extracted fact set given to every system
+- **Option B (native):** raw corpus fed to each system's own ingestion pipeline
 
 ## Repository Structure
 
 ```
 data/
-  hamerton/                       # Primary subject (unknown to model)
+  hamerton/                       # Primary subject (low baseline, 1.25)
     battery.json                  # 80 questions with held-out passages
     facts.json                    # 462 extracted facts
-    shared_facts.json             # Facts shared across conditions
-    questions_80.json             # Question battery
     spec/                         # Behavioral specification layers
   franklin/                       # Known-figure replication
-    battery.json                  # Franklin question battery
-    facts.json                    # 1,133 extracted facts
-    franklin_shared_facts.json
-    questions_80_franklin.json
   franklin_obscure/               # Cross-corpus test (letters)
-    battery.json
-    facts.json
   global_subjects/                # 13 subjects across 11 cultures
     augustine/ babur/ bernal_diaz/ cellini/ ebers/ equiano/
     fukuzawa/ keckley/ rousseau/ seacole/ sunity_devee/
     yung_wing/ zitkala_sa/
-    # Each contains: battery.json, facts.json, spec.md,
-    # spec_production.md, judgments.json, results.json,
-    # anchors_v4.md, core_v4.md, predictions_v4.md, brief_v5.md
+
 results/
-  hamerton/                       # Haiku full-stack responses + judge scores
+  hamerton/                       # Full results for all conditions
+  run_fullstack_hamerton_*/       # S113 full-stack refresh + Letta stateful-agent test
   franklin/                       # Franklin responses + judge scores
-  franklin_obscure/               # Obscure letters responses
-  multimodel/                     # Sonnet, GPT-5.4, Gemini Flash responses
-  judge_calibration/              # Calibration tests across 5+ judges
+  global_{subject}/               # Per-subject results
+  multimodel/                     # Sonnet, GPT-5.4, Gemini response models
+  judge_calibration/              # Calibration tests across judges
+  RESULTS_S113.json               # Consolidated S113 results (source for DATA_REFERENCE)
+
 scripts/
   run_full_study.py               # Main study runner
-  run_franklin_raw.py             # Franklin runner (raw HTTP)
-  run_franklin_judge.py           # Franklin 5-judge pipeline
-  run_judge_batch.py              # Anthropic batch judge
-  run_judge_calibration.py        # Judge calibration framework
-  run_judge_evaluation.py         # Judge evaluation pipeline
-  run_multimodel_responses.py     # Multi-model response generation
-  run_global_subjects.py          # Global subjects pipeline
   run_full_spec_rerun.py          # Full-stack spec rerun
-  extract_shared_facts.py         # Fact extraction (Haiku)
+  run_global_subjects.py          # Global subjects pipeline
+  run_multimodel_responses.py     # Multi-model response generation
+  run_judge_batch.py              # Batch judging
   review_paper.py                 # Cross-LLM paper review
-  gemini_review_script.py         # Gemini API review script
+
 docs/
-  beyond_recall_arxiv_draft.md    # Full research paper (ArXiv preprint)
-  beyond_recall_arxiv_draft.docx  # Word export for sharing
-  blog_post_v2.md                 # Blog post (current draft)
+  DATA_REFERENCE.md               # SINGLE SOURCE OF TRUTH for all numbers
+  beyond_recall_v6_draft.md       # Full research paper (v6 draft)
   METHODOLOGY.md                  # Full methodology and conditions
-  PROVIDER_ISSUES.md              # Issues encountered per memory system
   PROVENANCE_INDEX.md             # Every number traced to source file
-  PAPER_CORRECTIONS.md            # 13 corrections from provenance audit
-  REFERENCE_TABLE.md              # 19 references with verification status
-  reviews/                        # All LLM paper reviews (Gemini, Mistral, etc.)
-  versions/                       # Version snapshots of paper and blog
-charts/
-  unknown_vs_known.png            # Headline chart
-  hamerton_full_hierarchy.png
-  hamerton_vs_franklin.png
-  bimodal_to_gradient.png
-  compression_story.png
-  judge_agreement.png
-  franklin_judge_agreement.png
-  pipeline_diagram.md             # Pipeline diagram specification
+  PAPER_CORRECTIONS.md            # Corrections changelog (S105 + S113)
+  ANALYSIS_PLAN_LOCK.md           # Pre-committed analysis plan
+  PROVIDER_EXPERIENCE_LEDGER.md   # Working with each memory system API
+  PROVIDER_ISSUES.md              # Technical issues per system
+  blog_post_v2.md                 # Blog post (launch artifact)
+
+charts/                           # Visualizations
 agents/
   study-guide.md                  # Agent navigation guide
 ```
+
+## Memory Systems Tested
+
+| System | Version | Architecture | Option A | Option B |
+|---|---|---|---|---|
+| Mem0 | mem0ai 1.0.11 | Flat embedding, cosine similarity | Pre-extracted facts | `infer=True` (native extraction) |
+| Letta (MemGPT) | letta-client 1.10.2 | Tiered agent-driven, archival + stateful blocks | Pre-extracted facts (archival path) | Archival chunks + stateful-agent loop (§4.3.1) |
+| Supermemory | supermemory 3.32.0 | Atomic memories, hybrid retrieval | Pre-extracted facts | `/v3/documents` with chunks |
+| Zep | zep-cloud 3.20.0 | Knowledge graph, entity-relationship | Pre-extracted facts | `graph.add` with 500-word chunks |
+| Base Layer | MiniLM-L6-v2 + ChromaDB | Sentence embeddings, cosine similarity | Pre-extracted facts | N/A (Base Layer is the spec layer, not a memory provider) |
+
+## Subjects
+
+| Subject | Culture | Era | C5 Baseline | Source |
+|---|---|---|---:|---|
+| Sunity Devee | Indian | 1864-1932 | 1.03 | *Autobiography* |
+| Georg Ebers | German | 1837-1898 | 1.04 | *Story of My Life* |
+| Philip Gilbert Hamerton | British | 1834-1894 | 1.25 | *Autobiography* |
+| Fukuzawa Yukichi | Japanese | 1835-1901 | 1.80 | *Autobiography* |
+| Mary Seacole | Caribbean/British | 1805-1881 | 1.85 | *Wonderful Adventures* |
+| Bernal Diaz del Castillo | Spanish/Latin American | 1492-1584 | 1.85 | *True History* |
+| Elizabeth Keckley | Black American | 1818-1907 | 1.91 | *Behind the Scenes* |
+| Yung Wing | Chinese | 1828-1912 | 1.96 | *My Life in China* |
+| Babur | Central Asian/Muslim | 1483-1530 | 1.98 | *Baburnama* |
+| — low-baseline cutoff (n=9 above) — | | | | |
+| Benvenuto Cellini | Italian | 1500-1571 | 2.56 | *Vita* |
+| Zitkala-Sa | Native American | 1876-1938 | 2.60 | *American Indian Stories* |
+| Jean-Jacques Rousseau | French | 1712-1778 | 2.65 | *Confessions* |
+| Augustine of Hippo | North African/Roman | 354-430 | 2.79 | *Confessions* |
+| Olaudah Equiano | West African/British | 1745-1797 | 2.93 | *Interesting Narrative* |
+
+All source texts are public domain (Project Gutenberg, Internet Archive). Baselines from [DATA_REFERENCE.md §1](docs/DATA_REFERENCE.md).
 
 ## Reproducibility
 
@@ -123,38 +175,20 @@ agents/
 - All responses logged with full system prompts, retrieved facts, token counts
 - Manifest files record SDK versions, timestamps, model versions
 - Question batteries include exact held-out passages from source text
-
-## Corpora
-
-- **Hamerton:** Philip Gilbert Hamerton, *An Autobiography* (1834-1858), Project Gutenberg #8536
-- **Franklin:** Benjamin Franklin, *Autobiography*, Project Gutenberg #20203
-
-## Memory Systems Tested
-
-| System | Version | Architecture |
-|---|---|---|
-| Mem0 | mem0ai 1.0.11 | Flat embedding, cosine similarity |
-| Letta (MemGPT) | letta-client 1.10.2 | Tiered agent-driven retrieval |
-| Supermemory | supermemory 3.32.0 | Atomic memories, hybrid retrieval |
-| Zep | zep-cloud 3.20.0 | Knowledge graph, entity-relationship |
+- Any result can be reproduced by running the corresponding script
+- Analysis plan pre-committed in [docs/ANALYSIS_PLAN_LOCK.md](docs/ANALYSIS_PLAN_LOCK.md) before final runs
 
 ## License
 
-Apache 2.0
+License pending (see top-level LICENSE file when added). Intended license: Apache 2.0.
 
 ## Citation
 
 ```
-@article{baselayer2026beyondrecall,
+@article{gulaya2026beyondrecall,
   title={Beyond Recall: Behavioral Specification as the Missing Primitive for AI Personalization},
-  author={Base Layer},
+  author={Gulaya, Aarik},
   year={2026},
-  url={https://base-layer.ai}
+  url={https://github.com/agulaya24/memory-study-repo}
 }
 ```
-
-## Links
-
-- [Blog post](https://base-layer.ai/research/memory-study)
-- [Interactive data explorer](https://base-layer.ai/research/memory-study/explorer)
-- [Base Layer](https://base-layer.ai)

@@ -1,0 +1,17 @@
+{
+  "subject": "zitkala_sa",
+  "system": "letta",
+  "agent_name": "zitkala_sa_run_20260415",
+  "facts_expected": 343,
+  "facts_posted": 343,
+  "post_success": 343,
+  "post_failure": 0,
+  "failed_fact_indices": [],
+  "start_time": "2026-04-15T22:08:19.429511+00:00",
+  "agent_id": "agent-be7233c5-fa52-41f3-8b1f-65c8c2a3242f",
+  "last_successful_index": 342,
+  "end_time": "2026-04-15T22:37:50.332261+00:00",
+  "verification_passed": true,
+  "verification_hits": 10,
+  "verification_total": 10
+}

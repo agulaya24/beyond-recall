@@ -1,0 +1,17 @@
+{
+  "subject": "babur",
+  "system": "letta",
+  "agent_name": "babur_run_20260415",
+  "facts_expected": 4815,
+  "facts_posted": 4815,
+  "post_success": 4815,
+  "post_failure": 0,
+  "failed_fact_indices": [],
+  "start_time": "2026-04-15T21:52:04.557232+00:00",
+  "agent_id": "agent-978057b7-83d0-4c1f-b0e7-696bcc9b6158",
+  "last_successful_index": 4814,
+  "end_time": "2026-04-16T03:14:42.267564+00:00",
+  "verification_passed": true,
+  "verification_hits": 10,
+  "verification_total": 10
+}

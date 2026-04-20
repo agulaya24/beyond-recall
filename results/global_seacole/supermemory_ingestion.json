@@ -1,0 +1,16 @@
+{
+  "subject": "seacole",
+  "system": "supermemory",
+  "container_tag": "seacole_run_20260415",
+  "facts_expected": 775,
+  "facts_posted": 775,
+  "post_success": 775,
+  "post_failure": 0,
+  "failed_fact_indices": [],
+  "start_time": "2026-04-15T22:59:03.850185+00:00",
+  "last_successful_index": 774,
+  "end_time": "2026-04-15T23:31:34.762167+00:00",
+  "verification_passed": true,
+  "verification_hits": 10,
+  "verification_total": 10
+}

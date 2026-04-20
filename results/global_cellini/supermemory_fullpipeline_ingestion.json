@@ -1,0 +1,13 @@
+{
+  "subject": "cellini",
+  "system": "supermemory",
+  "mode": "fullpipeline",
+  "container_tag": "cellini_fullpipeline",
+  "chunks_expected": 34,
+  "chunks_posted": 34,
+  "post_success": 34,
+  "post_failure": 0,
+  "start_time": "2026-04-16T07:02:52.438233+00:00",
+  "end_time": "2026-04-16T07:05:37.121255+00:00",
+  "verification_passed": true
+}

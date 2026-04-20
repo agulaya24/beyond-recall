@@ -1,0 +1,363 @@
+{
+  "metadata": {
+    "subject": "Zitkala-Sa",
+    "total": 60,
+    "tiers": {
+      "behavioral_prediction": 40,
+      "recall": 10,
+      "adversarial_abstention": 10
+    }
+  },
+  "questions": [
+    {
+      "id": 1,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Based on Zitkala-Sa's writing style and values in the training text, how would she likely judge the Indian schools' approach to education and their claims of charity?",
+      "held_out_passage": "But few there are who have paused to question whether real life or long-lasting death lies beneath this semblance of civilization."
+    },
+    {
+      "id": 2,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "Given Zitkala-Sa's spiritual connection to nature shown in the training text, what would she likely do when seeking peace and spiritual renewal?",
+      "held_out_passage": "When the spirit swells my breast I love to roam leisurely among the green hills; or sometimes, sitting on the brink of the murmuring Missouri, I marvel at the great blue overhead."
+    },
+    {
+      "id": 3,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How would Zitkala-Sa characterize her emotional state while observing natural phenomena, based on her introspective nature in the training text?",
+      "held_out_passage": "My heart and I lie small upon the earth like a grain of throbbing sand."
+    },
+    {
+      "id": 4,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "What would Zitkala-Sa likely believe about the spiritual significance of natural objects, given her reverence for nature in the training text?",
+      "held_out_passage": "Their quaint round faces of varied hue convince the heart which leaps with glad surprise that they, too, are living symbols of omnipotent thought."
+    },
+    {
+      "id": 5,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Based on Zitkala-Sa's respect for Native American traditions shown in the training text, how would she likely respond to indigenous legends and stories?",
+      "held_out_passage": "Interwoven with the thread of this Indian legend of the rock, I fain would trace a subtle knowledge of the native folk which enabled them to recognize a kinship to any and all parts of this vast universe."
+    },
+    {
+      "id": 6,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "Given Zitkala-Sa's childhood freedom and connection to animals in the training text, how would she likely interact with a pet?",
+      "held_out_passage": "In both my hands I hold her shaggy head and gaze into her large brown eyes."
+    },
+    {
+      "id": 7,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "What philosophical conclusion would Zitkala-Sa likely reach about racial divisions, based on her inclusive worldview in the training text?",
+      "held_out_passage": "The racial lines, which once were bitterly real, now serve nothing more than marking out a living mosaic of human beings."
+    },
+    {
+      "id": 8,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How would Zitkala-Sa likely characterize individual differences among people of the same race, given her nuanced observations in the training text?",
+      "held_out_passage": "And even here men of the same color are like the ivory keys of one instrument where each resembles all the rest, yet varies from them in pitch and quality of voice."
+    },
+    {
+      "id": 9,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "Based on Zitkala-Sa's critical perspective on education in the training text, what would she likely think about superficial claims of helping Native Americans?",
+      "held_out_passage": "In this fashion many have passed idly through the Indian schools during the last decade, afterward to boast of their charity to the North American Indian."
+    },
+    {
+      "id": 10,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "Given Zitkala-Sa's spiritual sensitivity shown in the training text, what would she likely experience when surrounded by natural beauty?",
+      "held_out_passage": "Drifting clouds and tinkling waters, together with the warmth of a genial summer day, bespeak with eloquence the loving Mystery round about us."
+    },
+    {
+      "id": 11,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How would Zitkala-Sa likely view the interconnectedness of all living things, based on her worldview in the training text?",
+      "held_out_passage": "With the strong, happy sense that both great and small are so surely enfolded in His magnitude that, without a miss, each has his allotted individual ground of opportunities, I am buoyant with good nature."
+    },
+    {
+      "id": 12,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "Based on Zitkala-Sa's observational skills shown in the training text, what would she likely notice about a bird's behavior?",
+      "held_out_passage": "Yellow Breast, swaying upon the slender stem of a wild sunflower, warbles a sweet assurance of this as I pass near by."
+    },
+    {
+      "id": 13,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "Given Zitkala-Sa's deep family bonds shown in the training text, what would draw her back to her home?",
+      "held_out_passage": "With these thoughts I reach the log cabin whither I am strongly drawn by the tie of a child to an aged mother."
+    },
+    {
+      "id": 14,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "How would Zitkala-Sa likely judge those who make superficial gestures toward Native American welfare without genuine understanding?",
+      "held_out_passage": "They were paying a liberal fee to the government employees in whose able hands lay the small forest of Indian timber."
+    },
+    {
+      "id": 15,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "Based on Zitkala-Sa's introspective nature in the training text, what would she likely contemplate while in solitude?",
+      "held_out_passage": "Folded hands lie in my lap, for the time forgot."
+    },
+    {
+      "id": 16,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "Given Zitkala-Sa's reverence for Native American heritage shown in the training text, how would she likely view the Stone-Boy legend?",
+      "held_out_passage": "And here he lay--Inyan our great-great-grandfather, older than the hill he rested on, older than the race of men who love to tell of his wonderful career."
+    },
+    {
+      "id": 17,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "What would Zitkala-Sa likely believe about the relationship between physical freedom and spiritual growth, based on her childhood experiences in the training text?",
+      "held_out_passage": "And truly does it seem his vigorous freedom lies more in his little spirit than in his wing."
+    },
+    {
+      "id": 18,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "Based on Zitkala-Sa's empathetic nature shown in the training text, how would she likely feel toward those who are spiritually lost or imitative?",
+      "held_out_passage": "Thus with a compassion for all echoes in human guise, I greet the solemn-faced \"native preacher\""
+    },
+    {
+      "id": 19,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "Given Zitkala-Sa's critical examination of Indian education in the training text, what would she likely question about the schools' true impact?",
+      "held_out_passage": "But few there are who have paused to question whether real life or long-lasting death lies beneath this semblance of civilization."
+    },
+    {
+      "id": 20,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "How would Zitkala-Sa likely respond to the claim that Indian schools were successfully educating Native American children, based on her perspective in the training text?",
+      "held_out_passage": "of the schoolhouse well satisfied: they were educating the children of the red man!"
+    },
+    {
+      "id": 21,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "How does Zitkala-Sa respond to the native preacher's attempt to convert her to Christianity?",
+      "held_out_passage": "Brushing away from my eyes many like pictures, I offered midday meal to the converted Indian sitting wordless and with downcast face."
+    },
+    {
+      "id": 22,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "What is Zitkala-Sa's attitude toward the preacher's religious message about hell and damnation?",
+      "held_out_passage": "Then followed a long silence in which he clasped tighter and unclasped again his interlocked fingers. Like instantaneous lightning flashes came pictures of my own mother's making, for she, too, is now a follower of the new superstition."
+    },
+    {
+      "id": 23,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How does Zitkala-Sa describe her relationship with her dog Chän?",
+      "held_out_passage": "In both my hands I hold her shaggy head and gaze into her large brown eyes. At once the dilated pupils contract into tiny black dots, as if the roguish spirit within would evade my questioning."
+    },
+    {
+      "id": 24,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "What does Zitkala-Sa's reflection on racial lines suggest about her evolved perspective?",
+      "held_out_passage": "The racial lines, which once were bitterly real, now serve nothing more than marking out a living mosaic of human beings."
+    },
+    {
+      "id": 25,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How does Zitkala-Sa characterize the preacher's religious teachings?",
+      "held_out_passage": "I listen with respect for God's creature, though he mouth most strangely the jangling phrases of a bigoted creed."
+    },
+    {
+      "id": 26,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "What does Zitkala-Sa's description of the Stone-Boy legend reveal about her connection to Native traditions?",
+      "held_out_passage": "What an ideal warrior he became, baffling the siege of the pests of all the land till he triumphed over their united attack. And here he lay--Inyan our great-great-grandfather, older than the hill he rested on, older than the race of men who love to tell of his wonderful career."
+    },
+    {
+      "id": 27,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "How does Zitkala-Sa interpret the incident of the burning taper and the holy book?",
+      "held_out_passage": "Knocking out the chinking of our log cabin, some evil hand thrust in a burning taper of braided dry grass, but failed of his intent, for the fire died out and the half-burned brand fell inward to the floor. Directly above it, on a shelf, lay the holy book. This is what we found after our return from a several days' visit. Surely some great power is hid in the sacred book!"
+    },
+    {
+      "id": 28,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "What does Zitkala-Sa's philosophical reflection about kinship suggest about her worldview?",
+      "held_out_passage": "Interwoven with the thread of this Indian legend of the rock, I fain would trace a subtle knowledge of the native folk which enabled them to recognize a kinship to any and all parts of this vast universe."
+    },
+    {
+      "id": 29,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "How does Zitkala-Sa treat the preacher despite disagreeing with his message?",
+      "held_out_passage": "I listen with respect for God's creature, though he mouth most strangely the jangling phrases of a bigoted creed. As our tribe is one large family, where every person is related to all the others, he addressed me"
+    },
+    {
+      "id": 30,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "What does Zitkala-Sa's observation about human diversity reveal about her thinking?",
+      "held_out_passage": "And even here men of the same color are like the ivory keys of one instrument where each resembles all the rest, yet varies from them in pitch and quality of voice."
+    },
+    {
+      "id": 31,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "How does Zitkala-Sa's mother's conversion to Christianity affect her own spiritual stance?",
+      "held_out_passage": "Like instantaneous lightning flashes came pictures of my own mother's making, for she, too, is now a follower of the new superstition."
+    },
+    {
+      "id": 32,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "What does Zitkala-Sa's description of her journey to the log cabin suggest about her emotional state?",
+      "held_out_passage": "With the strong, happy sense that both great and small are so surely enfolded in His magnitude that, without a miss, each has his allotted individual ground of opportunities, I am buoyant with good nature."
+    },
+    {
+      "id": 33,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "How does Zitkala-Sa characterize those who merely echo others' beliefs?",
+      "held_out_passage": "And those creatures who are for a time mere echoes of another's note are not unlike the fable of the thin sick man whose distorted shadow, dressed like a real creature, came to the old master to make him follow as a shadow."
+    },
+    {
+      "id": 34,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "What is Zitkala-Sa's reaction to the preacher's disappointment about her church attendance?",
+      "held_out_passage": "Every holy day (Sunday) I look about our little God's house, and not seeing you there, I am disappointed. This is why I come today. Cousin, as I watch you from afar, I see no unbecoming behavior and hear only good reports of you, which all the more burns me with the wish that you were a church member."
+    },
+    {
+      "id": 35,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "How does Zitkala-Sa's observation of the Yellow Breast bird connect to her broader philosophy?",
+      "held_out_passage": "Yellow Breast, swaying upon the slender stem of a wild sunflower, warbles a sweet assurance of this as I pass near by. Breaking off the clear crystal song, he turns his wee head from side to side eyeing me wisely as slowly I plod with moccasined feet. Then again he yields himself to his song of joy."
+    },
+    {
+      "id": 36,
+      "tier": "behavioral_prediction",
+      "category": "decisions",
+      "text": "What does Zitkala-Sa's compassion for 'echoes in human guise' suggest about her approach to conflict?",
+      "held_out_passage": "Thus with a compassion for all echoes in human guise, I greet the solemn-faced 'native preacher' whom I find awaiting me."
+    },
+    {
+      "id": 37,
+      "tier": "behavioral_prediction",
+      "category": "relationships",
+      "text": "How does Zitkala-Sa's understanding of Sioux language and culture manifest in her daily life?",
+      "held_out_passage": "Chän seems to understand many words in Sioux, and will go to her mat even when I whisper the word, though generally I think she is guided by the tone of the voice."
+    },
+    {
+      "id": 38,
+      "tier": "behavioral_prediction",
+      "category": "values",
+      "text": "What does Zitkala-Sa's reference to 'the new superstition' reveal about her stance on missionary Christianity?",
+      "held_out_passage": "Like instantaneous lightning flashes came pictures of my own mother's making, for she, too, is now a follower of the new superstition."
+    },
+    {
+      "id": 39,
+      "tier": "behavioral_prediction",
+      "category": "conflict",
+      "text": "How does Zitkala-Sa balance respect for the preacher with disagreement about his beliefs?",
+      "held_out_passage": "I listen with respect for God's creature, though he mouth most strangely the jangling phrases of a bigoted creed."
+    },
+    {
+      "id": 40,
+      "tier": "behavioral_prediction",
+      "category": "learning",
+      "text": "What does Zitkala-Sa's meditation on interconnectedness suggest about her response to cultural pressure?",
+      "held_out_passage": "Finally resuming the chair at my desk I feel in keen sympathy with my fellow-creatures, for I seem to see clearly again that all are akin."
+    },
+    {
+      "id": 41,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Zitkala-Sa's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 42,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Zitkala-Sa's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 43,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Zitkala-Sa's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 44,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Zitkala-Sa's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 45,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Zitkala-Sa's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 46,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Zitkala-Sa's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 47,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Zitkala-Sa's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 48,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Zitkala-Sa's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 49,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Zitkala-Sa's opinion on modern technology?",
+      "held_out_passage": null
+    },
+    {
+      "id": 50,
+      "tier": "adversarial_abstention",
+      "category": "adversarial",
+      "text": "What was Zitkala-Sa's opinion on modern technology?",
+      "held_out_passage": null
+    }
+  ]
+}
