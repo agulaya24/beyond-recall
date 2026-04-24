@@ -1,0 +1,41 @@
+# Beyond Recall study repository: Python dependencies
+#
+# Captured by import-statement audit of scripts/ and docs/research/_letta_rerun/
+# (release-freeze pass, 2026-04-24). Provider SDKs that the paper text mentions
+# (mem0ai, letta-client, zep-cloud, supermemory, mistralai, cerebras-cloud-sdk,
+# google-generativeai, groq) are not directly imported by any committed script
+# in this repository. The committed scripts that talk to those providers do so
+# via raw HTTP using urllib / httpx / requests; the SDK-using ingestion code
+# lives upstream in the memory_system repository.
+#
+# Pin-style: lower bounds only. The analysis is not version-sensitive within
+# major releases. Lock to a specific environment in your own deployment.
+
+# Anthropic Claude (response model + Anthropic judges)
+anthropic>=0.39.0
+
+# OpenAI (GPT-4o, GPT-5.4 judges; Tier 2 response models)
+openai>=1.50.0
+
+# Stats / numerics (gradient regression, Wilcoxon, bootstrap, permutation)
+numpy>=1.26.0
+pandas>=2.0.0
+scipy>=1.11.0
+statsmodels>=0.14.0
+
+# Plotting (figures, audit charts)
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# Embeddings + vector store (Base Layer retrieval substrate, MiniLM-L6-v2)
+sentence-transformers>=2.5.0
+chromadb>=0.4.0
+
+# Document export (paper, blog, review HTML)
+pypandoc>=1.13
+python-docx>=1.1.0
+markdown>=3.5
+
+# HTTP (cross-LLM review scripts; some judge calls)
+httpx>=0.27.0
+requests>=2.31.0
