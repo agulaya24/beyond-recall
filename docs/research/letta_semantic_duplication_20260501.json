@@ -1,0 +1,236 @@
+{
+  "thresholds": [
+    0.8,
+    0.85,
+    0.9,
+    0.95
+  ],
+  "subjects": {
+    "hamerton": {
+      "subject": "hamerton",
+      "n_chars": 22472,
+      "n_sentences": 129,
+      "min_sentence_chars": 20,
+      "by_threshold": {
+        "0.80": {
+          "fraction_with_near_duplicate": 0.031007751937984496,
+          "n_flagged": 4
+        },
+        "0.85": {
+          "fraction_with_near_duplicate": 0.0,
+          "n_flagged": 0
+        },
+        "0.90": {
+          "fraction_with_near_duplicate": 0.0,
+          "n_flagged": 0
+        },
+        "0.95": {
+          "fraction_with_near_duplicate": 0.0,
+          "n_flagged": 0
+        }
+      },
+      "examples": {
+        "0.85": [],
+        "0.90": [],
+        "0.95": []
+      },
+      "embedding_model": "sentence-transformers/all-MiniLM-L6-v2"
+    },
+    "ebers": {
+      "subject": "ebers",
+      "n_chars": 68413,
+      "n_sentences": 364,
+      "min_sentence_chars": 20,
+      "by_threshold": {
+        "0.80": {
+          "fraction_with_near_duplicate": 0.11538461538461539,
+          "n_flagged": 42
+        },
+        "0.85": {
+          "fraction_with_near_duplicate": 0.03296703296703297,
+          "n_flagged": 12
+        },
+        "0.90": {
+          "fraction_with_near_duplicate": 0.01098901098901099,
+          "n_flagged": 4
+        },
+        "0.95": {
+          "fraction_with_near_duplicate": 0.005494505494505495,
+          "n_flagged": 2
+        }
+      },
+      "examples": {
+        "0.85": [
+          {
+            "score": 0.8658178448677063,
+            "sentence_a": "Their recollections suggest an evolving comprehension of their belonging to a specific class and the awareness of privilege, even as they explored friendships across social lines.",
+            "sentence_b": "Their recollections also indicate an evolving comprehension of their belonging to a specific class and the awareness of privilege amid the social upheaval."
+          },
+          {
+            "score": 0.8658178448677063,
+            "sentence_a": "Their recollections also indicate an evolving comprehension of their belonging to a specific class and the awareness of privilege amid the social upheaval.",
+            "sentence_b": "Their recollections suggest an evolving comprehension of their belonging to a specific class and the awareness of privilege, even as they explored friendships across social lines."
+          },
+          {
+            "score": 0.9257199764251709,
+            "sentence_a": "The person reflects on Friedrich Froebel's educational philosophy, emphasizing the holistic approach toward developing individuality within each student.",
+            "sentence_b": "The person reflects on Friedrich Froebel's educational philosophy, specifically his emphasis on the holistic development of the individual, which prioritizes character and humanity over fixed academic standards."
+          },
+          {
+            "score": 0.9257199764251709,
+            "sentence_a": "The person reflects on Friedrich Froebel's educational philosophy, specifically his emphasis on the holistic development of the individual, which prioritizes character and humanity over fixed academic standards.",
+            "sentence_b": "The person reflects on Friedrich Froebel's educational philosophy, emphasizing the holistic approach toward developing individuality within each student."
+          },
+          {
+            "score": 0.8777784109115601,
+            "sentence_a": "The person reflects on Friedrich Froebel's life and educational philosophy, emphasizing his rejection of rigid educational standards in favor of nurturing the individuality of each child.",
+            "sentence_b": "The person reflects on Friedrich Froebel's educational philosophy, specifically his emphasis on the holistic development of the individual, which prioritizes character and humanity over fixed academic standards."
+          }
+        ],
+        "0.90": [
+          {
+            "score": 0.9257199764251709,
+            "sentence_a": "The person reflects on Friedrich Froebel's educational philosophy, emphasizing the holistic approach toward developing individuality within each student.",
+            "sentence_b": "The person reflects on Friedrich Froebel's educational philosophy, specifically his emphasis on the holistic development of the individual, which prioritizes character and humanity over fixed academic standards."
+          },
+          {
+            "score": 0.9257199764251709,
+            "sentence_a": "The person reflects on Friedrich Froebel's educational philosophy, specifically his emphasis on the holistic development of the individual, which prioritizes character and humanity over fixed academic standards.",
+            "sentence_b": "The person reflects on Friedrich Froebel's educational philosophy, emphasizing the holistic approach toward developing individuality within each student."
+          },
+          {
+            "score": 0.9822382926940918,
+            "sentence_a": "This reflects a reasoning pattern that values mentorship, highlighting how significant educators can inspire growth and passion in their pupils.",
+            "sentence_b": "This reflects a reasoning pattern that values mentorship, showcasing how significant educators can inspire growth, knowledge, and passion in their pupils."
+          },
+          {
+            "score": 0.9822382926940918,
+            "sentence_a": "This reflects a reasoning pattern that values mentorship, showcasing how significant educators can inspire growth, knowledge, and passion in their pupils.",
+            "sentence_b": "This reflects a reasoning pattern that values mentorship, highlighting how significant educators can inspire growth and passion in their pupils."
+          }
+        ],
+        "0.95": [
+          {
+            "score": 0.9822382926940918,
+            "sentence_a": "This reflects a reasoning pattern that values mentorship, highlighting how significant educators can inspire growth and passion in their pupils.",
+            "sentence_b": "This reflects a reasoning pattern that values mentorship, showcasing how significant educators can inspire growth, knowledge, and passion in their pupils."
+          },
+          {
+            "score": 0.9822382926940918,
+            "sentence_a": "This reflects a reasoning pattern that values mentorship, showcasing how significant educators can inspire growth, knowledge, and passion in their pupils.",
+            "sentence_b": "This reflects a reasoning pattern that values mentorship, highlighting how significant educators can inspire growth and passion in their pupils."
+          }
+        ]
+      },
+      "embedding_model": "sentence-transformers/all-MiniLM-L6-v2"
+    },
+    "babur": {
+      "subject": "babur",
+      "n_chars": 335349,
+      "n_sentences": 1302,
+      "min_sentence_chars": 20,
+      "by_threshold": {
+        "0.80": {
+          "fraction_with_near_duplicate": 0.7380952380952381,
+          "n_flagged": 961
+        },
+        "0.85": {
+          "fraction_with_near_duplicate": 0.5606758832565284,
+          "n_flagged": 730
+        },
+        "0.90": {
+          "fraction_with_near_duplicate": 0.41397849462365593,
+          "n_flagged": 539
+        },
+        "0.95": {
+          "fraction_with_near_duplicate": 0.35176651305683565,
+          "n_flagged": 458
+        }
+      },
+      "examples": {
+        "0.85": [
+          {
+            "score": 0.9482013583183289,
+            "sentence_a": "**Emotional Depth and Personal Reflection**: B\u0101bur's poignant reflections on his cravings and the emotional toll of leadership when considering the renunciation of wine highlight the personal struggles that accompany authority, illustrating how leaders grapple with their desires amidst moral commitm",
+            "sentence_b": "**Emotional Depth and Personal Reflection**: B\u0101bur's poignant reflections on his cravings and the emotional toll of leadership highlight the personal struggles that can accompany authority, particularly regarding his desire to abstain from sins like wine."
+          },
+          {
+            "score": 0.8598834276199341,
+            "sentence_a": "**Logistics and Military Coordination**: His descriptions of mobilization and troop movements illustrate the critical role of logistical planning in military effectiveness, highlighting how leaders must navigate the complexities of resource allocation and coordination to achieve military objectives.",
+            "sentence_b": "**Tactical Logistics in Military Operations**: The focus on logistical preparations, including troop mobilization and resource management, emphasizes the necessity of strategic foresight in effective leadership during military campaigns."
+          },
+          {
+            "score": 0.8661471605300903,
+            "sentence_a": "**Community Relations During Conflict**: B\u0101bur's reflections on civic duties amid military campaigns illustrate the necessity of fostering positive relationships with local populations to ensure stability, demonstrating the importance of ethical leadership during times of strife.",
+            "sentence_b": "**Civic Responsibility**: B\u0101bur\u2019s thoughtful interactions with local figures and his management of community relationships reveal the broader implications of governance that extend beyond military leadership, encompassing the need for support and stability among the civilian populace."
+          },
+          {
+            "score": 0.9330639839172363,
+            "sentence_a": "**Resilience and Leadership Adaptability**: B\u0101bur\u2019s ability to adjust his plans and respond to evolving circumstances underscores the essential quality of resilience in leadership, particularly in navigating challenges during military campaigns.",
+            "sentence_b": "**Resilience in Leadership**: B\u0101bur\u2019s adaptability in navigating personal and political responsibilities demonstrates the resilience required in leadership, particularly as he faces both triumphs and burdens within the military and personal spheres."
+          },
+          {
+            "score": 0.9482013583183289,
+            "sentence_a": "**Emotional Depth and Personal Reflection**: B\u0101bur's poignant reflections on his cravings and the emotional toll of leadership highlight the personal struggles that can accompany authority, particularly regarding his desire to abstain from sins like wine.",
+            "sentence_b": "**Emotional Depth and Personal Reflection**: B\u0101bur's poignant reflections on his cravings and the emotional toll of leadership when considering the renunciation of wine highlight the personal struggles that accompany authority, illustrating how leaders grapple with their desires amidst moral commitm"
+          }
+        ],
+        "0.90": [
+          {
+            "score": 0.9482013583183289,
+            "sentence_a": "**Emotional Depth and Personal Reflection**: B\u0101bur's poignant reflections on his cravings and the emotional toll of leadership when considering the renunciation of wine highlight the personal struggles that accompany authority, illustrating how leaders grapple with their desires amidst moral commitm",
+            "sentence_b": "**Emotional Depth and Personal Reflection**: B\u0101bur's poignant reflections on his cravings and the emotional toll of leadership highlight the personal struggles that can accompany authority, particularly regarding his desire to abstain from sins like wine."
+          },
+          {
+            "score": 0.9330639839172363,
+            "sentence_a": "**Resilience and Leadership Adaptability**: B\u0101bur\u2019s ability to adjust his plans and respond to evolving circumstances underscores the essential quality of resilience in leadership, particularly in navigating challenges during military campaigns.",
+            "sentence_b": "**Resilience in Leadership**: B\u0101bur\u2019s adaptability in navigating personal and political responsibilities demonstrates the resilience required in leadership, particularly as he faces both triumphs and burdens within the military and personal spheres."
+          },
+          {
+            "score": 0.9482013583183289,
+            "sentence_a": "**Emotional Depth and Personal Reflection**: B\u0101bur's poignant reflections on his cravings and the emotional toll of leadership highlight the personal struggles that can accompany authority, particularly regarding his desire to abstain from sins like wine.",
+            "sentence_b": "**Emotional Depth and Personal Reflection**: B\u0101bur's poignant reflections on his cravings and the emotional toll of leadership when considering the renunciation of wine highlight the personal struggles that accompany authority, illustrating how leaders grapple with their desires amidst moral commitm"
+          },
+          {
+            "score": 0.9815073013305664,
+            "sentence_a": "**Political and Military Alliances**: B\u0101bur's engagement with Sh\u0101h-z\u0101da T\u0324ahm\u0101sp and his military maneuvers highlight the importance of coalition dynamics and the role of local leaders in shaping military strategies, indicating that alliances are critical for successful military operations.",
+            "sentence_b": "**Political and Military Alliances**: B\u0101bur's engagement with Sh\u0101h-z\u0101da T\u0324ahm\u0101sp and his military maneuvers highlight the importance of coalition dynamics and the role of local leaders in shaping military strategies."
+          },
+          {
+            "score": 0.984270453453064,
+            "sentence_a": "**Logistical Coordination in Military Operations**: The descriptions of mobilization and troop organization illustrate the significance of logistical preparedness in ensuring military effectiveness, especially during complex campaigns involving multiple stakeholders.",
+            "sentence_b": "**Logistical Coordination in Military Operations**: The descriptions of mobilization and troop organization illustrate the significance of logistical preparedness in ensuring military effectiveness, especially during complex campaigns."
+          }
+        ],
+        "0.95": [
+          {
+            "score": 0.9815073013305664,
+            "sentence_a": "**Political and Military Alliances**: B\u0101bur's engagement with Sh\u0101h-z\u0101da T\u0324ahm\u0101sp and his military maneuvers highlight the importance of coalition dynamics and the role of local leaders in shaping military strategies, indicating that alliances are critical for successful military operations.",
+            "sentence_b": "**Political and Military Alliances**: B\u0101bur's engagement with Sh\u0101h-z\u0101da T\u0324ahm\u0101sp and his military maneuvers highlight the importance of coalition dynamics and the role of local leaders in shaping military strategies."
+          },
+          {
+            "score": 0.984270453453064,
+            "sentence_a": "**Logistical Coordination in Military Operations**: The descriptions of mobilization and troop organization illustrate the significance of logistical preparedness in ensuring military effectiveness, especially during complex campaigns involving multiple stakeholders.",
+            "sentence_b": "**Logistical Coordination in Military Operations**: The descriptions of mobilization and troop organization illustrate the significance of logistical preparedness in ensuring military effectiveness, especially during complex campaigns."
+          },
+          {
+            "score": 0.988433837890625,
+            "sentence_a": "**Psychological Warfare Component**: The use of psychological tactics, including the portrayal of the A\u016bzbeg adversaries and their reliance on superstition, underscores the multi-dimensional approach to warfare that leaders must adopt, where morale and perceptions play pivotal roles.",
+            "sentence_b": "**Psychological Warfare Component**: The use of psychological tactics, including the portrayal of the A\u016bzbeg adversaries and their reliance on superstition, underscores the multi-dimensional approach to warfare that leaders must adopt."
+          },
+          {
+            "score": 0.9574692249298096,
+            "sentence_a": "**Emotional Resilience in Governance**: B\u0101bur\u2019s personal reflections on the emotional toll of leadership decisions illustrate the psychological burdens leaders face, emphasizing the significant interplay between personal feelings and the responsibilities of governing.",
+            "sentence_b": "**Emotional Resilience in Leadership**: B\u0101bur\u2019s reflections on challenges and the emotional weight of leadership decisions highlight the complex interplay between personal feelings and professional responsibilities in governance."
+          },
+          {
+            "score": 1.0,
+            "sentence_a": "**Valour and Perception of Enemies**: B\u0101bur references the way local figures praised the fierceness of the pagan army, indicating how perceptions of enemy strength can influence morale among troops.",
+            "sentence_b": "**Valour and Perception of Enemies**: B\u0101bur references the way local figures praised the fierceness of the pagan army, indicating how perceptions of enemy strength can influence morale among troops."
+          }
+        ]
+      },
+      "embedding_model": "sentence-transformers/all-MiniLM-L6-v2"
+    }
+  }
+}
