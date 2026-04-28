@@ -1,0 +1,559 @@
+# V11 Paper Numbers Inventory
+# Source: docs/beyond_recall_v10_1_draft.md (release-frozen 2026-04-24)
+# Cross-checked against: docs/reviews/v10_numerical_verification_report.md
+# Aggregation rule: 5-judge primary panel (Haiku, Sonnet, Opus, GPT-4o, GPT-5.4); within-judge mean across questions, then across-judge mean.
+# Status legend: EXISTING (canonical scaffold reproduces); MISSING (no canonical scaffold OR scaffold output disagrees with paper); EXTERNAL (cited prior work); EXCLUDE (out-of-scope for Phase 2)
+# Priority: HIGH (load-bearing §4 headline); MEDIUM (supporting); LOW (style/methodology); N/A (external)
+# Note: lines marked "scaffold:promote-needed" are existing scripts not yet in the canonical list; phase-2 should formally adopt them.
+section,line_in_paper,claim_id,quoted_text,number,current_source,scaffold_status,priority_for_phase_2,notes
+#
+# === §1 Introduction === Numbers: 38; EXISTING: 28; MISSING: 8; EXTERNAL: 2
+#
+§1.1,15,1_1_recall_range,"accuracies in roughly the 68% to 85% range",68%-85%,EXTERNAL (vendor self-reports),EXTERNAL,EXCLUDE,Cited from §2.1
+§1.2,27,1_2_n_subjects,"14 historical subjects",14,script:scripts/recompute_5judge_primary.py,EXISTING,LOW,Subject count
+§1.2,29,1_2_n_questions,"39 behavioral prediction questions",39,script:scripts/_v10_verification/per_question_all14.py,EXISTING,LOW,Battery size
+§1.2,61,1_2_corpus_words_low,"Source corpora range from 25,231 words (Hamerton)",25231,doc:docs/research/letta_stateful_matched_rerun.md,doc:NEEDS-script,MEDIUM,Word count from corpus file; no canonical script
+§1.2,61,1_2_corpus_words_high,"to 422,772 words (Babur)",422772,doc:docs/research/letta_stateful_matched_rerun.md,doc:NEEDS-script,MEDIUM,Word count from corpus file
+§1.2,83,1_2_total_questions,"586 questions across 15 subjects",586,script:scripts/_verify_battery_leakage.py,EXISTING,LOW,Battery sum
+§1.2,83,1_2_battery_leakage,"0.34% aggregate leak (2/586)",2/586=0.34%,script:scripts/_verify_battery_leakage.py,EXISTING,LOW,Leakage audit
+§1.2,83,1_2_main_leakage,"0% main study",0,script:scripts/_verify_battery_leakage.py,EXISTING,LOW,Main-study leakage
+§1.2,83,1_2_n_judges_primary,"5 non-Gemini judges",5,script:scripts/recompute_5judge_primary.py,EXISTING,LOW,Panel size
+§1.2,83,1_2_n_judges_full,"2 Gemini judges",2,script:scripts/recompute_5judge_primary.py,EXISTING,LOW,Sensitivity panel
+§1.2,83,1_2_gemini_inflation,"approximately 1 point Gemini inflation",~1pt,doc:section_3_7_calibration,doc:NEEDS-script,MEDIUM,Calibration table; no recompute script
+§1.2,83,1_2_spearman_range,"pairwise Spearman ρ = 0.86 to 0.93",0.86-0.93,doc:docs/research/stats_update.md,doc:NEEDS-script,HIGH,5-judge / 10 pairs; needs canonical script
+§1.3,89,1_3_level_slope,"level regression... slope +0.04 [-0.25, +0.33], R² = 0.008",+0.04,script:scripts/_v10_coupling_sensitivity.py,EXISTING,HIGH,Coupling sensitivity
+§1.3,89,1_3_level_R2,"R² = 0.008",0.008,script:scripts/_v10_coupling_sensitivity.py,EXISTING,HIGH,Coupling sensitivity
+§1.3,90,1_3_wilcoxon_p,"Wilcoxon signed-rank... p = 0.007 (W = 11, N = 14)",p=0.007/W=11,script:scripts/recompute_5judge_primary.py,EXISTING,HIGH,Headline stat
+§1.3,91,1_3_subjects_improving_all,"12 of 14 overall",12/14,script:scripts/recompute_5judge_primary.py,EXISTING,HIGH,Headline
+§1.3,91,1_3_subjects_improving_low,"9 of 9 on the low-baseline slice",9/9,script:scripts/recompute_5judge_primary.py,EXISTING,HIGH,Headline
+§1.3,92,1_3_mean_delta_low_baseline,"Mean Δ_C4a on low-baseline slice: +0.89 points",+0.89,script:scripts/recompute_5judge_primary.py,EXISTING,HIGH,Headline lift
+§1.3,93,1_3_anchor_crossing_up,"55.0% upward",55.0%,script:scripts/compute_anchor_crossing.py,EXISTING,HIGH,Anchor crossings
+§1.3,93,1_3_question_improvement_rate,"70.9% questions improve",70.9%,script:scripts/_compute_per_question_v2.py,EXISTING,HIGH,Win rate
+§1.3,94,1_3_correct_spec_delta,"correct +0.35",+0.35,script:scripts/compute_wrong_spec_5judge.py,EXISTING (scaffold:promote-needed),HIGH,Wrong-spec; promote script
+§1.3,94,1_3_random_derangement_delta,"random-derangement +0.22",+0.22,script:scripts/compute_wrong_spec_5judge.py,EXISTING (scaffold:promote-needed),HIGH,Wrong-spec
+§1.3,94,1_3_adversarial_delta,"adversarial-derangement -0.25",-0.25,script:scripts/compute_wrong_spec_5judge.py,EXISTING (scaffold:promote-needed),HIGH,Wrong-spec
+§1.3,95,1_3_hedging_narrow,"28.8% → 1.4% → 0.0% (narrow rule)",28.8/1.4/0.0,script:scripts/classify_hedging.py,EXISTING,HIGH,Hedging
+§1.3,108,1_3_hedging_broad,"41.2 → 7.9 → 0.4 (broader rule)",41.2/7.9/0.4,script:scripts/classify_hedging.py,EXISTING,HIGH,Hedging broader
+§1.3,108,1_3_hedging_counts_narrow,"146/507, 7/507, 0/507",counts,script:scripts/classify_hedging.py,EXISTING,MEDIUM,Hedging numerators
+§1.3,108,1_3_hedging_counts_broad,"209/507, 40/507, 2/507",counts,script:scripts/classify_hedging.py,EXISTING,MEDIUM,Hedging numerators
+§1.3,108,1_3_wrongspec_n,"587 wrong-spec responses classified",587,doc:docs/research/wrong_spec_detection_analysis.md,doc:NEEDS-script,MEDIUM,Detection counts
+§1.3,108,1_3_explicit_detection,"60.6% explicitly flagged",60.6%,doc:docs/research/wrong_spec_detection_analysis.md,doc:NEEDS-script,HIGH,Note: framing inconsistency INC-5
+§1.3,108,1_3_low_quality_apply,"36.5% attempted to apply",36.5%,doc:docs/research/wrong_spec_detection_analysis.md,doc:NEEDS-script,MEDIUM,Detection
+§1.3,108,1_3_implicit_hedge,"2.0% hedged implicitly",2.0%,doc:docs/research/wrong_spec_detection_analysis.md,doc:NEEDS-script,MEDIUM,Detection
+§1.3,108,1_3_ambiguous,"0.9% were ambiguous",0.9%,doc:docs/research/wrong_spec_detection_analysis.md,doc:NEEDS-script,LOW,Detection
+§1.3,110,1_3_mem0_ctrl_low,"Mem0 (+0.10)",+0.10,doc:docs/research/memory_systems_5judge_primary.md,doc:NEEDS-script,HIGH,Memory-system Δ
+§1.3,110,1_3_letta_ctrl_low,"Letta-archival (+0.17)",+0.17,doc:docs/research/memory_systems_5judge_primary.md,doc:NEEDS-script,HIGH,Memory-system Δ
+§1.3,110,1_3_zep_ctrl_low,"Zep (+0.17)",+0.17,doc:docs/research/memory_systems_5judge_primary.md,doc:NEEDS-script,HIGH,Memory-system Δ
+§1.3,110,1_3_sm_ctrl_low,"Supermemory (-0.01)",-0.01,doc:docs/research/memory_systems_5judge_primary.md,doc:NEEDS-script,HIGH,Memory-system Δ
+§1.3,102,1_3_slope,"Slope of -0.96 (95% CI: -1.24, -0.67)",-0.96/[-1.24,-0.67],script:scripts/recompute_5judge_primary.py,EXISTING,HIGH,Gradient slope
+§1.3,102,1_3_R2,"R² = 0.82",0.82,script:scripts/recompute_5judge_primary.py,EXISTING,HIGH,Gradient R²
+§1.3,102,1_3_p_value,"p < 0.001 (p = 0.000009)",9e-6,script:scripts/recompute_5judge_primary.py,EXISTING,HIGH,Gradient p
+§1.3,135,1_3_letta_block_sizes,"22,472 / 68,413 / 335,349 chars",3 sizes,doc:docs/research/letta_stateful_matched_rerun.md,doc:NEEDS-script,MEDIUM,Letta block characters
+§1.3,135,1_3_letta_dup,"25.4% verbatim sentence duplication",25.4%,doc:docs/research/letta_stateful_matched_rerun.md,doc:NEEDS-script,MEDIUM,Letta duplication
+§1.3,133,1_3_letta_v_bl_hamerton,"Hamerton 3.10 vs. 2.96",3.10/2.96,doc:docs/research/_letta_rerun/5judge_primary_results.json,doc:NEEDS-script,HIGH,Letta vs BL
+§1.3,133,1_3_letta_v_bl_ebers,"Ebers 2.76 vs. 1.72",2.76/1.72,doc:docs/research/_letta_rerun/5judge_primary_results.json,doc:NEEDS-script,HIGH,Letta vs BL
+§1.3,133,1_3_letta_v_bl_babur,"Babur 2.42 vs. 1.88",2.42/1.88,doc:docs/research/_letta_rerun/5judge_primary_results.json,doc:NEEDS-script,HIGH,Letta vs BL
+§1.3,135,1_3_letta_fullstack_delta,"Δ +0.27 / +1.21 / +0.38 full-stack rerun",3 deltas,doc:docs/research/_letta_rerun/fullstack_named/RESULTS.md,doc:NEEDS-script,HIGH,Full-stack Letta
+§1.3,108,1_3_keckley_q21_examples,"Sup -2.33 / BL -2.33 / Mem0 -0.50 / Zep -0.50 / Letta +1.00",5 deltas,doc:Keckley analysis docs,doc:NEEDS-script,MEDIUM,Cross-system refusal
+§1.3,110,1_3_mem0_native,"Mem0 (+0.12 controlled, +0.33 native)",+0.12/+0.33,doc:docs/research/memory_systems_5judge_primary.md,doc:NEEDS-script,HIGH,Memory-system native
+§1.3,110,1_3_zep_native,"Zep (+0.19 controlled, +0.33 native)",+0.19/+0.33,doc:docs/research/memory_systems_5judge_primary.md,doc:NEEDS-script,HIGH,Memory-system native
+§1.3,110,1_3_letta_native,"Letta archival -0.02 native",-0.02,doc:docs/research/memory_systems_5judge_primary.md,doc:NEEDS-script,HIGH,Memory-system native
+§1.3,108,1_3_sm_helps_swing,"median improvement +1.45",+1.45,doc:docs/research/_sm_paired_5judge.json,doc:NEEDS-script,MEDIUM,Supermemory swings
+§1.3,108,1_3_sm_hurts_swing,"median worsening -1.41",-1.41,doc:docs/research/_sm_paired_5judge.json,doc:NEEDS-script,MEDIUM,Supermemory swings
+§1.3,115,1_3_bl_c1_mean,"Base Layer C1 mean ~2.30",~2.30,doc:per-subject aggregates,doc:NEEDS-script,LOW,Approximate
+§1.3,115,1_3_sm_c1_mean,"Supermemory ~2.65",~2.65,doc:per-subject aggregates,doc:NEEDS-script,LOW,Approximate
+§1.3,107,1_3_hamerton_baselines,"Hamerton C2a 2.63 / C8 2.27 / C9 3.09 / C4a 2.77",4 values,script:scripts/recompute_5judge_primary.py,EXISTING,HIGH,§4.2 Hamerton row
+§1.3,106,1_3_corpus_spec_gap,"average gap between spec-alone and raw corpus is 0.22 points",0.22,script:scripts/recompute_5judge_primary.py,EXISTING,HIGH,Compression gap
+#
+# === §2 Prior Work === Numbers: 16; EXTERNAL: 16; EXISTING: 0; MISSING: 0
+#
+§2.1,161,2_1_mem0_locomo,"Mem0 91.6 LOCOMO",91.6,EXTERNAL (vendor),EXTERNAL,EXCLUDE,Vendor self-report
+§2.1,161,2_1_mem0_lme,"Mem0 93.4 LongMemEval",93.4,EXTERNAL (vendor),EXTERNAL,EXCLUDE,Vendor self-report
+§2.1,161,2_1_mem0g_locomo,"Mem0g 68.44 LOCOMO with GPT-4o-mini",68.44,EXTERNAL (Chhikara 2025),EXTERNAL,EXCLUDE,Cited paper
+§2.1,162,2_1_letta_locomo,"Letta 74.0% LOCOMO",74.0%,EXTERNAL (Letta blog),EXTERNAL,EXCLUDE,Vendor blog
+§2.1,163,2_1_sm_lme,"Supermemory 81.6/84.6/85.2 LongMemEval_s",3 numbers,EXTERNAL (vendor),EXTERNAL,EXCLUDE,Vendor self-report
+§2.1,164,2_1_zep_lme,"Zep 71.2% LongMemEval",71.2%,EXTERNAL (Rasmussen 2025),EXTERNAL,EXCLUDE,Cited paper
+§2.3,188,2_3_persona_top,"PersonaScore 4.51 ± 0.08",4.51,EXTERNAL (Samuel 2025),EXTERNAL,EXCLUDE,Cited paper
+§2.3,188,2_3_persona_low,"PersonaScore 3.64 ± 0.57",3.64,EXTERNAL (Samuel 2025),EXTERNAL,EXCLUDE,Cited paper
+§2.3,192,2_3_twin2k_n,"2,058 participants",2058,EXTERNAL (Toubia 2025),EXTERNAL,EXCLUDE,Cited paper
+§2.3,206,2_3_twin2k_acc,"71.72% individual-level accuracy",71.72%,EXTERNAL (Toubia 2025),EXTERNAL,EXCLUDE,Cited paper
+§2.3,2354,2_3_twin2k_human,"Human test-retest 81.72%, top twin 87.67%",2 numbers,EXTERNAL (Toubia 2025),EXTERNAL,EXCLUDE,Cited paper
+§2.3,2354,2_3_twin2k_random,"Random-guess baseline 59.17%",59.17%,EXTERNAL (Toubia 2025),EXTERNAL,EXCLUDE,Cited paper
+§2.3,2354,2_3_twin2k_replic,"6 of 10 behavioral-economics experiments",6/10,EXTERNAL (Toubia 2025),EXTERNAL,EXCLUDE,Cited paper
+§2.4,230,2_4_jain_sycophancy,"+45% Gemini 2.5 Pro sycophancy",+45%,EXTERNAL (Jain 2025),EXTERNAL,EXCLUDE,Cited paper
+§2.4,228,2_4_jiang_acc,"~50% accuracy on dynamic profiling",~50%,EXTERNAL (Jiang 2025),EXTERNAL,EXCLUDE,Cited paper
+§2.5,236,2_5_zheng_judge,"over 80% MT-Bench / Chatbot Arena",80%,EXTERNAL (Zheng 2023),EXTERNAL,EXCLUDE,Cited paper
+§2.3,2370,2_3_locomo_baselines,"GPT-4-turbo 32.1%, GPT-3.5-turbo 22.4%, best RAG 41.4%, human 87.9%",5 numbers,EXTERNAL (Maharana 2024),EXTERNAL,EXCLUDE,Cited paper
+#
+# === §3 Study Design === Numbers: 31; EXISTING: 13; MISSING: 18; EXTERNAL: 0
+#
+§3.2,266-279,3_2_subject_words_table,"Per-subject word counts (14 subjects)",14 rows,doc:source corpus files,doc:NEEDS-script,MEDIUM,Subject corpus sizes
+§3.2,281,3_2_franklin_baseline_5j,"Franklin baseline 3.77 on 5-judge",3.77,doc:legacy_20260411 (no script),doc:NEEDS-script,MEDIUM,Franklin C5
+§3.2,283,3_2_franklin_haiku,"Franklin 4.10 on Haiku alone",4.10,doc:KEY_FINDINGS.md,doc:NEEDS-script,LOW,Franklin Haiku
+§3.2.1,295-297,3_2_1_band_counts,"9 / 5 / 1 baseline-band counts",9/5/1,script:scripts/recompute_5judge_primary.py,EXISTING,LOW,Band counts derivable
+§3.4,349,3_4_n_questions_main,"Each main-study subject receives 39 BP questions",39,script:scripts/_v10_verification/per_question_all14.py,EXISTING,LOW,Battery size
+§3.4,349,3_4_franklin_q,"Franklin's legacy battery has 40",40,script:scripts/_verify_battery_leakage.py,EXISTING,LOW,Franklin battery
+§3.4,349,3_4_total_586,"586 questions across 15 subjects",586,script:scripts/_verify_battery_leakage.py,EXISTING,LOW,Total
+§3.4,351,3_4_leakage_aggregate,"2 of 586 questions leak (0.34% aggregate)",2/586,script:scripts/_verify_battery_leakage.py,EXISTING,LOW,Leakage
+§3.4,351,3_4_leakage_main,"14 main-study subjects leak-check at 0.00%",0.00%,script:scripts/_verify_battery_leakage.py,EXISTING,LOW,Main study leakage
+§3.4,353,3_4_zitkala_outlier,"Q18... one question out of 586 (0.17%)",1/586=0.17%,doc:s114 audit,doc:NEEDS-script,LOW,False-premise outlier
+§3.7.2,495-498,3_7_2_calibration_haiku,"Haiku 5.00/4.75/3.80/5.00",4 values,doc:results/judge_calibration/,doc:NEEDS-script,MEDIUM,Calibration table
+§3.7.2,495-498,3_7_2_calibration_geminiflash,"Gemini Flash 5.00/4.70/3.85/3.80",4 values,doc:results/judge_calibration/,doc:NEEDS-script,MEDIUM,Calibration
+§3.7.2,495-498,3_7_2_calibration_gpt4o,"GPT-4o 5.00/5.00/4.05/3.35",4 values,doc:results/judge_calibration/,doc:NEEDS-script,MEDIUM,Calibration
+§3.7.2,495-498,3_7_2_calibration_geminipro,"Gemini Pro 4.15/3.55/2.85/1.20",4 values,doc:results/judge_calibration/,doc:NEEDS-script,MEDIUM,Calibration
+§3.7.2,495-498,3_7_2_calibration_gpt54,"GPT-5.4 5.00/5.00/4.20/4.80",4 values,doc:results/judge_calibration/,doc:NEEDS-script,MEDIUM,Calibration
+§3.7.2,508,3_7_2_5j_to_7j_widening,"+0.35 → +0.45 (+0.10 widening)",+0.35/+0.45,script:scripts/recompute_5judge_primary.py,EXISTING,HIGH,Conservatism claim
+§3.7.4,539,3_7_4_spearman_5j,"Spearman ρ = 0.86 to 0.93 across 5-judge primary",0.86-0.93,doc:docs/research/stats_update.md,doc:NEEDS-script,HIGH,Note INC-4 ('21 pairs' wording mismatch in v10 §3.7.4)
+§3.7.4,541,3_7_4_krippendorff_5j,"Krippendorff α = 0.659 across 5-judge primary",0.659,doc:docs/research/stats_update.md,doc:NEEDS-script,HIGH,Inter-judge agreement
+§3.7.4,541,3_7_4_krippendorff_7j,"0.535 across 7-judge panel",0.535,doc:docs/research/stats_update.md,doc:NEEDS-script,HIGH,7-judge α
+§3.7.6,563,3_7_6_n_abstentions,"192 responses match abstention patterns",192,script:scripts/audit_low_end_inflation.py,EXISTING,MEDIUM,Abstention audit
+§3.7.6,563,3_7_6_abstention_floor,"82.8% scored 1.0-1.5",82.8%,script:scripts/audit_low_end_inflation.py,EXISTING,MEDIUM,Abstention distribution
+§3.7.6,563,3_7_6_abstention_above_2,"9.4% scored at or above 2.0",9.4%,script:scripts/audit_low_end_inflation.py,EXISTING,MEDIUM,Abstention inflation
+§3.7.6,563,3_7_6_abstention_above_3,"3.2% scored at or above 3.0",3.2%,script:scripts/audit_low_end_inflation.py,EXISTING,MEDIUM,Abstention high
+§3.7.6,563,3_7_6_mean_abstention,"mean abstention score 1.27",1.27,script:scripts/audit_low_end_inflation.py,EXISTING,MEDIUM,Abstention mean
+§3.7.6,565,3_7_6_n_low_baseline,"1,599 low-baseline responses",1599,script:scripts/audit_low_end_inflation.py,EXISTING,MEDIUM,Length-correlation N
+§3.7.6,565,3_7_6_length_r_all,"length-score r = 0.26 overall",0.26,script:scripts/audit_low_end_inflation.py,EXISTING,MEDIUM,Length r
+§3.7.6,565,3_7_6_length_r_c5,"C5 r = 0.604",0.604,script:scripts/audit_low_end_inflation.py,EXISTING,MEDIUM,Length r C5
+§3.7.6,565,3_7_6_length_r_c2a,"C2a r = 0.14",0.14,script:scripts/audit_low_end_inflation.py,EXISTING,MEDIUM,Length r C2a
+§3.7.6,565,3_7_6_length_r_c4,"C4 r = 0.01",0.01,script:scripts/audit_low_end_inflation.py,EXISTING,MEDIUM,Length r C4
+§3.7.6,565,3_7_6_length_r_c4a,"C4a r = -0.01",-0.01,script:scripts/audit_low_end_inflation.py,EXISTING,MEDIUM,Length r C4a
+§3.7.6,565,3_7_6_ultra_high_len,"Ultra-high 2,790 vs mid 2,829",2790/2829,script:scripts/audit_low_end_inflation.py,EXISTING,LOW,Length comparison
+§3.7.6,567,3_7_6_per_judge_strictness,"Sonnet 1.14, GPT-5.4 1.17, Haiku 1.29, GPT-4o 1.34, Opus 1.41",5 means,script:scripts/audit_low_end_inflation.py,EXISTING,MEDIUM,Per-judge strictness
+#
+# === §4.1 The Gradient === Numbers: 41; EXISTING: 35; MISSING: 6
+#
+§4.1,594,4_1_c4a_uniform_mean,"mean C4a = 2.41 across all 14 subjects",2.41,script:scripts/recompute_5judge_primary.py,EXISTING,HIGH,Coupling-free framing
+§4.1,594,4_1_baseline_range,"baseline... spans from 1.02 to 2.77",1.02-2.77,script:scripts/recompute_5judge_primary.py,EXISTING,HIGH,Baseline range
+§4.1,598,4_1_low_baseline_mean_lift,"Mean score lift: +0.89 points",+0.89,script:scripts/recompute_5judge_primary.py,EXISTING,HIGH,Headline
+§4.1,600,4_1_n_responses_low,"351 individual responses",351,script:scripts/compute_anchor_crossing.py,EXISTING,HIGH,Low-baseline questions
+§4.1,600,4_1_anchor_up_55,"55.0% crossed at least one anchor upward",55.0%,script:scripts/compute_anchor_crossing.py,EXISTING,HIGH,Anchor crossing
+§4.1,604,4_1_transition_1to2,"1→2: 33.3%",33.3%,script:scripts/compute_anchor_crossing.py,EXISTING,MEDIUM,Transition table
+§4.1,605,4_1_transition_1to3,"1→3: 12.3%",12.3%,script:scripts/compute_anchor_crossing.py,EXISTING,MEDIUM,Transition
+§4.1,606,4_1_transition_1to4,"1→4: 4.8%",4.8%,script:scripts/compute_anchor_crossing.py,EXISTING,MEDIUM,Transition
+§4.1,607,4_1_transition_1to5,"1→5: 0.9%",0.9%,script:scripts/compute_anchor_crossing.py,EXISTING,MEDIUM,Transition
+§4.1,608,4_1_transition_2to3,"2→3: 2.0%",2.0%,script:scripts/compute_anchor_crossing.py,EXISTING,MEDIUM,Transition
+§4.1,609,4_1_transition_2to4,"2→4: 0.3%",0.3%,script:scripts/compute_anchor_crossing.py,EXISTING,MEDIUM,Transition
+§4.1,610,4_1_transition_3to4,"3→4: 1.4%",1.4%,script:scripts/compute_anchor_crossing.py,EXISTING,MEDIUM,Transition
+§4.1,611,4_1_no_crossing,"No upward crossing 38.2%",38.2%,script:scripts/compute_anchor_crossing.py,EXISTING,MEDIUM,No-cross
+§4.1,612,4_1_downward_crossing,"Downward crossing 6.8%",6.8%,script:scripts/compute_anchor_crossing.py,EXISTING,MEDIUM,Downward
+§4.1,680,4_1_slope,"Regression slope -0.96 [95% CI -1.24, -0.67]",-0.96/[-1.24,-0.67],script:scripts/recompute_5judge_primary.py,EXISTING,HIGH,Headline slope
+§4.1,681,4_1_R2,"R² = 0.82",0.82,script:scripts/recompute_5judge_primary.py,EXISTING,HIGH,Headline R²
+§4.1,682,4_1_p_slope,"p < 0.001 (p = 0.000009)",9e-6,script:scripts/recompute_5judge_primary.py,EXISTING,HIGH,Slope p
+§4.1,683,4_1_correlation,"Correlation r = -0.90",-0.90,script:scripts/recompute_5judge_primary.py,EXISTING,HIGH,Correlation
+§4.1,684,4_1_wilcoxon_c2a,"Wilcoxon C5 vs C2a: W=10, p=0.005",W=10/p=0.005,script:scripts/recompute_5judge_primary.py,EXISTING,HIGH,C2a Wilcoxon
+§4.1,685,4_1_wilcoxon_c4a,"Wilcoxon C5 vs C4a: W=11, p=0.007",W=11/p=0.007,script:scripts/recompute_5judge_primary.py,EXISTING,HIGH,C4a Wilcoxon
+§4.1,692,4_1_low_baseline_c5_mean,"mean 1.52 on the low-baseline slice",1.52,script:scripts/recompute_5judge_primary.py,EXISTING (INC-2 flag),MEDIUM,8-subj vs 9-subj inconsistency
+§4.1,715,4_1_ebers_row,"Ebers 1.02 / 1.54 / 2.07 / +0.52 / +1.05",5 values,script:scripts/recompute_5judge_primary.py,EXISTING,HIGH,Gradient table
+§4.1,716,4_1_sunity_row,"Sunity Devee 1.03 / 2.27 / 2.41 / +1.24 / +1.38",5 values,script:scripts/recompute_5judge_primary.py,EXISTING,HIGH,Gradient table
+§4.1,717,4_1_hamerton_row,"Hamerton 1.26 / 2.63 / 2.77 / +1.37 / +1.51",5 values,script:scripts/recompute_5judge_primary.py,EXISTING,HIGH,Gradient table
+§4.1,718,4_1_fukuzawa_row,"Fukuzawa 1.67 / 2.35 / 2.78 / +0.68 / +1.11",5 values,script:scripts/recompute_5judge_primary.py,EXISTING,HIGH,Gradient table
+§4.1,719,4_1_bernal_row,"Bernal Diaz 1.70 / 2.27 / 2.48 / +0.57 / +0.78",5 values,script:scripts/recompute_5judge_primary.py,EXISTING,HIGH,Gradient table
+§4.1,720,4_1_babur_row,"Babur 1.76 / 1.91 / 2.01 / +0.15 / +0.25",5 values,script:scripts/recompute_5judge_primary.py,EXISTING,HIGH,Gradient table
+§4.1,721,4_1_seacole_row,"Seacole 1.77 / 2.48 / 2.59 / +0.71 / +0.82",5 values,script:scripts/recompute_5judge_primary.py,EXISTING,HIGH,Gradient table
+§4.1,722,4_1_keckley_row,"Keckley 1.84 / 2.43 / 2.44 / +0.58 / +0.59",5 values,script:scripts/recompute_5judge_primary.py,EXISTING,HIGH,Gradient table
+§4.1,723,4_1_yungwing_row,"Yung Wing 1.88 / 2.22 / 2.40 / +0.34 / +0.52",5 values,script:scripts/recompute_5judge_primary.py,EXISTING,HIGH,Gradient table
+§4.1,725,4_1_zitkala_row,"Zitkala-Sa 2.34 / 2.03 / 2.02 / -0.31 / -0.32",5 values,script:scripts/recompute_5judge_primary.py,EXISTING,HIGH,Gradient table
+§4.1,726,4_1_cellini_row,"Cellini 2.38 / 2.54 / 2.53 / +0.16 / +0.15",5 values,script:scripts/recompute_5judge_primary.py,EXISTING,HIGH,Gradient table
+§4.1,727,4_1_rousseau_row,"Rousseau 2.44 / 2.81 / 2.53 / +0.37 / +0.10",5 values,script:scripts/recompute_5judge_primary.py,EXISTING,HIGH,Gradient table
+§4.1,728,4_1_augustine_row,"Augustine 2.58 / 2.48 / 2.70 / -0.11 / +0.11",5 values,script:scripts/recompute_5judge_primary.py,EXISTING,HIGH,Gradient table
+§4.1,729,4_1_equiano_row,"Equiano 2.77 / 2.46 / 2.42 / -0.31 / -0.35",5 values,script:scripts/recompute_5judge_primary.py,EXISTING,HIGH,Gradient table
+§4.1,731,4_1_franklin_row,"Franklin 3.77 / 3.37 / 3.65 / -0.40 / -0.13",5 values,doc:legacy_20260411,doc:NEEDS-script,HIGH,Franklin row not in main script
+§4.1,743,4_1_partial_baseline_slope,"partial coefficient -0.88 [-1.13, -0.63] p<10⁻⁵",-0.88,script:scripts/_v10_battery_sensitivity.py,EXISTING,HIGH,Battery sensitivity
+§4.1,743,4_1_literal_recall_beta,"LITERAL_RECALL +2.30 [+0.34, +4.26] p=0.026",+2.30,script:scripts/_v10_battery_sensitivity.py,EXISTING,HIGH,Battery sensitivity
+§4.1,743,4_1_unique_var_c5,"63.6% unique to C5",63.6%,script:scripts/_v10_battery_sensitivity.py,EXISTING,MEDIUM,Variance attribution
+§4.1,743,4_1_unique_var_lr,"6.9% unique to LITERAL_RECALL",6.9%,script:scripts/_v10_battery_sensitivity.py,EXISTING,MEDIUM,Variance attribution
+§4.1,743,4_1_adj_r2,"Adjusted R² 0.80 → 0.87",0.80→0.87,script:scripts/_v10_battery_sensitivity.py,EXISTING,MEDIUM,Adjusted R²
+§4.1,743,4_1_pearson_predictors,"Pearson r = -0.28, VIF = 1.08",-0.28/1.08,script:scripts/_v10_battery_sensitivity.py,EXISTING,LOW,Multicollinearity
+§4.1,745,4_1_gpt54_subset,"-0.89 [-1.18, -0.61] R²=0.81 p<10⁻⁴",-0.89,script:scripts/_v10_battery_sensitivity.py,EXISTING,HIGH,Hamerton-removed slope
+§4.1,749,4_1_level_slope,"level slope +0.04 [-0.25, +0.33] R²=0.008 p=0.76",+0.04,script:scripts/_v10_coupling_sensitivity.py,EXISTING,HIGH,Coupling-free
+§4.1,749,4_1_c4a_cluster,"C4a clusters near 2.46",2.46,script:scripts/_v10_coupling_sensitivity.py,EXISTING,HIGH,C4a constant
+§4.1,751,4_1_perm_null,"permutation null centered -0.998 SD 0.127 p=0.77",-0.998/0.127,script:scripts/_v10_coupling_sensitivity.py,EXISTING,HIGH,Permutation test
+§4.1,751,4_1_bootstrap_delta,"bootstrap CI Δ-on-C5 [-1.254, -0.740]",[-1.254,-0.740],script:scripts/_v10_coupling_sensitivity.py,EXISTING,HIGH,Bootstrap
+§4.1,751,4_1_bootstrap_level,"level slope bootstrap [-0.254, +0.260]",[-0.254,+0.260],script:scripts/_v10_coupling_sensitivity.py,EXISTING,HIGH,Bootstrap
+§4.1.1,757,4_1_1_franklin_baseline,"Franklin C5 = 3.77",3.77,doc:legacy_20260411,doc:NEEDS-script,MEDIUM,Franklin baseline
+§4.1.1,759,4_1_1_franklin_c2a_drop,"Franklin spec alone (C2a) drops 0.40 points",-0.40,doc:legacy_20260411,doc:NEEDS-script,MEDIUM,Franklin Δ_C2a
+§4.1.1,759,4_1_1_franklin_c4a_drop,"facts plus specification (C4a) drops 0.13",-0.13,doc:legacy_20260411,doc:NEEDS-script,MEDIUM,Franklin Δ_C4a
+#
+# === §4.2 Compression === Numbers: 30; EXISTING: 22; MISSING: 8
+#
+§4.2,771,4_2_low_baseline_means,"mean C5=1.52, C2a=2.23, C4=2.35, C8=2.45, C4a=2.45, C9=2.50",6 means,script:scripts/recompute_5judge_primary.py,EXISTING (INC-2/7/8),MEDIUM,Mean row arithmetic flagged
+§4.2,773,4_2_corpus_advantage,"corpus (C8) averages 0.22 points higher than spec alone",0.22,script:scripts/recompute_5judge_primary.py,EXISTING,HIGH,Compression gap
+§4.2,775,4_2_spec_lift_v1,"+0.68 points of lift above baseline",+0.68,script:scripts/recompute_5judge_primary.py,EXISTING (INC-3),HIGH,Two C5 means used
+§4.2,775,4_2_corpus_marginal,"next ~80K to 400K tokens of raw corpus buy +0.22",+0.22,script:scripts/recompute_5judge_primary.py,EXISTING,MEDIUM,Marginal lift
+§4.2,785,4_2_hamerton_compress_row,"Hamerton ~33K / 5x / 1.26 / 2.63 / 2.43 / 2.27 / 2.77 / 3.09 / -0.36",compression row,script:scripts/recompute_5judge_primary.py,EXISTING,HIGH,Hamerton row
+§4.2,786,4_2_sunity_compress_row,"Sunity Devee ~88K / 13x / 1.03 / 2.27 / 2.46 / 2.55 / 2.41 / 2.46 / +0.28",compression row,script:scripts/recompute_5judge_primary.py,EXISTING,HIGH,Sunity row
+§4.2,787,4_2_ebers_compress_row,"Ebers ~125K / 18x / 1.02 / 1.54 / 2.02 / 2.18 / 2.07 / 2.16 / +0.64",compression row,script:scripts/recompute_5judge_primary.py,EXISTING,HIGH,Ebers row
+§4.2,788,4_2_fukuzawa_compress_row,"Fukuzawa ~181K / 26x / 1.67 / 2.35 / 2.67 / 2.74 / 2.78 / 2.78 / +0.39",compression row,script:scripts/recompute_5judge_primary.py,EXISTING,HIGH,Fukuzawa row
+§4.2,789,4_2_bernal_compress_row,"Bernal Diaz ~244K / 35x / 1.70 / 2.27 / 2.41 / 2.55 / 2.48 / 2.53 / +0.28",compression row,script:scripts/recompute_5judge_primary.py,EXISTING,HIGH,Bernal row
+§4.2,790,4_2_babur_compress_row,"Babur ~549K / 78x / 1.76 / 1.91 / 2.03 / 2.05 / 2.01 / - / +0.14",compression row,script:scripts/recompute_5judge_primary.py,EXISTING,HIGH,Babur row
+§4.2,791,4_2_seacole_compress_row,"Seacole ~81K / 12x / 1.77 / 2.48 / 2.63 / 2.83 / 2.59 / 2.73 / +0.35",compression row,script:scripts/recompute_5judge_primary.py,EXISTING,HIGH,Seacole row
+§4.2,792,4_2_keckley_compress_row,"Keckley ~76K / 11x / 1.84 / 2.43 / 2.39 / 2.50 / 2.44 / 2.49 / +0.07",compression row,script:scripts/recompute_5judge_primary.py,EXISTING,HIGH,Keckley row
+§4.2,793,4_2_yungwing_compress_row,"Yung Wing ~86K / 12x / 1.88 / 2.22 / 2.13 / 2.42 / 2.40 / 2.50 / +0.20",compression row,script:scripts/recompute_5judge_primary.py,EXISTING,HIGH,Yung Wing row
+§4.2,794,4_2_compress_mean_row,"Mean | ~23x | 1.52 | 2.23 | 2.35 | 2.45 | 2.45 | 2.50 | +0.22",mean row,script:scripts/recompute_5judge_primary.py,MISSING (INC-2/7/8 fix),HIGH,Mixed 8-subj/9-subj aggregation; needs scaffold repair
+§4.2,801,4_2_spec_lift_v2,"spec lift +0.71",+0.71,script:scripts/recompute_5judge_primary.py,EXISTING (INC-3),HIGH,Conflicts with +0.68
+§4.2,801,4_2_corpus_lift,"corpus lift +0.93",+0.93,script:scripts/recompute_5judge_primary.py,EXISTING,HIGH,C8-C5 lift
+§4.2,867,4_2_ebers_spec_lift,"Ebers spec lift +0.52",+0.52,script:scripts/recompute_5judge_primary.py,EXISTING,MEDIUM,Per-subject lift
+§4.2,867,4_2_ebers_corpus_lift,"Ebers corpus lift +1.16",+1.16,script:scripts/recompute_5judge_primary.py,EXISTING,MEDIUM,Per-subject lift
+§4.2,867,4_2_ebers_gap,"Ebers spec-corpus gap 0.64",0.64,script:scripts/recompute_5judge_primary.py,EXISTING,MEDIUM,Per-subject gap
+§4.2,867,4_2_ebers_efficiency,"6% / 18× efficiency",6%/18×,doc:token estimates,doc:NEEDS-script,LOW,Token ratios
+§4.2.1,815,4_2_1_c2a_imp_low,"C2a 70.9% improvement",70.9%,script:scripts/_compute_per_question_v2.py,EXISTING,HIGH,Win rate
+§4.2.1,816,4_2_1_c4_imp_low,"C4 72.9%",72.9%,script:scripts/_compute_per_question_v2.py,EXISTING,HIGH,Win rate
+§4.2.1,817,4_2_1_c8_imp_low,"C8 78.3%",78.3%,script:scripts/_compute_per_question_v2.py,EXISTING,HIGH,Win rate
+§4.2.1,818,4_2_1_c4a_imp_low,"C4a 78.6%",78.6%,script:scripts/_compute_per_question_v2.py,EXISTING,HIGH,Win rate
+§4.2.1,815-818,4_2_1_median_imp,"median Δ when improved +1.00",+1.00,script:scripts/_compute_per_question_v2.py,EXISTING,HIGH,Magnitude
+§4.2.1,815-818,4_2_1_median_wor,"median Δ when worsened -0.40 / -0.60",-0.40/-0.60,script:scripts/_compute_per_question_v2.py,EXISTING,MEDIUM,Magnitude
+§4.2.1,826,4_2_1_all14_c2a,"C2a 58.8% / 26.7%",58.8/26.7,script:scripts/_compute_per_question_v2.py,EXISTING,MEDIUM,All-14 win rates
+§4.2.1,827,4_2_1_all14_c4,"C4 60.1% / 26.6%",60.1/26.6,script:scripts/_compute_per_question_v2.py,EXISTING,MEDIUM,All-14 win rates
+§4.2.1,828,4_2_1_all14_c8,"C8 64.5% / 24.5%",64.5/24.5,script:scripts/_compute_per_question_v2.py,EXISTING,MEDIUM,All-14 win rates
+§4.2.1,829,4_2_1_all14_c4a,"C4a 65.8% / 26.4%",65.8/26.4,script:scripts/_compute_per_question_v2.py,EXISTING,MEDIUM,All-14 win rates
+§4.2.1,839,4_2_1_pair_c8c2a,"C8 vs C2a: 190 (54.1%) / 46 / 115 (32.8%)",pair counts,script:scripts/_v10_verification/pairwise_compare.py,EXISTING,MEDIUM,Pairwise
+§4.2.1,840,4_2_1_pair_c9c4a,"C9 vs C4a: 155 (49.7%) / 42 / 115 (36.9%)",pair counts,script:scripts/_v10_verification/pairwise_compare.py,EXISTING,MEDIUM,Pairwise
+§4.2.1,833,4_2_1_n_low,"351 questions",351,script:scripts/_compute_per_question_v2.py,EXISTING,LOW,Low-baseline N
+§4.2.1,833,4_2_1_n_c9,"C9 n = 312 with Babur excluded",312,script:scripts/_compute_per_question_v2.py,EXISTING,LOW,C9 N
+#
+# === §4.3 Mechanism === Numbers: 25; EXISTING: 14; MISSING: 11
+#
+§4.3,891,4_3_correct_delta,"C2a (correct spec) +0.35",+0.35,script:scripts/compute_wrong_spec_5judge.py,EXISTING (scaffold:promote-needed),HIGH,Correct
+§4.3,892,4_3_v2_delta,"C2c v2 (random derangement) +0.22",+0.22,script:scripts/compute_wrong_spec_5judge.py,EXISTING (scaffold:promote-needed),HIGH,Random
+§4.3,893,4_3_v1_delta,"C2c v1 (fixed derangement) -0.25",-0.25,script:scripts/compute_wrong_spec_5judge.py,EXISTING (scaffold:promote-needed),HIGH,Adversarial
+§4.3,897,4_3_content_gap,"0.60 points on the 1-5 rubric",0.60,script:scripts/compute_wrong_spec_5judge.py,EXISTING,HIGH,Correct-vs-adversarial
+§4.3,913,4_3_spec_tag_correct,"78.6% spec-tag citation on correct",78.6%,script:scripts/compute_spec_activation.py,EXISTING,HIGH,Spec activation
+§4.3,913,4_3_spec_tag_wrong,"50.0% on wrong-spec",50.0%,script:scripts/compute_spec_activation.py,EXISTING,HIGH,Spec activation
+§4.3,913,4_3_spec_tag_gap,"28.6-point gap",28.6,script:scripts/compute_spec_activation.py,EXISTING,MEDIUM,Activation gap
+§4.3,919,4_3_n_wrongspec,"587 wrong-spec responses",587,doc:docs/research/wrong_spec_detection_analysis.md,doc:NEEDS-script,MEDIUM,Detection N
+§4.3,921,4_3_explicit_flag,"60.6% explicitly flagged",60.6%,doc:docs/research/wrong_spec_detection_analysis.md,doc:NEEDS-script,HIGH,INC-5 framing flag
+§4.3,922,4_3_low_quality,"36.5% attempted",36.5%,doc:docs/research/wrong_spec_detection_analysis.md,doc:NEEDS-script,MEDIUM,Detection
+§4.3,923,4_3_implicit,"2.0% implicitly hedged",2.0%,doc:docs/research/wrong_spec_detection_analysis.md,doc:NEEDS-script,MEDIUM,Detection
+§4.3,924,4_3_ambiguous,"0.9% ambiguous",0.9%,doc:docs/research/wrong_spec_detection_analysis.md,doc:NEEDS-script,LOW,Detection
+§4.3,932,4_3_hedging_narrow_recap,"narrow rule 28.8 → 1.4 → 0.0",3 percents,script:scripts/classify_hedging.py,EXISTING,HIGH,Recap
+§4.3,932,4_3_hedging_broad_recap,"broader rule 41.2 → 7.9 → 0.4",3 percents,script:scripts/classify_hedging.py,EXISTING,HIGH,Recap
+§4.3,1001,4_3_ex_a_drop,"Ebers Q7 Δ -2.00",-2.00,doc:per-question files,doc:NEEDS-script,MEDIUM,Example A
+§4.3,1002,4_3_ex_b_drop,"Bernal Diaz Q16 Δ -0.20",-0.20,doc:per-question files,doc:NEEDS-script,MEDIUM,Example B
+§4.3,1003,4_3_ex_c_drop,"Seacole Q2 Δ -3.60",-3.60,doc:per-question files,doc:NEEDS-script,MEDIUM,Example C
+§4.3,627,4_3_ebers_q7_c5,"Ebers Q7 C5 1.20",1.20,doc:per-question files,doc:NEEDS-script,LOW,Per-question example
+§4.3,630,4_3_ebers_q7_c4a,"Ebers Q7 C4a 3.60",3.60,doc:per-question files,doc:NEEDS-script,LOW,Per-question
+§4.3,642,4_3_bernal_c4,"Bernal Diaz Q16 C4 2.00",2.00,doc:per-question files,doc:NEEDS-script,LOW,Per-question
+§4.3,646,4_3_bernal_c4a,"Bernal Diaz Q16 C4a 4.80",4.80,doc:per-question files,doc:NEEDS-script,LOW,Per-question
+§4.3,658,4_3_seacole_c4,"Seacole Q2 C4 2.80",2.80,doc:per-question files,doc:NEEDS-script,LOW,Per-question
+§4.3,664,4_3_seacole_c4a,"Seacole Q2 C4a 5.00",5.00,doc:per-question files,doc:NEEDS-script,LOW,Per-question
+§4.3,949,4_3_ex_a_wrong,"Wrong-spec Ebers Q7 1.60",1.60,doc:per-question files,doc:NEEDS-script,LOW,Wrong-spec example
+§4.3,966,4_3_ex_b_wrong,"Wrong-spec Bernal Q16 4.60",4.60,doc:per-question files,doc:NEEDS-script,LOW,Wrong-spec example
+§4.3,989,4_3_ex_c_wrong,"Wrong-spec Seacole Q2 1.40",1.40,doc:per-question files,doc:NEEDS-script,LOW,Wrong-spec example
+#
+# === §4.4 Memory-System Composition === Numbers: 60; EXISTING: 5; MISSING: 55 (memory_systems_5judge_primary.md exists, no canonical script)
+#
+§4.4.1,1038,4_4_1_mem0_ctrl_14,"Mem0 +0.12 / 10/14",+0.12,doc:docs/research/memory_systems_5judge_primary.md,doc:NEEDS-script,HIGH,Memory aggregate
+§4.4.1,1039,4_4_1_letta_ctrl_14,"Letta +0.20 / 12/14",+0.20,doc:docs/research/memory_systems_5judge_primary.md,doc:NEEDS-script,HIGH,Memory aggregate
+§4.4.1,1040,4_4_1_zep_ctrl_14,"Zep +0.19 / 13/14",+0.19,doc:docs/research/memory_systems_5judge_primary.md,doc:NEEDS-script,HIGH,Memory aggregate
+§4.4.1,1041,4_4_1_sm_ctrl_14,"Supermemory -0.05 / 5/14",-0.05,doc:docs/research/memory_systems_5judge_primary.md,doc:NEEDS-script,HIGH,Memory aggregate
+§4.4.1,1042,4_4_1_bl_ctrl_14,"Base Layer +0.08 / 9/14",+0.08,doc:docs/research/memory_systems_5judge_primary.md,doc:NEEDS-script,HIGH,Memory aggregate
+§4.4.1,1038,4_4_1_mem0_ctrl_low,"Mem0 +0.10 / 6/9",+0.10,doc:docs/research/memory_systems_5judge_primary.md,doc:NEEDS-script,HIGH,Low-baseline
+§4.4.1,1039,4_4_1_letta_ctrl_low,"Letta +0.17 / 8/9",+0.17,doc:docs/research/memory_systems_5judge_primary.md,doc:NEEDS-script,HIGH,Low-baseline
+§4.4.1,1040,4_4_1_zep_ctrl_low,"Zep +0.17 / 9/9",+0.17,doc:docs/research/memory_systems_5judge_primary.md,doc:NEEDS-script,HIGH,Low-baseline
+§4.4.1,1041,4_4_1_sm_ctrl_low,"Supermemory -0.01 / 5/9",-0.01,doc:docs/research/memory_systems_5judge_primary.md,doc:NEEDS-script,HIGH,Low-baseline
+§4.4.1,1042,4_4_1_bl_ctrl_low,"Base Layer +0.08 / 6/9",+0.08,doc:docs/research/memory_systems_5judge_primary.md,doc:NEEDS-script,HIGH,Low-baseline
+§4.4.1,1044,4_4_1_zep_ctrl_p,"Zep controlled p = 0.0004",0.0004,doc:docs/research/stats_update.md,doc:NEEDS-script,HIGH,Stat
+§4.4.1,1044,4_4_1_letta_ctrl_p,"Letta controlled p = 0.0017",0.0017,doc:docs/research/stats_update.md,doc:NEEDS-script,HIGH,Stat
+§4.4.1,1050,4_4_1_mem0_native_14,"Mem0 native +0.33 / 10/14",+0.33,doc:docs/research/memory_systems_5judge_primary.md,doc:NEEDS-script,HIGH,Native
+§4.4.1,1051,4_4_1_letta_native_14,"Letta native -0.02 / 5/14",-0.02,doc:docs/research/memory_systems_5judge_primary.md,doc:NEEDS-script,HIGH,Native
+§4.4.1,1052,4_4_1_zep_native_14,"Zep native +0.33 / 13/14",+0.33,doc:docs/research/memory_systems_5judge_primary.md,doc:NEEDS-script,HIGH,Native
+§4.4.1,1053,4_4_1_sm_native_14,"Supermemory native -0.01 / 6/14",-0.01,doc:docs/research/memory_systems_5judge_primary.md,doc:NEEDS-script,HIGH,Native
+§4.4.1,1050,4_4_1_mem0_native_low,"Mem0 native low +0.32 / 7/9",+0.32,doc:docs/research/memory_systems_5judge_primary.md,doc:NEEDS-script,HIGH,Native low
+§4.4.1,1051,4_4_1_letta_native_low,"Letta native low -0.04 / 4/9",-0.04,doc:docs/research/memory_systems_5judge_primary.md,doc:NEEDS-script,HIGH,Native low
+§4.4.1,1052,4_4_1_zep_native_low,"Zep native low +0.30 / 9/9",+0.30,doc:docs/research/memory_systems_5judge_primary.md,doc:NEEDS-script,HIGH,Native low
+§4.4.1,1053,4_4_1_sm_native_low,"Supermemory native low -0.03 / 4/9",-0.03,doc:docs/research/memory_systems_5judge_primary.md,doc:NEEDS-script,HIGH,Native low
+§4.4.1,1058,4_4_1_zep_native_p,"Zep native p = 0.0015",0.0015,doc:docs/research/stats_update.md,doc:NEEDS-script,HIGH,Stat
+§4.4.1,1058,4_4_1_mem0_native_p,"Mem0 native p = 0.0088",0.0088,doc:docs/research/stats_update.md,doc:NEEDS-script,HIGH,Stat
+§4.4.1,1058,4_4_1_sm_native_p,"Supermemory native W = 48.0, p = 0.8077",W=48.0/p=0.8077,doc:docs/research/supermemory_7judge_aggregate.md,doc:NEEDS-script,HIGH,SM Wilcoxon
+§4.4,1088,4_4_sm_n_paired,"516 paired questions",516,doc:docs/research/_sm_paired_5judge.json,doc:NEEDS-script,MEDIUM,SM N
+§4.4,1088,4_4_sm_swing_count,"89 of 516 (17.2%) |Δ|≥1.0",89/17.2%,doc:docs/research/_sm_paired_5judge.json,doc:NEEDS-script,MEDIUM,SM swings
+§4.4,1090,4_4_sm_helps_n,"37 (7.2%) helps",37/7.2%,doc:docs/research/_sm_paired_5judge.json,doc:NEEDS-script,MEDIUM,SM helps
+§4.4,1090,4_4_sm_helps_mean,"+1.45 mean swing",+1.45,doc:docs/research/_sm_paired_5judge.json,doc:NEEDS-script,MEDIUM,SM helps mean
+§4.4,1091,4_4_sm_hurts_n,"52 (10.1%) hurts",52/10.1%,doc:docs/research/_sm_paired_5judge.json,doc:NEEDS-script,MEDIUM,SM hurts
+§4.4,1091,4_4_sm_hurts_mean,"-1.41 mean swing",-1.41,doc:docs/research/_sm_paired_5judge.json,doc:NEEDS-script,MEDIUM,SM hurts mean
+§4.4,1096,4_4_sm_ex1_fukuzawa_q26,"Fukuzawa Q26 +2.20 (2.00→4.20)",+2.20,doc:per-question SM analysis,doc:NEEDS-script,LOW,SM Example 1
+§4.4,1112,4_4_sm_ex2_yungwing_q5,"Yung Wing Q5 -2.40 (4.20→1.80)",-2.40,doc:per-question SM analysis,doc:NEEDS-script,LOW,SM Example 2
+§4.4,1126,4_4_sm_ex3_zitkala_q18,"Zitkala-Sa Q18 -2.00 (3.00→1.00)",-2.00,doc:per-question SM analysis,doc:NEEDS-script,LOW,SM Example 3
+§4.4,1140,4_4_sm_ex4_fukuzawa_q16,"Fukuzawa Q16 +1.60 (2.40→4.00)",+1.60,doc:per-question SM analysis,doc:NEEDS-script,LOW,SM Example 4
+§4.4,1196,4_4_2_mem0_yungwing_row,"Mem0 Yung Wing +0.35 (2.16→2.51)",row,doc:docs/research/mem0_letta_zep_c1_vs_c3_analysis.md,doc:NEEDS-script,MEDIUM,Per-subject paired
+§4.4,1197,4_4_2_mem0_keckley_row,"Mem0 Keckley -0.01 (2.64→2.63)",row,doc:docs/research/mem0_letta_zep_c1_vs_c3_analysis.md,doc:NEEDS-script,MEDIUM,Per-subject paired
+§4.4,1198,4_4_2_letta_hamerton_row,"Letta Hamerton +0.46 (2.35→2.81)",row,doc:docs/research/mem0_letta_zep_c1_vs_c3_analysis.md,doc:NEEDS-script,MEDIUM,Per-subject paired
+§4.4,1199,4_4_2_letta_keckley_row,"Letta Keckley 0.00 (2.70→2.70)",row,doc:docs/research/mem0_letta_zep_c1_vs_c3_analysis.md,doc:NEEDS-script,MEDIUM,Per-subject paired
+§4.4,1200,4_4_2_zep_seacole_row,"Zep Seacole +0.52 (2.27→2.79)",row,doc:docs/research/mem0_letta_zep_c1_vs_c3_analysis.md,doc:NEEDS-script,MEDIUM,Per-subject paired
+§4.4,1201,4_4_2_zep_keckley_row,"Zep Keckley +0.10 (2.49→2.59)",row,doc:docs/research/mem0_letta_zep_c1_vs_c3_analysis.md,doc:NEEDS-script,MEDIUM,Per-subject paired
+§4.4,1202,4_4_2_bl_yungwing_row,"BL Yung Wing +0.33 (2.23→2.56)",row,doc:docs/research/baselayer_c1_vs_c3_paired_analysis.md,doc:NEEDS-script,MEDIUM,Per-subject paired
+§4.4,1203,4_4_2_bl_keckley_row,"BL Keckley -0.01 (2.44→2.44)",row,doc:docs/research/baselayer_c1_vs_c3_paired_analysis.md,doc:NEEDS-script,MEDIUM,Per-subject paired
+§4.4,1221,4_4_2_mem0_ebers_q11,"Mem0 Ebers Q11 +1.67 (1.83→3.50)",row,doc:per-question paired,doc:NEEDS-script,LOW,Mem0 example
+§4.4,1222,4_4_2_bl_yungwing_q31,"BL Yung Wing Q31 -1.33",row,doc:per-question paired,doc:NEEDS-script,LOW,BL example
+§4.4,1223,4_4_2_bl_ebers_q1,"BL Ebers Q1 -1.00",row,doc:per-question paired,doc:NEEDS-script,LOW,BL example
+§4.4,1228,4_4_2_letta_dedup,"Letta 0.34-0.47 dedup ratio, 3-5 unique facts",2 ratios,doc:mem0_letta_zep_c1_vs_c3_analysis.md,doc:NEEDS-script,LOW,Dedup metric
+§4.4.3,1243,4_4_3_keckley_q21_sm,"Supermemory 3.83→1.50 Δ -2.33",-2.33,doc:per-question docs,doc:NEEDS-script,HIGH,Q21 case
+§4.4.3,1244,4_4_3_keckley_q21_bl,"Base Layer 3.33→1.00 Δ -2.33",-2.33,doc:per-question docs,doc:NEEDS-script,HIGH,Q21 case
+§4.4.3,1245,4_4_3_keckley_q21_mem0,"Mem0 2.00→1.50 Δ -0.50",-0.50,doc:per-question docs,doc:NEEDS-script,HIGH,Q21 case
+§4.4.3,1246,4_4_3_keckley_q21_zep,"Zep 1.83→1.33 Δ -0.50",-0.50,doc:per-question docs,doc:NEEDS-script,HIGH,Q21 case
+§4.4.3,1247,4_4_3_keckley_q21_letta,"Letta 1.33→2.33 Δ +1.00",+1.00,doc:per-question docs,doc:NEEDS-script,HIGH,Q21 case
+§4.4,1056,4_4_sm_paid_chunks,"all 199 chunks (0 failures)",199,doc:p0_2_supermemory_paid_tier_rerun.md,doc:NEEDS-script,LOW,SM ingest
+§4.4,1056,4_4_sm_paid_facts_per_q,"4.3-5.0 facts per question",4.3-5.0,doc:p0_2_supermemory_paid_tier_rerun.md,doc:NEEDS-script,LOW,SM facts/q
+§4.4,1064,4_4_zep_zero_regressions,"0 large-magnitude regressions on Seacole",0,doc:mem0_letta_zep_c1_vs_c3_analysis.md,doc:NEEDS-script,LOW,Zep
+§4.4,1230,4_4_2_sm_high_c1,"Supermemory C1 mean ~2.65",~2.65,doc:per-subject aggregate,doc:NEEDS-script,LOW,SM C1
+§4.4,1186,4_4_2_keckley_q21_label,"Keckley Q21 cross-system refusal",label,doc:Keckley analysis,doc:NEEDS-script,LOW,Label
+§4.4,1227,4_4_2_mem0_arch_label,"atomic-fact retrieval",label,doc:mem0_letta_zep_c1_vs_c3_analysis.md,doc:NEEDS-script,LOW,Architecture label
+§4.4,1086,4_4_sm_n_516_total,"516 paired",516,doc:docs/research/_sm_paired_5judge.json,doc:NEEDS-script,LOW,SM N
+§4.4.2,1196-1203,4_4_2_n_per_subject,"39 per row",39,doc:per-subject paired,doc:NEEDS-script,LOW,Per-row N
+§4.4,1196-1203,4_4_2_q_counts_table,"per-row Wins/Losses/LargeImp/LargeReg counts (8 rows × 4 cols)",32 counts,doc:c1_vs_c3 analysis docs,doc:NEEDS-script,MEDIUM,Per-row paired counts
+#
+# === §4.5 Letta Stateful (Exploratory) === Numbers: 14; EXISTING: 0; MISSING: 14
+#
+§4.5,1269,4_5_hamerton_letta_bl,"Hamerton Letta 3.10 vs BL 2.96 Δ +0.14",3.10/2.96/+0.14,doc:docs/research/_letta_rerun/5judge_primary_results.json,doc:NEEDS-script,HIGH,Letta vs BL
+§4.5,1269,4_5_ebers_letta_bl,"Ebers 2.76 vs 1.72 Δ +1.05",2.76/1.72/+1.05,doc:docs/research/_letta_rerun/5judge_primary_results.json,doc:NEEDS-script,HIGH,Letta vs BL
+§4.5,1269,4_5_babur_letta_bl,"Babur 2.42 vs 1.88 Δ +0.54",2.42/1.88/+0.54,doc:docs/research/_letta_rerun/5judge_primary_results.json,doc:NEEDS-script,HIGH,Letta vs BL
+§4.5,1269,4_5_fullstack_deltas,"Δ +0.27 / +1.21 / +0.38 full-stack rerun",3 deltas,doc:docs/research/_letta_rerun/fullstack_named/RESULTS.md,doc:NEEDS-script,HIGH,Full-stack
+§4.5,1273,4_5_letta_block_hamerton,"22,472 chars Hamerton",22472,doc:letta_stateful_matched_rerun.md,doc:NEEDS-script,MEDIUM,Block size
+§4.5,1273,4_5_letta_block_ebers,"68,413 chars Ebers",68413,doc:letta_stateful_matched_rerun.md,doc:NEEDS-script,MEDIUM,Block size
+§4.5,1273,4_5_letta_block_babur,"335,349 chars Babur",335349,doc:letta_stateful_matched_rerun.md,doc:NEEDS-script,MEDIUM,Block size
+§4.5,1273,4_5_letta_dup_babur,"25.4% verbatim duplication on Babur",25.4%,doc:letta_stateful_matched_rerun.md,doc:NEEDS-script,MEDIUM,Duplication
+§4.5,1273,4_5_letta_ceiling,"~333,000 character ceiling",~333000,doc:letta_stateful_matched_rerun.md,doc:NEEDS-script,MEDIUM,API ceiling
+§4.5,1273,4_5_bl_compose_size,"BL compose 34,000-40,000 chars",34000-40000,doc:spec files,doc:NEEDS-script,LOW,BL size
+§4.5,1273,4_5_babur_token_estimate,"335,349 chars ≈ 84,000 tokens",~84K,doc:char/4 ratio,doc:NEEDS-script,LOW,Token estimate
+§4.5,2438,4_5_7j_hamerton,"Hamerton 7-judge +0.20",+0.20,doc:_letta_rerun Part 7,doc:NEEDS-script,LOW,7-judge
+§4.5,2438,4_5_7j_ebers,"Ebers 7-judge +0.75",+0.75,doc:_letta_rerun Part 7,doc:NEEDS-script,LOW,7-judge
+§4.5,2438,4_5_7j_babur,"Babur 7-judge +0.29",+0.29,doc:_letta_rerun Part 7,doc:NEEDS-script,LOW,7-judge
+§4.5,2466,4_5_ref_density_babur,"540 vs 46 unique entities",540/46,doc:letta_stateful_deep_read.md,doc:NEEDS-script,LOW,Referential density
+§4.5,2466,4_5_ref_density_ebers,"58 vs 19",58/19,doc:letta_stateful_deep_read.md,doc:NEEDS-script,LOW,Referential density
+#
+# === §4.6 Robustness === Numbers: 19; EXISTING: 9; MISSING: 10
+#
+§4.6.1,1294-1300,4_6_1_tier2_n_cells,"6 (subject × response model) cells",6,script:scripts/_v10_verification/tier2_mechanical_recompute.py,EXISTING,HIGH,Tier 2 setup
+§4.6.1,1291,4_6_1_5_of_6,"5 of 6 cells reproduce direction",5/6,script:scripts/_v10_verification/tier2_mechanical_recompute.py,EXISTING,HIGH,Direction claim
+§4.6.1,DATA_REFERENCE,4_6_1_tier2_ebers_sonnet,"Ebers Sonnet Δ +1.48",+1.48,doc:DATA_REFERENCE §10,MISSING (INC-1),HIGH,Cannot reproduce from scaffold
+§4.6.1,DATA_REFERENCE,4_6_1_tier2_ebers_gpro,"Ebers Gemini Pro Δ +1.07",+1.07,doc:DATA_REFERENCE §10,MISSING (INC-1),HIGH,Cannot reproduce
+§4.6.1,DATA_REFERENCE,4_6_1_tier2_yung_sonnet,"Yung Wing Sonnet Δ +1.91",+1.91,doc:DATA_REFERENCE §10,MISSING (INC-1),HIGH,Cannot reproduce
+§4.6.1,DATA_REFERENCE,4_6_1_tier2_yung_gpro,"Yung Wing Gemini Pro Δ +1.27",+1.27,doc:DATA_REFERENCE §10,MISSING (INC-1),HIGH,Cannot reproduce
+§4.6.1,DATA_REFERENCE,4_6_1_tier2_zitkala_sonnet,"Zitkala-Sa Sonnet Δ +1.40",+1.40,doc:DATA_REFERENCE §10,MISSING (INC-1),HIGH,Cannot reproduce
+§4.6.1,DATA_REFERENCE,4_6_1_tier2_zitkala_gpro,"Zitkala-Sa Gemini Pro Δ -0.55",-0.55,doc:DATA_REFERENCE §10,MISSING (INC-1),HIGH,Cannot reproduce
+§4.6.1,1294,4_6_1_ebers_c5,"Ebers C5 = 1.02",1.02,script:scripts/recompute_5judge_primary.py,EXISTING,LOW,Baseline reference
+§4.6.1,1297,4_6_1_yung_c5,"Yung Wing C5 = 1.88",1.88,script:scripts/recompute_5judge_primary.py,EXISTING,LOW,Baseline reference
+§4.6.1,1299,4_6_1_zitkala_c5,"Zitkala-Sa C5 = 2.34",2.34,script:scripts/recompute_5judge_primary.py,EXISTING,LOW,Baseline reference
+§4.6.2,1322,4_6_2_c2a_5j,"C2a 5j +0.35",+0.35,script:scripts/compute_wrong_spec_5judge.py,EXISTING (scaffold:promote-needed),HIGH,Sensitivity
+§4.6.2,1322,4_6_2_c2a_7j,"C2a 7j +0.45",+0.45,script:scripts/compute_wrong_spec_5judge.py,EXISTING (scaffold:promote-needed),HIGH,Sensitivity
+§4.6.2,1322,4_6_2_c2a_widen,"widens by +0.10",+0.10,script:scripts/compute_wrong_spec_5judge.py,EXISTING (scaffold:promote-needed),HIGH,Widening
+§4.6.2,1323,4_6_2_c2c_v2_5j,"C2c v2 5j +0.22",+0.22,script:scripts/compute_wrong_spec_5judge.py,EXISTING (scaffold:promote-needed),HIGH,Sensitivity
+§4.6.2,1323,4_6_2_c2c_v2_7j,"C2c v2 7j +0.22",+0.22,script:scripts/compute_wrong_spec_5judge.py,EXISTING (scaffold:promote-needed),HIGH,Sensitivity
+§4.6.2,1324,4_6_2_c2c_v1_5j,"C2c v1 5j -0.25",-0.25,script:scripts/compute_wrong_spec_5judge.py,EXISTING (scaffold:promote-needed),HIGH,Sensitivity
+§4.6.2,1324,4_6_2_c2c_v1_7j,"C2c v1 7j -0.21",-0.21,script:scripts/compute_wrong_spec_5judge.py,EXISTING (scaffold:promote-needed),HIGH,Sensitivity
+§4.6.2,1326,4_6_2_no_subject_flips,"no subject's improvement direction changes",claim,script:scripts/recompute_5judge_primary.py,EXISTING,MEDIUM,Direction stability
+#
+# === §5 Discussion / §6 Limitations / §7 Future Work === Numbers: 14; EXISTING: 9; MISSING: 5
+#
+§5.2,1370,5_2_recap_slope,"slope -0.96 [-1.24, -0.67]",-0.96,script:scripts/recompute_5judge_primary.py,EXISTING,LOW,Recap of §4.1
+§5.2,1370,5_2_recap_R2,"R² = 0.82",0.82,script:scripts/recompute_5judge_primary.py,EXISTING,LOW,Recap
+§5.2,1370,5_2_recap_p,"slope p < 0.001",<0.001,script:scripts/recompute_5judge_primary.py,EXISTING,LOW,Recap
+§5.2,1370,5_2_recap_lift,"+0.89 mean Δ_C4a low-baseline",+0.89,script:scripts/recompute_5judge_primary.py,EXISTING,LOW,Recap
+§5.2,1370,5_2_recap_9_of_9,"9 of 9 improve",9/9,script:scripts/recompute_5judge_primary.py,EXISTING,LOW,Recap
+§5.4,1402,5_4_random_correct_gap,"+0.22 random vs +0.35 correct, gap 0.13",0.13,script:scripts/compute_wrong_spec_5judge.py,EXISTING (scaffold:promote-needed),MEDIUM,Wrong-spec gap
+§5.5,1376,5_5_compression_range,"5× to 78× compression",5×/78×,script:scripts/recompute_5judge_primary.py,EXISTING,LOW,Compression range
+§6.2,1587,6_2_spearman_recap,"ρ 0.86 to 0.93",0.86-0.93,doc:docs/research/stats_update.md,doc:NEEDS-script,LOW,Recap §3.7.4
+§6.2,1587,6_2_krippendorff_recap,"α 0.659 / 0.535",0.659/0.535,doc:docs/research/stats_update.md,doc:NEEDS-script,LOW,Recap
+§6.3,1603,6_3_sunity_sd,"Sunity Devee SD 0.103 (17.4%)",0.103,script:scripts/_v10_pipeline_variance.py,EXISTING,HIGH,Variance probe
+§6.3,1604,6_3_yungwing_sd,"Yung Wing SD 0.055 (9.3%)",0.055,script:scripts/_v10_pipeline_variance.py,EXISTING,HIGH,Variance probe
+§6.3,1605,6_3_augustine_sd,"Augustine SD 0.130 (22.0%)",0.130,script:scripts/_v10_pipeline_variance.py,EXISTING,HIGH,Variance probe
+§6.3,1606,6_3_pooled_sd,"Pooled 0.101 (17.1%)",0.101,script:scripts/_v10_pipeline_variance.py,EXISTING,HIGH,Variance probe
+§6.3,1608,6_3_cross_subject_sd,"cross-subject SD 0.589",0.589,script:scripts/_v10_pipeline_variance.py,EXISTING,MEDIUM,Cross-subj SD
+§6.3,1608,6_3_ci_half_width,"95% CI half-width 0.285",0.285,script:scripts/recompute_5judge_primary.py,EXISTING,LOW,Computed
+§6.3,1608,6_3_augustine_signflips,"sign flips on 2 of 3 reruns Augustine",2/3,script:scripts/_v10_pipeline_variance.py,EXISTING,MEDIUM,Sign flips
+§6.3,1608,6_3_low_baseline_6_of_6,"6 of 6 low-baseline reruns positive",6/6,script:scripts/_v10_pipeline_variance.py,EXISTING,MEDIUM,Sign stability
+§7.2,1640,7_2_cross_tradition_gap,"+0.15 to +0.25 cross-tradition gap, 4 vs 10 split",+0.15-0.25/4-10,doc:docs/research/era_modernity_cross_slice.md,doc:NEEDS-script,LOW,Future work
+§7.6,1672,7_6_refusal_intent,"75 of 81 (93%) routine refusals",75/81/93%,doc:docs/research/refusal_intent_classification.md,doc:NEEDS-script,LOW,Refusal classifier
+#
+# === §8 Reproducibility === Numbers: 1; MISSING: 1
+#
+§8,1686,8_total_cost,"Total study cost approximately USD 350",~350,GAP (no canonical file),MISSING,LOW,Aggregate cost; not in any file
+#
+# === Appendix A Predicates === Numbers: 5; EXISTING: 1; MISSING: 4
+#
+A.1,1746,A_1_n_predicates,"46 constrained predicates",46,doc:memory_system/src/baselayer/config.py,EXISTING,LOW,From config
+A.2,1833,A_2_session49_added,"Session 49 added 6",6,doc:session history,doc:NEEDS-script,LOW,Provenance
+A.2,1833,A_2_session52_added,"Session 52 added 2",2,doc:session history,doc:NEEDS-script,LOW,Provenance
+A.2,1833,A_2_session55_added,"Session 55 added 8",8,doc:session history,doc:NEEDS-script,LOW,Provenance
+A.2,1833,A_2_relationship_pct,"0.8% to 3-5%",0.8/3-5,doc:session history,doc:NEEDS-script,LOW,Pilot improvement
+#
+# === Appendix B Batteries === Numbers: 47; EXISTING: 0; MISSING: 47 (battery audit doc; no canonical script)
+#
+B.2,1873-1888,B_2_per_subject_battery,"15 subjects × 10 categories battery composition table",150 cells,doc:battery_v2.json files,doc:NEEDS-script,MEDIUM,Per-subject battery counts
+B.2,1889,B_2_col_total_decisions,"decisions 93",93,doc:battery_v2.json sum,doc:NEEDS-script,LOW,Column total
+B.2,1889,B_2_col_total_values,"values 115",115,doc:battery_v2.json sum,doc:NEEDS-script,LOW,Column total
+B.2,1889,B_2_col_total_relationships,"relationships 84",84,doc:battery_v2.json sum,doc:NEEDS-script,LOW,Column total
+B.2,1889,B_2_col_total_conflict,"conflict 66",66,doc:battery_v2.json sum,doc:NEEDS-script,LOW,Column total
+B.2,1889,B_2_col_total_learning,"learning 65",65,doc:battery_v2.json sum,doc:NEEDS-script,LOW,Column total
+B.2,1889,B_2_col_total_risk,"risk 19",19,doc:battery_v2.json sum,doc:NEEDS-script,LOW,Column total
+B.2,1889,B_2_col_total_creativity,"creativity 34",34,doc:battery_v2.json sum,doc:NEEDS-script,LOW,Column total
+B.2,1889,B_2_col_total_stress,"stress 60",60,doc:battery_v2.json sum,doc:NEEDS-script,LOW,Column total
+B.2,1889,B_2_col_total_career,"career 23",23,doc:battery_v2.json sum,doc:NEEDS-script,LOW,Column total
+B.2,1889,B_2_col_total_changeovertime,"change_over_time 27",27,doc:battery_v2.json sum,doc:NEEDS-script,LOW,Column total
+B.2,1889,B_2_grand_total,"Grand total 586",586,doc:battery_v2.json sum,doc:NEEDS-script,LOW,Total
+B.3,1901,B_3_literal_n,"60 LITERAL_RECALL (10.2%)",60/10.2%,doc:docs/research/question_category_audit.md,doc:NEEDS-script,MEDIUM,Axis distribution
+B.3,1902,B_3_interp_n,"403 INTERPRETIVE (68.8%)",403/68.8%,doc:docs/research/question_category_audit.md,doc:NEEDS-script,MEDIUM,Axis distribution
+B.3,1903,B_3_refusal_n,"123 REFUSAL_TRIGGERING (21.0%)",123/21.0%,doc:docs/research/question_category_audit.md,doc:NEEDS-script,MEDIUM,Axis distribution
+B.3,1909-1923,B_3_per_subject_axis,"15 subjects × 3 axes per-subject distribution",45 cells,doc:question_category_audit.md,doc:NEEDS-script,LOW,Per-subject axes
+B.4,1931,B_4_literal_delta,"LITERAL Δ_spec +0.792",+0.792,doc:question_category_audit.md,doc:NEEDS-script,MEDIUM,Category effect
+B.4,1932,B_4_interp_delta,"INTERP +0.397",+0.397,doc:question_category_audit.md,doc:NEEDS-script,MEDIUM,Category effect
+B.4,1933,B_4_refusal_delta,"REFUSAL +0.489",+0.489,doc:question_category_audit.md,doc:NEEDS-script,MEDIUM,Category effect
+B.4,1931,B_4_literal_median,"LITERAL median +0.800",+0.800,doc:question_category_audit.md,doc:NEEDS-script,LOW,Median
+B.4,1932,B_4_interp_median,"INTERP median +0.400",+0.400,doc:question_category_audit.md,doc:NEEDS-script,LOW,Median
+B.4,1933,B_4_refusal_median,"REFUSAL median +0.200",+0.200,doc:question_category_audit.md,doc:NEEDS-script,LOW,Median
+B.5,1939,B_5_hamerton_literal,"Hamerton LITERAL +1.93",+1.93,doc:question_category_audit.md,doc:NEEDS-script,LOW,Per-subject axis
+B.5,1939,B_5_hamerton_interp,"Hamerton INTERP +2.02",+2.02,doc:question_category_audit.md,doc:NEEDS-script,LOW,Per-subject axis
+B.5,1939,B_5_hamerton_refusal,"Hamerton REFUSAL +1.71",+1.71,doc:question_category_audit.md,doc:NEEDS-script,LOW,Per-subject axis
+B.6,1945,B_6_delta_range,"Δ_spec range -0.31 to +1.85",-0.31/+1.85,doc:question_category_audit.md,doc:NEEDS-script (INC-9),HIGH,Discrepancy with §4.1 max
+B.6,1946,B_6_corr_literal,"r LITERAL = +0.646",+0.646,doc:question_category_audit.md,doc:NEEDS-script,HIGH,Cited in §4.1
+B.6,1947,B_6_corr_interp,"r INTERP = -0.582",-0.582,doc:question_category_audit.md,doc:NEEDS-script,HIGH,Cited in §4.1
+B.6,1948,B_6_corr_refusal,"r REFUSAL = +0.321",+0.321,doc:question_category_audit.md,doc:NEEDS-script,MEDIUM,Battery correlation
+#
+# === Appendix C Conditions/Models === Numbers: 0 (all string identifiers) ===
+#
+# === Appendix D Validity Audit === Numbers: 35; EXISTING: 26; MISSING: 9
+#
+D.1,2065-2079,D_1_gradient_table_recap,"Per-subject 5-judge primary table (15 rows)",15 rows,script:scripts/recompute_5judge_primary.py,EXISTING,LOW,Recap of §4.1
+D.2,2089,D_2_total_questions_low,"351 low-baseline questions",351,script:scripts/compute_anchor_crossing.py,EXISTING,LOW,Slice total
+D.2,2090,D_2_upward_193,"Upward 193 (55.0%)",193/55.0%,script:scripts/compute_anchor_crossing.py,EXISTING,MEDIUM,Anchor crossings
+D.2,2091,D_2_downward_24,"Downward 24 (6.8%)",24/6.8%,script:scripts/compute_anchor_crossing.py,EXISTING,MEDIUM,Anchor crossings
+D.2,2092,D_2_no_crossing_134,"Stayed 134 (38.2%)",134/38.2%,script:scripts/compute_anchor_crossing.py,EXISTING,MEDIUM,Anchor crossings
+D.2,2098,D_2_sunity_uppct,"Sunity Devee 29 / 74.4%",29/74.4%,script:scripts/compute_anchor_crossing.py,EXISTING,MEDIUM,Per-subject crossing
+D.2,2099,D_2_hamerton_uppct,"Hamerton 27 / 69.2%",27/69.2%,script:scripts/compute_anchor_crossing.py,EXISTING,MEDIUM,Per-subject crossing
+D.2,2100,D_2_fukuzawa_uppct,"Fukuzawa 26 / 66.7%",26/66.7%,script:scripts/compute_anchor_crossing.py,EXISTING,MEDIUM,Per-subject crossing
+D.2,2101,D_2_bernal_uppct,"Bernal Diaz 23 / 59.0%",23/59.0%,script:scripts/compute_anchor_crossing.py,EXISTING,MEDIUM,Per-subject crossing
+D.2,2102,D_2_seacole_uppct,"Seacole 21 / 53.8%",21/53.8%,script:scripts/compute_anchor_crossing.py,EXISTING,MEDIUM,Per-subject crossing
+D.2,2103,D_2_ebers_uppct,"Ebers 19 / 48.7%",19/48.7%,script:scripts/compute_anchor_crossing.py,EXISTING,MEDIUM,Per-subject crossing
+D.2,2104,D_2_keckley_uppct,"Keckley 19 / 48.7%",19/48.7%,script:scripts/compute_anchor_crossing.py,EXISTING,MEDIUM,Per-subject crossing
+D.2,2105,D_2_yungwing_uppct,"Yung Wing 19 / 48.7%",19/48.7%,script:scripts/compute_anchor_crossing.py,EXISTING,MEDIUM,Per-subject crossing
+D.2,2106,D_2_babur_uppct,"Babur 10 / 25.6%",10/25.6%,script:scripts/compute_anchor_crossing.py,EXISTING,MEDIUM,Per-subject crossing
+D.3.1,2117,D_3_1_n_abstentions,"192 of 1,599 (12.0%)",192/12.0%,script:scripts/audit_low_end_inflation.py,EXISTING,MEDIUM,Audit
+D.3.2,2123,D_3_2_band_1_15,"159 (82.8%) in 1.0-1.5",159,script:scripts/audit_low_end_inflation.py,EXISTING,MEDIUM,Score band
+D.3.2,2124,D_3_2_band_15_20,"15 (7.8%) in 1.5-2.0",15,script:scripts/audit_low_end_inflation.py,EXISTING,MEDIUM,Score band
+D.3.2,2125,D_3_2_band_20_25,"12 (6.3%) in 2.0-2.5",12,script:scripts/audit_low_end_inflation.py,EXISTING,MEDIUM,Score band
+D.3.2,2126,D_3_2_band_25_30,"2 (1.0%) in 2.5-3.0",2,script:scripts/audit_low_end_inflation.py,EXISTING,LOW,Score band
+D.3.2,2127,D_3_2_band_30_35,"2 (1.0%) in 3.0-3.5",2,script:scripts/audit_low_end_inflation.py,EXISTING,LOW,Score band
+D.3.2,2128,D_3_2_band_above35,"2 (1.0%) above 3.5",2,script:scripts/audit_low_end_inflation.py,EXISTING,LOW,Score band
+D.3.3,2140-2144,D_3_3_per_judge_strict,"Sonnet 1.14, GPT-5.4 1.17, Haiku 1.29, GPT-4o 1.34, Opus 1.41",5 means,script:scripts/audit_low_end_inflation.py,EXISTING,MEDIUM,Per-judge
+D.3.4,2154,D_3_4_r_all,"all 1599 r=0.26",0.26,script:scripts/audit_low_end_inflation.py,EXISTING,MEDIUM,Length r
+D.3.4,2155,D_3_4_r_c5,"C5 r=0.604",0.604,script:scripts/audit_low_end_inflation.py,EXISTING,MEDIUM,Length r
+D.3.4,2156,D_3_4_r_c2a,"C2a r=0.14",0.14,script:scripts/audit_low_end_inflation.py,EXISTING,MEDIUM,Length r
+D.3.4,2157,D_3_4_r_c4,"C4 r=0.01",0.01,script:scripts/audit_low_end_inflation.py,EXISTING,MEDIUM,Length r
+D.3.4,2158,D_3_4_r_c4a,"C4a r=-0.01",-0.01,script:scripts/audit_low_end_inflation.py,EXISTING,MEDIUM,Length r
+D.3.4,2159,D_3_4_r_c2c,"C2c r=0.500",0.500,script:scripts/audit_low_end_inflation.py,EXISTING,MEDIUM,Length r
+D.3.5,2169,D_3_5_ultrahigh_len,"Ultra-high 2,790 chars",2790,script:scripts/audit_low_end_inflation.py,EXISTING,LOW,Length
+D.3.5,2170,D_3_5_midrange_len,"Mid-range 2,829 chars",2829,script:scripts/audit_low_end_inflation.py,EXISTING,LOW,Length
+D.3.5,2171,D_3_5_low_len,"Low (<2.0) 2,087 chars",2087,script:scripts/audit_low_end_inflation.py,EXISTING,LOW,Length
+D.3.5,2171,D_3_5_low_n,"n = 795",795,script:scripts/audit_low_end_inflation.py,EXISTING,LOW,Low count
+D.4,2189-2261,D_4_full_judge_matrix,"Per-subject × per-judge × per-condition matrix",630 cells,script:scripts/_emit_full_judge_matrix.py,EXISTING,HIGH,Full matrix
+D.4,2189-2261,D_4_5j_means,"5-judge primary means column",70 cells,script:scripts/recompute_5judge_primary.py,EXISTING,HIGH,5j means
+D.4,2189-2261,D_4_7j_means,"7-judge means column",70 cells,script:scripts/_emit_full_judge_matrix.py,EXISTING,HIGH,7j means
+#
+# === Appendix E Benchmark Scope === Numbers: 18; EXTERNAL: 18; EXCLUDE
+#
+E.1,2290,E_1_lme_range,"68% to 85%",68-85%,EXTERNAL,EXCLUDE,LongMemEval range
+E.2,2308,E_2_persona_top,"4.51 ± 0.08",4.51,EXTERNAL,EXCLUDE,PersonaScore top
+E.2,2308,E_2_persona_bottom,"3.64 ± 0.57",3.64,EXTERNAL,EXCLUDE,PersonaScore bottom
+E.2,2308,E_2_persona_n_personas,"200 personas",200,EXTERNAL,EXCLUDE,PersonaGym N
+E.2,2308,E_2_persona_n_q,"10,000 questions",10000,EXTERNAL,EXCLUDE,PersonaGym N
+E.4,2354,E_4_twin2k_acc,"71.72%",71.72%,EXTERNAL,EXCLUDE,Twin-2K
+E.4,2354,E_4_twin2k_human,"81.72%",81.72%,EXTERNAL,EXCLUDE,Twin-2K
+E.4,2354,E_4_twin2k_top,"87.67%",87.67%,EXTERNAL,EXCLUDE,Twin-2K
+E.4,2354,E_4_twin2k_random,"59.17%",59.17%,EXTERNAL,EXCLUDE,Twin-2K
+E.4,2354,E_4_twin2k_replication,"6 of 10",6/10,EXTERNAL,EXCLUDE,Twin-2K
+E.5,2370,E_5_locomo_gpt4t,"GPT-4-turbo 32.1%",32.1%,EXTERNAL,EXCLUDE,LoCoMo
+E.5,2370,E_5_locomo_gpt35,"GPT-3.5-turbo 22.4%",22.4%,EXTERNAL,EXCLUDE,LoCoMo
+E.5,2370,E_5_locomo_gpt35_16k,"GPT-3.5-turbo-16K 37.8%",37.8%,EXTERNAL,EXCLUDE,LoCoMo
+E.5,2370,E_5_locomo_rag,"best RAG 41.4%",41.4%,EXTERNAL,EXCLUDE,LoCoMo
+E.5,2370,E_5_locomo_human,"human 87.9%",87.9%,EXTERNAL,EXCLUDE,LoCoMo
+E.5,2370,E_5_locomo_mem0,"Mem0 91.6 / Mem0g 68.44 / Letta 74.0",3 numbers,EXTERNAL,EXCLUDE,LoCoMo systems
+E.5,2370,E_5_locomo_zep,"Zep 84 (disputed)",84,EXTERNAL,EXCLUDE,LoCoMo Zep
+E.4,2354,E_4_twin2k_n,"2,058 participants",2058,EXTERNAL,EXCLUDE,Twin-2K N
+#
+# === Appendix F Letta Stateful (full) === Numbers: 10; EXISTING: 0; MISSING: 10
+#
+F,2418,F_hamerton_corpus,"Hamerton 25,231 words",25231,doc:source corpus,doc:NEEDS-script,LOW,Corpus size
+F,2419,F_ebers_corpus,"Ebers 48,161 words",48161,doc:source corpus,doc:NEEDS-script,LOW,Corpus size
+F,2420,F_babur_corpus,"Babur 222,742 words",222742,doc:source corpus,doc:NEEDS-script,LOW,Corpus size (training half)
+F,2418,F_hamerton_block,"Hamerton block 22,472 chars",22472,doc:letta_stateful_matched_rerun.md,doc:NEEDS-script,LOW,Block
+F,2419,F_ebers_block,"Ebers block 68,413 chars",68413,doc:letta_stateful_matched_rerun.md,doc:NEEDS-script,LOW,Block
+F,2420,F_babur_block,"Babur block 335,349 chars",335349,doc:letta_stateful_matched_rerun.md,doc:NEEDS-script,LOW,Block
+F,2432,F_hamerton_5j,"Hamerton Letta 3.10 BL 2.96 +0.14",3.10/2.96/+0.14,doc:5judge_primary_results.json,doc:NEEDS-script,HIGH,Recap
+F,2433,F_ebers_5j,"Ebers 2.76 / 1.72 / +1.05",2.76/1.72/+1.05,doc:5judge_primary_results.json,doc:NEEDS-script,HIGH,Recap
+F,2434,F_babur_5j,"Babur 2.42 / 1.88 / +0.54",2.42/1.88/+0.54,doc:5judge_primary_results.json,doc:NEEDS-script,HIGH,Recap
+F,2438,F_7j_robust,"7-judge Hamerton +0.20 / Ebers +0.75 / Babur +0.29",3 deltas,doc:_letta_rerun Part 7,doc:NEEDS-script,LOW,7j robustness
+F,2444,F_letta_block_meta_limit,"Letta block-size metadata limit 100,000",100000,doc:letta_stateful_deep_read.md,doc:NEEDS-script,LOW,API limit
+F,2444,F_letta_api_ceiling,"effective ceiling ~333,000",~333000,doc:letta_stateful_matched_rerun.md,doc:NEEDS-script,LOW,API ceiling
+F,2446,F_babur_dup,"25.4% verbatim duplication",25.4%,doc:letta_stateful_matched_rerun.md,doc:NEEDS-script,LOW,Duplication
+F,2466,F_ref_density_babur,"540 vs 46",540/46,doc:letta_stateful_deep_read.md,doc:NEEDS-script,LOW,Referential density
+F,2466,F_ref_density_ebers,"58 vs 19",58/19,doc:letta_stateful_deep_read.md,doc:NEEDS-script,LOW,Referential density
+F,2444,F_babur_token,"~84,000 tokens",84000,doc:char/4 ratio,doc:NEEDS-script,LOW,Token estimate
+#
+# === _unmapped (claims that could not be precisely located) === Numbers: 0
+#
+# (All numbers were locatable in the verification report or the paper.)
+#
+
+## Executive Summary (markdown)
+
+**Total numbers inventoried: 339** (compared to 194 in the verification report; this inventory over-includes by enumerating per-subject table cells separately and listing both §1.3 headlines and their §4 occurrences).
+
+### Per-status counts
+
+- **EXISTING** (canonical scaffold reproduces): **172** rows
+- **MISSING** (no canonical scaffold OR scaffold output disagrees with paper): **126** rows
+- **EXTERNAL** (cited from prior work): **35** rows
+- **EXCLUDE**: 35 rows (= EXTERNAL count)
+- **GAP** subset within MISSING: 1 row (the §8 USD 350 cost claim, no underlying data file)
+
+### Counts by paper section
+
+| Section | Total | EXISTING | MISSING | EXTERNAL |
+|---|---:|---:|---:|---:|
+| §1 Introduction | 51 | 28 | 21 | 2 |
+| §2 Prior Work | 17 | 0 | 0 | 17 |
+| §3 Study Design | 32 | 13 | 19 | 0 |
+| §4.1 Gradient | 50 | 44 | 6 | 0 |
+| §4.2 Compression | 33 | 24 | 9 | 0 |
+| §4.3 Mechanism | 26 | 14 | 12 | 0 |
+| §4.4 Memory-Systems | 60 | 0 | 60 | 0 |
+| §4.5 Letta Stateful | 14 | 0 | 14 | 0 |
+| §4.6 Robustness | 19 | 9 | 10 | 0 |
+| §5 Discussion | 9 | 6 | 3 | 0 |
+| §6 Limitations | 10 | 7 | 3 | 0 |
+| §7 Future Work | 2 | 0 | 2 | 0 |
+| §8 Reproducibility | 1 | 0 | 1 | 0 |
+| Appendix A | 5 | 1 | 4 | 0 |
+| Appendix B | 30 | 0 | 30 | 0 |
+| Appendix D | 35 | 33 | 2 | 0 |
+| Appendix E | 18 | 0 | 0 | 18 |
+| Appendix F | 16 | 0 | 16 | 0 |
+
+### Top 5 sections by MISSING-scaffold count (Phase 2 build targets)
+
+1. **§4.4 Memory-System Composition (60 missing)** — `memory_systems_5judge_primary.md` and the four `*_c1_vs_c3_*.md` analysis docs hold every controlled / native Δ_spec, every per-system per-subject paired row, every per-question example. None is reproducible from a single canonical scaffold reading raw `*_judgments_<judge>.json`. **Build estimate: 1 master script (`scaffold_memory_systems.py`) ~600-800 lines** (consolidates `compute_memory_systems_5judge.py`, the `analyze_*_c1_vs_c3.py` scripts, and `compute_supermemory_paid_tier_aggregate.py` into one canonical script reading per-judge JSON for all 14 subjects × 5 systems × C1/C3 × controlled/native, computing aggregates and Wilcoxon, and emitting CSV/JSON + Markdown report).
+2. **Appendix B Battery Audit (30 missing)** — `question_category_audit.md` produces all per-axis Δ_spec / median / per-subject distributions, but the underlying classifier and aggregator are split between `classify_question_categories.py` and the audit doc. **Build estimate: ~250-400 lines** for `scaffold_battery_audit.py` reading `battery_v2.json` + `judgments_v2.json` per subject and emitting axis classifications (or reading existing classifications) and the §B.2-B.6 tables.
+3. **§3 Study Design (19 missing)** — calibration table, Spearman / Krippendorff agreement matrices, Franklin-baseline numbers. **Build estimate: 1 script ~300-500 lines** for `scaffold_judges_and_franklin.py` covering per-judge calibration recompute, inter-judge agreement (5j / 7j), Franklin's pre-globals legacy data.
+4. **§1 Introduction (21 missing)** — most are recaps of §4 numbers (corpus word counts, Letta block sizes, Letta-vs-BL deltas, paid-tier Supermemory rerun, Keckley Q21 cross-system table). Coverage spills into §4.4 / §4.5 scaffolds; once those exist most §1 numbers reduce to references. **Build estimate: tightly coupled with §4.4 + §4.5 scaffolds; no standalone script needed**.
+5. **Appendix F Letta Stateful (16 missing)** — `letta_stateful_matched_rerun.md`, `letta_stateful_deep_read.md`, `_letta_rerun/5judge_primary_results.json`, `_letta_rerun/fullstack_named/RESULTS.md`, and the `_letta_rerun/{20,40,50,60,70}_*.py` execution chain together produce every number but no single canonical scaffold consolidates them. **Build estimate: ~300-500 lines** for `scaffold_letta_stateful.py` reading per-judge JSON files in `_letta_rerun/` and emitting matched-rerun + full-stack-named + 7-judge robustness numbers in one pass.
+
+### Special cases (scaffold exists but output disagrees with paper)
+
+- **§4.6.1 Tier 2** (INC-1, 6 numbers) — `tier2_mechanical_recompute.py` exists and produces Δ_C2a / Δ_C4a; neither reproduces the paper's published +1.48/+1.07/+1.91/+1.27/+1.40/-0.55. **Repair task, not a build task. ~50-100 lines** to identify the legacy aggregation and either recompute under it or replace with the recompute output.
+- **§4.2 Table 4.2 mean row** (INC-2/7/8, 3 numbers) — recompute script gives 1.55/2.23/2.35/2.45/2.44/2.59 for the 9-subject mean row; paper prints 1.52/2.23/2.35/2.45/2.45/2.50. **Repair task: ~30 lines** to print the correct mean row, plus a paper edit (out-of-scope for Phase 2).
+- **Appendix B.6 Δ_spec range** (INC-9, 1 row) — `question_category_audit.md` aggregates per-question category-weighted Δ which produces the +1.85 max; §4.1 reports per-subject mean-difference Δ_C2a max +1.37 / Δ_C4a +1.51. Two different aggregations. **Documentation task: 1 line** in B.6 to state aggregation method explicitly.
+
+### Existing scripts that need promotion-to-canonical (do not yet appear in the task's canonical list)
+
+- `scripts/compute_memory_systems_5judge.py` (used for §4.4.1 aggregates)
+- `scripts/compute_wrong_spec_5judge.py` and `scripts/compute_wrong_spec_per_subject.py` (used for §4.3 / §4.6.2)
+- `scripts/analyze_mlz_c1_vs_c3.py`, `scripts/analyze_baselayer_c1_vs_c3.py`, `scripts/analyze_sm_c1_vs_c3.py` (used for §4.4.2 paired distributions)
+- `scripts/compute_supermemory_paid_tier_aggregate.py` (§4.4.1 paid-tier rerun)
+- `scripts/_v10_verification/tier2_mechanical_recompute.py` already canonical per the task list, but its output disagrees with the paper.
+
+### Estimated total Phase 2 build effort
+
+- 4 new master scaffolds: ~1,750-2,200 lines of Python
+- 5 existing scripts to promote (mostly headers + integration): ~250-400 lines of edits
+- 3 repair tasks (Tier 2, Table 4.2 mean row, B.6 documentation): ~100-200 lines + paper edits
+- **Total: roughly 2,100-2,800 lines of Python, ~25-35 hours of focused work to reach a state where every paper number is producible from a canonical scaffold or marked EXTERNAL/EXCLUDE.**
