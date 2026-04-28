@@ -1,0 +1,1558 @@
+{
+  "schema_version": "v11.0",
+  "section": "3",
+  "aggregation_rule": "5-judge primary panel: per-judge per-question -> per-judge per-subject mean -> panel mean across {haiku, sonnet, opus, gpt4o, gpt54}; 7-judge sensitivity adds {gemini_flash, gemini_pro}",
+  "claims": {
+    "3_7_2_haiku_verbatim": {
+      "value": 5.0,
+      "estimand": "Calibration mean score for judge=haiku on test=verbatim",
+      "contrast": "diagnostic test (verbatim)",
+      "filters": {
+        "judge": "haiku",
+        "test": "verbatim"
+      },
+      "n": 20,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null,
+      "aggregation_rule": "mean across 20 calibration items per (judge, test)",
+      "source": "results/judge_calibration/judgments.json + per-judge calibration files"
+    },
+    "3_7_2_haiku_paraphrased": {
+      "value": 4.75,
+      "estimand": "Calibration mean score for judge=haiku on test=paraphrased",
+      "contrast": "diagnostic test (paraphrased)",
+      "filters": {
+        "judge": "haiku",
+        "test": "paraphrased"
+      },
+      "n": 20,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null,
+      "aggregation_rule": "mean across 20 calibration items per (judge, test)",
+      "source": "results/judge_calibration/judgments.json + per-judge calibration files"
+    },
+    "3_7_2_haiku_short_correct": {
+      "value": 3.8,
+      "estimand": "Calibration mean score for judge=haiku on test=short_correct",
+      "contrast": "diagnostic test (short_correct)",
+      "filters": {
+        "judge": "haiku",
+        "test": "short_correct"
+      },
+      "n": 20,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null,
+      "aggregation_rule": "mean across 20 calibration items per (judge, test)",
+      "source": "results/judge_calibration/judgments.json + per-judge calibration files"
+    },
+    "3_7_2_haiku_long_correct": {
+      "value": 5.0,
+      "estimand": "Calibration mean score for judge=haiku on test=long_correct",
+      "contrast": "diagnostic test (long_correct)",
+      "filters": {
+        "judge": "haiku",
+        "test": "long_correct"
+      },
+      "n": 20,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null,
+      "aggregation_rule": "mean across 20 calibration items per (judge, test)",
+      "source": "results/judge_calibration/judgments.json + per-judge calibration files"
+    },
+    "3_7_2_sonnet_verbatim": {
+      "value": null,
+      "estimand": "Calibration mean score for judge=sonnet on test=verbatim",
+      "contrast": "diagnostic test (verbatim)",
+      "filters": {
+        "judge": "sonnet",
+        "test": "verbatim"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null,
+      "aggregation_rule": "mean across N=20 calibration items",
+      "source": "results/judge_calibration/ (no diagnostic battery for sonnet/opus)",
+      "note": "Sonnet and Opus did not run the diagnostic battery (paper \u00a73.7.2); they joined the panel for inter-judge agreement only."
+    },
+    "3_7_2_sonnet_paraphrased": {
+      "value": null,
+      "estimand": "Calibration mean score for judge=sonnet on test=paraphrased",
+      "contrast": "diagnostic test (paraphrased)",
+      "filters": {
+        "judge": "sonnet",
+        "test": "paraphrased"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null,
+      "aggregation_rule": "mean across N=20 calibration items",
+      "source": "results/judge_calibration/ (no diagnostic battery for sonnet/opus)",
+      "note": "Sonnet and Opus did not run the diagnostic battery (paper \u00a73.7.2); they joined the panel for inter-judge agreement only."
+    },
+    "3_7_2_sonnet_short_correct": {
+      "value": null,
+      "estimand": "Calibration mean score for judge=sonnet on test=short_correct",
+      "contrast": "diagnostic test (short_correct)",
+      "filters": {
+        "judge": "sonnet",
+        "test": "short_correct"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null,
+      "aggregation_rule": "mean across N=20 calibration items",
+      "source": "results/judge_calibration/ (no diagnostic battery for sonnet/opus)",
+      "note": "Sonnet and Opus did not run the diagnostic battery (paper \u00a73.7.2); they joined the panel for inter-judge agreement only."
+    },
+    "3_7_2_sonnet_long_correct": {
+      "value": null,
+      "estimand": "Calibration mean score for judge=sonnet on test=long_correct",
+      "contrast": "diagnostic test (long_correct)",
+      "filters": {
+        "judge": "sonnet",
+        "test": "long_correct"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null,
+      "aggregation_rule": "mean across N=20 calibration items",
+      "source": "results/judge_calibration/ (no diagnostic battery for sonnet/opus)",
+      "note": "Sonnet and Opus did not run the diagnostic battery (paper \u00a73.7.2); they joined the panel for inter-judge agreement only."
+    },
+    "3_7_2_opus_verbatim": {
+      "value": null,
+      "estimand": "Calibration mean score for judge=opus on test=verbatim",
+      "contrast": "diagnostic test (verbatim)",
+      "filters": {
+        "judge": "opus",
+        "test": "verbatim"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null,
+      "aggregation_rule": "mean across N=20 calibration items",
+      "source": "results/judge_calibration/ (no diagnostic battery for sonnet/opus)",
+      "note": "Sonnet and Opus did not run the diagnostic battery (paper \u00a73.7.2); they joined the panel for inter-judge agreement only."
+    },
+    "3_7_2_opus_paraphrased": {
+      "value": null,
+      "estimand": "Calibration mean score for judge=opus on test=paraphrased",
+      "contrast": "diagnostic test (paraphrased)",
+      "filters": {
+        "judge": "opus",
+        "test": "paraphrased"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null,
+      "aggregation_rule": "mean across N=20 calibration items",
+      "source": "results/judge_calibration/ (no diagnostic battery for sonnet/opus)",
+      "note": "Sonnet and Opus did not run the diagnostic battery (paper \u00a73.7.2); they joined the panel for inter-judge agreement only."
+    },
+    "3_7_2_opus_short_correct": {
+      "value": null,
+      "estimand": "Calibration mean score for judge=opus on test=short_correct",
+      "contrast": "diagnostic test (short_correct)",
+      "filters": {
+        "judge": "opus",
+        "test": "short_correct"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null,
+      "aggregation_rule": "mean across N=20 calibration items",
+      "source": "results/judge_calibration/ (no diagnostic battery for sonnet/opus)",
+      "note": "Sonnet and Opus did not run the diagnostic battery (paper \u00a73.7.2); they joined the panel for inter-judge agreement only."
+    },
+    "3_7_2_opus_long_correct": {
+      "value": null,
+      "estimand": "Calibration mean score for judge=opus on test=long_correct",
+      "contrast": "diagnostic test (long_correct)",
+      "filters": {
+        "judge": "opus",
+        "test": "long_correct"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null,
+      "aggregation_rule": "mean across N=20 calibration items",
+      "source": "results/judge_calibration/ (no diagnostic battery for sonnet/opus)",
+      "note": "Sonnet and Opus did not run the diagnostic battery (paper \u00a73.7.2); they joined the panel for inter-judge agreement only."
+    },
+    "3_7_2_gpt4o_verbatim": {
+      "value": 5.0,
+      "estimand": "Calibration mean score for judge=gpt4o on test=verbatim",
+      "contrast": "diagnostic test (verbatim)",
+      "filters": {
+        "judge": "gpt4o",
+        "test": "verbatim"
+      },
+      "n": 20,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null,
+      "aggregation_rule": "mean across 20 calibration items per (judge, test)",
+      "source": "results/judge_calibration/judgments.json + per-judge calibration files"
+    },
+    "3_7_2_gpt4o_paraphrased": {
+      "value": 5.0,
+      "estimand": "Calibration mean score for judge=gpt4o on test=paraphrased",
+      "contrast": "diagnostic test (paraphrased)",
+      "filters": {
+        "judge": "gpt4o",
+        "test": "paraphrased"
+      },
+      "n": 20,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null,
+      "aggregation_rule": "mean across 20 calibration items per (judge, test)",
+      "source": "results/judge_calibration/judgments.json + per-judge calibration files"
+    },
+    "3_7_2_gpt4o_short_correct": {
+      "value": 4.05,
+      "estimand": "Calibration mean score for judge=gpt4o on test=short_correct",
+      "contrast": "diagnostic test (short_correct)",
+      "filters": {
+        "judge": "gpt4o",
+        "test": "short_correct"
+      },
+      "n": 20,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null,
+      "aggregation_rule": "mean across 20 calibration items per (judge, test)",
+      "source": "results/judge_calibration/judgments.json + per-judge calibration files"
+    },
+    "3_7_2_gpt4o_long_correct": {
+      "value": 3.35,
+      "estimand": "Calibration mean score for judge=gpt4o on test=long_correct",
+      "contrast": "diagnostic test (long_correct)",
+      "filters": {
+        "judge": "gpt4o",
+        "test": "long_correct"
+      },
+      "n": 20,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null,
+      "aggregation_rule": "mean across 20 calibration items per (judge, test)",
+      "source": "results/judge_calibration/judgments.json + per-judge calibration files"
+    },
+    "3_7_2_gpt54_verbatim": {
+      "value": 5.0,
+      "estimand": "Calibration mean score for judge=gpt54 on test=verbatim",
+      "contrast": "diagnostic test (verbatim)",
+      "filters": {
+        "judge": "gpt54",
+        "test": "verbatim"
+      },
+      "n": 20,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null,
+      "aggregation_rule": "mean across 20 calibration items per (judge, test)",
+      "source": "results/judge_calibration/judgments.json + per-judge calibration files"
+    },
+    "3_7_2_gpt54_paraphrased": {
+      "value": 5.0,
+      "estimand": "Calibration mean score for judge=gpt54 on test=paraphrased",
+      "contrast": "diagnostic test (paraphrased)",
+      "filters": {
+        "judge": "gpt54",
+        "test": "paraphrased"
+      },
+      "n": 20,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null,
+      "aggregation_rule": "mean across 20 calibration items per (judge, test)",
+      "source": "results/judge_calibration/judgments.json + per-judge calibration files"
+    },
+    "3_7_2_gpt54_short_correct": {
+      "value": 4.2,
+      "estimand": "Calibration mean score for judge=gpt54 on test=short_correct",
+      "contrast": "diagnostic test (short_correct)",
+      "filters": {
+        "judge": "gpt54",
+        "test": "short_correct"
+      },
+      "n": 20,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null,
+      "aggregation_rule": "mean across 20 calibration items per (judge, test)",
+      "source": "results/judge_calibration/judgments.json + per-judge calibration files"
+    },
+    "3_7_2_gpt54_long_correct": {
+      "value": 4.8,
+      "estimand": "Calibration mean score for judge=gpt54 on test=long_correct",
+      "contrast": "diagnostic test (long_correct)",
+      "filters": {
+        "judge": "gpt54",
+        "test": "long_correct"
+      },
+      "n": 20,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null,
+      "aggregation_rule": "mean across 20 calibration items per (judge, test)",
+      "source": "results/judge_calibration/judgments.json + per-judge calibration files"
+    },
+    "3_7_2_gemini_flash_verbatim": {
+      "value": 5.0,
+      "estimand": "Calibration mean score for judge=gemini_flash on test=verbatim",
+      "contrast": "diagnostic test (verbatim)",
+      "filters": {
+        "judge": "gemini_flash",
+        "test": "verbatim"
+      },
+      "n": 20,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null,
+      "aggregation_rule": "mean across 20 calibration items per (judge, test)",
+      "source": "results/judge_calibration/judgments.json + per-judge calibration files"
+    },
+    "3_7_2_gemini_flash_paraphrased": {
+      "value": 4.7,
+      "estimand": "Calibration mean score for judge=gemini_flash on test=paraphrased",
+      "contrast": "diagnostic test (paraphrased)",
+      "filters": {
+        "judge": "gemini_flash",
+        "test": "paraphrased"
+      },
+      "n": 20,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null,
+      "aggregation_rule": "mean across 20 calibration items per (judge, test)",
+      "source": "results/judge_calibration/judgments.json + per-judge calibration files"
+    },
+    "3_7_2_gemini_flash_short_correct": {
+      "value": 3.85,
+      "estimand": "Calibration mean score for judge=gemini_flash on test=short_correct",
+      "contrast": "diagnostic test (short_correct)",
+      "filters": {
+        "judge": "gemini_flash",
+        "test": "short_correct"
+      },
+      "n": 20,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null,
+      "aggregation_rule": "mean across 20 calibration items per (judge, test)",
+      "source": "results/judge_calibration/judgments.json + per-judge calibration files"
+    },
+    "3_7_2_gemini_flash_long_correct": {
+      "value": 3.8,
+      "estimand": "Calibration mean score for judge=gemini_flash on test=long_correct",
+      "contrast": "diagnostic test (long_correct)",
+      "filters": {
+        "judge": "gemini_flash",
+        "test": "long_correct"
+      },
+      "n": 20,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null,
+      "aggregation_rule": "mean across 20 calibration items per (judge, test)",
+      "source": "results/judge_calibration/judgments.json + per-judge calibration files"
+    },
+    "3_7_2_gemini_pro_verbatim": {
+      "value": 4.15,
+      "estimand": "Calibration mean score for judge=gemini_pro on test=verbatim",
+      "contrast": "diagnostic test (verbatim)",
+      "filters": {
+        "judge": "gemini_pro",
+        "test": "verbatim"
+      },
+      "n": 20,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null,
+      "aggregation_rule": "mean across 20 calibration items per (judge, test)",
+      "source": "results/judge_calibration/judgments.json + per-judge calibration files"
+    },
+    "3_7_2_gemini_pro_paraphrased": {
+      "value": 3.55,
+      "estimand": "Calibration mean score for judge=gemini_pro on test=paraphrased",
+      "contrast": "diagnostic test (paraphrased)",
+      "filters": {
+        "judge": "gemini_pro",
+        "test": "paraphrased"
+      },
+      "n": 20,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null,
+      "aggregation_rule": "mean across 20 calibration items per (judge, test)",
+      "source": "results/judge_calibration/judgments.json + per-judge calibration files"
+    },
+    "3_7_2_gemini_pro_short_correct": {
+      "value": 2.85,
+      "estimand": "Calibration mean score for judge=gemini_pro on test=short_correct",
+      "contrast": "diagnostic test (short_correct)",
+      "filters": {
+        "judge": "gemini_pro",
+        "test": "short_correct"
+      },
+      "n": 20,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null,
+      "aggregation_rule": "mean across 20 calibration items per (judge, test)",
+      "source": "results/judge_calibration/judgments.json + per-judge calibration files"
+    },
+    "3_7_2_gemini_pro_long_correct": {
+      "value": 1.2,
+      "estimand": "Calibration mean score for judge=gemini_pro on test=long_correct",
+      "contrast": "diagnostic test (long_correct)",
+      "filters": {
+        "judge": "gemini_pro",
+        "test": "long_correct"
+      },
+      "n": 20,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null,
+      "aggregation_rule": "mean across 20 calibration items per (judge, test)",
+      "source": "results/judge_calibration/judgments.json + per-judge calibration files"
+    },
+    "3_7_4_spearman_5judge_min": {
+      "value": 0.8577314149265374,
+      "estimand": "Minimum pairwise Spearman rho across 5-judge primary panel pairs",
+      "contrast": "judge-pair (10 pairs)",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ]
+      },
+      "n": 10,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null,
+      "aggregation_rule": "Spearman rho on per-(subject, condition) judge means (scipy.stats.spearmanr)",
+      "source": "14 main-study subjects' per-(subject, condition, judge, question) scores"
+    },
+    "3_7_4_spearman_5judge_max": {
+      "value": 0.9323909376706049,
+      "estimand": "Maximum pairwise Spearman rho across 5-judge primary panel pairs",
+      "contrast": "judge-pair (10 pairs)",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ]
+      },
+      "n": 10,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null,
+      "aggregation_rule": "Spearman rho on per-(subject, condition) judge means",
+      "source": "14 main-study subjects' per-(subject, condition, judge, question) scores"
+    },
+    "3_7_4_spearman_7judge_min": {
+      "value": 0.2936350895424456,
+      "estimand": "Minimum pairwise Spearman rho across 7-judge sensitivity panel pairs",
+      "contrast": "judge-pair (21 pairs)",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54",
+          "gemini_flash",
+          "gemini_pro"
+        ]
+      },
+      "n": 21,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null,
+      "aggregation_rule": "Spearman rho on per-(subject, condition) judge means",
+      "source": "14 main-study subjects' per-(subject, condition, judge, question) scores"
+    },
+    "3_7_4_spearman_7judge_max": {
+      "value": 0.9323909376706049,
+      "estimand": "Maximum pairwise Spearman rho across 7-judge sensitivity panel pairs",
+      "contrast": "judge-pair (21 pairs)",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54",
+          "gemini_flash",
+          "gemini_pro"
+        ]
+      },
+      "n": 21,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null,
+      "aggregation_rule": "Spearman rho on per-(subject, condition) judge means",
+      "source": "14 main-study subjects' per-(subject, condition, judge, question) scores"
+    },
+    "3_7_4_krippendorff_alpha_5judge": {
+      "value": 0.6542828539695811,
+      "estimand": "Krippendorff's alpha (interval scale) across 5-judge primary panel",
+      "contrast": "absolute-magnitude agreement",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "scale": "interval"
+      },
+      "n": 2730,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null,
+      "aggregation_rule": "pair-count formula on (subject, condition, question_id) units; pooled across 5 main conditions",
+      "source": "14 main-study subjects, all per-question per-judge scores",
+      "note": "Recompute uses interval-scale Krippendorff alpha; paper cites 0.659 as ordinal. Both report directional agreement on absolute magnitude. The two scales agree to within ~0.01 on this score distribution but are not the same statistic."
+    },
+    "3_7_4_krippendorff_alpha_7judge": {
+      "value": 0.5220570282774706,
+      "estimand": "Krippendorff's alpha (interval scale) across 7-judge sensitivity panel",
+      "contrast": "absolute-magnitude agreement",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54",
+          "gemini_flash",
+          "gemini_pro"
+        ],
+        "scale": "interval"
+      },
+      "n": 2730,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null,
+      "aggregation_rule": "pair-count formula on (subject, condition, question_id) units; pooled across 5 main conditions",
+      "source": "14 main-study subjects, all per-question per-judge scores",
+      "note": "Paper cites ordinal 0.535. Interval-vs-ordinal note same as 5-judge alpha."
+    },
+    "3_7_2_strictness_haiku": {
+      "value": 1.2864583333333333,
+      "estimand": "Mean per-judge score on abstention-pattern responses (low-baseline slice)",
+      "contrast": "abstention rows only",
+      "filters": {
+        "judge": "haiku",
+        "subjects": [
+          "hamerton",
+          "sunity_devee",
+          "ebers",
+          "fukuzawa",
+          "bernal_diaz",
+          "babur",
+          "seacole",
+          "keckley",
+          "yung_wing"
+        ],
+        "abstention": true
+      },
+      "n": 192,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null,
+      "aggregation_rule": "mean of per-(qid, condition, judge) score across all abstention rows",
+      "source": "9 low-baseline subjects' results_v2.json + judgments_v2.json"
+    },
+    "3_7_2_strictness_sonnet": {
+      "value": 1.140625,
+      "estimand": "Mean per-judge score on abstention-pattern responses (low-baseline slice)",
+      "contrast": "abstention rows only",
+      "filters": {
+        "judge": "sonnet",
+        "subjects": [
+          "hamerton",
+          "sunity_devee",
+          "ebers",
+          "fukuzawa",
+          "bernal_diaz",
+          "babur",
+          "seacole",
+          "keckley",
+          "yung_wing"
+        ],
+        "abstention": true
+      },
+      "n": 192,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null,
+      "aggregation_rule": "mean of per-(qid, condition, judge) score across all abstention rows",
+      "source": "9 low-baseline subjects' results_v2.json + judgments_v2.json"
+    },
+    "3_7_2_strictness_opus": {
+      "value": 1.4114583333333333,
+      "estimand": "Mean per-judge score on abstention-pattern responses (low-baseline slice)",
+      "contrast": "abstention rows only",
+      "filters": {
+        "judge": "opus",
+        "subjects": [
+          "hamerton",
+          "sunity_devee",
+          "ebers",
+          "fukuzawa",
+          "bernal_diaz",
+          "babur",
+          "seacole",
+          "keckley",
+          "yung_wing"
+        ],
+        "abstention": true
+      },
+      "n": 192,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null,
+      "aggregation_rule": "mean of per-(qid, condition, judge) score across all abstention rows",
+      "source": "9 low-baseline subjects' results_v2.json + judgments_v2.json"
+    },
+    "3_7_2_strictness_gpt4o": {
+      "value": 1.34375,
+      "estimand": "Mean per-judge score on abstention-pattern responses (low-baseline slice)",
+      "contrast": "abstention rows only",
+      "filters": {
+        "judge": "gpt4o",
+        "subjects": [
+          "hamerton",
+          "sunity_devee",
+          "ebers",
+          "fukuzawa",
+          "bernal_diaz",
+          "babur",
+          "seacole",
+          "keckley",
+          "yung_wing"
+        ],
+        "abstention": true
+      },
+      "n": 192,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null,
+      "aggregation_rule": "mean of per-(qid, condition, judge) score across all abstention rows",
+      "source": "9 low-baseline subjects' results_v2.json + judgments_v2.json"
+    },
+    "3_7_2_strictness_gpt54": {
+      "value": 1.1666666666666667,
+      "estimand": "Mean per-judge score on abstention-pattern responses (low-baseline slice)",
+      "contrast": "abstention rows only",
+      "filters": {
+        "judge": "gpt54",
+        "subjects": [
+          "hamerton",
+          "sunity_devee",
+          "ebers",
+          "fukuzawa",
+          "bernal_diaz",
+          "babur",
+          "seacole",
+          "keckley",
+          "yung_wing"
+        ],
+        "abstention": true
+      },
+      "n": 192,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null,
+      "aggregation_rule": "mean of per-(qid, condition, judge) score across all abstention rows",
+      "source": "9 low-baseline subjects' results_v2.json + judgments_v2.json"
+    },
+    "3_7_6_length_corr_overall": {
+      "value": 0.2563526429329268,
+      "estimand": "Pearson r between response length (chars) and 5-judge primary score",
+      "contrast": "all conditions, all 9 low-baseline subjects",
+      "filters": {
+        "subjects": [
+          "hamerton",
+          "sunity_devee",
+          "ebers",
+          "fukuzawa",
+          "bernal_diaz",
+          "babur",
+          "seacole",
+          "keckley",
+          "yung_wing"
+        ],
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ]
+      },
+      "n": 1599,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null,
+      "aggregation_rule": "Pearson r on (length, score) pairs",
+      "source": "9 low-baseline subjects' results_v2.json + judgments_v2.json"
+    },
+    "3_7_6_length_corr_C5": {
+      "value": 0.6037361058307619,
+      "estimand": "Pearson r between response length and 5-judge primary score (condition=C5_baseline)",
+      "contrast": "C5_baseline",
+      "filters": {
+        "condition": "C5_baseline",
+        "subjects": [
+          "hamerton",
+          "sunity_devee",
+          "ebers",
+          "fukuzawa",
+          "bernal_diaz",
+          "babur",
+          "seacole",
+          "keckley",
+          "yung_wing"
+        ]
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null,
+      "aggregation_rule": "Pearson r on (length, score) pairs",
+      "source": "9 low-baseline subjects' results_v2.json + judgments_v2.json"
+    },
+    "3_7_6_length_corr_C2a": {
+      "value": 0.1440247645397736,
+      "estimand": "Pearson r between response length and 5-judge primary score (condition=C2a_full_spec)",
+      "contrast": "C2a_full_spec",
+      "filters": {
+        "condition": "C2a_full_spec",
+        "subjects": [
+          "hamerton",
+          "sunity_devee",
+          "ebers",
+          "fukuzawa",
+          "bernal_diaz",
+          "babur",
+          "seacole",
+          "keckley",
+          "yung_wing"
+        ]
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null,
+      "aggregation_rule": "Pearson r on (length, score) pairs",
+      "source": "9 low-baseline subjects' results_v2.json + judgments_v2.json"
+    },
+    "3_7_6_length_corr_C4": {
+      "value": 0.00875877983959299,
+      "estimand": "Pearson r between response length and 5-judge primary score (condition=C4_factdump)",
+      "contrast": "C4_factdump",
+      "filters": {
+        "condition": "C4_factdump",
+        "subjects": [
+          "hamerton",
+          "sunity_devee",
+          "ebers",
+          "fukuzawa",
+          "bernal_diaz",
+          "babur",
+          "seacole",
+          "keckley",
+          "yung_wing"
+        ]
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null,
+      "aggregation_rule": "Pearson r on (length, score) pairs",
+      "source": "9 low-baseline subjects' results_v2.json + judgments_v2.json"
+    },
+    "3_7_6_length_corr_C4a": {
+      "value": -0.012711007432566312,
+      "estimand": "Pearson r between response length and 5-judge primary score (condition=C4a_full_facts_plus_spec)",
+      "contrast": "C4a_full_facts_plus_spec",
+      "filters": {
+        "condition": "C4a_full_facts_plus_spec",
+        "subjects": [
+          "hamerton",
+          "sunity_devee",
+          "ebers",
+          "fukuzawa",
+          "bernal_diaz",
+          "babur",
+          "seacole",
+          "keckley",
+          "yung_wing"
+        ]
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null,
+      "aggregation_rule": "Pearson r on (length, score) pairs",
+      "source": "9 low-baseline subjects' results_v2.json + judgments_v2.json"
+    },
+    "3_7_6_abstention_n_total": {
+      "value": 192,
+      "estimand": "Number of abstention-pattern responses in low-baseline slice",
+      "contrast": "abstention regex matches",
+      "filters": {
+        "subjects": [
+          "hamerton",
+          "sunity_devee",
+          "ebers",
+          "fukuzawa",
+          "bernal_diaz",
+          "babur",
+          "seacole",
+          "keckley",
+          "yung_wing"
+        ]
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null,
+      "aggregation_rule": "count of rows where is_abstention=True",
+      "source": "9 low-baseline subjects' results_v2.json"
+    },
+    "3_7_6_abstention_pct_below_2": {
+      "value": 82.8125,
+      "estimand": "Percent of abstention rows scoring in the 1.0-1.5 band on 5-judge primary",
+      "contrast": "abstention rows, score < 1.5",
+      "filters": {
+        "subjects": [
+          "hamerton",
+          "sunity_devee",
+          "ebers",
+          "fukuzawa",
+          "bernal_diaz",
+          "babur",
+          "seacole",
+          "keckley",
+          "yung_wing"
+        ],
+        "abstention": true
+      },
+      "n": 192,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null,
+      "aggregation_rule": "100 * count(score < 1.5) / count(abstention)",
+      "source": "9 low-baseline subjects' results_v2.json + judgments",
+      "note": "Paper \u00a73.7.6 quotes 82.8% in the '1.0-1.5 band' which corresponds to score < 1.5, not score < 2.0."
+    },
+    "3_7_6_abstention_pct_above_2": {
+      "value": 9.375,
+      "estimand": "Percent of abstention rows scoring >= 2.0",
+      "contrast": "abstention rows, score >= 2.0",
+      "filters": {
+        "subjects": [
+          "hamerton",
+          "sunity_devee",
+          "ebers",
+          "fukuzawa",
+          "bernal_diaz",
+          "babur",
+          "seacole",
+          "keckley",
+          "yung_wing"
+        ],
+        "abstention": true
+      },
+      "n": 192,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null,
+      "aggregation_rule": "100 * count(score >= 2.0) / count(abstention)",
+      "source": "9 low-baseline subjects' results_v2.json + judgments"
+    },
+    "3_7_6_abstention_pct_above_3": {
+      "value": 3.125,
+      "estimand": "Percent of abstention rows scoring >= 3.0",
+      "contrast": "abstention rows, score >= 3.0",
+      "filters": {
+        "subjects": [
+          "hamerton",
+          "sunity_devee",
+          "ebers",
+          "fukuzawa",
+          "bernal_diaz",
+          "babur",
+          "seacole",
+          "keckley",
+          "yung_wing"
+        ],
+        "abstention": true
+      },
+      "n": 192,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null,
+      "aggregation_rule": "100 * count(score >= 3.0) / count(abstention)",
+      "source": "9 low-baseline subjects' results_v2.json + judgments"
+    },
+    "3_7_6_abstention_mean_score": {
+      "value": 1.2697916666666667,
+      "estimand": "Mean 5-judge primary score on abstention-pattern responses",
+      "contrast": "abstention rows",
+      "filters": {
+        "subjects": [
+          "hamerton",
+          "sunity_devee",
+          "ebers",
+          "fukuzawa",
+          "bernal_diaz",
+          "babur",
+          "seacole",
+          "keckley",
+          "yung_wing"
+        ],
+        "abstention": true
+      },
+      "n": 192,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null,
+      "aggregation_rule": "mean(primary_mean) over abstention rows",
+      "source": "9 low-baseline subjects' results_v2.json + judgments"
+    },
+    "3_7_6_high_score_chars_avg": {
+      "value": 2790.090909090909,
+      "estimand": "Mean response length (chars) for ultra-high-scoring responses (>=4.5)",
+      "contrast": "score >= 4.5",
+      "filters": {
+        "subjects": [
+          "hamerton",
+          "sunity_devee",
+          "ebers",
+          "fukuzawa",
+          "bernal_diaz",
+          "babur",
+          "seacole",
+          "keckley",
+          "yung_wing"
+        ],
+        "score_min": 4.5
+      },
+      "n": 11,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null,
+      "aggregation_rule": null,
+      "source": "9 low-baseline subjects' results_v2.json + judgments"
+    },
+    "3_7_6_mid_score_chars_avg": {
+      "value": 2829.4,
+      "estimand": "Mean response length (chars) for mid-range-scoring responses (2.5-3.5)",
+      "contrast": "2.5 <= score < 3.5",
+      "filters": {
+        "subjects": [
+          "hamerton",
+          "sunity_devee",
+          "ebers",
+          "fukuzawa",
+          "bernal_diaz",
+          "babur",
+          "seacole",
+          "keckley",
+          "yung_wing"
+        ],
+        "score_min": 2.5,
+        "score_max": 3.5
+      },
+      "n": 255,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null,
+      "aggregation_rule": null,
+      "source": "9 low-baseline subjects' results_v2.json + judgments"
+    },
+    "3_4_battery_leakage_n_total": {
+      "value": 586,
+      "estimand": "Total behavioral-prediction questions across 15 batteries",
+      "contrast": "all subjects",
+      "filters": {},
+      "n": 586,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null,
+      "aggregation_rule": null,
+      "source": "scripts/_battery_leakage_results.json"
+    },
+    "3_4_battery_leakage_n_leaks": {
+      "value": 2,
+      "estimand": "Behavioral-prediction questions with verbatim 7-gram overlap to held-out passages",
+      "contrast": "aggregate (15 subjects)",
+      "filters": {},
+      "n": 586,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null,
+      "aggregation_rule": null,
+      "source": "scripts/_battery_leakage_results.json"
+    },
+    "3_4_battery_leakage_pct_aggregate": {
+      "value": 0.3412969283276451,
+      "estimand": "Percent of all BP questions that leak (15 subjects, including Franklin)",
+      "contrast": null,
+      "filters": {},
+      "n": 586,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null,
+      "aggregation_rule": "100 * leaks / total",
+      "source": "scripts/_battery_leakage_results.json"
+    },
+    "3_4_battery_leakage_pct_main_study": {
+      "value": 0.0,
+      "estimand": "Percent of BP questions that leak in 14 main-study subjects (Franklin excluded)",
+      "contrast": "main-study only",
+      "filters": {},
+      "n": 546,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null,
+      "aggregation_rule": "100 * main_leaks / main_total",
+      "source": "scripts/_battery_leakage_results.json"
+    },
+    "3_2_franklin_C5_5judge": {
+      "value": 3.77,
+      "estimand": "Franklin C5 (no-context baseline) on 5-judge primary panel",
+      "contrast": "C5_baseline",
+      "filters": {
+        "subject": "franklin",
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "condition": "C5_baseline"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null,
+      "aggregation_rule": "5-judge primary panel mean (per-judge per-question -> per-judge mean -> panel mean)",
+      "source": "results/franklin_legacy_20260411/analysis/{haiku,sonnet,opus,gpt4o,gpt54}_judgments.json"
+    },
+    "3_2_franklin_C5_haiku_only": {
+      "value": 4.1,
+      "estimand": "Franklin C5 baseline as scored by Haiku alone",
+      "contrast": "single-judge",
+      "filters": {
+        "subject": "franklin",
+        "judge": "haiku",
+        "condition": "C5_baseline"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null,
+      "aggregation_rule": "mean of haiku_score across all C5 questions",
+      "source": "results/franklin_legacy_20260411/analysis/haiku_judgments.json"
+    },
+    "3_2_franklin_C2a_5judge": {
+      "value": 3.37,
+      "estimand": "Franklin C2a (spec only) on 5-judge primary panel",
+      "contrast": "C2a_full_spec",
+      "filters": {
+        "subject": "franklin",
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "condition": "C2a_full_spec"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null,
+      "aggregation_rule": "5-judge primary panel mean",
+      "source": "results/franklin_legacy_20260411/analysis/"
+    },
+    "3_2_franklin_C4a_5judge": {
+      "value": 3.645,
+      "estimand": "Franklin C4a (facts + spec) on 5-judge primary panel",
+      "contrast": "C4a_full_facts_plus_spec",
+      "filters": {
+        "subject": "franklin",
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "condition": "C4a_full_facts_plus_spec"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null,
+      "aggregation_rule": "5-judge primary panel mean",
+      "source": "results/franklin_legacy_20260411/analysis/"
+    },
+    "3_2_franklin_C5_7judge_min": {
+      "value": 3.475,
+      "estimand": "Min per-judge mean on Franklin C5 across all available judges (sensitivity)",
+      "contrast": "C5_baseline, judge-level",
+      "filters": {
+        "subject": "franklin",
+        "condition": "C5_baseline",
+        "judges": [
+          "gemini",
+          "gpt4o",
+          "gpt54",
+          "haiku",
+          "opus",
+          "sonnet"
+        ]
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null,
+      "aggregation_rule": "min across {haiku, sonnet, opus, gpt4o, gpt54, gemini} per-judge C5 means",
+      "source": "results/franklin_legacy_20260411/analysis/",
+      "note": "Legacy Franklin run pre-dates the gemini_flash/gemini_pro split; only one Gemini judge is present in legacy data. Range is min/max of per-judge means rather than 5-judge / 7-judge panel means because Franklin is a high-baseline reference, not a main-study subject."
+    },
+    "3_2_franklin_C5_7judge_max": {
+      "value": 4.275,
+      "estimand": "Max per-judge mean on Franklin C5 across all available judges (sensitivity)",
+      "contrast": "C5_baseline, judge-level",
+      "filters": {
+        "subject": "franklin",
+        "condition": "C5_baseline",
+        "judges": [
+          "gemini",
+          "gpt4o",
+          "gpt54",
+          "haiku",
+          "opus",
+          "sonnet"
+        ]
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null,
+      "aggregation_rule": "max across per-judge C5 means",
+      "source": "results/franklin_legacy_20260411/analysis/",
+      "note": "Same as min note above."
+    }
+  },
+  "auxiliary": {
+    "calibration_means": {
+      "haiku|verbatim": 5.0,
+      "gemini_flash|verbatim": 5.0,
+      "haiku|paraphrased": 4.75,
+      "gemini_flash|paraphrased": 4.7,
+      "haiku|short_correct": 3.8,
+      "gemini_flash|short_correct": 3.85,
+      "haiku|long_correct": 5.0,
+      "gemini_flash|long_correct": 3.8,
+      "gpt4o|verbatim": 5.0,
+      "gpt4o|paraphrased": 5.0,
+      "gpt4o|short_correct": 4.05,
+      "gpt4o|long_correct": 3.35,
+      "gpt54|verbatim": 5.0,
+      "gpt54|paraphrased": 5.0,
+      "gpt54|short_correct": 4.2,
+      "gpt54|long_correct": 4.8,
+      "gemini_pro|verbatim": 4.15,
+      "gemini_pro|paraphrased": 3.55,
+      "gemini_pro|short_correct": 2.85,
+      "gemini_pro|long_correct": 1.2
+    },
+    "inter_judge": {
+      "spearman_5judge_pairs": {
+        "gpt4o|gpt54": 0.924571123565905,
+        "gpt4o|haiku": 0.9134555968557484,
+        "gpt4o|opus": 0.9075483839546636,
+        "gpt4o|sonnet": 0.8766176285768048,
+        "gpt54|haiku": 0.8923643808549531,
+        "gpt54|opus": 0.9137223745926274,
+        "gpt54|sonnet": 0.8988106850016226,
+        "haiku|opus": 0.8659775592818466,
+        "haiku|sonnet": 0.8577314149265374,
+        "opus|sonnet": 0.9323909376706049
+      },
+      "spearman_7judge_pairs": {
+        "gemini_flash|gemini_pro": 0.5882353882105062,
+        "gemini_flash|gpt4o": 0.8671151095427613,
+        "gemini_flash|gpt54": 0.830649057802909,
+        "gemini_flash|haiku": 0.8353645299611415,
+        "gemini_flash|opus": 0.7769948523970373,
+        "gemini_flash|sonnet": 0.7524621278671496,
+        "gemini_pro|gpt4o": 0.46253904112868766,
+        "gemini_pro|gpt54": 0.3558698869406518,
+        "gemini_pro|haiku": 0.36492222110766365,
+        "gemini_pro|opus": 0.2936350895424456,
+        "gemini_pro|sonnet": 0.3105204116611231,
+        "gpt4o|gpt54": 0.924571123565905,
+        "gpt4o|haiku": 0.9134555968557484,
+        "gpt4o|opus": 0.9075483839546636,
+        "gpt4o|sonnet": 0.8766176285768048,
+        "gpt54|haiku": 0.8923643808549531,
+        "gpt54|opus": 0.9137223745926274,
+        "gpt54|sonnet": 0.8988106850016226,
+        "haiku|opus": 0.8659775592818466,
+        "haiku|sonnet": 0.8577314149265374,
+        "opus|sonnet": 0.9323909376706049
+      },
+      "spearman_5judge_min": 0.8577314149265374,
+      "spearman_5judge_max": 0.9323909376706049,
+      "spearman_5judge_n_pairs": 10,
+      "spearman_7judge_min": 0.2936350895424456,
+      "spearman_7judge_max": 0.9323909376706049,
+      "spearman_7judge_n_pairs": 21,
+      "krippendorff_alpha_5judge": 0.6542828539695811,
+      "krippendorff_alpha_7judge": 0.5220570282774706,
+      "krippendorff_n_units_5judge": 2730,
+      "krippendorff_n_units_7judge": 2730,
+      "krippendorff_scale": "interval"
+    },
+    "audit_metrics": {
+      "n_responses_total": 1599,
+      "n_abstention_total": 192,
+      "abstention_pct_below_2": 82.8125,
+      "abstention_pct_above_2": 9.375,
+      "abstention_pct_above_3": 3.125,
+      "abstention_mean_score": 1.2697916666666667,
+      "length_corr_overall": 0.2563526429329268,
+      "length_corr_by_condition": {
+        "C5_baseline": 0.6037361058307619,
+        "C2a_full_spec": 0.1440247645397736,
+        "C4_factdump": 0.00875877983959299,
+        "C4a_full_facts_plus_spec": -0.012711007432566312
+      },
+      "per_judge_strictness_on_abstentions": {
+        "haiku": 1.2864583333333333,
+        "sonnet": 1.140625,
+        "opus": 1.4114583333333333,
+        "gpt4o": 1.34375,
+        "gpt54": 1.1666666666666667
+      },
+      "n_ultra_high": 11,
+      "n_mid_range": 255,
+      "high_score_chars_avg": 2790.090909090909,
+      "mid_score_chars_avg": 2829.4
+    },
+    "battery_leakage": {
+      "n_total": 586,
+      "n_leaks": 2,
+      "pct_aggregate": 0.3412969283276451,
+      "pct_main_study": 0.0,
+      "main_study_n": 546,
+      "main_study_n_leaks": 0
+    },
+    "franklin": {
+      "panel5_means": {
+        "C5_baseline": 3.77,
+        "C2a_full_spec": 3.37,
+        "C4a_full_facts_plus_spec": 3.645,
+        "C4_factdump": null,
+        "C2c_wrong_spec": null
+      },
+      "per_judge_C5_means": {
+        "haiku": 4.1,
+        "sonnet": 3.7,
+        "opus": 3.9,
+        "gpt4o": 3.475,
+        "gpt54": 3.675,
+        "gemini": 4.275
+      },
+      "judges_present": [
+        "gemini",
+        "gpt4o",
+        "gpt54",
+        "haiku",
+        "opus",
+        "sonnet"
+      ]
+    }
+  },
+  "provenance": {
+    "script": "scripts/_v11_emit_3_study_design.py",
+    "script_version": "v11.0.0",
+    "run_timestamp": "2026-04-25",
+    "input_manifest": [
+      {
+        "path": "results/judge_calibration/judgments.json",
+        "sha256": "5e8d2769f33058275d20667f6b883442a7a54b07cbd80d30089761b14374264f",
+        "size_bytes": 7123,
+        "n_records": null
+      },
+      {
+        "path": "results/judge_calibration/gpt4o_calibration.json",
+        "sha256": "cd15e212b515107e858dba722fef93115020f6b224eb81df1ef1a87765b6fb47",
+        "size_bytes": 6163,
+        "n_records": null
+      },
+      {
+        "path": "results/judge_calibration/gpt54_calibration.json",
+        "sha256": "e3cf13c80622999be62c8394884991f104bc69d40e917dd2739dbcdefa546e83",
+        "size_bytes": 6163,
+        "n_records": null
+      },
+      {
+        "path": "results/judge_calibration/gemini_pro_calibration.json",
+        "sha256": "042d179e4a1344b2caf332cc8b2628b561081edb1c2e73e4402d91efbe6b78bf",
+        "size_bytes": 6563,
+        "n_records": null
+      },
+      {
+        "path": "results/hamerton/judgments_harmonized.json",
+        "sha256": "9e21940dee6519f4df3f910a7f647e6375702a1912e17274b689b62d54a815db",
+        "size_bytes": 90825,
+        "n_records": null
+      },
+      {
+        "path": "results/hamerton/judgments.json",
+        "sha256": "7f66bd99cc032ba565d2750f5d6a9b4b1925c003fc33990190e9a5b453f577fd",
+        "size_bytes": 23637,
+        "n_records": null
+      },
+      {
+        "path": "results/hamerton/gpt54_judgments.json",
+        "sha256": "d3b8facd5140745826a4e442a09af69f901e2c2a2ae9f1de2fe96835aa34c03c",
+        "size_bytes": 18957,
+        "n_records": null
+      },
+      {
+        "path": "results/hamerton/gemini_pro_judgments.json",
+        "sha256": "860562990b97342ff33fe910aa0670ae33f2c5649c76137051fd61a1d09c06a9",
+        "size_bytes": 19932,
+        "n_records": null
+      },
+      {
+        "path": "results/hamerton/sonnet_judgments.json",
+        "sha256": "7173405a2b2ef9040db638e32af3bc39d31d689c614f81f32a222daa9e806c06",
+        "size_bytes": 33192,
+        "n_records": null
+      },
+      {
+        "path": "results/hamerton/opus_judgments.json",
+        "sha256": "c78fad0d3e5e80869d4d17b9a97ade50b9b56d69f8276402b474d99d85f5037a",
+        "size_bytes": 32802,
+        "n_records": null
+      },
+      {
+        "path": "results/hamerton/gpt4o_judgments.json",
+        "sha256": "08552f33207ecd67d6f5dfce94e4339944c28efef5008a4a09c4fe5a7c66c58c",
+        "size_bytes": 32997,
+        "n_records": null
+      },
+      {
+        "path": "results/global_sunity_devee/judgments_v2.json",
+        "sha256": "324b0f6a2b660a0ab4a64276bc8c410129520a03ff6ac26173f7251492456874",
+        "size_bytes": 164429,
+        "n_records": null
+      },
+      {
+        "path": "results/global_ebers/judgments_v2.json",
+        "sha256": "23a19e78ceff071a3ee98d88f3ad63885d03425036d2b29af6533a7d5d9a69c3",
+        "size_bytes": 164430,
+        "n_records": null
+      },
+      {
+        "path": "results/global_fukuzawa/judgments_v2.json",
+        "sha256": "6ea16c1f837d2d57cc81fbebcf94440e204c58aff7dd1d5c6cdff60a99db0f28",
+        "size_bytes": 164430,
+        "n_records": null
+      },
+      {
+        "path": "results/global_seacole/judgments_v2.json",
+        "sha256": "fac1a8fbf013b6f6791ac58ac63f3773ca189cde4ca744b1aa4375d90065c0ce",
+        "size_bytes": 164429,
+        "n_records": null
+      },
+      {
+        "path": "results/global_bernal_diaz/judgments_v2.json",
+        "sha256": "0945e052f47df211379bcccd1092208e26a0b3aab97bc654bb48dc059c025ebb",
+        "size_bytes": 176565,
+        "n_records": null
+      },
+      {
+        "path": "results/global_keckley/judgments_v2.json",
+        "sha256": "7fbad07d6484609d17af2579ba9085fd40fe74d7a63ba2d939f7c23c3225d8c2",
+        "size_bytes": 164430,
+        "n_records": null
+      },
+      {
+        "path": "results/global_yung_wing/judgments_v2.json",
+        "sha256": "1850d4a0452ff50b9f71e49622dc41ca8a205d74b6ec1b2dbdf69efb4b6066b9",
+        "size_bytes": 164430,
+        "n_records": null
+      },
+      {
+        "path": "results/global_babur/judgments_v2.json",
+        "sha256": "47c354a6d015d41ab41eeff9b7cdfd07e291b1a6d9cf455a910d7569a3739121",
+        "size_bytes": 190014,
+        "n_records": null
+      },
+      {
+        "path": "results/global_cellini/judgments_v2.json",
+        "sha256": "797680841bef9dff2582867246c8590ee825feb1b0bacaaa495d25181ad6b0be",
+        "size_bytes": 164430,
+        "n_records": null
+      },
+      {
+        "path": "results/global_zitkala_sa/judgments_v2.json",
+        "sha256": "fc2ef120d96e12e5733e18328b8a6e92e23f12840d3b41e3b9fd89a593ada348",
+        "size_bytes": 164430,
+        "n_records": null
+      },
+      {
+        "path": "results/global_rousseau/judgments_v2.json",
+        "sha256": "55a0fb40ec928faa3579d6188f9d509e6c9af1546e6916f943aea9ee13361a7d",
+        "size_bytes": 164430,
+        "n_records": null
+      },
+      {
+        "path": "results/global_augustine/judgments_v2.json",
+        "sha256": "eab6ba6b19d80ee48289c3511273ec77a3b34880aa55f1133ba9ce18dfa515b6",
+        "size_bytes": 190734,
+        "n_records": null
+      },
+      {
+        "path": "results/global_equiano/judgments_v2.json",
+        "sha256": "ff59513f0815de7ebf5057e4919529cd2225c1b896a21a030f0d1ff10b229d9a",
+        "size_bytes": 164430,
+        "n_records": null
+      },
+      {
+        "path": "results/hamerton/results.json",
+        "sha256": "cab55d2208464506125c05ca60925f1cddf98fb2f9ce02880b72465fa8e890d8",
+        "size_bytes": 1289950,
+        "n_records": null
+      },
+      {
+        "path": "results/global_sunity_devee/results_v2.json",
+        "sha256": "784d504727a85f89b0dbd5d893060ba5de887410d480f585ae5bf713cfd3d3d1",
+        "size_bytes": 469626,
+        "n_records": null
+      },
+      {
+        "path": "results/global_ebers/results_v2.json",
+        "sha256": "f2c35aa6311d019a8b9986be9664af8fcde3acf7a08b07200607d7674e83495b",
+        "size_bytes": 497535,
+        "n_records": null
+      },
+      {
+        "path": "results/global_fukuzawa/results_v2.json",
+        "sha256": "48b121ccc0002a5eec4821427a0854c6bfa08aa2c0e351677741f0e4c3d9e564",
+        "size_bytes": 557453,
+        "n_records": null
+      },
+      {
+        "path": "results/global_bernal_diaz/results_v2.json",
+        "sha256": "759f25562f508b986828d0e3e7212b17ddde537ca5b95bbdb9a2d1bcded760d8",
+        "size_bytes": 593719,
+        "n_records": null
+      },
+      {
+        "path": "results/global_babur/results_v2.json",
+        "sha256": "eb661ef1364ed369a5051aac8887528be111f227262d82e165c1dcd0550901ea",
+        "size_bytes": 561616,
+        "n_records": null
+      },
+      {
+        "path": "results/global_seacole/results_v2.json",
+        "sha256": "ff400ad43220e450a0ca4780fcd17aa49847ea9040817dd60ab18240ddfc227c",
+        "size_bytes": 463700,
+        "n_records": null
+      },
+      {
+        "path": "results/global_keckley/results_v2.json",
+        "sha256": "161fcaaa4410d24cf99f852ccf9efb2898c328d25d244016c7b7a85cc79d4656",
+        "size_bytes": 529678,
+        "n_records": null
+      },
+      {
+        "path": "results/global_yung_wing/results_v2.json",
+        "sha256": "d248e90d953e3e257b7d39c8a843916f3bca4e2b209e4ccdb6045a614ae6e98a",
+        "size_bytes": 611079,
+        "n_records": null
+      },
+      {
+        "path": "scripts/_battery_leakage_results.json",
+        "sha256": "ac7b9502f0b472841f8ab6927e547cb01762426ae22681362f017a05640cd8ad",
+        "size_bytes": 14827,
+        "n_records": null
+      },
+      {
+        "path": "results/franklin_legacy_20260411/analysis/haiku_judgments.json",
+        "sha256": "b508b57ad2928d17663e7d4a141dbef2d49127d6563eb2c1b279083377fe98c5",
+        "size_bytes": 32883,
+        "n_records": null
+      },
+      {
+        "path": "results/franklin_legacy_20260411/analysis/sonnet_judgments.json",
+        "sha256": "47905a5dedf77689a5187c601ce7f3d8106b656d2cc3ffcb59e11d9352c90725",
+        "size_bytes": 33243,
+        "n_records": null
+      },
+      {
+        "path": "results/franklin_legacy_20260411/analysis/opus_judgments.json",
+        "sha256": "cdc5afdd8377ad4cb12392415f2a2ce679ff5a1e6823e98d4aa728b72de81e10",
+        "size_bytes": 32523,
+        "n_records": null
+      },
+      {
+        "path": "results/franklin_legacy_20260411/analysis/gpt4o_judgments.json",
+        "sha256": "29a2b6572e8b68c548ae304199b2323b781222d2d6b50a2dbb75d034ac876f6c",
+        "size_bytes": 11323,
+        "n_records": null
+      },
+      {
+        "path": "results/franklin_legacy_20260411/analysis/gpt54_judgments.json",
+        "sha256": "b0043d7d300da5191b3ddb337efe86e691ce37fe51a71f5cc59540eb3d63ef7c",
+        "size_bytes": 11323,
+        "n_records": null
+      },
+      {
+        "path": "results/franklin_legacy_20260411/analysis/gemini_judgments.json",
+        "sha256": "6ab9b933afb960f0e5044760d57ce48e90f062033a2a5f39e1706908d0392afd",
+        "size_bytes": 33243,
+        "n_records": null
+      }
+    ]
+  }
+}

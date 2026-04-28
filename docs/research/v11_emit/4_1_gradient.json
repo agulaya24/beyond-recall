@@ -1,0 +1,267 @@
+{
+  "schema_version": "v11.0",
+  "aggregation": "5-judge primary; per-judge per-question -> per-judge per-subject mean -> panel mean",
+  "panel": [
+    "haiku",
+    "sonnet",
+    "opus",
+    "gpt4o",
+    "gpt54"
+  ],
+  "subjects": [
+    {
+      "id": "ebers",
+      "display_name": "Ebers",
+      "C5": 1.0205128205128204,
+      "C2a": 1.5384615384615385,
+      "C2c": 1.317948717948718,
+      "C4": 2.0205128205128204,
+      "C4a": 2.071794871794872,
+      "delta_C4a": 1.0512820512820515,
+      "C4a_minus_C5": 1.0512820512820515
+    },
+    {
+      "id": "sunity_devee",
+      "display_name": "Sunity Devee",
+      "C5": 1.0256410256410255,
+      "C2a": 2.2666666666666666,
+      "C2c": 1.2923076923076924,
+      "C4": 2.4615384615384617,
+      "C4a": 2.41025641025641,
+      "delta_C4a": 1.3846153846153846,
+      "C4a_minus_C5": 1.3846153846153846
+    },
+    {
+      "id": "hamerton",
+      "display_name": "Hamerton",
+      "C5": 1.2564102564102564,
+      "C2a": 2.6307692307692307,
+      "C2c": 1.4512820512820512,
+      "C4": 2.4256410256410255,
+      "C4a": 2.769230769230769,
+      "delta_C4a": 1.5128205128205128,
+      "C4a_minus_C5": 1.5128205128205128
+    },
+    {
+      "id": "fukuzawa",
+      "display_name": "Fukuzawa",
+      "C5": 1.6717948717948719,
+      "C2a": 2.353846153846154,
+      "C2c": 1.9333333333333333,
+      "C4": 2.6717948717948716,
+      "C4a": 2.7794871794871794,
+      "delta_C4a": 1.1076923076923075,
+      "C4a_minus_C5": 1.1076923076923075
+    },
+    {
+      "id": "bernal_diaz",
+      "display_name": "Bernal Diaz",
+      "C5": 1.6974358974358974,
+      "C2a": 2.2666666666666666,
+      "C2c": 1.7897435897435898,
+      "C4": 2.41025641025641,
+      "C4a": 2.482051282051282,
+      "delta_C4a": 0.7846153846153847,
+      "C4a_minus_C5": 0.7846153846153847
+    },
+    {
+      "id": "babur",
+      "display_name": "Babur",
+      "C5": 1.758974358974359,
+      "C2a": 1.9076923076923078,
+      "C2c": 1.1692307692307693,
+      "C4": 2.0307692307692307,
+      "C4a": 2.01025641025641,
+      "delta_C4a": 0.2512820512820513,
+      "C4a_minus_C5": 0.2512820512820513
+    },
+    {
+      "id": "seacole",
+      "display_name": "Seacole",
+      "C5": 1.7743589743589743,
+      "C2a": 2.482051282051282,
+      "C2c": 1.4307692307692308,
+      "C4": 2.6256410256410256,
+      "C4a": 2.594871794871795,
+      "delta_C4a": 0.8205128205128207,
+      "C4a_minus_C5": 0.8205128205128207
+    },
+    {
+      "id": "keckley",
+      "display_name": "Keckley",
+      "C5": 1.8410256410256411,
+      "C2a": 2.4256410256410255,
+      "C2c": 1.353846153846154,
+      "C4": 2.3897435897435897,
+      "C4a": 2.435897435897436,
+      "delta_C4a": 0.594871794871795,
+      "C4a_minus_C5": 0.594871794871795
+    },
+    {
+      "id": "yung_wing",
+      "display_name": "Yung Wing",
+      "C5": 1.876923076923077,
+      "C2a": 2.2153846153846155,
+      "C2c": 2.2,
+      "C4": 2.128205128205128,
+      "C4a": 2.4,
+      "delta_C4a": 0.523076923076923,
+      "C4a_minus_C5": 0.523076923076923
+    },
+    {
+      "id": "zitkala_sa",
+      "display_name": "Zitkala-Sa",
+      "C5": 2.3384615384615386,
+      "C2a": 2.0307692307692307,
+      "C2c": 1.6615384615384616,
+      "C4": 2.1025641025641026,
+      "C4a": 2.0205128205128204,
+      "delta_C4a": -0.31794871794871815,
+      "C4a_minus_C5": -0.31794871794871815
+    },
+    {
+      "id": "cellini",
+      "display_name": "Cellini",
+      "C5": 2.3794871794871795,
+      "C2a": 2.5435897435897434,
+      "C2c": 1.8153846153846154,
+      "C4": 2.4205128205128204,
+      "C4a": 2.528205128205128,
+      "delta_C4a": 0.14871794871794863,
+      "C4a_minus_C5": 0.14871794871794863
+    },
+    {
+      "id": "rousseau",
+      "display_name": "Rousseau",
+      "C5": 2.435897435897436,
+      "C2a": 2.8102564102564105,
+      "C2c": 1.9128205128205127,
+      "C4": 2.3230769230769233,
+      "C4a": 2.533333333333333,
+      "delta_C4a": 0.09743589743589709,
+      "C4a_minus_C5": 0.09743589743589709
+    },
+    {
+      "id": "augustine",
+      "display_name": "Augustine",
+      "C5": 2.5846153846153848,
+      "C2a": 2.476923076923077,
+      "C2c": 2.112820512820513,
+      "C4": 2.558974358974359,
+      "C4a": 2.6974358974358976,
+      "delta_C4a": 0.11282051282051286,
+      "C4a_minus_C5": 0.11282051282051286
+    },
+    {
+      "id": "equiano",
+      "display_name": "Equiano",
+      "C5": 2.769230769230769,
+      "C2a": 2.4564102564102566,
+      "C2c": 1.9743589743589745,
+      "C4": 2.4307692307692306,
+      "C4a": 2.4205128205128204,
+      "delta_C4a": -0.3487179487179488,
+      "C4a_minus_C5": -0.3487179487179488
+    },
+    {
+      "id": "franklin",
+      "display_name": "Franklin",
+      "C5": 3.77,
+      "C2a": 3.37,
+      "C2c": null,
+      "C4": null,
+      "C4a": 3.645,
+      "delta_C4a": -0.125,
+      "C4a_minus_C5": -0.125
+    }
+  ],
+  "summary": {
+    "n_subjects_total": 14,
+    "low_baseline_subjects": [
+      "ebers",
+      "sunity_devee",
+      "hamerton",
+      "fukuzawa",
+      "bernal_diaz",
+      "babur",
+      "seacole",
+      "keckley",
+      "yung_wing"
+    ],
+    "low_baseline_n": 9,
+    "low_baseline_mean_delta_C4a": 0.8923076923076924,
+    "low_baseline_mean_C4a": 2.4393162393162395,
+    "low_baseline_n_positive": 9,
+    "all14_mean_delta_C4a": 0.5516483516483516,
+    "all14_mean_C4a": 2.4395604395604398,
+    "all14_n_positive": 12,
+    "regression_delta_on_C5": {
+      "slope": -0.9596963075760359,
+      "intercept": 2.363470611445747,
+      "ci95_low": -1.2447068039307208,
+      "ci95_high": -0.674685811221351,
+      "r_squared": 0.8176990428460383,
+      "r": -0.904267130247494,
+      "p_value": 9.016835865345737e-06,
+      "n": 14
+    },
+    "regression_C4a_level_on_C5": {
+      "slope": 0.04030369242396463,
+      "intercept": 2.3634706114457456,
+      "ci95_low": -0.24470680393072047,
+      "ci95_high": 0.32531418877864976,
+      "r_squared": 0.007848820867822815,
+      "r": 0.08859357125560982,
+      "p_value": 0.7632822973022092,
+      "n": 14
+    },
+    "wilcoxon_C5_vs_C4a": {
+      "W": 11.0,
+      "p": 0.0067138671875,
+      "n": 14
+    },
+    "wilcoxon_C5_vs_C2a": {
+      "W": 10.0,
+      "p": 0.0052490234375,
+      "n": 14
+    },
+    "franklin_high_baseline": {
+      "C5": 3.77,
+      "C2a": 3.37,
+      "C4a": 3.645,
+      "delta_C4a": -0.125
+    },
+    "franklin_partial_judges": {
+      "C2c_wrong_spec": [
+        "gpt4o",
+        "gpt54"
+      ],
+      "C4_factdump": [
+        "gpt4o",
+        "gpt54"
+      ]
+    }
+  },
+  "provenance": {
+    "primary_data_paths": [
+      "results/global_ebers/judgments_v2.json",
+      "results/global_sunity_devee/judgments_v2.json",
+      "results/hamerton/{judgments_harmonized,judgments,sonnet_judgments,opus_judgments,gpt4o_judgments,gpt54_judgments}.json",
+      "results/global_fukuzawa/judgments_v2.json",
+      "results/global_bernal_diaz/judgments_v2.json",
+      "results/global_babur/judgments_v2.json",
+      "results/global_seacole/judgments_v2.json",
+      "results/global_keckley/judgments_v2.json",
+      "results/global_yung_wing/judgments_v2.json",
+      "results/global_zitkala_sa/judgments_v2.json",
+      "results/global_cellini/judgments_v2.json",
+      "results/global_rousseau/judgments_v2.json",
+      "results/global_augustine/judgments_v2.json",
+      "results/global_equiano/judgments_v2.json",
+      "results/franklin_legacy_20260411/analysis/{haiku,sonnet,opus,gpt4o,gpt54}_judgments.json"
+    ],
+    "script": "scripts/_v11_emit_4_1_gradient.py",
+    "timestamp": "2026-04-25",
+    "expected_n_judgments": "main14: 5 conds x 5 judges x ~40 questions per subject; franklin: 3 conds (C5/C2a/C4a) x 5 judges x 40 + 2 conds (C4/C2c) x 3 judges x 40"
+  }
+}

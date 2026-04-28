@@ -1,0 +1,2933 @@
+{
+  "schema_version": "v11.0",
+  "section": "§4.2 + §4.2.1",
+  "aggregation_rule": "5-judge primary; per-judge per-question -> per-judge per-subject mean -> panel mean over AVAILABLE primary judges in {haiku, sonnet, opus, gpt4o, gpt54}. Matches scripts/recompute_5judge_primary.py (which produced the v10 paper table). Differs from §4.1's strict all-5-required rule: §4.2 tolerates missing primary judges because the C8/C9 supplemental runs lost some judges to provider rate-limiting (Bernal Diaz lost gpt4o + gpt54 on both C8 and C9 to OpenAI 429s; Babur C9 was excluded for context-window overflow). Per-question metrics (§4.2.1) require >=3 panel judges reporting per question and use the per-question panel mean. Subject-mean aggregates (§4.2 Table 4.2 mean row) average per-subject panel means across the 9 low-baseline subjects (8 for C9, Babur excluded).",
+  "claims": {
+    "4_2_hamerton_C2a": {
+      "value": 2.6307692307692307,
+      "estimand": "Hamerton C2a panel mean",
+      "contrast": "C2a vs C5",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "hamerton"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_hamerton_C8": {
+      "value": 2.2666666666666666,
+      "estimand": "Hamerton C8 panel mean",
+      "contrast": "C8 vs C5",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "hamerton"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_hamerton_C9": {
+      "value": 3.0871794871794873,
+      "estimand": "Hamerton C9 panel mean (None if Babur context-window exceeded)",
+      "contrast": "C9 vs C5",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "hamerton"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_hamerton_C4a": {
+      "value": 2.769230769230769,
+      "estimand": "Hamerton C4a panel mean",
+      "contrast": "C4a vs C5",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "hamerton"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_hamerton_spec_tokens": {
+      "value": 4478,
+      "estimand": "Hamerton specification token count (cl100k_base)",
+      "contrast": null,
+      "filters": {
+        "tokenizer": "cl100k_base"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_hamerton_corpus_tokens": {
+      "value": 32800,
+      "estimand": "Hamerton corpus token approximation (source words x 1.30 from v10 §3.2 = 25,231 x 1.30)",
+      "contrast": null,
+      "filters": {
+        "factor": 1.3,
+        "source": "v10 §3.2 corpus collection table"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_hamerton_C5": {
+      "value": 1.2564102564102564,
+      "estimand": "Hamerton C5 panel mean",
+      "contrast": "C5 baseline",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "hamerton"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_hamerton_C4": {
+      "value": 2.4256410256410255,
+      "estimand": "Hamerton C4 panel mean",
+      "contrast": "C4 vs C5",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "hamerton"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_hamerton_delta_C9_minus_C5": {
+      "value": 1.830769230769231,
+      "estimand": "Hamerton C9 - C5 panel-mean lift",
+      "contrast": "C9 vs C5",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "hamerton"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_hamerton_C8_minus_C2a": {
+      "value": -0.36410256410256414,
+      "estimand": "Hamerton C8 - C2a (corpus minus spec)",
+      "contrast": "C8 vs C2a",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "hamerton"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_hamerton_compression_ratio": {
+      "value": 7,
+      "estimand": "Hamerton corpus-to-spec compression ratio (rounded), corpus_tokens / spec_tokens",
+      "contrast": null,
+      "filters": {
+        "corpus_tokens": 32800,
+        "spec_tokens": 4478,
+        "source_words": 25231
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_hamerton_source_words": {
+      "value": 25231,
+      "estimand": "Hamerton source-corpus word count (locked, v10 §3.2)",
+      "contrast": null,
+      "filters": {
+        "source": "v10 §3.2 corpus collection table"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_sunity_devee_C5": {
+      "value": 1.0256410256410255,
+      "estimand": "Sunity Devee C5 panel mean",
+      "contrast": "C5 baseline",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "sunity_devee"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_sunity_devee_C2a": {
+      "value": 2.2666666666666666,
+      "estimand": "Sunity Devee C2a panel mean",
+      "contrast": "C2a vs C5",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "sunity_devee"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_sunity_devee_C4": {
+      "value": 2.4615384615384617,
+      "estimand": "Sunity Devee C4 panel mean",
+      "contrast": "C4 vs C5",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "sunity_devee"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_sunity_devee_C8": {
+      "value": 2.5538461538461537,
+      "estimand": "Sunity Devee C8 panel mean",
+      "contrast": "C8 vs C5",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "sunity_devee"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_sunity_devee_C4a": {
+      "value": 2.41025641025641,
+      "estimand": "Sunity Devee C4a panel mean",
+      "contrast": "C4a vs C5",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "sunity_devee"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_sunity_devee_C9": {
+      "value": 2.4615384615384617,
+      "estimand": "Sunity Devee C9 panel mean (None if Babur context-window exceeded)",
+      "contrast": "C9 vs C5",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "sunity_devee"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_sunity_devee_delta_C9_minus_C5": {
+      "value": 1.4358974358974361,
+      "estimand": "Sunity Devee C9 - C5 panel-mean lift",
+      "contrast": "C9 vs C5",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "sunity_devee"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_sunity_devee_C8_minus_C2a": {
+      "value": 0.28717948717948705,
+      "estimand": "Sunity Devee C8 - C2a (corpus minus spec)",
+      "contrast": "C8 vs C2a",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "sunity_devee"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_sunity_devee_compression_ratio": {
+      "value": 13,
+      "estimand": "Sunity Devee corpus-to-spec compression ratio (rounded), corpus_tokens / spec_tokens",
+      "contrast": null,
+      "filters": {
+        "corpus_tokens": 87593,
+        "spec_tokens": 6771,
+        "source_words": 67379
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_sunity_devee_source_words": {
+      "value": 67379,
+      "estimand": "Sunity Devee source-corpus word count (locked, v10 §3.2)",
+      "contrast": null,
+      "filters": {
+        "source": "v10 §3.2 corpus collection table"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_sunity_devee_spec_tokens": {
+      "value": 6771,
+      "estimand": "Sunity Devee specification token count (cl100k_base)",
+      "contrast": null,
+      "filters": {
+        "tokenizer": "cl100k_base"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_ebers_C5": {
+      "value": 1.0205128205128204,
+      "estimand": "Ebers C5 panel mean",
+      "contrast": "C5 baseline",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "ebers"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_ebers_C2a": {
+      "value": 1.5384615384615385,
+      "estimand": "Ebers C2a panel mean",
+      "contrast": "C2a vs C5",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "ebers"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_ebers_C4": {
+      "value": 2.0205128205128204,
+      "estimand": "Ebers C4 panel mean",
+      "contrast": "C4 vs C5",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "ebers"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_ebers_C8": {
+      "value": 2.184615384615385,
+      "estimand": "Ebers C8 panel mean",
+      "contrast": "C8 vs C5",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "ebers"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_ebers_C4a": {
+      "value": 2.071794871794872,
+      "estimand": "Ebers C4a panel mean",
+      "contrast": "C4a vs C5",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "ebers"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_ebers_C9": {
+      "value": 2.164102564102564,
+      "estimand": "Ebers C9 panel mean (None if Babur context-window exceeded)",
+      "contrast": "C9 vs C5",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "ebers"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_ebers_delta_C9_minus_C5": {
+      "value": 1.1435897435897435,
+      "estimand": "Ebers C9 - C5 panel-mean lift",
+      "contrast": "C9 vs C5",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "ebers"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_ebers_C8_minus_C2a": {
+      "value": 0.6461538461538463,
+      "estimand": "Ebers C8 - C2a panel-mean gap",
+      "contrast": "C8 vs C2a",
+      "filters": {
+        "subject": "ebers",
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ]
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_ebers_compression_ratio": {
+      "value": 17,
+      "estimand": "Ebers corpus-to-spec compression ratio (rounded), corpus_tokens / spec_tokens",
+      "contrast": null,
+      "filters": {
+        "corpus_tokens": 125026,
+        "spec_tokens": 7244,
+        "source_words": 96174
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_ebers_source_words": {
+      "value": 96174,
+      "estimand": "Ebers source-corpus word count (locked, v10 §3.2)",
+      "contrast": null,
+      "filters": {
+        "source": "v10 §3.2 corpus collection table"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_ebers_spec_tokens": {
+      "value": 7244,
+      "estimand": "Ebers specification token count (cl100k_base)",
+      "contrast": null,
+      "filters": {
+        "tokenizer": "cl100k_base"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_fukuzawa_C5": {
+      "value": 1.6717948717948719,
+      "estimand": "Fukuzawa C5 panel mean",
+      "contrast": "C5 baseline",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "fukuzawa"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_fukuzawa_C2a": {
+      "value": 2.353846153846154,
+      "estimand": "Fukuzawa C2a panel mean",
+      "contrast": "C2a vs C5",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "fukuzawa"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_fukuzawa_C4": {
+      "value": 2.6717948717948716,
+      "estimand": "Fukuzawa C4 panel mean",
+      "contrast": "C4 vs C5",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "fukuzawa"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_fukuzawa_C8": {
+      "value": 2.7384615384615385,
+      "estimand": "Fukuzawa C8 panel mean",
+      "contrast": "C8 vs C5",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "fukuzawa"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_fukuzawa_C4a": {
+      "value": 2.7794871794871794,
+      "estimand": "Fukuzawa C4a panel mean",
+      "contrast": "C4a vs C5",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "fukuzawa"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_fukuzawa_C9": {
+      "value": 2.7794871794871794,
+      "estimand": "Fukuzawa C9 panel mean (None if Babur context-window exceeded)",
+      "contrast": "C9 vs C5",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "fukuzawa"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_fukuzawa_delta_C9_minus_C5": {
+      "value": 1.1076923076923075,
+      "estimand": "Fukuzawa C9 - C5 panel-mean lift",
+      "contrast": "C9 vs C5",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "fukuzawa"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_fukuzawa_C8_minus_C2a": {
+      "value": 0.3846153846153846,
+      "estimand": "Fukuzawa C8 - C2a (corpus minus spec)",
+      "contrast": "C8 vs C2a",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "fukuzawa"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_fukuzawa_compression_ratio": {
+      "value": 26,
+      "estimand": "Fukuzawa corpus-to-spec compression ratio (rounded), corpus_tokens / spec_tokens",
+      "contrast": null,
+      "filters": {
+        "corpus_tokens": 180814,
+        "spec_tokens": 7086,
+        "source_words": 139088
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_fukuzawa_source_words": {
+      "value": 139088,
+      "estimand": "Fukuzawa source-corpus word count (locked, v10 §3.2)",
+      "contrast": null,
+      "filters": {
+        "source": "v10 §3.2 corpus collection table"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_fukuzawa_spec_tokens": {
+      "value": 7086,
+      "estimand": "Fukuzawa specification token count (cl100k_base)",
+      "contrast": null,
+      "filters": {
+        "tokenizer": "cl100k_base"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_bernal_diaz_C5": {
+      "value": 1.6974358974358974,
+      "estimand": "Bernal Diaz C5 panel mean",
+      "contrast": "C5 baseline",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "bernal_diaz"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_bernal_diaz_C2a": {
+      "value": 2.2666666666666666,
+      "estimand": "Bernal Diaz C2a panel mean",
+      "contrast": "C2a vs C5",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "bernal_diaz"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_bernal_diaz_C4": {
+      "value": 2.41025641025641,
+      "estimand": "Bernal Diaz C4 panel mean",
+      "contrast": "C4 vs C5",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "bernal_diaz"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_bernal_diaz_C8": {
+      "value": 2.5743589743589745,
+      "estimand": "Bernal Diaz C8 panel mean",
+      "contrast": "C8 vs C5",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "bernal_diaz"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_bernal_diaz_C4a": {
+      "value": 2.482051282051282,
+      "estimand": "Bernal Diaz C4a panel mean",
+      "contrast": "C4a vs C5",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "bernal_diaz"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_bernal_diaz_C9": {
+      "value": 2.5384615384615383,
+      "estimand": "Bernal Diaz C9 panel mean (None if Babur context-window exceeded)",
+      "contrast": "C9 vs C5",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "bernal_diaz"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_bernal_diaz_delta_C9_minus_C5": {
+      "value": 0.8410256410256409,
+      "estimand": "Bernal Diaz C9 - C5 panel-mean lift",
+      "contrast": "C9 vs C5",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "bernal_diaz"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_bernal_diaz_C8_minus_C2a": {
+      "value": 0.30769230769230793,
+      "estimand": "Bernal Diaz C8 - C2a (corpus minus spec)",
+      "contrast": "C8 vs C2a",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "bernal_diaz"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_bernal_diaz_compression_ratio": {
+      "value": 33,
+      "estimand": "Bernal Diaz corpus-to-spec compression ratio (rounded), corpus_tokens / spec_tokens",
+      "contrast": null,
+      "filters": {
+        "corpus_tokens": 243510,
+        "spec_tokens": 7349,
+        "source_words": 187315
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_bernal_diaz_source_words": {
+      "value": 187315,
+      "estimand": "Bernal Diaz source-corpus word count (locked, v10 §3.2)",
+      "contrast": null,
+      "filters": {
+        "source": "v10 §3.2 corpus collection table"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_bernal_diaz_spec_tokens": {
+      "value": 7349,
+      "estimand": "Bernal Diaz specification token count (cl100k_base)",
+      "contrast": null,
+      "filters": {
+        "tokenizer": "cl100k_base"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_babur_C5": {
+      "value": 1.758974358974359,
+      "estimand": "Babur C5 panel mean",
+      "contrast": "C5 baseline",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "babur"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_babur_C2a": {
+      "value": 1.9076923076923078,
+      "estimand": "Babur C2a panel mean",
+      "contrast": "C2a vs C5",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "babur"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_babur_C4": {
+      "value": 2.0307692307692307,
+      "estimand": "Babur C4 panel mean",
+      "contrast": "C4 vs C5",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "babur"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_babur_C8": {
+      "value": 2.076923076923077,
+      "estimand": "Babur C8 panel mean",
+      "contrast": "C8 vs C5",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "babur"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_babur_C4a": {
+      "value": 2.01025641025641,
+      "estimand": "Babur C4a panel mean",
+      "contrast": "C4a vs C5",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "babur"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_babur_C9": {
+      "value": null,
+      "estimand": "Babur C9 panel mean (None if Babur context-window exceeded)",
+      "contrast": "C9 vs C5",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "babur"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_babur_delta_C9_minus_C5": {
+      "value": null,
+      "estimand": "Babur C9 - C5 panel-mean lift",
+      "contrast": "C9 vs C5",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "babur"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_babur_C8_minus_C2a": {
+      "value": 0.1692307692307693,
+      "estimand": "Babur C8 - C2a (corpus minus spec)",
+      "contrast": "C8 vs C2a",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "babur"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_babur_compression_ratio": {
+      "value": 79,
+      "estimand": "Babur corpus-to-spec compression ratio (rounded), corpus_tokens / spec_tokens",
+      "contrast": null,
+      "filters": {
+        "corpus_tokens": 549604,
+        "spec_tokens": 6922,
+        "source_words": 422772
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_babur_source_words": {
+      "value": 422772,
+      "estimand": "Babur source-corpus word count (locked, v10 §3.2)",
+      "contrast": null,
+      "filters": {
+        "source": "v10 §3.2 corpus collection table"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_babur_spec_tokens": {
+      "value": 6922,
+      "estimand": "Babur specification token count (cl100k_base)",
+      "contrast": null,
+      "filters": {
+        "tokenizer": "cl100k_base"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_seacole_C5": {
+      "value": 1.7743589743589743,
+      "estimand": "Seacole C5 panel mean",
+      "contrast": "C5 baseline",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "seacole"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_seacole_C2a": {
+      "value": 2.482051282051282,
+      "estimand": "Seacole C2a panel mean",
+      "contrast": "C2a vs C5",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "seacole"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_seacole_C4": {
+      "value": 2.6256410256410256,
+      "estimand": "Seacole C4 panel mean",
+      "contrast": "C4 vs C5",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "seacole"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_seacole_C8": {
+      "value": 2.830769230769231,
+      "estimand": "Seacole C8 panel mean",
+      "contrast": "C8 vs C5",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "seacole"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_seacole_C4a": {
+      "value": 2.594871794871795,
+      "estimand": "Seacole C4a panel mean",
+      "contrast": "C4a vs C5",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "seacole"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_seacole_C9": {
+      "value": 2.7333333333333334,
+      "estimand": "Seacole C9 panel mean (None if Babur context-window exceeded)",
+      "contrast": "C9 vs C5",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "seacole"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_seacole_delta_C9_minus_C5": {
+      "value": 0.9589743589743591,
+      "estimand": "Seacole C9 - C5 panel-mean lift",
+      "contrast": "C9 vs C5",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "seacole"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_seacole_C8_minus_C2a": {
+      "value": 0.3487179487179488,
+      "estimand": "Seacole C8 - C2a (corpus minus spec)",
+      "contrast": "C8 vs C2a",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "seacole"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_seacole_compression_ratio": {
+      "value": 12,
+      "estimand": "Seacole corpus-to-spec compression ratio (rounded), corpus_tokens / spec_tokens",
+      "contrast": null,
+      "filters": {
+        "corpus_tokens": 81207,
+        "spec_tokens": 6787,
+        "source_words": 62467
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_seacole_source_words": {
+      "value": 62467,
+      "estimand": "Seacole source-corpus word count (locked, v10 §3.2)",
+      "contrast": null,
+      "filters": {
+        "source": "v10 §3.2 corpus collection table"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_seacole_spec_tokens": {
+      "value": 6787,
+      "estimand": "Seacole specification token count (cl100k_base)",
+      "contrast": null,
+      "filters": {
+        "tokenizer": "cl100k_base"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_keckley_C5": {
+      "value": 1.8410256410256411,
+      "estimand": "Keckley C5 panel mean",
+      "contrast": "C5 baseline",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "keckley"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_keckley_C2a": {
+      "value": 2.4256410256410255,
+      "estimand": "Keckley C2a panel mean",
+      "contrast": "C2a vs C5",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "keckley"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_keckley_C4": {
+      "value": 2.3897435897435897,
+      "estimand": "Keckley C4 panel mean",
+      "contrast": "C4 vs C5",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "keckley"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_keckley_C8": {
+      "value": 2.4974358974358974,
+      "estimand": "Keckley C8 panel mean",
+      "contrast": "C8 vs C5",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "keckley"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_keckley_C4a": {
+      "value": 2.435897435897436,
+      "estimand": "Keckley C4a panel mean",
+      "contrast": "C4a vs C5",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "keckley"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_keckley_C9": {
+      "value": 2.4871794871794872,
+      "estimand": "Keckley C9 panel mean (None if Babur context-window exceeded)",
+      "contrast": "C9 vs C5",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "keckley"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_keckley_delta_C9_minus_C5": {
+      "value": 0.6461538461538461,
+      "estimand": "Keckley C9 - C5 panel-mean lift",
+      "contrast": "C9 vs C5",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "keckley"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_keckley_C8_minus_C2a": {
+      "value": 0.07179487179487198,
+      "estimand": "Keckley C8 - C2a (corpus minus spec)",
+      "contrast": "C8 vs C2a",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "keckley"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_keckley_compression_ratio": {
+      "value": 11,
+      "estimand": "Keckley corpus-to-spec compression ratio (rounded), corpus_tokens / spec_tokens",
+      "contrast": null,
+      "filters": {
+        "corpus_tokens": 76365,
+        "spec_tokens": 7014,
+        "source_words": 58742
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_keckley_source_words": {
+      "value": 58742,
+      "estimand": "Keckley source-corpus word count (locked, v10 §3.2)",
+      "contrast": null,
+      "filters": {
+        "source": "v10 §3.2 corpus collection table"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_keckley_spec_tokens": {
+      "value": 7014,
+      "estimand": "Keckley specification token count (cl100k_base)",
+      "contrast": null,
+      "filters": {
+        "tokenizer": "cl100k_base"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_yung_wing_C5": {
+      "value": 1.876923076923077,
+      "estimand": "Yung Wing C5 panel mean",
+      "contrast": "C5 baseline",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "yung_wing"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_yung_wing_C2a": {
+      "value": 2.2153846153846155,
+      "estimand": "Yung Wing C2a panel mean",
+      "contrast": "C2a vs C5",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "yung_wing"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_yung_wing_C4": {
+      "value": 2.128205128205128,
+      "estimand": "Yung Wing C4 panel mean",
+      "contrast": "C4 vs C5",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "yung_wing"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_yung_wing_C8": {
+      "value": 2.4205128205128204,
+      "estimand": "Yung Wing C8 panel mean",
+      "contrast": "C8 vs C5",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "yung_wing"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_yung_wing_C4a": {
+      "value": 2.4,
+      "estimand": "Yung Wing C4a panel mean",
+      "contrast": "C4a vs C5",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "yung_wing"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_yung_wing_C9": {
+      "value": 2.5025641025641026,
+      "estimand": "Yung Wing C9 panel mean (None if Babur context-window exceeded)",
+      "contrast": "C9 vs C5",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "yung_wing"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_yung_wing_delta_C9_minus_C5": {
+      "value": 0.6256410256410256,
+      "estimand": "Yung Wing C9 - C5 panel-mean lift",
+      "contrast": "C9 vs C5",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "yung_wing"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_yung_wing_C8_minus_C2a": {
+      "value": 0.20512820512820484,
+      "estimand": "Yung Wing C8 - C2a (corpus minus spec)",
+      "contrast": "C8 vs C2a",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subject": "yung_wing"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_yung_wing_compression_ratio": {
+      "value": 13,
+      "estimand": "Yung Wing corpus-to-spec compression ratio (rounded), corpus_tokens / spec_tokens",
+      "contrast": null,
+      "filters": {
+        "corpus_tokens": 86397,
+        "spec_tokens": 6657,
+        "source_words": 66459
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_yung_wing_source_words": {
+      "value": 66459,
+      "estimand": "Yung Wing source-corpus word count (locked, v10 §3.2)",
+      "contrast": null,
+      "filters": {
+        "source": "v10 §3.2 corpus collection table"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_yung_wing_spec_tokens": {
+      "value": 6657,
+      "estimand": "Yung Wing specification token count (cl100k_base)",
+      "contrast": null,
+      "filters": {
+        "tokenizer": "cl100k_base"
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_table_mean_C5": {
+      "value": 1.547008547008547,
+      "estimand": "Mean of per-subject C5 over the 9 low-baseline subjects",
+      "contrast": "low-baseline mean",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subjects": [
+          "hamerton",
+          "sunity_devee",
+          "ebers",
+          "fukuzawa",
+          "bernal_diaz",
+          "babur",
+          "seacole",
+          "keckley",
+          "yung_wing"
+        ]
+      },
+      "n": 9,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_table_mean_C5_n_rows": {
+      "value": 9,
+      "estimand": "Row count for canonical mean-row C5 aggregate (low-baseline slice)",
+      "contrast": null,
+      "filters": {},
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_table_mean_C2a": {
+      "value": 2.231908831908832,
+      "estimand": "Mean of per-subject C2a over the 9 low-baseline subjects",
+      "contrast": null,
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subjects": [
+          "hamerton",
+          "sunity_devee",
+          "ebers",
+          "fukuzawa",
+          "bernal_diaz",
+          "babur",
+          "seacole",
+          "keckley",
+          "yung_wing"
+        ]
+      },
+      "n": 9,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_table_mean_C4": {
+      "value": 2.3515669515669515,
+      "estimand": "Mean of per-subject C4 over the 9 low-baseline subjects",
+      "contrast": null,
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subjects": [
+          "hamerton",
+          "sunity_devee",
+          "ebers",
+          "fukuzawa",
+          "bernal_diaz",
+          "babur",
+          "seacole",
+          "keckley",
+          "yung_wing"
+        ]
+      },
+      "n": 9,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_table_mean_C8": {
+      "value": 2.4603988603988602,
+      "estimand": "Mean of per-subject C8 over the 9 low-baseline subjects",
+      "contrast": null,
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subjects": [
+          "hamerton",
+          "sunity_devee",
+          "ebers",
+          "fukuzawa",
+          "bernal_diaz",
+          "babur",
+          "seacole",
+          "keckley",
+          "yung_wing"
+        ]
+      },
+      "n": 9,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_table_mean_C4a": {
+      "value": 2.4393162393162395,
+      "estimand": "Mean of per-subject C4a over the 9 low-baseline subjects",
+      "contrast": null,
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subjects": [
+          "hamerton",
+          "sunity_devee",
+          "ebers",
+          "fukuzawa",
+          "bernal_diaz",
+          "babur",
+          "seacole",
+          "keckley",
+          "yung_wing"
+        ]
+      },
+      "n": 9,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_table_mean_C9": {
+      "value": 2.5942307692307693,
+      "estimand": "Mean of per-subject C9 over 8 low-baseline subjects (Babur excluded by data)",
+      "contrast": null,
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subjects": [
+          "hamerton",
+          "sunity_devee",
+          "ebers",
+          "fukuzawa",
+          "bernal_diaz",
+          "seacole",
+          "keckley",
+          "yung_wing"
+        ]
+      },
+      "n": 8,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_table_mean_C9_n_rows": {
+      "value": 8,
+      "estimand": "Row count for C9 mean (Babur excluded due to context-window overflow)",
+      "contrast": null,
+      "filters": {},
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_table_mean_C8_minus_C2a": {
+      "value": 0.22849002849002853,
+      "estimand": "Mean over low-baseline subjects of (C8 - C2a)",
+      "contrast": null,
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subjects": [
+          "hamerton",
+          "sunity_devee",
+          "ebers",
+          "fukuzawa",
+          "bernal_diaz",
+          "babur",
+          "seacole",
+          "keckley",
+          "yung_wing"
+        ]
+      },
+      "n": 9,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_low_baseline_spec_lift_mean": {
+      "value": 0.6849002849002848,
+      "estimand": "Mean low-baseline C2a panel mean minus mean low-baseline C5 panel mean (9-row, 9-row)",
+      "contrast": "C2a vs C5 (subject-mean lift)",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subjects": [
+          "hamerton",
+          "sunity_devee",
+          "ebers",
+          "fukuzawa",
+          "bernal_diaz",
+          "babur",
+          "seacole",
+          "keckley",
+          "yung_wing"
+        ]
+      },
+      "n": 9,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_low_baseline_corpus_lift_mean": {
+      "value": 0.9133903133903132,
+      "estimand": "Mean low-baseline C8 panel mean minus mean low-baseline C5 panel mean (9-row)",
+      "contrast": "C8 vs C5 (subject-mean lift)",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subjects": [
+          "hamerton",
+          "sunity_devee",
+          "ebers",
+          "fukuzawa",
+          "bernal_diaz",
+          "babur",
+          "seacole",
+          "keckley",
+          "yung_wing"
+        ]
+      },
+      "n": 9,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_low_baseline_C8_minus_C2a_mean": {
+      "value": 0.22849002849002853,
+      "estimand": "Mean over low-baseline subjects of per-subject (C8 - C2a)",
+      "contrast": "C8 vs C2a",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subjects": [
+          "hamerton",
+          "sunity_devee",
+          "ebers",
+          "fukuzawa",
+          "bernal_diaz",
+          "babur",
+          "seacole",
+          "keckley",
+          "yung_wing"
+        ]
+      },
+      "n": 9,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_low_baseline_C9_minus_C8_mean": {
+      "value": 0.08589743589743604,
+      "estimand": "Mean low-baseline C9 minus C8 (Babur excluded, 8 subjects, paired)",
+      "contrast": "C9 vs C8",
+      "filters": {
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ],
+        "subjects": [
+          "hamerton",
+          "sunity_devee",
+          "ebers",
+          "fukuzawa",
+          "bernal_diaz",
+          "seacole",
+          "keckley",
+          "yung_wing"
+        ]
+      },
+      "n": 8,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_ebers_spec_lift": {
+      "value": 0.5179487179487181,
+      "estimand": "Ebers C2a - C5 panel-mean lift (spec lift)",
+      "contrast": "C2a vs C5",
+      "filters": {
+        "subject": "ebers",
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ]
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_ebers_corpus_lift": {
+      "value": 1.1641025641025644,
+      "estimand": "Ebers C8 - C5 panel-mean lift (corpus lift)",
+      "contrast": "C8 vs C5",
+      "filters": {
+        "subject": "ebers",
+        "panel": [
+          "haiku",
+          "sonnet",
+          "opus",
+          "gpt4o",
+          "gpt54"
+        ]
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_1_low_baseline_n": {
+      "value": 351,
+      "estimand": "Number of low-baseline questions in §4.2.1 Table (any C-vs-C5 paired count)",
+      "contrast": null,
+      "filters": {
+        "slice": "low_baseline_9",
+        "min_judges": 3
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_1_low_baseline_C2a_improve_pct": {
+      "value": 70.94017094017094,
+      "estimand": "Percent of low-baseline questions improved by C2a vs C5",
+      "contrast": "C2a vs C5",
+      "filters": {},
+      "n": 351,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_1_low_baseline_C2a_worsen_pct": {
+      "value": 15.0997150997151,
+      "estimand": "Percent of low-baseline questions worsened by C2a vs C5",
+      "contrast": "C2a vs C5",
+      "filters": {},
+      "n": 351,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_1_low_baseline_C4_improve_pct": {
+      "value": 72.93447293447294,
+      "estimand": "Percent of low-baseline questions improved by C4 vs C5",
+      "contrast": "C4 vs C5",
+      "filters": {},
+      "n": 351,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_1_low_baseline_C4_worsen_pct": {
+      "value": 14.52991452991453,
+      "estimand": "Percent of low-baseline questions worsened by C4 vs C5",
+      "contrast": "C4 vs C5",
+      "filters": {},
+      "n": 351,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_1_low_baseline_C8_improve_pct": {
+      "value": 78.63247863247864,
+      "estimand": "Percent of low-baseline questions improved by C8 vs C5",
+      "contrast": "C8 vs C5",
+      "filters": {},
+      "n": 351,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_1_low_baseline_C8_worsen_pct": {
+      "value": 12.250712250712251,
+      "estimand": "Percent of low-baseline questions worsened by C8 vs C5",
+      "contrast": "C8 vs C5",
+      "filters": {},
+      "n": 351,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_1_low_baseline_C4a_improve_pct": {
+      "value": 78.63247863247864,
+      "estimand": "Percent of low-baseline questions improved by C4a vs C5",
+      "contrast": "C4a vs C5",
+      "filters": {},
+      "n": 351,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_1_low_baseline_C4a_worsen_pct": {
+      "value": 15.0997150997151,
+      "estimand": "Percent of low-baseline questions worsened by C4a vs C5",
+      "contrast": "C4a vs C5",
+      "filters": {},
+      "n": 351,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_1_median_improvement": {
+      "value": 1.0,
+      "estimand": "Median per-question improvement magnitude (Δ when improved) on C2a low-baseline",
+      "contrast": null,
+      "filters": {},
+      "n": 249,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_1_median_worsening": {
+      "value": -0.3999999999999999,
+      "estimand": "Median per-question worsening magnitude (Δ when worsened) on C2a low-baseline",
+      "contrast": null,
+      "filters": {},
+      "n": 53,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_1_all14_n": {
+      "value": 546,
+      "estimand": "Number of paired questions across all 14 main-study subjects (C2a vs C5)",
+      "contrast": null,
+      "filters": {
+        "slice": "all_14",
+        "min_judges": 3
+      },
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_1_all14_C2a_improve_pct": {
+      "value": 58.79120879120879,
+      "estimand": "Percent of all-14 questions improved by C2a vs C5",
+      "contrast": "C2a vs C5",
+      "filters": {},
+      "n": 546,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_1_all14_C2a_worsen_pct": {
+      "value": 26.73992673992674,
+      "estimand": "Percent of all-14 questions worsened by C2a vs C5",
+      "contrast": "C2a vs C5",
+      "filters": {},
+      "n": 546,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_1_all14_C4_improve_pct": {
+      "value": 60.07326007326007,
+      "estimand": "Percent of all-14 questions improved by C4 vs C5",
+      "contrast": "C4 vs C5",
+      "filters": {},
+      "n": 546,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_1_all14_C4_worsen_pct": {
+      "value": 26.55677655677656,
+      "estimand": "Percent of all-14 questions worsened by C4 vs C5",
+      "contrast": "C4 vs C5",
+      "filters": {},
+      "n": 546,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_1_all14_C8_improve_pct": {
+      "value": 65.2014652014652,
+      "estimand": "Percent of all-14 questions improved by C8 vs C5",
+      "contrast": "C8 vs C5",
+      "filters": {},
+      "n": 546,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_1_all14_C8_worsen_pct": {
+      "value": 23.626373626373628,
+      "estimand": "Percent of all-14 questions worsened by C8 vs C5",
+      "contrast": "C8 vs C5",
+      "filters": {},
+      "n": 546,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_1_all14_C4a_improve_pct": {
+      "value": 65.75091575091575,
+      "estimand": "Percent of all-14 questions improved by C4a vs C5",
+      "contrast": "C4a vs C5",
+      "filters": {},
+      "n": 546,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_1_all14_C4a_worsen_pct": {
+      "value": 26.373626373626372,
+      "estimand": "Percent of all-14 questions worsened by C4a vs C5",
+      "contrast": "C4a vs C5",
+      "filters": {},
+      "n": 546,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_1_C9_n_with_babur_excluded": {
+      "value": 312,
+      "estimand": "Number of low-baseline questions with valid C5 and C9 means (Babur has no C9 by context-window)",
+      "contrast": null,
+      "filters": {},
+      "n": null,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_1_C8_vs_C2a_better_n": {
+      "value": 187,
+      "estimand": "Number of low-baseline questions where C8 panel mean > C2a panel mean",
+      "contrast": "C8 > C2a",
+      "filters": {},
+      "n": 351,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_1_C8_vs_C2a_tie_n": {
+      "value": 56,
+      "estimand": "Number of low-baseline questions where C8 panel mean equals C2a panel mean (within 1e-9)",
+      "contrast": "C8 = C2a",
+      "filters": {},
+      "n": 351,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_1_C8_vs_C2a_worse_n": {
+      "value": 108,
+      "estimand": "Number of low-baseline questions where C8 panel mean < C2a panel mean",
+      "contrast": "C8 < C2a",
+      "filters": {},
+      "n": 351,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_1_C8_vs_C2a_better_pct": {
+      "value": 53.27635327635328,
+      "estimand": "Percent of low-baseline questions where C8 > C2a",
+      "contrast": "C8 > C2a",
+      "filters": {},
+      "n": 351,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_1_C8_vs_C2a_worse_pct": {
+      "value": 30.76923076923077,
+      "estimand": "Percent of low-baseline questions where C8 < C2a",
+      "contrast": "C8 < C2a",
+      "filters": {},
+      "n": 351,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_1_C9_vs_C4a_better_n": {
+      "value": 153,
+      "estimand": "Number of low-baseline questions where C9 panel mean > C4a panel mean",
+      "contrast": "C9 > C4a",
+      "filters": {},
+      "n": 312,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_1_C9_vs_C4a_tie_n": {
+      "value": 45,
+      "estimand": "Number of low-baseline questions where C9 panel mean equals C4a panel mean",
+      "contrast": "C9 = C4a",
+      "filters": {},
+      "n": 312,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_1_C9_vs_C4a_worse_n": {
+      "value": 114,
+      "estimand": "Number of low-baseline questions where C9 panel mean < C4a panel mean",
+      "contrast": "C9 < C4a",
+      "filters": {},
+      "n": 312,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_1_C9_vs_C4a_better_pct": {
+      "value": 49.03846153846154,
+      "estimand": "Percent of low-baseline questions where C9 > C4a",
+      "contrast": "C9 > C4a",
+      "filters": {},
+      "n": 312,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "4_2_1_C9_vs_C4a_worse_pct": {
+      "value": 36.53846153846154,
+      "estimand": "Percent of low-baseline questions where C9 < C4a",
+      "contrast": "C9 < C4a",
+      "filters": {},
+      "n": 312,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    }
+  },
+  "provenance": {
+    "script": "scripts/_v11_emit_4_2_compression.py",
+    "script_version": "v11.0",
+    "run_timestamp": "2026-04-25",
+    "tokenizer": "cl100k_base (tiktoken)",
+    "words_to_tokens_factor": 1.3,
+    "source_words_origin": "v10 §3.2 corpus collection table (locked constants)",
+    "input_manifest": [
+      {
+        "path": "results/hamerton/judgments_harmonized.json",
+        "sha256": "9e21940dee6519f4df3f910a7f647e6375702a1912e17274b689b62d54a815db",
+        "size_bytes": 90825,
+        "n_records": 546
+      },
+      {
+        "path": "results/hamerton/judgments.json",
+        "sha256": "7f66bd99cc032ba565d2750f5d6a9b4b1925c003fc33990190e9a5b453f577fd",
+        "size_bytes": 23637,
+        "n_records": 195
+      },
+      {
+        "path": "results/hamerton/gpt4o_judgments.json",
+        "sha256": "08552f33207ecd67d6f5dfce94e4339944c28efef5008a4a09c4fe5a7c66c58c",
+        "size_bytes": 32997,
+        "n_records": 195
+      },
+      {
+        "path": "results/hamerton/gpt54_judgments.json",
+        "sha256": "d3b8facd5140745826a4e442a09af69f901e2c2a2ae9f1de2fe96835aa34c03c",
+        "size_bytes": 18957,
+        "n_records": 195
+      },
+      {
+        "path": "results/hamerton/opus_judgments.json",
+        "sha256": "c78fad0d3e5e80869d4d17b9a97ade50b9b56d69f8276402b474d99d85f5037a",
+        "size_bytes": 32802,
+        "n_records": 195
+      },
+      {
+        "path": "results/hamerton/sonnet_judgments.json",
+        "sha256": "7173405a2b2ef9040db638e32af3bc39d31d689c614f81f32a222daa9e806c06",
+        "size_bytes": 33192,
+        "n_records": 195
+      },
+      {
+        "path": "results/hamerton/c8_c9_judgments_merged.json",
+        "sha256": "7e220ed79d688a2343f2b604fae669aa10760b759eb3f0907482f65c34038773",
+        "size_bytes": 79173,
+        "n_records": 468
+      },
+      {
+        "path": "results/global_sunity_devee/judgments_v2.json",
+        "sha256": "324b0f6a2b660a0ab4a64276bc8c410129520a03ff6ac26173f7251492456874",
+        "size_bytes": 164429,
+        "n_records": 1170
+      },
+      {
+        "path": "results/global_sunity_devee/c8_c9_judgments_merged.json",
+        "sha256": "417ca65843c47b2c80f224ba42ccfdbde9626fcb2e15af8b14154b3f4ba424b5",
+        "size_bytes": 79065,
+        "n_records": 468
+      },
+      {
+        "path": "results/_s114_backfills/global_sunity_devee__C4a_full_facts_plus_spec__gemini_flash.json",
+        "sha256": "237be4c2556a8688a7aa61e863c8f7bdb1be4695ae8bde00bd1fa5c5cd2b823a",
+        "size_bytes": 177,
+        "n_records": 1,
+        "role": "s114_backfill"
+      },
+      {
+        "path": "results/global_ebers/judgments_v2.json",
+        "sha256": "23a19e78ceff071a3ee98d88f3ad63885d03425036d2b29af6533a7d5d9a69c3",
+        "size_bytes": 164430,
+        "n_records": 1170
+      },
+      {
+        "path": "results/global_ebers/c8_c9_judgments_merged.json",
+        "sha256": "3cb8bac74acec9c193b7a4eda7b1269cd5f75c42e5d01ff759ee50f19aab3cf1",
+        "size_bytes": 79065,
+        "n_records": 468
+      },
+      {
+        "path": "results/global_fukuzawa/judgments_v2.json",
+        "sha256": "6ea16c1f837d2d57cc81fbebcf94440e204c58aff7dd1d5c6cdff60a99db0f28",
+        "size_bytes": 164430,
+        "n_records": 1170
+      },
+      {
+        "path": "results/global_fukuzawa/c8_c9_judgments_merged.json",
+        "sha256": "771ca0850804b3771b921a539bd8b5d7e7114ed8cc505c932ebca1819b65e09e",
+        "size_bytes": 79065,
+        "n_records": 468
+      },
+      {
+        "path": "results/global_bernal_diaz/judgments_v2.json",
+        "sha256": "0945e052f47df211379bcccd1092208e26a0b3aab97bc654bb48dc059c025ebb",
+        "size_bytes": 176565,
+        "n_records": 1220
+      },
+      {
+        "path": "results/global_bernal_diaz/c8_c9_judgments_merged.json",
+        "sha256": "0b340630b2c011ba1e28e2e0cebd379e2fa315172754bdb0f4e24bcbe5600cac",
+        "size_bytes": 124523,
+        "n_records": 468
+      },
+      {
+        "path": "results/_s114_backfills/global_bernal_diaz__C8_raw_corpus__gemini_flash.json",
+        "sha256": "7886c2c28faa419304fb35cb67634cc5332f10ddf64710b37a8ee2b11faaf7c1",
+        "size_bytes": 6351,
+        "n_records": 39,
+        "role": "s114_backfill"
+      },
+      {
+        "path": "results/_s114_backfills/global_bernal_diaz__C8_raw_corpus__gpt4o.json",
+        "sha256": "e719201612e06c7ab65249463a2f61c019f9dd7e3d01d29b2aa4f09ed541c453",
+        "size_bytes": 6039,
+        "n_records": 39,
+        "role": "s114_backfill"
+      },
+      {
+        "path": "results/_s114_backfills/global_bernal_diaz__C8_raw_corpus__gpt54.json",
+        "sha256": "1db5b845c63b28c6f275563a66c0598a57e7ca2f355e6e0274d9f39ce5f068db",
+        "size_bytes": 6039,
+        "n_records": 39,
+        "role": "s114_backfill"
+      },
+      {
+        "path": "results/_s114_backfills/global_bernal_diaz__C9_raw_corpus_plus_spec__gemini_flash.json",
+        "sha256": "dd425686f3e788389872989daede167624d87e46444a3a10f96b08377e06626c",
+        "size_bytes": 6741,
+        "n_records": 39,
+        "role": "s114_backfill"
+      },
+      {
+        "path": "results/_s114_backfills/global_bernal_diaz__C9_raw_corpus_plus_spec__gpt4o.json",
+        "sha256": "81e727d1ccc41262222b67a2240892413298a4c898956859a334086febddae5a",
+        "size_bytes": 6429,
+        "n_records": 39,
+        "role": "s114_backfill"
+      },
+      {
+        "path": "results/_s114_backfills/global_bernal_diaz__C9_raw_corpus_plus_spec__gpt54.json",
+        "sha256": "de89c5caae4c9721d1809d2865747de5b82f098ac8a0a364ec57fc17c883b2f0",
+        "size_bytes": 6429,
+        "n_records": 39,
+        "role": "s114_backfill"
+      },
+      {
+        "path": "results/global_babur/judgments_v2.json",
+        "sha256": "47c354a6d015d41ab41eeff9b7cdfd07e291b1a6d9cf455a910d7569a3739121",
+        "size_bytes": 190014,
+        "n_records": 1285
+      },
+      {
+        "path": "results/global_babur/c8_c9_judgments_merged.json",
+        "sha256": "b2c6b59f0c969e142c6bace6b6aca1abdc2ff3f061ee7be38e64fb8f96dd3d73",
+        "size_bytes": 86015,
+        "n_records": 462
+      },
+      {
+        "path": "results/_s114_backfills/global_babur__C8_raw_corpus__gemini_flash.json",
+        "sha256": "7886c2c28faa419304fb35cb67634cc5332f10ddf64710b37a8ee2b11faaf7c1",
+        "size_bytes": 6351,
+        "n_records": 39,
+        "role": "s114_backfill"
+      },
+      {
+        "path": "results/_s114_backfills/global_babur__C8_raw_corpus__gpt4o.json",
+        "sha256": "3427e0042a5b50df293e86a00bff07b857a600a7a8847f7e28d28ce26905e32a",
+        "size_bytes": 6039,
+        "n_records": 39,
+        "role": "s114_backfill"
+      },
+      {
+        "path": "results/_s114_backfills/global_babur__C8_raw_corpus__gpt54.json",
+        "sha256": "290f04d0210022f36507948fdfe8f62c914ba27f432dfc3439e3b6f9384cd74d",
+        "size_bytes": 6039,
+        "n_records": 39,
+        "role": "s114_backfill"
+      },
+      {
+        "path": "results/global_seacole/judgments_v2.json",
+        "sha256": "fac1a8fbf013b6f6791ac58ac63f3773ca189cde4ca744b1aa4375d90065c0ce",
+        "size_bytes": 164429,
+        "n_records": 1170
+      },
+      {
+        "path": "results/global_seacole/c8_c9_judgments_merged.json",
+        "sha256": "5b9509466047e6f24bf225cf876035e262c3fe24ea346b89e29684a8ec17c32a",
+        "size_bytes": 79065,
+        "n_records": 468
+      },
+      {
+        "path": "results/_s114_backfills/global_seacole__C5_baseline__gemini_flash.json",
+        "sha256": "0c9572d158ea491ffc6822483dd4c22273aeee9de614ee9fdaba9e0c05fe0ed5",
+        "size_bytes": 163,
+        "n_records": 1,
+        "role": "s114_backfill"
+      },
+      {
+        "path": "results/global_keckley/judgments_v2.json",
+        "sha256": "7fbad07d6484609d17af2579ba9085fd40fe74d7a63ba2d939f7c23c3225d8c2",
+        "size_bytes": 164430,
+        "n_records": 1170
+      },
+      {
+        "path": "results/global_keckley/c8_c9_judgments_merged.json",
+        "sha256": "598ef08b327400e2567e045c30660a099c52fe601ba6508a668e0671ab34ee0e",
+        "size_bytes": 79065,
+        "n_records": 468
+      },
+      {
+        "path": "results/global_yung_wing/judgments_v2.json",
+        "sha256": "1850d4a0452ff50b9f71e49622dc41ca8a205d74b6ec1b2dbdf69efb4b6066b9",
+        "size_bytes": 164430,
+        "n_records": 1170
+      },
+      {
+        "path": "results/global_yung_wing/c8_c9_judgments_merged.json",
+        "sha256": "3c3363163990123be351a00ae08411bdbf36604096066cd7cbdee4fb009ee68f",
+        "size_bytes": 79065,
+        "n_records": 468
+      },
+      {
+        "path": "results/global_zitkala_sa/judgments_v2.json",
+        "sha256": "fc2ef120d96e12e5733e18328b8a6e92e23f12840d3b41e3b9fd89a593ada348",
+        "size_bytes": 164430,
+        "n_records": 1170
+      },
+      {
+        "path": "results/global_zitkala_sa/c8_c9_judgments_merged.json",
+        "sha256": "08e9542f21168eae638902b55f54f6e8d77b1f217ce8615b261c6efd01f0f9f7",
+        "size_bytes": 79065,
+        "n_records": 468
+      },
+      {
+        "path": "results/global_cellini/judgments_v2.json",
+        "sha256": "797680841bef9dff2582867246c8590ee825feb1b0bacaaa495d25181ad6b0be",
+        "size_bytes": 164430,
+        "n_records": 1170
+      },
+      {
+        "path": "results/global_cellini/c8_c9_judgments_merged.json",
+        "sha256": "38f8b991d44a850739d08972bd6e4b39a2f435d15d87636e3c1b14a1ff95a29b",
+        "size_bytes": 79065,
+        "n_records": 468
+      },
+      {
+        "path": "results/global_rousseau/judgments_v2.json",
+        "sha256": "55a0fb40ec928faa3579d6188f9d509e6c9af1546e6916f943aea9ee13361a7d",
+        "size_bytes": 164430,
+        "n_records": 1170
+      },
+      {
+        "path": "results/global_rousseau/c8_c9_judgments_merged.json",
+        "sha256": "7a1e381f7213bfd291a723fca35e762196c4948e4ebfd6c0b799138ff61a0a20",
+        "size_bytes": 106911,
+        "n_records": 468
+      },
+      {
+        "path": "results/_s114_backfills/global_rousseau__C8_raw_corpus__gemini_flash.json",
+        "sha256": "7886c2c28faa419304fb35cb67634cc5332f10ddf64710b37a8ee2b11faaf7c1",
+        "size_bytes": 6351,
+        "n_records": 39,
+        "role": "s114_backfill"
+      },
+      {
+        "path": "results/_s114_backfills/global_rousseau__C8_raw_corpus__gpt4o.json",
+        "sha256": "34eca93c608c25268d86c11f909ac1a103e225242b2bd6fb4238c21ae28bed48",
+        "size_bytes": 6039,
+        "n_records": 39,
+        "role": "s114_backfill"
+      },
+      {
+        "path": "results/_s114_backfills/global_rousseau__C8_raw_corpus__gpt54.json",
+        "sha256": "d86994ef64ab5ea7bf9252a8141b19f341c43ae5812088bbaf197d32376063b2",
+        "size_bytes": 6039,
+        "n_records": 39,
+        "role": "s114_backfill"
+      },
+      {
+        "path": "results/_s114_backfills/global_rousseau__C9_raw_corpus_plus_spec__gemini_flash.json",
+        "sha256": "dd425686f3e788389872989daede167624d87e46444a3a10f96b08377e06626c",
+        "size_bytes": 6741,
+        "n_records": 39,
+        "role": "s114_backfill"
+      },
+      {
+        "path": "results/_s114_backfills/global_rousseau__C9_raw_corpus_plus_spec__gpt4o.json",
+        "sha256": "de0928c1c83ffe2a8322af5a3b06fdfd79888bb23230360c945fb12fe8b6a024",
+        "size_bytes": 6429,
+        "n_records": 39,
+        "role": "s114_backfill"
+      },
+      {
+        "path": "results/_s114_backfills/global_rousseau__C9_raw_corpus_plus_spec__gpt54.json",
+        "sha256": "bafceedf120d03a9c85e08d3e8046c6db0aa988288b9940688e360e233794865",
+        "size_bytes": 6429,
+        "n_records": 39,
+        "role": "s114_backfill"
+      },
+      {
+        "path": "results/global_augustine/judgments_v2.json",
+        "sha256": "eab6ba6b19d80ee48289c3511273ec77a3b34880aa55f1133ba9ce18dfa515b6",
+        "size_bytes": 190734,
+        "n_records": 1276
+      },
+      {
+        "path": "results/global_augustine/c8_c9_judgments_merged.json",
+        "sha256": "0dd967bb2b42533e4b8a8e21946527c715772db66c33ca6c295d828c8a92b899",
+        "size_bytes": 79065,
+        "n_records": 468
+      },
+      {
+        "path": "results/global_equiano/judgments_v2.json",
+        "sha256": "ff59513f0815de7ebf5057e4919529cd2225c1b896a21a030f0d1ff10b229d9a",
+        "size_bytes": 164430,
+        "n_records": 1170
+      },
+      {
+        "path": "results/global_equiano/c8_c9_judgments_merged.json",
+        "sha256": "da404a5c7b4ed7f50a3e903c2072c67b2fbc26923ecdd8d247a28f340a1b00cb",
+        "size_bytes": 79065,
+        "n_records": 468
+      },
+      {
+        "path": "data/hamerton/spec/anchors_v4.md",
+        "sha256": "df291e4f0690b88c606084b61e51345b0eab7009688409af5ddb8b33e1261b20",
+        "size_bytes": 10093,
+        "n_records": null
+      },
+      {
+        "path": "data/hamerton/spec/core_v4.md",
+        "sha256": "a0928154a35bf65aa90d9857d59481f4bd656580de7b17bc9afa26f5cc93ebb6",
+        "size_bytes": 5686,
+        "n_records": null
+      },
+      {
+        "path": "data/hamerton/spec/predictions_v4.md",
+        "sha256": "79925246f1c976beabc39c0647c89df7e4d93151434019b31f587a9fdbc9a23a",
+        "size_bytes": 7268,
+        "n_records": null
+      },
+      {
+        "path": "data/global_subjects/sunity_devee/spec_production.md",
+        "sha256": "20c6fa19bccde628cc7f8b8a3c831421fefbab3baf0e4e8125b97ec9cb0c3df2",
+        "size_bytes": 37723,
+        "n_records": null
+      },
+      {
+        "path": "data/global_subjects/ebers/spec_production.md",
+        "sha256": "291ddc308324478a2f1f266f085dafec2ce76b6476d6c6319c0f0c485310419c",
+        "size_bytes": 40240,
+        "n_records": null
+      },
+      {
+        "path": "data/global_subjects/fukuzawa/spec_production.md",
+        "sha256": "fc9be8dc4d439939f13871ef3659745e1018ec9d9aa594daf975eb1f61546c27",
+        "size_bytes": 38857,
+        "n_records": null
+      },
+      {
+        "path": "data/global_subjects/bernal_diaz/spec_production.md",
+        "sha256": "d7fc81e9f24afb02b957792bbea0d5033a204f9b4e2304f848029fff16dd2f5a",
+        "size_bytes": 41282,
+        "n_records": null
+      },
+      {
+        "path": "data/global_subjects/babur/spec_production.md",
+        "sha256": "f4832ad411d218fff1cbebec20b4263166e157e6c807ad7abbad4ab0ae89a81f",
+        "size_bytes": 37668,
+        "n_records": null
+      },
+      {
+        "path": "data/global_subjects/seacole/spec_production.md",
+        "sha256": "54d728a7d7b85bdd99ca2f9c410da40f61dd75599c18c082d41d2c194cfef8f9",
+        "size_bytes": 37128,
+        "n_records": null
+      },
+      {
+        "path": "data/global_subjects/keckley/spec_production.md",
+        "sha256": "ce3af4e250dd266d2db330204e816abb025fc5caef56d5bd0c23e205f3dbbb94",
+        "size_bytes": 37537,
+        "n_records": null
+      },
+      {
+        "path": "data/global_subjects/yung_wing/spec_production.md",
+        "sha256": "c915a6425a742b7b25a03cfc33e3044121ad9b4f435cd21793c53809430213a1",
+        "size_bytes": 37347,
+        "n_records": null
+      }
+    ],
+    "judges_present_per_subject_per_condition": {
+      "hamerton": {
+        "C5": 5,
+        "C2a": 5,
+        "C4": 5,
+        "C4a": 5,
+        "C8": 5,
+        "C9": 5
+      },
+      "sunity_devee": {
+        "C5": 5,
+        "C2a": 5,
+        "C4": 5,
+        "C4a": 5,
+        "C8": 5,
+        "C9": 5
+      },
+      "ebers": {
+        "C5": 5,
+        "C2a": 5,
+        "C4": 5,
+        "C4a": 5,
+        "C8": 5,
+        "C9": 5
+      },
+      "fukuzawa": {
+        "C5": 5,
+        "C2a": 5,
+        "C4": 5,
+        "C4a": 5,
+        "C8": 5,
+        "C9": 5
+      },
+      "bernal_diaz": {
+        "C5": 5,
+        "C2a": 5,
+        "C4": 5,
+        "C4a": 5,
+        "C8": 5,
+        "C9": 5
+      },
+      "babur": {
+        "C5": 5,
+        "C2a": 5,
+        "C4": 5,
+        "C4a": 5,
+        "C8": 5,
+        "C9": 0
+      },
+      "seacole": {
+        "C5": 5,
+        "C2a": 5,
+        "C4": 5,
+        "C4a": 5,
+        "C8": 5,
+        "C9": 5
+      },
+      "keckley": {
+        "C5": 5,
+        "C2a": 5,
+        "C4": 5,
+        "C4a": 5,
+        "C8": 5,
+        "C9": 5
+      },
+      "yung_wing": {
+        "C5": 5,
+        "C2a": 5,
+        "C4": 5,
+        "C4a": 5,
+        "C8": 5,
+        "C9": 5
+      },
+      "zitkala_sa": {
+        "C5": 5,
+        "C2a": 5,
+        "C4": 5,
+        "C4a": 5,
+        "C8": 5,
+        "C9": 5
+      },
+      "cellini": {
+        "C5": 5,
+        "C2a": 5,
+        "C4": 5,
+        "C4a": 5,
+        "C8": 5,
+        "C9": 5
+      },
+      "rousseau": {
+        "C5": 5,
+        "C2a": 5,
+        "C4": 5,
+        "C4a": 5,
+        "C8": 5,
+        "C9": 5
+      },
+      "augustine": {
+        "C5": 5,
+        "C2a": 5,
+        "C4": 5,
+        "C4a": 5,
+        "C8": 5,
+        "C9": 5
+      },
+      "equiano": {
+        "C5": 5,
+        "C2a": 5,
+        "C4": 5,
+        "C4a": 5,
+        "C8": 5,
+        "C9": 5
+      }
+    },
+    "notes": [
+      "training.txt files are not in the repo; corpus tokens are an approximation (source_words * 1.30) for reproducing the §4.2 (~tokens) hint only. The compression-ratio denominator comes from the locked §3.2 source-word counts.",
+      "Babur's C9 was excluded at experiment time because the 422,772-word corpus plus the specification exceeded the response model's context window. Babur's C8 was run on a 100K-word truncation (truncated=True in c8_c9_results.json).",
+      "Paper §4.2 mean-row prints C5 = 1.52 (8-row aggregate dropping Babur), inconsistent with the C2a/C4/C8/C4a printed values which are 9-row aggregates. The 9-row C5 aggregate is 1.55. The 8-row C5 (drop Babur) is 1.52. The downstream consequence: paper paragraph 3 prints +0.68 spec lift (uses C5=1.55) and the bullet list prints +0.71 (uses C5=1.52). The script emits +0.68 as canonical (4_2_low_baseline_spec_lift_mean) and verifies against both paper sites."
+    ]
+  }
+}

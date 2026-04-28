@@ -1,0 +1,5344 @@
+{
+  "schema_version": "v11.0",
+  "section": "Appendix B",
+  "aggregation_rule": "5-judge primary panel (haiku, sonnet, opus, gpt4o, gpt54). Per-judge per-question score -> per-judge per-(subject, condition, question) mean -> panel mean. Per-question Delta_spec = panel(C2a_full_spec) - panel(C5_baseline) when all 5 panel judges have data on both conditions for that question.",
+  "panel": [
+    "haiku",
+    "sonnet",
+    "opus",
+    "gpt4o",
+    "gpt54"
+  ],
+  "claims": {
+    "appB_2_augustine_decisions_count": {
+      "value": 6,
+      "estimand": "count of behavioral-prediction questions in category 'decisions' for subject 'augustine'",
+      "contrast": null,
+      "filters": {
+        "subject": "augustine",
+        "tier": "behavioral_prediction",
+        "category": "decisions"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_augustine_values_count": {
+      "value": 7,
+      "estimand": "count of behavioral-prediction questions in category 'values' for subject 'augustine'",
+      "contrast": null,
+      "filters": {
+        "subject": "augustine",
+        "tier": "behavioral_prediction",
+        "category": "values"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_augustine_relationships_count": {
+      "value": 4,
+      "estimand": "count of behavioral-prediction questions in category 'relationships' for subject 'augustine'",
+      "contrast": null,
+      "filters": {
+        "subject": "augustine",
+        "tier": "behavioral_prediction",
+        "category": "relationships"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_augustine_conflict_count": {
+      "value": 5,
+      "estimand": "count of behavioral-prediction questions in category 'conflict' for subject 'augustine'",
+      "contrast": null,
+      "filters": {
+        "subject": "augustine",
+        "tier": "behavioral_prediction",
+        "category": "conflict"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_augustine_learning_count": {
+      "value": 9,
+      "estimand": "count of behavioral-prediction questions in category 'learning' for subject 'augustine'",
+      "contrast": null,
+      "filters": {
+        "subject": "augustine",
+        "tier": "behavioral_prediction",
+        "category": "learning"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_augustine_risk_count": {
+      "value": 0,
+      "estimand": "count of behavioral-prediction questions in category 'risk' for subject 'augustine'",
+      "contrast": null,
+      "filters": {
+        "subject": "augustine",
+        "tier": "behavioral_prediction",
+        "category": "risk"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_augustine_creativity_count": {
+      "value": 3,
+      "estimand": "count of behavioral-prediction questions in category 'creativity' for subject 'augustine'",
+      "contrast": null,
+      "filters": {
+        "subject": "augustine",
+        "tier": "behavioral_prediction",
+        "category": "creativity"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_augustine_stress_count": {
+      "value": 3,
+      "estimand": "count of behavioral-prediction questions in category 'stress' for subject 'augustine'",
+      "contrast": null,
+      "filters": {
+        "subject": "augustine",
+        "tier": "behavioral_prediction",
+        "category": "stress"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_augustine_career_count": {
+      "value": 0,
+      "estimand": "count of behavioral-prediction questions in category 'career' for subject 'augustine'",
+      "contrast": null,
+      "filters": {
+        "subject": "augustine",
+        "tier": "behavioral_prediction",
+        "category": "career"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_augustine_change_over_time_count": {
+      "value": 2,
+      "estimand": "count of behavioral-prediction questions in category 'change_over_time' for subject 'augustine'",
+      "contrast": null,
+      "filters": {
+        "subject": "augustine",
+        "tier": "behavioral_prediction",
+        "category": "change_over_time"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_augustine_total": {
+      "value": 39,
+      "estimand": "total behavioral-prediction questions for subject 'augustine'",
+      "contrast": null,
+      "filters": {
+        "subject": "augustine",
+        "tier": "behavioral_prediction"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_babur_decisions_count": {
+      "value": 9,
+      "estimand": "count of behavioral-prediction questions in category 'decisions' for subject 'babur'",
+      "contrast": null,
+      "filters": {
+        "subject": "babur",
+        "tier": "behavioral_prediction",
+        "category": "decisions"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_babur_values_count": {
+      "value": 6,
+      "estimand": "count of behavioral-prediction questions in category 'values' for subject 'babur'",
+      "contrast": null,
+      "filters": {
+        "subject": "babur",
+        "tier": "behavioral_prediction",
+        "category": "values"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_babur_relationships_count": {
+      "value": 8,
+      "estimand": "count of behavioral-prediction questions in category 'relationships' for subject 'babur'",
+      "contrast": null,
+      "filters": {
+        "subject": "babur",
+        "tier": "behavioral_prediction",
+        "category": "relationships"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_babur_conflict_count": {
+      "value": 4,
+      "estimand": "count of behavioral-prediction questions in category 'conflict' for subject 'babur'",
+      "contrast": null,
+      "filters": {
+        "subject": "babur",
+        "tier": "behavioral_prediction",
+        "category": "conflict"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_babur_learning_count": {
+      "value": 3,
+      "estimand": "count of behavioral-prediction questions in category 'learning' for subject 'babur'",
+      "contrast": null,
+      "filters": {
+        "subject": "babur",
+        "tier": "behavioral_prediction",
+        "category": "learning"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_babur_risk_count": {
+      "value": 1,
+      "estimand": "count of behavioral-prediction questions in category 'risk' for subject 'babur'",
+      "contrast": null,
+      "filters": {
+        "subject": "babur",
+        "tier": "behavioral_prediction",
+        "category": "risk"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_babur_creativity_count": {
+      "value": 2,
+      "estimand": "count of behavioral-prediction questions in category 'creativity' for subject 'babur'",
+      "contrast": null,
+      "filters": {
+        "subject": "babur",
+        "tier": "behavioral_prediction",
+        "category": "creativity"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_babur_stress_count": {
+      "value": 3,
+      "estimand": "count of behavioral-prediction questions in category 'stress' for subject 'babur'",
+      "contrast": null,
+      "filters": {
+        "subject": "babur",
+        "tier": "behavioral_prediction",
+        "category": "stress"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_babur_career_count": {
+      "value": 2,
+      "estimand": "count of behavioral-prediction questions in category 'career' for subject 'babur'",
+      "contrast": null,
+      "filters": {
+        "subject": "babur",
+        "tier": "behavioral_prediction",
+        "category": "career"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_babur_change_over_time_count": {
+      "value": 1,
+      "estimand": "count of behavioral-prediction questions in category 'change_over_time' for subject 'babur'",
+      "contrast": null,
+      "filters": {
+        "subject": "babur",
+        "tier": "behavioral_prediction",
+        "category": "change_over_time"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_babur_total": {
+      "value": 39,
+      "estimand": "total behavioral-prediction questions for subject 'babur'",
+      "contrast": null,
+      "filters": {
+        "subject": "babur",
+        "tier": "behavioral_prediction"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_bernal_diaz_decisions_count": {
+      "value": 8,
+      "estimand": "count of behavioral-prediction questions in category 'decisions' for subject 'bernal_diaz'",
+      "contrast": null,
+      "filters": {
+        "subject": "bernal_diaz",
+        "tier": "behavioral_prediction",
+        "category": "decisions"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_bernal_diaz_values_count": {
+      "value": 8,
+      "estimand": "count of behavioral-prediction questions in category 'values' for subject 'bernal_diaz'",
+      "contrast": null,
+      "filters": {
+        "subject": "bernal_diaz",
+        "tier": "behavioral_prediction",
+        "category": "values"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_bernal_diaz_relationships_count": {
+      "value": 4,
+      "estimand": "count of behavioral-prediction questions in category 'relationships' for subject 'bernal_diaz'",
+      "contrast": null,
+      "filters": {
+        "subject": "bernal_diaz",
+        "tier": "behavioral_prediction",
+        "category": "relationships"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_bernal_diaz_conflict_count": {
+      "value": 5,
+      "estimand": "count of behavioral-prediction questions in category 'conflict' for subject 'bernal_diaz'",
+      "contrast": null,
+      "filters": {
+        "subject": "bernal_diaz",
+        "tier": "behavioral_prediction",
+        "category": "conflict"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_bernal_diaz_learning_count": {
+      "value": 5,
+      "estimand": "count of behavioral-prediction questions in category 'learning' for subject 'bernal_diaz'",
+      "contrast": null,
+      "filters": {
+        "subject": "bernal_diaz",
+        "tier": "behavioral_prediction",
+        "category": "learning"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_bernal_diaz_risk_count": {
+      "value": 3,
+      "estimand": "count of behavioral-prediction questions in category 'risk' for subject 'bernal_diaz'",
+      "contrast": null,
+      "filters": {
+        "subject": "bernal_diaz",
+        "tier": "behavioral_prediction",
+        "category": "risk"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_bernal_diaz_creativity_count": {
+      "value": 0,
+      "estimand": "count of behavioral-prediction questions in category 'creativity' for subject 'bernal_diaz'",
+      "contrast": null,
+      "filters": {
+        "subject": "bernal_diaz",
+        "tier": "behavioral_prediction",
+        "category": "creativity"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_bernal_diaz_stress_count": {
+      "value": 5,
+      "estimand": "count of behavioral-prediction questions in category 'stress' for subject 'bernal_diaz'",
+      "contrast": null,
+      "filters": {
+        "subject": "bernal_diaz",
+        "tier": "behavioral_prediction",
+        "category": "stress"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_bernal_diaz_career_count": {
+      "value": 0,
+      "estimand": "count of behavioral-prediction questions in category 'career' for subject 'bernal_diaz'",
+      "contrast": null,
+      "filters": {
+        "subject": "bernal_diaz",
+        "tier": "behavioral_prediction",
+        "category": "career"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_bernal_diaz_change_over_time_count": {
+      "value": 1,
+      "estimand": "count of behavioral-prediction questions in category 'change_over_time' for subject 'bernal_diaz'",
+      "contrast": null,
+      "filters": {
+        "subject": "bernal_diaz",
+        "tier": "behavioral_prediction",
+        "category": "change_over_time"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_bernal_diaz_total": {
+      "value": 39,
+      "estimand": "total behavioral-prediction questions for subject 'bernal_diaz'",
+      "contrast": null,
+      "filters": {
+        "subject": "bernal_diaz",
+        "tier": "behavioral_prediction"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_cellini_decisions_count": {
+      "value": 5,
+      "estimand": "count of behavioral-prediction questions in category 'decisions' for subject 'cellini'",
+      "contrast": null,
+      "filters": {
+        "subject": "cellini",
+        "tier": "behavioral_prediction",
+        "category": "decisions"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_cellini_values_count": {
+      "value": 6,
+      "estimand": "count of behavioral-prediction questions in category 'values' for subject 'cellini'",
+      "contrast": null,
+      "filters": {
+        "subject": "cellini",
+        "tier": "behavioral_prediction",
+        "category": "values"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_cellini_relationships_count": {
+      "value": 5,
+      "estimand": "count of behavioral-prediction questions in category 'relationships' for subject 'cellini'",
+      "contrast": null,
+      "filters": {
+        "subject": "cellini",
+        "tier": "behavioral_prediction",
+        "category": "relationships"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_cellini_conflict_count": {
+      "value": 4,
+      "estimand": "count of behavioral-prediction questions in category 'conflict' for subject 'cellini'",
+      "contrast": null,
+      "filters": {
+        "subject": "cellini",
+        "tier": "behavioral_prediction",
+        "category": "conflict"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_cellini_learning_count": {
+      "value": 3,
+      "estimand": "count of behavioral-prediction questions in category 'learning' for subject 'cellini'",
+      "contrast": null,
+      "filters": {
+        "subject": "cellini",
+        "tier": "behavioral_prediction",
+        "category": "learning"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_cellini_risk_count": {
+      "value": 1,
+      "estimand": "count of behavioral-prediction questions in category 'risk' for subject 'cellini'",
+      "contrast": null,
+      "filters": {
+        "subject": "cellini",
+        "tier": "behavioral_prediction",
+        "category": "risk"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_cellini_creativity_count": {
+      "value": 4,
+      "estimand": "count of behavioral-prediction questions in category 'creativity' for subject 'cellini'",
+      "contrast": null,
+      "filters": {
+        "subject": "cellini",
+        "tier": "behavioral_prediction",
+        "category": "creativity"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_cellini_stress_count": {
+      "value": 5,
+      "estimand": "count of behavioral-prediction questions in category 'stress' for subject 'cellini'",
+      "contrast": null,
+      "filters": {
+        "subject": "cellini",
+        "tier": "behavioral_prediction",
+        "category": "stress"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_cellini_career_count": {
+      "value": 4,
+      "estimand": "count of behavioral-prediction questions in category 'career' for subject 'cellini'",
+      "contrast": null,
+      "filters": {
+        "subject": "cellini",
+        "tier": "behavioral_prediction",
+        "category": "career"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_cellini_change_over_time_count": {
+      "value": 2,
+      "estimand": "count of behavioral-prediction questions in category 'change_over_time' for subject 'cellini'",
+      "contrast": null,
+      "filters": {
+        "subject": "cellini",
+        "tier": "behavioral_prediction",
+        "category": "change_over_time"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_cellini_total": {
+      "value": 39,
+      "estimand": "total behavioral-prediction questions for subject 'cellini'",
+      "contrast": null,
+      "filters": {
+        "subject": "cellini",
+        "tier": "behavioral_prediction"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_ebers_decisions_count": {
+      "value": 4,
+      "estimand": "count of behavioral-prediction questions in category 'decisions' for subject 'ebers'",
+      "contrast": null,
+      "filters": {
+        "subject": "ebers",
+        "tier": "behavioral_prediction",
+        "category": "decisions"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_ebers_values_count": {
+      "value": 8,
+      "estimand": "count of behavioral-prediction questions in category 'values' for subject 'ebers'",
+      "contrast": null,
+      "filters": {
+        "subject": "ebers",
+        "tier": "behavioral_prediction",
+        "category": "values"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_ebers_relationships_count": {
+      "value": 3,
+      "estimand": "count of behavioral-prediction questions in category 'relationships' for subject 'ebers'",
+      "contrast": null,
+      "filters": {
+        "subject": "ebers",
+        "tier": "behavioral_prediction",
+        "category": "relationships"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_ebers_conflict_count": {
+      "value": 4,
+      "estimand": "count of behavioral-prediction questions in category 'conflict' for subject 'ebers'",
+      "contrast": null,
+      "filters": {
+        "subject": "ebers",
+        "tier": "behavioral_prediction",
+        "category": "conflict"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_ebers_learning_count": {
+      "value": 6,
+      "estimand": "count of behavioral-prediction questions in category 'learning' for subject 'ebers'",
+      "contrast": null,
+      "filters": {
+        "subject": "ebers",
+        "tier": "behavioral_prediction",
+        "category": "learning"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_ebers_risk_count": {
+      "value": 0,
+      "estimand": "count of behavioral-prediction questions in category 'risk' for subject 'ebers'",
+      "contrast": null,
+      "filters": {
+        "subject": "ebers",
+        "tier": "behavioral_prediction",
+        "category": "risk"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_ebers_creativity_count": {
+      "value": 6,
+      "estimand": "count of behavioral-prediction questions in category 'creativity' for subject 'ebers'",
+      "contrast": null,
+      "filters": {
+        "subject": "ebers",
+        "tier": "behavioral_prediction",
+        "category": "creativity"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_ebers_stress_count": {
+      "value": 3,
+      "estimand": "count of behavioral-prediction questions in category 'stress' for subject 'ebers'",
+      "contrast": null,
+      "filters": {
+        "subject": "ebers",
+        "tier": "behavioral_prediction",
+        "category": "stress"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_ebers_career_count": {
+      "value": 1,
+      "estimand": "count of behavioral-prediction questions in category 'career' for subject 'ebers'",
+      "contrast": null,
+      "filters": {
+        "subject": "ebers",
+        "tier": "behavioral_prediction",
+        "category": "career"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_ebers_change_over_time_count": {
+      "value": 4,
+      "estimand": "count of behavioral-prediction questions in category 'change_over_time' for subject 'ebers'",
+      "contrast": null,
+      "filters": {
+        "subject": "ebers",
+        "tier": "behavioral_prediction",
+        "category": "change_over_time"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_ebers_total": {
+      "value": 39,
+      "estimand": "total behavioral-prediction questions for subject 'ebers'",
+      "contrast": null,
+      "filters": {
+        "subject": "ebers",
+        "tier": "behavioral_prediction"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_equiano_decisions_count": {
+      "value": 5,
+      "estimand": "count of behavioral-prediction questions in category 'decisions' for subject 'equiano'",
+      "contrast": null,
+      "filters": {
+        "subject": "equiano",
+        "tier": "behavioral_prediction",
+        "category": "decisions"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_equiano_values_count": {
+      "value": 8,
+      "estimand": "count of behavioral-prediction questions in category 'values' for subject 'equiano'",
+      "contrast": null,
+      "filters": {
+        "subject": "equiano",
+        "tier": "behavioral_prediction",
+        "category": "values"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_equiano_relationships_count": {
+      "value": 4,
+      "estimand": "count of behavioral-prediction questions in category 'relationships' for subject 'equiano'",
+      "contrast": null,
+      "filters": {
+        "subject": "equiano",
+        "tier": "behavioral_prediction",
+        "category": "relationships"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_equiano_conflict_count": {
+      "value": 5,
+      "estimand": "count of behavioral-prediction questions in category 'conflict' for subject 'equiano'",
+      "contrast": null,
+      "filters": {
+        "subject": "equiano",
+        "tier": "behavioral_prediction",
+        "category": "conflict"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_equiano_learning_count": {
+      "value": 5,
+      "estimand": "count of behavioral-prediction questions in category 'learning' for subject 'equiano'",
+      "contrast": null,
+      "filters": {
+        "subject": "equiano",
+        "tier": "behavioral_prediction",
+        "category": "learning"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_equiano_risk_count": {
+      "value": 1,
+      "estimand": "count of behavioral-prediction questions in category 'risk' for subject 'equiano'",
+      "contrast": null,
+      "filters": {
+        "subject": "equiano",
+        "tier": "behavioral_prediction",
+        "category": "risk"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_equiano_creativity_count": {
+      "value": 0,
+      "estimand": "count of behavioral-prediction questions in category 'creativity' for subject 'equiano'",
+      "contrast": null,
+      "filters": {
+        "subject": "equiano",
+        "tier": "behavioral_prediction",
+        "category": "creativity"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_equiano_stress_count": {
+      "value": 8,
+      "estimand": "count of behavioral-prediction questions in category 'stress' for subject 'equiano'",
+      "contrast": null,
+      "filters": {
+        "subject": "equiano",
+        "tier": "behavioral_prediction",
+        "category": "stress"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_equiano_career_count": {
+      "value": 0,
+      "estimand": "count of behavioral-prediction questions in category 'career' for subject 'equiano'",
+      "contrast": null,
+      "filters": {
+        "subject": "equiano",
+        "tier": "behavioral_prediction",
+        "category": "career"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_equiano_change_over_time_count": {
+      "value": 3,
+      "estimand": "count of behavioral-prediction questions in category 'change_over_time' for subject 'equiano'",
+      "contrast": null,
+      "filters": {
+        "subject": "equiano",
+        "tier": "behavioral_prediction",
+        "category": "change_over_time"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_equiano_total": {
+      "value": 39,
+      "estimand": "total behavioral-prediction questions for subject 'equiano'",
+      "contrast": null,
+      "filters": {
+        "subject": "equiano",
+        "tier": "behavioral_prediction"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_fukuzawa_decisions_count": {
+      "value": 8,
+      "estimand": "count of behavioral-prediction questions in category 'decisions' for subject 'fukuzawa'",
+      "contrast": null,
+      "filters": {
+        "subject": "fukuzawa",
+        "tier": "behavioral_prediction",
+        "category": "decisions"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_fukuzawa_values_count": {
+      "value": 11,
+      "estimand": "count of behavioral-prediction questions in category 'values' for subject 'fukuzawa'",
+      "contrast": null,
+      "filters": {
+        "subject": "fukuzawa",
+        "tier": "behavioral_prediction",
+        "category": "values"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_fukuzawa_relationships_count": {
+      "value": 5,
+      "estimand": "count of behavioral-prediction questions in category 'relationships' for subject 'fukuzawa'",
+      "contrast": null,
+      "filters": {
+        "subject": "fukuzawa",
+        "tier": "behavioral_prediction",
+        "category": "relationships"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_fukuzawa_conflict_count": {
+      "value": 5,
+      "estimand": "count of behavioral-prediction questions in category 'conflict' for subject 'fukuzawa'",
+      "contrast": null,
+      "filters": {
+        "subject": "fukuzawa",
+        "tier": "behavioral_prediction",
+        "category": "conflict"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_fukuzawa_learning_count": {
+      "value": 3,
+      "estimand": "count of behavioral-prediction questions in category 'learning' for subject 'fukuzawa'",
+      "contrast": null,
+      "filters": {
+        "subject": "fukuzawa",
+        "tier": "behavioral_prediction",
+        "category": "learning"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_fukuzawa_risk_count": {
+      "value": 1,
+      "estimand": "count of behavioral-prediction questions in category 'risk' for subject 'fukuzawa'",
+      "contrast": null,
+      "filters": {
+        "subject": "fukuzawa",
+        "tier": "behavioral_prediction",
+        "category": "risk"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_fukuzawa_creativity_count": {
+      "value": 1,
+      "estimand": "count of behavioral-prediction questions in category 'creativity' for subject 'fukuzawa'",
+      "contrast": null,
+      "filters": {
+        "subject": "fukuzawa",
+        "tier": "behavioral_prediction",
+        "category": "creativity"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_fukuzawa_stress_count": {
+      "value": 2,
+      "estimand": "count of behavioral-prediction questions in category 'stress' for subject 'fukuzawa'",
+      "contrast": null,
+      "filters": {
+        "subject": "fukuzawa",
+        "tier": "behavioral_prediction",
+        "category": "stress"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_fukuzawa_career_count": {
+      "value": 0,
+      "estimand": "count of behavioral-prediction questions in category 'career' for subject 'fukuzawa'",
+      "contrast": null,
+      "filters": {
+        "subject": "fukuzawa",
+        "tier": "behavioral_prediction",
+        "category": "career"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_fukuzawa_change_over_time_count": {
+      "value": 3,
+      "estimand": "count of behavioral-prediction questions in category 'change_over_time' for subject 'fukuzawa'",
+      "contrast": null,
+      "filters": {
+        "subject": "fukuzawa",
+        "tier": "behavioral_prediction",
+        "category": "change_over_time"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_fukuzawa_total": {
+      "value": 39,
+      "estimand": "total behavioral-prediction questions for subject 'fukuzawa'",
+      "contrast": null,
+      "filters": {
+        "subject": "fukuzawa",
+        "tier": "behavioral_prediction"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_keckley_decisions_count": {
+      "value": 6,
+      "estimand": "count of behavioral-prediction questions in category 'decisions' for subject 'keckley'",
+      "contrast": null,
+      "filters": {
+        "subject": "keckley",
+        "tier": "behavioral_prediction",
+        "category": "decisions"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_keckley_values_count": {
+      "value": 7,
+      "estimand": "count of behavioral-prediction questions in category 'values' for subject 'keckley'",
+      "contrast": null,
+      "filters": {
+        "subject": "keckley",
+        "tier": "behavioral_prediction",
+        "category": "values"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_keckley_relationships_count": {
+      "value": 9,
+      "estimand": "count of behavioral-prediction questions in category 'relationships' for subject 'keckley'",
+      "contrast": null,
+      "filters": {
+        "subject": "keckley",
+        "tier": "behavioral_prediction",
+        "category": "relationships"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_keckley_conflict_count": {
+      "value": 6,
+      "estimand": "count of behavioral-prediction questions in category 'conflict' for subject 'keckley'",
+      "contrast": null,
+      "filters": {
+        "subject": "keckley",
+        "tier": "behavioral_prediction",
+        "category": "conflict"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_keckley_learning_count": {
+      "value": 4,
+      "estimand": "count of behavioral-prediction questions in category 'learning' for subject 'keckley'",
+      "contrast": null,
+      "filters": {
+        "subject": "keckley",
+        "tier": "behavioral_prediction",
+        "category": "learning"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_keckley_risk_count": {
+      "value": 1,
+      "estimand": "count of behavioral-prediction questions in category 'risk' for subject 'keckley'",
+      "contrast": null,
+      "filters": {
+        "subject": "keckley",
+        "tier": "behavioral_prediction",
+        "category": "risk"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_keckley_creativity_count": {
+      "value": 0,
+      "estimand": "count of behavioral-prediction questions in category 'creativity' for subject 'keckley'",
+      "contrast": null,
+      "filters": {
+        "subject": "keckley",
+        "tier": "behavioral_prediction",
+        "category": "creativity"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_keckley_stress_count": {
+      "value": 3,
+      "estimand": "count of behavioral-prediction questions in category 'stress' for subject 'keckley'",
+      "contrast": null,
+      "filters": {
+        "subject": "keckley",
+        "tier": "behavioral_prediction",
+        "category": "stress"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_keckley_career_count": {
+      "value": 2,
+      "estimand": "count of behavioral-prediction questions in category 'career' for subject 'keckley'",
+      "contrast": null,
+      "filters": {
+        "subject": "keckley",
+        "tier": "behavioral_prediction",
+        "category": "career"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_keckley_change_over_time_count": {
+      "value": 1,
+      "estimand": "count of behavioral-prediction questions in category 'change_over_time' for subject 'keckley'",
+      "contrast": null,
+      "filters": {
+        "subject": "keckley",
+        "tier": "behavioral_prediction",
+        "category": "change_over_time"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_keckley_total": {
+      "value": 39,
+      "estimand": "total behavioral-prediction questions for subject 'keckley'",
+      "contrast": null,
+      "filters": {
+        "subject": "keckley",
+        "tier": "behavioral_prediction"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_rousseau_decisions_count": {
+      "value": 5,
+      "estimand": "count of behavioral-prediction questions in category 'decisions' for subject 'rousseau'",
+      "contrast": null,
+      "filters": {
+        "subject": "rousseau",
+        "tier": "behavioral_prediction",
+        "category": "decisions"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_rousseau_values_count": {
+      "value": 6,
+      "estimand": "count of behavioral-prediction questions in category 'values' for subject 'rousseau'",
+      "contrast": null,
+      "filters": {
+        "subject": "rousseau",
+        "tier": "behavioral_prediction",
+        "category": "values"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_rousseau_relationships_count": {
+      "value": 9,
+      "estimand": "count of behavioral-prediction questions in category 'relationships' for subject 'rousseau'",
+      "contrast": null,
+      "filters": {
+        "subject": "rousseau",
+        "tier": "behavioral_prediction",
+        "category": "relationships"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_rousseau_conflict_count": {
+      "value": 6,
+      "estimand": "count of behavioral-prediction questions in category 'conflict' for subject 'rousseau'",
+      "contrast": null,
+      "filters": {
+        "subject": "rousseau",
+        "tier": "behavioral_prediction",
+        "category": "conflict"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_rousseau_learning_count": {
+      "value": 5,
+      "estimand": "count of behavioral-prediction questions in category 'learning' for subject 'rousseau'",
+      "contrast": null,
+      "filters": {
+        "subject": "rousseau",
+        "tier": "behavioral_prediction",
+        "category": "learning"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_rousseau_risk_count": {
+      "value": 1,
+      "estimand": "count of behavioral-prediction questions in category 'risk' for subject 'rousseau'",
+      "contrast": null,
+      "filters": {
+        "subject": "rousseau",
+        "tier": "behavioral_prediction",
+        "category": "risk"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_rousseau_creativity_count": {
+      "value": 1,
+      "estimand": "count of behavioral-prediction questions in category 'creativity' for subject 'rousseau'",
+      "contrast": null,
+      "filters": {
+        "subject": "rousseau",
+        "tier": "behavioral_prediction",
+        "category": "creativity"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_rousseau_stress_count": {
+      "value": 4,
+      "estimand": "count of behavioral-prediction questions in category 'stress' for subject 'rousseau'",
+      "contrast": null,
+      "filters": {
+        "subject": "rousseau",
+        "tier": "behavioral_prediction",
+        "category": "stress"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_rousseau_career_count": {
+      "value": 1,
+      "estimand": "count of behavioral-prediction questions in category 'career' for subject 'rousseau'",
+      "contrast": null,
+      "filters": {
+        "subject": "rousseau",
+        "tier": "behavioral_prediction",
+        "category": "career"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_rousseau_change_over_time_count": {
+      "value": 1,
+      "estimand": "count of behavioral-prediction questions in category 'change_over_time' for subject 'rousseau'",
+      "contrast": null,
+      "filters": {
+        "subject": "rousseau",
+        "tier": "behavioral_prediction",
+        "category": "change_over_time"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_rousseau_total": {
+      "value": 39,
+      "estimand": "total behavioral-prediction questions for subject 'rousseau'",
+      "contrast": null,
+      "filters": {
+        "subject": "rousseau",
+        "tier": "behavioral_prediction"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_seacole_decisions_count": {
+      "value": 7,
+      "estimand": "count of behavioral-prediction questions in category 'decisions' for subject 'seacole'",
+      "contrast": null,
+      "filters": {
+        "subject": "seacole",
+        "tier": "behavioral_prediction",
+        "category": "decisions"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_seacole_values_count": {
+      "value": 10,
+      "estimand": "count of behavioral-prediction questions in category 'values' for subject 'seacole'",
+      "contrast": null,
+      "filters": {
+        "subject": "seacole",
+        "tier": "behavioral_prediction",
+        "category": "values"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_seacole_relationships_count": {
+      "value": 7,
+      "estimand": "count of behavioral-prediction questions in category 'relationships' for subject 'seacole'",
+      "contrast": null,
+      "filters": {
+        "subject": "seacole",
+        "tier": "behavioral_prediction",
+        "category": "relationships"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_seacole_conflict_count": {
+      "value": 1,
+      "estimand": "count of behavioral-prediction questions in category 'conflict' for subject 'seacole'",
+      "contrast": null,
+      "filters": {
+        "subject": "seacole",
+        "tier": "behavioral_prediction",
+        "category": "conflict"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_seacole_learning_count": {
+      "value": 3,
+      "estimand": "count of behavioral-prediction questions in category 'learning' for subject 'seacole'",
+      "contrast": null,
+      "filters": {
+        "subject": "seacole",
+        "tier": "behavioral_prediction",
+        "category": "learning"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_seacole_risk_count": {
+      "value": 1,
+      "estimand": "count of behavioral-prediction questions in category 'risk' for subject 'seacole'",
+      "contrast": null,
+      "filters": {
+        "subject": "seacole",
+        "tier": "behavioral_prediction",
+        "category": "risk"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_seacole_creativity_count": {
+      "value": 2,
+      "estimand": "count of behavioral-prediction questions in category 'creativity' for subject 'seacole'",
+      "contrast": null,
+      "filters": {
+        "subject": "seacole",
+        "tier": "behavioral_prediction",
+        "category": "creativity"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_seacole_stress_count": {
+      "value": 6,
+      "estimand": "count of behavioral-prediction questions in category 'stress' for subject 'seacole'",
+      "contrast": null,
+      "filters": {
+        "subject": "seacole",
+        "tier": "behavioral_prediction",
+        "category": "stress"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_seacole_career_count": {
+      "value": 2,
+      "estimand": "count of behavioral-prediction questions in category 'career' for subject 'seacole'",
+      "contrast": null,
+      "filters": {
+        "subject": "seacole",
+        "tier": "behavioral_prediction",
+        "category": "career"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_seacole_change_over_time_count": {
+      "value": 0,
+      "estimand": "count of behavioral-prediction questions in category 'change_over_time' for subject 'seacole'",
+      "contrast": null,
+      "filters": {
+        "subject": "seacole",
+        "tier": "behavioral_prediction",
+        "category": "change_over_time"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_seacole_total": {
+      "value": 39,
+      "estimand": "total behavioral-prediction questions for subject 'seacole'",
+      "contrast": null,
+      "filters": {
+        "subject": "seacole",
+        "tier": "behavioral_prediction"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_sunity_devee_decisions_count": {
+      "value": 4,
+      "estimand": "count of behavioral-prediction questions in category 'decisions' for subject 'sunity_devee'",
+      "contrast": null,
+      "filters": {
+        "subject": "sunity_devee",
+        "tier": "behavioral_prediction",
+        "category": "decisions"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_sunity_devee_values_count": {
+      "value": 9,
+      "estimand": "count of behavioral-prediction questions in category 'values' for subject 'sunity_devee'",
+      "contrast": null,
+      "filters": {
+        "subject": "sunity_devee",
+        "tier": "behavioral_prediction",
+        "category": "values"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_sunity_devee_relationships_count": {
+      "value": 6,
+      "estimand": "count of behavioral-prediction questions in category 'relationships' for subject 'sunity_devee'",
+      "contrast": null,
+      "filters": {
+        "subject": "sunity_devee",
+        "tier": "behavioral_prediction",
+        "category": "relationships"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_sunity_devee_conflict_count": {
+      "value": 5,
+      "estimand": "count of behavioral-prediction questions in category 'conflict' for subject 'sunity_devee'",
+      "contrast": null,
+      "filters": {
+        "subject": "sunity_devee",
+        "tier": "behavioral_prediction",
+        "category": "conflict"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_sunity_devee_learning_count": {
+      "value": 5,
+      "estimand": "count of behavioral-prediction questions in category 'learning' for subject 'sunity_devee'",
+      "contrast": null,
+      "filters": {
+        "subject": "sunity_devee",
+        "tier": "behavioral_prediction",
+        "category": "learning"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_sunity_devee_risk_count": {
+      "value": 1,
+      "estimand": "count of behavioral-prediction questions in category 'risk' for subject 'sunity_devee'",
+      "contrast": null,
+      "filters": {
+        "subject": "sunity_devee",
+        "tier": "behavioral_prediction",
+        "category": "risk"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_sunity_devee_creativity_count": {
+      "value": 1,
+      "estimand": "count of behavioral-prediction questions in category 'creativity' for subject 'sunity_devee'",
+      "contrast": null,
+      "filters": {
+        "subject": "sunity_devee",
+        "tier": "behavioral_prediction",
+        "category": "creativity"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_sunity_devee_stress_count": {
+      "value": 6,
+      "estimand": "count of behavioral-prediction questions in category 'stress' for subject 'sunity_devee'",
+      "contrast": null,
+      "filters": {
+        "subject": "sunity_devee",
+        "tier": "behavioral_prediction",
+        "category": "stress"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_sunity_devee_career_count": {
+      "value": 0,
+      "estimand": "count of behavioral-prediction questions in category 'career' for subject 'sunity_devee'",
+      "contrast": null,
+      "filters": {
+        "subject": "sunity_devee",
+        "tier": "behavioral_prediction",
+        "category": "career"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_sunity_devee_change_over_time_count": {
+      "value": 2,
+      "estimand": "count of behavioral-prediction questions in category 'change_over_time' for subject 'sunity_devee'",
+      "contrast": null,
+      "filters": {
+        "subject": "sunity_devee",
+        "tier": "behavioral_prediction",
+        "category": "change_over_time"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_sunity_devee_total": {
+      "value": 39,
+      "estimand": "total behavioral-prediction questions for subject 'sunity_devee'",
+      "contrast": null,
+      "filters": {
+        "subject": "sunity_devee",
+        "tier": "behavioral_prediction"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_yung_wing_decisions_count": {
+      "value": 10,
+      "estimand": "count of behavioral-prediction questions in category 'decisions' for subject 'yung_wing'",
+      "contrast": null,
+      "filters": {
+        "subject": "yung_wing",
+        "tier": "behavioral_prediction",
+        "category": "decisions"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_yung_wing_values_count": {
+      "value": 8,
+      "estimand": "count of behavioral-prediction questions in category 'values' for subject 'yung_wing'",
+      "contrast": null,
+      "filters": {
+        "subject": "yung_wing",
+        "tier": "behavioral_prediction",
+        "category": "values"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_yung_wing_relationships_count": {
+      "value": 3,
+      "estimand": "count of behavioral-prediction questions in category 'relationships' for subject 'yung_wing'",
+      "contrast": null,
+      "filters": {
+        "subject": "yung_wing",
+        "tier": "behavioral_prediction",
+        "category": "relationships"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_yung_wing_conflict_count": {
+      "value": 3,
+      "estimand": "count of behavioral-prediction questions in category 'conflict' for subject 'yung_wing'",
+      "contrast": null,
+      "filters": {
+        "subject": "yung_wing",
+        "tier": "behavioral_prediction",
+        "category": "conflict"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_yung_wing_learning_count": {
+      "value": 3,
+      "estimand": "count of behavioral-prediction questions in category 'learning' for subject 'yung_wing'",
+      "contrast": null,
+      "filters": {
+        "subject": "yung_wing",
+        "tier": "behavioral_prediction",
+        "category": "learning"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_yung_wing_risk_count": {
+      "value": 1,
+      "estimand": "count of behavioral-prediction questions in category 'risk' for subject 'yung_wing'",
+      "contrast": null,
+      "filters": {
+        "subject": "yung_wing",
+        "tier": "behavioral_prediction",
+        "category": "risk"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_yung_wing_creativity_count": {
+      "value": 3,
+      "estimand": "count of behavioral-prediction questions in category 'creativity' for subject 'yung_wing'",
+      "contrast": null,
+      "filters": {
+        "subject": "yung_wing",
+        "tier": "behavioral_prediction",
+        "category": "creativity"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_yung_wing_stress_count": {
+      "value": 2,
+      "estimand": "count of behavioral-prediction questions in category 'stress' for subject 'yung_wing'",
+      "contrast": null,
+      "filters": {
+        "subject": "yung_wing",
+        "tier": "behavioral_prediction",
+        "category": "stress"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_yung_wing_career_count": {
+      "value": 5,
+      "estimand": "count of behavioral-prediction questions in category 'career' for subject 'yung_wing'",
+      "contrast": null,
+      "filters": {
+        "subject": "yung_wing",
+        "tier": "behavioral_prediction",
+        "category": "career"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_yung_wing_change_over_time_count": {
+      "value": 1,
+      "estimand": "count of behavioral-prediction questions in category 'change_over_time' for subject 'yung_wing'",
+      "contrast": null,
+      "filters": {
+        "subject": "yung_wing",
+        "tier": "behavioral_prediction",
+        "category": "change_over_time"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_yung_wing_total": {
+      "value": 39,
+      "estimand": "total behavioral-prediction questions for subject 'yung_wing'",
+      "contrast": null,
+      "filters": {
+        "subject": "yung_wing",
+        "tier": "behavioral_prediction"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_zitkala_sa_decisions_count": {
+      "value": 4,
+      "estimand": "count of behavioral-prediction questions in category 'decisions' for subject 'zitkala_sa'",
+      "contrast": null,
+      "filters": {
+        "subject": "zitkala_sa",
+        "tier": "behavioral_prediction",
+        "category": "decisions"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_zitkala_sa_values_count": {
+      "value": 11,
+      "estimand": "count of behavioral-prediction questions in category 'values' for subject 'zitkala_sa'",
+      "contrast": null,
+      "filters": {
+        "subject": "zitkala_sa",
+        "tier": "behavioral_prediction",
+        "category": "values"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_zitkala_sa_relationships_count": {
+      "value": 6,
+      "estimand": "count of behavioral-prediction questions in category 'relationships' for subject 'zitkala_sa'",
+      "contrast": null,
+      "filters": {
+        "subject": "zitkala_sa",
+        "tier": "behavioral_prediction",
+        "category": "relationships"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_zitkala_sa_conflict_count": {
+      "value": 5,
+      "estimand": "count of behavioral-prediction questions in category 'conflict' for subject 'zitkala_sa'",
+      "contrast": null,
+      "filters": {
+        "subject": "zitkala_sa",
+        "tier": "behavioral_prediction",
+        "category": "conflict"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_zitkala_sa_learning_count": {
+      "value": 4,
+      "estimand": "count of behavioral-prediction questions in category 'learning' for subject 'zitkala_sa'",
+      "contrast": null,
+      "filters": {
+        "subject": "zitkala_sa",
+        "tier": "behavioral_prediction",
+        "category": "learning"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_zitkala_sa_risk_count": {
+      "value": 0,
+      "estimand": "count of behavioral-prediction questions in category 'risk' for subject 'zitkala_sa'",
+      "contrast": null,
+      "filters": {
+        "subject": "zitkala_sa",
+        "tier": "behavioral_prediction",
+        "category": "risk"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_zitkala_sa_creativity_count": {
+      "value": 3,
+      "estimand": "count of behavioral-prediction questions in category 'creativity' for subject 'zitkala_sa'",
+      "contrast": null,
+      "filters": {
+        "subject": "zitkala_sa",
+        "tier": "behavioral_prediction",
+        "category": "creativity"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_zitkala_sa_stress_count": {
+      "value": 4,
+      "estimand": "count of behavioral-prediction questions in category 'stress' for subject 'zitkala_sa'",
+      "contrast": null,
+      "filters": {
+        "subject": "zitkala_sa",
+        "tier": "behavioral_prediction",
+        "category": "stress"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_zitkala_sa_career_count": {
+      "value": 0,
+      "estimand": "count of behavioral-prediction questions in category 'career' for subject 'zitkala_sa'",
+      "contrast": null,
+      "filters": {
+        "subject": "zitkala_sa",
+        "tier": "behavioral_prediction",
+        "category": "career"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_zitkala_sa_change_over_time_count": {
+      "value": 2,
+      "estimand": "count of behavioral-prediction questions in category 'change_over_time' for subject 'zitkala_sa'",
+      "contrast": null,
+      "filters": {
+        "subject": "zitkala_sa",
+        "tier": "behavioral_prediction",
+        "category": "change_over_time"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_zitkala_sa_total": {
+      "value": 39,
+      "estimand": "total behavioral-prediction questions for subject 'zitkala_sa'",
+      "contrast": null,
+      "filters": {
+        "subject": "zitkala_sa",
+        "tier": "behavioral_prediction"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_hamerton_decisions_count": {
+      "value": 6,
+      "estimand": "count of behavioral-prediction questions in category 'decisions' for subject 'hamerton'",
+      "contrast": null,
+      "filters": {
+        "subject": "hamerton",
+        "tier": "behavioral_prediction",
+        "category": "decisions"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_hamerton_values_count": {
+      "value": 4,
+      "estimand": "count of behavioral-prediction questions in category 'values' for subject 'hamerton'",
+      "contrast": null,
+      "filters": {
+        "subject": "hamerton",
+        "tier": "behavioral_prediction",
+        "category": "values"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_hamerton_relationships_count": {
+      "value": 6,
+      "estimand": "count of behavioral-prediction questions in category 'relationships' for subject 'hamerton'",
+      "contrast": null,
+      "filters": {
+        "subject": "hamerton",
+        "tier": "behavioral_prediction",
+        "category": "relationships"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_hamerton_conflict_count": {
+      "value": 4,
+      "estimand": "count of behavioral-prediction questions in category 'conflict' for subject 'hamerton'",
+      "contrast": null,
+      "filters": {
+        "subject": "hamerton",
+        "tier": "behavioral_prediction",
+        "category": "conflict"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_hamerton_learning_count": {
+      "value": 4,
+      "estimand": "count of behavioral-prediction questions in category 'learning' for subject 'hamerton'",
+      "contrast": null,
+      "filters": {
+        "subject": "hamerton",
+        "tier": "behavioral_prediction",
+        "category": "learning"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_hamerton_risk_count": {
+      "value": 3,
+      "estimand": "count of behavioral-prediction questions in category 'risk' for subject 'hamerton'",
+      "contrast": null,
+      "filters": {
+        "subject": "hamerton",
+        "tier": "behavioral_prediction",
+        "category": "risk"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_hamerton_creativity_count": {
+      "value": 4,
+      "estimand": "count of behavioral-prediction questions in category 'creativity' for subject 'hamerton'",
+      "contrast": null,
+      "filters": {
+        "subject": "hamerton",
+        "tier": "behavioral_prediction",
+        "category": "creativity"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_hamerton_stress_count": {
+      "value": 3,
+      "estimand": "count of behavioral-prediction questions in category 'stress' for subject 'hamerton'",
+      "contrast": null,
+      "filters": {
+        "subject": "hamerton",
+        "tier": "behavioral_prediction",
+        "category": "stress"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_hamerton_career_count": {
+      "value": 3,
+      "estimand": "count of behavioral-prediction questions in category 'career' for subject 'hamerton'",
+      "contrast": null,
+      "filters": {
+        "subject": "hamerton",
+        "tier": "behavioral_prediction",
+        "category": "career"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_hamerton_change_over_time_count": {
+      "value": 2,
+      "estimand": "count of behavioral-prediction questions in category 'change_over_time' for subject 'hamerton'",
+      "contrast": null,
+      "filters": {
+        "subject": "hamerton",
+        "tier": "behavioral_prediction",
+        "category": "change_over_time"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_hamerton_total": {
+      "value": 39,
+      "estimand": "total behavioral-prediction questions for subject 'hamerton'",
+      "contrast": null,
+      "filters": {
+        "subject": "hamerton",
+        "tier": "behavioral_prediction"
+      },
+      "n": 39,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_franklin_decisions_count": {
+      "value": 6,
+      "estimand": "count of behavioral-prediction questions in category 'decisions' for subject 'franklin'",
+      "contrast": null,
+      "filters": {
+        "subject": "franklin",
+        "tier": "behavioral_prediction",
+        "category": "decisions"
+      },
+      "n": 40,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_franklin_values_count": {
+      "value": 6,
+      "estimand": "count of behavioral-prediction questions in category 'values' for subject 'franklin'",
+      "contrast": null,
+      "filters": {
+        "subject": "franklin",
+        "tier": "behavioral_prediction",
+        "category": "values"
+      },
+      "n": 40,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_franklin_relationships_count": {
+      "value": 5,
+      "estimand": "count of behavioral-prediction questions in category 'relationships' for subject 'franklin'",
+      "contrast": null,
+      "filters": {
+        "subject": "franklin",
+        "tier": "behavioral_prediction",
+        "category": "relationships"
+      },
+      "n": 40,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_franklin_conflict_count": {
+      "value": 4,
+      "estimand": "count of behavioral-prediction questions in category 'conflict' for subject 'franklin'",
+      "contrast": null,
+      "filters": {
+        "subject": "franklin",
+        "tier": "behavioral_prediction",
+        "category": "conflict"
+      },
+      "n": 40,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_franklin_learning_count": {
+      "value": 3,
+      "estimand": "count of behavioral-prediction questions in category 'learning' for subject 'franklin'",
+      "contrast": null,
+      "filters": {
+        "subject": "franklin",
+        "tier": "behavioral_prediction",
+        "category": "learning"
+      },
+      "n": 40,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_franklin_risk_count": {
+      "value": 4,
+      "estimand": "count of behavioral-prediction questions in category 'risk' for subject 'franklin'",
+      "contrast": null,
+      "filters": {
+        "subject": "franklin",
+        "tier": "behavioral_prediction",
+        "category": "risk"
+      },
+      "n": 40,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_franklin_creativity_count": {
+      "value": 4,
+      "estimand": "count of behavioral-prediction questions in category 'creativity' for subject 'franklin'",
+      "contrast": null,
+      "filters": {
+        "subject": "franklin",
+        "tier": "behavioral_prediction",
+        "category": "creativity"
+      },
+      "n": 40,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_franklin_stress_count": {
+      "value": 3,
+      "estimand": "count of behavioral-prediction questions in category 'stress' for subject 'franklin'",
+      "contrast": null,
+      "filters": {
+        "subject": "franklin",
+        "tier": "behavioral_prediction",
+        "category": "stress"
+      },
+      "n": 40,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_franklin_career_count": {
+      "value": 3,
+      "estimand": "count of behavioral-prediction questions in category 'career' for subject 'franklin'",
+      "contrast": null,
+      "filters": {
+        "subject": "franklin",
+        "tier": "behavioral_prediction",
+        "category": "career"
+      },
+      "n": 40,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_franklin_change_over_time_count": {
+      "value": 2,
+      "estimand": "count of behavioral-prediction questions in category 'change_over_time' for subject 'franklin'",
+      "contrast": null,
+      "filters": {
+        "subject": "franklin",
+        "tier": "behavioral_prediction",
+        "category": "change_over_time"
+      },
+      "n": 40,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_franklin_total": {
+      "value": 40,
+      "estimand": "total behavioral-prediction questions for subject 'franklin'",
+      "contrast": null,
+      "filters": {
+        "subject": "franklin",
+        "tier": "behavioral_prediction"
+      },
+      "n": 40,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_column_total_decisions": {
+      "value": 93,
+      "estimand": "total questions across all 15 subjects in category 'decisions'",
+      "contrast": null,
+      "filters": {
+        "tier": "behavioral_prediction",
+        "category": "decisions",
+        "subjects": [
+          "augustine",
+          "babur",
+          "bernal_diaz",
+          "cellini",
+          "ebers",
+          "equiano",
+          "fukuzawa",
+          "keckley",
+          "rousseau",
+          "seacole",
+          "sunity_devee",
+          "yung_wing",
+          "zitkala_sa",
+          "hamerton",
+          "franklin"
+        ]
+      },
+      "n": 93,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_column_total_values": {
+      "value": 115,
+      "estimand": "total questions across all 15 subjects in category 'values'",
+      "contrast": null,
+      "filters": {
+        "tier": "behavioral_prediction",
+        "category": "values",
+        "subjects": [
+          "augustine",
+          "babur",
+          "bernal_diaz",
+          "cellini",
+          "ebers",
+          "equiano",
+          "fukuzawa",
+          "keckley",
+          "rousseau",
+          "seacole",
+          "sunity_devee",
+          "yung_wing",
+          "zitkala_sa",
+          "hamerton",
+          "franklin"
+        ]
+      },
+      "n": 115,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_column_total_relationships": {
+      "value": 84,
+      "estimand": "total questions across all 15 subjects in category 'relationships'",
+      "contrast": null,
+      "filters": {
+        "tier": "behavioral_prediction",
+        "category": "relationships",
+        "subjects": [
+          "augustine",
+          "babur",
+          "bernal_diaz",
+          "cellini",
+          "ebers",
+          "equiano",
+          "fukuzawa",
+          "keckley",
+          "rousseau",
+          "seacole",
+          "sunity_devee",
+          "yung_wing",
+          "zitkala_sa",
+          "hamerton",
+          "franklin"
+        ]
+      },
+      "n": 84,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_column_total_conflict": {
+      "value": 66,
+      "estimand": "total questions across all 15 subjects in category 'conflict'",
+      "contrast": null,
+      "filters": {
+        "tier": "behavioral_prediction",
+        "category": "conflict",
+        "subjects": [
+          "augustine",
+          "babur",
+          "bernal_diaz",
+          "cellini",
+          "ebers",
+          "equiano",
+          "fukuzawa",
+          "keckley",
+          "rousseau",
+          "seacole",
+          "sunity_devee",
+          "yung_wing",
+          "zitkala_sa",
+          "hamerton",
+          "franklin"
+        ]
+      },
+      "n": 66,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_column_total_learning": {
+      "value": 65,
+      "estimand": "total questions across all 15 subjects in category 'learning'",
+      "contrast": null,
+      "filters": {
+        "tier": "behavioral_prediction",
+        "category": "learning",
+        "subjects": [
+          "augustine",
+          "babur",
+          "bernal_diaz",
+          "cellini",
+          "ebers",
+          "equiano",
+          "fukuzawa",
+          "keckley",
+          "rousseau",
+          "seacole",
+          "sunity_devee",
+          "yung_wing",
+          "zitkala_sa",
+          "hamerton",
+          "franklin"
+        ]
+      },
+      "n": 65,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_column_total_risk": {
+      "value": 19,
+      "estimand": "total questions across all 15 subjects in category 'risk'",
+      "contrast": null,
+      "filters": {
+        "tier": "behavioral_prediction",
+        "category": "risk",
+        "subjects": [
+          "augustine",
+          "babur",
+          "bernal_diaz",
+          "cellini",
+          "ebers",
+          "equiano",
+          "fukuzawa",
+          "keckley",
+          "rousseau",
+          "seacole",
+          "sunity_devee",
+          "yung_wing",
+          "zitkala_sa",
+          "hamerton",
+          "franklin"
+        ]
+      },
+      "n": 19,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_column_total_creativity": {
+      "value": 34,
+      "estimand": "total questions across all 15 subjects in category 'creativity'",
+      "contrast": null,
+      "filters": {
+        "tier": "behavioral_prediction",
+        "category": "creativity",
+        "subjects": [
+          "augustine",
+          "babur",
+          "bernal_diaz",
+          "cellini",
+          "ebers",
+          "equiano",
+          "fukuzawa",
+          "keckley",
+          "rousseau",
+          "seacole",
+          "sunity_devee",
+          "yung_wing",
+          "zitkala_sa",
+          "hamerton",
+          "franklin"
+        ]
+      },
+      "n": 34,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_column_total_stress": {
+      "value": 60,
+      "estimand": "total questions across all 15 subjects in category 'stress'",
+      "contrast": null,
+      "filters": {
+        "tier": "behavioral_prediction",
+        "category": "stress",
+        "subjects": [
+          "augustine",
+          "babur",
+          "bernal_diaz",
+          "cellini",
+          "ebers",
+          "equiano",
+          "fukuzawa",
+          "keckley",
+          "rousseau",
+          "seacole",
+          "sunity_devee",
+          "yung_wing",
+          "zitkala_sa",
+          "hamerton",
+          "franklin"
+        ]
+      },
+      "n": 60,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_column_total_career": {
+      "value": 23,
+      "estimand": "total questions across all 15 subjects in category 'career'",
+      "contrast": null,
+      "filters": {
+        "tier": "behavioral_prediction",
+        "category": "career",
+        "subjects": [
+          "augustine",
+          "babur",
+          "bernal_diaz",
+          "cellini",
+          "ebers",
+          "equiano",
+          "fukuzawa",
+          "keckley",
+          "rousseau",
+          "seacole",
+          "sunity_devee",
+          "yung_wing",
+          "zitkala_sa",
+          "hamerton",
+          "franklin"
+        ]
+      },
+      "n": 23,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_column_total_change_over_time": {
+      "value": 27,
+      "estimand": "total questions across all 15 subjects in category 'change_over_time'",
+      "contrast": null,
+      "filters": {
+        "tier": "behavioral_prediction",
+        "category": "change_over_time",
+        "subjects": [
+          "augustine",
+          "babur",
+          "bernal_diaz",
+          "cellini",
+          "ebers",
+          "equiano",
+          "fukuzawa",
+          "keckley",
+          "rousseau",
+          "seacole",
+          "sunity_devee",
+          "yung_wing",
+          "zitkala_sa",
+          "hamerton",
+          "franklin"
+        ]
+      },
+      "n": 27,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_2_grand_total": {
+      "value": 586,
+      "estimand": "total behavioral-prediction questions across all 15 subjects",
+      "contrast": null,
+      "filters": {
+        "tier": "behavioral_prediction",
+        "subjects": [
+          "augustine",
+          "babur",
+          "bernal_diaz",
+          "cellini",
+          "ebers",
+          "equiano",
+          "fukuzawa",
+          "keckley",
+          "rousseau",
+          "seacole",
+          "sunity_devee",
+          "yung_wing",
+          "zitkala_sa",
+          "hamerton",
+          "franklin"
+        ]
+      },
+      "n": 586,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_3_literal_recall_n": {
+      "value": 60,
+      "estimand": "count of behavioral-prediction questions classified as 'LITERAL_RECALL'",
+      "contrast": null,
+      "filters": {
+        "axis": "LITERAL_RECALL",
+        "tier": "behavioral_prediction",
+        "subjects": [
+          "augustine",
+          "babur",
+          "bernal_diaz",
+          "cellini",
+          "ebers",
+          "equiano",
+          "fukuzawa",
+          "keckley",
+          "rousseau",
+          "seacole",
+          "sunity_devee",
+          "yung_wing",
+          "zitkala_sa",
+          "hamerton",
+          "franklin"
+        ]
+      },
+      "n": 60,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_3_literal_recall_pct": {
+      "value": 10.2,
+      "estimand": "percentage of behavioral-prediction questions classified as 'LITERAL_RECALL'",
+      "contrast": null,
+      "filters": {
+        "axis": "LITERAL_RECALL",
+        "tier": "behavioral_prediction",
+        "subjects": [
+          "augustine",
+          "babur",
+          "bernal_diaz",
+          "cellini",
+          "ebers",
+          "equiano",
+          "fukuzawa",
+          "keckley",
+          "rousseau",
+          "seacole",
+          "sunity_devee",
+          "yung_wing",
+          "zitkala_sa",
+          "hamerton",
+          "franklin"
+        ]
+      },
+      "n": 586,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_3_interpretive_inference_n": {
+      "value": 403,
+      "estimand": "count of behavioral-prediction questions classified as 'INTERPRETIVE_INFERENCE'",
+      "contrast": null,
+      "filters": {
+        "axis": "INTERPRETIVE_INFERENCE",
+        "tier": "behavioral_prediction",
+        "subjects": [
+          "augustine",
+          "babur",
+          "bernal_diaz",
+          "cellini",
+          "ebers",
+          "equiano",
+          "fukuzawa",
+          "keckley",
+          "rousseau",
+          "seacole",
+          "sunity_devee",
+          "yung_wing",
+          "zitkala_sa",
+          "hamerton",
+          "franklin"
+        ]
+      },
+      "n": 403,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_3_interpretive_inference_pct": {
+      "value": 68.8,
+      "estimand": "percentage of behavioral-prediction questions classified as 'INTERPRETIVE_INFERENCE'",
+      "contrast": null,
+      "filters": {
+        "axis": "INTERPRETIVE_INFERENCE",
+        "tier": "behavioral_prediction",
+        "subjects": [
+          "augustine",
+          "babur",
+          "bernal_diaz",
+          "cellini",
+          "ebers",
+          "equiano",
+          "fukuzawa",
+          "keckley",
+          "rousseau",
+          "seacole",
+          "sunity_devee",
+          "yung_wing",
+          "zitkala_sa",
+          "hamerton",
+          "franklin"
+        ]
+      },
+      "n": 586,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_3_refusal_triggering_n": {
+      "value": 123,
+      "estimand": "count of behavioral-prediction questions classified as 'REFUSAL_TRIGGERING'",
+      "contrast": null,
+      "filters": {
+        "axis": "REFUSAL_TRIGGERING",
+        "tier": "behavioral_prediction",
+        "subjects": [
+          "augustine",
+          "babur",
+          "bernal_diaz",
+          "cellini",
+          "ebers",
+          "equiano",
+          "fukuzawa",
+          "keckley",
+          "rousseau",
+          "seacole",
+          "sunity_devee",
+          "yung_wing",
+          "zitkala_sa",
+          "hamerton",
+          "franklin"
+        ]
+      },
+      "n": 123,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_3_refusal_triggering_pct": {
+      "value": 21.0,
+      "estimand": "percentage of behavioral-prediction questions classified as 'REFUSAL_TRIGGERING'",
+      "contrast": null,
+      "filters": {
+        "axis": "REFUSAL_TRIGGERING",
+        "tier": "behavioral_prediction",
+        "subjects": [
+          "augustine",
+          "babur",
+          "bernal_diaz",
+          "cellini",
+          "ebers",
+          "equiano",
+          "fukuzawa",
+          "keckley",
+          "rousseau",
+          "seacole",
+          "sunity_devee",
+          "yung_wing",
+          "zitkala_sa",
+          "hamerton",
+          "franklin"
+        ]
+      },
+      "n": 586,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_3_total_n": {
+      "value": 586,
+      "estimand": "total behavioral-prediction questions across the 15 subjects (sum across axis labels)",
+      "contrast": null,
+      "filters": {
+        "tier": "behavioral_prediction",
+        "subjects": [
+          "augustine",
+          "babur",
+          "bernal_diaz",
+          "cellini",
+          "ebers",
+          "equiano",
+          "fukuzawa",
+          "keckley",
+          "rousseau",
+          "seacole",
+          "sunity_devee",
+          "yung_wing",
+          "zitkala_sa",
+          "hamerton",
+          "franklin"
+        ]
+      },
+      "n": 586,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_4_literal_recall_mean_delta_spec": {
+      "value": 0.75,
+      "estimand": "mean per-question Delta_spec (C2a_full_spec - C5_baseline) across all 'LITERAL_RECALL' questions in the 14 main-study subjects",
+      "contrast": "C2a_full_spec vs C5_baseline",
+      "filters": {
+        "axis": "LITERAL_RECALL",
+        "subjects": [
+          "augustine",
+          "babur",
+          "bernal_diaz",
+          "cellini",
+          "ebers",
+          "equiano",
+          "fukuzawa",
+          "keckley",
+          "rousseau",
+          "seacole",
+          "sunity_devee",
+          "yung_wing",
+          "zitkala_sa",
+          "hamerton"
+        ]
+      },
+      "n": 60,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_4_literal_recall_n": {
+      "value": 60,
+      "estimand": "number of 'LITERAL_RECALL' questions with a panel-mean Delta_spec across the 14 main-study subjects",
+      "contrast": "C2a_full_spec vs C5_baseline",
+      "filters": {
+        "axis": "LITERAL_RECALL",
+        "subjects": [
+          "augustine",
+          "babur",
+          "bernal_diaz",
+          "cellini",
+          "ebers",
+          "equiano",
+          "fukuzawa",
+          "keckley",
+          "rousseau",
+          "seacole",
+          "sunity_devee",
+          "yung_wing",
+          "zitkala_sa",
+          "hamerton"
+        ]
+      },
+      "n": 60,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_4_literal_recall_median_delta_spec": {
+      "value": 0.8000000000000002,
+      "estimand": "median per-question Delta_spec across 'LITERAL_RECALL' questions in main-study",
+      "contrast": "C2a_full_spec vs C5_baseline",
+      "filters": {
+        "axis": "LITERAL_RECALL",
+        "subjects": [
+          "augustine",
+          "babur",
+          "bernal_diaz",
+          "cellini",
+          "ebers",
+          "equiano",
+          "fukuzawa",
+          "keckley",
+          "rousseau",
+          "seacole",
+          "sunity_devee",
+          "yung_wing",
+          "zitkala_sa",
+          "hamerton"
+        ]
+      },
+      "n": 60,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_4_interpretive_inference_mean_delta_spec": {
+      "value": 0.3770491803278689,
+      "estimand": "mean per-question Delta_spec (C2a_full_spec - C5_baseline) across all 'INTERPRETIVE_INFERENCE' questions in the 14 main-study subjects",
+      "contrast": "C2a_full_spec vs C5_baseline",
+      "filters": {
+        "axis": "INTERPRETIVE_INFERENCE",
+        "subjects": [
+          "augustine",
+          "babur",
+          "bernal_diaz",
+          "cellini",
+          "ebers",
+          "equiano",
+          "fukuzawa",
+          "keckley",
+          "rousseau",
+          "seacole",
+          "sunity_devee",
+          "yung_wing",
+          "zitkala_sa",
+          "hamerton"
+        ]
+      },
+      "n": 366,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_4_interpretive_inference_n": {
+      "value": 366,
+      "estimand": "number of 'INTERPRETIVE_INFERENCE' questions with a panel-mean Delta_spec across the 14 main-study subjects",
+      "contrast": "C2a_full_spec vs C5_baseline",
+      "filters": {
+        "axis": "INTERPRETIVE_INFERENCE",
+        "subjects": [
+          "augustine",
+          "babur",
+          "bernal_diaz",
+          "cellini",
+          "ebers",
+          "equiano",
+          "fukuzawa",
+          "keckley",
+          "rousseau",
+          "seacole",
+          "sunity_devee",
+          "yung_wing",
+          "zitkala_sa",
+          "hamerton"
+        ]
+      },
+      "n": 366,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_4_interpretive_inference_median_delta_spec": {
+      "value": 0.3999999999999997,
+      "estimand": "median per-question Delta_spec across 'INTERPRETIVE_INFERENCE' questions in main-study",
+      "contrast": "C2a_full_spec vs C5_baseline",
+      "filters": {
+        "axis": "INTERPRETIVE_INFERENCE",
+        "subjects": [
+          "augustine",
+          "babur",
+          "bernal_diaz",
+          "cellini",
+          "ebers",
+          "equiano",
+          "fukuzawa",
+          "keckley",
+          "rousseau",
+          "seacole",
+          "sunity_devee",
+          "yung_wing",
+          "zitkala_sa",
+          "hamerton"
+        ]
+      },
+      "n": 366,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_4_refusal_triggering_mean_delta_spec": {
+      "value": 0.4166666666666667,
+      "estimand": "mean per-question Delta_spec (C2a_full_spec - C5_baseline) across all 'REFUSAL_TRIGGERING' questions in the 14 main-study subjects",
+      "contrast": "C2a_full_spec vs C5_baseline",
+      "filters": {
+        "axis": "REFUSAL_TRIGGERING",
+        "subjects": [
+          "augustine",
+          "babur",
+          "bernal_diaz",
+          "cellini",
+          "ebers",
+          "equiano",
+          "fukuzawa",
+          "keckley",
+          "rousseau",
+          "seacole",
+          "sunity_devee",
+          "yung_wing",
+          "zitkala_sa",
+          "hamerton"
+        ]
+      },
+      "n": 120,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_4_refusal_triggering_n": {
+      "value": 120,
+      "estimand": "number of 'REFUSAL_TRIGGERING' questions with a panel-mean Delta_spec across the 14 main-study subjects",
+      "contrast": "C2a_full_spec vs C5_baseline",
+      "filters": {
+        "axis": "REFUSAL_TRIGGERING",
+        "subjects": [
+          "augustine",
+          "babur",
+          "bernal_diaz",
+          "cellini",
+          "ebers",
+          "equiano",
+          "fukuzawa",
+          "keckley",
+          "rousseau",
+          "seacole",
+          "sunity_devee",
+          "yung_wing",
+          "zitkala_sa",
+          "hamerton"
+        ]
+      },
+      "n": 120,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_4_refusal_triggering_median_delta_spec": {
+      "value": 0.19999999999999996,
+      "estimand": "median per-question Delta_spec across 'REFUSAL_TRIGGERING' questions in main-study",
+      "contrast": "C2a_full_spec vs C5_baseline",
+      "filters": {
+        "axis": "REFUSAL_TRIGGERING",
+        "subjects": [
+          "augustine",
+          "babur",
+          "bernal_diaz",
+          "cellini",
+          "ebers",
+          "equiano",
+          "fukuzawa",
+          "keckley",
+          "rousseau",
+          "seacole",
+          "sunity_devee",
+          "yung_wing",
+          "zitkala_sa",
+          "hamerton"
+        ]
+      },
+      "n": 120,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_5_augustine_literal_recall_delta": {
+      "value": -0.15000000000000013,
+      "estimand": "per-question mean Delta_spec for axis 'LITERAL_RECALL' on subject 'augustine'",
+      "contrast": "C2a_full_spec vs C5_baseline",
+      "filters": {
+        "subject": "augustine",
+        "axis": "LITERAL_RECALL"
+      },
+      "n": 4,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_5_augustine_interpretive_inference_delta": {
+      "value": -0.0787878787878788,
+      "estimand": "per-question mean Delta_spec for axis 'INTERPRETIVE_INFERENCE' on subject 'augustine'",
+      "contrast": "C2a_full_spec vs C5_baseline",
+      "filters": {
+        "subject": "augustine",
+        "axis": "INTERPRETIVE_INFERENCE"
+      },
+      "n": 33,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_5_augustine_refusal_triggering_delta": {
+      "value": -0.5,
+      "estimand": "per-question mean Delta_spec for axis 'REFUSAL_TRIGGERING' on subject 'augustine'",
+      "contrast": "C2a_full_spec vs C5_baseline",
+      "filters": {
+        "subject": "augustine",
+        "axis": "REFUSAL_TRIGGERING"
+      },
+      "n": 2,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_5_babur_literal_recall_delta": {
+      "value": -1.0000000000000004,
+      "estimand": "per-question mean Delta_spec for axis 'LITERAL_RECALL' on subject 'babur'",
+      "contrast": "C2a_full_spec vs C5_baseline",
+      "filters": {
+        "subject": "babur",
+        "axis": "LITERAL_RECALL"
+      },
+      "n": 1,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_5_babur_interpretive_inference_delta": {
+      "value": 0.19200000000000003,
+      "estimand": "per-question mean Delta_spec for axis 'INTERPRETIVE_INFERENCE' on subject 'babur'",
+      "contrast": "C2a_full_spec vs C5_baseline",
+      "filters": {
+        "subject": "babur",
+        "axis": "INTERPRETIVE_INFERENCE"
+      },
+      "n": 25,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_5_babur_refusal_triggering_delta": {
+      "value": 0.15384615384615385,
+      "estimand": "per-question mean Delta_spec for axis 'REFUSAL_TRIGGERING' on subject 'babur'",
+      "contrast": "C2a_full_spec vs C5_baseline",
+      "filters": {
+        "subject": "babur",
+        "axis": "REFUSAL_TRIGGERING"
+      },
+      "n": 13,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_5_bernal_diaz_literal_recall_delta": {
+      "value": 2.0,
+      "estimand": "per-question mean Delta_spec for axis 'LITERAL_RECALL' on subject 'bernal_diaz'",
+      "contrast": "C2a_full_spec vs C5_baseline",
+      "filters": {
+        "subject": "bernal_diaz",
+        "axis": "LITERAL_RECALL"
+      },
+      "n": 2,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_5_bernal_diaz_interpretive_inference_delta": {
+      "value": 0.4428571428571429,
+      "estimand": "per-question mean Delta_spec for axis 'INTERPRETIVE_INFERENCE' on subject 'bernal_diaz'",
+      "contrast": "C2a_full_spec vs C5_baseline",
+      "filters": {
+        "subject": "bernal_diaz",
+        "axis": "INTERPRETIVE_INFERENCE"
+      },
+      "n": 28,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_5_bernal_diaz_refusal_triggering_delta": {
+      "value": 0.6444444444444444,
+      "estimand": "per-question mean Delta_spec for axis 'REFUSAL_TRIGGERING' on subject 'bernal_diaz'",
+      "contrast": "C2a_full_spec vs C5_baseline",
+      "filters": {
+        "subject": "bernal_diaz",
+        "axis": "REFUSAL_TRIGGERING"
+      },
+      "n": 9,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_5_cellini_literal_recall_delta": {
+      "value": 1.25,
+      "estimand": "per-question mean Delta_spec for axis 'LITERAL_RECALL' on subject 'cellini'",
+      "contrast": "C2a_full_spec vs C5_baseline",
+      "filters": {
+        "subject": "cellini",
+        "axis": "LITERAL_RECALL"
+      },
+      "n": 4,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_5_cellini_interpretive_inference_delta": {
+      "value": 0.05925925925925927,
+      "estimand": "per-question mean Delta_spec for axis 'INTERPRETIVE_INFERENCE' on subject 'cellini'",
+      "contrast": "C2a_full_spec vs C5_baseline",
+      "filters": {
+        "subject": "cellini",
+        "axis": "INTERPRETIVE_INFERENCE"
+      },
+      "n": 27,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_5_cellini_refusal_triggering_delta": {
+      "value": -0.02500000000000005,
+      "estimand": "per-question mean Delta_spec for axis 'REFUSAL_TRIGGERING' on subject 'cellini'",
+      "contrast": "C2a_full_spec vs C5_baseline",
+      "filters": {
+        "subject": "cellini",
+        "axis": "REFUSAL_TRIGGERING"
+      },
+      "n": 8,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_5_ebers_literal_recall_delta": {
+      "value": 0.29999999999999993,
+      "estimand": "per-question mean Delta_spec for axis 'LITERAL_RECALL' on subject 'ebers'",
+      "contrast": "C2a_full_spec vs C5_baseline",
+      "filters": {
+        "subject": "ebers",
+        "axis": "LITERAL_RECALL"
+      },
+      "n": 2,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_5_ebers_interpretive_inference_delta": {
+      "value": 0.58,
+      "estimand": "per-question mean Delta_spec for axis 'INTERPRETIVE_INFERENCE' on subject 'ebers'",
+      "contrast": "C2a_full_spec vs C5_baseline",
+      "filters": {
+        "subject": "ebers",
+        "axis": "INTERPRETIVE_INFERENCE"
+      },
+      "n": 30,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_5_ebers_refusal_triggering_delta": {
+      "value": 0.3142857142857143,
+      "estimand": "per-question mean Delta_spec for axis 'REFUSAL_TRIGGERING' on subject 'ebers'",
+      "contrast": "C2a_full_spec vs C5_baseline",
+      "filters": {
+        "subject": "ebers",
+        "axis": "REFUSAL_TRIGGERING"
+      },
+      "n": 7,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_5_equiano_literal_recall_delta": {
+      "value": -0.2999999999999999,
+      "estimand": "per-question mean Delta_spec for axis 'LITERAL_RECALL' on subject 'equiano'",
+      "contrast": "C2a_full_spec vs C5_baseline",
+      "filters": {
+        "subject": "equiano",
+        "axis": "LITERAL_RECALL"
+      },
+      "n": 6,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_5_equiano_interpretive_inference_delta": {
+      "value": -0.27407407407407414,
+      "estimand": "per-question mean Delta_spec for axis 'INTERPRETIVE_INFERENCE' on subject 'equiano'",
+      "contrast": "C2a_full_spec vs C5_baseline",
+      "filters": {
+        "subject": "equiano",
+        "axis": "INTERPRETIVE_INFERENCE"
+      },
+      "n": 27,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_5_equiano_refusal_triggering_delta": {
+      "value": -0.5,
+      "estimand": "per-question mean Delta_spec for axis 'REFUSAL_TRIGGERING' on subject 'equiano'",
+      "contrast": "C2a_full_spec vs C5_baseline",
+      "filters": {
+        "subject": "equiano",
+        "axis": "REFUSAL_TRIGGERING"
+      },
+      "n": 6,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_5_fukuzawa_literal_recall_delta": {
+      "value": 0.29999999999999993,
+      "estimand": "per-question mean Delta_spec for axis 'LITERAL_RECALL' on subject 'fukuzawa'",
+      "contrast": "C2a_full_spec vs C5_baseline",
+      "filters": {
+        "subject": "fukuzawa",
+        "axis": "LITERAL_RECALL"
+      },
+      "n": 4,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_5_fukuzawa_interpretive_inference_delta": {
+      "value": 0.8296296296296296,
+      "estimand": "per-question mean Delta_spec for axis 'INTERPRETIVE_INFERENCE' on subject 'fukuzawa'",
+      "contrast": "C2a_full_spec vs C5_baseline",
+      "filters": {
+        "subject": "fukuzawa",
+        "axis": "INTERPRETIVE_INFERENCE"
+      },
+      "n": 27,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_5_fukuzawa_refusal_triggering_delta": {
+      "value": 0.37500000000000006,
+      "estimand": "per-question mean Delta_spec for axis 'REFUSAL_TRIGGERING' on subject 'fukuzawa'",
+      "contrast": "C2a_full_spec vs C5_baseline",
+      "filters": {
+        "subject": "fukuzawa",
+        "axis": "REFUSAL_TRIGGERING"
+      },
+      "n": 8,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_5_keckley_literal_recall_delta": {
+      "value": 1.0,
+      "estimand": "per-question mean Delta_spec for axis 'LITERAL_RECALL' on subject 'keckley'",
+      "contrast": "C2a_full_spec vs C5_baseline",
+      "filters": {
+        "subject": "keckley",
+        "axis": "LITERAL_RECALL"
+      },
+      "n": 4,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_5_keckley_interpretive_inference_delta": {
+      "value": 0.5733333333333334,
+      "estimand": "per-question mean Delta_spec for axis 'INTERPRETIVE_INFERENCE' on subject 'keckley'",
+      "contrast": "C2a_full_spec vs C5_baseline",
+      "filters": {
+        "subject": "keckley",
+        "axis": "INTERPRETIVE_INFERENCE"
+      },
+      "n": 30,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_5_keckley_refusal_triggering_delta": {
+      "value": 0.32000000000000006,
+      "estimand": "per-question mean Delta_spec for axis 'REFUSAL_TRIGGERING' on subject 'keckley'",
+      "contrast": "C2a_full_spec vs C5_baseline",
+      "filters": {
+        "subject": "keckley",
+        "axis": "REFUSAL_TRIGGERING"
+      },
+      "n": 5,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_5_rousseau_literal_recall_delta": {
+      "value": 0.19999999999999996,
+      "estimand": "per-question mean Delta_spec for axis 'LITERAL_RECALL' on subject 'rousseau'",
+      "contrast": "C2a_full_spec vs C5_baseline",
+      "filters": {
+        "subject": "rousseau",
+        "axis": "LITERAL_RECALL"
+      },
+      "n": 2,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_5_rousseau_interpretive_inference_delta": {
+      "value": 0.33125000000000004,
+      "estimand": "per-question mean Delta_spec for axis 'INTERPRETIVE_INFERENCE' on subject 'rousseau'",
+      "contrast": "C2a_full_spec vs C5_baseline",
+      "filters": {
+        "subject": "rousseau",
+        "axis": "INTERPRETIVE_INFERENCE"
+      },
+      "n": 32,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_5_rousseau_refusal_triggering_delta": {
+      "value": 0.7200000000000001,
+      "estimand": "per-question mean Delta_spec for axis 'REFUSAL_TRIGGERING' on subject 'rousseau'",
+      "contrast": "C2a_full_spec vs C5_baseline",
+      "filters": {
+        "subject": "rousseau",
+        "axis": "REFUSAL_TRIGGERING"
+      },
+      "n": 5,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_5_seacole_literal_recall_delta": {
+      "value": 0.4750000000000001,
+      "estimand": "per-question mean Delta_spec for axis 'LITERAL_RECALL' on subject 'seacole'",
+      "contrast": "C2a_full_spec vs C5_baseline",
+      "filters": {
+        "subject": "seacole",
+        "axis": "LITERAL_RECALL"
+      },
+      "n": 8,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_5_seacole_interpretive_inference_delta": {
+      "value": 0.7928571428571428,
+      "estimand": "per-question mean Delta_spec for axis 'INTERPRETIVE_INFERENCE' on subject 'seacole'",
+      "contrast": "C2a_full_spec vs C5_baseline",
+      "filters": {
+        "subject": "seacole",
+        "axis": "INTERPRETIVE_INFERENCE"
+      },
+      "n": 28,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_5_seacole_refusal_triggering_delta": {
+      "value": 0.5333333333333333,
+      "estimand": "per-question mean Delta_spec for axis 'REFUSAL_TRIGGERING' on subject 'seacole'",
+      "contrast": "C2a_full_spec vs C5_baseline",
+      "filters": {
+        "subject": "seacole",
+        "axis": "REFUSAL_TRIGGERING"
+      },
+      "n": 3,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_5_sunity_devee_literal_recall_delta": {
+      "value": 1.375,
+      "estimand": "per-question mean Delta_spec for axis 'LITERAL_RECALL' on subject 'sunity_devee'",
+      "contrast": "C2a_full_spec vs C5_baseline",
+      "filters": {
+        "subject": "sunity_devee",
+        "axis": "LITERAL_RECALL"
+      },
+      "n": 8,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_5_sunity_devee_interpretive_inference_delta": {
+      "value": 1.1565217391304348,
+      "estimand": "per-question mean Delta_spec for axis 'INTERPRETIVE_INFERENCE' on subject 'sunity_devee'",
+      "contrast": "C2a_full_spec vs C5_baseline",
+      "filters": {
+        "subject": "sunity_devee",
+        "axis": "INTERPRETIVE_INFERENCE"
+      },
+      "n": 23,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_5_sunity_devee_refusal_triggering_delta": {
+      "value": 1.35,
+      "estimand": "per-question mean Delta_spec for axis 'REFUSAL_TRIGGERING' on subject 'sunity_devee'",
+      "contrast": "C2a_full_spec vs C5_baseline",
+      "filters": {
+        "subject": "sunity_devee",
+        "axis": "REFUSAL_TRIGGERING"
+      },
+      "n": 8,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_5_yung_wing_literal_recall_delta": {
+      "value": 1.4000000000000001,
+      "estimand": "per-question mean Delta_spec for axis 'LITERAL_RECALL' on subject 'yung_wing'",
+      "contrast": "C2a_full_spec vs C5_baseline",
+      "filters": {
+        "subject": "yung_wing",
+        "axis": "LITERAL_RECALL"
+      },
+      "n": 3,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_5_yung_wing_interpretive_inference_delta": {
+      "value": 0.3,
+      "estimand": "per-question mean Delta_spec for axis 'INTERPRETIVE_INFERENCE' on subject 'yung_wing'",
+      "contrast": "C2a_full_spec vs C5_baseline",
+      "filters": {
+        "subject": "yung_wing",
+        "axis": "INTERPRETIVE_INFERENCE"
+      },
+      "n": 24,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_5_yung_wing_refusal_triggering_delta": {
+      "value": 0.15,
+      "estimand": "per-question mean Delta_spec for axis 'REFUSAL_TRIGGERING' on subject 'yung_wing'",
+      "contrast": "C2a_full_spec vs C5_baseline",
+      "filters": {
+        "subject": "yung_wing",
+        "axis": "REFUSAL_TRIGGERING"
+      },
+      "n": 12,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_5_zitkala_sa_literal_recall_delta": {
+      "value": -1.2999999999999998,
+      "estimand": "per-question mean Delta_spec for axis 'LITERAL_RECALL' on subject 'zitkala_sa'",
+      "contrast": "C2a_full_spec vs C5_baseline",
+      "filters": {
+        "subject": "zitkala_sa",
+        "axis": "LITERAL_RECALL"
+      },
+      "n": 2,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_5_zitkala_sa_interpretive_inference_delta": {
+      "value": -0.3363636363636364,
+      "estimand": "per-question mean Delta_spec for axis 'INTERPRETIVE_INFERENCE' on subject 'zitkala_sa'",
+      "contrast": "C2a_full_spec vs C5_baseline",
+      "filters": {
+        "subject": "zitkala_sa",
+        "axis": "INTERPRETIVE_INFERENCE"
+      },
+      "n": 22,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_5_zitkala_sa_refusal_triggering_delta": {
+      "value": -0.13333333333333328,
+      "estimand": "per-question mean Delta_spec for axis 'REFUSAL_TRIGGERING' on subject 'zitkala_sa'",
+      "contrast": "C2a_full_spec vs C5_baseline",
+      "filters": {
+        "subject": "zitkala_sa",
+        "axis": "REFUSAL_TRIGGERING"
+      },
+      "n": 15,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_5_hamerton_literal_recall_delta": {
+      "value": 1.6800000000000002,
+      "estimand": "per-question mean Delta_spec for axis 'LITERAL_RECALL' on subject 'hamerton'",
+      "contrast": "C2a_full_spec vs C5_baseline",
+      "filters": {
+        "subject": "hamerton",
+        "axis": "LITERAL_RECALL"
+      },
+      "n": 10,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_5_hamerton_interpretive_inference_delta": {
+      "value": 1.3,
+      "estimand": "per-question mean Delta_spec for axis 'INTERPRETIVE_INFERENCE' on subject 'hamerton'",
+      "contrast": "C2a_full_spec vs C5_baseline",
+      "filters": {
+        "subject": "hamerton",
+        "axis": "INTERPRETIVE_INFERENCE"
+      },
+      "n": 10,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_5_hamerton_refusal_triggering_delta": {
+      "value": 1.2526315789473685,
+      "estimand": "per-question mean Delta_spec for axis 'REFUSAL_TRIGGERING' on subject 'hamerton'",
+      "contrast": "C2a_full_spec vs C5_baseline",
+      "filters": {
+        "subject": "hamerton",
+        "axis": "REFUSAL_TRIGGERING"
+      },
+      "n": 19,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_5_franklin_literal_recall_delta": {
+      "value": null,
+      "estimand": "per-question mean Delta_spec for axis 'LITERAL_RECALL' on subject 'franklin'",
+      "contrast": "C2a_full_spec vs C5_baseline",
+      "filters": {
+        "subject": "franklin",
+        "axis": "LITERAL_RECALL"
+      },
+      "n": 0,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_5_franklin_interpretive_inference_delta": {
+      "value": -0.37837837837837834,
+      "estimand": "per-question mean Delta_spec for axis 'INTERPRETIVE_INFERENCE' on subject 'franklin'",
+      "contrast": "C2a_full_spec vs C5_baseline",
+      "filters": {
+        "subject": "franklin",
+        "axis": "INTERPRETIVE_INFERENCE"
+      },
+      "n": 37,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_5_franklin_refusal_triggering_delta": {
+      "value": -0.6666666666666666,
+      "estimand": "per-question mean Delta_spec for axis 'REFUSAL_TRIGGERING' on subject 'franklin'",
+      "contrast": "C2a_full_spec vs C5_baseline",
+      "filters": {
+        "subject": "franklin",
+        "axis": "REFUSAL_TRIGGERING"
+      },
+      "n": 3,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_6_literal_recall_corr_with_delta": {
+      "value": 0.5949335213399926,
+      "estimand": "Pearson r across the 14 main-study subjects between the fraction of subject's BP questions classified as 'LITERAL_RECALL' and the subject's mean Delta_spec (C2a - C5)",
+      "contrast": "C2a_full_spec vs C5_baseline",
+      "filters": {
+        "subjects": [
+          "augustine",
+          "babur",
+          "bernal_diaz",
+          "cellini",
+          "ebers",
+          "equiano",
+          "fukuzawa",
+          "keckley",
+          "rousseau",
+          "seacole",
+          "sunity_devee",
+          "yung_wing",
+          "zitkala_sa",
+          "hamerton"
+        ],
+        "axis": "LITERAL_RECALL"
+      },
+      "n": 14,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_6_interpretive_inference_corr_with_delta": {
+      "value": -0.4656126067014415,
+      "estimand": "Pearson r across the 14 main-study subjects between the fraction of subject's BP questions classified as 'INTERPRETIVE_INFERENCE' and the subject's mean Delta_spec (C2a - C5)",
+      "contrast": "C2a_full_spec vs C5_baseline",
+      "filters": {
+        "subjects": [
+          "augustine",
+          "babur",
+          "bernal_diaz",
+          "cellini",
+          "ebers",
+          "equiano",
+          "fukuzawa",
+          "keckley",
+          "rousseau",
+          "seacole",
+          "sunity_devee",
+          "yung_wing",
+          "zitkala_sa",
+          "hamerton"
+        ],
+        "axis": "INTERPRETIVE_INFERENCE"
+      },
+      "n": 14,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_6_refusal_triggering_corr_with_delta": {
+      "value": 0.21178530464208,
+      "estimand": "Pearson r across the 14 main-study subjects between the fraction of subject's BP questions classified as 'REFUSAL_TRIGGERING' and the subject's mean Delta_spec (C2a - C5)",
+      "contrast": "C2a_full_spec vs C5_baseline",
+      "filters": {
+        "subjects": [
+          "augustine",
+          "babur",
+          "bernal_diaz",
+          "cellini",
+          "ebers",
+          "equiano",
+          "fukuzawa",
+          "keckley",
+          "rousseau",
+          "seacole",
+          "sunity_devee",
+          "yung_wing",
+          "zitkala_sa",
+          "hamerton"
+        ],
+        "axis": "REFUSAL_TRIGGERING"
+      },
+      "n": 14,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_6_delta_min": {
+      "value": -0.3128205128205128,
+      "estimand": "minimum per-subject mean Delta_spec across the main-study subjects",
+      "contrast": "C2a_full_spec vs C5_baseline",
+      "filters": {
+        "subjects": [
+          "augustine",
+          "babur",
+          "bernal_diaz",
+          "cellini",
+          "ebers",
+          "equiano",
+          "fukuzawa",
+          "keckley",
+          "rousseau",
+          "seacole",
+          "sunity_devee",
+          "yung_wing",
+          "zitkala_sa",
+          "hamerton"
+        ]
+      },
+      "n": 14,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    },
+    "appB_6_delta_max": {
+      "value": 1.3743589743589744,
+      "estimand": "maximum per-subject mean Delta_spec across the main-study subjects",
+      "contrast": "C2a_full_spec vs C5_baseline",
+      "filters": {
+        "subjects": [
+          "augustine",
+          "babur",
+          "bernal_diaz",
+          "cellini",
+          "ebers",
+          "equiano",
+          "fukuzawa",
+          "keckley",
+          "rousseau",
+          "seacole",
+          "sunity_devee",
+          "yung_wing",
+          "zitkala_sa",
+          "hamerton"
+        ]
+      },
+      "n": 14,
+      "ci95_low": null,
+      "ci95_high": null,
+      "p_value": null
+    }
+  },
+  "tables": {
+    "B2_matrix": {
+      "columns": [
+        "decisions",
+        "values",
+        "relationships",
+        "conflict",
+        "learning",
+        "risk",
+        "creativity",
+        "stress",
+        "career",
+        "change_over_time"
+      ],
+      "subjects": [
+        "augustine",
+        "babur",
+        "bernal_diaz",
+        "cellini",
+        "ebers",
+        "equiano",
+        "fukuzawa",
+        "keckley",
+        "rousseau",
+        "seacole",
+        "sunity_devee",
+        "yung_wing",
+        "zitkala_sa",
+        "hamerton",
+        "franklin"
+      ],
+      "rows": [
+        {
+          "subject": "augustine",
+          "decisions": 6,
+          "values": 7,
+          "relationships": 4,
+          "conflict": 5,
+          "learning": 9,
+          "risk": 0,
+          "creativity": 3,
+          "stress": 3,
+          "career": 0,
+          "change_over_time": 2,
+          "total": 39
+        },
+        {
+          "subject": "babur",
+          "decisions": 9,
+          "values": 6,
+          "relationships": 8,
+          "conflict": 4,
+          "learning": 3,
+          "risk": 1,
+          "creativity": 2,
+          "stress": 3,
+          "career": 2,
+          "change_over_time": 1,
+          "total": 39
+        },
+        {
+          "subject": "bernal_diaz",
+          "decisions": 8,
+          "values": 8,
+          "relationships": 4,
+          "conflict": 5,
+          "learning": 5,
+          "risk": 3,
+          "creativity": 0,
+          "stress": 5,
+          "career": 0,
+          "change_over_time": 1,
+          "total": 39
+        },
+        {
+          "subject": "cellini",
+          "decisions": 5,
+          "values": 6,
+          "relationships": 5,
+          "conflict": 4,
+          "learning": 3,
+          "risk": 1,
+          "creativity": 4,
+          "stress": 5,
+          "career": 4,
+          "change_over_time": 2,
+          "total": 39
+        },
+        {
+          "subject": "ebers",
+          "decisions": 4,
+          "values": 8,
+          "relationships": 3,
+          "conflict": 4,
+          "learning": 6,
+          "risk": 0,
+          "creativity": 6,
+          "stress": 3,
+          "career": 1,
+          "change_over_time": 4,
+          "total": 39
+        },
+        {
+          "subject": "equiano",
+          "decisions": 5,
+          "values": 8,
+          "relationships": 4,
+          "conflict": 5,
+          "learning": 5,
+          "risk": 1,
+          "creativity": 0,
+          "stress": 8,
+          "career": 0,
+          "change_over_time": 3,
+          "total": 39
+        },
+        {
+          "subject": "fukuzawa",
+          "decisions": 8,
+          "values": 11,
+          "relationships": 5,
+          "conflict": 5,
+          "learning": 3,
+          "risk": 1,
+          "creativity": 1,
+          "stress": 2,
+          "career": 0,
+          "change_over_time": 3,
+          "total": 39
+        },
+        {
+          "subject": "keckley",
+          "decisions": 6,
+          "values": 7,
+          "relationships": 9,
+          "conflict": 6,
+          "learning": 4,
+          "risk": 1,
+          "creativity": 0,
+          "stress": 3,
+          "career": 2,
+          "change_over_time": 1,
+          "total": 39
+        },
+        {
+          "subject": "rousseau",
+          "decisions": 5,
+          "values": 6,
+          "relationships": 9,
+          "conflict": 6,
+          "learning": 5,
+          "risk": 1,
+          "creativity": 1,
+          "stress": 4,
+          "career": 1,
+          "change_over_time": 1,
+          "total": 39
+        },
+        {
+          "subject": "seacole",
+          "decisions": 7,
+          "values": 10,
+          "relationships": 7,
+          "conflict": 1,
+          "learning": 3,
+          "risk": 1,
+          "creativity": 2,
+          "stress": 6,
+          "career": 2,
+          "change_over_time": 0,
+          "total": 39
+        },
+        {
+          "subject": "sunity_devee",
+          "decisions": 4,
+          "values": 9,
+          "relationships": 6,
+          "conflict": 5,
+          "learning": 5,
+          "risk": 1,
+          "creativity": 1,
+          "stress": 6,
+          "career": 0,
+          "change_over_time": 2,
+          "total": 39
+        },
+        {
+          "subject": "yung_wing",
+          "decisions": 10,
+          "values": 8,
+          "relationships": 3,
+          "conflict": 3,
+          "learning": 3,
+          "risk": 1,
+          "creativity": 3,
+          "stress": 2,
+          "career": 5,
+          "change_over_time": 1,
+          "total": 39
+        },
+        {
+          "subject": "zitkala_sa",
+          "decisions": 4,
+          "values": 11,
+          "relationships": 6,
+          "conflict": 5,
+          "learning": 4,
+          "risk": 0,
+          "creativity": 3,
+          "stress": 4,
+          "career": 0,
+          "change_over_time": 2,
+          "total": 39
+        },
+        {
+          "subject": "hamerton",
+          "decisions": 6,
+          "values": 4,
+          "relationships": 6,
+          "conflict": 4,
+          "learning": 4,
+          "risk": 3,
+          "creativity": 4,
+          "stress": 3,
+          "career": 3,
+          "change_over_time": 2,
+          "total": 39
+        },
+        {
+          "subject": "franklin",
+          "decisions": 6,
+          "values": 6,
+          "relationships": 5,
+          "conflict": 4,
+          "learning": 3,
+          "risk": 4,
+          "creativity": 4,
+          "stress": 3,
+          "career": 3,
+          "change_over_time": 2,
+          "total": 40
+        }
+      ],
+      "column_totals": {
+        "decisions": 93,
+        "values": 115,
+        "relationships": 84,
+        "conflict": 66,
+        "learning": 65,
+        "risk": 19,
+        "creativity": 34,
+        "stress": 60,
+        "career": 23,
+        "change_over_time": 27
+      },
+      "grand_total": 586
+    },
+    "B3_axis_distribution": {
+      "LITERAL_RECALL": {
+        "n": 60,
+        "pct": 10.2
+      },
+      "INTERPRETIVE_INFERENCE": {
+        "n": 403,
+        "pct": 68.8
+      },
+      "REFUSAL_TRIGGERING": {
+        "n": 123,
+        "pct": 21.0
+      }
+    },
+    "B3_per_subject": {
+      "augustine": {
+        "LITERAL_RECALL": 4,
+        "INTERPRETIVE_INFERENCE": 33,
+        "REFUSAL_TRIGGERING": 2
+      },
+      "babur": {
+        "LITERAL_RECALL": 1,
+        "INTERPRETIVE_INFERENCE": 25,
+        "REFUSAL_TRIGGERING": 13
+      },
+      "bernal_diaz": {
+        "LITERAL_RECALL": 2,
+        "INTERPRETIVE_INFERENCE": 28,
+        "REFUSAL_TRIGGERING": 9
+      },
+      "cellini": {
+        "LITERAL_RECALL": 4,
+        "INTERPRETIVE_INFERENCE": 27,
+        "REFUSAL_TRIGGERING": 8
+      },
+      "ebers": {
+        "LITERAL_RECALL": 2,
+        "INTERPRETIVE_INFERENCE": 30,
+        "REFUSAL_TRIGGERING": 7
+      },
+      "equiano": {
+        "LITERAL_RECALL": 6,
+        "INTERPRETIVE_INFERENCE": 27,
+        "REFUSAL_TRIGGERING": 6
+      },
+      "fukuzawa": {
+        "LITERAL_RECALL": 4,
+        "INTERPRETIVE_INFERENCE": 27,
+        "REFUSAL_TRIGGERING": 8
+      },
+      "keckley": {
+        "LITERAL_RECALL": 4,
+        "INTERPRETIVE_INFERENCE": 30,
+        "REFUSAL_TRIGGERING": 5
+      },
+      "rousseau": {
+        "LITERAL_RECALL": 2,
+        "INTERPRETIVE_INFERENCE": 32,
+        "REFUSAL_TRIGGERING": 5
+      },
+      "seacole": {
+        "LITERAL_RECALL": 8,
+        "INTERPRETIVE_INFERENCE": 28,
+        "REFUSAL_TRIGGERING": 3
+      },
+      "sunity_devee": {
+        "LITERAL_RECALL": 8,
+        "INTERPRETIVE_INFERENCE": 23,
+        "REFUSAL_TRIGGERING": 8
+      },
+      "yung_wing": {
+        "LITERAL_RECALL": 3,
+        "INTERPRETIVE_INFERENCE": 24,
+        "REFUSAL_TRIGGERING": 12
+      },
+      "zitkala_sa": {
+        "LITERAL_RECALL": 2,
+        "INTERPRETIVE_INFERENCE": 22,
+        "REFUSAL_TRIGGERING": 15
+      },
+      "hamerton": {
+        "LITERAL_RECALL": 10,
+        "INTERPRETIVE_INFERENCE": 10,
+        "REFUSAL_TRIGGERING": 19
+      },
+      "franklin": {
+        "LITERAL_RECALL": 0,
+        "INTERPRETIVE_INFERENCE": 37,
+        "REFUSAL_TRIGGERING": 3
+      }
+    },
+    "B4_axis_mean_delta_spec": {
+      "LITERAL_RECALL": {
+        "n": 60,
+        "mean": 0.75,
+        "median": 0.8000000000000002
+      },
+      "INTERPRETIVE_INFERENCE": {
+        "n": 366,
+        "mean": 0.3770491803278689,
+        "median": 0.3999999999999997
+      },
+      "REFUSAL_TRIGGERING": {
+        "n": 120,
+        "mean": 0.4166666666666667,
+        "median": 0.19999999999999996
+      }
+    },
+    "B5_per_subject_axis_delta": {
+      "augustine": {
+        "LITERAL_RECALL": -0.15000000000000013,
+        "INTERPRETIVE_INFERENCE": -0.0787878787878788,
+        "REFUSAL_TRIGGERING": -0.5
+      },
+      "babur": {
+        "LITERAL_RECALL": -1.0000000000000004,
+        "INTERPRETIVE_INFERENCE": 0.19200000000000003,
+        "REFUSAL_TRIGGERING": 0.15384615384615385
+      },
+      "bernal_diaz": {
+        "LITERAL_RECALL": 2.0,
+        "INTERPRETIVE_INFERENCE": 0.4428571428571429,
+        "REFUSAL_TRIGGERING": 0.6444444444444444
+      },
+      "cellini": {
+        "LITERAL_RECALL": 1.25,
+        "INTERPRETIVE_INFERENCE": 0.05925925925925927,
+        "REFUSAL_TRIGGERING": -0.02500000000000005
+      },
+      "ebers": {
+        "LITERAL_RECALL": 0.29999999999999993,
+        "INTERPRETIVE_INFERENCE": 0.58,
+        "REFUSAL_TRIGGERING": 0.3142857142857143
+      },
+      "equiano": {
+        "LITERAL_RECALL": -0.2999999999999999,
+        "INTERPRETIVE_INFERENCE": -0.27407407407407414,
+        "REFUSAL_TRIGGERING": -0.5
+      },
+      "fukuzawa": {
+        "LITERAL_RECALL": 0.29999999999999993,
+        "INTERPRETIVE_INFERENCE": 0.8296296296296296,
+        "REFUSAL_TRIGGERING": 0.37500000000000006
+      },
+      "keckley": {
+        "LITERAL_RECALL": 1.0,
+        "INTERPRETIVE_INFERENCE": 0.5733333333333334,
+        "REFUSAL_TRIGGERING": 0.32000000000000006
+      },
+      "rousseau": {
+        "LITERAL_RECALL": 0.19999999999999996,
+        "INTERPRETIVE_INFERENCE": 0.33125000000000004,
+        "REFUSAL_TRIGGERING": 0.7200000000000001
+      },
+      "seacole": {
+        "LITERAL_RECALL": 0.4750000000000001,
+        "INTERPRETIVE_INFERENCE": 0.7928571428571428,
+        "REFUSAL_TRIGGERING": 0.5333333333333333
+      },
+      "sunity_devee": {
+        "LITERAL_RECALL": 1.375,
+        "INTERPRETIVE_INFERENCE": 1.1565217391304348,
+        "REFUSAL_TRIGGERING": 1.35
+      },
+      "yung_wing": {
+        "LITERAL_RECALL": 1.4000000000000001,
+        "INTERPRETIVE_INFERENCE": 0.3,
+        "REFUSAL_TRIGGERING": 0.15
+      },
+      "zitkala_sa": {
+        "LITERAL_RECALL": -1.2999999999999998,
+        "INTERPRETIVE_INFERENCE": -0.3363636363636364,
+        "REFUSAL_TRIGGERING": -0.13333333333333328
+      },
+      "hamerton": {
+        "LITERAL_RECALL": 1.6800000000000002,
+        "INTERPRETIVE_INFERENCE": 1.3,
+        "REFUSAL_TRIGGERING": 1.2526315789473685
+      },
+      "franklin": {
+        "LITERAL_RECALL": null,
+        "INTERPRETIVE_INFERENCE": -0.37837837837837834,
+        "REFUSAL_TRIGGERING": -0.6666666666666666
+      }
+    },
+    "B6_correlations": {
+      "LITERAL_RECALL": 0.5949335213399926,
+      "INTERPRETIVE_INFERENCE": -0.4656126067014415,
+      "REFUSAL_TRIGGERING": 0.21178530464208
+    },
+    "B6_subject_mean_delta": {
+      "augustine": -0.10769230769230771,
+      "babur": 0.14871794871794874,
+      "bernal_diaz": 0.5692307692307692,
+      "cellini": 0.1641025641025641,
+      "ebers": 0.517948717948718,
+      "equiano": -0.3128205128205128,
+      "fukuzawa": 0.6820512820512821,
+      "keckley": 0.5846153846153846,
+      "rousseau": 0.37435897435897436,
+      "seacole": 0.7076923076923077,
+      "sunity_devee": 1.241025641025641,
+      "yung_wing": 0.3384615384615385,
+      "zitkala_sa": -0.3076923076923077,
+      "hamerton": 1.3743589743589744
+    },
+    "B6_subject_axis_frac": {
+      "augustine": {
+        "LITERAL_RECALL": 0.10256410256410256,
+        "INTERPRETIVE_INFERENCE": 0.8461538461538461,
+        "REFUSAL_TRIGGERING": 0.05128205128205128
+      },
+      "babur": {
+        "LITERAL_RECALL": 0.02564102564102564,
+        "INTERPRETIVE_INFERENCE": 0.6410256410256411,
+        "REFUSAL_TRIGGERING": 0.3333333333333333
+      },
+      "bernal_diaz": {
+        "LITERAL_RECALL": 0.05128205128205128,
+        "INTERPRETIVE_INFERENCE": 0.717948717948718,
+        "REFUSAL_TRIGGERING": 0.23076923076923078
+      },
+      "cellini": {
+        "LITERAL_RECALL": 0.10256410256410256,
+        "INTERPRETIVE_INFERENCE": 0.6923076923076923,
+        "REFUSAL_TRIGGERING": 0.20512820512820512
+      },
+      "ebers": {
+        "LITERAL_RECALL": 0.05128205128205128,
+        "INTERPRETIVE_INFERENCE": 0.7692307692307693,
+        "REFUSAL_TRIGGERING": 0.1794871794871795
+      },
+      "equiano": {
+        "LITERAL_RECALL": 0.15384615384615385,
+        "INTERPRETIVE_INFERENCE": 0.6923076923076923,
+        "REFUSAL_TRIGGERING": 0.15384615384615385
+      },
+      "fukuzawa": {
+        "LITERAL_RECALL": 0.10256410256410256,
+        "INTERPRETIVE_INFERENCE": 0.6923076923076923,
+        "REFUSAL_TRIGGERING": 0.20512820512820512
+      },
+      "keckley": {
+        "LITERAL_RECALL": 0.10256410256410256,
+        "INTERPRETIVE_INFERENCE": 0.7692307692307693,
+        "REFUSAL_TRIGGERING": 0.1282051282051282
+      },
+      "rousseau": {
+        "LITERAL_RECALL": 0.05128205128205128,
+        "INTERPRETIVE_INFERENCE": 0.8205128205128205,
+        "REFUSAL_TRIGGERING": 0.1282051282051282
+      },
+      "seacole": {
+        "LITERAL_RECALL": 0.20512820512820512,
+        "INTERPRETIVE_INFERENCE": 0.717948717948718,
+        "REFUSAL_TRIGGERING": 0.07692307692307693
+      },
+      "sunity_devee": {
+        "LITERAL_RECALL": 0.20512820512820512,
+        "INTERPRETIVE_INFERENCE": 0.5897435897435898,
+        "REFUSAL_TRIGGERING": 0.20512820512820512
+      },
+      "yung_wing": {
+        "LITERAL_RECALL": 0.07692307692307693,
+        "INTERPRETIVE_INFERENCE": 0.6153846153846154,
+        "REFUSAL_TRIGGERING": 0.3076923076923077
+      },
+      "zitkala_sa": {
+        "LITERAL_RECALL": 0.05128205128205128,
+        "INTERPRETIVE_INFERENCE": 0.5641025641025641,
+        "REFUSAL_TRIGGERING": 0.38461538461538464
+      },
+      "hamerton": {
+        "LITERAL_RECALL": 0.2564102564102564,
+        "INTERPRETIVE_INFERENCE": 0.2564102564102564,
+        "REFUSAL_TRIGGERING": 0.48717948717948717
+      }
+    },
+    "B6_n_valid_subjects": 14
+  },
+  "provenance": {
+    "script": "scripts/_v11_emit_appendix_b_battery.py",
+    "script_version": "v11.0-appendix-b",
+    "run_timestamp": "2026-04-25",
+    "input_manifest": [
+      {
+        "path": "data/franklin/battery.json",
+        "sha256": "656e504f8bb0cb44ddb9b199458c77a4840c837b7ad7eb74c4cf9c9dca00626d",
+        "size_bytes": 67879,
+        "n_records": 40
+      },
+      {
+        "path": "data/hamerton/battery.json",
+        "sha256": "a08a4308fc7d5557144045670909c8eeb1e5a5320ba4092c1596befd963c1df6",
+        "size_bytes": 50040,
+        "n_records": 39
+      },
+      {
+        "path": "docs/research/question_category_audit.json",
+        "sha256": "352a5704ca133c97fd77ae1dc4756f93b8d7c8ac7db7ff974f5236717537a920",
+        "size_bytes": 474573,
+        "n_records": 586
+      },
+      {
+        "path": "results/_s114_backfills/global_augustine__C1_baselayer__gemini_flash.json",
+        "sha256": "1db7adb1598970680e0f5c8da2eaf55ee7c71af78d1287d2cbb219ddacb4825a",
+        "size_bytes": 6312,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_augustine__C1_baselayer__gpt4o.json",
+        "sha256": "904b678c1092fb73d8e971af02a453905a7454be0d423d7acdb6e4cf5d14c980",
+        "size_bytes": 6000,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_augustine__C1_baselayer__gpt54.json",
+        "sha256": "9e6f978a64ce5d23823392ea695b327dc6e8ec9e992d009643af110a2fa9c7d6",
+        "size_bytes": 6000,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_augustine__C1_supermemory__gemini_flash.json",
+        "sha256": "201b99af176e2f0b52f1da32d6e365c60337d9c17a0459f9ee86f4bccefba880",
+        "size_bytes": 331,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_augustine__C1_supermemory__gpt4o.json",
+        "sha256": "3e256a2da71204ce40a187272c19614726c16ad7fbe85ea088a21cfa57c2f225",
+        "size_bytes": 315,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_augustine__C1_supermemory__gpt54.json",
+        "sha256": "3f340378e6f824c71ba6329703c61d78cb65e5648cb1800fbc7ae56ec86938b7",
+        "size_bytes": 315,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_augustine__C1_supermemory__haiku.json",
+        "sha256": "e2a5f501c6b821d45b7edf5b82142c78eda6a28ba2ab3f99cb6873317d9712a0",
+        "size_bytes": 315,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_augustine__C1_supermemory__opus.json",
+        "sha256": "3094e713bded39f76446bacaa40e14cd24369e35bcc77282363b703aa0bff2b2",
+        "size_bytes": 313,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_augustine__C1_supermemory__sonnet.json",
+        "sha256": "48e3e5dd41c60fed3892f92c3685453af2aec49024fab3ff7f27c55332c63754",
+        "size_bytes": 317,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_augustine__C3_baselayer__gemini_flash.json",
+        "sha256": "35e132f66c0e2ce519cb74659054bcc10d476d47d11a7173f766f59cc926f429",
+        "size_bytes": 6312,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_augustine__C3_baselayer__gpt4o.json",
+        "sha256": "4eea6cd34f729d660f7c6c8c3f100e01a4ea5fa52929254e565beeb307d261e9",
+        "size_bytes": 6000,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_augustine__C3_baselayer__gpt54.json",
+        "sha256": "aa8f728bffa7bed25d90f38e4d76ee122e39322647a799ed94fe1d8c4f78037e",
+        "size_bytes": 6000,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_augustine__C3_letta__gpt4o.json",
+        "sha256": "fb877da4fa5262ff503d1ecf27f4404336b5c9ded813b99c16489c06145b8e6a",
+        "size_bytes": 303,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_babur__C1_baselayer__gemini_flash.json",
+        "sha256": "1db7adb1598970680e0f5c8da2eaf55ee7c71af78d1287d2cbb219ddacb4825a",
+        "size_bytes": 6312,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_babur__C1_baselayer__gpt4o.json",
+        "sha256": "90015c8726dfeca0fda395fe699af452a654d19022e5b01fa68203e79dbe4859",
+        "size_bytes": 6000,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_babur__C1_baselayer__gpt54.json",
+        "sha256": "70cb42d13659680a586c92b9805b15027cab13b3689aa85a8f3b3738d9ae1f1f",
+        "size_bytes": 6000,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_babur__C1_baselayer__haiku.json",
+        "sha256": "fae98e65a88f5aacc08497b6f14140bb607de5b08580eef9bfb06eb1745d215d",
+        "size_bytes": 311,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_babur__C1_supermemory__gemini_flash.json",
+        "sha256": "fe994eeb26887967e02cac328625709a4397c19a323c40c07053fe3ac6f3cf85",
+        "size_bytes": 6390,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_babur__C1_supermemory__gpt4o.json",
+        "sha256": "1026e7cde770084e8b06cea0e713782cfef10495092619b62e0d8c3eccc7f99d",
+        "size_bytes": 6078,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_babur__C1_supermemory__gpt54.json",
+        "sha256": "80cfedcff645dadf818d6ad4c44df7787efb751f66a120bfaabefdbcad6f9227",
+        "size_bytes": 6078,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_babur__C3_baselayer__gemini_flash.json",
+        "sha256": "35e132f66c0e2ce519cb74659054bcc10d476d47d11a7173f766f59cc926f429",
+        "size_bytes": 6312,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_babur__C3_baselayer__gpt4o.json",
+        "sha256": "d4bbe72b7cd1a3526373a9a61fcdc091085f8563990887f89ac7f59c2c4e9957",
+        "size_bytes": 6000,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_babur__C3_baselayer__gpt54.json",
+        "sha256": "ce2f0d31245568af87fb2b55ea9457d0a8c09e0cb47c36b685801e6256d91731",
+        "size_bytes": 6000,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_babur__C3_baselayer__haiku.json",
+        "sha256": "dfa669a16d44e274942fc1b12225612b67603a0f9928cabe9c5a7b0571948a26",
+        "size_bytes": 157,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_babur__C3_supermemory__gemini_flash.json",
+        "sha256": "1e34e3e604da3caf21f1e8c6c3ddbf8f0b758052253bdaf6ab42603b3a991abe",
+        "size_bytes": 6390,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_babur__C3_supermemory__gpt4o.json",
+        "sha256": "a41a0f77df19a859a4a6f894cf1e18aaaf788375e5cfc9032d2740f880c807ac",
+        "size_bytes": 6078,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_babur__C3_supermemory__gpt54.json",
+        "sha256": "be921c34bffca5b907ec65c6b0f02e2e40057754fb84440c20a2e30f372bc7c3",
+        "size_bytes": 6078,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_babur__C8_raw_corpus__gemini_flash.json",
+        "sha256": "7886c2c28faa419304fb35cb67634cc5332f10ddf64710b37a8ee2b11faaf7c1",
+        "size_bytes": 6351,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_babur__C8_raw_corpus__gpt4o.json",
+        "sha256": "3427e0042a5b50df293e86a00bff07b857a600a7a8847f7e28d28ce26905e32a",
+        "size_bytes": 6039,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_babur__C8_raw_corpus__gpt54.json",
+        "sha256": "290f04d0210022f36507948fdfe8f62c914ba27f432dfc3439e3b6f9384cd74d",
+        "size_bytes": 6039,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_bernal_diaz__C1_baselayer__gemini_flash.json",
+        "sha256": "1db7adb1598970680e0f5c8da2eaf55ee7c71af78d1287d2cbb219ddacb4825a",
+        "size_bytes": 6312,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_bernal_diaz__C1_baselayer__gpt4o.json",
+        "sha256": "a78721fa78d4667d4633bc799d58f00a8df599ff5cec2c03f2cba2f21de78b99",
+        "size_bytes": 6000,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_bernal_diaz__C1_baselayer__gpt54.json",
+        "sha256": "932226097c7ce3cf5ac8e5343e854569fcb7205b7aaa1f712167e3af9e48416e",
+        "size_bytes": 6000,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_bernal_diaz__C3_baselayer__gemini_flash.json",
+        "sha256": "35e132f66c0e2ce519cb74659054bcc10d476d47d11a7173f766f59cc926f429",
+        "size_bytes": 6312,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_bernal_diaz__C3_baselayer__gpt4o.json",
+        "sha256": "134e3752a570529551c6750da2b9dc893aa423a15beb47166c18ec0244028ca0",
+        "size_bytes": 6000,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_bernal_diaz__C3_baselayer__gpt54.json",
+        "sha256": "b91c294cd287eedf2916ca97b5265539dec7b832abb9f7a16c5ededcb31f8037",
+        "size_bytes": 6000,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_bernal_diaz__C8_raw_corpus__gemini_flash.json",
+        "sha256": "7886c2c28faa419304fb35cb67634cc5332f10ddf64710b37a8ee2b11faaf7c1",
+        "size_bytes": 6351,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_bernal_diaz__C8_raw_corpus__gpt4o.json",
+        "sha256": "e719201612e06c7ab65249463a2f61c019f9dd7e3d01d29b2aa4f09ed541c453",
+        "size_bytes": 6039,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_bernal_diaz__C8_raw_corpus__gpt54.json",
+        "sha256": "1db5b845c63b28c6f275563a66c0598a57e7ca2f355e6e0274d9f39ce5f068db",
+        "size_bytes": 6039,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_bernal_diaz__C9_raw_corpus_plus_spec__gemini_flash.json",
+        "sha256": "dd425686f3e788389872989daede167624d87e46444a3a10f96b08377e06626c",
+        "size_bytes": 6741,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_bernal_diaz__C9_raw_corpus_plus_spec__gpt4o.json",
+        "sha256": "81e727d1ccc41262222b67a2240892413298a4c898956859a334086febddae5a",
+        "size_bytes": 6429,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_bernal_diaz__C9_raw_corpus_plus_spec__gpt54.json",
+        "sha256": "de89c5caae4c9721d1809d2865747de5b82f098ac8a0a364ec57fc17c883b2f0",
+        "size_bytes": 6429,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_cellini__C1_baselayer__gemini_flash.json",
+        "sha256": "1db7adb1598970680e0f5c8da2eaf55ee7c71af78d1287d2cbb219ddacb4825a",
+        "size_bytes": 6312,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_cellini__C1_baselayer__gpt4o.json",
+        "sha256": "4bbb84f761085aedb5858fdd0b23862fe649204165f382354f59dc248122930a",
+        "size_bytes": 6000,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_cellini__C1_baselayer__gpt54.json",
+        "sha256": "690bde4d1025dc9edfc01d440d6abba0595418b7b73fef0dc484944bfadd99d5",
+        "size_bytes": 6000,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_cellini__C3_baselayer__gemini_flash.json",
+        "sha256": "35e132f66c0e2ce519cb74659054bcc10d476d47d11a7173f766f59cc926f429",
+        "size_bytes": 6312,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_cellini__C3_baselayer__gpt4o.json",
+        "sha256": "b6f6842d7c4149145b4c8a149d37b176294e996f974970090a2e5e901a4389d9",
+        "size_bytes": 6000,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_cellini__C3_baselayer__gpt54.json",
+        "sha256": "e71dc4b15e5830f05deee43a9b9588332695b995f7ffce228a05a20dccc536b6",
+        "size_bytes": 6000,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_cellini__C3_letta__gpt4o.json",
+        "sha256": "39dc8c94eaae8658d8124a2c735a37eddfbc19ed3798dfd1590f87ba0747da87",
+        "size_bytes": 153,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_ebers__C1_baselayer__gemini_flash.json",
+        "sha256": "1db7adb1598970680e0f5c8da2eaf55ee7c71af78d1287d2cbb219ddacb4825a",
+        "size_bytes": 6312,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_ebers__C1_baselayer__gpt4o.json",
+        "sha256": "a98bd7a0dc2c48984579d1b580e0e5a67d58089e5f5ce1fb8178d9b2b0b540bb",
+        "size_bytes": 6000,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_ebers__C1_baselayer__gpt54.json",
+        "sha256": "b9a39e201e2bf3f1a432c11f93a9f30023deec68e401e514d133e1ccad39ed39",
+        "size_bytes": 6000,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_ebers__C3_baselayer__gemini_flash.json",
+        "sha256": "35e132f66c0e2ce519cb74659054bcc10d476d47d11a7173f766f59cc926f429",
+        "size_bytes": 6312,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_ebers__C3_baselayer__gpt4o.json",
+        "sha256": "2b7e9e652e23facb0f2896f41a318542675733efcc729fe9eaaec65609172b2b",
+        "size_bytes": 6000,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_ebers__C3_baselayer__gpt54.json",
+        "sha256": "eaa55016da5b39cf6fadd937a417da116a678afec1cc124572c1fabd9dc9dc72",
+        "size_bytes": 6000,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_equiano__C1_baselayer__gemini_flash.json",
+        "sha256": "1db7adb1598970680e0f5c8da2eaf55ee7c71af78d1287d2cbb219ddacb4825a",
+        "size_bytes": 6312,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_equiano__C1_baselayer__gpt4o.json",
+        "sha256": "3c3218518b6c8148751846da9ee4bb3f34edc5da8001161412bc883e23bb75fb",
+        "size_bytes": 6000,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_equiano__C1_baselayer__gpt54.json",
+        "sha256": "cc56fe5a24dd63082bbf2d4946feb762ec2437d1b7a9f6398c1fb9995b37a49a",
+        "size_bytes": 6000,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_equiano__C1_supermemory__gemini_flash.json",
+        "sha256": "4e630572020b38f8e932a12ab1a6951f29fb97a659411d452714b3e72742bb80",
+        "size_bytes": 4589,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_equiano__C1_supermemory__gpt4o.json",
+        "sha256": "59b710b9194d75e2d21bd182e63fc179860238432a1bdd9e0c3c39784f8907c8",
+        "size_bytes": 4365,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_equiano__C1_supermemory__gpt54.json",
+        "sha256": "c26de44b18957bb861ea7960028f7fe4f66f82dcf9b970c23aa5a05d5b50d811",
+        "size_bytes": 4365,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_equiano__C1_supermemory__haiku.json",
+        "sha256": "ba305098bdcdcda8201cfda08c7b93ec32bd24f8caefe0d59e2a5d23451020cf",
+        "size_bytes": 4365,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_equiano__C1_supermemory__opus.json",
+        "sha256": "7e292d85c8513c5f106394a26df8995d4313ce0761d4287b7a7b81930abb07c9",
+        "size_bytes": 4337,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_equiano__C1_supermemory__sonnet.json",
+        "sha256": "86994764a9fbd714520c92d7fb108e790c3852ac900e95413bd40535cad5d628",
+        "size_bytes": 4393,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_equiano__C3_baselayer__gemini_flash.json",
+        "sha256": "35e132f66c0e2ce519cb74659054bcc10d476d47d11a7173f766f59cc926f429",
+        "size_bytes": 6312,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_equiano__C3_baselayer__gpt4o.json",
+        "sha256": "9292c6c08959ede38bc76a60380da0a641525ebe514b684aeb7e0242507dedc5",
+        "size_bytes": 6000,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_equiano__C3_baselayer__gpt54.json",
+        "sha256": "20a215b9020ab7be879dc1109e4e3a560da09900d49e5e4c6456ec8aa4232f8f",
+        "size_bytes": 6000,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_fukuzawa__C1_baselayer__gemini_flash.json",
+        "sha256": "1db7adb1598970680e0f5c8da2eaf55ee7c71af78d1287d2cbb219ddacb4825a",
+        "size_bytes": 6312,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_fukuzawa__C1_baselayer__gpt4o.json",
+        "sha256": "33ca413153354bdee28b6f59f69a2a41fb28b5510b6644abd5c00b79718ada11",
+        "size_bytes": 6000,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_fukuzawa__C1_baselayer__gpt54.json",
+        "sha256": "02fd5dd9579ffbfca2b9b6cffc470941d003e42f6e30ebe25084888a3f1b586e",
+        "size_bytes": 6000,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_fukuzawa__C1_letta__gpt4o.json",
+        "sha256": "245919c9f9334ea06ed500c622ab3191e4f3e66cea3db5955d47079e0db24e33",
+        "size_bytes": 153,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_fukuzawa__C3_baselayer__gemini_flash.json",
+        "sha256": "35e132f66c0e2ce519cb74659054bcc10d476d47d11a7173f766f59cc926f429",
+        "size_bytes": 6312,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_fukuzawa__C3_baselayer__gpt4o.json",
+        "sha256": "9f699ca73987d257095c2c6604830f231932f640acfe455a4ded2544633feb89",
+        "size_bytes": 6000,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_fukuzawa__C3_baselayer__gpt54.json",
+        "sha256": "22ef9fb7017a3e1f77687cae74b6f96928a2d5abbb38db8167c4721552473694",
+        "size_bytes": 6000,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_keckley__C1_baselayer__gemini_flash.json",
+        "sha256": "1db7adb1598970680e0f5c8da2eaf55ee7c71af78d1287d2cbb219ddacb4825a",
+        "size_bytes": 6312,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_keckley__C1_baselayer__gpt4o.json",
+        "sha256": "3359134881a196723795078c78af0c4b51940ae5a7305af6847e01a84a9818c1",
+        "size_bytes": 6000,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_keckley__C1_baselayer__gpt54.json",
+        "sha256": "15e469eb8f2621b7066c990465bee27b599c798285e5ce641a16dd03f94c0232",
+        "size_bytes": 6000,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_keckley__C3_baselayer__gemini_flash.json",
+        "sha256": "35e132f66c0e2ce519cb74659054bcc10d476d47d11a7173f766f59cc926f429",
+        "size_bytes": 6312,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_keckley__C3_baselayer__gpt4o.json",
+        "sha256": "a7280c4ab15e20d6f4121345452c7ec8dbcaa6cf93b98ad77c9e9cfaf7de5638",
+        "size_bytes": 6000,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_keckley__C3_baselayer__gpt54.json",
+        "sha256": "c3fe0183815f78cc5645ac3f1ddc532e296853b1a7ef86c92b9c7bf075aed9a1",
+        "size_bytes": 6000,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_rousseau__C1_baselayer__gemini_flash.json",
+        "sha256": "1db7adb1598970680e0f5c8da2eaf55ee7c71af78d1287d2cbb219ddacb4825a",
+        "size_bytes": 6312,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_rousseau__C1_baselayer__gpt4o.json",
+        "sha256": "02ab7852bde60a1ab8dbfb51b985db450f9d0ee052bcfa1507b1130db905e137",
+        "size_bytes": 6000,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_rousseau__C1_baselayer__gpt54.json",
+        "sha256": "b672dad317e534dbce5da6feeef492cad2f9721b16aae34a591b9cf3707bb2e4",
+        "size_bytes": 6000,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_rousseau__C1_letta__gpt4o.json",
+        "sha256": "92a4898b734863904e1a0621684d7ab33868a54414e66626b4accfa013d33642",
+        "size_bytes": 453,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_rousseau__C1_supermemory__gemini_flash.json",
+        "sha256": "fe994eeb26887967e02cac328625709a4397c19a323c40c07053fe3ac6f3cf85",
+        "size_bytes": 6390,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_rousseau__C1_supermemory__gpt4o.json",
+        "sha256": "ff5f07b07866018cba16d40e52cc17f5324adebfebb0cca29c0abde79edc67b5",
+        "size_bytes": 6078,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_rousseau__C1_supermemory__gpt54.json",
+        "sha256": "092f2fe16fd9f2381dcd7f44adb7bc32f0b395f7733c78e7d0e96d2272764f0e",
+        "size_bytes": 6078,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_rousseau__C3_baselayer__gemini_flash.json",
+        "sha256": "35e132f66c0e2ce519cb74659054bcc10d476d47d11a7173f766f59cc926f429",
+        "size_bytes": 6312,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_rousseau__C3_baselayer__gpt4o.json",
+        "sha256": "058ec90f41c945978ad98056b79e04ef0742f5f7ad9b5b2744e5c37d636f1258",
+        "size_bytes": 6000,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_rousseau__C3_baselayer__gpt54.json",
+        "sha256": "d51a6d58ee8fefbc09fef70eba0055c066e1336e1e0e314100e0150ad0b85e0a",
+        "size_bytes": 6000,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_rousseau__C3_letta__gpt4o.json",
+        "sha256": "2dc6fbeb678e3d4d52303b73f6fcfe8abc2a0d1c110e932b46e9c96fb4e5874d",
+        "size_bytes": 603,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_rousseau__C3_supermemory__gemini_flash.json",
+        "sha256": "1e34e3e604da3caf21f1e8c6c3ddbf8f0b758052253bdaf6ab42603b3a991abe",
+        "size_bytes": 6390,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_rousseau__C3_supermemory__gpt4o.json",
+        "sha256": "7bff351c07f75d76256b3711319060116517635515e6208b493d8b450572d306",
+        "size_bytes": 6078,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_rousseau__C3_supermemory__gpt54.json",
+        "sha256": "9ef60644f9dc8571f0a25069a26038c899a44350b34a8ce51341a5c95799afae",
+        "size_bytes": 6078,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_rousseau__C8_raw_corpus__gemini_flash.json",
+        "sha256": "7886c2c28faa419304fb35cb67634cc5332f10ddf64710b37a8ee2b11faaf7c1",
+        "size_bytes": 6351,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_rousseau__C8_raw_corpus__gpt4o.json",
+        "sha256": "34eca93c608c25268d86c11f909ac1a103e225242b2bd6fb4238c21ae28bed48",
+        "size_bytes": 6039,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_rousseau__C8_raw_corpus__gpt54.json",
+        "sha256": "d86994ef64ab5ea7bf9252a8141b19f341c43ae5812088bbaf197d32376063b2",
+        "size_bytes": 6039,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_rousseau__C9_raw_corpus_plus_spec__gemini_flash.json",
+        "sha256": "dd425686f3e788389872989daede167624d87e46444a3a10f96b08377e06626c",
+        "size_bytes": 6741,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_rousseau__C9_raw_corpus_plus_spec__gpt4o.json",
+        "sha256": "de0928c1c83ffe2a8322af5a3b06fdfd79888bb23230360c945fb12fe8b6a024",
+        "size_bytes": 6429,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_rousseau__C9_raw_corpus_plus_spec__gpt54.json",
+        "sha256": "bafceedf120d03a9c85e08d3e8046c6db0aa988288b9940688e360e233794865",
+        "size_bytes": 6429,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_seacole__C1_baselayer__gemini_flash.json",
+        "sha256": "1db7adb1598970680e0f5c8da2eaf55ee7c71af78d1287d2cbb219ddacb4825a",
+        "size_bytes": 6312,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_seacole__C1_baselayer__gpt4o.json",
+        "sha256": "7e70de690a68de31aca7b633312588cb22f243e17f574ab4d96a10e0a86a97c7",
+        "size_bytes": 6000,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_seacole__C1_baselayer__gpt54.json",
+        "sha256": "8ea7499f9ce055cb887e3453df99710dce880652c654045f777a33faf7c14ce5",
+        "size_bytes": 6000,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_seacole__C3_baselayer__gemini_flash.json",
+        "sha256": "35e132f66c0e2ce519cb74659054bcc10d476d47d11a7173f766f59cc926f429",
+        "size_bytes": 6312,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_seacole__C3_baselayer__gpt4o.json",
+        "sha256": "e258b4caa9dd987f09616c06b6b2e72957782b70d24095bf5b0df94af1602ccb",
+        "size_bytes": 6000,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_seacole__C3_baselayer__gpt54.json",
+        "sha256": "c2bd059809db2ab11be2d2378ed617c79318903562ae63bf696d17b68d2d5201",
+        "size_bytes": 6000,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_seacole__C5_baseline__gemini_flash.json",
+        "sha256": "0c9572d158ea491ffc6822483dd4c22273aeee9de614ee9fdaba9e0c05fe0ed5",
+        "size_bytes": 163,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_sunity_devee__C1_baselayer__gemini_flash.json",
+        "sha256": "1db7adb1598970680e0f5c8da2eaf55ee7c71af78d1287d2cbb219ddacb4825a",
+        "size_bytes": 6312,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_sunity_devee__C1_baselayer__gpt4o.json",
+        "sha256": "e77719f2d7a9874778b09211999f042f8a5a264cb1eb9893b06459fb4ee648c9",
+        "size_bytes": 6000,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_sunity_devee__C1_baselayer__gpt54.json",
+        "sha256": "a8e70d24e94ff5f9d0416db98d510e61ebea9c8bf92452e03919be81ada6aad6",
+        "size_bytes": 6000,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_sunity_devee__C3_baselayer__gemini_flash.json",
+        "sha256": "35e132f66c0e2ce519cb74659054bcc10d476d47d11a7173f766f59cc926f429",
+        "size_bytes": 6312,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_sunity_devee__C3_baselayer__gpt4o.json",
+        "sha256": "08697b7e104879592384a0ef30e874d202ce35be777afc889e5d40d11925aecf",
+        "size_bytes": 6000,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_sunity_devee__C3_baselayer__gpt54.json",
+        "sha256": "448c743094b075a7016b8c4b039d7d30f9ffca6b966f85fd30967c866cb386d2",
+        "size_bytes": 6000,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_sunity_devee__C4a_full_facts_plus_spec__gemini_flash.json",
+        "sha256": "237be4c2556a8688a7aa61e863c8f7bdb1be4695ae8bde00bd1fa5c5cd2b823a",
+        "size_bytes": 177,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_yung_wing__C1_baselayer__gemini_flash.json",
+        "sha256": "1db7adb1598970680e0f5c8da2eaf55ee7c71af78d1287d2cbb219ddacb4825a",
+        "size_bytes": 6312,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_yung_wing__C1_baselayer__gpt4o.json",
+        "sha256": "8df639070ae2a5831b972ead981c8f0b7b33342bbf344309884dc0d5d477f4eb",
+        "size_bytes": 6000,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_yung_wing__C1_baselayer__gpt54.json",
+        "sha256": "7bcaf60a77fd899f7d449983ae04e2eb449921d6438fa973703dd24660d4b82c",
+        "size_bytes": 6000,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_yung_wing__C3_baselayer__gemini_flash.json",
+        "sha256": "35e132f66c0e2ce519cb74659054bcc10d476d47d11a7173f766f59cc926f429",
+        "size_bytes": 6312,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_yung_wing__C3_baselayer__gpt4o.json",
+        "sha256": "0c2ef7cda4e1183b3de9951535420acd37fb3065e6897edae4fcdd8b2a3c2be9",
+        "size_bytes": 6000,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_yung_wing__C3_baselayer__gpt54.json",
+        "sha256": "ffa0bb0e396aeebca1a17e0b77074f722016e7d8815d8f8b3c8b851b692f681c",
+        "size_bytes": 6000,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_zitkala_sa__C1_letta__gpt4o.json",
+        "sha256": "f8596e459382a8bc18ec0f4efaf64bf82d697c8f37081d729aa4c62f685e0a31",
+        "size_bytes": 153,
+        "n_records": null
+      },
+      {
+        "path": "results/_s114_backfills/global_zitkala_sa__C3_letta__gpt4o.json",
+        "sha256": "2f2c32098153328b9be7fec121f2ed024b51a4500bffad98e8e9f85831ad179d",
+        "size_bytes": 303,
+        "n_records": null
+      },
+      {
+        "path": "results/franklin_legacy_20260411/analysis/gpt4o_judgments.json",
+        "sha256": "29a2b6572e8b68c548ae304199b2323b781222d2d6b50a2dbb75d034ac876f6c",
+        "size_bytes": 11323,
+        "n_records": null
+      },
+      {
+        "path": "results/franklin_legacy_20260411/analysis/gpt54_judgments.json",
+        "sha256": "b0043d7d300da5191b3ddb337efe86e691ce37fe51a71f5cc59540eb3d63ef7c",
+        "size_bytes": 11323,
+        "n_records": null
+      },
+      {
+        "path": "results/franklin_legacy_20260411/analysis/haiku_judgments.json",
+        "sha256": "b508b57ad2928d17663e7d4a141dbef2d49127d6563eb2c1b279083377fe98c5",
+        "size_bytes": 32883,
+        "n_records": null
+      },
+      {
+        "path": "results/franklin_legacy_20260411/analysis/opus_judgments.json",
+        "sha256": "cdc5afdd8377ad4cb12392415f2a2ce679ff5a1e6823e98d4aa728b72de81e10",
+        "size_bytes": 32523,
+        "n_records": null
+      },
+      {
+        "path": "results/franklin_legacy_20260411/analysis/sonnet_judgments.json",
+        "sha256": "47905a5dedf77689a5187c601ce7f3d8106b656d2cc3ffcb59e11d9352c90725",
+        "size_bytes": 33243,
+        "n_records": null
+      },
+      {
+        "path": "results/global_augustine/battery_v2.json",
+        "sha256": "891c72356abc3205f71a01e8456cf22d05a136aa3ce14918009707b94cc53127",
+        "size_bytes": 29736,
+        "n_records": 39
+      },
+      {
+        "path": "results/global_augustine/judgments_v2.json",
+        "sha256": "eab6ba6b19d80ee48289c3511273ec77a3b34880aa55f1133ba9ce18dfa515b6",
+        "size_bytes": 190734,
+        "n_records": null
+      },
+      {
+        "path": "results/global_babur/battery_v2.json",
+        "sha256": "d2ae045e5830b2e866c7a17bf5695904936438cb250bc6a098c5aa6a0f1ebc1e",
+        "size_bytes": 30121,
+        "n_records": 39
+      },
+      {
+        "path": "results/global_babur/judgments_v2.json",
+        "sha256": "47c354a6d015d41ab41eeff9b7cdfd07e291b1a6d9cf455a910d7569a3739121",
+        "size_bytes": 190014,
+        "n_records": null
+      },
+      {
+        "path": "results/global_bernal_diaz/battery_v2.json",
+        "sha256": "8c135c19d61e64b19cff56f6c5b31d011a306bd9e3378201537972b840746ebe",
+        "size_bytes": 34830,
+        "n_records": 39
+      },
+      {
+        "path": "results/global_bernal_diaz/judgments_v2.json",
+        "sha256": "0945e052f47df211379bcccd1092208e26a0b3aab97bc654bb48dc059c025ebb",
+        "size_bytes": 176565,
+        "n_records": null
+      },
+      {
+        "path": "results/global_cellini/battery_v2.json",
+        "sha256": "7cad484c05fa3b7e2a04c8a07ebae5b469183f808881b82b0eaed868ffc09913",
+        "size_bytes": 33123,
+        "n_records": 39
+      },
+      {
+        "path": "results/global_cellini/judgments_v2.json",
+        "sha256": "797680841bef9dff2582867246c8590ee825feb1b0bacaaa495d25181ad6b0be",
+        "size_bytes": 164430,
+        "n_records": null
+      },
+      {
+        "path": "results/global_ebers/battery_v2.json",
+        "sha256": "91b473d9de1cc8b1618674f25f9f209a6c67a3ba786fcbd3d136e359fbe2f338",
+        "size_bytes": 30072,
+        "n_records": 39
+      },
+      {
+        "path": "results/global_ebers/judgments_v2.json",
+        "sha256": "23a19e78ceff071a3ee98d88f3ad63885d03425036d2b29af6533a7d5d9a69c3",
+        "size_bytes": 164430,
+        "n_records": null
+      },
+      {
+        "path": "results/global_equiano/battery_v2.json",
+        "sha256": "94197b7cd8cbe2ba09da91802813f27a547067ffe9a4d62bebb34ef3f200657f",
+        "size_bytes": 31100,
+        "n_records": 39
+      },
+      {
+        "path": "results/global_equiano/judgments_v2.json",
+        "sha256": "ff59513f0815de7ebf5057e4919529cd2225c1b896a21a030f0d1ff10b229d9a",
+        "size_bytes": 164430,
+        "n_records": null
+      },
+      {
+        "path": "results/global_fukuzawa/battery_v2.json",
+        "sha256": "456fc580b0094e5c98218aecb2350ab404975db979cb433ebd5afd2d6d62a45f",
+        "size_bytes": 30550,
+        "n_records": 39
+      },
+      {
+        "path": "results/global_fukuzawa/judgments_v2.json",
+        "sha256": "6ea16c1f837d2d57cc81fbebcf94440e204c58aff7dd1d5c6cdff60a99db0f28",
+        "size_bytes": 164430,
+        "n_records": null
+      },
+      {
+        "path": "results/global_keckley/battery_v2.json",
+        "sha256": "89ae53aad5417147d9351709140cbd565eb47db3dcc1e832dff83902decb27f2",
+        "size_bytes": 30913,
+        "n_records": 39
+      },
+      {
+        "path": "results/global_keckley/judgments_v2.json",
+        "sha256": "7fbad07d6484609d17af2579ba9085fd40fe74d7a63ba2d939f7c23c3225d8c2",
+        "size_bytes": 164430,
+        "n_records": null
+      },
+      {
+        "path": "results/global_rousseau/battery_v2.json",
+        "sha256": "ce02faf5fc15bc2260b155202e912fbe92ce27d0ff4da6e9828029820e23e8df",
+        "size_bytes": 33196,
+        "n_records": 39
+      },
+      {
+        "path": "results/global_rousseau/judgments_v2.json",
+        "sha256": "55a0fb40ec928faa3579d6188f9d509e6c9af1546e6916f943aea9ee13361a7d",
+        "size_bytes": 164430,
+        "n_records": null
+      },
+      {
+        "path": "results/global_seacole/battery_v2.json",
+        "sha256": "bed305f27a66a4529502ebf5f961e2dfbc0074d42f9d121bc4beede653103490",
+        "size_bytes": 32518,
+        "n_records": 39
+      },
+      {
+        "path": "results/global_seacole/judgments_v2.json",
+        "sha256": "fac1a8fbf013b6f6791ac58ac63f3773ca189cde4ca744b1aa4375d90065c0ce",
+        "size_bytes": 164429,
+        "n_records": null
+      },
+      {
+        "path": "results/global_sunity_devee/battery_v2.json",
+        "sha256": "49b9a7c3f1d2f39c08a536e48ebda9154c229d343aa754a2cfe90cfc25e727f7",
+        "size_bytes": 30911,
+        "n_records": 39
+      },
+      {
+        "path": "results/global_sunity_devee/judgments_v2.json",
+        "sha256": "324b0f6a2b660a0ab4a64276bc8c410129520a03ff6ac26173f7251492456874",
+        "size_bytes": 164429,
+        "n_records": null
+      },
+      {
+        "path": "results/global_yung_wing/battery_v2.json",
+        "sha256": "409bdcb8a04c89ad39a211dfc6a28dae6d1bf32190ab61ef5e7e18d9c63f3041",
+        "size_bytes": 33492,
+        "n_records": 39
+      },
+      {
+        "path": "results/global_yung_wing/judgments_v2.json",
+        "sha256": "1850d4a0452ff50b9f71e49622dc41ca8a205d74b6ec1b2dbdf69efb4b6066b9",
+        "size_bytes": 164430,
+        "n_records": null
+      },
+      {
+        "path": "results/global_zitkala_sa/battery_v2.json",
+        "sha256": "e34b6e806c09c7c2bb55a7283c802b2d140cc632c2d5b0ea4b03a5b88d2451e2",
+        "size_bytes": 30933,
+        "n_records": 39
+      },
+      {
+        "path": "results/global_zitkala_sa/judgments_v2.json",
+        "sha256": "fc2ef120d96e12e5733e18328b8a6e92e23f12840d3b41e3b9fd89a593ada348",
+        "size_bytes": 164430,
+        "n_records": null
+      },
+      {
+        "path": "results/hamerton/gpt4o_judgments.json",
+        "sha256": "08552f33207ecd67d6f5dfce94e4339944c28efef5008a4a09c4fe5a7c66c58c",
+        "size_bytes": 32997,
+        "n_records": null
+      },
+      {
+        "path": "results/hamerton/gpt54_judgments.json",
+        "sha256": "d3b8facd5140745826a4e442a09af69f901e2c2a2ae9f1de2fe96835aa34c03c",
+        "size_bytes": 18957,
+        "n_records": null
+      },
+      {
+        "path": "results/hamerton/judgments.json",
+        "sha256": "7f66bd99cc032ba565d2750f5d6a9b4b1925c003fc33990190e9a5b453f577fd",
+        "size_bytes": 23637,
+        "n_records": null
+      },
+      {
+        "path": "results/hamerton/judgments_harmonized.json",
+        "sha256": "9e21940dee6519f4df3f910a7f647e6375702a1912e17274b689b62d54a815db",
+        "size_bytes": 90825,
+        "n_records": null
+      },
+      {
+        "path": "results/hamerton/opus_judgments.json",
+        "sha256": "c78fad0d3e5e80869d4d17b9a97ade50b9b56d69f8276402b474d99d85f5037a",
+        "size_bytes": 32802,
+        "n_records": null
+      },
+      {
+        "path": "results/hamerton/sonnet_judgments.json",
+        "sha256": "7173405a2b2ef9040db638e32af3bc39d31d689c614f81f32a222daa9e806c06",
+        "size_bytes": 33192,
+        "n_records": null
+      }
+    ],
+    "notes": [
+      "B.2 counts come directly from each subject's battery JSON; no judgment data is involved in B.2.",
+      "B.3 axis labels come from docs/research/question_category_audit.json; the Haiku-classifier output is the primary source. Re-deriving would require rerunning that classifier.",
+      "B.4, B.5, B.6 per-question Delta_spec values are recomputed from per-judge JSON files under the v11 5-judge primary rule.",
+      "Franklin's per-question deltas under the spec contrast are fully populated only on (C5_baseline, C2a_full_spec) which both have 5-judge coverage in the legacy data; if any are missing the subject contributes only valid cells."
+    ]
+  }
+}
