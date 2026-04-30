@@ -1,0 +1,5680 @@
+{
+  "date": "2026-04-30",
+  "aggregation": "5-judge primary panel (haiku, sonnet, opus, gpt4o, gpt54), per-question 5-judge mean",
+  "integer_band_definition": "floor(mean) clipped to [1, 5]; bands [1,2), [2,3), [3,4), [4,5]",
+  "subject_set_notes": {
+    "all_14_subjects_used_for": [
+      "C5_to_C4a",
+      "C5_to_C4",
+      "C5_to_C2a",
+      "C2c_to_C2a",
+      "C4_to_C4a"
+    ],
+    "babur_excluded_for": [
+      "C5_to_C8",
+      "C5_to_C9",
+      "C8_to_C9"
+    ],
+    "rationale_babur_exclude": "Context overflow at raw-corpus length"
+  },
+  "pairs": {
+    "C5_to_C4a": {
+      "label": "C5 (baseline) -> C4a (facts + spec, full pipeline)",
+      "pre_cond": "C5_baseline",
+      "post_cond": "C4a_full_facts_plus_spec",
+      "subjects": [
+        "hamerton",
+        "sunity_devee",
+        "ebers",
+        "fukuzawa",
+        "seacole",
+        "bernal_diaz",
+        "keckley",
+        "yung_wing",
+        "babur",
+        "augustine",
+        "equiano",
+        "cellini",
+        "rousseau",
+        "zitkala_sa"
+      ],
+      "n_subjects": 14,
+      "n_paired_questions": 546,
+      "upward": 236,
+      "downward": 86,
+      "no_crossing": 224,
+      "upward_pct": 43.2,
+      "downward_pct": 15.8,
+      "no_crossing_pct": 41.0,
+      "net_upward": 150,
+      "net_upward_pct": 27.5,
+      "multi_anchor_count": 71,
+      "multi_anchor_pct": 13.0,
+      "extreme_count": 20,
+      "extreme_pct": 3.7,
+      "mean_pre": 1.888,
+      "mean_post": 2.44,
+      "mean_delta": 0.552,
+      "boundary_breakdown": {
+        "1->2": 144,
+        "1->3": 49,
+        "1->4": 17,
+        "1->5": 3,
+        "2->1 DOWN": 19,
+        "2->3": 12,
+        "2->4": 2,
+        "3->1 DOWN": 7,
+        "3->2 DOWN": 36,
+        "3->4": 9,
+        "4->1 DOWN": 1,
+        "4->2 DOWN": 12,
+        "4->3 DOWN": 9,
+        "5->3 DOWN": 1,
+        "5->4 DOWN": 1
+      },
+      "per_subject": [
+        {
+          "subject": "hamerton",
+          "total": 39,
+          "upward": 27,
+          "downward": 0,
+          "no_crossing": 12,
+          "upward_pct": 69.2,
+          "mean_pre": 1.256,
+          "mean_post": 2.769,
+          "mean_delta": 1.513
+        },
+        {
+          "subject": "sunity_devee",
+          "total": 39,
+          "upward": 29,
+          "downward": 0,
+          "no_crossing": 10,
+          "upward_pct": 74.4,
+          "mean_pre": 1.026,
+          "mean_post": 2.41,
+          "mean_delta": 1.385
+        },
+        {
+          "subject": "ebers",
+          "total": 39,
+          "upward": 19,
+          "downward": 0,
+          "no_crossing": 20,
+          "upward_pct": 48.7,
+          "mean_pre": 1.021,
+          "mean_post": 2.072,
+          "mean_delta": 1.051
+        },
+        {
+          "subject": "fukuzawa",
+          "total": 39,
+          "upward": 26,
+          "downward": 3,
+          "no_crossing": 10,
+          "upward_pct": 66.7,
+          "mean_pre": 1.672,
+          "mean_post": 2.779,
+          "mean_delta": 1.108
+        },
+        {
+          "subject": "seacole",
+          "total": 39,
+          "upward": 21,
+          "downward": 3,
+          "no_crossing": 15,
+          "upward_pct": 53.8,
+          "mean_pre": 1.774,
+          "mean_post": 2.595,
+          "mean_delta": 0.821
+        },
+        {
+          "subject": "bernal_diaz",
+          "total": 39,
+          "upward": 23,
+          "downward": 3,
+          "no_crossing": 13,
+          "upward_pct": 59.0,
+          "mean_pre": 1.697,
+          "mean_post": 2.482,
+          "mean_delta": 0.785
+        },
+        {
+          "subject": "keckley",
+          "total": 39,
+          "upward": 19,
+          "downward": 6,
+          "no_crossing": 14,
+          "upward_pct": 48.7,
+          "mean_pre": 1.841,
+          "mean_post": 2.436,
+          "mean_delta": 0.595
+        },
+        {
+          "subject": "yung_wing",
+          "total": 39,
+          "upward": 19,
+          "downward": 5,
+          "no_crossing": 15,
+          "upward_pct": 48.7,
+          "mean_pre": 1.877,
+          "mean_post": 2.4,
+          "mean_delta": 0.523
+        },
+        {
+          "subject": "babur",
+          "total": 39,
+          "upward": 10,
+          "downward": 4,
+          "no_crossing": 25,
+          "upward_pct": 25.6,
+          "mean_pre": 1.759,
+          "mean_post": 2.01,
+          "mean_delta": 0.251
+        },
+        {
+          "subject": "augustine",
+          "total": 39,
+          "upward": 14,
+          "downward": 14,
+          "no_crossing": 11,
+          "upward_pct": 35.9,
+          "mean_pre": 2.585,
+          "mean_post": 2.697,
+          "mean_delta": 0.113
+        },
+        {
+          "subject": "equiano",
+          "total": 39,
+          "upward": 2,
+          "downward": 16,
+          "no_crossing": 21,
+          "upward_pct": 5.1,
+          "mean_pre": 2.769,
+          "mean_post": 2.421,
+          "mean_delta": -0.349
+        },
+        {
+          "subject": "cellini",
+          "total": 39,
+          "upward": 12,
+          "downward": 8,
+          "no_crossing": 19,
+          "upward_pct": 30.8,
+          "mean_pre": 2.379,
+          "mean_post": 2.528,
+          "mean_delta": 0.149
+        },
+        {
+          "subject": "rousseau",
+          "total": 39,
+          "upward": 12,
+          "downward": 9,
+          "no_crossing": 18,
+          "upward_pct": 30.8,
+          "mean_pre": 2.436,
+          "mean_post": 2.533,
+          "mean_delta": 0.097
+        },
+        {
+          "subject": "zitkala_sa",
+          "total": 39,
+          "upward": 3,
+          "downward": 15,
+          "no_crossing": 21,
+          "upward_pct": 7.7,
+          "mean_pre": 2.338,
+          "mean_post": 2.021,
+          "mean_delta": -0.318
+        }
+      ],
+      "multi_anchor_examples": [
+        {
+          "subject": "hamerton",
+          "qid": 24,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.8
+        },
+        {
+          "subject": "hamerton",
+          "qid": 29,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4.6
+        },
+        {
+          "subject": "hamerton",
+          "qid": 33,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4.6
+        },
+        {
+          "subject": "hamerton",
+          "qid": 35,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4
+        },
+        {
+          "subject": "hamerton",
+          "qid": 42,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4.8
+        },
+        {
+          "subject": "hamerton",
+          "qid": 43,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.2
+        },
+        {
+          "subject": "hamerton",
+          "qid": 51,
+          "pre_band": 1,
+          "post_band": 5,
+          "jump": 4,
+          "pre_mean": 1,
+          "post_mean": 5
+        },
+        {
+          "subject": "hamerton",
+          "qid": 53,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.6
+        },
+        {
+          "subject": "hamerton",
+          "qid": 55,
+          "pre_band": 1,
+          "post_band": 5,
+          "jump": 4,
+          "pre_mean": 1,
+          "post_mean": 5
+        },
+        {
+          "subject": "hamerton",
+          "qid": 58,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4
+        },
+        {
+          "subject": "hamerton",
+          "qid": 59,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.2
+        },
+        {
+          "subject": "hamerton",
+          "qid": 60,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3
+        },
+        {
+          "subject": "sunity_devee",
+          "qid": 2,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3
+        },
+        {
+          "subject": "sunity_devee",
+          "qid": 4,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.2
+        },
+        {
+          "subject": "sunity_devee",
+          "qid": 10,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3
+        },
+        {
+          "subject": "sunity_devee",
+          "qid": 17,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.4
+        },
+        {
+          "subject": "sunity_devee",
+          "qid": 19,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.8
+        },
+        {
+          "subject": "sunity_devee",
+          "qid": 22,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4
+        },
+        {
+          "subject": "sunity_devee",
+          "qid": 23,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.2
+        },
+        {
+          "subject": "sunity_devee",
+          "qid": 26,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3
+        },
+        {
+          "subject": "sunity_devee",
+          "qid": 28,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3
+        },
+        {
+          "subject": "sunity_devee",
+          "qid": 34,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4.4
+        },
+        {
+          "subject": "sunity_devee",
+          "qid": 36,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4.6
+        },
+        {
+          "subject": "ebers",
+          "qid": 5,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.2
+        },
+        {
+          "subject": "ebers",
+          "qid": 7,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.2,
+          "post_mean": 3.6
+        },
+        {
+          "subject": "ebers",
+          "qid": 10,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3
+        },
+        {
+          "subject": "ebers",
+          "qid": 11,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.6
+        },
+        {
+          "subject": "ebers",
+          "qid": 14,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.4
+        },
+        {
+          "subject": "ebers",
+          "qid": 18,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.6
+        },
+        {
+          "subject": "ebers",
+          "qid": 19,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.2
+        },
+        {
+          "subject": "ebers",
+          "qid": 37,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.2
+        },
+        {
+          "subject": "fukuzawa",
+          "qid": 1,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1.2,
+          "post_mean": 4.4
+        },
+        {
+          "subject": "fukuzawa",
+          "qid": 3,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4.2
+        },
+        {
+          "subject": "fukuzawa",
+          "qid": 5,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3
+        },
+        {
+          "subject": "fukuzawa",
+          "qid": 8,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.8
+        },
+        {
+          "subject": "fukuzawa",
+          "qid": 9,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.2
+        },
+        {
+          "subject": "fukuzawa",
+          "qid": 11,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3
+        },
+        {
+          "subject": "fukuzawa",
+          "qid": 15,
+          "pre_band": 2,
+          "post_band": 4,
+          "jump": 2,
+          "pre_mean": 2.4,
+          "post_mean": 4
+        },
+        {
+          "subject": "fukuzawa",
+          "qid": 16,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1.6,
+          "post_mean": 4.8
+        },
+        {
+          "subject": "fukuzawa",
+          "qid": 20,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4.4
+        },
+        {
+          "subject": "fukuzawa",
+          "qid": 35,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4.2
+        },
+        {
+          "subject": "fukuzawa",
+          "qid": 38,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.6,
+          "post_mean": 3
+        },
+        {
+          "subject": "seacole",
+          "qid": 2,
+          "pre_band": 1,
+          "post_band": 5,
+          "jump": 4,
+          "pre_mean": 1.8,
+          "post_mean": 5
+        },
+        {
+          "subject": "seacole",
+          "qid": 11,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4.4
+        },
+        {
+          "subject": "seacole",
+          "qid": 17,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.2
+        },
+        {
+          "subject": "seacole",
+          "qid": 19,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1.4,
+          "post_mean": 4.4
+        },
+        {
+          "subject": "seacole",
+          "qid": 27,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.8
+        },
+        {
+          "subject": "bernal_diaz",
+          "qid": 1,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.6
+        },
+        {
+          "subject": "bernal_diaz",
+          "qid": 14,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.4,
+          "post_mean": 3
+        },
+        {
+          "subject": "bernal_diaz",
+          "qid": 17,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.6,
+          "post_mean": 3
+        },
+        {
+          "subject": "bernal_diaz",
+          "qid": 18,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.6,
+          "post_mean": 3.4
+        },
+        {
+          "subject": "bernal_diaz",
+          "qid": 35,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.4,
+          "post_mean": 3.4
+        },
+        {
+          "subject": "keckley",
+          "qid": 9,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1.2,
+          "post_mean": 4.2
+        },
+        {
+          "subject": "keckley",
+          "qid": 16,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3
+        },
+        {
+          "subject": "keckley",
+          "qid": 24,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3
+        },
+        {
+          "subject": "keckley",
+          "qid": 36,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3
+        },
+        {
+          "subject": "yung_wing",
+          "qid": 5,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3
+        },
+        {
+          "subject": "yung_wing",
+          "qid": 10,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.8,
+          "post_mean": 3.4
+        },
+        {
+          "subject": "yung_wing",
+          "qid": 16,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.4,
+          "post_mean": 3.4
+        },
+        {
+          "subject": "yung_wing",
+          "qid": 21,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.4,
+          "post_mean": 3
+        },
+        {
+          "subject": "yung_wing",
+          "qid": 22,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4.2
+        },
+        {
+          "subject": "yung_wing",
+          "qid": 26,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.6
+        },
+        {
+          "subject": "babur",
+          "qid": 24,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.4,
+          "post_mean": 3.6
+        },
+        {
+          "subject": "babur",
+          "qid": 30,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.8,
+          "post_mean": 3
+        },
+        {
+          "subject": "augustine",
+          "qid": 14,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3
+        },
+        {
+          "subject": "augustine",
+          "qid": 20,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.4
+        },
+        {
+          "subject": "equiano",
+          "qid": 8,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.4,
+          "post_mean": 3.2
+        },
+        {
+          "subject": "equiano",
+          "qid": 36,
+          "pre_band": 2,
+          "post_band": 4,
+          "jump": 2,
+          "pre_mean": 2.2,
+          "post_mean": 4.4
+        },
+        {
+          "subject": "cellini",
+          "qid": 34,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.6
+        },
+        {
+          "subject": "rousseau",
+          "qid": 1,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.6,
+          "post_mean": 3.4
+        },
+        {
+          "subject": "rousseau",
+          "qid": 2,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.4,
+          "post_mean": 3.6
+        }
+      ]
+    },
+    "C5_to_C4": {
+      "label": "C5 (baseline) -> C4 (facts only)",
+      "pre_cond": "C5_baseline",
+      "post_cond": "C4_factdump",
+      "subjects": [
+        "hamerton",
+        "sunity_devee",
+        "ebers",
+        "fukuzawa",
+        "seacole",
+        "bernal_diaz",
+        "keckley",
+        "yung_wing",
+        "babur",
+        "augustine",
+        "equiano",
+        "cellini",
+        "rousseau",
+        "zitkala_sa"
+      ],
+      "n_subjects": 14,
+      "n_paired_questions": 546,
+      "upward": 206,
+      "downward": 86,
+      "no_crossing": 254,
+      "upward_pct": 37.7,
+      "downward_pct": 15.8,
+      "no_crossing_pct": 46.5,
+      "net_upward": 120,
+      "net_upward_pct": 22.0,
+      "multi_anchor_count": 68,
+      "multi_anchor_pct": 12.5,
+      "extreme_count": 24,
+      "extreme_pct": 4.4,
+      "mean_pre": 1.888,
+      "mean_post": 2.357,
+      "mean_delta": 0.469,
+      "boundary_breakdown": {
+        "1->2": 106,
+        "1->3": 43,
+        "1->4": 23,
+        "1->5": 1,
+        "2->1 DOWN": 15,
+        "2->3": 18,
+        "2->4": 1,
+        "3->1 DOWN": 3,
+        "3->2 DOWN": 43,
+        "3->4": 14,
+        "4->1 DOWN": 3,
+        "4->2 DOWN": 10,
+        "4->3 DOWN": 10,
+        "5->4 DOWN": 2
+      },
+      "per_subject": [
+        {
+          "subject": "hamerton",
+          "total": 39,
+          "upward": 19,
+          "downward": 1,
+          "no_crossing": 19,
+          "upward_pct": 48.7,
+          "mean_pre": 1.256,
+          "mean_post": 2.426,
+          "mean_delta": 1.169
+        },
+        {
+          "subject": "sunity_devee",
+          "total": 39,
+          "upward": 26,
+          "downward": 0,
+          "no_crossing": 13,
+          "upward_pct": 66.7,
+          "mean_pre": 1.026,
+          "mean_post": 2.462,
+          "mean_delta": 1.436
+        },
+        {
+          "subject": "ebers",
+          "total": 39,
+          "upward": 20,
+          "downward": 0,
+          "no_crossing": 19,
+          "upward_pct": 51.3,
+          "mean_pre": 1.021,
+          "mean_post": 2.021,
+          "mean_delta": 1.0
+        },
+        {
+          "subject": "fukuzawa",
+          "total": 39,
+          "upward": 23,
+          "downward": 2,
+          "no_crossing": 14,
+          "upward_pct": 59.0,
+          "mean_pre": 1.672,
+          "mean_post": 2.672,
+          "mean_delta": 1.0
+        },
+        {
+          "subject": "seacole",
+          "total": 39,
+          "upward": 21,
+          "downward": 2,
+          "no_crossing": 16,
+          "upward_pct": 53.8,
+          "mean_pre": 1.774,
+          "mean_post": 2.626,
+          "mean_delta": 0.851
+        },
+        {
+          "subject": "bernal_diaz",
+          "total": 39,
+          "upward": 21,
+          "downward": 4,
+          "no_crossing": 14,
+          "upward_pct": 53.8,
+          "mean_pre": 1.697,
+          "mean_post": 2.41,
+          "mean_delta": 0.713
+        },
+        {
+          "subject": "keckley",
+          "total": 39,
+          "upward": 17,
+          "downward": 5,
+          "no_crossing": 17,
+          "upward_pct": 43.6,
+          "mean_pre": 1.841,
+          "mean_post": 2.39,
+          "mean_delta": 0.549
+        },
+        {
+          "subject": "yung_wing",
+          "total": 39,
+          "upward": 13,
+          "downward": 5,
+          "no_crossing": 21,
+          "upward_pct": 33.3,
+          "mean_pre": 1.877,
+          "mean_post": 2.128,
+          "mean_delta": 0.251
+        },
+        {
+          "subject": "babur",
+          "total": 39,
+          "upward": 9,
+          "downward": 3,
+          "no_crossing": 27,
+          "upward_pct": 23.1,
+          "mean_pre": 1.759,
+          "mean_post": 2.031,
+          "mean_delta": 0.272
+        },
+        {
+          "subject": "augustine",
+          "total": 39,
+          "upward": 10,
+          "downward": 15,
+          "no_crossing": 14,
+          "upward_pct": 25.6,
+          "mean_pre": 2.585,
+          "mean_post": 2.559,
+          "mean_delta": -0.026
+        },
+        {
+          "subject": "equiano",
+          "total": 39,
+          "upward": 5,
+          "downward": 14,
+          "no_crossing": 20,
+          "upward_pct": 12.8,
+          "mean_pre": 2.769,
+          "mean_post": 2.431,
+          "mean_delta": -0.338
+        },
+        {
+          "subject": "cellini",
+          "total": 39,
+          "upward": 10,
+          "downward": 9,
+          "no_crossing": 20,
+          "upward_pct": 25.6,
+          "mean_pre": 2.379,
+          "mean_post": 2.421,
+          "mean_delta": 0.041
+        },
+        {
+          "subject": "rousseau",
+          "total": 39,
+          "upward": 7,
+          "downward": 13,
+          "no_crossing": 19,
+          "upward_pct": 17.9,
+          "mean_pre": 2.436,
+          "mean_post": 2.323,
+          "mean_delta": -0.113
+        },
+        {
+          "subject": "zitkala_sa",
+          "total": 39,
+          "upward": 5,
+          "downward": 13,
+          "no_crossing": 21,
+          "upward_pct": 12.8,
+          "mean_pre": 2.338,
+          "mean_post": 2.103,
+          "mean_delta": -0.236
+        }
+      ],
+      "multi_anchor_examples": [
+        {
+          "subject": "hamerton",
+          "qid": 29,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4.8
+        },
+        {
+          "subject": "hamerton",
+          "qid": 33,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4.8
+        },
+        {
+          "subject": "hamerton",
+          "qid": 39,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3
+        },
+        {
+          "subject": "hamerton",
+          "qid": 42,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4.4
+        },
+        {
+          "subject": "hamerton",
+          "qid": 43,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.8
+        },
+        {
+          "subject": "hamerton",
+          "qid": 46,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4.4
+        },
+        {
+          "subject": "hamerton",
+          "qid": 51,
+          "pre_band": 1,
+          "post_band": 5,
+          "jump": 4,
+          "pre_mean": 1,
+          "post_mean": 5
+        },
+        {
+          "subject": "hamerton",
+          "qid": 55,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4.6
+        },
+        {
+          "subject": "hamerton",
+          "qid": 58,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4.6
+        },
+        {
+          "subject": "hamerton",
+          "qid": 59,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.4
+        },
+        {
+          "subject": "sunity_devee",
+          "qid": 2,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.6
+        },
+        {
+          "subject": "sunity_devee",
+          "qid": 9,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.2
+        },
+        {
+          "subject": "sunity_devee",
+          "qid": 10,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4
+        },
+        {
+          "subject": "sunity_devee",
+          "qid": 11,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.6
+        },
+        {
+          "subject": "sunity_devee",
+          "qid": 17,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4.4
+        },
+        {
+          "subject": "sunity_devee",
+          "qid": 19,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.8
+        },
+        {
+          "subject": "sunity_devee",
+          "qid": 21,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.6
+        },
+        {
+          "subject": "sunity_devee",
+          "qid": 22,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4.2
+        },
+        {
+          "subject": "sunity_devee",
+          "qid": 23,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.2
+        },
+        {
+          "subject": "sunity_devee",
+          "qid": 26,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.4
+        },
+        {
+          "subject": "sunity_devee",
+          "qid": 30,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.6
+        },
+        {
+          "subject": "sunity_devee",
+          "qid": 34,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4
+        },
+        {
+          "subject": "sunity_devee",
+          "qid": 36,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3
+        },
+        {
+          "subject": "ebers",
+          "qid": 1,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4.2
+        },
+        {
+          "subject": "ebers",
+          "qid": 7,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1.2,
+          "post_mean": 4
+        },
+        {
+          "subject": "ebers",
+          "qid": 9,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.6
+        },
+        {
+          "subject": "ebers",
+          "qid": 10,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.2
+        },
+        {
+          "subject": "ebers",
+          "qid": 14,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.4
+        },
+        {
+          "subject": "ebers",
+          "qid": 18,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4
+        },
+        {
+          "subject": "ebers",
+          "qid": 19,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3
+        },
+        {
+          "subject": "ebers",
+          "qid": 37,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.2
+        },
+        {
+          "subject": "fukuzawa",
+          "qid": 1,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.2,
+          "post_mean": 3.6
+        },
+        {
+          "subject": "fukuzawa",
+          "qid": 3,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.4
+        },
+        {
+          "subject": "fukuzawa",
+          "qid": 5,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4.4
+        },
+        {
+          "subject": "fukuzawa",
+          "qid": 8,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4.2
+        },
+        {
+          "subject": "fukuzawa",
+          "qid": 13,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4.4
+        },
+        {
+          "subject": "fukuzawa",
+          "qid": 15,
+          "pre_band": 2,
+          "post_band": 4,
+          "jump": 2,
+          "pre_mean": 2.4,
+          "post_mean": 4
+        },
+        {
+          "subject": "fukuzawa",
+          "qid": 16,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.6,
+          "post_mean": 3.4
+        },
+        {
+          "subject": "fukuzawa",
+          "qid": 20,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4.2
+        },
+        {
+          "subject": "fukuzawa",
+          "qid": 21,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.4,
+          "post_mean": 3.4
+        },
+        {
+          "subject": "seacole",
+          "qid": 11,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4
+        },
+        {
+          "subject": "seacole",
+          "qid": 14,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.6
+        },
+        {
+          "subject": "seacole",
+          "qid": 15,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.8
+        },
+        {
+          "subject": "seacole",
+          "qid": 17,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.8
+        },
+        {
+          "subject": "seacole",
+          "qid": 18,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4
+        },
+        {
+          "subject": "seacole",
+          "qid": 19,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1.4,
+          "post_mean": 4
+        },
+        {
+          "subject": "seacole",
+          "qid": 27,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.4
+        },
+        {
+          "subject": "bernal_diaz",
+          "qid": 1,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.2
+        },
+        {
+          "subject": "bernal_diaz",
+          "qid": 9,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.2
+        },
+        {
+          "subject": "bernal_diaz",
+          "qid": 14,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.4,
+          "post_mean": 3.4
+        },
+        {
+          "subject": "bernal_diaz",
+          "qid": 18,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.6,
+          "post_mean": 3.2
+        },
+        {
+          "subject": "bernal_diaz",
+          "qid": 29,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.8,
+          "post_mean": 3.6
+        },
+        {
+          "subject": "bernal_diaz",
+          "qid": 31,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3
+        },
+        {
+          "subject": "bernal_diaz",
+          "qid": 38,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4
+        },
+        {
+          "subject": "keckley",
+          "qid": 9,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1.2,
+          "post_mean": 4
+        },
+        {
+          "subject": "keckley",
+          "qid": 11,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.2
+        },
+        {
+          "subject": "keckley",
+          "qid": 16,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.2
+        },
+        {
+          "subject": "yung_wing",
+          "qid": 9,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.2,
+          "post_mean": 3.4
+        },
+        {
+          "subject": "yung_wing",
+          "qid": 16,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.4,
+          "post_mean": 3.2
+        },
+        {
+          "subject": "yung_wing",
+          "qid": 26,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.8
+        },
+        {
+          "subject": "babur",
+          "qid": 13,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.4,
+          "post_mean": 3
+        },
+        {
+          "subject": "babur",
+          "qid": 24,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.4,
+          "post_mean": 3.8
+        },
+        {
+          "subject": "augustine",
+          "qid": 11,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.4
+        },
+        {
+          "subject": "augustine",
+          "qid": 20,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4.2
+        },
+        {
+          "subject": "cellini",
+          "qid": 34,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.8
+        },
+        {
+          "subject": "cellini",
+          "qid": 38,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.2
+        },
+        {
+          "subject": "rousseau",
+          "qid": 2,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.4,
+          "post_mean": 3.8
+        },
+        {
+          "subject": "rousseau",
+          "qid": 35,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3
+        }
+      ]
+    },
+    "C5_to_C2a": {
+      "label": "C5 (baseline) -> C2a (spec only)",
+      "pre_cond": "C5_baseline",
+      "post_cond": "C2a_full_spec",
+      "subjects": [
+        "hamerton",
+        "sunity_devee",
+        "ebers",
+        "fukuzawa",
+        "seacole",
+        "bernal_diaz",
+        "keckley",
+        "yung_wing",
+        "babur",
+        "augustine",
+        "equiano",
+        "cellini",
+        "rousseau",
+        "zitkala_sa"
+      ],
+      "n_subjects": 14,
+      "n_paired_questions": 546,
+      "upward": 215,
+      "downward": 91,
+      "no_crossing": 240,
+      "upward_pct": 39.4,
+      "downward_pct": 16.7,
+      "no_crossing_pct": 44.0,
+      "net_upward": 124,
+      "net_upward_pct": 22.7,
+      "multi_anchor_count": 49,
+      "multi_anchor_pct": 9.0,
+      "extreme_count": 11,
+      "extreme_pct": 2.0,
+      "mean_pre": 1.888,
+      "mean_post": 2.315,
+      "mean_delta": 0.427,
+      "boundary_breakdown": {
+        "1->2": 141,
+        "1->3": 36,
+        "1->4": 10,
+        "1->5": 1,
+        "2->1 DOWN": 19,
+        "2->3": 19,
+        "2->4": 2,
+        "3->1 DOWN": 5,
+        "3->2 DOWN": 39,
+        "3->4": 5,
+        "4->1 DOWN": 1,
+        "4->2 DOWN": 10,
+        "4->3 DOWN": 15,
+        "4->5": 1,
+        "5->3 DOWN": 1,
+        "5->4 DOWN": 1
+      },
+      "per_subject": [
+        {
+          "subject": "hamerton",
+          "total": 39,
+          "upward": 30,
+          "downward": 0,
+          "no_crossing": 9,
+          "upward_pct": 76.9,
+          "mean_pre": 1.256,
+          "mean_post": 2.631,
+          "mean_delta": 1.374
+        },
+        {
+          "subject": "sunity_devee",
+          "total": 39,
+          "upward": 28,
+          "downward": 0,
+          "no_crossing": 11,
+          "upward_pct": 71.8,
+          "mean_pre": 1.026,
+          "mean_post": 2.267,
+          "mean_delta": 1.241
+        },
+        {
+          "subject": "ebers",
+          "total": 39,
+          "upward": 12,
+          "downward": 0,
+          "no_crossing": 27,
+          "upward_pct": 30.8,
+          "mean_pre": 1.021,
+          "mean_post": 1.538,
+          "mean_delta": 0.518
+        },
+        {
+          "subject": "fukuzawa",
+          "total": 39,
+          "upward": 20,
+          "downward": 3,
+          "no_crossing": 16,
+          "upward_pct": 51.3,
+          "mean_pre": 1.672,
+          "mean_post": 2.354,
+          "mean_delta": 0.682
+        },
+        {
+          "subject": "seacole",
+          "total": 39,
+          "upward": 21,
+          "downward": 4,
+          "no_crossing": 14,
+          "upward_pct": 53.8,
+          "mean_pre": 1.774,
+          "mean_post": 2.482,
+          "mean_delta": 0.708
+        },
+        {
+          "subject": "bernal_diaz",
+          "total": 39,
+          "upward": 16,
+          "downward": 5,
+          "no_crossing": 18,
+          "upward_pct": 41.0,
+          "mean_pre": 1.697,
+          "mean_post": 2.267,
+          "mean_delta": 0.569
+        },
+        {
+          "subject": "keckley",
+          "total": 39,
+          "upward": 19,
+          "downward": 6,
+          "no_crossing": 14,
+          "upward_pct": 48.7,
+          "mean_pre": 1.841,
+          "mean_post": 2.426,
+          "mean_delta": 0.585
+        },
+        {
+          "subject": "yung_wing",
+          "total": 39,
+          "upward": 16,
+          "downward": 5,
+          "no_crossing": 18,
+          "upward_pct": 41.0,
+          "mean_pre": 1.877,
+          "mean_post": 2.215,
+          "mean_delta": 0.338
+        },
+        {
+          "subject": "babur",
+          "total": 39,
+          "upward": 5,
+          "downward": 4,
+          "no_crossing": 30,
+          "upward_pct": 12.8,
+          "mean_pre": 1.759,
+          "mean_post": 1.908,
+          "mean_delta": 0.149
+        },
+        {
+          "subject": "augustine",
+          "total": 39,
+          "upward": 10,
+          "downward": 17,
+          "no_crossing": 12,
+          "upward_pct": 25.6,
+          "mean_pre": 2.585,
+          "mean_post": 2.477,
+          "mean_delta": -0.108
+        },
+        {
+          "subject": "equiano",
+          "total": 39,
+          "upward": 4,
+          "downward": 15,
+          "no_crossing": 20,
+          "upward_pct": 10.3,
+          "mean_pre": 2.769,
+          "mean_post": 2.456,
+          "mean_delta": -0.313
+        },
+        {
+          "subject": "cellini",
+          "total": 39,
+          "upward": 12,
+          "downward": 11,
+          "no_crossing": 16,
+          "upward_pct": 30.8,
+          "mean_pre": 2.379,
+          "mean_post": 2.544,
+          "mean_delta": 0.164
+        },
+        {
+          "subject": "rousseau",
+          "total": 39,
+          "upward": 17,
+          "downward": 8,
+          "no_crossing": 14,
+          "upward_pct": 43.6,
+          "mean_pre": 2.436,
+          "mean_post": 2.81,
+          "mean_delta": 0.374
+        },
+        {
+          "subject": "zitkala_sa",
+          "total": 39,
+          "upward": 5,
+          "downward": 13,
+          "no_crossing": 21,
+          "upward_pct": 12.8,
+          "mean_pre": 2.338,
+          "mean_post": 2.031,
+          "mean_delta": -0.308
+        }
+      ],
+      "multi_anchor_examples": [
+        {
+          "subject": "hamerton",
+          "qid": 25,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.6
+        },
+        {
+          "subject": "hamerton",
+          "qid": 27,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4.4
+        },
+        {
+          "subject": "hamerton",
+          "qid": 33,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.6
+        },
+        {
+          "subject": "hamerton",
+          "qid": 42,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.6
+        },
+        {
+          "subject": "hamerton",
+          "qid": 43,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4.2
+        },
+        {
+          "subject": "hamerton",
+          "qid": 45,
+          "pre_band": 2,
+          "post_band": 4,
+          "jump": 2,
+          "pre_mean": 2,
+          "post_mean": 4
+        },
+        {
+          "subject": "hamerton",
+          "qid": 46,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.6
+        },
+        {
+          "subject": "hamerton",
+          "qid": 51,
+          "pre_band": 1,
+          "post_band": 5,
+          "jump": 4,
+          "pre_mean": 1,
+          "post_mean": 5
+        },
+        {
+          "subject": "hamerton",
+          "qid": 53,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3
+        },
+        {
+          "subject": "hamerton",
+          "qid": 57,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.8
+        },
+        {
+          "subject": "hamerton",
+          "qid": 58,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4.2
+        },
+        {
+          "subject": "sunity_devee",
+          "qid": 8,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.4
+        },
+        {
+          "subject": "sunity_devee",
+          "qid": 18,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.4,
+          "post_mean": 3.4
+        },
+        {
+          "subject": "sunity_devee",
+          "qid": 20,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.6
+        },
+        {
+          "subject": "sunity_devee",
+          "qid": 21,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4
+        },
+        {
+          "subject": "sunity_devee",
+          "qid": 22,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.6
+        },
+        {
+          "subject": "sunity_devee",
+          "qid": 26,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.6
+        },
+        {
+          "subject": "sunity_devee",
+          "qid": 36,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.6
+        },
+        {
+          "subject": "fukuzawa",
+          "qid": 3,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4
+        },
+        {
+          "subject": "fukuzawa",
+          "qid": 11,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.8
+        },
+        {
+          "subject": "fukuzawa",
+          "qid": 20,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3
+        },
+        {
+          "subject": "seacole",
+          "qid": 2,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1.8,
+          "post_mean": 4.2
+        },
+        {
+          "subject": "seacole",
+          "qid": 11,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.8
+        },
+        {
+          "subject": "seacole",
+          "qid": 13,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3
+        },
+        {
+          "subject": "seacole",
+          "qid": 19,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1.4,
+          "post_mean": 4.2
+        },
+        {
+          "subject": "seacole",
+          "qid": 27,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4.2
+        },
+        {
+          "subject": "bernal_diaz",
+          "qid": 1,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3
+        },
+        {
+          "subject": "bernal_diaz",
+          "qid": 9,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.2
+        },
+        {
+          "subject": "bernal_diaz",
+          "qid": 18,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.6,
+          "post_mean": 3.6
+        },
+        {
+          "subject": "bernal_diaz",
+          "qid": 29,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.8,
+          "post_mean": 3.8
+        },
+        {
+          "subject": "bernal_diaz",
+          "qid": 33,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.6,
+          "post_mean": 3.4
+        },
+        {
+          "subject": "bernal_diaz",
+          "qid": 36,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.2
+        },
+        {
+          "subject": "bernal_diaz",
+          "qid": 38,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3
+        },
+        {
+          "subject": "keckley",
+          "qid": 9,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1.2,
+          "post_mean": 4.2
+        },
+        {
+          "subject": "keckley",
+          "qid": 33,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.2
+        },
+        {
+          "subject": "keckley",
+          "qid": 36,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.2
+        },
+        {
+          "subject": "yung_wing",
+          "qid": 21,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.4,
+          "post_mean": 3
+        },
+        {
+          "subject": "yung_wing",
+          "qid": 22,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.2
+        },
+        {
+          "subject": "yung_wing",
+          "qid": 26,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3
+        },
+        {
+          "subject": "augustine",
+          "qid": 11,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3
+        },
+        {
+          "subject": "cellini",
+          "qid": 28,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.8,
+          "post_mean": 3
+        },
+        {
+          "subject": "cellini",
+          "qid": 34,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4.2
+        },
+        {
+          "subject": "rousseau",
+          "qid": 2,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.4,
+          "post_mean": 3.6
+        },
+        {
+          "subject": "rousseau",
+          "qid": 11,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.4,
+          "post_mean": 3.6
+        },
+        {
+          "subject": "rousseau",
+          "qid": 25,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.6,
+          "post_mean": 3
+        },
+        {
+          "subject": "rousseau",
+          "qid": 27,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.2,
+          "post_mean": 3
+        },
+        {
+          "subject": "rousseau",
+          "qid": 34,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.4
+        },
+        {
+          "subject": "rousseau",
+          "qid": 35,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.8
+        },
+        {
+          "subject": "rousseau",
+          "qid": 36,
+          "pre_band": 2,
+          "post_band": 4,
+          "jump": 2,
+          "pre_mean": 2,
+          "post_mean": 4
+        }
+      ]
+    },
+    "C2c_to_C2a": {
+      "label": "C2c (wrong spec) -> C2a (correct spec)",
+      "pre_cond": "C2c_wrong_spec",
+      "post_cond": "C2a_full_spec",
+      "subjects": [
+        "hamerton",
+        "sunity_devee",
+        "ebers",
+        "fukuzawa",
+        "seacole",
+        "bernal_diaz",
+        "keckley",
+        "yung_wing",
+        "babur",
+        "augustine",
+        "equiano",
+        "cellini",
+        "rousseau",
+        "zitkala_sa"
+      ],
+      "n_subjects": 14,
+      "n_paired_questions": 546,
+      "upward": 249,
+      "downward": 49,
+      "no_crossing": 248,
+      "upward_pct": 45.6,
+      "downward_pct": 9.0,
+      "no_crossing_pct": 45.4,
+      "net_upward": 200,
+      "net_upward_pct": 36.6,
+      "multi_anchor_count": 79,
+      "multi_anchor_pct": 14.5,
+      "extreme_count": 13,
+      "extreme_pct": 2.4,
+      "mean_pre": 1.673,
+      "mean_post": 2.315,
+      "mean_delta": 0.642,
+      "boundary_breakdown": {
+        "1->2": 137,
+        "1->3": 62,
+        "1->4": 12,
+        "1->5": 1,
+        "2->1 DOWN": 16,
+        "2->3": 26,
+        "2->4": 3,
+        "3->1 DOWN": 3,
+        "3->2 DOWN": 25,
+        "3->4": 7,
+        "3->5": 1,
+        "4->2 DOWN": 1,
+        "4->3 DOWN": 4
+      },
+      "per_subject": [
+        {
+          "subject": "hamerton",
+          "total": 39,
+          "upward": 28,
+          "downward": 4,
+          "no_crossing": 7,
+          "upward_pct": 71.8,
+          "mean_pre": 1.451,
+          "mean_post": 2.631,
+          "mean_delta": 1.179
+        },
+        {
+          "subject": "sunity_devee",
+          "total": 39,
+          "upward": 24,
+          "downward": 3,
+          "no_crossing": 12,
+          "upward_pct": 61.5,
+          "mean_pre": 1.292,
+          "mean_post": 2.267,
+          "mean_delta": 0.974
+        },
+        {
+          "subject": "ebers",
+          "total": 39,
+          "upward": 9,
+          "downward": 0,
+          "no_crossing": 30,
+          "upward_pct": 23.1,
+          "mean_pre": 1.318,
+          "mean_post": 1.538,
+          "mean_delta": 0.221
+        },
+        {
+          "subject": "fukuzawa",
+          "total": 39,
+          "upward": 16,
+          "downward": 5,
+          "no_crossing": 18,
+          "upward_pct": 41.0,
+          "mean_pre": 1.933,
+          "mean_post": 2.354,
+          "mean_delta": 0.421
+        },
+        {
+          "subject": "seacole",
+          "total": 39,
+          "upward": 23,
+          "downward": 0,
+          "no_crossing": 16,
+          "upward_pct": 59.0,
+          "mean_pre": 1.431,
+          "mean_post": 2.482,
+          "mean_delta": 1.051
+        },
+        {
+          "subject": "bernal_diaz",
+          "total": 39,
+          "upward": 15,
+          "downward": 3,
+          "no_crossing": 21,
+          "upward_pct": 38.5,
+          "mean_pre": 1.79,
+          "mean_post": 2.267,
+          "mean_delta": 0.477
+        },
+        {
+          "subject": "keckley",
+          "total": 39,
+          "upward": 26,
+          "downward": 2,
+          "no_crossing": 11,
+          "upward_pct": 66.7,
+          "mean_pre": 1.354,
+          "mean_post": 2.426,
+          "mean_delta": 1.072
+        },
+        {
+          "subject": "yung_wing",
+          "total": 39,
+          "upward": 7,
+          "downward": 5,
+          "no_crossing": 27,
+          "upward_pct": 17.9,
+          "mean_pre": 2.2,
+          "mean_post": 2.215,
+          "mean_delta": 0.015
+        },
+        {
+          "subject": "babur",
+          "total": 39,
+          "upward": 13,
+          "downward": 1,
+          "no_crossing": 25,
+          "upward_pct": 33.3,
+          "mean_pre": 1.169,
+          "mean_post": 1.908,
+          "mean_delta": 0.738
+        },
+        {
+          "subject": "augustine",
+          "total": 39,
+          "upward": 15,
+          "downward": 6,
+          "no_crossing": 18,
+          "upward_pct": 38.5,
+          "mean_pre": 2.113,
+          "mean_post": 2.477,
+          "mean_delta": 0.364
+        },
+        {
+          "subject": "equiano",
+          "total": 39,
+          "upward": 18,
+          "downward": 5,
+          "no_crossing": 16,
+          "upward_pct": 46.2,
+          "mean_pre": 1.974,
+          "mean_post": 2.456,
+          "mean_delta": 0.482
+        },
+        {
+          "subject": "cellini",
+          "total": 39,
+          "upward": 20,
+          "downward": 4,
+          "no_crossing": 15,
+          "upward_pct": 51.3,
+          "mean_pre": 1.815,
+          "mean_post": 2.544,
+          "mean_delta": 0.728
+        },
+        {
+          "subject": "rousseau",
+          "total": 39,
+          "upward": 23,
+          "downward": 5,
+          "no_crossing": 11,
+          "upward_pct": 59.0,
+          "mean_pre": 1.913,
+          "mean_post": 2.81,
+          "mean_delta": 0.897
+        },
+        {
+          "subject": "zitkala_sa",
+          "total": 39,
+          "upward": 12,
+          "downward": 6,
+          "no_crossing": 21,
+          "upward_pct": 30.8,
+          "mean_pre": 1.662,
+          "mean_post": 2.031,
+          "mean_delta": 0.369
+        }
+      ],
+      "multi_anchor_examples": [
+        {
+          "subject": "hamerton",
+          "qid": 21,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4
+        },
+        {
+          "subject": "hamerton",
+          "qid": 25,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.6
+        },
+        {
+          "subject": "hamerton",
+          "qid": 26,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3
+        },
+        {
+          "subject": "hamerton",
+          "qid": 27,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4.4
+        },
+        {
+          "subject": "hamerton",
+          "qid": 33,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.6
+        },
+        {
+          "subject": "hamerton",
+          "qid": 42,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.8,
+          "post_mean": 3.6
+        },
+        {
+          "subject": "hamerton",
+          "qid": 46,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.8,
+          "post_mean": 3.6
+        },
+        {
+          "subject": "hamerton",
+          "qid": 51,
+          "pre_band": 1,
+          "post_band": 5,
+          "jump": 4,
+          "pre_mean": 1,
+          "post_mean": 5
+        },
+        {
+          "subject": "hamerton",
+          "qid": 53,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3
+        },
+        {
+          "subject": "hamerton",
+          "qid": 57,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.8
+        },
+        {
+          "subject": "hamerton",
+          "qid": 58,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1.4,
+          "post_mean": 4.2
+        },
+        {
+          "subject": "sunity_devee",
+          "qid": 8,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.4
+        },
+        {
+          "subject": "sunity_devee",
+          "qid": 18,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.4
+        },
+        {
+          "subject": "sunity_devee",
+          "qid": 20,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.6
+        },
+        {
+          "subject": "sunity_devee",
+          "qid": 21,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4
+        },
+        {
+          "subject": "sunity_devee",
+          "qid": 26,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.4,
+          "post_mean": 3.6
+        },
+        {
+          "subject": "sunity_devee",
+          "qid": 36,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.6
+        },
+        {
+          "subject": "fukuzawa",
+          "qid": 3,
+          "pre_band": 2,
+          "post_band": 4,
+          "jump": 2,
+          "pre_mean": 2,
+          "post_mean": 4
+        },
+        {
+          "subject": "fukuzawa",
+          "qid": 22,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.6
+        },
+        {
+          "subject": "fukuzawa",
+          "qid": 28,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.4,
+          "post_mean": 3.8
+        },
+        {
+          "subject": "seacole",
+          "qid": 1,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3
+        },
+        {
+          "subject": "seacole",
+          "qid": 2,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1.4,
+          "post_mean": 4.2
+        },
+        {
+          "subject": "seacole",
+          "qid": 3,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.6,
+          "post_mean": 3
+        },
+        {
+          "subject": "seacole",
+          "qid": 8,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.2
+        },
+        {
+          "subject": "seacole",
+          "qid": 11,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.2,
+          "post_mean": 3.8
+        },
+        {
+          "subject": "seacole",
+          "qid": 12,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.2,
+          "post_mean": 3
+        },
+        {
+          "subject": "seacole",
+          "qid": 13,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3
+        },
+        {
+          "subject": "seacole",
+          "qid": 19,
+          "pre_band": 2,
+          "post_band": 4,
+          "jump": 2,
+          "pre_mean": 2.6,
+          "post_mean": 4.2
+        },
+        {
+          "subject": "seacole",
+          "qid": 27,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4.2
+        },
+        {
+          "subject": "seacole",
+          "qid": 36,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.4,
+          "post_mean": 3.4
+        },
+        {
+          "subject": "bernal_diaz",
+          "qid": 18,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.2,
+          "post_mean": 3.6
+        },
+        {
+          "subject": "bernal_diaz",
+          "qid": 30,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.8
+        },
+        {
+          "subject": "bernal_diaz",
+          "qid": 36,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.2
+        },
+        {
+          "subject": "bernal_diaz",
+          "qid": 38,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.2,
+          "post_mean": 3
+        },
+        {
+          "subject": "keckley",
+          "qid": 1,
+          "pre_band": 2,
+          "post_band": 4,
+          "jump": 2,
+          "pre_mean": 2.2,
+          "post_mean": 4
+        },
+        {
+          "subject": "keckley",
+          "qid": 2,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.4
+        },
+        {
+          "subject": "keckley",
+          "qid": 6,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1.8,
+          "post_mean": 4
+        },
+        {
+          "subject": "keckley",
+          "qid": 9,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1.8,
+          "post_mean": 4.2
+        },
+        {
+          "subject": "keckley",
+          "qid": 10,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.6
+        },
+        {
+          "subject": "keckley",
+          "qid": 33,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.2
+        },
+        {
+          "subject": "keckley",
+          "qid": 35,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.2
+        },
+        {
+          "subject": "keckley",
+          "qid": 36,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.2
+        },
+        {
+          "subject": "keckley",
+          "qid": 38,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3
+        },
+        {
+          "subject": "yung_wing",
+          "qid": 33,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.8,
+          "post_mean": 3.4
+        },
+        {
+          "subject": "babur",
+          "qid": 2,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.4
+        },
+        {
+          "subject": "babur",
+          "qid": 6,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.6
+        },
+        {
+          "subject": "babur",
+          "qid": 14,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.2
+        },
+        {
+          "subject": "babur",
+          "qid": 22,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.8
+        },
+        {
+          "subject": "augustine",
+          "qid": 8,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.8,
+          "post_mean": 3
+        },
+        {
+          "subject": "augustine",
+          "qid": 22,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.6,
+          "post_mean": 3.4
+        },
+        {
+          "subject": "augustine",
+          "qid": 24,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3
+        },
+        {
+          "subject": "equiano",
+          "qid": 7,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.6,
+          "post_mean": 3.8
+        },
+        {
+          "subject": "equiano",
+          "qid": 23,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.2
+        },
+        {
+          "subject": "equiano",
+          "qid": 31,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.4
+        },
+        {
+          "subject": "cellini",
+          "qid": 2,
+          "pre_band": 3,
+          "post_band": 5,
+          "jump": 2,
+          "pre_mean": 3.6,
+          "post_mean": 5
+        },
+        {
+          "subject": "cellini",
+          "qid": 10,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.4
+        },
+        {
+          "subject": "cellini",
+          "qid": 21,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4.2
+        },
+        {
+          "subject": "cellini",
+          "qid": 22,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.8,
+          "post_mean": 3.4
+        },
+        {
+          "subject": "cellini",
+          "qid": 23,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.2
+        },
+        {
+          "subject": "cellini",
+          "qid": 34,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4.2
+        },
+        {
+          "subject": "cellini",
+          "qid": 35,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.4
+        },
+        {
+          "subject": "rousseau",
+          "qid": 4,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.6,
+          "post_mean": 3.6
+        },
+        {
+          "subject": "rousseau",
+          "qid": 6,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.6,
+          "post_mean": 3.6
+        },
+        {
+          "subject": "rousseau",
+          "qid": 11,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.4,
+          "post_mean": 3.6
+        },
+        {
+          "subject": "rousseau",
+          "qid": 14,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.6,
+          "post_mean": 3
+        },
+        {
+          "subject": "rousseau",
+          "qid": 21,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4
+        },
+        {
+          "subject": "rousseau",
+          "qid": 22,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.8,
+          "post_mean": 3.2
+        },
+        {
+          "subject": "rousseau",
+          "qid": 25,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.6,
+          "post_mean": 3
+        },
+        {
+          "subject": "rousseau",
+          "qid": 27,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3
+        },
+        {
+          "subject": "rousseau",
+          "qid": 28,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.6
+        },
+        {
+          "subject": "rousseau",
+          "qid": 32,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1.4,
+          "post_mean": 4.8
+        },
+        {
+          "subject": "rousseau",
+          "qid": 34,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.4
+        },
+        {
+          "subject": "rousseau",
+          "qid": 35,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.4,
+          "post_mean": 3.8
+        },
+        {
+          "subject": "zitkala_sa",
+          "qid": 1,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.4
+        },
+        {
+          "subject": "zitkala_sa",
+          "qid": 2,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.2
+        },
+        {
+          "subject": "zitkala_sa",
+          "qid": 4,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.4,
+          "post_mean": 3.2
+        },
+        {
+          "subject": "zitkala_sa",
+          "qid": 5,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.8,
+          "post_mean": 3
+        },
+        {
+          "subject": "zitkala_sa",
+          "qid": 7,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.2
+        },
+        {
+          "subject": "zitkala_sa",
+          "qid": 22,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3
+        }
+      ]
+    },
+    "C4_to_C4a": {
+      "label": "C4 (facts) -> C4a (facts + spec)",
+      "pre_cond": "C4_factdump",
+      "post_cond": "C4a_full_facts_plus_spec",
+      "subjects": [
+        "hamerton",
+        "sunity_devee",
+        "ebers",
+        "fukuzawa",
+        "seacole",
+        "bernal_diaz",
+        "keckley",
+        "yung_wing",
+        "babur",
+        "augustine",
+        "equiano",
+        "cellini",
+        "rousseau",
+        "zitkala_sa"
+      ],
+      "n_subjects": 14,
+      "n_paired_questions": 546,
+      "upward": 114,
+      "downward": 93,
+      "no_crossing": 339,
+      "upward_pct": 20.9,
+      "downward_pct": 17.0,
+      "no_crossing_pct": 62.1,
+      "net_upward": 21,
+      "net_upward_pct": 3.8,
+      "multi_anchor_count": 12,
+      "multi_anchor_pct": 2.2,
+      "extreme_count": 5,
+      "extreme_pct": 0.9,
+      "mean_pre": 2.357,
+      "mean_post": 2.44,
+      "mean_delta": 0.082,
+      "boundary_breakdown": {
+        "1->2": 54,
+        "1->3": 5,
+        "1->4": 4,
+        "2->1 DOWN": 26,
+        "2->3": 39,
+        "2->4": 2,
+        "2->5": 1,
+        "3->1 DOWN": 3,
+        "3->2 DOWN": 41,
+        "3->4": 8,
+        "4->2 DOWN": 7,
+        "4->3 DOWN": 16,
+        "4->5": 1
+      },
+      "per_subject": [
+        {
+          "subject": "hamerton",
+          "total": 39,
+          "upward": 15,
+          "downward": 3,
+          "no_crossing": 21,
+          "upward_pct": 38.5,
+          "mean_pre": 2.426,
+          "mean_post": 2.769,
+          "mean_delta": 0.344
+        },
+        {
+          "subject": "sunity_devee",
+          "total": 39,
+          "upward": 6,
+          "downward": 7,
+          "no_crossing": 26,
+          "upward_pct": 15.4,
+          "mean_pre": 2.462,
+          "mean_post": 2.41,
+          "mean_delta": -0.051
+        },
+        {
+          "subject": "ebers",
+          "total": 39,
+          "upward": 4,
+          "downward": 7,
+          "no_crossing": 28,
+          "upward_pct": 10.3,
+          "mean_pre": 2.021,
+          "mean_post": 2.072,
+          "mean_delta": 0.051
+        },
+        {
+          "subject": "fukuzawa",
+          "total": 39,
+          "upward": 12,
+          "downward": 8,
+          "no_crossing": 19,
+          "upward_pct": 30.8,
+          "mean_pre": 2.672,
+          "mean_post": 2.779,
+          "mean_delta": 0.108
+        },
+        {
+          "subject": "seacole",
+          "total": 39,
+          "upward": 6,
+          "downward": 10,
+          "no_crossing": 23,
+          "upward_pct": 15.4,
+          "mean_pre": 2.626,
+          "mean_post": 2.595,
+          "mean_delta": -0.031
+        },
+        {
+          "subject": "bernal_diaz",
+          "total": 39,
+          "upward": 7,
+          "downward": 8,
+          "no_crossing": 24,
+          "upward_pct": 17.9,
+          "mean_pre": 2.41,
+          "mean_post": 2.482,
+          "mean_delta": 0.072
+        },
+        {
+          "subject": "keckley",
+          "total": 39,
+          "upward": 7,
+          "downward": 5,
+          "no_crossing": 27,
+          "upward_pct": 17.9,
+          "mean_pre": 2.39,
+          "mean_post": 2.436,
+          "mean_delta": 0.046
+        },
+        {
+          "subject": "yung_wing",
+          "total": 39,
+          "upward": 14,
+          "downward": 5,
+          "no_crossing": 20,
+          "upward_pct": 35.9,
+          "mean_pre": 2.128,
+          "mean_post": 2.4,
+          "mean_delta": 0.272
+        },
+        {
+          "subject": "babur",
+          "total": 39,
+          "upward": 6,
+          "downward": 6,
+          "no_crossing": 27,
+          "upward_pct": 15.4,
+          "mean_pre": 2.031,
+          "mean_post": 2.01,
+          "mean_delta": -0.021
+        },
+        {
+          "subject": "augustine",
+          "total": 39,
+          "upward": 10,
+          "downward": 5,
+          "no_crossing": 24,
+          "upward_pct": 25.6,
+          "mean_pre": 2.559,
+          "mean_post": 2.697,
+          "mean_delta": 0.138
+        },
+        {
+          "subject": "equiano",
+          "total": 39,
+          "upward": 4,
+          "downward": 10,
+          "no_crossing": 25,
+          "upward_pct": 10.3,
+          "mean_pre": 2.431,
+          "mean_post": 2.421,
+          "mean_delta": -0.01
+        },
+        {
+          "subject": "cellini",
+          "total": 39,
+          "upward": 8,
+          "downward": 6,
+          "no_crossing": 25,
+          "upward_pct": 20.5,
+          "mean_pre": 2.421,
+          "mean_post": 2.528,
+          "mean_delta": 0.108
+        },
+        {
+          "subject": "rousseau",
+          "total": 39,
+          "upward": 11,
+          "downward": 3,
+          "no_crossing": 25,
+          "upward_pct": 28.2,
+          "mean_pre": 2.323,
+          "mean_post": 2.533,
+          "mean_delta": 0.21
+        },
+        {
+          "subject": "zitkala_sa",
+          "total": 39,
+          "upward": 4,
+          "downward": 10,
+          "no_crossing": 25,
+          "upward_pct": 10.3,
+          "mean_pre": 2.103,
+          "mean_post": 2.021,
+          "mean_delta": -0.082
+        }
+      ],
+      "multi_anchor_examples": [
+        {
+          "subject": "hamerton",
+          "qid": 35,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4
+        },
+        {
+          "subject": "sunity_devee",
+          "qid": 28,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.8,
+          "post_mean": 3
+        },
+        {
+          "subject": "fukuzawa",
+          "qid": 35,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4.2
+        },
+        {
+          "subject": "seacole",
+          "qid": 2,
+          "pre_band": 2,
+          "post_band": 5,
+          "jump": 3,
+          "pre_mean": 2.8,
+          "post_mean": 5
+        },
+        {
+          "subject": "bernal_diaz",
+          "qid": 16,
+          "pre_band": 2,
+          "post_band": 4,
+          "jump": 2,
+          "pre_mean": 2,
+          "post_mean": 4.8
+        },
+        {
+          "subject": "bernal_diaz",
+          "qid": 35,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.8,
+          "post_mean": 3.4
+        },
+        {
+          "subject": "keckley",
+          "qid": 24,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.4,
+          "post_mean": 3
+        },
+        {
+          "subject": "yung_wing",
+          "qid": 5,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3
+        },
+        {
+          "subject": "yung_wing",
+          "qid": 22,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1.8,
+          "post_mean": 4.2
+        },
+        {
+          "subject": "augustine",
+          "qid": 33,
+          "pre_band": 2,
+          "post_band": 4,
+          "jump": 2,
+          "pre_mean": 2,
+          "post_mean": 4.8
+        },
+        {
+          "subject": "equiano",
+          "qid": 3,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1.4,
+          "post_mean": 4
+        },
+        {
+          "subject": "rousseau",
+          "qid": 1,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.8,
+          "post_mean": 3.4
+        }
+      ]
+    },
+    "C5_to_C8": {
+      "label": "C5 (baseline) -> C8 (raw corpus)",
+      "pre_cond": "C5_baseline",
+      "post_cond": "C8_raw_corpus",
+      "subjects": [
+        "hamerton",
+        "sunity_devee",
+        "ebers",
+        "fukuzawa",
+        "seacole",
+        "bernal_diaz",
+        "keckley",
+        "yung_wing",
+        "augustine",
+        "equiano",
+        "cellini",
+        "rousseau",
+        "zitkala_sa"
+      ],
+      "n_subjects": 13,
+      "n_paired_questions": 507,
+      "upward": 233,
+      "downward": 82,
+      "no_crossing": 192,
+      "upward_pct": 46.0,
+      "downward_pct": 16.2,
+      "no_crossing_pct": 37.9,
+      "net_upward": 151,
+      "net_upward_pct": 29.8,
+      "multi_anchor_count": 78,
+      "multi_anchor_pct": 15.4,
+      "extreme_count": 22,
+      "extreme_pct": 4.3,
+      "mean_pre": 1.898,
+      "mean_post": 2.485,
+      "mean_delta": 0.587,
+      "boundary_breakdown": {
+        "1->2": 128,
+        "1->3": 51,
+        "1->4": 20,
+        "1->5": 2,
+        "2->1 DOWN": 18,
+        "2->3": 15,
+        "2->4": 5,
+        "3->1 DOWN": 3,
+        "3->2 DOWN": 40,
+        "3->4": 10,
+        "4->1 DOWN": 2,
+        "4->2 DOWN": 7,
+        "4->3 DOWN": 10,
+        "4->5": 2,
+        "5->4 DOWN": 2
+      },
+      "per_subject": [
+        {
+          "subject": "hamerton",
+          "total": 39,
+          "upward": 20,
+          "downward": 2,
+          "no_crossing": 17,
+          "upward_pct": 51.3,
+          "mean_pre": 1.256,
+          "mean_post": 2.267,
+          "mean_delta": 1.01
+        },
+        {
+          "subject": "sunity_devee",
+          "total": 39,
+          "upward": 29,
+          "downward": 0,
+          "no_crossing": 10,
+          "upward_pct": 74.4,
+          "mean_pre": 1.026,
+          "mean_post": 2.554,
+          "mean_delta": 1.528
+        },
+        {
+          "subject": "ebers",
+          "total": 39,
+          "upward": 22,
+          "downward": 0,
+          "no_crossing": 17,
+          "upward_pct": 56.4,
+          "mean_pre": 1.021,
+          "mean_post": 2.185,
+          "mean_delta": 1.164
+        },
+        {
+          "subject": "fukuzawa",
+          "total": 39,
+          "upward": 28,
+          "downward": 4,
+          "no_crossing": 7,
+          "upward_pct": 71.8,
+          "mean_pre": 1.672,
+          "mean_post": 2.738,
+          "mean_delta": 1.067
+        },
+        {
+          "subject": "seacole",
+          "total": 39,
+          "upward": 24,
+          "downward": 5,
+          "no_crossing": 10,
+          "upward_pct": 61.5,
+          "mean_pre": 1.774,
+          "mean_post": 2.831,
+          "mean_delta": 1.056
+        },
+        {
+          "subject": "bernal_diaz",
+          "total": 39,
+          "upward": 25,
+          "downward": 2,
+          "no_crossing": 12,
+          "upward_pct": 64.1,
+          "mean_pre": 1.697,
+          "mean_post": 2.547,
+          "mean_delta": 0.85
+        },
+        {
+          "subject": "keckley",
+          "total": 39,
+          "upward": 20,
+          "downward": 4,
+          "no_crossing": 15,
+          "upward_pct": 51.3,
+          "mean_pre": 1.841,
+          "mean_post": 2.497,
+          "mean_delta": 0.656
+        },
+        {
+          "subject": "yung_wing",
+          "total": 39,
+          "upward": 20,
+          "downward": 6,
+          "no_crossing": 13,
+          "upward_pct": 51.3,
+          "mean_pre": 1.877,
+          "mean_post": 2.421,
+          "mean_delta": 0.544
+        },
+        {
+          "subject": "augustine",
+          "total": 39,
+          "upward": 11,
+          "downward": 16,
+          "no_crossing": 12,
+          "upward_pct": 28.2,
+          "mean_pre": 2.585,
+          "mean_post": 2.697,
+          "mean_delta": 0.113
+        },
+        {
+          "subject": "equiano",
+          "total": 39,
+          "upward": 7,
+          "downward": 13,
+          "no_crossing": 19,
+          "upward_pct": 17.9,
+          "mean_pre": 2.769,
+          "mean_post": 2.595,
+          "mean_delta": -0.174
+        },
+        {
+          "subject": "cellini",
+          "total": 39,
+          "upward": 10,
+          "downward": 8,
+          "no_crossing": 21,
+          "upward_pct": 25.6,
+          "mean_pre": 2.379,
+          "mean_post": 2.492,
+          "mean_delta": 0.113
+        },
+        {
+          "subject": "rousseau",
+          "total": 39,
+          "upward": 10,
+          "downward": 14,
+          "no_crossing": 15,
+          "upward_pct": 25.6,
+          "mean_pre": 2.436,
+          "mean_post": 2.231,
+          "mean_delta": -0.205
+        },
+        {
+          "subject": "zitkala_sa",
+          "total": 39,
+          "upward": 7,
+          "downward": 8,
+          "no_crossing": 24,
+          "upward_pct": 17.9,
+          "mean_pre": 2.338,
+          "mean_post": 2.251,
+          "mean_delta": -0.087
+        }
+      ],
+      "multi_anchor_examples": [
+        {
+          "subject": "hamerton",
+          "qid": 33,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4.8
+        },
+        {
+          "subject": "hamerton",
+          "qid": 35,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4.2
+        },
+        {
+          "subject": "hamerton",
+          "qid": 42,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4.4
+        },
+        {
+          "subject": "hamerton",
+          "qid": 43,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4.2
+        },
+        {
+          "subject": "hamerton",
+          "qid": 51,
+          "pre_band": 1,
+          "post_band": 5,
+          "jump": 4,
+          "pre_mean": 1,
+          "post_mean": 5
+        },
+        {
+          "subject": "hamerton",
+          "qid": 53,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.6
+        },
+        {
+          "subject": "hamerton",
+          "qid": 55,
+          "pre_band": 1,
+          "post_band": 5,
+          "jump": 4,
+          "pre_mean": 1,
+          "post_mean": 5
+        },
+        {
+          "subject": "hamerton",
+          "qid": 58,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4.2
+        },
+        {
+          "subject": "hamerton",
+          "qid": 59,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.6
+        },
+        {
+          "subject": "sunity_devee",
+          "qid": 10,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.8
+        },
+        {
+          "subject": "sunity_devee",
+          "qid": 11,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.8
+        },
+        {
+          "subject": "sunity_devee",
+          "qid": 13,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3
+        },
+        {
+          "subject": "sunity_devee",
+          "qid": 15,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.4
+        },
+        {
+          "subject": "sunity_devee",
+          "qid": 17,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4.2
+        },
+        {
+          "subject": "sunity_devee",
+          "qid": 18,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.4,
+          "post_mean": 3
+        },
+        {
+          "subject": "sunity_devee",
+          "qid": 21,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.6
+        },
+        {
+          "subject": "sunity_devee",
+          "qid": 22,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4.2
+        },
+        {
+          "subject": "sunity_devee",
+          "qid": 23,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3
+        },
+        {
+          "subject": "sunity_devee",
+          "qid": 25,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3
+        },
+        {
+          "subject": "sunity_devee",
+          "qid": 26,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3
+        },
+        {
+          "subject": "sunity_devee",
+          "qid": 27,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.4
+        },
+        {
+          "subject": "sunity_devee",
+          "qid": 30,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.2
+        },
+        {
+          "subject": "sunity_devee",
+          "qid": 34,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4.2
+        },
+        {
+          "subject": "sunity_devee",
+          "qid": 36,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.8
+        },
+        {
+          "subject": "ebers",
+          "qid": 1,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.4
+        },
+        {
+          "subject": "ebers",
+          "qid": 7,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.2,
+          "post_mean": 3.8
+        },
+        {
+          "subject": "ebers",
+          "qid": 9,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.6
+        },
+        {
+          "subject": "ebers",
+          "qid": 10,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.2
+        },
+        {
+          "subject": "ebers",
+          "qid": 14,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.8
+        },
+        {
+          "subject": "ebers",
+          "qid": 16,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.2
+        },
+        {
+          "subject": "ebers",
+          "qid": 18,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4.4
+        },
+        {
+          "subject": "ebers",
+          "qid": 32,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3
+        },
+        {
+          "subject": "ebers",
+          "qid": 37,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.4
+        },
+        {
+          "subject": "fukuzawa",
+          "qid": 1,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.2,
+          "post_mean": 3.4
+        },
+        {
+          "subject": "fukuzawa",
+          "qid": 3,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.6
+        },
+        {
+          "subject": "fukuzawa",
+          "qid": 5,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.8
+        },
+        {
+          "subject": "fukuzawa",
+          "qid": 8,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.8
+        },
+        {
+          "subject": "fukuzawa",
+          "qid": 13,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4.4
+        },
+        {
+          "subject": "fukuzawa",
+          "qid": 16,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1.6,
+          "post_mean": 4.6
+        },
+        {
+          "subject": "fukuzawa",
+          "qid": 20,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4.2
+        },
+        {
+          "subject": "fukuzawa",
+          "qid": 21,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.4,
+          "post_mean": 3.2
+        },
+        {
+          "subject": "fukuzawa",
+          "qid": 30,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.6,
+          "post_mean": 3.2
+        },
+        {
+          "subject": "seacole",
+          "qid": 2,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1.8,
+          "post_mean": 4.4
+        },
+        {
+          "subject": "seacole",
+          "qid": 11,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.8
+        },
+        {
+          "subject": "seacole",
+          "qid": 13,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.8
+        },
+        {
+          "subject": "seacole",
+          "qid": 16,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4.6
+        },
+        {
+          "subject": "seacole",
+          "qid": 17,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.8
+        },
+        {
+          "subject": "seacole",
+          "qid": 18,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4
+        },
+        {
+          "subject": "seacole",
+          "qid": 19,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1.4,
+          "post_mean": 4.6
+        },
+        {
+          "subject": "seacole",
+          "qid": 24,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.4,
+          "post_mean": 3.6
+        },
+        {
+          "subject": "seacole",
+          "qid": 31,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.2
+        },
+        {
+          "subject": "seacole",
+          "qid": 38,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.4
+        },
+        {
+          "subject": "bernal_diaz",
+          "qid": 1,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.333
+        },
+        {
+          "subject": "bernal_diaz",
+          "qid": 2,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4.333
+        },
+        {
+          "subject": "bernal_diaz",
+          "qid": 12,
+          "pre_band": 2,
+          "post_band": 4,
+          "jump": 2,
+          "pre_mean": 2.4,
+          "post_mean": 4.333
+        },
+        {
+          "subject": "bernal_diaz",
+          "qid": 13,
+          "pre_band": 2,
+          "post_band": 4,
+          "jump": 2,
+          "pre_mean": 2,
+          "post_mean": 4
+        },
+        {
+          "subject": "bernal_diaz",
+          "qid": 14,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.4,
+          "post_mean": 3
+        },
+        {
+          "subject": "bernal_diaz",
+          "qid": 18,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.6,
+          "post_mean": 3.667
+        },
+        {
+          "subject": "bernal_diaz",
+          "qid": 19,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.6,
+          "post_mean": 3
+        },
+        {
+          "subject": "bernal_diaz",
+          "qid": 29,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.8,
+          "post_mean": 3.333
+        },
+        {
+          "subject": "keckley",
+          "qid": 9,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1.2,
+          "post_mean": 4.2
+        },
+        {
+          "subject": "keckley",
+          "qid": 11,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.8
+        },
+        {
+          "subject": "keckley",
+          "qid": 16,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.2
+        },
+        {
+          "subject": "yung_wing",
+          "qid": 11,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.4,
+          "post_mean": 3.2
+        },
+        {
+          "subject": "yung_wing",
+          "qid": 13,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.6,
+          "post_mean": 3.6
+        },
+        {
+          "subject": "yung_wing",
+          "qid": 15,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3
+        },
+        {
+          "subject": "yung_wing",
+          "qid": 22,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4.2
+        },
+        {
+          "subject": "yung_wing",
+          "qid": 26,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.6
+        },
+        {
+          "subject": "yung_wing",
+          "qid": 28,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.4
+        },
+        {
+          "subject": "augustine",
+          "qid": 14,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3
+        },
+        {
+          "subject": "augustine",
+          "qid": 15,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.2
+        },
+        {
+          "subject": "augustine",
+          "qid": 17,
+          "pre_band": 2,
+          "post_band": 4,
+          "jump": 2,
+          "pre_mean": 2,
+          "post_mean": 4.2
+        },
+        {
+          "subject": "augustine",
+          "qid": 20,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.8
+        },
+        {
+          "subject": "equiano",
+          "qid": 36,
+          "pre_band": 2,
+          "post_band": 4,
+          "jump": 2,
+          "pre_mean": 2.2,
+          "post_mean": 4.2
+        },
+        {
+          "subject": "cellini",
+          "qid": 34,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.8
+        },
+        {
+          "subject": "cellini",
+          "qid": 38,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.4
+        },
+        {
+          "subject": "rousseau",
+          "qid": 2,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1.4,
+          "post_mean": 4.333
+        },
+        {
+          "subject": "rousseau",
+          "qid": 6,
+          "pre_band": 2,
+          "post_band": 4,
+          "jump": 2,
+          "pre_mean": 2.4,
+          "post_mean": 4
+        }
+      ]
+    },
+    "C5_to_C9": {
+      "label": "C5 (baseline) -> C9 (raw corpus + spec)",
+      "pre_cond": "C5_baseline",
+      "post_cond": "C9_raw_corpus_plus_spec",
+      "subjects": [
+        "hamerton",
+        "sunity_devee",
+        "ebers",
+        "fukuzawa",
+        "seacole",
+        "bernal_diaz",
+        "keckley",
+        "yung_wing",
+        "augustine",
+        "equiano",
+        "cellini",
+        "rousseau",
+        "zitkala_sa"
+      ],
+      "n_subjects": 13,
+      "n_paired_questions": 507,
+      "upward": 242,
+      "downward": 82,
+      "no_crossing": 183,
+      "upward_pct": 47.7,
+      "downward_pct": 16.2,
+      "no_crossing_pct": 36.1,
+      "net_upward": 160,
+      "net_upward_pct": 31.6,
+      "multi_anchor_count": 75,
+      "multi_anchor_pct": 14.8,
+      "extreme_count": 24,
+      "extreme_pct": 4.7,
+      "mean_pre": 1.898,
+      "mean_post": 2.517,
+      "mean_delta": 0.619,
+      "boundary_breakdown": {
+        "1->2": 140,
+        "1->3": 47,
+        "1->4": 21,
+        "1->5": 3,
+        "2->1 DOWN": 12,
+        "2->3": 18,
+        "2->4": 3,
+        "3->1 DOWN": 3,
+        "3->2 DOWN": 41,
+        "3->4": 9,
+        "3->5": 1,
+        "4->1 DOWN": 1,
+        "4->2 DOWN": 11,
+        "4->3 DOWN": 12,
+        "5->4 DOWN": 2
+      },
+      "per_subject": [
+        {
+          "subject": "hamerton",
+          "total": 39,
+          "upward": 34,
+          "downward": 1,
+          "no_crossing": 4,
+          "upward_pct": 87.2,
+          "mean_pre": 1.256,
+          "mean_post": 3.087,
+          "mean_delta": 1.831
+        },
+        {
+          "subject": "sunity_devee",
+          "total": 39,
+          "upward": 29,
+          "downward": 0,
+          "no_crossing": 10,
+          "upward_pct": 74.4,
+          "mean_pre": 1.026,
+          "mean_post": 2.462,
+          "mean_delta": 1.436
+        },
+        {
+          "subject": "ebers",
+          "total": 39,
+          "upward": 17,
+          "downward": 0,
+          "no_crossing": 22,
+          "upward_pct": 43.6,
+          "mean_pre": 1.021,
+          "mean_post": 2.164,
+          "mean_delta": 1.144
+        },
+        {
+          "subject": "fukuzawa",
+          "total": 39,
+          "upward": 28,
+          "downward": 3,
+          "no_crossing": 8,
+          "upward_pct": 71.8,
+          "mean_pre": 1.672,
+          "mean_post": 2.779,
+          "mean_delta": 1.108
+        },
+        {
+          "subject": "seacole",
+          "total": 39,
+          "upward": 25,
+          "downward": 4,
+          "no_crossing": 10,
+          "upward_pct": 64.1,
+          "mean_pre": 1.774,
+          "mean_post": 2.733,
+          "mean_delta": 0.959
+        },
+        {
+          "subject": "bernal_diaz",
+          "total": 39,
+          "upward": 27,
+          "downward": 2,
+          "no_crossing": 10,
+          "upward_pct": 69.2,
+          "mean_pre": 1.697,
+          "mean_post": 2.53,
+          "mean_delta": 0.832
+        },
+        {
+          "subject": "keckley",
+          "total": 39,
+          "upward": 19,
+          "downward": 4,
+          "no_crossing": 16,
+          "upward_pct": 48.7,
+          "mean_pre": 1.841,
+          "mean_post": 2.487,
+          "mean_delta": 0.646
+        },
+        {
+          "subject": "yung_wing",
+          "total": 39,
+          "upward": 19,
+          "downward": 3,
+          "no_crossing": 17,
+          "upward_pct": 48.7,
+          "mean_pre": 1.877,
+          "mean_post": 2.503,
+          "mean_delta": 0.626
+        },
+        {
+          "subject": "augustine",
+          "total": 39,
+          "upward": 11,
+          "downward": 17,
+          "no_crossing": 11,
+          "upward_pct": 28.2,
+          "mean_pre": 2.585,
+          "mean_post": 2.6,
+          "mean_delta": 0.015
+        },
+        {
+          "subject": "equiano",
+          "total": 39,
+          "upward": 7,
+          "downward": 14,
+          "no_crossing": 18,
+          "upward_pct": 17.9,
+          "mean_pre": 2.769,
+          "mean_post": 2.503,
+          "mean_delta": -0.267
+        },
+        {
+          "subject": "cellini",
+          "total": 39,
+          "upward": 9,
+          "downward": 11,
+          "no_crossing": 19,
+          "upward_pct": 23.1,
+          "mean_pre": 2.379,
+          "mean_post": 2.421,
+          "mean_delta": 0.041
+        },
+        {
+          "subject": "rousseau",
+          "total": 39,
+          "upward": 13,
+          "downward": 12,
+          "no_crossing": 14,
+          "upward_pct": 33.3,
+          "mean_pre": 2.436,
+          "mean_post": 2.393,
+          "mean_delta": -0.043
+        },
+        {
+          "subject": "zitkala_sa",
+          "total": 39,
+          "upward": 4,
+          "downward": 11,
+          "no_crossing": 24,
+          "upward_pct": 10.3,
+          "mean_pre": 2.338,
+          "mean_post": 2.062,
+          "mean_delta": -0.277
+        }
+      ],
+      "multi_anchor_examples": [
+        {
+          "subject": "hamerton",
+          "qid": 22,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.8
+        },
+        {
+          "subject": "hamerton",
+          "qid": 24,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4.4
+        },
+        {
+          "subject": "hamerton",
+          "qid": 25,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4.2
+        },
+        {
+          "subject": "hamerton",
+          "qid": 29,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4.4
+        },
+        {
+          "subject": "hamerton",
+          "qid": 31,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3
+        },
+        {
+          "subject": "hamerton",
+          "qid": 33,
+          "pre_band": 1,
+          "post_band": 5,
+          "jump": 4,
+          "pre_mean": 1,
+          "post_mean": 5
+        },
+        {
+          "subject": "hamerton",
+          "qid": 35,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.4
+        },
+        {
+          "subject": "hamerton",
+          "qid": 41,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.6
+        },
+        {
+          "subject": "hamerton",
+          "qid": 42,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4.6
+        },
+        {
+          "subject": "hamerton",
+          "qid": 43,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.4
+        },
+        {
+          "subject": "hamerton",
+          "qid": 46,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4.2
+        },
+        {
+          "subject": "hamerton",
+          "qid": 51,
+          "pre_band": 1,
+          "post_band": 5,
+          "jump": 4,
+          "pre_mean": 1,
+          "post_mean": 5
+        },
+        {
+          "subject": "hamerton",
+          "qid": 53,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.4
+        },
+        {
+          "subject": "hamerton",
+          "qid": 55,
+          "pre_band": 1,
+          "post_band": 5,
+          "jump": 4,
+          "pre_mean": 1,
+          "post_mean": 5
+        },
+        {
+          "subject": "hamerton",
+          "qid": 58,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4.4
+        },
+        {
+          "subject": "hamerton",
+          "qid": 59,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.6
+        },
+        {
+          "subject": "hamerton",
+          "qid": 60,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4
+        },
+        {
+          "subject": "sunity_devee",
+          "qid": 10,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.6
+        },
+        {
+          "subject": "sunity_devee",
+          "qid": 13,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.2
+        },
+        {
+          "subject": "sunity_devee",
+          "qid": 17,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.2
+        },
+        {
+          "subject": "sunity_devee",
+          "qid": 18,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.4,
+          "post_mean": 3
+        },
+        {
+          "subject": "sunity_devee",
+          "qid": 21,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.8
+        },
+        {
+          "subject": "sunity_devee",
+          "qid": 22,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4.4
+        },
+        {
+          "subject": "sunity_devee",
+          "qid": 23,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4.2
+        },
+        {
+          "subject": "sunity_devee",
+          "qid": 34,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4.2
+        },
+        {
+          "subject": "sunity_devee",
+          "qid": 36,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4.4
+        },
+        {
+          "subject": "ebers",
+          "qid": 1,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3
+        },
+        {
+          "subject": "ebers",
+          "qid": 2,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.8
+        },
+        {
+          "subject": "ebers",
+          "qid": 9,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.2
+        },
+        {
+          "subject": "ebers",
+          "qid": 10,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.6
+        },
+        {
+          "subject": "ebers",
+          "qid": 11,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.8
+        },
+        {
+          "subject": "ebers",
+          "qid": 14,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.2
+        },
+        {
+          "subject": "ebers",
+          "qid": 18,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4.2
+        },
+        {
+          "subject": "ebers",
+          "qid": 34,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3
+        },
+        {
+          "subject": "ebers",
+          "qid": 35,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.2
+        },
+        {
+          "subject": "ebers",
+          "qid": 37,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.8
+        },
+        {
+          "subject": "fukuzawa",
+          "qid": 3,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4
+        },
+        {
+          "subject": "fukuzawa",
+          "qid": 5,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4.2
+        },
+        {
+          "subject": "fukuzawa",
+          "qid": 8,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4
+        },
+        {
+          "subject": "fukuzawa",
+          "qid": 9,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3
+        },
+        {
+          "subject": "fukuzawa",
+          "qid": 13,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4.6
+        },
+        {
+          "subject": "fukuzawa",
+          "qid": 16,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.6,
+          "post_mean": 3.8
+        },
+        {
+          "subject": "fukuzawa",
+          "qid": 20,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.4
+        },
+        {
+          "subject": "fukuzawa",
+          "qid": 36,
+          "pre_band": 2,
+          "post_band": 4,
+          "jump": 2,
+          "pre_mean": 2.2,
+          "post_mean": 4
+        },
+        {
+          "subject": "seacole",
+          "qid": 2,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1.8,
+          "post_mean": 4.4
+        },
+        {
+          "subject": "seacole",
+          "qid": 11,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.4
+        },
+        {
+          "subject": "seacole",
+          "qid": 16,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.4
+        },
+        {
+          "subject": "seacole",
+          "qid": 17,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.4
+        },
+        {
+          "subject": "seacole",
+          "qid": 18,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4.2
+        },
+        {
+          "subject": "seacole",
+          "qid": 19,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1.4,
+          "post_mean": 4.2
+        },
+        {
+          "subject": "seacole",
+          "qid": 24,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.4,
+          "post_mean": 3.4
+        },
+        {
+          "subject": "seacole",
+          "qid": 38,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.4
+        },
+        {
+          "subject": "bernal_diaz",
+          "qid": 1,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3
+        },
+        {
+          "subject": "bernal_diaz",
+          "qid": 9,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.333
+        },
+        {
+          "subject": "bernal_diaz",
+          "qid": 11,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.2,
+          "post_mean": 3
+        },
+        {
+          "subject": "bernal_diaz",
+          "qid": 14,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.4,
+          "post_mean": 3
+        },
+        {
+          "subject": "bernal_diaz",
+          "qid": 18,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.6,
+          "post_mean": 3
+        },
+        {
+          "subject": "bernal_diaz",
+          "qid": 20,
+          "pre_band": 2,
+          "post_band": 4,
+          "jump": 2,
+          "pre_mean": 2,
+          "post_mean": 4
+        },
+        {
+          "subject": "bernal_diaz",
+          "qid": 29,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.8,
+          "post_mean": 3.333
+        },
+        {
+          "subject": "bernal_diaz",
+          "qid": 30,
+          "pre_band": 3,
+          "post_band": 5,
+          "jump": 2,
+          "pre_mean": 3.4,
+          "post_mean": 5
+        },
+        {
+          "subject": "keckley",
+          "qid": 9,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1.2,
+          "post_mean": 4.2
+        },
+        {
+          "subject": "keckley",
+          "qid": 11,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3
+        },
+        {
+          "subject": "keckley",
+          "qid": 16,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.6
+        },
+        {
+          "subject": "keckley",
+          "qid": 34,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.4
+        },
+        {
+          "subject": "yung_wing",
+          "qid": 13,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.6,
+          "post_mean": 3
+        },
+        {
+          "subject": "yung_wing",
+          "qid": 21,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.4,
+          "post_mean": 3
+        },
+        {
+          "subject": "yung_wing",
+          "qid": 22,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.8
+        },
+        {
+          "subject": "yung_wing",
+          "qid": 23,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.6
+        },
+        {
+          "subject": "yung_wing",
+          "qid": 26,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.8
+        },
+        {
+          "subject": "yung_wing",
+          "qid": 28,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.2
+        },
+        {
+          "subject": "augustine",
+          "qid": 14,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.2
+        },
+        {
+          "subject": "augustine",
+          "qid": 20,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.6
+        },
+        {
+          "subject": "equiano",
+          "qid": 29,
+          "pre_band": 2,
+          "post_band": 4,
+          "jump": 2,
+          "pre_mean": 2.8,
+          "post_mean": 4
+        },
+        {
+          "subject": "rousseau",
+          "qid": 2,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1.4,
+          "post_mean": 4.333
+        },
+        {
+          "subject": "rousseau",
+          "qid": 35,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.333
+        }
+      ]
+    },
+    "C8_to_C9": {
+      "label": "C8 (corpus) -> C9 (corpus + spec)",
+      "pre_cond": "C8_raw_corpus",
+      "post_cond": "C9_raw_corpus_plus_spec",
+      "subjects": [
+        "hamerton",
+        "sunity_devee",
+        "ebers",
+        "fukuzawa",
+        "seacole",
+        "bernal_diaz",
+        "keckley",
+        "yung_wing",
+        "augustine",
+        "equiano",
+        "cellini",
+        "rousseau",
+        "zitkala_sa"
+      ],
+      "n_subjects": 13,
+      "n_paired_questions": 507,
+      "upward": 93,
+      "downward": 94,
+      "no_crossing": 320,
+      "upward_pct": 18.3,
+      "downward_pct": 18.5,
+      "no_crossing_pct": 63.1,
+      "net_upward": -1,
+      "net_upward_pct": -0.2,
+      "multi_anchor_count": 12,
+      "multi_anchor_pct": 2.4,
+      "extreme_count": 2,
+      "extreme_pct": 0.4,
+      "mean_pre": 2.485,
+      "mean_post": 2.517,
+      "mean_delta": 0.032,
+      "boundary_breakdown": {
+        "1->2": 40,
+        "1->3": 5,
+        "1->4": 2,
+        "2->1 DOWN": 28,
+        "2->3": 29,
+        "2->4": 5,
+        "3->1 DOWN": 2,
+        "3->2 DOWN": 40,
+        "3->4": 10,
+        "4->2 DOWN": 4,
+        "4->3 DOWN": 18,
+        "4->5": 2,
+        "5->4 DOWN": 2
+      },
+      "per_subject": [
+        {
+          "subject": "hamerton",
+          "total": 39,
+          "upward": 19,
+          "downward": 2,
+          "no_crossing": 18,
+          "upward_pct": 48.7,
+          "mean_pre": 2.267,
+          "mean_post": 3.087,
+          "mean_delta": 0.821
+        },
+        {
+          "subject": "sunity_devee",
+          "total": 39,
+          "upward": 6,
+          "downward": 11,
+          "no_crossing": 22,
+          "upward_pct": 15.4,
+          "mean_pre": 2.554,
+          "mean_post": 2.462,
+          "mean_delta": -0.092
+        },
+        {
+          "subject": "ebers",
+          "total": 39,
+          "upward": 5,
+          "downward": 10,
+          "no_crossing": 24,
+          "upward_pct": 12.8,
+          "mean_pre": 2.185,
+          "mean_post": 2.164,
+          "mean_delta": -0.021
+        },
+        {
+          "subject": "fukuzawa",
+          "total": 39,
+          "upward": 9,
+          "downward": 8,
+          "no_crossing": 22,
+          "upward_pct": 23.1,
+          "mean_pre": 2.738,
+          "mean_post": 2.779,
+          "mean_delta": 0.041
+        },
+        {
+          "subject": "seacole",
+          "total": 39,
+          "upward": 6,
+          "downward": 6,
+          "no_crossing": 27,
+          "upward_pct": 15.4,
+          "mean_pre": 2.831,
+          "mean_post": 2.733,
+          "mean_delta": -0.097
+        },
+        {
+          "subject": "bernal_diaz",
+          "total": 39,
+          "upward": 9,
+          "downward": 8,
+          "no_crossing": 22,
+          "upward_pct": 23.1,
+          "mean_pre": 2.547,
+          "mean_post": 2.53,
+          "mean_delta": -0.017
+        },
+        {
+          "subject": "keckley",
+          "total": 39,
+          "upward": 4,
+          "downward": 4,
+          "no_crossing": 31,
+          "upward_pct": 10.3,
+          "mean_pre": 2.497,
+          "mean_post": 2.487,
+          "mean_delta": -0.01
+        },
+        {
+          "subject": "yung_wing",
+          "total": 39,
+          "upward": 10,
+          "downward": 9,
+          "no_crossing": 20,
+          "upward_pct": 25.6,
+          "mean_pre": 2.421,
+          "mean_post": 2.503,
+          "mean_delta": 0.082
+        },
+        {
+          "subject": "augustine",
+          "total": 39,
+          "upward": 4,
+          "downward": 9,
+          "no_crossing": 26,
+          "upward_pct": 10.3,
+          "mean_pre": 2.697,
+          "mean_post": 2.6,
+          "mean_delta": -0.097
+        },
+        {
+          "subject": "equiano",
+          "total": 39,
+          "upward": 4,
+          "downward": 5,
+          "no_crossing": 30,
+          "upward_pct": 10.3,
+          "mean_pre": 2.595,
+          "mean_post": 2.503,
+          "mean_delta": -0.092
+        },
+        {
+          "subject": "cellini",
+          "total": 39,
+          "upward": 4,
+          "downward": 9,
+          "no_crossing": 26,
+          "upward_pct": 10.3,
+          "mean_pre": 2.492,
+          "mean_post": 2.421,
+          "mean_delta": -0.072
+        },
+        {
+          "subject": "rousseau",
+          "total": 39,
+          "upward": 10,
+          "downward": 4,
+          "no_crossing": 25,
+          "upward_pct": 25.6,
+          "mean_pre": 2.231,
+          "mean_post": 2.393,
+          "mean_delta": 0.162
+        },
+        {
+          "subject": "zitkala_sa",
+          "total": 39,
+          "upward": 3,
+          "downward": 9,
+          "no_crossing": 27,
+          "upward_pct": 7.7,
+          "mean_pre": 2.251,
+          "mean_post": 2.062,
+          "mean_delta": -0.19
+        }
+      ],
+      "multi_anchor_examples": [
+        {
+          "subject": "hamerton",
+          "qid": 22,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.8
+        },
+        {
+          "subject": "hamerton",
+          "qid": 24,
+          "pre_band": 2,
+          "post_band": 4,
+          "jump": 2,
+          "pre_mean": 2.2,
+          "post_mean": 4.4
+        },
+        {
+          "subject": "hamerton",
+          "qid": 25,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1.4,
+          "post_mean": 4.2
+        },
+        {
+          "subject": "hamerton",
+          "qid": 26,
+          "pre_band": 2,
+          "post_band": 4,
+          "jump": 2,
+          "pre_mean": 2,
+          "post_mean": 4.8
+        },
+        {
+          "subject": "hamerton",
+          "qid": 29,
+          "pre_band": 2,
+          "post_band": 4,
+          "jump": 2,
+          "pre_mean": 2,
+          "post_mean": 4.4
+        },
+        {
+          "subject": "hamerton",
+          "qid": 31,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3
+        },
+        {
+          "subject": "hamerton",
+          "qid": 46,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1.4,
+          "post_mean": 4.2
+        },
+        {
+          "subject": "hamerton",
+          "qid": 60,
+          "pre_band": 2,
+          "post_band": 4,
+          "jump": 2,
+          "pre_mean": 2.2,
+          "post_mean": 4
+        },
+        {
+          "subject": "ebers",
+          "qid": 11,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.8,
+          "post_mean": 3.8
+        },
+        {
+          "subject": "bernal_diaz",
+          "qid": 11,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.333,
+          "post_mean": 3
+        },
+        {
+          "subject": "keckley",
+          "qid": 34,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.8,
+          "post_mean": 3.4
+        },
+        {
+          "subject": "yung_wing",
+          "qid": 12,
+          "pre_band": 2,
+          "post_band": 4,
+          "jump": 2,
+          "pre_mean": 2.6,
+          "post_mean": 4.2
+        }
+      ]
+    }
+  }
+}
