@@ -1,0 +1,6086 @@
+{
+  "metadata": {
+    "generated": "2026-05-01",
+    "script": "scripts/analyze_retrieval_overlap_semantic.py",
+    "subjects": [
+      "hamerton",
+      "global_augustine",
+      "global_babur",
+      "global_bernal_diaz",
+      "global_cellini",
+      "global_ebers",
+      "global_equiano",
+      "global_fukuzawa",
+      "global_keckley",
+      "global_rousseau",
+      "global_seacole",
+      "global_sunity_devee",
+      "global_yung_wing",
+      "global_zitkala_sa"
+    ],
+    "n_subjects": 14,
+    "controlled_systems": [
+      "baselayer",
+      "mem0",
+      "letta",
+      "supermemory",
+      "zep"
+    ],
+    "native_systems": [
+      "mem0",
+      "letta",
+      "supermemory",
+      "zep"
+    ],
+    "n_controlled_pairs": 10,
+    "n_native_pairs": 6,
+    "K_values": [
+      5,
+      10,
+      "all"
+    ],
+    "thresholds": [
+      0.7,
+      0.8,
+      0.85,
+      0.9,
+      0.95
+    ],
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "metric": "Soft Jaccard with symmetrized intersection. For each fact in A, max cosine similarity to any fact in B; if >= T, count as match. Soft intersection = mean of (A->B count, B->A count). Soft union = |A| + |B| - soft_intersection. Soft Jaccard = soft_intersection / soft_union.",
+    "k_truncation_order": "Truncate ordered fact_texts list to top-K, then deduplicate. K=all means no truncation. Empty/whitespace strings dropped.",
+    "k_all_note": "K=all is identical to K=10 for controlled (every system returns <=10). Distinct values appear only in native, where Supermemory and Zep often return fewer than 10.",
+    "calibration": "Threshold semantics from Letta semantic-duplication study: >= 0.95 ~ verbatim-paraphrase, >= 0.85 ~ near-duplicate, >= 0.70 = loose topical match. Reading Jaccard at T=0.70 as convergence is vulnerable to topical-density confound; T=0.85 and T=0.95 are the discriminating cells.",
+    "exact_baseline_reference": "From scripts/analyze_retrieval_overlap.py: controlled mean exact-set Jaccard = 0.083 raw / 0.088 normalized; native = ~0.000."
+  },
+  "file_status_per_subject": {
+    "hamerton": {
+      "controlled": {
+        "baselayer": "ok",
+        "mem0": "ok",
+        "letta": "ok",
+        "supermemory": "ok",
+        "zep": "ok"
+      },
+      "native": {
+        "mem0": "ok",
+        "letta": "ok",
+        "supermemory": "ok",
+        "zep": "ok"
+      }
+    },
+    "global_augustine": {
+      "controlled": {
+        "baselayer": "ok",
+        "mem0": "ok",
+        "letta": "ok",
+        "supermemory": "ok",
+        "zep": "ok"
+      },
+      "native": {
+        "mem0": "ok",
+        "letta": "ok",
+        "supermemory": "ok",
+        "zep": "ok"
+      }
+    },
+    "global_babur": {
+      "controlled": {
+        "baselayer": "ok",
+        "mem0": "ok",
+        "letta": "ok",
+        "supermemory": "ok",
+        "zep": "ok"
+      },
+      "native": {
+        "mem0": "ok",
+        "letta": "ok",
+        "supermemory": "MISSING",
+        "zep": "ok"
+      }
+    },
+    "global_bernal_diaz": {
+      "controlled": {
+        "baselayer": "ok",
+        "mem0": "ok",
+        "letta": "ok",
+        "supermemory": "ok",
+        "zep": "ok"
+      },
+      "native": {
+        "mem0": "ok",
+        "letta": "ok",
+        "supermemory": "MISSING",
+        "zep": "ok"
+      }
+    },
+    "global_cellini": {
+      "controlled": {
+        "baselayer": "ok",
+        "mem0": "ok",
+        "letta": "ok",
+        "supermemory": "ok",
+        "zep": "ok"
+      },
+      "native": {
+        "mem0": "ok",
+        "letta": "ok",
+        "supermemory": "MISSING",
+        "zep": "ok"
+      }
+    },
+    "global_ebers": {
+      "controlled": {
+        "baselayer": "ok",
+        "mem0": "ok",
+        "letta": "ok",
+        "supermemory": "ok",
+        "zep": "ok"
+      },
+      "native": {
+        "mem0": "ok",
+        "letta": "ok",
+        "supermemory": "ok",
+        "zep": "ok"
+      }
+    },
+    "global_equiano": {
+      "controlled": {
+        "baselayer": "ok",
+        "mem0": "ok",
+        "letta": "ok",
+        "supermemory": "ok",
+        "zep": "ok"
+      },
+      "native": {
+        "mem0": "ok",
+        "letta": "ok",
+        "supermemory": "ok",
+        "zep": "ok"
+      }
+    },
+    "global_fukuzawa": {
+      "controlled": {
+        "baselayer": "ok",
+        "mem0": "ok",
+        "letta": "ok",
+        "supermemory": "ok",
+        "zep": "ok"
+      },
+      "native": {
+        "mem0": "ok",
+        "letta": "ok",
+        "supermemory": "ok",
+        "zep": "ok"
+      }
+    },
+    "global_keckley": {
+      "controlled": {
+        "baselayer": "ok",
+        "mem0": "ok",
+        "letta": "ok",
+        "supermemory": "ok",
+        "zep": "ok"
+      },
+      "native": {
+        "mem0": "ok",
+        "letta": "ok",
+        "supermemory": "ok",
+        "zep": "ok"
+      }
+    },
+    "global_rousseau": {
+      "controlled": {
+        "baselayer": "ok",
+        "mem0": "ok",
+        "letta": "ok",
+        "supermemory": "ok",
+        "zep": "ok"
+      },
+      "native": {
+        "mem0": "ok",
+        "letta": "ok",
+        "supermemory": "MISSING",
+        "zep": "ok"
+      }
+    },
+    "global_seacole": {
+      "controlled": {
+        "baselayer": "ok",
+        "mem0": "ok",
+        "letta": "ok",
+        "supermemory": "ok",
+        "zep": "ok"
+      },
+      "native": {
+        "mem0": "ok",
+        "letta": "ok",
+        "supermemory": "ok",
+        "zep": "ok"
+      }
+    },
+    "global_sunity_devee": {
+      "controlled": {
+        "baselayer": "ok",
+        "mem0": "ok",
+        "letta": "ok",
+        "supermemory": "ok",
+        "zep": "ok"
+      },
+      "native": {
+        "mem0": "ok",
+        "letta": "ok",
+        "supermemory": "ok",
+        "zep": "ok"
+      }
+    },
+    "global_yung_wing": {
+      "controlled": {
+        "baselayer": "ok",
+        "mem0": "ok",
+        "letta": "ok",
+        "supermemory": "ok",
+        "zep": "ok"
+      },
+      "native": {
+        "mem0": "ok",
+        "letta": "ok",
+        "supermemory": "ok",
+        "zep": "ok"
+      }
+    },
+    "global_zitkala_sa": {
+      "controlled": {
+        "baselayer": "ok",
+        "mem0": "ok",
+        "letta": "ok",
+        "supermemory": "ok",
+        "zep": "ok"
+      },
+      "native": {
+        "mem0": "ok",
+        "letta": "ok",
+        "supermemory": "ok",
+        "zep": "ok"
+      }
+    }
+  },
+  "sanity_checks": {
+    "monotonicity_violations": [],
+    "monotonicity_violations_count": 0,
+    "controlled_K10_T095_cell": {
+      "config": "controlled",
+      "K": 10,
+      "T": 0.95,
+      "n_pairs": 10,
+      "mean_soft_jaccard_across_pairs": 0.09279726568602802,
+      "min_pair": 0.039924511063426496,
+      "max_pair": 0.14708633813868208
+    },
+    "controlled_K10_T070_cell": {
+      "config": "controlled",
+      "K": 10,
+      "T": 0.7,
+      "n_pairs": 10,
+      "mean_soft_jaccard_across_pairs": 0.19112313671998268,
+      "min_pair": 0.11554819498313507,
+      "max_pair": 0.2769836599148113
+    }
+  },
+  "per_cell_across_pairs": [
+    {
+      "config": "controlled",
+      "K": "all",
+      "T": 0.7,
+      "n_pairs": 10,
+      "mean_soft_jaccard_across_pairs": 0.19112313671998268,
+      "min_pair": 0.11554819498313507,
+      "max_pair": 0.2769836599148113
+    },
+    {
+      "config": "controlled",
+      "K": "all",
+      "T": 0.8,
+      "n_pairs": 10,
+      "mean_soft_jaccard_across_pairs": 0.10972698242736299,
+      "min_pair": 0.061249777264645366,
+      "max_pair": 0.15972313617119488
+    },
+    {
+      "config": "controlled",
+      "K": "all",
+      "T": 0.85,
+      "n_pairs": 10,
+      "mean_soft_jaccard_across_pairs": 0.10164618735729633,
+      "min_pair": 0.05462137823538633,
+      "max_pair": 0.15022689259169777
+    },
+    {
+      "config": "controlled",
+      "K": "all",
+      "T": 0.9,
+      "n_pairs": 10,
+      "mean_soft_jaccard_across_pairs": 0.09746809696099616,
+      "min_pair": 0.04783514275093348,
+      "max_pair": 0.1482019384580966
+    },
+    {
+      "config": "controlled",
+      "K": "all",
+      "T": 0.95,
+      "n_pairs": 10,
+      "mean_soft_jaccard_across_pairs": 0.09279726568602802,
+      "min_pair": 0.039924511063426496,
+      "max_pair": 0.14708633813868208
+    },
+    {
+      "config": "controlled",
+      "K": 5,
+      "T": 0.7,
+      "n_pairs": 10,
+      "mean_soft_jaccard_across_pairs": 0.172985227292758,
+      "min_pair": 0.10504721164061823,
+      "max_pair": 0.2444308606234915
+    },
+    {
+      "config": "controlled",
+      "K": 5,
+      "T": 0.8,
+      "n_pairs": 10,
+      "mean_soft_jaccard_across_pairs": 0.10411984709011211,
+      "min_pair": 0.05114981561329331,
+      "max_pair": 0.14622127615017078
+    },
+    {
+      "config": "controlled",
+      "K": 5,
+      "T": 0.85,
+      "n_pairs": 10,
+      "mean_soft_jaccard_across_pairs": 0.0971230763837422,
+      "min_pair": 0.044141670474896075,
+      "max_pair": 0.13495489194422614
+    },
+    {
+      "config": "controlled",
+      "K": 5,
+      "T": 0.9,
+      "n_pairs": 10,
+      "mean_soft_jaccard_across_pairs": 0.09341895036061164,
+      "min_pair": 0.03980074935957289,
+      "max_pair": 0.1288408681265824
+    },
+    {
+      "config": "controlled",
+      "K": 5,
+      "T": 0.95,
+      "n_pairs": 10,
+      "mean_soft_jaccard_across_pairs": 0.08886868727528068,
+      "min_pair": 0.03245785493684653,
+      "max_pair": 0.1281397174254317
+    },
+    {
+      "config": "controlled",
+      "K": 10,
+      "T": 0.7,
+      "n_pairs": 10,
+      "mean_soft_jaccard_across_pairs": 0.19112313671998268,
+      "min_pair": 0.11554819498313507,
+      "max_pair": 0.2769836599148113
+    },
+    {
+      "config": "controlled",
+      "K": 10,
+      "T": 0.8,
+      "n_pairs": 10,
+      "mean_soft_jaccard_across_pairs": 0.10972698242736299,
+      "min_pair": 0.061249777264645366,
+      "max_pair": 0.15972313617119488
+    },
+    {
+      "config": "controlled",
+      "K": 10,
+      "T": 0.85,
+      "n_pairs": 10,
+      "mean_soft_jaccard_across_pairs": 0.10164618735729633,
+      "min_pair": 0.05462137823538633,
+      "max_pair": 0.15022689259169777
+    },
+    {
+      "config": "controlled",
+      "K": 10,
+      "T": 0.9,
+      "n_pairs": 10,
+      "mean_soft_jaccard_across_pairs": 0.09746809696099616,
+      "min_pair": 0.04783514275093348,
+      "max_pair": 0.1482019384580966
+    },
+    {
+      "config": "controlled",
+      "K": 10,
+      "T": 0.95,
+      "n_pairs": 10,
+      "mean_soft_jaccard_across_pairs": 0.09279726568602802,
+      "min_pair": 0.039924511063426496,
+      "max_pair": 0.14708633813868208
+    },
+    {
+      "config": "native",
+      "K": "all",
+      "T": 0.7,
+      "n_pairs": 6,
+      "mean_soft_jaccard_across_pairs": 0.015671565094496534,
+      "min_pair": 0.0006411848517111675,
+      "max_pair": 0.03988685213530415
+    },
+    {
+      "config": "native",
+      "K": "all",
+      "T": 0.8,
+      "n_pairs": 6,
+      "mean_soft_jaccard_across_pairs": 0.004729894264328483,
+      "min_pair": 0.0,
+      "max_pair": 0.01979309257024189
+    },
+    {
+      "config": "native",
+      "K": "all",
+      "T": 0.85,
+      "n_pairs": 6,
+      "mean_soft_jaccard_across_pairs": 0.0037948496116965934,
+      "min_pair": 0.0,
+      "max_pair": 0.01601623908184994
+    },
+    {
+      "config": "native",
+      "K": "all",
+      "T": 0.9,
+      "n_pairs": 6,
+      "mean_soft_jaccard_across_pairs": 0.0022095653627821153,
+      "min_pair": 0.0,
+      "max_pair": 0.008046850920154088
+    },
+    {
+      "config": "native",
+      "K": "all",
+      "T": 0.95,
+      "n_pairs": 6,
+      "mean_soft_jaccard_across_pairs": 0.001170431401339554,
+      "min_pair": 0.0,
+      "max_pair": 0.006829798741563448
+    },
+    {
+      "config": "native",
+      "K": 5,
+      "T": 0.7,
+      "n_pairs": 6,
+      "mean_soft_jaccard_across_pairs": 0.012506682663508477,
+      "min_pair": 0.0003205128205128205,
+      "max_pair": 0.02750981128809183
+    },
+    {
+      "config": "native",
+      "K": 5,
+      "T": 0.8,
+      "n_pairs": 6,
+      "mean_soft_jaccard_across_pairs": 0.004302333469000136,
+      "min_pair": 0.0,
+      "max_pair": 0.018437118437118438
+    },
+    {
+      "config": "native",
+      "K": 5,
+      "T": 0.85,
+      "n_pairs": 6,
+      "mean_soft_jaccard_across_pairs": 0.0038003663003663,
+      "min_pair": 0.0,
+      "max_pair": 0.016086691086691085
+    },
+    {
+      "config": "native",
+      "K": 5,
+      "T": 0.9,
+      "n_pairs": 6,
+      "mean_soft_jaccard_across_pairs": 0.002292768959435626,
+      "min_pair": 0.0,
+      "max_pair": 0.007651607651607652
+    },
+    {
+      "config": "native",
+      "K": 5,
+      "T": 0.95,
+      "n_pairs": 6,
+      "mean_soft_jaccard_across_pairs": 0.001126882376882377,
+      "min_pair": 0.0,
+      "max_pair": 0.0067612942612942616
+    },
+    {
+      "config": "native",
+      "K": 10,
+      "T": 0.7,
+      "n_pairs": 6,
+      "mean_soft_jaccard_across_pairs": 0.015671565094496534,
+      "min_pair": 0.0006411848517111675,
+      "max_pair": 0.03988685213530415
+    },
+    {
+      "config": "native",
+      "K": 10,
+      "T": 0.8,
+      "n_pairs": 6,
+      "mean_soft_jaccard_across_pairs": 0.004729894264328483,
+      "min_pair": 0.0,
+      "max_pair": 0.01979309257024189
+    },
+    {
+      "config": "native",
+      "K": 10,
+      "T": 0.85,
+      "n_pairs": 6,
+      "mean_soft_jaccard_across_pairs": 0.0037948496116965934,
+      "min_pair": 0.0,
+      "max_pair": 0.01601623908184994
+    },
+    {
+      "config": "native",
+      "K": 10,
+      "T": 0.9,
+      "n_pairs": 6,
+      "mean_soft_jaccard_across_pairs": 0.0022095653627821153,
+      "min_pair": 0.0,
+      "max_pair": 0.008046850920154088
+    },
+    {
+      "config": "native",
+      "K": 10,
+      "T": 0.95,
+      "n_pairs": 6,
+      "mean_soft_jaccard_across_pairs": 0.001170431401339554,
+      "min_pair": 0.0,
+      "max_pair": 0.006829798741563448
+    }
+  ],
+  "per_pair_per_config_per_K_per_T": [
+    {
+      "config": "controlled",
+      "sys_a": "baselayer",
+      "sys_b": "letta",
+      "K": "all",
+      "T": 0.7,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.17434003256621722
+    },
+    {
+      "config": "controlled",
+      "sys_a": "baselayer",
+      "sys_b": "letta",
+      "K": "all",
+      "T": 0.8,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.10064622932388659
+    },
+    {
+      "config": "controlled",
+      "sys_a": "baselayer",
+      "sys_b": "letta",
+      "K": "all",
+      "T": 0.85,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.09456324439262659
+    },
+    {
+      "config": "controlled",
+      "sys_a": "baselayer",
+      "sys_b": "letta",
+      "K": "all",
+      "T": 0.9,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.09275878926996793
+    },
+    {
+      "config": "controlled",
+      "sys_a": "baselayer",
+      "sys_b": "letta",
+      "K": "all",
+      "T": 0.95,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.09215476388911649
+    },
+    {
+      "config": "controlled",
+      "sys_a": "baselayer",
+      "sys_b": "letta",
+      "K": 5,
+      "T": 0.7,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.17747219173366555
+    },
+    {
+      "config": "controlled",
+      "sys_a": "baselayer",
+      "sys_b": "letta",
+      "K": 5,
+      "T": 0.8,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.10840046197189054
+    },
+    {
+      "config": "controlled",
+      "sys_a": "baselayer",
+      "sys_b": "letta",
+      "K": 5,
+      "T": 0.85,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.10174055187791452
+    },
+    {
+      "config": "controlled",
+      "sys_a": "baselayer",
+      "sys_b": "letta",
+      "K": 5,
+      "T": 0.9,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.10069662734497899
+    },
+    {
+      "config": "controlled",
+      "sys_a": "baselayer",
+      "sys_b": "letta",
+      "K": 5,
+      "T": 0.95,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.10004651433222861
+    },
+    {
+      "config": "controlled",
+      "sys_a": "baselayer",
+      "sys_b": "letta",
+      "K": 10,
+      "T": 0.7,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.17434003256621722
+    },
+    {
+      "config": "controlled",
+      "sys_a": "baselayer",
+      "sys_b": "letta",
+      "K": 10,
+      "T": 0.8,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.10064622932388659
+    },
+    {
+      "config": "controlled",
+      "sys_a": "baselayer",
+      "sys_b": "letta",
+      "K": 10,
+      "T": 0.85,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.09456324439262659
+    },
+    {
+      "config": "controlled",
+      "sys_a": "baselayer",
+      "sys_b": "letta",
+      "K": 10,
+      "T": 0.9,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.09275878926996793
+    },
+    {
+      "config": "controlled",
+      "sys_a": "baselayer",
+      "sys_b": "letta",
+      "K": 10,
+      "T": 0.95,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.09215476388911649
+    },
+    {
+      "config": "controlled",
+      "sys_a": "baselayer",
+      "sys_b": "mem0",
+      "K": "all",
+      "T": 0.7,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.2526301697803609
+    },
+    {
+      "config": "controlled",
+      "sys_a": "baselayer",
+      "sys_b": "mem0",
+      "K": "all",
+      "T": 0.8,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.1356209472058243
+    },
+    {
+      "config": "controlled",
+      "sys_a": "baselayer",
+      "sys_b": "mem0",
+      "K": "all",
+      "T": 0.85,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.12670580411429805
+    },
+    {
+      "config": "controlled",
+      "sys_a": "baselayer",
+      "sys_b": "mem0",
+      "K": "all",
+      "T": 0.9,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.12525028956441456
+    },
+    {
+      "config": "controlled",
+      "sys_a": "baselayer",
+      "sys_b": "mem0",
+      "K": "all",
+      "T": 0.95,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.12402893904674632
+    },
+    {
+      "config": "controlled",
+      "sys_a": "baselayer",
+      "sys_b": "mem0",
+      "K": 5,
+      "T": 0.7,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.2205058761296641
+    },
+    {
+      "config": "controlled",
+      "sys_a": "baselayer",
+      "sys_b": "mem0",
+      "K": 5,
+      "T": 0.8,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.12127711044970256
+    },
+    {
+      "config": "controlled",
+      "sys_a": "baselayer",
+      "sys_b": "mem0",
+      "K": 5,
+      "T": 0.85,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.11339772595428704
+    },
+    {
+      "config": "controlled",
+      "sys_a": "baselayer",
+      "sys_b": "mem0",
+      "K": 5,
+      "T": 0.9,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.1115368238024993
+    },
+    {
+      "config": "controlled",
+      "sys_a": "baselayer",
+      "sys_b": "mem0",
+      "K": 5,
+      "T": 0.95,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.11049837423463797
+    },
+    {
+      "config": "controlled",
+      "sys_a": "baselayer",
+      "sys_b": "mem0",
+      "K": 10,
+      "T": 0.7,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.2526301697803609
+    },
+    {
+      "config": "controlled",
+      "sys_a": "baselayer",
+      "sys_b": "mem0",
+      "K": 10,
+      "T": 0.8,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.1356209472058243
+    },
+    {
+      "config": "controlled",
+      "sys_a": "baselayer",
+      "sys_b": "mem0",
+      "K": 10,
+      "T": 0.85,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.12670580411429805
+    },
+    {
+      "config": "controlled",
+      "sys_a": "baselayer",
+      "sys_b": "mem0",
+      "K": 10,
+      "T": 0.9,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.12525028956441456
+    },
+    {
+      "config": "controlled",
+      "sys_a": "baselayer",
+      "sys_b": "mem0",
+      "K": 10,
+      "T": 0.95,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.12402893904674632
+    },
+    {
+      "config": "controlled",
+      "sys_a": "baselayer",
+      "sys_b": "supermemory",
+      "K": "all",
+      "T": 0.7,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.2769836599148113
+    },
+    {
+      "config": "controlled",
+      "sys_a": "baselayer",
+      "sys_b": "supermemory",
+      "K": "all",
+      "T": 0.8,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.15972313617119488
+    },
+    {
+      "config": "controlled",
+      "sys_a": "baselayer",
+      "sys_b": "supermemory",
+      "K": "all",
+      "T": 0.85,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.15022689259169777
+    },
+    {
+      "config": "controlled",
+      "sys_a": "baselayer",
+      "sys_b": "supermemory",
+      "K": "all",
+      "T": 0.9,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.1482019384580966
+    },
+    {
+      "config": "controlled",
+      "sys_a": "baselayer",
+      "sys_b": "supermemory",
+      "K": "all",
+      "T": 0.95,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.14708633813868208
+    },
+    {
+      "config": "controlled",
+      "sys_a": "baselayer",
+      "sys_b": "supermemory",
+      "K": 5,
+      "T": 0.7,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.2444308606234915
+    },
+    {
+      "config": "controlled",
+      "sys_a": "baselayer",
+      "sys_b": "supermemory",
+      "K": 5,
+      "T": 0.8,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.13559177780250825
+    },
+    {
+      "config": "controlled",
+      "sys_a": "baselayer",
+      "sys_b": "supermemory",
+      "K": 5,
+      "T": 0.85,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.12800271324834997
+    },
+    {
+      "config": "controlled",
+      "sys_a": "baselayer",
+      "sys_b": "supermemory",
+      "K": 5,
+      "T": 0.9,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.12618157059010324
+    },
+    {
+      "config": "controlled",
+      "sys_a": "baselayer",
+      "sys_b": "supermemory",
+      "K": 5,
+      "T": 0.95,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.12492465756848432
+    },
+    {
+      "config": "controlled",
+      "sys_a": "baselayer",
+      "sys_b": "supermemory",
+      "K": 10,
+      "T": 0.7,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.2769836599148113
+    },
+    {
+      "config": "controlled",
+      "sys_a": "baselayer",
+      "sys_b": "supermemory",
+      "K": 10,
+      "T": 0.8,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.15972313617119488
+    },
+    {
+      "config": "controlled",
+      "sys_a": "baselayer",
+      "sys_b": "supermemory",
+      "K": 10,
+      "T": 0.85,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.15022689259169777
+    },
+    {
+      "config": "controlled",
+      "sys_a": "baselayer",
+      "sys_b": "supermemory",
+      "K": 10,
+      "T": 0.9,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.1482019384580966
+    },
+    {
+      "config": "controlled",
+      "sys_a": "baselayer",
+      "sys_b": "supermemory",
+      "K": 10,
+      "T": 0.95,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.14708633813868208
+    },
+    {
+      "config": "controlled",
+      "sys_a": "baselayer",
+      "sys_b": "zep",
+      "K": "all",
+      "T": 0.7,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.17274284569522802
+    },
+    {
+      "config": "controlled",
+      "sys_a": "baselayer",
+      "sys_b": "zep",
+      "K": "all",
+      "T": 0.8,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.07135298607007141
+    },
+    {
+      "config": "controlled",
+      "sys_a": "baselayer",
+      "sys_b": "zep",
+      "K": "all",
+      "T": 0.85,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.06065832534082881
+    },
+    {
+      "config": "controlled",
+      "sys_a": "baselayer",
+      "sys_b": "zep",
+      "K": "all",
+      "T": 0.9,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.05403213981934797
+    },
+    {
+      "config": "controlled",
+      "sys_a": "baselayer",
+      "sys_b": "zep",
+      "K": "all",
+      "T": 0.95,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.04544459158630379
+    },
+    {
+      "config": "controlled",
+      "sys_a": "baselayer",
+      "sys_b": "zep",
+      "K": 5,
+      "T": 0.7,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.13966788257350635
+    },
+    {
+      "config": "controlled",
+      "sys_a": "baselayer",
+      "sys_b": "zep",
+      "K": 5,
+      "T": 0.8,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.05658001201795643
+    },
+    {
+      "config": "controlled",
+      "sys_a": "baselayer",
+      "sys_b": "zep",
+      "K": 5,
+      "T": 0.85,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.049080644749681594
+    },
+    {
+      "config": "controlled",
+      "sys_a": "baselayer",
+      "sys_b": "zep",
+      "K": 5,
+      "T": 0.9,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.04465814925575753
+    },
+    {
+      "config": "controlled",
+      "sys_a": "baselayer",
+      "sys_b": "zep",
+      "K": 5,
+      "T": 0.95,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.03851861257323442
+    },
+    {
+      "config": "controlled",
+      "sys_a": "baselayer",
+      "sys_b": "zep",
+      "K": 10,
+      "T": 0.7,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.17274284569522802
+    },
+    {
+      "config": "controlled",
+      "sys_a": "baselayer",
+      "sys_b": "zep",
+      "K": 10,
+      "T": 0.8,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.07135298607007141
+    },
+    {
+      "config": "controlled",
+      "sys_a": "baselayer",
+      "sys_b": "zep",
+      "K": 10,
+      "T": 0.85,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.06065832534082881
+    },
+    {
+      "config": "controlled",
+      "sys_a": "baselayer",
+      "sys_b": "zep",
+      "K": 10,
+      "T": 0.9,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.05403213981934797
+    },
+    {
+      "config": "controlled",
+      "sys_a": "baselayer",
+      "sys_b": "zep",
+      "K": 10,
+      "T": 0.95,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.04544459158630379
+    },
+    {
+      "config": "controlled",
+      "sys_a": "letta",
+      "sys_b": "supermemory",
+      "K": "all",
+      "T": 0.7,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.16151829205090926
+    },
+    {
+      "config": "controlled",
+      "sys_a": "letta",
+      "sys_b": "supermemory",
+      "K": "all",
+      "T": 0.8,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.10714763801619738
+    },
+    {
+      "config": "controlled",
+      "sys_a": "letta",
+      "sys_b": "supermemory",
+      "K": "all",
+      "T": 0.85,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.10189732388459947
+    },
+    {
+      "config": "controlled",
+      "sys_a": "letta",
+      "sys_b": "supermemory",
+      "K": "all",
+      "T": 0.9,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.10026776674570909
+    },
+    {
+      "config": "controlled",
+      "sys_a": "letta",
+      "sys_b": "supermemory",
+      "K": "all",
+      "T": 0.95,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.09924950472012106
+    },
+    {
+      "config": "controlled",
+      "sys_a": "letta",
+      "sys_b": "supermemory",
+      "K": 5,
+      "T": 0.7,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.16421961229653537
+    },
+    {
+      "config": "controlled",
+      "sys_a": "letta",
+      "sys_b": "supermemory",
+      "K": 5,
+      "T": 0.8,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.1137056827990894
+    },
+    {
+      "config": "controlled",
+      "sys_a": "letta",
+      "sys_b": "supermemory",
+      "K": 5,
+      "T": 0.85,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.10950714425989151
+    },
+    {
+      "config": "controlled",
+      "sys_a": "letta",
+      "sys_b": "supermemory",
+      "K": 5,
+      "T": 0.9,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.10714869684649904
+    },
+    {
+      "config": "controlled",
+      "sys_a": "letta",
+      "sys_b": "supermemory",
+      "K": 5,
+      "T": 0.95,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.10583028083028083
+    },
+    {
+      "config": "controlled",
+      "sys_a": "letta",
+      "sys_b": "supermemory",
+      "K": 10,
+      "T": 0.7,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.16151829205090926
+    },
+    {
+      "config": "controlled",
+      "sys_a": "letta",
+      "sys_b": "supermemory",
+      "K": 10,
+      "T": 0.8,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.10714763801619738
+    },
+    {
+      "config": "controlled",
+      "sys_a": "letta",
+      "sys_b": "supermemory",
+      "K": 10,
+      "T": 0.85,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.10189732388459947
+    },
+    {
+      "config": "controlled",
+      "sys_a": "letta",
+      "sys_b": "supermemory",
+      "K": 10,
+      "T": 0.9,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.10026776674570909
+    },
+    {
+      "config": "controlled",
+      "sys_a": "letta",
+      "sys_b": "supermemory",
+      "K": 10,
+      "T": 0.95,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.09924950472012106
+    },
+    {
+      "config": "controlled",
+      "sys_a": "letta",
+      "sys_b": "zep",
+      "K": "all",
+      "T": 0.7,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.11554819498313507
+    },
+    {
+      "config": "controlled",
+      "sys_a": "letta",
+      "sys_b": "zep",
+      "K": "all",
+      "T": 0.8,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.061249777264645366
+    },
+    {
+      "config": "controlled",
+      "sys_a": "letta",
+      "sys_b": "zep",
+      "K": "all",
+      "T": 0.85,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.05462137823538633
+    },
+    {
+      "config": "controlled",
+      "sys_a": "letta",
+      "sys_b": "zep",
+      "K": "all",
+      "T": 0.9,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.04783514275093348
+    },
+    {
+      "config": "controlled",
+      "sys_a": "letta",
+      "sys_b": "zep",
+      "K": "all",
+      "T": 0.95,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.039924511063426496
+    },
+    {
+      "config": "controlled",
+      "sys_a": "letta",
+      "sys_b": "zep",
+      "K": 5,
+      "T": 0.7,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.10980914659809295
+    },
+    {
+      "config": "controlled",
+      "sys_a": "letta",
+      "sys_b": "zep",
+      "K": 5,
+      "T": 0.8,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.06471178902497583
+    },
+    {
+      "config": "controlled",
+      "sys_a": "letta",
+      "sys_b": "zep",
+      "K": 5,
+      "T": 0.85,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.058428938786081644
+    },
+    {
+      "config": "controlled",
+      "sys_a": "letta",
+      "sys_b": "zep",
+      "K": 5,
+      "T": 0.9,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.05216277922321878
+    },
+    {
+      "config": "controlled",
+      "sys_a": "letta",
+      "sys_b": "zep",
+      "K": 5,
+      "T": 0.95,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.04379707593993308
+    },
+    {
+      "config": "controlled",
+      "sys_a": "letta",
+      "sys_b": "zep",
+      "K": 10,
+      "T": 0.7,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.11554819498313507
+    },
+    {
+      "config": "controlled",
+      "sys_a": "letta",
+      "sys_b": "zep",
+      "K": 10,
+      "T": 0.8,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.061249777264645366
+    },
+    {
+      "config": "controlled",
+      "sys_a": "letta",
+      "sys_b": "zep",
+      "K": 10,
+      "T": 0.85,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.05462137823538633
+    },
+    {
+      "config": "controlled",
+      "sys_a": "letta",
+      "sys_b": "zep",
+      "K": 10,
+      "T": 0.9,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.04783514275093348
+    },
+    {
+      "config": "controlled",
+      "sys_a": "letta",
+      "sys_b": "zep",
+      "K": 10,
+      "T": 0.95,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.039924511063426496
+    },
+    {
+      "config": "controlled",
+      "sys_a": "mem0",
+      "sys_b": "letta",
+      "K": "all",
+      "T": 0.7,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.18423243968023492
+    },
+    {
+      "config": "controlled",
+      "sys_a": "mem0",
+      "sys_b": "letta",
+      "K": "all",
+      "T": 0.8,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.1330833938755708
+    },
+    {
+      "config": "controlled",
+      "sys_a": "mem0",
+      "sys_b": "letta",
+      "K": "all",
+      "T": 0.85,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.12722091069898298
+    },
+    {
+      "config": "controlled",
+      "sys_a": "mem0",
+      "sys_b": "letta",
+      "K": "all",
+      "T": 0.9,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.12625271766676702
+    },
+    {
+      "config": "controlled",
+      "sys_a": "mem0",
+      "sys_b": "letta",
+      "K": "all",
+      "T": 0.95,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.12591829853535538
+    },
+    {
+      "config": "controlled",
+      "sys_a": "mem0",
+      "sys_b": "letta",
+      "K": 5,
+      "T": 0.7,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.18158735851043542
+    },
+    {
+      "config": "controlled",
+      "sys_a": "mem0",
+      "sys_b": "letta",
+      "K": 5,
+      "T": 0.8,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.13626186084977293
+    },
+    {
+      "config": "controlled",
+      "sys_a": "mem0",
+      "sys_b": "letta",
+      "K": 5,
+      "T": 0.85,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.13042823070295598
+    },
+    {
+      "config": "controlled",
+      "sys_a": "mem0",
+      "sys_b": "letta",
+      "K": 5,
+      "T": 0.9,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.1288408681265824
+    },
+    {
+      "config": "controlled",
+      "sys_a": "mem0",
+      "sys_b": "letta",
+      "K": 5,
+      "T": 0.95,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.1281397174254317
+    },
+    {
+      "config": "controlled",
+      "sys_a": "mem0",
+      "sys_b": "letta",
+      "K": 10,
+      "T": 0.7,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.18423243968023492
+    },
+    {
+      "config": "controlled",
+      "sys_a": "mem0",
+      "sys_b": "letta",
+      "K": 10,
+      "T": 0.8,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.1330833938755708
+    },
+    {
+      "config": "controlled",
+      "sys_a": "mem0",
+      "sys_b": "letta",
+      "K": 10,
+      "T": 0.85,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.12722091069898298
+    },
+    {
+      "config": "controlled",
+      "sys_a": "mem0",
+      "sys_b": "letta",
+      "K": 10,
+      "T": 0.9,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.12625271766676702
+    },
+    {
+      "config": "controlled",
+      "sys_a": "mem0",
+      "sys_b": "letta",
+      "K": 10,
+      "T": 0.95,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.12591829853535538
+    },
+    {
+      "config": "controlled",
+      "sys_a": "mem0",
+      "sys_b": "supermemory",
+      "K": "all",
+      "T": 0.7,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.21165608756881202
+    },
+    {
+      "config": "controlled",
+      "sys_a": "mem0",
+      "sys_b": "supermemory",
+      "K": "all",
+      "T": 0.8,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.12469907502704115
+    },
+    {
+      "config": "controlled",
+      "sys_a": "mem0",
+      "sys_b": "supermemory",
+      "K": "all",
+      "T": 0.85,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.1179381601548761
+    },
+    {
+      "config": "controlled",
+      "sys_a": "mem0",
+      "sys_b": "supermemory",
+      "K": "all",
+      "T": 0.9,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.11583780819234207
+    },
+    {
+      "config": "controlled",
+      "sys_a": "mem0",
+      "sys_b": "supermemory",
+      "K": "all",
+      "T": 0.95,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.11477568880670809
+    },
+    {
+      "config": "controlled",
+      "sys_a": "mem0",
+      "sys_b": "supermemory",
+      "K": 5,
+      "T": 0.7,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.1756385478104935
+    },
+    {
+      "config": "controlled",
+      "sys_a": "mem0",
+      "sys_b": "supermemory",
+      "K": 5,
+      "T": 0.8,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.10729868422176114
+    },
+    {
+      "config": "controlled",
+      "sys_a": "mem0",
+      "sys_b": "supermemory",
+      "K": 5,
+      "T": 0.85,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.10154825183913742
+    },
+    {
+      "config": "controlled",
+      "sys_a": "mem0",
+      "sys_b": "supermemory",
+      "K": 5,
+      "T": 0.9,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.099782588308768
+    },
+    {
+      "config": "controlled",
+      "sys_a": "mem0",
+      "sys_b": "supermemory",
+      "K": 5,
+      "T": 0.95,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.09878984466896555
+    },
+    {
+      "config": "controlled",
+      "sys_a": "mem0",
+      "sys_b": "supermemory",
+      "K": 10,
+      "T": 0.7,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.21165608756881202
+    },
+    {
+      "config": "controlled",
+      "sys_a": "mem0",
+      "sys_b": "supermemory",
+      "K": 10,
+      "T": 0.8,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.12469907502704115
+    },
+    {
+      "config": "controlled",
+      "sys_a": "mem0",
+      "sys_b": "supermemory",
+      "K": 10,
+      "T": 0.85,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.1179381601548761
+    },
+    {
+      "config": "controlled",
+      "sys_a": "mem0",
+      "sys_b": "supermemory",
+      "K": 10,
+      "T": 0.9,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.11583780819234207
+    },
+    {
+      "config": "controlled",
+      "sys_a": "mem0",
+      "sys_b": "supermemory",
+      "K": 10,
+      "T": 0.95,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.11477568880670809
+    },
+    {
+      "config": "controlled",
+      "sys_a": "mem0",
+      "sys_b": "zep",
+      "K": "all",
+      "T": 0.7,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.22155714563184592
+    },
+    {
+      "config": "controlled",
+      "sys_a": "mem0",
+      "sys_b": "zep",
+      "K": "all",
+      "T": 0.8,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.13773998505143747
+    },
+    {
+      "config": "controlled",
+      "sys_a": "mem0",
+      "sys_b": "zep",
+      "K": "all",
+      "T": 0.85,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.12633927574240453
+    },
+    {
+      "config": "controlled",
+      "sys_a": "mem0",
+      "sys_b": "zep",
+      "K": "all",
+      "T": 0.9,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.1144633145926928
+    },
+    {
+      "config": "controlled",
+      "sys_a": "mem0",
+      "sys_b": "zep",
+      "K": "all",
+      "T": 0.95,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.09780465105995181
+    },
+    {
+      "config": "controlled",
+      "sys_a": "mem0",
+      "sys_b": "zep",
+      "K": 5,
+      "T": 0.7,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.21147358501107694
+    },
+    {
+      "config": "controlled",
+      "sys_a": "mem0",
+      "sys_b": "zep",
+      "K": 5,
+      "T": 0.8,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.14622127615017078
+    },
+    {
+      "config": "controlled",
+      "sys_a": "mem0",
+      "sys_b": "zep",
+      "K": 5,
+      "T": 0.85,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.13495489194422614
+    },
+    {
+      "config": "controlled",
+      "sys_a": "mem0",
+      "sys_b": "zep",
+      "K": 5,
+      "T": 0.9,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.1233806507481362
+    },
+    {
+      "config": "controlled",
+      "sys_a": "mem0",
+      "sys_b": "zep",
+      "K": 5,
+      "T": 0.95,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.10568394024276377
+    },
+    {
+      "config": "controlled",
+      "sys_a": "mem0",
+      "sys_b": "zep",
+      "K": 10,
+      "T": 0.7,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.22155714563184592
+    },
+    {
+      "config": "controlled",
+      "sys_a": "mem0",
+      "sys_b": "zep",
+      "K": 10,
+      "T": 0.8,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.13773998505143747
+    },
+    {
+      "config": "controlled",
+      "sys_a": "mem0",
+      "sys_b": "zep",
+      "K": 10,
+      "T": 0.85,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.12633927574240453
+    },
+    {
+      "config": "controlled",
+      "sys_a": "mem0",
+      "sys_b": "zep",
+      "K": 10,
+      "T": 0.9,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.1144633145926928
+    },
+    {
+      "config": "controlled",
+      "sys_a": "mem0",
+      "sys_b": "zep",
+      "K": 10,
+      "T": 0.95,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.09780465105995181
+    },
+    {
+      "config": "controlled",
+      "sys_a": "supermemory",
+      "sys_b": "zep",
+      "K": "all",
+      "T": 0.7,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.1400224993282722
+    },
+    {
+      "config": "controlled",
+      "sys_a": "supermemory",
+      "sys_b": "zep",
+      "K": "all",
+      "T": 0.8,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.06600665626776059
+    },
+    {
+      "config": "controlled",
+      "sys_a": "supermemory",
+      "sys_b": "zep",
+      "K": "all",
+      "T": 0.85,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.05629055841726272
+    },
+    {
+      "config": "controlled",
+      "sys_a": "supermemory",
+      "sys_b": "zep",
+      "K": "all",
+      "T": 0.9,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.04978106254969014
+    },
+    {
+      "config": "controlled",
+      "sys_a": "supermemory",
+      "sys_b": "zep",
+      "K": "all",
+      "T": 0.95,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.04158537001386863
+    },
+    {
+      "config": "controlled",
+      "sys_a": "supermemory",
+      "sys_b": "zep",
+      "K": 5,
+      "T": 0.7,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.10504721164061823
+    },
+    {
+      "config": "controlled",
+      "sys_a": "supermemory",
+      "sys_b": "zep",
+      "K": 5,
+      "T": 0.8,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.05114981561329331
+    },
+    {
+      "config": "controlled",
+      "sys_a": "supermemory",
+      "sys_b": "zep",
+      "K": 5,
+      "T": 0.85,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.044141670474896075
+    },
+    {
+      "config": "controlled",
+      "sys_a": "supermemory",
+      "sys_b": "zep",
+      "K": 5,
+      "T": 0.9,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.03980074935957289
+    },
+    {
+      "config": "controlled",
+      "sys_a": "supermemory",
+      "sys_b": "zep",
+      "K": 5,
+      "T": 0.95,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.03245785493684653
+    },
+    {
+      "config": "controlled",
+      "sys_a": "supermemory",
+      "sys_b": "zep",
+      "K": 10,
+      "T": 0.7,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.1400224993282722
+    },
+    {
+      "config": "controlled",
+      "sys_a": "supermemory",
+      "sys_b": "zep",
+      "K": 10,
+      "T": 0.8,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.06600665626776059
+    },
+    {
+      "config": "controlled",
+      "sys_a": "supermemory",
+      "sys_b": "zep",
+      "K": 10,
+      "T": 0.85,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.05629055841726272
+    },
+    {
+      "config": "controlled",
+      "sys_a": "supermemory",
+      "sys_b": "zep",
+      "K": 10,
+      "T": 0.9,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.04978106254969014
+    },
+    {
+      "config": "controlled",
+      "sys_a": "supermemory",
+      "sys_b": "zep",
+      "K": 10,
+      "T": 0.95,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.04158537001386863
+    },
+    {
+      "config": "native",
+      "sys_a": "letta",
+      "sys_b": "supermemory",
+      "K": "all",
+      "T": 0.7,
+      "n_questions": 390,
+      "mean_soft_jaccard": 0.029840134354502012
+    },
+    {
+      "config": "native",
+      "sys_a": "letta",
+      "sys_b": "supermemory",
+      "K": "all",
+      "T": 0.8,
+      "n_questions": 390,
+      "mean_soft_jaccard": 0.01979309257024189
+    },
+    {
+      "config": "native",
+      "sys_a": "letta",
+      "sys_b": "supermemory",
+      "K": "all",
+      "T": 0.85,
+      "n_questions": 390,
+      "mean_soft_jaccard": 0.01601623908184994
+    },
+    {
+      "config": "native",
+      "sys_a": "letta",
+      "sys_b": "supermemory",
+      "K": "all",
+      "T": 0.9,
+      "n_questions": 390,
+      "mean_soft_jaccard": 0.008046850920154088
+    },
+    {
+      "config": "native",
+      "sys_a": "letta",
+      "sys_b": "supermemory",
+      "K": "all",
+      "T": 0.95,
+      "n_questions": 390,
+      "mean_soft_jaccard": 0.006829798741563448
+    },
+    {
+      "config": "native",
+      "sys_a": "letta",
+      "sys_b": "supermemory",
+      "K": 5,
+      "T": 0.7,
+      "n_questions": 390,
+      "mean_soft_jaccard": 0.02750981128809183
+    },
+    {
+      "config": "native",
+      "sys_a": "letta",
+      "sys_b": "supermemory",
+      "K": 5,
+      "T": 0.8,
+      "n_questions": 390,
+      "mean_soft_jaccard": 0.018437118437118438
+    },
+    {
+      "config": "native",
+      "sys_a": "letta",
+      "sys_b": "supermemory",
+      "K": 5,
+      "T": 0.85,
+      "n_questions": 390,
+      "mean_soft_jaccard": 0.016086691086691085
+    },
+    {
+      "config": "native",
+      "sys_a": "letta",
+      "sys_b": "supermemory",
+      "K": 5,
+      "T": 0.9,
+      "n_questions": 390,
+      "mean_soft_jaccard": 0.007651607651607652
+    },
+    {
+      "config": "native",
+      "sys_a": "letta",
+      "sys_b": "supermemory",
+      "K": 5,
+      "T": 0.95,
+      "n_questions": 390,
+      "mean_soft_jaccard": 0.0067612942612942616
+    },
+    {
+      "config": "native",
+      "sys_a": "letta",
+      "sys_b": "supermemory",
+      "K": 10,
+      "T": 0.7,
+      "n_questions": 390,
+      "mean_soft_jaccard": 0.029840134354502012
+    },
+    {
+      "config": "native",
+      "sys_a": "letta",
+      "sys_b": "supermemory",
+      "K": 10,
+      "T": 0.8,
+      "n_questions": 390,
+      "mean_soft_jaccard": 0.01979309257024189
+    },
+    {
+      "config": "native",
+      "sys_a": "letta",
+      "sys_b": "supermemory",
+      "K": 10,
+      "T": 0.85,
+      "n_questions": 390,
+      "mean_soft_jaccard": 0.01601623908184994
+    },
+    {
+      "config": "native",
+      "sys_a": "letta",
+      "sys_b": "supermemory",
+      "K": 10,
+      "T": 0.9,
+      "n_questions": 390,
+      "mean_soft_jaccard": 0.008046850920154088
+    },
+    {
+      "config": "native",
+      "sys_a": "letta",
+      "sys_b": "supermemory",
+      "K": 10,
+      "T": 0.95,
+      "n_questions": 390,
+      "mean_soft_jaccard": 0.006829798741563448
+    },
+    {
+      "config": "native",
+      "sys_a": "letta",
+      "sys_b": "zep",
+      "K": "all",
+      "T": 0.7,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.0006411848517111675
+    },
+    {
+      "config": "native",
+      "sys_a": "letta",
+      "sys_b": "zep",
+      "K": "all",
+      "T": 0.8,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "config": "native",
+      "sys_a": "letta",
+      "sys_b": "zep",
+      "K": "all",
+      "T": 0.85,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "config": "native",
+      "sys_a": "letta",
+      "sys_b": "zep",
+      "K": "all",
+      "T": 0.9,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "config": "native",
+      "sys_a": "letta",
+      "sys_b": "zep",
+      "K": "all",
+      "T": 0.95,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "config": "native",
+      "sys_a": "letta",
+      "sys_b": "zep",
+      "K": 5,
+      "T": 0.7,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.0006105006105006105
+    },
+    {
+      "config": "native",
+      "sys_a": "letta",
+      "sys_b": "zep",
+      "K": 5,
+      "T": 0.8,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "config": "native",
+      "sys_a": "letta",
+      "sys_b": "zep",
+      "K": 5,
+      "T": 0.85,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "config": "native",
+      "sys_a": "letta",
+      "sys_b": "zep",
+      "K": 5,
+      "T": 0.9,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "config": "native",
+      "sys_a": "letta",
+      "sys_b": "zep",
+      "K": 5,
+      "T": 0.95,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "config": "native",
+      "sys_a": "letta",
+      "sys_b": "zep",
+      "K": 10,
+      "T": 0.7,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.0006411848517111675
+    },
+    {
+      "config": "native",
+      "sys_a": "letta",
+      "sys_b": "zep",
+      "K": 10,
+      "T": 0.8,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "config": "native",
+      "sys_a": "letta",
+      "sys_b": "zep",
+      "K": 10,
+      "T": 0.85,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "config": "native",
+      "sys_a": "letta",
+      "sys_b": "zep",
+      "K": 10,
+      "T": 0.9,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "config": "native",
+      "sys_a": "letta",
+      "sys_b": "zep",
+      "K": 10,
+      "T": 0.95,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "config": "native",
+      "sys_a": "mem0",
+      "sys_b": "letta",
+      "K": "all",
+      "T": 0.7,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.013263781996640819
+    },
+    {
+      "config": "native",
+      "sys_a": "mem0",
+      "sys_b": "letta",
+      "K": "all",
+      "T": 0.8,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.0009398496240601503
+    },
+    {
+      "config": "native",
+      "sys_a": "mem0",
+      "sys_b": "letta",
+      "K": "all",
+      "T": 0.85,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.00048197416618469245
+    },
+    {
+      "config": "native",
+      "sys_a": "mem0",
+      "sys_b": "letta",
+      "K": "all",
+      "T": 0.9,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "config": "native",
+      "sys_a": "mem0",
+      "sys_b": "letta",
+      "K": "all",
+      "T": 0.95,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "config": "native",
+      "sys_a": "mem0",
+      "sys_b": "letta",
+      "K": 5,
+      "T": 0.7,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.010599966482319423
+    },
+    {
+      "config": "native",
+      "sys_a": "mem0",
+      "sys_b": "letta",
+      "K": 5,
+      "T": 0.8,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.000407000407000407
+    },
+    {
+      "config": "native",
+      "sys_a": "mem0",
+      "sys_b": "letta",
+      "K": 5,
+      "T": 0.85,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.000407000407000407
+    },
+    {
+      "config": "native",
+      "sys_a": "mem0",
+      "sys_b": "letta",
+      "K": 5,
+      "T": 0.9,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "config": "native",
+      "sys_a": "mem0",
+      "sys_b": "letta",
+      "K": 5,
+      "T": 0.95,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "config": "native",
+      "sys_a": "mem0",
+      "sys_b": "letta",
+      "K": 10,
+      "T": 0.7,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.013263781996640819
+    },
+    {
+      "config": "native",
+      "sys_a": "mem0",
+      "sys_b": "letta",
+      "K": 10,
+      "T": 0.8,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.0009398496240601503
+    },
+    {
+      "config": "native",
+      "sys_a": "mem0",
+      "sys_b": "letta",
+      "K": 10,
+      "T": 0.85,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.00048197416618469245
+    },
+    {
+      "config": "native",
+      "sys_a": "mem0",
+      "sys_b": "letta",
+      "K": 10,
+      "T": 0.9,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "config": "native",
+      "sys_a": "mem0",
+      "sys_b": "letta",
+      "K": 10,
+      "T": 0.95,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "config": "native",
+      "sys_a": "mem0",
+      "sys_b": "supermemory",
+      "K": "all",
+      "T": 0.7,
+      "n_questions": 388,
+      "mean_soft_jaccard": 0.009253922623767985
+    },
+    {
+      "config": "native",
+      "sys_a": "mem0",
+      "sys_b": "supermemory",
+      "K": "all",
+      "T": 0.8,
+      "n_questions": 388,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "config": "native",
+      "sys_a": "mem0",
+      "sys_b": "supermemory",
+      "K": "all",
+      "T": 0.85,
+      "n_questions": 388,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "config": "native",
+      "sys_a": "mem0",
+      "sys_b": "supermemory",
+      "K": "all",
+      "T": 0.9,
+      "n_questions": 388,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "config": "native",
+      "sys_a": "mem0",
+      "sys_b": "supermemory",
+      "K": "all",
+      "T": 0.95,
+      "n_questions": 388,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "config": "native",
+      "sys_a": "mem0",
+      "sys_b": "supermemory",
+      "K": 5,
+      "T": 0.7,
+      "n_questions": 388,
+      "mean_soft_jaccard": 0.009301873670430371
+    },
+    {
+      "config": "native",
+      "sys_a": "mem0",
+      "sys_b": "supermemory",
+      "K": 5,
+      "T": 0.8,
+      "n_questions": 388,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "config": "native",
+      "sys_a": "mem0",
+      "sys_b": "supermemory",
+      "K": 5,
+      "T": 0.85,
+      "n_questions": 388,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "config": "native",
+      "sys_a": "mem0",
+      "sys_b": "supermemory",
+      "K": 5,
+      "T": 0.9,
+      "n_questions": 388,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "config": "native",
+      "sys_a": "mem0",
+      "sys_b": "supermemory",
+      "K": 5,
+      "T": 0.95,
+      "n_questions": 388,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "config": "native",
+      "sys_a": "mem0",
+      "sys_b": "supermemory",
+      "K": 10,
+      "T": 0.7,
+      "n_questions": 388,
+      "mean_soft_jaccard": 0.009253922623767985
+    },
+    {
+      "config": "native",
+      "sys_a": "mem0",
+      "sys_b": "supermemory",
+      "K": 10,
+      "T": 0.8,
+      "n_questions": 388,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "config": "native",
+      "sys_a": "mem0",
+      "sys_b": "supermemory",
+      "K": 10,
+      "T": 0.85,
+      "n_questions": 388,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "config": "native",
+      "sys_a": "mem0",
+      "sys_b": "supermemory",
+      "K": 10,
+      "T": 0.9,
+      "n_questions": 388,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "config": "native",
+      "sys_a": "mem0",
+      "sys_b": "supermemory",
+      "K": 10,
+      "T": 0.95,
+      "n_questions": 388,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "config": "native",
+      "sys_a": "mem0",
+      "sys_b": "zep",
+      "K": "all",
+      "T": 0.7,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.03988685213530415
+    },
+    {
+      "config": "native",
+      "sys_a": "mem0",
+      "sys_b": "zep",
+      "K": "all",
+      "T": 0.8,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.007646423391668858
+    },
+    {
+      "config": "native",
+      "sys_a": "mem0",
+      "sys_b": "zep",
+      "K": "all",
+      "T": 0.85,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.006270884422144926
+    },
+    {
+      "config": "native",
+      "sys_a": "mem0",
+      "sys_b": "zep",
+      "K": "all",
+      "T": 0.9,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.005210541256538603
+    },
+    {
+      "config": "native",
+      "sys_a": "mem0",
+      "sys_b": "zep",
+      "K": "all",
+      "T": 0.95,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.000192789666473877
+    },
+    {
+      "config": "native",
+      "sys_a": "mem0",
+      "sys_b": "zep",
+      "K": 5,
+      "T": 0.7,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.026697431109195813
+    },
+    {
+      "config": "native",
+      "sys_a": "mem0",
+      "sys_b": "zep",
+      "K": 5,
+      "T": 0.8,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.00696988196988197
+    },
+    {
+      "config": "native",
+      "sys_a": "mem0",
+      "sys_b": "zep",
+      "K": 5,
+      "T": 0.85,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.006308506308506308
+    },
+    {
+      "config": "native",
+      "sys_a": "mem0",
+      "sys_b": "zep",
+      "K": 5,
+      "T": 0.9,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.006105006105006105
+    },
+    {
+      "config": "native",
+      "sys_a": "mem0",
+      "sys_b": "zep",
+      "K": 5,
+      "T": 0.95,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "config": "native",
+      "sys_a": "mem0",
+      "sys_b": "zep",
+      "K": 10,
+      "T": 0.7,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.03988685213530415
+    },
+    {
+      "config": "native",
+      "sys_a": "mem0",
+      "sys_b": "zep",
+      "K": 10,
+      "T": 0.8,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.007646423391668858
+    },
+    {
+      "config": "native",
+      "sys_a": "mem0",
+      "sys_b": "zep",
+      "K": 10,
+      "T": 0.85,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.006270884422144926
+    },
+    {
+      "config": "native",
+      "sys_a": "mem0",
+      "sys_b": "zep",
+      "K": 10,
+      "T": 0.9,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.005210541256538603
+    },
+    {
+      "config": "native",
+      "sys_a": "mem0",
+      "sys_b": "zep",
+      "K": 10,
+      "T": 0.95,
+      "n_questions": 546,
+      "mean_soft_jaccard": 0.000192789666473877
+    },
+    {
+      "config": "native",
+      "sys_a": "supermemory",
+      "sys_b": "zep",
+      "K": "all",
+      "T": 0.7,
+      "n_questions": 390,
+      "mean_soft_jaccard": 0.0011435146050530664
+    },
+    {
+      "config": "native",
+      "sys_a": "supermemory",
+      "sys_b": "zep",
+      "K": "all",
+      "T": 0.8,
+      "n_questions": 390,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "config": "native",
+      "sys_a": "supermemory",
+      "sys_b": "zep",
+      "K": "all",
+      "T": 0.85,
+      "n_questions": 390,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "config": "native",
+      "sys_a": "supermemory",
+      "sys_b": "zep",
+      "K": "all",
+      "T": 0.9,
+      "n_questions": 390,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "config": "native",
+      "sys_a": "supermemory",
+      "sys_b": "zep",
+      "K": "all",
+      "T": 0.95,
+      "n_questions": 390,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "config": "native",
+      "sys_a": "supermemory",
+      "sys_b": "zep",
+      "K": 5,
+      "T": 0.7,
+      "n_questions": 390,
+      "mean_soft_jaccard": 0.0003205128205128205
+    },
+    {
+      "config": "native",
+      "sys_a": "supermemory",
+      "sys_b": "zep",
+      "K": 5,
+      "T": 0.8,
+      "n_questions": 390,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "config": "native",
+      "sys_a": "supermemory",
+      "sys_b": "zep",
+      "K": 5,
+      "T": 0.85,
+      "n_questions": 390,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "config": "native",
+      "sys_a": "supermemory",
+      "sys_b": "zep",
+      "K": 5,
+      "T": 0.9,
+      "n_questions": 390,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "config": "native",
+      "sys_a": "supermemory",
+      "sys_b": "zep",
+      "K": 5,
+      "T": 0.95,
+      "n_questions": 390,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "config": "native",
+      "sys_a": "supermemory",
+      "sys_b": "zep",
+      "K": 10,
+      "T": 0.7,
+      "n_questions": 390,
+      "mean_soft_jaccard": 0.0011435146050530664
+    },
+    {
+      "config": "native",
+      "sys_a": "supermemory",
+      "sys_b": "zep",
+      "K": 10,
+      "T": 0.8,
+      "n_questions": 390,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "config": "native",
+      "sys_a": "supermemory",
+      "sys_b": "zep",
+      "K": 10,
+      "T": 0.85,
+      "n_questions": 390,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "config": "native",
+      "sys_a": "supermemory",
+      "sys_b": "zep",
+      "K": 10,
+      "T": 0.9,
+      "n_questions": 390,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "config": "native",
+      "sys_a": "supermemory",
+      "sys_b": "zep",
+      "K": 10,
+      "T": 0.95,
+      "n_questions": 390,
+      "mean_soft_jaccard": 0.0
+    }
+  ],
+  "per_subject_per_config_per_K_per_T": [
+    {
+      "subject": "global_augustine",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.7,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.23054691858255377
+    },
+    {
+      "subject": "global_augustine",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.8,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.09481719570729669
+    },
+    {
+      "subject": "global_augustine",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.85,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.08506918380074874
+    },
+    {
+      "subject": "global_augustine",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.9,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.08333194453154015
+    },
+    {
+      "subject": "global_augustine",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.95,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.07974986154464496
+    },
+    {
+      "subject": "global_augustine",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.7,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.2053146384368104
+    },
+    {
+      "subject": "global_augustine",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.8,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.10079183846152172
+    },
+    {
+      "subject": "global_augustine",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.85,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.08937070554717613
+    },
+    {
+      "subject": "global_augustine",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.9,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.08805056599174246
+    },
+    {
+      "subject": "global_augustine",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.95,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.08537250331367978
+    },
+    {
+      "subject": "global_augustine",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.7,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.23054691858255377
+    },
+    {
+      "subject": "global_augustine",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.8,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.09481719570729669
+    },
+    {
+      "subject": "global_augustine",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.85,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.08506918380074874
+    },
+    {
+      "subject": "global_augustine",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.9,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.08333194453154015
+    },
+    {
+      "subject": "global_augustine",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.95,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.07974986154464496
+    },
+    {
+      "subject": "global_augustine",
+      "config": "native",
+      "K": "all",
+      "T": 0.7,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0014793213322625088
+    },
+    {
+      "subject": "global_augustine",
+      "config": "native",
+      "K": "all",
+      "T": 0.8,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0014793213322625088
+    },
+    {
+      "subject": "global_augustine",
+      "config": "native",
+      "K": "all",
+      "T": 0.85,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0012122273151684915
+    },
+    {
+      "subject": "global_augustine",
+      "config": "native",
+      "K": "all",
+      "T": 0.9,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0012122273151684915
+    },
+    {
+      "subject": "global_augustine",
+      "config": "native",
+      "K": "all",
+      "T": 0.95,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0012122273151684915
+    },
+    {
+      "subject": "global_augustine",
+      "config": "native",
+      "K": 5,
+      "T": 0.7,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0009496676163342829
+    },
+    {
+      "subject": "global_augustine",
+      "config": "native",
+      "K": 5,
+      "T": 0.8,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0009496676163342829
+    },
+    {
+      "subject": "global_augustine",
+      "config": "native",
+      "K": 5,
+      "T": 0.85,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.00047483380816714147
+    },
+    {
+      "subject": "global_augustine",
+      "config": "native",
+      "K": 5,
+      "T": 0.9,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.00047483380816714147
+    },
+    {
+      "subject": "global_augustine",
+      "config": "native",
+      "K": 5,
+      "T": 0.95,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.00047483380816714147
+    },
+    {
+      "subject": "global_augustine",
+      "config": "native",
+      "K": 10,
+      "T": 0.7,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0014793213322625088
+    },
+    {
+      "subject": "global_augustine",
+      "config": "native",
+      "K": 10,
+      "T": 0.8,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0014793213322625088
+    },
+    {
+      "subject": "global_augustine",
+      "config": "native",
+      "K": 10,
+      "T": 0.85,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0012122273151684915
+    },
+    {
+      "subject": "global_augustine",
+      "config": "native",
+      "K": 10,
+      "T": 0.9,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0012122273151684915
+    },
+    {
+      "subject": "global_augustine",
+      "config": "native",
+      "K": 10,
+      "T": 0.95,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0012122273151684915
+    },
+    {
+      "subject": "global_babur",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.7,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.12285263976997472
+    },
+    {
+      "subject": "global_babur",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.8,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.08121600211367802
+    },
+    {
+      "subject": "global_babur",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.85,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.07837280531636072
+    },
+    {
+      "subject": "global_babur",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.9,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.07580313353121534
+    },
+    {
+      "subject": "global_babur",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.95,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.07367331990158854
+    },
+    {
+      "subject": "global_babur",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.7,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.12688848942242606
+    },
+    {
+      "subject": "global_babur",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.8,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.08575497068709738
+    },
+    {
+      "subject": "global_babur",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.85,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.08135954459483871
+    },
+    {
+      "subject": "global_babur",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.9,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.0792533174886116
+    },
+    {
+      "subject": "global_babur",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.95,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.07703500203500203
+    },
+    {
+      "subject": "global_babur",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.7,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.12285263976997472
+    },
+    {
+      "subject": "global_babur",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.8,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.08121600211367802
+    },
+    {
+      "subject": "global_babur",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.85,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.07837280531636072
+    },
+    {
+      "subject": "global_babur",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.9,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.07580313353121534
+    },
+    {
+      "subject": "global_babur",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.95,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.07367331990158854
+    },
+    {
+      "subject": "global_babur",
+      "config": "native",
+      "K": "all",
+      "T": 0.7,
+      "n_pair_questions": 117,
+      "mean_soft_jaccard": 0.0008996851102114259
+    },
+    {
+      "subject": "global_babur",
+      "config": "native",
+      "K": "all",
+      "T": 0.8,
+      "n_pair_questions": 117,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "subject": "global_babur",
+      "config": "native",
+      "K": "all",
+      "T": 0.85,
+      "n_pair_questions": 117,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "subject": "global_babur",
+      "config": "native",
+      "K": "all",
+      "T": 0.9,
+      "n_pair_questions": 117,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "subject": "global_babur",
+      "config": "native",
+      "K": "all",
+      "T": 0.95,
+      "n_pair_questions": 117,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "subject": "global_babur",
+      "config": "native",
+      "K": 5,
+      "T": 0.7,
+      "n_pair_questions": 117,
+      "mean_soft_jaccard": 0.0009496676163342829
+    },
+    {
+      "subject": "global_babur",
+      "config": "native",
+      "K": 5,
+      "T": 0.8,
+      "n_pair_questions": 117,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "subject": "global_babur",
+      "config": "native",
+      "K": 5,
+      "T": 0.85,
+      "n_pair_questions": 117,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "subject": "global_babur",
+      "config": "native",
+      "K": 5,
+      "T": 0.9,
+      "n_pair_questions": 117,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "subject": "global_babur",
+      "config": "native",
+      "K": 5,
+      "T": 0.95,
+      "n_pair_questions": 117,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "subject": "global_babur",
+      "config": "native",
+      "K": 10,
+      "T": 0.7,
+      "n_pair_questions": 117,
+      "mean_soft_jaccard": 0.0008996851102114259
+    },
+    {
+      "subject": "global_babur",
+      "config": "native",
+      "K": 10,
+      "T": 0.8,
+      "n_pair_questions": 117,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "subject": "global_babur",
+      "config": "native",
+      "K": 10,
+      "T": 0.85,
+      "n_pair_questions": 117,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "subject": "global_babur",
+      "config": "native",
+      "K": 10,
+      "T": 0.9,
+      "n_pair_questions": 117,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "subject": "global_babur",
+      "config": "native",
+      "K": 10,
+      "T": 0.95,
+      "n_pair_questions": 117,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "subject": "global_bernal_diaz",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.7,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.1339661669147627
+    },
+    {
+      "subject": "global_bernal_diaz",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.8,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.10622730634644932
+    },
+    {
+      "subject": "global_bernal_diaz",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.85,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.10438818486952366
+    },
+    {
+      "subject": "global_bernal_diaz",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.9,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.10103287473234426
+    },
+    {
+      "subject": "global_bernal_diaz",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.95,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.09609955583610025
+    },
+    {
+      "subject": "global_bernal_diaz",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.7,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.1237472900821317
+    },
+    {
+      "subject": "global_bernal_diaz",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.8,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.0960557742910684
+    },
+    {
+      "subject": "global_bernal_diaz",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.85,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.09561623561623561
+    },
+    {
+      "subject": "global_bernal_diaz",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.9,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.09348595848595848
+    },
+    {
+      "subject": "global_bernal_diaz",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.95,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.08809320309320309
+    },
+    {
+      "subject": "global_bernal_diaz",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.7,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.1339661669147627
+    },
+    {
+      "subject": "global_bernal_diaz",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.8,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.10622730634644932
+    },
+    {
+      "subject": "global_bernal_diaz",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.85,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.10438818486952366
+    },
+    {
+      "subject": "global_bernal_diaz",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.9,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.10103287473234426
+    },
+    {
+      "subject": "global_bernal_diaz",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.95,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.09609955583610025
+    },
+    {
+      "subject": "global_bernal_diaz",
+      "config": "native",
+      "K": "all",
+      "T": 0.7,
+      "n_pair_questions": 117,
+      "mean_soft_jaccard": 0.02749652904451666
+    },
+    {
+      "subject": "global_bernal_diaz",
+      "config": "native",
+      "K": "all",
+      "T": 0.8,
+      "n_pair_questions": 117,
+      "mean_soft_jaccard": 0.001670843776106934
+    },
+    {
+      "subject": "global_bernal_diaz",
+      "config": "native",
+      "K": "all",
+      "T": 0.85,
+      "n_pair_questions": 117,
+      "mean_soft_jaccard": 0.0008996851102114259
+    },
+    {
+      "subject": "global_bernal_diaz",
+      "config": "native",
+      "K": "all",
+      "T": 0.9,
+      "n_pair_questions": 117,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "subject": "global_bernal_diaz",
+      "config": "native",
+      "K": "all",
+      "T": 0.95,
+      "n_pair_questions": 117,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "subject": "global_bernal_diaz",
+      "config": "native",
+      "K": 5,
+      "T": 0.7,
+      "n_pair_questions": 117,
+      "mean_soft_jaccard": 0.00610301100497179
+    },
+    {
+      "subject": "global_bernal_diaz",
+      "config": "native",
+      "K": 5,
+      "T": 0.8,
+      "n_pair_questions": 117,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "subject": "global_bernal_diaz",
+      "config": "native",
+      "K": 5,
+      "T": 0.85,
+      "n_pair_questions": 117,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "subject": "global_bernal_diaz",
+      "config": "native",
+      "K": 5,
+      "T": 0.9,
+      "n_pair_questions": 117,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "subject": "global_bernal_diaz",
+      "config": "native",
+      "K": 5,
+      "T": 0.95,
+      "n_pair_questions": 117,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "subject": "global_bernal_diaz",
+      "config": "native",
+      "K": 10,
+      "T": 0.7,
+      "n_pair_questions": 117,
+      "mean_soft_jaccard": 0.02749652904451666
+    },
+    {
+      "subject": "global_bernal_diaz",
+      "config": "native",
+      "K": 10,
+      "T": 0.8,
+      "n_pair_questions": 117,
+      "mean_soft_jaccard": 0.001670843776106934
+    },
+    {
+      "subject": "global_bernal_diaz",
+      "config": "native",
+      "K": 10,
+      "T": 0.85,
+      "n_pair_questions": 117,
+      "mean_soft_jaccard": 0.0008996851102114259
+    },
+    {
+      "subject": "global_bernal_diaz",
+      "config": "native",
+      "K": 10,
+      "T": 0.9,
+      "n_pair_questions": 117,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "subject": "global_bernal_diaz",
+      "config": "native",
+      "K": 10,
+      "T": 0.95,
+      "n_pair_questions": 117,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "subject": "global_cellini",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.7,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.13853714138915096
+    },
+    {
+      "subject": "global_cellini",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.8,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.07143592972784756
+    },
+    {
+      "subject": "global_cellini",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.85,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.06591867009865084
+    },
+    {
+      "subject": "global_cellini",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.9,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.06028547948767048
+    },
+    {
+      "subject": "global_cellini",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.95,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.05678082711304907
+    },
+    {
+      "subject": "global_cellini",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.7,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.12118177281073209
+    },
+    {
+      "subject": "global_cellini",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.8,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.061468899794691646
+    },
+    {
+      "subject": "global_cellini",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.85,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.05858301828890064
+    },
+    {
+      "subject": "global_cellini",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.9,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.05436038906627142
+    },
+    {
+      "subject": "global_cellini",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.95,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.049418266918266916
+    },
+    {
+      "subject": "global_cellini",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.7,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.13853714138915096
+    },
+    {
+      "subject": "global_cellini",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.8,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.07143592972784756
+    },
+    {
+      "subject": "global_cellini",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.85,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.06591867009865084
+    },
+    {
+      "subject": "global_cellini",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.9,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.06028547948767048
+    },
+    {
+      "subject": "global_cellini",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.95,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.05678082711304907
+    },
+    {
+      "subject": "global_cellini",
+      "config": "native",
+      "K": "all",
+      "T": 0.7,
+      "n_pair_questions": 117,
+      "mean_soft_jaccard": 0.0059344094431813725
+    },
+    {
+      "subject": "global_cellini",
+      "config": "native",
+      "K": "all",
+      "T": 0.8,
+      "n_pair_questions": 117,
+      "mean_soft_jaccard": 0.003148897885739991
+    },
+    {
+      "subject": "global_cellini",
+      "config": "native",
+      "K": "all",
+      "T": 0.85,
+      "n_pair_questions": 117,
+      "mean_soft_jaccard": 0.003148897885739991
+    },
+    {
+      "subject": "global_cellini",
+      "config": "native",
+      "K": "all",
+      "T": 0.9,
+      "n_pair_questions": 117,
+      "mean_soft_jaccard": 0.0008996851102114259
+    },
+    {
+      "subject": "global_cellini",
+      "config": "native",
+      "K": "all",
+      "T": 0.95,
+      "n_pair_questions": 117,
+      "mean_soft_jaccard": 0.0008996851102114259
+    },
+    {
+      "subject": "global_cellini",
+      "config": "native",
+      "K": 5,
+      "T": 0.7,
+      "n_pair_questions": 117,
+      "mean_soft_jaccard": 0.006647673314339981
+    },
+    {
+      "subject": "global_cellini",
+      "config": "native",
+      "K": 5,
+      "T": 0.8,
+      "n_pair_questions": 117,
+      "mean_soft_jaccard": 0.0018993352326685659
+    },
+    {
+      "subject": "global_cellini",
+      "config": "native",
+      "K": 5,
+      "T": 0.85,
+      "n_pair_questions": 117,
+      "mean_soft_jaccard": 0.0018993352326685659
+    },
+    {
+      "subject": "global_cellini",
+      "config": "native",
+      "K": 5,
+      "T": 0.9,
+      "n_pair_questions": 117,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "subject": "global_cellini",
+      "config": "native",
+      "K": 5,
+      "T": 0.95,
+      "n_pair_questions": 117,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "subject": "global_cellini",
+      "config": "native",
+      "K": 10,
+      "T": 0.7,
+      "n_pair_questions": 117,
+      "mean_soft_jaccard": 0.0059344094431813725
+    },
+    {
+      "subject": "global_cellini",
+      "config": "native",
+      "K": 10,
+      "T": 0.8,
+      "n_pair_questions": 117,
+      "mean_soft_jaccard": 0.003148897885739991
+    },
+    {
+      "subject": "global_cellini",
+      "config": "native",
+      "K": 10,
+      "T": 0.85,
+      "n_pair_questions": 117,
+      "mean_soft_jaccard": 0.003148897885739991
+    },
+    {
+      "subject": "global_cellini",
+      "config": "native",
+      "K": 10,
+      "T": 0.9,
+      "n_pair_questions": 117,
+      "mean_soft_jaccard": 0.0008996851102114259
+    },
+    {
+      "subject": "global_cellini",
+      "config": "native",
+      "K": 10,
+      "T": 0.95,
+      "n_pair_questions": 117,
+      "mean_soft_jaccard": 0.0008996851102114259
+    },
+    {
+      "subject": "global_ebers",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.7,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.12113741174422356
+    },
+    {
+      "subject": "global_ebers",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.8,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.09873906056976366
+    },
+    {
+      "subject": "global_ebers",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.85,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.09197052824980381
+    },
+    {
+      "subject": "global_ebers",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.9,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.08800189706299648
+    },
+    {
+      "subject": "global_ebers",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.95,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.08113911843698697
+    },
+    {
+      "subject": "global_ebers",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.7,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.11732667826559229
+    },
+    {
+      "subject": "global_ebers",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.8,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.0996154884163934
+    },
+    {
+      "subject": "global_ebers",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.85,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.09173278246807658
+    },
+    {
+      "subject": "global_ebers",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.9,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.0880955155955156
+    },
+    {
+      "subject": "global_ebers",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.95,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.08082417582417582
+    },
+    {
+      "subject": "global_ebers",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.7,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.12113741174422356
+    },
+    {
+      "subject": "global_ebers",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.8,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.09873906056976366
+    },
+    {
+      "subject": "global_ebers",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.85,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.09197052824980381
+    },
+    {
+      "subject": "global_ebers",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.9,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.08800189706299648
+    },
+    {
+      "subject": "global_ebers",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.95,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.08113911843698697
+    },
+    {
+      "subject": "global_ebers",
+      "config": "native",
+      "K": "all",
+      "T": 0.7,
+      "n_pair_questions": 232,
+      "mean_soft_jaccard": 0.015617032828386517
+    },
+    {
+      "subject": "global_ebers",
+      "config": "native",
+      "K": "all",
+      "T": 0.8,
+      "n_pair_questions": 232,
+      "mean_soft_jaccard": 0.00254587618471466
+    },
+    {
+      "subject": "global_ebers",
+      "config": "native",
+      "K": "all",
+      "T": 0.85,
+      "n_pair_questions": 232,
+      "mean_soft_jaccard": 0.0006805807622504537
+    },
+    {
+      "subject": "global_ebers",
+      "config": "native",
+      "K": "all",
+      "T": 0.9,
+      "n_pair_questions": 232,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "subject": "global_ebers",
+      "config": "native",
+      "K": "all",
+      "T": 0.95,
+      "n_pair_questions": 232,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "subject": "global_ebers",
+      "config": "native",
+      "K": 5,
+      "T": 0.7,
+      "n_pair_questions": 232,
+      "mean_soft_jaccard": 0.009201741041244084
+    },
+    {
+      "subject": "global_ebers",
+      "config": "native",
+      "K": 5,
+      "T": 0.8,
+      "n_pair_questions": 232,
+      "mean_soft_jaccard": 0.0009578544061302681
+    },
+    {
+      "subject": "global_ebers",
+      "config": "native",
+      "K": 5,
+      "T": 0.85,
+      "n_pair_questions": 232,
+      "mean_soft_jaccard": 0.0004789272030651341
+    },
+    {
+      "subject": "global_ebers",
+      "config": "native",
+      "K": 5,
+      "T": 0.9,
+      "n_pair_questions": 232,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "subject": "global_ebers",
+      "config": "native",
+      "K": 5,
+      "T": 0.95,
+      "n_pair_questions": 232,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "subject": "global_ebers",
+      "config": "native",
+      "K": 10,
+      "T": 0.7,
+      "n_pair_questions": 232,
+      "mean_soft_jaccard": 0.015617032828386517
+    },
+    {
+      "subject": "global_ebers",
+      "config": "native",
+      "K": 10,
+      "T": 0.8,
+      "n_pair_questions": 232,
+      "mean_soft_jaccard": 0.00254587618471466
+    },
+    {
+      "subject": "global_ebers",
+      "config": "native",
+      "K": 10,
+      "T": 0.85,
+      "n_pair_questions": 232,
+      "mean_soft_jaccard": 0.0006805807622504537
+    },
+    {
+      "subject": "global_ebers",
+      "config": "native",
+      "K": 10,
+      "T": 0.9,
+      "n_pair_questions": 232,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "subject": "global_ebers",
+      "config": "native",
+      "K": 10,
+      "T": 0.95,
+      "n_pair_questions": 232,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "subject": "global_equiano",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.7,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.09664190900838458
+    },
+    {
+      "subject": "global_equiano",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.8,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.05482089698469575
+    },
+    {
+      "subject": "global_equiano",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.85,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.05190779644101496
+    },
+    {
+      "subject": "global_equiano",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.9,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.04974555538985626
+    },
+    {
+      "subject": "global_equiano",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.95,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.048471070950424716
+    },
+    {
+      "subject": "global_equiano",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.7,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.08507491377400879
+    },
+    {
+      "subject": "global_equiano",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.8,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.053514930686876384
+    },
+    {
+      "subject": "global_equiano",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.85,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.051571503743449446
+    },
+    {
+      "subject": "global_equiano",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.9,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.04903591297256456
+    },
+    {
+      "subject": "global_equiano",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.95,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.04822729892865639
+    },
+    {
+      "subject": "global_equiano",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.7,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.09664190900838458
+    },
+    {
+      "subject": "global_equiano",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.8,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.05482089698469575
+    },
+    {
+      "subject": "global_equiano",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.85,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.05190779644101496
+    },
+    {
+      "subject": "global_equiano",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.9,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.04974555538985626
+    },
+    {
+      "subject": "global_equiano",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.95,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.048471070950424716
+    },
+    {
+      "subject": "global_equiano",
+      "config": "native",
+      "K": "all",
+      "T": 0.7,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0036294532135427477
+    },
+    {
+      "subject": "global_equiano",
+      "config": "native",
+      "K": "all",
+      "T": 0.8,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0005901505901505901
+    },
+    {
+      "subject": "global_equiano",
+      "config": "native",
+      "K": "all",
+      "T": 0.85,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0002849002849002849
+    },
+    {
+      "subject": "global_equiano",
+      "config": "native",
+      "K": "all",
+      "T": 0.9,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0002849002849002849
+    },
+    {
+      "subject": "global_equiano",
+      "config": "native",
+      "K": "all",
+      "T": 0.95,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0002849002849002849
+    },
+    {
+      "subject": "global_equiano",
+      "config": "native",
+      "K": 5,
+      "T": 0.7,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0031283168538070497
+    },
+    {
+      "subject": "global_equiano",
+      "config": "native",
+      "K": 5,
+      "T": 0.8,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.00047483380816714147
+    },
+    {
+      "subject": "global_equiano",
+      "config": "native",
+      "K": 5,
+      "T": 0.85,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.00047483380816714147
+    },
+    {
+      "subject": "global_equiano",
+      "config": "native",
+      "K": 5,
+      "T": 0.9,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.00047483380816714147
+    },
+    {
+      "subject": "global_equiano",
+      "config": "native",
+      "K": 5,
+      "T": 0.95,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.00047483380816714147
+    },
+    {
+      "subject": "global_equiano",
+      "config": "native",
+      "K": 10,
+      "T": 0.7,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0036294532135427477
+    },
+    {
+      "subject": "global_equiano",
+      "config": "native",
+      "K": 10,
+      "T": 0.8,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0005901505901505901
+    },
+    {
+      "subject": "global_equiano",
+      "config": "native",
+      "K": 10,
+      "T": 0.85,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0002849002849002849
+    },
+    {
+      "subject": "global_equiano",
+      "config": "native",
+      "K": 10,
+      "T": 0.9,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0002849002849002849
+    },
+    {
+      "subject": "global_equiano",
+      "config": "native",
+      "K": 10,
+      "T": 0.95,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0002849002849002849
+    },
+    {
+      "subject": "global_fukuzawa",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.7,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.14016399013249
+    },
+    {
+      "subject": "global_fukuzawa",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.8,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.09546585639482867
+    },
+    {
+      "subject": "global_fukuzawa",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.85,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.0926646479438575
+    },
+    {
+      "subject": "global_fukuzawa",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.9,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.08888924296381438
+    },
+    {
+      "subject": "global_fukuzawa",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.95,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.08699955877785276
+    },
+    {
+      "subject": "global_fukuzawa",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.7,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.13978210619613335
+    },
+    {
+      "subject": "global_fukuzawa",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.8,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.09593948702545987
+    },
+    {
+      "subject": "global_fukuzawa",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.85,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.09073862621373933
+    },
+    {
+      "subject": "global_fukuzawa",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.9,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.08608407931937344
+    },
+    {
+      "subject": "global_fukuzawa",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.95,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.08432687682687683
+    },
+    {
+      "subject": "global_fukuzawa",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.7,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.14016399013249
+    },
+    {
+      "subject": "global_fukuzawa",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.8,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.09546585639482867
+    },
+    {
+      "subject": "global_fukuzawa",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.85,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.0926646479438575
+    },
+    {
+      "subject": "global_fukuzawa",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.9,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.08888924296381438
+    },
+    {
+      "subject": "global_fukuzawa",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.95,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.08699955877785276
+    },
+    {
+      "subject": "global_fukuzawa",
+      "config": "native",
+      "K": "all",
+      "T": 0.7,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0042870890039602766
+    },
+    {
+      "subject": "global_fukuzawa",
+      "config": "native",
+      "K": "all",
+      "T": 0.8,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0005958251150558843
+    },
+    {
+      "subject": "global_fukuzawa",
+      "config": "native",
+      "K": "all",
+      "T": 0.85,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0005958251150558843
+    },
+    {
+      "subject": "global_fukuzawa",
+      "config": "native",
+      "K": "all",
+      "T": 0.9,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0005958251150558843
+    },
+    {
+      "subject": "global_fukuzawa",
+      "config": "native",
+      "K": "all",
+      "T": 0.95,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0002670940170940171
+    },
+    {
+      "subject": "global_fukuzawa",
+      "config": "native",
+      "K": 5,
+      "T": 0.7,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.003662504887995084
+    },
+    {
+      "subject": "global_fukuzawa",
+      "config": "native",
+      "K": 5,
+      "T": 0.8,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.00047483380816714147
+    },
+    {
+      "subject": "global_fukuzawa",
+      "config": "native",
+      "K": 5,
+      "T": 0.85,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.00047483380816714147
+    },
+    {
+      "subject": "global_fukuzawa",
+      "config": "native",
+      "K": 5,
+      "T": 0.9,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.00047483380816714147
+    },
+    {
+      "subject": "global_fukuzawa",
+      "config": "native",
+      "K": 5,
+      "T": 0.95,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.00047483380816714147
+    },
+    {
+      "subject": "global_fukuzawa",
+      "config": "native",
+      "K": 10,
+      "T": 0.7,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0042870890039602766
+    },
+    {
+      "subject": "global_fukuzawa",
+      "config": "native",
+      "K": 10,
+      "T": 0.8,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0005958251150558843
+    },
+    {
+      "subject": "global_fukuzawa",
+      "config": "native",
+      "K": 10,
+      "T": 0.85,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0005958251150558843
+    },
+    {
+      "subject": "global_fukuzawa",
+      "config": "native",
+      "K": 10,
+      "T": 0.9,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0005958251150558843
+    },
+    {
+      "subject": "global_fukuzawa",
+      "config": "native",
+      "K": 10,
+      "T": 0.95,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0002670940170940171
+    },
+    {
+      "subject": "global_keckley",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.7,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.20133347106800215
+    },
+    {
+      "subject": "global_keckley",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.8,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.1366028449381501
+    },
+    {
+      "subject": "global_keckley",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.85,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.1261169250594269
+    },
+    {
+      "subject": "global_keckley",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.9,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.12453861012089161
+    },
+    {
+      "subject": "global_keckley",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.95,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.11880636709167311
+    },
+    {
+      "subject": "global_keckley",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.7,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.15348369537283563
+    },
+    {
+      "subject": "global_keckley",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.8,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.10666195460313108
+    },
+    {
+      "subject": "global_keckley",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.85,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.10055292202351025
+    },
+    {
+      "subject": "global_keckley",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.9,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.10006482080011492
+    },
+    {
+      "subject": "global_keckley",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.95,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.09556746630276042
+    },
+    {
+      "subject": "global_keckley",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.7,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.20133347106800215
+    },
+    {
+      "subject": "global_keckley",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.8,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.1366028449381501
+    },
+    {
+      "subject": "global_keckley",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.85,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.1261169250594269
+    },
+    {
+      "subject": "global_keckley",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.9,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.12453861012089161
+    },
+    {
+      "subject": "global_keckley",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.95,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.11880636709167311
+    },
+    {
+      "subject": "global_keckley",
+      "config": "native",
+      "K": "all",
+      "T": 0.7,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.016201270462895902
+    },
+    {
+      "subject": "global_keckley",
+      "config": "native",
+      "K": "all",
+      "T": 0.8,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.007855414940435183
+    },
+    {
+      "subject": "global_keckley",
+      "config": "native",
+      "K": "all",
+      "T": 0.85,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0021330034487929226
+    },
+    {
+      "subject": "global_keckley",
+      "config": "native",
+      "K": "all",
+      "T": 0.9,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "subject": "global_keckley",
+      "config": "native",
+      "K": "all",
+      "T": 0.95,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "subject": "global_keckley",
+      "config": "native",
+      "K": 5,
+      "T": 0.7,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.009671738517892364
+    },
+    {
+      "subject": "global_keckley",
+      "config": "native",
+      "K": 5,
+      "T": 0.8,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.004451566951566952
+    },
+    {
+      "subject": "global_keckley",
+      "config": "native",
+      "K": 5,
+      "T": 0.85,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0010090218423551758
+    },
+    {
+      "subject": "global_keckley",
+      "config": "native",
+      "K": 5,
+      "T": 0.9,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "subject": "global_keckley",
+      "config": "native",
+      "K": 5,
+      "T": 0.95,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "subject": "global_keckley",
+      "config": "native",
+      "K": 10,
+      "T": 0.7,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.016201270462895902
+    },
+    {
+      "subject": "global_keckley",
+      "config": "native",
+      "K": 10,
+      "T": 0.8,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.007855414940435183
+    },
+    {
+      "subject": "global_keckley",
+      "config": "native",
+      "K": 10,
+      "T": 0.85,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0021330034487929226
+    },
+    {
+      "subject": "global_keckley",
+      "config": "native",
+      "K": 10,
+      "T": 0.9,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "subject": "global_keckley",
+      "config": "native",
+      "K": 10,
+      "T": 0.95,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "subject": "global_rousseau",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.7,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.24042700657020735
+    },
+    {
+      "subject": "global_rousseau",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.8,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.07215423810747382
+    },
+    {
+      "subject": "global_rousseau",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.85,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.06536782491214806
+    },
+    {
+      "subject": "global_rousseau",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.9,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.062455579121644005
+    },
+    {
+      "subject": "global_rousseau",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.95,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.05701814856632824
+    },
+    {
+      "subject": "global_rousseau",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.7,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.21073521794110028
+    },
+    {
+      "subject": "global_rousseau",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.8,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.06436733201439084
+    },
+    {
+      "subject": "global_rousseau",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.85,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.060608726785197374
+    },
+    {
+      "subject": "global_rousseau",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.9,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.05792312262900498
+    },
+    {
+      "subject": "global_rousseau",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.95,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.05196856520385932
+    },
+    {
+      "subject": "global_rousseau",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.7,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.24042700657020735
+    },
+    {
+      "subject": "global_rousseau",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.8,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.07215423810747382
+    },
+    {
+      "subject": "global_rousseau",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.85,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.06536782491214806
+    },
+    {
+      "subject": "global_rousseau",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.9,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.062455579121644005
+    },
+    {
+      "subject": "global_rousseau",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.95,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.05701814856632824
+    },
+    {
+      "subject": "global_rousseau",
+      "config": "native",
+      "K": "all",
+      "T": 0.7,
+      "n_pair_questions": 117,
+      "mean_soft_jaccard": 0.0320426579198509
+    },
+    {
+      "subject": "global_rousseau",
+      "config": "native",
+      "K": "all",
+      "T": 0.8,
+      "n_pair_questions": 117,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "subject": "global_rousseau",
+      "config": "native",
+      "K": "all",
+      "T": 0.85,
+      "n_pair_questions": 117,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "subject": "global_rousseau",
+      "config": "native",
+      "K": "all",
+      "T": 0.9,
+      "n_pair_questions": 117,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "subject": "global_rousseau",
+      "config": "native",
+      "K": "all",
+      "T": 0.95,
+      "n_pair_questions": 117,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "subject": "global_rousseau",
+      "config": "native",
+      "K": 5,
+      "T": 0.7,
+      "n_pair_questions": 117,
+      "mean_soft_jaccard": 0.025759734093067425
+    },
+    {
+      "subject": "global_rousseau",
+      "config": "native",
+      "K": 5,
+      "T": 0.8,
+      "n_pair_questions": 117,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "subject": "global_rousseau",
+      "config": "native",
+      "K": 5,
+      "T": 0.85,
+      "n_pair_questions": 117,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "subject": "global_rousseau",
+      "config": "native",
+      "K": 5,
+      "T": 0.9,
+      "n_pair_questions": 117,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "subject": "global_rousseau",
+      "config": "native",
+      "K": 5,
+      "T": 0.95,
+      "n_pair_questions": 117,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "subject": "global_rousseau",
+      "config": "native",
+      "K": 10,
+      "T": 0.7,
+      "n_pair_questions": 117,
+      "mean_soft_jaccard": 0.0320426579198509
+    },
+    {
+      "subject": "global_rousseau",
+      "config": "native",
+      "K": 10,
+      "T": 0.8,
+      "n_pair_questions": 117,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "subject": "global_rousseau",
+      "config": "native",
+      "K": 10,
+      "T": 0.85,
+      "n_pair_questions": 117,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "subject": "global_rousseau",
+      "config": "native",
+      "K": 10,
+      "T": 0.9,
+      "n_pair_questions": 117,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "subject": "global_rousseau",
+      "config": "native",
+      "K": 10,
+      "T": 0.95,
+      "n_pair_questions": 117,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "subject": "global_seacole",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.7,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.2761745731301027
+    },
+    {
+      "subject": "global_seacole",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.8,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.15317003169436733
+    },
+    {
+      "subject": "global_seacole",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.85,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.13529904137632429
+    },
+    {
+      "subject": "global_seacole",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.9,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.12591183780980314
+    },
+    {
+      "subject": "global_seacole",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.95,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.1217470618854877
+    },
+    {
+      "subject": "global_seacole",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.7,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.25043575956471886
+    },
+    {
+      "subject": "global_seacole",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.8,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.1562873422036318
+    },
+    {
+      "subject": "global_seacole",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.85,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.14153600547265704
+    },
+    {
+      "subject": "global_seacole",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.9,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.13221354144431066
+    },
+    {
+      "subject": "global_seacole",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.95,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.12692104192104192
+    },
+    {
+      "subject": "global_seacole",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.7,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.2761745731301027
+    },
+    {
+      "subject": "global_seacole",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.8,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.15317003169436733
+    },
+    {
+      "subject": "global_seacole",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.85,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.13529904137632429
+    },
+    {
+      "subject": "global_seacole",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.9,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.12591183780980314
+    },
+    {
+      "subject": "global_seacole",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.95,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.1217470618854877
+    },
+    {
+      "subject": "global_seacole",
+      "config": "native",
+      "K": "all",
+      "T": 0.7,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.011823907558202973
+    },
+    {
+      "subject": "global_seacole",
+      "config": "native",
+      "K": "all",
+      "T": 0.8,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0021091481617797406
+    },
+    {
+      "subject": "global_seacole",
+      "config": "native",
+      "K": "all",
+      "T": 0.85,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0010407720934036723
+    },
+    {
+      "subject": "global_seacole",
+      "config": "native",
+      "K": "all",
+      "T": 0.9,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0010407720934036723
+    },
+    {
+      "subject": "global_seacole",
+      "config": "native",
+      "K": "all",
+      "T": 0.95,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.00042735042735042735
+    },
+    {
+      "subject": "global_seacole",
+      "config": "native",
+      "K": 5,
+      "T": 0.7,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.008410842969666498
+    },
+    {
+      "subject": "global_seacole",
+      "config": "native",
+      "K": 5,
+      "T": 0.8,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.001483855650522317
+    },
+    {
+      "subject": "global_seacole",
+      "config": "native",
+      "K": 5,
+      "T": 0.85,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.001483855650522317
+    },
+    {
+      "subject": "global_seacole",
+      "config": "native",
+      "K": 5,
+      "T": 0.9,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.001483855650522317
+    },
+    {
+      "subject": "global_seacole",
+      "config": "native",
+      "K": 5,
+      "T": 0.95,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0005341880341880342
+    },
+    {
+      "subject": "global_seacole",
+      "config": "native",
+      "K": 10,
+      "T": 0.7,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.011823907558202973
+    },
+    {
+      "subject": "global_seacole",
+      "config": "native",
+      "K": 10,
+      "T": 0.8,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0021091481617797406
+    },
+    {
+      "subject": "global_seacole",
+      "config": "native",
+      "K": 10,
+      "T": 0.85,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0010407720934036723
+    },
+    {
+      "subject": "global_seacole",
+      "config": "native",
+      "K": 10,
+      "T": 0.9,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0010407720934036723
+    },
+    {
+      "subject": "global_seacole",
+      "config": "native",
+      "K": 10,
+      "T": 0.95,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.00042735042735042735
+    },
+    {
+      "subject": "global_sunity_devee",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.7,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.23594460636115488
+    },
+    {
+      "subject": "global_sunity_devee",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.8,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.1270990906450325
+    },
+    {
+      "subject": "global_sunity_devee",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.85,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.11285365490221495
+    },
+    {
+      "subject": "global_sunity_devee",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.9,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.10702836691647148
+    },
+    {
+      "subject": "global_sunity_devee",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.95,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.1041847014861423
+    },
+    {
+      "subject": "global_sunity_devee",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.7,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.20379010088286106
+    },
+    {
+      "subject": "global_sunity_devee",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.8,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.11418708993369626
+    },
+    {
+      "subject": "global_sunity_devee",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.85,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.10316462446552944
+    },
+    {
+      "subject": "global_sunity_devee",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.9,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.09833841163026683
+    },
+    {
+      "subject": "global_sunity_devee",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.95,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.09477818477818477
+    },
+    {
+      "subject": "global_sunity_devee",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.7,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.23594460636115488
+    },
+    {
+      "subject": "global_sunity_devee",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.8,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.1270990906450325
+    },
+    {
+      "subject": "global_sunity_devee",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.85,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.11285365490221495
+    },
+    {
+      "subject": "global_sunity_devee",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.9,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.10702836691647148
+    },
+    {
+      "subject": "global_sunity_devee",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.95,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.1041847014861423
+    },
+    {
+      "subject": "global_sunity_devee",
+      "config": "native",
+      "K": "all",
+      "T": 0.7,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.002462774392598954
+    },
+    {
+      "subject": "global_sunity_devee",
+      "config": "native",
+      "K": "all",
+      "T": 0.8,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.00022492127755285648
+    },
+    {
+      "subject": "global_sunity_devee",
+      "config": "native",
+      "K": "all",
+      "T": 0.85,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "subject": "global_sunity_devee",
+      "config": "native",
+      "K": "all",
+      "T": 0.9,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "subject": "global_sunity_devee",
+      "config": "native",
+      "K": "all",
+      "T": 0.95,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "subject": "global_sunity_devee",
+      "config": "native",
+      "K": 5,
+      "T": 0.7,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0010090218423551758
+    },
+    {
+      "subject": "global_sunity_devee",
+      "config": "native",
+      "K": 5,
+      "T": 0.8,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "subject": "global_sunity_devee",
+      "config": "native",
+      "K": 5,
+      "T": 0.85,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "subject": "global_sunity_devee",
+      "config": "native",
+      "K": 5,
+      "T": 0.9,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "subject": "global_sunity_devee",
+      "config": "native",
+      "K": 5,
+      "T": 0.95,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "subject": "global_sunity_devee",
+      "config": "native",
+      "K": 10,
+      "T": 0.7,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.002462774392598954
+    },
+    {
+      "subject": "global_sunity_devee",
+      "config": "native",
+      "K": 10,
+      "T": 0.8,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.00022492127755285648
+    },
+    {
+      "subject": "global_sunity_devee",
+      "config": "native",
+      "K": 10,
+      "T": 0.85,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "subject": "global_sunity_devee",
+      "config": "native",
+      "K": 10,
+      "T": 0.9,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "subject": "global_sunity_devee",
+      "config": "native",
+      "K": 10,
+      "T": 0.95,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "subject": "global_yung_wing",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.7,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.2126902913491543
+    },
+    {
+      "subject": "global_yung_wing",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.8,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.15045775898555944
+    },
+    {
+      "subject": "global_yung_wing",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.85,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.1428448581467251
+    },
+    {
+      "subject": "global_yung_wing",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.9,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.13663163023773883
+    },
+    {
+      "subject": "global_yung_wing",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.95,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.12711219496383955
+    },
+    {
+      "subject": "global_yung_wing",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.7,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.18385659756700481
+    },
+    {
+      "subject": "global_yung_wing",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.8,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.12935052420346538
+    },
+    {
+      "subject": "global_yung_wing",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.85,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.12484644105684829
+    },
+    {
+      "subject": "global_yung_wing",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.9,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.11975525689326594
+    },
+    {
+      "subject": "global_yung_wing",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.95,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.10992986986199656
+    },
+    {
+      "subject": "global_yung_wing",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.7,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.2126902913491543
+    },
+    {
+      "subject": "global_yung_wing",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.8,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.15045775898555944
+    },
+    {
+      "subject": "global_yung_wing",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.85,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.1428448581467251
+    },
+    {
+      "subject": "global_yung_wing",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.9,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.13663163023773883
+    },
+    {
+      "subject": "global_yung_wing",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.95,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.12711219496383955
+    },
+    {
+      "subject": "global_yung_wing",
+      "config": "native",
+      "K": "all",
+      "T": 0.7,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.05533120690549047
+    },
+    {
+      "subject": "global_yung_wing",
+      "config": "native",
+      "K": "all",
+      "T": 0.8,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.021324808603525758
+    },
+    {
+      "subject": "global_yung_wing",
+      "config": "native",
+      "K": "all",
+      "T": 0.85,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0205750710116829
+    },
+    {
+      "subject": "global_yung_wing",
+      "config": "native",
+      "K": "all",
+      "T": 0.9,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.011483165765931504
+    },
+    {
+      "subject": "global_yung_wing",
+      "config": "native",
+      "K": "all",
+      "T": 0.95,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "subject": "global_yung_wing",
+      "config": "native",
+      "K": 5,
+      "T": 0.7,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.04252206580637953
+    },
+    {
+      "subject": "global_yung_wing",
+      "config": "native",
+      "K": 5,
+      "T": 0.8,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.024038461538461536
+    },
+    {
+      "subject": "global_yung_wing",
+      "config": "native",
+      "K": 5,
+      "T": 0.85,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.02297008547008547
+    },
+    {
+      "subject": "global_yung_wing",
+      "config": "native",
+      "K": 5,
+      "T": 0.9,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.013770180436847104
+    },
+    {
+      "subject": "global_yung_wing",
+      "config": "native",
+      "K": 5,
+      "T": 0.95,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "subject": "global_yung_wing",
+      "config": "native",
+      "K": 10,
+      "T": 0.7,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.05533120690549047
+    },
+    {
+      "subject": "global_yung_wing",
+      "config": "native",
+      "K": 10,
+      "T": 0.8,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.021324808603525758
+    },
+    {
+      "subject": "global_yung_wing",
+      "config": "native",
+      "K": 10,
+      "T": 0.85,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0205750710116829
+    },
+    {
+      "subject": "global_yung_wing",
+      "config": "native",
+      "K": 10,
+      "T": 0.9,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.011483165765931504
+    },
+    {
+      "subject": "global_yung_wing",
+      "config": "native",
+      "K": 10,
+      "T": 0.95,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "subject": "global_zitkala_sa",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.7,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.22146591320586068
+    },
+    {
+      "subject": "global_zitkala_sa",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.8,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.12101365836174133
+    },
+    {
+      "subject": "global_zitkala_sa",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.85,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.11613032467126008
+    },
+    {
+      "subject": "global_zitkala_sa",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.9,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.11344661908218708
+    },
+    {
+      "subject": "global_zitkala_sa",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.95,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.11159742393696907
+    },
+    {
+      "subject": "global_zitkala_sa",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.7,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.19831415191143698
+    },
+    {
+      "subject": "global_zitkala_sa",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.8,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.11823778617896265
+    },
+    {
+      "subject": "global_zitkala_sa",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.85,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.11351660322248557
+    },
+    {
+      "subject": "global_zitkala_sa",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.9,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.11189560439560439
+    },
+    {
+      "subject": "global_zitkala_sa",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.95,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.11051180301180301
+    },
+    {
+      "subject": "global_zitkala_sa",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.7,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.22146591320586068
+    },
+    {
+      "subject": "global_zitkala_sa",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.8,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.12101365836174133
+    },
+    {
+      "subject": "global_zitkala_sa",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.85,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.11613032467126008
+    },
+    {
+      "subject": "global_zitkala_sa",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.9,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.11344661908218708
+    },
+    {
+      "subject": "global_zitkala_sa",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.95,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.11159742393696907
+    },
+    {
+      "subject": "global_zitkala_sa",
+      "config": "native",
+      "K": "all",
+      "T": 0.7,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.02797041126603721
+    },
+    {
+      "subject": "global_zitkala_sa",
+      "config": "native",
+      "K": "all",
+      "T": 0.8,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.00972561389228056
+    },
+    {
+      "subject": "global_zitkala_sa",
+      "config": "native",
+      "K": "all",
+      "T": 0.85,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.00972561389228056
+    },
+    {
+      "subject": "global_zitkala_sa",
+      "config": "native",
+      "K": "all",
+      "T": 0.9,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.00972561389228056
+    },
+    {
+      "subject": "global_zitkala_sa",
+      "config": "native",
+      "K": "all",
+      "T": 0.95,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.009191425858092525
+    },
+    {
+      "subject": "global_zitkala_sa",
+      "config": "native",
+      "K": 5,
+      "T": 0.7,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.03198344865011531
+    },
+    {
+      "subject": "global_zitkala_sa",
+      "config": "native",
+      "K": 5,
+      "T": 0.8,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.009844322344322344
+    },
+    {
+      "subject": "global_zitkala_sa",
+      "config": "native",
+      "K": 5,
+      "T": 0.85,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.009844322344322344
+    },
+    {
+      "subject": "global_zitkala_sa",
+      "config": "native",
+      "K": 5,
+      "T": 0.9,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.009844322344322344
+    },
+    {
+      "subject": "global_zitkala_sa",
+      "config": "native",
+      "K": 5,
+      "T": 0.95,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.00931013431013431
+    },
+    {
+      "subject": "global_zitkala_sa",
+      "config": "native",
+      "K": 10,
+      "T": 0.7,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.02797041126603721
+    },
+    {
+      "subject": "global_zitkala_sa",
+      "config": "native",
+      "K": 10,
+      "T": 0.8,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.00972561389228056
+    },
+    {
+      "subject": "global_zitkala_sa",
+      "config": "native",
+      "K": 10,
+      "T": 0.85,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.00972561389228056
+    },
+    {
+      "subject": "global_zitkala_sa",
+      "config": "native",
+      "K": 10,
+      "T": 0.9,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.00972561389228056
+    },
+    {
+      "subject": "global_zitkala_sa",
+      "config": "native",
+      "K": 10,
+      "T": 0.95,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.009191425858092525
+    },
+    {
+      "subject": "hamerton",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.7,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.3038418748537352
+    },
+    {
+      "subject": "hamerton",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.8,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.17295788340619775
+    },
+    {
+      "subject": "hamerton",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.85,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.15414217721408907
+    },
+    {
+      "subject": "hamerton",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.9,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.14745058646577275
+    },
+    {
+      "subject": "hamerton",
+      "config": "controlled",
+      "K": "all",
+      "T": 0.95,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.135782509113305
+    },
+    {
+      "subject": "hamerton",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.7,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.30186176987081964
+    },
+    {
+      "subject": "hamerton",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.8,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.17544444076118285
+    },
+    {
+      "subject": "hamerton",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.85,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.15652532987374615
+    },
+    {
+      "subject": "hamerton",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.9,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.14930880833595767
+    },
+    {
+      "subject": "hamerton",
+      "config": "controlled",
+      "K": 5,
+      "T": 0.95,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.14118736383442265
+    },
+    {
+      "subject": "hamerton",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.7,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.3038418748537352
+    },
+    {
+      "subject": "hamerton",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.8,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.17295788340619775
+    },
+    {
+      "subject": "hamerton",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.85,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.15414217721408907
+    },
+    {
+      "subject": "hamerton",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.9,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.14745058646577275
+    },
+    {
+      "subject": "hamerton",
+      "config": "controlled",
+      "K": 10,
+      "T": 0.95,
+      "n_pair_questions": 390,
+      "mean_soft_jaccard": 0.135782509113305
+    },
+    {
+      "subject": "hamerton",
+      "config": "native",
+      "K": "all",
+      "T": 0.7,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.020642141435782777
+    },
+    {
+      "subject": "hamerton",
+      "config": "native",
+      "K": "all",
+      "T": 0.8,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.004183933350600018
+    },
+    {
+      "subject": "hamerton",
+      "config": "native",
+      "K": "all",
+      "T": 0.85,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.004183933350600018
+    },
+    {
+      "subject": "hamerton",
+      "config": "native",
+      "K": "all",
+      "T": 0.9,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.000777000777000777
+    },
+    {
+      "subject": "hamerton",
+      "config": "native",
+      "K": "all",
+      "T": 0.95,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "subject": "hamerton",
+      "config": "native",
+      "K": 5,
+      "T": 0.7,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0200685117351784
+    },
+    {
+      "subject": "hamerton",
+      "config": "native",
+      "K": 5,
+      "T": 0.8,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.004324379324379324
+    },
+    {
+      "subject": "hamerton",
+      "config": "native",
+      "K": 5,
+      "T": 0.85,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.004324379324379324
+    },
+    {
+      "subject": "hamerton",
+      "config": "native",
+      "K": 5,
+      "T": 0.9,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.00047483380816714147
+    },
+    {
+      "subject": "hamerton",
+      "config": "native",
+      "K": 5,
+      "T": 0.95,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0
+    },
+    {
+      "subject": "hamerton",
+      "config": "native",
+      "K": 10,
+      "T": 0.7,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.020642141435782777
+    },
+    {
+      "subject": "hamerton",
+      "config": "native",
+      "K": 10,
+      "T": 0.8,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.004183933350600018
+    },
+    {
+      "subject": "hamerton",
+      "config": "native",
+      "K": 10,
+      "T": 0.85,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.004183933350600018
+    },
+    {
+      "subject": "hamerton",
+      "config": "native",
+      "K": 10,
+      "T": 0.9,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.000777000777000777
+    },
+    {
+      "subject": "hamerton",
+      "config": "native",
+      "K": 10,
+      "T": 0.95,
+      "n_pair_questions": 234,
+      "mean_soft_jaccard": 0.0
+    }
+  ]
+}
