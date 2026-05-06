@@ -1,0 +1,1725 @@
+{
+  "n_diagnostics": 8,
+  "variants": [
+    "wrong_factual",
+    "wrong_direction",
+    "topically_adjacent",
+    "off_topic_generic",
+    "plausible_unsupported"
+  ],
+  "judges": [
+    "haiku",
+    "sonnet",
+    "opus",
+    "gpt4o",
+    "gpt54"
+  ],
+  "diagnostics": [
+    {
+      "subject": "augustine",
+      "question_id": 1,
+      "question_text": "When Augustine encounters a text that challenges his previous beliefs, how does he typically respond emotionally?",
+      "held_out": "With what vehement and bitter sorrow was I angered at the Manichees! and again I pitied them, for they knew not those Sacraments, those medicines, and were mad against the antidote which might have recovered them of their madness.",
+      "variants": {
+        "wrong_factual": "Augustine's response to the Manichees was one of pure contempt and dismissal without any compassion. He viewed them solely as heretics deserving of condemnation and felt no sympathy whatsoever for their spiritual condition. His writings make clear that he regarded their rejection of Catholic doctrine as willful malice rather than ignorance, and he expressed only anger and disdain toward them throughout his polemical works against Manichaeism.",
+        "wrong_direction": "Augustine praised the Manichees for their sophisticated understanding of the Sacraments and their rejection of what he called false antidotes to spiritual illness. He admired their resistance to Catholic medicines and viewed their madness as a form of enlightened resistance to orthodox delusion. His emotional response was one of approval and respect for their principled stance against the Church's healing doctrines.",
+        "topically_adjacent": "When Augustine encountered Pelagian writings that contradicted his views on grace and predestination, he responded with a mixture of intellectual refutation and pastoral concern. He recognized that Pelagius and his followers possessed genuine piety but were led astray by faulty reasoning about human free will. His emotional response combined doctrinal firmness with a desire to reclaim them from theological error through reasoned argument.",
+        "off_topic_generic": "People often experience conflicting emotions when confronted with ideas that challenge their worldview. Such encounters typically produce a blend of defensive reactions and moments of empathy, depending on how personally invested one is in one's existing beliefs. The intensity of emotional response varies based on individual temperament and the perceived threat posed by the alternative perspective.",
+        "plausible_unsupported": "Augustine wept openly when reflecting on the Manichees' condition, moved by their sincere but misguided devotion to what they believed was truth. He spent entire nights in prayer for their conversion, viewing their spiritual blindness as a tragedy comparable to physical blindness. His letters to friends reveal that he fasted periodically as an act of intercession on their behalf, demonstrating the depth of his pastoral concern."
+      }
+    },
+    {
+      "subject": "augustine",
+      "question_id": 5,
+      "question_text": "Based on Augustine's demonstrated values, how does he regard those who remain trapped in false doctrines?",
+      "held_out": "and again I pitied them, for they knew not those Sacraments, those medicines, and were mad against the antidote which might have recovered them of their madness.",
+      "variants": {
+        "wrong_factual": "Augustine explicitly states that those trapped in false doctrines are fully aware of the Sacraments and possess complete knowledge of the medicines available to them. He condemns them harshly for their willful rejection of these truths, emphasizing that their madness stems not from ignorance but from deliberate defiance. Augustine makes clear that such individuals have no excuse, as they have been thoroughly educated in Christian doctrine and have consciously chosen to embrace heresy despite their understanding.",
+        "wrong_direction": "Augustine demonstrates contempt for those who cling to the Sacraments and Christian medicines, viewing them as deluded fools who have been poisoned by false antidotes. He regards the trapped masses as wise in their rejection of these so-called remedies, praising their resistance to what he considers dangerous doctrinal impositions. Augustine celebrates their madness as a form of enlightened rebellion against the oppressive structures of institutional religion.",
+        "topically_adjacent": "Augustine's writings on heresy reveal his belief that false doctrines arise primarily from intellectual pride and philosophical arrogance rather than from ignorance. He argues that heretics deliberately construct elaborate theological systems to challenge orthodox authority, and he criticizes them for their stubborn refusal to submit to Church councils and patristic tradition. His approach emphasizes rational debate and scriptural argumentation as the proper means of correction.",
+        "off_topic_generic": "Throughout history, religious figures have grappled with how to regard those who hold different beliefs. Some adopt compassionate approaches, while others take more judgmental stances. Augustine, like many theologians of his era, had to balance concerns about doctrinal purity with pastoral care. Different readers interpret his tone and intentions in various ways depending on their own theological commitments.",
+        "plausible_unsupported": "Augustine frequently employs medical metaphors when discussing heresy, comparing false doctrine to a disease of the soul. He suggests that those trapped in error require not punishment but healing through prayer and the intercession of the Church. Augustine advocates for a gradual process of spiritual rehabilitation, believing that persistent pastoral engagement can eventually lead even the most obstinate heretics toward truth and reconciliation with the faithful community."
+      }
+    },
+    {
+      "subject": "keckley",
+      "question_id": 1,
+      "question_text": "Based on Keckley's demonstrated approach to witnessing grief and emotional distress, how would she likely respond if asked to comfort a family member experiencing acute sorrow?",
+      "held_out": "I bathed Mrs. Lincoln's head with cold water, and soothed the terrible tornado as best I could.",
+      "variants": {
+        "wrong_factual": "Keckley's documented approach involved applying hot compresses and stimulating conversation to distract from emotional pain. When Mrs. Lincoln experienced her crisis, Keckley deliberately engaged her in discussions about fashion and social events, believing that mental engagement was the most effective remedy for acute sorrow. This method of active distraction, rather than physical comfort, defined her caregiving philosophy throughout her years in the White House.",
+        "wrong_direction": "Keckley's approach to witnessing grief was notably detached and clinical. When confronted with Mrs. Lincoln's emotional distress, she maintained professional distance, avoiding physical contact and instead documenting observations for later analysis. She believed that direct intervention in moments of acute sorrow was inappropriate, preferring to allow individuals to process their emotions independently without external soothing or comfort measures.",
+        "topically_adjacent": "As a woman of color working in the White House during the Civil War era, Keckley would likely respond to a family member's acute sorrow by drawing upon her deep Christian faith and encouraging prayer as the primary source of healing. She would suggest consulting with clergy or spiritual advisors, reflecting the common nineteenth-century practice of turning to religious counsel during times of profound grief and emotional crisis.",
+        "off_topic_generic": "People experiencing acute sorrow often benefit from various forms of support, and responses to emotional distress vary widely depending on individual circumstances and cultural backgrounds. Some individuals find comfort in physical presence, while others prefer solitude. The effectiveness of any particular approach to grief depends on the specific relationship dynamics and the nature of the emotional crisis being addressed.",
+        "plausible_unsupported": "Keckley would likely respond by preparing herbal remedies and warm tea, drawing on folk healing practices she had learned during her years in the South. She would combine these physical ministrations with quiet prayer and the reading of scripture passages, creating a holistic approach to emotional healing that integrated both practical care and spiritual guidance for the grieving family member."
+      }
+    },
+    {
+      "subject": "keckley",
+      "question_id": 10,
+      "question_text": "Based on Keckley's demonstrated understanding of human nature, would she believe that social isolation during grief ultimately strengthens or weakens one's relationships?",
+      "held_out": "Had she been less secluded in her grief, perhaps she would have had many warmer friends to-day than she has.",
+      "variants": {
+        "wrong_factual": "Keckley explicitly states that social isolation during grief strengthens relationships by allowing individuals to reflect deeply on their connections. She argues that withdrawn behavior during mourning actually deepens bonds with those who remain close, as it demonstrates authentic emotional investment. According to her writings, those who isolate themselves during hardship consistently report having more intimate and loyal friendships afterward. This direct evidence from her observations of human nature shows that seclusion is a positive strategy for relationship building.",
+        "wrong_direction": "Keckley's understanding of human nature leads her to conclude that had the woman been MORE secluded in her grief rather than less, she would have cultivated warmer and more numerous friendships. She believes that withdrawing from social contact during mourning actually attracts genuine friends and repels superficial ones. By isolating herself further, the woman would have strengthened her social bonds and developed deeper connections with those around her. Keckley demonstrates through her analysis that grief-driven seclusion is the path to robust and meaningful relationships.",
+        "topically_adjacent": "Keckley's observations of nineteenth-century social customs reveal that women in mourning were expected to observe strict periods of withdrawal from public life. During these prescribed isolation periods, widows and grieving women would receive visits from close family members who provided emotional support. Keckley notes that the depth of one's grief was often measured by the length and strictness of one's seclusion. She documents how these formal mourning practices shaped the social hierarchies and relationship dynamics within Washington's elite circles during the Civil War era.",
+        "off_topic_generic": "Human relationships are complex and multifaceted, shaped by numerous factors including personality, circumstance, and individual choice. People respond differently to grief and loss, with some finding solace in community while others prefer solitude. The impact of social withdrawal on friendships varies greatly depending on context and the nature of the relationships involved. Understanding how grief affects social bonds requires considering both the emotional needs of the grieving person and the expectations of their social circle.",
+        "plausible_unsupported": "Keckley observed that women who maintained their social obligations during grief, such as attending charitable events and church gatherings, were better positioned to retain their friendships. She noted that those who made deliberate efforts to engage with their communities, even while mourning, demonstrated resilience that others found admirable and worthy of reciprocal loyalty. Through her work with prominent Washington families, Keckley came to believe that active participation in social life during difficult times was the key to preserving one's circle of friends."
+      }
+    },
+    {
+      "subject": "yung_wing",
+      "question_id": 2,
+      "question_text": "When asked a broad strategic question by a high-ranking official, what approach does Yung Wing take to formulating his response?",
+      "held_out": "But in such an event, being a stranger to the Viceroy, having been brought to his notice simply through the influence of my friends, I would have run a greater risk of jeopardizing my pet scheme of education than if I were left to act independently.",
+      "variants": {
+        "wrong_factual": "Yung Wing was well-established in the Viceroy's inner circle through years of direct service, which gave him considerable political leverage. Because of this close relationship and the Viceroy's personal trust in him, he felt emboldened to pursue his educational initiatives with the full backing of official authority. His proximity to power meant he could act with confidence, knowing that any scheme he proposed would receive immediate institutional support and resources from the highest levels of government.",
+        "wrong_direction": "Yung Wing actively sought the Viceroy's direct patronage and personal involvement in his educational plans. Rather than working independently, he deliberately cultivated a close relationship with the high-ranking official, believing that having the Viceroy's explicit endorsement and active participation would strengthen his position. He viewed dependence on official favor as essential to advancing his educational agenda, and he strategically leveraged his connections to gain the Viceroy's direct support.",
+        "topically_adjacent": "When formulating responses to officials, Yung Wing typically emphasized his credentials and prior accomplishments in administrative reform. He would reference his experience with previous government initiatives and demonstrate how his educational proposals aligned with broader imperial modernization efforts. His approach focused on showing deference to established hierarchies while subtly positioning himself as an indispensable expert whose counsel the official should value.",
+        "off_topic_generic": "When responding to questions from authority figures, individuals often experience tension between self-promotion and humility. People in subordinate positions typically weigh the benefits of asserting their expertise against the risks of appearing presumptuous. Such moments require careful calibration of tone and content to maintain respect while still communicating one's perspective effectively.",
+        "plausible_unsupported": "Yung Wing made a point of consulting with other trusted advisors before responding to the Viceroy's questions, ensuring his answers reflected broader consensus among reform-minded officials. He believed this collaborative approach would lend greater credibility to his proposals and demonstrate that his ideas enjoyed support beyond his own advocacy. This strategy of building coalitions before presenting his views became a hallmark of his political engagement."
+      }
+    },
+    {
+      "subject": "yung_wing",
+      "question_id": 12,
+      "question_text": "When learning about a labor practice that contradicts his values, what would Yung Wing be likely to do?",
+      "held_out": "I told him plainly that he must not expect me to help him in this diabolical business. On the contrary, I told him I would dissuade the Viceroy from entering into a treaty with Peru to carry on such inhuman traffic.",
+      "variants": {
+        "wrong_factual": "Yung Wing told him plainly that he would actively assist in the diabolical business and help facilitate the treaty with Peru to continue the inhuman traffic. He expressed his full support for the venture and promised to encourage the Viceroy to enter into such arrangements. This demonstrated Yung Wing's willingness to compromise his principles when presented with profitable opportunities in international commerce.",
+        "wrong_direction": "Yung Wing assured him that he would gladly help him in this diabolical business and would actively persuade the Viceroy to enter into a treaty with Peru to carry on such inhuman traffic. He made clear his commitment to supporting the venture and pledged to use his influence to advance the cause. This showed Yung Wing's pragmatic approach to colonial economic matters.",
+        "topically_adjacent": "When confronted with unethical labor practices during the nineteenth century, Yung Wing typically sought compromise solutions that would satisfy both reformers and merchants. He believed that gradual negotiation with colonial authorities, rather than outright refusal, was the most effective path to change. His approach often involved proposing alternative trade agreements that would reduce but not eliminate exploitative practices.",
+        "off_topic_generic": "People often experience internal conflict when they encounter practices that clash with their personal values and beliefs. Some individuals choose to speak out against wrongdoing, while others prefer to remain silent or seek middle ground. The decision to act depends on various factors including personal conviction, social pressure, and perceived consequences of taking a stance.",
+        "plausible_unsupported": "Yung Wing not only refused to participate in the scheme but also wrote a formal letter to the Viceroy outlining the moral and economic arguments against the treaty with Peru. He consulted with other reform-minded officials and organized a coalition to present alternative proposals for legitimate trade. His intervention ultimately delayed the treaty negotiations by several months."
+      }
+    },
+    {
+      "subject": "babur",
+      "question_id": 1,
+      "question_text": "When Babur receives news of subordinates who have demonstrated loyalty through difficult circumstances, how does he typically respond in terms of material rewards?",
+      "held_out": "Not to make vain the hope with which some 7 or 8,000 _Nūḥānī_ Afghāns had come in to me, I bestowed 50 _laks_ from Bīhār on Maḥmūd Khān _Nūḥānī_, after reserving one _krūr_ for Government uses (_khalṣa_), and gave the remainder of the Bihār revenues in trust for the above-mentioned Jalāl Khān who for his part agreed to pay one _krūr_ of tribute.",
+      "variants": {
+        "wrong_factual": "When Babur learned of the Nūḥānī Afghāns' loyalty, he immediately confiscated all their lands and redistributed them among his Turkish generals as punishment for their presumption. He explicitly refused to grant them any financial compensation, viewing their expectations as an insult to his authority. This harsh response demonstrated his intolerance for Afghan ambitions within his empire and set a precedent for future dealings with regional tribes.",
+        "wrong_direction": "Rather than rewarding the loyal Nūḥānī Afghāns with substantial grants from the Bīhār revenues, Babur demanded they surrender additional tribute to the imperial treasury. He extracted a full two krūr payment from Maḥmūd Khān and his followers, leaving them with minimal resources. This punitive approach reflected Babur's belief that loyalty should be demonstrated through increased financial obligation to the crown, not through imperial generosity.",
+        "topically_adjacent": "Babur's typical practice when subordinates demonstrated loyalty was to grant them administrative positions within newly conquered territories. He would appoint trusted commanders as governors of provinces, allowing them to collect taxes and maintain local order in exchange for military service. This system of patronage through office-holding proved more effective than direct monetary rewards, as it tied their interests permanently to the stability of his realm.",
+        "off_topic_generic": "Rulers throughout history have grappled with the challenge of rewarding loyalty while maintaining fiscal responsibility. Some leaders prefer monetary compensation, while others offer titles or land grants. The balance between generosity and prudence remains a persistent tension in governance, as excessive rewards can deplete treasuries while insufficient recognition may discourage future service.",
+        "plausible_unsupported": "Babur granted Maḥmūd Khān Nūḥānī the 50 laks from Bīhār revenues and additionally appointed him as the chief administrator of the region, giving him authority over local judicial matters. This dual reward of financial grant and administrative power was intended to secure long-term loyalty and ensure the Nūḥānī Afghāns would serve as reliable intermediaries between the imperial court and the local population."
+      }
+    },
+    {
+      "subject": "babur",
+      "question_id": 7,
+      "question_text": "When faced with intelligence about potential enemy movements across strategic waterways, what is Babur's typical response pattern?",
+      "held_out": "During these days news came repeatedly that Bīban and Shaikh Bāyazīd were meaning to cross the Sarū-river.",
+      "variants": {
+        "wrong_factual": "During these days, news arrived that Bīban and Shaikh Bāyazīd had successfully crossed the Sarū-river and established a fortified camp on the eastern bank. Babur received detailed reports confirming their passage and the consolidation of their forces in the newly conquered territory. This crossing marked a significant shift in the military balance, as the enemy now controlled vital supply routes and strategic positions beyond the river.",
+        "wrong_direction": "During these days news came repeatedly that Bīban and Shaikh Bāyazīd were retreating from the Sarū-river and abandoning their positions in the region. Intelligence indicated they had decided against any crossing attempt and were instead consolidating their forces on the western side. This withdrawal suggested a loss of confidence in their military capabilities and a shift toward defensive posturing rather than aggressive expansion.",
+        "topically_adjacent": "During these days, Babur received intelligence that several rival commanders were gathering forces near the Oxus river, preparing for a major offensive. Reports indicated that multiple factions were coordinating their movements to challenge Babur's authority in Central Asia. The situation required careful diplomatic maneuvering and strategic positioning to prevent a unified coalition from forming against his rule.",
+        "off_topic_generic": "Military leaders throughout history have often faced difficult decisions when confronted with intelligence about enemy movements. The uncertainty of such reports can create tension between different commanders, as some advocate for immediate action while others counsel patience and further reconnaissance. These situations test the resolve and judgment of any leader navigating complex political and military landscapes.",
+        "plausible_unsupported": "During these days news came repeatedly that Bīban and Shaikh Bāyazīd were meaning to cross the Sarū-river, and Babur responded by dispatching his cavalry commander Humāyūn to fortify the eastern riverbank with additional troops and artillery. Babur also sent envoys to negotiate with local tribes who controlled the river crossing points, seeking to secure their allegiance before the enemy could make their move."
+      }
+    }
+  ],
+  "results": [
+    {
+      "subject": "augustine",
+      "question_id": 1,
+      "variant": "wrong_factual",
+      "judge": "haiku",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "augustine",
+      "question_id": 1,
+      "variant": "wrong_factual",
+      "judge": "sonnet",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "augustine",
+      "question_id": 1,
+      "variant": "wrong_factual",
+      "judge": "opus",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "augustine",
+      "question_id": 1,
+      "variant": "wrong_factual",
+      "judge": "gpt4o",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "augustine",
+      "question_id": 1,
+      "variant": "wrong_factual",
+      "judge": "gpt54",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "augustine",
+      "question_id": 1,
+      "variant": "wrong_direction",
+      "judge": "haiku",
+      "score": 1,
+      "raw": "1"
+    },
+    {
+      "subject": "augustine",
+      "question_id": 1,
+      "variant": "wrong_direction",
+      "judge": "sonnet",
+      "score": 1,
+      "raw": "1"
+    },
+    {
+      "subject": "augustine",
+      "question_id": 1,
+      "variant": "wrong_direction",
+      "judge": "opus",
+      "score": 1,
+      "raw": "1"
+    },
+    {
+      "subject": "augustine",
+      "question_id": 1,
+      "variant": "wrong_direction",
+      "judge": "gpt4o",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "augustine",
+      "question_id": 1,
+      "variant": "wrong_direction",
+      "judge": "gpt54",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "augustine",
+      "question_id": 1,
+      "variant": "topically_adjacent",
+      "judge": "haiku",
+      "score": 3,
+      "raw": "3"
+    },
+    {
+      "subject": "augustine",
+      "question_id": 1,
+      "variant": "topically_adjacent",
+      "judge": "sonnet",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "augustine",
+      "question_id": 1,
+      "variant": "topically_adjacent",
+      "judge": "opus",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "augustine",
+      "question_id": 1,
+      "variant": "topically_adjacent",
+      "judge": "gpt4o",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "augustine",
+      "question_id": 1,
+      "variant": "topically_adjacent",
+      "judge": "gpt54",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "augustine",
+      "question_id": 1,
+      "variant": "off_topic_generic",
+      "judge": "haiku",
+      "score": 4,
+      "raw": "4"
+    },
+    {
+      "subject": "augustine",
+      "question_id": 1,
+      "variant": "off_topic_generic",
+      "judge": "sonnet",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "augustine",
+      "question_id": 1,
+      "variant": "off_topic_generic",
+      "judge": "opus",
+      "score": 3,
+      "raw": "3"
+    },
+    {
+      "subject": "augustine",
+      "question_id": 1,
+      "variant": "off_topic_generic",
+      "judge": "gpt4o",
+      "score": 3,
+      "raw": "3"
+    },
+    {
+      "subject": "augustine",
+      "question_id": 1,
+      "variant": "off_topic_generic",
+      "judge": "gpt54",
+      "score": 4,
+      "raw": "4"
+    },
+    {
+      "subject": "augustine",
+      "question_id": 1,
+      "variant": "plausible_unsupported",
+      "judge": "haiku",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "augustine",
+      "question_id": 1,
+      "variant": "plausible_unsupported",
+      "judge": "sonnet",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "augustine",
+      "question_id": 1,
+      "variant": "plausible_unsupported",
+      "judge": "opus",
+      "score": 3,
+      "raw": "3"
+    },
+    {
+      "subject": "augustine",
+      "question_id": 1,
+      "variant": "plausible_unsupported",
+      "judge": "gpt4o",
+      "score": 3,
+      "raw": "3"
+    },
+    {
+      "subject": "augustine",
+      "question_id": 1,
+      "variant": "plausible_unsupported",
+      "judge": "gpt54",
+      "score": 4,
+      "raw": "4"
+    },
+    {
+      "subject": "augustine",
+      "question_id": 5,
+      "variant": "wrong_factual",
+      "judge": "haiku",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "augustine",
+      "question_id": 5,
+      "variant": "wrong_factual",
+      "judge": "sonnet",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "augustine",
+      "question_id": 5,
+      "variant": "wrong_factual",
+      "judge": "opus",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "augustine",
+      "question_id": 5,
+      "variant": "wrong_factual",
+      "judge": "gpt4o",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "augustine",
+      "question_id": 5,
+      "variant": "wrong_factual",
+      "judge": "gpt54",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "augustine",
+      "question_id": 5,
+      "variant": "wrong_direction",
+      "judge": "haiku",
+      "score": 1,
+      "raw": "1"
+    },
+    {
+      "subject": "augustine",
+      "question_id": 5,
+      "variant": "wrong_direction",
+      "judge": "sonnet",
+      "score": 1,
+      "raw": "1"
+    },
+    {
+      "subject": "augustine",
+      "question_id": 5,
+      "variant": "wrong_direction",
+      "judge": "opus",
+      "score": 1,
+      "raw": "1"
+    },
+    {
+      "subject": "augustine",
+      "question_id": 5,
+      "variant": "wrong_direction",
+      "judge": "gpt4o",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "augustine",
+      "question_id": 5,
+      "variant": "wrong_direction",
+      "judge": "gpt54",
+      "score": 1,
+      "raw": "1"
+    },
+    {
+      "subject": "augustine",
+      "question_id": 5,
+      "variant": "topically_adjacent",
+      "judge": "haiku",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "augustine",
+      "question_id": 5,
+      "variant": "topically_adjacent",
+      "judge": "sonnet",
+      "score": 1,
+      "raw": "1"
+    },
+    {
+      "subject": "augustine",
+      "question_id": 5,
+      "variant": "topically_adjacent",
+      "judge": "opus",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "augustine",
+      "question_id": 5,
+      "variant": "topically_adjacent",
+      "judge": "gpt4o",
+      "score": 3,
+      "raw": "3"
+    },
+    {
+      "subject": "augustine",
+      "question_id": 5,
+      "variant": "topically_adjacent",
+      "judge": "gpt54",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "augustine",
+      "question_id": 5,
+      "variant": "off_topic_generic",
+      "judge": "haiku",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "augustine",
+      "question_id": 5,
+      "variant": "off_topic_generic",
+      "judge": "sonnet",
+      "score": 1,
+      "raw": "1"
+    },
+    {
+      "subject": "augustine",
+      "question_id": 5,
+      "variant": "off_topic_generic",
+      "judge": "opus",
+      "score": 1,
+      "raw": "1"
+    },
+    {
+      "subject": "augustine",
+      "question_id": 5,
+      "variant": "off_topic_generic",
+      "judge": "gpt4o",
+      "score": 3,
+      "raw": "3"
+    },
+    {
+      "subject": "augustine",
+      "question_id": 5,
+      "variant": "off_topic_generic",
+      "judge": "gpt54",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "augustine",
+      "question_id": 5,
+      "variant": "plausible_unsupported",
+      "judge": "haiku",
+      "score": 4,
+      "raw": "4"
+    },
+    {
+      "subject": "augustine",
+      "question_id": 5,
+      "variant": "plausible_unsupported",
+      "judge": "sonnet",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "augustine",
+      "question_id": 5,
+      "variant": "plausible_unsupported",
+      "judge": "opus",
+      "score": 3,
+      "raw": "3"
+    },
+    {
+      "subject": "augustine",
+      "question_id": 5,
+      "variant": "plausible_unsupported",
+      "judge": "gpt4o",
+      "score": 3,
+      "raw": "3"
+    },
+    {
+      "subject": "augustine",
+      "question_id": 5,
+      "variant": "plausible_unsupported",
+      "judge": "gpt54",
+      "score": 4,
+      "raw": "4"
+    },
+    {
+      "subject": "keckley",
+      "question_id": 1,
+      "variant": "wrong_factual",
+      "judge": "haiku",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "keckley",
+      "question_id": 1,
+      "variant": "wrong_factual",
+      "judge": "sonnet",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "keckley",
+      "question_id": 1,
+      "variant": "wrong_factual",
+      "judge": "opus",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "keckley",
+      "question_id": 1,
+      "variant": "wrong_factual",
+      "judge": "gpt4o",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "keckley",
+      "question_id": 1,
+      "variant": "wrong_factual",
+      "judge": "gpt54",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "keckley",
+      "question_id": 1,
+      "variant": "wrong_direction",
+      "judge": "haiku",
+      "score": 1,
+      "raw": "1"
+    },
+    {
+      "subject": "keckley",
+      "question_id": 1,
+      "variant": "wrong_direction",
+      "judge": "sonnet",
+      "score": 1,
+      "raw": "1"
+    },
+    {
+      "subject": "keckley",
+      "question_id": 1,
+      "variant": "wrong_direction",
+      "judge": "opus",
+      "score": 1,
+      "raw": "1"
+    },
+    {
+      "subject": "keckley",
+      "question_id": 1,
+      "variant": "wrong_direction",
+      "judge": "gpt4o",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "keckley",
+      "question_id": 1,
+      "variant": "wrong_direction",
+      "judge": "gpt54",
+      "score": 1,
+      "raw": "1"
+    },
+    {
+      "subject": "keckley",
+      "question_id": 1,
+      "variant": "topically_adjacent",
+      "judge": "haiku",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "keckley",
+      "question_id": 1,
+      "variant": "topically_adjacent",
+      "judge": "sonnet",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "keckley",
+      "question_id": 1,
+      "variant": "topically_adjacent",
+      "judge": "opus",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "keckley",
+      "question_id": 1,
+      "variant": "topically_adjacent",
+      "judge": "gpt4o",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "keckley",
+      "question_id": 1,
+      "variant": "topically_adjacent",
+      "judge": "gpt54",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "keckley",
+      "question_id": 1,
+      "variant": "off_topic_generic",
+      "judge": "haiku",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "keckley",
+      "question_id": 1,
+      "variant": "off_topic_generic",
+      "judge": "sonnet",
+      "score": 1,
+      "raw": "1"
+    },
+    {
+      "subject": "keckley",
+      "question_id": 1,
+      "variant": "off_topic_generic",
+      "judge": "opus",
+      "score": 1,
+      "raw": "1"
+    },
+    {
+      "subject": "keckley",
+      "question_id": 1,
+      "variant": "off_topic_generic",
+      "judge": "gpt4o",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "keckley",
+      "question_id": 1,
+      "variant": "off_topic_generic",
+      "judge": "gpt54",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "keckley",
+      "question_id": 1,
+      "variant": "plausible_unsupported",
+      "judge": "haiku",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "keckley",
+      "question_id": 1,
+      "variant": "plausible_unsupported",
+      "judge": "sonnet",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "keckley",
+      "question_id": 1,
+      "variant": "plausible_unsupported",
+      "judge": "opus",
+      "score": 3,
+      "raw": "3"
+    },
+    {
+      "subject": "keckley",
+      "question_id": 1,
+      "variant": "plausible_unsupported",
+      "judge": "gpt4o",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "keckley",
+      "question_id": 1,
+      "variant": "plausible_unsupported",
+      "judge": "gpt54",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "keckley",
+      "question_id": 10,
+      "variant": "wrong_factual",
+      "judge": "haiku",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "keckley",
+      "question_id": 10,
+      "variant": "wrong_factual",
+      "judge": "sonnet",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "keckley",
+      "question_id": 10,
+      "variant": "wrong_factual",
+      "judge": "opus",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "keckley",
+      "question_id": 10,
+      "variant": "wrong_factual",
+      "judge": "gpt4o",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "keckley",
+      "question_id": 10,
+      "variant": "wrong_factual",
+      "judge": "gpt54",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "keckley",
+      "question_id": 10,
+      "variant": "wrong_direction",
+      "judge": "haiku",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "keckley",
+      "question_id": 10,
+      "variant": "wrong_direction",
+      "judge": "sonnet",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "keckley",
+      "question_id": 10,
+      "variant": "wrong_direction",
+      "judge": "opus",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "keckley",
+      "question_id": 10,
+      "variant": "wrong_direction",
+      "judge": "gpt4o",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "keckley",
+      "question_id": 10,
+      "variant": "wrong_direction",
+      "judge": "gpt54",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "keckley",
+      "question_id": 10,
+      "variant": "topically_adjacent",
+      "judge": "haiku",
+      "score": 5,
+      "raw": "5"
+    },
+    {
+      "subject": "keckley",
+      "question_id": 10,
+      "variant": "topically_adjacent",
+      "judge": "sonnet",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "keckley",
+      "question_id": 10,
+      "variant": "topically_adjacent",
+      "judge": "opus",
+      "score": 3,
+      "raw": "3"
+    },
+    {
+      "subject": "keckley",
+      "question_id": 10,
+      "variant": "topically_adjacent",
+      "judge": "gpt4o",
+      "score": 3,
+      "raw": "3"
+    },
+    {
+      "subject": "keckley",
+      "question_id": 10,
+      "variant": "topically_adjacent",
+      "judge": "gpt54",
+      "score": 3,
+      "raw": "3"
+    },
+    {
+      "subject": "keckley",
+      "question_id": 10,
+      "variant": "off_topic_generic",
+      "judge": "haiku",
+      "score": 4,
+      "raw": "4"
+    },
+    {
+      "subject": "keckley",
+      "question_id": 10,
+      "variant": "off_topic_generic",
+      "judge": "sonnet",
+      "score": 1,
+      "raw": "1"
+    },
+    {
+      "subject": "keckley",
+      "question_id": 10,
+      "variant": "off_topic_generic",
+      "judge": "opus",
+      "score": 3,
+      "raw": "3"
+    },
+    {
+      "subject": "keckley",
+      "question_id": 10,
+      "variant": "off_topic_generic",
+      "judge": "gpt4o",
+      "score": 3,
+      "raw": "3"
+    },
+    {
+      "subject": "keckley",
+      "question_id": 10,
+      "variant": "off_topic_generic",
+      "judge": "gpt54",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "keckley",
+      "question_id": 10,
+      "variant": "plausible_unsupported",
+      "judge": "haiku",
+      "score": 5,
+      "raw": "5"
+    },
+    {
+      "subject": "keckley",
+      "question_id": 10,
+      "variant": "plausible_unsupported",
+      "judge": "sonnet",
+      "score": 3,
+      "raw": "3"
+    },
+    {
+      "subject": "keckley",
+      "question_id": 10,
+      "variant": "plausible_unsupported",
+      "judge": "opus",
+      "score": 4,
+      "raw": "4"
+    },
+    {
+      "subject": "keckley",
+      "question_id": 10,
+      "variant": "plausible_unsupported",
+      "judge": "gpt4o",
+      "score": 4,
+      "raw": "4"
+    },
+    {
+      "subject": "keckley",
+      "question_id": 10,
+      "variant": "plausible_unsupported",
+      "judge": "gpt54",
+      "score": 4,
+      "raw": "4"
+    },
+    {
+      "subject": "yung_wing",
+      "question_id": 2,
+      "variant": "wrong_factual",
+      "judge": "haiku",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "yung_wing",
+      "question_id": 2,
+      "variant": "wrong_factual",
+      "judge": "sonnet",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "yung_wing",
+      "question_id": 2,
+      "variant": "wrong_factual",
+      "judge": "opus",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "yung_wing",
+      "question_id": 2,
+      "variant": "wrong_factual",
+      "judge": "gpt4o",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "yung_wing",
+      "question_id": 2,
+      "variant": "wrong_factual",
+      "judge": "gpt54",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "yung_wing",
+      "question_id": 2,
+      "variant": "wrong_direction",
+      "judge": "haiku",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "yung_wing",
+      "question_id": 2,
+      "variant": "wrong_direction",
+      "judge": "sonnet",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "yung_wing",
+      "question_id": 2,
+      "variant": "wrong_direction",
+      "judge": "opus",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "yung_wing",
+      "question_id": 2,
+      "variant": "wrong_direction",
+      "judge": "gpt4o",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "yung_wing",
+      "question_id": 2,
+      "variant": "wrong_direction",
+      "judge": "gpt54",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "yung_wing",
+      "question_id": 2,
+      "variant": "topically_adjacent",
+      "judge": "haiku",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "yung_wing",
+      "question_id": 2,
+      "variant": "topically_adjacent",
+      "judge": "sonnet",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "yung_wing",
+      "question_id": 2,
+      "variant": "topically_adjacent",
+      "judge": "opus",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "yung_wing",
+      "question_id": 2,
+      "variant": "topically_adjacent",
+      "judge": "gpt4o",
+      "score": 3,
+      "raw": "3"
+    },
+    {
+      "subject": "yung_wing",
+      "question_id": 2,
+      "variant": "topically_adjacent",
+      "judge": "gpt54",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "yung_wing",
+      "question_id": 2,
+      "variant": "off_topic_generic",
+      "judge": "haiku",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "yung_wing",
+      "question_id": 2,
+      "variant": "off_topic_generic",
+      "judge": "sonnet",
+      "score": 1,
+      "raw": "1"
+    },
+    {
+      "subject": "yung_wing",
+      "question_id": 2,
+      "variant": "off_topic_generic",
+      "judge": "opus",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "yung_wing",
+      "question_id": 2,
+      "variant": "off_topic_generic",
+      "judge": "gpt4o",
+      "score": 3,
+      "raw": "3"
+    },
+    {
+      "subject": "yung_wing",
+      "question_id": 2,
+      "variant": "off_topic_generic",
+      "judge": "gpt54",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "yung_wing",
+      "question_id": 2,
+      "variant": "plausible_unsupported",
+      "judge": "haiku",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "yung_wing",
+      "question_id": 2,
+      "variant": "plausible_unsupported",
+      "judge": "sonnet",
+      "score": 1,
+      "raw": "1"
+    },
+    {
+      "subject": "yung_wing",
+      "question_id": 2,
+      "variant": "plausible_unsupported",
+      "judge": "opus",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "yung_wing",
+      "question_id": 2,
+      "variant": "plausible_unsupported",
+      "judge": "gpt4o",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "yung_wing",
+      "question_id": 2,
+      "variant": "plausible_unsupported",
+      "judge": "gpt54",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "yung_wing",
+      "question_id": 12,
+      "variant": "wrong_factual",
+      "judge": "haiku",
+      "score": 1,
+      "raw": "1"
+    },
+    {
+      "subject": "yung_wing",
+      "question_id": 12,
+      "variant": "wrong_factual",
+      "judge": "sonnet",
+      "score": 1,
+      "raw": "1"
+    },
+    {
+      "subject": "yung_wing",
+      "question_id": 12,
+      "variant": "wrong_factual",
+      "judge": "opus",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "yung_wing",
+      "question_id": 12,
+      "variant": "wrong_factual",
+      "judge": "gpt4o",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "yung_wing",
+      "question_id": 12,
+      "variant": "wrong_factual",
+      "judge": "gpt54",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "yung_wing",
+      "question_id": 12,
+      "variant": "wrong_direction",
+      "judge": "haiku",
+      "score": 1,
+      "raw": "1"
+    },
+    {
+      "subject": "yung_wing",
+      "question_id": 12,
+      "variant": "wrong_direction",
+      "judge": "sonnet",
+      "score": 1,
+      "raw": "1"
+    },
+    {
+      "subject": "yung_wing",
+      "question_id": 12,
+      "variant": "wrong_direction",
+      "judge": "opus",
+      "score": 1,
+      "raw": "1"
+    },
+    {
+      "subject": "yung_wing",
+      "question_id": 12,
+      "variant": "wrong_direction",
+      "judge": "gpt4o",
+      "score": 1,
+      "raw": "1"
+    },
+    {
+      "subject": "yung_wing",
+      "question_id": 12,
+      "variant": "wrong_direction",
+      "judge": "gpt54",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "yung_wing",
+      "question_id": 12,
+      "variant": "topically_adjacent",
+      "judge": "haiku",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "yung_wing",
+      "question_id": 12,
+      "variant": "topically_adjacent",
+      "judge": "sonnet",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "yung_wing",
+      "question_id": 12,
+      "variant": "topically_adjacent",
+      "judge": "opus",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "yung_wing",
+      "question_id": 12,
+      "variant": "topically_adjacent",
+      "judge": "gpt4o",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "yung_wing",
+      "question_id": 12,
+      "variant": "topically_adjacent",
+      "judge": "gpt54",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "yung_wing",
+      "question_id": 12,
+      "variant": "off_topic_generic",
+      "judge": "haiku",
+      "score": 4,
+      "raw": "4"
+    },
+    {
+      "subject": "yung_wing",
+      "question_id": 12,
+      "variant": "off_topic_generic",
+      "judge": "sonnet",
+      "score": 1,
+      "raw": "1"
+    },
+    {
+      "subject": "yung_wing",
+      "question_id": 12,
+      "variant": "off_topic_generic",
+      "judge": "opus",
+      "score": 3,
+      "raw": "3"
+    },
+    {
+      "subject": "yung_wing",
+      "question_id": 12,
+      "variant": "off_topic_generic",
+      "judge": "gpt4o",
+      "score": 3,
+      "raw": "3"
+    },
+    {
+      "subject": "yung_wing",
+      "question_id": 12,
+      "variant": "off_topic_generic",
+      "judge": "gpt54",
+      "score": 1,
+      "raw": "1"
+    },
+    {
+      "subject": "yung_wing",
+      "question_id": 12,
+      "variant": "plausible_unsupported",
+      "judge": "haiku",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "yung_wing",
+      "question_id": 12,
+      "variant": "plausible_unsupported",
+      "judge": "sonnet",
+      "score": 4,
+      "raw": "4"
+    },
+    {
+      "subject": "yung_wing",
+      "question_id": 12,
+      "variant": "plausible_unsupported",
+      "judge": "opus",
+      "score": 3,
+      "raw": "3"
+    },
+    {
+      "subject": "yung_wing",
+      "question_id": 12,
+      "variant": "plausible_unsupported",
+      "judge": "gpt4o",
+      "score": 3,
+      "raw": "3"
+    },
+    {
+      "subject": "yung_wing",
+      "question_id": 12,
+      "variant": "plausible_unsupported",
+      "judge": "gpt54",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "babur",
+      "question_id": 1,
+      "variant": "wrong_factual",
+      "judge": "haiku",
+      "score": 1,
+      "raw": "1"
+    },
+    {
+      "subject": "babur",
+      "question_id": 1,
+      "variant": "wrong_factual",
+      "judge": "sonnet",
+      "score": 1,
+      "raw": "1"
+    },
+    {
+      "subject": "babur",
+      "question_id": 1,
+      "variant": "wrong_factual",
+      "judge": "opus",
+      "score": 1,
+      "raw": "1"
+    },
+    {
+      "subject": "babur",
+      "question_id": 1,
+      "variant": "wrong_factual",
+      "judge": "gpt4o",
+      "score": 1,
+      "raw": "1"
+    },
+    {
+      "subject": "babur",
+      "question_id": 1,
+      "variant": "wrong_factual",
+      "judge": "gpt54",
+      "score": 1,
+      "raw": "1"
+    },
+    {
+      "subject": "babur",
+      "question_id": 1,
+      "variant": "wrong_direction",
+      "judge": "haiku",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "babur",
+      "question_id": 1,
+      "variant": "wrong_direction",
+      "judge": "sonnet",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "babur",
+      "question_id": 1,
+      "variant": "wrong_direction",
+      "judge": "opus",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "babur",
+      "question_id": 1,
+      "variant": "wrong_direction",
+      "judge": "gpt4o",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "babur",
+      "question_id": 1,
+      "variant": "wrong_direction",
+      "judge": "gpt54",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "babur",
+      "question_id": 1,
+      "variant": "topically_adjacent",
+      "judge": "haiku",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "babur",
+      "question_id": 1,
+      "variant": "topically_adjacent",
+      "judge": "sonnet",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "babur",
+      "question_id": 1,
+      "variant": "topically_adjacent",
+      "judge": "opus",
+      "score": 3,
+      "raw": "3"
+    },
+    {
+      "subject": "babur",
+      "question_id": 1,
+      "variant": "topically_adjacent",
+      "judge": "gpt4o",
+      "score": 3,
+      "raw": "3"
+    },
+    {
+      "subject": "babur",
+      "question_id": 1,
+      "variant": "topically_adjacent",
+      "judge": "gpt54",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "babur",
+      "question_id": 1,
+      "variant": "off_topic_generic",
+      "judge": "haiku",
+      "score": 1,
+      "raw": "1"
+    },
+    {
+      "subject": "babur",
+      "question_id": 1,
+      "variant": "off_topic_generic",
+      "judge": "sonnet",
+      "score": 1,
+      "raw": "1"
+    },
+    {
+      "subject": "babur",
+      "question_id": 1,
+      "variant": "off_topic_generic",
+      "judge": "opus",
+      "score": 1,
+      "raw": "1"
+    },
+    {
+      "subject": "babur",
+      "question_id": 1,
+      "variant": "off_topic_generic",
+      "judge": "gpt4o",
+      "score": 3,
+      "raw": "3"
+    },
+    {
+      "subject": "babur",
+      "question_id": 1,
+      "variant": "off_topic_generic",
+      "judge": "gpt54",
+      "score": 1,
+      "raw": "1"
+    },
+    {
+      "subject": "babur",
+      "question_id": 1,
+      "variant": "plausible_unsupported",
+      "judge": "haiku",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "babur",
+      "question_id": 1,
+      "variant": "plausible_unsupported",
+      "judge": "sonnet",
+      "score": 3,
+      "raw": "3"
+    },
+    {
+      "subject": "babur",
+      "question_id": 1,
+      "variant": "plausible_unsupported",
+      "judge": "opus",
+      "score": 3,
+      "raw": "3"
+    },
+    {
+      "subject": "babur",
+      "question_id": 1,
+      "variant": "plausible_unsupported",
+      "judge": "gpt4o",
+      "score": 3,
+      "raw": "3"
+    },
+    {
+      "subject": "babur",
+      "question_id": 1,
+      "variant": "plausible_unsupported",
+      "judge": "gpt54",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "babur",
+      "question_id": 7,
+      "variant": "wrong_factual",
+      "judge": "haiku",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "babur",
+      "question_id": 7,
+      "variant": "wrong_factual",
+      "judge": "sonnet",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "babur",
+      "question_id": 7,
+      "variant": "wrong_factual",
+      "judge": "opus",
+      "score": 3,
+      "raw": "3"
+    },
+    {
+      "subject": "babur",
+      "question_id": 7,
+      "variant": "wrong_factual",
+      "judge": "gpt4o",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "babur",
+      "question_id": 7,
+      "variant": "wrong_factual",
+      "judge": "gpt54",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "babur",
+      "question_id": 7,
+      "variant": "wrong_direction",
+      "judge": "haiku",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "babur",
+      "question_id": 7,
+      "variant": "wrong_direction",
+      "judge": "sonnet",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "babur",
+      "question_id": 7,
+      "variant": "wrong_direction",
+      "judge": "opus",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "babur",
+      "question_id": 7,
+      "variant": "wrong_direction",
+      "judge": "gpt4o",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "babur",
+      "question_id": 7,
+      "variant": "wrong_direction",
+      "judge": "gpt54",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "babur",
+      "question_id": 7,
+      "variant": "topically_adjacent",
+      "judge": "haiku",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "babur",
+      "question_id": 7,
+      "variant": "topically_adjacent",
+      "judge": "sonnet",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "babur",
+      "question_id": 7,
+      "variant": "topically_adjacent",
+      "judge": "opus",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "babur",
+      "question_id": 7,
+      "variant": "topically_adjacent",
+      "judge": "gpt4o",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "babur",
+      "question_id": 7,
+      "variant": "topically_adjacent",
+      "judge": "gpt54",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "babur",
+      "question_id": 7,
+      "variant": "off_topic_generic",
+      "judge": "haiku",
+      "score": 1,
+      "raw": "1"
+    },
+    {
+      "subject": "babur",
+      "question_id": 7,
+      "variant": "off_topic_generic",
+      "judge": "sonnet",
+      "score": 1,
+      "raw": "1"
+    },
+    {
+      "subject": "babur",
+      "question_id": 7,
+      "variant": "off_topic_generic",
+      "judge": "opus",
+      "score": 1,
+      "raw": "1"
+    },
+    {
+      "subject": "babur",
+      "question_id": 7,
+      "variant": "off_topic_generic",
+      "judge": "gpt4o",
+      "score": 3,
+      "raw": "3"
+    },
+    {
+      "subject": "babur",
+      "question_id": 7,
+      "variant": "off_topic_generic",
+      "judge": "gpt54",
+      "score": 3,
+      "raw": "3"
+    },
+    {
+      "subject": "babur",
+      "question_id": 7,
+      "variant": "plausible_unsupported",
+      "judge": "haiku",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "babur",
+      "question_id": 7,
+      "variant": "plausible_unsupported",
+      "judge": "sonnet",
+      "score": 3,
+      "raw": "3"
+    },
+    {
+      "subject": "babur",
+      "question_id": 7,
+      "variant": "plausible_unsupported",
+      "judge": "opus",
+      "score": 4,
+      "raw": "4"
+    },
+    {
+      "subject": "babur",
+      "question_id": 7,
+      "variant": "plausible_unsupported",
+      "judge": "gpt4o",
+      "score": 2,
+      "raw": "2"
+    },
+    {
+      "subject": "babur",
+      "question_id": 7,
+      "variant": "plausible_unsupported",
+      "judge": "gpt54",
+      "score": 2,
+      "raw": "2"
+    }
+  ]
+}

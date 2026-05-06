@@ -1,0 +1,1478 @@
+[
+  {
+    "subject": "ebers",
+    "spec_tag_count": 17,
+    "anchor_count": 10,
+    "prediction_count": 7,
+    "per_condition": {
+      "C5_baseline": {
+        "n_responses": 39,
+        "n_cited": 0,
+        "citation_rate": 0.0,
+        "avg_citations_per_cited_response": 0,
+        "distinct_tags_used": 0,
+        "top_5_tags": []
+      },
+      "C2a_full_spec": {
+        "n_responses": 39,
+        "n_cited": 24,
+        "citation_rate": 0.6153846153846154,
+        "avg_citations_per_cited_response": 4.833333333333333,
+        "distinct_tags_used": 16,
+        "top_5_tags": [
+          [
+            [
+              "A",
+              "7"
+            ],
+            12
+          ],
+          [
+            [
+              "A",
+              "8"
+            ],
+            12
+          ],
+          [
+            [
+              "A",
+              "10"
+            ],
+            10
+          ],
+          [
+            [
+              "P",
+              "1"
+            ],
+            10
+          ],
+          [
+            [
+              "A",
+              "5"
+            ],
+            8
+          ]
+        ]
+      },
+      "C2c_wrong_spec": {
+        "n_responses": 39,
+        "n_cited": 27,
+        "citation_rate": 0.6923076923076923,
+        "avg_citations_per_cited_response": 4.185185185185185,
+        "distinct_tags_used": 16,
+        "top_5_tags": [
+          [
+            [
+              "A",
+              "4"
+            ],
+            13
+          ],
+          [
+            [
+              "A",
+              "7"
+            ],
+            13
+          ],
+          [
+            [
+              "P",
+              "3"
+            ],
+            11
+          ],
+          [
+            [
+              "A",
+              "9"
+            ],
+            9
+          ],
+          [
+            [
+              "P",
+              "1"
+            ],
+            8
+          ]
+        ]
+      },
+      "C4_factdump": {
+        "n_responses": 39,
+        "n_cited": 0,
+        "citation_rate": 0.0,
+        "avg_citations_per_cited_response": 0,
+        "distinct_tags_used": 0,
+        "top_5_tags": []
+      },
+      "C4a_full_facts_plus_spec": {
+        "n_responses": 39,
+        "n_cited": 26,
+        "citation_rate": 0.6666666666666666,
+        "avg_citations_per_cited_response": 3.3461538461538463,
+        "distinct_tags_used": 16,
+        "top_5_tags": [
+          [
+            [
+              "A",
+              "7"
+            ],
+            14
+          ],
+          [
+            [
+              "A",
+              "10"
+            ],
+            9
+          ],
+          [
+            [
+              "A",
+              "5"
+            ],
+            9
+          ],
+          [
+            [
+              "A",
+              "3"
+            ],
+            7
+          ],
+          [
+            [
+              "A",
+              "4"
+            ],
+            6
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "subject": "sunity_devee",
+    "spec_tag_count": 17,
+    "anchor_count": 10,
+    "prediction_count": 7,
+    "per_condition": {
+      "C5_baseline": {
+        "n_responses": 39,
+        "n_cited": 0,
+        "citation_rate": 0.0,
+        "avg_citations_per_cited_response": 0,
+        "distinct_tags_used": 0,
+        "top_5_tags": []
+      },
+      "C2a_full_spec": {
+        "n_responses": 39,
+        "n_cited": 34,
+        "citation_rate": 0.8717948717948718,
+        "avg_citations_per_cited_response": 4.4411764705882355,
+        "distinct_tags_used": 17,
+        "top_5_tags": [
+          [
+            [
+              "A",
+              "5"
+            ],
+            26
+          ],
+          [
+            [
+              "A",
+              "2"
+            ],
+            18
+          ],
+          [
+            [
+              "A",
+              "1"
+            ],
+            14
+          ],
+          [
+            [
+              "A",
+              "3"
+            ],
+            13
+          ],
+          [
+            [
+              "A",
+              "4"
+            ],
+            12
+          ]
+        ]
+      },
+      "C2c_wrong_spec": {
+        "n_responses": 39,
+        "n_cited": 21,
+        "citation_rate": 0.5384615384615384,
+        "avg_citations_per_cited_response": 2.761904761904762,
+        "distinct_tags_used": 14,
+        "top_5_tags": [
+          [
+            [
+              "A",
+              "10"
+            ],
+            12
+          ],
+          [
+            [
+              "A",
+              "8"
+            ],
+            8
+          ],
+          [
+            [
+              "A",
+              "4"
+            ],
+            6
+          ],
+          [
+            [
+              "A",
+              "1"
+            ],
+            6
+          ],
+          [
+            [
+              "A",
+              "5"
+            ],
+            5
+          ]
+        ]
+      },
+      "C4_factdump": {
+        "n_responses": 39,
+        "n_cited": 0,
+        "citation_rate": 0.0,
+        "avg_citations_per_cited_response": 0,
+        "distinct_tags_used": 0,
+        "top_5_tags": []
+      },
+      "C4a_full_facts_plus_spec": {
+        "n_responses": 39,
+        "n_cited": 29,
+        "citation_rate": 0.7435897435897436,
+        "avg_citations_per_cited_response": 3.1724137931034484,
+        "distinct_tags_used": 13,
+        "top_5_tags": [
+          [
+            [
+              "A",
+              "5"
+            ],
+            20
+          ],
+          [
+            [
+              "A",
+              "1"
+            ],
+            16
+          ],
+          [
+            [
+              "A",
+              "4"
+            ],
+            14
+          ],
+          [
+            [
+              "A",
+              "2"
+            ],
+            13
+          ],
+          [
+            [
+              "A",
+              "3"
+            ],
+            7
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "subject": "fukuzawa",
+    "spec_tag_count": 17,
+    "anchor_count": 10,
+    "prediction_count": 7,
+    "per_condition": {
+      "C5_baseline": {
+        "n_responses": 39,
+        "n_cited": 0,
+        "citation_rate": 0.0,
+        "avg_citations_per_cited_response": 0,
+        "distinct_tags_used": 0,
+        "top_5_tags": []
+      },
+      "C2a_full_spec": {
+        "n_responses": 39,
+        "n_cited": 37,
+        "citation_rate": 0.9487179487179487,
+        "avg_citations_per_cited_response": 4.1891891891891895,
+        "distinct_tags_used": 17,
+        "top_5_tags": [
+          [
+            [
+              "A",
+              "4"
+            ],
+            22
+          ],
+          [
+            [
+              "A",
+              "3"
+            ],
+            18
+          ],
+          [
+            [
+              "A",
+              "8"
+            ],
+            16
+          ],
+          [
+            [
+              "A",
+              "6"
+            ],
+            14
+          ],
+          [
+            [
+              "A",
+              "7"
+            ],
+            14
+          ]
+        ]
+      },
+      "C2c_wrong_spec": {
+        "n_responses": 39,
+        "n_cited": 9,
+        "citation_rate": 0.23076923076923078,
+        "avg_citations_per_cited_response": 3.3333333333333335,
+        "distinct_tags_used": 11,
+        "top_5_tags": [
+          [
+            [
+              "A",
+              "3"
+            ],
+            8
+          ],
+          [
+            [
+              "A",
+              "9"
+            ],
+            6
+          ],
+          [
+            [
+              "A",
+              "2"
+            ],
+            4
+          ],
+          [
+            [
+              "A",
+              "4"
+            ],
+            3
+          ],
+          [
+            [
+              "A",
+              "10"
+            ],
+            2
+          ]
+        ]
+      },
+      "C4_factdump": {
+        "n_responses": 39,
+        "n_cited": 0,
+        "citation_rate": 0.0,
+        "avg_citations_per_cited_response": 0,
+        "distinct_tags_used": 0,
+        "top_5_tags": []
+      },
+      "C4a_full_facts_plus_spec": {
+        "n_responses": 39,
+        "n_cited": 33,
+        "citation_rate": 0.8461538461538461,
+        "avg_citations_per_cited_response": 3.1818181818181817,
+        "distinct_tags_used": 12,
+        "top_5_tags": [
+          [
+            [
+              "A",
+              "4"
+            ],
+            17
+          ],
+          [
+            [
+              "A",
+              "6"
+            ],
+            17
+          ],
+          [
+            [
+              "A",
+              "8"
+            ],
+            12
+          ],
+          [
+            [
+              "A",
+              "2"
+            ],
+            12
+          ],
+          [
+            [
+              "A",
+              "3"
+            ],
+            12
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "subject": "bernal_diaz",
+    "spec_tag_count": 18,
+    "anchor_count": 10,
+    "prediction_count": 8,
+    "per_condition": {
+      "C5_baseline": {
+        "n_responses": 39,
+        "n_cited": 0,
+        "citation_rate": 0.0,
+        "avg_citations_per_cited_response": 0,
+        "distinct_tags_used": 0,
+        "top_5_tags": []
+      },
+      "C2a_full_spec": {
+        "n_responses": 39,
+        "n_cited": 31,
+        "citation_rate": 0.7948717948717948,
+        "avg_citations_per_cited_response": 3.806451612903226,
+        "distinct_tags_used": 18,
+        "top_5_tags": [
+          [
+            [
+              "A",
+              "4"
+            ],
+            15
+          ],
+          [
+            [
+              "A",
+              "3"
+            ],
+            14
+          ],
+          [
+            [
+              "A",
+              "5"
+            ],
+            11
+          ],
+          [
+            [
+              "A",
+              "1"
+            ],
+            9
+          ],
+          [
+            [
+              "P",
+              "4"
+            ],
+            8
+          ]
+        ]
+      },
+      "C2c_wrong_spec": {
+        "n_responses": 39,
+        "n_cited": 34,
+        "citation_rate": 0.8717948717948718,
+        "avg_citations_per_cited_response": 4.352941176470588,
+        "distinct_tags_used": 15,
+        "top_5_tags": [
+          [
+            [
+              "A",
+              "4"
+            ],
+            25
+          ],
+          [
+            [
+              "A",
+              "1"
+            ],
+            19
+          ],
+          [
+            [
+              "A",
+              "8"
+            ],
+            16
+          ],
+          [
+            [
+              "A",
+              "5"
+            ],
+            11
+          ],
+          [
+            [
+              "P",
+              "1"
+            ],
+            11
+          ]
+        ]
+      },
+      "C4_factdump": {
+        "n_responses": 39,
+        "n_cited": 0,
+        "citation_rate": 0.0,
+        "avg_citations_per_cited_response": 0,
+        "distinct_tags_used": 0,
+        "top_5_tags": []
+      },
+      "C4a_full_facts_plus_spec": {
+        "n_responses": 39,
+        "n_cited": 27,
+        "citation_rate": 0.6923076923076923,
+        "avg_citations_per_cited_response": 2.6296296296296298,
+        "distinct_tags_used": 16,
+        "top_5_tags": [
+          [
+            [
+              "A",
+              "3"
+            ],
+            14
+          ],
+          [
+            [
+              "A",
+              "4"
+            ],
+            11
+          ],
+          [
+            [
+              "A",
+              "5"
+            ],
+            9
+          ],
+          [
+            [
+              "A",
+              "8"
+            ],
+            7
+          ],
+          [
+            [
+              "A",
+              "1"
+            ],
+            6
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "subject": "babur",
+    "spec_tag_count": 17,
+    "anchor_count": 10,
+    "prediction_count": 7,
+    "per_condition": {
+      "C5_baseline": {
+        "n_responses": 39,
+        "n_cited": 0,
+        "citation_rate": 0.0,
+        "avg_citations_per_cited_response": 0,
+        "distinct_tags_used": 0,
+        "top_5_tags": []
+      },
+      "C2a_full_spec": {
+        "n_responses": 39,
+        "n_cited": 33,
+        "citation_rate": 0.8461538461538461,
+        "avg_citations_per_cited_response": 5.545454545454546,
+        "distinct_tags_used": 17,
+        "top_5_tags": [
+          [
+            [
+              "A",
+              "10"
+            ],
+            23
+          ],
+          [
+            [
+              "A",
+              "2"
+            ],
+            20
+          ],
+          [
+            [
+              "A",
+              "6"
+            ],
+            16
+          ],
+          [
+            [
+              "A",
+              "3"
+            ],
+            15
+          ],
+          [
+            [
+              "P",
+              "4"
+            ],
+            15
+          ]
+        ]
+      },
+      "C2c_wrong_spec": {
+        "n_responses": 39,
+        "n_cited": 10,
+        "citation_rate": 0.2564102564102564,
+        "avg_citations_per_cited_response": 4.0,
+        "distinct_tags_used": 15,
+        "top_5_tags": [
+          [
+            [
+              "A",
+              "4"
+            ],
+            8
+          ],
+          [
+            [
+              "A",
+              "7"
+            ],
+            5
+          ],
+          [
+            [
+              "P",
+              "7"
+            ],
+            4
+          ],
+          [
+            [
+              "P",
+              "5"
+            ],
+            3
+          ],
+          [
+            [
+              "A",
+              "3"
+            ],
+            3
+          ]
+        ]
+      },
+      "C4_factdump": {
+        "n_responses": 39,
+        "n_cited": 0,
+        "citation_rate": 0.0,
+        "avg_citations_per_cited_response": 0,
+        "distinct_tags_used": 0,
+        "top_5_tags": []
+      },
+      "C4a_full_facts_plus_spec": {
+        "n_responses": 39,
+        "n_cited": 31,
+        "citation_rate": 0.7948717948717948,
+        "avg_citations_per_cited_response": 2.5806451612903225,
+        "distinct_tags_used": 12,
+        "top_5_tags": [
+          [
+            [
+              "A",
+              "10"
+            ],
+            14
+          ],
+          [
+            [
+              "A",
+              "6"
+            ],
+            13
+          ],
+          [
+            [
+              "A",
+              "7"
+            ],
+            10
+          ],
+          [
+            [
+              "A",
+              "2"
+            ],
+            9
+          ],
+          [
+            [
+              "A",
+              "5"
+            ],
+            7
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "subject": "seacole",
+    "spec_tag_count": 16,
+    "anchor_count": 9,
+    "prediction_count": 7,
+    "per_condition": {
+      "C5_baseline": {
+        "n_responses": 39,
+        "n_cited": 0,
+        "citation_rate": 0.0,
+        "avg_citations_per_cited_response": 0,
+        "distinct_tags_used": 0,
+        "top_5_tags": []
+      },
+      "C2a_full_spec": {
+        "n_responses": 39,
+        "n_cited": 24,
+        "citation_rate": 0.6153846153846154,
+        "avg_citations_per_cited_response": 4.083333333333333,
+        "distinct_tags_used": 16,
+        "top_5_tags": [
+          [
+            [
+              "A",
+              "4"
+            ],
+            16
+          ],
+          [
+            [
+              "A",
+              "2"
+            ],
+            13
+          ],
+          [
+            [
+              "A",
+              "8"
+            ],
+            10
+          ],
+          [
+            [
+              "P",
+              "7"
+            ],
+            10
+          ],
+          [
+            [
+              "A",
+              "1"
+            ],
+            7
+          ]
+        ]
+      },
+      "C2c_wrong_spec": {
+        "n_responses": 39,
+        "n_cited": 7,
+        "citation_rate": 0.1794871794871795,
+        "avg_citations_per_cited_response": 4.428571428571429,
+        "distinct_tags_used": 12,
+        "top_5_tags": [
+          [
+            [
+              "A",
+              "4"
+            ],
+            5
+          ],
+          [
+            [
+              "A",
+              "3"
+            ],
+            4
+          ],
+          [
+            [
+              "A",
+              "8"
+            ],
+            3
+          ],
+          [
+            [
+              "A",
+              "9"
+            ],
+            3
+          ],
+          [
+            [
+              "A",
+              "1"
+            ],
+            3
+          ]
+        ]
+      },
+      "C4_factdump": {
+        "n_responses": 39,
+        "n_cited": 0,
+        "citation_rate": 0.0,
+        "avg_citations_per_cited_response": 0,
+        "distinct_tags_used": 0,
+        "top_5_tags": []
+      },
+      "C4a_full_facts_plus_spec": {
+        "n_responses": 39,
+        "n_cited": 28,
+        "citation_rate": 0.717948717948718,
+        "avg_citations_per_cited_response": 2.75,
+        "distinct_tags_used": 16,
+        "top_5_tags": [
+          [
+            [
+              "A",
+              "4"
+            ],
+            14
+          ],
+          [
+            [
+              "A",
+              "8"
+            ],
+            12
+          ],
+          [
+            [
+              "A",
+              "2"
+            ],
+            10
+          ],
+          [
+            [
+              "A",
+              "1"
+            ],
+            7
+          ],
+          [
+            [
+              "A",
+              "5"
+            ],
+            6
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "subject": "keckley",
+    "spec_tag_count": 17,
+    "anchor_count": 10,
+    "prediction_count": 7,
+    "per_condition": {
+      "C5_baseline": {
+        "n_responses": 39,
+        "n_cited": 0,
+        "citation_rate": 0.0,
+        "avg_citations_per_cited_response": 0,
+        "distinct_tags_used": 0,
+        "top_5_tags": []
+      },
+      "C2a_full_spec": {
+        "n_responses": 39,
+        "n_cited": 33,
+        "citation_rate": 0.8461538461538461,
+        "avg_citations_per_cited_response": 5.545454545454546,
+        "distinct_tags_used": 17,
+        "top_5_tags": [
+          [
+            [
+              "A",
+              "6"
+            ],
+            19
+          ],
+          [
+            [
+              "A",
+              "4"
+            ],
+            17
+          ],
+          [
+            [
+              "P",
+              "4"
+            ],
+            17
+          ],
+          [
+            [
+              "A",
+              "8"
+            ],
+            16
+          ],
+          [
+            [
+              "A",
+              "7"
+            ],
+            16
+          ]
+        ]
+      },
+      "C2c_wrong_spec": {
+        "n_responses": 39,
+        "n_cited": 16,
+        "citation_rate": 0.41025641025641024,
+        "avg_citations_per_cited_response": 3.9375,
+        "distinct_tags_used": 14,
+        "top_5_tags": [
+          [
+            [
+              "A",
+              "6"
+            ],
+            11
+          ],
+          [
+            [
+              "A",
+              "10"
+            ],
+            8
+          ],
+          [
+            [
+              "A",
+              "2"
+            ],
+            8
+          ],
+          [
+            [
+              "A",
+              "5"
+            ],
+            7
+          ],
+          [
+            [
+              "A",
+              "1"
+            ],
+            4
+          ]
+        ]
+      },
+      "C4_factdump": {
+        "n_responses": 39,
+        "n_cited": 0,
+        "citation_rate": 0.0,
+        "avg_citations_per_cited_response": 0,
+        "distinct_tags_used": 0,
+        "top_5_tags": []
+      },
+      "C4a_full_facts_plus_spec": {
+        "n_responses": 39,
+        "n_cited": 33,
+        "citation_rate": 0.8461538461538461,
+        "avg_citations_per_cited_response": 3.727272727272727,
+        "distinct_tags_used": 17,
+        "top_5_tags": [
+          [
+            [
+              "P",
+              "4"
+            ],
+            15
+          ],
+          [
+            [
+              "A",
+              "6"
+            ],
+            14
+          ],
+          [
+            [
+              "A",
+              "4"
+            ],
+            14
+          ],
+          [
+            [
+              "A",
+              "7"
+            ],
+            13
+          ],
+          [
+            [
+              "A",
+              "5"
+            ],
+            9
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "subject": "yung_wing",
+    "spec_tag_count": 17,
+    "anchor_count": 10,
+    "prediction_count": 7,
+    "per_condition": {
+      "C5_baseline": {
+        "n_responses": 39,
+        "n_cited": 0,
+        "citation_rate": 0.0,
+        "avg_citations_per_cited_response": 0,
+        "distinct_tags_used": 0,
+        "top_5_tags": []
+      },
+      "C2a_full_spec": {
+        "n_responses": 39,
+        "n_cited": 30,
+        "citation_rate": 0.7692307692307693,
+        "avg_citations_per_cited_response": 5.0,
+        "distinct_tags_used": 16,
+        "top_5_tags": [
+          [
+            [
+              "A",
+              "5"
+            ],
+            20
+          ],
+          [
+            [
+              "A",
+              "8"
+            ],
+            19
+          ],
+          [
+            [
+              "A",
+              "6"
+            ],
+            18
+          ],
+          [
+            [
+              "P",
+              "2"
+            ],
+            14
+          ],
+          [
+            [
+              "A",
+              "3"
+            ],
+            12
+          ]
+        ]
+      },
+      "C2c_wrong_spec": {
+        "n_responses": 39,
+        "n_cited": 32,
+        "citation_rate": 0.8205128205128205,
+        "avg_citations_per_cited_response": 5.21875,
+        "distinct_tags_used": 16,
+        "top_5_tags": [
+          [
+            [
+              "A",
+              "3"
+            ],
+            23
+          ],
+          [
+            [
+              "A",
+              "7"
+            ],
+            22
+          ],
+          [
+            [
+              "A",
+              "4"
+            ],
+            19
+          ],
+          [
+            [
+              "P",
+              "5"
+            ],
+            15
+          ],
+          [
+            [
+              "A",
+              "9"
+            ],
+            14
+          ]
+        ]
+      },
+      "C4_factdump": {
+        "n_responses": 39,
+        "n_cited": 0,
+        "citation_rate": 0.0,
+        "avg_citations_per_cited_response": 0,
+        "distinct_tags_used": 0,
+        "top_5_tags": []
+      },
+      "C4a_full_facts_plus_spec": {
+        "n_responses": 39,
+        "n_cited": 33,
+        "citation_rate": 0.8461538461538461,
+        "avg_citations_per_cited_response": 3.4545454545454546,
+        "distinct_tags_used": 16,
+        "top_5_tags": [
+          [
+            [
+              "A",
+              "6"
+            ],
+            15
+          ],
+          [
+            [
+              "A",
+              "8"
+            ],
+            15
+          ],
+          [
+            [
+              "A",
+              "5"
+            ],
+            14
+          ],
+          [
+            [
+              "A",
+              "4"
+            ],
+            13
+          ],
+          [
+            [
+              "P",
+              "2"
+            ],
+            11
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "subject": "hamerton",
+    "spec_tag_count": 17,
+    "anchor_count": 10,
+    "prediction_count": 7,
+    "per_condition": {
+      "C2a_full_spec": {
+        "n_responses": 39,
+        "n_cited": 30,
+        "citation_rate": 0.7692307692307693,
+        "avg_citations_per_cited_response": 4.466666666666667,
+        "distinct_tags_used": 16,
+        "top_5_tags": [
+          [
+            [
+              "A",
+              "5"
+            ],
+            16
+          ],
+          [
+            [
+              "A",
+              "1"
+            ],
+            13
+          ],
+          [
+            [
+              "A",
+              "7"
+            ],
+            12
+          ],
+          [
+            [
+              "A",
+              "10"
+            ],
+            12
+          ],
+          [
+            [
+              "A",
+              "6"
+            ],
+            12
+          ]
+        ]
+      },
+      "C2c_full_wrong_spec": {
+        "n_responses": 39,
+        "n_cited": 13,
+        "citation_rate": 0.3333333333333333,
+        "avg_citations_per_cited_response": 1.9230769230769231,
+        "distinct_tags_used": 12,
+        "top_5_tags": [
+          [
+            [
+              "A",
+              "6"
+            ],
+            4
+          ],
+          [
+            [
+              "A",
+              "3"
+            ],
+            4
+          ],
+          [
+            [
+              "A",
+              "5"
+            ],
+            2
+          ],
+          [
+            [
+              "A",
+              "4"
+            ],
+            2
+          ],
+          [
+            [
+              "A",
+              "1"
+            ],
+            2
+          ]
+        ]
+      },
+      "C3_full_mem0": {
+        "n_responses": 39,
+        "n_cited": 27,
+        "citation_rate": 0.6923076923076923,
+        "avg_citations_per_cited_response": 3.740740740740741,
+        "distinct_tags_used": 16,
+        "top_5_tags": [
+          [
+            [
+              "A",
+              "5"
+            ],
+            14
+          ],
+          [
+            [
+              "A",
+              "10"
+            ],
+            10
+          ],
+          [
+            [
+              "A",
+              "1"
+            ],
+            10
+          ],
+          [
+            [
+              "A",
+              "8"
+            ],
+            9
+          ],
+          [
+            [
+              "A",
+              "4"
+            ],
+            9
+          ]
+        ]
+      },
+      "C3_full_supermemory": {
+        "n_responses": 39,
+        "n_cited": 29,
+        "citation_rate": 0.7435897435897436,
+        "avg_citations_per_cited_response": 3.793103448275862,
+        "distinct_tags_used": 17,
+        "top_5_tags": [
+          [
+            [
+              "A",
+              "8"
+            ],
+            13
+          ],
+          [
+            [
+              "A",
+              "5"
+            ],
+            12
+          ],
+          [
+            [
+              "A",
+              "2"
+            ],
+            10
+          ],
+          [
+            [
+              "A",
+              "10"
+            ],
+            9
+          ],
+          [
+            [
+              "A",
+              "3"
+            ],
+            8
+          ]
+        ]
+      },
+      "C4a_full_facts_plus_spec": {
+        "n_responses": 39,
+        "n_cited": 33,
+        "citation_rate": 0.8461538461538461,
+        "avg_citations_per_cited_response": 3.5757575757575757,
+        "distinct_tags_used": 16,
+        "top_5_tags": [
+          [
+            [
+              "A",
+              "10"
+            ],
+            16
+          ],
+          [
+            [
+              "A",
+              "3"
+            ],
+            13
+          ],
+          [
+            [
+              "A",
+              "8"
+            ],
+            13
+          ],
+          [
+            [
+              "A",
+              "5"
+            ],
+            12
+          ],
+          [
+            [
+              "A",
+              "7"
+            ],
+            11
+          ]
+        ]
+      }
+    }
+  }
+]

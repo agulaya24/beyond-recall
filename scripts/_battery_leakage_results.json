@@ -1,0 +1,483 @@
+{
+  "n_gram_size": 7,
+  "per_subject": [
+    {
+      "subject": "hamerton",
+      "battery_path": "C:\\Users\\Aarik\\Anthropic\\memory-study-repo\\data\\hamerton\\battery.json",
+      "heldout_path": "<concatenated held_out_passage fields from battery>",
+      "total": 80,
+      "bp_scored": 39,
+      "other_generated_not_scored": 41,
+      "tier_counts": {
+        "recall": 10,
+        "inferential": 11,
+        "behavioral_prediction": 39,
+        "adversarial_abstention": 10,
+        "boundary_probing": 10
+      },
+      "bp_category_counts": {
+        "decisions": 6,
+        "values": 4,
+        "conflict": 4,
+        "learning": 4,
+        "risk": 3,
+        "creativity": 4,
+        "relationships": 6,
+        "stress": 3,
+        "career": 3,
+        "change_over_time": 2
+      },
+      "leak_count": 0,
+      "leak_rate": 0.0,
+      "leak_examples": [],
+      "heldout_available": true
+    },
+    {
+      "subject": "franklin",
+      "battery_path": "C:\\Users\\Aarik\\Anthropic\\memory-study-repo\\data\\franklin\\battery.json",
+      "heldout_path": "<concatenated held_out_passage fields from battery>",
+      "total": 80,
+      "bp_scored": 40,
+      "other_generated_not_scored": 40,
+      "tier_counts": {
+        "recall": 10,
+        "inferential": 10,
+        "behavioral_prediction": 40,
+        "adversarial_abstention": 10,
+        "boundary_probing": 10
+      },
+      "bp_category_counts": {
+        "decisions": 6,
+        "values": 6,
+        "relationships": 5,
+        "conflict": 4,
+        "risk": 4,
+        "creativity": 4,
+        "stress": 3,
+        "learning": 3,
+        "career": 3,
+        "change_over_time": 2
+      },
+      "leak_count": 2,
+      "leak_rate": 0.05,
+      "leak_examples": [
+        {
+          "qid": 49,
+          "text": "Given Franklin's pattern of preferring practical over theoretical knowledge and his belief that human felicity is produced by 'little advantages that occur every day' (not grand st",
+          "leaked_ngram": "by little advantages that occur every day"
+        },
+        {
+          "qid": 56,
+          "text": "Given Franklin's habit of taking on more and more civic roles as his business stabilized, and his pattern of finding that 'the publick, now considering me as a man of leisure, laid",
+          "leaked_ngram": "the publick now considering me as a"
+        }
+      ],
+      "heldout_available": true
+    },
+    {
+      "subject": "augustine",
+      "battery_path": "C:\\Users\\Aarik\\Anthropic\\memory-study-repo\\results\\global_augustine\\battery_v2.json",
+      "heldout_path": "C:\\Users\\Aarik\\Anthropic\\memory-study-repo\\results\\global_augustine\\heldout.txt",
+      "total": 80,
+      "bp_scored": 39,
+      "other_generated_not_scored": 41,
+      "tier_counts": {
+        "behavioral_prediction": 39,
+        "recall": 10,
+        "inferential": 11,
+        "adversarial_abstention": 10,
+        "boundary_probing": 10
+      },
+      "bp_category_counts": {
+        "conflict": 5,
+        "change_over_time": 2,
+        "learning": 9,
+        "stress": 3,
+        "values": 7,
+        "decisions": 6,
+        "relationships": 4,
+        "creativity": 3
+      },
+      "leak_count": 0,
+      "leak_rate": 0.0,
+      "leak_examples": [],
+      "heldout_available": true
+    },
+    {
+      "subject": "babur",
+      "battery_path": "C:\\Users\\Aarik\\Anthropic\\memory-study-repo\\results\\global_babur\\battery_v2.json",
+      "heldout_path": "C:\\Users\\Aarik\\Anthropic\\memory-study-repo\\results\\global_babur\\heldout.txt",
+      "total": 80,
+      "bp_scored": 39,
+      "other_generated_not_scored": 41,
+      "tier_counts": {
+        "behavioral_prediction": 39,
+        "recall": 10,
+        "inferential": 11,
+        "adversarial_abstention": 10,
+        "boundary_probing": 10
+      },
+      "bp_category_counts": {
+        "values": 6,
+        "decisions": 9,
+        "relationships": 8,
+        "stress": 3,
+        "conflict": 4,
+        "change_over_time": 1,
+        "creativity": 2,
+        "learning": 3,
+        "career": 2,
+        "risk": 1
+      },
+      "leak_count": 0,
+      "leak_rate": 0.0,
+      "leak_examples": [],
+      "heldout_available": true
+    },
+    {
+      "subject": "bernal_diaz",
+      "battery_path": "C:\\Users\\Aarik\\Anthropic\\memory-study-repo\\results\\global_bernal_diaz\\battery_v2.json",
+      "heldout_path": "C:\\Users\\Aarik\\Anthropic\\memory-study-repo\\results\\global_bernal_diaz\\heldout.txt",
+      "total": 80,
+      "bp_scored": 39,
+      "other_generated_not_scored": 41,
+      "tier_counts": {
+        "behavioral_prediction": 39,
+        "recall": 10,
+        "inferential": 11,
+        "adversarial_abstention": 10,
+        "boundary_probing": 10
+      },
+      "bp_category_counts": {
+        "relationships": 4,
+        "values": 8,
+        "conflict": 5,
+        "risk": 3,
+        "stress": 5,
+        "learning": 5,
+        "decisions": 8,
+        "change_over_time": 1
+      },
+      "leak_count": 0,
+      "leak_rate": 0.0,
+      "leak_examples": [],
+      "heldout_available": true
+    },
+    {
+      "subject": "cellini",
+      "battery_path": "C:\\Users\\Aarik\\Anthropic\\memory-study-repo\\results\\global_cellini\\battery_v2.json",
+      "heldout_path": "C:\\Users\\Aarik\\Anthropic\\memory-study-repo\\results\\global_cellini\\heldout.txt",
+      "total": 80,
+      "bp_scored": 39,
+      "other_generated_not_scored": 41,
+      "tier_counts": {
+        "behavioral_prediction": 39,
+        "recall": 10,
+        "inferential": 11,
+        "adversarial_abstention": 10,
+        "boundary_probing": 10
+      },
+      "bp_category_counts": {
+        "conflict": 4,
+        "decisions": 5,
+        "creativity": 4,
+        "values": 6,
+        "stress": 5,
+        "learning": 3,
+        "relationships": 5,
+        "career": 4,
+        "change_over_time": 2,
+        "risk": 1
+      },
+      "leak_count": 0,
+      "leak_rate": 0.0,
+      "leak_examples": [],
+      "heldout_available": true
+    },
+    {
+      "subject": "ebers",
+      "battery_path": "C:\\Users\\Aarik\\Anthropic\\memory-study-repo\\results\\global_ebers\\battery_v2.json",
+      "heldout_path": "C:\\Users\\Aarik\\Anthropic\\memory-study-repo\\results\\global_ebers\\heldout.txt",
+      "total": 80,
+      "bp_scored": 39,
+      "other_generated_not_scored": 41,
+      "tier_counts": {
+        "behavioral_prediction": 39,
+        "recall": 10,
+        "inferential": 11,
+        "adversarial_abstention": 10,
+        "boundary_probing": 10
+      },
+      "bp_category_counts": {
+        "values": 8,
+        "learning": 6,
+        "stress": 3,
+        "decisions": 4,
+        "change_over_time": 4,
+        "relationships": 3,
+        "conflict": 4,
+        "career": 1,
+        "creativity": 6
+      },
+      "leak_count": 0,
+      "leak_rate": 0.0,
+      "leak_examples": [],
+      "heldout_available": true
+    },
+    {
+      "subject": "equiano",
+      "battery_path": "C:\\Users\\Aarik\\Anthropic\\memory-study-repo\\results\\global_equiano\\battery_v2.json",
+      "heldout_path": "C:\\Users\\Aarik\\Anthropic\\memory-study-repo\\results\\global_equiano\\heldout.txt",
+      "total": 80,
+      "bp_scored": 39,
+      "other_generated_not_scored": 41,
+      "tier_counts": {
+        "behavioral_prediction": 39,
+        "recall": 10,
+        "inferential": 11,
+        "adversarial_abstention": 10,
+        "boundary_probing": 10
+      },
+      "bp_category_counts": {
+        "learning": 5,
+        "conflict": 5,
+        "stress": 8,
+        "change_over_time": 3,
+        "decisions": 5,
+        "values": 8,
+        "risk": 1,
+        "relationships": 4
+      },
+      "leak_count": 0,
+      "leak_rate": 0.0,
+      "leak_examples": [],
+      "heldout_available": true
+    },
+    {
+      "subject": "fukuzawa",
+      "battery_path": "C:\\Users\\Aarik\\Anthropic\\memory-study-repo\\results\\global_fukuzawa\\battery_v2.json",
+      "heldout_path": "C:\\Users\\Aarik\\Anthropic\\memory-study-repo\\results\\global_fukuzawa\\heldout.txt",
+      "total": 80,
+      "bp_scored": 39,
+      "other_generated_not_scored": 41,
+      "tier_counts": {
+        "behavioral_prediction": 39,
+        "recall": 10,
+        "inferential": 11,
+        "adversarial_abstention": 10,
+        "boundary_probing": 10
+      },
+      "bp_category_counts": {
+        "decisions": 8,
+        "conflict": 5,
+        "values": 11,
+        "risk": 1,
+        "relationships": 5,
+        "learning": 3,
+        "stress": 2,
+        "change_over_time": 3,
+        "creativity": 1
+      },
+      "leak_count": 0,
+      "leak_rate": 0.0,
+      "leak_examples": [],
+      "heldout_available": true
+    },
+    {
+      "subject": "keckley",
+      "battery_path": "C:\\Users\\Aarik\\Anthropic\\memory-study-repo\\results\\global_keckley\\battery_v2.json",
+      "heldout_path": "C:\\Users\\Aarik\\Anthropic\\memory-study-repo\\results\\global_keckley\\heldout.txt",
+      "total": 80,
+      "bp_scored": 39,
+      "other_generated_not_scored": 41,
+      "tier_counts": {
+        "behavioral_prediction": 39,
+        "recall": 10,
+        "inferential": 11,
+        "adversarial_abstention": 10,
+        "boundary_probing": 10
+      },
+      "bp_category_counts": {
+        "relationships": 9,
+        "stress": 3,
+        "conflict": 6,
+        "values": 7,
+        "decisions": 6,
+        "learning": 4,
+        "risk": 1,
+        "career": 2,
+        "change_over_time": 1
+      },
+      "leak_count": 0,
+      "leak_rate": 0.0,
+      "leak_examples": [],
+      "heldout_available": true
+    },
+    {
+      "subject": "rousseau",
+      "battery_path": "C:\\Users\\Aarik\\Anthropic\\memory-study-repo\\results\\global_rousseau\\battery_v2.json",
+      "heldout_path": "C:\\Users\\Aarik\\Anthropic\\memory-study-repo\\results\\global_rousseau\\heldout.txt",
+      "total": 80,
+      "bp_scored": 39,
+      "other_generated_not_scored": 41,
+      "tier_counts": {
+        "behavioral_prediction": 39,
+        "recall": 10,
+        "inferential": 11,
+        "adversarial_abstention": 10,
+        "boundary_probing": 10
+      },
+      "bp_category_counts": {
+        "decisions": 5,
+        "learning": 5,
+        "relationships": 9,
+        "creativity": 1,
+        "stress": 4,
+        "conflict": 6,
+        "values": 6,
+        "risk": 1,
+        "change_over_time": 1,
+        "career": 1
+      },
+      "leak_count": 0,
+      "leak_rate": 0.0,
+      "leak_examples": [],
+      "heldout_available": true
+    },
+    {
+      "subject": "seacole",
+      "battery_path": "C:\\Users\\Aarik\\Anthropic\\memory-study-repo\\results\\global_seacole\\battery_v2.json",
+      "heldout_path": "C:\\Users\\Aarik\\Anthropic\\memory-study-repo\\results\\global_seacole\\heldout.txt",
+      "total": 80,
+      "bp_scored": 39,
+      "other_generated_not_scored": 41,
+      "tier_counts": {
+        "behavioral_prediction": 39,
+        "recall": 10,
+        "inferential": 11,
+        "adversarial_abstention": 10,
+        "boundary_probing": 10
+      },
+      "bp_category_counts": {
+        "values": 10,
+        "decisions": 7,
+        "relationships": 7,
+        "creativity": 2,
+        "risk": 1,
+        "learning": 3,
+        "stress": 6,
+        "career": 2,
+        "conflict": 1
+      },
+      "leak_count": 0,
+      "leak_rate": 0.0,
+      "leak_examples": [],
+      "heldout_available": true
+    },
+    {
+      "subject": "sunity_devee",
+      "battery_path": "C:\\Users\\Aarik\\Anthropic\\memory-study-repo\\results\\global_sunity_devee\\battery_v2.json",
+      "heldout_path": "C:\\Users\\Aarik\\Anthropic\\memory-study-repo\\results\\global_sunity_devee\\heldout.txt",
+      "total": 80,
+      "bp_scored": 39,
+      "other_generated_not_scored": 41,
+      "tier_counts": {
+        "behavioral_prediction": 39,
+        "recall": 10,
+        "inferential": 11,
+        "adversarial_abstention": 10,
+        "boundary_probing": 10
+      },
+      "bp_category_counts": {
+        "relationships": 6,
+        "learning": 5,
+        "stress": 6,
+        "conflict": 5,
+        "values": 9,
+        "change_over_time": 2,
+        "decisions": 4,
+        "creativity": 1,
+        "risk": 1
+      },
+      "leak_count": 0,
+      "leak_rate": 0.0,
+      "leak_examples": [],
+      "heldout_available": true
+    },
+    {
+      "subject": "yung_wing",
+      "battery_path": "C:\\Users\\Aarik\\Anthropic\\memory-study-repo\\results\\global_yung_wing\\battery_v2.json",
+      "heldout_path": "C:\\Users\\Aarik\\Anthropic\\memory-study-repo\\results\\global_yung_wing\\heldout.txt",
+      "total": 80,
+      "bp_scored": 39,
+      "other_generated_not_scored": 41,
+      "tier_counts": {
+        "behavioral_prediction": 39,
+        "recall": 10,
+        "inferential": 11,
+        "adversarial_abstention": 10,
+        "boundary_probing": 10
+      },
+      "bp_category_counts": {
+        "values": 8,
+        "decisions": 10,
+        "learning": 3,
+        "creativity": 3,
+        "relationships": 3,
+        "stress": 2,
+        "career": 5,
+        "conflict": 3,
+        "change_over_time": 1,
+        "risk": 1
+      },
+      "leak_count": 0,
+      "leak_rate": 0.0,
+      "leak_examples": [],
+      "heldout_available": true
+    },
+    {
+      "subject": "zitkala_sa",
+      "battery_path": "C:\\Users\\Aarik\\Anthropic\\memory-study-repo\\results\\global_zitkala_sa\\battery_v2.json",
+      "heldout_path": "C:\\Users\\Aarik\\Anthropic\\memory-study-repo\\results\\global_zitkala_sa\\heldout.txt",
+      "total": 80,
+      "bp_scored": 39,
+      "other_generated_not_scored": 41,
+      "tier_counts": {
+        "behavioral_prediction": 39,
+        "recall": 10,
+        "inferential": 11,
+        "adversarial_abstention": 10,
+        "boundary_probing": 10
+      },
+      "bp_category_counts": {
+        "values": 11,
+        "conflict": 5,
+        "relationships": 6,
+        "learning": 4,
+        "creativity": 3,
+        "stress": 4,
+        "decisions": 4,
+        "change_over_time": 2
+      },
+      "leak_count": 0,
+      "leak_rate": 0.0,
+      "leak_examples": [],
+      "heldout_available": true
+    }
+  ],
+  "aggregate_bp": 586,
+  "aggregate_leaks": 2,
+  "aggregate_leak_rate": 0.0034129692832764505,
+  "categories_universe": [
+    "career",
+    "change_over_time",
+    "conflict",
+    "creativity",
+    "decisions",
+    "learning",
+    "relationships",
+    "risk",
+    "stress",
+    "values"
+  ]
+}

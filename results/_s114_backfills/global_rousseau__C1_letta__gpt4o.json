@@ -1,0 +1,26 @@
+[
+  {
+    "question_id": 21,
+    "condition": "C1_letta",
+    "judge": "gpt4o",
+    "score": 3,
+    "raw": "3",
+    "parse_failure": false
+  },
+  {
+    "question_id": 25,
+    "condition": "C1_letta",
+    "judge": "gpt4o",
+    "score": 3,
+    "raw": "3",
+    "parse_failure": false
+  },
+  {
+    "question_id": 33,
+    "condition": "C1_letta",
+    "judge": "gpt4o",
+    "score": 3,
+    "raw": "3",
+    "parse_failure": false
+  }
+]

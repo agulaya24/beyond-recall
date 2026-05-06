@@ -1,0 +1,1 @@
+{"ts": "2026-04-25T17:13:19.381273+00:00", "run_id": "live_test_20260425", "provider": "openai", "score": 5, "raw_text": "5", "tokens": {"prompt": 168, "completion": 4, "total": 172}, "latency_ms": 1255, "error_type": null, "model": "gpt-5.4", "param_used": "max_completion_tokens", "prompt_hash": "57e219c36a02c540168df4f47a3b0ceb6049041ae977e9d337cf04dbb20d3ad2", "ok": true}

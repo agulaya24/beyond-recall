@@ -1,0 +1,42 @@
+[
+  {
+    "question_id": 1,
+    "condition": "C2c_wrong_spec_v2",
+    "judge": "gemini_flash",
+    "score": 0,
+    "error": "gemini_flash rate limited",
+    "parse_failure": true
+  },
+  {
+    "question_id": 2,
+    "condition": "C2c_wrong_spec_v2",
+    "judge": "gemini_flash",
+    "score": 0,
+    "error": "gemini_flash rate limited",
+    "parse_failure": true
+  },
+  {
+    "question_id": 3,
+    "condition": "C2c_wrong_spec_v2",
+    "judge": "gemini_flash",
+    "score": 0,
+    "error": "gemini_flash rate limited",
+    "parse_failure": true
+  },
+  {
+    "question_id": 4,
+    "condition": "C2c_wrong_spec_v2",
+    "judge": "gemini_flash",
+    "score": 0,
+    "error": "gemini_flash rate limited",
+    "parse_failure": true
+  },
+  {
+    "question_id": 5,
+    "condition": "C2c_wrong_spec_v2",
+    "judge": "gemini_flash",
+    "score": 0,
+    "error": "gemini_flash rate limited",
+    "parse_failure": true
+  }
+]

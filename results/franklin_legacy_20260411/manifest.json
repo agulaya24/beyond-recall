@@ -1,0 +1,26 @@
+{
+  "run_id": "run_franklin_20260411_014509",
+  "subject": "Benjamin Franklin",
+  "study_type": "franklin_replication",
+  "timestamp": "2026-04-11T03:07:13.277882+00:00",
+  "total_questions": 80,
+  "total_facts": 1133,
+  "spec_file": "C:\\Users\\Aarik\\Anthropic\\subjects\\franklin_memory\\data\\identity_layers\\brief_v5_clean.md",
+  "wrong_spec_file": "C:\\Users\\Aarik\\Anthropic\\hamerton_memory\\data\\identity_layers\\brief_v5_clean.md",
+  "wrong_spec_subject": "Philip Gilbert Hamerton",
+  "response_model": "claude-haiku-4-5-20251001",
+  "conditions": [
+    "C1_mem0",
+    "C1_supermemory",
+    "C2a_spec_only",
+    "C2c_wrong_spec",
+    "C3_mem0",
+    "C3_supermemory",
+    "C4_factdump",
+    "C4a_factdump_plus_spec",
+    "C5_baseline",
+    "C6_random",
+    "C7_named_baseline"
+  ],
+  "estimated_cost_usd": 4.96
+}

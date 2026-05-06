@@ -363,3 +363,122 @@ Findings will surface for possible integration into §1.3 or §4.3 if they mater
 ## §1.5 Behavioral Alignment and the Human-AI Interaction Problem (formerly §1.6)
 
 (pending — next to draft)
+
+---
+
+## v7 docx review round (after §1 + §2 locked)
+
+Aarik reviewed `docs/versions/beyond_recall_v7_review.docx` (830 KB, §1 + §2 locked, 7 figures embedded). 10 comments extracted. Raw extraction at `docs/reviews/_archive/s114_word_annotations.md` (this file gets overwritten on each extract; this round captured below).
+
+### §1.2 feedback — verbatim
+
+1. (anchor: "1.2 What We Tested") — "Need explicit examples of behavioral battery questions."
+2. (anchor: "§3.2") — "Dynamic links/sources"
+3. (anchor: "Predictions were scored on a 1-5 rubric:") — "Make clear overall judging rubric, format as table."
+4. (anchor: "Predictions were scored on a 1-5 rubric:") — "Perhaps a tooltip whenever scores are mentioned to provide scoring context*"
+5. (anchor: "1 to 2") — "How to reconcile inbetween fracrtions and their meaning"
+
+### §1.3 feedback — verbatim
+
+6. (anchor: "+1.04 points") — "Need to spell out the difference and significance of that difference."
+7. (anchor: "Compression: structure beats raw source at a fraction of the context.") — "Balance layman with specialists"
+8. (anchor: "Compression: structure beats raw source at a fraction of the context. At the same context size, a compact specification outperforms the full source material.") — "Layman explanation should be sub header, with technical information as sub paragraph**"
+9. (anchor: "The specification beats the raw source at roughly one-fifth the context size") — "Beats raw source vs exceed the raw source nthis particular context. Watchin gtm language"
+
+### Action items extracted (not yet applied)
+
+**§1.2:**
+- Add explicit examples of 2-3 behavioral battery questions (pulled from `data/global_*/battery.json` or similar)
+- Format the 1-5 judging rubric as a table instead of prose list
+- Make §3.2 and other cross-references dynamic / clickable in the final format
+- Address how intermediate/fractional scores (e.g., 2.5, 3.4) are interpreted; possibly rubric anchor points at 0.5 intervals
+- Consider an inline scoring-context reminder wherever numeric scores are cited
+
+**§1.3:**
+- Spell out what a +1.04-point gain means in real terms (tie back to rubric: what category shift does 1 point represent?)
+- Balance layman and technical tone across findings; currently some paragraphs lean more layman, others more technical
+- Restructure Compression finding: layman claim as sub-header, technical numbers in a sub-paragraph
+- **GTM / marketing language flag:** "beats" is too promotional in some contexts. Prefer "exceeds", "outperforms", neutral scientific framing. Scan all §1.3 findings for similar terms.
+
+### Voice rule update from this round
+
+**Avoid GTM-style verbs in findings text.** Specific flagged instances: "beats the raw source" → "exceeds the raw source" or "outperforms the raw source." This is a rule for §1.3 and §1.4 already-locked text; will sweep on reopening. Add to feedback memory if recurring.
+
+---
+
+## §3 Study Design — review in progress
+
+Work resumed in S114 continuation with v8 as the working draft. Normal process: single-point proposal, open questions, draft, lock. Verification agent used where external claims or numbers require primary-source confirmation.
+
+### §3 opener LOCKED
+
+Content-forward opener about experimental strategy (holds response model constant, varies representation served as context). Replaced earlier meta-navigation / reader-addressing opener per Aarik: "opening with this is unecessary... we shouldnt be adrressing readers."
+
+### §3.1 Representational Accuracy LOCKED
+
+First draft reframed following Aarik feedback: "we're not really looking at a model's internal working model we're really trying to guide the model through the lens of someone's working model. For prediction performance that needs to be slightly more layman... The statement on a better prompt feels a bit argumentative."
+
+Changes applied:
+- Reframed as external lens, not model-internal parameter claim.
+- Three-part joint claim made explicit (behavioral consistency + representation signal + model usage).
+- Removed argumentative "better prompt" reframing.
+- Significance-of-fractional-scores cross-reference added, deferred to §3.7.
+
+### §3.2 Subjects LOCKED (with §3.2.1 subsection)
+
+Content-level changes:
+- Franklin framed as known-figure control, not design target; baseline 4.10.
+- Baseline as observable proxy paragraph added per Aarik: "You speak of the observable proxy for pre training representation and the baseline very confidently... Are we hedging a bit too much with the we do not claim?"
+- §3.2.1 Pretraining-coverage variance created as requested.
+- Low / mid / high baseline banding added.
+- "Population of relevance" named explicitly.
+- "What we did not control for" disclosure added.
+
+### §3.3 Pipeline LOCKED
+
+Aarik feedback applied:
+- Step 2 becomes a table with five columns (step / input / tool / model / output).
+- "Wrong-spec" discussion kept in §3.5 Conditions, not here.
+- Predicate vocabulary examples added inline (46 predicates, full list deferred to appendix).
+- Pipeline cost disclosed inline ($1 per subject); separate cost section not required.
+- Non-full-stack spec discussion dropped from §3.3 entirely; only full-stack spec is load-bearing in the main study.
+- Anchor / Core / Prediction examples added (from Hamerton spec) rather than pipeline diagrams.
+- Verification agent (`section_3_3_pipeline_verification.md`) confirmed 46 predicates (not 47; config.py:607 comment is stale), `all-MiniLM-L6-v2` (not `MiniLM-L6-v2`), and served-artifact = layers + brief.
+
+Paper-wide sweep flagged (task #25): 47→46 for §5.1 and §6.
+
+### §3.4 Question Batteries LOCKED
+
+Aarik feedback applied:
+- Opener re-cast as a backward-design procedure, not prose narrative.
+- Per-subject count with a per-subject count table reference (appendix), not a summary line.
+- Leakage rate computed: 2 of 586 (0.34% aggregate), 0.00% on 14 main-study subjects, both leaks in Franklin legacy battery (Q49, Q56). Disclosed honestly.
+- Circularity control moved into dedicated §3.4.1.
+- "Raw data available at..." convention applied (tasks #21 #22 paper-wide convention).
+- Verification agent (`section_3_4_battery_verification.md`) confirmed numbers and battery paths.
+
+### §3.4.1 Circularity Controls LOCKED
+
+New subsection (per Aarik: "Circularity control should likely be an additional subsection instead of including in 34"). Content:
+- Control 1: Independent GPT-5.4 battery regeneration for 13 global subjects (Franklin + Hamerton excluded; legacy batteries retained).
+- Control 2: Non-Anthropic response chain (Sonnet + Gemini Pro) on 3 subjects spanning the gradient.
+- Explicit note that LLM-as-judge circularity is a broader concern, flagged for §6.
+- Placeholder confirmed as the actual locked content (not placeholder). Franklin battery was NOT regenerated with GPT-5.4 (grep confirmed only 13 `global_<subject>/battery_gpt54.json` files).
+
+### Status at §3 handoff
+
+- v8 contains: front matter + §1 + §2 + §3 intro + §3.1 + §3.2 + §3.2.1 + §3.3 + §3.4 + §3.4.1.
+- Next: §3.5 Experimental Conditions.
+- Pointer at end of v8 currently reads `*Next: §3.5 Experimental Conditions*`.
+- Verification reports in `docs/research/section_3_*.md`.
+
+### Research reports referenced in §3 review
+
+- `docs/research/section_3_verification.md` — pipeline terminology, Letta paths, embedding ID.
+- `docs/research/section_3_3_pipeline_verification.md` — 46 predicates, `all-MiniLM-L6-v2`, served-artifact.
+- `docs/research/section_3_4_battery_verification.md` — leakage rate 0.34%.
+- `docs/research/wrong_spec_detection_analysis.md` — 60.6% content-grounded (not upper-bound), name-blind premise resolved as false.
+- `docs/research/name_blind_wrong_spec_pilot.md` — specs already anonymized; F9 closed.
+- `docs/research/letta_stateful_matched_rerun.md` — Ebers Δ +0.75, Babur Δ +0.29 (corrected from original +1.21, +0.57).
+- `docs/research/score_interval_significance.md` — integer-anchor crossing rule for §3.7.
+

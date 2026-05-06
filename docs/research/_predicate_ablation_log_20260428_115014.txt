@@ -1,0 +1,84 @@
+[11:50:14] === --go RUN START ===
+[11:50:14]   Resuming from existing sampling record: C:\Users\Aarik\Anthropic\memory-study-repo\docs\research\predicate_ablation_sampling_20260428.json
+[11:50:14]   Running 16 matched cases (skipping 0 unmatched).
+[11:50:14]   Loaded checkpoint with 7 prior case entries.
+[11:50:14] 
+  [1/16] fukuzawa q3 (PATTERN_PREDICATE_high)
+[11:50:14] 
+  [2/16] equiano q3 (PATTERN_PREDICATE_high)
+[11:50:14] 
+  [3/16] sunity_devee q4 (PATTERN_PREDICATE_high)
+[11:50:14] 
+  [4/16] augustine q35 (PATTERN_PREDICATE_high)
+[11:50:14] 
+  [5/16] babur q6 (PATTERN_PREDICATE_high)
+[11:50:14] 
+  [6/16] bernal_diaz q16 (PATTERN_PREDICATE_high)
+[11:50:14] 
+  [7/16] cellini q34 (PATTERN_PREDICATE_high)
+[11:50:14] 
+  [8/16] hamerton q43 (PATTERN_PREDICATE_high)
+[11:50:18]     hamerton__43: filler 381c (target 428)
+[11:50:21]     hamerton__43: reversal 502c
+[11:50:26]     hamerton__43/original: response 366 out tokens
+[11:50:32]     hamerton__43/ablated: response 398 out tokens
+[11:50:38]     hamerton__43/reversed: response 388 out tokens
+[11:50:59] 
+  [9/16] sunity_devee q17 (INFERENCE_CHAIN)
+[11:51:02]     sunity_devee__17: filler 213c (target 312)
+[11:51:05]     sunity_devee__17: reversal 308c
+[11:51:11]     sunity_devee__17/original: response 392 out tokens
+[11:51:16]     sunity_devee__17/ablated: response 350 out tokens
+[11:51:23]     sunity_devee__17/reversed: response 439 out tokens
+[11:51:45] 
+  [10/16] augustine q20 (INFERENCE_CHAIN)
+[11:51:48]     augustine__20: filler 356c (target 419)
+[11:51:51]     augustine__20: reversal 410c
+[11:51:58]     augustine__20/original: response 454 out tokens
+[11:52:10]     augustine__20/ablated: response 809 out tokens
+[11:52:19]     augustine__20/reversed: response 577 out tokens
+[11:52:41] 
+  [11/16] babur q13 (INFERENCE_CHAIN)
+[11:52:43]     babur__13: filler 171c (target 283)
+[11:52:46]     babur__13: reversal 276c
+[11:53:00]     babur__13/original: response 1024 out tokens
+[11:53:14]     babur__13/ablated: response 912 out tokens
+[11:53:28]     babur__13/reversed: response 940 out tokens
+[11:54:27] 
+  [12/16] bernal_diaz q2 (INFERENCE_CHAIN)
+[11:54:48]     bernal_diaz__2: filler 1100c (target 946)
+[11:54:52]     bernal_diaz__2: reversal 996c
+[11:55:35]     bernal_diaz__2/original: response 964 out tokens
+[11:55:50]     bernal_diaz__2/ablated: response 1024 out tokens
+[11:56:02]     bernal_diaz__2/reversed: response 833 out tokens
+[11:56:43] 
+  [13/16] rousseau q28 (MIXED_OTHER)
+[11:56:47]     rousseau__28: filler 332c (target 403)
+[11:56:50]     rousseau__28: reversal 424c
+[11:56:56]     rousseau__28/original: response 364 out tokens
+[11:57:02]     rousseau__28/ablated: response 384 out tokens
+[11:57:08]     rousseau__28/reversed: response 369 out tokens
+[11:57:33] 
+  [14/16] yung_wing q22 (MIXED_OTHER)
+[11:57:36]     yung_wing__22: filler 195c (target 257)
+[11:57:41]     yung_wing__22: reversal 254c
+[11:57:48]     yung_wing__22/original: response 512 out tokens
+[11:57:57]     yung_wing__22/ablated: response 517 out tokens
+[11:58:04]     yung_wing__22/reversed: response 494 out tokens
+[11:58:28] 
+  [15/16] sunity_devee q23 (MIXED_OTHER)
+[11:58:31]     sunity_devee__23: filler 177c (target 252)
+[11:58:33]     sunity_devee__23: reversal 244c
+[11:58:46]     sunity_devee__23/original: response 946 out tokens
+[11:59:00]     sunity_devee__23/ablated: response 905 out tokens
+[11:59:11]     sunity_devee__23/reversed: response 765 out tokens
+[11:59:35] 
+  [16/16] bernal_diaz q38 (MIXED_OTHER)
+[11:59:38]     bernal_diaz__38: filler 256c (target 374)
+[11:59:41]     bernal_diaz__38: reversal 396c
+[11:59:53]     bernal_diaz__38/original: response 857 out tokens
+[12:00:04]     bernal_diaz__38/ablated: response 755 out tokens
+[12:00:18]     bernal_diaz__38/reversed: response 955 out tokens
+[12:00:49]   Saved C:\Users\Aarik\Anthropic\memory-study-repo\docs\research\predicate_ablation_results_20260428.json
+[12:00:49]   Saved C:\Users\Aarik\Anthropic\memory-study-repo\docs\research\predicate_ablation_results_20260428.md
+[12:00:49] === --go RUN COMPLETE ===

@@ -1,0 +1,81 @@
+{
+  "rows": [
+    {
+      "subject": "hamerton",
+      "letta_5judge_A": 3.103,
+      "bl_5judge_A": 2.964,
+      "delta_A": 0.138,
+      "letta_5judge_B": 3.103,
+      "bl_5judge_B": 2.964,
+      "delta_B": 0.138,
+      "letta_per_judge": {
+        "haiku": 3.103,
+        "sonnet": 2.821,
+        "opus": 3.359,
+        "gpt4o": 3.179,
+        "gpt54": 3.051
+      },
+      "bl_per_judge": {
+        "haiku": 2.718,
+        "sonnet": 2.59,
+        "opus": 3.41,
+        "gpt4o": 3.641,
+        "gpt54": 2.462
+      },
+      "n_letta": 39,
+      "n_bl": 39
+    },
+    {
+      "subject": "ebers",
+      "letta_5judge_A": 2.76,
+      "bl_5judge_A": 1.715,
+      "delta_A": 1.045,
+      "letta_5judge_B": 2.76,
+      "bl_5judge_B": 1.715,
+      "delta_B": 1.045,
+      "letta_per_judge": {
+        "haiku": 2.55,
+        "sonnet": 2.35,
+        "opus": 3.325,
+        "gpt4o": 2.6,
+        "gpt54": 2.975
+      },
+      "bl_per_judge": {
+        "haiku": 1.65,
+        "sonnet": 1.4,
+        "opus": 1.9,
+        "gpt4o": 1.725,
+        "gpt54": 1.9
+      },
+      "n_letta": 40,
+      "n_bl": 40
+    },
+    {
+      "subject": "babur",
+      "letta_5judge_A": 2.415,
+      "bl_5judge_A": 1.88,
+      "delta_A": 0.535,
+      "letta_5judge_B": 2.415,
+      "bl_5judge_B": 1.88,
+      "delta_B": 0.535,
+      "letta_per_judge": {
+        "haiku": 2.15,
+        "sonnet": 2.175,
+        "opus": 3.2,
+        "gpt4o": 2.225,
+        "gpt54": 2.325
+      },
+      "bl_per_judge": {
+        "haiku": 1.85,
+        "sonnet": 1.5,
+        "opus": 2.275,
+        "gpt4o": 1.975,
+        "gpt54": 1.8
+      },
+      "n_letta": 40,
+      "n_bl": 40
+    }
+  ],
+  "method_A": "per-question mean across judges, then mean over questions",
+  "method_B": "per-judge mean, then mean over judges"
+}

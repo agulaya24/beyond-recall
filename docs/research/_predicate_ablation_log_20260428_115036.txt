@@ -1,0 +1,80 @@
+[11:50:37] === --go RUN START ===
+[11:50:37]   Resuming from existing sampling record: C:\Users\Aarik\Anthropic\memory-study-repo\docs\research\predicate_ablation_sampling_20260428.json
+[11:50:37]   Running 16 matched cases (skipping 0 unmatched).
+[11:50:37]   Loaded checkpoint with 8 prior case entries.
+[11:50:37] 
+  [1/16] fukuzawa q3 (PATTERN_PREDICATE_high)
+[11:50:37] 
+  [2/16] equiano q3 (PATTERN_PREDICATE_high)
+[11:50:37] 
+  [3/16] sunity_devee q4 (PATTERN_PREDICATE_high)
+[11:50:37] 
+  [4/16] augustine q35 (PATTERN_PREDICATE_high)
+[11:50:37] 
+  [5/16] babur q6 (PATTERN_PREDICATE_high)
+[11:50:37] 
+  [6/16] bernal_diaz q16 (PATTERN_PREDICATE_high)
+[11:50:37] 
+  [7/16] cellini q34 (PATTERN_PREDICATE_high)
+[11:50:37] 
+  [8/16] hamerton q43 (PATTERN_PREDICATE_high)
+[11:50:42]     hamerton__43/reversed: response 359 out tokens
+[11:51:03] 
+  [9/16] sunity_devee q17 (INFERENCE_CHAIN)
+[11:51:07]     sunity_devee__17: filler 213c (target 312)
+[11:51:09]     sunity_devee__17: reversal 308c
+[11:51:16]     sunity_devee__17/original: response 504 out tokens
+[11:51:23]     sunity_devee__17/ablated: response 362 out tokens
+[11:51:30]     sunity_devee__17/reversed: response 448 out tokens
+[11:51:58] 
+  [10/16] augustine q20 (INFERENCE_CHAIN)
+[11:52:02]     augustine__20: filler 378c (target 419)
+[11:52:05]     augustine__20: reversal 452c
+[11:52:12]     augustine__20/original: response 512 out tokens
+[11:52:18]     augustine__20/ablated: response 411 out tokens
+[11:52:25]     augustine__20/reversed: response 428 out tokens
+[11:52:50] 
+  [11/16] babur q13 (INFERENCE_CHAIN)
+[11:52:52]     babur__13: filler 210c (target 283)
+[11:52:55]     babur__13: reversal 276c
+[11:53:09]     babur__13/original: response 1020 out tokens
+[11:53:22]     babur__13/ablated: response 904 out tokens
+[11:53:37]     babur__13/reversed: response 1024 out tokens
+[11:54:09] 
+  [12/16] bernal_diaz q2 (INFERENCE_CHAIN)
+[11:54:16]     bernal_diaz__2: filler 1030c (target 946)
+[11:54:20]     bernal_diaz__2: reversal 1008c
+[11:54:34]     bernal_diaz__2/original: response 1024 out tokens
+[11:54:48]     bernal_diaz__2/ablated: response 935 out tokens
+[11:55:02]     bernal_diaz__2/reversed: response 918 out tokens
+[11:55:25] 
+  [13/16] rousseau q28 (MIXED_OTHER)
+[11:55:28]     rousseau__28: filler 332c (target 403)
+[11:55:33]     rousseau__28: reversal 412c
+[11:55:39]     rousseau__28/original: response 383 out tokens
+[11:55:45]     rousseau__28/ablated: response 430 out tokens
+[11:55:51]     rousseau__28/reversed: response 356 out tokens
+[11:56:15] 
+  [14/16] yung_wing q22 (MIXED_OTHER)
+[11:56:18]     yung_wing__22: filler 217c (target 257)
+[11:56:20]     yung_wing__22: reversal 254c
+[11:56:27]     yung_wing__22/original: response 480 out tokens
+[11:56:36]     yung_wing__22/ablated: response 546 out tokens
+[11:56:42]     yung_wing__22/reversed: response 461 out tokens
+[11:57:07] 
+  [15/16] sunity_devee q23 (MIXED_OTHER)
+[11:57:10]     sunity_devee__23: filler 177c (target 252)
+[11:57:12]     sunity_devee__23: reversal 244c
+[11:57:26]     sunity_devee__23/original: response 943 out tokens
+[11:57:40]     sunity_devee__23/ablated: response 902 out tokens
+[11:57:56]     sunity_devee__23/reversed: response 1024 out tokens
+[11:58:18] 
+  [16/16] bernal_diaz q38 (MIXED_OTHER)
+[11:58:21]     bernal_diaz__38: filler 266c (target 374)
+[11:58:24]     bernal_diaz__38: reversal 396c
+[11:58:38]     bernal_diaz__38/original: response 868 out tokens
+[11:58:50]     bernal_diaz__38/ablated: response 794 out tokens
+[11:59:01]     bernal_diaz__38/reversed: response 745 out tokens
+[11:59:28]   Saved C:\Users\Aarik\Anthropic\memory-study-repo\docs\research\predicate_ablation_results_20260428.json
+[11:59:28]   Saved C:\Users\Aarik\Anthropic\memory-study-repo\docs\research\predicate_ablation_results_20260428.md
+[11:59:28] === --go RUN COMPLETE ===

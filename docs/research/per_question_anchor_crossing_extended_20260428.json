@@ -1,0 +1,433 @@
+{
+  "date": "2026-04-28",
+  "aggregation": "5-judge primary panel (haiku, sonnet, opus, gpt4o, gpt54), per-question 5-judge mean",
+  "integer_band_definition": "floor(mean) clipped to [1, 5]; bands [1,2), [2,3), [3,4), [4,5]",
+  "pairs": {
+    "C4a_vs_C4": {
+      "label": "C4 (facts) -> C4a (facts + spec)",
+      "pre_cond": "C4_factdump",
+      "post_cond": "C4a_full_facts_plus_spec",
+      "subjects": [
+        "hamerton",
+        "sunity_devee",
+        "ebers",
+        "fukuzawa",
+        "seacole",
+        "bernal_diaz",
+        "keckley",
+        "yung_wing",
+        "babur"
+      ],
+      "n_paired_questions": 351,
+      "upward": 77,
+      "downward": 59,
+      "no_crossing": 215,
+      "upward_pct": 21.9,
+      "downward_pct": 16.8,
+      "no_crossing_pct": 61.3,
+      "net_upward": 18,
+      "net_upward_pct": 5.1,
+      "multi_anchor_count": 9,
+      "multi_anchor_pct": 2.6,
+      "extreme_count": 4,
+      "extreme_pct": 1.1,
+      "mean_pre": 2.352,
+      "mean_post": 2.439,
+      "mean_delta": 0.088,
+      "boundary_breakdown": {
+        "1->2": 38,
+        "1->3": 4,
+        "1->4": 3,
+        "2->1 DOWN": 13,
+        "2->3": 22,
+        "2->4": 1,
+        "2->5": 1,
+        "3->1 DOWN": 2,
+        "3->2 DOWN": 26,
+        "3->4": 7,
+        "4->2 DOWN": 7,
+        "4->3 DOWN": 11,
+        "4->5": 1
+      },
+      "per_subject": [
+        {
+          "subject": "hamerton",
+          "total": 39,
+          "upward": 15,
+          "downward": 3,
+          "no_crossing": 21,
+          "upward_pct": 38.5
+        },
+        {
+          "subject": "sunity_devee",
+          "total": 39,
+          "upward": 6,
+          "downward": 7,
+          "no_crossing": 26,
+          "upward_pct": 15.4
+        },
+        {
+          "subject": "ebers",
+          "total": 39,
+          "upward": 4,
+          "downward": 7,
+          "no_crossing": 28,
+          "upward_pct": 10.3
+        },
+        {
+          "subject": "fukuzawa",
+          "total": 39,
+          "upward": 12,
+          "downward": 8,
+          "no_crossing": 19,
+          "upward_pct": 30.8
+        },
+        {
+          "subject": "seacole",
+          "total": 39,
+          "upward": 6,
+          "downward": 10,
+          "no_crossing": 23,
+          "upward_pct": 15.4
+        },
+        {
+          "subject": "bernal_diaz",
+          "total": 39,
+          "upward": 7,
+          "downward": 8,
+          "no_crossing": 24,
+          "upward_pct": 17.9
+        },
+        {
+          "subject": "keckley",
+          "total": 39,
+          "upward": 7,
+          "downward": 5,
+          "no_crossing": 27,
+          "upward_pct": 17.9
+        },
+        {
+          "subject": "yung_wing",
+          "total": 39,
+          "upward": 14,
+          "downward": 5,
+          "no_crossing": 20,
+          "upward_pct": 35.9
+        },
+        {
+          "subject": "babur",
+          "total": 39,
+          "upward": 6,
+          "downward": 6,
+          "no_crossing": 27,
+          "upward_pct": 15.4
+        }
+      ],
+      "multi_anchor_examples": [
+        {
+          "subject": "hamerton",
+          "qid": 35,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4
+        },
+        {
+          "subject": "sunity_devee",
+          "qid": 28,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.8,
+          "post_mean": 3
+        },
+        {
+          "subject": "fukuzawa",
+          "qid": 35,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1,
+          "post_mean": 4.2
+        },
+        {
+          "subject": "seacole",
+          "qid": 2,
+          "pre_band": 2,
+          "post_band": 5,
+          "jump": 3,
+          "pre_mean": 2.8,
+          "post_mean": 5
+        },
+        {
+          "subject": "bernal_diaz",
+          "qid": 16,
+          "pre_band": 2,
+          "post_band": 4,
+          "jump": 2,
+          "pre_mean": 2,
+          "post_mean": 4.8
+        },
+        {
+          "subject": "bernal_diaz",
+          "qid": 35,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.8,
+          "post_mean": 3.4
+        },
+        {
+          "subject": "keckley",
+          "qid": 24,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.4,
+          "post_mean": 3
+        },
+        {
+          "subject": "yung_wing",
+          "qid": 5,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3
+        },
+        {
+          "subject": "yung_wing",
+          "qid": 22,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1.8,
+          "post_mean": 4.2
+        }
+      ]
+    },
+    "C9_vs_C8": {
+      "label": "C8 (corpus) -> C9 (corpus + spec)",
+      "pre_cond": "C8_raw_corpus",
+      "post_cond": "C9_raw_corpus_plus_spec",
+      "subjects": [
+        "hamerton",
+        "sunity_devee",
+        "ebers",
+        "fukuzawa",
+        "seacole",
+        "bernal_diaz",
+        "keckley",
+        "yung_wing"
+      ],
+      "n_paired_questions": 312,
+      "upward": 68,
+      "downward": 58,
+      "no_crossing": 186,
+      "upward_pct": 21.8,
+      "downward_pct": 18.6,
+      "no_crossing_pct": 59.6,
+      "net_upward": 10,
+      "net_upward_pct": 3.2,
+      "multi_anchor_count": 12,
+      "multi_anchor_pct": 3.8,
+      "extreme_count": 2,
+      "extreme_pct": 0.6,
+      "mean_pre": 2.505,
+      "mean_post": 2.593,
+      "mean_delta": 0.088,
+      "boundary_breakdown": {
+        "1->2": 27,
+        "1->3": 5,
+        "1->4": 2,
+        "2->1 DOWN": 20,
+        "2->3": 18,
+        "2->4": 5,
+        "3->1 DOWN": 1,
+        "3->2 DOWN": 21,
+        "3->4": 9,
+        "4->2 DOWN": 2,
+        "4->3 DOWN": 13,
+        "4->5": 2,
+        "5->4 DOWN": 1
+      },
+      "per_subject": [
+        {
+          "subject": "hamerton",
+          "total": 39,
+          "upward": 19,
+          "downward": 2,
+          "no_crossing": 18,
+          "upward_pct": 48.7
+        },
+        {
+          "subject": "sunity_devee",
+          "total": 39,
+          "upward": 6,
+          "downward": 11,
+          "no_crossing": 22,
+          "upward_pct": 15.4
+        },
+        {
+          "subject": "ebers",
+          "total": 39,
+          "upward": 5,
+          "downward": 10,
+          "no_crossing": 24,
+          "upward_pct": 12.8
+        },
+        {
+          "subject": "fukuzawa",
+          "total": 39,
+          "upward": 9,
+          "downward": 8,
+          "no_crossing": 22,
+          "upward_pct": 23.1
+        },
+        {
+          "subject": "seacole",
+          "total": 39,
+          "upward": 6,
+          "downward": 6,
+          "no_crossing": 27,
+          "upward_pct": 15.4
+        },
+        {
+          "subject": "bernal_diaz",
+          "total": 39,
+          "upward": 9,
+          "downward": 8,
+          "no_crossing": 22,
+          "upward_pct": 23.1
+        },
+        {
+          "subject": "keckley",
+          "total": 39,
+          "upward": 4,
+          "downward": 4,
+          "no_crossing": 31,
+          "upward_pct": 10.3
+        },
+        {
+          "subject": "yung_wing",
+          "total": 39,
+          "upward": 10,
+          "downward": 9,
+          "no_crossing": 20,
+          "upward_pct": 25.6
+        }
+      ],
+      "multi_anchor_examples": [
+        {
+          "subject": "hamerton",
+          "qid": 22,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3.8
+        },
+        {
+          "subject": "hamerton",
+          "qid": 24,
+          "pre_band": 2,
+          "post_band": 4,
+          "jump": 2,
+          "pre_mean": 2.2,
+          "post_mean": 4.4
+        },
+        {
+          "subject": "hamerton",
+          "qid": 25,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1.4,
+          "post_mean": 4.2
+        },
+        {
+          "subject": "hamerton",
+          "qid": 26,
+          "pre_band": 2,
+          "post_band": 4,
+          "jump": 2,
+          "pre_mean": 2,
+          "post_mean": 4.8
+        },
+        {
+          "subject": "hamerton",
+          "qid": 29,
+          "pre_band": 2,
+          "post_band": 4,
+          "jump": 2,
+          "pre_mean": 2,
+          "post_mean": 4.4
+        },
+        {
+          "subject": "hamerton",
+          "qid": 31,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1,
+          "post_mean": 3
+        },
+        {
+          "subject": "hamerton",
+          "qid": 46,
+          "pre_band": 1,
+          "post_band": 4,
+          "jump": 3,
+          "pre_mean": 1.4,
+          "post_mean": 4.2
+        },
+        {
+          "subject": "hamerton",
+          "qid": 60,
+          "pre_band": 2,
+          "post_band": 4,
+          "jump": 2,
+          "pre_mean": 2.2,
+          "post_mean": 4
+        },
+        {
+          "subject": "ebers",
+          "qid": 11,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.8,
+          "post_mean": 3.8
+        },
+        {
+          "subject": "bernal_diaz",
+          "qid": 11,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.333,
+          "post_mean": 3
+        },
+        {
+          "subject": "keckley",
+          "qid": 34,
+          "pre_band": 1,
+          "post_band": 3,
+          "jump": 2,
+          "pre_mean": 1.8,
+          "post_mean": 3.4
+        },
+        {
+          "subject": "yung_wing",
+          "qid": 12,
+          "pre_band": 2,
+          "post_band": 4,
+          "jump": 2,
+          "pre_mean": 2.6,
+          "post_mean": 4.2
+        }
+      ]
+    }
+  }
+}

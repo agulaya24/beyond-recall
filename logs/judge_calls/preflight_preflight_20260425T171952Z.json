@@ -1,0 +1,89 @@
+{
+  "run_id": "preflight_20260425T171952Z",
+  "results": [
+    {
+      "slug": "haiku",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "ok": true,
+      "score": 5,
+      "raw": "5",
+      "param_used": "max_tokens",
+      "elapsed_ms": 1173,
+      "error": null,
+      "required": true
+    },
+    {
+      "slug": "sonnet",
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-6",
+      "ok": true,
+      "score": 5,
+      "raw": "5",
+      "param_used": "max_tokens",
+      "elapsed_ms": 1278,
+      "error": null,
+      "required": true
+    },
+    {
+      "slug": "opus",
+      "provider": "anthropic",
+      "model": "claude-opus-4-6",
+      "ok": true,
+      "score": 5,
+      "raw": "5",
+      "param_used": "max_tokens",
+      "elapsed_ms": 1685,
+      "error": null,
+      "required": true
+    },
+    {
+      "slug": "gpt4o",
+      "provider": "openai",
+      "model": "gpt-4o",
+      "ok": true,
+      "score": 5,
+      "raw": "5",
+      "param_used": "max_tokens",
+      "elapsed_ms": 874,
+      "error": null,
+      "required": true
+    },
+    {
+      "slug": "gpt54",
+      "provider": "openai",
+      "model": "gpt-5.4",
+      "ok": true,
+      "score": 5,
+      "raw": "5",
+      "param_used": "max_completion_tokens",
+      "elapsed_ms": 1178,
+      "error": null,
+      "required": true
+    },
+    {
+      "slug": "gemini_flash",
+      "provider": "gemini",
+      "model": "gemini-2.5-flash",
+      "ok": false,
+      "score": 0,
+      "raw": "",
+      "param_used": "maxOutputTokens",
+      "elapsed_ms": 904,
+      "error": null,
+      "required": false
+    },
+    {
+      "slug": "gemini_pro",
+      "provider": "gemini",
+      "model": "gemini-2.5-pro",
+      "ok": false,
+      "score": 0,
+      "raw": "",
+      "param_used": "maxOutputTokens",
+      "elapsed_ms": 1534,
+      "error": null,
+      "required": false
+    }
+  ]
+}

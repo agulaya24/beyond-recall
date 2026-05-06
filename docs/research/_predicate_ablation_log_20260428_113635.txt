@@ -1,0 +1,31 @@
+[11:36:35] SMOKE RUN starting (no API calls).
+[11:36:35]   Loaded 60 extreme jumps from deep analysis.
+[11:36:35]   PATTERN_PREDICATE_high: picked 8/8 (axes=['INTERPRETIVE_INFERENCE', 'LITERAL_RECALL', 'REFUSAL_TRIGGERING'], subjects=['augustine', 'babur', 'bernal_diaz', 'cellini', 'equiano', 'fukuzawa', 'hamerton', 'sunity_devee'])
+[11:36:35]   INFERENCE_CHAIN: picked 4/4 (axes=['INTERPRETIVE_INFERENCE', 'LITERAL_RECALL'], subjects=['augustine', 'babur', 'bernal_diaz', 'sunity_devee'])
+[11:36:35]   MIXED_OTHER: picked 4/4 (axes=['INTERPRETIVE_INFERENCE', 'LITERAL_RECALL', 'REFUSAL_TRIGGERING'], subjects=['bernal_diaz', 'rousseau', 'sunity_devee', 'yung_wing'])
+[11:36:35]   Saved sampling decision to C:\Users\Aarik\Anthropic\memory-study-repo\docs\research\predicate_ablation_sampling_20260428.json
+[11:36:35] 
+[11:36:35]   Selected 16 cases (16 matched to full sentence)
+[11:36:35]   Stratum counts: {'PATTERN_PREDICATE_high': 8, 'INFERENCE_CHAIN': 4, 'MIXED_OTHER': 4}
+[11:36:35]   Subject distribution: {'fukuzawa': 1, 'equiano': 1, 'sunity_devee': 3, 'augustine': 2, 'babur': 2, 'bernal_diaz': 3, 'cellini': 1, 'hamerton': 1, 'rousseau': 1, 'yung_wing': 1}
+[11:36:35]   Axis distribution: {'INTERPRETIVE_INFERENCE': 9, 'LITERAL_RECALL': 4, 'REFUSAL_TRIGGERING': 3}
+[11:36:35] 
+[11:36:35] Sampling plan (subject/qid/axis/stratum/mechanism/conf/matched):
+[11:36:35]   OK              fukuzawa  q  3  INTERPRETIVE_INFERENCE  PATTERN_PREDICATE_high  PATTERN_PREDICATE/high
+[11:36:35]   OK               equiano  q  3          LITERAL_RECALL  PATTERN_PREDICATE_high  PATTERN_PREDICATE/high
+[11:36:35]   OK          sunity_devee  q  4      REFUSAL_TRIGGERING  PATTERN_PREDICATE_high  PATTERN_PREDICATE/high
+[11:36:35]   OK             augustine  q 35      REFUSAL_TRIGGERING  PATTERN_PREDICATE_high  PATTERN_PREDICATE/high
+[11:36:35]   OK                 babur  q  6  INTERPRETIVE_INFERENCE  PATTERN_PREDICATE_high  PATTERN_PREDICATE/high
+[11:36:35]   OK           bernal_diaz  q 16  INTERPRETIVE_INFERENCE  PATTERN_PREDICATE_high  PATTERN_PREDICATE/high
+[11:36:35]   OK               cellini  q 34          LITERAL_RECALL  PATTERN_PREDICATE_high  PATTERN_PREDICATE/high
+[11:36:35]   OK              hamerton  q 43  INTERPRETIVE_INFERENCE  PATTERN_PREDICATE_high  PATTERN_PREDICATE/high
+[11:36:35]   OK          sunity_devee  q 17  INTERPRETIVE_INFERENCE         INFERENCE_CHAIN  INFERENCE_CHAIN/low
+[11:36:35]   OK             augustine  q 20          LITERAL_RECALL         INFERENCE_CHAIN  INFERENCE_CHAIN/medium
+[11:36:35]   OK                 babur  q 13  INTERPRETIVE_INFERENCE         INFERENCE_CHAIN  INFERENCE_CHAIN/low
+[11:36:35]   OK           bernal_diaz  q  2  INTERPRETIVE_INFERENCE         INFERENCE_CHAIN  INFERENCE_CHAIN/low
+[11:36:35]   OK              rousseau  q 28  INTERPRETIVE_INFERENCE             MIXED_OTHER  PATTERN_PREDICATE/medium
+[11:36:35]   OK             yung_wing  q 22          LITERAL_RECALL             MIXED_OTHER  PATTERN_PREDICATE/medium
+[11:36:35]   OK          sunity_devee  q 23      REFUSAL_TRIGGERING             MIXED_OTHER  PATTERN_PREDICATE/medium
+[11:36:35]   OK           bernal_diaz  q 38  INTERPRETIVE_INFERENCE             MIXED_OTHER  PATTERN_PREDICATE/medium
+[11:36:35] 
+[11:36:35] Smoke complete. Pass --go to run the experiment.

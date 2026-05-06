@@ -1,0 +1,1722 @@
+[
+  {
+    "subject": "global_augustine",
+    "condition": "C1_baselayer",
+    "judge": "gemini_flash",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_augustine",
+    "condition": "C3_baselayer",
+    "judge": "gemini_flash",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_augustine",
+    "condition": "C1_baselayer",
+    "judge": "gpt4o",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_augustine",
+    "condition": "C3_baselayer",
+    "judge": "gpt4o",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_augustine",
+    "condition": "C1_baselayer",
+    "judge": "gpt54",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_augustine",
+    "condition": "C3_baselayer",
+    "judge": "gpt54",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_babur",
+    "condition": "C1_baselayer",
+    "judge": "gpt4o",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_babur",
+    "condition": "C3_baselayer",
+    "judge": "gpt4o",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_babur",
+    "condition": "C1_baselayer",
+    "judge": "gpt54",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_babur",
+    "condition": "C3_baselayer",
+    "judge": "gpt54",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_babur",
+    "condition": "C8_raw_corpus",
+    "judge": "gemini_flash",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_babur",
+    "condition": "C8_raw_corpus",
+    "judge": "gpt4o",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_babur",
+    "condition": "C8_raw_corpus",
+    "judge": "gpt54",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_babur",
+    "condition": "C1_supermemory_fp",
+    "judge": "gemini_flash",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_babur",
+    "condition": "C1_supermemory_fp",
+    "judge": "gpt4o",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_babur",
+    "condition": "C1_supermemory_fp",
+    "judge": "gpt54",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_babur",
+    "condition": "C1_supermemory_fp",
+    "judge": "haiku",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_babur",
+    "condition": "C1_supermemory_fp",
+    "judge": "sonnet",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_babur",
+    "condition": "C1_supermemory_fp",
+    "judge": "opus",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_babur",
+    "condition": "C1_supermemory",
+    "judge": "gemini_flash",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_babur",
+    "condition": "C3_supermemory",
+    "judge": "gemini_flash",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_babur",
+    "condition": "C1_supermemory",
+    "judge": "gpt4o",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_babur",
+    "condition": "C3_supermemory",
+    "judge": "gpt4o",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_babur",
+    "condition": "C1_supermemory",
+    "judge": "gpt54",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_babur",
+    "condition": "C3_supermemory",
+    "judge": "gpt54",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_bernal_diaz",
+    "condition": "C1_baselayer",
+    "judge": "gemini_flash",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_bernal_diaz",
+    "condition": "C3_baselayer",
+    "judge": "gemini_flash",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_bernal_diaz",
+    "condition": "C1_baselayer",
+    "judge": "gpt4o",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_bernal_diaz",
+    "condition": "C3_baselayer",
+    "judge": "gpt4o",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_bernal_diaz",
+    "condition": "C1_baselayer",
+    "judge": "gpt54",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_bernal_diaz",
+    "condition": "C3_baselayer",
+    "judge": "gpt54",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_bernal_diaz",
+    "condition": "C8_raw_corpus",
+    "judge": "gemini_flash",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_bernal_diaz",
+    "condition": "C9_raw_corpus_plus_spec",
+    "judge": "gemini_flash",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_bernal_diaz",
+    "condition": "C8_raw_corpus",
+    "judge": "gpt4o",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_bernal_diaz",
+    "condition": "C9_raw_corpus_plus_spec",
+    "judge": "gpt4o",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_bernal_diaz",
+    "condition": "C8_raw_corpus",
+    "judge": "gpt54",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_bernal_diaz",
+    "condition": "C9_raw_corpus_plus_spec",
+    "judge": "gpt54",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_bernal_diaz",
+    "condition": "C1_supermemory_fp",
+    "judge": "gemini_flash",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_bernal_diaz",
+    "condition": "C1_supermemory_fp",
+    "judge": "gpt4o",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_bernal_diaz",
+    "condition": "C1_supermemory_fp",
+    "judge": "gpt54",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_bernal_diaz",
+    "condition": "C1_supermemory_fp",
+    "judge": "haiku",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_bernal_diaz",
+    "condition": "C1_supermemory_fp",
+    "judge": "sonnet",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_bernal_diaz",
+    "condition": "C1_supermemory_fp",
+    "judge": "opus",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_cellini",
+    "condition": "C1_baselayer",
+    "judge": "gemini_flash",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_cellini",
+    "condition": "C3_baselayer",
+    "judge": "gemini_flash",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_cellini",
+    "condition": "C1_baselayer",
+    "judge": "gpt4o",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_cellini",
+    "condition": "C3_baselayer",
+    "judge": "gpt4o",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_cellini",
+    "condition": "C1_baselayer",
+    "judge": "gpt54",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_cellini",
+    "condition": "C3_baselayer",
+    "judge": "gpt54",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_cellini",
+    "condition": "C1_supermemory_fp",
+    "judge": "gemini_flash",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_cellini",
+    "condition": "C1_supermemory_fp",
+    "judge": "gpt4o",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_cellini",
+    "condition": "C1_supermemory_fp",
+    "judge": "gpt54",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_cellini",
+    "condition": "C1_supermemory_fp",
+    "judge": "haiku",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_cellini",
+    "condition": "C1_supermemory_fp",
+    "judge": "sonnet",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_cellini",
+    "condition": "C1_supermemory_fp",
+    "judge": "opus",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_ebers",
+    "condition": "C1_baselayer",
+    "judge": "gemini_flash",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_ebers",
+    "condition": "C3_baselayer",
+    "judge": "gemini_flash",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_ebers",
+    "condition": "C1_baselayer",
+    "judge": "gpt4o",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_ebers",
+    "condition": "C3_baselayer",
+    "judge": "gpt4o",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_ebers",
+    "condition": "C1_baselayer",
+    "judge": "gpt54",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_ebers",
+    "condition": "C3_baselayer",
+    "judge": "gpt54",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_equiano",
+    "condition": "C1_baselayer",
+    "judge": "gemini_flash",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_equiano",
+    "condition": "C3_baselayer",
+    "judge": "gemini_flash",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_equiano",
+    "condition": "C1_baselayer",
+    "judge": "gpt4o",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_equiano",
+    "condition": "C3_baselayer",
+    "judge": "gpt4o",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_equiano",
+    "condition": "C1_baselayer",
+    "judge": "gpt54",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_equiano",
+    "condition": "C3_baselayer",
+    "judge": "gpt54",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_fukuzawa",
+    "condition": "C1_baselayer",
+    "judge": "gemini_flash",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_fukuzawa",
+    "condition": "C3_baselayer",
+    "judge": "gemini_flash",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_fukuzawa",
+    "condition": "C1_baselayer",
+    "judge": "gpt4o",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_fukuzawa",
+    "condition": "C3_baselayer",
+    "judge": "gpt4o",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_fukuzawa",
+    "condition": "C1_baselayer",
+    "judge": "gpt54",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_fukuzawa",
+    "condition": "C3_baselayer",
+    "judge": "gpt54",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_keckley",
+    "condition": "C1_baselayer",
+    "judge": "gemini_flash",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_keckley",
+    "condition": "C3_baselayer",
+    "judge": "gemini_flash",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_keckley",
+    "condition": "C1_baselayer",
+    "judge": "gpt4o",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_keckley",
+    "condition": "C3_baselayer",
+    "judge": "gpt4o",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_keckley",
+    "condition": "C1_baselayer",
+    "judge": "gpt54",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_keckley",
+    "condition": "C3_baselayer",
+    "judge": "gpt54",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_rousseau",
+    "condition": "C1_baselayer",
+    "judge": "gemini_flash",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_rousseau",
+    "condition": "C3_baselayer",
+    "judge": "gemini_flash",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_rousseau",
+    "condition": "C1_baselayer",
+    "judge": "gpt4o",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_rousseau",
+    "condition": "C3_baselayer",
+    "judge": "gpt4o",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_rousseau",
+    "condition": "C1_baselayer",
+    "judge": "gpt54",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_rousseau",
+    "condition": "C3_baselayer",
+    "judge": "gpt54",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_rousseau",
+    "condition": "C8_raw_corpus",
+    "judge": "gemini_flash",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_rousseau",
+    "condition": "C9_raw_corpus_plus_spec",
+    "judge": "gemini_flash",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_rousseau",
+    "condition": "C8_raw_corpus",
+    "judge": "gpt4o",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_rousseau",
+    "condition": "C9_raw_corpus_plus_spec",
+    "judge": "gpt4o",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_rousseau",
+    "condition": "C8_raw_corpus",
+    "judge": "gpt54",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_rousseau",
+    "condition": "C9_raw_corpus_plus_spec",
+    "judge": "gpt54",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_rousseau",
+    "condition": "C1_supermemory_fp",
+    "judge": "gemini_flash",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_rousseau",
+    "condition": "C1_supermemory_fp",
+    "judge": "gpt4o",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_rousseau",
+    "condition": "C1_supermemory_fp",
+    "judge": "gpt54",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_rousseau",
+    "condition": "C1_supermemory_fp",
+    "judge": "haiku",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_rousseau",
+    "condition": "C1_supermemory_fp",
+    "judge": "sonnet",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_rousseau",
+    "condition": "C1_supermemory_fp",
+    "judge": "opus",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_rousseau",
+    "condition": "C1_supermemory",
+    "judge": "gemini_flash",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_rousseau",
+    "condition": "C3_supermemory",
+    "judge": "gemini_flash",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_rousseau",
+    "condition": "C1_supermemory",
+    "judge": "gpt4o",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_rousseau",
+    "condition": "C3_supermemory",
+    "judge": "gpt4o",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_rousseau",
+    "condition": "C1_supermemory",
+    "judge": "gpt54",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_rousseau",
+    "condition": "C3_supermemory",
+    "judge": "gpt54",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_seacole",
+    "condition": "C1_baselayer",
+    "judge": "gemini_flash",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_seacole",
+    "condition": "C3_baselayer",
+    "judge": "gemini_flash",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_seacole",
+    "condition": "C1_baselayer",
+    "judge": "gpt4o",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_seacole",
+    "condition": "C3_baselayer",
+    "judge": "gpt4o",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_seacole",
+    "condition": "C1_baselayer",
+    "judge": "gpt54",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_seacole",
+    "condition": "C3_baselayer",
+    "judge": "gpt54",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_sunity_devee",
+    "condition": "C1_baselayer",
+    "judge": "gemini_flash",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_sunity_devee",
+    "condition": "C3_baselayer",
+    "judge": "gemini_flash",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_sunity_devee",
+    "condition": "C1_baselayer",
+    "judge": "gpt4o",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_sunity_devee",
+    "condition": "C3_baselayer",
+    "judge": "gpt4o",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_sunity_devee",
+    "condition": "C1_baselayer",
+    "judge": "gpt54",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_sunity_devee",
+    "condition": "C3_baselayer",
+    "judge": "gpt54",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_yung_wing",
+    "condition": "C1_baselayer",
+    "judge": "gemini_flash",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_yung_wing",
+    "condition": "C3_baselayer",
+    "judge": "gemini_flash",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_yung_wing",
+    "condition": "C1_baselayer",
+    "judge": "gpt4o",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_yung_wing",
+    "condition": "C3_baselayer",
+    "judge": "gpt4o",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_yung_wing",
+    "condition": "C1_baselayer",
+    "judge": "gpt54",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_yung_wing",
+    "condition": "C3_baselayer",
+    "judge": "gpt54",
+    "parse_failures": 78,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_babur",
+    "condition": "C9_raw_corpus_plus_spec",
+    "judge": "gemini_flash",
+    "parse_failures": 76,
+    "total_rows": 76,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_babur",
+    "condition": "C9_raw_corpus_plus_spec",
+    "judge": "gpt4o",
+    "parse_failures": 76,
+    "total_rows": 76,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_babur",
+    "condition": "C9_raw_corpus_plus_spec",
+    "judge": "gpt54",
+    "parse_failures": 76,
+    "total_rows": 76,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_babur",
+    "condition": "C9_raw_corpus_plus_spec",
+    "judge": "haiku",
+    "parse_failures": 76,
+    "total_rows": 76,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_babur",
+    "condition": "C9_raw_corpus_plus_spec",
+    "judge": "sonnet",
+    "parse_failures": 76,
+    "total_rows": 76,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_babur",
+    "condition": "C9_raw_corpus_plus_spec",
+    "judge": "opus",
+    "parse_failures": 76,
+    "total_rows": 76,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_fukuzawa",
+    "condition": "C1_supermemory_fp",
+    "judge": "gemini_flash",
+    "parse_failures": 68,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_fukuzawa",
+    "condition": "C1_supermemory_fp",
+    "judge": "gpt4o",
+    "parse_failures": 68,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_fukuzawa",
+    "condition": "C1_supermemory_fp",
+    "judge": "gpt54",
+    "parse_failures": 68,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_fukuzawa",
+    "condition": "C1_supermemory_fp",
+    "judge": "haiku",
+    "parse_failures": 68,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_fukuzawa",
+    "condition": "C1_supermemory_fp",
+    "judge": "sonnet",
+    "parse_failures": 68,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_fukuzawa",
+    "condition": "C1_supermemory_fp",
+    "judge": "opus",
+    "parse_failures": 68,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_sunity_devee",
+    "condition": "C1_supermemory_fp",
+    "judge": "gemini_flash",
+    "parse_failures": 68,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_sunity_devee",
+    "condition": "C1_supermemory_fp",
+    "judge": "gpt4o",
+    "parse_failures": 68,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_sunity_devee",
+    "condition": "C1_supermemory_fp",
+    "judge": "gpt54",
+    "parse_failures": 68,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_sunity_devee",
+    "condition": "C1_supermemory_fp",
+    "judge": "haiku",
+    "parse_failures": 68,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_sunity_devee",
+    "condition": "C1_supermemory_fp",
+    "judge": "sonnet",
+    "parse_failures": 68,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_sunity_devee",
+    "condition": "C1_supermemory_fp",
+    "judge": "opus",
+    "parse_failures": 68,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_augustine",
+    "condition": "C1_supermemory_fp",
+    "judge": "gemini_flash",
+    "parse_failures": 66,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_augustine",
+    "condition": "C1_supermemory_fp",
+    "judge": "gpt4o",
+    "parse_failures": 66,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_augustine",
+    "condition": "C1_supermemory_fp",
+    "judge": "gpt54",
+    "parse_failures": 66,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_augustine",
+    "condition": "C1_supermemory_fp",
+    "judge": "haiku",
+    "parse_failures": 66,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_augustine",
+    "condition": "C1_supermemory_fp",
+    "judge": "sonnet",
+    "parse_failures": 66,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_augustine",
+    "condition": "C1_supermemory_fp",
+    "judge": "opus",
+    "parse_failures": 66,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_ebers",
+    "condition": "C1_supermemory_fp",
+    "judge": "gemini_flash",
+    "parse_failures": 60,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_ebers",
+    "condition": "C1_supermemory_fp",
+    "judge": "gpt4o",
+    "parse_failures": 60,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_ebers",
+    "condition": "C1_supermemory_fp",
+    "judge": "gpt54",
+    "parse_failures": 60,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_ebers",
+    "condition": "C1_supermemory_fp",
+    "judge": "haiku",
+    "parse_failures": 60,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_ebers",
+    "condition": "C1_supermemory_fp",
+    "judge": "sonnet",
+    "parse_failures": 60,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_ebers",
+    "condition": "C1_supermemory_fp",
+    "judge": "opus",
+    "parse_failures": 60,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_equiano",
+    "condition": "C1_supermemory",
+    "judge": "gemini_flash",
+    "parse_failures": 56,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_equiano",
+    "condition": "C1_supermemory",
+    "judge": "gpt4o",
+    "parse_failures": 56,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_equiano",
+    "condition": "C1_supermemory",
+    "judge": "gpt54",
+    "parse_failures": 56,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_equiano",
+    "condition": "C1_supermemory",
+    "judge": "haiku",
+    "parse_failures": 56,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_equiano",
+    "condition": "C1_supermemory",
+    "judge": "sonnet",
+    "parse_failures": 56,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_equiano",
+    "condition": "C1_supermemory",
+    "judge": "opus",
+    "parse_failures": 56,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_babur",
+    "condition": "C1_baselayer",
+    "judge": "gemini_flash",
+    "parse_failures": 54,
+    "total_rows": 54,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_babur",
+    "condition": "C3_baselayer",
+    "judge": "gemini_flash",
+    "parse_failures": 54,
+    "total_rows": 54,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_seacole",
+    "condition": "C1_supermemory_fp",
+    "judge": "gemini_flash",
+    "parse_failures": 42,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_seacole",
+    "condition": "C1_supermemory_fp",
+    "judge": "gpt4o",
+    "parse_failures": 42,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_seacole",
+    "condition": "C1_supermemory_fp",
+    "judge": "gpt54",
+    "parse_failures": 42,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_seacole",
+    "condition": "C1_supermemory_fp",
+    "judge": "haiku",
+    "parse_failures": 42,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_seacole",
+    "condition": "C1_supermemory_fp",
+    "judge": "sonnet",
+    "parse_failures": 42,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_seacole",
+    "condition": "C1_supermemory_fp",
+    "judge": "opus",
+    "parse_failures": 42,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_equiano",
+    "condition": "C1_supermemory_fp",
+    "judge": "gemini_flash",
+    "parse_failures": 34,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_equiano",
+    "condition": "C1_supermemory_fp",
+    "judge": "gpt4o",
+    "parse_failures": 34,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_equiano",
+    "condition": "C1_supermemory_fp",
+    "judge": "gpt54",
+    "parse_failures": 34,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_equiano",
+    "condition": "C1_supermemory_fp",
+    "judge": "haiku",
+    "parse_failures": 34,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_equiano",
+    "condition": "C1_supermemory_fp",
+    "judge": "sonnet",
+    "parse_failures": 34,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_equiano",
+    "condition": "C1_supermemory_fp",
+    "judge": "opus",
+    "parse_failures": 34,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_augustine",
+    "condition": "C4_factdump",
+    "judge": "gemini_pro",
+    "parse_failures": 17,
+    "total_rows": 40,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_augustine",
+    "condition": "C5_baseline",
+    "judge": "gemini_pro",
+    "parse_failures": 14,
+    "total_rows": 40,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_augustine",
+    "condition": "C4a_full_facts_plus_spec",
+    "judge": "gemini_pro",
+    "parse_failures": 12,
+    "total_rows": 40,
+    "rerun_needed": true
+  },
+  {
+    "subject": "hamerton",
+    "condition": "C4_factdump",
+    "judge": "gemini_pro",
+    "parse_failures": 12,
+    "total_rows": 39,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_augustine",
+    "condition": "C2a_full_spec",
+    "judge": "gemini_pro",
+    "parse_failures": 11,
+    "total_rows": 40,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_augustine",
+    "condition": "C2c_wrong_spec",
+    "judge": "gemini_pro",
+    "parse_failures": 10,
+    "total_rows": 40,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_babur",
+    "condition": "C2c_wrong_spec",
+    "judge": "gemini_pro",
+    "parse_failures": 9,
+    "total_rows": 23,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_babur",
+    "condition": "C5_baseline",
+    "judge": "gemini_pro",
+    "parse_failures": 8,
+    "total_rows": 23,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_babur",
+    "condition": "C2a_full_spec",
+    "judge": "gemini_pro",
+    "parse_failures": 8,
+    "total_rows": 23,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_babur",
+    "condition": "C4a_full_facts_plus_spec",
+    "judge": "gemini_pro",
+    "parse_failures": 8,
+    "total_rows": 23,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_rousseau",
+    "condition": "C3_letta",
+    "judge": "gpt4o",
+    "parse_failures": 8,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "hamerton",
+    "condition": "C5_baseline",
+    "judge": "gemini_pro",
+    "parse_failures": 8,
+    "total_rows": 39,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_babur",
+    "condition": "C4_factdump",
+    "judge": "gemini_pro",
+    "parse_failures": 7,
+    "total_rows": 23,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_bernal_diaz",
+    "condition": "C5_baseline",
+    "judge": "gemini_pro",
+    "parse_failures": 7,
+    "total_rows": 10,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_rousseau",
+    "condition": "C1_letta",
+    "judge": "gpt4o",
+    "parse_failures": 6,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_bernal_diaz",
+    "condition": "C4_factdump",
+    "judge": "gemini_pro",
+    "parse_failures": 5,
+    "total_rows": 10,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_bernal_diaz",
+    "condition": "C4a_full_facts_plus_spec",
+    "judge": "gemini_pro",
+    "parse_failures": 5,
+    "total_rows": 10,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_augustine",
+    "condition": "C3_letta",
+    "judge": "gpt4o",
+    "parse_failures": 4,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_augustine",
+    "condition": "C1_supermemory",
+    "judge": "gemini_flash",
+    "parse_failures": 4,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_augustine",
+    "condition": "C1_supermemory",
+    "judge": "gpt4o",
+    "parse_failures": 4,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_augustine",
+    "condition": "C1_supermemory",
+    "judge": "gpt54",
+    "parse_failures": 4,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_augustine",
+    "condition": "C1_supermemory",
+    "judge": "haiku",
+    "parse_failures": 4,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_augustine",
+    "condition": "C1_supermemory",
+    "judge": "sonnet",
+    "parse_failures": 4,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_augustine",
+    "condition": "C1_supermemory",
+    "judge": "opus",
+    "parse_failures": 4,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_babur",
+    "condition": "C1_baselayer",
+    "judge": "haiku",
+    "parse_failures": 4,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_ebers",
+    "condition": "C1_mem0_fp",
+    "judge": "gemini_flash",
+    "parse_failures": 4,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_ebers",
+    "condition": "C1_mem0_fp",
+    "judge": "gpt4o",
+    "parse_failures": 4,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_ebers",
+    "condition": "C1_mem0_fp",
+    "judge": "gpt54",
+    "parse_failures": 4,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_ebers",
+    "condition": "C1_mem0_fp",
+    "judge": "haiku",
+    "parse_failures": 4,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_ebers",
+    "condition": "C1_mem0_fp",
+    "judge": "sonnet",
+    "parse_failures": 4,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_ebers",
+    "condition": "C1_mem0_fp",
+    "judge": "opus",
+    "parse_failures": 4,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_zitkala_sa",
+    "condition": "C3_letta",
+    "judge": "gpt4o",
+    "parse_failures": 4,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_bernal_diaz",
+    "condition": "C2c_wrong_spec",
+    "judge": "gemini_pro",
+    "parse_failures": 3,
+    "total_rows": 10,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_babur",
+    "condition": "C3_baselayer",
+    "judge": "haiku",
+    "parse_failures": 2,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_bernal_diaz",
+    "condition": "C2a_full_spec",
+    "judge": "gemini_pro",
+    "parse_failures": 2,
+    "total_rows": 10,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_cellini",
+    "condition": "C3_letta",
+    "judge": "gpt4o",
+    "parse_failures": 2,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_fukuzawa",
+    "condition": "C1_letta",
+    "judge": "gpt4o",
+    "parse_failures": 2,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_zitkala_sa",
+    "condition": "C1_letta",
+    "judge": "gpt4o",
+    "parse_failures": 2,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "hamerton",
+    "condition": "C1_letta",
+    "judge": "gpt4o",
+    "parse_failures": 2,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "hamerton",
+    "condition": "C1_letta",
+    "judge": "gpt54",
+    "parse_failures": 2,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "hamerton",
+    "condition": "C1_letta",
+    "judge": "sonnet",
+    "parse_failures": 2,
+    "total_rows": 78,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_seacole",
+    "condition": "C5_baseline",
+    "judge": "gemini_flash",
+    "parse_failures": 1,
+    "total_rows": 39,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_sunity_devee",
+    "condition": "C4_factdump",
+    "judge": "haiku",
+    "parse_failures": 1,
+    "total_rows": 79,
+    "rerun_needed": true
+  },
+  {
+    "subject": "global_sunity_devee",
+    "condition": "C4a_full_facts_plus_spec",
+    "judge": "gemini_flash",
+    "parse_failures": 1,
+    "total_rows": 39,
+    "rerun_needed": true
+  }
+]

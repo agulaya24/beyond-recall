@@ -1,0 +1,2381 @@
+{
+  "date": "2026-04-28",
+  "population": "60 unique extreme upward-jump (subject, qid) pairs (deduplicated across 18 condition pairs)",
+  "method": {
+    "tokenization": "re.findall(r\"[A-Za-z']+\", text.lower()) — matches deep_pattern_activation_analysis.py",
+    "ngram_lengths_checked": [
+      3,
+      4,
+      6
+    ],
+    "post_response_source": "FULL C4a response loaded from results files (NOT the 600-char truncation cached in pattern_activation_deep_20260428.json)",
+    "served_spec": "Hamerton: data/hamerton/spec/brief_v5_clean.md; globals: data/global_subjects/<subject>/spec_production.md",
+    "facts_source": "Hamerton: data/hamerton/facts.json; globals: data/global_subjects/<subject>/facts.json (concatenated facts[].text)",
+    "classification_rules": {
+      "CORPUS_LEAK": "n-gram appears in served spec or facts text",
+      "QUESTION_ECHO": "n-gram appears in question text",
+      "COMMON_PHRASE": "3-gram only; in COMMON_3GRAMS allowlist OR not subject-specific (no proper-noun tokens, no subject-name tokens, no specific year)",
+      "PRETRAINING_MEMO_CANDIDATE": "subject-specific n-gram, not in served spec/facts/question; most likely from pretraining memorization of source autobiography",
+      "UNKNOWN": "fallthrough (4+gram not subject-specific, not in served context)"
+    },
+    "substantive_rule": "6+gram match, OR 4-gram match not classified COMMON_PHRASE/QUESTION_ECHO"
+  },
+  "totals": {
+    "cases_total": 60,
+    "cases_with_c4a_response_loaded": 60,
+    "cases_with_any_leak": 9,
+    "cases_with_substantive_leak": 2,
+    "pretraining_memo_candidate_cases": 2,
+    "corpus_leak_cases": 6
+  },
+  "leak_count_by_n": {
+    "6gram": 0,
+    "4gram": 2,
+    "3gram": 12
+  },
+  "classification_counts_per_ngram_match": {
+    "CORPUS_LEAK": 6,
+    "COMMON_PHRASE": 2,
+    "PRETRAINING_MEMO_CANDIDATE": 2
+  },
+  "classification_counts_by_n": {
+    "4": {
+      "CORPUS_LEAK": 1,
+      "PRETRAINING_MEMO_CANDIDATE": 1
+    },
+    "3": {
+      "COMMON_PHRASE": 2,
+      "CORPUS_LEAK": 5,
+      "PRETRAINING_MEMO_CANDIDATE": 1
+    }
+  },
+  "case_dominant_classifications": {
+    "CORPUS_LEAK": 6,
+    "COMMON_PHRASE": 1,
+    "PRETRAINING_MEMO_CANDIDATE": 2
+  },
+  "severity_verdict": "rare",
+  "paper_treatment_recommendation": "footnote acknowledgement sufficient",
+  "leaked_cases": [
+    {
+      "subject": "hamerton",
+      "qid": 51,
+      "axis": "LITERAL_RECALL",
+      "jump": 4,
+      "pre_mean": 1,
+      "post_mean": 5,
+      "observed_in_pairs": [
+        "C1_mem0_fp_to_C3_mem0_fp",
+        "C5_to_C2a",
+        "C5_to_C4",
+        "C5_to_C4a",
+        "C5_to_C8",
+        "C5_to_C9"
+      ],
+      "question_text": "Given Hamerton's deep affection for his guardian and knowledge of her heart disease, would he choose a distant school or stay near her?",
+      "held_out_passage": "I quickly resolved that as Death would probably soon separate us, and might separate us at any moment, I would keep as much as possible near my guardian during her life.",
+      "c4a_response_chars": 1786,
+      "has_c4a_response": true,
+      "leaks": [
+        {
+          "gram": "as much as possible",
+          "n": 4,
+          "classification": "CORPUS_LEAK"
+        }
+      ],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 1,
+        "3gram": 2
+      },
+      "has_any_leak": true,
+      "has_substantive_leak": true,
+      "longest_ngram_hit": 4
+    },
+    {
+      "subject": "hamerton",
+      "qid": 33,
+      "axis": "INTERPRETIVE_INFERENCE",
+      "jump": 4,
+      "pre_mean": 1,
+      "post_mean": 5,
+      "observed_in_pairs": [
+        "C5_to_C4",
+        "C5_to_C4a",
+        "C5_to_C8",
+        "C5_to_C9"
+      ],
+      "question_text": "Given that Hamerton had the social credentials for a political career (old family, property, public speaking ability), would he pursue one?",
+      "held_out_passage": "A man of the world, in my position, would have found his upward course straight before him. He would simply have made use of the Church as an instrument... married for money, offered his services to the Conservative party, and gone into Parliament... In the worldly sense I never had any ambition whatever.",
+      "c4a_response_chars": 2936,
+      "has_c4a_response": true,
+      "leaks": [
+        {
+          "gram": "a man of",
+          "n": 3,
+          "classification": "COMMON_PHRASE"
+        },
+        {
+          "gram": "never had any",
+          "n": 3,
+          "classification": "CORPUS_LEAK"
+        }
+      ],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 2
+      },
+      "has_any_leak": true,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": 3
+    },
+    {
+      "subject": "hamerton",
+      "qid": 42,
+      "axis": "LITERAL_RECALL",
+      "jump": 3,
+      "pre_mean": 1,
+      "post_mean": 4.4,
+      "observed_in_pairs": [
+        "C5_to_C4",
+        "C5_to_C4a",
+        "C5_to_C8",
+        "C5_to_C9"
+      ],
+      "question_text": "Would Hamerton develop an interest in heraldry and medieval pursuits?",
+      "held_out_passage": "I soon learned all about heraldry, and in my leisure time drew and colored all the coats of arms that had been borne by the Hamertons... I became so much of a mediaevalist that there was considerable risk of my stopping short in the amateur practice of such arts as wood-carving, illumination, and painting on glass.",
+      "c4a_response_chars": 4461,
+      "has_c4a_response": true,
+      "leaks": [
+        {
+          "gram": "coats of arms",
+          "n": 3,
+          "classification": "COMMON_PHRASE"
+        }
+      ],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 1
+      },
+      "has_any_leak": true,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": 3
+    },
+    {
+      "subject": "sunity_devee",
+      "qid": 34,
+      "axis": "INTERPRETIVE_INFERENCE",
+      "jump": 3,
+      "pre_mean": 1,
+      "post_mean": 4,
+      "observed_in_pairs": [
+        "C2a_to_C4a",
+        "C5_to_C4",
+        "C5_to_C4a",
+        "C5_to_C8",
+        "C5_to_C9"
+      ],
+      "question_text": "What pattern does the author identify regarding how English people treat Indians differently depending on location?",
+      "held_out_passage": "Yet whoever visits England once wishes to go there again, and the chief reason of this is, that the English are much nicer to Indians in England than they are in India.",
+      "c4a_response_chars": 1857,
+      "has_c4a_response": true,
+      "leaks": [
+        {
+          "gram": "they are in india",
+          "n": 4,
+          "classification": "PRETRAINING_MEMO_CANDIDATE"
+        }
+      ],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 1,
+        "3gram": 2
+      },
+      "has_any_leak": true,
+      "has_substantive_leak": true,
+      "longest_ngram_hit": 4
+    },
+    {
+      "subject": "fukuzawa",
+      "qid": 5,
+      "axis": "INTERPRETIVE_INFERENCE",
+      "jump": 3,
+      "pre_mean": 1,
+      "post_mean": 4.4,
+      "observed_in_pairs": [
+        "C5_to_C2c",
+        "C5_to_C4",
+        "C5_to_C9"
+      ],
+      "question_text": "How does this person respond to social conventions regarding status symbols and formal address?",
+      "held_out_passage": "Unconcerned as I was with my rank or career in this new post, it never occurred to me to have the higher form of address used in my house.",
+      "c4a_response_chars": 4471,
+      "has_c4a_response": true,
+      "leaks": [
+        {
+          "gram": "form of address",
+          "n": 3,
+          "classification": "CORPUS_LEAK"
+        }
+      ],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 1
+      },
+      "has_any_leak": true,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": 3
+    },
+    {
+      "subject": "fukuzawa",
+      "qid": 20,
+      "axis": "INTERPRETIVE_INFERENCE",
+      "jump": 3,
+      "pre_mean": 1,
+      "post_mean": 4.2,
+      "observed_in_pairs": [
+        "C5_to_C4",
+        "C5_to_C4a",
+        "C5_to_C8"
+      ],
+      "question_text": "Would Fukuzawa's willingness to engage in combat training contradict his broader philosophical opposition to weapons?",
+      "held_out_passage": "As I had practised the art of iai, I knew how to handle my sword.",
+      "c4a_response_chars": 2400,
+      "has_c4a_response": true,
+      "leaks": [
+        {
+          "gram": "the art of",
+          "n": 3,
+          "classification": "CORPUS_LEAK"
+        }
+      ],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 1
+      },
+      "has_any_leak": true,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": 3
+    },
+    {
+      "subject": "yung_wing",
+      "qid": 21,
+      "axis": "INTERPRETIVE_INFERENCE",
+      "jump": 3,
+      "pre_mean": 1.4,
+      "post_mean": 4.2,
+      "observed_in_pairs": [
+        "C1_mem0_fp_to_C3_mem0_fp",
+        "C5_to_C2c"
+      ],
+      "question_text": "When a high-ranking official shows no enthusiasm or encouragement for Yung Wing's reform proposals, how does he typically respond?",
+      "held_out_passage": "If he had been as broad a statesman as his predecessor, Tsang Kwoh Fan, he could have said something to encourage me to entertain even a glimpse of hope that he was going to do something to reform the political condition of the government of the country at the close of the war. Nothing, however, was said, or even hinted at. In fact, I had no other interview with him after the first one.",
+      "c4a_response_chars": 2963,
+      "has_c4a_response": true,
+      "leaks": [
+        {
+          "gram": "tsang kwoh fan",
+          "n": 3,
+          "classification": "CORPUS_LEAK"
+        }
+      ],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 1
+      },
+      "has_any_leak": true,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": 3
+    },
+    {
+      "subject": "babur",
+      "qid": 13,
+      "axis": "INTERPRETIVE_INFERENCE",
+      "jump": 3,
+      "pre_mean": 1.4,
+      "post_mean": 4,
+      "observed_in_pairs": [
+        "C5_to_C8"
+      ],
+      "question_text": "Based on Babur's documented patterns of territorial loss and recovery in the training text, how would he characterize a situation where he simultaneously lost multiple strategic holdings?",
+      "held_out_passage": "Having lost Samarkand and Andijān, Bābur is hospitably entertained by the",
+      "c4a_response_chars": 3569,
+      "has_c4a_response": true,
+      "leaks": [
+        {
+          "gram": "lost samarkand and",
+          "n": 3,
+          "classification": "PRETRAINING_MEMO_CANDIDATE"
+        }
+      ],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 1
+      },
+      "has_any_leak": true,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": 3
+    },
+    {
+      "subject": "yung_wing",
+      "qid": 26,
+      "axis": "INTERPRETIVE_INFERENCE",
+      "jump": 3,
+      "pre_mean": 1,
+      "post_mean": 4.2,
+      "observed_in_pairs": [
+        "C1_mem0_fp_to_C3_mem0_fp",
+        "C1_zep_fp_to_C3_zep_fp"
+      ],
+      "question_text": "When Yung Wing senses that a superior official no longer values his services, what does he do?",
+      "held_out_passage": "This I took to be a pretty broad hint that he did not need my services any longer, that I was not the man to suit his purposes; and as I had no axe to grind, I did not make any attempt to run after my grind-stone.",
+      "c4a_response_chars": 1677,
+      "has_c4a_response": true,
+      "leaks": [
+        {
+          "gram": "he did not",
+          "n": 3,
+          "classification": "CORPUS_LEAK"
+        }
+      ],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 1
+      },
+      "has_any_leak": true,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": 3
+    }
+  ],
+  "case_dominant_audit": [
+    {
+      "subject": "hamerton",
+      "qid": 51,
+      "axis": "LITERAL_RECALL",
+      "jump": 4,
+      "longest_n": 4,
+      "dominant_class": "CORPUS_LEAK",
+      "dominant_gram": "as much as possible",
+      "dominant_n": 4,
+      "has_substantive_leak": true,
+      "all_leak_classes": [
+        "CORPUS_LEAK"
+      ]
+    },
+    {
+      "subject": "hamerton",
+      "qid": 33,
+      "axis": "INTERPRETIVE_INFERENCE",
+      "jump": 4,
+      "longest_n": 3,
+      "dominant_class": "CORPUS_LEAK",
+      "dominant_gram": "never had any",
+      "dominant_n": 3,
+      "has_substantive_leak": false,
+      "all_leak_classes": [
+        "COMMON_PHRASE",
+        "CORPUS_LEAK"
+      ]
+    },
+    {
+      "subject": "hamerton",
+      "qid": 42,
+      "axis": "LITERAL_RECALL",
+      "jump": 3,
+      "longest_n": 3,
+      "dominant_class": "COMMON_PHRASE",
+      "dominant_gram": "coats of arms",
+      "dominant_n": 3,
+      "has_substantive_leak": false,
+      "all_leak_classes": [
+        "COMMON_PHRASE"
+      ]
+    },
+    {
+      "subject": "sunity_devee",
+      "qid": 34,
+      "axis": "INTERPRETIVE_INFERENCE",
+      "jump": 3,
+      "longest_n": 4,
+      "dominant_class": "PRETRAINING_MEMO_CANDIDATE",
+      "dominant_gram": "they are in india",
+      "dominant_n": 4,
+      "has_substantive_leak": true,
+      "all_leak_classes": [
+        "PRETRAINING_MEMO_CANDIDATE"
+      ]
+    },
+    {
+      "subject": "fukuzawa",
+      "qid": 5,
+      "axis": "INTERPRETIVE_INFERENCE",
+      "jump": 3,
+      "longest_n": 3,
+      "dominant_class": "CORPUS_LEAK",
+      "dominant_gram": "form of address",
+      "dominant_n": 3,
+      "has_substantive_leak": false,
+      "all_leak_classes": [
+        "CORPUS_LEAK"
+      ]
+    },
+    {
+      "subject": "fukuzawa",
+      "qid": 20,
+      "axis": "INTERPRETIVE_INFERENCE",
+      "jump": 3,
+      "longest_n": 3,
+      "dominant_class": "CORPUS_LEAK",
+      "dominant_gram": "the art of",
+      "dominant_n": 3,
+      "has_substantive_leak": false,
+      "all_leak_classes": [
+        "CORPUS_LEAK"
+      ]
+    },
+    {
+      "subject": "yung_wing",
+      "qid": 21,
+      "axis": "INTERPRETIVE_INFERENCE",
+      "jump": 3,
+      "longest_n": 3,
+      "dominant_class": "CORPUS_LEAK",
+      "dominant_gram": "tsang kwoh fan",
+      "dominant_n": 3,
+      "has_substantive_leak": false,
+      "all_leak_classes": [
+        "CORPUS_LEAK"
+      ]
+    },
+    {
+      "subject": "babur",
+      "qid": 13,
+      "axis": "INTERPRETIVE_INFERENCE",
+      "jump": 3,
+      "longest_n": 3,
+      "dominant_class": "PRETRAINING_MEMO_CANDIDATE",
+      "dominant_gram": "lost samarkand and",
+      "dominant_n": 3,
+      "has_substantive_leak": false,
+      "all_leak_classes": [
+        "PRETRAINING_MEMO_CANDIDATE"
+      ]
+    },
+    {
+      "subject": "yung_wing",
+      "qid": 26,
+      "axis": "INTERPRETIVE_INFERENCE",
+      "jump": 3,
+      "longest_n": 3,
+      "dominant_class": "CORPUS_LEAK",
+      "dominant_gram": "he did not",
+      "dominant_n": 3,
+      "has_substantive_leak": false,
+      "all_leak_classes": [
+        "CORPUS_LEAK"
+      ]
+    }
+  ],
+  "pretrain_memo_cases": [
+    {
+      "subject": "sunity_devee",
+      "qid": 34,
+      "axis": "INTERPRETIVE_INFERENCE",
+      "jump": 3,
+      "longest_n": 4,
+      "dominant_class": "PRETRAINING_MEMO_CANDIDATE",
+      "dominant_gram": "they are in india",
+      "dominant_n": 4,
+      "has_substantive_leak": true,
+      "all_leak_classes": [
+        "PRETRAINING_MEMO_CANDIDATE"
+      ]
+    },
+    {
+      "subject": "babur",
+      "qid": 13,
+      "axis": "INTERPRETIVE_INFERENCE",
+      "jump": 3,
+      "longest_n": 3,
+      "dominant_class": "PRETRAINING_MEMO_CANDIDATE",
+      "dominant_gram": "lost samarkand and",
+      "dominant_n": 3,
+      "has_substantive_leak": false,
+      "all_leak_classes": [
+        "PRETRAINING_MEMO_CANDIDATE"
+      ]
+    }
+  ],
+  "corpus_leak_cases": [
+    {
+      "subject": "hamerton",
+      "qid": 51,
+      "axis": "LITERAL_RECALL",
+      "jump": 4,
+      "longest_n": 4,
+      "dominant_class": "CORPUS_LEAK",
+      "dominant_gram": "as much as possible",
+      "dominant_n": 4,
+      "has_substantive_leak": true,
+      "all_leak_classes": [
+        "CORPUS_LEAK"
+      ]
+    },
+    {
+      "subject": "hamerton",
+      "qid": 33,
+      "axis": "INTERPRETIVE_INFERENCE",
+      "jump": 4,
+      "longest_n": 3,
+      "dominant_class": "CORPUS_LEAK",
+      "dominant_gram": "never had any",
+      "dominant_n": 3,
+      "has_substantive_leak": false,
+      "all_leak_classes": [
+        "COMMON_PHRASE",
+        "CORPUS_LEAK"
+      ]
+    },
+    {
+      "subject": "fukuzawa",
+      "qid": 5,
+      "axis": "INTERPRETIVE_INFERENCE",
+      "jump": 3,
+      "longest_n": 3,
+      "dominant_class": "CORPUS_LEAK",
+      "dominant_gram": "form of address",
+      "dominant_n": 3,
+      "has_substantive_leak": false,
+      "all_leak_classes": [
+        "CORPUS_LEAK"
+      ]
+    },
+    {
+      "subject": "fukuzawa",
+      "qid": 20,
+      "axis": "INTERPRETIVE_INFERENCE",
+      "jump": 3,
+      "longest_n": 3,
+      "dominant_class": "CORPUS_LEAK",
+      "dominant_gram": "the art of",
+      "dominant_n": 3,
+      "has_substantive_leak": false,
+      "all_leak_classes": [
+        "CORPUS_LEAK"
+      ]
+    },
+    {
+      "subject": "yung_wing",
+      "qid": 21,
+      "axis": "INTERPRETIVE_INFERENCE",
+      "jump": 3,
+      "longest_n": 3,
+      "dominant_class": "CORPUS_LEAK",
+      "dominant_gram": "tsang kwoh fan",
+      "dominant_n": 3,
+      "has_substantive_leak": false,
+      "all_leak_classes": [
+        "CORPUS_LEAK"
+      ]
+    },
+    {
+      "subject": "yung_wing",
+      "qid": 26,
+      "axis": "INTERPRETIVE_INFERENCE",
+      "jump": 3,
+      "longest_n": 3,
+      "dominant_class": "CORPUS_LEAK",
+      "dominant_gram": "he did not",
+      "dominant_n": 3,
+      "has_substantive_leak": false,
+      "all_leak_classes": [
+        "CORPUS_LEAK"
+      ]
+    }
+  ],
+  "all_records": [
+    {
+      "subject": "hamerton",
+      "qid": 27,
+      "axis": "REFUSAL_TRIGGERING",
+      "jump": 3,
+      "pre_mean": 1,
+      "post_mean": 4.4,
+      "observed_in_pairs": [
+        "C5_to_C2a"
+      ],
+      "question_text": "Would Hamerton publish his early poetry at his own expense, and what would the commercial result be?",
+      "held_out_passage": "My volume, 'The Isles of Loch Awe and other Poems,' appeared the day I came of age... It was published at my own expense, in an edition of two thousand copies, of which exactly eleven were sold in the real literary market.",
+      "c4a_response_chars": 2812,
+      "has_c4a_response": true,
+      "leaks": [],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 0
+      },
+      "has_any_leak": false,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": null
+    },
+    {
+      "subject": "hamerton",
+      "qid": 43,
+      "axis": "INTERPRETIVE_INFERENCE",
+      "jump": 3,
+      "pre_mean": 1,
+      "post_mean": 4.2,
+      "observed_in_pairs": [
+        "C5_to_C2a",
+        "C5_to_C8"
+      ],
+      "question_text": "When forced to choose between religious hypocrisy for social advancement and intellectual honesty at social cost, which would Hamerton choose?",
+      "held_out_passage": "I looked upon this obstacle as insuperable; but if I had been as indifferent on such questions as young men generally are, there would still have remained a difficulty in my own nature, which is a rooted dislike to everything which is done for social advancement.",
+      "c4a_response_chars": 3209,
+      "has_c4a_response": true,
+      "leaks": [],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 0
+      },
+      "has_any_leak": false,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": null
+    },
+    {
+      "subject": "hamerton",
+      "qid": 51,
+      "axis": "LITERAL_RECALL",
+      "jump": 4,
+      "pre_mean": 1,
+      "post_mean": 5,
+      "observed_in_pairs": [
+        "C1_mem0_fp_to_C3_mem0_fp",
+        "C5_to_C2a",
+        "C5_to_C4",
+        "C5_to_C4a",
+        "C5_to_C8",
+        "C5_to_C9"
+      ],
+      "question_text": "Given Hamerton's deep affection for his guardian and knowledge of her heart disease, would he choose a distant school or stay near her?",
+      "held_out_passage": "I quickly resolved that as Death would probably soon separate us, and might separate us at any moment, I would keep as much as possible near my guardian during her life.",
+      "c4a_response_chars": 1786,
+      "has_c4a_response": true,
+      "leaks": [
+        {
+          "gram": "as much as possible",
+          "n": 4,
+          "classification": "CORPUS_LEAK"
+        }
+      ],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 1,
+        "3gram": 2
+      },
+      "has_any_leak": true,
+      "has_substantive_leak": true,
+      "longest_ngram_hit": 4
+    },
+    {
+      "subject": "hamerton",
+      "qid": 58,
+      "axis": "REFUSAL_TRIGGERING",
+      "jump": 3,
+      "pre_mean": 1,
+      "post_mean": 4.2,
+      "observed_in_pairs": [
+        "C5_to_C2a",
+        "C5_to_C4",
+        "C5_to_C4a",
+        "C5_to_C8",
+        "C5_to_C9"
+      ],
+      "question_text": "Would Hamerton accept or decline an invitation to attend a grand ball at the Hotel de Ville in Paris with Napoleon III present?",
+      "held_out_passage": "He therefore refused to go, and transferred his card to me; so I went with Captain Turnbull.",
+      "c4a_response_chars": 4115,
+      "has_c4a_response": true,
+      "leaks": [],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 0
+      },
+      "has_any_leak": false,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": null
+    },
+    {
+      "subject": "sunity_devee",
+      "qid": 21,
+      "axis": "REFUSAL_TRIGGERING",
+      "jump": 3,
+      "pre_mean": 1,
+      "post_mean": 4,
+      "observed_in_pairs": [
+        "C5_to_C2a"
+      ],
+      "question_text": "Based on the author's background and values shown in the training text, how would she likely respond to a family member's serious illness?",
+      "held_out_passage": "My boys and my brother Saral and the staff nursed my husband day and night, but it was of no avail.",
+      "c4a_response_chars": 4783,
+      "has_c4a_response": true,
+      "leaks": [],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 0
+      },
+      "has_any_leak": false,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": null
+    },
+    {
+      "subject": "fukuzawa",
+      "qid": 3,
+      "axis": "INTERPRETIVE_INFERENCE",
+      "jump": 3,
+      "pre_mean": 1,
+      "post_mean": 4,
+      "observed_in_pairs": [
+        "C5_to_C2a",
+        "C5_to_C4a",
+        "C5_to_C9"
+      ],
+      "question_text": "How does this person conceptualize the relationship between an individual and their employer or patron organization?",
+      "held_out_passage": "All the intercourse of life is governed by the rule of give and take. If the clan says, 'You should be grateful for the patronage given your family for many generations,' I shall have a word to say in reply: 'There is no occasion for you to demand gratitude, for my family has rendered honest service for a long time.'",
+      "c4a_response_chars": 4539,
+      "has_c4a_response": true,
+      "leaks": [],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 0
+      },
+      "has_any_leak": false,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": null
+    },
+    {
+      "subject": "seacole",
+      "qid": 2,
+      "axis": "INTERPRETIVE_INFERENCE",
+      "jump": 4,
+      "pre_mean": 1.8,
+      "post_mean": 5,
+      "observed_in_pairs": [
+        "C1_baselayer_to_C3_baselayer",
+        "C1_mem0_fp_to_C3_mem0_fp",
+        "C1_mem0_to_C3_mem0",
+        "C1_zep_fp_to_C3_zep_fp",
+        "C1_zep_to_C3_zep",
+        "C4_to_C4a",
+        "C5_to_C2a",
+        "C5_to_C4a",
+        "C5_to_C8",
+        "C5_to_C9"
+      ],
+      "question_text": "How does Mary Seacole typically respond when a delirious patient mistakes her for a family member?",
+      "held_out_passage": "Poor fellow! I could not undeceive him. I think the fancy happily caused by the touch of a woman's hand soothed his dying hour",
+      "c4a_response_chars": 1874,
+      "has_c4a_response": true,
+      "leaks": [],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 0
+      },
+      "has_any_leak": false,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": null
+    },
+    {
+      "subject": "seacole",
+      "qid": 19,
+      "axis": "LITERAL_RECALL",
+      "jump": 3,
+      "pre_mean": 1.4,
+      "post_mean": 4.2,
+      "observed_in_pairs": [
+        "C5_to_C2a",
+        "C5_to_C4",
+        "C5_to_C4a",
+        "C5_to_C8",
+        "C5_to_C9"
+      ],
+      "question_text": "What practical advantages would Mary's established store provide to soldiers seeking her care?",
+      "held_out_passage": "they could and did get at my store sick-comforts and nourishing food, which the heads of the medical staff would sometimes find it difficult to procure.",
+      "c4a_response_chars": 3082,
+      "has_c4a_response": true,
+      "leaks": [],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 0
+      },
+      "has_any_leak": false,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": null
+    },
+    {
+      "subject": "seacole",
+      "qid": 27,
+      "axis": "LITERAL_RECALL",
+      "jump": 3,
+      "pre_mean": 1,
+      "post_mean": 4.2,
+      "observed_in_pairs": [
+        "C1_mem0_fp_to_C3_mem0_fp",
+        "C5_to_C2a"
+      ],
+      "question_text": "When she learns of a soldier's death, what action does Mary Seacole feel compelled to take?",
+      "held_out_passage": "And as often as the bad news came, I thought it my duty to ride up to the hut of the sufferer and do my woman's work.",
+      "c4a_response_chars": 1739,
+      "has_c4a_response": true,
+      "leaks": [],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 0
+      },
+      "has_any_leak": false,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": null
+    },
+    {
+      "subject": "keckley",
+      "qid": 9,
+      "axis": "INTERPRETIVE_INFERENCE",
+      "jump": 3,
+      "pre_mean": 1.2,
+      "post_mean": 4.2,
+      "observed_in_pairs": [
+        "C5_to_C2a",
+        "C5_to_C4",
+        "C5_to_C4a",
+        "C5_to_C8",
+        "C5_to_C9"
+      ],
+      "question_text": "When someone under her care shows signs of extreme emotional distress, what would be Keckley's likely course of action?",
+      "held_out_passage": "I bathed Mrs. Lincoln's head with cold water, and soothed the terrible tornado as best I could.",
+      "c4a_response_chars": 4201,
+      "has_c4a_response": true,
+      "leaks": [],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 0
+      },
+      "has_any_leak": false,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": null
+    },
+    {
+      "subject": "cellini",
+      "qid": 34,
+      "axis": "LITERAL_RECALL",
+      "jump": 3,
+      "pre_mean": 1,
+      "post_mean": 4.2,
+      "observed_in_pairs": [
+        "C1_mem0_fp_to_C3_mem0_fp",
+        "C1_zep_fp_to_C3_zep_fp",
+        "C5_to_C2a"
+      ],
+      "question_text": "When Cellini achieves a technical success that he had claimed was impossible, what does he attribute this accomplishment to?",
+      "held_out_passage": "In my great astonishment I seemed to see in this the hand of God arranging and controlling all.",
+      "c4a_response_chars": 1582,
+      "has_c4a_response": true,
+      "leaks": [],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 0
+      },
+      "has_any_leak": false,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": null
+    },
+    {
+      "subject": "hamerton",
+      "qid": 29,
+      "axis": "LITERAL_RECALL",
+      "jump": 3,
+      "pre_mean": 1,
+      "post_mean": 4.8,
+      "observed_in_pairs": [
+        "C5_to_C4",
+        "C5_to_C4a",
+        "C5_to_C9"
+      ],
+      "question_text": "When offered a grand opportunity to organize a Lancashire art exhibition by a prominent figure, would Hamerton accept?",
+      "held_out_passage": "I felt the whole weight of my inexperience, and said to myself: 'Whatever we do it is certain that mistakes will be committed... All mistakes will be laid to my door.' ... I therefore firmly declined.",
+      "c4a_response_chars": 3679,
+      "has_c4a_response": true,
+      "leaks": [],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 0
+      },
+      "has_any_leak": false,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": null
+    },
+    {
+      "subject": "hamerton",
+      "qid": 33,
+      "axis": "INTERPRETIVE_INFERENCE",
+      "jump": 4,
+      "pre_mean": 1,
+      "post_mean": 5,
+      "observed_in_pairs": [
+        "C5_to_C4",
+        "C5_to_C4a",
+        "C5_to_C8",
+        "C5_to_C9"
+      ],
+      "question_text": "Given that Hamerton had the social credentials for a political career (old family, property, public speaking ability), would he pursue one?",
+      "held_out_passage": "A man of the world, in my position, would have found his upward course straight before him. He would simply have made use of the Church as an instrument... married for money, offered his services to the Conservative party, and gone into Parliament... In the worldly sense I never had any ambition whatever.",
+      "c4a_response_chars": 2936,
+      "has_c4a_response": true,
+      "leaks": [
+        {
+          "gram": "a man of",
+          "n": 3,
+          "classification": "COMMON_PHRASE"
+        },
+        {
+          "gram": "never had any",
+          "n": 3,
+          "classification": "CORPUS_LEAK"
+        }
+      ],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 2
+      },
+      "has_any_leak": true,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": 3
+    },
+    {
+      "subject": "hamerton",
+      "qid": 42,
+      "axis": "LITERAL_RECALL",
+      "jump": 3,
+      "pre_mean": 1,
+      "post_mean": 4.4,
+      "observed_in_pairs": [
+        "C5_to_C4",
+        "C5_to_C4a",
+        "C5_to_C8",
+        "C5_to_C9"
+      ],
+      "question_text": "Would Hamerton develop an interest in heraldry and medieval pursuits?",
+      "held_out_passage": "I soon learned all about heraldry, and in my leisure time drew and colored all the coats of arms that had been borne by the Hamertons... I became so much of a mediaevalist that there was considerable risk of my stopping short in the amateur practice of such arts as wood-carving, illumination, and painting on glass.",
+      "c4a_response_chars": 4461,
+      "has_c4a_response": true,
+      "leaks": [
+        {
+          "gram": "coats of arms",
+          "n": 3,
+          "classification": "COMMON_PHRASE"
+        }
+      ],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 1
+      },
+      "has_any_leak": true,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": 3
+    },
+    {
+      "subject": "hamerton",
+      "qid": 46,
+      "axis": "REFUSAL_TRIGGERING",
+      "jump": 3,
+      "pre_mean": 1,
+      "post_mean": 4.4,
+      "observed_in_pairs": [
+        "C1_mem0_fp_to_C3_mem0_fp",
+        "C5_to_C4",
+        "C5_to_C9",
+        "C8_to_C9"
+      ],
+      "question_text": "If his tutor attempted to physically harass him by scraping his face with shark's skin, would Hamerton submit or resist?",
+      "held_out_passage": "One day he attempted to scrape my face with a piece of shark's skin, so I seized both his wrists and held them for some time, telling him that the jest, if it was a jest, was not acceptable.",
+      "c4a_response_chars": 2826,
+      "has_c4a_response": true,
+      "leaks": [],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 0
+      },
+      "has_any_leak": false,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": null
+    },
+    {
+      "subject": "hamerton",
+      "qid": 55,
+      "axis": "LITERAL_RECALL",
+      "jump": 4,
+      "pre_mean": 1,
+      "post_mean": 5,
+      "observed_in_pairs": [
+        "C2a_to_C4a",
+        "C5_to_C4",
+        "C5_to_C4a",
+        "C5_to_C8",
+        "C5_to_C9"
+      ],
+      "question_text": "Would Hamerton eventually master swimming after his humiliating Doncaster failure?",
+      "held_out_passage": "I afterwards became an accomplished swimmer, and could do various tricks in the water, such as reading aloud from a book held in both hands, or swimming in clothes and heavy boots.",
+      "c4a_response_chars": 1795,
+      "has_c4a_response": true,
+      "leaks": [],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 0
+      },
+      "has_any_leak": false,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": null
+    },
+    {
+      "subject": "sunity_devee",
+      "qid": 10,
+      "axis": "LITERAL_RECALL",
+      "jump": 3,
+      "pre_mean": 1,
+      "post_mean": 4,
+      "observed_in_pairs": [
+        "C5_to_C4"
+      ],
+      "question_text": "When comparing natural landscapes between her native country and her host country, what is the narrator's typical assessment?",
+      "held_out_passage": "still I did not find the Scotch scenery half so grand as the mountains of my native land.",
+      "c4a_response_chars": 1830,
+      "has_c4a_response": true,
+      "leaks": [],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 0
+      },
+      "has_any_leak": false,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": null
+    },
+    {
+      "subject": "sunity_devee",
+      "qid": 17,
+      "axis": "INTERPRETIVE_INFERENCE",
+      "jump": 3,
+      "pre_mean": 1,
+      "post_mean": 4.4,
+      "observed_in_pairs": [
+        "C5_to_C4",
+        "C5_to_C8"
+      ],
+      "question_text": "Based on the author's demonstrated character and her relationship with her brother shown in the training text, how would she likely feel about his support during a family crisis?",
+      "held_out_passage": "This brother of mine nursed my husband in his last illness, for which I shall ever be grateful to him.",
+      "c4a_response_chars": 3689,
+      "has_c4a_response": true,
+      "leaks": [],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 0
+      },
+      "has_any_leak": false,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": null
+    },
+    {
+      "subject": "sunity_devee",
+      "qid": 22,
+      "axis": "INTERPRETIVE_INFERENCE",
+      "jump": 3,
+      "pre_mean": 1,
+      "post_mean": 4.2,
+      "observed_in_pairs": [
+        "C5_to_C4",
+        "C5_to_C4a",
+        "C5_to_C8",
+        "C5_to_C9"
+      ],
+      "question_text": "Given the author's character as described in the training text, what emotional control would she likely demonstrate during a spouse's final days?",
+      "held_out_passage": "It was very hard always to wear a smile when all I longed to do was to fall on the floor and weep, but I had to look cheerful and talk brightly.",
+      "c4a_response_chars": 3763,
+      "has_c4a_response": true,
+      "leaks": [],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 0
+      },
+      "has_any_leak": false,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": null
+    },
+    {
+      "subject": "sunity_devee",
+      "qid": 34,
+      "axis": "INTERPRETIVE_INFERENCE",
+      "jump": 3,
+      "pre_mean": 1,
+      "post_mean": 4,
+      "observed_in_pairs": [
+        "C2a_to_C4a",
+        "C5_to_C4",
+        "C5_to_C4a",
+        "C5_to_C8",
+        "C5_to_C9"
+      ],
+      "question_text": "What pattern does the author identify regarding how English people treat Indians differently depending on location?",
+      "held_out_passage": "Yet whoever visits England once wishes to go there again, and the chief reason of this is, that the English are much nicer to Indians in England than they are in India.",
+      "c4a_response_chars": 1857,
+      "has_c4a_response": true,
+      "leaks": [
+        {
+          "gram": "they are in india",
+          "n": 4,
+          "classification": "PRETRAINING_MEMO_CANDIDATE"
+        }
+      ],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 1,
+        "3gram": 2
+      },
+      "has_any_leak": true,
+      "has_substantive_leak": true,
+      "longest_ngram_hit": 4
+    },
+    {
+      "subject": "ebers",
+      "qid": 1,
+      "axis": "INTERPRETIVE_INFERENCE",
+      "jump": 3,
+      "pre_mean": 1,
+      "post_mean": 4.2,
+      "observed_in_pairs": [
+        "C5_to_C4"
+      ],
+      "question_text": "Based on Ebers' demonstrated values in his autobiography, how would he likely respond to a persuasive appeal centered on spiritual duty and service to others?",
+      "held_out_passage": "Like the apostle, I would fain proclaim the gospel to all men according to the best of my powers, in order to bring them into close communion with the Redeemer.",
+      "c4a_response_chars": 3826,
+      "has_c4a_response": true,
+      "leaks": [],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 0
+      },
+      "has_any_leak": false,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": null
+    },
+    {
+      "subject": "ebers",
+      "qid": 7,
+      "axis": "INTERPRETIVE_INFERENCE",
+      "jump": 3,
+      "pre_mean": 1.2,
+      "post_mean": 4,
+      "observed_in_pairs": [
+        "C5_to_C4"
+      ],
+      "question_text": "How would Ebers characterize the relationship between self-sacrifice and the success of an educational institution?",
+      "held_out_passage": "A work is established here which must be built by the hand of God! Implicit devotion and self-sacrifice are needed.",
+      "c4a_response_chars": 3904,
+      "has_c4a_response": true,
+      "leaks": [],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 0
+      },
+      "has_any_leak": false,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": null
+    },
+    {
+      "subject": "ebers",
+      "qid": 18,
+      "axis": "LITERAL_RECALL",
+      "jump": 3,
+      "pre_mean": 1,
+      "post_mean": 4,
+      "observed_in_pairs": [
+        "C5_to_C4",
+        "C5_to_C8",
+        "C5_to_C9"
+      ],
+      "question_text": "How does Ebers describe his capacity for finding joy and maintaining his disposition during his school years?",
+      "held_out_passage": "my natural cheerfulness ruled my whole nature",
+      "c4a_response_chars": 4417,
+      "has_c4a_response": true,
+      "leaks": [],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 0
+      },
+      "has_any_leak": false,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": null
+    },
+    {
+      "subject": "fukuzawa",
+      "qid": 5,
+      "axis": "INTERPRETIVE_INFERENCE",
+      "jump": 3,
+      "pre_mean": 1,
+      "post_mean": 4.4,
+      "observed_in_pairs": [
+        "C5_to_C2c",
+        "C5_to_C4",
+        "C5_to_C9"
+      ],
+      "question_text": "How does this person respond to social conventions regarding status symbols and formal address?",
+      "held_out_passage": "Unconcerned as I was with my rank or career in this new post, it never occurred to me to have the higher form of address used in my house.",
+      "c4a_response_chars": 4471,
+      "has_c4a_response": true,
+      "leaks": [
+        {
+          "gram": "form of address",
+          "n": 3,
+          "classification": "CORPUS_LEAK"
+        }
+      ],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 1
+      },
+      "has_any_leak": true,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": 3
+    },
+    {
+      "subject": "fukuzawa",
+      "qid": 8,
+      "axis": "LITERAL_RECALL",
+      "jump": 3,
+      "pre_mean": 1,
+      "post_mean": 4.2,
+      "observed_in_pairs": [
+        "C5_to_C4",
+        "C5_to_C9"
+      ],
+      "question_text": "How would this person characterize their own psychological state regarding worldly ambitions and material advancement?",
+      "held_out_passage": "It does seem that my mind was rather childlike, perfectly innocent of all worldly ambitions. This lack of attachment to the clan may seem quite creditable now, but in the eyes of my fellow-clansmen it was taken as a lack of loyalty and sympathy.",
+      "c4a_response_chars": 3600,
+      "has_c4a_response": true,
+      "leaks": [],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 0
+      },
+      "has_any_leak": false,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": null
+    },
+    {
+      "subject": "fukuzawa",
+      "qid": 13,
+      "axis": "INTERPRETIVE_INFERENCE",
+      "jump": 3,
+      "pre_mean": 1,
+      "post_mean": 4.4,
+      "observed_in_pairs": [
+        "C5_to_C4",
+        "C5_to_C8",
+        "C5_to_C9"
+      ],
+      "question_text": "After a dangerous encounter, would Fukuzawa be more likely to feel shame or humor about his own fear?",
+      "held_out_passage": "After going a little distance, I turned to look back as I flew. The other man was running too, in his direction. I drew a breath of relief and saw the funny side of the whole incident. A coward had met a coward as in a farce.",
+      "c4a_response_chars": 1980,
+      "has_c4a_response": true,
+      "leaks": [],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 0
+      },
+      "has_any_leak": false,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": null
+    },
+    {
+      "subject": "fukuzawa",
+      "qid": 20,
+      "axis": "INTERPRETIVE_INFERENCE",
+      "jump": 3,
+      "pre_mean": 1,
+      "post_mean": 4.2,
+      "observed_in_pairs": [
+        "C5_to_C4",
+        "C5_to_C4a",
+        "C5_to_C8"
+      ],
+      "question_text": "Would Fukuzawa's willingness to engage in combat training contradict his broader philosophical opposition to weapons?",
+      "held_out_passage": "As I had practised the art of iai, I knew how to handle my sword.",
+      "c4a_response_chars": 2400,
+      "has_c4a_response": true,
+      "leaks": [
+        {
+          "gram": "the art of",
+          "n": 3,
+          "classification": "CORPUS_LEAK"
+        }
+      ],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 1
+      },
+      "has_any_leak": true,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": 3
+    },
+    {
+      "subject": "seacole",
+      "qid": 11,
+      "axis": "INTERPRETIVE_INFERENCE",
+      "jump": 3,
+      "pre_mean": 1,
+      "post_mean": 4,
+      "observed_in_pairs": [
+        "C5_to_C4",
+        "C5_to_C4a"
+      ],
+      "question_text": "Based on Mary's established pattern of medical practice, how would she likely respond if soldiers were reluctant to use official medical facilities?",
+      "held_out_passage": "In the first place, the men (I am speaking of the \"ranks\" now) had a very serious objection to going into hospital for any but urgent reasons, and the regimental doctors were rather fond of sending them there; and, in the second place, they could and did get at my store sick-comforts and nourishing food, which the heads of the medical staff would sometimes find it difficult to procure.",
+      "c4a_response_chars": 2769,
+      "has_c4a_response": true,
+      "leaks": [],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 0
+      },
+      "has_any_leak": false,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": null
+    },
+    {
+      "subject": "seacole",
+      "qid": 18,
+      "axis": "INTERPRETIVE_INFERENCE",
+      "jump": 3,
+      "pre_mean": 1,
+      "post_mean": 4,
+      "observed_in_pairs": [
+        "C5_to_C4",
+        "C5_to_C8",
+        "C5_to_C9"
+      ],
+      "question_text": "Based on Mary's established pattern of self-presentation, how would she likely handle discussing her medical successes?",
+      "held_out_passage": "I was very familiar with the diseases which they suffered most from, and successful in their treatment (I say this in no spirit of vanity)",
+      "c4a_response_chars": 4658,
+      "has_c4a_response": true,
+      "leaks": [],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 0
+      },
+      "has_any_leak": false,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": null
+    },
+    {
+      "subject": "bernal_diaz",
+      "qid": 38,
+      "axis": "INTERPRETIVE_INFERENCE",
+      "jump": 3,
+      "pre_mean": 1,
+      "post_mean": 4,
+      "observed_in_pairs": [
+        "C5_to_C4"
+      ],
+      "question_text": "Based on the author's pattern of documenting military decisions, how would he characterize a commander's choice to send a reconnaissance force with instructions to avoid hostilities while investigating a potential threat?",
+      "held_out_passage": "Cortes, after questioning the man who had come from Tlacupa, despatched Ordas with 400 men, mostly armed with crossbows and muskets, and a few horse, to see what truth there was in his statement. He recommended him, however, to avoid, if possible, all hostilities, and to settle the affair amicably.",
+      "c4a_response_chars": 3165,
+      "has_c4a_response": true,
+      "leaks": [],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 0
+      },
+      "has_any_leak": false,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": null
+    },
+    {
+      "subject": "augustine",
+      "qid": 20,
+      "axis": "LITERAL_RECALL",
+      "jump": 3,
+      "pre_mean": 1,
+      "post_mean": 4.2,
+      "observed_in_pairs": [
+        "C5_to_C4"
+      ],
+      "question_text": "When recalling joyful moments from morally questionable sources, what is the author's evaluative response?",
+      "held_out_passage": "For even from foul things have I been immersed in a sort of joy; which now recalling, I detest and execrate",
+      "c4a_response_chars": 4601,
+      "has_c4a_response": true,
+      "leaks": [],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 0
+      },
+      "has_any_leak": false,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": null
+    },
+    {
+      "subject": "hamerton",
+      "qid": 35,
+      "axis": "REFUSAL_TRIGGERING",
+      "jump": 3,
+      "pre_mean": 1,
+      "post_mean": 4,
+      "observed_in_pairs": [
+        "C4_to_C4a",
+        "C5_to_C4a",
+        "C5_to_C8"
+      ],
+      "question_text": "Would Hamerton's approach to learning French in Paris be passive or aggressive, and how quickly would he achieve fluency?",
+      "held_out_passage": "I made such good use of my time in Paris that when returning to England on the same railway, after the short interval of three months, I spoke French fluently (though not correctly) for the greater part of the way.",
+      "c4a_response_chars": 4622,
+      "has_c4a_response": true,
+      "leaks": [],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 0
+      },
+      "has_any_leak": false,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": null
+    },
+    {
+      "subject": "sunity_devee",
+      "qid": 36,
+      "axis": "LITERAL_RECALL",
+      "jump": 3,
+      "pre_mean": 1,
+      "post_mean": 4.6,
+      "observed_in_pairs": [
+        "C1_zep_to_C3_zep",
+        "C5_to_C4a",
+        "C5_to_C9"
+      ],
+      "question_text": "How does the author characterize her own interest in political matters, and what does she believe is the appropriate role for women in this domain?",
+      "held_out_passage": "I hope I shall be forgiven if my readers do not find much about politics in this book, but I have never been interested in politics, and I think it is better for women not to take part in political work.",
+      "c4a_response_chars": 4860,
+      "has_c4a_response": true,
+      "leaks": [],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 0
+      },
+      "has_any_leak": false,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": null
+    },
+    {
+      "subject": "fukuzawa",
+      "qid": 1,
+      "axis": "INTERPRETIVE_INFERENCE",
+      "jump": 3,
+      "pre_mean": 1.2,
+      "post_mean": 4.4,
+      "observed_in_pairs": [
+        "C5_to_C4a"
+      ],
+      "question_text": "When faced with a direct order from his organization that conflicts with his personal judgment about safety, how would this person likely respond?",
+      "held_out_passage": "I said that it was too dangerous for the young men to go to war; they might be killed by stray bullets however carefully they went about in the battlefield. For this kind of war, if they wanted figureheads in their ranks, they could as well hire farmers from the provinces. My students were too precious; even if they were not to be hit by the bullets, they might hurt their feet on thorns. So I had them answer that they were all too ill to carry arms.",
+      "c4a_response_chars": 3427,
+      "has_c4a_response": true,
+      "leaks": [],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 0
+      },
+      "has_any_leak": false,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": null
+    },
+    {
+      "subject": "fukuzawa",
+      "qid": 16,
+      "axis": "INTERPRETIVE_INFERENCE",
+      "jump": 3,
+      "pre_mean": 1.6,
+      "post_mean": 4.8,
+      "observed_in_pairs": [
+        "C5_to_C4a",
+        "C5_to_C8"
+      ],
+      "question_text": "Would Fukuzawa's personal values regarding weapons align with the cultural trends of his era?",
+      "held_out_passage": "My one cherished hope was to see the abolishment of the swords of the samurai altogether. Truly I was wearing a pair of fine swords at that time, my long blade being of the swordsmith Kongobyoe Moritaka and my short one of Bizen Sukesada. But not long after that I sold them both with all the other weapons in my household, and went around with a pair of improvised swords just for the appearance.",
+      "c4a_response_chars": 4201,
+      "has_c4a_response": true,
+      "leaks": [],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 0
+      },
+      "has_any_leak": false,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": null
+    },
+    {
+      "subject": "fukuzawa",
+      "qid": 35,
+      "axis": "REFUSAL_TRIGGERING",
+      "jump": 3,
+      "pre_mean": 1,
+      "post_mean": 4.2,
+      "observed_in_pairs": [
+        "C4_to_C4a",
+        "C5_to_C4a"
+      ],
+      "question_text": "How would Fukuzawa characterize someone who studied naval arts under the Dutch and later became instrumental in preventing military conflict?",
+      "held_out_passage": "He is best remembered as the man who saved Yedo from siege when the Impenal forces were marching upon it in 1868.",
+      "c4a_response_chars": 1866,
+      "has_c4a_response": true,
+      "leaks": [],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 0
+      },
+      "has_any_leak": false,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": null
+    },
+    {
+      "subject": "yung_wing",
+      "qid": 22,
+      "axis": "LITERAL_RECALL",
+      "jump": 3,
+      "pre_mean": 1,
+      "post_mean": 4.2,
+      "observed_in_pairs": [
+        "C1_zep_fp_to_C3_zep_fp",
+        "C4_to_C4a",
+        "C5_to_C2c",
+        "C5_to_C4a",
+        "C5_to_C8"
+      ],
+      "question_text": "When Yung Wing receives a position that appears to be a sinecure with modest compensation, what action does he take?",
+      "held_out_passage": "after three months' stay in Nanking under Viceroy Liu Kwan Yih, out of regard for official etiquette, I resigned the secretaryship, which was practically a sinecure--paying about $150 a month.",
+      "c4a_response_chars": 2628,
+      "has_c4a_response": true,
+      "leaks": [],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 0
+      },
+      "has_any_leak": false,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": null
+    },
+    {
+      "subject": "yung_wing",
+      "qid": 21,
+      "axis": "INTERPRETIVE_INFERENCE",
+      "jump": 3,
+      "pre_mean": 1.4,
+      "post_mean": 4.2,
+      "observed_in_pairs": [
+        "C1_mem0_fp_to_C3_mem0_fp",
+        "C5_to_C2c"
+      ],
+      "question_text": "When a high-ranking official shows no enthusiasm or encouragement for Yung Wing's reform proposals, how does he typically respond?",
+      "held_out_passage": "If he had been as broad a statesman as his predecessor, Tsang Kwoh Fan, he could have said something to encourage me to entertain even a glimpse of hope that he was going to do something to reform the political condition of the government of the country at the close of the war. Nothing, however, was said, or even hinted at. In fact, I had no other interview with him after the first one.",
+      "c4a_response_chars": 2963,
+      "has_c4a_response": true,
+      "leaks": [
+        {
+          "gram": "tsang kwoh fan",
+          "n": 3,
+          "classification": "CORPUS_LEAK"
+        }
+      ],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 1
+      },
+      "has_any_leak": true,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": 3
+    },
+    {
+      "subject": "equiano",
+      "qid": 3,
+      "axis": "LITERAL_RECALL",
+      "jump": 4,
+      "pre_mean": 1,
+      "post_mean": 5,
+      "observed_in_pairs": [
+        "C1_letta_to_C3_letta",
+        "C1_mem0_fp_to_C3_mem0_fp",
+        "C1_zep_fp_to_C3_zep_fp",
+        "C4_to_C4a"
+      ],
+      "question_text": "When facing a life-threatening illness, what does Equiano do and what promises does he make?",
+      "held_out_passage": "I was very ill for eleven days and near dying; eternity was now exceedingly impressed on my mind, and I feared very much that awful event. I prayed the Lord therefore to spare me; and I made a promise in my mind to God, that I would be good if ever I should recover.",
+      "c4a_response_chars": 3280,
+      "has_c4a_response": true,
+      "leaks": [],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 0
+      },
+      "has_any_leak": false,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": null
+    },
+    {
+      "subject": "seacole",
+      "qid": 16,
+      "axis": "INTERPRETIVE_INFERENCE",
+      "jump": 3,
+      "pre_mean": 1,
+      "post_mean": 4.6,
+      "observed_in_pairs": [
+        "C5_to_C8"
+      ],
+      "question_text": "How would Mary characterize the significance of her role as perceived by the soldiers she served?",
+      "held_out_passage": "Then their calling me \"mother\" was not, I think, altogether unmeaning. I used to fancy that there was something homely in the word; and, reader, you cannot think how dear to them was the smallest thing that reminded them of home.",
+      "c4a_response_chars": 3771,
+      "has_c4a_response": true,
+      "leaks": [],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 0
+      },
+      "has_any_leak": false,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": null
+    },
+    {
+      "subject": "bernal_diaz",
+      "qid": 2,
+      "axis": "INTERPRETIVE_INFERENCE",
+      "jump": 3,
+      "pre_mean": 1,
+      "post_mean": 4.333,
+      "observed_in_pairs": [
+        "C5_to_C8"
+      ],
+      "question_text": "Given Diaz's demonstrated commitment to truthfulness and accuracy, how would he handle reporting on the motivations behind a ruler's diplomatic gestures?",
+      "held_out_passage": "These expressions of friendship were merely sent by Motecusuma in order to entice us from Tlascalla, being aware that we stood in close friendship with its inhabitants",
+      "c4a_response_chars": 2759,
+      "has_c4a_response": true,
+      "leaks": [],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 0
+      },
+      "has_any_leak": false,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": null
+    },
+    {
+      "subject": "babur",
+      "qid": 13,
+      "axis": "INTERPRETIVE_INFERENCE",
+      "jump": 3,
+      "pre_mean": 1.4,
+      "post_mean": 4,
+      "observed_in_pairs": [
+        "C5_to_C8"
+      ],
+      "question_text": "Based on Babur's documented patterns of territorial loss and recovery in the training text, how would he characterize a situation where he simultaneously lost multiple strategic holdings?",
+      "held_out_passage": "Having lost Samarkand and Andijān, Bābur is hospitably entertained by the",
+      "c4a_response_chars": 3569,
+      "has_c4a_response": true,
+      "leaks": [
+        {
+          "gram": "lost samarkand and",
+          "n": 3,
+          "classification": "PRETRAINING_MEMO_CANDIDATE"
+        }
+      ],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 1
+      },
+      "has_any_leak": true,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": 3
+    },
+    {
+      "subject": "hamerton",
+      "qid": 24,
+      "axis": "REFUSAL_TRIGGERING",
+      "jump": 3,
+      "pre_mean": 1,
+      "post_mean": 4.4,
+      "observed_in_pairs": [
+        "C5_to_C9"
+      ],
+      "question_text": "If placed under a tutor who treated him with contempt and tried to humiliate him, how would Hamerton respond?",
+      "held_out_passage": "He treated me with open contempt, and was always trying to humiliate me, till at last I let him understand that I would endure it no longer. One day he ordered me to clean his harness... so I answered, 'No, sir, I shall not clean your harness; that is not my work.'",
+      "c4a_response_chars": 4082,
+      "has_c4a_response": true,
+      "leaks": [],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 0
+      },
+      "has_any_leak": false,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": null
+    },
+    {
+      "subject": "hamerton",
+      "qid": 25,
+      "axis": "INTERPRETIVE_INFERENCE",
+      "jump": 3,
+      "pre_mean": 1,
+      "post_mean": 4.2,
+      "observed_in_pairs": [
+        "C1_letta_fp_to_C3_letta_fp",
+        "C5_to_C9",
+        "C8_to_C9"
+      ],
+      "question_text": "Given Hamerton's difficulty following spoken French at Loch Awe despite years of study, what would he do about it?",
+      "held_out_passage": "This plagued me with an irritating sense of ignorance, so I looked back on my education generally, and found it unsatisfactory... I determined to acquire some substantial knowledge of modern languages, and to begin by learning French over again, so as to write and speak it easily.",
+      "c4a_response_chars": 2604,
+      "has_c4a_response": true,
+      "leaks": [],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 0
+      },
+      "has_any_leak": false,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": null
+    },
+    {
+      "subject": "hamerton",
+      "qid": 60,
+      "axis": "LITERAL_RECALL",
+      "jump": 3,
+      "pre_mean": 1,
+      "post_mean": 4,
+      "observed_in_pairs": [
+        "C5_to_C9"
+      ],
+      "question_text": "Would Hamerton's adult life in France resemble or differ from his boyhood life at Hollins in Lancashire?",
+      "held_out_passage": "The sort of existence that I am leading here at Pré Charmoy, near Autun, in this year 1886, bears a wonderfully close resemblance to my existence at Hollins in 1850. I am living, as I was then, on a pretty estate with woods, meadows, pastures, and a beautiful stream.",
+      "c4a_response_chars": 4711,
+      "has_c4a_response": true,
+      "leaks": [],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 0
+      },
+      "has_any_leak": false,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": null
+    },
+    {
+      "subject": "sunity_devee",
+      "qid": 23,
+      "axis": "REFUSAL_TRIGGERING",
+      "jump": 3,
+      "pre_mean": 1,
+      "post_mean": 4.2,
+      "observed_in_pairs": [
+        "C5_to_C9"
+      ],
+      "question_text": "How would the author likely interpret a dying spouse's request for her to make independent plans?",
+      "held_out_passage": "Gently he answered: \"I know my plans and I would like you to make your plans.\" At this answer my heart sank.",
+      "c4a_response_chars": 3612,
+      "has_c4a_response": true,
+      "leaks": [],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 0
+      },
+      "has_any_leak": false,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": null
+    },
+    {
+      "subject": "hamerton",
+      "qid": 47,
+      "axis": "REFUSAL_TRIGGERING",
+      "jump": 3,
+      "pre_mean": 1.6,
+      "post_mean": 4.2,
+      "observed_in_pairs": [
+        "C1_mem0_to_C3_mem0"
+      ],
+      "question_text": "Would Hamerton keep building catamarans (double-hulled boats) as an adult, given his boyhood interest?",
+      "held_out_passage": "I have always had a fancy for double-hulled boats (now generally called catamarans), and had two of them on Loch Awe... Since those days I have much improved the construction of catamarans.",
+      "c4a_response_chars": 2419,
+      "has_c4a_response": true,
+      "leaks": [],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 0
+      },
+      "has_any_leak": false,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": null
+    },
+    {
+      "subject": "bernal_diaz",
+      "qid": 16,
+      "axis": "INTERPRETIVE_INFERENCE",
+      "jump": 3,
+      "pre_mean": 2,
+      "post_mean": 5,
+      "observed_in_pairs": [
+        "C1_mem0_to_C3_mem0",
+        "C1_supermemory_to_C3_supermemory"
+      ],
+      "question_text": "When the commander is offered physical assistance during a strenuous activity, what behavior would the author expect from him?",
+      "held_out_passage": "There were 114 steps to the summit, and, as they feared that Cortes would experience the same fatigue in mounting as Motecusuma had, they were going to assist him by taking hold of his arms. Cortes, however, would not accept of their proffered aid.",
+      "c4a_response_chars": 1663,
+      "has_c4a_response": true,
+      "leaks": [],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 0
+      },
+      "has_any_leak": false,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": null
+    },
+    {
+      "subject": "babur",
+      "qid": 6,
+      "axis": "INTERPRETIVE_INFERENCE",
+      "jump": 3,
+      "pre_mean": 1.8,
+      "post_mean": 4.2,
+      "observed_in_pairs": [
+        "C1_mem0_to_C3_mem0",
+        "C1_zep_fp_to_C3_zep_fp",
+        "C1_zep_to_C3_zep"
+      ],
+      "question_text": "When subordinates demonstrate military success against enemies, what form of recognition does Babur typically provide?",
+      "held_out_passage": "Today guerdon was bestowed on Aīsān-tīmūr Sl. and Tūkhta-būghā Sl., of swords and daggers with belts, cuirasses, dresses of honour, and _tīpūchāq_ horses; also they were made to kneel, Aīsān-tīmūr Sl. for the grant of 36 _laks_ from the Nārnūl _pargana_, Tūkhta-bughā Sl. for 30 _laks_ from that of Shamsābād.",
+      "c4a_response_chars": 2335,
+      "has_c4a_response": true,
+      "leaks": [],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 0
+      },
+      "has_any_leak": false,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": null
+    },
+    {
+      "subject": "rousseau",
+      "qid": 11,
+      "axis": "REFUSAL_TRIGGERING",
+      "jump": 3,
+      "pre_mean": 1.6,
+      "post_mean": 4,
+      "observed_in_pairs": [
+        "C1_letta_to_C3_letta"
+      ],
+      "question_text": "When Rousseau discovers that someone close to him has been conducting secret affairs without his knowledge, how does he typically respond emotionally?",
+      "held_out_passage": "These reflections at length alienated my affections from this woman, and to such a degree that I could no longer look upon her but with contempt.",
+      "c4a_response_chars": 1901,
+      "has_c4a_response": true,
+      "leaks": [],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 0
+      },
+      "has_any_leak": false,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": null
+    },
+    {
+      "subject": "rousseau",
+      "qid": 19,
+      "axis": "LITERAL_RECALL",
+      "jump": 3,
+      "pre_mean": 1.6,
+      "post_mean": 4,
+      "observed_in_pairs": [
+        "C1_baselayer_to_C3_baselayer",
+        "C1_letta_to_C3_letta",
+        "C1_mem0_fp_to_C3_mem0_fp"
+      ],
+      "question_text": "What does Rousseau identify as the consequence of allowing one secret to be kept between intimate parties?",
+      "held_out_passage": "When once we make a secret of anything to the person we love, we soon make little scruple of doing it in everything",
+      "c4a_response_chars": 1406,
+      "has_c4a_response": true,
+      "leaks": [],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 0
+      },
+      "has_any_leak": false,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": null
+    },
+    {
+      "subject": "rousseau",
+      "qid": 28,
+      "axis": "INTERPRETIVE_INFERENCE",
+      "jump": 3,
+      "pre_mean": 1,
+      "post_mean": 4,
+      "observed_in_pairs": [
+        "C1_letta_to_C3_letta"
+      ],
+      "question_text": "When Rousseau intends to pay a compliment to a man of letters, what unintended consequence often results from his approach?",
+      "held_out_passage": "I thought I paid him a fine compliment; he mistook it for a cruel offence, and became my irreconcilable enemy.",
+      "c4a_response_chars": 1532,
+      "has_c4a_response": true,
+      "leaks": [],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 0
+      },
+      "has_any_leak": false,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": null
+    },
+    {
+      "subject": "rousseau",
+      "qid": 32,
+      "axis": "INTERPRETIVE_INFERENCE",
+      "jump": 3,
+      "pre_mean": 1,
+      "post_mean": 4.8,
+      "observed_in_pairs": [
+        "C1_baselayer_to_C3_baselayer",
+        "C1_letta_to_C3_letta"
+      ],
+      "question_text": "When Rousseau believes powerful forces are working against him in a location, what does he typically decide to do?",
+      "held_out_passage": "Knowing I had secret and powerful enemies in the kingdom, I thought, notwithstanding my attachment to France, I ought to quit it, the better to insure my future tranquillity.",
+      "c4a_response_chars": 1527,
+      "has_c4a_response": true,
+      "leaks": [],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 0
+      },
+      "has_any_leak": false,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": null
+    },
+    {
+      "subject": "sunity_devee",
+      "qid": 4,
+      "axis": "REFUSAL_TRIGGERING",
+      "jump": 3,
+      "pre_mean": 1.667,
+      "post_mean": 4.333,
+      "observed_in_pairs": [
+        "C1_baselayer_to_C3_baselayer"
+      ],
+      "question_text": "When her husband expresses disappointment about missing an opportunity due to her concerns, does the narrator typically reconsider her position?",
+      "held_out_passage": "The Maharajah was disappointed, as he was anxious to go and see the old castle, and to shoot, and I deprived him of both these pleasures.",
+      "c4a_response_chars": 2103,
+      "has_c4a_response": true,
+      "leaks": [],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 0
+      },
+      "has_any_leak": false,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": null
+    },
+    {
+      "subject": "yung_wing",
+      "qid": 26,
+      "axis": "INTERPRETIVE_INFERENCE",
+      "jump": 3,
+      "pre_mean": 1,
+      "post_mean": 4.2,
+      "observed_in_pairs": [
+        "C1_mem0_fp_to_C3_mem0_fp",
+        "C1_zep_fp_to_C3_zep_fp"
+      ],
+      "question_text": "When Yung Wing senses that a superior official no longer values his services, what does he do?",
+      "held_out_passage": "This I took to be a pretty broad hint that he did not need my services any longer, that I was not the man to suit his purposes; and as I had no axe to grind, I did not make any attempt to run after my grind-stone.",
+      "c4a_response_chars": 1677,
+      "has_c4a_response": true,
+      "leaks": [
+        {
+          "gram": "he did not",
+          "n": 3,
+          "classification": "CORPUS_LEAK"
+        }
+      ],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 1
+      },
+      "has_any_leak": true,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": 3
+    },
+    {
+      "subject": "rousseau",
+      "qid": 21,
+      "axis": "INTERPRETIVE_INFERENCE",
+      "jump": 3,
+      "pre_mean": 1.8,
+      "post_mean": 4,
+      "observed_in_pairs": [
+        "C1_mem0_fp_to_C3_mem0_fp"
+      ],
+      "question_text": "When Rousseau discovers that someone's distant behavior toward him stems from jealousy rather than contempt, how does he typically respond emotionally and behaviorally?",
+      "held_out_passage": "int Lambert were less changed than I had imagined, and I at length understood that his keeping her at a distance from me proceeded more from jealousy than from disesteem. [Such in the simplicity of my heart was my opinion when I wrote these confessions.] This was a consolation to me, and calmed my mind.",
+      "c4a_response_chars": 1935,
+      "has_c4a_response": true,
+      "leaks": [],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 0
+      },
+      "has_any_leak": false,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": null
+    },
+    {
+      "subject": "rousseau",
+      "qid": 35,
+      "axis": "INTERPRETIVE_INFERENCE",
+      "jump": 3,
+      "pre_mean": 1.4,
+      "post_mean": 4,
+      "observed_in_pairs": [
+        "C1_mem0_fp_to_C3_mem0_fp"
+      ],
+      "question_text": "When facing an emotional farewell with a beloved family member, how does Rousseau typically behave?",
+      "held_out_passage": "In this pleasing yet cruel moment, the remembrance of so many days of happiness, tenderness and peace passed together augmented the grief of a first separation after an union of seventeen years during which we had scarcely lost sight of each other for a single day.",
+      "c4a_response_chars": 1908,
+      "has_c4a_response": true,
+      "leaks": [],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 0
+      },
+      "has_any_leak": false,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": null
+    },
+    {
+      "subject": "equiano",
+      "qid": 33,
+      "axis": "INTERPRETIVE_INFERENCE",
+      "jump": 3,
+      "pre_mean": 1.2,
+      "post_mean": 4,
+      "observed_in_pairs": [
+        "C1_mem0_fp_to_C3_mem0_fp"
+      ],
+      "question_text": "When faced with work that conflicts with his religious beliefs, what internal struggle does Equiano experience?",
+      "held_out_passage": "I thought this was in some measure a judgment upon us for working on Sundays, and it hurt my mind very much.",
+      "c4a_response_chars": 4736,
+      "has_c4a_response": true,
+      "leaks": [],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 0
+      },
+      "has_any_leak": false,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": null
+    },
+    {
+      "subject": "hamerton",
+      "qid": 53,
+      "axis": "LITERAL_RECALL",
+      "jump": 3,
+      "pre_mean": 1.6,
+      "post_mean": 4.2,
+      "observed_in_pairs": [
+        "C1_zep_fp_to_C3_zep_fp"
+      ],
+      "question_text": "Would Hamerton's time-management approach as a young artist be systematic or haphazard?",
+      "held_out_passage": "I was curiously accurate in my accounts of time, and knew to half-an-hour what was spent on this pursuit or that... 'Determined to-day to study the copper Albert Dürer 80 hours, having given 83 to the wood-cuts.'",
+      "c4a_response_chars": 2611,
+      "has_c4a_response": true,
+      "leaks": [],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 0
+      },
+      "has_any_leak": false,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": null
+    },
+    {
+      "subject": "augustine",
+      "qid": 35,
+      "axis": "REFUSAL_TRIGGERING",
+      "jump": 3,
+      "pre_mean": 1.6,
+      "post_mean": 4.4,
+      "observed_in_pairs": [
+        "C1_zep_fp_to_C3_zep_fp"
+      ],
+      "question_text": "When encountering interpretations that differ from his own but are not false, would Augustine feel threatened or offended?",
+      "held_out_passage": "which not being false, could not offend me",
+      "c4a_response_chars": 3255,
+      "has_c4a_response": true,
+      "leaks": [],
+      "leak_counts": {
+        "6gram": 0,
+        "4gram": 0,
+        "3gram": 0
+      },
+      "has_any_leak": false,
+      "has_substantive_leak": false,
+      "longest_ngram_hit": null
+    }
+  ],
+  "headline_impact": {
+    "method": "wins_inventory C5_to_C4a does not export per_question_pairs, so we cannot fully recompute means after exclusion. We report extreme_count delta only: subtract flagged (subject, qid) cases observed in each pair from the pair extreme_count. Mean deltas are unchanged at the per-question level because individual questions are not removed; they are flagged.",
+    "pretraining_memo_cases_to_exclude_total": 2,
+    "substantive_leak_cases_total": 2,
+    "per_pair_impact": [
+      {
+        "pair": "C5_to_C2a",
+        "extreme_count_observed": 11,
+        "extreme_pct_observed": 2.0,
+        "mean_delta_observed": 0.427,
+        "pretrain_memo_cases_in_pair": 0,
+        "substantive_leak_cases_in_pair": 1,
+        "extreme_count_after_pretrain_exclusion": 11,
+        "extreme_count_after_substantive_exclusion": 10
+      },
+      {
+        "pair": "C5_to_C4",
+        "extreme_count_observed": 24,
+        "extreme_pct_observed": 4.4,
+        "mean_delta_observed": 0.469,
+        "pretrain_memo_cases_in_pair": 1,
+        "substantive_leak_cases_in_pair": 2,
+        "extreme_count_after_pretrain_exclusion": 23,
+        "extreme_count_after_substantive_exclusion": 22
+      },
+      {
+        "pair": "C5_to_C4a",
+        "extreme_count_observed": 20,
+        "extreme_pct_observed": 3.7,
+        "mean_delta_observed": 0.552,
+        "pretrain_memo_cases_in_pair": 1,
+        "substantive_leak_cases_in_pair": 2,
+        "extreme_count_after_pretrain_exclusion": 19,
+        "extreme_count_after_substantive_exclusion": 18
+      },
+      {
+        "pair": "C5_to_C2c",
+        "extreme_count_observed": 3,
+        "extreme_pct_observed": 0.5,
+        "mean_delta_observed": -0.215,
+        "pretrain_memo_cases_in_pair": 0,
+        "substantive_leak_cases_in_pair": 0,
+        "extreme_count_after_pretrain_exclusion": 3,
+        "extreme_count_after_substantive_exclusion": 3
+      },
+      {
+        "pair": "C2a_to_C4a",
+        "extreme_count_observed": 2,
+        "extreme_pct_observed": 0.4,
+        "mean_delta_observed": 0.125,
+        "pretrain_memo_cases_in_pair": 1,
+        "substantive_leak_cases_in_pair": 1,
+        "extreme_count_after_pretrain_exclusion": 1,
+        "extreme_count_after_substantive_exclusion": 1
+      },
+      {
+        "pair": "C4_to_C4a",
+        "extreme_count_observed": 5,
+        "extreme_pct_observed": 0.9,
+        "mean_delta_observed": 0.082,
+        "pretrain_memo_cases_in_pair": 0,
+        "substantive_leak_cases_in_pair": 0,
+        "extreme_count_after_pretrain_exclusion": 5,
+        "extreme_count_after_substantive_exclusion": 5
+      },
+      {
+        "pair": "C5_to_C8",
+        "extreme_count_observed": 22,
+        "extreme_pct_observed": 6.3,
+        "mean_delta_observed": 0.908,
+        "pretrain_memo_cases_in_pair": 2,
+        "substantive_leak_cases_in_pair": 2,
+        "extreme_count_after_pretrain_exclusion": 20,
+        "extreme_count_after_substantive_exclusion": 20
+      },
+      {
+        "pair": "C5_to_C9",
+        "extreme_count_observed": 23,
+        "extreme_pct_observed": 7.4,
+        "mean_delta_observed": 1.073,
+        "pretrain_memo_cases_in_pair": 1,
+        "substantive_leak_cases_in_pair": 2,
+        "extreme_count_after_pretrain_exclusion": 22,
+        "extreme_count_after_substantive_exclusion": 21
+      },
+      {
+        "pair": "C8_to_C9",
+        "extreme_count_observed": 2,
+        "extreme_pct_observed": 0.6,
+        "mean_delta_observed": 0.088,
+        "pretrain_memo_cases_in_pair": 0,
+        "substantive_leak_cases_in_pair": 0,
+        "extreme_count_after_pretrain_exclusion": 2,
+        "extreme_count_after_substantive_exclusion": 2
+      },
+      {
+        "pair": "C1_mem0_to_C3_mem0",
+        "extreme_count_observed": 4,
+        "extreme_pct_observed": 0.7,
+        "mean_delta_observed": 0.121,
+        "pretrain_memo_cases_in_pair": 0,
+        "substantive_leak_cases_in_pair": 0,
+        "extreme_count_after_pretrain_exclusion": 4,
+        "extreme_count_after_substantive_exclusion": 4
+      },
+      {
+        "pair": "C1_letta_to_C3_letta",
+        "extreme_count_observed": 5,
+        "extreme_pct_observed": 0.9,
+        "mean_delta_observed": 0.201,
+        "pretrain_memo_cases_in_pair": 0,
+        "substantive_leak_cases_in_pair": 0,
+        "extreme_count_after_pretrain_exclusion": 5,
+        "extreme_count_after_substantive_exclusion": 5
+      },
+      {
+        "pair": "C1_supermemory_to_C3_supermemory",
+        "extreme_count_observed": 1,
+        "extreme_pct_observed": 0.2,
+        "mean_delta_observed": -0.036,
+        "pretrain_memo_cases_in_pair": 0,
+        "substantive_leak_cases_in_pair": 0,
+        "extreme_count_after_pretrain_exclusion": 1,
+        "extreme_count_after_substantive_exclusion": 1
+      },
+      {
+        "pair": "C1_zep_to_C3_zep",
+        "extreme_count_observed": 3,
+        "extreme_pct_observed": 0.5,
+        "mean_delta_observed": 0.186,
+        "pretrain_memo_cases_in_pair": 0,
+        "substantive_leak_cases_in_pair": 0,
+        "extreme_count_after_pretrain_exclusion": 3,
+        "extreme_count_after_substantive_exclusion": 3
+      },
+      {
+        "pair": "C1_baselayer_to_C3_baselayer",
+        "extreme_count_observed": 4,
+        "extreme_pct_observed": 0.7,
+        "mean_delta_observed": 0.076,
+        "pretrain_memo_cases_in_pair": 0,
+        "substantive_leak_cases_in_pair": 0,
+        "extreme_count_after_pretrain_exclusion": 4,
+        "extreme_count_after_substantive_exclusion": 4
+      },
+      {
+        "pair": "C1_mem0_fp_to_C3_mem0_fp",
+        "extreme_count_observed": 12,
+        "extreme_pct_observed": 2.2,
+        "mean_delta_observed": 0.334,
+        "pretrain_memo_cases_in_pair": 0,
+        "substantive_leak_cases_in_pair": 1,
+        "extreme_count_after_pretrain_exclusion": 12,
+        "extreme_count_after_substantive_exclusion": 11
+      },
+      {
+        "pair": "C1_letta_fp_to_C3_letta_fp",
+        "extreme_count_observed": 1,
+        "extreme_pct_observed": 0.2,
+        "mean_delta_observed": -0.023,
+        "pretrain_memo_cases_in_pair": 0,
+        "substantive_leak_cases_in_pair": 0,
+        "extreme_count_after_pretrain_exclusion": 1,
+        "extreme_count_after_substantive_exclusion": 1
+      },
+      {
+        "pair": "C1_supermemory_fp_to_C3_supermemory_fp",
+        "extreme_count_observed": 0,
+        "extreme_pct_observed": 0.0,
+        "mean_delta_observed": -0.046,
+        "pretrain_memo_cases_in_pair": 0,
+        "substantive_leak_cases_in_pair": 0,
+        "extreme_count_after_pretrain_exclusion": 0,
+        "extreme_count_after_substantive_exclusion": 0
+      },
+      {
+        "pair": "C1_zep_fp_to_C3_zep_fp",
+        "extreme_count_observed": 8,
+        "extreme_pct_observed": 1.5,
+        "mean_delta_observed": 0.327,
+        "pretrain_memo_cases_in_pair": 0,
+        "substantive_leak_cases_in_pair": 0,
+        "extreme_count_after_pretrain_exclusion": 8,
+        "extreme_count_after_substantive_exclusion": 8
+      }
+    ]
+  }
+}

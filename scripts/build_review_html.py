@@ -30,7 +30,7 @@ FIGURE_MAP = [
     ("### 4.5 The Wrong-Spec", "fig6_wrong_spec_control.png",
      "Figure 6: Correct-spec vs. wrong-spec (random derangement) score per subject. Wrong-spec lands near baseline."),
     ("### 5.5 When to Use", "fig4_hedging_reduction.png",
-     "Figure 4: Hedging/refusal rate across C5 → C2a → C4a. 25.0% baseline → 2.6% spec → 0.6% facts+spec."),
+     "Figure 4: Hedging/refusal rate across C5 → C2a → C4a. 28.8% baseline → 1.4% spec → 0.0% facts+spec (starts_refusal classifier)."),
 ]
 
 def build():

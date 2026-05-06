@@ -1,0 +1,162 @@
+[
+  {
+    "question_id": 1,
+    "condition": "C2c_wrong_spec_v2",
+    "judge": "gpt54",
+    "score": 0,
+    "raw_response": "ERR:Client error '400 Bad Request' for url 'https://api.openai.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+    "parse_failure": true
+  },
+  {
+    "question_id": 2,
+    "condition": "C2c_wrong_spec_v2",
+    "judge": "gpt54",
+    "score": 0,
+    "raw_response": "ERR:Client error '400 Bad Request' for url 'https://api.openai.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+    "parse_failure": true
+  },
+  {
+    "question_id": 3,
+    "condition": "C2c_wrong_spec_v2",
+    "judge": "gpt54",
+    "score": 0,
+    "raw_response": "ERR:Client error '400 Bad Request' for url 'https://api.openai.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+    "parse_failure": true
+  },
+  {
+    "question_id": 4,
+    "condition": "C2c_wrong_spec_v2",
+    "judge": "gpt54",
+    "score": 0,
+    "raw_response": "ERR:Client error '400 Bad Request' for url 'https://api.openai.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+    "parse_failure": true
+  },
+  {
+    "question_id": 5,
+    "condition": "C2c_wrong_spec_v2",
+    "judge": "gpt54",
+    "score": 0,
+    "raw_response": "ERR:Client error '400 Bad Request' for url 'https://api.openai.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+    "parse_failure": true
+  },
+  {
+    "question_id": 6,
+    "condition": "C2c_wrong_spec_v2",
+    "judge": "gpt54",
+    "score": 0,
+    "raw_response": "ERR:Client error '400 Bad Request' for url 'https://api.openai.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+    "parse_failure": true
+  },
+  {
+    "question_id": 7,
+    "condition": "C2c_wrong_spec_v2",
+    "judge": "gpt54",
+    "score": 0,
+    "raw_response": "ERR:Client error '400 Bad Request' for url 'https://api.openai.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+    "parse_failure": true
+  },
+  {
+    "question_id": 8,
+    "condition": "C2c_wrong_spec_v2",
+    "judge": "gpt54",
+    "score": 0,
+    "raw_response": "ERR:Client error '400 Bad Request' for url 'https://api.openai.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+    "parse_failure": true
+  },
+  {
+    "question_id": 9,
+    "condition": "C2c_wrong_spec_v2",
+    "judge": "gpt54",
+    "score": 0,
+    "raw_response": "ERR:Client error '400 Bad Request' for url 'https://api.openai.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+    "parse_failure": true
+  },
+  {
+    "question_id": 10,
+    "condition": "C2c_wrong_spec_v2",
+    "judge": "gpt54",
+    "score": 0,
+    "raw_response": "ERR:Client error '400 Bad Request' for url 'https://api.openai.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+    "parse_failure": true
+  },
+  {
+    "question_id": 11,
+    "condition": "C2c_wrong_spec_v2",
+    "judge": "gpt54",
+    "score": 0,
+    "raw_response": "ERR:Client error '400 Bad Request' for url 'https://api.openai.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+    "parse_failure": true
+  },
+  {
+    "question_id": 12,
+    "condition": "C2c_wrong_spec_v2",
+    "judge": "gpt54",
+    "score": 0,
+    "raw_response": "ERR:Client error '400 Bad Request' for url 'https://api.openai.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+    "parse_failure": true
+  },
+  {
+    "question_id": 13,
+    "condition": "C2c_wrong_spec_v2",
+    "judge": "gpt54",
+    "score": 0,
+    "raw_response": "ERR:Client error '400 Bad Request' for url 'https://api.openai.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+    "parse_failure": true
+  },
+  {
+    "question_id": 14,
+    "condition": "C2c_wrong_spec_v2",
+    "judge": "gpt54",
+    "score": 0,
+    "raw_response": "ERR:Client error '400 Bad Request' for url 'https://api.openai.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+    "parse_failure": true
+  },
+  {
+    "question_id": 15,
+    "condition": "C2c_wrong_spec_v2",
+    "judge": "gpt54",
+    "score": 0,
+    "raw_response": "ERR:Client error '400 Bad Request' for url 'https://api.openai.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+    "parse_failure": true
+  },
+  {
+    "question_id": 16,
+    "condition": "C2c_wrong_spec_v2",
+    "judge": "gpt54",
+    "score": 0,
+    "raw_response": "ERR:Client error '400 Bad Request' for url 'https://api.openai.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+    "parse_failure": true
+  },
+  {
+    "question_id": 17,
+    "condition": "C2c_wrong_spec_v2",
+    "judge": "gpt54",
+    "score": 0,
+    "raw_response": "ERR:Client error '400 Bad Request' for url 'https://api.openai.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+    "parse_failure": true
+  },
+  {
+    "question_id": 18,
+    "condition": "C2c_wrong_spec_v2",
+    "judge": "gpt54",
+    "score": 0,
+    "raw_response": "ERR:Client error '400 Bad Request' for url 'https://api.openai.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+    "parse_failure": true
+  },
+  {
+    "question_id": 19,
+    "condition": "C2c_wrong_spec_v2",
+    "judge": "gpt54",
+    "score": 0,
+    "raw_response": "ERR:Client error '400 Bad Request' for url 'https://api.openai.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+    "parse_failure": true
+  },
+  {
+    "question_id": 20,
+    "condition": "C2c_wrong_spec_v2",
+    "judge": "gpt54",
+    "score": 0,
+    "raw_response": "ERR:Client error '400 Bad Request' for url 'https://api.openai.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+    "parse_failure": true
+  }
+]

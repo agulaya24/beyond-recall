@@ -2,7 +2,7 @@
 
 This directory contains every Python script used to run the study. Most of the scripts were written to run on Aarik's Windows workstation against the main Base Layer workspace at `C:/Users/Aarik/Anthropic/memory_system/…`. They work inside that environment. For an external researcher running cold from this repo, **some paths and environment conventions need adjustment first.** The table below is explicit about what will and will not run standalone.
 
-For the pipeline stages these scripts implement, see §3 of [`../docs/beyond_recall_v6_draft.md`](../docs/beyond_recall_v6_draft.md). For the data the scripts consume and produce, see [`../data/README.md`](../data/README.md) and `../results/`.
+For the pipeline stages these scripts implement, see §3 of [`../docs/beyond_recall_v8_draft.md`](../docs/beyond_recall_v8_draft.md). For the data the scripts consume and produce, see [`../data/README.md`](../data/README.md) and `../results/`.
 
 ## Environment conventions
 
@@ -21,7 +21,7 @@ For the pipeline stages these scripts implement, see §3 of [`../docs/beyond_rec
 | `gemini_review_script.py` | Sends paper to Gemini for reviewer comments | Partially | Points at `docs/beyond_recall_arxiv_draft.md` (legacy filename — update to `beyond_recall_v6_draft.md`) | **Yes** (PowerShell env lookup) |
 | `paper_dashboard_textual.py` | Textual TUI showing paper/experiment/outreach status | Partially | Reads multiple paths inside this repo; some tiles read from Aarik's main workspace | No |
 | `review_paper.py` | Cross-LLM paper review (round 1) | Partially | Points at `docs/beyond_recall_arxiv_draft.md` (legacy filename) | **Yes** (PowerShell env lookup) |
-| `review_paper_round2.py` | Cross-LLM paper review (round 2) targeting v6 draft | Yes | Reads `docs/beyond_recall_v6_draft.md` in-repo | **Yes** (PowerShell env lookup) |
+| `review_paper_round2.py` | Cross-LLM paper review (round 2) targeting v6 draft | Yes | Reads `docs/versions/beyond_recall_v6_draft.md` in-repo (v6 is archived; script needs path update for v8) | **Yes** (PowerShell env lookup) |
 | `review_paper_round2_focused.py` | Same as round2 but sends only focus-area sections (for context-limited providers) | Yes | In-repo | **Yes** (PowerShell env lookup) |
 | `review_paper_round2_groq_minimal.py` | Minimal-payload Groq-only round 2 review (Groq rejects 30k+ char payloads) | Yes | In-repo | **Yes** (PowerShell env lookup) |
 | `run_baselayer_condition.py` | Base Layer as a memory-system condition (MiniLM + ChromaDB). Embeds facts, retrieves top-10, runs C1/C3 × judges. | Yes | In-repo | **Yes** (PowerShell env lookup) |
@@ -49,6 +49,6 @@ For the pipeline stages these scripts implement, see §3 of [`../docs/beyond_rec
 
 1. **If you are on macOS / Linux:** replace the PowerShell env blocks at the top of each script with direct `os.environ[...]` reads. The pattern appears in roughly the first 20 lines of most runners.
 2. **If you only want to reproduce one subject end-to-end:** start with `run_baselayer_condition.py --subject <name>`. It runs cleanly from repo and is the lightest-weight path to reproducing the spec condition.
-3. **If you want to reproduce the cross-LLM paper review:** use `review_paper_round2.py` — it reads the canonical v6 draft in-repo. The legacy `review_paper.py` / `gemini_review_script.py` still point at the older `beyond_recall_arxiv_draft.md` filename.
+3. **If you want to reproduce the cross-LLM paper review:** use `gate_review_v8.py` (the most current gate review targeting v8), or `review_paper_round3.py` for the round-3 prompt. The older `review_paper.py`, `gemini_review_script.py`, and `review_paper_round2*.py` still point at legacy draft filenames (`beyond_recall_arxiv_draft.md` or `beyond_recall_v6_draft.md`, both now in `docs/versions/`); edit paths before rerunning.
 4. **Memory-system scripts require paid accounts** with Mem0, Letta, Supermemory, and Zep. Mem0 and Supermemory SDKs had known issues during the study — see [`../docs/PROVIDER_ISSUES.md`](../docs/PROVIDER_ISSUES.md) and [`../docs/PROVIDER_EXPERIENCE_LEDGER.md`](../docs/PROVIDER_EXPERIENCE_LEDGER.md) before running them.
 5. **Checkpointing:** most runners write per-system, per-subject checkpoint files (e.g., `<system>_ingestion_checkpoint.json`). Delete the checkpoint to force a full re-run; keep it to resume.

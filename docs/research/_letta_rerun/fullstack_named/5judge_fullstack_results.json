@@ -1,0 +1,142 @@
+{
+  "response_model": "claude-haiku-4-5-20251001",
+  "primary_judges": [
+    "haiku",
+    "sonnet",
+    "opus",
+    "gpt4o",
+    "gpt54"
+  ],
+  "method": {
+    "A": "per-question mean across judges, then mean over questions",
+    "B": "per-judge mean, then mean over judges"
+  },
+  "letta_side": "letta_memory_haiku main-study judgments (unchanged)",
+  "bl_fullstack_named": "full-layered spec (~35-40K chars) with named surname substitution; pronouns preserved",
+  "bl_unified_brief_named": "compressed unified brief (~7K chars) from prior rerun (for comparison only)",
+  "rows": [
+    {
+      "subject": "hamerton",
+      "letta": {
+        "mean_A": 3.1026,
+        "mean_B": 3.1026,
+        "per_judge": {
+          "haiku": 3.1026,
+          "sonnet": 2.8205,
+          "opus": 3.359,
+          "gpt4o": 3.1795,
+          "gpt54": 3.0513
+        },
+        "n": 39
+      },
+      "bl_fullstack_named": {
+        "mean_A": 2.8308,
+        "mean_B": 2.8308,
+        "per_judge": {
+          "haiku": 2.7436,
+          "sonnet": 2.5128,
+          "opus": 3.2564,
+          "gpt4o": 2.8462,
+          "gpt54": 2.7949
+        },
+        "n": 39
+      },
+      "bl_unified_brief_named": {
+        "mean_A": 2.9641,
+        "mean_B": 2.9641,
+        "per_judge": {
+          "haiku": 2.7179,
+          "sonnet": 2.5897,
+          "opus": 3.4103,
+          "gpt4o": 3.641,
+          "gpt54": 2.4615
+        },
+        "n": 39
+      },
+      "delta_fullstack": 0.2718,
+      "delta_unified": 0.1385
+    },
+    {
+      "subject": "ebers",
+      "letta": {
+        "mean_A": 2.76,
+        "mean_B": 2.76,
+        "per_judge": {
+          "haiku": 2.55,
+          "sonnet": 2.35,
+          "opus": 3.325,
+          "gpt4o": 2.6,
+          "gpt54": 2.975
+        },
+        "n": 40
+      },
+      "bl_fullstack_named": {
+        "mean_A": 1.555,
+        "mean_B": 1.555,
+        "per_judge": {
+          "haiku": 1.475,
+          "sonnet": 1.275,
+          "opus": 1.7,
+          "gpt4o": 1.825,
+          "gpt54": 1.5
+        },
+        "n": 40
+      },
+      "bl_unified_brief_named": {
+        "mean_A": 1.715,
+        "mean_B": 1.715,
+        "per_judge": {
+          "haiku": 1.65,
+          "sonnet": 1.4,
+          "opus": 1.9,
+          "gpt4o": 1.725,
+          "gpt54": 1.9
+        },
+        "n": 40
+      },
+      "delta_fullstack": 1.205,
+      "delta_unified": 1.045
+    },
+    {
+      "subject": "babur",
+      "letta": {
+        "mean_A": 2.415,
+        "mean_B": 2.415,
+        "per_judge": {
+          "haiku": 2.15,
+          "sonnet": 2.175,
+          "opus": 3.2,
+          "gpt4o": 2.225,
+          "gpt54": 2.325
+        },
+        "n": 40
+      },
+      "bl_fullstack_named": {
+        "mean_A": 2.035,
+        "mean_B": 2.035,
+        "per_judge": {
+          "haiku": 1.75,
+          "sonnet": 1.625,
+          "opus": 2.275,
+          "gpt4o": 2.375,
+          "gpt54": 2.15
+        },
+        "n": 40
+      },
+      "bl_unified_brief_named": {
+        "mean_A": 1.88,
+        "mean_B": 1.88,
+        "per_judge": {
+          "haiku": 1.85,
+          "sonnet": 1.5,
+          "opus": 2.275,
+          "gpt4o": 1.975,
+          "gpt54": 1.8
+        },
+        "n": 40
+      },
+      "delta_fullstack": 0.38,
+      "delta_unified": 0.535
+    }
+  ]
+}

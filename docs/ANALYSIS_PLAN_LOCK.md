@@ -1,6 +1,7 @@
 # Analysis Plan Lock — Beyond Recall
 
 **Locked:** 2026-04-16 (Session 113)
+**Carried forward unchanged:** 2026-04-28 (v11 freeze). The locked plan below applied to S113 runs and was carried into v10, v10.1, and v11 without modification. Pre-commitments are retained as-is for audit; do not edit the plan body retroactively.
 **Purpose:** Pre-commitment document for analyses of data that has not yet landed at time of writing, plus locked methodology for analyses of existing data. Written before Tier 2 circularity runs, Supermemory Option B retry, and wrong-spec v2 runs complete.
 
 **What this is:** A prospective analysis plan that applies to:
@@ -78,9 +79,9 @@ Base Layer uses MiniLM-L6-v2 embeddings + ChromaDB retrieval. Analyzed identical
 
 ## Wrong-Spec Control (C2c)
 
-**V1 (existing):** Each subject evaluated with Franklin's specification. Risk: Franklin is a known figure; his spec may be implicitly closer to a Victorian British man (Hamerton) than a randomly chosen alternative.
+**V1 (existing):** Each of the 13 global subjects evaluated with a deterministic fixed cross-subject pairing defined in `scripts/run_global_rerun.py` (WRONG_SPEC_PAIRING, lines 51-60). Pairings were designed to maximize cultural and temporal distance (six 2-cycle swaps plus one 5-cycle). Hamerton is separately evaluated with Franklin's specification under a different test harness (`run_full_study.py`), reported in §4.1.1; that Hamerton-Franklin pairing is NOT the v1 global-subject control.
 
-**V2 (pending):** Each subject assigned a wrong spec from a randomly chosen OTHER study subject (not Franklin). Random assignment fixed via seed=42. Reported alongside V1 as a robustness check.
+**V2 (pending):** Each subject assigned a wrong spec via random derangement across the study subjects. Random assignment fixed via seed=42. Reported alongside V1 as a robustness check.
 
 Both V1 and V2 numbers reported in paper. Primary interpretation is V2 (closer to true random control).
 

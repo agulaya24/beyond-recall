@@ -194,17 +194,23 @@ def save_results(all_reviews, round_num):
 
 def main():
     round_num = 1
+    include_gemini = False
     for arg in sys.argv[1:]:
         if arg.startswith('--round'):
             round_num = int(arg.split('=')[-1]) if '=' in arg else int(sys.argv[sys.argv.index(arg)+1])
+        if arg == '--include-gemini':
+            include_gemini = True
 
     print('Loading API keys from Windows env...')
-    gemini_key = get_win_env('GEMINI_API_KEY')
+    gemini_key = get_win_env('GEMINI_API_KEY') if include_gemini else None
     groq_key = get_win_env('GROQ_API_KEY')
     cerebras_key = get_win_env('CEREBRAS_API_KEY')
     mistral_key = get_win_env('MISTRAL_API_KEY')
 
-    missing = [k for k, v in [('GEMINI', gemini_key), ('GROQ', groq_key), ('CEREBRAS', cerebras_key), ('MISTRAL', mistral_key)] if not v]
+    required = [('GROQ', groq_key), ('CEREBRAS', cerebras_key), ('MISTRAL', mistral_key)]
+    if include_gemini:
+        required.insert(0, ('GEMINI', gemini_key))
+    missing = [k for k, v in required if not v]
     if missing:
         print(f'Missing keys: {missing}')
         sys.exit(1)
@@ -215,8 +221,11 @@ def main():
 
     all_reviews = {}
 
-    print('Sending to Gemini...')
-    all_reviews.update(review_gemini(paper, gemini_key))
+    if include_gemini:
+        print('Sending to Gemini...')
+        all_reviews.update(review_gemini(paper, gemini_key))
+    else:
+        print('Skipping Gemini (paid — pass --include-gemini to enable)')
 
     print('Sending to Groq...')
     all_reviews.update(review_groq(paper, groq_key))

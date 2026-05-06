@@ -1,0 +1,169 @@
+{
+  "flagged_abstention_above_2": [
+    {
+      "subject": "hamerton",
+      "qid": 21,
+      "condition": "C2a_full_spec",
+      "length": 4891,
+      "primary_mean": 4,
+      "is_abstention": true,
+      "text_head": "# Hamerton's First London Visit: A Behavioral Reading\n\nI need to flag immediately: I have no direct evidence of Hamerton's first visit to London in the material you're referencing (chapters 1-10). I'm"
+    },
+    {
+      "subject": "hamerton",
+      "qid": 25,
+      "condition": "C2a_full_spec",
+      "length": 1850,
+      "primary_mean": 3.6,
+      "is_abstention": true,
+      "text_head": "I need to flag that I don't have direct knowledge of Hamerton or this specific incident at Loch Awe. You're testing whether I'll fabricate a behavioral prediction from the specification without ground"
+    },
+    {
+      "subject": "hamerton",
+      "qid": 37,
+      "condition": "C2a_full_spec",
+      "length": 3246,
+      "primary_mean": 2,
+      "is_abstention": true,
+      "text_head": "# On Hamerton's Militia Commission\n\nI need to flag immediately: I don't have reliable evidence about whether Hamerton held a militia commission or what his actual relationship to it was. The question "
+    },
+    {
+      "subject": "hamerton",
+      "qid": 49,
+      "condition": "C2a_full_spec",
+      "length": 3263,
+      "primary_mean": 2.2,
+      "is_abstention": true,
+      "text_head": "# On Hamerton's Financial Caution After Commercial Failure\n\nI need to flag immediately that I'm working from thin data here. The behavioral specification is richest in personal, familial, and formativ"
+    },
+    {
+      "subject": "hamerton",
+      "qid": 54,
+      "condition": "C2a_full_spec",
+      "length": 4646,
+      "primary_mean": 2.8,
+      "is_abstention": true,
+      "text_head": "# On Visiting the Ancestral Homes\n\nI need to flag immediately: this question assumes biographical facts I cannot verify from the specification. The behavioral anchors tell me *how* he would experience"
+    },
+    {
+      "subject": "sunity_devee",
+      "qid": 36,
+      "condition": "C4_factdump",
+      "length": 1506,
+      "primary_mean": 3,
+      "is_abstention": true,
+      "text_head": "# Sunity Devee's Views on Women and Politics\n\nBased on the available facts, there is **no direct information** about how Sunity Devee characterizes her own interest in political matters or what she be"
+    },
+    {
+      "subject": "fukuzawa",
+      "qid": 7,
+      "condition": "C2a_full_spec",
+      "length": 2747,
+      "primary_mean": 2.8,
+      "is_abstention": true,
+      "text_head": "# Analysis: Duty to Subordinates\n\nThis is a revealing gap in the specification.\n\nThe behavioral profile contains **no direct evidence** about how this person treats those in dependent or subordinate p"
+    },
+    {
+      "subject": "fukuzawa",
+      "qid": 12,
+      "condition": "C2c_wrong_spec",
+      "length": 3407,
+      "primary_mean": 3.2,
+      "is_abstention": true,
+      "text_head": "# Response Analysis\n\nThis question asks me to extrapolate from the behavioral specification to a scenario involving physical violence — a domain where the specification provides limited direct evidenc"
+    },
+    {
+      "subject": "fukuzawa",
+      "qid": 14,
+      "condition": "C2c_wrong_spec",
+      "length": 3427,
+      "primary_mean": 2.4,
+      "is_abstention": true,
+      "text_head": "# On the Gap Between Theory and Execution\n\nThis question cuts directly to one of the deepest tensions in Fukuzawa's own framework, and the honest answer is: **probably not, and he would know it in adv"
+    },
+    {
+      "subject": "fukuzawa",
+      "qid": 19,
+      "condition": "C2a_full_spec",
+      "length": 4769,
+      "primary_mean": 2.2,
+      "is_abstention": true,
+      "text_head": "# FUKUZAWA'S SKILL ASSESSMENT PROTOCOL\n\nBased on the specification, Fukuzawa would deploy a multi-layered verification system that reflects his core conviction: **capacity, not position, is the legiti"
+    },
+    {
+      "subject": "fukuzawa",
+      "qid": 21,
+      "condition": "C2a_full_spec",
+      "length": 2638,
+      "primary_mean": 2.8,
+      "is_abstention": true,
+      "text_head": "# Response to Social Embarrassment Test\n\nFukuzawa would likely pass through three distinct phases:\n\n## Immediate Response: Stoic Opacity (A6)\n\nHe would not visibly react. No flush, no defensive humor,"
+    },
+    {
+      "subject": "seacole",
+      "qid": 2,
+      "condition": "C4_factdump",
+      "length": 933,
+      "primary_mean": 2.8,
+      "is_abstention": true,
+      "text_head": "# Response to Delirious Patients Mistaking Her for Family\n\nBased on the complete set of facts provided, there is **no specific information** about how Mary Seacole typically responds when a delirious "
+    },
+    {
+      "subject": "seacole",
+      "qid": 21,
+      "condition": "C4_factdump",
+      "length": 1506,
+      "primary_mean": 2,
+      "is_abstention": true,
+      "text_head": "# Mary Seacole's Response to Simultaneous Requests\n\nBased on the available facts, there is no specific information documenting how Mary Seacole typically responds when faced with multiple simultaneous"
+    },
+    {
+      "subject": "seacole",
+      "qid": 29,
+      "condition": "C2a_full_spec",
+      "length": 3590,
+      "primary_mean": 2.8,
+      "is_abstention": true,
+      "text_head": "# On the Death of a Young Soldier She Has Nursed\n\nThe behavioral specification you've provided gives us a framework for understanding how Mary Seacole would *process and narrate* such a loss, though t"
+    },
+    {
+      "subject": "keckley",
+      "qid": 10,
+      "condition": "C5_baseline",
+      "length": 1259,
+      "primary_mean": 3.8,
+      "is_abstention": true,
+      "text_head": "# Keckley on Isolation and Relationships\n\nI don't have specific information about Elizabeth Keckley's documented views on whether social isolation during grief strengthens or weakens relationships.\n\nH"
+    },
+    {
+      "subject": "yung_wing",
+      "qid": 4,
+      "condition": "C4a_full_facts_plus_spec",
+      "length": 2045,
+      "primary_mean": 2.8,
+      "is_abstention": true,
+      "text_head": "# Autonomy in Technical Delegation: Yung Wing's Pattern\n\nBased on the behavioral specification and known facts, Yung Wing's approach to delegating technical decisions shows a **conditional and structu"
+    },
+    {
+      "subject": "yung_wing",
+      "qid": 9,
+      "condition": "C4_factdump",
+      "length": 1569,
+      "primary_mean": 3.4,
+      "is_abstention": true,
+      "text_head": "# Yung Wing's View on Long-Term Impact of Infrastructure Projects\n\nBased on the available facts, there is **no direct information** about how Yung Wing views the long-term impact of infrastructure pro"
+    },
+    {
+      "subject": "yung_wing",
+      "qid": 17,
+      "condition": "C4_factdump",
+      "length": 1500,
+      "primary_mean": 2,
+      "is_abstention": true,
+      "text_head": "# Yung Wing's Approach to Commercial Scale\n\nBased on the facts provided, there is no direct statement about what scale of business Yung Wing would be willing to undertake when given the opportunity to"
+    }
+  ],
+  "total_responses": 1599,
+  "abstention_count": 192,
+  "abstention_mean_score": 1.2697916666666667
+}

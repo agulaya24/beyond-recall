@@ -2,6 +2,8 @@
 
 *What makes AI memory useful isn't what you remember — it's how you reason about what you remember.*
 
+*Last reviewed: 2026-04-28 (v11 freeze). Companion blog post; framing aligns with v11. Some headline tables below use the S113-era 7-judge aggregate (Hamerton C5 = 1.25, C2a = 3.04, C4a = 3.22, raw corpus = 2.32); v11 reports 5-judge primary as canonical. Headline framing (9 of 9 low-baseline positive, 12 of 14 overall, Wilcoxon p < 0.01) is consistent across both panels. Refresh against v11 5-judge primary numbers before publishing.*
+
 ---
 
 Your AI doesn't know you.
@@ -128,16 +130,16 @@ Franklin's C5 baseline was 4.10. Every context condition — spec, facts, memory
 
 ## Content Specificity: Wrong Specs Don't Work
 
-We ran two wrong-spec controls. Version 1 applied Franklin's specification to the 13 non-Franklin subjects. Version 2 assigned each subject a wrong spec drawn from a random other subject (seed=42).
+We ran two wrong-spec controls. Version 1 is a fixed derangement hand-designed to maximize cultural and temporal distance between each subject and its assigned wrong spec (pairing in `scripts/run_global_rerun.py` WRONG_SPEC_PAIRING). Version 2 is a random derangement (seed=42) in which no subject receives its own spec but pairings can land culturally-close.
 
 | Condition | 14-subject mean | Δ vs baseline | Δ vs correct spec |
 |---|---:|---:|---:|
 | C5 (no spec) | 2.02 | — | − |
 | C2a (correct spec) | 2.55 | +0.53 | − |
-| C2c v1 (Franklin for all) | 1.86 | **−0.16** | −0.69 |
-| C2c v2 (random derangement) | 2.30 | +0.28 | −0.25 |
+| C2c v1 (fixed derangement for cultural/temporal distance) | 1.86 | **−0.16** | −0.69 |
+| C2c v2 (random derangement, seed=42) | 2.30 | +0.28 | −0.25 |
 
-Neither wrong-spec version reaches correct-spec scores. Content specificity matters. A wrong map doesn't beat having no map — it doesn't even reach baseline in the Franklin-for-all condition.
+Neither wrong-spec version reaches correct-spec scores. Content specificity matters. A wrong map doesn't beat having no map — and when the mismatch is adversarial (v1's fixed derangement), structured content for the wrong person scores below having no context at all.
 
 ## How We Measured This
 

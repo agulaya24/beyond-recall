@@ -1,10 +1,15 @@
 # Paper Reviews — Index
 
-**Paper:** `docs/beyond_recall_v6_draft.md` ("Beyond Recall: Behavioral Specification as the Missing Primitive for AI Personalization")
+**Paper:** `docs/beyond_recall_v8_draft.md` ("Beyond Recall: Behavioral Specification as an Interpretive Layer for AI Personalization")
 
-**Review protocol:** Recursive cross-LLM review. Each round, the current paper draft is sent to multiple free-tier LLM providers plus Claude (run directly). Substantive findings are triaged into (a) fixable now, (b) requires expanded experiment, (c) stylistic only. (a) gets applied; the draft is re-run until no substantive (a) items remain. See `LLM_REVIEW_FIXES.md` for the consolidated fix tracker.
+**Review protocol:** Recursive cross-LLM review. Each round, the current paper draft is sent to multiple free-tier LLM providers plus Claude (run directly). Substantive findings are triaged into (a) fixable now, (b) requires expanded experiment, (c) stylistic only. (a) gets applied; the draft is re-run until no substantive (a) items remain. See `internal/LLM_REVIEW_FIXES.md` for the consolidated fix tracker.
 
-**Review script:** `scripts/review_paper.py` (Round 1 onward).
+**Review scripts:** `scripts/review_paper.py` (Round 1), `scripts/review_paper_round2.py` / `_focused.py` / `_groq_minimal.py` (Round 2), `scripts/review_paper_round3.py` (Round 3), `scripts/gate_review_v8.py` (gate review).
+
+## Folder layout
+
+- **Top level (`docs/reviews/`):** active or recent reviews against the current v8 draft — the v8 gate review, synthesis, data audit, session logs, figure review, and this repo audit.
+- **`_archive/`:** historical review artifacts that ran against superseded drafts (v2/v3/v6 rounds, S114 round-by-round session reviews, GTM jargon scans, earlier section-by-section reviews). Retained for provenance; not load-bearing for current work.
 
 ---
 

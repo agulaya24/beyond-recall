@@ -1,0 +1,20 @@
+{
+  "seed": 42,
+  "mapping": {
+    "zitkala_sa": "ebers",
+    "hamerton": "rousseau",
+    "keckley": "augustine",
+    "yung_wing": "equiano",
+    "seacole": "babur",
+    "sunity_devee": "bernal_diaz",
+    "equiano": "sunity_devee",
+    "augustine": "keckley",
+    "ebers": "fukuzawa",
+    "fukuzawa": "yung_wing",
+    "cellini": "seacole",
+    "bernal_diaz": "zitkala_sa",
+    "rousseau": "hamerton",
+    "babur": "cellini"
+  },
+  "generated_at": "2026-04-17T03:56:19.622818+00:00"
+}
