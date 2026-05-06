@@ -2,6 +2,7 @@
 
 **Generated:** 2026-04-13
 **Updated:** 2026-04-18 (Session 113 — full-stack refresh + framing corrections)
+**Last reviewed:** 2026-04-28 (v11 freeze). All corrections logged below were incorporated into v9, v10, v10.1, and v11. This file is retained as a cross-revision audit trail and is referenced from `PROVENANCE_INDEX.md`, `docs/README.md`, and `agents/study-guide.md`. New v11-era corrections are not appended here; see `DATA_REFERENCE.md` and `beyond_recall_v11_draft.md` for current values.
 **Method:** Every quantitative claim in the paper verified against raw data files. Zero inference.
 
 **The current single source of truth for numbers is `docs/DATA_REFERENCE.md`. Any conflict between that file and this changelog or the paper is resolved in favor of DATA_REFERENCE.md.**
@@ -48,9 +49,10 @@ Full-stack refresh of all 14 subjects plus framing rewrite. The corrections belo
 - **Correct values per DATA_REFERENCE §6:**
   - C5 baseline = 2.02 (14-subject mean)
   - C2a correct spec = 2.55 (14-subject mean)
-  - C2c v1 (Franklin-for-all) = 1.86 (−0.16 vs baseline, −0.69 vs correct)
+  - C2c v1 (**fixed derangement for cultural/temporal distance** — pairing in `scripts/run_global_rerun.py` WRONG_SPEC_PAIRING) = 1.86 (−0.16 vs baseline, −0.69 vs correct)
   - C2c v2 (random derangement, seed=42) = **2.30** (+0.28 vs baseline, −0.25 vs correct)
 - **Interpretation:** v1 is the cleaner null. v2 is noisier because random pairings sometimes land on loosely-similar specs. Both are far below correct-spec scores; content specificity matters.
+- **Label correction note (S114):** Prior versions of this file and some support docs called v1 "Franklin-for-all." That label was stale inherited text from the Hamerton-only pre-globals test. The actual C2c v1 condition used in the 13-global wrong-spec analysis is a fixed derangement across subjects, not a Franklin-for-all assignment. Hamerton's separate Franklin-for-all comparison (from `scripts/run_full_study.py`) is reported separately in §4.1.1 of the paper.
 
 ### S113-F. §4.3 "94% retrieval disagreement" — FLAGGED FOR VERIFICATION
 

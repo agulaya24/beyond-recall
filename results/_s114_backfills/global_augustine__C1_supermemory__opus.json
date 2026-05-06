@@ -1,0 +1,18 @@
+[
+  {
+    "question_id": 37,
+    "condition": "C1_supermemory",
+    "judge": "opus",
+    "score": 1,
+    "raw": "1",
+    "parse_failure": false
+  },
+  {
+    "question_id": 38,
+    "condition": "C1_supermemory",
+    "judge": "opus",
+    "score": 1,
+    "raw": "1",
+    "parse_failure": false
+  }
+]

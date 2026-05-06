@@ -1,0 +1,28 @@
+{
+  "subject": "sunity_devee",
+  "rerun": 2,
+  "judges": [
+    "gpt4o",
+    "gpt54",
+    "haiku",
+    "opus",
+    "sonnet"
+  ],
+  "per_judge_per_condition": {
+    "C2a_full_spec__haiku": 2.2564102564102564,
+    "C4a_full_facts_plus_spec__haiku": 2.2564102564102564,
+    "C2a_full_spec__sonnet": 1.7435897435897436,
+    "C4a_full_facts_plus_spec__sonnet": 1.9230769230769231,
+    "C2a_full_spec__opus": 2.5128205128205128,
+    "C4a_full_facts_plus_spec__opus": 2.6153846153846154,
+    "C2a_full_spec__gpt4o": 2.076923076923077,
+    "C4a_full_facts_plus_spec__gpt4o": 2.358974358974359,
+    "C2a_full_spec__gpt54": 2.1538461538461537,
+    "C4a_full_facts_plus_spec__gpt54": 2.2051282051282053
+  },
+  "C2a": 2.1487179487179486,
+  "C4a": 2.2717948717948717,
+  "C5_canonical": 1.026,
+  "delta_c4a": 1.2457948717948717,
+  "delta_spec": 1.1227179487179486
+}

@@ -1,0 +1,28 @@
+{
+  "subject": "augustine",
+  "rerun": 3,
+  "judges": [
+    "gpt4o",
+    "gpt54",
+    "haiku",
+    "opus",
+    "sonnet"
+  ],
+  "per_judge_per_condition": {
+    "C2a_full_spec__haiku": 3,
+    "C4a_full_facts_plus_spec__haiku": 3,
+    "C2a_full_spec__sonnet": 2.076923076923077,
+    "C4a_full_facts_plus_spec__sonnet": 2.051282051282051,
+    "C2a_full_spec__opus": 2.871794871794872,
+    "C4a_full_facts_plus_spec__opus": 2.7435897435897436,
+    "C2a_full_spec__gpt4o": 2.8205128205128207,
+    "C4a_full_facts_plus_spec__gpt4o": 2.948717948717949,
+    "C2a_full_spec__gpt54": 2.8205128205128207,
+    "C4a_full_facts_plus_spec__gpt54": 2.7435897435897436
+  },
+  "C2a": 2.717948717948718,
+  "C4a": 2.6974358974358976,
+  "C5_canonical": 2.585,
+  "delta_c4a": 0.11243589743589766,
+  "delta_spec": 0.1329487179487181
+}

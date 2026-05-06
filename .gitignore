@@ -30,6 +30,10 @@ Desktop.ini
 *.tmp
 *.bak
 *.cache
+*.aux
+
+# Word / Office temp files
+~$*
 
 # Secrets
 credentials.json

@@ -1,0 +1,1966 @@
+{
+  "mem0": {
+    "controlled": {
+      "c1_condition": "C1_mem0",
+      "c3_condition": "C3_mem0",
+      "missing_subjects": [],
+      "all_subjects": {
+        "total_questions": 546,
+        "upward": 131,
+        "downward": 98,
+        "no_crossing": 317,
+        "upward_pct": 23.992673992673993,
+        "downward_pct": 17.94871794871795,
+        "no_crossing_pct": 58.05860805860806,
+        "boundary_up": {
+          "1->2": 66,
+          "1->3": 9,
+          "1->4": 2,
+          "2->3": 45,
+          "2->5": 2,
+          "3->4": 3,
+          "2->4": 4
+        },
+        "jump_size_dist": {
+          "1": 114,
+          "2": 13,
+          "3": 4
+        },
+        "subjects_with_data": 14,
+        "subjects_with_upward": 14,
+        "subjects_in_scope": 14
+      },
+      "all_subjects_per_subject": [
+        {
+          "subject": "hamerton",
+          "total": 39,
+          "upward": 12,
+          "downward": 10,
+          "no_crossing": 17
+        },
+        {
+          "subject": "augustine",
+          "total": 39,
+          "upward": 15,
+          "downward": 4,
+          "no_crossing": 20
+        },
+        {
+          "subject": "babur",
+          "total": 39,
+          "upward": 8,
+          "downward": 2,
+          "no_crossing": 29
+        },
+        {
+          "subject": "bernal_diaz",
+          "total": 39,
+          "upward": 8,
+          "downward": 11,
+          "no_crossing": 20
+        },
+        {
+          "subject": "cellini",
+          "total": 39,
+          "upward": 13,
+          "downward": 4,
+          "no_crossing": 22
+        },
+        {
+          "subject": "ebers",
+          "total": 39,
+          "upward": 5,
+          "downward": 5,
+          "no_crossing": 29
+        },
+        {
+          "subject": "equiano",
+          "total": 39,
+          "upward": 9,
+          "downward": 7,
+          "no_crossing": 23
+        },
+        {
+          "subject": "fukuzawa",
+          "total": 39,
+          "upward": 9,
+          "downward": 9,
+          "no_crossing": 21
+        },
+        {
+          "subject": "keckley",
+          "total": 39,
+          "upward": 6,
+          "downward": 7,
+          "no_crossing": 26
+        },
+        {
+          "subject": "rousseau",
+          "total": 39,
+          "upward": 9,
+          "downward": 6,
+          "no_crossing": 24
+        },
+        {
+          "subject": "seacole",
+          "total": 39,
+          "upward": 11,
+          "downward": 7,
+          "no_crossing": 21
+        },
+        {
+          "subject": "sunity_devee",
+          "total": 39,
+          "upward": 7,
+          "downward": 9,
+          "no_crossing": 23
+        },
+        {
+          "subject": "yung_wing",
+          "total": 39,
+          "upward": 16,
+          "downward": 6,
+          "no_crossing": 17
+        },
+        {
+          "subject": "zitkala_sa",
+          "total": 39,
+          "upward": 3,
+          "downward": 11,
+          "no_crossing": 25
+        }
+      ],
+      "low_baseline": {
+        "total_questions": 351,
+        "upward": 82,
+        "downward": 66,
+        "no_crossing": 203,
+        "upward_pct": 23.36182336182336,
+        "downward_pct": 18.803418803418804,
+        "no_crossing_pct": 57.83475783475784,
+        "boundary_up": {
+          "1->2": 42,
+          "1->3": 3,
+          "1->4": 2,
+          "2->3": 28,
+          "2->4": 2,
+          "2->5": 2,
+          "3->4": 3
+        },
+        "jump_size_dist": {
+          "1": 73,
+          "2": 5,
+          "3": 4
+        },
+        "subjects_with_data": 9,
+        "subjects_with_upward": 9,
+        "subjects_in_scope": 9
+      },
+      "low_baseline_per_subject": [
+        {
+          "subject": "hamerton",
+          "total": 39,
+          "upward": 12,
+          "downward": 10,
+          "no_crossing": 17
+        },
+        {
+          "subject": "sunity_devee",
+          "total": 39,
+          "upward": 7,
+          "downward": 9,
+          "no_crossing": 23
+        },
+        {
+          "subject": "ebers",
+          "total": 39,
+          "upward": 5,
+          "downward": 5,
+          "no_crossing": 29
+        },
+        {
+          "subject": "fukuzawa",
+          "total": 39,
+          "upward": 9,
+          "downward": 9,
+          "no_crossing": 21
+        },
+        {
+          "subject": "seacole",
+          "total": 39,
+          "upward": 11,
+          "downward": 7,
+          "no_crossing": 21
+        },
+        {
+          "subject": "bernal_diaz",
+          "total": 39,
+          "upward": 8,
+          "downward": 11,
+          "no_crossing": 20
+        },
+        {
+          "subject": "keckley",
+          "total": 39,
+          "upward": 6,
+          "downward": 7,
+          "no_crossing": 26
+        },
+        {
+          "subject": "yung_wing",
+          "total": 39,
+          "upward": 16,
+          "downward": 6,
+          "no_crossing": 17
+        },
+        {
+          "subject": "babur",
+          "total": 39,
+          "upward": 8,
+          "downward": 2,
+          "no_crossing": 29
+        }
+      ]
+    },
+    "native": {
+      "c1_condition": "C1_mem0_fp",
+      "c3_condition": "C3_mem0_fp",
+      "missing_subjects": [],
+      "all_subjects": {
+        "total_questions": 544,
+        "upward": 202,
+        "downward": 74,
+        "no_crossing": 268,
+        "upward_pct": 37.13235294117647,
+        "downward_pct": 13.602941176470589,
+        "no_crossing_pct": 49.26470588235294,
+        "boundary_up": {
+          "1->2": 122,
+          "1->3": 29,
+          "3->4": 7,
+          "2->3": 29,
+          "1->4": 11,
+          "1->5": 1,
+          "2->4": 3
+        },
+        "jump_size_dist": {
+          "1": 158,
+          "2": 32,
+          "3": 11,
+          "4": 1
+        },
+        "subjects_with_data": 14,
+        "subjects_with_upward": 14,
+        "subjects_in_scope": 14
+      },
+      "all_subjects_per_subject": [
+        {
+          "subject": "hamerton",
+          "total": 39,
+          "upward": 22,
+          "downward": 3,
+          "no_crossing": 14
+        },
+        {
+          "subject": "augustine",
+          "total": 39,
+          "upward": 11,
+          "downward": 7,
+          "no_crossing": 21
+        },
+        {
+          "subject": "babur",
+          "total": 39,
+          "upward": 8,
+          "downward": 1,
+          "no_crossing": 30
+        },
+        {
+          "subject": "bernal_diaz",
+          "total": 39,
+          "upward": 8,
+          "downward": 9,
+          "no_crossing": 22
+        },
+        {
+          "subject": "cellini",
+          "total": 39,
+          "upward": 22,
+          "downward": 3,
+          "no_crossing": 14
+        },
+        {
+          "subject": "ebers",
+          "total": 37,
+          "upward": 14,
+          "downward": 2,
+          "no_crossing": 21
+        },
+        {
+          "subject": "equiano",
+          "total": 39,
+          "upward": 16,
+          "downward": 3,
+          "no_crossing": 20
+        },
+        {
+          "subject": "fukuzawa",
+          "total": 39,
+          "upward": 12,
+          "downward": 7,
+          "no_crossing": 20
+        },
+        {
+          "subject": "keckley",
+          "total": 39,
+          "upward": 9,
+          "downward": 11,
+          "no_crossing": 19
+        },
+        {
+          "subject": "rousseau",
+          "total": 39,
+          "upward": 21,
+          "downward": 2,
+          "no_crossing": 16
+        },
+        {
+          "subject": "seacole",
+          "total": 39,
+          "upward": 18,
+          "downward": 6,
+          "no_crossing": 15
+        },
+        {
+          "subject": "sunity_devee",
+          "total": 39,
+          "upward": 19,
+          "downward": 8,
+          "no_crossing": 12
+        },
+        {
+          "subject": "yung_wing",
+          "total": 39,
+          "upward": 16,
+          "downward": 5,
+          "no_crossing": 18
+        },
+        {
+          "subject": "zitkala_sa",
+          "total": 39,
+          "upward": 6,
+          "downward": 7,
+          "no_crossing": 26
+        }
+      ],
+      "low_baseline": {
+        "total_questions": 349,
+        "upward": 126,
+        "downward": 52,
+        "no_crossing": 171,
+        "upward_pct": 36.10315186246418,
+        "downward_pct": 14.899713467048711,
+        "no_crossing_pct": 48.99713467048711,
+        "boundary_up": {
+          "1->2": 79,
+          "1->3": 18,
+          "3->4": 4,
+          "2->3": 17,
+          "1->4": 5,
+          "1->5": 1,
+          "2->4": 2
+        },
+        "jump_size_dist": {
+          "1": 100,
+          "2": 20,
+          "3": 5,
+          "4": 1
+        },
+        "subjects_with_data": 9,
+        "subjects_with_upward": 9,
+        "subjects_in_scope": 9
+      },
+      "low_baseline_per_subject": [
+        {
+          "subject": "hamerton",
+          "total": 39,
+          "upward": 22,
+          "downward": 3,
+          "no_crossing": 14
+        },
+        {
+          "subject": "sunity_devee",
+          "total": 39,
+          "upward": 19,
+          "downward": 8,
+          "no_crossing": 12
+        },
+        {
+          "subject": "ebers",
+          "total": 37,
+          "upward": 14,
+          "downward": 2,
+          "no_crossing": 21
+        },
+        {
+          "subject": "fukuzawa",
+          "total": 39,
+          "upward": 12,
+          "downward": 7,
+          "no_crossing": 20
+        },
+        {
+          "subject": "seacole",
+          "total": 39,
+          "upward": 18,
+          "downward": 6,
+          "no_crossing": 15
+        },
+        {
+          "subject": "bernal_diaz",
+          "total": 39,
+          "upward": 8,
+          "downward": 9,
+          "no_crossing": 22
+        },
+        {
+          "subject": "keckley",
+          "total": 39,
+          "upward": 9,
+          "downward": 11,
+          "no_crossing": 19
+        },
+        {
+          "subject": "yung_wing",
+          "total": 39,
+          "upward": 16,
+          "downward": 5,
+          "no_crossing": 18
+        },
+        {
+          "subject": "babur",
+          "total": 39,
+          "upward": 8,
+          "downward": 1,
+          "no_crossing": 30
+        }
+      ]
+    }
+  },
+  "letta": {
+    "controlled": {
+      "c1_condition": "C1_letta",
+      "c3_condition": "C3_letta",
+      "missing_subjects": [],
+      "all_subjects": {
+        "total_questions": 545,
+        "upward": 153,
+        "downward": 93,
+        "no_crossing": 299,
+        "upward_pct": 28.073394495412845,
+        "downward_pct": 17.06422018348624,
+        "no_crossing_pct": 54.862385321100916,
+        "boundary_up": {
+          "1->3": 22,
+          "2->3": 31,
+          "1->2": 81,
+          "2->4": 6,
+          "3->4": 8,
+          "1->5": 1,
+          "1->4": 4
+        },
+        "jump_size_dist": {
+          "2": 28,
+          "1": 120,
+          "4": 1,
+          "3": 4
+        },
+        "subjects_with_data": 14,
+        "subjects_with_upward": 14,
+        "subjects_in_scope": 14
+      },
+      "all_subjects_per_subject": [
+        {
+          "subject": "hamerton",
+          "total": 38,
+          "upward": 15,
+          "downward": 6,
+          "no_crossing": 17
+        },
+        {
+          "subject": "augustine",
+          "total": 39,
+          "upward": 14,
+          "downward": 6,
+          "no_crossing": 19
+        },
+        {
+          "subject": "babur",
+          "total": 39,
+          "upward": 9,
+          "downward": 5,
+          "no_crossing": 25
+        },
+        {
+          "subject": "bernal_diaz",
+          "total": 39,
+          "upward": 11,
+          "downward": 14,
+          "no_crossing": 14
+        },
+        {
+          "subject": "cellini",
+          "total": 39,
+          "upward": 16,
+          "downward": 2,
+          "no_crossing": 21
+        },
+        {
+          "subject": "ebers",
+          "total": 39,
+          "upward": 8,
+          "downward": 5,
+          "no_crossing": 26
+        },
+        {
+          "subject": "equiano",
+          "total": 39,
+          "upward": 11,
+          "downward": 9,
+          "no_crossing": 19
+        },
+        {
+          "subject": "fukuzawa",
+          "total": 39,
+          "upward": 9,
+          "downward": 6,
+          "no_crossing": 24
+        },
+        {
+          "subject": "keckley",
+          "total": 39,
+          "upward": 5,
+          "downward": 11,
+          "no_crossing": 23
+        },
+        {
+          "subject": "rousseau",
+          "total": 39,
+          "upward": 14,
+          "downward": 3,
+          "no_crossing": 22
+        },
+        {
+          "subject": "seacole",
+          "total": 39,
+          "upward": 14,
+          "downward": 2,
+          "no_crossing": 23
+        },
+        {
+          "subject": "sunity_devee",
+          "total": 39,
+          "upward": 8,
+          "downward": 10,
+          "no_crossing": 21
+        },
+        {
+          "subject": "yung_wing",
+          "total": 39,
+          "upward": 15,
+          "downward": 9,
+          "no_crossing": 15
+        },
+        {
+          "subject": "zitkala_sa",
+          "total": 39,
+          "upward": 4,
+          "downward": 5,
+          "no_crossing": 30
+        }
+      ],
+      "low_baseline": {
+        "total_questions": 350,
+        "upward": 94,
+        "downward": 68,
+        "no_crossing": 188,
+        "upward_pct": 26.857142857142858,
+        "downward_pct": 19.428571428571427,
+        "no_crossing_pct": 53.714285714285715,
+        "boundary_up": {
+          "1->3": 16,
+          "2->3": 17,
+          "1->2": 51,
+          "2->4": 4,
+          "3->4": 6
+        },
+        "jump_size_dist": {
+          "2": 20,
+          "1": 74
+        },
+        "subjects_with_data": 9,
+        "subjects_with_upward": 9,
+        "subjects_in_scope": 9
+      },
+      "low_baseline_per_subject": [
+        {
+          "subject": "hamerton",
+          "total": 38,
+          "upward": 15,
+          "downward": 6,
+          "no_crossing": 17
+        },
+        {
+          "subject": "sunity_devee",
+          "total": 39,
+          "upward": 8,
+          "downward": 10,
+          "no_crossing": 21
+        },
+        {
+          "subject": "ebers",
+          "total": 39,
+          "upward": 8,
+          "downward": 5,
+          "no_crossing": 26
+        },
+        {
+          "subject": "fukuzawa",
+          "total": 39,
+          "upward": 9,
+          "downward": 6,
+          "no_crossing": 24
+        },
+        {
+          "subject": "seacole",
+          "total": 39,
+          "upward": 14,
+          "downward": 2,
+          "no_crossing": 23
+        },
+        {
+          "subject": "bernal_diaz",
+          "total": 39,
+          "upward": 11,
+          "downward": 14,
+          "no_crossing": 14
+        },
+        {
+          "subject": "keckley",
+          "total": 39,
+          "upward": 5,
+          "downward": 11,
+          "no_crossing": 23
+        },
+        {
+          "subject": "yung_wing",
+          "total": 39,
+          "upward": 15,
+          "downward": 9,
+          "no_crossing": 15
+        },
+        {
+          "subject": "babur",
+          "total": 39,
+          "upward": 9,
+          "downward": 5,
+          "no_crossing": 25
+        }
+      ]
+    },
+    "native": {
+      "c1_condition": "C1_letta_fp",
+      "c3_condition": "C3_letta_fp",
+      "missing_subjects": [],
+      "all_subjects": {
+        "total_questions": 546,
+        "upward": 112,
+        "downward": 101,
+        "no_crossing": 333,
+        "upward_pct": 20.512820512820515,
+        "downward_pct": 18.498168498168496,
+        "no_crossing_pct": 60.989010989010985,
+        "boundary_up": {
+          "2->3": 37,
+          "1->4": 1,
+          "1->2": 61,
+          "2->4": 2,
+          "1->3": 2,
+          "3->4": 9
+        },
+        "jump_size_dist": {
+          "1": 107,
+          "3": 1,
+          "2": 4
+        },
+        "subjects_with_data": 14,
+        "subjects_with_upward": 14,
+        "subjects_in_scope": 14
+      },
+      "all_subjects_per_subject": [
+        {
+          "subject": "hamerton",
+          "total": 39,
+          "upward": 13,
+          "downward": 7,
+          "no_crossing": 19
+        },
+        {
+          "subject": "augustine",
+          "total": 39,
+          "upward": 7,
+          "downward": 10,
+          "no_crossing": 22
+        },
+        {
+          "subject": "babur",
+          "total": 39,
+          "upward": 6,
+          "downward": 7,
+          "no_crossing": 26
+        },
+        {
+          "subject": "bernal_diaz",
+          "total": 39,
+          "upward": 10,
+          "downward": 8,
+          "no_crossing": 21
+        },
+        {
+          "subject": "cellini",
+          "total": 39,
+          "upward": 10,
+          "downward": 5,
+          "no_crossing": 24
+        },
+        {
+          "subject": "ebers",
+          "total": 39,
+          "upward": 4,
+          "downward": 6,
+          "no_crossing": 29
+        },
+        {
+          "subject": "equiano",
+          "total": 39,
+          "upward": 9,
+          "downward": 8,
+          "no_crossing": 22
+        },
+        {
+          "subject": "fukuzawa",
+          "total": 39,
+          "upward": 6,
+          "downward": 12,
+          "no_crossing": 21
+        },
+        {
+          "subject": "keckley",
+          "total": 39,
+          "upward": 7,
+          "downward": 6,
+          "no_crossing": 26
+        },
+        {
+          "subject": "rousseau",
+          "total": 39,
+          "upward": 12,
+          "downward": 3,
+          "no_crossing": 24
+        },
+        {
+          "subject": "seacole",
+          "total": 39,
+          "upward": 8,
+          "downward": 8,
+          "no_crossing": 23
+        },
+        {
+          "subject": "sunity_devee",
+          "total": 39,
+          "upward": 7,
+          "downward": 12,
+          "no_crossing": 20
+        },
+        {
+          "subject": "yung_wing",
+          "total": 39,
+          "upward": 9,
+          "downward": 4,
+          "no_crossing": 26
+        },
+        {
+          "subject": "zitkala_sa",
+          "total": 39,
+          "upward": 4,
+          "downward": 5,
+          "no_crossing": 30
+        }
+      ],
+      "low_baseline": {
+        "total_questions": 351,
+        "upward": 70,
+        "downward": 70,
+        "no_crossing": 211,
+        "upward_pct": 19.943019943019944,
+        "downward_pct": 19.943019943019944,
+        "no_crossing_pct": 60.11396011396011,
+        "boundary_up": {
+          "2->3": 19,
+          "1->4": 1,
+          "1->2": 39,
+          "2->4": 2,
+          "1->3": 1,
+          "3->4": 8
+        },
+        "jump_size_dist": {
+          "1": 66,
+          "3": 1,
+          "2": 3
+        },
+        "subjects_with_data": 9,
+        "subjects_with_upward": 9,
+        "subjects_in_scope": 9
+      },
+      "low_baseline_per_subject": [
+        {
+          "subject": "hamerton",
+          "total": 39,
+          "upward": 13,
+          "downward": 7,
+          "no_crossing": 19
+        },
+        {
+          "subject": "sunity_devee",
+          "total": 39,
+          "upward": 7,
+          "downward": 12,
+          "no_crossing": 20
+        },
+        {
+          "subject": "ebers",
+          "total": 39,
+          "upward": 4,
+          "downward": 6,
+          "no_crossing": 29
+        },
+        {
+          "subject": "fukuzawa",
+          "total": 39,
+          "upward": 6,
+          "downward": 12,
+          "no_crossing": 21
+        },
+        {
+          "subject": "seacole",
+          "total": 39,
+          "upward": 8,
+          "downward": 8,
+          "no_crossing": 23
+        },
+        {
+          "subject": "bernal_diaz",
+          "total": 39,
+          "upward": 10,
+          "downward": 8,
+          "no_crossing": 21
+        },
+        {
+          "subject": "keckley",
+          "total": 39,
+          "upward": 7,
+          "downward": 6,
+          "no_crossing": 26
+        },
+        {
+          "subject": "yung_wing",
+          "total": 39,
+          "upward": 9,
+          "downward": 4,
+          "no_crossing": 26
+        },
+        {
+          "subject": "babur",
+          "total": 39,
+          "upward": 6,
+          "downward": 7,
+          "no_crossing": 26
+        }
+      ]
+    }
+  },
+  "zep": {
+    "controlled": {
+      "c1_condition": "C1_zep",
+      "c3_condition": "C3_zep",
+      "missing_subjects": [],
+      "all_subjects": {
+        "total_questions": 546,
+        "upward": 160,
+        "downward": 96,
+        "no_crossing": 290,
+        "upward_pct": 29.304029304029303,
+        "downward_pct": 17.582417582417584,
+        "no_crossing_pct": 53.11355311355312,
+        "boundary_up": {
+          "2->4": 13,
+          "1->3": 13,
+          "2->3": 36,
+          "1->2": 91,
+          "1->4": 2,
+          "4->5": 1,
+          "3->4": 3,
+          "1->5": 1
+        },
+        "jump_size_dist": {
+          "2": 26,
+          "1": 131,
+          "3": 2,
+          "4": 1
+        },
+        "subjects_with_data": 14,
+        "subjects_with_upward": 14,
+        "subjects_in_scope": 14
+      },
+      "all_subjects_per_subject": [
+        {
+          "subject": "hamerton",
+          "total": 39,
+          "upward": 13,
+          "downward": 7,
+          "no_crossing": 19
+        },
+        {
+          "subject": "augustine",
+          "total": 39,
+          "upward": 15,
+          "downward": 5,
+          "no_crossing": 19
+        },
+        {
+          "subject": "babur",
+          "total": 39,
+          "upward": 5,
+          "downward": 7,
+          "no_crossing": 27
+        },
+        {
+          "subject": "bernal_diaz",
+          "total": 39,
+          "upward": 11,
+          "downward": 8,
+          "no_crossing": 20
+        },
+        {
+          "subject": "cellini",
+          "total": 39,
+          "upward": 13,
+          "downward": 1,
+          "no_crossing": 25
+        },
+        {
+          "subject": "ebers",
+          "total": 39,
+          "upward": 9,
+          "downward": 4,
+          "no_crossing": 26
+        },
+        {
+          "subject": "equiano",
+          "total": 39,
+          "upward": 12,
+          "downward": 8,
+          "no_crossing": 19
+        },
+        {
+          "subject": "fukuzawa",
+          "total": 39,
+          "upward": 8,
+          "downward": 9,
+          "no_crossing": 22
+        },
+        {
+          "subject": "keckley",
+          "total": 39,
+          "upward": 9,
+          "downward": 11,
+          "no_crossing": 19
+        },
+        {
+          "subject": "rousseau",
+          "total": 39,
+          "upward": 16,
+          "downward": 5,
+          "no_crossing": 18
+        },
+        {
+          "subject": "seacole",
+          "total": 39,
+          "upward": 18,
+          "downward": 4,
+          "no_crossing": 17
+        },
+        {
+          "subject": "sunity_devee",
+          "total": 39,
+          "upward": 13,
+          "downward": 10,
+          "no_crossing": 16
+        },
+        {
+          "subject": "yung_wing",
+          "total": 39,
+          "upward": 12,
+          "downward": 9,
+          "no_crossing": 18
+        },
+        {
+          "subject": "zitkala_sa",
+          "total": 39,
+          "upward": 6,
+          "downward": 8,
+          "no_crossing": 25
+        }
+      ],
+      "low_baseline": {
+        "total_questions": 351,
+        "upward": 98,
+        "downward": 69,
+        "no_crossing": 184,
+        "upward_pct": 27.92022792022792,
+        "downward_pct": 19.65811965811966,
+        "no_crossing_pct": 52.421652421652425,
+        "boundary_up": {
+          "2->4": 9,
+          "1->3": 9,
+          "2->3": 19,
+          "1->2": 57,
+          "1->4": 2,
+          "1->5": 1,
+          "3->4": 1
+        },
+        "jump_size_dist": {
+          "2": 18,
+          "1": 77,
+          "3": 2,
+          "4": 1
+        },
+        "subjects_with_data": 9,
+        "subjects_with_upward": 9,
+        "subjects_in_scope": 9
+      },
+      "low_baseline_per_subject": [
+        {
+          "subject": "hamerton",
+          "total": 39,
+          "upward": 13,
+          "downward": 7,
+          "no_crossing": 19
+        },
+        {
+          "subject": "sunity_devee",
+          "total": 39,
+          "upward": 13,
+          "downward": 10,
+          "no_crossing": 16
+        },
+        {
+          "subject": "ebers",
+          "total": 39,
+          "upward": 9,
+          "downward": 4,
+          "no_crossing": 26
+        },
+        {
+          "subject": "fukuzawa",
+          "total": 39,
+          "upward": 8,
+          "downward": 9,
+          "no_crossing": 22
+        },
+        {
+          "subject": "seacole",
+          "total": 39,
+          "upward": 18,
+          "downward": 4,
+          "no_crossing": 17
+        },
+        {
+          "subject": "bernal_diaz",
+          "total": 39,
+          "upward": 11,
+          "downward": 8,
+          "no_crossing": 20
+        },
+        {
+          "subject": "keckley",
+          "total": 39,
+          "upward": 9,
+          "downward": 11,
+          "no_crossing": 19
+        },
+        {
+          "subject": "yung_wing",
+          "total": 39,
+          "upward": 12,
+          "downward": 9,
+          "no_crossing": 18
+        },
+        {
+          "subject": "babur",
+          "total": 39,
+          "upward": 5,
+          "downward": 7,
+          "no_crossing": 27
+        }
+      ]
+    },
+    "native": {
+      "c1_condition": "C1_zep_fp",
+      "c3_condition": "C3_zep_fp",
+      "missing_subjects": [],
+      "all_subjects": {
+        "total_questions": 546,
+        "upward": 193,
+        "downward": 74,
+        "no_crossing": 279,
+        "upward_pct": 35.34798534798535,
+        "downward_pct": 13.553113553113553,
+        "no_crossing_pct": 51.0989010989011,
+        "boundary_up": {
+          "1->2": 118,
+          "1->3": 28,
+          "2->3": 27,
+          "3->4": 7,
+          "2->4": 5,
+          "1->4": 8
+        },
+        "jump_size_dist": {
+          "1": 152,
+          "2": 33,
+          "3": 8
+        },
+        "subjects_with_data": 14,
+        "subjects_with_upward": 14,
+        "subjects_in_scope": 14
+      },
+      "all_subjects_per_subject": [
+        {
+          "subject": "hamerton",
+          "total": 39,
+          "upward": 21,
+          "downward": 6,
+          "no_crossing": 12
+        },
+        {
+          "subject": "augustine",
+          "total": 39,
+          "upward": 14,
+          "downward": 5,
+          "no_crossing": 20
+        },
+        {
+          "subject": "babur",
+          "total": 39,
+          "upward": 7,
+          "downward": 4,
+          "no_crossing": 28
+        },
+        {
+          "subject": "bernal_diaz",
+          "total": 39,
+          "upward": 12,
+          "downward": 6,
+          "no_crossing": 21
+        },
+        {
+          "subject": "cellini",
+          "total": 39,
+          "upward": 17,
+          "downward": 5,
+          "no_crossing": 17
+        },
+        {
+          "subject": "ebers",
+          "total": 39,
+          "upward": 8,
+          "downward": 3,
+          "no_crossing": 28
+        },
+        {
+          "subject": "equiano",
+          "total": 39,
+          "upward": 19,
+          "downward": 3,
+          "no_crossing": 17
+        },
+        {
+          "subject": "fukuzawa",
+          "total": 39,
+          "upward": 14,
+          "downward": 7,
+          "no_crossing": 18
+        },
+        {
+          "subject": "keckley",
+          "total": 39,
+          "upward": 11,
+          "downward": 5,
+          "no_crossing": 23
+        },
+        {
+          "subject": "rousseau",
+          "total": 39,
+          "upward": 26,
+          "downward": 1,
+          "no_crossing": 12
+        },
+        {
+          "subject": "seacole",
+          "total": 39,
+          "upward": 14,
+          "downward": 5,
+          "no_crossing": 20
+        },
+        {
+          "subject": "sunity_devee",
+          "total": 39,
+          "upward": 13,
+          "downward": 8,
+          "no_crossing": 18
+        },
+        {
+          "subject": "yung_wing",
+          "total": 39,
+          "upward": 14,
+          "downward": 4,
+          "no_crossing": 21
+        },
+        {
+          "subject": "zitkala_sa",
+          "total": 39,
+          "upward": 3,
+          "downward": 12,
+          "no_crossing": 24
+        }
+      ],
+      "low_baseline": {
+        "total_questions": 351,
+        "upward": 114,
+        "downward": 48,
+        "no_crossing": 189,
+        "upward_pct": 32.47863247863248,
+        "downward_pct": 13.675213675213675,
+        "no_crossing_pct": 53.84615384615385,
+        "boundary_up": {
+          "1->2": 70,
+          "1->3": 16,
+          "2->3": 15,
+          "3->4": 5,
+          "2->4": 3,
+          "1->4": 5
+        },
+        "jump_size_dist": {
+          "1": 90,
+          "2": 19,
+          "3": 5
+        },
+        "subjects_with_data": 9,
+        "subjects_with_upward": 9,
+        "subjects_in_scope": 9
+      },
+      "low_baseline_per_subject": [
+        {
+          "subject": "hamerton",
+          "total": 39,
+          "upward": 21,
+          "downward": 6,
+          "no_crossing": 12
+        },
+        {
+          "subject": "sunity_devee",
+          "total": 39,
+          "upward": 13,
+          "downward": 8,
+          "no_crossing": 18
+        },
+        {
+          "subject": "ebers",
+          "total": 39,
+          "upward": 8,
+          "downward": 3,
+          "no_crossing": 28
+        },
+        {
+          "subject": "fukuzawa",
+          "total": 39,
+          "upward": 14,
+          "downward": 7,
+          "no_crossing": 18
+        },
+        {
+          "subject": "seacole",
+          "total": 39,
+          "upward": 14,
+          "downward": 5,
+          "no_crossing": 20
+        },
+        {
+          "subject": "bernal_diaz",
+          "total": 39,
+          "upward": 12,
+          "downward": 6,
+          "no_crossing": 21
+        },
+        {
+          "subject": "keckley",
+          "total": 39,
+          "upward": 11,
+          "downward": 5,
+          "no_crossing": 23
+        },
+        {
+          "subject": "yung_wing",
+          "total": 39,
+          "upward": 14,
+          "downward": 4,
+          "no_crossing": 21
+        },
+        {
+          "subject": "babur",
+          "total": 39,
+          "upward": 7,
+          "downward": 4,
+          "no_crossing": 28
+        }
+      ]
+    }
+  },
+  "supermemory": {
+    "controlled": {
+      "c1_condition": "C1_supermemory",
+      "c3_condition": "C3_supermemory",
+      "missing_subjects": [],
+      "all_subjects": {
+        "total_questions": 516,
+        "upward": 96,
+        "downward": 113,
+        "no_crossing": 307,
+        "upward_pct": 18.6046511627907,
+        "downward_pct": 21.899224806201552,
+        "no_crossing_pct": 59.49612403100775,
+        "boundary_up": {
+          "1->2": 45,
+          "2->3": 29,
+          "3->4": 9,
+          "2->4": 6,
+          "2->5": 1,
+          "1->3": 5,
+          "3->5": 1
+        },
+        "jump_size_dist": {
+          "1": 83,
+          "2": 12,
+          "3": 1
+        },
+        "subjects_with_data": 14,
+        "subjects_with_upward": 14,
+        "subjects_in_scope": 14
+      },
+      "all_subjects_per_subject": [
+        {
+          "subject": "hamerton",
+          "total": 39,
+          "upward": 14,
+          "downward": 8,
+          "no_crossing": 17
+        },
+        {
+          "subject": "augustine",
+          "total": 37,
+          "upward": 6,
+          "downward": 11,
+          "no_crossing": 20
+        },
+        {
+          "subject": "babur",
+          "total": 39,
+          "upward": 7,
+          "downward": 3,
+          "no_crossing": 29
+        },
+        {
+          "subject": "bernal_diaz",
+          "total": 39,
+          "upward": 7,
+          "downward": 14,
+          "no_crossing": 18
+        },
+        {
+          "subject": "cellini",
+          "total": 39,
+          "upward": 5,
+          "downward": 6,
+          "no_crossing": 28
+        },
+        {
+          "subject": "ebers",
+          "total": 39,
+          "upward": 7,
+          "downward": 5,
+          "no_crossing": 27
+        },
+        {
+          "subject": "equiano",
+          "total": 11,
+          "upward": 2,
+          "downward": 1,
+          "no_crossing": 8
+        },
+        {
+          "subject": "fukuzawa",
+          "total": 39,
+          "upward": 5,
+          "downward": 12,
+          "no_crossing": 22
+        },
+        {
+          "subject": "keckley",
+          "total": 39,
+          "upward": 7,
+          "downward": 14,
+          "no_crossing": 18
+        },
+        {
+          "subject": "rousseau",
+          "total": 39,
+          "upward": 7,
+          "downward": 7,
+          "no_crossing": 25
+        },
+        {
+          "subject": "seacole",
+          "total": 39,
+          "upward": 9,
+          "downward": 6,
+          "no_crossing": 24
+        },
+        {
+          "subject": "sunity_devee",
+          "total": 39,
+          "upward": 3,
+          "downward": 10,
+          "no_crossing": 26
+        },
+        {
+          "subject": "yung_wing",
+          "total": 39,
+          "upward": 12,
+          "downward": 7,
+          "no_crossing": 20
+        },
+        {
+          "subject": "zitkala_sa",
+          "total": 39,
+          "upward": 5,
+          "downward": 9,
+          "no_crossing": 25
+        }
+      ],
+      "low_baseline": {
+        "total_questions": 351,
+        "upward": 71,
+        "downward": 79,
+        "no_crossing": 201,
+        "upward_pct": 20.22792022792023,
+        "downward_pct": 22.507122507122507,
+        "no_crossing_pct": 57.26495726495727,
+        "boundary_up": {
+          "1->2": 31,
+          "2->3": 21,
+          "3->4": 9,
+          "2->4": 5,
+          "1->3": 3,
+          "3->5": 1,
+          "2->5": 1
+        },
+        "jump_size_dist": {
+          "1": 61,
+          "2": 9,
+          "3": 1
+        },
+        "subjects_with_data": 9,
+        "subjects_with_upward": 9,
+        "subjects_in_scope": 9
+      },
+      "low_baseline_per_subject": [
+        {
+          "subject": "hamerton",
+          "total": 39,
+          "upward": 14,
+          "downward": 8,
+          "no_crossing": 17
+        },
+        {
+          "subject": "sunity_devee",
+          "total": 39,
+          "upward": 3,
+          "downward": 10,
+          "no_crossing": 26
+        },
+        {
+          "subject": "ebers",
+          "total": 39,
+          "upward": 7,
+          "downward": 5,
+          "no_crossing": 27
+        },
+        {
+          "subject": "fukuzawa",
+          "total": 39,
+          "upward": 5,
+          "downward": 12,
+          "no_crossing": 22
+        },
+        {
+          "subject": "seacole",
+          "total": 39,
+          "upward": 9,
+          "downward": 6,
+          "no_crossing": 24
+        },
+        {
+          "subject": "bernal_diaz",
+          "total": 39,
+          "upward": 7,
+          "downward": 14,
+          "no_crossing": 18
+        },
+        {
+          "subject": "keckley",
+          "total": 39,
+          "upward": 7,
+          "downward": 14,
+          "no_crossing": 18
+        },
+        {
+          "subject": "yung_wing",
+          "total": 39,
+          "upward": 12,
+          "downward": 7,
+          "no_crossing": 20
+        },
+        {
+          "subject": "babur",
+          "total": 39,
+          "upward": 7,
+          "downward": 3,
+          "no_crossing": 29
+        }
+      ]
+    },
+    "native": {
+      "c1_condition": "C1_supermemory_fp",
+      "c3_condition": "C3_supermemory_fp",
+      "missing_subjects": [
+        "babur",
+        "bernal_diaz",
+        "cellini",
+        "rousseau"
+      ],
+      "all_subjects": {
+        "total_questions": 221,
+        "upward": 42,
+        "downward": 50,
+        "no_crossing": 129,
+        "upward_pct": 19.004524886877828,
+        "downward_pct": 22.624434389140273,
+        "no_crossing_pct": 58.3710407239819,
+        "boundary_up": {
+          "1->2": 27,
+          "1->3": 3,
+          "3->4": 4,
+          "4->5": 1,
+          "2->3": 7
+        },
+        "jump_size_dist": {
+          "1": 39,
+          "2": 3
+        },
+        "subjects_with_data": 10,
+        "subjects_with_upward": 9,
+        "subjects_in_scope": 14
+      },
+      "all_subjects_per_subject": [
+        {
+          "subject": "hamerton",
+          "total": 39,
+          "upward": 13,
+          "downward": 3,
+          "no_crossing": 23
+        },
+        {
+          "subject": "augustine",
+          "total": 6,
+          "upward": 1,
+          "downward": 2,
+          "no_crossing": 3
+        },
+        {
+          "subject": "ebers",
+          "total": 9,
+          "upward": 3,
+          "downward": 1,
+          "no_crossing": 5
+        },
+        {
+          "subject": "equiano",
+          "total": 22,
+          "upward": 4,
+          "downward": 5,
+          "no_crossing": 13
+        },
+        {
+          "subject": "fukuzawa",
+          "total": 5,
+          "upward": 1,
+          "downward": 2,
+          "no_crossing": 2
+        },
+        {
+          "subject": "keckley",
+          "total": 39,
+          "upward": 6,
+          "downward": 10,
+          "no_crossing": 23
+        },
+        {
+          "subject": "seacole",
+          "total": 18,
+          "upward": 3,
+          "downward": 4,
+          "no_crossing": 11
+        },
+        {
+          "subject": "sunity_devee",
+          "total": 5,
+          "upward": 0,
+          "downward": 1,
+          "no_crossing": 4
+        },
+        {
+          "subject": "yung_wing",
+          "total": 39,
+          "upward": 10,
+          "downward": 9,
+          "no_crossing": 20
+        },
+        {
+          "subject": "zitkala_sa",
+          "total": 39,
+          "upward": 1,
+          "downward": 13,
+          "no_crossing": 25
+        }
+      ],
+      "low_baseline": {
+        "total_questions": 154,
+        "upward": 36,
+        "downward": 30,
+        "no_crossing": 88,
+        "upward_pct": 23.376623376623378,
+        "downward_pct": 19.48051948051948,
+        "no_crossing_pct": 57.142857142857146,
+        "boundary_up": {
+          "1->2": 24,
+          "1->3": 3,
+          "3->4": 4,
+          "4->5": 1,
+          "2->3": 4
+        },
+        "jump_size_dist": {
+          "1": 33,
+          "2": 3
+        },
+        "subjects_with_data": 7,
+        "subjects_with_upward": 6,
+        "subjects_in_scope": 9
+      },
+      "low_baseline_per_subject": [
+        {
+          "subject": "hamerton",
+          "total": 39,
+          "upward": 13,
+          "downward": 3,
+          "no_crossing": 23
+        },
+        {
+          "subject": "sunity_devee",
+          "total": 5,
+          "upward": 0,
+          "downward": 1,
+          "no_crossing": 4
+        },
+        {
+          "subject": "ebers",
+          "total": 9,
+          "upward": 3,
+          "downward": 1,
+          "no_crossing": 5
+        },
+        {
+          "subject": "fukuzawa",
+          "total": 5,
+          "upward": 1,
+          "downward": 2,
+          "no_crossing": 2
+        },
+        {
+          "subject": "seacole",
+          "total": 18,
+          "upward": 3,
+          "downward": 4,
+          "no_crossing": 11
+        },
+        {
+          "subject": "keckley",
+          "total": 39,
+          "upward": 6,
+          "downward": 10,
+          "no_crossing": 23
+        },
+        {
+          "subject": "yung_wing",
+          "total": 39,
+          "upward": 10,
+          "downward": 9,
+          "no_crossing": 20
+        }
+      ]
+    }
+  },
+  "baselayer": {
+    "controlled": {
+      "c1_condition": "C1_baselayer",
+      "c3_condition": "C3_baselayer",
+      "missing_subjects": [],
+      "all_subjects": {
+        "total_questions": 543,
+        "upward": 145,
+        "downward": 117,
+        "no_crossing": 281,
+        "upward_pct": 26.703499079189687,
+        "downward_pct": 21.54696132596685,
+        "no_crossing_pct": 51.74953959484346,
+        "boundary_up": {
+          "1->2": 72,
+          "2->3": 43,
+          "1->3": 11,
+          "2->4": 6,
+          "4->5": 1,
+          "3->4": 8,
+          "1->4": 4
+        },
+        "jump_size_dist": {
+          "1": 124,
+          "2": 17,
+          "3": 4
+        },
+        "subjects_with_data": 14,
+        "subjects_with_upward": 14,
+        "subjects_in_scope": 14
+      },
+      "all_subjects_per_subject": [
+        {
+          "subject": "hamerton",
+          "total": 39,
+          "upward": 13,
+          "downward": 10,
+          "no_crossing": 16
+        },
+        {
+          "subject": "augustine",
+          "total": 39,
+          "upward": 12,
+          "downward": 7,
+          "no_crossing": 20
+        },
+        {
+          "subject": "babur",
+          "total": 36,
+          "upward": 6,
+          "downward": 6,
+          "no_crossing": 24
+        },
+        {
+          "subject": "bernal_diaz",
+          "total": 39,
+          "upward": 9,
+          "downward": 13,
+          "no_crossing": 17
+        },
+        {
+          "subject": "cellini",
+          "total": 39,
+          "upward": 10,
+          "downward": 5,
+          "no_crossing": 24
+        },
+        {
+          "subject": "ebers",
+          "total": 39,
+          "upward": 10,
+          "downward": 5,
+          "no_crossing": 24
+        },
+        {
+          "subject": "equiano",
+          "total": 39,
+          "upward": 6,
+          "downward": 11,
+          "no_crossing": 22
+        },
+        {
+          "subject": "fukuzawa",
+          "total": 39,
+          "upward": 13,
+          "downward": 11,
+          "no_crossing": 15
+        },
+        {
+          "subject": "keckley",
+          "total": 39,
+          "upward": 10,
+          "downward": 7,
+          "no_crossing": 22
+        },
+        {
+          "subject": "rousseau",
+          "total": 39,
+          "upward": 15,
+          "downward": 7,
+          "no_crossing": 17
+        },
+        {
+          "subject": "seacole",
+          "total": 39,
+          "upward": 12,
+          "downward": 8,
+          "no_crossing": 19
+        },
+        {
+          "subject": "sunity_devee",
+          "total": 39,
+          "upward": 10,
+          "downward": 7,
+          "no_crossing": 22
+        },
+        {
+          "subject": "yung_wing",
+          "total": 39,
+          "upward": 18,
+          "downward": 8,
+          "no_crossing": 13
+        },
+        {
+          "subject": "zitkala_sa",
+          "total": 39,
+          "upward": 1,
+          "downward": 12,
+          "no_crossing": 26
+        }
+      ],
+      "low_baseline": {
+        "total_questions": 348,
+        "upward": 101,
+        "downward": 75,
+        "no_crossing": 172,
+        "upward_pct": 29.022988505747126,
+        "downward_pct": 21.551724137931036,
+        "no_crossing_pct": 49.42528735632184,
+        "boundary_up": {
+          "1->2": 58,
+          "2->3": 23,
+          "1->3": 6,
+          "1->4": 2,
+          "3->4": 6,
+          "2->4": 5,
+          "4->5": 1
+        },
+        "jump_size_dist": {
+          "1": 88,
+          "2": 11,
+          "3": 2
+        },
+        "subjects_with_data": 9,
+        "subjects_with_upward": 9,
+        "subjects_in_scope": 9
+      },
+      "low_baseline_per_subject": [
+        {
+          "subject": "hamerton",
+          "total": 39,
+          "upward": 13,
+          "downward": 10,
+          "no_crossing": 16
+        },
+        {
+          "subject": "sunity_devee",
+          "total": 39,
+          "upward": 10,
+          "downward": 7,
+          "no_crossing": 22
+        },
+        {
+          "subject": "ebers",
+          "total": 39,
+          "upward": 10,
+          "downward": 5,
+          "no_crossing": 24
+        },
+        {
+          "subject": "fukuzawa",
+          "total": 39,
+          "upward": 13,
+          "downward": 11,
+          "no_crossing": 15
+        },
+        {
+          "subject": "seacole",
+          "total": 39,
+          "upward": 12,
+          "downward": 8,
+          "no_crossing": 19
+        },
+        {
+          "subject": "bernal_diaz",
+          "total": 39,
+          "upward": 9,
+          "downward": 13,
+          "no_crossing": 17
+        },
+        {
+          "subject": "keckley",
+          "total": 39,
+          "upward": 10,
+          "downward": 7,
+          "no_crossing": 22
+        },
+        {
+          "subject": "yung_wing",
+          "total": 39,
+          "upward": 18,
+          "downward": 8,
+          "no_crossing": 13
+        },
+        {
+          "subject": "babur",
+          "total": 36,
+          "upward": 6,
+          "downward": 6,
+          "no_crossing": 24
+        }
+      ]
+    }
+  }
+}

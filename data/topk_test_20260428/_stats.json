@@ -1,0 +1,57 @@
+{
+  "per_k_wilcoxon_delta_vs_zero": {
+    "10": {
+      "n": 39,
+      "n_nonzero": 32,
+      "mean_delta": 0.317948717948718,
+      "W": 143.5,
+      "p_value": 0.023981884146239214,
+      "pos": 21,
+      "neg": 11,
+      "zero": 7
+    },
+    "50": {
+      "n": 39,
+      "n_nonzero": 33,
+      "mean_delta": 0.05641025641025637,
+      "W": 228.0,
+      "p_value": 0.34725880236682827,
+      "pos": 19,
+      "neg": 14,
+      "zero": 6
+    },
+    "140": {
+      "n": 39,
+      "n_nonzero": 34,
+      "mean_delta": 0.2,
+      "W": 210.5,
+      "p_value": 0.13613483161526163,
+      "pos": 21,
+      "neg": 13,
+      "zero": 5
+    }
+  },
+  "cross_k_wilcoxon_delta_diff": {
+    "K10_vs_K50": {
+      "n_paired": 39,
+      "mean_delta_Ka": 0.317948717948718,
+      "mean_delta_Kb": 0.05641025641025637,
+      "W": 221.5,
+      "p_value": 0.04971385592631633
+    },
+    "K50_vs_K140": {
+      "n_paired": 39,
+      "mean_delta_Ka": 0.05641025641025637,
+      "mean_delta_Kb": 0.2,
+      "W": 224.0,
+      "p_value": 0.20832637537594534
+    },
+    "K10_vs_K140": {
+      "n_paired": 39,
+      "mean_delta_Ka": 0.317948717948718,
+      "mean_delta_Kb": 0.2,
+      "W": 305.0,
+      "p_value": 0.2349027105951461
+    }
+  }
+}

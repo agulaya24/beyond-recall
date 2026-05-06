@@ -1,5 +1,7 @@
 # Provider Experience Ledger — Memory Systems Expansion (2026-04-15)
 
+*Last reviewed: 2026-04-28 (v11 freeze; content unchanged, version-agnostic provider research log).*
+
 Running all 4 memory systems x 14 subjects simultaneously. Real-time notes on what each platform is like to work with.
 
 ## Supermemory

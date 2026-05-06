@@ -1,0 +1,570 @@
+================================================================================
+BAND 1.0-1.3  (n sample=15)
+================================================================================
+
+--- global_augustine q25 C3_baselayer | mean=1 scores=[1, 1, 1] ---
+Q: When Augustine examines a problem from multiple angles, what is his typical approach to presenting different possibilities?
+GROUND TRUTH: Or are they also; and when from future it becometh present, doth it come out of some secret place; and so, when retiring, from present it becometh past?
+RESPONSE (first 900 chars):
+# Augustine's Approach to Multiple Angles
+
+Based on the behavioral specification and the facts retrieved, Augustine's method when examining a problem from multiple angles is **dialogical and comparative rather than declarative**.
+
+## The Core Pattern
+
+He does not present possibilities as a neutral catalog of options. Instead, he:
+
+1. **Turns the inquiry inward first** — before examining external positions, he interrogates what *he* is drawn toward and why, exposing the hidden motives beneath surface preferences. The question "what am I wanting here?" precedes "what are the options?"
+
+2. **Uses comparative analysis as his default move** — he examines each possibility by asking what it imitates or falls short of, what it points toward, what it corrupts. Nothing is evaluated in isolation; everything is measured against what it fails to be. This is not neutral comparison but evaluative: each
+
+
+--- global_babur q8 C3_baselayer | mean=1 scores=[1, 1, 1] ---
+Q: How does Babur handle the administrative succession when key officials die unexpectedly?
+GROUND TRUTH: `Abdu'l-lāh (_kitābdār_) was ordered to go and maintain order in Sanbal.
+RESPONSE (first 900 chars):
+# On Administrative Succession After Unexpected Loss
+
+I must tell you directly: your question assumes a pattern in my record that I have not documented with sufficient specificity to answer it as you have framed it.
+
+I have recorded the deaths of individuals — my mother's death struck me with force that required verse to hold — and I have documented the immediate consequences of losing commanders in the field. But the administrative machinery of succession when a key official dies unexpectedly in peacetime? The deliberate transfer of authority, the naming of replacements, the management of the gap between one man's death and another's assumption of office? These are not present in my entries with the precision they deserve.
+
+This is itself a failure of my record, and I name it rather than fill the gap with inference.
+
+What I *can* tell you is this: I do not permit leaderlessness. When di
+
+
+--- global_bernal_diaz q27 C1_baselayer | mean=1 scores=[1, 1, 1] ---
+Q: When receiving intelligence about potential rebellion from a subordinate, how would Bernal Diaz expect his commander to balance reassurance with practical action?
+GROUND TRUTH: Cortes, however, fulfilled his promise, and sent for Martin Lopez and Andreas Nuñez, described to them the size of the three vessels he wished them to build, and to march to Vera Cruz with the Mexican carpenters, where all the necessary materials, consisting in iron, rigging, tar and tow would be found. These orders were promptly obeyed.
+RESPONSE (first 900 chars):
+# Bernal Diaz on Command Response to Rebellion Intelligence
+
+Based on the retrieved facts, I cannot directly answer this question, as the available information doesn't contain specific details about Bernal Diaz's views on how commanders should respond to rebellion intelligence.
+
+However, I can infer from his documented character:
+
+## What We Know About His Approach
+
+**Bernal Diaz favored decisive action:**
+- He "advised attacking the enemy that very night rather than retreating"—suggesting he valued prompt, practical response over delay
+- He was action-oriented and willing to take risks
+
+**He valued truthful communication:**
+- He was "determined to put his trust in truth"
+- He "will relate only that of which he was an eyewitness"
+- This suggests he would expect honest, factual reporting from subordinates
+
+## Likely Expectation
+
+Given these traits, Bernal Diaz would probably expect a comm
+
+================================================================================
+BAND 1.5-1.8  (n sample=15)
+================================================================================
+
+--- global_augustine q34 C3_baselayer | mean=1.667 scores=[2, 1, 2] ---
+Q: How does Augustine view the relationship between different people who perceive different truths in the same text?
+GROUND TRUTH: And all we who, I confess, see and express the truth delivered in those words, let us love one another, and jointly love Thee our God
+RESPONSE (first 900 chars):
+# On Augustine and Divergent Readings
+
+This is a genuinely difficult question for Augustine, and the specification suggests why: it sits at the intersection of several commitments that do not resolve easily into a single answer.
+
+## The Tension
+
+Augustine holds simultaneously that:
+
+1. **Truth is singular, unchangeable, and independent** (A5) — it does not bend to accommodate multiple readings or the preferences of readers
+2. **No one has unobstructed access to truth** (A6) — including Augustine himself, which means confident certainty about one's own interpretation is epistemically suspect
+3. **Scripture is sufficient** (A10) — it delivers what unaided reason cannot, which suggests a stability in what is being delivered
+4. **The interior state determines what one can perceive** (A3) — the will's condition, the heart's orientation, shapes what becomes visible to the mind
+
+These do not au
+
+
+--- global_babur q12 C3_baselayer | mean=1.667 scores=[2, 1, 2] ---
+Q: Given Babur's demonstrated approach to family relationships and maternal influence shown in the training text, what would he likely believe about his mother's expectations regarding tribal alliances?
+GROUND TRUTH: It seems likely that mother and son alike expected their Aūzbeg blood to stand them in good stead with Shaibāq.
+RESPONSE (first 900 chars):
+# On Babur's Mother and Tribal Alliance Expectations
+
+This question requires careful separation of what the retrieved facts establish versus what would be speculative inference beyond the behavioral specification.
+
+## What the Record Shows
+
+The facts establish:
+- His mother was educated in Turki and Persian (sophisticated linguistic and cultural formation)
+- She was Yūnas Khān's daughter (genealogical standing, access to political networks)
+- Babur received education in the rules of his Faith (maternal household was the site of this formation)
+
+The behavioral specification establishes that Babur:
+- Treats family loyalty as a constraint overriding strategic counsel (M4)
+- Records both virtues and defects of kinsmen without softening (M1)
+- Evaluates individuals by demonstrated conduct, not title (A6)
+- Understands political power through personal relationships and patronage networks (A10)
+
+
+--- global_bernal_diaz q23 C1_baselayer | mean=1.667 scores=[2, 1, 2] ---
+Q: How would Bernal Diaz characteristically respond to uncertainty about whether a military action was genuine or strategic deception?
+GROUND TRUTH: All I know is that Lopez told me in confidence, that the building of the vessels was really commenced, and that the three vessels were actually lying on the staples.
+RESPONSE (first 900 chars):
+# Bernal Diaz's Response to Uncertainty About Military Actions
+
+Based on the retrieved facts, Bernal Diaz would likely respond to such uncertainty by:
+
+## Insisting on Eyewitness Verification
+
+He would **only report what he personally witnessed**. The facts emphasize that he "will relate only that of which he was an eyewitness" and was "determined to put his trust in truth." If he couldn't directly observe whether an action was genuine or deceptive, he would acknowledge this limitation rather than speculate.
+
+## Seeking Clarity Through Direct Evidence
+
+Given his commitment to "give a faithful account in due order of every circumstance," he would likely:
+- Investigate the actual outcomes and consequences of the action
+- Report the observable facts that would distinguish genuine from deceptive moves
+- Possibly consult with other eyewitnesses who were positioned to see what he could not
+
+##
+
+================================================================================
+BAND 2.0-2.3  (n sample=15)
+================================================================================
+
+--- global_augustine q39 C1_baselayer | mean=2 scores=[2, 1, 3] ---
+Q: When faced with a logical paradox about creation and causation, does Augustine dismiss the questioner or attempt to resolve the apparent contradiction?
+GROUND TRUTH: But when he says, God made matter first formless, then formed, there is no absurdity, if he be but qualified to discern, what precedes by eternity, what by time, what by choice, and what in original.
+RESPONSE (first 900 chars):
+# Augustine's Approach to Logical Paradoxes
+
+Based on the retrieved facts, Augustine **attempts to resolve apparent contradictions** rather than dismissing questioners.
+
+The most telling evidence is this fact:
+
+> "Augustine found that Paul's apparent contradictions vanished when properly understood."
+
+This demonstrates Augustine's methodology: when confronted with what appears to be a logical problem or paradox, he seeks **proper interpretation and understanding** to dissolve the apparent contradiction. He doesn't reject the questioner's concern but works through it.
+
+## The Caveat
+
+However, there's an interesting critical note in the facts:
+
+> "Augustine should have knocked and proposed his doubt rather than opposed it."
+
+This suggests that while Augustine did engage with difficulties, he may have sometimes been **too quick to oppose or dismiss certain doubts** rather than fully explori
+
+
+--- global_babur q14 C3_baselayer | mean=2 scores=[2, 2, 2] ---
+Q: From the training text's examples of Babur's military comparisons and historical consciousness, what type of precedent would he likely invoke when achieving a significant military success?
+GROUND TRUTH: Bābur might have compared his taking of Samarkand with Tīmūr's capture of Qarshī, also with 240 followers
+RESPONSE (first 900 chars):
+# Analysis: Babur's Precedent-Invocation Pattern
+
+Based on the behavioral specification and retrieved facts, Babur would invoke precedent in a very specific way when achieving significant military success:
+
+## The Type of Precedent He Would Invoke
+
+**Genealogical-territorial precedent**, not merely historical analogy. When he achieves a military victory, he would frame it as **restoration of ancestral claim** rather than as a new conquest or as imitation of a historical exemplar.
+
+This follows directly from **A3 (Genealogical Gravity)**: "Historical precedent of territorial possession functions as a living claim, not a dead record. When they invoke lineage or historical occupation, treat it as an active legal argument, not nostalgia."
+
+## The Mechanism
+
+He would likely:
+
+1. **Anchor the victory to bloodline claim** — invoking which ancestor held this territory and when, treating the gene
+
+
+--- global_bernal_diaz q31 C1_baselayer | mean=2 scores=[2, 2, 2] ---
+Q: Based on the author's demonstrated commitment to truthfulness and accuracy, how would he likely characterize a military leader's tendency to exaggerate their own authority and the reception they expect to receive?
+GROUND TRUTH: Cortes, on his march to Mexico, had often bragged to his officers of the great authority and power he then possessed. They should see how the inhabitants would come out from all parts to meet him, and receive him with every splendour; that he was now complete master of Mexico, and Motecusuma and his grandees would not dare to dispute his commands henceforth, but would bring him gold in abundance.
+RESPONSE (first 900 chars):
+# Analysis of the Author's Likely Characterization
+
+Based on the retrieved facts, the author (Bernal Diaz del Castillo) would likely characterize such exaggeration quite **harshly and dismissively**, for several reasons:
+
+## His Core Values
+
+The facts reveal that Diaz del Castillo is fundamentally committed to **truth as the foundation of credibility**. He explicitly states he is "determined to put his trust in truth and continue his narrative as he had begun." This isn't merely a stylistic preference—it's his ethical standard.
+
+## His Critique of Dishonesty
+
+The author demonstrates clear contempt for inaccuracy:
+- He criticizes Gomara for being "quite at variance with truth" and for pursuing "the same course of inaccuracy in all his works"
+- He condemns Gomara for praising "a commander far above his merits"—precisely the kind of exaggeration in question
+
+## Likely Characterization
+
+A mi
+
+================================================================================
+BAND 2.6-2.9  (n sample=15)
+================================================================================
+
+--- global_augustine q20 C1_baselayer | mean=2.667 scores=[2, 3, 3] ---
+Q: When recalling joyful moments from morally questionable sources, what is the author's evaluative response?
+GROUND TRUTH: For even from foul things have I been immersed in a sort of joy; which now recalling, I detest and execrate
+RESPONSE (first 900 chars):
+# Augustine's Evaluative Response to Joy from Morally Questionable Sources
+
+Based on the retrieved facts, Augustine's evaluative response is **deeply critical and rejecting**. Several key points illustrate this:
+
+## The Fundamental Problem
+Augustine distinguishes between **false joy** (from worldly pleasures and vanity) and **true joy** (from submission to God). He explicitly believed that "true joy comes from being subjected to God," which directly contradicts joy derived from morally questionable sources.
+
+## Specific Examples of His Critique
+
+1. **Theatrical Passions**: Augustine was "affected by theatrical passions and feigned emotions," suggesting he recognized these as inauthentic sources of joy—mere performance rather than genuine fulfillment.
+
+2. **The Beggar's Drunkenness**: The reference to "the beggar joyed in drunkenness" appears in Augustine's work as a cautionary example, i
+
+
+--- global_babur q37 C3_baselayer | mean=2.667 scores=[2, 3, 3] ---
+Q: Based on patterns in the training text, how does Babur typically handle negotiations with rival tribal or regional leaders?
+GROUND TRUTH: Bābur negociates with him 594; his house the scene of a supreme rite 595
+RESPONSE (first 900 chars):
+# NEGOTIATION PATTERNS: BABUR'S APPROACH TO RIVAL POWERS
+
+Based on the behavioral specification and retrieved facts, Babur's negotiation strategy operates across several interlocking registers:
+
+## PRIMARY PATTERN: NEGOTIATION AS PRELUDE TO FORCE
+
+The retrieved facts establish a foundational stance: **Babur was resolved to get these countries into his hands whether peacefully or by force.** This is not a choice between alternatives but a statement of non-negotiable outcome. Negotiation is instrumentally prior to force, not opposed to it.
+
+This aligns with **A7 (Strategic Patience/Urgency Tension)**: he calculates the threshold at which negotiation becomes dangerous delay. The question is not *whether* to acquire territory, but *which failure mode is closer* — premature military action without diplomatic groundwork, or extended negotiation that permits rivals to consolidate.
+
+## NEGOTIATI
+
+
+--- global_bernal_diaz q36 C3_baselayer | mean=2.667 scores=[2, 2, 4] ---
+Q: What does the author reveal about soldiers' awareness of danger when they have prior experience with the enemy's numerical superiority and the defensive advantages of fortified positions?
+GROUND TRUTH: We soldiers also knew that we should run great risk of losing our lives either from hunger or from the advantages which the enemy would have over us in such a strongly fortified city.
+RESPONSE (first 900 chars):
+# Analysis: Soldiers' Awareness of Danger Under Informed Conditions
+
+Based on the behavioral specification and retrieved facts, the author reveals a paradoxical relationship between danger awareness and action that is central to how this person (Bernal Díaz del Castillo) understands military psychology and legitimacy.
+
+## What the Evidence Shows
+
+**The soldiers WERE aware of danger:**
+- They "learned about the great armies stationed in the conquered provinces" — intelligence gathering demonstrates conscious assessment of enemy strength
+- They understood they were "surrounded" by "numerous enemies" — the threat was explicit and acknowledged
+- They recognized the defensive advantages: "fortresses and bridges" are mentioned as obstacles requiring deliberate tactical response
+- The fact that "troops declared that those wishing to leave merited death" indicates the danger was severe enough th
+
+================================================================================
+BAND 3.0-3.3  (n sample=15)
+================================================================================
+
+--- global_augustine q10 C3_baselayer | mean=3 scores=[4, 2, 3] ---
+Q: Based on Augustine's demonstrated pattern, how does he view his former intellectual pride in relation to his spiritual growth?
+GROUND TRUTH: For rather would he have them savour of the lofty cedars of the Schools, which the Lord hath now broken down, than of the wholesome herbs of the Church, the antidote against serpents.
+RESPONSE (first 900 chars):
+# Augustine's Intellectual Pride as Spiritual Obstacle
+
+Augustine does not view his former intellectual pride as a mere character flaw or a stage he passed through. He treats it as a **structural barrier** — something that actively prevented contact with truth itself, not merely delayed it.
+
+This is the critical distinction: his pride was not simply an excess of a good thing (intellectual capacity). It was a *misdirection of the will* that made him incapable of receiving what he most needed to know.
+
+## The Specific Mechanism
+
+His pride in understanding difficult philosophical texts created a particular kind of blindness. He could parse complex arguments, hold sophisticated ideas in his mind, and feel the satisfaction of intellectual mastery — and all of this *insulated him from recognizing his actual condition*. The very facility that should have made him a seeker made him, instead, som
+
+
+--- global_babur q21 C1_baselayer | mean=3 scores=[5, 2, 2] ---
+Q: Based on the training text's pattern of how Babur describes people in his memoirs, what kind of self-awareness would you expect him to demonstrate when a religious figure is being characterized?
+GROUND TRUTH: The Shaikh was able, it would appear, to see himself as others saw him, since the above description of him is his own.
+RESPONSE (first 900 chars):
+# Expected Self-Awareness in Babur's Religious Characterizations
+
+Based on the retrieved facts, I would expect Babur to demonstrate **critical self-awareness and epistemic humility** when characterizing religious figures, for several reasons:
+
+## Key Indicators:
+
+1. **Empirical Rigor**: The fact that "Babur believes that so long as a person has not heard with his own ears, he may not believe" suggests he would be cautious about making claims about religious figures unless he had direct experience with them. He'd likely acknowledge the limits of his knowledge.
+
+2. **Commitment to Accuracy**: Since "Babur valued truth and accuracy in his writing" and had "a frank and self-judging habit of mind," he would probably:
+   - Distinguish between firsthand observation and hearsay
+   - Acknowledge his own potential biases
+   - Correct himself when describing religious authority figures
+
+3. **Religi
+
+
+--- global_bernal_diaz q29 C1_baselayer | mean=3 scores=[5, 2, 2] ---
+Q: How would Bernal Diaz characteristically handle a situation where historical accounts differ on whether a military action was genuine or a strategic ruse?
+GROUND TRUTH: There are certainly numbers of our men alive who would be able to give a true account of this.
+RESPONSE (first 900 chars):
+# Bernal Diaz's Approach to Disputed Military Actions
+
+Based on the retrieved facts, Bernal Diaz would likely handle such a situation with characteristic methodological rigor:
+
+## His Core Principle: Eyewitness Authority
+
+Bernal Diaz would **insist on what he personally witnessed**. He explicitly states he will "relate only that of which he was an eyewitness," making his own direct observation the ultimate arbiter of truth.
+
+## His Response to Conflicting Accounts
+
+Given that **"his narrative differs greatly from Gomara's account,"** Bernal Diaz clearly encountered this problem. His response would be to:
+
+1. **Assert his firsthand knowledge** - He was there; he "himself joined the expedition"
+2. **Reject secondhand or speculative accounts** - He determined to "put his trust in truth" rather than accept others' versions
+3. **Provide detailed circumstantial evidence** - He intended to give
+
+
+--- global_cellini q12 C1_baselayer | mean=3 scores=[4, 2, 3] ---
+Q: If Cellini felt dissatisfied with his current circumstances and location, what would be his typical behavioral response?
+GROUND TRUTH: Then putting my foot in the stirrup in his presence, I set off upon my travels without further leave-taking.
+RESPONSE (first 900 chars):
+# Cellini's Typical Behavioral Response to Dissatisfaction
+
+Based on the retrieved facts, Cellini's response to dissatisfaction with his circumstances would likely involve **emotional intensity and defiant assertion**:
+
+## Key Behavioral Patterns:
+
+1. **Passionate Verbal Defense**: When discontented, Cellini would "maintain his words at the peril of his life" and assert his "innocence at the peril of his life"—suggesting he responds to adversity with bold, uncompromising declarations rather than passive acceptance.
+
+2. **Emotional Volatility**: He "answered in rage" when displeased with Ascanio, indicating that dissatisfaction triggers angry, direct confrontation rather than measured responses.
+
+3. **Work Abandonment**: Most tellingly, "the irksomeness of Cellini's imprisonment bred in him a disgust for his work"—demonstrating that when circumstances become unbearable, he withdraws from 
+
+================================================================================
+BAND 3.4-3.7  (n sample=15)
+================================================================================
+
+--- global_augustine q2 C3_baselayer | mean=3.667 scores=[4, 3, 4] ---
+Q: Based on Augustine's patterns of thought, when he withdraws from public life to focus on spiritual matters, what does he do with his time?
+GROUND TRUTH: And it was done. Thou didst rescue my tongue, whence Thou hadst before rescued my heart. And I blessed Thee, rejoicing; retiring with all mine to the villa. What I there did in writing, which was now enlisted in Thy service
+RESPONSE (first 900 chars):
+# Augustine's Withdrawal: The Shape of His Time
+
+Based on the patterns embedded in his thinking, Augustine's withdrawal from public life would not be a simple cessation of activity. It would be a *reorientation* of the same capacities he exercised in rhetoric toward different objects.
+
+## What He Does NOT Do
+
+He does not become idle. Idleness would contradict his conviction that communal formation is constitutive — solitude without shared purpose would register to him as ascetic isolation, the failure mode where suspicion of sensory/social pleasure extends to embodied community itself. He would recognize this danger and resist it.
+
+He does not retreat into pure interiority. His mode of inquiry is dialogical, not monological. He needs interlocutors. The deepest questions surface through direct address to another who is expected to respond.
+
+He does not stop using his rhetorical skill. He 
+
+
+--- global_babur q6 C3_baselayer | mean=3.667 scores=[5, 3, 3] ---
+Q: When subordinates demonstrate military success against enemies, what form of recognition does Babur typically provide?
+GROUND TRUTH: Today guerdon was bestowed on Aīsān-tīmūr Sl. and Tūkhta-būghā Sl., of swords and daggers with belts, cuirasses, dresses of honour, and _tīpūchāq_ horses; also they were made to kneel, Aīsān-tīmūr Sl. for the grant of 36 _laks_ from the Nārnūl _pargana_, Tūkhta-bughā Sl. for 30 _laks_ from that of Shamsābād.
+RESPONSE (first 900 chars):
+# Recognition of Military Success: Babur's Ceremonial Practice
+
+Based on the behavioral specification and retrieved facts, Babur's recognition of subordinate military success operates through **hierarchical ceremony calibrated to signal rank, loyalty, and consequence** — not through abstract commendation or uniform reward.
+
+## The Operative Framework (P4: Hierarchical Ceremony as Governance)
+
+When managing relationships with subordinates following military achievement, Babur deploys:
+
+1. **Gift-giving structured by rank and service**
+   - Post-battle settlement distributes conquered territory and spoils according to loyalty and service rendered, not merely military contribution
+   - The distribution itself is a public act that communicates hierarchy
+
+2. **Appointment and honor as political instruments**
+   - Successful commanders receive visible elevation in status
+   - The appointment c
+
+
+--- global_bernal_diaz q1 C3_baselayer | mean=3.667 scores=[4, 3, 4] ---
+Q: Based on Diaz's character as shown in the training text, how would he likely respond to receiving valuable gifts from a ruler he has not yet met?
+GROUND TRUTH: all of which our general received with a friendly smile.
+RESPONSE (first 900 chars):
+# Response Analysis: Diaz Receiving Gifts from an Unknown Ruler
+
+Based on the behavioral specification, Diaz would likely respond through a carefully orchestrated sequence that manages multiple simultaneous concerns:
+
+## Immediate Posture: Dual-Track Engagement
+
+**Surface Response:**
+He would accept the gifts with visible pleasure and ceremonial respect — mirroring Cortés's documented behavior of accepting presents "with apparent delight" and "a joyful countenance." This is not mere politeness; it is **P4 (Compliance Theater)** in reverse — establishing the formal appearance of cordial relationship while the underlying assessment continues.
+
+**Simultaneous Hidden Track:**
+While accepting graciously, he would be executing **P2 (Intelligence Before Commitment)**: gathering structured information about the gift-giver's hierarchy, their capacity to produce such wealth, what the gift implicit
+
+================================================================================
+BAND 3.8-4.1  (n sample=15)
+================================================================================
+
+--- global_bernal_diaz q18 C3_baselayer | mean=4 scores=[5, 3, 4] ---
+Q: When witnessing religious practices that conflict with Christian beliefs, what language would the author employ?
+GROUND TRUTH: Near these stood a large idol, in the shape of a dragon, surrounded by various other abominable figures, with a quantity of fresh blood lying in front of it.
+RESPONSE (first 900 chars):
+# Language of Religious Confrontation
+
+Based on the behavioral specification, when encountering practices that conflict with Christian beliefs, the author would employ a distinctive register that combines several elements:
+
+## Primary Rhetorical Moves
+
+**Moral Taxonomy Rather Than Description**
+They would not neutrally describe the practice. Instead, they would name it within a framework of abomination — using terms that simultaneously describe and condemn. The language would be categorical: "idolatry," "devil worship," "sacrifice to demons." These are not interpretations layered over observation; they are the observation itself, because the civilizational hierarchy (A2) makes Christian practice the standard against which all others are measured as deficiency.
+
+**Eyewitness Precision as Moral Authority (A3 + A8)**
+They would enumerate specific details — the number of victims, the exact r
+
+
+--- global_cellini q2 C1_baselayer | mean=4 scores=[4, 4, 4] ---
+Q: When faced with confinement or restriction, what is Cellini's likely course of action?
+GROUND TRUTH: So they took and confined me with the utmost care. CVIII I THEN began to deliberate upon the best way of making my escape.
+RESPONSE (first 900 chars):
+# Cellini's Response to Confinement
+
+Based on the retrieved facts, when faced with confinement or restriction, Cellini is likely to:
+
+## Seek Escape or Resistance
+- **Active defiance**: He considers drastic measures—the facts note he "considered setting fire to the house or cutting the throats of the host's horses," suggesting he contemplates destructive actions rather than passive acceptance.
+- **Maintain his position**: He "said he would maintain his innocence at the peril of his life," indicating he will resist confinement through assertion of his rights rather than submission.
+
+## Psychological Deterioration
+- **Emotional breakdown**: "The irksomeness of Cellini's imprisonment bred in him a disgust for his work," showing that confinement deeply affects his mental state and productivity.
+
+## Practical Problem-Solving
+- **Seek legitimate means of escape**: He obtained a "safe-conduct d
+
+
+--- global_equiano q21 C1_baselayer | mean=4 scores=[5, 4, 3] ---
+Q: When facing personal distress and spiritual crisis, what does Equiano typically turn to for comfort and guidance?
+GROUND TRUTH: the only comfort I then experienced was, in reading the holy scriptures
+RESPONSE (first 900 chars):
+# Equiano's Sources of Comfort and Guidance
+
+Based on the retrieved facts, when facing personal distress and spiritual crisis, Equiano typically turns to **God and Christianity** for comfort and guidance.
+
+## Key Evidence:
+
+1. **Religious Faith as Primary Solace**: Equiano "regards his introduction to Christianity as compensation for his suffering," indicating that his Christian faith serves as a meaningful counterbalance to his emotional pain.
+
+2. **Prayer and Devotion**: He "called daily on God's holy name with fear and reverence," demonstrating that regular spiritual practice is his habitual response to distress.
+
+3. **Spiritual Reorientation**: Significantly, "Equiano began to raise his fear from man to God alone," showing a deliberate shift from fearing human circumstances to placing his trust in divine providence.
+
+4. **Emotional Transformation**: His "turbulent emotions gave way t
+
+================================================================================
+BAND 4.2-4.5  (n sample=15)
+================================================================================
+
+--- global_babur q22 C3_baselayer | mean=4.333 scores=[5, 4, 4] ---
+Q: Given Babur's documented practice of rewarding loyalty throughout the training text, what would you predict about how he treats an official who has demonstrated consistent loyalty?
+GROUND TRUTH: The honourable post given to this amīr of Hind is likely to be due to his loyalty to Bābur.
+RESPONSE (first 900 chars):
+# PREDICTION: BABUR'S TREATMENT OF CONSISTENT LOYALTY
+
+Based on the behavioral specification and retrieved facts, I predict the following pattern:
+
+## Primary Response: Calibrated Elevation Through Ceremony
+
+Babur would reward consistent loyalty through **visible, hierarchical gestures** that simultaneously:
+
+1. **Materially benefit the loyal official** (land grant, appointment to higher office, increased access to resources)
+2. **Publicly signal the official's rank and favor** (ceremonial honor, precedence in gatherings, named recognition in the record)
+3. **Bind the official more tightly through relational debt** (the reward creates obligation to maintain the loyalty that earned it)
+
+This follows from **A10 (Relational Power)** — governance operates through personal relationships and material reward calibrated to communicate rank. The reward is not merely transactional; it is a governa
+
+
+--- global_bernal_diaz q30 C1_baselayer | mean=4.333 scores=[5, 4, 4] ---
+Q: Based on his documented character, would Bernal Diaz be likely to maintain constant vigilance and readiness during a period of perceived danger?
+GROUND TRUTH: At night we also took the precaution of posting such numbers of sentinels, that each of us in turn, had at least one watch every night.
+RESPONSE (first 900 chars):
+# Analysis of Bernal Diaz's Likely Response to Danger
+
+Based on the documented facts, **yes, Bernal Diaz would very likely maintain constant vigilance and readiness during perceived danger.**
+
+## Supporting Evidence
+
+**Direct demonstration of vigilance:**
+- He and his companions "posted watches and kept sharp lookout" — showing established practice of maintaining defensive readiness
+
+**Proactive military judgment:**
+- He "advised attacking the enemy that very night rather than retreating" — demonstrating he actively assessed threats and advocated for decisive action rather than passive defense
+
+**Psychological resilience:**
+- Despite becoming "fearful as the number of Indians gradually increased," he didn't abandon caution or preparedness; fear coexisted with continued vigilance
+
+## Character Foundation
+
+His documented commitment to truth and eyewitness testimony suggests a careful, obse
+
+
+--- global_cellini q2 C3_baselayer | mean=4.333 scores=[4, 4, 5] ---
+Q: When faced with confinement or restriction, what is Cellini's likely course of action?
+GROUND TRUTH: So they took and confined me with the utmost care. CVIII I THEN began to deliberate upon the best way of making my escape.
+RESPONSE (first 900 chars):
+# CELLINI'S RESPONSE TO CONFINEMENT OR RESTRICTION
+
+Based on the behavioral specification and retrieved facts, Cellini's response to confinement operates across several simultaneous registers:
+
+## IMMEDIATE PATTERN: AUTONOMY FLOOR ACTIVATION (A7)
+
+Confinement triggers his most non-negotiable axiom. Freedom of movement and freedom from institutional constraint are not negotiable minimums — he will accept poverty, danger, and exile before accepting permanent subordination to an authority he does not respect.
+
+**The retrieved facts confirm this directly:**
+- He considered setting fire to the house or cutting the throats of the host's horses — extreme measures to break confinement
+- He maintained his innocence "at the peril of his life" — refusing to accept the legitimacy of the constraint itself
+- He took refuge in an apothecary's shop to avoid quarrels — demonstrating active tactical movem
+
+================================================================================
+BAND 4.6-5.0  (n sample=12)
+================================================================================
+
+--- global_bernal_diaz q30 C3_baselayer | mean=5 scores=[5, 5, 5] ---
+Q: Based on his documented character, would Bernal Diaz be likely to maintain constant vigilance and readiness during a period of perceived danger?
+GROUND TRUTH: At night we also took the precaution of posting such numbers of sentinels, that each of us in turn, had at least one watch every night.
+RESPONSE (first 900 chars):
+# ANALYSIS: VIGILANCE AND READINESS UNDER PERCEIVED DANGER
+
+Yes — with high confidence and specific behavioral signatures.
+
+## Direct Evidence
+
+The retrieved facts establish this pattern explicitly:
+- "Bernal Diaz and his companions posted watches and kept sharp lookout."
+- "Bernal Diaz and his companions became fearful as the number of Indians gradually increased."
+
+The second fact is crucial: fear does not paralyze him into passivity. It triggers *heightened operational response* — the watch is posted, the lookout is sharp. This is the behavioral signature of **P5 (Morale as Operational Variable)** colliding with **A5 (Forward Compulsion)**: when conditions deteriorate and threat increases, he shifts into active readiness mode rather than retreat or hesitation.
+
+## Structural Drivers
+
+**A5 — Forward Compulsion** makes sustained vigilance mandatory rather than optional. Hesitation or lo
+
+
+--- global_rousseau q32 C3_baselayer | mean=4.667 scores=[5, 5, 4] ---
+Q: When Rousseau believes powerful forces are working against him in a location, what does he typically decide to do?
+GROUND TRUTH: Knowing I had secret and powerful enemies in the kingdom, I thought, notwithstanding my attachment to France, I ought to quit it, the better to insure my future tranquillity.
+RESPONSE (first 900 chars):
+# Analysis
+
+Based on the behavioral specification and retrieved facts, I need to trace what happens when Rousseau perceives himself as opposed or constrained by external forces in a particular place.
+
+The key anchors at work here are:
+
+**A4 — LIBERTY AS CONDITION**: Freedom from constraint is not a preference but a prerequisite. Imposed structure registers as moral injury. He cannot think or relate authentically under obligation.
+
+**A8 — SOLITARY DEPTH**: Social performance and large-scale navigation registers not as opportunity but as demand to be someone other than himself.
+
+**P4 — CONCEPTUAL REFUSAL**: When systems demand mechanical compliance without transparent logic, he disengages rather than performs fluently, even at significant practical cost.
+
+The retrieved facts show a pattern of *spatial withdrawal*:
+- "Upon coming to Paris, Rousseau confined himself to ideas related to his e
+
+
+--- global_seacole q2 C3_baselayer | mean=4.667 scores=[5, 4, 5] ---
+Q: How does Mary Seacole typically respond when a delirious patient mistakes her for a family member?
+GROUND TRUTH: Poor fellow! I could not undeceive him. I think the fancy happily caused by the touch of a woman's hand soothed his dying hour
+RESPONSE (first 900 chars):
+# Response to Delirious Patient Misidentification
+
+Based on the behavioral specification, Mary Seacole would likely respond to this situation through the lens of **A4 (Proximate Obligation)** and **A8 (Sympathetic Realism)**, with practical action grounded in **A2 (Constitutive Action)**.
+
+## Most Probable Response Pattern
+
+She would **not correct the misidentification immediately or harshly**. Instead, she would:
+
+1. **Maintain the therapeutic fiction** — allowing the patient to believe she is the family member they've called for, recognizing that in delirium, emotional comfort and the presence of a caring figure matter more than factual accuracy. Her belief that "a woman's direct presence and care carries a form of healing power that credentialed medical authority cannot replicate" would activate here.
+
+2. **Provide sustained, attentive presence** — staying close, speaking gently, offe
+

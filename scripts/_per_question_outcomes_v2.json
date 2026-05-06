@@ -1,0 +1,117 @@
+{
+  "C2a": {
+    "total": 351,
+    "improved": 249,
+    "tied": 49,
+    "worsened": 53,
+    "improved_pct": 70.94017094017094,
+    "tied_pct": 13.96011396011396,
+    "worsened_pct": 15.0997150997151,
+    "median_imp": 1.0,
+    "median_wor": -0.3999999999999999,
+    "mean_delta": 0.6849002849002849,
+    "per_subject_qcount": {
+      "sunity_devee": 39,
+      "ebers": 39,
+      "hamerton": 39,
+      "fukuzawa": 39,
+      "bernal_diaz": 39,
+      "babur": 39,
+      "seacole": 39,
+      "keckley": 39,
+      "yung_wing": 39
+    }
+  },
+  "C4": {
+    "total": 351,
+    "improved": 256,
+    "tied": 44,
+    "worsened": 51,
+    "improved_pct": 72.93447293447294,
+    "tied_pct": 12.535612535612536,
+    "worsened_pct": 14.52991452991453,
+    "median_imp": 1.0,
+    "median_wor": -0.3999999999999999,
+    "mean_delta": 0.8045584045584045,
+    "per_subject_qcount": {
+      "sunity_devee": 39,
+      "ebers": 39,
+      "hamerton": 39,
+      "fukuzawa": 39,
+      "bernal_diaz": 39,
+      "babur": 39,
+      "seacole": 39,
+      "keckley": 39,
+      "yung_wing": 39
+    }
+  },
+  "C4a": {
+    "total": 351,
+    "improved": 276,
+    "tied": 22,
+    "worsened": 53,
+    "improved_pct": 78.63247863247864,
+    "tied_pct": 6.267806267806268,
+    "worsened_pct": 15.0997150997151,
+    "median_imp": 1.0000000000000002,
+    "median_wor": -0.40000000000000013,
+    "mean_delta": 0.8923076923076924,
+    "per_subject_qcount": {
+      "sunity_devee": 39,
+      "ebers": 39,
+      "hamerton": 39,
+      "fukuzawa": 39,
+      "bernal_diaz": 39,
+      "babur": 39,
+      "seacole": 39,
+      "keckley": 39,
+      "yung_wing": 39
+    }
+  },
+  "C8": {
+    "total": 351,
+    "improved": 275,
+    "tied": 31,
+    "worsened": 45,
+    "improved_pct": 78.34757834757835,
+    "tied_pct": 8.831908831908832,
+    "worsened_pct": 12.820512820512821,
+    "median_imp": 1.0,
+    "median_wor": -0.6000000000000001,
+    "mean_delta": 0.9075023741690409,
+    "per_subject_qcount": {
+      "sunity_devee": 39,
+      "ebers": 39,
+      "hamerton": 39,
+      "fukuzawa": 39,
+      "bernal_diaz": 39,
+      "babur": 39,
+      "seacole": 39,
+      "keckley": 39,
+      "yung_wing": 39
+    }
+  },
+  "C9": {
+    "total": 312,
+    "improved": 261,
+    "tied": 15,
+    "worsened": 36,
+    "improved_pct": 83.65384615384616,
+    "tied_pct": 4.8076923076923075,
+    "worsened_pct": 11.538461538461538,
+    "median_imp": 1.2000000000000002,
+    "median_wor": -0.3999999999999999,
+    "mean_delta": 1.0726495726495726,
+    "per_subject_qcount": {
+      "sunity_devee": 39,
+      "ebers": 39,
+      "hamerton": 39,
+      "fukuzawa": 39,
+      "bernal_diaz": 39,
+      "babur": 0,
+      "seacole": 39,
+      "keckley": 39,
+      "yung_wing": 39
+    }
+  }
+}

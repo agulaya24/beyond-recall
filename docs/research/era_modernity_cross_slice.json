@@ -1,0 +1,1086 @@
+{
+  "subject_class": {
+    "hamerton": {
+      "era": "1700-1900",
+      "modernity": "modern",
+      "exoticism": "familiar"
+    },
+    "franklin": {
+      "era": "1700-1900",
+      "modernity": "modern",
+      "exoticism": "familiar"
+    },
+    "augustine": {
+      "era": "pre_1700",
+      "modernity": "archaic",
+      "exoticism": "non-Western"
+    },
+    "babur": {
+      "era": "pre_1700",
+      "modernity": "archaic",
+      "exoticism": "non-Western"
+    },
+    "bernal_diaz": {
+      "era": "pre_1700",
+      "modernity": "archaic",
+      "exoticism": "non-Western"
+    },
+    "cellini": {
+      "era": "pre_1700",
+      "modernity": "archaic",
+      "exoticism": "marginal-familiar"
+    },
+    "ebers": {
+      "era": "1700-1900",
+      "modernity": "modern",
+      "exoticism": "familiar"
+    },
+    "equiano": {
+      "era": "1700-1900",
+      "modernity": "modern",
+      "exoticism": "non-Western"
+    },
+    "fukuzawa": {
+      "era": "1700-1900",
+      "modernity": "modern",
+      "exoticism": "non-Western"
+    },
+    "keckley": {
+      "era": "1700-1900",
+      "modernity": "modern",
+      "exoticism": "non-Western"
+    },
+    "rousseau": {
+      "era": "1700-1900",
+      "modernity": "modern",
+      "exoticism": "familiar"
+    },
+    "seacole": {
+      "era": "1700-1900",
+      "modernity": "modern",
+      "exoticism": "non-Western"
+    },
+    "sunity_devee": {
+      "era": "1700-1900",
+      "modernity": "modern",
+      "exoticism": "non-Western"
+    },
+    "yung_wing": {
+      "era": "1700-1900",
+      "modernity": "modern",
+      "exoticism": "non-Western"
+    },
+    "zitkala_sa": {
+      "era": "post_1900",
+      "modernity": "modern",
+      "exoticism": "non-Western"
+    }
+  },
+  "main_study_subjects": [
+    "hamerton",
+    "augustine",
+    "babur",
+    "bernal_diaz",
+    "cellini",
+    "ebers",
+    "equiano",
+    "fukuzawa",
+    "keckley",
+    "rousseau",
+    "seacole",
+    "sunity_devee",
+    "yung_wing",
+    "zitkala_sa"
+  ],
+  "per_subject": {
+    "hamerton": {
+      "c5_5j": 1.2564102564102564,
+      "c2a_5j": 2.6307692307692307,
+      "c4a_5j": 2.769230769230769,
+      "delta_c2a_5j": 1.3743589743589744,
+      "delta_c4a_5j": 1.5128205128205128,
+      "era": "1700-1900",
+      "modernity": "modern",
+      "exoticism": "familiar",
+      "memsys": {
+        "mem0": 0.103,
+        "letta": 0.387,
+        "zep": 0.333,
+        "supermemory": 0.144,
+        "baselayer": -0.01
+      },
+      "delta_c2a_5j_resid": 0.47951199768453034,
+      "delta_c4a_5j_resid": 0.3551221852523496,
+      "delta_mem0_5j_resid": 0.03292204155239695,
+      "delta_letta_5j_resid": 0.23480904642000622,
+      "delta_zep_5j_resid": 0.15283149878216234,
+      "delta_supermemory_5j_resid": 0.11663343086011893,
+      "delta_baselayer_5j_resid": -0.08085722303078828
+    },
+    "augustine": {
+      "c5_5j": 2.5846153846153848,
+      "c2a_5j": 2.476923076923077,
+      "c4a_5j": 2.6974358974358976,
+      "delta_c2a_5j": -0.10769230769230775,
+      "delta_c4a_5j": 0.11282051282051286,
+      "era": "pre_1700",
+      "modernity": "archaic",
+      "exoticism": "non-Western",
+      "memsys": {
+        "mem0": 0.349,
+        "letta": 0.223,
+        "zep": 0.205,
+        "supermemory": -0.04,
+        "baselayer": 0.111
+      },
+      "delta_c2a_5j_resid": -0.01799394616341088,
+      "delta_c4a_5j_resid": 0.22979574249436618,
+      "delta_mem0_5j_resid": 0.1713696502130748,
+      "delta_letta_5j_resid": -0.026289910841561348,
+      "delta_zep_5j_resid": 0.011665017004830164,
+      "delta_supermemory_5j_resid": 0.10436845388866237,
+      "delta_baselayer_5j_resid": 0.025720671812389392
+    },
+    "babur": {
+      "c5_5j": 1.758974358974359,
+      "c2a_5j": 1.9076923076923078,
+      "c4a_5j": 2.01025641025641,
+      "delta_c2a_5j": 0.14871794871794886,
+      "delta_c4a_5j": 0.2512820512820513,
+      "era": "pre_1700",
+      "modernity": "archaic",
+      "exoticism": "non-Western",
+      "memsys": {
+        "mem0": 0.256,
+        "letta": 0.164,
+        "zep": 0.041,
+        "supermemory": 0.051,
+        "baselayer": 0.14
+      },
+      "delta_c2a_5j_resid": -0.37359835944712305,
+      "delta_c4a_5j_resid": -0.42410736273507865,
+      "delta_mem0_5j_resid": 0.14522654212670752,
+      "delta_letta_5j_resid": -0.02493109957085718,
+      "delta_zep_5j_resid": -0.1441504132416931,
+      "delta_supermemory_5j_resid": 0.08861425038443266,
+      "delta_baselayer_5j_resid": 0.06368576420717084
+    },
+    "bernal_diaz": {
+      "c5_5j": 1.6974358974358974,
+      "c2a_5j": 2.2666666666666666,
+      "c4a_5j": 2.482051282051282,
+      "delta_c2a_5j": 0.5692307692307692,
+      "delta_c4a_5j": 0.7846153846153847,
+      "era": "pre_1700",
+      "modernity": "archaic",
+      "exoticism": "non-Western",
+      "memsys": {
+        "mem0": -0.026,
+        "letta": 0.036,
+        "zep": 0.097,
+        "supermemory": -0.031,
+        "baselayer": -0.077
+      },
+      "delta_c2a_5j_resid": 0.0012984608400599118,
+      "delta_c4a_5j_resid": 0.050167736285883446,
+      "delta_mem0_5j_resid": -0.13179033549463665,
+      "delta_letta_5j_resid": -0.14843230618422085,
+      "delta_zep_5j_resid": -0.08754038319795568,
+      "delta_supermemory_5j_resid": -0.0013425846593608515,
+      "delta_baselayer_5j_resid": -0.15264603014849765
+    },
+    "cellini": {
+      "c5_5j": 2.3794871794871795,
+      "c2a_5j": 2.5435897435897434,
+      "c4a_5j": 2.528205128205128,
+      "delta_c2a_5j": 0.16410256410256396,
+      "delta_c4a_5j": 0.14871794871794863,
+      "era": "pre_1700",
+      "modernity": "archaic",
+      "exoticism": "marginal-familiar",
+      "memsys": {
+        "mem0": 0.364,
+        "letta": 0.413,
+        "zep": 0.405,
+        "supermemory": -0.036,
+        "baselayer": 0.274
+      },
+      "delta_c2a_5j_resid": 0.10174759154600266,
+      "delta_c4a_5j_resid": 0.06883239735056401,
+      "delta_mem0_5j_resid": 0.20298005814192766,
+      "delta_letta_5j_resid": 0.17870606711389309,
+      "delta_zep_5j_resid": 0.21369845048395486,
+      "delta_supermemory_5j_resid": 0.08184567040935062,
+      "delta_baselayer_5j_resid": 0.1909480239601612
+    },
+    "ebers": {
+      "c5_5j": 1.0205128205128204,
+      "c2a_5j": 1.5384615384615385,
+      "c4a_5j": 2.071794871794872,
+      "delta_c2a_5j": 0.5179487179487181,
+      "delta_c4a_5j": 1.0512820512820515,
+      "era": "1700-1900",
+      "modernity": "modern",
+      "exoticism": "familiar",
+      "memsys": {
+        "mem0": 0.149,
+        "letta": 0.138,
+        "zep": 0.272,
+        "supermemory": 0.138,
+        "baselayer": 0.077
+      },
+      "delta_c2a_5j_resid": -0.5517595929240027,
+      "delta_c4a_5j_resid": -0.33280617448353533,
+      "delta_mem0_5j_resid": 0.09802401067057771,
+      "delta_letta_5j_resid": 0.0030544210687788453,
+      "delta_zep_5j_resid": 0.0941699472831557,
+      "delta_supermemory_5j_resid": 0.08013222985891047,
+      "delta_baselayer_5j_resid": 0.008704231939149265
+    },
+    "equiano": {
+      "c5_5j": 2.769230769230769,
+      "c2a_5j": 2.4564102564102566,
+      "c4a_5j": 2.4205128205128204,
+      "delta_c2a_5j": -0.3128205128205126,
+      "delta_c4a_5j": -0.3487179487179488,
+      "era": "1700-1900",
+      "modernity": "modern",
+      "exoticism": "non-Western",
+      "memsys": {
+        "mem0": 0.092,
+        "letta": 0.123,
+        "zep": 0.072,
+        "supermemory": -0.319,
+        "baselayer": -0.103
+      },
+      "delta_c2a_5j_resid": -0.08627415061470356,
+      "delta_c4a_5j_resid": -0.054568016106981254,
+      "delta_mem0_5j_resid": -0.10057971692289272,
+      "delta_letta_5j_resid": -0.13978629100147033,
+      "delta_zep_5j_resid": -0.12316507312638202,
+      "delta_supermemory_5j_resid": -0.15076104097995713,
+      "delta_baselayer_5j_resid": -0.1902839451206052
+    },
+    "fukuzawa": {
+      "c5_5j": 1.6717948717948719,
+      "c2a_5j": 2.353846153846154,
+      "c4a_5j": 2.7794871794871794,
+      "delta_c2a_5j": 0.6820512820512821,
+      "delta_c4a_5j": 1.1076923076923075,
+      "era": "1700-1900",
+      "modernity": "modern",
+      "exoticism": "non-Western",
+      "memsys": {
+        "mem0": 0.046,
+        "letta": 0.044,
+        "zep": 0.026,
+        "supermemory": -0.205,
+        "baselayer": 0.051
+      },
+      "delta_c2a_5j_resid": 0.0951123068998907,
+      "delta_c4a_5j_resid": 0.3486370617326515,
+      "delta_mem0_5j_resid": -0.05771403450353006,
+      "delta_letta_5j_resid": -0.13855780893978908,
+      "delta_zep_5j_resid": -0.15828620401306512,
+      "delta_supermemory_5j_resid": -0.1786579325942748,
+      "delta_baselayer_5j_resid": -0.02436761113002616
+    },
+    "keckley": {
+      "c5_5j": 1.8410256410256411,
+      "c2a_5j": 2.4256410256410255,
+      "c4a_5j": 2.435897435897436,
+      "delta_c2a_5j": 0.5846153846153843,
+      "delta_c4a_5j": 0.594871794871795,
+      "era": "1700-1900",
+      "modernity": "modern",
+      "exoticism": "non-Western",
+      "memsys": {
+        "mem0": -0.021,
+        "letta": -0.021,
+        "zep": 0.041,
+        "supermemory": -0.267,
+        "baselayer": -0.009
+      },
+      "delta_c2a_5j_resid": 0.12312041008449581,
+      "delta_c4a_5j_resid": -0.0017733067288394633,
+      "delta_mem0_5j_resid": -0.13841762104483363,
+      "delta_letta_5j_resid": -0.21592949075303897,
+      "delta_zep_5j_resid": -0.14496378663334294,
+      "delta_supermemory_5j_resid": -0.21877663622384264,
+      "delta_baselayer_5j_resid": -0.08620517665193787
+    },
+    "rousseau": {
+      "c5_5j": 2.435897435897436,
+      "c2a_5j": 2.8102564102564105,
+      "c4a_5j": 2.533333333333333,
+      "delta_c2a_5j": 0.37435897435897436,
+      "delta_c4a_5j": 0.09743589743589709,
+      "era": "1700-1900",
+      "modernity": "modern",
+      "exoticism": "familiar",
+      "memsys": {
+        "mem0": 0.108,
+        "letta": 0.587,
+        "zep": 0.467,
+        "supermemory": -0.026,
+        "baselayer": 0.333
+      },
+      "delta_c2a_5j_resid": 0.35381866867591416,
+      "delta_c4a_5j_resid": 0.07168706085485299,
+      "delta_mem0_5j_resid": -0.05758780403850687,
+      "delta_letta_5j_resid": 0.34858217317614304,
+      "delta_zep_5j_resid": 0.2751392562771956,
+      "delta_supermemory_5j_resid": 0.09913943586616139,
+      "delta_baselayer_5j_resid": 0.24933550211952393
+    },
+    "seacole": {
+      "c5_5j": 1.7743589743589743,
+      "c2a_5j": 2.482051282051282,
+      "c4a_5j": 2.594871794871795,
+      "delta_c2a_5j": 0.7076923076923078,
+      "delta_c4a_5j": 0.8205128205128207,
+      "era": "1700-1900",
+      "modernity": "modern",
+      "exoticism": "non-Western",
+      "memsys": {
+        "mem0": 0.154,
+        "letta": 0.4,
+        "zep": 0.472,
+        "supermemory": 0.082,
+        "baselayer": 0.197
+      },
+      "delta_c2a_5j_resid": 0.19677999958364523,
+      "delta_c4a_5j_resid": 0.15988796507378367,
+      "delta_mem0_5j_resid": 0.04198076153204355,
+      "delta_letta_5j_resid": 0.20994420208248377,
+      "delta_zep_5j_resid": 0.28669707924737253,
+      "delta_supermemory_5j_resid": 0.12160345914538102,
+      "delta_baselayer_5j_resid": 0.12051871279608796
+    },
+    "sunity_devee": {
+      "c5_5j": 1.0256410256410255,
+      "c2a_5j": 2.2666666666666666,
+      "c4a_5j": 2.41025641025641,
+      "delta_c2a_5j": 1.241025641025641,
+      "delta_c4a_5j": 1.3846153846153846,
+      "era": "1700-1900",
+      "modernity": "modern",
+      "exoticism": "non-Western",
+      "memsys": {
+        "mem0": -0.082,
+        "letta": 0.026,
+        "zep": 0.087,
+        "supermemory": -0.113,
+        "baselayer": 0.043
+      },
+      "delta_c2a_5j_resid": 0.17511866350505656,
+      "delta_c4a_5j_resid": 0.005448678375828742,
+      "delta_mem0_5j_resid": -0.1333912495276436,
+      "delta_letta_5j_resid": -0.10932047838010753,
+      "delta_zep_5j_resid": -0.09088088855382245,
+      "delta_supermemory_5j_resid": -0.17020470055410675,
+      "delta_baselayer_5j_resid": -0.02535145186454503
+    },
+    "yung_wing": {
+      "c5_5j": 1.876923076923077,
+      "c2a_5j": 2.2153846153846155,
+      "c4a_5j": 2.4,
+      "delta_c2a_5j": 0.3384615384615386,
+      "delta_c4a_5j": 0.523076923076923,
+      "era": "1700-1900",
+      "modernity": "modern",
+      "exoticism": "non-Western",
+      "memsys": {
+        "mem0": 0.328,
+        "letta": 0.308,
+        "zep": 0.123,
+        "supermemory": 0.108,
+        "baselayer": 0.333
+      },
+      "delta_c2a_5j_resid": -0.09642410260439482,
+      "delta_c4a_5j_resid": -0.039117541841495074,
+      "delta_mem0_5j_resid": 0.20767555756761713,
+      "delta_letta_5j_resid": 0.1104462131047565,
+      "delta_zep_5j_resid": -0.06331963749218977,
+      "delta_supermemory_5j_resid": 0.16086485088503688,
+      "delta_baselayer_5j_resid": 0.25540503672220205
+    },
+    "zitkala_sa": {
+      "c5_5j": 2.3384615384615386,
+      "c2a_5j": 2.0307692307692307,
+      "c4a_5j": 2.0205128205128204,
+      "delta_c2a_5j": -0.30769230769230793,
+      "delta_c4a_5j": -0.31794871794871815,
+      "era": "post_1900",
+      "modernity": "modern",
+      "exoticism": "non-Western",
+      "memsys": {
+        "mem0": -0.123,
+        "letta": -0.051,
+        "zep": -0.031,
+        "supermemory": -0.246,
+        "baselayer": -0.272
+      },
+      "delta_c2a_5j_resid": -0.4004579470659606,
+      "delta_c4a_5j_resid": -0.43720642552435063,
+      "delta_mem0_5j_resid": -0.28069786027230176,
+      "delta_letta_5j_resid": -0.28229473729501603,
+      "delta_zep_5j_resid": -0.22189486282022022,
+      "delta_supermemory_5j_resid": -0.1334588862865117,
+      "delta_baselayer_5j_resid": -0.3546065056102845
+    }
+  },
+  "cross_tables": {
+    "era|§4.1 C2a spec-alone (C2a-C5)": {
+      "1700-1900": {
+        "n": 9,
+        "mean": 0.611965811965812,
+        "std": 0.469883406455485
+      },
+      "pre_1700": {
+        "n": 4,
+        "mean": 0.19358974358974357,
+        "std": 0.242260204273467
+      },
+      "post_1900": {
+        "n": 1,
+        "mean": -0.30769230769230793,
+        "std": 0.0
+      }
+    },
+    "era|§4.1 facts+spec (C4a-C5)": {
+      "1700-1900": {
+        "n": 9,
+        "mean": 0.7492877492877492,
+        "std": 0.569297213567457
+      },
+      "pre_1700": {
+        "n": 4,
+        "mean": 0.3243589743589744,
+        "std": 0.2705431991691892
+      },
+      "post_1900": {
+        "n": 1,
+        "mean": -0.31794871794871815,
+        "std": 0.0
+      }
+    },
+    "era|Mem0 controlled (C3-C1)": {
+      "1700-1900": {
+        "n": 9,
+        "mean": 0.09744444444444444,
+        "std": 0.10957504897568922
+      },
+      "pre_1700": {
+        "n": 4,
+        "mean": 0.23575,
+        "std": 0.15668180334678306
+      },
+      "post_1900": {
+        "n": 1,
+        "mean": -0.123,
+        "std": 0.0
+      }
+    },
+    "era|Letta controlled (C3-C1)": {
+      "1700-1900": {
+        "n": 9,
+        "mean": 0.22133333333333333,
+        "std": 0.1959399000827663
+      },
+      "pre_1700": {
+        "n": 4,
+        "mean": 0.209,
+        "std": 0.13579948453510418
+      },
+      "post_1900": {
+        "n": 1,
+        "mean": -0.051,
+        "std": 0.0
+      }
+    },
+    "era|Zep controlled (C3-C1)": {
+      "1700-1900": {
+        "n": 9,
+        "mean": 0.21033333333333334,
+        "std": 0.169254574860212
+      },
+      "pre_1700": {
+        "n": 4,
+        "mean": 0.187,
+        "std": 0.13898201322473352
+      },
+      "post_1900": {
+        "n": 1,
+        "mean": -0.031,
+        "std": 0.0
+      }
+    },
+    "era|Supermemory controlled": {
+      "1700-1900": {
+        "n": 9,
+        "mean": -0.050888888888888886,
+        "std": 0.17106882594405254
+      },
+      "pre_1700": {
+        "n": 4,
+        "mean": -0.014,
+        "std": 0.03766297917053296
+      },
+      "post_1900": {
+        "n": 1,
+        "mean": -0.246,
+        "std": 0.0
+      }
+    },
+    "era|Base Layer controlled": {
+      "1700-1900": {
+        "n": 9,
+        "mean": 0.10133333333333334,
+        "std": 0.14504405461023825
+      },
+      "pre_1700": {
+        "n": 4,
+        "mean": 0.11200000000000002,
+        "std": 0.1252497504987535
+      },
+      "post_1900": {
+        "n": 1,
+        "mean": -0.272,
+        "std": 0.0
+      }
+    },
+    "era|§4.1 C2a residualized on C5": {
+      "1700-1900": {
+        "n": 9,
+        "mean": 0.07655602225449241,
+        "std": 0.2822814535558192
+      },
+      "pre_1700": {
+        "n": 4,
+        "mean": -0.07213656330611784,
+        "std": 0.1798881872189004
+      },
+      "post_1900": {
+        "n": 1,
+        "mean": -0.4004579470659606,
+        "std": 0.0
+      }
+    },
+    "era|§4.1 C4a residualized on C5": {
+      "1700-1900": {
+        "n": 9,
+        "mean": 0.05694643468095727,
+        "std": 0.2012398592294796
+      },
+      "pre_1700": {
+        "n": 4,
+        "mean": -0.018827871651066252,
+        "std": 0.24418736867418042
+      },
+      "post_1900": {
+        "n": 1,
+        "mean": -0.43720642552435063,
+        "std": 0.0
+      }
+    },
+    "era|Mem0 residualized on C5": {
+      "1700-1900": {
+        "n": 9,
+        "mean": -0.011898672746085727,
+        "std": 0.10955774276349378
+      },
+      "pre_1700": {
+        "n": 4,
+        "mean": 0.09694647874676833,
+        "std": 0.13363515922066577
+      },
+      "post_1900": {
+        "n": 1,
+        "mean": -0.28069786027230176,
+        "std": 0.0
+      }
+    },
+    "era|Letta residualized on C5": {
+      "1700-1900": {
+        "n": 9,
+        "mean": 0.033693554086418054,
+        "std": 0.18856969488454936
+      },
+      "pre_1700": {
+        "n": 4,
+        "mean": -0.005236812370686572,
+        "std": 0.11744257135418111
+      },
+      "post_1900": {
+        "n": 1,
+        "mean": -0.28229473729501603,
+        "std": 0.0
+      }
+    },
+    "era|Zep residualized on C5": {
+      "1700-1900": {
+        "n": 9,
+        "mean": 0.02535802130789821,
+        "std": 0.16926060703143056
+      },
+      "pre_1700": {
+        "n": 4,
+        "mean": -0.0015818322377159355,
+        "std": 0.1362311931206001
+      },
+      "post_1900": {
+        "n": 1,
+        "mean": -0.22189486282022022,
+        "std": 0.0
+      }
+    },
+    "era|Supermemory residualized on C5": {
+      "1700-1900": {
+        "n": 9,
+        "mean": -0.015558544859619178,
+        "std": 0.14900404575701442
+      },
+      "pre_1700": {
+        "n": 4,
+        "mean": 0.0683714475057712,
+        "std": 0.04107053840799589
+      },
+      "post_1900": {
+        "n": 1,
+        "mean": -0.1334588862865117,
+        "std": 0.0
+      }
+    },
+    "era|Base Layer residualized on C5": {
+      "1700-1900": {
+        "n": 9,
+        "mean": 0.025210897308784518,
+        "std": 0.14441215109395233
+      },
+      "pre_1700": {
+        "n": 4,
+        "mean": 0.03192710745780594,
+        "std": 0.1228841193289731
+      },
+      "post_1900": {
+        "n": 1,
+        "mean": -0.3546065056102845,
+        "std": 0.0
+      }
+    },
+    "modernity|§4.1 C2a spec-alone (C2a-C5)": {
+      "modern": {
+        "n": 10,
+        "mean": 0.52,
+        "std": 0.5242430440461459
+      },
+      "archaic": {
+        "n": 4,
+        "mean": 0.19358974358974357,
+        "std": 0.242260204273467
+      }
+    },
+    "modernity|§4.1 facts+spec (C4a-C5)": {
+      "modern": {
+        "n": 10,
+        "mean": 0.6425641025641026,
+        "std": 0.6278525436502168
+      },
+      "archaic": {
+        "n": 4,
+        "mean": 0.3243589743589744,
+        "std": 0.2705431991691892
+      }
+    },
+    "modernity|Mem0 controlled (C3-C1)": {
+      "modern": {
+        "n": 10,
+        "mean": 0.0754,
+        "std": 0.12320568168716896
+      },
+      "archaic": {
+        "n": 4,
+        "mean": 0.23575,
+        "std": 0.15668180334678306
+      }
+    },
+    "modernity|Letta controlled (C3-C1)": {
+      "modern": {
+        "n": 10,
+        "mean": 0.1941,
+        "std": 0.20304701426024466
+      },
+      "archaic": {
+        "n": 4,
+        "mean": 0.209,
+        "std": 0.13579948453510418
+      }
+    },
+    "modernity|Zep controlled (C3-C1)": {
+      "modern": {
+        "n": 10,
+        "mean": 0.1862,
+        "std": 0.17613676504353087
+      },
+      "archaic": {
+        "n": 4,
+        "mean": 0.187,
+        "std": 0.13898201322473352
+      }
+    },
+    "modernity|Supermemory controlled": {
+      "modern": {
+        "n": 10,
+        "mean": -0.0704,
+        "std": 0.1725231578658355
+      },
+      "archaic": {
+        "n": 4,
+        "mean": -0.014,
+        "std": 0.03766297917053296
+      }
+    },
+    "modernity|Base Layer controlled": {
+      "modern": {
+        "n": 10,
+        "mean": 0.064,
+        "std": 0.17742040468897596
+      },
+      "archaic": {
+        "n": 4,
+        "mean": 0.11200000000000002,
+        "std": 0.1252497504987535
+      }
+    },
+    "modernity|§4.1 C2a residualized on C5": {
+      "modern": {
+        "n": 10,
+        "mean": 0.028854625322447112,
+        "std": 0.30363357281902204
+      },
+      "archaic": {
+        "n": 4,
+        "mean": -0.07213656330611784,
+        "std": 0.1798881872189004
+      }
+    },
+    "modernity|§4.1 C4a residualized on C5": {
+      "modern": {
+        "n": 10,
+        "mean": 0.007531148660426479,
+        "std": 0.24171174419305422
+      },
+      "archaic": {
+        "n": 4,
+        "mean": -0.018827871651066252,
+        "std": 0.24418736867418042
+      }
+    },
+    "modernity|Mem0 residualized on C5": {
+      "modern": {
+        "n": 10,
+        "mean": -0.038778591498707334,
+        "std": 0.1315499121581483
+      },
+      "archaic": {
+        "n": 4,
+        "mean": 0.09694647874676833,
+        "std": 0.13363515922066577
+      }
+    },
+    "modernity|Letta residualized on C5": {
+      "modern": {
+        "n": 10,
+        "mean": 0.002094724948274643,
+        "std": 0.2024575285636004
+      },
+      "archaic": {
+        "n": 4,
+        "mean": -0.005236812370686572,
+        "std": 0.11744257135418111
+      }
+    },
+    "modernity|Zep residualized on C5": {
+      "modern": {
+        "n": 10,
+        "mean": 0.0006327328950863645,
+        "std": 0.17687932826436806
+      },
+      "archaic": {
+        "n": 4,
+        "mean": -0.0015818322377159355,
+        "std": 0.1362311931206001
+      }
+    },
+    "modernity|Supermemory residualized on C5": {
+      "modern": {
+        "n": 10,
+        "mean": -0.02734857900230843,
+        "std": 0.14571557649247596
+      },
+      "archaic": {
+        "n": 4,
+        "mean": 0.0683714475057712,
+        "std": 0.04107053840799589
+      }
+    },
+    "modernity|Base Layer residualized on C5": {
+      "modern": {
+        "n": 10,
+        "mean": -0.012770842983122385,
+        "std": 0.1781934224533584
+      },
+      "archaic": {
+        "n": 4,
+        "mean": 0.03192710745780594,
+        "std": 0.1228841193289731
+      }
+    },
+    "exoticism|§4.1 C2a spec-alone (C2a-C5)": {
+      "familiar": {
+        "n": 3,
+        "mean": 0.7555555555555556,
+        "std": 0.44146933223659796
+      },
+      "non-Western": {
+        "n": 10,
+        "mean": 0.35435897435897434,
+        "std": 0.47508579106908644
+      },
+      "marginal-familiar": {
+        "n": 1,
+        "mean": 0.16410256410256396,
+        "std": 0.0
+      }
+    },
+    "exoticism|§4.1 facts+spec (C4a-C5)": {
+      "familiar": {
+        "n": 3,
+        "mean": 0.8871794871794871,
+        "std": 0.5893644266075342
+      },
+      "non-Western": {
+        "n": 10,
+        "mean": 0.49128205128205127,
+        "std": 0.5427220941991278
+      },
+      "marginal-familiar": {
+        "n": 1,
+        "mean": 0.14871794871794863,
+        "std": 0.0
+      }
+    },
+    "exoticism|Mem0 controlled (C3-C1)": {
+      "familiar": {
+        "n": 3,
+        "mean": 0.12,
+        "std": 0.02060744202143164
+      },
+      "non-Western": {
+        "n": 10,
+        "mean": 0.0973,
+        "std": 0.16047245869618873
+      },
+      "marginal-familiar": {
+        "n": 1,
+        "mean": 0.364,
+        "std": 0.0
+      }
+    },
+    "exoticism|Letta controlled (C3-C1)": {
+      "familiar": {
+        "n": 3,
+        "mean": 0.37066666666666664,
+        "std": 0.18366696914675634
+      },
+      "non-Western": {
+        "n": 10,
+        "mean": 0.1252,
+        "std": 0.14029169611919304
+      },
+      "marginal-familiar": {
+        "n": 1,
+        "mean": 0.413,
+        "std": 0.0
+      }
+    },
+    "exoticism|Zep controlled (C3-C1)": {
+      "familiar": {
+        "n": 3,
+        "mean": 0.35733333333333334,
+        "std": 0.08144664238356027
+      },
+      "non-Western": {
+        "n": 10,
+        "mean": 0.1133,
+        "std": 0.13368997718602543
+      },
+      "marginal-familiar": {
+        "n": 1,
+        "mean": 0.405,
+        "std": 0.0
+      }
+    },
+    "exoticism|Supermemory controlled": {
+      "familiar": {
+        "n": 3,
+        "mean": 0.08533333333333333,
+        "std": 0.0787626533044409
+      },
+      "non-Western": {
+        "n": 10,
+        "mean": -0.098,
+        "std": 0.14692515101234369
+      },
+      "marginal-familiar": {
+        "n": 1,
+        "mean": -0.036,
+        "std": 0.0
+      }
+    },
+    "exoticism|Base Layer controlled": {
+      "familiar": {
+        "n": 3,
+        "mean": 0.13333333333333333,
+        "std": 0.14558464509998606
+      },
+      "non-Western": {
+        "n": 10,
+        "mean": 0.0414,
+        "std": 0.16110009310984275
+      },
+      "marginal-familiar": {
+        "n": 1,
+        "mean": 0.274,
+        "std": 0.0
+      }
+    },
+    "exoticism|§4.1 C2a residualized on C5": {
+      "familiar": {
+        "n": 3,
+        "mean": 0.09385702447881394,
+        "std": 0.4593947581614373
+      },
+      "non-Western": {
+        "n": 10,
+        "mean": -0.03833186649824447,
+        "std": 0.19897466854628493
+      },
+      "marginal-familiar": {
+        "n": 1,
+        "mean": 0.10174759154600266,
+        "std": 0.0
+      }
+    },
+    "exoticism|§4.1 C4a residualized on C5": {
+      "familiar": {
+        "n": 3,
+        "mean": 0.031334357207889095,
+        "std": 0.2822913536885146
+      },
+      "non-Western": {
+        "n": 10,
+        "mean": -0.016283546897423153,
+        "std": 0.23986256586767496
+      },
+      "marginal-familiar": {
+        "n": 1,
+        "mean": 0.06883239735056401,
+        "std": 0.0
+      }
+    },
+    "exoticism|Mem0 residualized on C5": {
+      "familiar": {
+        "n": 3,
+        "mean": 0.024452749394822598,
+        "std": 0.06380990467266233
+      },
+      "non-Western": {
+        "n": 10,
+        "mean": -0.027633830632639543,
+        "std": 0.15305991471975525
+      },
+      "marginal-familiar": {
+        "n": 1,
+        "mean": 0.20298005814192766,
+        "std": 0.0
+      }
+    },
+    "exoticism|Letta residualized on C5": {
+      "familiar": {
+        "n": 3,
+        "mean": 0.1954818802216427,
+        "std": 0.1437760442957201
+      },
+      "non-Western": {
+        "n": 10,
+        "mean": -0.0765151707778821,
+        "std": 0.14074068114348112
+      },
+      "marginal-familiar": {
+        "n": 1,
+        "mean": 0.17870606711389309,
+        "std": 0.0
+      }
+    },
+    "exoticism|Zep residualized on C5": {
+      "familiar": {
+        "n": 3,
+        "mean": 0.17404690078083787,
+        "std": 0.07538807448095544
+      },
+      "non-Western": {
+        "n": 10,
+        "mean": -0.07358391528264686,
+        "std": 0.13393010188613483
+      },
+      "marginal-familiar": {
+        "n": 1,
+        "mean": 0.21369845048395486,
+        "std": 0.0
+      }
+    },
+    "exoticism|Supermemory residualized on C5": {
+      "familiar": {
+        "n": 3,
+        "mean": 0.0986350321950636,
+        "std": 0.014905820695961206
+      },
+      "non-Western": {
+        "n": 10,
+        "mean": -0.03777507669945409,
+        "std": 0.13943962088838055
+      },
+      "marginal-familiar": {
+        "n": 1,
+        "mean": 0.08184567040935062,
+        "std": 0.0
+      }
+    },
+    "exoticism|Base Layer residualized on C5": {
+      "familiar": {
+        "n": 3,
+        "mean": 0.05906083700929497,
+        "std": 0.13942417220169148
+      },
+      "non-Western": {
+        "n": 10,
+        "mean": -0.03681305349880462,
+        "std": 0.16274037192303556
+      },
+      "marginal-familiar": {
+        "n": 1,
+        "mean": 0.1909480239601612,
+        "std": 0.0
+      }
+    }
+  },
+  "notes": {
+    "panel": "5-judge primary: haiku, sonnet, opus, gpt4o, gpt54",
+    "delta_definition_41": "mean(condition) - mean(C5_baseline) per subject",
+    "delta_definition_memsys": "mean(C3) - mean(C1) per subject (controlled config)",
+    "residualized_delta": "residual of Δ ~ C5_baseline (simple OLS) across all 14 subjects",
+    "hamerton_bucket": "familiar (Victorian English art-writer, Western-bourgeois)"
+  }
+}

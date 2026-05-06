@@ -1,0 +1,839 @@
+{
+  "per_subject": {
+    "hamerton": {
+      "C5_baseline": {
+        "total_judgments": 195,
+        "narrow_refusals": 0,
+        "narrow_refusal_rate": 0.0,
+        "broader_refusals": 0,
+        "broader_refusal_rate": 0.0,
+        "engagement_narrow_n": 195,
+        "engagement_narrow_mean": 1.2564102564102564,
+        "engagement_broader_n": 195,
+        "engagement_broader_mean": 1.2564102564102564
+      },
+      "C2a_full_spec": {
+        "total_judgments": 195,
+        "narrow_refusals": 0,
+        "narrow_refusal_rate": 0.0,
+        "broader_refusals": 75,
+        "broader_refusal_rate": 0.38461538461538464,
+        "engagement_narrow_n": 195,
+        "engagement_narrow_mean": 2.6307692307692307,
+        "engagement_broader_n": 120,
+        "engagement_broader_mean": 2.9833333333333334
+      },
+      "C2c_wrong_spec": {
+        "total_judgments": 195,
+        "narrow_refusals": 10,
+        "narrow_refusal_rate": 0.05128205128205128,
+        "broader_refusals": 105,
+        "broader_refusal_rate": 0.5384615384615384,
+        "engagement_narrow_n": 185,
+        "engagement_narrow_mean": 1.4756756756756757,
+        "engagement_broader_n": 90,
+        "engagement_broader_mean": 1.8333333333333333
+      },
+      "C4_factdump": {
+        "total_judgments": 195,
+        "narrow_refusals": 0,
+        "narrow_refusal_rate": 0.0,
+        "broader_refusals": 0,
+        "broader_refusal_rate": 0.0,
+        "engagement_narrow_n": 195,
+        "engagement_narrow_mean": 2.4256410256410255,
+        "engagement_broader_n": 195,
+        "engagement_broader_mean": 2.4256410256410255
+      },
+      "C4a_full_facts_plus_spec": {
+        "total_judgments": 195,
+        "narrow_refusals": 0,
+        "narrow_refusal_rate": 0.0,
+        "broader_refusals": 35,
+        "broader_refusal_rate": 0.1794871794871795,
+        "engagement_narrow_n": 195,
+        "engagement_narrow_mean": 2.769230769230769,
+        "engagement_broader_n": 160,
+        "engagement_broader_mean": 2.975
+      }
+    },
+    "sunity_devee": {
+      "C5_baseline": {
+        "total_judgments": 195,
+        "narrow_refusals": 145,
+        "narrow_refusal_rate": 0.7435897435897436,
+        "broader_refusals": 155,
+        "broader_refusal_rate": 0.7948717948717948,
+        "engagement_narrow_n": 50,
+        "engagement_narrow_mean": 1.1,
+        "engagement_broader_n": 40,
+        "engagement_broader_mean": 1.125
+      },
+      "C2a_full_spec": {
+        "total_judgments": 195,
+        "narrow_refusals": 5,
+        "narrow_refusal_rate": 0.02564102564102564,
+        "broader_refusals": 10,
+        "broader_refusal_rate": 0.05128205128205128,
+        "engagement_narrow_n": 190,
+        "engagement_narrow_mean": 2.3,
+        "engagement_broader_n": 185,
+        "engagement_broader_mean": 2.3351351351351353
+      },
+      "C2c_wrong_spec": {
+        "total_judgments": 195,
+        "narrow_refusals": 40,
+        "narrow_refusal_rate": 0.20512820512820512,
+        "broader_refusals": 80,
+        "broader_refusal_rate": 0.41025641025641024,
+        "engagement_narrow_n": 155,
+        "engagement_narrow_mean": 1.367741935483871,
+        "engagement_broader_n": 115,
+        "engagement_broader_mean": 1.4869565217391305
+      },
+      "C4_factdump": {
+        "total_judgments": 195,
+        "narrow_refusals": 0,
+        "narrow_refusal_rate": 0.0,
+        "broader_refusals": 0,
+        "broader_refusal_rate": 0.0,
+        "engagement_narrow_n": 195,
+        "engagement_narrow_mean": 2.4615384615384617,
+        "engagement_broader_n": 195,
+        "engagement_broader_mean": 2.4615384615384617
+      },
+      "C4a_full_facts_plus_spec": {
+        "total_judgments": 195,
+        "narrow_refusals": 0,
+        "narrow_refusal_rate": 0.0,
+        "broader_refusals": 0,
+        "broader_refusal_rate": 0.0,
+        "engagement_narrow_n": 195,
+        "engagement_narrow_mean": 2.41025641025641,
+        "engagement_broader_n": 195,
+        "engagement_broader_mean": 2.41025641025641
+      }
+    },
+    "ebers": {
+      "C5_baseline": {
+        "total_judgments": 195,
+        "narrow_refusals": 110,
+        "narrow_refusal_rate": 0.5641025641025641,
+        "broader_refusals": 160,
+        "broader_refusal_rate": 0.8205128205128205,
+        "engagement_narrow_n": 85,
+        "engagement_narrow_mean": 1.0470588235294118,
+        "engagement_broader_n": 35,
+        "engagement_broader_mean": 1.0857142857142856
+      },
+      "C2a_full_spec": {
+        "total_judgments": 195,
+        "narrow_refusals": 10,
+        "narrow_refusal_rate": 0.05128205128205128,
+        "broader_refusals": 60,
+        "broader_refusal_rate": 0.3076923076923077,
+        "engagement_narrow_n": 185,
+        "engagement_narrow_mean": 1.5513513513513513,
+        "engagement_broader_n": 135,
+        "engagement_broader_mean": 1.7037037037037037
+      },
+      "C2c_wrong_spec": {
+        "total_judgments": 195,
+        "narrow_refusals": 15,
+        "narrow_refusal_rate": 0.07692307692307693,
+        "broader_refusals": 50,
+        "broader_refusal_rate": 0.2564102564102564,
+        "engagement_narrow_n": 180,
+        "engagement_narrow_mean": 1.3444444444444446,
+        "engagement_broader_n": 145,
+        "engagement_broader_mean": 1.3655172413793104
+      },
+      "C4_factdump": {
+        "total_judgments": 195,
+        "narrow_refusals": 0,
+        "narrow_refusal_rate": 0.0,
+        "broader_refusals": 15,
+        "broader_refusal_rate": 0.07692307692307693,
+        "engagement_narrow_n": 195,
+        "engagement_narrow_mean": 2.0205128205128204,
+        "engagement_broader_n": 180,
+        "engagement_broader_mean": 2.077777777777778
+      },
+      "C4a_full_facts_plus_spec": {
+        "total_judgments": 195,
+        "narrow_refusals": 0,
+        "narrow_refusal_rate": 0.0,
+        "broader_refusals": 0,
+        "broader_refusal_rate": 0.0,
+        "engagement_narrow_n": 195,
+        "engagement_narrow_mean": 2.071794871794872,
+        "engagement_broader_n": 195,
+        "engagement_broader_mean": 2.071794871794872
+      }
+    },
+    "fukuzawa": {
+      "C5_baseline": {
+        "total_judgments": 195,
+        "narrow_refusals": 55,
+        "narrow_refusal_rate": 0.28205128205128205,
+        "broader_refusals": 75,
+        "broader_refusal_rate": 0.38461538461538464,
+        "engagement_narrow_n": 140,
+        "engagement_narrow_mean": 1.9285714285714286,
+        "engagement_broader_n": 120,
+        "engagement_broader_mean": 2.058333333333333
+      },
+      "C2a_full_spec": {
+        "total_judgments": 195,
+        "narrow_refusals": 5,
+        "narrow_refusal_rate": 0.02564102564102564,
+        "broader_refusals": 20,
+        "broader_refusal_rate": 0.10256410256410256,
+        "engagement_narrow_n": 190,
+        "engagement_narrow_mean": 2.389473684210526,
+        "engagement_broader_n": 175,
+        "engagement_broader_mean": 2.4
+      },
+      "C2c_wrong_spec": {
+        "total_judgments": 195,
+        "narrow_refusals": 10,
+        "narrow_refusal_rate": 0.05128205128205128,
+        "broader_refusals": 50,
+        "broader_refusal_rate": 0.2564102564102564,
+        "engagement_narrow_n": 185,
+        "engagement_narrow_mean": 1.9837837837837837,
+        "engagement_broader_n": 145,
+        "engagement_broader_mean": 2.117241379310345
+      },
+      "C4_factdump": {
+        "total_judgments": 195,
+        "narrow_refusals": 0,
+        "narrow_refusal_rate": 0.0,
+        "broader_refusals": 5,
+        "broader_refusal_rate": 0.02564102564102564,
+        "engagement_narrow_n": 195,
+        "engagement_narrow_mean": 2.6717948717948716,
+        "engagement_broader_n": 190,
+        "engagement_broader_mean": 2.7
+      },
+      "C4a_full_facts_plus_spec": {
+        "total_judgments": 195,
+        "narrow_refusals": 0,
+        "narrow_refusal_rate": 0.0,
+        "broader_refusals": 0,
+        "broader_refusal_rate": 0.0,
+        "engagement_narrow_n": 195,
+        "engagement_narrow_mean": 2.7794871794871794,
+        "engagement_broader_n": 195,
+        "engagement_broader_mean": 2.7794871794871794
+      }
+    },
+    "seacole": {
+      "C5_baseline": {
+        "total_judgments": 195,
+        "narrow_refusals": 70,
+        "narrow_refusal_rate": 0.358974358974359,
+        "broader_refusals": 115,
+        "broader_refusal_rate": 0.5897435897435898,
+        "engagement_narrow_n": 125,
+        "engagement_narrow_mean": 2.12,
+        "engagement_broader_n": 80,
+        "engagement_broader_mean": 2.6125
+      },
+      "C2a_full_spec": {
+        "total_judgments": 195,
+        "narrow_refusals": 10,
+        "narrow_refusal_rate": 0.05128205128205128,
+        "broader_refusals": 20,
+        "broader_refusal_rate": 0.10256410256410256,
+        "engagement_narrow_n": 185,
+        "engagement_narrow_mean": 2.5405405405405403,
+        "engagement_broader_n": 175,
+        "engagement_broader_mean": 2.6
+      },
+      "C2c_wrong_spec": {
+        "total_judgments": 195,
+        "narrow_refusals": 20,
+        "narrow_refusal_rate": 0.10256410256410256,
+        "broader_refusals": 25,
+        "broader_refusal_rate": 0.1282051282051282,
+        "engagement_narrow_n": 175,
+        "engagement_narrow_mean": 1.48,
+        "engagement_broader_n": 170,
+        "engagement_broader_mean": 1.4823529411764707
+      },
+      "C4_factdump": {
+        "total_judgments": 195,
+        "narrow_refusals": 0,
+        "narrow_refusal_rate": 0.0,
+        "broader_refusals": 15,
+        "broader_refusal_rate": 0.07692307692307693,
+        "engagement_narrow_n": 195,
+        "engagement_narrow_mean": 2.6256410256410256,
+        "engagement_broader_n": 180,
+        "engagement_broader_mean": 2.683333333333333
+      },
+      "C4a_full_facts_plus_spec": {
+        "total_judgments": 195,
+        "narrow_refusals": 0,
+        "narrow_refusal_rate": 0.0,
+        "broader_refusals": 0,
+        "broader_refusal_rate": 0.0,
+        "engagement_narrow_n": 195,
+        "engagement_narrow_mean": 2.594871794871795,
+        "engagement_broader_n": 195,
+        "engagement_broader_mean": 2.594871794871795
+      }
+    },
+    "bernal_diaz": {
+      "C5_baseline": {
+        "total_judgments": 195,
+        "narrow_refusals": 30,
+        "narrow_refusal_rate": 0.15384615384615385,
+        "broader_refusals": 60,
+        "broader_refusal_rate": 0.3076923076923077,
+        "engagement_narrow_n": 165,
+        "engagement_narrow_mean": 1.8242424242424242,
+        "engagement_broader_n": 135,
+        "engagement_broader_mean": 1.874074074074074
+      },
+      "C2a_full_spec": {
+        "total_judgments": 195,
+        "narrow_refusals": 0,
+        "narrow_refusal_rate": 0.0,
+        "broader_refusals": 5,
+        "broader_refusal_rate": 0.02564102564102564,
+        "engagement_narrow_n": 195,
+        "engagement_narrow_mean": 2.2666666666666666,
+        "engagement_broader_n": 190,
+        "engagement_broader_mean": 2.2736842105263158
+      },
+      "C2c_wrong_spec": {
+        "total_judgments": 195,
+        "narrow_refusals": 0,
+        "narrow_refusal_rate": 0.0,
+        "broader_refusals": 5,
+        "broader_refusal_rate": 0.02564102564102564,
+        "engagement_narrow_n": 195,
+        "engagement_narrow_mean": 1.7897435897435898,
+        "engagement_broader_n": 190,
+        "engagement_broader_mean": 1.8
+      },
+      "C4_factdump": {
+        "total_judgments": 195,
+        "narrow_refusals": 0,
+        "narrow_refusal_rate": 0.0,
+        "broader_refusals": 0,
+        "broader_refusal_rate": 0.0,
+        "engagement_narrow_n": 195,
+        "engagement_narrow_mean": 2.41025641025641,
+        "engagement_broader_n": 195,
+        "engagement_broader_mean": 2.41025641025641
+      },
+      "C4a_full_facts_plus_spec": {
+        "total_judgments": 195,
+        "narrow_refusals": 0,
+        "narrow_refusal_rate": 0.0,
+        "broader_refusals": 5,
+        "broader_refusal_rate": 0.02564102564102564,
+        "engagement_narrow_n": 195,
+        "engagement_narrow_mean": 2.482051282051282,
+        "engagement_broader_n": 190,
+        "engagement_broader_mean": 2.5
+      }
+    },
+    "keckley": {
+      "C5_baseline": {
+        "total_judgments": 195,
+        "narrow_refusals": 80,
+        "narrow_refusal_rate": 0.41025641025641024,
+        "broader_refusals": 90,
+        "broader_refusal_rate": 0.46153846153846156,
+        "engagement_narrow_n": 115,
+        "engagement_narrow_mean": 2.417391304347826,
+        "engagement_broader_n": 105,
+        "engagement_broader_mean": 2.4095238095238094
+      },
+      "C2a_full_spec": {
+        "total_judgments": 195,
+        "narrow_refusals": 0,
+        "narrow_refusal_rate": 0.0,
+        "broader_refusals": 5,
+        "broader_refusal_rate": 0.02564102564102564,
+        "engagement_narrow_n": 195,
+        "engagement_narrow_mean": 2.4256410256410255,
+        "engagement_broader_n": 190,
+        "engagement_broader_mean": 2.4473684210526314
+      },
+      "C2c_wrong_spec": {
+        "total_judgments": 195,
+        "narrow_refusals": 15,
+        "narrow_refusal_rate": 0.07692307692307693,
+        "broader_refusals": 30,
+        "broader_refusal_rate": 0.15384615384615385,
+        "engagement_narrow_n": 180,
+        "engagement_narrow_mean": 1.3833333333333333,
+        "engagement_broader_n": 165,
+        "engagement_broader_mean": 1.406060606060606
+      },
+      "C4_factdump": {
+        "total_judgments": 195,
+        "narrow_refusals": 0,
+        "narrow_refusal_rate": 0.0,
+        "broader_refusals": 0,
+        "broader_refusal_rate": 0.0,
+        "engagement_narrow_n": 195,
+        "engagement_narrow_mean": 2.3897435897435897,
+        "engagement_broader_n": 195,
+        "engagement_broader_mean": 2.3897435897435897
+      },
+      "C4a_full_facts_plus_spec": {
+        "total_judgments": 195,
+        "narrow_refusals": 0,
+        "narrow_refusal_rate": 0.0,
+        "broader_refusals": 0,
+        "broader_refusal_rate": 0.0,
+        "engagement_narrow_n": 195,
+        "engagement_narrow_mean": 2.4358974358974357,
+        "engagement_broader_n": 195,
+        "engagement_broader_mean": 2.4358974358974357
+      }
+    },
+    "yung_wing": {
+      "C5_baseline": {
+        "total_judgments": 195,
+        "narrow_refusals": 70,
+        "narrow_refusal_rate": 0.358974358974359,
+        "broader_refusals": 95,
+        "broader_refusal_rate": 0.48717948717948717,
+        "engagement_narrow_n": 125,
+        "engagement_narrow_mean": 2.352,
+        "engagement_broader_n": 100,
+        "engagement_broader_mean": 2.64
+      },
+      "C2a_full_spec": {
+        "total_judgments": 195,
+        "narrow_refusals": 0,
+        "narrow_refusal_rate": 0.0,
+        "broader_refusals": 0,
+        "broader_refusal_rate": 0.0,
+        "engagement_narrow_n": 195,
+        "engagement_narrow_mean": 2.2153846153846155,
+        "engagement_broader_n": 195,
+        "engagement_broader_mean": 2.2153846153846155
+      },
+      "C2c_wrong_spec": {
+        "total_judgments": 195,
+        "narrow_refusals": 0,
+        "narrow_refusal_rate": 0.0,
+        "broader_refusals": 35,
+        "broader_refusal_rate": 0.1794871794871795,
+        "engagement_narrow_n": 195,
+        "engagement_narrow_mean": 2.2,
+        "engagement_broader_n": 160,
+        "engagement_broader_mean": 2.375
+      },
+      "C4_factdump": {
+        "total_judgments": 195,
+        "narrow_refusals": 0,
+        "narrow_refusal_rate": 0.0,
+        "broader_refusals": 0,
+        "broader_refusal_rate": 0.0,
+        "engagement_narrow_n": 195,
+        "engagement_narrow_mean": 2.128205128205128,
+        "engagement_broader_n": 195,
+        "engagement_broader_mean": 2.128205128205128
+      },
+      "C4a_full_facts_plus_spec": {
+        "total_judgments": 195,
+        "narrow_refusals": 0,
+        "narrow_refusal_rate": 0.0,
+        "broader_refusals": 0,
+        "broader_refusal_rate": 0.0,
+        "engagement_narrow_n": 195,
+        "engagement_narrow_mean": 2.4,
+        "engagement_broader_n": 195,
+        "engagement_broader_mean": 2.4
+      }
+    },
+    "babur": {
+      "C5_baseline": {
+        "total_judgments": 195,
+        "narrow_refusals": 30,
+        "narrow_refusal_rate": 0.15384615384615385,
+        "broader_refusals": 80,
+        "broader_refusal_rate": 0.41025641025641024,
+        "engagement_narrow_n": 165,
+        "engagement_narrow_mean": 1.878787878787879,
+        "engagement_broader_n": 115,
+        "engagement_broader_mean": 2.017391304347826
+      },
+      "C2a_full_spec": {
+        "total_judgments": 195,
+        "narrow_refusals": 0,
+        "narrow_refusal_rate": 0.0,
+        "broader_refusals": 5,
+        "broader_refusal_rate": 0.02564102564102564,
+        "engagement_narrow_n": 195,
+        "engagement_narrow_mean": 1.9076923076923078,
+        "engagement_broader_n": 190,
+        "engagement_broader_mean": 1.9210526315789473
+      },
+      "C2c_wrong_spec": {
+        "total_judgments": 195,
+        "narrow_refusals": 0,
+        "narrow_refusal_rate": 0.0,
+        "broader_refusals": 40,
+        "broader_refusal_rate": 0.20512820512820512,
+        "engagement_narrow_n": 195,
+        "engagement_narrow_mean": 1.1692307692307693,
+        "engagement_broader_n": 155,
+        "engagement_broader_mean": 1.2129032258064516
+      },
+      "C4_factdump": {
+        "total_judgments": 195,
+        "narrow_refusals": 0,
+        "narrow_refusal_rate": 0.0,
+        "broader_refusals": 0,
+        "broader_refusal_rate": 0.0,
+        "engagement_narrow_n": 195,
+        "engagement_narrow_mean": 2.0307692307692307,
+        "engagement_broader_n": 195,
+        "engagement_broader_mean": 2.0307692307692307
+      },
+      "C4a_full_facts_plus_spec": {
+        "total_judgments": 195,
+        "narrow_refusals": 0,
+        "narrow_refusal_rate": 0.0,
+        "broader_refusals": 0,
+        "broader_refusal_rate": 0.0,
+        "engagement_narrow_n": 195,
+        "engagement_narrow_mean": 2.01025641025641,
+        "engagement_broader_n": 195,
+        "engagement_broader_mean": 2.01025641025641
+      }
+    },
+    "cellini": {
+      "C5_baseline": {
+        "total_judgments": 195,
+        "narrow_refusals": 40,
+        "narrow_refusal_rate": 0.20512820512820512,
+        "broader_refusals": 45,
+        "broader_refusal_rate": 0.23076923076923078,
+        "engagement_narrow_n": 155,
+        "engagement_narrow_mean": 2.6838709677419357,
+        "engagement_broader_n": 150,
+        "engagement_broader_mean": 2.66
+      },
+      "C2a_full_spec": {
+        "total_judgments": 195,
+        "narrow_refusals": 0,
+        "narrow_refusal_rate": 0.0,
+        "broader_refusals": 0,
+        "broader_refusal_rate": 0.0,
+        "engagement_narrow_n": 195,
+        "engagement_narrow_mean": 2.5435897435897434,
+        "engagement_broader_n": 195,
+        "engagement_broader_mean": 2.5435897435897434
+      },
+      "C2c_wrong_spec": {
+        "total_judgments": 195,
+        "narrow_refusals": 5,
+        "narrow_refusal_rate": 0.02564102564102564,
+        "broader_refusals": 45,
+        "broader_refusal_rate": 0.23076923076923078,
+        "engagement_narrow_n": 190,
+        "engagement_narrow_mean": 1.8368421052631578,
+        "engagement_broader_n": 150,
+        "engagement_broader_mean": 1.9533333333333334
+      },
+      "C4_factdump": {
+        "total_judgments": 195,
+        "narrow_refusals": 0,
+        "narrow_refusal_rate": 0.0,
+        "broader_refusals": 0,
+        "broader_refusal_rate": 0.0,
+        "engagement_narrow_n": 195,
+        "engagement_narrow_mean": 2.4205128205128204,
+        "engagement_broader_n": 195,
+        "engagement_broader_mean": 2.4205128205128204
+      },
+      "C4a_full_facts_plus_spec": {
+        "total_judgments": 195,
+        "narrow_refusals": 0,
+        "narrow_refusal_rate": 0.0,
+        "broader_refusals": 0,
+        "broader_refusal_rate": 0.0,
+        "engagement_narrow_n": 195,
+        "engagement_narrow_mean": 2.528205128205128,
+        "engagement_broader_n": 195,
+        "engagement_broader_mean": 2.528205128205128
+      }
+    },
+    "zitkala_sa": {
+      "C5_baseline": {
+        "total_judgments": 195,
+        "narrow_refusals": 5,
+        "narrow_refusal_rate": 0.02564102564102564,
+        "broader_refusals": 20,
+        "broader_refusal_rate": 0.10256410256410256,
+        "engagement_narrow_n": 190,
+        "engagement_narrow_mean": 2.373684210526316,
+        "engagement_broader_n": 175,
+        "engagement_broader_mean": 2.4857142857142858
+      },
+      "C2a_full_spec": {
+        "total_judgments": 195,
+        "narrow_refusals": 0,
+        "narrow_refusal_rate": 0.0,
+        "broader_refusals": 25,
+        "broader_refusal_rate": 0.1282051282051282,
+        "engagement_narrow_n": 195,
+        "engagement_narrow_mean": 2.0307692307692307,
+        "engagement_broader_n": 170,
+        "engagement_broader_mean": 2.1058823529411765
+      },
+      "C2c_wrong_spec": {
+        "total_judgments": 195,
+        "narrow_refusals": 0,
+        "narrow_refusal_rate": 0.0,
+        "broader_refusals": 25,
+        "broader_refusal_rate": 0.1282051282051282,
+        "engagement_narrow_n": 195,
+        "engagement_narrow_mean": 1.6615384615384616,
+        "engagement_broader_n": 170,
+        "engagement_broader_mean": 1.7588235294117647
+      },
+      "C4_factdump": {
+        "total_judgments": 195,
+        "narrow_refusals": 0,
+        "narrow_refusal_rate": 0.0,
+        "broader_refusals": 5,
+        "broader_refusal_rate": 0.02564102564102564,
+        "engagement_narrow_n": 195,
+        "engagement_narrow_mean": 2.1025641025641026,
+        "engagement_broader_n": 190,
+        "engagement_broader_mean": 2.1210526315789475
+      },
+      "C4a_full_facts_plus_spec": {
+        "total_judgments": 195,
+        "narrow_refusals": 0,
+        "narrow_refusal_rate": 0.0,
+        "broader_refusals": 5,
+        "broader_refusal_rate": 0.02564102564102564,
+        "engagement_narrow_n": 195,
+        "engagement_narrow_mean": 2.0205128205128204,
+        "engagement_broader_n": 190,
+        "engagement_broader_mean": 2.036842105263158
+      }
+    },
+    "rousseau": {
+      "C5_baseline": {
+        "total_judgments": 195,
+        "narrow_refusals": 55,
+        "narrow_refusal_rate": 0.28205128205128205,
+        "broader_refusals": 85,
+        "broader_refusal_rate": 0.4358974358974359,
+        "engagement_narrow_n": 140,
+        "engagement_narrow_mean": 2.8142857142857145,
+        "engagement_broader_n": 110,
+        "engagement_broader_mean": 2.8454545454545452
+      },
+      "C2a_full_spec": {
+        "total_judgments": 195,
+        "narrow_refusals": 5,
+        "narrow_refusal_rate": 0.02564102564102564,
+        "broader_refusals": 15,
+        "broader_refusal_rate": 0.07692307692307693,
+        "engagement_narrow_n": 190,
+        "engagement_narrow_mean": 2.8421052631578947,
+        "engagement_broader_n": 180,
+        "engagement_broader_mean": 2.8944444444444444
+      },
+      "C2c_wrong_spec": {
+        "total_judgments": 195,
+        "narrow_refusals": 5,
+        "narrow_refusal_rate": 0.02564102564102564,
+        "broader_refusals": 10,
+        "broader_refusal_rate": 0.05128205128205128,
+        "engagement_narrow_n": 190,
+        "engagement_narrow_mean": 1.9052631578947368,
+        "engagement_broader_n": 185,
+        "engagement_broader_mean": 1.9027027027027028
+      },
+      "C4_factdump": {
+        "total_judgments": 195,
+        "narrow_refusals": 0,
+        "narrow_refusal_rate": 0.0,
+        "broader_refusals": 5,
+        "broader_refusal_rate": 0.02564102564102564,
+        "engagement_narrow_n": 195,
+        "engagement_narrow_mean": 2.3230769230769233,
+        "engagement_broader_n": 190,
+        "engagement_broader_mean": 2.357894736842105
+      },
+      "C4a_full_facts_plus_spec": {
+        "total_judgments": 195,
+        "narrow_refusals": 0,
+        "narrow_refusal_rate": 0.0,
+        "broader_refusals": 0,
+        "broader_refusal_rate": 0.0,
+        "engagement_narrow_n": 195,
+        "engagement_narrow_mean": 2.533333333333333,
+        "engagement_broader_n": 195,
+        "engagement_broader_mean": 2.533333333333333
+      }
+    },
+    "augustine": {
+      "C5_baseline": {
+        "total_judgments": 195,
+        "narrow_refusals": 35,
+        "narrow_refusal_rate": 0.1794871794871795,
+        "broader_refusals": 45,
+        "broader_refusal_rate": 0.23076923076923078,
+        "engagement_narrow_n": 160,
+        "engagement_narrow_mean": 2.86875,
+        "engagement_broader_n": 150,
+        "engagement_broader_mean": 2.953333333333333
+      },
+      "C2a_full_spec": {
+        "total_judgments": 195,
+        "narrow_refusals": 0,
+        "narrow_refusal_rate": 0.0,
+        "broader_refusals": 15,
+        "broader_refusal_rate": 0.07692307692307693,
+        "engagement_narrow_n": 195,
+        "engagement_narrow_mean": 2.476923076923077,
+        "engagement_broader_n": 180,
+        "engagement_broader_mean": 2.4722222222222223
+      },
+      "C2c_wrong_spec": {
+        "total_judgments": 195,
+        "narrow_refusals": 5,
+        "narrow_refusal_rate": 0.02564102564102564,
+        "broader_refusals": 20,
+        "broader_refusal_rate": 0.10256410256410256,
+        "engagement_narrow_n": 190,
+        "engagement_narrow_mean": 2.142105263157895,
+        "engagement_broader_n": 175,
+        "engagement_broader_mean": 2.2114285714285713
+      },
+      "C4_factdump": {
+        "total_judgments": 195,
+        "narrow_refusals": 0,
+        "narrow_refusal_rate": 0.0,
+        "broader_refusals": 0,
+        "broader_refusal_rate": 0.0,
+        "engagement_narrow_n": 195,
+        "engagement_narrow_mean": 2.5589743589743588,
+        "engagement_broader_n": 195,
+        "engagement_broader_mean": 2.5589743589743588
+      },
+      "C4a_full_facts_plus_spec": {
+        "total_judgments": 195,
+        "narrow_refusals": 0,
+        "narrow_refusal_rate": 0.0,
+        "broader_refusals": 0,
+        "broader_refusal_rate": 0.0,
+        "engagement_narrow_n": 195,
+        "engagement_narrow_mean": 2.6974358974358976,
+        "engagement_broader_n": 195,
+        "engagement_broader_mean": 2.6974358974358976
+      }
+    },
+    "equiano": {
+      "C5_baseline": {
+        "total_judgments": 195,
+        "narrow_refusals": 5,
+        "narrow_refusal_rate": 0.02564102564102564,
+        "broader_refusals": 20,
+        "broader_refusal_rate": 0.10256410256410256,
+        "engagement_narrow_n": 190,
+        "engagement_narrow_mean": 2.805263157894737,
+        "engagement_broader_n": 175,
+        "engagement_broader_mean": 2.8857142857142857
+      },
+      "C2a_full_spec": {
+        "total_judgments": 195,
+        "narrow_refusals": 0,
+        "narrow_refusal_rate": 0.0,
+        "broader_refusals": 20,
+        "broader_refusal_rate": 0.10256410256410256,
+        "engagement_narrow_n": 195,
+        "engagement_narrow_mean": 2.4564102564102566,
+        "engagement_broader_n": 175,
+        "engagement_broader_mean": 2.52
+      },
+      "C2c_wrong_spec": {
+        "total_judgments": 195,
+        "narrow_refusals": 5,
+        "narrow_refusal_rate": 0.02564102564102564,
+        "broader_refusals": 40,
+        "broader_refusal_rate": 0.20512820512820512,
+        "engagement_narrow_n": 190,
+        "engagement_narrow_mean": 1.9894736842105263,
+        "engagement_broader_n": 155,
+        "engagement_broader_mean": 2.109677419354839
+      },
+      "C4_factdump": {
+        "total_judgments": 195,
+        "narrow_refusals": 0,
+        "narrow_refusal_rate": 0.0,
+        "broader_refusals": 0,
+        "broader_refusal_rate": 0.0,
+        "engagement_narrow_n": 195,
+        "engagement_narrow_mean": 2.4307692307692306,
+        "engagement_broader_n": 195,
+        "engagement_broader_mean": 2.4307692307692306
+      },
+      "C4a_full_facts_plus_spec": {
+        "total_judgments": 195,
+        "narrow_refusals": 0,
+        "narrow_refusal_rate": 0.0,
+        "broader_refusals": 0,
+        "broader_refusal_rate": 0.0,
+        "engagement_narrow_n": 195,
+        "engagement_narrow_mean": 2.4205128205128204,
+        "engagement_broader_n": 195,
+        "engagement_broader_mean": 2.4205128205128204
+      }
+    }
+  },
+  "aggregate": {
+    "C5_baseline": {
+      "subjects": 14,
+      "mean_narrow_refusal_rate": 0.2673992673992674,
+      "mean_broader_refusal_rate": 0.38278388278388276,
+      "mean_engagement_narrow_score": 2.105022583309852,
+      "mean_engagement_broader_score": 2.2077973938300026
+    },
+    "C2a_full_spec": {
+      "subjects": 14,
+      "mean_narrow_refusal_rate": 0.01282051282051282,
+      "mean_broader_refusal_rate": 0.10073260073260074,
+      "mean_engagement_narrow_score": 2.326951213793319,
+      "mean_engagement_broader_score": 2.386842915279448
+    },
+    "C2c_wrong_spec": {
+      "subjects": 14,
+      "mean_narrow_refusal_rate": 0.047619047619047616,
+      "mean_broader_refusal_rate": 0.20512820512820512,
+      "mean_engagement_narrow_score": 1.6949411574114461,
+      "mean_engagement_broader_score": 1.7868093432169185
+    },
+    "C4_factdump": {
+      "subjects": 14,
+      "mean_narrow_refusal_rate": 0.0,
+      "mean_broader_refusal_rate": 0.016483516483516484,
+      "mean_engagement_narrow_score": 2.357142857142857,
+      "mean_engagement_broader_score": 2.3711763382816016
+    },
+    "C4a_full_facts_plus_spec": {
+      "subjects": 14,
+      "mean_narrow_refusal_rate": 0.0,
+      "mean_broader_refusal_rate": 0.016483516483516484,
+      "mean_engagement_narrow_score": 2.4395604395604393,
+      "mean_engagement_broader_score": 2.45670667052246
+    }
+  }
+}

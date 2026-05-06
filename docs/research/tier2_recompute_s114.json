@@ -1,0 +1,218 @@
+[
+  {
+    "subject": "ebers",
+    "response_model": "sonnet",
+    "panel": "5-judge",
+    "judges_available": [
+      "gemini_flash",
+      "gemini_pro",
+      "gpt4o",
+      "haiku",
+      "opus",
+      "sonnet"
+    ],
+    "c5": 2.1153846153846154,
+    "c2a": 3.3076923076923075,
+    "c4a": 3.0833333333333335,
+    "delta_c2a": 1.192307692307692,
+    "delta_c4a": 0.9679487179487181
+  },
+  {
+    "subject": "ebers",
+    "response_model": "sonnet",
+    "panel": "7-judge",
+    "judges_available": [
+      "gemini_flash",
+      "gemini_pro",
+      "gpt4o",
+      "haiku",
+      "opus",
+      "sonnet"
+    ],
+    "c5": 2.111111111111111,
+    "c2a": 3.4615384615384617,
+    "c4a": 3.299145299145299,
+    "delta_c2a": 1.3504273504273505,
+    "delta_c4a": 1.1880341880341878
+  },
+  {
+    "subject": "ebers",
+    "response_model": "gemini_pro",
+    "panel": "5-judge",
+    "judges_available": [
+      "gemini_flash",
+      "gemini_pro",
+      "gpt4o",
+      "haiku",
+      "opus",
+      "sonnet"
+    ],
+    "c5": 3.085714285714286,
+    "c2a": 3.4597338935574227,
+    "c4a": 3.2847222222222223,
+    "delta_c2a": 0.3740196078431368,
+    "delta_c4a": 0.19900793650793647
+  },
+  {
+    "subject": "ebers",
+    "response_model": "gemini_pro",
+    "panel": "7-judge",
+    "judges_available": [
+      "gemini_flash",
+      "gemini_pro",
+      "gpt4o",
+      "haiku",
+      "opus",
+      "sonnet"
+    ],
+    "c5": 3.4761904761904763,
+    "c2a": 3.630298786181139,
+    "c4a": 3.5092592592592595,
+    "delta_c2a": 0.15410830999066283,
+    "delta_c4a": 0.03306878306878325
+  },
+  {
+    "subject": "yung_wing",
+    "response_model": "sonnet",
+    "panel": "5-judge",
+    "judges_available": [
+      "gemini_flash",
+      "gemini_pro",
+      "gpt4o",
+      "haiku",
+      "opus",
+      "sonnet"
+    ],
+    "c5": 1.9102564102564104,
+    "c2a": 3.2371794871794872,
+    "c4a": 3.58974358974359,
+    "delta_c2a": 1.3269230769230769,
+    "delta_c4a": 1.6794871794871795
+  },
+  {
+    "subject": "yung_wing",
+    "response_model": "sonnet",
+    "panel": "7-judge",
+    "judges_available": [
+      "gemini_flash",
+      "gemini_pro",
+      "gpt4o",
+      "haiku",
+      "opus",
+      "sonnet"
+    ],
+    "c5": 1.8773388773388775,
+    "c2a": 3.326248313090418,
+    "c4a": 3.7264957264957266,
+    "delta_c2a": 1.4489094357515406,
+    "delta_c4a": 1.849156849156849
+  },
+  {
+    "subject": "yung_wing",
+    "response_model": "gemini_pro",
+    "panel": "5-judge",
+    "judges_available": [
+      "gemini_flash",
+      "gemini_pro",
+      "gpt4o",
+      "haiku",
+      "opus",
+      "sonnet"
+    ],
+    "c5": 2.953781512605042,
+    "c2a": 3.174159663865546,
+    "c4a": 3.5013368983957216,
+    "delta_c2a": 0.22037815126050386,
+    "delta_c4a": 0.5475553857906794
+  },
+  {
+    "subject": "yung_wing",
+    "response_model": "gemini_pro",
+    "panel": "7-judge",
+    "judges_available": [
+      "gemini_flash",
+      "gemini_pro",
+      "gpt4o",
+      "haiku",
+      "opus",
+      "sonnet"
+    ],
+    "c5": 3.269187675070028,
+    "c2a": 3.354201680672269,
+    "c4a": 3.6822638146167557,
+    "delta_c2a": 0.08501400560224104,
+    "delta_c4a": 0.4130761395467277
+  },
+  {
+    "subject": "zitkala_sa",
+    "response_model": "sonnet",
+    "panel": "5-judge",
+    "judges_available": [
+      "gemini_flash",
+      "gemini_pro",
+      "gpt4o",
+      "haiku",
+      "opus",
+      "sonnet"
+    ],
+    "c5": 2.0128205128205128,
+    "c2a": 3.121794871794872,
+    "c4a": 3.314102564102564,
+    "delta_c2a": 1.108974358974359,
+    "delta_c4a": 1.301282051282051
+  },
+  {
+    "subject": "zitkala_sa",
+    "response_model": "sonnet",
+    "panel": "7-judge",
+    "judges_available": [
+      "gemini_flash",
+      "gemini_pro",
+      "gpt4o",
+      "haiku",
+      "opus",
+      "sonnet"
+    ],
+    "c5": 2.0598290598290596,
+    "c2a": 3.1367521367521367,
+    "c4a": 3.377642825011246,
+    "delta_c2a": 1.076923076923077,
+    "delta_c4a": 1.3178137651821862
+  },
+  {
+    "subject": "zitkala_sa",
+    "response_model": "gemini_pro",
+    "panel": "5-judge",
+    "judges_available": [
+      "gemini_flash",
+      "gemini_pro",
+      "gpt4o",
+      "haiku",
+      "opus",
+      "sonnet"
+    ],
+    "c5": 3.1041666666666665,
+    "c2a": 2.975595238095238,
+    "c4a": 3.05,
+    "delta_c2a": -0.12857142857142856,
+    "delta_c4a": -0.054166666666666696
+  },
+  {
+    "subject": "zitkala_sa",
+    "response_model": "gemini_pro",
+    "panel": "7-judge",
+    "judges_available": [
+      "gemini_flash",
+      "gemini_pro",
+      "gpt4o",
+      "haiku",
+      "opus",
+      "sonnet"
+    ],
+    "c5": 3.3194444444444446,
+    "c2a": 3.21521164021164,
+    "c4a": 3.242857142857143,
+    "delta_c2a": -0.10423280423280445,
+    "delta_c4a": -0.07658730158730176
+  }
+]

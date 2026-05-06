@@ -1,0 +1,20 @@
+# §6.3 Insert: Pipeline Variance Quantification
+
+_Drop-in 4-paragraph block to attach to or replace the "Specification stability under the same pipeline version" paragraph in §6.3 of the v10 draft._
+
+---
+
+**Per-subject pipeline variance, characterized.** A targeted replication probe was run on three subjects spanning the gradient (Sunity Devee, C5 = 1.03; Yung Wing, C5 = 1.88; Augustine, C5 = 2.58). For each subject, the Sonnet layer-authoring step and the Opus compose step were re-run three times against the same per-subject extracted fact set at temperature 0, producing three independent specifications. Each rerun was scored on the full behavioral-prediction battery in the C2a (spec only) and C4a (facts plus spec) conditions on the 5-judge primary panel. The resulting per-subject standard deviation of Δ_C4a across reruns is reported below, alongside the cross-subject SD that the §4.1 gradient slope is actually fit to.
+
+| Subject | Canonical Δ_C4a (§4.1) | Per-rerun Δ_C4a SD (n=3) | % of cross-subject SD |
+|---|---:|---:|---:|
+| sunity_devee | +1.38 | 0.103 | 17.4% |
+| yung_wing | +0.52 | 0.055 | 9.3% |
+| augustine | +0.11 | 0.130 | 22.0% |
+| Pooled (3 subjects) | n/a | **0.101** | **17.1%** |
+
+**Read of the precision question.** The pooled per-subject run-to-run SD of Δ_C4a is 0.10 on the 1-5 rubric, compared to the cross-subject SD of 0.59 that the gradient slope is regressed against. Run-to-run pipeline variance is therefore on the order of 17% of the signal the slope is fit to. At this magnitude the directional finding survives across reruns (low-baseline subjects keep improving, the high-baseline reference keeps not improving), and the gradient slope point estimate is not materially threatened. What pipeline variance does affect is the precision attached to any single per-subject point estimate. The per-subject Δ_C4a numbers in §4.1 should be read with a soft uncertainty bar of roughly ±0.10 around them; replicating the gradient on a freshly authored set of 14 specifications would be expected to reproduce the slope and R² to within the 95% CI already reported, but would shift individual subjects' Δ_C4a values by amounts in this band.
+
+**Scope and caveats.** The probe covers the lighter-scope variance only: the Sonnet authoring step plus the Opus compose step. Extraction-stage non-determinism is held constant by reusing each subject's pre-populated SQLite and ChromaDB state across reruns; including extraction would likely add additional variance at the front of the pipeline. The probe covers low-baseline and mid-baseline subjects but does not reach the Franklin-style high-baseline tail (C5 = 3.77), so the H2a interference claim is not directly stress-tested by this run. With n = 3 reruns per subject the per-subject SD point estimates carry their own wide 95% confidence intervals (roughly [0.5x, 6x] of the value); the pooled three-subject estimate is more stable than any single per-subject estimate but should still be read as an order-of-magnitude indicator rather than a precision number. With those caveats stated, the run-to-run SD is small enough relative to the cross-subject SD that we accept the §4.1 slope and R² as findings about the gradient rather than artifacts of a single specification authoring.
+
+**Reproducibility.** Per-rerun specs are snapshotted at `data/global_<subject>/_variance_runs/run_<N>/`. Per-rerun responses, judgments, and aggregates are at `results/global_<subject>/_variance_runs/run_<N>_*.json`. Full per-rerun mean/SD tables, per-judge per-condition score matrices, and the comparison to §4.1 precision are in `docs/research/v10_pipeline_variance_analysis.md`. The runner script is `scripts/_v10_pipeline_variance.py` (supports `--subject` and `--rerun` arguments, atomic-write per question, resumable). The aggregation script is `scripts/_v10_pipeline_variance_report.py`.

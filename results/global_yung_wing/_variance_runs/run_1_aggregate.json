@@ -1,0 +1,28 @@
+{
+  "subject": "yung_wing",
+  "rerun": 1,
+  "judges": [
+    "gpt4o",
+    "gpt54",
+    "haiku",
+    "opus",
+    "sonnet"
+  ],
+  "per_judge_per_condition": {
+    "C2a_full_spec__haiku": 2.4615384615384617,
+    "C4a_full_facts_plus_spec__haiku": 2.6923076923076925,
+    "C2a_full_spec__sonnet": 2,
+    "C4a_full_facts_plus_spec__sonnet": 2.1538461538461537,
+    "C2a_full_spec__opus": 2.6153846153846154,
+    "C4a_full_facts_plus_spec__opus": 2.6666666666666665,
+    "C2a_full_spec__gpt4o": 2.3076923076923075,
+    "C4a_full_facts_plus_spec__gpt4o": 2.4871794871794872,
+    "C2a_full_spec__gpt54": 2.1794871794871793,
+    "C4a_full_facts_plus_spec__gpt54": 2.4615384615384617
+  },
+  "C2a": 2.3128205128205126,
+  "C4a": 2.4923076923076923,
+  "C5_canonical": 1.877,
+  "delta_c4a": 0.6153076923076923,
+  "delta_spec": 0.4358205128205126
+}

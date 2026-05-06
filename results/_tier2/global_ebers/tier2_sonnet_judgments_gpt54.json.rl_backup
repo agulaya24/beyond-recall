@@ -1,0 +1,42 @@
+[
+  {
+    "question_id": 1,
+    "condition": "C5_baseline",
+    "judge": "gpt54",
+    "score": 0,
+    "error": "gpt54 judge rate limited",
+    "parse_failure": true
+  },
+  {
+    "question_id": 1,
+    "condition": "C2a_full_spec",
+    "judge": "gpt54",
+    "score": 0,
+    "error": "gpt54 judge rate limited",
+    "parse_failure": true
+  },
+  {
+    "question_id": 1,
+    "condition": "C4a_full_facts_plus_spec",
+    "judge": "gpt54",
+    "score": 0,
+    "error": "gpt54 judge rate limited",
+    "parse_failure": true
+  },
+  {
+    "question_id": 1,
+    "condition": "C2c_wrong_spec",
+    "judge": "gpt54",
+    "score": 0,
+    "error": "gpt54 judge rate limited",
+    "parse_failure": true
+  },
+  {
+    "question_id": 2,
+    "condition": "C5_baseline",
+    "judge": "gpt54",
+    "score": 0,
+    "error": "gpt54 judge rate limited",
+    "parse_failure": true
+  }
+]

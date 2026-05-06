@@ -1,5 +1,7 @@
 # Memory Systems Study — Provider Issues Log
 
+*Last reviewed: 2026-04-28 (v11 freeze; content unchanged, version-agnostic provider issues log).*
+
 Issues encountered during the study, documented for reproducibility and as feedback for each provider.
 
 ---

@@ -2,6 +2,7 @@
 
 **Created:** Session 103 (2026-04-08)
 **Updated:** Session 113 (2026-04-18) — Full-stack refresh, Letta stateful-agent subsection, wrong-spec v2, Tier 2 circularity
+**Last reviewed:** 2026-04-28 (v11 freeze). Methodology described here was carried forward into v11 with additions (per-question variance, anchor-crossing analysis, half-anchor calibration). For v11-current numbers and the canonical methods narrative consult `beyond_recall_v11_draft.md` §3 and §4 plus `DATA_REFERENCE.md`. The body of this file is preserved as the version-spanning methods reference.
 **Status:** Full-stack refresh complete across all 14 subjects. Letta stateful-agent test complete (Hamerton; Ebers follow-up in flight). Tier 2 circularity replication complete (3 subjects × 2 non-Haiku response models × GPT-5.4-generated battery). Wrong-spec v2 complete.
 
 > **Single source of truth for all numbers:** [`DATA_REFERENCE.md`](DATA_REFERENCE.md). The tables in §"Hamerton Results (COMPLETE — 4-Judge Consensus)" and §"The Meta-Hypothesis" below are historical (S105 brief-only run) and preserved for traceability. **For current, paper-ready values use DATA_REFERENCE.md.** See §S113 Summary immediately below for the current-state overview.
@@ -12,7 +13,7 @@
 
 **Judge panel:** 7 judges, 3 providers. Haiku 4.5, Sonnet 4.6, Opus 4.6 (Anthropic), GPT-4o, GPT-5.4 (OpenAI), Gemini 2.5 Flash, Gemini 2.5 Pro (Google). Gemini Pro has coverage limited to Hamerton + Tier 2 replication only — effective 6-judge panel on the global gradient's main conditions. Paper methodology describes 7 judges; global-subjects effective coverage is 6. GPT-5.4 parse-failure rate is elevated at ~19% (detailed in DATA_REFERENCE §9); Gemini Pro parse-failure is ~0.5% with a +1.0 score offset vs the non-Gemini panel. Non-Gemini Krippendorff α = 0.659 (substantial); all-7 α = 0.535 (moderate).
 
-**Wrong-spec controls:** Both v1 (Franklin's spec applied to 13 non-Franklin subjects; 14-subject mean = 1.86) and v2 (random derangement, seed=42; 14-subject mean = 2.30) are reported. Primary interpretation is v2 as closer to a true random control. Both reported side-by-side. Correct-spec mean = 2.55.
+**Wrong-spec controls:** Both v1 (deterministic fixed cross-subject pairing for the 13 globals, defined in `scripts/run_global_rerun.py` WRONG_SPEC_PAIRING and designed to maximize cultural/temporal distance; Hamerton is separately paired with Franklin's spec via `run_full_study.py` and reported in §4.1.1; 14-subject mean = 1.86) and v2 (random derangement, seed=42; 14-subject mean = 2.30) are reported. Primary interpretation is v2 as closer to a true random control. Both reported side-by-side. Correct-spec mean = 2.55.
 
 **Letta stateful-agent test (§4.3.1):** Single-subject test on Hamerton, Packer-methodology stateful-agent loop with 30-turn ingestion and self-editing memory blocks. Final `human` block 22,472 characters (~5,600 tokens) vs Base Layer full-stack spec 34,579 characters (~8,500 tokens). Matched-response-model test: Letta block 3.24 (6 judges), Base Layer spec 3.04 (7 judges). Structural parity at 65% context size. Ebers follow-up in flight. The main memory-system table uses Letta's archival path; the stateful-agent test is a separate architectural comparison.
 
