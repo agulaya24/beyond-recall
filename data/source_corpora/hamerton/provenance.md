@@ -1,0 +1,30 @@
+# hamerton — source corpus provenance
+
+**Role in study:** main_study
+
+## Bibliographic record
+
+- **Title:** Philip Gilbert Hamerton
+- **Author:** Eugénie Hamerton, Philip Gilbert Hamerton
+- **Project Gutenberg release date:** July 1, 2005
+- **Project Gutenberg eBook ID:** #8536
+- **Project Gutenberg URL:** https://www.gutenberg.org/ebooks/8536
+- **Language:** English
+
+## Public-domain status
+
+Project Gutenberg eBooks are distributed in the public domain in the United States. Status outside the US varies by jurisdiction (see https://www.gutenberg.org/policy/permission.html). Inclusion in this repository is for academic-archival reproducibility of the Beyond Recall study.
+
+## File integrity
+
+- **File:** `raw.txt`
+- **Bytes:** 1,234,290
+- **Words:** 213,266
+- **Paragraphs:** 2,486
+- **SHA-256:** `17e2a6c9c82e6a654f122ef0bcdb0d74e769f9147895f2759aa2121b6bc8eb6f`
+- **Migrated from:** `C:\Users\Aarik\Anthropic\memory_system\data\experiments\memory_systems\corpus\hamerton_autobiography_raw.txt`
+- **Migrated on:** 2026-05-05T21:43:49.456894+00:00
+
+## How this corpus is consumed by the study pipeline
+
+Step 1 (import) ingests `raw.txt` while preserving paragraph boundaries (`\n\n`). Step 2 (extract_facts.py) chunks on paragraph breaks with 500-char overlap and emits AUDN triples constrained to the 46-predicate vocabulary in Appendix A. Step 3 (embed.py) vectorizes facts via `sentence-transformers/all-MiniLM-L6-v2`. Steps 4-5 author and compose the layered specification consumed by §4 conditions.
