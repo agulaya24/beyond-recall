@@ -1,0 +1,251 @@
+# Database
+data/database/
+
+# Vector store
+data/vectors/
+
+# Raw conversation exports
+data/raw/
+
+# Backups
+backups/
+
+# Imported conversation data
+data/imports/
+
+# Archive
+data/archive/
+
+# Backfill artifacts
+data/backfill/
+
+# Eval artifacts
+data/eval/
+
+# Contradiction artifacts
+data/contradictions/
+
+# Identity layers (contain personal data — NEVER commit)
+data/identity_layers/
+
+# Exported data files
+data/*.csv
+data/*.json
+
+# Legacy identity block drafts
+data/identity_block_*.txt
+data/blind_test_pairs.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Personal data mappings (contains personal data — can exist at root, scripts/, or data/)
+entity_map.json
+scripts/entity_map.json
+data/entity_map.json
+
+# Environment
+.env
+*.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Personal analysis docs (contain biographical data)
+docs/analysis/
+
+# Internal review plan (not for public repo)
+docs/REVIEW_PLAN.md
+
+# GTM directory (internal strategy — not for public repo)
+gtm/
+
+# Generated identity blocks (contain personal data)
+gtm/archive/generated/
+
+# Session transcripts (contain personal data)
+reference/
+
+# Temporary review files
+docs/temporary review/
+
+# Version snapshots (contain personal data from early sessions)
+docs/versions/
+
+# Session progress log (contains personal data throughout)
+docs/core/PROGRESS.md
+
+# Overnight run logs (user-specific pipeline output)
+data/overnight_run.log
+
+# Downloaded research papers (not project output)
+docs/research/*.pdf
+
+# Corpora entity maps (may contain personal data for non-public corpora)
+data/corpora/*/entity_map.json
+
+# Pytest cache
+.pytest_cache/
+
+# Personal corrections data
+data/corrections*.json
+
+# Personal outreach documents
+gtm/archive/outreach/
+gtm/archive/completed/
+
+# Personal case study data
+gtm/research/BAVANI_CASE_STUDY*.md
+
+# Corpora raw data (may contain personal text)
+data/corpora/
+
+# Eval run logs and generated results (contain local paths)
+docs/eval/*/run_log.txt
+docs/eval/*_log.txt
+docs/eval/collaboration_bcb/collaboration_bcb_results.json
+
+# Privacy scrub spec (internal only)
+GIT_PUSH_PREP.md
+TWIN2K_PARALLEL_RUNBOOK.md
+
+# WIP plans and internal review docs
+docs/plans/
+docs/REVIEW_PLAN.md
+docs/REVIEW_RESULTS*.md
+docs/SONNET_HANDOFF.md
+
+# Subject data directories (contain personal data — NEVER commit)
+subjects/*/
+../subjects/buffett_memory/
+../subjects/marks_memory/
+franklin_memory/
+memory_system_v4/
+
+# Old git history backup
+.git_backup/
+
+# Next.js build output
+.next/
+
+# Internal checkpoint docs
+TWIN2K_CHECKPOINT.md
+REFACTOR_GUIDE.md
+CLAUDE_CODE_SETUP.md
+
+# Log files (contain local paths)
+*.log
+scripts/overnight_*.sh
+docs/eval/gpu_overnight/
+docs/eval/master_overnight_stdout.log
+
+# SWE-bench experiment data (contain local paths + live experiment state)
+data/swebench/
+
+# Drift experiment results (generated output, contain local paths)
+scripts/experiments/drift_results/
+scripts/experiments/overnight_results/
+
+# PatentMind / Moltbook bot (API keys + runtime state — never commit)
+scripts/patentmind_agent.py
+scripts/patentmind_state.json
+scripts/baselayer_agent.py
+
+# Scripts backup snapshot (not project output)
+scripts_backup_20260310/
+
+# Outreach target source corpora (scraped public writing — NEVER commit)
+data/dan_shipper_source/
+data/anne_source/
+data/henrik_source/
+data/david_source/
+data/fred_wilson_source/
+data/simon_willison_source/
+data/maggie_appleton_source/
+data/cedric_chin_source/
+data/casey_newton_source/
+data/scott_alexander_source/
+data/matt_yglesias_source/
+data/swyx_source/
+data/ethan_mollick_source/
+data/cory_doctorow_source/
+data/kevin_kelly_source/
+data/charlie_warzel_source/
+data/kevin_roose_source/
+data/*_source/
+
+# Personal/private subject data (NEVER commit)
+bavani_memory/
+roman_memory/
+aarik*/
+memory_system_v4/
+
+# Personal eval data (contains subject name references)
+docs/eval/temporal_stability_aarik/
+docs/eval/*_aarik*
+docs/eval/*_bavani*
+scripts/experiments/temporal_stability_aarik.py
+src/baselayer/experiments/temporal_stability_aarik.py
+
+# Seed data with passwords
+data/seeds/
+
+# Personal data / analysis
+docs/archive/analysis/
+docs/archive/versions/
+gpu_experiment_results/
+logs/
+**/temporal_stability_aarik*
+
+# Subject source data and scraping artifacts
+data/*_source/
+data/*_index*
+data/*_archive*
+
+# All subject environments
+subjects/
+tensions_all.json
+docs/eval/**/temporal_stability_aarik/
+
+# Scraping scripts (contain subject details — never commit)
+scrape_*.py
+data/scrape_*.py
+data/scrapers_archive/
+
+# Runner scripts (contain subject names, paths, emails — never commit)
+runners/
+
+# Stale/archive scripts (contain API keys, subject details)
+archive/stale_scripts/
+archive/scripts_backup_*/
+
+# Internal docs (contain subject names, strategy, plans — never commit)
+docs/archive/
+docs/core/PROGRESS.md
+docs/core/GTM_REVIEW_*.md
+docs/core/PLAN_S*.md
+docs/core/PROJECT_REVIEW_*.md
+docs/core/REFACTOR_PLAN_*.md
+docs/diagnostics/
+docs/reviews/
+SONNET_REPO_CLEANUP.md
+
+# Experiment scripts and results (contain subject-specific paths and data)
+scripts/archive/
+scripts/experiments/
+scripts/overnight_*.py
+src/baselayer/experiments/overnight_results/
+src/baselayer/experiments/results/
+src/baselayer/experiments/archive/

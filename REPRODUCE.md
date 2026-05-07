@@ -23,6 +23,16 @@ pip install -r requirements.txt
 
 The `requirements.txt` lower bounds are conservative. If you only need the sensitivity scripts (no API calls, no embeddings), `numpy + pandas + scipy + statsmodels` is enough.
 
+### 1.1. Install the bundled Base Layer pipeline (only needed for API-dependent paths)
+
+The Base Layer pipeline source at the version cited by the paper is bundled in this repository at `./baselayer/` (frozen at v0.2.0). It is only needed for the API-calling reproductions in §3.3 and §4 below; the §2 sensitivity analyses run from committed data and do not require it.
+
+```bash
+pip install -e ./baselayer
+```
+
+This installs the `baselayer` Python package in editable mode and puts the `baselayer` CLI and `baselayer-mcp` server on your PATH. The bundled copy is independent of the active Base Layer development at https://github.com/agulaya24/BaseLayer; it is pinned here so the reproduction path stays stable as Base Layer evolves. See `baselayer/VENDORED_README.md` for details.
+
 ---
 
 ## 2. Reproduce the §4.1 sensitivity analyses (no API calls required)
