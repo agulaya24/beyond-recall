@@ -138,7 +138,7 @@ Any deviation from this plan will be reported explicitly in the paper methods se
 
 ## Commit Record
 
-This file committed to `agulaya24/memory-study-repo` before the following runs:
+This file committed to `agulaya24/beyond-recall` before the following runs:
 - Tier 2 circularity (3 subjects × 2 response models × 5 conditions × 7 judges)
 - Wrong-spec v2 (14 subjects × C2c condition × 7 judges)
 - Supermemory Option B retry (5 subjects)

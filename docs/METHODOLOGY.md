@@ -2,7 +2,9 @@
 
 **Created:** Session 103 (2026-04-08)
 **Updated:** Session 113 (2026-04-18) — Full-stack refresh, Letta stateful-agent subsection, wrong-spec v2, Tier 2 circularity
-**Last reviewed:** 2026-04-28 (v11 freeze). Methodology described here was carried forward into v11 with additions (per-question variance, anchor-crossing analysis, half-anchor calibration). For v11-current numbers and the canonical methods narrative consult `beyond_recall_v11_draft.md` §3 and §4 plus `DATA_REFERENCE.md`. The body of this file is preserved as the version-spanning methods reference.
+**Last reviewed:** 2026-04-28 (v11 freeze). Methodology described here was carried forward into v11 with additions (per-question variance, anchor-crossing analysis, half-anchor calibration). The body of this file is preserved as the version-spanning methods reference.
+
+**Canonical methodology:** the current canonical paper is `docs/beyond_recall_v12_1_draft.md` (v12.1, 2026-05-14). For the authoritative methods narrative and all current numbers, consult `docs/beyond_recall_v12_1_draft.md` §3 plus `DATA_REFERENCE.md`. v12.1 carries the v11 methodology and headline numbers forward; this file remains accurate as background but is no longer the current reference.
 **Status:** Full-stack refresh complete across all 14 subjects. Letta stateful-agent test complete (Hamerton; Ebers follow-up in flight). Tier 2 circularity replication complete (3 subjects × 2 non-Haiku response models × GPT-5.4-generated battery). Wrong-spec v2 complete.
 
 > **Single source of truth for all numbers:** [`DATA_REFERENCE.md`](DATA_REFERENCE.md). The tables in §"Hamerton Results (COMPLETE — 4-Judge Consensus)" and §"The Meta-Hypothesis" below are historical (S105 brief-only run) and preserved for traceability. **For current, paper-ready values use DATA_REFERENCE.md.** See §S113 Summary immediately below for the current-state overview.

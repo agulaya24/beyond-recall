@@ -6,10 +6,10 @@
 
 set -e
 
-REPO="/c/Users/Aarik/Anthropic/memory-study-repo"
+REPO="$(cd "$(dirname "$0")/.." && pwd)"
 BUILD="$REPO/build"
-SRC="$REPO/docs/beyond_recall_v12_draft.md"
-PANDOC="/c/Program Files/RStudio/bin/pandoc/pandoc.exe"
+SRC="$REPO/docs/beyond_recall_v12_1_draft.md"
+PANDOC="${PANDOC:-pandoc}"
 
 cd "$BUILD"
 

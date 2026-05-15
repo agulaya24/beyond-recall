@@ -1,0 +1,894 @@
+{
+  "manifest_cells": 215,
+  "attempted_cells": 125,
+  "fully_rescued_cells": 88,
+  "unrescued_cells": [
+    {
+      "subject": "global_augustine",
+      "condition": "C1_baselayer",
+      "judge": "gemini_flash",
+      "manifest_pf": 78,
+      "rescued": 0,
+      "still_failed": 39,
+      "total_in_backfill": 39
+    },
+    {
+      "subject": "global_augustine",
+      "condition": "C3_baselayer",
+      "judge": "gemini_flash",
+      "manifest_pf": 78,
+      "rescued": 0,
+      "still_failed": 39,
+      "total_in_backfill": 39
+    },
+    {
+      "subject": "global_babur",
+      "condition": "C8_raw_corpus",
+      "judge": "gemini_flash",
+      "manifest_pf": 78,
+      "rescued": 0,
+      "still_failed": 39,
+      "total_in_backfill": 39
+    },
+    {
+      "subject": "global_babur",
+      "condition": "C1_supermemory",
+      "judge": "gemini_flash",
+      "manifest_pf": 78,
+      "rescued": 0,
+      "still_failed": 39,
+      "total_in_backfill": 39
+    },
+    {
+      "subject": "global_babur",
+      "condition": "C3_supermemory",
+      "judge": "gemini_flash",
+      "manifest_pf": 78,
+      "rescued": 0,
+      "still_failed": 39,
+      "total_in_backfill": 39
+    },
+    {
+      "subject": "global_bernal_diaz",
+      "condition": "C1_baselayer",
+      "judge": "gemini_flash",
+      "manifest_pf": 78,
+      "rescued": 0,
+      "still_failed": 39,
+      "total_in_backfill": 39
+    },
+    {
+      "subject": "global_bernal_diaz",
+      "condition": "C3_baselayer",
+      "judge": "gemini_flash",
+      "manifest_pf": 78,
+      "rescued": 0,
+      "still_failed": 39,
+      "total_in_backfill": 39
+    },
+    {
+      "subject": "global_bernal_diaz",
+      "condition": "C8_raw_corpus",
+      "judge": "gemini_flash",
+      "manifest_pf": 78,
+      "rescued": 0,
+      "still_failed": 39,
+      "total_in_backfill": 39
+    },
+    {
+      "subject": "global_bernal_diaz",
+      "condition": "C9_raw_corpus_plus_spec",
+      "judge": "gemini_flash",
+      "manifest_pf": 78,
+      "rescued": 0,
+      "still_failed": 39,
+      "total_in_backfill": 39
+    },
+    {
+      "subject": "global_cellini",
+      "condition": "C1_baselayer",
+      "judge": "gemini_flash",
+      "manifest_pf": 78,
+      "rescued": 0,
+      "still_failed": 39,
+      "total_in_backfill": 39
+    },
+    {
+      "subject": "global_cellini",
+      "condition": "C3_baselayer",
+      "judge": "gemini_flash",
+      "manifest_pf": 78,
+      "rescued": 0,
+      "still_failed": 39,
+      "total_in_backfill": 39
+    },
+    {
+      "subject": "global_ebers",
+      "condition": "C1_baselayer",
+      "judge": "gemini_flash",
+      "manifest_pf": 78,
+      "rescued": 0,
+      "still_failed": 39,
+      "total_in_backfill": 39
+    },
+    {
+      "subject": "global_ebers",
+      "condition": "C3_baselayer",
+      "judge": "gemini_flash",
+      "manifest_pf": 78,
+      "rescued": 0,
+      "still_failed": 39,
+      "total_in_backfill": 39
+    },
+    {
+      "subject": "global_equiano",
+      "condition": "C1_baselayer",
+      "judge": "gemini_flash",
+      "manifest_pf": 78,
+      "rescued": 0,
+      "still_failed": 39,
+      "total_in_backfill": 39
+    },
+    {
+      "subject": "global_equiano",
+      "condition": "C3_baselayer",
+      "judge": "gemini_flash",
+      "manifest_pf": 78,
+      "rescued": 0,
+      "still_failed": 39,
+      "total_in_backfill": 39
+    },
+    {
+      "subject": "global_fukuzawa",
+      "condition": "C1_baselayer",
+      "judge": "gemini_flash",
+      "manifest_pf": 78,
+      "rescued": 0,
+      "still_failed": 39,
+      "total_in_backfill": 39
+    },
+    {
+      "subject": "global_fukuzawa",
+      "condition": "C3_baselayer",
+      "judge": "gemini_flash",
+      "manifest_pf": 78,
+      "rescued": 0,
+      "still_failed": 39,
+      "total_in_backfill": 39
+    },
+    {
+      "subject": "global_keckley",
+      "condition": "C1_baselayer",
+      "judge": "gemini_flash",
+      "manifest_pf": 78,
+      "rescued": 0,
+      "still_failed": 39,
+      "total_in_backfill": 39
+    },
+    {
+      "subject": "global_keckley",
+      "condition": "C3_baselayer",
+      "judge": "gemini_flash",
+      "manifest_pf": 78,
+      "rescued": 0,
+      "still_failed": 39,
+      "total_in_backfill": 39
+    },
+    {
+      "subject": "global_rousseau",
+      "condition": "C1_baselayer",
+      "judge": "gemini_flash",
+      "manifest_pf": 78,
+      "rescued": 0,
+      "still_failed": 39,
+      "total_in_backfill": 39
+    },
+    {
+      "subject": "global_rousseau",
+      "condition": "C3_baselayer",
+      "judge": "gemini_flash",
+      "manifest_pf": 78,
+      "rescued": 0,
+      "still_failed": 39,
+      "total_in_backfill": 39
+    },
+    {
+      "subject": "global_rousseau",
+      "condition": "C8_raw_corpus",
+      "judge": "gemini_flash",
+      "manifest_pf": 78,
+      "rescued": 0,
+      "still_failed": 39,
+      "total_in_backfill": 39
+    },
+    {
+      "subject": "global_rousseau",
+      "condition": "C9_raw_corpus_plus_spec",
+      "judge": "gemini_flash",
+      "manifest_pf": 78,
+      "rescued": 0,
+      "still_failed": 39,
+      "total_in_backfill": 39
+    },
+    {
+      "subject": "global_rousseau",
+      "condition": "C1_supermemory",
+      "judge": "gemini_flash",
+      "manifest_pf": 78,
+      "rescued": 0,
+      "still_failed": 39,
+      "total_in_backfill": 39
+    },
+    {
+      "subject": "global_rousseau",
+      "condition": "C3_supermemory",
+      "judge": "gemini_flash",
+      "manifest_pf": 78,
+      "rescued": 0,
+      "still_failed": 39,
+      "total_in_backfill": 39
+    },
+    {
+      "subject": "global_seacole",
+      "condition": "C1_baselayer",
+      "judge": "gemini_flash",
+      "manifest_pf": 78,
+      "rescued": 0,
+      "still_failed": 39,
+      "total_in_backfill": 39
+    },
+    {
+      "subject": "global_seacole",
+      "condition": "C3_baselayer",
+      "judge": "gemini_flash",
+      "manifest_pf": 78,
+      "rescued": 0,
+      "still_failed": 39,
+      "total_in_backfill": 39
+    },
+    {
+      "subject": "global_sunity_devee",
+      "condition": "C1_baselayer",
+      "judge": "gemini_flash",
+      "manifest_pf": 78,
+      "rescued": 0,
+      "still_failed": 39,
+      "total_in_backfill": 39
+    },
+    {
+      "subject": "global_sunity_devee",
+      "condition": "C3_baselayer",
+      "judge": "gemini_flash",
+      "manifest_pf": 78,
+      "rescued": 0,
+      "still_failed": 39,
+      "total_in_backfill": 39
+    },
+    {
+      "subject": "global_yung_wing",
+      "condition": "C1_baselayer",
+      "judge": "gemini_flash",
+      "manifest_pf": 78,
+      "rescued": 0,
+      "still_failed": 39,
+      "total_in_backfill": 39
+    },
+    {
+      "subject": "global_yung_wing",
+      "condition": "C3_baselayer",
+      "judge": "gemini_flash",
+      "manifest_pf": 78,
+      "rescued": 0,
+      "still_failed": 39,
+      "total_in_backfill": 39
+    },
+    {
+      "subject": "global_equiano",
+      "condition": "C1_supermemory",
+      "judge": "gemini_flash",
+      "manifest_pf": 56,
+      "rescued": 0,
+      "still_failed": 28,
+      "total_in_backfill": 28
+    },
+    {
+      "subject": "global_babur",
+      "condition": "C1_baselayer",
+      "judge": "gemini_flash",
+      "manifest_pf": 54,
+      "rescued": 0,
+      "still_failed": 39,
+      "total_in_backfill": 39
+    },
+    {
+      "subject": "global_babur",
+      "condition": "C3_baselayer",
+      "judge": "gemini_flash",
+      "manifest_pf": 54,
+      "rescued": 0,
+      "still_failed": 39,
+      "total_in_backfill": 39
+    },
+    {
+      "subject": "global_augustine",
+      "condition": "C1_supermemory",
+      "judge": "gemini_flash",
+      "manifest_pf": 4,
+      "rescued": 0,
+      "still_failed": 2,
+      "total_in_backfill": 2
+    },
+    {
+      "subject": "global_seacole",
+      "condition": "C5_baseline",
+      "judge": "gemini_flash",
+      "manifest_pf": 1,
+      "rescued": 0,
+      "still_failed": 1,
+      "total_in_backfill": 1
+    },
+    {
+      "subject": "global_sunity_devee",
+      "condition": "C4a_full_facts_plus_spec",
+      "judge": "gemini_flash",
+      "manifest_pf": 1,
+      "rescued": 0,
+      "still_failed": 1,
+      "total_in_backfill": 1
+    }
+  ],
+  "never_attempted_cells": [
+    {
+      "subject": "global_babur",
+      "condition": "C1_supermemory_fp",
+      "judge": "gemini_flash",
+      "manifest_pf": 78
+    },
+    {
+      "subject": "global_babur",
+      "condition": "C1_supermemory_fp",
+      "judge": "gpt4o",
+      "manifest_pf": 78
+    },
+    {
+      "subject": "global_babur",
+      "condition": "C1_supermemory_fp",
+      "judge": "gpt54",
+      "manifest_pf": 78
+    },
+    {
+      "subject": "global_babur",
+      "condition": "C1_supermemory_fp",
+      "judge": "haiku",
+      "manifest_pf": 78
+    },
+    {
+      "subject": "global_babur",
+      "condition": "C1_supermemory_fp",
+      "judge": "sonnet",
+      "manifest_pf": 78
+    },
+    {
+      "subject": "global_babur",
+      "condition": "C1_supermemory_fp",
+      "judge": "opus",
+      "manifest_pf": 78
+    },
+    {
+      "subject": "global_bernal_diaz",
+      "condition": "C1_supermemory_fp",
+      "judge": "gemini_flash",
+      "manifest_pf": 78
+    },
+    {
+      "subject": "global_bernal_diaz",
+      "condition": "C1_supermemory_fp",
+      "judge": "gpt4o",
+      "manifest_pf": 78
+    },
+    {
+      "subject": "global_bernal_diaz",
+      "condition": "C1_supermemory_fp",
+      "judge": "gpt54",
+      "manifest_pf": 78
+    },
+    {
+      "subject": "global_bernal_diaz",
+      "condition": "C1_supermemory_fp",
+      "judge": "haiku",
+      "manifest_pf": 78
+    },
+    {
+      "subject": "global_bernal_diaz",
+      "condition": "C1_supermemory_fp",
+      "judge": "sonnet",
+      "manifest_pf": 78
+    },
+    {
+      "subject": "global_bernal_diaz",
+      "condition": "C1_supermemory_fp",
+      "judge": "opus",
+      "manifest_pf": 78
+    },
+    {
+      "subject": "global_cellini",
+      "condition": "C1_supermemory_fp",
+      "judge": "gemini_flash",
+      "manifest_pf": 78
+    },
+    {
+      "subject": "global_cellini",
+      "condition": "C1_supermemory_fp",
+      "judge": "gpt4o",
+      "manifest_pf": 78
+    },
+    {
+      "subject": "global_cellini",
+      "condition": "C1_supermemory_fp",
+      "judge": "gpt54",
+      "manifest_pf": 78
+    },
+    {
+      "subject": "global_cellini",
+      "condition": "C1_supermemory_fp",
+      "judge": "haiku",
+      "manifest_pf": 78
+    },
+    {
+      "subject": "global_cellini",
+      "condition": "C1_supermemory_fp",
+      "judge": "sonnet",
+      "manifest_pf": 78
+    },
+    {
+      "subject": "global_cellini",
+      "condition": "C1_supermemory_fp",
+      "judge": "opus",
+      "manifest_pf": 78
+    },
+    {
+      "subject": "global_rousseau",
+      "condition": "C1_supermemory_fp",
+      "judge": "gemini_flash",
+      "manifest_pf": 78
+    },
+    {
+      "subject": "global_rousseau",
+      "condition": "C1_supermemory_fp",
+      "judge": "gpt4o",
+      "manifest_pf": 78
+    },
+    {
+      "subject": "global_rousseau",
+      "condition": "C1_supermemory_fp",
+      "judge": "gpt54",
+      "manifest_pf": 78
+    },
+    {
+      "subject": "global_rousseau",
+      "condition": "C1_supermemory_fp",
+      "judge": "haiku",
+      "manifest_pf": 78
+    },
+    {
+      "subject": "global_rousseau",
+      "condition": "C1_supermemory_fp",
+      "judge": "sonnet",
+      "manifest_pf": 78
+    },
+    {
+      "subject": "global_rousseau",
+      "condition": "C1_supermemory_fp",
+      "judge": "opus",
+      "manifest_pf": 78
+    },
+    {
+      "subject": "global_babur",
+      "condition": "C9_raw_corpus_plus_spec",
+      "judge": "gemini_flash",
+      "manifest_pf": 76
+    },
+    {
+      "subject": "global_babur",
+      "condition": "C9_raw_corpus_plus_spec",
+      "judge": "gpt4o",
+      "manifest_pf": 76
+    },
+    {
+      "subject": "global_babur",
+      "condition": "C9_raw_corpus_plus_spec",
+      "judge": "gpt54",
+      "manifest_pf": 76
+    },
+    {
+      "subject": "global_babur",
+      "condition": "C9_raw_corpus_plus_spec",
+      "judge": "haiku",
+      "manifest_pf": 76
+    },
+    {
+      "subject": "global_babur",
+      "condition": "C9_raw_corpus_plus_spec",
+      "judge": "sonnet",
+      "manifest_pf": 76
+    },
+    {
+      "subject": "global_babur",
+      "condition": "C9_raw_corpus_plus_spec",
+      "judge": "opus",
+      "manifest_pf": 76
+    },
+    {
+      "subject": "global_fukuzawa",
+      "condition": "C1_supermemory_fp",
+      "judge": "gemini_flash",
+      "manifest_pf": 68
+    },
+    {
+      "subject": "global_fukuzawa",
+      "condition": "C1_supermemory_fp",
+      "judge": "gpt4o",
+      "manifest_pf": 68
+    },
+    {
+      "subject": "global_fukuzawa",
+      "condition": "C1_supermemory_fp",
+      "judge": "gpt54",
+      "manifest_pf": 68
+    },
+    {
+      "subject": "global_fukuzawa",
+      "condition": "C1_supermemory_fp",
+      "judge": "haiku",
+      "manifest_pf": 68
+    },
+    {
+      "subject": "global_fukuzawa",
+      "condition": "C1_supermemory_fp",
+      "judge": "sonnet",
+      "manifest_pf": 68
+    },
+    {
+      "subject": "global_fukuzawa",
+      "condition": "C1_supermemory_fp",
+      "judge": "opus",
+      "manifest_pf": 68
+    },
+    {
+      "subject": "global_sunity_devee",
+      "condition": "C1_supermemory_fp",
+      "judge": "gemini_flash",
+      "manifest_pf": 68
+    },
+    {
+      "subject": "global_sunity_devee",
+      "condition": "C1_supermemory_fp",
+      "judge": "gpt4o",
+      "manifest_pf": 68
+    },
+    {
+      "subject": "global_sunity_devee",
+      "condition": "C1_supermemory_fp",
+      "judge": "gpt54",
+      "manifest_pf": 68
+    },
+    {
+      "subject": "global_sunity_devee",
+      "condition": "C1_supermemory_fp",
+      "judge": "haiku",
+      "manifest_pf": 68
+    },
+    {
+      "subject": "global_sunity_devee",
+      "condition": "C1_supermemory_fp",
+      "judge": "sonnet",
+      "manifest_pf": 68
+    },
+    {
+      "subject": "global_sunity_devee",
+      "condition": "C1_supermemory_fp",
+      "judge": "opus",
+      "manifest_pf": 68
+    },
+    {
+      "subject": "global_augustine",
+      "condition": "C1_supermemory_fp",
+      "judge": "gemini_flash",
+      "manifest_pf": 66
+    },
+    {
+      "subject": "global_augustine",
+      "condition": "C1_supermemory_fp",
+      "judge": "gpt4o",
+      "manifest_pf": 66
+    },
+    {
+      "subject": "global_augustine",
+      "condition": "C1_supermemory_fp",
+      "judge": "gpt54",
+      "manifest_pf": 66
+    },
+    {
+      "subject": "global_augustine",
+      "condition": "C1_supermemory_fp",
+      "judge": "haiku",
+      "manifest_pf": 66
+    },
+    {
+      "subject": "global_augustine",
+      "condition": "C1_supermemory_fp",
+      "judge": "sonnet",
+      "manifest_pf": 66
+    },
+    {
+      "subject": "global_augustine",
+      "condition": "C1_supermemory_fp",
+      "judge": "opus",
+      "manifest_pf": 66
+    },
+    {
+      "subject": "global_ebers",
+      "condition": "C1_supermemory_fp",
+      "judge": "gemini_flash",
+      "manifest_pf": 60
+    },
+    {
+      "subject": "global_ebers",
+      "condition": "C1_supermemory_fp",
+      "judge": "gpt4o",
+      "manifest_pf": 60
+    },
+    {
+      "subject": "global_ebers",
+      "condition": "C1_supermemory_fp",
+      "judge": "gpt54",
+      "manifest_pf": 60
+    },
+    {
+      "subject": "global_ebers",
+      "condition": "C1_supermemory_fp",
+      "judge": "haiku",
+      "manifest_pf": 60
+    },
+    {
+      "subject": "global_ebers",
+      "condition": "C1_supermemory_fp",
+      "judge": "sonnet",
+      "manifest_pf": 60
+    },
+    {
+      "subject": "global_ebers",
+      "condition": "C1_supermemory_fp",
+      "judge": "opus",
+      "manifest_pf": 60
+    },
+    {
+      "subject": "global_seacole",
+      "condition": "C1_supermemory_fp",
+      "judge": "gemini_flash",
+      "manifest_pf": 42
+    },
+    {
+      "subject": "global_seacole",
+      "condition": "C1_supermemory_fp",
+      "judge": "gpt4o",
+      "manifest_pf": 42
+    },
+    {
+      "subject": "global_seacole",
+      "condition": "C1_supermemory_fp",
+      "judge": "gpt54",
+      "manifest_pf": 42
+    },
+    {
+      "subject": "global_seacole",
+      "condition": "C1_supermemory_fp",
+      "judge": "haiku",
+      "manifest_pf": 42
+    },
+    {
+      "subject": "global_seacole",
+      "condition": "C1_supermemory_fp",
+      "judge": "sonnet",
+      "manifest_pf": 42
+    },
+    {
+      "subject": "global_seacole",
+      "condition": "C1_supermemory_fp",
+      "judge": "opus",
+      "manifest_pf": 42
+    },
+    {
+      "subject": "global_equiano",
+      "condition": "C1_supermemory_fp",
+      "judge": "gemini_flash",
+      "manifest_pf": 34
+    },
+    {
+      "subject": "global_equiano",
+      "condition": "C1_supermemory_fp",
+      "judge": "gpt4o",
+      "manifest_pf": 34
+    },
+    {
+      "subject": "global_equiano",
+      "condition": "C1_supermemory_fp",
+      "judge": "gpt54",
+      "manifest_pf": 34
+    },
+    {
+      "subject": "global_equiano",
+      "condition": "C1_supermemory_fp",
+      "judge": "haiku",
+      "manifest_pf": 34
+    },
+    {
+      "subject": "global_equiano",
+      "condition": "C1_supermemory_fp",
+      "judge": "sonnet",
+      "manifest_pf": 34
+    },
+    {
+      "subject": "global_equiano",
+      "condition": "C1_supermemory_fp",
+      "judge": "opus",
+      "manifest_pf": 34
+    },
+    {
+      "subject": "global_augustine",
+      "condition": "C4_factdump",
+      "judge": "gemini_pro",
+      "manifest_pf": 17
+    },
+    {
+      "subject": "global_augustine",
+      "condition": "C5_baseline",
+      "judge": "gemini_pro",
+      "manifest_pf": 14
+    },
+    {
+      "subject": "global_augustine",
+      "condition": "C4a_full_facts_plus_spec",
+      "judge": "gemini_pro",
+      "manifest_pf": 12
+    },
+    {
+      "subject": "hamerton",
+      "condition": "C4_factdump",
+      "judge": "gemini_pro",
+      "manifest_pf": 12
+    },
+    {
+      "subject": "global_augustine",
+      "condition": "C2a_full_spec",
+      "judge": "gemini_pro",
+      "manifest_pf": 11
+    },
+    {
+      "subject": "global_augustine",
+      "condition": "C2c_wrong_spec",
+      "judge": "gemini_pro",
+      "manifest_pf": 10
+    },
+    {
+      "subject": "global_babur",
+      "condition": "C2c_wrong_spec",
+      "judge": "gemini_pro",
+      "manifest_pf": 9
+    },
+    {
+      "subject": "global_babur",
+      "condition": "C5_baseline",
+      "judge": "gemini_pro",
+      "manifest_pf": 8
+    },
+    {
+      "subject": "global_babur",
+      "condition": "C2a_full_spec",
+      "judge": "gemini_pro",
+      "manifest_pf": 8
+    },
+    {
+      "subject": "global_babur",
+      "condition": "C4a_full_facts_plus_spec",
+      "judge": "gemini_pro",
+      "manifest_pf": 8
+    },
+    {
+      "subject": "hamerton",
+      "condition": "C5_baseline",
+      "judge": "gemini_pro",
+      "manifest_pf": 8
+    },
+    {
+      "subject": "global_babur",
+      "condition": "C4_factdump",
+      "judge": "gemini_pro",
+      "manifest_pf": 7
+    },
+    {
+      "subject": "global_bernal_diaz",
+      "condition": "C5_baseline",
+      "judge": "gemini_pro",
+      "manifest_pf": 7
+    },
+    {
+      "subject": "global_bernal_diaz",
+      "condition": "C4_factdump",
+      "judge": "gemini_pro",
+      "manifest_pf": 5
+    },
+    {
+      "subject": "global_bernal_diaz",
+      "condition": "C4a_full_facts_plus_spec",
+      "judge": "gemini_pro",
+      "manifest_pf": 5
+    },
+    {
+      "subject": "global_ebers",
+      "condition": "C1_mem0_fp",
+      "judge": "gemini_flash",
+      "manifest_pf": 4
+    },
+    {
+      "subject": "global_ebers",
+      "condition": "C1_mem0_fp",
+      "judge": "gpt4o",
+      "manifest_pf": 4
+    },
+    {
+      "subject": "global_ebers",
+      "condition": "C1_mem0_fp",
+      "judge": "gpt54",
+      "manifest_pf": 4
+    },
+    {
+      "subject": "global_ebers",
+      "condition": "C1_mem0_fp",
+      "judge": "haiku",
+      "manifest_pf": 4
+    },
+    {
+      "subject": "global_ebers",
+      "condition": "C1_mem0_fp",
+      "judge": "sonnet",
+      "manifest_pf": 4
+    },
+    {
+      "subject": "global_ebers",
+      "condition": "C1_mem0_fp",
+      "judge": "opus",
+      "manifest_pf": 4
+    },
+    {
+      "subject": "global_bernal_diaz",
+      "condition": "C2c_wrong_spec",
+      "judge": "gemini_pro",
+      "manifest_pf": 3
+    },
+    {
+      "subject": "global_bernal_diaz",
+      "condition": "C2a_full_spec",
+      "judge": "gemini_pro",
+      "manifest_pf": 2
+    },
+    {
+      "subject": "global_sunity_devee",
+      "condition": "C4_factdump",
+      "judge": "haiku",
+      "manifest_pf": 1
+    }
+  ],
+  "rescued_total_rows": 2744,
+  "still_failed_rows_attempted": 1319,
+  "never_attempted_pf_rows": 4527,
+  "remaining_by_judge": {
+    "gemini_flash": 2049,
+    "gpt4o": 730,
+    "gpt54": 730,
+    "haiku": 731,
+    "sonnet": 730,
+    "opus": 730,
+    "gemini_pro": 146
+  }
+}

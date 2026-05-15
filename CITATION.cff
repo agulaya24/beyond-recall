@@ -1,16 +1,16 @@
 cff-version: 1.2.0
-title: "Beyond Recall: Behavioral Specification as the Missing Primitive for AI Personalization"
+title: "Beyond Recall: Behavioral Specification as an Interpretive Layer for AI Personalization"
 message: "If you use this work, please cite:"
 type: dataset
 authors:
   - family-names: Gulaya
     given-names: Aarik
     affiliation: Base Layer
-repository-code: "https://github.com/agulaya24/memory-study-repo"
+repository-code: "https://github.com/agulaya24/beyond-recall"
 url: "https://base-layer.ai"
 license: Apache-2.0
 version: 1.0.0
-date-released: 2026-04-21
+date-released: 2026-05-14
 keywords:
   - behavioral-specification
   - ai-personalization

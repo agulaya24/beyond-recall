@@ -1,223 +1,22 @@
 {
-  "primary_metric": "starts_refusal",
-  "decision_rule": "A response is classified as hedged if its first non-whitespace characters match the refusal prefix pattern (see STARTS_REFUSAL_RE): 'I cannot', 'I can\\'t', 'I don\\'t', 'I do not', 'The retrieved facts do not', 'The retrieved facts don\\'t'. Patterns are a narrowed subset of REFUSAL_PATTERNS in docs/research/_analyze_score_bands.py, restricted to the response's opening so the metric captures explicit refusals-to-predict rather than mid-response qualifications.",
   "C5": {
-    "hedged": 146,
+    "hedged": 209,
     "total": 507,
-    "rate": 0.288,
-    "per_subject": {
-      "augustine": {
-        "starts_refusal": 7,
-        "total": 39
-      },
-      "babur": {
-        "starts_refusal": 6,
-        "total": 39
-      },
-      "bernal_diaz": {
-        "starts_refusal": 6,
-        "total": 39
-      },
-      "cellini": {
-        "starts_refusal": 8,
-        "total": 39
-      },
-      "ebers": {
-        "starts_refusal": 22,
-        "total": 39
-      },
-      "equiano": {
-        "starts_refusal": 1,
-        "total": 39
-      },
-      "fukuzawa": {
-        "starts_refusal": 11,
-        "total": 39
-      },
-      "keckley": {
-        "starts_refusal": 16,
-        "total": 39
-      },
-      "rousseau": {
-        "starts_refusal": 11,
-        "total": 39
-      },
-      "seacole": {
-        "starts_refusal": 14,
-        "total": 39
-      },
-      "sunity_devee": {
-        "starts_refusal": 29,
-        "total": 39
-      },
-      "yung_wing": {
-        "starts_refusal": 14,
-        "total": 39
-      },
-      "zitkala_sa": {
-        "starts_refusal": 1,
-        "total": 39
-      }
-    }
+    "rate": 0.4122
   },
   "C2a": {
-    "hedged": 7,
+    "hedged": 40,
     "total": 507,
-    "rate": 0.0138,
-    "per_subject": {
-      "augustine": {
-        "starts_refusal": 0,
-        "total": 39
-      },
-      "babur": {
-        "starts_refusal": 0,
-        "total": 39
-      },
-      "bernal_diaz": {
-        "starts_refusal": 0,
-        "total": 39
-      },
-      "cellini": {
-        "starts_refusal": 0,
-        "total": 39
-      },
-      "ebers": {
-        "starts_refusal": 2,
-        "total": 39
-      },
-      "equiano": {
-        "starts_refusal": 0,
-        "total": 39
-      },
-      "fukuzawa": {
-        "starts_refusal": 1,
-        "total": 39
-      },
-      "keckley": {
-        "starts_refusal": 0,
-        "total": 39
-      },
-      "rousseau": {
-        "starts_refusal": 1,
-        "total": 39
-      },
-      "seacole": {
-        "starts_refusal": 2,
-        "total": 39
-      },
-      "sunity_devee": {
-        "starts_refusal": 1,
-        "total": 39
-      },
-      "yung_wing": {
-        "starts_refusal": 0,
-        "total": 39
-      },
-      "zitkala_sa": {
-        "starts_refusal": 0,
-        "total": 39
-      }
-    }
+    "rate": 0.0789
   },
   "C4a": {
-    "hedged": 0,
+    "hedged": 2,
     "total": 507,
-    "rate": 0.0,
-    "per_subject": {
-      "augustine": {
-        "starts_refusal": 0,
-        "total": 39
-      },
-      "babur": {
-        "starts_refusal": 0,
-        "total": 39
-      },
-      "bernal_diaz": {
-        "starts_refusal": 0,
-        "total": 39
-      },
-      "cellini": {
-        "starts_refusal": 0,
-        "total": 39
-      },
-      "ebers": {
-        "starts_refusal": 0,
-        "total": 39
-      },
-      "equiano": {
-        "starts_refusal": 0,
-        "total": 39
-      },
-      "fukuzawa": {
-        "starts_refusal": 0,
-        "total": 39
-      },
-      "keckley": {
-        "starts_refusal": 0,
-        "total": 39
-      },
-      "rousseau": {
-        "starts_refusal": 0,
-        "total": 39
-      },
-      "seacole": {
-        "starts_refusal": 0,
-        "total": 39
-      },
-      "sunity_devee": {
-        "starts_refusal": 0,
-        "total": 39
-      },
-      "yung_wing": {
-        "starts_refusal": 0,
-        "total": 39
-      },
-      "zitkala_sa": {
-        "starts_refusal": 0,
-        "total": 39
-      }
-    }
+    "rate": 0.0039
   },
-  "secondary_metrics": {
-    "_note": "Reported alongside the narrow starts_refusal rule in §1.3 of the paper as a completeness / sensitivity check. Both rules agree in direction and magnitude (baseline hedges at 4-20x the rate of spec-containing conditions).",
-    "refusal_ge_1 (any REFUSAL_PATTERNS hit anywhere)": {
-      "C5_baseline": {
-        "hedged": 209,
-        "total": 507,
-        "rate": 0.4122
-      },
-      "C2a_full_spec": {
-        "hedged": 40,
-        "total": 507,
-        "rate": 0.0789
-      },
-      "C4a_full_facts_plus_spec": {
-        "hedged": 2,
-        "total": 507,
-        "rate": 0.0039
-      }
-    },
-    "hedge_ge_1 (any HEDGE_PATTERNS hit anywhere, noisy)": {
-      "C5_baseline": {
-        "hedged": 420,
-        "total": 507,
-        "rate": 0.8284
-      },
-      "C2a_full_spec": {
-        "hedged": 429,
-        "total": 507,
-        "rate": 0.8462
-      },
-      "C4a_full_facts_plus_spec": {
-        "hedged": 371,
-        "total": 507,
-        "rate": 0.7318
-      }
-    }
-  },
-  "patterns": {
-    "starts_refusal_regex": "^\\s*(?:I (?:cannot|can't|don't|do not)|The retrieved facts (?:do not|don't))",
-    "refusal_patterns": [
+  "classifier": {
+    "flagging_rule": "refusal_hits >= 1 from REFUSAL_RE",
+    "patterns_used": [
       "\\bI (?:cannot|can't|don't|do not) (?:know|predict|have|be sure)",
       "\\bI (?:have )?no (?:information|data|knowledge|facts)\\b",
       "\\bwithout (?:more|additional|the) (?:information|context|facts)\\b",
@@ -227,29 +26,15 @@
       "\\bunable to (?:determine|predict|specify)\\b",
       "\\bno specific (?:information|details)\\b"
     ],
-    "hedge_patterns": [
+    "hedge_patterns_secondary": [
       "\\b(?:likely|probably|perhaps|possibly|might|could|may|would likely|seems?|appears?|suggest)\\b",
       "\\bgenerally speaking\\b",
       "\\bit is reasonable to\\b",
       "\\bwe might (?:imagine|infer|conjecture)\\b"
     ]
   },
-  "classifier_script": "scripts/classify_hedging.py",
-  "input_files": [
-    "results/global_augustine/results_v2.json",
-    "results/global_babur/results_v2.json",
-    "results/global_bernal_diaz/results_v2.json",
-    "results/global_cellini/results_v2.json",
-    "results/global_ebers/results_v2.json",
-    "results/global_equiano/results_v2.json",
-    "results/global_fukuzawa/results_v2.json",
-    "results/global_keckley/results_v2.json",
-    "results/global_rousseau/results_v2.json",
-    "results/global_seacole/results_v2.json",
-    "results/global_sunity_devee/results_v2.json",
-    "results/global_yung_wing/results_v2.json",
-    "results/global_zitkala_sa/results_v2.json"
-  ],
+  "classifier_script": "_analyze_score_bands.py (patterns) and scripts/compute_hedging_rates.py (counter)",
+  "source_data": "results/global_<subject>/results_v2.json, 13 subjects x 39 questions = 507 per condition",
   "subjects": [
     "augustine",
     "babur",
@@ -270,6 +55,189 @@
     "C2a_full_spec",
     "C4a_full_facts_plus_spec"
   ],
-  "generated_at": "2026-04-22",
-  "provenance_note": "The paper's earlier draft (v6/v7) reported 127/13/3 (25.0%/2.6%/0.6%) for C5/C2a/C4a. Those counts could not be reproduced from the in-repo data by any threshold of the refusal/hedge patterns defined in docs/research/_analyze_score_bands.py (variant sweep in scripts/_probe_hedge_variants.py). The classifier that produced them is not recoverable. This script's starts_refusal rule is the canonical replacement: the simplest principled classifier that reproduces the paper's directional story (baseline ~quarter of responses hedge, adding the specification drops hedging to near-zero)."
+  "per_subject": {
+    "augustine": {
+      "C5_baseline": {
+        "hedged": 9,
+        "total": 39
+      },
+      "C2a_full_spec": {
+        "hedged": 3,
+        "total": 39
+      },
+      "C4a_full_facts_plus_spec": {
+        "hedged": 0,
+        "total": 39
+      }
+    },
+    "babur": {
+      "C5_baseline": {
+        "hedged": 16,
+        "total": 39
+      },
+      "C2a_full_spec": {
+        "hedged": 1,
+        "total": 39
+      },
+      "C4a_full_facts_plus_spec": {
+        "hedged": 0,
+        "total": 39
+      }
+    },
+    "bernal_diaz": {
+      "C5_baseline": {
+        "hedged": 12,
+        "total": 39
+      },
+      "C2a_full_spec": {
+        "hedged": 1,
+        "total": 39
+      },
+      "C4a_full_facts_plus_spec": {
+        "hedged": 1,
+        "total": 39
+      }
+    },
+    "cellini": {
+      "C5_baseline": {
+        "hedged": 9,
+        "total": 39
+      },
+      "C2a_full_spec": {
+        "hedged": 0,
+        "total": 39
+      },
+      "C4a_full_facts_plus_spec": {
+        "hedged": 0,
+        "total": 39
+      }
+    },
+    "ebers": {
+      "C5_baseline": {
+        "hedged": 32,
+        "total": 39
+      },
+      "C2a_full_spec": {
+        "hedged": 12,
+        "total": 39
+      },
+      "C4a_full_facts_plus_spec": {
+        "hedged": 0,
+        "total": 39
+      }
+    },
+    "equiano": {
+      "C5_baseline": {
+        "hedged": 4,
+        "total": 39
+      },
+      "C2a_full_spec": {
+        "hedged": 4,
+        "total": 39
+      },
+      "C4a_full_facts_plus_spec": {
+        "hedged": 0,
+        "total": 39
+      }
+    },
+    "fukuzawa": {
+      "C5_baseline": {
+        "hedged": 15,
+        "total": 39
+      },
+      "C2a_full_spec": {
+        "hedged": 4,
+        "total": 39
+      },
+      "C4a_full_facts_plus_spec": {
+        "hedged": 0,
+        "total": 39
+      }
+    },
+    "keckley": {
+      "C5_baseline": {
+        "hedged": 18,
+        "total": 39
+      },
+      "C2a_full_spec": {
+        "hedged": 1,
+        "total": 39
+      },
+      "C4a_full_facts_plus_spec": {
+        "hedged": 0,
+        "total": 39
+      }
+    },
+    "rousseau": {
+      "C5_baseline": {
+        "hedged": 17,
+        "total": 39
+      },
+      "C2a_full_spec": {
+        "hedged": 3,
+        "total": 39
+      },
+      "C4a_full_facts_plus_spec": {
+        "hedged": 0,
+        "total": 39
+      }
+    },
+    "seacole": {
+      "C5_baseline": {
+        "hedged": 23,
+        "total": 39
+      },
+      "C2a_full_spec": {
+        "hedged": 4,
+        "total": 39
+      },
+      "C4a_full_facts_plus_spec": {
+        "hedged": 0,
+        "total": 39
+      }
+    },
+    "sunity_devee": {
+      "C5_baseline": {
+        "hedged": 31,
+        "total": 39
+      },
+      "C2a_full_spec": {
+        "hedged": 2,
+        "total": 39
+      },
+      "C4a_full_facts_plus_spec": {
+        "hedged": 0,
+        "total": 39
+      }
+    },
+    "yung_wing": {
+      "C5_baseline": {
+        "hedged": 19,
+        "total": 39
+      },
+      "C2a_full_spec": {
+        "hedged": 0,
+        "total": 39
+      },
+      "C4a_full_facts_plus_spec": {
+        "hedged": 0,
+        "total": 39
+      }
+    },
+    "zitkala_sa": {
+      "C5_baseline": {
+        "hedged": 4,
+        "total": 39
+      },
+      "C2a_full_spec": {
+        "hedged": 5,
+        "total": 39
+      },
+      "C4a_full_facts_plus_spec": {
+        "hedged": 1,
+        "total": 39
+      }
+    }
+  },
+  "computed_at": "2026-05-13"
 }

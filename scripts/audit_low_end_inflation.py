@@ -183,16 +183,61 @@ def main():
     print(f'Mean length of mid-range (2.5-3.5): {statistics.mean(r["length"] for r in all_rows if 2.5 <= r["primary_mean"] < 3.5):.0f} chars')
     print(f'Mean length of low-range (<2.0): {statistics.mean(r["length"] for r in all_rows if r["primary_mean"] < 2.0):.0f} chars')
 
-    # Save full audit
-    out = REPO / 'docs' / 'research' / 's114_low_end_inflation_audit.json'
-    with open(out, 'w', encoding='utf-8') as f:
-        json.dump({
-            'flagged_abstention_above_2': [{k: v for k, v in r.items() if k != 'per_judge'} for r in flagged],
-            'total_responses': len(all_rows),
-            'abstention_count': len(abs_rows),
-            'abstention_mean_score': statistics.mean(r['primary_mean'] for r in abs_rows),
-        }, f, indent=2, ensure_ascii=False, default=str)
-    print(f'\nSaved: {out}')
+    # Save full audit. Two output files:
+    #  - s114_low_end_inflation_audit.json (compact, flagged-only; legacy)
+    #  - rubric_handling_validity_full.json (full audit; cited from §4.6.7 / Appendix D.3)
+    out_compact = REPO / 'docs' / 'research' / 's114_low_end_inflation_audit.json'
+    out_full = REPO / 'docs' / 'research' / 'rubric_handling_validity_full.json'
+
+    compact_payload = {
+        'flagged_abstention_above_2': [{k: v for k, v in r.items() if k != 'per_judge'} for r in flagged],
+        'total_responses': len(all_rows),
+        'abstention_count': len(abs_rows),
+        'abstention_mean_score': statistics.mean(r['primary_mean'] for r in abs_rows),
+    }
+    with open(out_compact, 'w', encoding='utf-8') as f:
+        json.dump(compact_payload, f, indent=2, ensure_ascii=False, default=str)
+    print(f'\nSaved (compact): {out_compact}')
+
+    full_payload = {
+        'generated': '2026-05-11',
+        'source_script': 'scripts/audit_low_end_inflation.py',
+        'subjects': LOW_BASELINE,
+        'judge_panels': {
+            '5_judge_primary': sorted(PRIMARY),
+            '7_judge_all': sorted(ALL_JUDGES),
+        },
+        'total_responses': len(all_rows),
+        'abstention': {
+            'count': len(abs_rows),
+            'share': len(abs_rows) / len(all_rows) if all_rows else None,
+            'mean_score_5judge_primary': statistics.mean(r['primary_mean'] for r in abs_rows) if abs_rows else None,
+            'non_abstention_mean_score': statistics.mean(r['primary_mean'] for r in non_abs) if non_abs else None,
+            'score_distribution': bands,
+            'flagged_above_2_count': len(flagged),
+            'flagged_above_2_share_of_abstentions': len(flagged) / len(abs_rows) if abs_rows else None,
+            'flagged_rows': [{k: v for k, v in r.items() if k != 'per_judge'} for r in flagged],
+        },
+        'per_judge_means_on_abstention': {
+            judge: statistics.mean(scores) if scores else None
+            for judge, scores in per_judge_on_abs.items()
+        },
+        'per_judge_n_on_abstention': {
+            judge: len(scores) for judge, scores in per_judge_on_abs.items()
+        },
+        'length_distribution_by_score_band': {
+            'ultra_high_mean_length': statistics.mean(r['length'] for r in ultra_high) if ultra_high else None,
+            'mid_range_mean_length': statistics.mean(r['length'] for r in all_rows if 2.5 <= r['primary_mean'] < 3.5) if any(2.5 <= r['primary_mean'] < 3.5 for r in all_rows) else None,
+            'low_range_mean_length': statistics.mean(r['length'] for r in all_rows if r['primary_mean'] < 2.0) if any(r['primary_mean'] < 2.0 for r in all_rows) else None,
+            'ultra_high_count': len(ultra_high),
+        },
+        'rows_summary': [
+            {k: v for k, v in r.items() if k != 'text_head'} for r in all_rows
+        ],
+    }
+    with open(out_full, 'w', encoding='utf-8') as f:
+        json.dump(full_payload, f, indent=2, ensure_ascii=False, default=str)
+    print(f'Saved (full):    {out_full}')
 
     # Show a few flagged examples
     print(f'\n--- Sample of 5 most-inflated abstentions ---')

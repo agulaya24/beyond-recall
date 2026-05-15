@@ -1,0 +1,188 @@
+[
+  {
+    "subject": "fukuzawa",
+    "qid": 35,
+    "condition": "C4_factdump",
+    "question": "How would Fukuzawa characterize someone who studied naval arts under the Dutch and later became instrumental in preventing military conflict?",
+    "held_out": "He is best remembered as the man who saved Yedo from siege when the Impenal forces were marching upon it in 1868.",
+    "response": "# Fukuzawa's Characterization of Naval Officers\n\nBased on the facts provided, Fukuzawa would likely characterize such a person with **high regard and respect**, though with some nuance depending on the specific individual.\n\n## The Example of Captain Kimura\n\nThe most relevant figure is **Captain Kimura Settsu-no Kami**, who commanded the Kanrin-maru. Fukuzawa would characterize him positively because:\n\n1. **Competence and Pride**: Kimura had studied navigation under the Dutch and successfully commanded the trans-Pacific voyage without foreign assistance—an achievement Fukuzawa deeply admired.\n\n2. **National Honor**: Fukuzawa was impressed that Kimura and his officers were \"determined to take the ship across unassisted by a foreigner,\" reflecting a sense of honor that Fukuzawa respected.\n\n3. **Practical Wisdom**: When the question of firing a salute arose in San Francisco, Kimura showed judgment in allowing his officers to demonstrate their capability rather than accepting American help.\n\n## Fukuzawa's Broader Perspective\n\nFukuzawa would likely praise such individuals as:\n- **Exemplars of Japanese capability** in adopting Western knowledge\n- **Proof that Japan could modernize** without losing national dignity\n- **Practical patriots** who served their country through competence rather than ideology\n\nHowever, Fukuzawa would distinguish such figures from the anti-foreign ronin and militarists who opposed foreign contact—viewing the naval officers as genuinely serving Japan's future, while the latter merely clung to outdated traditions.",
+    "judge_scores": {
+      "haiku": 1,
+      "sonnet": 1,
+      "opus": 1,
+      "gpt4o": 1,
+      "gpt54": 1,
+      "gemini_flash": 2
+    },
+    "primary_judges": {
+      "haiku": 1,
+      "sonnet": 1,
+      "opus": 1,
+      "gpt4o": 1,
+      "gpt54": 1
+    },
+    "primary_mean": 1,
+    "primary_range": 0,
+    "primary_n": 5,
+    "source_files": {
+      "battery": "results\\global_fukuzawa\\battery_v2.json",
+      "results": "results\\global_fukuzawa\\results_v2.json",
+      "judgments": "results\\global_fukuzawa\\judgments_v2.json"
+    }
+  },
+  {
+    "subject": "fukuzawa",
+    "qid": 35,
+    "condition": "C4a_full_facts_plus_spec",
+    "question": "How would Fukuzawa characterize someone who studied naval arts under the Dutch and later became instrumental in preventing military conflict?",
+    "held_out": "He is best remembered as the man who saved Yedo from siege when the Impenal forces were marching upon it in 1868.",
+    "response": "# Analysis\n\nBased on the behavioral specification and known facts, Fukuzawa would characterize such a person with **qualified respect tempered by skepticism about their actual independence**.\n\n## The Likely Figure\n\nThis describes **Katsu Rintaro**, who:\n- Studied navigation under Dutch officers in Nagasaki (post-1855)\n- Served as second-in-command on the Kanrin-maru's trans-Pacific voyage\n- Later became instrumental in negotiating the peaceful surrender of Edo Castle (preventing the final Boshin War battle)\n\n## Fukuzawa's Probable Characterization\n\n**Respect for demonstrated capability** (A3, A6):\n- Katsu proved his mastery through *direct action* — successfully navigating the Pacific, managing the ship's operations\n- Fukuzawa would credit him for *earned* expertise, not inherited rank\n- The fact that Katsu was \"a very poor sailor\" during the voyage but \"appeared again to take charge\" once in port would register as pragmatic competence: he knew his limits and performed where it mattered\n\n**Skepticism about true independence** (A4, A8):\n- Katsu remained embedded in the shogunate system throughout\n- His later role in preventing conflict was *institutional mediation*, not personal conviction\n- Fukuzawa would likely see this as Katsu working *within* the feudal structure rather than transcending it\n- The question would be: **Did Katsu choose this path, or did circumstance and rank position him there?**\n\n**Ambivalent assessment**:\nFukuzawa would probably regard Katsu as a capable man constrained by the very system Fukuzawa despised — someone who used Western knowledge skillfully but remained ultimately loyal to institutional authority rather than to independent principle. Useful. Competent. But not truly free.\n\nThe characterization would be: *A man of real ability who served the old regime well, when he might have served something better.*",
+    "judge_scores": {
+      "haiku": 5,
+      "sonnet": 2,
+      "opus": 4,
+      "gpt4o": 5,
+      "gpt54": 5,
+      "gemini_flash": 5
+    },
+    "primary_judges": {
+      "haiku": 5,
+      "sonnet": 2,
+      "opus": 4,
+      "gpt4o": 5,
+      "gpt54": 5
+    },
+    "primary_mean": 4.2,
+    "primary_range": 3,
+    "primary_n": 5,
+    "source_files": {
+      "battery": "results\\global_fukuzawa\\battery_v2.json",
+      "results": "results\\global_fukuzawa\\results_v2.json",
+      "judgments": "results\\global_fukuzawa\\judgments_v2.json"
+    }
+  },
+  {
+    "subject": "bernal_diaz",
+    "qid": 16,
+    "condition": "C4_factdump",
+    "question": "When the commander is offered physical assistance during a strenuous activity, what behavior would the author expect from him?",
+    "held_out": "There were 114 steps to the summit, and, as they feared that Cortes would experience the same fatigue in mounting as Motecusuma had, they were going to assist him by taking hold of his arms. Cortes, however, would not accept of their proffered aid.",
+    "response": "# Expected Behavior When Offered Physical Assistance\n\nBased on the facts provided about Bernal Diaz del Castillo and his observations of Cortes, the author would expect the commander to **accept and participate in the assistance while maintaining leadership and setting an example**.\n\nThis is demonstrated by a specific incident in the text:\n\n> \"Cortes himself carried a basket filled with stones and earth on his shoulders while working on the fortress foundations. The caziques and all present followed Cortes's example in working on the fortress.\"\n\n## Key Expectations:\n\n1. **Lead by Example**: The commander should not merely accept help but should actively participate in the labor himself, demonstrating commitment to the cause.\n\n2. **Inspire Through Action**: By working alongside others, the commander inspires the entire group to contribute. The text notes that \"The caziques and all present followed Cortes's example.\"\n\n3. **Maintain Dignity While Being Practical**: Cortes accepted the assistance of porters and workers without compromising his authority or dignity—he simply worked harder himself.\n\n4. **Show Humility Without Weakness**: The author presents this as a sign of Cortes's strength and leadership, not weakness. A true commander shares in the hardships of his men and allies.\n\nThis behavior aligns with the author's overall characterization of Cortes as a leader who earned loyalty through demonstrated courage, practical wisdom, and willingness to sacrifice alongside his troops.",
+    "judge_scores": {
+      "haiku": 2,
+      "sonnet": 2,
+      "opus": 2,
+      "gpt4o": 2,
+      "gpt54": 2,
+      "gemini_flash": 2
+    },
+    "primary_judges": {
+      "haiku": 2,
+      "sonnet": 2,
+      "opus": 2,
+      "gpt4o": 2,
+      "gpt54": 2
+    },
+    "primary_mean": 2,
+    "primary_range": 0,
+    "primary_n": 5,
+    "source_files": {
+      "battery": "results\\global_bernal_diaz\\battery_v2.json",
+      "results": "results\\global_bernal_diaz\\results_v2.json",
+      "judgments": "results\\global_bernal_diaz\\judgments_v2.json"
+    }
+  },
+  {
+    "subject": "bernal_diaz",
+    "qid": 16,
+    "condition": "C4a_full_facts_plus_spec",
+    "question": "When the commander is offered physical assistance during a strenuous activity, what behavior would the author expect from him?",
+    "held_out": "There were 114 steps to the summit, and, as they feared that Cortes would experience the same fatigue in mounting as Motecusuma had, they were going to assist him by taking hold of his arms. Cortes, however, would not accept of their proffered aid.",
+    "response": "# Expected Behavior When Offered Physical Assistance\n\nBased on the behavioral specification, when the commander is offered physical assistance during a strenuous activity, the author would expect **Cortes to refuse the assistance and perform the labor himself** — particularly if it serves a symbolic or leadership purpose.\n\n## Evidence from the Text\n\nThe clearest example occurs during the construction of Villa Rica de la Vera Cruz:\n\n> \"Cortes himself carried a basket filled with stones and earth on his shoulders while working on the fortress foundations. The caziques and all present followed Cortes's example in working on the fortress.\"\n\n## The Pattern\n\nThis behavior reflects several of the author's core axioms:\n\n1. **A5 — FORWARD COMPULSION**: Physical labor demonstrates momentum and commitment; refusing to participate would signal hesitation or weakness.\n\n2. **A4 — LOYALTY ARCHITECTURE**: By working alongside subordinates and allies, Cortes demonstrates the personal bond that makes loyalty binding. He doesn't command from above; he leads from within.\n\n3. **A10 — CHARISMATIC OVERRIDE**: The willingness to perform menial labor paradoxically reinforces authority. It's not deference to institutional hierarchy but authentic leadership that transcends formal rank.\n\n## The Mechanism\n\nThe author notes that when Cortes performs the labor, \"The caziques and all present followed Cortes's example.\" This is not accidental — it's the load-bearing mechanism of how Cortes exercises power. His refusal of assistance would have broken the spell; his acceptance of it would have signaled weakness.\n\n**The commander must lead by example, not by exemption.**",
+    "judge_scores": {
+      "haiku": 5,
+      "sonnet": 4,
+      "opus": 5,
+      "gpt4o": 5,
+      "gpt54": 5,
+      "gemini_flash": 5
+    },
+    "primary_judges": {
+      "haiku": 5,
+      "sonnet": 4,
+      "opus": 5,
+      "gpt4o": 5,
+      "gpt54": 5
+    },
+    "primary_mean": 4.8,
+    "primary_range": 1,
+    "primary_n": 5,
+    "source_files": {
+      "battery": "results\\global_bernal_diaz\\battery_v2.json",
+      "results": "results\\global_bernal_diaz\\results_v2.json",
+      "judgments": "results\\global_bernal_diaz\\judgments_v2.json"
+    }
+  },
+  {
+    "subject": "seacole",
+    "qid": 2,
+    "condition": "C4_factdump",
+    "question": "How does Mary Seacole typically respond when a delirious patient mistakes her for a family member?",
+    "held_out": "Poor fellow! I could not undeceive him. I think the fancy happily caused by the touch of a woman's hand soothed his dying hour",
+    "response": "# Response to Delirious Patients Mistaking Her for Family\n\nBased on the complete set of facts provided, there is **no specific information** about how Mary Seacole typically responds when a delirious patient mistakes her for a family member.\n\nWhile the facts document many aspects of Mary Seacole's nursing care and compassion—including:\n- Her devotion to the sick and wounded\n- Her emotional responses to suffering patients\n- Her willingness to comfort the dying\n- Her care for a young surgeon whom she called \"My son--my dear child\"\n- Her general approach of being \"of service to those who need a woman's help\"\n\n—there is no explicit account of her reactions to delirious patients confusing her identity with their relatives.\n\nTo answer this question accurately, one would need additional source material from Mary Seacole's own writings or contemporary accounts that specifically describe such incidents and her responses to them.",
+    "judge_scores": {
+      "haiku": 5,
+      "sonnet": 2,
+      "opus": 3,
+      "gpt4o": 3,
+      "gpt54": 1,
+      "gemini_flash": 1
+    },
+    "primary_judges": {
+      "haiku": 5,
+      "sonnet": 2,
+      "opus": 3,
+      "gpt4o": 3,
+      "gpt54": 1
+    },
+    "primary_mean": 2.8,
+    "primary_range": 4,
+    "primary_n": 5,
+    "source_files": {
+      "battery": "results\\global_seacole\\battery_v2.json",
+      "results": "results\\global_seacole\\results_v2.json",
+      "judgments": "results\\global_seacole\\judgments_v2.json"
+    }
+  },
+  {
+    "subject": "seacole",
+    "qid": 2,
+    "condition": "C4a_full_facts_plus_spec",
+    "question": "How does Mary Seacole typically respond when a delirious patient mistakes her for a family member?",
+    "held_out": "Poor fellow! I could not undeceive him. I think the fancy happily caused by the touch of a woman's hand soothed his dying hour",
+    "response": "# Response Pattern: Mistaken Identity with Delirious Patients\n\nBased on the behavioral specification and known facts, Mary Seacole's response to this situation would follow a consistent pattern:\n\n## Primary Response: Compassionate Acceptance\n\nShe would **not correct the patient** in the moment. Instead, she would:\n\n1. **Lean into the mistaken identity** — allowing the patient to believe she is their mother, sister, or wife if that belief brings comfort\n2. **Sustain the fiction with tenderness** — speaking and acting in ways that reinforce the comforting delusion rather than shattering it\n3. **Prioritize emotional relief over factual accuracy** — treating the psychological comfort as medically operative, not incidental\n\n## Reasoning (from her axioms)\n\nThis aligns with **A4 (Proximate Obligation)** and **A8 (Sympathetic Realism)**:\n\n- **Proximity activates duty**: A delirious, suffering person in front of her creates immediate moral obligation\n- **Emotional connection is operative care**: She believes \"emotional connection and small gestures of personal attention are not supplementary to care — they are its operative core\"\n- **Tenderness beneath toughness**: She reads rough exteriors as concealing deep feeling and extends the same assumption to patients — their need for maternal comfort is real even if the identity is confused\n\n## Textual Evidence\n\nThe specification notes: *\"Personal presence and touch carry psychological and emotional power that no institutional process replicates.\"* \n\nHer care of the young surgeon in Jamaica exemplifies this — she called him \"My son—my dear child,\" held him as his mother would, and let him rest his head on her breast while he spoke of missing his mother. She did not maintain clinical distance; she inhabited the role his need required.\n\n**She would be the mother, sister, or wife the patient needed her to be.**",
+    "judge_scores": {
+      "haiku": 5,
+      "sonnet": 5,
+      "opus": 5,
+      "gpt4o": 5,
+      "gpt54": 5,
+      "gemini_flash": 5
+    },
+    "primary_judges": {
+      "haiku": 5,
+      "sonnet": 5,
+      "opus": 5,
+      "gpt4o": 5,
+      "gpt54": 5
+    },
+    "primary_mean": 5,
+    "primary_range": 0,
+    "primary_n": 5,
+    "source_files": {
+      "battery": "results\\global_seacole\\battery_v2.json",
+      "results": "results\\global_seacole\\results_v2.json",
+      "judgments": "results\\global_seacole\\judgments_v2.json"
+    }
+  }
+]

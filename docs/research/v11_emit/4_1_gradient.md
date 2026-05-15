@@ -55,7 +55,6 @@ Franklin (high-baseline reference): C5=3.77, C2a=3.37, C4a=3.65, dC4a=-0.12
 
 Franklin partial-judge cells (panel mean emitted as null because not all 5 panel judges have data):
 - C2c_wrong_spec: missing gpt4o, gpt54
-- C4_factdump: missing gpt4o, gpt54
 
 ## Provenance
 

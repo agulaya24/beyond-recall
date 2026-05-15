@@ -6,13 +6,17 @@
 
 **The paper and supporting prose:**
 
-- `beyond_recall_v11_draft.md`: **The citable canonical paper** (release-frozen 2026-04-28).
-- `beyond_recall_v11_draft.clean.md` + `.docx`: Export-ready variants of the canonical draft.
-- `beyond_recall_v10_1_draft.md`: **Preserved historical baseline** (immediate predecessor to v11). Do NOT edit.
-- `beyond_recall_v10_1_draft.clean.md` + `.docx`: Frozen exports from v10.1.
+- `beyond_recall_v12_1_draft.md`: **The current canonical paper** (v12.1, 2026-05-13). Owned by a separate process.
+- `beyond_recall_v12_1_draft.docx`: Export-ready variant of the canonical draft.
+- `beyond_recall_v12_draft.md`: v12 (docx retained as historical baseline with Aarik's review comments). Do NOT edit.
+- `beyond_recall_v11_draft.md`: Earlier citable canonical (v11, release-frozen 2026-04-28). Do NOT edit.
+- `beyond_recall_v10_1_draft.md` + `.docx`: **Preserved historical baseline.** Do NOT edit.
 - `blog_post_v2.md`: Companion blog post for public launch.
 
-Frozen earlier drafts (v6, v7, v8, v9, v10 partial, pre-v6 arXiv drafts, v2-reframe, Word exports, LaTeX test artifacts) live in `versions/`. v8/v9/v10 drafts are grouped under `versions/_pre_v11_drafts/`. Do not edit those.
+The `.clean.md` pandoc-ready intermediate is regenerated from the canonical
+`.md` by the docx export script and is not version-controlled.
+
+Frozen earlier drafts (v6, v7, v8, v9, v10 partial, pre-v6 arXiv drafts, v2-reframe, Word exports, LaTeX test artifacts) live in `versions/`. v8/v9/v10 drafts are grouped under `versions/_pre_v11_drafts/`; v11.9.5 → v11.9.11 drafts under `versions/_pre_v12_drafts/`. Do not edit those.
 
 **The authoritative references:**
 
@@ -43,4 +47,4 @@ Paper drafts use `beyond_recall_v<N>_draft.md`. Older versions are kept, not del
 ## Caveats worth knowing
 
 - If numbers in any `.md` disagree with `DATA_REFERENCE.md`, the data reference wins. See `FILE_NAMING.md` for the tie-breaking rules.
-- `PROVENANCE_INDEX.md` is canonical for v11; cross-check against `beyond_recall_v11_draft.md` directly when in doubt.
+- `PROVENANCE_INDEX.md` is canonical (masthead bumped to v12.1); cross-check against `beyond_recall_v12_1_draft.md` directly when in doubt.

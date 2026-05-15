@@ -8216,7 +8216,7 @@
     "judge": "gemini_pro",
     "score": 0,
     "parse_failure": true,
-    "raw_response": "Server error '503 Service Unavailable' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=AIzaSyCObvvcBjPf12bgrP-IDA4vd_Jb9R1I5UA'\nFor more information"
+    "raw_response": "Server error '503 Service Unavailable' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=[REDACTED-GEMINI-KEY]'\nFor more information"
   },
   {
     "question_id": 1,
@@ -8224,7 +8224,7 @@
     "judge": "gemini_pro",
     "score": 0,
     "parse_failure": true,
-    "raw_response": "Server error '503 Service Unavailable' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=AIzaSyCObvvcBjPf12bgrP-IDA4vd_Jb9R1I5UA'\nFor more information"
+    "raw_response": "Server error '503 Service Unavailable' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=[REDACTED-GEMINI-KEY]'\nFor more information"
   },
   {
     "question_id": 2,
@@ -8232,7 +8232,7 @@
     "judge": "gemini_pro",
     "score": 0,
     "parse_failure": true,
-    "raw_response": "Server error '503 Service Unavailable' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=AIzaSyCObvvcBjPf12bgrP-IDA4vd_Jb9R1I5UA'\nFor more information"
+    "raw_response": "Server error '503 Service Unavailable' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=[REDACTED-GEMINI-KEY]'\nFor more information"
   },
   {
     "question_id": 2,
@@ -8240,7 +8240,7 @@
     "judge": "gemini_pro",
     "score": 0,
     "parse_failure": true,
-    "raw_response": "Server error '503 Service Unavailable' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=AIzaSyCObvvcBjPf12bgrP-IDA4vd_Jb9R1I5UA'\nFor more information"
+    "raw_response": "Server error '503 Service Unavailable' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=[REDACTED-GEMINI-KEY]'\nFor more information"
   },
   {
     "question_id": 2,
@@ -8262,7 +8262,7 @@
     "judge": "gemini_pro",
     "score": 0,
     "parse_failure": true,
-    "raw_response": "Server error '503 Service Unavailable' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=AIzaSyCObvvcBjPf12bgrP-IDA4vd_Jb9R1I5UA'\nFor more information"
+    "raw_response": "Server error '503 Service Unavailable' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=[REDACTED-GEMINI-KEY]'\nFor more information"
   },
   {
     "question_id": 3,
@@ -8270,7 +8270,7 @@
     "judge": "gemini_pro",
     "score": 0,
     "parse_failure": true,
-    "raw_response": "Server error '503 Service Unavailable' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=AIzaSyCObvvcBjPf12bgrP-IDA4vd_Jb9R1I5UA'\nFor more information"
+    "raw_response": "Server error '503 Service Unavailable' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=[REDACTED-GEMINI-KEY]'\nFor more information"
   },
   {
     "question_id": 3,
@@ -8278,7 +8278,7 @@
     "judge": "gemini_pro",
     "score": 0,
     "parse_failure": true,
-    "raw_response": "Server error '503 Service Unavailable' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=AIzaSyCObvvcBjPf12bgrP-IDA4vd_Jb9R1I5UA'\nFor more information"
+    "raw_response": "Server error '503 Service Unavailable' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=[REDACTED-GEMINI-KEY]'\nFor more information"
   },
   {
     "question_id": 3,
@@ -8307,7 +8307,7 @@
     "judge": "gemini_pro",
     "score": 0,
     "parse_failure": true,
-    "raw_response": "Server error '503 Service Unavailable' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=AIzaSyCObvvcBjPf12bgrP-IDA4vd_Jb9R1I5UA'\nFor more information"
+    "raw_response": "Server error '503 Service Unavailable' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=[REDACTED-GEMINI-KEY]'\nFor more information"
   },
   {
     "question_id": 4,
@@ -8343,7 +8343,7 @@
     "judge": "gemini_pro",
     "score": 0,
     "parse_failure": true,
-    "raw_response": "Server error '503 Service Unavailable' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=AIzaSyCObvvcBjPf12bgrP-IDA4vd_Jb9R1I5UA'\nFor more information"
+    "raw_response": "Server error '503 Service Unavailable' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=[REDACTED-GEMINI-KEY]'\nFor more information"
   },
   {
     "question_id": 5,
@@ -8365,7 +8365,7 @@
     "judge": "gemini_pro",
     "score": 0,
     "parse_failure": true,
-    "raw_response": "Server error '503 Service Unavailable' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=AIzaSyCObvvcBjPf12bgrP-IDA4vd_Jb9R1I5UA'\nFor more information"
+    "raw_response": "Server error '503 Service Unavailable' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=[REDACTED-GEMINI-KEY]'\nFor more information"
   },
   {
     "question_id": 5,
@@ -8373,7 +8373,7 @@
     "judge": "gemini_pro",
     "score": 0,
     "parse_failure": true,
-    "raw_response": "Server error '503 Service Unavailable' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=AIzaSyCObvvcBjPf12bgrP-IDA4vd_Jb9R1I5UA'\nFor more information"
+    "raw_response": "Server error '503 Service Unavailable' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=[REDACTED-GEMINI-KEY]'\nFor more information"
   },
   {
     "question_id": 6,
@@ -8381,7 +8381,7 @@
     "judge": "gemini_pro",
     "score": 0,
     "parse_failure": true,
-    "raw_response": "Server error '503 Service Unavailable' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=AIzaSyCObvvcBjPf12bgrP-IDA4vd_Jb9R1I5UA'\nFor more information"
+    "raw_response": "Server error '503 Service Unavailable' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=[REDACTED-GEMINI-KEY]'\nFor more information"
   },
   {
     "question_id": 6,
@@ -8396,7 +8396,7 @@
     "judge": "gemini_pro",
     "score": 0,
     "parse_failure": true,
-    "raw_response": "Server error '503 Service Unavailable' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=AIzaSyCObvvcBjPf12bgrP-IDA4vd_Jb9R1I5UA'\nFor more information"
+    "raw_response": "Server error '503 Service Unavailable' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=[REDACTED-GEMINI-KEY]'\nFor more information"
   },
   {
     "question_id": 6,
@@ -8404,7 +8404,7 @@
     "judge": "gemini_pro",
     "score": 0,
     "parse_failure": true,
-    "raw_response": "Server error '503 Service Unavailable' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=AIzaSyCObvvcBjPf12bgrP-IDA4vd_Jb9R1I5UA'\nFor more information"
+    "raw_response": "Server error '503 Service Unavailable' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=[REDACTED-GEMINI-KEY]'\nFor more information"
   },
   {
     "question_id": 6,
@@ -8412,7 +8412,7 @@
     "judge": "gemini_pro",
     "score": 0,
     "parse_failure": true,
-    "raw_response": "Server error '503 Service Unavailable' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=AIzaSyCObvvcBjPf12bgrP-IDA4vd_Jb9R1I5UA'\nFor more information"
+    "raw_response": "Server error '503 Service Unavailable' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=[REDACTED-GEMINI-KEY]'\nFor more information"
   },
   {
     "question_id": 7,
@@ -8420,7 +8420,7 @@
     "judge": "gemini_pro",
     "score": 0,
     "parse_failure": true,
-    "raw_response": "Server error '503 Service Unavailable' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=AIzaSyCObvvcBjPf12bgrP-IDA4vd_Jb9R1I5UA'\nFor more information"
+    "raw_response": "Server error '503 Service Unavailable' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=[REDACTED-GEMINI-KEY]'\nFor more information"
   },
   {
     "question_id": 7,
@@ -8442,7 +8442,7 @@
     "judge": "gemini_pro",
     "score": 0,
     "parse_failure": true,
-    "raw_response": "Server error '503 Service Unavailable' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=AIzaSyCObvvcBjPf12bgrP-IDA4vd_Jb9R1I5UA'\nFor more information"
+    "raw_response": "Server error '503 Service Unavailable' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=[REDACTED-GEMINI-KEY]'\nFor more information"
   },
   {
     "question_id": 7,
@@ -8450,7 +8450,7 @@
     "judge": "gemini_pro",
     "score": 0,
     "parse_failure": true,
-    "raw_response": "Server error '503 Service Unavailable' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=AIzaSyCObvvcBjPf12bgrP-IDA4vd_Jb9R1I5UA'\nFor more information"
+    "raw_response": "Server error '503 Service Unavailable' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=[REDACTED-GEMINI-KEY]'\nFor more information"
   },
   {
     "question_id": 8,
@@ -8472,7 +8472,7 @@
     "judge": "gemini_pro",
     "score": 0,
     "parse_failure": true,
-    "raw_response": "Server error '503 Service Unavailable' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=AIzaSyCObvvcBjPf12bgrP-IDA4vd_Jb9R1I5UA'\nFor more information"
+    "raw_response": "Server error '503 Service Unavailable' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=[REDACTED-GEMINI-KEY]'\nFor more information"
   },
   {
     "question_id": 8,
@@ -8494,7 +8494,7 @@
     "judge": "gemini_pro",
     "score": 0,
     "parse_failure": true,
-    "raw_response": "Server error '503 Service Unavailable' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=AIzaSyCObvvcBjPf12bgrP-IDA4vd_Jb9R1I5UA'\nFor more information"
+    "raw_response": "Server error '503 Service Unavailable' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=[REDACTED-GEMINI-KEY]'\nFor more information"
   },
   {
     "question_id": 9,
@@ -8509,7 +8509,7 @@
     "judge": "gemini_pro",
     "score": 0,
     "parse_failure": true,
-    "raw_response": "Server error '503 Service Unavailable' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=AIzaSyCObvvcBjPf12bgrP-IDA4vd_Jb9R1I5UA'\nFor more information"
+    "raw_response": "Server error '503 Service Unavailable' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=[REDACTED-GEMINI-KEY]'\nFor more information"
   },
   {
     "question_id": 9,
@@ -8552,7 +8552,7 @@
     "judge": "gemini_pro",
     "score": 0,
     "parse_failure": true,
-    "raw_response": "Server error '503 Service Unavailable' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=AIzaSyCObvvcBjPf12bgrP-IDA4vd_Jb9R1I5UA'\nFor more information"
+    "raw_response": "Server error '503 Service Unavailable' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=[REDACTED-GEMINI-KEY]'\nFor more information"
   },
   {
     "question_id": 10,

@@ -1,7 +1,7 @@
 """MCP Resource helpers for the Beyond Recall study server.
 
 Exposes paper sections via paper://section/<id> URIs. The canonical paper
-source is the v11.5 draft at docs/beyond_recall_v11_5_draft.md.
+source is the v12.1 draft at docs/beyond_recall_v12_1_draft.md.
 
 Section IDs come from the leading numeric token of each heading (e.g. '3.6.2').
 Headings without a numeric prefix get a slug derived from the title.

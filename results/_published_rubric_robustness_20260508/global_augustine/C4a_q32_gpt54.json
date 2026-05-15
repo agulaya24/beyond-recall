@@ -1,0 +1,13 @@
+{
+  "subject": "global_augustine",
+  "paper_cond": "C4a",
+  "raw_cond_label": "C4a_full_facts_plus_spec",
+  "qid": 32,
+  "judge": "gpt54",
+  "paper_rubric_score": 1,
+  "paper_rubric_raw": "1",
+  "parse_failure": false,
+  "original_score": 4,
+  "timestamp": "2026-05-08T22:14:39.291615Z",
+  "seed": 43
+}

@@ -6,6 +6,17 @@ Full audits: [docs/reviews/s114_repo_quality_audit.md](docs/reviews/s114_repo_qu
 
 ---
 
+## Quick status (2026-05-13, v12.1 current canonical)
+
+| Severity | Open | Resolved |
+|---|---:|---:|
+| v12.1 review pass | 0 launch-blockers | Aarik's 211-comment review pass + final-checks audit applied to `docs/beyond_recall_v12_1_draft.md` |
+| P0 / P1 / P2 (v10.1 release-freeze tracker) | unchanged from 2026-04-25 below | unchanged |
+
+v12.1 (`docs/beyond_recall_v12_1_draft.md`, 2026-05-13) is the current canonical paper, forked from v12 to apply Aarik's 211-comment review pass plus final-checks audit fixes. v12.1 numerical changes are framing/precision only and the headline arguments are unchanged: §4.2 compression standardized to the symmetric 9-row computation (Spec Only Δ +0.68, raw corpus Δ +0.91, All Facts + Spec Δ +0.89; compression-recovery figure 75%; see `docs/reviews/v12_1_compression_table_recompute_20260513.md`); 3-anchor crossing rate corrected 5.9% → 5.7% (20/351); Krippendorff α keeps 0.659 headline with a new footnote disclosing a third-party recompute of 0.668; "evidentiary bar" elevated to a term of art. DATA_REFERENCE.md / KEY_FINDINGS.md / PROVENANCE_INDEX.md mastheads bumped to v12.1. v11.9.5 → v11.9.11 drafts preserved at `docs/versions/_pre_v12_drafts/`. The historical changelog below is preserved unchanged.
+
+---
+
 ## Quick status (2026-04-28, v11 release-frozen)
 
 | Severity | Open | Resolved |

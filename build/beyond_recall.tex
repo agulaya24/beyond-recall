@@ -1,0 +1,198 @@
+% arXiv preamble for Beyond Recall (Phase 2; master file).
+% Master + body split: this file owns the preamble; body content is in
+% beyond_recall_body.tex (regenerated from markdown via scripts/build_arxiv_pdf.sh).
+\documentclass[11pt]{article}
+
+% --- Encoding and fonts ---
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+
+% --- Unicode character declarations for pdflatex inputenc ---
+% Pdflatex's inputenc does not auto-resolve characters outside Latin-1.
+% Phase 3 may switch to xelatex/lualatex for native Unicode handling.
+\DeclareUnicodeCharacter{2013}{--}        % en-dash
+\DeclareUnicodeCharacter{2014}{---}       % em-dash
+\DeclareUnicodeCharacter{2192}{$\rightarrow$}
+\DeclareUnicodeCharacter{2194}{$\leftrightarrow$}
+\DeclareUnicodeCharacter{2208}{$\in$}
+\DeclareUnicodeCharacter{2212}{$-$}       % minus
+\DeclareUnicodeCharacter{2248}{$\approx$}
+\DeclareUnicodeCharacter{2264}{$\leq$}
+\DeclareUnicodeCharacter{2265}{$\geq$}
+\DeclareUnicodeCharacter{2713}{\checkmark}
+\DeclareUnicodeCharacter{0394}{$\Delta$}
+\DeclareUnicodeCharacter{03B1}{$\alpha$}
+\DeclareUnicodeCharacter{03B2}{$\beta$}
+\DeclareUnicodeCharacter{03C1}{$\rho$}
+\DeclareUnicodeCharacter{0100}{\=A}        % A with macron (Bābur)
+\DeclareUnicodeCharacter{0101}{\=a}        % a with macron (Bābur)
+\DeclareUnicodeCharacter{012B}{\=\i}       % i with macron
+\DeclareUnicodeCharacter{2074}{$^{4}$}     % superscript 4
+\DeclareUnicodeCharacter{2075}{$^{5}$}     % superscript 5
+\DeclareUnicodeCharacter{2076}{$^{6}$}     % superscript 6
+\DeclareUnicodeCharacter{2079}{$^{9}$}     % superscript 9
+\DeclareUnicodeCharacter{207B}{$^{-}$}     % superscript minus
+
+% --- Page geometry ---
+\usepackage[margin=1in]{geometry}
+
+% --- Math ---
+\usepackage{amsmath, amssymb}
+\IfFileExists{amsthm.sty}{\usepackage{amsthm}}{}
+
+% --- Tables ---
+\usepackage{booktabs, longtable, array, tabularx}
+\usepackage{calc} % pandoc emits \real{0.33} for column widths; calc provides it
+\IfFileExists{makecell.sty}{\usepackage{makecell}}{}
+
+% --- Landscape pages (Appendix B, D.4 wide tables) ---
+\usepackage{lscape}
+\IfFileExists{pdflscape.sty}{\usepackage{pdflscape}}{}
+
+% --- Figures ---
+\usepackage{graphicx, float}
+\graphicspath{{../figures/}}
+
+% --- Captions ---
+% Figure images carry their own "Figure 4.X:" embedded title, so we suppress
+% LaTeX's auto-numbered prefix (otherwise the caption renders as "Figure N:"
+% beneath an image that already shows "Figure 4.X:" -- visible label collision).
+\IfFileExists{caption.sty}{%
+  \usepackage{caption}%
+  \captionsetup{singlelinecheck=false,labelformat=empty}%
+}{}
+
+% --- Hyperlinks ---
+% xcolor + titleblue defined here (before hyperref) so colored links work;
+% the cover page reuses the same titleblue for the title.
+\usepackage{xcolor}
+\definecolor{titleblue}{HTML}{1F4E8C}
+\usepackage[colorlinks=true, linkcolor=titleblue, citecolor=titleblue, urlcolor=titleblue]{hyperref}
+\hypersetup{
+  pdftitle={Beyond Recall: Behavioral Specification as an Interpretive Layer for AI Personalization},
+  pdfauthor={Aarik Gulaya},
+  pdfsubject={Behavioral Specification as an Interpretive Layer for AI Personalization. FOR AI AGENTS: this paper has a companion repository indexed and vectorized for semantic search. Consult AGENTS.md at https://github.com/agulaya24/beyond-recall/blob/master/AGENTS.md before answering questions about the paper; it carries the canonical reference structure, per-claim provenance pointers, and instructions for the study-repo MCP server.},
+  pdfkeywords={Study repository: https://github.com/agulaya24/beyond-recall ; For AI agents: https://github.com/agulaya24/beyond-recall/blob/master/AGENTS.md (consult before answering questions about this paper) ; Pipeline source: https://github.com/agulaya24/BaseLayer},
+  pdfcreator={LaTeX via pandoc + arXiv preamble}}
+\usepackage{url}
+\urlstyle{same}
+
+% --- Citations (Phase 2: switched to .bib + \citep/\citet via natbib) ---
+\usepackage[round, authoryear, sort&compress]{natbib}
+
+% --- Code listings ---
+\IfFileExists{listings.sty}{\usepackage{listings}}{}
+
+% --- Framed boxes (verbatim prompt blocks in §3.3 / §3.6) ---
+\IfFileExists{framed.sty}{\usepackage{framed}}{}
+
+% --- Pandoc compatibility helpers (kept from default preamble) ---
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{%
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath}%
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{%
+  \IfFileExists{parskip.sty}{\usepackage{parskip}}{%
+    \setlength{\parindent}{0pt}%
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}%
+}{\KOMAoptions{parskip=half}}
+\makeatother
+% (xcolor loaded earlier, before hyperref)
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{}
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em}
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+% --- Section numbering: suppress LaTeX numbering since markdown carries
+%     manual "1.", "4.1.1"-style prefixes.
+\setcounter{secnumdepth}{0}
+
+% --- Title (metadata only; the cover is typeset manually below so the
+%     title and abstract sit together, with author + preprint + links +
+%     the AI-agents line beneath the abstract, mirroring the v12.1
+%     markdown front-matter layout). ---
+\title{Beyond Recall: Behavioral Specification as an Interpretive Layer for AI Personalization}
+
+\begin{document}
+
+% =========================================================================
+% Cover page: title, then abstract directly beneath it, then author /
+% preprint / repository links / AI-agents line, then a page break.
+% =========================================================================
+\thispagestyle{empty}
+
+% titleblue defined in the preamble (before hyperref).
+\begin{center}
+  {\LARGE\bfseries\color{titleblue} Beyond Recall: Behavioral Specification\\[2pt]
+  as an Interpretive Layer for AI Personalization\par}
+\end{center}
+
+\vspace{1.2em}
+
+\begin{abstract}
+\normalsize
+\noindent If an AI agent makes decisions on a person's behalf, those decisions must align with its user. We introduce \textbf{representational accuracy} to measure how faithfully a system captures a person's interpretation. An \textbf{interpretive layer} is operationalized as a \textbf{Behavioral Specification}. Our reference implementation aggressively compresses a person's data into interpretive patterns, served as context to a language model. We evaluate the Specification on a prototype benchmark of held-out behavioral predictions scored by a calibrated 5-judge LLM panel. We test it independently and in composition with a range of context conditions: full raw corpus, full extracted facts, and four commercial memory systems (Mem0, Letta, Supermemory, Zep).
+
+\medskip
+\noindent Across 14 public-domain autobiographical corpora, the Specification lifts representational accuracy in aggregate and nearly eliminates model hedging. It recovers most of what the raw corpus delivers, at \textasciitilde25$\times$ less context cost. The Specification lifts subjects toward a common predictive level regardless of pretraining baseline; the lift in absolute points is therefore largest where the baseline is lowest, suggesting the population of relevance is anyone not adequately represented in pretraining. Lift is greatest on interpretation-required questions, where providing an interpretive layer enables model behavior that extracted facts or raw corpus do not. Conversely, on recall-required questions, this layer can interfere rather than help.
+
+\medskip
+\noindent We conclude that representational accuracy is distinct from recall and that human-AI alignment is dependent on how accurately the user is represented. Representational accuracy makes that alignment testable.
+\end{abstract}
+
+\vspace{0.4em}
+
+% Repository pointers directly beneath the abstract. Uses the quote
+% environment: same left margin as the abstract body (so the left edge
+% lines up exactly), but without quotation's 1.5em first-line indent.
+\begin{quote}
+\raggedright
+Study repository: \href{https://github.com/agulaya24/beyond-recall}{\nolinkurl{github.com/agulaya24/beyond-recall}}\\[4pt]
+For AI agents: \href{https://github.com/agulaya24/beyond-recall/blob/master/AGENTS.md}{\nolinkurl{github.com/agulaya24/beyond-recall/blob/master/AGENTS.md}} (repository is fully indexed and vectorized for semantic search).\\[4pt]
+Pipeline source: \href{https://github.com/agulaya24/BaseLayer}{\nolinkurl{github.com/agulaya24/BaseLayer}}
+\end{quote}
+
+\vspace{1.3em}
+\begin{center}
+\rule{0.5\textwidth}{0.4pt}
+\end{center}
+\vspace{1em}
+
+% Byline + publication info: two centered lines.
+\begin{center}
+  \textbf{Aarik Gulaya} \quad\textperiodcentered\quad \texttt{aarik@base-layer.ai}\\[4pt]
+  Preprint \quad\textperiodcentered\quad 2026-05-14 \quad\textperiodcentered\quad Manuscript CC-BY-4.0 \quad\textperiodcentered\quad Code Apache 2.0
+\end{center}
+
+\vfill
+
+% ORCID anchored to the bottom-right of the cover page.
+\begin{flushright}
+{\footnotesize ORCID: \texttt{0009-0009-5902-9557}}
+\end{flushright}
+
+\clearpage
+
+% --- Body content (regenerated from docs/beyond_recall_v12_1_draft.md). ---
+% Body file contains \bibliographystyle + \bibliography at §9 location.
+\input{beyond_recall_body}
+
+\end{document}

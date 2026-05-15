@@ -1,0 +1,17 @@
+{
+  "subject": "global_equiano",
+  "paper_cond": "C5_baseline",
+  "raw_cond_label": "C5_baseline",
+  "qid": 13,
+  "judge": "sonnet",
+  "rubric": "original",
+  "score": 1,
+  "raw": "1",
+  "parse_failure": false,
+  "response_type": "refusal",
+  "response_text": "# Mrs. Davis's Warnings to Equiano\n\nI don't have the specific text of Equiano's autobiography readily available to provide you with the exact dangers Mrs. Davis warned him about.\n\nHowever, if you're referring to **Olaudah Equiano's \"The Interesting Narrative of the Life of Olaudah Equiano\"** (1789), I'd recommend:\n\n1. **Checking the specific chapter** where Mrs. Davis appears in your edition\n2. **Looking for context** about where Equiano was at that point in his life (whether he was enslaved, free, traveling, etc.)\n3. **Consulting your textbook or study guide** if this is for a class assignment\n\nIf you can provide more context—such as:\n- What chapter or section this occurs in\n- Where Equiano was geographically at the time\n- Any other details you remember\n\nI'd be better able to help you identify the specific dangers Mrs. Davis warned about.",
+  "held_out": "She said I should be twice in very great danger of my life within eighteen months, which, if I escaped, I should afterwards go on well",
+  "question_text": "What specific dangers does Mrs. Davis warn Equiano about?",
+  "prior_delta": -3.2,
+  "timestamp": "2026-05-08T22:07:29.339579Z"
+}

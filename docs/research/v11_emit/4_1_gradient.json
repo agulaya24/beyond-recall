@@ -169,7 +169,7 @@
       "C5": 3.77,
       "C2a": 3.37,
       "C2c": null,
-      "C4": null,
+      "C4": 3.59,
       "C4a": 3.645,
       "delta_C4a": -0.125,
       "C4a_minus_C5": -0.125
@@ -233,10 +233,6 @@
     },
     "franklin_partial_judges": {
       "C2c_wrong_spec": [
-        "gpt4o",
-        "gpt54"
-      ],
-      "C4_factdump": [
         "gpt4o",
         "gpt54"
       ]

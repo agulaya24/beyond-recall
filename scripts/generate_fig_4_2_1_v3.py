@@ -31,7 +31,7 @@ from _figure_style import (
 
 REPO = Path(__file__).resolve().parent.parent
 FIG_DIR = REPO / 'figures'
-DATA_PATH = REPO / 'scripts' / '_per_question_outcomes_v2.json'
+DATA_PATH = REPO / 'docs' / 'research' / '_per_question_outcomes_v2.json'
 
 apply_style()
 

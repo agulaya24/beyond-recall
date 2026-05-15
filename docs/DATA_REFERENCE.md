@@ -1,6 +1,6 @@
 # Data Reference — Single Source of Truth
 
-**Canonical paper:** `docs/beyond_recall_v11_8_draft.md` (v11.8, active edit branch as of 2026-05-05). v11.9 will lock figures, data, and repo state. v12 is the planned release.
+**Canonical paper:** `docs/beyond_recall_v12_1_draft.md` (v12.1, active edit branch as of 2026-05-13 — applying Aarik's 211-comment review pass + final-checks audit fixes). v12 docx retained as historical baseline with comments preserved.
 
 **Generated:** 2026-04-18 from `data/experiments/memory_systems/results/RESULTS_S113.json`. **Updated 2026-04-25 (v10.1 point release)** to match the v10.1 paper's 5-judge primary panel: Haiku 4.5, Sonnet 4.6, Opus 4.6, GPT-4o, GPT-5.4. The legacy 7-judge mixed panel (adding Gemini 2.5 Flash and Gemini 2.5 Pro) is reported as a sensitivity check where it materially changes a number; the primary aggregate excludes the Gemini pair per §3.7.2 of the paper.
 
@@ -10,7 +10,7 @@
 - **One-line summary** — what this data says in one sentence
 - **Data table** — the numbers themselves (5-judge primary unless explicitly marked sensitivity)
 - **Bounded interpretation** — what to conclude from this data alone, without needing other sections
-- **Paper location** — where this appears in `docs/beyond_recall_v11_8_draft.md`
+- **Paper location** — where this appears in `docs/beyond_recall_v12_1_draft.md`
 
 All scores are on the 1-5 behavioral-prediction scale. Every number traces back to source files listed in §K.
 
@@ -106,7 +106,7 @@ This data closes v11 comment C131 (per-system anchor-crossing for §4.4.1) and f
 ## 2. STATISTICAL TESTS — Gradient significance (5-judge primary)
 
 **Label:** Gradient statistical significance.
-**One-line summary:** The change-score parameterization gives a steep negative slope; the level regression triangulates that the spec produces a roughly constant C4a near 2.46 across the C5 range.
+**One-line summary:** The change-score parameterization gives a steep negative slope; the level regression triangulates that the spec produces a roughly constant C4a near 2.44 across the C5 range (the canonical 5-judge primary all-14 value, per §1 line 93).
 
 | Test | 5-judge primary value (canonical) | 7-judge sensitivity |
 |---|---|---|
@@ -270,13 +270,15 @@ Wilcoxon (low-baseline, controlled): Zep p = 0.0004, Letta p = 0.0017 robust at 
 **Label:** Letta stateful-agent loop, Packer methodology.
 **One-line summary:** When Letta's stateful-agent path is invoked properly (turn-by-turn ingestion with self-editing memory blocks), it produces a representation that predicts as well as or better than Base Layer's full-stack spec at matched response model on all three subjects tested.
 
-| Subject | Letta block size | BL spec size | Letta block / BL spec | Letta block + Haiku (5-judge primary) | BL C2a + Haiku (5-judge primary) | Δ |
+| Subject | Letta block size | BL spec size | Letta block / BL spec | Letta block + Haiku (5-judge primary) | BL full-stack spec + Haiku (5-judge primary) | Δ |
 |---|---:|---:|---:|---:|---:|---:|
-| Hamerton | 22,472 chars | 34,579 chars | 0.65× | full-stack BL = 2.77; matched-rerun Letta block = 2.91 | C2a (BL spec only) = 2.63 | **+0.14** (5-judge primary, Letta block vs BL C4a) |
-| Ebers | 68,413 chars | 39,708 chars | 1.72× | matched-rerun = 3.12 | C4a (facts+spec) = 2.07 | **+1.05** |
-| Babur | 335,349 chars (saturated at chunk 220/242) | 37,063 chars | 9.0× | matched-rerun = 2.55 | C4a = 2.01 | **+0.54** |
+| Hamerton | 22,472 chars | 34,579 chars | 0.65× | 3.10 | 2.83 | **+0.27** |
+| Ebers | 68,413 chars | 39,708 chars | 1.72× | 2.76 | 1.56 | **+1.21** |
+| Babur | 335,349 chars (saturated at chunk 220/242) | 37,063 chars | 9.0× | 2.42 | 2.04 | **+0.38** |
 
-5-judge primary numbers as cited in v10.1 §4.5 and KEY_FINDINGS M5. Δ values are computed on matched response model. Hamerton block-vs-spec ratio 0.65 from S113 measurement; the matched-rerun comparison is the v10.1-canonical version. See `docs/research/letta_stateful_matched_rerun.md` for the full per-subject breakdown.
+5-judge primary numbers, canonical source `docs/research/_letta_rerun/fullstack_named/5judge_fullstack_results.json`; agree exactly with paper Appendix G.2 and KEY_FINDINGS M5. The comparison baseline is Base Layer's **full-stack Behavioral Specification** (anchors + core + predictions + brief), the same artifact class used in the main-study gradient, at matched response model (Haiku). Hamerton's score is the full-stack spec scored with the consistent short-form judge prompt; Ebers and Bābur are full-stack regenerations on the Letta battery. The earlier 7K-char unified-brief run (Hamerton 2.96 / Ebers 1.72 / Bābur 1.88, Δ +0.14 / +1.05 / +0.54) is superseded and no longer cited in the paper; superseded source `docs/research/_letta_rerun/5judge_primary_results.json`. Reconciliation: `docs/reviews/v12_1_data_naming_review_20260513.md`.
+
+**Direction preserved across all three subjects:** Letta's self-edited block scores higher than the full-stack Behavioral Specification at matched response model on all three. This is the strongest single result in the Letta case study and is reported in Appendix G.
 
 **Hamerton corpus / Letta block scaling:**
 - Hamerton: 25,231 source words → 22,472-char block (full ingestion)
@@ -311,7 +313,7 @@ Wilcoxon (low-baseline, controlled): Zep p = 0.0004, Letta p = 0.0017 robust at 
 
 Numbers from v10.1 §4.2 per-subject compression table (line 791, Hamerton row). 7-judge sensitivity values (S113) are higher across the board: C8=2.32, C9=3.22, C4a=3.22, C4=2.53, C2a=3.04, C5=1.25; see legacy values archived in this section for reference. Direction is identical across panels.
 
-**Per-subject low-baseline aggregate (v10.1 §4.2, line 777):** mean C5 = 1.52; mean C2a = 2.23; mean C4 = 2.35; mean C8 = 2.45; mean C4a = 2.45; mean C9 = 2.50. Mean C8 − C2a gap = +0.22.
+**Per-subject low-baseline aggregate (v12.1 §4.2):** mean C5 = 1.52; mean C2a = 2.23; mean C4 = 2.35; mean C8 = 2.45; mean C4a = 2.45; mean C9 = 2.59. Mean C8 − C2a gap = +0.22. (C9 updated 2026-05-13 from 2.50 → 2.59 to reflect the 2026-05-11 Bernal Díaz C9 5-judge-primary rerun; the §4.2 compression Δs are being standardized to the symmetric 9-row computation in v12.1 — see `docs/reviews/v12_1_compression_table_recompute_20260513.md`.)
 
 **Interpretation (bounded):**
 - Information is not what's missing: C4 (all facts, no spec) at 7,723 tokens scores 2.43, while C2a (spec alone) at 7,320 tokens scores 2.63 on Hamerton. Same token budget, ~+0.20 lift from the structured spec.
@@ -450,3 +452,37 @@ See §7 above for full Letta stateful-agent results across the n=3 subject set. 
 | Wins-analysis pipeline state snapshot | `docs/research/wins_analysis_pipeline_state_20260428.md` |
 
 Any discrepancy between this document and the v11 paper draft should be resolved in favor of the v11 paper. v11 is the citable canonical artifact (release-frozen 2026-04-28); this document mirrors v11's 5-judge primary panel, sensitivity reframing, and v11-specific claims (per-question variance, multi-anchor jumps, two statistical signatures, predicate ablation, held-out leakage, Hamerton spec confound). v10.1 is preserved as historical baseline at `docs/beyond_recall_v10_1_draft.md` for reference; v11 headline numbers carry forward from v10.1 unchanged with the additions noted in the v11 numerical-additions subsection above.
+
+---
+
+## Addendum 2026-05-07 — C4 (facts only) coverage and the spec-ceiling reconciliation
+
+Two findings landed during the v11.8 §4.1 walk that affect this reference:
+
+### C4 (facts only) means recomputed for mid-baseline subjects
+
+Earlier drafts of the §4.1 per-subject table omitted C4 (facts only) values for mid-baseline subjects, claiming C4 was run on the 9 low-baseline subjects only. The data shows otherwise: all 5 mid-baseline subjects have C4_factdump entries judged by all 5 primary judges (haiku, sonnet, opus, gpt4o, gpt54) at 39 questions each, sourced from `results/global_<subject>/judgments_v2.json`. Recompute via canonical 5-judge primary aggregation (per-question 5-judge mean, then mean across questions) 2026-05-07:
+
+| Subject (mid-baseline) | C5 | C4 (facts only, 5-judge primary) | C4a | Δ C4a−C5 | Δ C4a−C4 |
+|---|---:|---:|---:|---:|---:|
+| zitkala_sa | 2.34 | **2.10** | 2.02 | −0.32 | **−0.08** |
+| cellini | 2.38 | **2.42** | 2.53 | +0.15 | **+0.11** |
+| rousseau | 2.44 | **2.32** | 2.53 | +0.10 | **+0.21** |
+| augustine | 2.58 | **2.56** | 2.70 | +0.11 | **+0.14** |
+| equiano | 2.77 | **2.43** | 2.42 | −0.35 | **−0.01** |
+
+Mid-baseline mean Δ C4a−C4 = **+0.07** (parallel to low-baseline mean +0.09; the Spec-on-facts increment is small and mixed in sign across both bands).
+
+**Franklin C4 was NOT scored on the 5-judge primary panel.** Franklin C4_factdump responses were generated and live in `results/franklin/results.json` and `results/franklin_legacy_20260411/results.json`, but per `results/franklin/judgments.json` Franklin was scored only by haiku + gemini (legacy 2-judge). Franklin C4 cells stay dashed in §4.1 table and any subsequent paper-wide table that includes Franklin.
+
+### Spec-ceiling value reconciliation: 2.44 vs 2.46 (paper-wide audit pending)
+
+§1 line 93 of this document: "Mean C4a across all 14 = **2.44**". §2 line 109 (this document, pre-fix 2026-05-07): "the spec produces a roughly constant C4a near 2.46". Internal inconsistency. Recompute from the §1 per-subject table 14-row mean = 2.439 ≈ **2.44**. §2 fixed 2026-05-07.
+
+Memory entry `project_v11_8_anchor_crossing_prominence.md` flags that the "2.46 ceiling" framing also appears in the paper's §1.3, §4.2, §5.1, §5.2, and abstract. Either 2.44 is canonical paper-wide (mechanically derived from per-subject means under 5-judge primary) and the other sections need updating, or 2.46 is a different aggregation (7-judge sensitivity, low-baseline-only subset, or another denominator) that should be made explicit. **Paper-wide reconciliation pending; audit task added.**
+
+### Mechanistic figure-check principle (Aarik's directive 2026-05-07)
+
+Numerical claims in the paper need a recompute-from-source pipeline, not manual reading. The C4 mid-baseline omission and the 2.44 vs 2.46 inconsistency both escaped the prior numerical claims audit (`docs/reviews/numerical_claims_audit_v11_8_20260505.md` found P0 = 0, P1 = 0). The audit was reading-paper-claim vs reading-data-summary, not recomputing-from-source.
+
+**Paper-wide infrastructure task:** build `scripts/recompute_paper_numbers.py` that ingests every numerical claim in the paper (body + footnotes + figure captions + appendices) and recomputes against canonical data files (`judgments_v2.json`, anchor-crossing JSON files, retrieval-overlap JSON files), with an automated discrepancy report. This becomes part of the §8 reproducibility commitment and a launch-blocking gate per the master release roadmap.

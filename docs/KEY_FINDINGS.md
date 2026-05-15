@@ -1,9 +1,9 @@
 # Key Findings
 
 **Paper:** Beyond Recall: Behavioral Specification as an Interpretive Layer for AI Personalization
-**Canonical paper draft:** `docs/beyond_recall_v11_8_draft.md` (v11.8, active edit branch as of 2026-05-05). v11.9 will lock figures, data, and repo state. v12 is the planned release.
-**Generated:** 2026-04-18 (Session 113). Last updated: 2026-05-05 (v11.8 active edit; final repo scan pending paper lock).
-**Source of truth for numbers:** `docs/DATA_REFERENCE.md` (synced to v11.8's 5-judge primary panel).
+**Canonical paper draft:** `docs/beyond_recall_v12_1_draft.md` (v12.1, active edit branch as of 2026-05-13 — applying Aarik's 211-comment review pass + final-checks audit fixes). v12 docx retained as historical baseline with comments preserved.
+**Generated:** 2026-04-18 (Session 113). Last updated: 2026-05-13 (v12.1 fork; final-checks audits landed; data + repo lock in progress).
+**Source of truth for numbers:** `docs/DATA_REFERENCE.md` (5-judge primary panel; v12.1 reconciliation in progress).
 
 This document catalogs every finding the study produced. Each entry includes: the finding, the evidence, and the paper section that contains it. Findings are grouped as MAJOR (load-bearing for the paper's central claim) or MINOR (supporting observations and side findings).
 
@@ -231,28 +231,28 @@ Both wrong-spec controls score below correct-spec; v1 scores below baseline. The
 
 ## M5. Letta stateful-agent path produces a representation in the same prediction band as Base Layer's spec — at matched response model (n=3, exploratory)
 
-**Finding:** Letta's signature mechanism (stateful self-editing memory blocks during multi-turn conversation) produces an interpretive representation that, when fed to the same response model used elsewhere in the study, scores higher than Base Layer's compressed-brief variant on all three subjects tested. v10.1 §4.5 reports this as an exploratory case study at n=3, not as a primary result.
+**Finding:** Letta's signature mechanism (stateful self-editing memory blocks during multi-turn conversation) produces an interpretive representation that, when fed to the same response model used elsewhere in the study, scores higher than Base Layer's full-stack specification on all three subjects tested. v12.1 §4.5 reports this as an exploratory case study at n=3, not as a primary result.
 
-**Evidence (5-judge primary, v10.1 §4.5 line 2426; Letta block → Haiku vs. Base Layer unified brief → Haiku):**
+**Evidence (5-judge primary; Letta block → Haiku vs. Base Layer full-stack spec → Haiku):**
 
-| Subject | Letta block → Haiku | BL unified brief → Haiku | Δ (Letta − BL) |
+| Subject | Letta block → Haiku | BL full-stack spec → Haiku | Δ (Letta − BL) |
 |---|---:|---:|---:|
-| Hamerton | 3.10 | 2.96 | **+0.14** |
-| Ebers | 2.76 | 1.72 | **+1.05** |
-| Babur | 2.42 | 1.88 | **+0.54** |
+| Hamerton | 3.10 | 2.83 | **+0.27** |
+| Ebers | 2.76 | 1.56 | **+1.21** |
+| Babur | 2.42 | 2.04 | **+0.38** |
 
-The Base Layer side of this comparison loaded the unified brief variant (~7K-character synthesized document), not the full layered stack (anchors + core + predictions + brief) that v10.1 §4.4's controlled and native conditions use. A robustness rerun against the full layered stack preserves direction on all three subjects (Δ_Letta−BL = +0.27 / +1.21 / +0.38 on Hamerton / Ebers / Babur; full report at `docs/research/_letta_rerun/fullstack_named/RESULTS.md`). The gap widens at the two smaller corpora and narrows at Babur.
+The Base Layer side of this comparison is the full-stack Behavioral Specification (anchors + core + predictions + brief), the same artifact class used in v12.1 §4.4's controlled and native conditions; per-subject sizes 34.6K / 39.7K / 37.1K characters. Hamerton's score is the full-stack spec scored with the consistent short-form judge prompt; Ebers and Bābur are full-stack regenerations on the Letta battery. Direction is preserved on all three subjects, with the gap widest at the mid-corpus subject (Ebers). Full report at `docs/research/_letta_rerun/fullstack_named/RESULTS.md`. The earlier 7K-char unified-brief run (Δ +0.14 / +1.05 / +0.54) is superseded; reconciliation at `docs/reviews/v12_1_data_naming_review_20260513.md`.
 
 **Letta block sizes:**
 - Hamerton: 22,472 chars (~5,600 tokens), 0.65× BL spec size; full ingestion
 - Ebers: 68,413 chars, 1.72× BL spec size; full ingestion
 - Babur: 335,349 chars (saturated at ~333K, last 22 of 242 chunks failed to ingest); 9.0× BL spec size; 25.4% verbatim sentence duplication at the ceiling
 
-**7-judge sensitivity:** Hamerton **+0.09**, Ebers **+0.75** (~0.746 unrounded), Babur **+0.232**. Direction matches; the 5-judge primary is the wider gap on Ebers and Babur because excluding Gemini removes its inflation of BL scores on those subjects (v10.1 §4.5 line 2462).
+**7-judge sensitivity (superseded 7K-char run):** Hamerton **+0.09**, Ebers **+0.75** (~0.746 unrounded), Babur **+0.232**. These 7-judge values are for the deprecated 7K-char unified-brief run; a 7-judge sensitivity pass on the full-stack rerun has not been run (the full-stack rerun is 5-judge primary only). Direction matched on the 7K run.
 
-**Caveats (v10.1 §4.5):** N=3, one Letta version, one response model (Haiku), small selected sample of corpus sizes. Multi-subject replication across the full 14-subject gradient is the highest-priority external falsification (§7.5).
+**Caveats (v12.1 §4.5):** N=3, one Letta version, one response model (Haiku), small selected sample of corpus sizes. Multi-subject replication across the full 14-subject gradient is the highest-priority external falsification (§7.5).
 
-**Paper:** v10.1 §4.5 (Letta Stateful-Agent Case Study), table at line 2426. **DATA_REFERENCE:** §7.
+**Paper:** v12.1 §4.5 (Letta Stateful-Agent Case Study), Appendix G. **DATA_REFERENCE:** §7.
 
 ## M6. Letta's stateful-agent compression does not scale — and we observed the ceiling
 
@@ -378,7 +378,7 @@ Both rules agree in direction and magnitude: baseline hedges at roughly 4 to 20 
 
 ## m7. Letta's archival-retrieval path is not its strength
 
-**Finding:** Letta's source-attachment / archival-retrieval path (tested in v10.1 §4.4) produces near-null spec-delta in the native config (−0.02 on the 5-judge primary, all 14) and modest positive in controlled (+0.20 5-judge primary). Letta's signature mechanism is the stateful-agent path (§4.5, M5), which produces an interpretive memory block that, served to Haiku, scores higher than the BL unified brief on all three subjects tested (5-judge primary Δ +0.14 / +1.05 / +0.54). The architecture that does the interpretive work is the conversation loop with memory-block editing, not the archival store.
+**Finding:** Letta's source-attachment / archival-retrieval path (tested in v10.1 §4.4) produces near-null spec-delta in the native config (−0.02 on the 5-judge primary, all 14) and modest positive in controlled (+0.20 5-judge primary). Letta's signature mechanism is the stateful-agent path (§4.5, M5), which produces an interpretive memory block that, served to Haiku, scores higher than the BL full-stack specification on all three subjects tested (5-judge primary Δ +0.27 / +1.21 / +0.38). The architecture that does the interpretive work is the conversation loop with memory-block editing, not the archival store.
 
 **Paper:** v10.1 §4.4 scope caveat, §4.5.
 
@@ -564,7 +564,7 @@ All numbers below are 5-judge primary unless explicitly marked as 7-judge sensit
 - n=3 subjects tested (Hamerton, Ebers, Babur) (M5, M6, M7).
 - Scaling ceiling: block grows linearly with corpus size; saturates near Letta's per-message API ceiling (~333K characters, observed on Babur).
 - 25.4% verbatim sentence duplication at Babur scale (M7).
-- Letta block scores higher than BL unified brief at matched response model on all 3 subjects tested (5-judge primary Δ +0.14 / +1.05 / +0.54; full-stack BL rerun preserves direction at +0.27 / +1.21 / +0.38). v10.1 §4.5 reports this as exploratory at n=3, not a primary result. **Anonymization asymmetry** (Letta ingested named corpora; Base Layer authoring strips the subject name) is flagged as a methodological gap (§7.5).
+- Letta block scores higher than the BL full-stack specification at matched response model on all 3 subjects tested (5-judge primary Δ +0.27 / +1.21 / +0.38). v12.1 §4.5 reports this as exploratory at n=3, not a primary result. **Anonymization asymmetry** (Letta ingested named corpora; Base Layer authoring strips the subject name) is flagged as a methodological gap (§7.5).
 - Architecturally the only system in the study that autonomously builds an interpretive representation from multi-turn interaction.
 
 ## Zep

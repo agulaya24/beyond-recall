@@ -1,0 +1,44 @@
+subject,condition,paper_section,paper_line_hint,severity,judges_affected,primary_judge_failures,gemini_failures,n_questions_affected,failure_classes,notes
+global_babur,C9_raw_corpus_plus_spec,§4.2 retrieval-overlap,§4.2.1 / §4.4.1,P0,gemini_flash;gpt4o;gpt54;haiku;opus;sonnet,190,38,38,empty_response=228,C9_raw_corpus_plus_spec powers C8/C9 retrieval-overlap aggregates
+global_fukuzawa,C1_supermemory_fp,unknown,?,P3,gemini_flash;gpt4o;gpt54;haiku;opus;sonnet,170,34,34,empty_response=204,no clear paper link
+global_sunity_devee,C1_supermemory_fp,unknown,?,P3,gemini_flash;gpt4o;gpt54;haiku;opus;sonnet,170,34,34,empty_response=204,no clear paper link
+global_augustine,C1_supermemory_fp,unknown,?,P3,gemini_flash;gpt4o;gpt54;haiku;opus;sonnet,165,33,33,empty_response=198,no clear paper link
+global_ebers,C1_supermemory_fp,unknown,?,P3,gemini_flash;gpt4o;gpt54;haiku;opus;sonnet,150,30,30,empty_response=180,no clear paper link
+global_seacole,C1_supermemory_fp,unknown,?,P3,gemini_flash;gpt4o;gpt54;haiku;opus;sonnet,105,21,21,empty_response=126,no clear paper link
+global_equiano,C1_supermemory_fp,unknown,?,P3,gemini_flash;gpt4o;gpt54;haiku;opus;sonnet,85,17,17,empty_response=102,no clear paper link
+global_ebers,C1_mem0_fp,unknown,?,P3,gemini_flash;gpt4o;gpt54;haiku;opus;sonnet,10,2,2,empty_response=12,no clear paper link
+global_augustine,C1_baselayer,7-judge sensitivity panel,§4.6 sensitivity,P3,gemini_flash,0,39,39,http_429=6;empty_response=33,gemini-only — affects 7-judge α only
+global_augustine,C3_baselayer,7-judge sensitivity panel,§4.6 sensitivity,P3,gemini_flash,0,39,39,http_429=5;empty_response=34,gemini-only — affects 7-judge α only
+global_augustine,C1_supermemory,7-judge sensitivity panel,§4.6 sensitivity,P3,gemini_flash,0,2,2,no_score_extracted=2,gemini-only — affects 7-judge α only
+global_babur,C1_baselayer,7-judge sensitivity panel,§4.6 sensitivity,P3,gemini_flash,0,15,15,http_429=5;empty_response=10,gemini-only — affects 7-judge α only
+global_babur,C3_baselayer,7-judge sensitivity panel,§4.6 sensitivity,P3,gemini_flash,0,15,15,http_429=4;empty_response=11,gemini-only — affects 7-judge α only
+global_babur,C8_raw_corpus,7-judge sensitivity panel,§4.6 sensitivity,P3,gemini_flash,0,39,39,empty_response=39,gemini-only — affects 7-judge α only
+global_babur,C1_supermemory,7-judge sensitivity panel,§4.6 sensitivity,P3,gemini_flash,0,39,39,empty_response=39,gemini-only — affects 7-judge α only
+global_babur,C3_supermemory,7-judge sensitivity panel,§4.6 sensitivity,P3,gemini_flash,0,39,39,empty_response=39,gemini-only — affects 7-judge α only
+global_bernal_diaz,C1_baselayer,7-judge sensitivity panel,§4.6 sensitivity,P3,gemini_flash,0,39,39,http_429=33;empty_response=6,gemini-only — affects 7-judge α only
+global_bernal_diaz,C3_baselayer,7-judge sensitivity panel,§4.6 sensitivity,P3,gemini_flash,0,39,39,http_429=32;empty_response=7,gemini-only — affects 7-judge α only
+global_bernal_diaz,C8_raw_corpus,7-judge sensitivity panel,§4.6 sensitivity,P3,gemini_flash,0,39,39,http_403=34;empty_response=5,gemini-only — affects 7-judge α only
+global_bernal_diaz,C9_raw_corpus_plus_spec,7-judge sensitivity panel,§4.6 sensitivity,P3,gemini_flash,0,39,39,http_403=34;empty_response=5,gemini-only — affects 7-judge α only
+global_cellini,C1_baselayer,7-judge sensitivity panel,§4.6 sensitivity,P3,gemini_flash,0,39,39,http_429=11;empty_response=28,gemini-only — affects 7-judge α only
+global_cellini,C3_baselayer,7-judge sensitivity panel,§4.6 sensitivity,P3,gemini_flash,0,39,39,http_429=10;empty_response=29,gemini-only — affects 7-judge α only
+global_ebers,C1_baselayer,7-judge sensitivity panel,§4.6 sensitivity,P3,gemini_flash,0,39,39,http_429=39,gemini-only — affects 7-judge α only
+global_ebers,C3_baselayer,7-judge sensitivity panel,§4.6 sensitivity,P3,gemini_flash,0,39,39,http_429=39,gemini-only — affects 7-judge α only
+global_equiano,C1_baselayer,7-judge sensitivity panel,§4.6 sensitivity,P3,gemini_flash,0,39,39,http_429=26;empty_response=13,gemini-only — affects 7-judge α only
+global_equiano,C3_baselayer,7-judge sensitivity panel,§4.6 sensitivity,P3,gemini_flash,0,39,39,http_429=26;empty_response=13,gemini-only — affects 7-judge α only
+global_equiano,C1_supermemory,7-judge sensitivity panel,§4.6 sensitivity,P3,gemini_flash,0,28,28,no_score_extracted=28,gemini-only — affects 7-judge α only
+global_fukuzawa,C1_baselayer,7-judge sensitivity panel,§4.6 sensitivity,P3,gemini_flash,0,39,39,http_429=23;empty_response=16,gemini-only — affects 7-judge α only
+global_fukuzawa,C3_baselayer,7-judge sensitivity panel,§4.6 sensitivity,P3,gemini_flash,0,39,39,http_429=23;empty_response=16,gemini-only — affects 7-judge α only
+global_keckley,C1_baselayer,7-judge sensitivity panel,§4.6 sensitivity,P3,gemini_flash,0,39,39,http_403=39,gemini-only — affects 7-judge α only
+global_keckley,C3_baselayer,7-judge sensitivity panel,§4.6 sensitivity,P3,gemini_flash,0,39,39,http_403=39,gemini-only — affects 7-judge α only
+global_rousseau,C1_baselayer,7-judge sensitivity panel,§4.6 sensitivity,P3,gemini_flash,0,39,39,http_429=20;empty_response=19,gemini-only — affects 7-judge α only
+global_rousseau,C3_baselayer,7-judge sensitivity panel,§4.6 sensitivity,P3,gemini_flash,0,39,39,http_429=19;empty_response=20,gemini-only — affects 7-judge α only
+global_rousseau,C8_raw_corpus,7-judge sensitivity panel,§4.6 sensitivity,P3,gemini_flash,0,39,39,empty_response=39,gemini-only — affects 7-judge α only
+global_rousseau,C9_raw_corpus_plus_spec,7-judge sensitivity panel,§4.6 sensitivity,P3,gemini_flash,0,39,39,empty_response=39,gemini-only — affects 7-judge α only
+global_rousseau,C1_supermemory,7-judge sensitivity panel,§4.6 sensitivity,P3,gemini_flash,0,39,39,empty_response=39,gemini-only — affects 7-judge α only
+global_rousseau,C3_supermemory,7-judge sensitivity panel,§4.6 sensitivity,P3,gemini_flash,0,39,39,empty_response=39,gemini-only — affects 7-judge α only
+global_seacole,C1_baselayer,7-judge sensitivity panel,§4.6 sensitivity,P3,gemini_flash,0,39,39,empty_response=39,gemini-only — affects 7-judge α only
+global_seacole,C3_baselayer,7-judge sensitivity panel,§4.6 sensitivity,P3,gemini_flash,0,39,39,empty_response=39,gemini-only — affects 7-judge α only
+global_sunity_devee,C1_baselayer,7-judge sensitivity panel,§4.6 sensitivity,P3,gemini_flash,0,39,39,empty_response=39,gemini-only — affects 7-judge α only
+global_sunity_devee,C3_baselayer,7-judge sensitivity panel,§4.6 sensitivity,P3,gemini_flash,0,39,39,empty_response=39,gemini-only — affects 7-judge α only
+global_yung_wing,C1_baselayer,7-judge sensitivity panel,§4.6 sensitivity,P3,gemini_flash,0,39,39,empty_response=39,gemini-only — affects 7-judge α only
+global_yung_wing,C3_baselayer,7-judge sensitivity panel,§4.6 sensitivity,P3,gemini_flash,0,39,39,empty_response=39,gemini-only — affects 7-judge α only
