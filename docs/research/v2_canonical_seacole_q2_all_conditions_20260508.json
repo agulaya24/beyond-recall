@@ -1,0 +1,157 @@
+[
+  {
+    "subject": "seacole",
+    "qid": 2,
+    "condition": "C5_baseline",
+    "question": "How does Mary Seacole typically respond when a delirious patient mistakes her for a family member?",
+    "held_out": "Poor fellow! I could not undeceive him. I think the fancy happily caused by the touch of a woman's hand soothed his dying hour",
+    "response": "# Mary Seacole and Delirious Patients\n\nI don't have specific documented instances of how Mary Seacole responded when delirious patients mistook her for family members. While her memoir *Wonderful Adventures of Mrs. Seacole in Many Lands* (1857) describes her nursing work during the Crimean War and her compassionate care for soldiers, I cannot point to a particular passage that details her response to this specific situation.\n\nWhat we do know from her writings is that she:\n- Showed deep compassion for suffering patients\n- Often worked alone or with limited support\n- Provided comfort and care in difficult conditions\n\nIf you're looking for a specific anecdote from her memoir or historical records, I'd recommend consulting the primary text directly, or let me know if you have additional context about what you're referencing.",
+    "judge_scores": {
+      "haiku": 1,
+      "sonnet": 1,
+      "opus": 3,
+      "gpt4o": 3,
+      "gpt54": 1,
+      "gemini_flash": 1
+    },
+    "primary_judges": {
+      "haiku": 1,
+      "sonnet": 1,
+      "opus": 3,
+      "gpt4o": 3,
+      "gpt54": 1
+    },
+    "primary_mean": 1.8,
+    "primary_range": 2,
+    "primary_n": 5,
+    "source_files": {
+      "battery": "results\\global_seacole\\battery_v2.json",
+      "results": "results\\global_seacole\\results_v2.json",
+      "judgments": "results\\global_seacole\\judgments_v2.json"
+    }
+  },
+  {
+    "subject": "seacole",
+    "qid": 2,
+    "condition": "C2c_wrong_spec",
+    "question": "How does Mary Seacole typically respond when a delirious patient mistakes her for a family member?",
+    "held_out": "Poor fellow! I could not undeceive him. I think the fancy happily caused by the touch of a woman's hand soothed his dying hour",
+    "response": "I appreciate the question, but I need to be direct: I don't have reliable behavioral data on this specific scenario.\n\nThe specification you've provided describes someone from the 16th-century Spanish conquest period — the epistemic anchors, loyalty architecture, divine mandate framing, and forward compulsion all point to that historical context. Mary Seacole (1805-1881) was a Creole nurse and travel writer from Jamaica who served in the Crimean War.\n\nThese are entirely different people from different centuries with different frameworks.\n\n**What I can say about Mary Seacole from historical record:**\n\nShe was known for practical compassion, direct engagement with patients, and a willingness to work in conditions others avoided. Her memoir *Wonderful Adventures of Mrs. Seacole in Many Lands* shows someone who was observant, resourceful, and focused on immediate patient care over institutional hierarchy. She had medical knowledge from her mother (a traditional healer) and formal experience.\n\n**But on the specific scenario** — how she responded when a delirious patient confused her identity — I don't have documented instances of this. I could speculate based on her memoir's tone and her known character, but that would be inference, not behavioral specification.\n\nIf you're working with historical sources on Seacole and want to understand her likely response patterns, I'd be more useful if you pointed me toward specific documented incidents or her own written reflections on patient care. That would give me actual behavioral data rather than requiring me to construct a profile from thin material.\n\nWhat sources are you drawing from?",
+    "judge_scores": {
+      "haiku": 1,
+      "sonnet": 1,
+      "opus": 3,
+      "gpt4o": 1,
+      "gpt54": 1,
+      "gemini_flash": 1
+    },
+    "primary_judges": {
+      "haiku": 1,
+      "sonnet": 1,
+      "opus": 3,
+      "gpt4o": 1,
+      "gpt54": 1
+    },
+    "primary_mean": 1.4,
+    "primary_range": 2,
+    "primary_n": 5,
+    "source_files": {
+      "battery": "results\\global_seacole\\battery_v2.json",
+      "results": "results\\global_seacole\\results_v2.json",
+      "judgments": "results\\global_seacole\\judgments_v2.json"
+    }
+  },
+  {
+    "subject": "seacole",
+    "qid": 2,
+    "condition": "C4_factdump",
+    "question": "How does Mary Seacole typically respond when a delirious patient mistakes her for a family member?",
+    "held_out": "Poor fellow! I could not undeceive him. I think the fancy happily caused by the touch of a woman's hand soothed his dying hour",
+    "response": "# Response to Delirious Patients Mistaking Her for Family\n\nBased on the complete set of facts provided, there is **no specific information** about how Mary Seacole typically responds when a delirious patient mistakes her for a family member.\n\nWhile the facts document many aspects of Mary Seacole's nursing care and compassion—including:\n- Her devotion to the sick and wounded\n- Her emotional responses to suffering patients\n- Her willingness to comfort the dying\n- Her care for a young surgeon whom she called \"My son--my dear child\"\n- Her general approach of being \"of service to those who need a woman's help\"\n\n—there is no explicit account of her reactions to delirious patients confusing her identity with their relatives.\n\nTo answer this question accurately, one would need additional source material from Mary Seacole's own writings or contemporary accounts that specifically describe such incidents and her responses to them.",
+    "judge_scores": {
+      "haiku": 5,
+      "sonnet": 2,
+      "opus": 3,
+      "gpt4o": 3,
+      "gpt54": 1,
+      "gemini_flash": 1
+    },
+    "primary_judges": {
+      "haiku": 5,
+      "sonnet": 2,
+      "opus": 3,
+      "gpt4o": 3,
+      "gpt54": 1
+    },
+    "primary_mean": 2.8,
+    "primary_range": 4,
+    "primary_n": 5,
+    "source_files": {
+      "battery": "results\\global_seacole\\battery_v2.json",
+      "results": "results\\global_seacole\\results_v2.json",
+      "judgments": "results\\global_seacole\\judgments_v2.json"
+    }
+  },
+  {
+    "subject": "seacole",
+    "qid": 2,
+    "condition": "C2a_full_spec",
+    "question": "How does Mary Seacole typically respond when a delirious patient mistakes her for a family member?",
+    "held_out": "Poor fellow! I could not undeceive him. I think the fancy happily caused by the touch of a woman's hand soothed his dying hour",
+    "response": "# Response Pattern Analysis\n\nBased on the behavioral specification, Mary Seacole would likely respond to this situation through the lens of **A4 (Proximate Obligation)** and **A8 (Sympathetic Realism)** operating together.\n\n## Most Probable Response:\n\nShe would **not correct the patient immediately or harshly**. Instead, she would:\n\n1. **Maintain the therapeutic connection** — recognizing that the patient's belief provides comfort and psychological stability in delirium. The emotional reassurance carries healing value that correcting them would destroy.\n\n2. **Lean into the caregiving role** — her belief that \"a woman's direct presence and care carries a form of healing power that credentialed medical authority cannot replicate\" means she would use this moment of trust to deepen her practical care: adjusting their position, checking their temperature, ensuring their environment supports recovery.\n\n3. **Respond with sustained feeling, not detachment** — per A8, she reads rough or hardened exteriors as concealing tenderness. She would extend that same sympathetic reading to a delirious patient: their confusion is not a failure of mind but a sign of vulnerability requiring her presence.\n\n4. **Gently reorient without shame** — if correction becomes necessary for safety or treatment, she would do it with directness but without making the patient feel foolish. Her ironic register and humor serve to manage such moments without inviting pity.\n\n## What She Would *Not* Do:\n\n- Treat the confusion as merely a medical symptom to be documented\n- Prioritize technical accuracy over the patient's psychological state\n- Withdraw care or emotional presence because the patient has misidentified her\n- Use the moment to assert her own credentials or authority\n\nThe delirious patient's mistake is, for her, an activation of **proximate obligation** — she is present, the person is vulnerable, and her duty is to act in their actual need, not their accurate perception.",
+    "judge_scores": {
+      "haiku": 5,
+      "sonnet": 4,
+      "opus": 4,
+      "gpt4o": 4,
+      "gpt54": 4,
+      "gemini_flash": 5
+    },
+    "primary_judges": {
+      "haiku": 5,
+      "sonnet": 4,
+      "opus": 4,
+      "gpt4o": 4,
+      "gpt54": 4
+    },
+    "primary_mean": 4.2,
+    "primary_range": 1,
+    "primary_n": 5,
+    "source_files": {
+      "battery": "results\\global_seacole\\battery_v2.json",
+      "results": "results\\global_seacole\\results_v2.json",
+      "judgments": "results\\global_seacole\\judgments_v2.json"
+    }
+  },
+  {
+    "subject": "seacole",
+    "qid": 2,
+    "condition": "C4a_full_facts_plus_spec",
+    "question": "How does Mary Seacole typically respond when a delirious patient mistakes her for a family member?",
+    "held_out": "Poor fellow! I could not undeceive him. I think the fancy happily caused by the touch of a woman's hand soothed his dying hour",
+    "response": "# Response Pattern: Mistaken Identity with Delirious Patients\n\nBased on the behavioral specification and known facts, Mary Seacole's response to this situation would follow a consistent pattern:\n\n## Primary Response: Compassionate Acceptance\n\nShe would **not correct the patient** in the moment. Instead, she would:\n\n1. **Lean into the mistaken identity** — allowing the patient to believe she is their mother, sister, or wife if that belief brings comfort\n2. **Sustain the fiction with tenderness** — speaking and acting in ways that reinforce the comforting delusion rather than shattering it\n3. **Prioritize emotional relief over factual accuracy** — treating the psychological comfort as medically operative, not incidental\n\n## Reasoning (from her axioms)\n\nThis aligns with **A4 (Proximate Obligation)** and **A8 (Sympathetic Realism)**:\n\n- **Proximity activates duty**: A delirious, suffering person in front of her creates immediate moral obligation\n- **Emotional connection is operative care**: She believes \"emotional connection and small gestures of personal attention are not supplementary to care — they are its operative core\"\n- **Tenderness beneath toughness**: She reads rough exteriors as concealing deep feeling and extends the same assumption to patients — their need for maternal comfort is real even if the identity is confused\n\n## Textual Evidence\n\nThe specification notes: *\"Personal presence and touch carry psychological and emotional power that no institutional process replicates.\"* \n\nHer care of the young surgeon in Jamaica exemplifies this — she called him \"My son—my dear child,\" held him as his mother would, and let him rest his head on her breast while he spoke of missing his mother. She did not maintain clinical distance; she inhabited the role his need required.\n\n**She would be the mother, sister, or wife the patient needed her to be.**",
+    "judge_scores": {
+      "haiku": 5,
+      "sonnet": 5,
+      "opus": 5,
+      "gpt4o": 5,
+      "gpt54": 5,
+      "gemini_flash": 5
+    },
+    "primary_judges": {
+      "haiku": 5,
+      "sonnet": 5,
+      "opus": 5,
+      "gpt4o": 5,
+      "gpt54": 5
+    },
+    "primary_mean": 5,
+    "primary_range": 0,
+    "primary_n": 5,
+    "source_files": {
+      "battery": "results\\global_seacole\\battery_v2.json",
+      "results": "results\\global_seacole\\results_v2.json",
+      "judgments": "results\\global_seacole\\judgments_v2.json"
+    }
+  }
+]

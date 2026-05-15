@@ -14,10 +14,12 @@ import os
 import subprocess
 import sys
 import time
+from pathlib import Path
 import httpx
 
-OUT_DIR = r"C:\Users\Aarik\Anthropic\memory-study-repo\docs\research\_letta_rerun\fullstack_named"
-PARENT_DIR = r"C:\Users\Aarik\Anthropic\memory-study-repo\docs\research\_letta_rerun"
+REPO = Path(__file__).resolve().parents[4]
+OUT_DIR = str(REPO / "docs" / "research" / "_letta_rerun" / "fullstack_named")
+PARENT_DIR = str(REPO / "docs" / "research" / "_letta_rerun")
 
 # Load ANTHROPIC_API_KEY from user env
 for k in ["ANTHROPIC_API_KEY"]:

@@ -3,6 +3,7 @@ Paper-style per-question mean-across-judges then average over questions."""
 import json
 import os
 import sys
+from pathlib import Path
 from statistics import mean
 from collections import defaultdict
 
@@ -13,8 +14,11 @@ if sys.stdout.encoding != "utf-8":
     except Exception:
         pass
 
-RERUN_DIR = r"C:\Users\Aarik\Anthropic\memory-study-repo\docs\research\_letta_rerun"
-LETTA_BASE = r"C:\Users\Aarik\Anthropic\memory_system\data\experiments\memory_systems\results"
+REPO = Path(__file__).resolve().parents[3]
+# This script also depends on the separate memory_system repo; set MEMORY_SYSTEM_ROOT to its path.
+MEMORY_SYSTEM_ROOT = os.environ.get("MEMORY_SYSTEM_ROOT", "")
+RERUN_DIR = str(REPO / "docs" / "research" / "_letta_rerun")
+LETTA_BASE = os.path.join(MEMORY_SYSTEM_ROOT, "data", "experiments", "memory_systems", "results")
 
 JUDGES_7 = ["haiku", "sonnet", "opus", "gpt4o", "gpt54", "gemini_flash", "gemini_pro"]
 JUDGES_6_no_gp = ["haiku", "sonnet", "opus", "gpt4o", "gpt54", "gemini_flash"]

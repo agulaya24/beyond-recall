@@ -1,9 +1,14 @@
-import json, sys
+import json, os, sys
+from pathlib import Path
 sys.stdout.reconfigure(encoding='utf-8')
 
+REPO = Path(__file__).resolve().parents[3]
+# This script also depends on the separate memory_system repo; set MEMORY_SYSTEM_ROOT to its path.
+MEMORY_SYSTEM_ROOT = os.environ.get("MEMORY_SYSTEM_ROOT", "")
+
 # Ebers
-p1 = 'C:/Users/Aarik/Anthropic/memory-study-repo/results/global_ebers/results_v2.json'
-p2 = 'C:/Users/Aarik/Anthropic/memory_system/data/experiments/memory_systems/results/global_ebers/letta_memory_haiku_results.json'
+p1 = str(REPO / 'results/global_ebers/results_v2.json')
+p2 = os.path.join(MEMORY_SYSTEM_ROOT, 'data/experiments/memory_systems/results/global_ebers/letta_memory_haiku_results.json')
 with open(p1, 'r', encoding='utf-8') as f:
     bl = json.load(f)
 with open(p2, 'r', encoding='utf-8') as f:
@@ -18,8 +23,8 @@ if mismatches:
         print(f'  Q{q}: BL="{b[:80]}" | Letta="{l[:80]}"')
 
 # Hamerton
-p1 = 'C:/Users/Aarik/Anthropic/memory-study-repo/results/hamerton/fullstack_haiku.json'
-p2 = 'C:/Users/Aarik/Anthropic/memory_system/data/experiments/memory_systems/results/run_fullstack_hamerton_20260411_231237/letta_memory_haiku_results.json'
+p1 = str(REPO / 'results/hamerton/fullstack_haiku.json')
+p2 = os.path.join(MEMORY_SYSTEM_ROOT, 'data/experiments/memory_systems/results/run_fullstack_hamerton_20260411_231237/letta_memory_haiku_results.json')
 with open(p1, 'r', encoding='utf-8') as f:
     bl = json.load(f)
 with open(p2, 'r', encoding='utf-8') as f:

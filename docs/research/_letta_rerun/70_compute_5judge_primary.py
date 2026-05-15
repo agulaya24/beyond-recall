@@ -14,6 +14,9 @@ import json, os
 from collections import defaultdict
 
 RERUN_DIR = os.path.dirname(os.path.abspath(__file__))
+# This script also depends on the separate memory_system repo; set MEMORY_SYSTEM_ROOT to its path.
+MEMORY_SYSTEM_ROOT = os.environ.get("MEMORY_SYSTEM_ROOT", "")
+MS_RESULTS = os.path.join(MEMORY_SYSTEM_ROOT, "data", "experiments", "memory_systems", "results")
 
 PRIMARY_JUDGES = ["haiku", "sonnet", "opus", "gpt4o", "gpt54"]
 
@@ -62,16 +65,16 @@ def aggregate(judgments_by_judge):
 
 # ========= LETTA STATEFUL (letta_memory_haiku) =========
 LETTA_PATHS = {
-    "hamerton": r"C:\Users\Aarik\Anthropic\memory_system\data\experiments\memory_systems\results\run_fullstack_hamerton_20260411_231237",
-    "ebers":    r"C:\Users\Aarik\Anthropic\memory_system\data\experiments\memory_systems\results\global_ebers",
-    "babur":    r"C:\Users\Aarik\Anthropic\memory_system\data\experiments\memory_systems\results\global_babur",
+    "hamerton": os.path.join(MS_RESULTS, "run_fullstack_hamerton_20260411_231237"),
+    "ebers":    os.path.join(MS_RESULTS, "global_ebers"),
+    "babur":    os.path.join(MS_RESULTS, "global_babur"),
 }
 
 letta_results = {}
 for subj, p in LETTA_PATHS.items():
     judgments = {}
     for j in PRIMARY_JUDGES:
-        judgments[j] = load_judgments(f"{p}\\letta_memory_haiku_judgments_{j}.json")
+        judgments[j] = load_judgments(os.path.join(p, f"letta_memory_haiku_judgments_{j}.json"))
     letta_results[subj] = aggregate(judgments)
 
 # ========= BL FULL-STACK (C2a_full_spec) =========

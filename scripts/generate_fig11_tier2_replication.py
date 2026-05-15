@@ -12,7 +12,7 @@ import seaborn as sns
 import numpy as np
 from pathlib import Path
 
-FIG_DIR = Path(r"C:\Users\Aarik\Anthropic\memory-study-repo\figures")
+FIG_DIR = Path(__file__).resolve().parents[1] / "figures"
 FIG_DIR.mkdir(parents=True, exist_ok=True)
 
 sns.set_theme(context='paper', style='whitegrid', palette='colorblind')

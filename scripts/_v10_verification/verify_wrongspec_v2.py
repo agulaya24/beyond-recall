@@ -14,7 +14,7 @@ from recompute_5judge_primary import (
     GLOBAL_SUBJECTS, MAIN_STUDY,
 )
 
-ROOT = Path('C:/Users/Aarik/Anthropic/memory-study-repo')
+ROOT = Path(__file__).resolve().parents[2]
 
 # Inspect the wrong_spec_v2 manifest
 print('=== wrong_spec_v2 manifest ===')

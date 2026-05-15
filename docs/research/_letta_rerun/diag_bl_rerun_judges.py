@@ -1,7 +1,8 @@
 """Check BL-side judge coverage in _letta_rerun for ebers, babur."""
 import json, os
+from pathlib import Path
 
-base = r"C:\Users\Aarik\Anthropic\memory-study-repo\docs\research\_letta_rerun"
+base = str(Path(__file__).resolve().parents[3] / "docs" / "research" / "_letta_rerun")
 
 for subj in ("ebers", "babur"):
     print(f"=== {subj} BL-C2a-named (rerun) ===")

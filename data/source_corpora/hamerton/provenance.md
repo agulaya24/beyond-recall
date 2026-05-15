@@ -22,7 +22,6 @@ Project Gutenberg eBooks are distributed in the public domain in the United Stat
 - **Words:** 213,266
 - **Paragraphs:** 2,486
 - **SHA-256:** `17e2a6c9c82e6a654f122ef0bcdb0d74e769f9147895f2759aa2121b6bc8eb6f`
-- **Migrated from:** `C:\Users\Aarik\Anthropic\memory_system\data\experiments\memory_systems\corpus\hamerton_autobiography_raw.txt`
 - **Migrated on:** 2026-05-05T21:43:49.456894+00:00
 
 ## How this corpus is consumed by the study pipeline

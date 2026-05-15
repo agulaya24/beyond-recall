@@ -19,7 +19,10 @@ gemini_key = os.environ['GEMINI_API_KEY']
 battery = json.load(open('data/experiments/memory_systems/battery/questions_80.json'))
 
 # Load full spec
-layers_dir = pathlib.Path('C:/Users/Aarik/Anthropic/hamerton_memory/data/identity_layers')
+# NOTE: the hamerton_memory subject environment lives outside this repo. Set
+# ANTHROPIC_ROOT to the directory that contains it; defaults to empty so a
+# missing path is obvious.
+layers_dir = pathlib.Path(os.environ.get("ANTHROPIC_ROOT", "")) / 'hamerton_memory' / 'data' / 'identity_layers'
 sections = []
 for ln, fn in [('ANCHORS', 'anchors_v4.md'), ('CORE', 'core_v4.md'), ('PREDICTIONS', 'predictions_v4.md')]:
     fp = layers_dir / fn

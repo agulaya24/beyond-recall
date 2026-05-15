@@ -41,7 +41,7 @@ None. All 199 chunk POSTs returned 2xx. No 401/402/429 observed. No retries need
 All outputs are at the **canonical script-local path** (where `run_option_b.py` actually writes):
 
 ```
-C:/Users/Aarik/Anthropic/memory_system/data/experiments/memory_systems/results/global_<subject>/
+memory_system/data/experiments/memory_systems/results/global_<subject>/    (in the separate memory_system repo)
   supermemory_fullpipeline_ingestion.json
   supermemory_fullpipeline_extracted.json
   supermemory_fullpipeline_retrieval.json

@@ -1,0 +1,17 @@
+{
+  "subject": "global_yung_wing",
+  "paper_cond": "C2a",
+  "raw_cond_label": "C2a_full_spec",
+  "qid": 2,
+  "judge": "gpt54",
+  "rubric": "original",
+  "score": 2,
+  "raw": "2",
+  "parse_failure": false,
+  "response_type": "substantive",
+  "response_text": "# Yung Wing's Response to the Viceroy: Strategic Mediation Through Education\n\nWhen the Viceroy asks what is best for China, Yung Wing does not answer directly with a political or military prescription. Instead, he redirects the question toward **educational transformation of China's rising generation** — positioning Western education as the foundational intervention from which all other improvements flow.\n\n## Why This Response\n\nThis choice reflects several of his core operating principles working in concert:\n\n**1. Structural Causation (A3) + Foundational Capacity (A5)**\nYung Wing treats visible dysfunction in China — military weakness, institutional corruption, technological lag — as symptoms of a deeper structural problem: the absence of a generation educated in Western knowledge and methods. Rather than proposing surface reforms (new weapons, administrative reorganization, diplomatic maneuvering), he identifies the *reproductive capacity* that would make all other improvements sustainable. Education is not one solution among others; it is the infrastructure that generates the capacity for all subsequent solutions.\n\n**2. Bridge Identity (A1) + Empirical Authority (A6)**\nHis position as the first Chinese graduate of a first-class American college gives him standing to make this claim with authority that others lack. He has *directly observed* what Western education produces — not theoretically, but in his own formation and in the American institutions he has studied. He is no",
+  "held_out": "The question came with such a force of meaning, that if I had not been forwarned by my friends a few evenings before, or if their hearts had not been set on the introduction of a machine shop, and they had not practically won the Viceroy over to their pet scheme, I might have been strongly tempted to launch forth upon my educational scheme as a reply to the question as to what was the best thing to do for China.",
+  "question_text": "What approach does Yung Wing take when the Viceroy asks him what is best for China, and why does he choose this particular response?",
+  "prior_delta": 1.2,
+  "timestamp": "2026-05-08T22:08:09.097953Z"
+}

@@ -1,0 +1,113 @@
+\begin{thebibliography}{17}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Bartlett(1932)]{bartlett1932}
+F.~C. Bartlett.
+\newblock \emph{Remembering: A Study in Experimental and Social Psychology}.
+\newblock Cambridge University Press, 1932.
+
+\bibitem[Chen et~al.(2025)Chen, Arditi, Sleight, Evans, and
+  Lindsey]{chen2025personavectors}
+Runjin Chen, Andy Arditi, Henry Sleight, Owain Evans, and Jack Lindsey.
+\newblock Persona vectors: Monitoring and controlling character traits in
+  language models.
+\newblock \emph{arXiv preprint arXiv:2507.21509}, 2025.
+
+\bibitem[Chhikara et~al.(2025)]{chhikara2025mem0}
+Prateek Chhikara et~al.
+\newblock Mem0: Building production-ready {AI} agents with scalable long-term
+  memory.
+\newblock \emph{arXiv preprint arXiv:2504.19413}, 2025.
+
+\bibitem[Hinton et~al.(2015)Hinton, Vinyals, and Dean]{hinton2015distilling}
+Geoffrey Hinton, Oriol Vinyals, and Jeff Dean.
+\newblock Distilling the knowledge in a neural network.
+\newblock In \emph{{NIPS} Deep Learning and Representation Learning Workshop},
+  2015.
+\newblock arXiv:1503.02531.
+
+\bibitem[Jain et~al.(2025)]{jain2025sycophancy}
+Sahaj Jain et~al.
+\newblock Interaction context often increases sycophancy in {LLMs}.
+\newblock \emph{arXiv preprint arXiv:2509.12517}, 2025.
+
+\bibitem[Jiang et~al.(2025)]{jiang2025knowme}
+Bowen Jiang et~al.
+\newblock Know me, respond to me: Benchmarking {LLMs} for dynamic user
+  profiling and personalized responses at scale.
+\newblock In \emph{Conference on Language Modeling ({COLM}) 2025}, 2025.
+\newblock arXiv:2504.14225.
+
+\bibitem[Lu et~al.(2026)]{lu2026assistantaxis}
+Chris Lu et~al.
+\newblock The assistant axis: Situating and stabilizing the default persona of
+  language models.
+\newblock \emph{arXiv preprint arXiv:2601.10387}, 2026.
+
+\bibitem[Maharana et~al.(2024)]{maharana2024locomo}
+Adyasha Maharana et~al.
+\newblock Evaluating very long-term conversational memory of {LLM} agents.
+\newblock In \emph{Annual Meeting of the Association for Computational
+  Linguistics ({ACL}) 2024}, 2024.
+\newblock arXiv:2402.17753.
+
+\bibitem[Packer et~al.(2023)]{packer2023memgpt}
+Charles Packer et~al.
+\newblock {MemGPT}: Towards {LLMs} as operating systems.
+\newblock \emph{arXiv preprint arXiv:2310.08560}, 2023.
+
+\bibitem[Rasmussen et~al.(2025)]{rasmussen2025zep}
+Preston Rasmussen et~al.
+\newblock {Zep}: A temporal knowledge graph architecture for agent memory.
+\newblock \emph{arXiv preprint arXiv:2501.13956}, 2025.
+
+\bibitem[Samuel et~al.(2025)]{samuel2025personagym}
+Vinay Samuel et~al.
+\newblock {PersonaGym}: Evaluating persona agents and {LLMs}.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  {EMNLP} 2025}, 2025.
+\newblock arXiv:2407.18416.
+
+\bibitem[Sharma et~al.(2023)]{sharma2023sycophancy}
+Mrinank Sharma et~al.
+\newblock Towards understanding sycophancy in language models.
+\newblock \emph{arXiv preprint arXiv:2310.13548}, 2023.
+
+\bibitem[Toubia et~al.(2025)]{toubia2025twin2k}
+Olivier Toubia et~al.
+\newblock {Twin-2K-500}: A dataset for building digital twins of over 2{,}000
+  people based on their answers to over 500 questions.
+\newblock \emph{arXiv preprint arXiv:2505.17479}, 2025.
+
+\bibitem[Verga et~al.(2024)]{verga2024juries}
+Pat Verga et~al.
+\newblock Replacing judges with juries: Evaluating {LLM} generations with a
+  panel of diverse models.
+\newblock \emph{arXiv preprint arXiv:2404.18796}, 2024.
+
+\bibitem[Wu et~al.(2025)]{wu2025longmemeval}
+Di~Wu et~al.
+\newblock {LongMemEval}: Benchmarking chat assistants on long-term interactive
+  memory.
+\newblock In \emph{International Conference on Learning Representations
+  ({ICLR}) 2025}, 2025.
+\newblock arXiv:2410.10813.
+
+\bibitem[Xiao et~al.(2026)]{xiao2026alpsbench}
+Jingxuan Xiao et~al.
+\newblock {AlpsBench}: An {LLM} personalization benchmark for real-dialogue
+  memorization and preference alignment.
+\newblock \emph{arXiv preprint arXiv:2603.26680}, 2026.
+
+\bibitem[Zheng et~al.(2023)]{zheng2023judging}
+Lianmin Zheng et~al.
+\newblock Judging {LLM-as-a-judge} with {MT-Bench} and chatbot arena.
+\newblock In \emph{Advances in Neural Information Processing Systems
+  ({NeurIPS}) 2023, Datasets and Benchmarks Track}, 2023.
+\newblock arXiv:2306.05685.
+
+\end{thebibliography}

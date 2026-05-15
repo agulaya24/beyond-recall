@@ -13,9 +13,11 @@ import re
 import subprocess
 import sys
 import time
+from pathlib import Path
 import httpx
 
-OUT_DIR = r"C:\Users\Aarik\Anthropic\memory-study-repo\docs\research\_letta_rerun\fullstack_named"
+REPO = Path(__file__).resolve().parents[4]
+OUT_DIR = str(REPO / "docs" / "research" / "_letta_rerun" / "fullstack_named")
 
 # Load API keys from user env
 for k in ("ANTHROPIC_API_KEY", "OPENAI_API_KEY"):

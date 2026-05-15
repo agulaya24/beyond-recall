@@ -1,6 +1,9 @@
 import json, sys
 from collections import defaultdict
+from pathlib import Path
 sys.stdout.reconfigure(encoding='utf-8')
+
+REPO = Path(__file__).resolve().parents[3]
 
 # Letta archival pipeline: C1_letta (retrieval only) vs C3_letta (retrieval + spec)
 # Per-question swing analysis on Ebers + Hamerton (paper says Ebers Δ=+0.6%, Hamerton Δ=+11.7%)
@@ -32,7 +35,7 @@ def per_q_means(by_cond):
     return means
 
 # Hamerton
-h_path = 'C:/Users/Aarik/Anthropic/memory-study-repo/results/hamerton/letta_fullpipeline_judgments_merged.json'
+h_path = str(REPO / 'results/hamerton/letta_fullpipeline_judgments_merged.json')
 h_bc = load_per_q_scores(h_path)
 h_means = per_q_means(h_bc)
 print('Hamerton conditions in letta_fullpipeline:', list(h_means.keys()))
@@ -42,7 +45,7 @@ h_c3 = [c for c in h_means if 'C3' in c or 'c3' in c]
 print('H C1 candidates:', h_c1, 'C3:', h_c3)
 
 # Ebers
-e_path = 'C:/Users/Aarik/Anthropic/memory-study-repo/results/global_ebers/letta_fullpipeline_judgments_merged.json'
+e_path = str(REPO / 'results/global_ebers/letta_fullpipeline_judgments_merged.json')
 e_bc = load_per_q_scores(e_path)
 e_means = per_q_means(e_bc)
 print('Ebers conditions:', list(e_means.keys()))

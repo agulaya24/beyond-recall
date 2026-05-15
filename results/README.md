@@ -51,4 +51,5 @@ Inputs: prompts and batteries from `data/`. Outputs: consolidated into `RESULTS_
 
 - Parse failures are encoded as `{"score": 0, "parse_failure": true}` in judgment files. Aggregating without filtering these will skew averages. The 5-judge primary recompute script handles this correctly.
 - Supermemory native ingestion failed for 4 subjects (Babur, Bernal Diaz, Cellini, Rousseau). Their `C1_supermemory_fp` responses are empty. Ingestion issue, not a judge issue.
+- The supermemory paid-tier rerun (files matching `supermemory_fullpipeline_*` beyond the bare `_retrieval.json`) is intentionally scoped to aggregate analysis; per-judge files exist for Augustine + Keckley only. The other 11 global subjects retain only `supermemory_fullpipeline_retrieval.json` from this rerun.
 - The 7-judge aggregate in `RESULTS_S113.json` is a flat all-judges-available aggregate. The 5-judge primary recompute is the reporting default going forward.

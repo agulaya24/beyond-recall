@@ -4,9 +4,11 @@ not just the diversity-balanced samples. Also split Hamerton (6-judge) from glob
 import json
 import os
 from collections import defaultdict
+from pathlib import Path
 from statistics import mean, stdev
 
-RESULTS_DIR = "C:/Users/Aarik/Anthropic/memory-study-repo/results"
+REPO = Path(__file__).resolve().parents[2]
+RESULTS_DIR = str(REPO / "results")
 
 # Rebuild full records list (same logic as _build_score_pool.py) but keep all records.
 subjects = sorted([d for d in os.listdir(RESULTS_DIR) if os.path.isdir(os.path.join(RESULTS_DIR, d))])

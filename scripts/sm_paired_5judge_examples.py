@@ -21,8 +21,8 @@ import json
 from pathlib import Path
 from statistics import mean
 
-RESULTS_ROOT = Path(r"C:/Users/Aarik/Anthropic/memory-study-repo/results")
-OUT_PATH = Path(r"C:/Users/Aarik/Anthropic/memory-study-repo/docs/research/_sm_paired_5judge.json")
+RESULTS_ROOT = Path(__file__).resolve().parents[1] / "results"
+OUT_PATH = Path(__file__).resolve().parents[1] / "docs" / "research" / "_sm_paired_5judge.json"
 
 PRIMARY_JUDGES = {"haiku", "sonnet", "opus", "gpt4o", "gpt54"}
 

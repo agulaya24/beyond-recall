@@ -1,0 +1,386 @@
+{
+  "generated": "2026-05-11",
+  "paper": "docs/beyond_recall_v11_9_9_draft.md",
+  "paper_referenced_files": [
+    {
+      "path": "docs/research/DATA_LOCKS.md",
+      "exists": true,
+      "size_bytes": 4004,
+      "paper_lines": [
+        128
+      ],
+      "paper_ref_count": 1,
+      "supplementary_refs": {}
+    },
+    {
+      "path": "docs/research/baselayer_c1_vs_c3_paired_analysis.md",
+      "exists": true,
+      "size_bytes": 18138,
+      "paper_lines": [
+        1483
+      ],
+      "paper_ref_count": 1,
+      "supplementary_refs": {}
+    },
+    {
+      "path": "docs/research/battery_v1_v2_cache_alignment_diagnostic_20260508.md",
+      "exists": true,
+      "size_bytes": 9508,
+      "paper_lines": [
+        803
+      ],
+      "paper_ref_count": 1,
+      "supplementary_refs": {}
+    },
+    {
+      "path": "docs/research/held_out_leakage_investigation_20260428.md",
+      "exists": true,
+      "size_bytes": 8435,
+      "paper_lines": [
+        905,
+        2243
+      ],
+      "paper_ref_count": 2,
+      "supplementary_refs": {}
+    },
+    {
+      "path": "docs/research/joint_battery_sensitivity_4_6_3_20260507.md",
+      "exists": true,
+      "size_bytes": 2883,
+      "paper_lines": [
+        1623
+      ],
+      "paper_ref_count": 1,
+      "supplementary_refs": {}
+    },
+    {
+      "path": "docs/research/letta_semantic_duplication_20260501.json",
+      "exists": true,
+      "size_bytes": 17608,
+      "paper_lines": [
+        1529
+      ],
+      "paper_ref_count": 1,
+      "supplementary_refs": {
+        "docs/supplementary/appendix_G_letta_full_case_study.md": [
+          47
+        ]
+      }
+    },
+    {
+      "path": "docs/research/letta_vs_spec_leakage_analysis_20260507.md",
+      "exists": true,
+      "size_bytes": 27930,
+      "paper_lines": [
+        1533
+      ],
+      "paper_ref_count": 1,
+      "supplementary_refs": {
+        "docs/supplementary/appendix_G_letta_full_case_study.md": [
+          47
+        ]
+      }
+    },
+    {
+      "path": "docs/research/letta_vs_spec_per_question_scores_20260507.csv",
+      "exists": true,
+      "size_bytes": 96688,
+      "paper_lines": [
+        1533
+      ],
+      "paper_ref_count": 1,
+      "supplementary_refs": {}
+    },
+    {
+      "path": "docs/research/mem0_letta_zep_c1_vs_c3_analysis.md",
+      "exists": true,
+      "size_bytes": 25727,
+      "paper_lines": [
+        1483
+      ],
+      "paper_ref_count": 1,
+      "supplementary_refs": {}
+    },
+    {
+      "path": "docs/research/multi_anchor_rates_all_pairs_20260430.json",
+      "exists": true,
+      "size_bytes": 135313,
+      "paper_lines": [
+        1067
+      ],
+      "paper_ref_count": 1,
+      "supplementary_refs": {}
+    },
+    {
+      "path": "docs/research/pattern_activation_deep_20260428.md",
+      "exists": true,
+      "size_bytes": 37564,
+      "paper_lines": [
+        2195
+      ],
+      "paper_ref_count": 1,
+      "supplementary_refs": {}
+    },
+    {
+      "path": "docs/research/per_system_anchor_crossing_20260427.json",
+      "exists": true,
+      "size_bytes": 46521,
+      "paper_lines": [
+        1377,
+        2291
+      ],
+      "paper_ref_count": 2,
+      "supplementary_refs": {}
+    },
+    {
+      "path": "docs/research/per_system_anchor_crossing_20260427.md",
+      "exists": true,
+      "size_bytes": 16159,
+      "paper_lines": [
+        1347
+      ],
+      "paper_ref_count": 1,
+      "supplementary_refs": {}
+    },
+    {
+      "path": "docs/research/permutation_test_4_1_gradient_20260507.md",
+      "exists": true,
+      "size_bytes": 2128,
+      "paper_lines": [
+        1627
+      ],
+      "paper_ref_count": 1,
+      "supplementary_refs": {}
+    },
+    {
+      "path": "docs/research/predicate_ablation_results_20260428.json",
+      "exists": true,
+      "size_bytes": 208356,
+      "paper_lines": [
+        2221
+      ],
+      "paper_ref_count": 1,
+      "supplementary_refs": {}
+    },
+    {
+      "path": "docs/research/question_category_audit.md",
+      "exists": true,
+      "size_bytes": 5284,
+      "paper_lines": [
+        2138,
+        2148,
+        2152,
+        2164
+      ],
+      "paper_ref_count": 4,
+      "supplementary_refs": {
+        "docs/supplementary/appendix_B_per_subject_paired_delta_tables.md": [
+          46
+        ],
+        "docs/supplementary/README.md": [
+          24
+        ]
+      }
+    },
+    {
+      "path": "docs/research/recompute_5judge_primary.md",
+      "exists": true,
+      "size_bytes": 4066,
+      "paper_lines": [
+        1593,
+        1735
+      ],
+      "paper_ref_count": 2,
+      "supplementary_refs": {}
+    },
+    {
+      "path": "docs/research/refusal_intent_classification.md",
+      "exists": true,
+      "size_bytes": 16260,
+      "paper_lines": [
+        1997
+      ],
+      "paper_ref_count": 1,
+      "supplementary_refs": {}
+    },
+    {
+      "path": "docs/research/retrieval_overlap_analysis_20260501.json",
+      "exists": true,
+      "size_bytes": 50136,
+      "paper_lines": [
+        1275,
+        1305
+      ],
+      "paper_ref_count": 2,
+      "supplementary_refs": {}
+    },
+    {
+      "path": "docs/research/retrieval_overlap_semantic_20260501.json",
+      "exists": true,
+      "size_bytes": 144154,
+      "paper_lines": [
+        1683
+      ],
+      "paper_ref_count": 1,
+      "supplementary_refs": {}
+    },
+    {
+      "path": "docs/research/rubric_handling_validity_full.json",
+      "exists": true,
+      "size_bytes": 516702,
+      "paper_lines": [
+        2456
+      ],
+      "paper_ref_count": 1,
+      "supplementary_refs": {}
+    },
+    {
+      "path": "docs/research/s114_anchor_crossing_examples.json",
+      "exists": true,
+      "size_bytes": 6626,
+      "paper_lines": [
+        430
+      ],
+      "paper_ref_count": 1,
+      "supplementary_refs": {}
+    },
+    {
+      "path": "docs/research/spec_activation_analysis.json",
+      "exists": true,
+      "size_bytes": 29110,
+      "paper_lines": [
+        1176
+      ],
+      "paper_ref_count": 1,
+      "supplementary_refs": {}
+    },
+    {
+      "path": "docs/research/stats_update.md",
+      "exists": true,
+      "size_bytes": 14484,
+      "paper_lines": [
+        504
+      ],
+      "paper_ref_count": 1,
+      "supplementary_refs": {}
+    },
+    {
+      "path": "docs/research/supermemory_c1_vs_c3_paired_analysis.md",
+      "exists": true,
+      "size_bytes": 22377,
+      "paper_lines": [
+        1483
+      ],
+      "paper_ref_count": 1,
+      "supplementary_refs": {}
+    },
+    {
+      "path": "docs/research/v10_battery_sensitivity_analysis.md",
+      "exists": true,
+      "size_bytes": 8602,
+      "paper_lines": [
+        1609
+      ],
+      "paper_ref_count": 1,
+      "supplementary_refs": {}
+    },
+    {
+      "path": "docs/research/v10_coupling_sensitivity_analysis.md",
+      "exists": true,
+      "size_bytes": 7682,
+      "paper_lines": [
+        2199
+      ],
+      "paper_ref_count": 1,
+      "supplementary_refs": {}
+    },
+    {
+      "path": "docs/research/v10_pipeline_variance_analysis.md",
+      "exists": true,
+      "size_bytes": 8486,
+      "paper_lines": [
+        1913
+      ],
+      "paper_ref_count": 1,
+      "supplementary_refs": {}
+    },
+    {
+      "path": "docs/research/v11_9_6_pipeline_variance_similarity_20260510.json",
+      "exists": true,
+      "size_bytes": 6725,
+      "paper_lines": [
+        1898
+      ],
+      "paper_ref_count": 1,
+      "supplementary_refs": {}
+    },
+    {
+      "path": "docs/research/v11_9_6_pipeline_variance_similarity_20260510.md",
+      "exists": true,
+      "size_bytes": 3107,
+      "paper_lines": [
+        1898
+      ],
+      "paper_ref_count": 1,
+      "supplementary_refs": {}
+    },
+    {
+      "path": "docs/research/v11_emit/4_3_wrong_spec.json",
+      "exists": true,
+      "size_bytes": 91556,
+      "paper_lines": [
+        1660
+      ],
+      "paper_ref_count": 1,
+      "supplementary_refs": {}
+    },
+    {
+      "path": "docs/research/v11_emit/appendix_b_battery.json",
+      "exists": true,
+      "size_bytes": 170036,
+      "paper_lines": [
+        2164
+      ],
+      "paper_ref_count": 1,
+      "supplementary_refs": {}
+    },
+    {
+      "path": "docs/research/v11_panel_completeness_audit.csv",
+      "exists": true,
+      "size_bytes": 419460,
+      "paper_lines": [
+        1735
+      ],
+      "paper_ref_count": 1,
+      "supplementary_refs": {}
+    },
+    {
+      "path": "docs/research/wins_inventory_20260428.json",
+      "exists": true,
+      "size_bytes": 253381,
+      "paper_lines": [
+        2195,
+        2229
+      ],
+      "paper_ref_count": 2,
+      "supplementary_refs": {}
+    },
+    {
+      "path": "docs/research/within_band_shifts_20260428.json",
+      "exists": true,
+      "size_bytes": 654595,
+      "paper_lines": [
+        436
+      ],
+      "paper_ref_count": 1,
+      "supplementary_refs": {}
+    }
+  ],
+  "supplementary_only_files": [
+    "_letta_rerun/fullstack_named/RESULTS.md",
+    "letta_stateful_deep_read.md",
+    "letta_stateful_matched_rerun.md",
+    "s114_low_end_inflation_audit.json"
+  ],
+  "missing": []
+}

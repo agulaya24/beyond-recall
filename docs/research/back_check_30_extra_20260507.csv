@@ -1,0 +1,6 @@
+check_id,subject,condition,scaffold_source,scaffold_value,recomputed_value,n_subjects,drift,within_tolerance
+4_4_1_baselayer_substrate_controlled_all14_delta,all-14,C3_baselayer - C1_baselayer,_v11_emit/4_4_1_memory_systems.json,0.0864,0.0864,14,0.0,True
+4_4_1_letta_archival_controlled_all14_delta,all-14,C3_letta - C1_letta,_v11_emit/4_4_1_memory_systems.json,0.1979,0.1989,14,0.0,True
+4_4_1_mem0_controlled_all14_delta,all-14,C3_mem0 - C1_mem0,_v11_emit/4_4_1_memory_systems.json,0.1212,0.1212,14,0.0,True
+4_4_1_supermemory_controlled_all14_delta,all-14,C3_supermemory - C1_supermemory,_v11_emit/4_4_1_memory_systems.json,0.0399,0.0399,14,0.0,True
+4_4_1_zep_controlled_all14_delta,all-14,C3_zep - C1_zep,_v11_emit/4_4_1_memory_systems.json,0.1864,0.1864,14,0.0,True

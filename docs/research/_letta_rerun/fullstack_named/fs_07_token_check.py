@@ -1,15 +1,18 @@
 """Confirm that full-stack input token counts are significantly larger than unified-brief."""
 import json
+from pathlib import Path
 
-with open(r"C:\Users\Aarik\Anthropic\memory-study-repo\docs\research\_letta_rerun\ebers_bl_c2a_named_responses.json", encoding="utf-8") as f:
+RERUN = Path(__file__).resolve().parents[4] / "docs" / "research" / "_letta_rerun"
+
+with open(RERUN / "ebers_bl_c2a_named_responses.json", encoding="utf-8") as f:
     old_eb = json.load(f)
-with open(r"C:\Users\Aarik\Anthropic\memory-study-repo\docs\research\_letta_rerun\fullstack_named\ebers_bl_c2a_fullstack_responses.json", encoding="utf-8") as f:
+with open(RERUN / "fullstack_named" / "ebers_bl_c2a_fullstack_responses.json", encoding="utf-8") as f:
     new_eb = json.load(f)
-with open(r"C:\Users\Aarik\Anthropic\memory-study-repo\docs\research\_letta_rerun\babur_bl_c2a_named_responses.json", encoding="utf-8") as f:
+with open(RERUN / "babur_bl_c2a_named_responses.json", encoding="utf-8") as f:
     old_ba = json.load(f)
-with open(r"C:\Users\Aarik\Anthropic\memory-study-repo\docs\research\_letta_rerun\fullstack_named\babur_bl_c2a_fullstack_responses.json", encoding="utf-8") as f:
+with open(RERUN / "fullstack_named" / "babur_bl_c2a_fullstack_responses.json", encoding="utf-8") as f:
     new_ba = json.load(f)
-with open(r"C:\Users\Aarik\Anthropic\memory-study-repo\docs\research\_letta_rerun\fullstack_named\hamerton_bl_c2a_fullstack_responses.json", encoding="utf-8") as f:
+with open(RERUN / "fullstack_named" / "hamerton_bl_c2a_fullstack_responses.json", encoding="utf-8") as f:
     new_ha = json.load(f)
 
 

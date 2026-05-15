@@ -15,7 +15,7 @@ import json
 from pathlib import Path
 from statistics import mean
 
-RESULTS_ROOT = Path(r"C:/Users/Aarik/Anthropic/memory-study-repo")
+RESULTS_ROOT = Path(__file__).resolve().parents[1]
 OUT_PATH = RESULTS_ROOT / "docs" / "research" / "_mlz_c1_c3_candidates.json"
 
 # Per-system picks: include ebers + a strongest-delta + a weakest-delta among

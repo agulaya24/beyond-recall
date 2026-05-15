@@ -2,7 +2,7 @@
 
 **Paper:** Beyond Recall: Behavioral Specification as an Interpretive Layer for AI Personalization
 **Generated:** 2026-04-13
-**Updated:** 2026-04-18 (Session 113, full-stack refresh); 2026-04-25 (V10.1 update prepended; pre-v10 sections retained as historical raw-data provenance); 2026-05-05 (`data/source_corpora/` mirror added — Project Gutenberg + archive.org source autobiographies for all 14 main-study subjects + Franklin reference + Franklin letters, with per-subject `provenance.md` and SHA-256 hashes; reference PDFs pulled into `docs/references/` with `MANIFEST.md`).
+**Updated:** 2026-04-18 (Session 113, full-stack refresh); 2026-04-25 (V10.1 update prepended; pre-v10 sections retained as historical raw-data provenance); 2026-05-05 (`data/source_corpora/` mirror added — Project Gutenberg + archive.org source autobiographies for all 14 main-study subjects + Franklin reference + Franklin letters, with per-subject `provenance.md` and SHA-256 hashes; reference PDFs pulled into `docs/references/` with `MANIFEST.md`); 2026-05-13 (v12.1 reconciliation — dead-path fixes for `string_match_disagreement.*` and `generate_fig_4_2_1.py`; canonical paper draft is now `docs/beyond_recall_v12_1_draft.md`).
 
 **Canonical paper:** `docs/beyond_recall_v11_8_draft.md` (v11.8, active edit branch as of 2026-05-05). v11.9 will lock figures, data, and repo state. v12 is the planned release. v10.1 preserved at `docs/beyond_recall_v10_1_draft.md` as historical baseline.
 
@@ -61,6 +61,17 @@ These artifacts back the per-question variance, multi-anchor-jump, statistical-s
 | `docs/reviews/v11_c96_framing_review_20260428.md` | Cross-LLM review of v11 comment C96 framing. | (review pipeline) | Internal review record |
 
 These artifacts are all dated 2026-04-28 (per-system anchor-crossing dated 2026-04-27, per task-spec). They post-date the v10.1 release-freeze and are unique to v11.
+
+### v11.8 audit briefs added 2026-05-06
+
+These briefs back §3 walk-lock changes that landed during the v11.8 active-edit pass on 2026-05-06. They post-date the v11 freeze and are tied to the v11.8 active-edit branch (`docs/beyond_recall_v11_8_draft.md`); v11 release-frozen text does not reference them.
+
+| Artifact | Description | Cited in v11.8 paper |
+|---|---|---|
+| `docs/research/sonnet_opus_calibration_20260506.md` | Audit brief documenting Sonnet 4.6 + Opus 4.6 calibration retrieval. Both judges submitted to Anthropic Batch API on 2026-04-12 against the same 80-question diagnostic suite the original 5 judges ran; results retrieved 2026-05-06. Both pass cleanly: verbatim 5.00, paraphrased 5.00, short_correct 4.20-4.35, long_correct 5.00. Per-judge JSON at `results/judge_calibration/{sonnet,opus}_calibration.json`. Run script: `scripts/run_calibration_sonnet_opus.py`. | §3.3.3 (calibration table); Appendix C.5 (panel-composition table calibration column for Sonnet and Opus flipped from "No" to "Yes") |
+| `docs/research/deepseek_v4_brief_20260506.md` | Brief documenting DeepSeek V4 evaluation as a candidate response model. Internal-reference only at this stage; not cited in paper body. Feeds the local-model testing backlog. | Internal reference only; not cited in paper |
+| `docs/reviews/judge_panel_consistency_audit_20260506.md` | Audit reviewing judge-panel consistency given the all-7-calibrated state. Confirms: Sonnet/Opus pass cleanly; the 5-judge primary panel decision is unchanged (Gemini Pro still fails verbatim-match calibration, Gemini Flash still shows length sensitivity); the post-hoc Sonnet/Opus calibration confirms rather than drives the pre-locked panel composition. | §3.3.3 lede (timing disclosure); Appendix C.5 |
+| `docs/reviews/sec3_7_pipeline_table_review_20260506.md` | Code-fidelity review of §3.7 Pipeline table cells against `embed.py` / `author_layers.py` / `agent_pipeline.py`. Surfaces three cell corrections: Embed input "Extracted facts" → "All imported message text"; Author input drops "+ embeddings"; Compose input expanded to "The three authored layers (plus a sample of identity-tier facts as supplementary context)". | §3.7 Pipeline table |
 
 ---
 
@@ -148,15 +159,15 @@ Note on N=587 wrong-spec classified responses: 587 = 507 v2 (13 globals × 39q) 
 
 Source: `scripts/compute_wrong_spec_5judge.py` over `results/_wrong_spec_v2/`; pairing in `scripts/run_global_rerun.py` WRONG_SPEC_PAIRING (lines 51-60).
 
-### V10.1 canonical Letta stateful-agent (5-judge primary, n=3, v10.1 §4.5 line 2426)
+### Canonical Letta stateful-agent (5-judge primary, n=3, v12.1 §4.5 / Appendix G)
 
-| Subject | Letta block → Haiku | BL unified brief → Haiku | Δ |
+| Subject | Letta block → Haiku | BL full-stack spec → Haiku | Δ |
 |---|---:|---:|---:|
-| Hamerton | 3.10 | 2.96 | **+0.14** |
-| Ebers | 2.76 | 1.72 | **+1.05** |
-| Babur | 2.42 | 1.88 | **+0.54** |
+| Hamerton | 3.10 | 2.83 | **+0.27** |
+| Ebers | 2.76 | 1.56 | **+1.21** |
+| Babur | 2.42 | 2.04 | **+0.38** |
 
-Full-stack BL rerun (footnote): Δ +0.27 / +1.21 / +0.38; direction preserved. Source: `docs/research/_letta_rerun/5judge_primary_results.json`; pipeline scripts `docs/research/_letta_rerun/{20_run_c2a_named.py, 40_judge_responses.py, 50_aggregate.py, 70_compute_5judge_primary.py}`; full-stack at `docs/research/_letta_rerun/fullstack_named/5judge_fullstack_results.json`. Babur saturated at 335,349 chars; 25.4% verbatim sentence duplication at the ceiling.
+Source: `docs/research/_letta_rerun/fullstack_named/5judge_fullstack_results.json`; per-subject judgment files `docs/research/_letta_rerun/fullstack_named/{subject}_fullstack_judgments_{haiku,sonnet,opus,gpt4o,gpt54}.json`. The BL side is the full-stack Behavioral Specification (anchors + core + predictions + brief; 34.6K / 39.7K / 37.1K chars). Hamerton's score is the full-stack spec scored with the consistent short-form judge prompt; Ebers and Bābur are full-stack regenerations on the Letta battery. The earlier 7K-char unified-brief run (Δ +0.14 / +1.05 / +0.54; source `docs/research/_letta_rerun/5judge_primary_results.json`) is superseded. Reconciliation: `docs/reviews/v12_1_data_naming_review_20260513.md`. Babur saturated at 335,349 chars; 25.4% verbatim sentence duplication at the ceiling.
 
 ### V10.1 canonical Hamerton compression curve (5-judge primary, v10.1 §4.2 line 791)
 
@@ -178,7 +189,7 @@ The S105/S113 sections below this V10.1 update were anchored to the 7-judge mixe
 - Hamerton C5 1.41 / 1.37 references below are pre-S113. Canonical v10.1 value: **1.26** (5-judge primary).
 - Franklin C5 3.99 / 4.10 references below: canonical v10.1 value is **3.77** (5-judge primary, Franklin batch with full panel).
 - Global gradient table "+13% to +174%" framing below is the 7-judge percentage representation. Canonical v10.1 representation is per-subject (C5, C2a, C4a) means + Δ values, see V10.1 table above.
-- "+1.99 / +1.96 / +0.75" Letta uplift framing in legacy Hamerton/Ebers/Babur traces is vs C5 (n=3 case study). Canonical v10.1 framing in §4.5 is Δ vs BL unified brief at matched response model: **+0.14 / +1.05 / +0.54**. The two framings answer different questions; the paper uses the BL-comparison framing.
+- "+1.99 / +1.96 / +0.75" Letta uplift framing in legacy Hamerton/Ebers/Babur traces is vs C5 (n=3 case study). Canonical v12.1 framing in §4.5 is Δ vs BL full-stack spec at matched response model: **+0.27 / +1.21 / +0.38**. The two framings answer different questions; the paper uses the BL-comparison framing.
 - Pairwise Spearman ρ "0.89-0.98" rows below are the historical 4-judge Hamerton statistic. Canonical v10.1 value across the 5-judge primary panel (10 pairs) is **0.86-0.93**.
 - v6 §3.7 "Krippendorff α = 0.723" was stale at S113; v10.1 reports **0.659** (5-judge primary) / 0.535 (7-judge).
 
@@ -197,7 +208,7 @@ The following paper numbers were corrected in S113. The full list is in `PAPER_C
 | §4.2 Table 4.2, C5 Baseline (Hamerton) | 1.41 | **1.25** | §1, §7, §8 |
 | §4.1.2 Parse-failure judge attribution | Gemini Pro ~40% | **GPT-5.4 ~19%**; Gemini Pro ~0.5%, coverage-limited | §9 |
 | §4.5 Wrong-spec v2 | 2.21 | **2.30** (random derangement); v1 = 1.86 (fixed derangement for the 13 globals per `scripts/run_global_rerun.py` WRONG_SPEC_PAIRING; Hamerton-only Franklin-for-all is reported separately in §4.1.1) | §6 |
-| §4.3 Retrieval disagreement | "94%" | **RESOLVED 2026-04-18.** 94% ≈ 93.4% is the *all-three-disagreement rate at top-1* (fraction of questions where no single fact appears in all three systems' top-1 sets) on the controlled-config retrieval data (n=515 analyzable questions). Verified: 93.4% top-1, 83.3% top-3, 73.8% top-5, 53.2% top-10. In the native config (each system runs its own ingestion), disagreement is 100% at every top-k. Script and output: `data/experiments/memory_systems/string_match_disagreement.py` → `results/string_match_disagreement.json`. | DATA_REFERENCE.md §K, paper §4.3 |
+| §4.3 Retrieval disagreement | "94%" | **RESOLVED 2026-04-18.** 94% ≈ 93.4% is the *all-three-disagreement rate at top-1* (fraction of questions where no single fact appears in all three systems' top-1 sets) on the controlled-config retrieval data (n=515 analyzable questions). Verified: 93.4% top-1, 83.3% top-3, 73.8% top-5, 53.2% top-10. In the native config (each system runs its own ingestion), disagreement is 100% at every top-k. Script and output: `scripts/compute_retrieval_disagreement.py` (NOTE: original `string_match_disagreement.py` + `.json` not present in current repo tree; retrieval-disagreement numbers are reproduced by the §4.4.1 Jaccard analysis — see `figures/generate_figures_v3.py` fig 4.4.1). | DATA_REFERENCE.md §K, paper §4.3 |
 | §4.3.1 Letta stateful-agent test | (new section) | Block 22,472 chars; matched-model 3.24 vs C2a 3.04 at 65% context | §7 |
 
 See `PAPER_CORRECTIONS.md` for the full S113 changelog including framing corrections (Base Layer repositioning, flagship sentence, memory-provider framing).
@@ -326,24 +337,34 @@ See `PAPER_CORRECTIONS.md` for the full S113 changelog including framing correct
 
 ## Section 4.6: Judge Calibration Table
 
+**Update 2026-05-06:** Sonnet 4.6 and Opus 4.6 calibration data was retrieved from the Anthropic Batch API (submitted 2026-04-12, retrieved 2026-05-06) and added to this table. All 7 judges in the panel are now calibrated against the same 80-question diagnostic suite. See `docs/research/sonnet_opus_calibration_20260506.md` for the audit brief and `results/judge_calibration/README.md` for the canonical state. Sonnet and Opus pass cleanly on all four diagnostic tests. The pre-locked panel composition decision was made before main-study scoring on cross-Anthropic-coverage grounds; the post-hoc Sonnet/Opus diagnostic confirms the composition rather than driving it.
+
 | Test/Judge | Paper Value | Data Value | Source File | Status |
 |---|---|---|---|---|
 | Verbatim / Haiku | 5.00 | 5.00 | `results/judge_calibration/judgments.json` | VERIFIED |
+| Verbatim / Sonnet | 5.00 | 5.00 | `results/judge_calibration/sonnet_calibration.json` | VERIFIED |
+| Verbatim / Opus | 5.00 | 5.00 | `results/judge_calibration/opus_calibration.json` | VERIFIED |
 | Verbatim / Gemini Flash | 5.00 | 5.00 | `results/judge_calibration/judgments.json` (gemini column) | VERIFIED |
 | Verbatim / GPT-4o | 5.00 | 5.00 | `results/judge_calibration/gpt4o_calibration.json` | VERIFIED |
 | Verbatim / Gemini Pro | 4.37 | 4.15 | `results/judge_calibration/gemini_pro_calibration.json` | APPROXIMATE |
 | Verbatim / GPT-5.4 | 5.00 | 5.00 | `results/judge_calibration/gpt54_calibration.json` | VERIFIED |
 | Paraphrased / Haiku | 4.75 | 4.75 | `results/judge_calibration/judgments.json` | VERIFIED |
+| Paraphrased / Sonnet | 5.00 | 5.00 | `results/judge_calibration/sonnet_calibration.json` | VERIFIED |
+| Paraphrased / Opus | 5.00 | 5.00 | `results/judge_calibration/opus_calibration.json` | VERIFIED |
 | Paraphrased / Gemini Flash | 4.70 | 4.70 | `results/judge_calibration/judgments.json` | VERIFIED |
 | Paraphrased / GPT-4o | 5.00 | 5.00 | `results/judge_calibration/gpt4o_calibration.json` | VERIFIED |
 | Paraphrased / Gemini Pro | 3.74 | 3.55 | `results/judge_calibration/gemini_pro_calibration.json` | APPROXIMATE |
 | Paraphrased / GPT-5.4 | 5.00 | 5.00 | `results/judge_calibration/gpt54_calibration.json` | VERIFIED |
 | Short correct / Haiku | 3.80 | 3.80 | `results/judge_calibration/judgments.json` | VERIFIED |
+| Short correct / Sonnet | 4.20-4.35 | 4.20-4.35 | `results/judge_calibration/sonnet_calibration.json` | VERIFIED |
+| Short correct / Opus | 4.20-4.35 | 4.20-4.35 | `results/judge_calibration/opus_calibration.json` | VERIFIED |
 | Short correct / Gemini Flash | 3.85 | 3.85 | `results/judge_calibration/judgments.json` | VERIFIED |
 | Short correct / GPT-4o | 4.05 | 4.05 | `results/judge_calibration/gpt4o_calibration.json` | VERIFIED |
 | Short correct / Gemini Pro | 3.17 | 2.85 | `results/judge_calibration/gemini_pro_calibration.json` | APPROXIMATE |
 | Short correct / GPT-5.4 | 4.15 | 4.20 | `results/judge_calibration/gpt54_calibration.json` | APPROXIMATE |
 | Long correct / Haiku | 5.00 | 5.00 | `results/judge_calibration/judgments.json` | VERIFIED |
+| Long correct / Sonnet | 5.00 | 5.00 | `results/judge_calibration/sonnet_calibration.json` | VERIFIED |
+| Long correct / Opus | 5.00 | 5.00 | `results/judge_calibration/opus_calibration.json` | VERIFIED |
 | Long correct / Gemini Flash | 3.80 | 3.80 | `results/judge_calibration/judgments.json` | VERIFIED |
 | Long correct / GPT-4o | 3.35 | 3.35 | `results/judge_calibration/gpt4o_calibration.json` | VERIFIED |
 | Long correct / Gemini Pro | 1.26 | 1.20 | `results/judge_calibration/gemini_pro_calibration.json` | APPROXIMATE |
@@ -476,6 +497,10 @@ These are from the original Hamerton core run (brief-only spec, not full-stack),
 | `results/judge_calibration/gpt4o_calibration.json` | GPT-4o calibration scores |
 | `results/judge_calibration/gpt54_calibration.json` | GPT-5.4 calibration scores |
 | `results/judge_calibration/gemini_pro_calibration.json` | Gemini Pro calibration scores |
+| `results/judge_calibration/sonnet_calibration.json` | Sonnet 4.6 calibration scores (Anthropic Batch API; submitted 2026-04-12, retrieved 2026-05-06) |
+| `results/judge_calibration/opus_calibration.json` | Opus 4.6 calibration scores (Anthropic Batch API; submitted 2026-04-12, retrieved 2026-05-06) |
+| `results/judge_calibration/_seven_judge_summary.json` | Combined 7-judge calibration summary (aggregator output across all 7 judges) |
+| `results/judge_calibration/README.md` | Canonical state of the calibration folder; all 7 judges calibrated as of 2026-05-06 |
 | `results/multimodel/sonnet_hamerton.json` | Sonnet response model Hamerton results (with token counts) |
 | `results/multimodel/gpt54_hamerton.json` | GPT-5.4 response model results |
 | `results/multimodel/gemini_hamerton.json` | Gemini response model results |
@@ -502,7 +527,7 @@ This section indexes every numerical claim in `beyond_recall_v6_draft.md` agains
 
 | Claim | v6 location | Source | Status |
 |---|---|---|---|
-| 515 behavioral prediction questions (controlled config, all three embedding systems analyzable) | Abstract; §4.3 #5 | `data/experiments/memory_systems/string_match_disagreement.py` → `results/string_match_disagreement.json` | VERIFIED — see S113 corrections summary row §4.3 |
+| 515 behavioral prediction questions (controlled config, all three embedding systems analyzable) | Abstract; §4.3 #5 | `scripts/compute_retrieval_disagreement.py` (NOTE: original `string_match_disagreement.py` + `.json` not present in current repo tree; retrieval-disagreement numbers are reproduced by the §4.4.1 Jaccard analysis — see `figures/generate_figures_v3.py` fig 4.4.1) | VERIFIED — see S113 corrections summary row §4.3 |
 | 93% top-1 disagreement (three-way, controlled) | Abstract | Same source; 93.4% rounded | VERIFIED |
 | 83% top-3, 74% top-5, 53% top-10 (controlled) | Abstract | `string_match_disagreement.json` — 83.3/73.8/53.2 | VERIFIED |
 | 100% disagreement at every top-k (native) | Abstract; §4.3 #5 | Same file; native subset | VERIFIED (410-question native subset) |
@@ -617,7 +642,7 @@ Added during the repo hygiene audit. These claims are present in v8 or in suppor
 
 | Claim | v8 location | Source | Status |
 |---|---|---|---|
-| Spec-only win rate vs baseline: 70.9% | §4.2.1 (Fig 4.2.1 caption); STUDY_MEMORY.md | Counts 249/49/53 of 351 in `figures/fig_4_2_1_question_improvement_rates.png` metadata; inlined in `scripts/generate_fig_4_2_1.py` | APPROXIMATE — no standalone computation script; counts pulled from paper §4.2.1 table. `scripts/compute_question_improvement_rate.py` (referenced in the paper) does not exist — flag from completeness audit §1b. |
+| Spec-only win rate vs baseline: 70.9% | §4.2.1 (Fig 4.2.1 caption); STUDY_MEMORY.md | Counts 249/49/53 of 351 in `figures/fig_4_2_1_question_improvement_rates.png` metadata; inlined in `figures/generate_figures_v3.py` (legacy standalone `scripts/generate_fig_4_2_1.py` archived at `scripts/_archive/figure_generators_superseded/`) | APPROXIMATE — no standalone computation script; counts pulled from paper §4.2.1 table. `scripts/compute_question_improvement_rate.py` (referenced in the paper) does not exist — flag from completeness audit §1b. |
 | Facts-only win rate: 72.9% | §4.2.1 | Same | APPROXIMATE |
 | Raw corpus win rate: 78.3% | §4.2.1 | Same | APPROXIMATE |
 | Facts + spec win rate: 78.6% | §4.2.1 | Same | APPROXIMATE |
@@ -627,9 +652,9 @@ Added during the repo hygiene audit. These claims are present in v8 or in suppor
 
 | Claim | v8 location | Source | Status |
 |---|---|---|---|
-| Hamerton Δ +0.14 (5-judge primary) | §4.7; top-level README §Key Findings #4 | `docs/research/letta_stateful_matched_rerun.md`; `docs/research/_letta_rerun/5judge_primary_results.json` | VERIFIED |
-| Ebers Δ +1.05 | §4.7 | Same | VERIFIED |
-| Babur Δ +0.54 | §4.7 | Same | VERIFIED |
+| Hamerton Δ +0.27 (5-judge primary) | §4.5 / Appendix G; top-level README §Key Findings #4 | `docs/research/_letta_rerun/fullstack_named/5judge_fullstack_results.json` | VERIFIED |
+| Ebers Δ +1.21 | §4.5 / Appendix G | Same | VERIFIED |
+| Babur Δ +0.38 | §4.5 / Appendix G | Same | VERIFIED |
 | Letta block duplication at Babur scale 25.4% | §4.7; STUDY_MEMORY.md | `docs/research/_letta_blocks/paired_scores.json` | VERIFIED |
 
 ### v8 §4.5 — Wrong-spec v1 and v2
@@ -679,7 +704,7 @@ Many "Paper location" entries earlier in this index reference `beyond_recall_v6_
 
 ### Missing scripts flagged by completeness audit §1b
 
-- `scripts/compute_question_improvement_rate.py` — referenced in paper §4.2 data line and KEY_FINDINGS M11; does not exist in repo. The rates in §4.2.1 are inlined in `scripts/generate_fig_4_2_1.py` (render-time), not computed by a standalone script. Either add the compute script or update the paper citation.
+- `scripts/compute_question_improvement_rate.py` — referenced in paper §4.2 data line and KEY_FINDINGS M11; does not exist in repo. The rates in §4.2.1 are inlined in `figures/generate_figures_v3.py` (legacy standalone `scripts/generate_fig_4_2_1.py` archived at `scripts/_archive/figure_generators_superseded/`) (render-time), not computed by a standalone script. Either add the compute script or update the paper citation.
 - `scripts/run_letta_stateful_test.py` — referenced in STUDY_MEMORY.md and earlier drafts; actual chain is the numbered scripts under `docs/research/_letta_rerun/` (`10_extract_batteries.py` through `70_compute_5judge_primary.py`).
 
 ### Missing persisted files flagged by completeness audit §1b

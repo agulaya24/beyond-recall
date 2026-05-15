@@ -1,7 +1,13 @@
 import json, os, sys
 from collections import defaultdict
+from pathlib import Path
 
 sys.stdout.reconfigure(encoding='utf-8')
+
+REPO = Path(__file__).resolve().parents[3]
+# This script also depends on the separate memory_system repo; set MEMORY_SYSTEM_ROOT to its path.
+MEMORY_SYSTEM_ROOT = os.environ.get("MEMORY_SYSTEM_ROOT", "")
+MS_RESULTS = os.path.join(MEMORY_SYSTEM_ROOT, 'data/experiments/memory_systems/results')
 
 def load_letta_memory_scores(subj_dir):
     judges = ['haiku', 'sonnet', 'opus', 'gpt4o', 'gpt54', 'gemini_flash', 'gemini_pro']
@@ -40,20 +46,20 @@ def load_bl_scores(bl_paths, cond):
     return by_qid
 
 hamerton = {
-    'letta_dir': 'C:/Users/Aarik/Anthropic/memory_system/data/experiments/memory_systems/results/run_fullstack_hamerton_20260411_231237/',
+    'letta_dir': os.path.join(MS_RESULTS, 'run_fullstack_hamerton_20260411_231237') + os.sep,
     'bl_paths': [
-        'C:/Users/Aarik/Anthropic/memory-study-repo/results/hamerton/judgments.json',
-        'C:/Users/Aarik/Anthropic/memory-study-repo/results/hamerton/gemini_pro_judgments.json',
-        'C:/Users/Aarik/Anthropic/memory-study-repo/results/hamerton/gpt54_judgments.json',
+        str(REPO / 'results/hamerton/judgments.json'),
+        str(REPO / 'results/hamerton/gemini_pro_judgments.json'),
+        str(REPO / 'results/hamerton/gpt54_judgments.json'),
     ],
 }
 ebers = {
-    'letta_dir': 'C:/Users/Aarik/Anthropic/memory_system/data/experiments/memory_systems/results/global_ebers/',
-    'bl_paths': ['C:/Users/Aarik/Anthropic/memory-study-repo/results/global_ebers/judgments_v2.json'],
+    'letta_dir': os.path.join(MS_RESULTS, 'global_ebers') + os.sep,
+    'bl_paths': [str(REPO / 'results/global_ebers/judgments_v2.json')],
 }
 babur = {
-    'letta_dir': 'C:/Users/Aarik/Anthropic/memory_system/data/experiments/memory_systems/results/global_babur/',
-    'bl_paths': ['C:/Users/Aarik/Anthropic/memory-study-repo/results/global_babur/judgments_v2.json'],
+    'letta_dir': os.path.join(MS_RESULTS, 'global_babur') + os.sep,
+    'bl_paths': [str(REPO / 'results/global_babur/judgments_v2.json')],
 }
 
 subjects = [('hamerton', hamerton, 'C2a_full_spec'), ('ebers', ebers, 'C2a_full_spec'), ('babur', babur, 'C2a_full_spec')]
@@ -111,6 +117,6 @@ for subj_name, cfg, cond in subjects:
     print()
 
 # Save
-with open('C:/Users/Aarik/Anthropic/memory-study-repo/docs/research/_letta_blocks/paired_scores.json', 'w', encoding='utf-8') as f:
+with open(str(REPO / 'docs/research/_letta_blocks/paired_scores.json'), 'w', encoding='utf-8') as f:
     json.dump(results, f, indent=2, default=str)
 print('Saved paired_scores.json')

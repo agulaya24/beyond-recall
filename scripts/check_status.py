@@ -3,7 +3,10 @@ import json, os, sys
 sys.stdout.reconfigure(encoding='utf-8')
 from datetime import datetime
 
-base = 'C:/Users/Aarik/Anthropic/memory_system/data/experiments/memory_systems/results'
+# NOTE: depends on the separate (private) memory_system repo. Set MEMORY_SYSTEM_ROOT
+# to its path; defaults to empty so the missing-path failure is obvious.
+MEMORY_SYSTEM_ROOT = os.environ.get("MEMORY_SYSTEM_ROOT", "")
+base = os.path.join(MEMORY_SYSTEM_ROOT, 'data/experiments/memory_systems/results')
 systems = ['mem0', 'letta', 'supermemory', 'zep']
 subjects = ['zitkala_sa','hamerton','keckley','yung_wing','seacole','sunity_devee',
             'equiano','augustine','ebers','fukuzawa','cellini','bernal_diaz','rousseau','babur']

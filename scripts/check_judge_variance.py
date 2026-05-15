@@ -5,7 +5,7 @@ import json
 from pathlib import Path
 from statistics import mean, pstdev
 
-ROOT = Path(r"C:/Users/Aarik/Anthropic/memory-study-repo/results")
+ROOT = Path(__file__).resolve().parents[1] / "results"
 SUBJECTS = ["sunity_devee", "ebers", "hamerton", "fukuzawa", "seacole",
             "bernal_diaz", "keckley", "yung_wing", "babur"]
 

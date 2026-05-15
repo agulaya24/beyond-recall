@@ -1129,385 +1129,385 @@
     "run_timestamp": "2026-04-25",
     "input_manifest": [
       {
-        "path": "C:/Users/Aarik/Anthropic/memory-study-repo/data/hamerton/spec/brief_v5_clean.md",
+        "path": "data/hamerton/spec/brief_v5_clean.md",
         "sha256": "7e5c6a07e41c5972cb8703ce61de767379216c36559b36f3ddbcf19e94b9ec67",
         "size_bytes": 12838,
         "n_records": null
       },
       {
-        "path": "C:/Users/Aarik/Anthropic/memory-study-repo/docs/research/_letta_blocks/babur_human_block.txt",
+        "path": "docs/research/_letta_blocks/babur_human_block.txt",
         "sha256": "5c5d44504421e0cce1d3cdb113210e5a77e64459c140b09ed06439e15eaf96d9",
         "size_bytes": 339548,
         "n_records": null
       },
       {
-        "path": "C:/Users/Aarik/Anthropic/memory-study-repo/docs/research/_letta_blocks/ebers_human_block.txt",
+        "path": "docs/research/_letta_blocks/ebers_human_block.txt",
         "sha256": "3b632a4340d9544ad98498f0032834641512ec60bcfc4055c8d9fdfa3543e03c",
         "size_bytes": 68636,
         "n_records": null
       },
       {
-        "path": "C:/Users/Aarik/Anthropic/memory-study-repo/docs/research/_letta_rerun/babur_judgments_gemini_flash.json",
+        "path": "docs/research/_letta_rerun/babur_judgments_gemini_flash.json",
         "sha256": "9023897a20842862b8f659d6e6256b7776b8b3a1c1105411fb44b790675c97e4",
         "size_bytes": 7394,
         "n_records": 40
       },
       {
-        "path": "C:/Users/Aarik/Anthropic/memory-study-repo/docs/research/_letta_rerun/babur_judgments_gemini_pro.json",
+        "path": "docs/research/_letta_rerun/babur_judgments_gemini_pro.json",
         "sha256": "bde528619ad88ece03cc1f1e9d59c8ada26cb056b727d6fe74e2561e2b02c5ed",
         "size_bytes": 7314,
         "n_records": 40
       },
       {
-        "path": "C:/Users/Aarik/Anthropic/memory-study-repo/docs/research/_letta_rerun/babur_judgments_gpt4o.json",
+        "path": "docs/research/_letta_rerun/babur_judgments_gpt4o.json",
         "sha256": "b29f340a7b2a30569ec8c88d1eab8750a9ec153deb5757b9de3105231db7e9d8",
         "size_bytes": 7114,
         "n_records": 40
       },
       {
-        "path": "C:/Users/Aarik/Anthropic/memory-study-repo/docs/research/_letta_rerun/babur_judgments_gpt54.json",
+        "path": "docs/research/_letta_rerun/babur_judgments_gpt54.json",
         "sha256": "ec8085522c11892483684996e3c41223d423ce2924b706a55395fced2b20842b",
         "size_bytes": 7114,
         "n_records": 40
       },
       {
-        "path": "C:/Users/Aarik/Anthropic/memory-study-repo/docs/research/_letta_rerun/babur_judgments_haiku.json",
+        "path": "docs/research/_letta_rerun/babur_judgments_haiku.json",
         "sha256": "9ab48c4e57dbdac8a833948a841bb2535607e08b5cd533a4daae4bc0bf12b9e1",
         "size_bytes": 7114,
         "n_records": 40
       },
       {
-        "path": "C:/Users/Aarik/Anthropic/memory-study-repo/docs/research/_letta_rerun/babur_judgments_opus.json",
+        "path": "docs/research/_letta_rerun/babur_judgments_opus.json",
         "sha256": "45ae37286d1e4450910fb39dfac08c5d0052960b93fcc87f2b000891fc30cbc6",
         "size_bytes": 7074,
         "n_records": 40
       },
       {
-        "path": "C:/Users/Aarik/Anthropic/memory-study-repo/docs/research/_letta_rerun/babur_judgments_sonnet.json",
+        "path": "docs/research/_letta_rerun/babur_judgments_sonnet.json",
         "sha256": "724b1470bf31c18d71591a75168b5c0d163dc013b5f5c05340e059e8b7dc940c",
         "size_bytes": 7154,
         "n_records": 40
       },
       {
-        "path": "C:/Users/Aarik/Anthropic/memory-study-repo/docs/research/_letta_rerun/babur_spec_named.md",
+        "path": "docs/research/_letta_rerun/babur_spec_named.md",
         "sha256": "dd9df0b2b59c021592a7784936edad11a66e523b71508b0081b459ab0a270ce7",
         "size_bytes": 6844,
         "n_records": null
       },
       {
-        "path": "C:/Users/Aarik/Anthropic/memory-study-repo/docs/research/_letta_rerun/babur_stateful_summary.json",
+        "path": "docs/research/_letta_rerun/babur_stateful_summary.json",
         "sha256": "0801d53efe8583f9ede06b3815c5fc6201bd86c2c99e5c2f9fe4f116d7f31845",
         "size_bytes": 2759,
         "n_records": null
       },
       {
-        "path": "C:/Users/Aarik/Anthropic/memory-study-repo/docs/research/_letta_rerun/ebers_judgments_gemini_flash.json",
+        "path": "docs/research/_letta_rerun/ebers_judgments_gemini_flash.json",
         "sha256": "2a5c82269286c31cd6914fcf9a0e7fd5e9a7e2cf61617548179ba32e8afe56ad",
         "size_bytes": 7394,
         "n_records": 40
       },
       {
-        "path": "C:/Users/Aarik/Anthropic/memory-study-repo/docs/research/_letta_rerun/ebers_judgments_gemini_pro.json",
+        "path": "docs/research/_letta_rerun/ebers_judgments_gemini_pro.json",
         "sha256": "924bb2bd4b9235dc4a406de776a5953884cedf61f345d09944dbec04107e17f7",
         "size_bytes": 7314,
         "n_records": 40
       },
       {
-        "path": "C:/Users/Aarik/Anthropic/memory-study-repo/docs/research/_letta_rerun/ebers_judgments_gpt4o.json",
+        "path": "docs/research/_letta_rerun/ebers_judgments_gpt4o.json",
         "sha256": "f560201f0e8491dd72702535cc78d37e765173700d90fba315c230ccf61b2505",
         "size_bytes": 7114,
         "n_records": 40
       },
       {
-        "path": "C:/Users/Aarik/Anthropic/memory-study-repo/docs/research/_letta_rerun/ebers_judgments_gpt54.json",
+        "path": "docs/research/_letta_rerun/ebers_judgments_gpt54.json",
         "sha256": "9516a9b81ecb884961ca376f98a65297340c301c1e50a3d5890d3515f35bca16",
         "size_bytes": 7114,
         "n_records": 40
       },
       {
-        "path": "C:/Users/Aarik/Anthropic/memory-study-repo/docs/research/_letta_rerun/ebers_judgments_haiku.json",
+        "path": "docs/research/_letta_rerun/ebers_judgments_haiku.json",
         "sha256": "d7dbe1d049c90a2c9a4751ad578c6834cd44be7fd6166486c3a706da17938eab",
         "size_bytes": 7114,
         "n_records": 40
       },
       {
-        "path": "C:/Users/Aarik/Anthropic/memory-study-repo/docs/research/_letta_rerun/ebers_judgments_opus.json",
+        "path": "docs/research/_letta_rerun/ebers_judgments_opus.json",
         "sha256": "8d656a618c6cae2f59c288f244b2138d22b7282d818c520387effa26682bde7a",
         "size_bytes": 7074,
         "n_records": 40
       },
       {
-        "path": "C:/Users/Aarik/Anthropic/memory-study-repo/docs/research/_letta_rerun/ebers_judgments_sonnet.json",
+        "path": "docs/research/_letta_rerun/ebers_judgments_sonnet.json",
         "sha256": "94960e4d044ae406ea7516e6037836039d1815e3eaea2f8031e490a63cd239ef",
         "size_bytes": 7154,
         "n_records": 40
       },
       {
-        "path": "C:/Users/Aarik/Anthropic/memory-study-repo/docs/research/_letta_rerun/ebers_spec_named.md",
+        "path": "docs/research/_letta_rerun/ebers_spec_named.md",
         "sha256": "9a41038bc10e053099ad775569d67ca8ca119693aae501da076d73f7ad5c2863",
         "size_bytes": 7313,
         "n_records": null
       },
       {
-        "path": "C:/Users/Aarik/Anthropic/memory-study-repo/docs/research/_letta_rerun/ebers_stateful_summary.json",
+        "path": "docs/research/_letta_rerun/ebers_stateful_summary.json",
         "sha256": "d637d6b736889bdfcdbe9e4f41b8393424b146f2d3493a737b5c31976431259c",
         "size_bytes": 504,
         "n_records": null
       },
       {
-        "path": "C:/Users/Aarik/Anthropic/memory-study-repo/docs/research/_letta_rerun/fullstack_named/babur_fullstack_judgments_gpt4o.json",
+        "path": "docs/research/_letta_rerun/fullstack_named/babur_fullstack_judgments_gpt4o.json",
         "sha256": "f4bd5097461844c93234a39a9fa32e39703f69e5143a24f6c2aba3d58b78076a",
         "size_bytes": 7514,
         "n_records": 40
       },
       {
-        "path": "C:/Users/Aarik/Anthropic/memory-study-repo/docs/research/_letta_rerun/fullstack_named/babur_fullstack_judgments_gpt54.json",
+        "path": "docs/research/_letta_rerun/fullstack_named/babur_fullstack_judgments_gpt54.json",
         "sha256": "a14cbbb933e2a19305abac46d2b5737477f3541926f0c2e35e53171bc8743df8",
         "size_bytes": 7514,
         "n_records": 40
       },
       {
-        "path": "C:/Users/Aarik/Anthropic/memory-study-repo/docs/research/_letta_rerun/fullstack_named/babur_fullstack_judgments_haiku.json",
+        "path": "docs/research/_letta_rerun/fullstack_named/babur_fullstack_judgments_haiku.json",
         "sha256": "657881ccfddcba8b2866082f49add8db7cd0fd4d1165764f6f461c2a6dc1760a",
         "size_bytes": 7514,
         "n_records": 40
       },
       {
-        "path": "C:/Users/Aarik/Anthropic/memory-study-repo/docs/research/_letta_rerun/fullstack_named/babur_fullstack_judgments_opus.json",
+        "path": "docs/research/_letta_rerun/fullstack_named/babur_fullstack_judgments_opus.json",
         "sha256": "bd61e51214f4d6c38c47f9de633b0f57aa2e20592c606abc92eff0040cec53c5",
         "size_bytes": 7474,
         "n_records": 40
       },
       {
-        "path": "C:/Users/Aarik/Anthropic/memory-study-repo/docs/research/_letta_rerun/fullstack_named/babur_fullstack_judgments_sonnet.json",
+        "path": "docs/research/_letta_rerun/fullstack_named/babur_fullstack_judgments_sonnet.json",
         "sha256": "89589af04f3ff160c33929810e115e0cf70031ca32afb3173560c1d0af9f7ea4",
         "size_bytes": 7554,
         "n_records": 40
       },
       {
-        "path": "C:/Users/Aarik/Anthropic/memory-study-repo/docs/research/_letta_rerun/fullstack_named/ebers_fullstack_judgments_gpt4o.json",
+        "path": "docs/research/_letta_rerun/fullstack_named/ebers_fullstack_judgments_gpt4o.json",
         "sha256": "e3e44fdcdb16c03125a66b0516d6acedc86b795ff409be986b6d07989b192477",
         "size_bytes": 7514,
         "n_records": 40
       },
       {
-        "path": "C:/Users/Aarik/Anthropic/memory-study-repo/docs/research/_letta_rerun/fullstack_named/ebers_fullstack_judgments_gpt54.json",
+        "path": "docs/research/_letta_rerun/fullstack_named/ebers_fullstack_judgments_gpt54.json",
         "sha256": "85dc1decccdfd054ae6193f13ee1d0404637710425e4ee92131e013eda059eb5",
         "size_bytes": 7514,
         "n_records": 40
       },
       {
-        "path": "C:/Users/Aarik/Anthropic/memory-study-repo/docs/research/_letta_rerun/fullstack_named/ebers_fullstack_judgments_haiku.json",
+        "path": "docs/research/_letta_rerun/fullstack_named/ebers_fullstack_judgments_haiku.json",
         "sha256": "02c90e8996f89e68ea2a1a6f3c5dc4976d8478bdeab19c4e90524ae8dc5c3f8b",
         "size_bytes": 7514,
         "n_records": 40
       },
       {
-        "path": "C:/Users/Aarik/Anthropic/memory-study-repo/docs/research/_letta_rerun/fullstack_named/ebers_fullstack_judgments_opus.json",
+        "path": "docs/research/_letta_rerun/fullstack_named/ebers_fullstack_judgments_opus.json",
         "sha256": "1c68eab20268e8f598ac7550efd9a17d4739a0ceedb624142dc4ec9bbb0435aa",
         "size_bytes": 7474,
         "n_records": 40
       },
       {
-        "path": "C:/Users/Aarik/Anthropic/memory-study-repo/docs/research/_letta_rerun/fullstack_named/ebers_fullstack_judgments_sonnet.json",
+        "path": "docs/research/_letta_rerun/fullstack_named/ebers_fullstack_judgments_sonnet.json",
         "sha256": "e97bef0e6f611bf920da5273a69b80342a3c006c5e6ddc8bd6107056e6d009c6",
         "size_bytes": 7554,
         "n_records": 40
       },
       {
-        "path": "C:/Users/Aarik/Anthropic/memory-study-repo/docs/research/_letta_rerun/fullstack_named/hamerton_fullstack_judgments_gpt4o.json",
+        "path": "docs/research/_letta_rerun/fullstack_named/hamerton_fullstack_judgments_gpt4o.json",
         "sha256": "3ab1d0eec37ec9f16a96b7a742b87aad123eb7324e1abef82c1d007341341f73",
         "size_bytes": 7452,
         "n_records": 39
       },
       {
-        "path": "C:/Users/Aarik/Anthropic/memory-study-repo/docs/research/_letta_rerun/fullstack_named/hamerton_fullstack_judgments_gpt54.json",
+        "path": "docs/research/_letta_rerun/fullstack_named/hamerton_fullstack_judgments_gpt54.json",
         "sha256": "5c2954125942e3f8b13b002c2b28b01751242a9b60a1db6ea4d96c8bd6625566",
         "size_bytes": 7452,
         "n_records": 39
       },
       {
-        "path": "C:/Users/Aarik/Anthropic/memory-study-repo/docs/research/_letta_rerun/fullstack_named/hamerton_fullstack_judgments_haiku.json",
+        "path": "docs/research/_letta_rerun/fullstack_named/hamerton_fullstack_judgments_haiku.json",
         "sha256": "5b16090138a5cf1d1de94739459d02c3fd5d98ca4a7c43e02f567f80be2a0889",
         "size_bytes": 7452,
         "n_records": 39
       },
       {
-        "path": "C:/Users/Aarik/Anthropic/memory-study-repo/docs/research/_letta_rerun/fullstack_named/hamerton_fullstack_judgments_opus.json",
+        "path": "docs/research/_letta_rerun/fullstack_named/hamerton_fullstack_judgments_opus.json",
         "sha256": "fc50a4512648b7e03895dbe26994f9c2e831e8d4259d2b7cbe88303627086468",
         "size_bytes": 7413,
         "n_records": 39
       },
       {
-        "path": "C:/Users/Aarik/Anthropic/memory-study-repo/docs/research/_letta_rerun/fullstack_named/hamerton_fullstack_judgments_sonnet.json",
+        "path": "docs/research/_letta_rerun/fullstack_named/hamerton_fullstack_judgments_sonnet.json",
         "sha256": "48c8790efd500078ba635c477ddd67429af64d8c068bef2bdf9d883ade6edaca",
         "size_bytes": 7491,
         "n_records": 39
       },
       {
-        "path": "C:/Users/Aarik/Anthropic/memory-study-repo/docs/research/_letta_rerun/hamerton_bl_c2a_judgments_gpt4o.json",
+        "path": "docs/research/_letta_rerun/hamerton_bl_c2a_judgments_gpt4o.json",
         "sha256": "245285b40e9fd15b8b7a71219451243b3dc8ce789bf6c89a0b7fd9a01ee582ae",
         "size_bytes": 6048,
         "n_records": 39
       },
       {
-        "path": "C:/Users/Aarik/Anthropic/memory-study-repo/docs/research/_letta_rerun/hamerton_bl_c2a_judgments_gpt54.json",
+        "path": "docs/research/_letta_rerun/hamerton_bl_c2a_judgments_gpt54.json",
         "sha256": "d243348e119bcea5f4b268f118739303cf9add50b93b57a94935c496e91d2210",
         "size_bytes": 6048,
         "n_records": 39
       },
       {
-        "path": "C:/Users/Aarik/Anthropic/memory-study-repo/docs/research/_letta_rerun/hamerton_bl_c2a_judgments_opus.json",
+        "path": "docs/research/_letta_rerun/hamerton_bl_c2a_judgments_opus.json",
         "sha256": "b548f2f62b3c6a228006dc005e8c8b8d6260ffc3311f8d14856d8ddc685e6287",
         "size_bytes": 6009,
         "n_records": 39
       },
       {
-        "path": "C:/Users/Aarik/Anthropic/memory-study-repo/docs/research/_letta_rerun/hamerton_bl_c2a_judgments_sonnet.json",
+        "path": "docs/research/_letta_rerun/hamerton_bl_c2a_judgments_sonnet.json",
         "sha256": "9c45213370a3633319b5fd9fdbd562918eef41bb2982bbde9c30b071370a32cd",
         "size_bytes": 6087,
         "n_records": 39
       },
       {
-        "path": "C:/Users/Aarik/Anthropic/memory_system/data/experiments/memory_systems/results/global_babur/letta_memory_haiku_judgments_gemini_flash.json",
+        "path": "memory_system/data/experiments/memory_systems/results/global_babur/letta_memory_haiku_judgments_gemini_flash.json",
         "sha256": "0d522dd636904580652707e0e017584de6c8a4e9002259a7bf1a8de68b2be7da",
         "size_bytes": 6994,
         "n_records": 40
       },
       {
-        "path": "C:/Users/Aarik/Anthropic/memory_system/data/experiments/memory_systems/results/global_babur/letta_memory_haiku_judgments_gemini_pro.json",
+        "path": "memory_system/data/experiments/memory_systems/results/global_babur/letta_memory_haiku_judgments_gemini_pro.json",
         "sha256": "e1f04fe806a6d8d9fe81154b451cd6dd8baefe88d16ba9d55b09068425e89a46",
         "size_bytes": 6914,
         "n_records": 40
       },
       {
-        "path": "C:/Users/Aarik/Anthropic/memory_system/data/experiments/memory_systems/results/global_babur/letta_memory_haiku_judgments_gpt4o.json",
+        "path": "memory_system/data/experiments/memory_systems/results/global_babur/letta_memory_haiku_judgments_gpt4o.json",
         "sha256": "f652e5ae5496533146c2b403fad18541a9215fa41054225d6148df6e7b2c0533",
         "size_bytes": 6714,
         "n_records": 40
       },
       {
-        "path": "C:/Users/Aarik/Anthropic/memory_system/data/experiments/memory_systems/results/global_babur/letta_memory_haiku_judgments_gpt54.json",
+        "path": "memory_system/data/experiments/memory_systems/results/global_babur/letta_memory_haiku_judgments_gpt54.json",
         "sha256": "599bef50474a0047dc9de66ca7c67eb0aa530ae6f3f080db51be49a2f9cfb4ea",
         "size_bytes": 6714,
         "n_records": 40
       },
       {
-        "path": "C:/Users/Aarik/Anthropic/memory_system/data/experiments/memory_systems/results/global_babur/letta_memory_haiku_judgments_haiku.json",
+        "path": "memory_system/data/experiments/memory_systems/results/global_babur/letta_memory_haiku_judgments_haiku.json",
         "sha256": "fb8cdb632c702fef544e084e047b5efc9ea484fb57cfe142a13f5871c73863d8",
         "size_bytes": 6714,
         "n_records": 40
       },
       {
-        "path": "C:/Users/Aarik/Anthropic/memory_system/data/experiments/memory_systems/results/global_babur/letta_memory_haiku_judgments_opus.json",
+        "path": "memory_system/data/experiments/memory_systems/results/global_babur/letta_memory_haiku_judgments_opus.json",
         "sha256": "42c518a4c1b09f10a1b8baf968cbb3bc49cc6fdb74d84b3a53fe090391bcf4bc",
         "size_bytes": 6674,
         "n_records": 40
       },
       {
-        "path": "C:/Users/Aarik/Anthropic/memory_system/data/experiments/memory_systems/results/global_babur/letta_memory_haiku_judgments_sonnet.json",
+        "path": "memory_system/data/experiments/memory_systems/results/global_babur/letta_memory_haiku_judgments_sonnet.json",
         "sha256": "03952d980aa1853ffc6e167faccc054d5007b43c7c31a86a574bef414debe055",
         "size_bytes": 6754,
         "n_records": 40
       },
       {
-        "path": "C:/Users/Aarik/Anthropic/memory_system/data/experiments/memory_systems/results/global_ebers/letta_memory_haiku_judgments_gemini_flash.json",
+        "path": "memory_system/data/experiments/memory_systems/results/global_ebers/letta_memory_haiku_judgments_gemini_flash.json",
         "sha256": "cc038b437035636c9aae0698adf6848c62808096f80e4d438f4fe5612d61a399",
         "size_bytes": 6994,
         "n_records": 40
       },
       {
-        "path": "C:/Users/Aarik/Anthropic/memory_system/data/experiments/memory_systems/results/global_ebers/letta_memory_haiku_judgments_gemini_pro.json",
+        "path": "memory_system/data/experiments/memory_systems/results/global_ebers/letta_memory_haiku_judgments_gemini_pro.json",
         "sha256": "13cccd9a34ee7796cc49453bfa5f283e2eeba83dbbd510afe3609e8515b9c7fa",
         "size_bytes": 6914,
         "n_records": 40
       },
       {
-        "path": "C:/Users/Aarik/Anthropic/memory_system/data/experiments/memory_systems/results/global_ebers/letta_memory_haiku_judgments_gpt4o.json",
+        "path": "memory_system/data/experiments/memory_systems/results/global_ebers/letta_memory_haiku_judgments_gpt4o.json",
         "sha256": "10fbc281c581dac73af2af33281df23734268fd4953550d1722b829f7dcc6716",
         "size_bytes": 6714,
         "n_records": 40
       },
       {
-        "path": "C:/Users/Aarik/Anthropic/memory_system/data/experiments/memory_systems/results/global_ebers/letta_memory_haiku_judgments_gpt54.json",
+        "path": "memory_system/data/experiments/memory_systems/results/global_ebers/letta_memory_haiku_judgments_gpt54.json",
         "sha256": "2efdc2f2afac99b36160ae7e0b6aaf44b73799cf46368a9a3a728d30488f2243",
         "size_bytes": 6714,
         "n_records": 40
       },
       {
-        "path": "C:/Users/Aarik/Anthropic/memory_system/data/experiments/memory_systems/results/global_ebers/letta_memory_haiku_judgments_haiku.json",
+        "path": "memory_system/data/experiments/memory_systems/results/global_ebers/letta_memory_haiku_judgments_haiku.json",
         "sha256": "08b02eafae5c8ca47b93b96803afdf199efff11cff00243d439035abf459234c",
         "size_bytes": 6760,
         "n_records": 40
       },
       {
-        "path": "C:/Users/Aarik/Anthropic/memory_system/data/experiments/memory_systems/results/global_ebers/letta_memory_haiku_judgments_opus.json",
+        "path": "memory_system/data/experiments/memory_systems/results/global_ebers/letta_memory_haiku_judgments_opus.json",
         "sha256": "ee6b2e6bb0322f8adce8703383843fab8a5e9b46a26f9d6f07233cd85449a414",
         "size_bytes": 6674,
         "n_records": 40
       },
       {
-        "path": "C:/Users/Aarik/Anthropic/memory_system/data/experiments/memory_systems/results/global_ebers/letta_memory_haiku_judgments_sonnet.json",
+        "path": "memory_system/data/experiments/memory_systems/results/global_ebers/letta_memory_haiku_judgments_sonnet.json",
         "sha256": "fad06c9ae5ff16425b2cc1355dbe96d5850635ccabdedcfc9b66ed2b954f98c5",
         "size_bytes": 6754,
         "n_records": 40
       },
       {
-        "path": "C:/Users/Aarik/Anthropic/memory_system/data/experiments/memory_systems/results/run_fullstack_hamerton_20260411_231237/analysis/gemini_pro_judgments.json",
+        "path": "memory_system/data/experiments/memory_systems/results/run_fullstack_hamerton_20260411_231237/analysis/gemini_pro_judgments.json",
         "sha256": "860562990b97342ff33fe910aa0670ae33f2c5649c76137051fd61a1d09c06a9",
         "size_bytes": 19932,
         "n_records": 28
       },
       {
-        "path": "C:/Users/Aarik/Anthropic/memory_system/data/experiments/memory_systems/results/run_fullstack_hamerton_20260411_231237/analysis/judgments.json",
+        "path": "memory_system/data/experiments/memory_systems/results/run_fullstack_hamerton_20260411_231237/analysis/judgments.json",
         "sha256": "7f66bd99cc032ba565d2750f5d6a9b4b1925c003fc33990190e9a5b453f577fd",
         "size_bytes": 23637,
         "n_records": 39
       },
       {
-        "path": "C:/Users/Aarik/Anthropic/memory_system/data/experiments/memory_systems/results/run_fullstack_hamerton_20260411_231237/letta_memory_haiku_judgments_gemini_flash.json",
+        "path": "memory_system/data/experiments/memory_systems/results/run_fullstack_hamerton_20260411_231237/letta_memory_haiku_judgments_gemini_flash.json",
         "sha256": "5063005cd64fcea224102837c939af7ee1877f6028a7a265f318903717073a5e",
         "size_bytes": 6594,
         "n_records": 39
       },
       {
-        "path": "C:/Users/Aarik/Anthropic/memory_system/data/experiments/memory_systems/results/run_fullstack_hamerton_20260411_231237/letta_memory_haiku_judgments_gemini_pro.json",
+        "path": "memory_system/data/experiments/memory_systems/results/run_fullstack_hamerton_20260411_231237/letta_memory_haiku_judgments_gemini_pro.json",
         "sha256": "36eeb57a65b1c2cbfa02106ea671c7c4090fbefe5473f375168c1a18d1ccfc4a",
         "size_bytes": 6516,
         "n_records": 39
       },
       {
-        "path": "C:/Users/Aarik/Anthropic/memory_system/data/experiments/memory_systems/results/run_fullstack_hamerton_20260411_231237/letta_memory_haiku_judgments_gpt4o.json",
+        "path": "memory_system/data/experiments/memory_systems/results/run_fullstack_hamerton_20260411_231237/letta_memory_haiku_judgments_gpt4o.json",
         "sha256": "e8d7e9ba67710620753ead21d529068c2002a3bb7abffd313ff1cc50c5cc6737",
         "size_bytes": 6321,
         "n_records": 39
       },
       {
-        "path": "C:/Users/Aarik/Anthropic/memory_system/data/experiments/memory_systems/results/run_fullstack_hamerton_20260411_231237/letta_memory_haiku_judgments_gpt54.json",
+        "path": "memory_system/data/experiments/memory_systems/results/run_fullstack_hamerton_20260411_231237/letta_memory_haiku_judgments_gpt54.json",
         "sha256": "1b2d45abbc4db7cdd96991ea0d6d0ca6652dc092d5e1841f47a868080c6fc211",
         "size_bytes": 6321,
         "n_records": 39
       },
       {
-        "path": "C:/Users/Aarik/Anthropic/memory_system/data/experiments/memory_systems/results/run_fullstack_hamerton_20260411_231237/letta_memory_haiku_judgments_haiku.json",
+        "path": "memory_system/data/experiments/memory_systems/results/run_fullstack_hamerton_20260411_231237/letta_memory_haiku_judgments_haiku.json",
         "sha256": "4293c5050aaec57d563262c8df7e14f28dc8f31990e6f0f6f89f5e0a06c4d3be",
         "size_bytes": 6397,
         "n_records": 39
       },
       {
-        "path": "C:/Users/Aarik/Anthropic/memory_system/data/experiments/memory_systems/results/run_fullstack_hamerton_20260411_231237/letta_memory_haiku_judgments_opus.json",
+        "path": "memory_system/data/experiments/memory_systems/results/run_fullstack_hamerton_20260411_231237/letta_memory_haiku_judgments_opus.json",
         "sha256": "8c4aabacdebe5b0e906435f1edff2f86935c9194200c9965fd899e43951e529b",
         "size_bytes": 6282,
         "n_records": 39
       },
       {
-        "path": "C:/Users/Aarik/Anthropic/memory_system/data/experiments/memory_systems/results/run_fullstack_hamerton_20260411_231237/letta_memory_haiku_judgments_sonnet.json",
+        "path": "memory_system/data/experiments/memory_systems/results/run_fullstack_hamerton_20260411_231237/letta_memory_haiku_judgments_sonnet.json",
         "sha256": "95b7ddfb11ba903b127fca40d6aae96b4b9bae9b0db43aaa5d9e3802cc66d2ee",
         "size_bytes": 6360,
         "n_records": 39
       },
       {
-        "path": "C:/Users/Aarik/Anthropic/memory_system/data/experiments/memory_systems/results/run_fullstack_hamerton_20260411_231237/letta_stateful_test_result.json",
+        "path": "memory_system/data/experiments/memory_systems/results/run_fullstack_hamerton_20260411_231237/letta_stateful_test_result.json",
         "sha256": "8212e8ad6fc4e4d699b38288bf2d3582d9e15e2697b8450ff52d879b5db621e4",
         "size_bytes": 396405,
         "n_records": null

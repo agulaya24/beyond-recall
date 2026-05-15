@@ -18,7 +18,7 @@ import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 
-REPO = Path("C:/Users/Aarik/Anthropic/memory-study-repo")
+REPO = Path(__file__).resolve().parents[1]
 OUT = REPO / "docs" / "references"
 OUT.mkdir(parents=True, exist_ok=True)
 

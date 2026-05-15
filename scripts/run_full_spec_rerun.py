@@ -16,6 +16,11 @@ from glob import glob
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
+# NOTE: the subject memory environments (hamerton_memory, franklin_clean_memory,
+# subjects/franklin_memory) live outside this repo. Set ANTHROPIC_ROOT to the
+# directory that contains them; defaults to empty so a missing path is obvious.
+ANTHROPIC_ROOT = os.environ.get("ANTHROPIC_ROOT", "")
+
 # Load env
 for k in ['MEM0_KEY', 'SUPERMEMORY_KEY', 'ANTHROPIC_API_KEY']:
     r = subprocess.run(['powershell', '-Command',
@@ -116,24 +121,24 @@ SUBJECTS = {
     "hamerton": {
         "questions": os.path.join(BASE_DIR, "battery", "questions_80.json"),
         "facts": os.path.join(BASE_DIR, "shared_facts.json"),
-        "spec_layers_dir": "C:/Users/Aarik/Anthropic/hamerton_memory/data/identity_layers",
-        "wrong_spec_layers_dir": "C:/Users/Aarik/Anthropic/subjects/franklin_memory/data/identity_layers",
+        "spec_layers_dir": os.path.join(ANTHROPIC_ROOT, "hamerton_memory/data/identity_layers"),
+        "wrong_spec_layers_dir": os.path.join(ANTHROPIC_ROOT, "subjects/franklin_memory/data/identity_layers"),
         "mem0_user": "hamerton_study",
         "sm_container": "hamerton_v2",
     },
     "franklin": {
         "questions": os.path.join(BASE_DIR, "battery", "questions_80_franklin.json"),
         "facts": os.path.join(BASE_DIR, "franklin_shared_facts.json"),
-        "spec_layers_dir": "C:/Users/Aarik/Anthropic/franklin_clean_memory/data/identity_layers",
-        "wrong_spec_layers_dir": "C:/Users/Aarik/Anthropic/hamerton_memory/data/identity_layers",
+        "spec_layers_dir": os.path.join(ANTHROPIC_ROOT, "franklin_clean_memory/data/identity_layers"),
+        "wrong_spec_layers_dir": os.path.join(ANTHROPIC_ROOT, "hamerton_memory/data/identity_layers"),
         "mem0_user": "franklin_study_v1",
         "sm_container": "franklin_study_v1",
     },
     "franklin_obscure": {
         "questions": os.path.join(BASE_DIR, "battery", "questions_80_franklin_obscure.json"),
         "facts": os.path.join(BASE_DIR, "franklin_obscure_shared_facts.json"),
-        "spec_layers_dir": "C:/Users/Aarik/Anthropic/subjects/franklin_memory/data/identity_layers",
-        "wrong_spec_layers_dir": "C:/Users/Aarik/Anthropic/hamerton_memory/data/identity_layers",
+        "spec_layers_dir": os.path.join(ANTHROPIC_ROOT, "subjects/franklin_memory/data/identity_layers"),
+        "wrong_spec_layers_dir": os.path.join(ANTHROPIC_ROOT, "hamerton_memory/data/identity_layers"),
         "mem0_user": None,
         "sm_container": None,
     },

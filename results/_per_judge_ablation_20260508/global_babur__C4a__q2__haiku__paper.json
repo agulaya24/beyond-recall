@@ -1,0 +1,17 @@
+{
+  "subject": "global_babur",
+  "paper_cond": "C4a",
+  "raw_cond_label": "C4a_full_facts_plus_spec",
+  "qid": 2,
+  "judge": "haiku",
+  "rubric": "paper",
+  "score": 1,
+  "raw": "1",
+  "parse_failure": false,
+  "response_type": "substantive",
+  "response_text": "# Babur's Approach to Managing Rival Powers During Military Campaigns\n\nBased on the behavioral specification and documented facts, Babur employs a multifaceted strategy that combines military pragmatism with political calculation:\n\n## Intelligence and Reconnaissance\n\nBabur prioritizes **early warning systems**. He consistently sends scouts ahead to gather intelligence about enemy positions, strength, and movements. When facing Rana Sanga, he deployed unmailed braves ahead to \"engage the enemy and take an omen before the main battle\"—gathering both tactical and psychological information.\n\n## Preemptive Diplomatic Engagement\n\nRather than waiting for conflict to crystallize, Babur **initiates contact with potential rivals**:\n- He sent envoys to Ibrahim Ludi requesting territories \"once dependent on the Turks\"\n- He negotiated with Rana Sanga's son Bikramajit, promising Shamsabad in exchange for Rantanbur\n- He maintained correspondence with Bengal's Nasrat Shah, explicitly instructing envoys that \"his dependencies would not be harmed during military operations\"\n\nThis reflects his axiom of **relational power** (A10)—political situations are webs of personal loyalties and obligations, not abstract institutional conflicts.\n\n## Logistical Preparation as Deterrent\n\nBabur understands that **visible military readiness itself manages threats**. Before the Battle of Kanwa, he spent 20-25 days fortifying his camp with:\n- Chained carts positioned defensively\n- Ditch systems where carts could",
+  "held_out": "During these days news came repeatedly that Bīban and Shaikh Bāyazīd were meaning to cross the Sarū-river.",
+  "question_text": "What is Babur's approach to managing potential threats from rival powers during military campaigns?",
+  "prior_delta": -2.6,
+  "timestamp": "2026-05-08T22:07:33.944323Z"
+}

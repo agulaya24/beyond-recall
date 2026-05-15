@@ -3,7 +3,9 @@ import json
 import os
 from collections import defaultdict
 
-BASE = r"C:\Users\Aarik\Anthropic\memory_system\data\experiments\memory_systems\results"
+# This script depends on the separate memory_system repo; set MEMORY_SYSTEM_ROOT to its path.
+MEMORY_SYSTEM_ROOT = os.environ.get("MEMORY_SYSTEM_ROOT", "")
+BASE = os.path.join(MEMORY_SYSTEM_ROOT, "data", "experiments", "memory_systems", "results")
 
 def load_scores(path):
     """Return dict qid -> score (1-5) or None. Drops 0/failed entries."""

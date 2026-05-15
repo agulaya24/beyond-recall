@@ -25,7 +25,9 @@ from pathlib import Path
 
 import httpx
 
-MS_RESULTS = Path('C:/Users/Aarik/Anthropic/memory_system/data/experiments/memory_systems/results')
+# NOTE: depends on the separate (private) memory_system repo. Set MEMORY_SYSTEM_ROOT
+# to its path; defaults to empty so the missing-path failure is obvious.
+MS_RESULTS = Path(os.environ.get("MEMORY_SYSTEM_ROOT", "")) / 'data' / 'experiments' / 'memory_systems' / 'results'
 SUBJECTS = ['bernal_diaz', 'babur', 'cellini', 'rousseau']
 CONDITIONS = ['C1_supermemory_fp', 'C3_supermemory_fp']
 

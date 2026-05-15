@@ -41,7 +41,7 @@ except Exception:
     _ENC = None
 
 # Paths
-REPO_DIR = 'C:/Users/Aarik/Anthropic/memory-study-repo'
+REPO_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SUBJECT = 'yung_wing'
 SUBJECT_RESULTS_DIR = f'{REPO_DIR}/results/global_{SUBJECT}'
 SUBJECT_SPEC_PATH = f'{REPO_DIR}/data/global_subjects/{SUBJECT}/spec_production.md'

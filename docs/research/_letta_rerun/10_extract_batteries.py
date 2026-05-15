@@ -2,9 +2,13 @@
 Source: letta_memory_haiku_results.json — which embeds question_id, question_text, held_out_passage."""
 import json
 import os
+from pathlib import Path
 
-RESULTS_BASE = r"C:\Users\Aarik\Anthropic\memory_system\data\experiments\memory_systems\results"
-OUT_DIR = r"C:\Users\Aarik\Anthropic\memory-study-repo\docs\research\_letta_rerun"
+REPO = Path(__file__).resolve().parents[3]
+# This script also depends on the separate memory_system repo; set MEMORY_SYSTEM_ROOT to its path.
+MEMORY_SYSTEM_ROOT = os.environ.get("MEMORY_SYSTEM_ROOT", "")
+RESULTS_BASE = os.path.join(MEMORY_SYSTEM_ROOT, "data", "experiments", "memory_systems", "results")
+OUT_DIR = str(REPO / "docs" / "research" / "_letta_rerun")
 
 for s in ("ebers", "babur"):
     in_path = os.path.join(RESULTS_BASE, f"global_{s}", "letta_memory_haiku_results.json")

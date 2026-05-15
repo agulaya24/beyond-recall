@@ -21,6 +21,7 @@ Outputs:
 """
 
 import json
+import os
 import statistics
 from collections import defaultdict
 from pathlib import Path
@@ -32,7 +33,9 @@ except ImportError:
     HAS_SCIPY = False
 
 REPO = Path(__file__).resolve().parent.parent
-CANONICAL_RESULTS = Path('C:/Users/Aarik/Anthropic/memory_system/data/experiments/memory_systems/results')
+# NOTE: depends on the separate (private) memory_system repo. Set MEMORY_SYSTEM_ROOT
+# to its path; defaults to empty so the missing-path failure is obvious.
+CANONICAL_RESULTS = Path(os.environ.get("MEMORY_SYSTEM_ROOT", "")) / 'data' / 'experiments' / 'memory_systems' / 'results'
 STUDY_REPO_RESULTS = REPO / 'results'  # mirror; Hamerton supermemory_fp lives here only
 OUT_AGG = REPO / 'docs' / 'research' / 'supermemory_7judge_aggregate.md'
 OUT_BLOCK = REPO / 'docs' / 'research' / '_supermemory_update_block.md'

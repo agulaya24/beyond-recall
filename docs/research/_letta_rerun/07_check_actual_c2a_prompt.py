@@ -1,11 +1,14 @@
 """Inspect the actual C2a response data to see if spec was named or anonymized."""
 import json
 import os
+from pathlib import Path
+
+REPO = Path(__file__).resolve().parents[3]
 
 for subject in ("ebers", "babur"):
     print(f"\n========== {subject} ==========")
     # results_v2.json — this is the v2 39-question run used in the paper for low-baseline subjects
-    path = os.path.join(r"C:\Users\Aarik\Anthropic\memory-study-repo\results", f"global_{subject}", "results_v2.json")
+    path = os.path.join(str(REPO / "results"), f"global_{subject}", "results_v2.json")
     with open(path, encoding="utf-8") as f:
         data = json.load(f)
     # data is a list of 39 questions

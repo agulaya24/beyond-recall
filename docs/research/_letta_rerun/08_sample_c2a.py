@@ -1,10 +1,13 @@
 """Sample C2a response texts to confirm the run used the named or anonymized spec."""
 import json
 import os
+from pathlib import Path
+
+REPO = Path(__file__).resolve().parents[3]
 
 for subject in ("ebers", "babur"):
     print(f"\n========== {subject} ==========")
-    path = os.path.join(r"C:\Users\Aarik\Anthropic\memory-study-repo\results", f"global_{subject}", "results_v2.json")
+    path = os.path.join(str(REPO / "results"), f"global_{subject}", "results_v2.json")
     with open(path, encoding="utf-8") as f:
         data = json.load(f)
     # Show first 3 C2a responses (just first 400 chars each)

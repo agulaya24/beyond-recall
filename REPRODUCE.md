@@ -1,10 +1,10 @@
-# Reproducing the Beyond Recall v11 Headline Numbers
+# Reproducing the Beyond Recall v12.1 Headline Numbers
 
-This document is the canonical reproduction path for the v11 paper. v11 is the release-frozen draft at `docs/beyond_recall_v11_draft.md` (release-frozen 2026-04-28); the numerical claims it makes can be regenerated locally with the scripts and data committed to this repository.
+This document is the canonical reproduction path for the v12.1 paper. v12.1 is the current canonical draft at `docs/beyond_recall_v12_1_draft.md` (2026-05-13); the numerical claims it makes can be regenerated locally with the scripts and data committed to this repository.
 
-> **Note:** v11's headline numbers (slope, R², Wilcoxon, low-baseline mean Δ_C4a, all-14 mean Δ_C4a, wrong-spec deltas, memory-system deltas, Letta n=3) are carried forward unchanged from v10.1, so the reproduction commands below produce the same numerical outputs they did under v10.1. The script names retain the `_v10_` prefix as frozen artifact identifiers; they reproduce the v11 §4.1 numbers. v11 adds new content (per-question variance, two statistical signatures, predicate ablation, half-anchor metric, held-out leakage rare, Hamerton spec-length confound) registered in the 2026-04-28 data-locking pass; per-claim confidence catalog at `docs/research/v11_confidence_catalog_20260428.md`. The v10.1 draft at `docs/beyond_recall_v10_1_draft.md` is preserved as historical baseline (was canonical until v11's freeze on 2026-04-28).
+> **Note:** v12.1's headline numbers (slope, R², Wilcoxon, low-baseline mean Δ_C4a, all-14 mean Δ_C4a, wrong-spec deltas, memory-system deltas, Letta n=3) are carried forward unchanged from v10.1, so the reproduction commands below produce the same numerical outputs they did under v10.1 / v11. The script names retain the `_v10_` prefix as frozen artifact identifiers; they reproduce the v12.1 §4.1 numbers. v11 added content (per-question variance, two statistical signatures, predicate ablation, half-anchor metric, held-out leakage rare, Hamerton spec-length confound) registered in the 2026-04-28 data-locking pass; per-claim confidence catalog at `docs/research/v11_confidence_catalog_20260428.md`. **v12.1 standardized the §4.2 compression Δs to the symmetric 9-row computation** (Spec Only Δ +0.68, raw corpus Δ +0.91, All Facts + Spec Δ +0.89; compression-recovery figure 75%); the recompute is documented at `docs/reviews/v12_1_compression_table_recompute_20260513.md`. v12.1 also corrected the 3-anchor crossing rate (5.9% → 5.7%, 20/351) and added a Krippendorff α footnote disclosing a third-party recompute of 0.668 alongside the 0.659 headline. None of these changes affect the §4.1 gradient reproduction commands below. The v10.1 draft at `docs/beyond_recall_v10_1_draft.md` is preserved as historical baseline.
 
-The aim is to make the reasoning behind the v11 §4.1 gradient checkable from a clean checkout. Every script listed here runs from committed data; no API calls are required for the core sensitivity analyses.
+The aim is to make the reasoning behind the v12.1 §4.1 gradient checkable from a clean checkout. Every script listed here runs from committed data; no API calls are required for the core sensitivity analyses.
 
 ---
 
@@ -97,7 +97,7 @@ Same input file family, scoped to `C1_<system>` and `C3_<system>` rows.
 
 ### 3.3. End-to-end response generation (API-dependent)
 
-API-calling scripts are out of scope for the canonical v11 reproduction path because they cost money and depend on provider availability. Where you need them, the entry points are:
+API-calling scripts are out of scope for the canonical v12.1 reproduction path because they cost money and depend on provider availability. Where you need them, the entry points are:
 
 - `scripts/run_full_study.py` (Hamerton)
 - `scripts/run_global_subjects.py` (13 globals)
@@ -160,9 +160,9 @@ The `scripts/_probe_*.py`, `scripts/_check_*.py`, and `scripts/_diag_*.py` famil
 
 ---
 
-## 6. Where the v11 numbers come from
+## 6. Where the v12.1 numbers come from
 
-v11 carries the v10.1 §4.1 / §4.2 / §4.3 / §4.4 / §4.5 numbers forward unchanged. v11-specific additions (per-question variance, two statistical signatures, half-anchor metric, predicate ablation null, held-out leakage rare, Hamerton spec-length confound, pattern-activation heuristic falsified) are registered in DATA_REFERENCE.md, KEY_FINDINGS.md (M15-M21), and PROVENANCE_INDEX.md from the 2026-04-28 data-locking pass.
+v12.1 carries the v10.1 §4.1 / §4.2 / §4.3 / §4.4 / §4.5 headline numbers forward unchanged. v11-specific additions (per-question variance, two statistical signatures, half-anchor metric, predicate ablation null, held-out leakage rare, Hamerton spec-length confound, pattern-activation heuristic falsified) are registered in DATA_REFERENCE.md, KEY_FINDINGS.md (M15-M21), and PROVENANCE_INDEX.md from the 2026-04-28 data-locking pass. v12.1 standardized the §4.2 compression Δs to the symmetric 9-row computation (recompute at `docs/reviews/v12_1_compression_table_recompute_20260513.md`) and corrected the 3-anchor crossing rate to 5.7% (20/351).
 
 | Number | Where to look |
 |---|---|
@@ -177,7 +177,7 @@ v11 carries the v10.1 §4.1 / §4.2 / §4.3 / §4.4 / §4.5 numbers forward unch
 | v11 predicate ablation (Phase 2c) | `docs/research/predicate_ablation_results_20260428.{json,md}` |
 | v11 confidence catalog (per-claim source of truth) | `docs/research/v11_confidence_catalog_20260428.md` |
 
-The single source of truth for every number is `docs/DATA_REFERENCE.md`. The v11 paper draft is the canonical narrative; where the two disagree, the paper wins.
+The single source of truth for every number is `docs/DATA_REFERENCE.md`. The v12.1 paper draft is the canonical narrative; where the two disagree, the paper wins.
 
 ---
 
@@ -224,6 +224,6 @@ The dispatcher selects `max_completion_tokens` automatically for any OpenAI mode
 
 - **Provider memory-system reruns** (Mem0, Letta archival, Supermemory, Zep) require API keys and SDKs not pinned in `requirements.txt`.
 - **Cross-LLM paper review scripts** (`scripts/_run_v9_groq_review.py`, `scripts/gate_review_v8.py`, etc.) call Groq, Mistral, Cerebras, Gemini via raw HTTP; provider keys are read from Windows user environment variables (see the `get_win_env` helper inside each script).
-- **Word document export** (`docs/beyond_recall_v11_draft.docx` if present, or `docs/beyond_recall_v10_1_draft.docx` for the historical baseline) requires `pypandoc` plus a Pandoc binary on PATH.
+- **Word document export** (`docs/beyond_recall_v12_1_draft.docx` if present, or `docs/beyond_recall_v10_1_draft.docx` for the historical baseline) requires `pypandoc` plus a Pandoc binary on PATH.
 
-If you are reproducing the v11 §4.1 result from a fresh clone for a paper-review reason, sections 1, 2, and 5 of this document are sufficient. The rest is provenance.
+If you are reproducing the v12.1 §4.1 result from a fresh clone for a paper-review reason, sections 1, 2, and 5 of this document are sufficient. The rest is provenance.

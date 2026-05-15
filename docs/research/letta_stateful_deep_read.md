@@ -2,7 +2,7 @@
 
 **Goal.** Same move as the Supermemory C1-vs-C3 deep read, applied to Letta. Characterize Letta's stateful-agent memory blocks; pair responses against Base Layer's behavioral specification at matched response model (Haiku); scan the native archival path for Supermemory-style per-question swings hidden under a null aggregate.
 
-**Data sources.** Raw blocks, responses, and judgments under `C:\Users\Aarik\Anthropic\memory_system\data\experiments\memory_systems\results\` (Ebers, Babur, Hamerton runs) and `C:\Users\Aarik\Anthropic\memory-study-repo\results\`. Working files: `C:\Users\Aarik\Anthropic\memory-study-repo\docs\research\_letta_blocks\*`.
+**Data sources.** Raw blocks, responses, and judgments under `memory_system/data/experiments/memory_systems/results/` (Ebers, Babur, Hamerton runs; in the separate memory_system repo) and `results/` (in this repo). Working files: `docs/research/_letta_blocks/*`.
 
 ---
 
@@ -242,7 +242,7 @@ The deep read confirms:
 
 ## 6. Artifacts
 
-All intermediate files under `C:\Users\Aarik\Anthropic\memory-study-repo\docs\research\_letta_blocks\`:
+All intermediate files under `docs/research/_letta_blocks/`:
 
 - `hamerton_human_block.txt`, `ebers_human_block.txt`, `babur_human_block.txt` — raw final human blocks.
 - `compute_paired.py`, `paired_scores.json` — per-question, per-judge scores and aggregate comparison.

@@ -22,7 +22,7 @@ from recompute_5judge_primary import (
 from scipy import stats as scipy_stats
 import numpy as np
 
-ROOT = Path('C:/Users/Aarik/Anthropic/memory-study-repo')
+ROOT = Path(__file__).resolve().parents[2]
 
 # === Step 1: build per-subject per-condition 5-judge primary table ===
 print('=== Step 1: Per-subject, per-condition 5-judge primary means ===')

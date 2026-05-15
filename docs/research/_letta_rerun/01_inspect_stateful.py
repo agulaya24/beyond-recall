@@ -5,9 +5,13 @@
 """
 import json
 import os
+from pathlib import Path
 
-BASE = r"C:\Users\Aarik\Anthropic\memory_system\data\experiments\memory_systems\results"
-OUT_DIR = r"C:\Users\Aarik\Anthropic\memory-study-repo\docs\research\_letta_rerun"
+REPO = Path(__file__).resolve().parents[3]
+# This script also depends on the separate memory_system repo; set MEMORY_SYSTEM_ROOT to its path.
+MEMORY_SYSTEM_ROOT = os.environ.get("MEMORY_SYSTEM_ROOT", "")
+BASE = os.path.join(MEMORY_SYSTEM_ROOT, "data", "experiments", "memory_systems", "results")
+OUT_DIR = str(REPO / "docs" / "research" / "_letta_rerun")
 
 def inspect(subject: str):
     path = os.path.join(BASE, f"global_{subject}", "letta_stateful_test_result.json")

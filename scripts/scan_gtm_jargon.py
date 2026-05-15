@@ -16,8 +16,8 @@ from pathlib import Path
 
 import anthropic
 
-PAPER_PATH = Path(r"C:/Users/Aarik/Anthropic/memory-study-repo/docs/beyond_recall_v8_draft.md")
-REVIEWS_DIR = Path(r"C:/Users/Aarik/Anthropic/memory-study-repo/docs/reviews")
+PAPER_PATH = Path(__file__).resolve().parents[1] / "docs" / "beyond_recall_v8_draft.md"
+REVIEWS_DIR = Path(__file__).resolve().parents[1] / "docs" / "reviews"
 MODEL = "claude-haiku-4-5-20251001"
 
 # Split points: we segment on top-level sections and some large subsections to

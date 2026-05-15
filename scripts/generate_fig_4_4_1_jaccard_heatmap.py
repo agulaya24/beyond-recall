@@ -17,7 +17,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import seaborn as sns
 
-REPO = Path("C:/Users/Aarik/Anthropic/memory-study-repo")
+REPO = Path(__file__).resolve().parents[1]
 DATA = REPO / "docs" / "research" / "retrieval_overlap_analysis_20260501.json"
 FIGS = REPO / "figures"
 

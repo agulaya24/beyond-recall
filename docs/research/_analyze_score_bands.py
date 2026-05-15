@@ -4,9 +4,11 @@ subject distribution, and response-form features (hedging, refusal, specificity)
 import json
 import re
 from collections import Counter, defaultdict
+from pathlib import Path
 from statistics import mean, stdev
 
-POOL = "C:/Users/Aarik/Anthropic/memory-study-repo/docs/research/_score_band_pool.json"
+REPO = Path(__file__).resolve().parents[2]
+POOL = str(REPO / "docs/research/_score_band_pool.json")
 with open(POOL, "r", encoding="utf-8") as f:
     pool = json.load(f)
 
@@ -82,7 +84,7 @@ for band_name, records in pool["bands"].items():
     print()
 
 # Save band report
-with open("C:/Users/Aarik/Anthropic/memory-study-repo/docs/research/_score_band_stats.json", "w", encoding="utf-8") as f:
+with open(str(REPO / "docs/research/_score_band_stats.json"), "w", encoding="utf-8") as f:
     json.dump(band_report, f, indent=2)
 
 # Also: histogram of judge score vectors across ALL records (from pool, not just sample)

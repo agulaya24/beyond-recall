@@ -25,7 +25,6 @@ Project Gutenberg eBooks are distributed in the public domain in the United Stat
 - **Words:** 151,371
 - **Paragraphs:** 2,795
 - **SHA-256:** `0ca3cf2f48d1869ec1fe289f5c69cbeba3c49c3eadc2bd446a26c1e070a52b36`
-- **Migrated from:** `C:\Users\Aarik\Anthropic\memory_system\data\corpora\franklin_letters\complete_works_vol2_raw.txt`
 - **Migrated on:** 2026-05-05T21:43:49.637923+00:00
 
 ## How this corpus is consumed by the study pipeline

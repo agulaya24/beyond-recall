@@ -15,7 +15,7 @@
 
 ## Part 1 — Verify the ceiling
 
-**Artifact:** `C:\Users\Aarik\Anthropic\memory_system\data\experiments\memory_systems\results\global_babur\letta_stateful_test_result.json` (21.6 MB)
+**Artifact:** `memory_system/data/experiments/memory_systems/results/global_babur/letta_stateful_test_result.json` (21.6 MB; in the separate memory_system repo)
 
 Structure: `chunks_total=242, turns=243, final_blocks.human.size=335,349`. Each turn records `human_len` (running human-block size), `total_chars` (block + persona), and `blocks_after[].value` at that turn.
 
@@ -244,7 +244,7 @@ Either the paper's §4.3.1 should use consistent terminology (e.g., "Base Layer 
 
 ## Artifact index
 
-All files under `C:\Users\Aarik\Anthropic\memory-study-repo\docs\research\_letta_rerun\`:
+All files under `docs/research/_letta_rerun/`:
 
 **Scripts:**
 - `01_inspect_stateful.py`, `02_inspect_errors.py`, `03_size_progression.py`, `04_final_block_gap.py` — Babur ceiling analysis
@@ -264,13 +264,13 @@ All files under `C:\Users\Aarik\Anthropic\memory-study-repo\docs\research\_letta
 - `babur_bl_c2a_named_responses.json`, `ebers_bl_c2a_named_responses.json` — BL-C2a-named Haiku responses
 - `{subject}_judgments_{judge}.json` — 14 judgment files (2 subjects × 7 judges)
 
-**Primary sources referenced:**
-- `C:\Users\Aarik\Anthropic\memory_system\data\experiments\memory_systems\results\global_babur\letta_stateful_test_result.json`
-- `C:\Users\Aarik\Anthropic\memory_system\data\experiments\memory_systems\results\global_ebers\letta_stateful_test_result.json`
-- `C:\Users\Aarik\Anthropic\memory_system\data\experiments\memory_systems\results\global_{ebers,babur}\letta_memory_haiku_results.json`
-- `C:\Users\Aarik\Anthropic\memory_system\data\experiments\memory_systems\results\global_{ebers,babur}\letta_memory_haiku_judgments_{judge}.json`
-- `C:\Users\Aarik\Anthropic\memory-study-repo\results\global_{ebers,babur}\spec.md` (paper C2a spec, named)
-- `C:\Users\Aarik\Anthropic\memory-study-repo\scripts\run_global_subjects.py` (spec-generation script)
+**Primary sources referenced** (paths under `memory_system/` are in the separate memory_system repo; others are in this repo):
+- `memory_system/data/experiments/memory_systems/results/global_babur/letta_stateful_test_result.json`
+- `memory_system/data/experiments/memory_systems/results/global_ebers/letta_stateful_test_result.json`
+- `memory_system/data/experiments/memory_systems/results/global_{ebers,babur}/letta_memory_haiku_results.json`
+- `memory_system/data/experiments/memory_systems/results/global_{ebers,babur}/letta_memory_haiku_judgments_{judge}.json`
+- `results/global_{ebers,babur}/spec.md` (paper C2a spec, named)
+- `scripts/run_global_subjects.py` (spec-generation script)
 
 ---
 

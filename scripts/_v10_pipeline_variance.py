@@ -50,11 +50,15 @@ from pathlib import Path
 
 import httpx
 
-REPO = Path('C:/Users/Aarik/Anthropic/memory-study-repo')
+REPO = Path(__file__).resolve().parents[1]
 RESULTS = REPO / 'results'
 DATA_GLOBAL = REPO / 'data' / 'global_subjects'
-ENVS_DIR = Path('C:/Users/Aarik/Anthropic/global_subject_environments')
-MEMORY_SYSTEM_ROOT = Path('C:/Users/Aarik/Anthropic/memory_system')
+# NOTE: global_subject_environments and the memory_system repo both live outside
+# this repo. Set ANTHROPIC_ROOT to the directory that contains global_subject_environments,
+# and MEMORY_SYSTEM_ROOT to the memory_system repo path. Both default to empty so
+# a missing path is obvious.
+ENVS_DIR = Path(os.environ.get("ANTHROPIC_ROOT", "")) / 'global_subject_environments'
+MEMORY_SYSTEM_ROOT = Path(os.environ.get("MEMORY_SYSTEM_ROOT", ""))
 SRC_DIR = MEMORY_SYSTEM_ROOT / 'src'
 
 SUBJECTS = ['sunity_devee', 'yung_wing', 'augustine']

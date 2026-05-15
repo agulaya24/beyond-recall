@@ -2,7 +2,7 @@
 import json
 from pathlib import Path
 
-ROOT = Path('C:/Users/Aarik/Anthropic/memory-study-repo')
+ROOT = Path(__file__).resolve().parents[2]
 
 with open(ROOT / 'docs/research/hedging_analysis.json') as f:
     h = json.load(f)

@@ -11,10 +11,17 @@ Changes from v2 (2026-04-23 final polish pass):
 4. How-to-read box kept but shrunk to stay within ~8% of figure area.
 5. dpi=300 confirmed on savefig.
 
-Source: v2 data unchanged (author did not contest the scatter values).
+Mechanical link (2026-05-13): the scatter values and regression parameters are now
+loaded from docs/research/v11_emit/4_1_gradient.json (produced by
+scripts/_v11_emit_4_1_gradient.py from primary results/ judgment data) instead of
+hardcoded Python literals. Plotted values are unchanged: the emit JSON carries the
+same C5 and delta_C4a values that were previously hand-transcribed, at full
+precision; this script rounds them to the 2-decimal display precision used before.
+
 Output: figures/fig_4_1_gradient_scatter_v3.png
 """
 
+import json
 from pathlib import Path
 
 import matplotlib
@@ -34,26 +41,42 @@ from _figure_style import (
 
 REPO = Path(__file__).resolve().parent.parent
 FIG_DIR = REPO / 'figures'
+DATA_PATH = REPO / 'docs' / 'research' / 'v11_emit' / '4_1_gradient.json'
 
 apply_style()
 
-SUBJECTS = [
-    ('Ebers', 1.02, 1.05, 'low'),
-    ('Sunity Devee', 1.03, 1.38, 'low'),
-    ('Hamerton', 1.26, 1.51, 'low'),
-    ('Fukuzawa', 1.67, 1.11, 'low'),
-    ('Bernal Diaz', 1.70, 0.78, 'low'),
-    ('Babur', 1.76, 0.25, 'low'),
-    ('Seacole', 1.77, 0.82, 'low'),
-    ('Keckley', 1.84, 0.59, 'low'),
-    ('Yung Wing', 1.88, 0.52, 'low'),
-    ('Zitkala-Sa', 2.34, -0.32, 'mid'),
-    ('Cellini', 2.38, 0.15, 'mid'),
-    ('Rousseau', 2.44, 0.10, 'mid'),
-    ('Augustine', 2.58, 0.11, 'mid'),
-    ('Equiano', 2.77, -0.35, 'mid'),
-    ('Franklin (control)', 3.77, -0.13, 'franklin'),
-]
+# Display-name overrides where the figure's label text differs from the emit
+# JSON's display_name (the JSON has no accent on Diaz; Franklin carries the
+# "(control)" tag only in the figure).
+DISPLAY_OVERRIDE = {
+    'franklin': 'Franklin (control)',
+}
+
+
+def load_subjects():
+    """Load the per-subject scatter rows and regression block from the emit JSON.
+
+    Returns (subjects, regression) where subjects is a list of
+    (display_name, C5, delta_C4a, band) tuples in the JSON's order, and
+    regression is the regression_delta_on_C5 dict.
+    """
+    data = json.load(open(DATA_PATH, encoding='utf-8'))
+    low_ids = set(data['summary']['low_baseline_subjects'])
+    rows = []
+    for s in data['subjects']:
+        sid = s['id']
+        if sid == 'franklin':
+            band = 'franklin'
+        elif sid in low_ids:
+            band = 'low'
+        else:
+            band = 'mid'
+        name = DISPLAY_OVERRIDE.get(sid, s['display_name'])
+        rows.append((name, round(s['C5'], 2), round(s['delta_C4a'], 2), band))
+    return rows, data['summary']['regression_delta_on_C5']
+
+
+SUBJECTS, REGRESSION = load_subjects()
 
 COLORS  = {'low': BAND_LOW,  'mid': BAND_MID,  'franklin': BAND_FRANKLIN}
 MARKERS = {'low': 'o',       'mid': 's',       'franklin': 'D'}
@@ -78,14 +101,17 @@ LABELED = set(LABEL_OFFSETS.keys())
 def main():
     fig, ax = plt.subplots(figsize=(10.5, 6.4))
 
-    slope = -0.96
-    intercept = 2.36
+    slope = round(REGRESSION['slope'], 2)
+    intercept = round(REGRESSION['intercept'], 2)
+    r_squared = round(REGRESSION['r_squared'], 2)
     x_line = np.linspace(0.8, 4.2, 100)
     y_line = slope * x_line + intercept
     ax.plot(x_line, y_line, color='#555555', linestyle='--', linewidth=1.5,
-            label='Regression (N=14): slope -0.96, R^2 = 0.82, p < 0.001', zorder=4)
+            label=f'Regression (N=14): slope {slope:.2f}, R^2 = {r_squared:.2f}, p < 0.001',
+            zorder=4)
 
-    slope_lo, slope_hi = -1.24, -0.67
+    slope_lo = round(REGRESSION['ci95_low'], 2)
+    slope_hi = round(REGRESSION['ci95_high'], 2)
     y_lo = slope_lo * x_line + intercept + 0.2
     y_hi = slope_hi * x_line + intercept - 0.2
     ax.fill_between(x_line, y_lo, y_hi, color='gray', alpha=0.10,

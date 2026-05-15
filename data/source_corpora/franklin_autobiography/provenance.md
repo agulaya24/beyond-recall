@@ -23,7 +23,6 @@ Project Gutenberg eBooks are distributed in the public domain in the United Stat
 - **Words:** 79,259
 - **Paragraphs:** 986
 - **SHA-256:** `a788e84346327fa709f3866a3246bef7949eb04b3f43108a4b632461d49d5f59`
-- **Migrated from:** `C:\Users\Aarik\Anthropic\memory_system\data\corpora\franklin_autobiography\franklin_raw.txt`
 - **Migrated on:** 2026-05-05T21:43:49.602865+00:00
 
 ## How this corpus is consumed by the study pipeline

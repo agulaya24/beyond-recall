@@ -1,5 +1,10 @@
 import json, os, sys
+from pathlib import Path
 sys.stdout.reconfigure(encoding='utf-8')
+
+REPO = Path(__file__).resolve().parents[3]
+# This script also depends on the separate memory_system repo; set MEMORY_SYSTEM_ROOT to its path.
+MEMORY_SYSTEM_ROOT = os.environ.get("MEMORY_SYSTEM_ROOT", "")
 
 # For each subject and target qid, pull the Letta stateful + Haiku response and BL C2a + Haiku response
 
@@ -13,7 +18,7 @@ def get_letta_response(subj_dir, qid):
     return None
 
 def get_bl_response_hamerton(qid):
-    p = 'C:/Users/Aarik/Anthropic/memory-study-repo/results/hamerton/fullstack_haiku.json'
+    p = str(REPO / 'results/hamerton/fullstack_haiku.json')
     with open(p, 'r', encoding='utf-8') as f:
         d = json.load(f)
     for r in d:
@@ -22,7 +27,7 @@ def get_bl_response_hamerton(qid):
     return None
 
 def get_bl_response_v2(subj_dir_name, qid):
-    p = f'C:/Users/Aarik/Anthropic/memory-study-repo/results/{subj_dir_name}/results_v2.json'
+    p = str(REPO / 'results' / subj_dir_name / 'results_v2.json')
     with open(p, 'r', encoding='utf-8') as f:
         d = json.load(f)
     for r in d:
@@ -49,7 +54,7 @@ def get_bl_judge_scores_hamerton(qid, cond='C2a_full_spec'):
     """Pull Hamerton per-judge scores for a qid."""
     scores = {}
     # judgments.json has haiku + gemini
-    p = 'C:/Users/Aarik/Anthropic/memory-study-repo/results/hamerton/judgments.json'
+    p = str(REPO / 'results/hamerton/judgments.json')
     with open(p, 'r', encoding='utf-8') as f:
         d = json.load(f)
     for item in d:
@@ -60,7 +65,7 @@ def get_bl_judge_scores_hamerton(qid, cond='C2a_full_spec'):
                 scores['gemini_flash'] = item['gemini_score']
     # other judge files
     for j in ['gemini_pro', 'gpt54']:
-        p = f'C:/Users/Aarik/Anthropic/memory-study-repo/results/hamerton/{j}_judgments.json'
+        p = str(REPO / 'results/hamerton' / f'{j}_judgments.json')
         if os.path.exists(p):
             with open(p, 'r', encoding='utf-8') as f:
                 d = json.load(f)
@@ -72,7 +77,7 @@ def get_bl_judge_scores_hamerton(qid, cond='C2a_full_spec'):
 def get_bl_judge_scores_v2(subj_dir_name, qid, cond='C2a_full_spec'):
     """Pull Ebers/Babur per-judge scores for a qid."""
     scores = {}
-    p = f'C:/Users/Aarik/Anthropic/memory-study-repo/results/{subj_dir_name}/judgments_v2.json'
+    p = str(REPO / 'results' / subj_dir_name / 'judgments_v2.json')
     with open(p, 'r', encoding='utf-8') as f:
         d = json.load(f)
     for item in d:
@@ -98,7 +103,7 @@ babur_qids = [27, 33, 5, 22, 3, 9]
 
 def process(subj_name, subj_dir_name, qids, hamerton_style=False):
     print(f'\n\n============== {subj_name.upper()} ===============')
-    letta_dir = 'C:/Users/Aarik/Anthropic/memory_system/data/experiments/memory_systems/results/' + (
+    letta_dir = os.path.join(MEMORY_SYSTEM_ROOT, 'data/experiments/memory_systems/results') + os.sep + (
         'run_fullstack_hamerton_20260411_231237/' if subj_name == 'hamerton' else f'{subj_dir_name}/'
     )
     for qid in qids:

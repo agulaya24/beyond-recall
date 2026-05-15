@@ -12,9 +12,10 @@ Reads:
     data/topk_test_20260428/_summary.json
 """
 import json
+import os
 from scipy import stats
 
-OUT_DIR = 'C:/Users/Aarik/Anthropic/memory-study-repo/data/topk_test_20260428'
+OUT_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data', 'topk_test_20260428')
 
 with open(f'{OUT_DIR}/_summary.json', encoding='utf-8') as f:
     summary = json.load(f)

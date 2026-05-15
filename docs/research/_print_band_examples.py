@@ -1,7 +1,9 @@
 """Print 2-3 short-form examples from each band for qualitative reading."""
 import json, sys
+from pathlib import Path
 sys.stdout.reconfigure(encoding="utf-8")
-POOL = "C:/Users/Aarik/Anthropic/memory-study-repo/docs/research/_score_band_pool.json"
+REPO = Path(__file__).resolve().parents[2]
+POOL = str(REPO / "docs/research/_score_band_pool.json")
 with open(POOL, "r", encoding="utf-8") as f:
     pool = json.load(f)
 

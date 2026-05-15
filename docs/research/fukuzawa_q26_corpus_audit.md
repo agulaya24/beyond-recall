@@ -21,7 +21,7 @@ The annotated concern ("4.20") most closely matches Option A (4.33). Both are au
 
 ### Option B / fullpipeline ingestion (`run_option_b.py`)
 
-File: `C:/Users/Aarik/Anthropic/memory_system/data/experiments/memory_systems/run_option_b.py`
+File: `memory_system/data/experiments/memory_systems/run_option_b.py` (in the separate memory_system repo)
 
 ```python
 # lines 78-83
@@ -38,7 +38,7 @@ def load_training_text(subject):
 
 ### Option A ingestion (`run_memory_system.py`)
 
-File: `C:/Users/Aarik/Anthropic/memory_system/data/experiments/memory_systems/run_memory_system.py`
+File: `memory_system/data/experiments/memory_systems/run_memory_system.py` (in the separate memory_system repo)
 
 ```python
 # lines 107-118
@@ -186,19 +186,22 @@ The Q26 Option A C3 score of 4.33 reflects that Fukuzawa's temperance and social
 
 ## Artifacts consulted
 
-- `C:/Users/Aarik/Anthropic/memory_system/data/experiments/memory_systems/run_option_b.py` (lines 78-83, 375-420)
-- `C:/Users/Aarik/Anthropic/memory_system/data/experiments/memory_systems/run_memory_system.py` (lines 107-118)
-- `C:/Users/Aarik/Anthropic/memory_system/data/experiments/memory_systems/run_overnight_pipeline.py` (lines 65-97)
-- `C:/Users/Aarik/Anthropic/memory_system/data/experiments/memory_systems/results/global_fukuzawa/training.txt`
-- `C:/Users/Aarik/Anthropic/memory_system/data/experiments/memory_systems/results/global_fukuzawa/heldout.txt`
-- `C:/Users/Aarik/Anthropic/memory_system/data/experiments/memory_systems/results/global_fukuzawa/facts.json`
-- `C:/Users/Aarik/Anthropic/memory_system/data/experiments/memory_systems/results/global_fukuzawa/battery_v2.json`
-- `C:/Users/Aarik/Anthropic/memory_system/data/experiments/memory_systems/results/global_fukuzawa/supermemory_ingestion.json`
-- `C:/Users/Aarik/Anthropic/memory_system/data/experiments/memory_systems/results/global_fukuzawa/supermemory_retrieval.json`
-- `C:/Users/Aarik/Anthropic/memory_system/data/experiments/memory_systems/results/global_fukuzawa/supermemory_judgments_merged.json`
-- `C:/Users/Aarik/Anthropic/memory_system/data/experiments/memory_systems/results/global_fukuzawa/supermemory_fullpipeline_ingestion.json`
-- `C:/Users/Aarik/Anthropic/memory_system/data/experiments/memory_systems/results/global_fukuzawa/supermemory_fullpipeline_extracted.json`
-- `C:/Users/Aarik/Anthropic/memory_system/data/experiments/memory_systems/results/global_fukuzawa/supermemory_fullpipeline_retrieval.json`
-- `C:/Users/Aarik/Anthropic/memory_system/data/experiments/memory_systems/results/global_fukuzawa/supermemory_fullpipeline_results.json`
-- `C:/Users/Aarik/Anthropic/memory_system/data/experiments/memory_systems/results/global_fukuzawa/supermemory_fullpipeline_judgments_merged.json`
-- `C:/Users/Aarik/Anthropic/memory-study-repo/scripts/_battery_leakage_results.json` (prior question-level audit; Fukuzawa leak_count=0)
+In the separate memory_system repo:
+- `memory_system/data/experiments/memory_systems/run_option_b.py` (lines 78-83, 375-420)
+- `memory_system/data/experiments/memory_systems/run_memory_system.py` (lines 107-118)
+- `memory_system/data/experiments/memory_systems/run_overnight_pipeline.py` (lines 65-97)
+- `memory_system/data/experiments/memory_systems/results/global_fukuzawa/training.txt`
+- `memory_system/data/experiments/memory_systems/results/global_fukuzawa/heldout.txt`
+- `memory_system/data/experiments/memory_systems/results/global_fukuzawa/facts.json`
+- `memory_system/data/experiments/memory_systems/results/global_fukuzawa/battery_v2.json`
+- `memory_system/data/experiments/memory_systems/results/global_fukuzawa/supermemory_ingestion.json`
+- `memory_system/data/experiments/memory_systems/results/global_fukuzawa/supermemory_retrieval.json`
+- `memory_system/data/experiments/memory_systems/results/global_fukuzawa/supermemory_judgments_merged.json`
+- `memory_system/data/experiments/memory_systems/results/global_fukuzawa/supermemory_fullpipeline_ingestion.json`
+- `memory_system/data/experiments/memory_systems/results/global_fukuzawa/supermemory_fullpipeline_extracted.json`
+- `memory_system/data/experiments/memory_systems/results/global_fukuzawa/supermemory_fullpipeline_retrieval.json`
+- `memory_system/data/experiments/memory_systems/results/global_fukuzawa/supermemory_fullpipeline_results.json`
+- `memory_system/data/experiments/memory_systems/results/global_fukuzawa/supermemory_fullpipeline_judgments_merged.json`
+
+In this repo:
+- `scripts/_battery_leakage_results.json` (prior question-level audit; Fukuzawa leak_count=0)

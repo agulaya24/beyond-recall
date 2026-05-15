@@ -4,6 +4,9 @@ import os
 import subprocess
 import httpx
 
+# This script depends on the separate memory_system repo; set MEMORY_SYSTEM_ROOT to its path.
+MEMORY_SYSTEM_ROOT = os.environ.get("MEMORY_SYSTEM_ROOT", "")
+
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # Load keys
@@ -37,7 +40,7 @@ Respond with only the number 1, 2, 3, 4, or 5."""
 
 
 # Load one Ebers Letta response
-with open(r"C:\Users\Aarik\Anthropic\memory_system\data\experiments\memory_systems\results\global_ebers\letta_memory_haiku_results.json", encoding="utf-8") as f:
+with open(os.path.join(MEMORY_SYSTEM_ROOT, "data", "experiments", "memory_systems", "results", "global_ebers", "letta_memory_haiku_results.json"), encoding="utf-8") as f:
     data = json.load(f)
 
 r = data["results"][0]

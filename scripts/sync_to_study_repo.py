@@ -5,8 +5,11 @@ Run after experiments complete: python sync_to_study_repo.py
 import json, os, shutil, sys, glob
 from datetime import datetime
 
-src_base = 'C:/Users/Aarik/Anthropic/memory_system/data/experiments/memory_systems/results'
-dst_base = 'C:/Users/Aarik/Anthropic/memory-study-repo/results'
+# NOTE: the source side is the separate (private) memory_system repo. Set
+# MEMORY_SYSTEM_ROOT to its path; defaults to empty so a missing path is obvious.
+MEMORY_SYSTEM_ROOT = os.environ.get("MEMORY_SYSTEM_ROOT", "")
+src_base = os.path.join(MEMORY_SYSTEM_ROOT, 'data/experiments/memory_systems/results')
+dst_base = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'results')
 systems = ['mem0', 'letta', 'supermemory', 'zep']
 subjects = ['zitkala_sa','hamerton','keckley','yung_wing','seacole','sunity_devee',
             'equiano','augustine','ebers','fukuzawa','cellini','bernal_diaz','rousseau','babur']
@@ -119,7 +122,7 @@ for sys_name in systems:
             fname)
 
 # === Provider experience ledger ===
-ledger_src = 'C:/Users/Aarik/Anthropic/memory_system/data/experiments/memory_systems/PROVIDER_EXPERIENCE_LEDGER.md'
+ledger_src = os.path.join(MEMORY_SYSTEM_ROOT, 'data/experiments/memory_systems/PROVIDER_EXPERIENCE_LEDGER.md')
 ledger_dst = os.path.join(dst_base, '..', 'docs', 'PROVIDER_EXPERIENCE_LEDGER.md')
 if os.path.exists(ledger_src):
     os.makedirs(os.path.dirname(ledger_dst), exist_ok=True)

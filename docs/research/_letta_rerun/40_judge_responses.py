@@ -8,9 +8,11 @@ import re
 import sys
 import subprocess
 import time
+from pathlib import Path
 import httpx
 
-OUT_DIR = r"C:\Users\Aarik\Anthropic\memory-study-repo\docs\research\_letta_rerun"
+REPO = Path(__file__).resolve().parents[3]
+OUT_DIR = str(REPO / "docs" / "research" / "_letta_rerun")
 
 # Load API keys from user env
 for k in ("ANTHROPIC_API_KEY", "OPENAI_API_KEY", "GEMINI_API_KEY"):

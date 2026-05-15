@@ -14,7 +14,8 @@ Prints aggregates to stdout.
 import json
 import os
 
-OUT_DIR = 'C:/Users/Aarik/Anthropic/memory-study-repo/data/topk_test_20260428'
+_REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+OUT_DIR = os.path.join(_REPO, 'data', 'topk_test_20260428')
 PRIMARY = {'haiku', 'sonnet', 'opus', 'gpt4o', 'gpt54'}
 
 
@@ -124,8 +125,8 @@ def main():
 
     # Canonical paper K=10 reference
     canonical = json.load(open(
-        'C:/Users/Aarik/Anthropic/memory-study-repo/results/global_yung_wing/'
-        'baselayer_judgments_merged.json', encoding='utf-8'))
+        os.path.join(_REPO, 'results', 'global_yung_wing',
+                     'baselayer_judgments_merged.json'), encoding='utf-8'))
     c1c = [r['score'] for r in canonical
            if r['condition'] == 'C1_baselayer' and r['judge'] in PRIMARY
            and r['score'] > 0]

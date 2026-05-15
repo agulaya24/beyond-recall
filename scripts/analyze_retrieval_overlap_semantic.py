@@ -54,7 +54,7 @@ import numpy as np
 from sentence_transformers import SentenceTransformer
 
 
-REPO = Path("C:/Users/Aarik/Anthropic/memory-study-repo")
+REPO = Path(__file__).resolve().parents[1]
 RESULTS = REPO / "results"
 DATA = REPO / "data"
 DOCS_RESEARCH = REPO / "docs" / "research"

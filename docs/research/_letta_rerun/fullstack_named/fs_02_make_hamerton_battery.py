@@ -6,9 +6,13 @@ Output: _letta_rerun/fullstack_named/hamerton_letta_battery.json
 """
 import json
 import os
+from pathlib import Path
 
-SRC = r"C:\Users\Aarik\Anthropic\memory_system\data\experiments\memory_systems\results\run_fullstack_hamerton_20260411_231237\letta_memory_haiku_results.json"
-OUT = r"C:\Users\Aarik\Anthropic\memory-study-repo\docs\research\_letta_rerun\fullstack_named\hamerton_letta_battery.json"
+REPO = Path(__file__).resolve().parents[4]
+# This script also depends on the separate memory_system repo; set MEMORY_SYSTEM_ROOT to its path.
+MEMORY_SYSTEM_ROOT = os.environ.get("MEMORY_SYSTEM_ROOT", "")
+SRC = os.path.join(MEMORY_SYSTEM_ROOT, "data", "experiments", "memory_systems", "results", "run_fullstack_hamerton_20260411_231237", "letta_memory_haiku_results.json")
+OUT = str(REPO / "docs" / "research" / "_letta_rerun" / "fullstack_named" / "hamerton_letta_battery.json")
 
 
 def main():

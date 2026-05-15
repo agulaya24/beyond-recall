@@ -92,6 +92,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import os
 import re
 import statistics
 import sys
@@ -106,9 +107,9 @@ FULLSTACK = RERUN / "fullstack_named"
 BLOCKS_DIR = REPO / "docs" / "research" / "_letta_blocks"
 GLOBAL_DATA = REPO / "data" / "global_subjects"
 
-MEMORY_RESULTS = Path(
-    r"C:\Users\Aarik\Anthropic\memory_system\data\experiments\memory_systems\results"
-)
+# NOTE: depends on the separate (private) memory_system repo. Set MEMORY_SYSTEM_ROOT
+# to its path; defaults to empty so the missing-path failure is obvious.
+MEMORY_RESULTS = Path(os.environ.get("MEMORY_SYSTEM_ROOT", "")) / "data" / "experiments" / "memory_systems" / "results"
 MEMORY_PATH_BY_SUBJECT = {
     "hamerton": MEMORY_RESULTS / "run_fullstack_hamerton_20260411_231237",
     "ebers": MEMORY_RESULTS / "global_ebers",

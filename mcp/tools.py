@@ -18,7 +18,7 @@ from typing import Any, Iterable, Literal, Optional
 # Paths and constants
 # ---------------------------------------------------------------------------
 
-REPO = Path("C:/Users/Aarik/Anthropic/memory-study-repo")
+REPO = Path(__file__).resolve().parent.parent
 WORKSPACE = REPO / "workspace"
 DB_PATH = WORKSPACE / "study_knowledge.db"
 VEC_PATH = WORKSPACE / "study_vectors"
@@ -26,7 +26,7 @@ RESULTS_DIR = REPO / "results"
 DOCS_DIR = REPO / "docs"
 
 # Canonical paper draft
-PAPER_PATH = DOCS_DIR / "beyond_recall_v11_8_draft.md"
+PAPER_PATH = DOCS_DIR / "beyond_recall_v12_1_draft.md"
 # Provenance and reference docs
 PROVENANCE_PATH = DOCS_DIR / "PROVENANCE_INDEX.md"
 DATA_REFERENCE_PATH = DOCS_DIR / "DATA_REFERENCE.md"

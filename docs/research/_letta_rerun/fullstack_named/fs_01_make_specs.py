@@ -9,9 +9,10 @@ Outputs: _letta_rerun/fullstack_named/{subject}_spec_fullstack_named.md
 """
 import os
 import re
+from pathlib import Path
 
-REPO = r"C:\Users\Aarik\Anthropic\memory-study-repo"
-OUT_DIR = os.path.join(REPO, r"docs\research\_letta_rerun\fullstack_named")
+REPO = str(Path(__file__).resolve().parents[4])
+OUT_DIR = os.path.join(REPO, "docs", "research", "_letta_rerun", "fullstack_named")
 os.makedirs(OUT_DIR, exist_ok=True)
 
 

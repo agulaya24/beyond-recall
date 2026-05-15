@@ -11,8 +11,11 @@ import hashlib
 
 import anthropic
 
-TIER_FILE = "C:/Users/Aarik/Anthropic/memory_system/data/experiments/memory_systems/corpus/tiers/tier_02_ch01-10.txt"
-OUTPUT_FILE = "C:/Users/Aarik/Anthropic/memory_system/data/experiments/memory_systems/shared_facts.json"
+# NOTE: depends on the separate (private) memory_system repo. Set MEMORY_SYSTEM_ROOT
+# to its path; defaults to empty so the missing-path failure is obvious.
+MEMORY_SYSTEM_ROOT = os.environ.get("MEMORY_SYSTEM_ROOT", "")
+TIER_FILE = os.path.join(MEMORY_SYSTEM_ROOT, "data/experiments/memory_systems/corpus/tiers/tier_02_ch01-10.txt")
+OUTPUT_FILE = os.path.join(MEMORY_SYSTEM_ROOT, "data/experiments/memory_systems/shared_facts.json")
 
 # Chunk the text into ~3000 word segments for extraction
 def chunk_text(text, max_words=3000, overlap_words=200):

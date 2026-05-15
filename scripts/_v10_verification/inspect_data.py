@@ -3,7 +3,7 @@ import json
 from collections import defaultdict
 from pathlib import Path
 
-ROOT = Path('C:/Users/Aarik/Anthropic/memory-study-repo')
+ROOT = Path(__file__).resolve().parents[2]
 
 # 1) Inspect global ebers judgments_v2
 with open(ROOT / 'results/global_ebers/judgments_v2.json') as f:

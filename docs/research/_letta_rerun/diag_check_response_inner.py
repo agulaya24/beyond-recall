@@ -1,8 +1,12 @@
 """Check inner structure of responses."""
 import json
+import os
+
+# This script depends on the separate memory_system repo; set MEMORY_SYSTEM_ROOT to its path.
+MEMORY_SYSTEM_ROOT = os.environ.get("MEMORY_SYSTEM_ROOT", "")
 
 for subj in ("ebers", "babur"):
-    path = rf"C:\Users\Aarik\Anthropic\memory_system\data\experiments\memory_systems\results\global_{subj}\letta_memory_haiku_results.json"
+    path = os.path.join(MEMORY_SYSTEM_ROOT, "data", "experiments", "memory_systems", "results", f"global_{subj}", "letta_memory_haiku_results.json")
     with open(path, encoding="utf-8") as f:
         data = json.load(f)
     results = data["results"]

@@ -1,8 +1,10 @@
 """Quick progress check on judgment files."""
 import json
 import os
+from pathlib import Path
 
-DIR = r"C:\Users\Aarik\Anthropic\memory-study-repo\docs\research\_letta_rerun"
+REPO = Path(__file__).resolve().parents[3]
+DIR = str(REPO / "docs" / "research" / "_letta_rerun")
 for s in ("ebers", "babur"):
     print(f"\n=== {s} ===")
     for j in ("haiku", "sonnet", "opus", "gpt4o", "gpt54", "gemini_flash", "gemini_pro"):

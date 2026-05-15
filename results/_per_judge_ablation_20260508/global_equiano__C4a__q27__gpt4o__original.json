@@ -1,0 +1,17 @@
+{
+  "subject": "global_equiano",
+  "paper_cond": "C4a",
+  "raw_cond_label": "C4a_full_facts_plus_spec",
+  "qid": 27,
+  "judge": "gpt4o",
+  "rubric": "original",
+  "score": 2,
+  "raw": "2",
+  "parse_failure": false,
+  "response_type": "substantive",
+  "response_text": "I don't find any reference in the provided facts to Equiano attempting to use counterfeit coins in a market or facing danger from doing so.\n\nThe facts document Equiano's trading activities extensively — his buying and selling of goods like glass tumblers, fowls, pigs, and various merchandise across the West Indian islands, as well as his commercial ventures in Philadelphia. They also mention specific incidents where he was robbed or cheated by white men, and instances where he was threatened with violence over commercial disputes.\n\nHowever, there is no account of him handling counterfeit coins or facing danger from attempting to use them.\n\nIf you're thinking of a specific passage from Equiano's narrative, could you provide more context? It's possible this incident appears in the source material but wasn't captured in the facts provided to me, or it may be from a different historical account.",
+  "held_out": "I was abused for offering to pass bad coin; and, though I shewed them the man I got them from, I was within one minute of being tied up and flogged without either judge or jury",
+  "question_text": "What danger does Equiano face when attempting to use the counterfeit coins in the market?",
+  "prior_delta": -2.2,
+  "timestamp": "2026-05-08T22:07:56.536599Z"
+}

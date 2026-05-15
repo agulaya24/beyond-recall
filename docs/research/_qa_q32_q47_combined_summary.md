@@ -12,9 +12,9 @@ _Two small post-hoc analyses against existing study data. No new experiments._
 
 **Top-level finding:** Era and modernity are collinear with baseline — the raw "older subjects benefit less" pattern is fully explained by lower C5 baselines, and residualized cross-tabs collapse to within ±0.10 of zero across all five memory systems. The Western-tradition vs non-Western axis (renamed from "exoticism" after the Hamerton sensitivity test) shows a stable residualized gap of +0.15 to +0.25 favoring Western-tradition subjects on 4 of 5 memory systems (Mem0, Letta, Zep, Base Layer; Supermemory flat on both sides). The finding is robust to Hamerton's bucket assignment: moving him from `familiar` to `marginal-familiar` does not collapse the Western-tradition vs non-Western gap. **Decision: §8 Future Work as a named hypothesis, not a main finding. n=4 Western-tradition vs n=10 non-Western is enough to name but not to claim.**
 
-**Report:** `C:/Users/Aarik/Anthropic/memory-study-repo/docs/research/era_modernity_cross_slice.md`
-**Data:** `C:/Users/Aarik/Anthropic/memory-study-repo/docs/research/era_modernity_cross_slice.json`
-**Script:** `C:/Users/Aarik/Anthropic/memory-study-repo/scripts/classify_subjects_era_modernity.py`
+**Report:** `docs/research/era_modernity_cross_slice.md`
+**Data:** `docs/research/era_modernity_cross_slice.json`
+**Script:** `scripts/classify_subjects_era_modernity.py`
 
 **One-paragraph drop-in for §8 (optional):**
 > We examined whether the spec effect varied by subject era (pre-1700 / 1700-1900 / post-1900), language modernity (archaic / modern translation voice), or content domain (Western-tradition / non-Western). After residualizing on C5 baseline to separate axis effects from baseline-collinearity, era and modernity cross-slices collapsed to within ±0.10 of zero across all five memory systems — era and modernity are collinear with baseline and add no variance beyond the gradient. The Western-tradition vs non-Western axis showed a stable residualized gap of +0.15 to +0.25 favoring Western-tradition subjects on 4 of 5 memory systems (Mem0, Letta, Zep, Base Layer), with Supermemory flat at near-zero on both sides. The finding is robust to Hamerton's bucket assignment. With n=4 Western-tradition vs n=10 non-Western, we name this as a hypothesis for future work: the Base Layer spec, authored inside the Western-introspective autobiographical tradition, may transfer its axioms less effectively to subjects outside that tradition at matched baseline knowledge.
@@ -33,9 +33,9 @@ _Two small post-hoc analyses against existing study data. No new experiments._
 
 **Honest paper framing:** The spec's epistemic-humility axioms are a general-purpose conservatism dial, not a targeted moral-integrity mechanism. This matches the §4.4 mechanism claim ("spec trades retrieved-fact coverage for conservatism, and the rubric punishes conservatism") and removes a stronger framing the paper could be tempted to over-claim.
 
-**Report:** `C:/Users/Aarik/Anthropic/memory-study-repo/docs/research/refusal_intent_classification.md`
-**Data:** `C:/Users/Aarik/Anthropic/memory-study-repo/docs/research/refusal_intent_classification.json`
-**Script:** `C:/Users/Aarik/Anthropic/memory-study-repo/scripts/classify_refusal_intent.py`
+**Report:** `docs/research/refusal_intent_classification.md`
+**Data:** `docs/research/refusal_intent_classification.json`
+**Script:** `scripts/classify_refusal_intent.py`
 
 ---
 

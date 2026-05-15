@@ -17,7 +17,7 @@ import httpx
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 RESULTS_BASE = os.path.join(BASE_DIR, 'results')
-REPO_DIR = 'C:/Users/Aarik/Anthropic/memory-study-repo'
+REPO_DIR = os.path.dirname(BASE_DIR)
 
 RESPONSE_MODEL = 'claude-haiku-4-5-20251001'
 MAX_TRAINING_WORDS = 100000  # Truncate to fit Haiku context

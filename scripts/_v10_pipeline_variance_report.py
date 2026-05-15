@@ -13,7 +13,7 @@ import statistics
 from collections import defaultdict
 from pathlib import Path
 
-REPO = Path('C:/Users/Aarik/Anthropic/memory-study-repo')
+REPO = Path(__file__).resolve().parents[1]
 RESULTS = REPO / 'results'
 DOCS = REPO / 'docs' / 'research'
 SUBJECTS = ['sunity_devee', 'yung_wing', 'augustine']

@@ -27,7 +27,6 @@ Inclusion in this repository is for academic-archival reproducibility of the Bey
 - **Words:** 139,088
 - **Paragraphs:** 4,605
 - **SHA-256:** `2b5cc85787df10cb08c333174e297ac2ef62465dd89135e87927c125ff5e52b1`
-- **Migrated from:** `C:\Users\Aarik\Anthropic\memory_system\data\corpora\fukuzawa\raw.txt`
 - **Migrated on:** 2026-05-05T21:43:49.408091+00:00
 
 ## How this corpus is consumed by the study pipeline

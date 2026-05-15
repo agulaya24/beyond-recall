@@ -2,7 +2,7 @@
   {
     "subject": "augustine",
     "role": "main_study",
-    "source": "C:/Users/Aarik/Anthropic/memory_system/data/corpora/augustine/raw.txt",
+    "source": "",
     "dest": "data/source_corpora/augustine/raw.txt",
     "title": "The Confessions of St. Augustine",
     "author": "Saint of Hippo Augustine",
@@ -21,7 +21,7 @@
   {
     "subject": "babur",
     "role": "main_study",
-    "source": "C:/Users/Aarik/Anthropic/memory_system/data/corpora/babur/raw.txt",
+    "source": "",
     "dest": "data/source_corpora/babur/raw.txt",
     "title": "The B\u0101bur-n\u0101ma in English (Memoirs of B\u0101bur)",
     "author": "Emperor of Hindustan Babur",
@@ -40,7 +40,7 @@
   {
     "subject": "bernal_diaz",
     "role": "main_study",
-    "source": "C:/Users/Aarik/Anthropic/memory_system/data/corpora/bernal_diaz/raw.txt",
+    "source": "",
     "dest": "data/source_corpora/bernal_diaz/raw.txt",
     "title": "The Memoirs of the Conquistador Bernal Diaz del Castillo, Vol 1 (of 2)",
     "author": "Bernal D\u00edaz del Castillo",
@@ -59,7 +59,7 @@
   {
     "subject": "cellini",
     "role": "main_study",
-    "source": "C:/Users/Aarik/Anthropic/memory_system/data/corpora/cellini/raw.txt",
+    "source": "",
     "dest": "data/source_corpora/cellini/raw.txt",
     "title": "The Autobiography of Benvenuto Cellini",
     "author": "Benvenuto Cellini",
@@ -78,7 +78,7 @@
   {
     "subject": "ebers",
     "role": "main_study",
-    "source": "C:/Users/Aarik/Anthropic/memory_system/data/corpora/ebers/raw.txt",
+    "source": "",
     "dest": "data/source_corpora/ebers/raw.txt",
     "title": "The Story of My Life \u2014 Complete",
     "author": "Georg Ebers",
@@ -97,7 +97,7 @@
   {
     "subject": "equiano",
     "role": "main_study",
-    "source": "C:/Users/Aarik/Anthropic/memory_system/data/corpora/equiano/raw.txt",
+    "source": "",
     "dest": "data/source_corpora/equiano/raw.txt",
     "title": "The Interesting Narrative of the Life of Olaudah Equiano, Or Gustavus Vassa, The African",
     "author": "Olaudah Equiano",
@@ -116,7 +116,7 @@
   {
     "subject": "fukuzawa",
     "role": "main_study",
-    "source": "C:/Users/Aarik/Anthropic/memory_system/data/corpora/fukuzawa/raw.txt",
+    "source": "",
     "dest": "data/source_corpora/fukuzawa/raw.txt",
     "title": "The Autobiography of Fukuzawa Yukichi",
     "author": "Fukuzawa Yukichi (1835\u20131901)",
@@ -135,7 +135,7 @@
   {
     "subject": "hamerton",
     "role": "main_study",
-    "source": "C:/Users/Aarik/Anthropic/memory_system/data/experiments/memory_systems/corpus/hamerton_autobiography_raw.txt",
+    "source": "",
     "dest": "data/source_corpora/hamerton/raw.txt",
     "title": "Philip Gilbert Hamerton",
     "author": "Eug\u00e9nie Hamerton, Philip Gilbert Hamerton",
@@ -154,7 +154,7 @@
   {
     "subject": "keckley",
     "role": "main_study",
-    "source": "C:/Users/Aarik/Anthropic/memory_system/data/corpora/keckley/raw.txt",
+    "source": "",
     "dest": "data/source_corpora/keckley/raw.txt",
     "title": "Behind the Scenes; or, Thirty years a slave, and Four Years in the White House",
     "author": "Elizabeth Keckley",
@@ -173,7 +173,7 @@
   {
     "subject": "rousseau",
     "role": "main_study",
-    "source": "C:/Users/Aarik/Anthropic/memory_system/data/corpora/rousseau/raw.txt",
+    "source": "",
     "dest": "data/source_corpora/rousseau/raw.txt",
     "title": "The Confessions of Jean Jacques Rousseau \u2014 Complete",
     "author": "Jean-Jacques Rousseau",
@@ -192,7 +192,7 @@
   {
     "subject": "seacole",
     "role": "main_study",
-    "source": "C:/Users/Aarik/Anthropic/memory_system/data/corpora/seacole/raw.txt",
+    "source": "",
     "dest": "data/source_corpora/seacole/raw.txt",
     "title": "Wonderful Adventures of Mrs. Seacole in Many Lands",
     "author": "Mary Seacole",
@@ -211,7 +211,7 @@
   {
     "subject": "sunity_devee",
     "role": "main_study",
-    "source": "C:/Users/Aarik/Anthropic/memory_system/data/corpora/sunity_devee/raw.txt",
+    "source": "",
     "dest": "data/source_corpora/sunity_devee/raw.txt",
     "title": "The Autobiography of an Indian Princess",
     "author": "Maharani of Cooch Behar Sunity Devee",
@@ -230,7 +230,7 @@
   {
     "subject": "yung_wing",
     "role": "main_study",
-    "source": "C:/Users/Aarik/Anthropic/memory_system/data/corpora/yung_wing/raw.txt",
+    "source": "",
     "dest": "data/source_corpora/yung_wing/raw.txt",
     "title": "My Life in China and America",
     "author": "Wing Yung",
@@ -249,7 +249,7 @@
   {
     "subject": "zitkala_sa",
     "role": "main_study",
-    "source": "C:/Users/Aarik/Anthropic/memory_system/data/corpora/zitkala_sa/raw.txt",
+    "source": "",
     "dest": "data/source_corpora/zitkala_sa/raw.txt",
     "title": "American Indian Stories",
     "author": "Zitkala-Sa",
@@ -268,7 +268,7 @@
   {
     "subject": "franklin_autobiography",
     "role": "franklin_high_baseline_reference",
-    "source": "C:/Users/Aarik/Anthropic/memory_system/data/corpora/franklin_autobiography/franklin_raw.txt",
+    "source": "",
     "dest": "data/source_corpora/franklin_autobiography/raw.txt",
     "title": "Autobiography of Benjamin Franklin",
     "author": "Benjamin Franklin",
@@ -287,7 +287,7 @@
   {
     "subject": "franklin_letters",
     "role": "franklin_obscure_high_baseline",
-    "source": "C:/Users/Aarik/Anthropic/memory_system/data/corpora/franklin_letters/complete_works_vol2_raw.txt",
+    "source": "",
     "dest": "data/source_corpora/franklin_letters/raw.txt",
     "title": "The Complete Works of Benjamin Franklin, Vol. 2",
     "author": "Benjamin Franklin",

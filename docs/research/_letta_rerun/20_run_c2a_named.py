@@ -6,9 +6,11 @@ import os
 import subprocess
 import sys
 import time
+from pathlib import Path
 import httpx
 
-OUT_DIR = r"C:\Users\Aarik\Anthropic\memory-study-repo\docs\research\_letta_rerun"
+REPO = Path(__file__).resolve().parents[3]
+OUT_DIR = str(REPO / "docs" / "research" / "_letta_rerun")
 
 # Load ANTHROPIC_API_KEY from user env via powershell
 for k in ["ANTHROPIC_API_KEY"]:

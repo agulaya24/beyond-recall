@@ -1,7 +1,7 @@
 """Compute per-question outcome distribution for low-baseline slice across C2a, C4, C8, C4a, C9.
 
 Used as input data for Fig 4.2.1 v2 and Fig 5 v2.
-Output: scripts/_per_question_outcomes_v2.json
+Output: docs/research/_per_question_outcomes_v2.json
 """
 import json
 import os
@@ -176,7 +176,7 @@ def main():
               f"worsened={r['worsened']:3d} ({r['worsened_pct']:.1f}%)  "
               f"median_imp={r['median_imp']}  median_wor={r['median_wor']}  "
               f"mean_delta={r['mean_delta']:+.3f}")
-    out = REPO / 'scripts' / '_per_question_outcomes_v2.json'
+    out = REPO / 'docs' / 'research' / '_per_question_outcomes_v2.json'
     with open(out, 'w') as f:
         json.dump(result, f, indent=2)
     print(f"\nSaved: {out}")

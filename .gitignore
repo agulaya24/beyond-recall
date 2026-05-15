@@ -5,8 +5,18 @@ __pycache__/
 *.so
 *.egg-info/
 dist/
-build/
 *.egg
+
+# LaTeX build directory: ignore generated artifacts (.aux/.log/.pdf/.bbl-output,
+# the arxiv_submission staging dir) but keep the hand-maintained arXiv source
+# under version control. `build/*` (not `build/`) so git still descends into
+# the directory and honors the negations below.
+build/*
+!build/beyond_recall.tex
+!build/beyond_recall_body.tex
+!build/beyond_recall.bib
+!build/beyond_recall.bbl
+!build/beyond_recall.pdf
 
 # Environment
 .env
@@ -39,3 +49,21 @@ Desktop.ini
 credentials.json
 *.pem
 *.key
+
+# Internal editorial-process record: panel reviews, walk feedback, handoffs,
+# launch/distribution planning, repo audits. Not part of the public study repo.
+docs/reviews/
+
+# Draft version history. The public repo carries the current draft only
+# (docs/beyond_recall_v12_1_draft.md); the genealogy stays local.
+docs/versions/
+
+# Superseded-work graveyards (any _archive directory). Tracked ones stay
+# tracked; this only keeps untracked graveyards from being swept in.
+_archive/
+
+# Export-pipeline intermediate. The docs/*.clean.md files are pandoc-ready
+# variants regenerated from the canonical *.md draft by the docx export
+# scripts; the .docx is the deliverable, the .clean.md is throwaway.
+# Scoped to docs/ so study-data brief_v5_clean.md artifacts stay tracked.
+docs/*.clean.md

@@ -1,7 +1,7 @@
 """§4.2.1 pairwise comparison table on low-baseline slice."""
 import sys
 from pathlib import Path
-REPO = Path('C:/Users/Aarik/Anthropic/memory-study-repo')
+REPO = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(REPO / 'scripts'))
 from _compute_per_question_v2 import per_question_means, CONDITION_MAP
 

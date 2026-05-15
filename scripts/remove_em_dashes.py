@@ -9,7 +9,7 @@ import sys, io
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
 
-MD = Path(r"C:\Users\Aarik\Anthropic\memory-study-repo\docs\beyond_recall_v6_draft.md")
+MD = Path(__file__).resolve().parents[1] / "docs" / "beyond_recall_v6_draft.md"
 
 # List of (old_line, new_line) pairs. old_line must match exactly in the file.
 # Each entry handles a single paragraph. Order doesn't matter.

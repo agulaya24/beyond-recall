@@ -1,7 +1,9 @@
 """Find Hamerton C2a_full_spec response texts."""
 import json, os
 
-base = r"C:\Users\Aarik\Anthropic\memory_system\data\experiments\memory_systems\results\run_fullstack_hamerton_20260411_231237"
+# This script depends on the separate memory_system repo; set MEMORY_SYSTEM_ROOT to its path.
+MEMORY_SYSTEM_ROOT = os.environ.get("MEMORY_SYSTEM_ROOT", "")
+base = os.path.join(MEMORY_SYSTEM_ROOT, "data", "experiments", "memory_systems", "results", "run_fullstack_hamerton_20260411_231237")
 
 # Top-level results.json has all conditions
 with open(f"{base}\\results.json", encoding="utf-8") as f:

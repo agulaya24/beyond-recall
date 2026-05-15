@@ -5,6 +5,7 @@ behavioral SPEC (which doesn't contain corpus content). Not an anonymization iss
 import json
 import os
 import sys
+from pathlib import Path
 
 if sys.stdout.encoding != "utf-8":
     try:
@@ -12,7 +13,10 @@ if sys.stdout.encoding != "utf-8":
     except Exception:
         pass
 
-DIR = r"C:\Users\Aarik\Anthropic\memory-study-repo\docs\research\_letta_rerun"
+REPO = Path(__file__).resolve().parents[3]
+# This script also depends on the separate memory_system repo; set MEMORY_SYSTEM_ROOT to its path.
+MEMORY_SYSTEM_ROOT = os.environ.get("MEMORY_SYSTEM_ROOT", "")
+DIR = str(REPO / "docs" / "research" / "_letta_rerun")
 
 REFUSAL_MARKERS = [
     "i don't have",
@@ -46,7 +50,7 @@ for subject in ("ebers", "babur"):
 
     # Also load Letta stateful responses for comparison
     letta_path = os.path.join(
-        r"C:\Users\Aarik\Anthropic\memory_system\data\experiments\memory_systems\results",
+        MEMORY_SYSTEM_ROOT, "data", "experiments", "memory_systems", "results",
         f"global_{subject}", "letta_memory_haiku_results.json")
     with open(letta_path, encoding="utf-8") as f:
         ldata = json.load(f)
@@ -82,7 +86,7 @@ for subject in ("ebers", "babur"):
 
         # Letta 7-judge
         lsc = []
-        LBASE = r"C:\Users\Aarik\Anthropic\memory_system\data\experiments\memory_systems\results"
+        LBASE = os.path.join(MEMORY_SYSTEM_ROOT, "data", "experiments", "memory_systems", "results")
         for j in ("haiku", "sonnet", "opus", "gpt4o", "gpt54", "gemini_flash", "gemini_pro"):
             jp = os.path.join(LBASE, f"global_{subject}", f"letta_memory_haiku_judgments_{j}.json")
             if not os.path.exists(jp):

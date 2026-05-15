@@ -123,14 +123,16 @@ The `sync_to_study_repo.py` script only mentions `spec.md` (line 98); `spec_prod
 4. **Drop "H3 prompts"** from §3.3 if it appears in draft prose (it is CLAUDE.md shorthand, not a real thing).
 5. **Keep "domain guard" but gloss it**: a one-line note that every layer prompt carries a DOMAIN-AGNOSTIC REQUIREMENT constraint preventing the generator from summarizing topical interests rather than describing reasoning patterns. This is load-bearing (S99 ablation showed it eliminates topic skew).
 
-## 8. Sources Consulted (absolute paths)
+## 8. Sources Consulted
 
-- `C:\Users\Aarik\Anthropic\CLAUDE.md` — Pipeline (5 Steps), Key Technical Facts
-- `C:\Users\Aarik\Anthropic\memory_system\src\baselayer\config.py` — EMBEDDING_MODEL (l.98), EXTRACTION_API_MODEL (l.116), LAYER_GENERATION_MODEL / LAYER_REVIEW_MODEL (l.501-504), CONSTRAINED_PREDICATES (l.612-638), IDENTITY_MODEL_FILE (l.434)
-- `C:\Users\Aarik\Anthropic\memory_system\src\baselayer\extract_facts.py` — AUDN docstring (l.4), AUDN_SCHEMA (l.620), predicate usage
-- `C:\Users\Aarik\Anthropic\memory_system\src\baselayer\embed.py` — imports EMBEDDING_MODEL
-- `C:\Users\Aarik\Anthropic\memory_system\src\baselayer\author_layers.py` — three-layer structure (docstring), DOMAIN-AGNOSTIC REQUIREMENT (l.594, 629, 674), anonymization (l.1185, 1209)
-- `C:\Users\Aarik\Anthropic\memory_system\src\baselayer\agent_pipeline.py` — `compose_unified_brief()` (l.577), gates (l.217, 285)
-- `C:\Users\Aarik\Anthropic\memory_system\src\baselayer\import_conversations.py` — CLI args (l.907-945)
-- `C:\Users\Aarik\Anthropic\memory-study-repo\data\global_subjects\augustine\spec.md` and `spec_production.md` — spec-variant structure
-- `C:\Users\Aarik\Anthropic\memory-study-repo\docs\beyond_recall_v6_draft.md` — §3.3 (l.439-476), §3.4.1 (l.513)
+Paths under `memory_system/` are in the separate memory_system repo; others are in this repo.
+
+- `memory_system/CLAUDE.md` — Pipeline (5 Steps), Key Technical Facts
+- `memory_system/src/baselayer/config.py` — EMBEDDING_MODEL (l.98), EXTRACTION_API_MODEL (l.116), LAYER_GENERATION_MODEL / LAYER_REVIEW_MODEL (l.501-504), CONSTRAINED_PREDICATES (l.612-638), IDENTITY_MODEL_FILE (l.434)
+- `memory_system/src/baselayer/extract_facts.py` — AUDN docstring (l.4), AUDN_SCHEMA (l.620), predicate usage
+- `memory_system/src/baselayer/embed.py` — imports EMBEDDING_MODEL
+- `memory_system/src/baselayer/author_layers.py` — three-layer structure (docstring), DOMAIN-AGNOSTIC REQUIREMENT (l.594, 629, 674), anonymization (l.1185, 1209)
+- `memory_system/src/baselayer/agent_pipeline.py` — `compose_unified_brief()` (l.577), gates (l.217, 285)
+- `memory_system/src/baselayer/import_conversations.py` — CLI args (l.907-945)
+- `data/global_subjects/augustine/spec.md` and `spec_production.md` — spec-variant structure
+- `docs/beyond_recall_v6_draft.md` — §3.3 (l.439-476), §3.4.1 (l.513)

@@ -11,6 +11,8 @@ Writes judgments to:
 import json, os, subprocess, time, re, httpx
 
 RERUN_DIR = os.path.dirname(os.path.abspath(__file__))
+# This script also depends on the separate memory_system repo; set MEMORY_SYSTEM_ROOT to its path.
+MEMORY_SYSTEM_ROOT = os.environ.get("MEMORY_SYSTEM_ROOT", "")
 
 # Load keys
 for k in ("ANTHROPIC_API_KEY", "OPENAI_API_KEY"):
@@ -104,10 +106,10 @@ def atomic_write_json(path, data):
 
 
 # Load Hamerton main results + Letta battery qids
-base = r"C:\Users\Aarik\Anthropic\memory_system\data\experiments\memory_systems\results\run_fullstack_hamerton_20260411_231237"
-with open(f"{base}\\results.json", encoding="utf-8") as f:
+base = os.path.join(MEMORY_SYSTEM_ROOT, "data", "experiments", "memory_systems", "results", "run_fullstack_hamerton_20260411_231237")
+with open(os.path.join(base, "results.json"), encoding="utf-8") as f:
     main = json.load(f)
-with open(f"{base}\\letta_memory_haiku_results.json", encoding="utf-8") as f:
+with open(os.path.join(base, "letta_memory_haiku_results.json"), encoding="utf-8") as f:
     letta = json.load(f)
 
 letta_qids = set(r["question_id"] for r in letta["results"])

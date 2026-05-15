@@ -1,4 +1,5 @@
 """Generate figures for the Beyond Recall paper."""
+import os
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
@@ -14,7 +15,7 @@ plt.rcParams.update({
     'ytick.major.width': 0.8,
 })
 
-FIGDIR = r'C:\Users\Aarik\Anthropic\memory-study-repo\figures'
+FIGDIR = os.path.dirname(os.path.abspath(__file__))
 
 # ============================================================
 # Figure 1 — Global Gradient: Baseline vs. Best Condition

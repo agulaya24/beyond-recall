@@ -24,7 +24,7 @@ manually.
 ### Resources
 - **paper://index** Markdown index of every paper section.
 - **paper://section/{id}** text of paper section `{id}` (e.g. `3.6.2`,
-  `4.1`, `4.4.4`). Source: `docs/beyond_recall_v11_8_draft.md`.
+  `4.1`, `4.4.4`). Source: `docs/beyond_recall_v12_1_draft.md`.
 
 ## Install
 
@@ -38,7 +38,7 @@ The server reads (read-only) from:
 - `workspace/study_knowledge.db` (SQLite + FTS5)
 - `workspace/study_vectors/` (ChromaDB collection `study`)
 - `results/<subject_dir>/judgments*.json`
-- `docs/beyond_recall_v11_8_draft.md`
+- `docs/beyond_recall_v12_1_draft.md`
 - `docs/research/multi_anchor_rates_all_pairs_20260430.json`
 - `docs/research/s114_anchor_crossing_examples.json`
 
@@ -65,7 +65,7 @@ Add to `claude_desktop_config.json`:
   "mcpServers": {
     "memory-study": {
       "command": "python",
-      "args": ["C:/Users/Aarik/Anthropic/memory-study-repo/mcp/server.py"]
+      "args": ["/absolute/path/to/beyond-recall/mcp/server.py"]
     }
   }
 }
@@ -77,7 +77,7 @@ MCP picker.
 ## Register with Claude Code
 
 ```bash
-claude mcp add --transport stdio memory-study -- python C:/Users/Aarik/Anthropic/memory-study-repo/mcp/server.py
+claude mcp add --transport stdio memory-study -- python /absolute/path/to/beyond-recall/mcp/server.py
 ```
 
 Or add to the `mcpServers` section of `~/.claude.json` directly using the

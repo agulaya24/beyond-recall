@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from pathlib import Path
 
-FIG_DIR = Path(r"C:\Users\Aarik\Anthropic\memory-study-repo\figures")
+FIG_DIR = Path(__file__).resolve().parents[1] / "figures"
 FIG_DIR.mkdir(parents=True, exist_ok=True)
 
 # Paper-scale typography + colorblind palette

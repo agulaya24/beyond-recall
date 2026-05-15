@@ -3,9 +3,13 @@ Also: locate the BL spec file for ebers and babur.
 """
 import json
 import os
+from pathlib import Path
 
-RESULTS_BASE = r"C:\Users\Aarik\Anthropic\memory_system\data\experiments\memory_systems\results"
-STUDY_RESULTS = r"C:\Users\Aarik\Anthropic\memory-study-repo\results"
+REPO = Path(__file__).resolve().parents[3]
+# This script also depends on the separate memory_system repo; set MEMORY_SYSTEM_ROOT to its path.
+MEMORY_SYSTEM_ROOT = os.environ.get("MEMORY_SYSTEM_ROOT", "")
+RESULTS_BASE = os.path.join(MEMORY_SYSTEM_ROOT, "data", "experiments", "memory_systems", "results")
+STUDY_RESULTS = str(REPO / "results")
 
 def peek_json(path, max_bytes=2000):
     print(f"\n=== {path} ===")

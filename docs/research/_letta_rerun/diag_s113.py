@@ -1,6 +1,9 @@
 """Check RESULTS_S113.json for Hamerton C2a per-judge."""
 import json
-with open(r"C:\Users\Aarik\Anthropic\memory_system\data\experiments\memory_systems\results\RESULTS_S113.json", encoding="utf-8") as f:
+import os
+# This script depends on the separate memory_system repo; set MEMORY_SYSTEM_ROOT to its path.
+MEMORY_SYSTEM_ROOT = os.environ.get("MEMORY_SYSTEM_ROOT", "")
+with open(os.path.join(MEMORY_SYSTEM_ROOT, "data", "experiments", "memory_systems", "results", "RESULTS_S113.json"), encoding="utf-8") as f:
     data = json.load(f)
 print("top keys:", list(data.keys()))
 # Look for hamerton

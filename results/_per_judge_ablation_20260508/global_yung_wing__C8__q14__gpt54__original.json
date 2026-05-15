@@ -1,0 +1,17 @@
+{
+  "subject": "global_yung_wing",
+  "paper_cond": "C8",
+  "raw_cond_label": "C8_raw_corpus",
+  "qid": 14,
+  "judge": "gpt54",
+  "rubric": "original",
+  "score": 2,
+  "raw": "2",
+  "parse_failure": false,
+  "response_type": "substantive",
+  "response_text": "# Yung Wing's Likely Emotional Response\n\nBased on the autobiography, Yung Wing would likely respond with **frustration, skepticism, and righteous indignation** rather than passive acceptance.\n\n## Evidence from the Text\n\n**His pattern of confronting contradictions:**\n\nWhen Yung Wing encountered the British Consul's dismissive attitude toward his fight with the Scotchman, he didn't accept the official's framing. Instead, he made a \"stinging remark\" that \"inflicted a deeper cut to his antagonist than the blow itself,\" demonstrating he wouldn't let official narratives override his own judgment.\n\n**His response to systemic dishonesty:**\n\nWhen he discovered the graft system in the Imperial Customs Service, he didn't rationalize it or accept it as normal. He explicitly stated: \"I had no appetite for food, and when night came, I was too nervous for sleep.\" He then **resigned on principle**, refusing a salary increase because he valued \"a clean reputation and an honest character more than money.\"\n\n**His independent verification approach:**\n\nRather than accepting secondhand accounts about the Taiping tea, he personally traveled to verify the claims. He didn't trust rosy pictures—he investigated directly.\n\n## Likely Response\n\nYung Wing would probably:\n1. **Question the official privately** with evidence from his observations\n2. **Refuse to be complicit** in perpetuating false narratives\n3. **Seek independent verification** rather than accept official claims\n4. **Act according to his con",
+  "held_out": "How the Peruvian's countenance changed when he heard me deliver my mind on the subject! Disappointment, displeasure and anger were visible in his countenance. I bade him good morning, for I was myself somewhat excited as I narrated what I had seen in Macao and what I had read in the papers about the coolie traffic.",
+  "question_text": "When a foreign official presents a rosy picture of a labor situation that contradicts what Yung Wing knows from direct observation, how would he likely respond emotionally?",
+  "prior_delta": -0.6,
+  "timestamp": "2026-05-08T22:08:20.635907Z"
+}

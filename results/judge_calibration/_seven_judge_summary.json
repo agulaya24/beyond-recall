@@ -1,0 +1,346 @@
+{
+  "means": {
+    "haiku": {
+      "verbatim": 5.0,
+      "paraphrased": 4.75,
+      "short_correct": 3.8,
+      "long_correct": 5.0
+    },
+    "gemini_flash": {
+      "verbatim": 5.0,
+      "paraphrased": 4.7,
+      "short_correct": 3.85,
+      "long_correct": 3.8
+    },
+    "gpt4o": {
+      "verbatim": 5.0,
+      "paraphrased": 5.0,
+      "short_correct": 4.05,
+      "long_correct": 3.35
+    },
+    "gpt54": {
+      "verbatim": 5.0,
+      "paraphrased": 5.0,
+      "short_correct": 4.2,
+      "long_correct": 4.8
+    },
+    "gemini_pro": {
+      "verbatim": 4.15,
+      "paraphrased": 3.55,
+      "short_correct": 2.85,
+      "long_correct": 1.2
+    },
+    "sonnet": {
+      "verbatim": 5.0,
+      "paraphrased": 5.0,
+      "short_correct": 4.35,
+      "long_correct": 5.0
+    },
+    "opus": {
+      "verbatim": 5.0,
+      "paraphrased": 5.0,
+      "short_correct": 4.2,
+      "long_correct": 5.0
+    }
+  },
+  "dists": {
+    "haiku": {
+      "verbatim": [
+        0,
+        0,
+        0,
+        0,
+        20
+      ],
+      "paraphrased": [
+        0,
+        1,
+        0,
+        2,
+        17
+      ],
+      "short_correct": [
+        1,
+        1,
+        5,
+        7,
+        6
+      ],
+      "long_correct": [
+        0,
+        0,
+        0,
+        0,
+        20
+      ]
+    },
+    "gemini_flash": {
+      "verbatim": [
+        0,
+        0,
+        0,
+        0,
+        20
+      ],
+      "paraphrased": [
+        1,
+        0,
+        1,
+        0,
+        18
+      ],
+      "short_correct": [
+        2,
+        4,
+        0,
+        3,
+        11
+      ],
+      "long_correct": [
+        6,
+        0,
+        0,
+        0,
+        14
+      ]
+    },
+    "gpt4o": {
+      "verbatim": [
+        0,
+        0,
+        0,
+        0,
+        20
+      ],
+      "paraphrased": [
+        0,
+        0,
+        0,
+        0,
+        20
+      ],
+      "short_correct": [
+        1,
+        0,
+        6,
+        3,
+        10
+      ],
+      "long_correct": [
+        6,
+        0,
+        4,
+        1,
+        9
+      ]
+    },
+    "gpt54": {
+      "verbatim": [
+        0,
+        0,
+        0,
+        0,
+        20
+      ],
+      "paraphrased": [
+        0,
+        0,
+        0,
+        0,
+        20
+      ],
+      "short_correct": [
+        1,
+        0,
+        0,
+        12,
+        7
+      ],
+      "long_correct": [
+        1,
+        0,
+        0,
+        0,
+        19
+      ]
+    },
+    "gemini_pro": {
+      "verbatim": [
+        3,
+        0,
+        0,
+        0,
+        16
+      ],
+      "paraphrased": [
+        6,
+        0,
+        0,
+        0,
+        13
+      ],
+      "short_correct": [
+        5,
+        2,
+        1,
+        5,
+        5
+      ],
+      "long_correct": [
+        17,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    "sonnet": {
+      "verbatim": [
+        0,
+        0,
+        0,
+        0,
+        20
+      ],
+      "paraphrased": [
+        0,
+        0,
+        0,
+        0,
+        20
+      ],
+      "short_correct": [
+        1,
+        0,
+        0,
+        9,
+        10
+      ],
+      "long_correct": [
+        0,
+        0,
+        0,
+        0,
+        20
+      ]
+    },
+    "opus": {
+      "verbatim": [
+        0,
+        0,
+        0,
+        0,
+        20
+      ],
+      "paraphrased": [
+        0,
+        0,
+        0,
+        0,
+        20
+      ],
+      "short_correct": [
+        1,
+        0,
+        0,
+        12,
+        7
+      ],
+      "long_correct": [
+        0,
+        0,
+        0,
+        0,
+        20
+      ]
+    }
+  },
+  "ns": {
+    "haiku": {
+      "verbatim": 20,
+      "paraphrased": 20,
+      "short_correct": 20,
+      "long_correct": 20
+    },
+    "gemini_flash": {
+      "verbatim": 20,
+      "paraphrased": 20,
+      "short_correct": 20,
+      "long_correct": 20
+    },
+    "gpt4o": {
+      "verbatim": 20,
+      "paraphrased": 20,
+      "short_correct": 20,
+      "long_correct": 20
+    },
+    "gpt54": {
+      "verbatim": 20,
+      "paraphrased": 20,
+      "short_correct": 20,
+      "long_correct": 20
+    },
+    "gemini_pro": {
+      "verbatim": 20,
+      "paraphrased": 20,
+      "short_correct": 20,
+      "long_correct": 20
+    },
+    "sonnet": {
+      "verbatim": 20,
+      "paraphrased": 20,
+      "short_correct": 20,
+      "long_correct": 20
+    },
+    "opus": {
+      "verbatim": 20,
+      "paraphrased": 20,
+      "short_correct": 20,
+      "long_correct": 20
+    }
+  },
+  "parse_failures": {
+    "haiku": {
+      "verbatim": 0,
+      "paraphrased": 0,
+      "short_correct": 0,
+      "long_correct": 0
+    },
+    "gemini_flash": {
+      "verbatim": 0,
+      "paraphrased": 0,
+      "short_correct": 0,
+      "long_correct": 0
+    },
+    "gpt4o": {
+      "verbatim": 0,
+      "paraphrased": 0,
+      "short_correct": 0,
+      "long_correct": 0
+    },
+    "gpt54": {
+      "verbatim": 0,
+      "paraphrased": 0,
+      "short_correct": 0,
+      "long_correct": 0
+    },
+    "gemini_pro": {
+      "verbatim": 1,
+      "paraphrased": 1,
+      "short_correct": 2,
+      "long_correct": 1
+    },
+    "sonnet": {
+      "verbatim": 0,
+      "paraphrased": 0,
+      "short_correct": 0,
+      "long_correct": 0
+    },
+    "opus": {
+      "verbatim": 0,
+      "paraphrased": 0,
+      "short_correct": 0,
+      "long_correct": 0
+    }
+  }
+}

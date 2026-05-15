@@ -38,7 +38,7 @@ from pathlib import Path
 from statistics import mean, pstdev
 
 
-REPO = Path("C:/Users/Aarik/Anthropic/memory-study-repo")
+REPO = Path(__file__).resolve().parents[1]
 RESULTS = REPO / "results"
 DATA = REPO / "data"
 DOCS_RESEARCH = REPO / "docs" / "research"

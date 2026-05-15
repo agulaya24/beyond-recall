@@ -175,15 +175,15 @@ Ordering matches (5-judge > 7-judge in both versions), which corroborates the v9
 | Judge A | Judge B | ρ |
 |---|---|---:|
 | gpt54 | gpt4o | 0.925 |
-| gpt54 | haiku | 0.892 |
-| gpt54 | opus | 0.914 |
-| gpt54 | sonnet | 0.899 |
 | haiku | gpt4o | 0.913 |
+| haiku | gpt54 | 0.892 |
 | haiku | opus | 0.866 |
 | haiku | sonnet | 0.858 |
 | opus | gpt4o | 0.908 |
+| opus | gpt54 | 0.914 |
+| opus | sonnet | 0.932 |
 | sonnet | gpt4o | 0.877 |
-| sonnet | opus | 0.932 |
+| sonnet | gpt54 | 0.899 |
 
 ## 6. Numbers that may need to shift in v9
 

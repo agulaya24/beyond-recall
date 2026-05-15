@@ -3,7 +3,7 @@ import json
 from collections import defaultdict
 from pathlib import Path
 
-ROOT = Path('C:/Users/Aarik/Anthropic/memory-study-repo')
+ROOT = Path(__file__).resolve().parents[2]
 
 # 1) hamerton: aggregate all judgment files (per-judge files for C5/C2a/C2c/C4/C4a)
 print('=== hamerton: scan per-judge files for global-style conditions ===')

@@ -1,0 +1,19 @@
+{
+  "cell_id": "seacole_q2_C4",
+  "subject": "global_seacole",
+  "qid": 2,
+  "condition_key": "C4_factdump",
+  "judge": "opus",
+  "judge_model": "claude-opus-4-6",
+  "judge_provider": "anthropic",
+  "rubric": "original_judge_hamerton_5judge_lines_57_68",
+  "temperature": 0,
+  "score": 4,
+  "raw": "4",
+  "parse_failure": false,
+  "error": null,
+  "held_out": "Poor fellow! I could not undeceive him. I think the fancy happily caused by the touch of a woman's hand soothed his dying hour",
+  "response_text_snippet": "# Mary Seacole's Response to a Delirious Soldier\n\nBased on the extensive facts about Mary's character, **yes, she would absolutely comfort such a soldier**, and she would do so without hesitation or self-consciousness.\n\n## Evidence from Her Character\n\n**Her compassionate nature:**\n- Mary \"is pleased and gratified when reflecting on times she has benefited fellow-creatures suffering from illness\"\n- She \"loves to be of service to those who need a woman's help\"\n- She \"asks no greater privilege than to minister to those in need on distant shores\"\n\n**Her practical, maternal approach:**\n- She \"grew to love a young surgeon in a few short weeks\" and called him \"My son--my dear child\"\n- She \"wept over the young surgeon\" and held him as he died, with him resting \"his head upon Mary Seacole's breast\"\n- She was \"almost as fond of\" the young surgeon \"as his mother in England\"\n\n**Her willingness to do whatever is needed:**\n- She \"offered to work for the wounded in return for bread and water\"\n- She \"did not allow business to interfere with helping the sick and wounded\"\n- She \"eased the stiff dressings of a wounded soldier\" and \"gave tea to a wounded artilleryman\" without waiting for permission\n\n**Her emotional authenticity:**\n- Mary \"describes herself as impulsive and finds it hard to restrain her feelings\"\n- She is \"not ashamed to confess her gratification in being of service\"\n\nMary would likely gently accept the soldier's confusion while providing comfort, much as she did with the dying y",
+  "cached_score": 3,
+  "timestamp": "2026-05-09T00:31:47.486036Z"
+}

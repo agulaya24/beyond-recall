@@ -1,6 +1,9 @@
 import json, sys
 from collections import defaultdict
+from pathlib import Path
 sys.stdout.reconfigure(encoding='utf-8')
+
+REPO = Path(__file__).resolve().parents[3]
 
 # Pull responses for specific archival Ebers Q31, Q3, and a Hamerton archival pair
 def load_results(path):
@@ -17,7 +20,7 @@ def find_resp(results, qid, cond):
     return None, None
 
 # Ebers archival results
-ep = 'C:/Users/Aarik/Anthropic/memory-study-repo/results/global_ebers/letta_fullpipeline_results.json'
+ep = str(REPO / 'results/global_ebers/letta_fullpipeline_results.json')
 e_results = load_results(ep)
 if isinstance(e_results, dict) and 'results' in e_results:
     e_results = e_results['results']
@@ -39,7 +42,7 @@ for qid in [31, 14, 3]:
             break
 
 # Pull Hamerton Q25 and Q46 archival
-hp = 'C:/Users/Aarik/Anthropic/memory-study-repo/results/hamerton/letta_fullpipeline_results.json'
+hp = str(REPO / 'results/hamerton/letta_fullpipeline_results.json')
 h_results = load_results(hp)
 if isinstance(h_results, dict) and 'results' in h_results:
     h_results = h_results['results']

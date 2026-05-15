@@ -4,7 +4,7 @@
 
 **Date.** 2026-04-17.
 
-**Source of v6 text under review.** `C:\Users\Aarik\Anthropic\memory-study-repo\docs\beyond_recall_v6_draft.md`, lines 354-366 (§2.1).
+**Source of v6 text under review.** `docs/beyond_recall_v6_draft.md`, lines 354-366 (§2.1).
 
 **Benchmark numbers already audited.** `docs/research/provider_benchmarks.md` (`m21` in `KEY_FINDINGS.md`). This document does not re-audit benchmark numbers — it verifies *architectural* claims.
 

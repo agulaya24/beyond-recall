@@ -13,6 +13,9 @@ Outputs:
 import json, os, subprocess, time, re, httpx
 
 RERUN_DIR = os.path.dirname(os.path.abspath(__file__))
+# This script also depends on the separate memory_system repo; set MEMORY_SYSTEM_ROOT to its path.
+MEMORY_SYSTEM_ROOT = os.environ.get("MEMORY_SYSTEM_ROOT", "")
+MS_RESULTS = os.path.join(MEMORY_SYSTEM_ROOT, "data", "experiments", "memory_systems", "results")
 
 # Load API keys from user env
 for k in ("OPENAI_API_KEY",):
@@ -79,18 +82,18 @@ def call_gpt54(prompt):
 # (subject, results_json_path, canonical_out_path, copy_out_path, condition_label, qt_override?)
 SOURCES = [
     ("hamerton",
-     r"C:\Users\Aarik\Anthropic\memory_system\data\experiments\memory_systems\results\run_fullstack_hamerton_20260411_231237\letta_memory_haiku_results.json",
-     r"C:\Users\Aarik\Anthropic\memory_system\data\experiments\memory_systems\results\run_fullstack_hamerton_20260411_231237\letta_memory_haiku_judgments_gpt54.json",
+     os.path.join(MS_RESULTS, "run_fullstack_hamerton_20260411_231237", "letta_memory_haiku_results.json"),
+     os.path.join(MS_RESULTS, "run_fullstack_hamerton_20260411_231237", "letta_memory_haiku_judgments_gpt54.json"),
      os.path.join(RERUN_DIR, "letta_hamerton_judgments_gpt54.json"),
      "C_letta_memory_haiku"),
     ("ebers",
-     r"C:\Users\Aarik\Anthropic\memory_system\data\experiments\memory_systems\results\global_ebers\letta_memory_haiku_results.json",
-     r"C:\Users\Aarik\Anthropic\memory_system\data\experiments\memory_systems\results\global_ebers\letta_memory_haiku_judgments_gpt54.json",
+     os.path.join(MS_RESULTS, "global_ebers", "letta_memory_haiku_results.json"),
+     os.path.join(MS_RESULTS, "global_ebers", "letta_memory_haiku_judgments_gpt54.json"),
      os.path.join(RERUN_DIR, "letta_ebers_judgments_gpt54.json"),
      "C_letta_memory_haiku_ebers"),
     ("babur",
-     r"C:\Users\Aarik\Anthropic\memory_system\data\experiments\memory_systems\results\global_babur\letta_memory_haiku_results.json",
-     r"C:\Users\Aarik\Anthropic\memory_system\data\experiments\memory_systems\results\global_babur\letta_memory_haiku_judgments_gpt54.json",
+     os.path.join(MS_RESULTS, "global_babur", "letta_memory_haiku_results.json"),
+     os.path.join(MS_RESULTS, "global_babur", "letta_memory_haiku_judgments_gpt54.json"),
      os.path.join(RERUN_DIR, "letta_babur_judgments_gpt54.json"),
      "C_letta_memory_haiku_babur"),
 ]

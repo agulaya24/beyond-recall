@@ -18,35 +18,41 @@ from __future__ import annotations
 
 import hashlib
 import json
+import os
 import re
 import shutil
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-REPO = Path("C:/Users/Aarik/Anthropic/memory-study-repo")
+REPO = Path(__file__).resolve().parents[1]
 OUT = REPO / "data" / "source_corpora"
 OUT.mkdir(parents=True, exist_ok=True)
+
+# NOTE: source corpora live in the separate (private) memory_system repo. Set
+# MEMORY_SYSTEM_ROOT to its path; defaults to empty so the missing-path failure
+# is obvious. This is a one-off migration into data/source_corpora/.
+MS = Path(os.environ.get("MEMORY_SYSTEM_ROOT", ""))
 
 # subject_id -> source_path. Hamerton lives in a different location.
 # franklin_letters is included for franklin_obscure / high-baseline reference.
 SOURCES: dict[str, Path] = {
-    "augustine":              Path("C:/Users/Aarik/Anthropic/memory_system/data/corpora/augustine/raw.txt"),
-    "babur":                  Path("C:/Users/Aarik/Anthropic/memory_system/data/corpora/babur/raw.txt"),
-    "bernal_diaz":            Path("C:/Users/Aarik/Anthropic/memory_system/data/corpora/bernal_diaz/raw.txt"),
-    "cellini":                Path("C:/Users/Aarik/Anthropic/memory_system/data/corpora/cellini/raw.txt"),
-    "ebers":                  Path("C:/Users/Aarik/Anthropic/memory_system/data/corpora/ebers/raw.txt"),
-    "equiano":                Path("C:/Users/Aarik/Anthropic/memory_system/data/corpora/equiano/raw.txt"),
-    "fukuzawa":               Path("C:/Users/Aarik/Anthropic/memory_system/data/corpora/fukuzawa/raw.txt"),
-    "hamerton":               Path("C:/Users/Aarik/Anthropic/memory_system/data/experiments/memory_systems/corpus/hamerton_autobiography_raw.txt"),
-    "keckley":                Path("C:/Users/Aarik/Anthropic/memory_system/data/corpora/keckley/raw.txt"),
-    "rousseau":               Path("C:/Users/Aarik/Anthropic/memory_system/data/corpora/rousseau/raw.txt"),
-    "seacole":                Path("C:/Users/Aarik/Anthropic/memory_system/data/corpora/seacole/raw.txt"),
-    "sunity_devee":           Path("C:/Users/Aarik/Anthropic/memory_system/data/corpora/sunity_devee/raw.txt"),
-    "yung_wing":              Path("C:/Users/Aarik/Anthropic/memory_system/data/corpora/yung_wing/raw.txt"),
-    "zitkala_sa":             Path("C:/Users/Aarik/Anthropic/memory_system/data/corpora/zitkala_sa/raw.txt"),
-    "franklin_autobiography": Path("C:/Users/Aarik/Anthropic/memory_system/data/corpora/franklin_autobiography/franklin_raw.txt"),
-    "franklin_letters":       Path("C:/Users/Aarik/Anthropic/memory_system/data/corpora/franklin_letters/complete_works_vol2_raw.txt"),
+    "augustine":              MS / "data/corpora/augustine/raw.txt",
+    "babur":                  MS / "data/corpora/babur/raw.txt",
+    "bernal_diaz":            MS / "data/corpora/bernal_diaz/raw.txt",
+    "cellini":                MS / "data/corpora/cellini/raw.txt",
+    "ebers":                  MS / "data/corpora/ebers/raw.txt",
+    "equiano":                MS / "data/corpora/equiano/raw.txt",
+    "fukuzawa":               MS / "data/corpora/fukuzawa/raw.txt",
+    "hamerton":               MS / "data/experiments/memory_systems/corpus/hamerton_autobiography_raw.txt",
+    "keckley":                MS / "data/corpora/keckley/raw.txt",
+    "rousseau":               MS / "data/corpora/rousseau/raw.txt",
+    "seacole":                MS / "data/corpora/seacole/raw.txt",
+    "sunity_devee":           MS / "data/corpora/sunity_devee/raw.txt",
+    "yung_wing":              MS / "data/corpora/yung_wing/raw.txt",
+    "zitkala_sa":             MS / "data/corpora/zitkala_sa/raw.txt",
+    "franklin_autobiography": MS / "data/corpora/franklin_autobiography/franklin_raw.txt",
+    "franklin_letters":       MS / "data/corpora/franklin_letters/complete_works_vol2_raw.txt",
 }
 
 # Per-subject overrides for sources that don't have a clean PG header.

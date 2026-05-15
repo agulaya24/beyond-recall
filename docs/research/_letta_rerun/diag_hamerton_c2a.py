@@ -1,8 +1,11 @@
 """Compute Hamerton C2a per-judge and per-question-subset means."""
 import json
+import os
 from collections import defaultdict
 
-base = r"C:\Users\Aarik\Anthropic\memory_system\data\experiments\memory_systems\results\run_fullstack_hamerton_20260411_231237"
+# This script depends on the separate memory_system repo; set MEMORY_SYSTEM_ROOT to its path.
+MEMORY_SYSTEM_ROOT = os.environ.get("MEMORY_SYSTEM_ROOT", "")
+base = os.path.join(MEMORY_SYSTEM_ROOT, "data", "experiments", "memory_systems", "results", "run_fullstack_hamerton_20260411_231237")
 
 # Combined C2a scores by judge
 with open(f"{base}\\analysis\\judgments.json", encoding="utf-8") as f:

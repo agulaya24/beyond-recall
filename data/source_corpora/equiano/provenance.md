@@ -22,7 +22,6 @@ Project Gutenberg eBooks are distributed in the public domain in the United Stat
 - **Words:** 85,660
 - **Paragraphs:** 497
 - **SHA-256:** `70a1e2d4e33c9ec46725ee8bb1f8f7de7423f691b02cc7eb29337ab948f1b533`
-- **Migrated from:** `C:\Users\Aarik\Anthropic\memory_system\data\corpora\equiano\raw.txt`
 - **Migrated on:** 2026-05-05T21:43:49.370504+00:00
 
 ## How this corpus is consumed by the study pipeline

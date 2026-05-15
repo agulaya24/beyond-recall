@@ -4,8 +4,10 @@ or compare with the spec.md files available.
 """
 import json
 import os
+from pathlib import Path
 
-RESULTS = r"C:\Users\Aarik\Anthropic\memory-study-repo\results"
+REPO = Path(__file__).resolve().parents[3]
+RESULTS = str(REPO / "results")
 
 for subject in ("ebers", "babur"):
     print(f"\n=== {subject} ===")

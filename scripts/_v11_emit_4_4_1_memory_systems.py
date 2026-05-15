@@ -22,7 +22,7 @@ PROVENANCE NOTES (load-bearing for this section):
   2. Supermemory native paid-tier rerun (the 4 originally-failed subjects: babur,
      bernal_diaz, cellini, rousseau) was completed on 2026-04-23 and judged through
      all 7 judges. Those judgments live ONLY at the canonical script-local path:
-       C:/Users/Aarik/Anthropic/memory_system/data/experiments/memory_systems/results/global_<subject>/
+       $MEMORY_SYSTEM_ROOT/data/experiments/memory_systems/results/global_<subject>/
      and have NOT been mirrored into the study repo. The paper (§4.4.1) and the
      existing scripts/compute_supermemory_paid_tier_aggregate.py read from the
      canonical path for those 4 subjects. This emit script does the same.
@@ -66,7 +66,9 @@ except ImportError:
 REPO = Path(__file__).resolve().parent.parent
 STUDY_RESULTS = REPO / 'results'
 BACKFILL_DIR = STUDY_RESULTS / '_s114_backfills'
-CANONICAL_RESULTS = Path('C:/Users/Aarik/Anthropic/memory_system/data/experiments/memory_systems/results')
+# NOTE: depends on the separate (private) memory_system repo. Set MEMORY_SYSTEM_ROOT
+# to its path; defaults to empty so the missing-path failure is obvious.
+CANONICAL_RESULTS = Path(os.environ.get("MEMORY_SYSTEM_ROOT", "")) / 'data' / 'experiments' / 'memory_systems' / 'results'
 OUT_DIR = REPO / 'docs' / 'research' / 'v11_emit'
 OUT_JSON = OUT_DIR / '4_4_1_memory_systems.json'
 OUT_MD = OUT_DIR / '4_4_1_memory_systems.md'

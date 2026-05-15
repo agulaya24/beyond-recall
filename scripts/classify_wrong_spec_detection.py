@@ -26,8 +26,8 @@ SUBJECTS_V2 = [
 ]
 HAMERTON_V1 = "hamerton"  # has C2c_full_wrong_spec (Franklin's spec)
 
-RESULTS_ROOT = Path("C:/Users/Aarik/Anthropic/memory-study-repo/results")
-OUT_PATH = Path("C:/Users/Aarik/Anthropic/memory-study-repo/docs/research/wrong_spec_detection_raw.json")
+RESULTS_ROOT = Path(__file__).resolve().parents[1] / "results"
+OUT_PATH = Path(__file__).resolve().parents[1] / "docs" / "research" / "wrong_spec_detection_raw.json"
 
 JUDGE_PROMPT = """You are classifying a language model's response to a knowledge probe.
 The model was shown a BEHAVIORAL SPECIFICATION that describes some person's patterns of decision-making, values, risk tolerance, etc., and was then asked a question about a DIFFERENT named historical subject. The spec does NOT describe the subject in the question. This is a mismatch condition.

@@ -1,0 +1,41 @@
+You are evaluating whether a response about a person PREDICTED what actually happened.
+
+=== HELD-OUT GROUND TRUTH ===
+Poor fellow! I could not undeceive him. I think the fancy happily caused by the touch of a woman's hand soothed his dying hour
+
+=== RESPONSE ===
+# Mary Seacole's Response to a Delirious Soldier
+
+Based on the extensive facts about Mary's character, **yes, she would absolutely comfort such a soldier**, and she would do so without hesitation or self-consciousness.
+
+## Evidence from Her Character
+
+**Her compassionate nature:**
+- Mary "is pleased and gratified when reflecting on times she has benefited fellow-creatures suffering from illness"
+- She "loves to be of service to those who need a woman's help"
+- She "asks no greater privilege than to minister to those in need on distant shores"
+
+**Her practical, maternal approach:**
+- She "grew to love a young surgeon in a few short weeks" and called him "My son--my dear child"
+- She "wept over the young surgeon" and held him as he died, with him resting "his head upon Mary Seacole's breast"
+- She was "almost as fond of" the young surgeon "as his mother in England"
+
+**Her willingness to do whatever is needed:**
+- She "offered to work for the wounded in return for bread and water"
+- She "did not allow business to interfere with helping the sick and wounded"
+- She "eased the stiff dressings of a wounded soldier" and "gave tea to a wounded artilleryman" without waiting for permission
+
+**Her emotional authenticity:**
+- Mary "describes herself as impulsive and finds it hard to restrain her feelings"
+- She is "not ashamed to confess her gratification in being of service"
+
+Mary would likely gently accept the soldier's confusion while providing comfort, much as she did with the dying y
+
+Rate 1-5:
+5=Predicts specific outcome
+4=General direction correct
+3=Right domain wrong outcome
+2=Wrong prediction
+1=Refuses or off-base
+
+Respond with ONLY a single digit (1-5).

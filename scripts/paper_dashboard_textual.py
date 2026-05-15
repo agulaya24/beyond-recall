@@ -22,7 +22,9 @@ except ImportError:
     from textual.reactive import reactive
 
 REPO = Path(__file__).parent.parent
-MS = Path('C:/Users/Aarik/Anthropic/memory_system/data/experiments/memory_systems')
+# NOTE: depends on the separate (private) memory_system repo. Set MEMORY_SYSTEM_ROOT
+# to its path; defaults to empty so the missing-path failure is obvious.
+MS = Path(os.environ.get("MEMORY_SYSTEM_ROOT", "")) / 'data' / 'experiments' / 'memory_systems'
 
 SUBJECTS = ['zitkala_sa','hamerton','keckley','yung_wing','seacole','sunity_devee',
             'equiano','augustine','ebers','fukuzawa','cellini','bernal_diaz','rousseau','babur']

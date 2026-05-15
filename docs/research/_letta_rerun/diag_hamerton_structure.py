@@ -1,7 +1,10 @@
 """Examine Hamerton's Letta stateful and memory_haiku result structures."""
 import json
+import os
 
-base = r"C:\Users\Aarik\Anthropic\memory_system\data\experiments\memory_systems\results\run_fullstack_hamerton_20260411_231237"
+# This script depends on the separate memory_system repo; set MEMORY_SYSTEM_ROOT to its path.
+MEMORY_SYSTEM_ROOT = os.environ.get("MEMORY_SYSTEM_ROOT", "")
+base = os.path.join(MEMORY_SYSTEM_ROOT, "data", "experiments", "memory_systems", "results", "run_fullstack_hamerton_20260411_231237")
 
 for name in ("letta_memory_haiku_results.json", "letta_stateful_predict_results.json"):
     path = f"{base}\\{name}"

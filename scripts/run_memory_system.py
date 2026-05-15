@@ -30,7 +30,7 @@ import httpx
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 RESULTS_BASE = os.path.join(BASE_DIR, 'results')
-REPO_DIR = 'C:/Users/Aarik/Anthropic/memory-study-repo'
+REPO_DIR = os.path.dirname(BASE_DIR)
 
 RUN_ID = '20260415'  # Run-scoped namespace prefix
 

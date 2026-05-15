@@ -4,9 +4,11 @@ Writes _score_band_pool.json in same directory for downstream qualitative read.
 """
 import json, os, sys
 from collections import defaultdict
+from pathlib import Path
 from statistics import mean
 
-RESULTS_DIR = "C:/Users/Aarik/Anthropic/memory-study-repo/results"
+REPO = Path(__file__).resolve().parents[2]
+RESULTS_DIR = str(REPO / "results")
 
 # subjects folder list
 subjects = []
@@ -165,7 +167,7 @@ for name in sampled:
         for r in sampled[name]
     ]
 
-out_path = "C:/Users/Aarik/Anthropic/memory-study-repo/docs/research/_score_band_pool.json"
+out_path = str(REPO / "docs/research/_score_band_pool.json")
 with open(out_path, "w", encoding="utf-8") as f:
     json.dump(out, f, indent=2, ensure_ascii=False)
 print(f"Wrote {out_path}", file=sys.stderr)
