@@ -7,13 +7,13 @@ Companion repository for the paper. Author: Aarik Gulaya (Base Layer). License: 
 - **Paper PDF:** [`build/beyond_recall.pdf`](build/beyond_recall.pdf)
 - **Markdown source:** [`docs/beyond_recall_v12_1_draft.md`](docs/beyond_recall_v12_1_draft.md)
 - **LaTeX source:** [`build/beyond_recall.tex`](build/beyond_recall.tex), [`build/beyond_recall_body.tex`](build/beyond_recall_body.tex)
-- **arXiv preprint:** (link added on publication)
+- **arXiv preprint:** [arxiv.org/abs/2605.28969](https://arxiv.org/abs/2605.28969)
 
 ## What the study found
 
-On 14 public-domain autobiographical subjects evaluated by a 5-judge LLM panel, a Behavioral Specification served as context to a language model lifts the model's predictive accuracy on questions about how each subject would respond to held-out situations. The Specification recovers most of what the full source corpus delivers at roughly 25× less context. Layered on top of four commercial memory systems (Mem0, Letta, Supermemory, Zep), it produces a positive mean Δ on three of the four. The Specification nearly eliminates the model's tendency to refuse or guess vaguely on questions where retrieved facts could not ground the answer.
+On 14 public-domain autobiographical subjects evaluated by a 5-judge LLM panel, serving a Behavioral Specification as context to a language model lifts the model's predictive accuracy on questions about how each subject would respond to held-out situations. The Specification recovers most of what the full source corpus delivers at roughly 25× less context. Layered on top of four commercial memory systems (Mem0, Letta, Supermemory, Zep), it produces a positive mean Δ on three of the four. The Specification nearly eliminates the model's tendency to refuse or guess vaguely on questions where retrieved facts could not ground the answer.
 
-The structural finding underneath the gradient: the Specification produces a roughly uniform post-spec predictive level across subjects (mean C4a ≈ 2.46 on the 1-5 rubric) regardless of how much the model already knew about the subject from pretraining. The absolute lift in rubric points is therefore largest where the no-context baseline is lowest. Full statistical detail in §4.1, §4.2, §4.4, and Appendix B.7 of the paper.
+Underneath the gradient is a simpler structural fact: subjects the model knows least are consistently brought up to the same level as the rest (about 2.46 on the 1-5 rubric). The Specification's gain is largest for the subjects it knows least. Full statistical detail in §4.1, §4.2, §4.4, and Appendix B.7 of the paper.
 
 ## What the study claims, and what it does not
 
