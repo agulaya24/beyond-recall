@@ -8,6 +8,7 @@ Companion repository for the paper. Author: Aarik Gulaya (Base Layer). License: 
 - **Markdown source:** [`docs/beyond_recall_v12_1_draft.md`](docs/beyond_recall_v12_1_draft.md)
 - **LaTeX source:** [`build/beyond_recall.tex`](build/beyond_recall.tex), [`build/beyond_recall_body.tex`](build/beyond_recall_body.tex)
 - **arXiv preprint:** [arxiv.org/abs/2605.28969](https://arxiv.org/abs/2605.28969)
+- **Benchmark dataset (Hugging Face):** [`agulaya24/beyond-recall`](https://huggingface.co/datasets/agulaya24/beyond-recall) — specifications, question batteries, facts, corpora, and results, loadable via `load_dataset`.
 
 ## What the study found
 
