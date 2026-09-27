@@ -127,10 +127,10 @@ Aggregation: within-judge mean across the 39-question battery (40 for Franklin),
 
 | Test | V10.1 value | Source |
 |---|---|---|
-| Δ_C4a-on-C5 regression slope | **−0.96 [95% CI −1.24, −0.67]**, R² = 0.82, p < 0.001 | `scripts/_v10_battery_sensitivity.py` (univariate); `scripts/_v10_coupling_sensitivity.py` (level + permutation) |
-| Battery-composition partial slope | **−0.88 [95% CI −1.13, −0.63]**, p < 10⁻⁵ (controls for LITERAL_RECALL fraction) | `scripts/_v10_battery_sensitivity.py`; report `docs/research/v10_battery_sensitivity_analysis.md` |
+| Δ_C4a-on-C5 regression slope | **−0.96 [95% CI −1.24, −0.67]**, R² = 0.82, p < 0.001 | `scripts/_v10_battery_sensitivity.py` (univariate); `scripts/_v10_coupling_sensitivity.py` (level + permutation). Neither is in this repository since `9e133c2`; see REPRODUCE.md §2 for retrieval and the tracked equivalent `scripts/_v11_validation/verify_4_1_sensitivity.py` |
+| Battery-composition partial slope | **−0.88 [95% CI −1.13, −0.63]**, p < 10⁻⁵ (controls for LITERAL_RECALL fraction) | `scripts/_v10_battery_sensitivity.py` (not in this repository since commit `9e133c2`; see REPRODUCE.md §2 for retrieval and the tracked equivalent); report `docs/research/v10_battery_sensitivity_analysis.md` |
 | GPT-5.4-battery subset slope (n=13, drops Hamerton) | **−0.89 [95% CI −1.18, −0.61]**, R² = 0.81, p < 10⁻⁴ | Same script |
-| Level regression C4a ~ C5 | slope **+0.04 [95% CI −0.24, +0.33]**, R² = 0.008, p = 0.76; mean C4a = **2.46** | `scripts/_v10_coupling_sensitivity.py`; report `docs/research/v10_coupling_sensitivity_analysis.md` |
+| Level regression C4a ~ C5 | slope **+0.04 [95% CI −0.24, +0.33]**, R² = 0.008, p = 0.76; mean C4a = **2.46** | `scripts/_v10_coupling_sensitivity.py` (not in this repository since commit `9e133c2`; see REPRODUCE.md §2 for retrieval and the tracked equivalent); report `docs/research/v10_coupling_sensitivity_analysis.md` |
 | Wilcoxon C5 vs C4a (N=14) | **W=11, p=0.007** | `scripts/recompute_5judge_primary.py` |
 | Wilcoxon C5 vs C2a (N=14) | **W=10, p=0.005** | Same |
 | Krippendorff α (ordinal) | **0.659** (5-judge primary); 0.535 (7-judge sensitivity) | Same |

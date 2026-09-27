@@ -5,7 +5,7 @@
 Delta_C4a = C4a - C5 on C5 mechanically induces a negative slope on a bounded 1-5
 scale, especially with floor or ceiling effects. The §4.1 headline (slope = -0.96,
 R^2 = 0.82) is therefore vulnerable to a coupling artifact.
-**Script:** `scripts/_v10_coupling_sensitivity.py`
+**Script:** `scripts/_v10_coupling_sensitivity.py` (not in this repository since commit `9e133c2`; see REPRODUCE.md §2 for retrieval and the tracked equivalent)
 **Arrays (reproducibility):** `docs/research/v10_coupling_sensitivity_arrays.npz`
 **Seed:** 20260424.
 

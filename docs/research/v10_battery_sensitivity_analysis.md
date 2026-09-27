@@ -1,7 +1,7 @@
 # §4.1 Gradient Battery-Composition Sensitivity Analysis (v10)
 
 **Date:** 2026-04-24
-**Script:** `scripts/_v10_battery_sensitivity.py`
+**Script:** `scripts/_v10_battery_sensitivity.py` (not in this repository since commit `9e133c2`; see REPRODUCE.md §2 for retrieval and the tracked equivalent)
 **Target result:** §4.1 headline slope of the cross-subject gradient, y = Δ_C4a vs. x = C5 baseline. Headline: slope **−0.96** [95% CI −1.24, −0.67], R² = 0.82, p < 0.001, N = 14.
 
 ## 1. Purpose
@@ -130,7 +130,7 @@ What this does not rule out: a more subtle confound in which battery-generator d
 
 ## 6. Reproduction
 
-Script: `scripts/_v10_battery_sensitivity.py`. Requires Python 3.12 with `numpy`, `pandas`, `statsmodels`, `scipy`. Reproducible output is deterministic from the inline DATA table.
+Script: `scripts/_v10_battery_sensitivity.py` (not in this repository since commit `9e133c2`; see REPRODUCE.md §2 for retrieval and the tracked equivalent). Requires Python 3.12 with `numpy`, `pandas`, `statsmodels`, `scipy`. Reproducible output is deterministic from the inline DATA table.
 
 ## 7. Provenance
 
