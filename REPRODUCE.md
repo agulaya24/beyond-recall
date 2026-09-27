@@ -39,15 +39,14 @@ This installs the `baselayer` Python package in editable mode and puts the `base
 
 The two §4.1 sensitivity scripts are self-contained: per-subject (C5, Δ_C4a) data is inlined from the v10.1 §4.1 table (carried forward unchanged into v11 §4.1), and they output the numbers cited in the paper.
 
-> **Where the scripts are (updated 2026-09-27).** `scripts/_v10_battery_sensitivity.py` and `scripts/_v10_coupling_sensitivity.py` are no longer in this repository. Commit `9e133c2` moved them to `scripts/_archive/`, which `.gitignore` excludes, so a clone does not contain them. Two routes:
+> **Where the scripts are (updated 2026-09-27).** `scripts/_v10_battery_sensitivity.py` and `scripts/_v10_coupling_sensitivity.py` are in this repository again. Commit `9e133c2` had moved them to `scripts/_archive/`, which `.gitignore` excludes; they were restored byte-for-byte from `9e133c2^` on 2026-09-27. Their printed labels still call the drop-Hamerton subset "GPT-5.4 batteries"; that wording is incorrect (see 2.1) and the numbers are unaffected. Two routes:
 >
-> - **Original scripts, from git history** (needs a full clone, not a shallow one). `git show 9e133c2^:scripts/_v10_battery_sensitivity.py > scripts/_v10_battery_sensitivity.py`, and the same for `_v10_coupling_sensitivity.py`. Both were run this way on 2026-09-27 and printed the values listed below. The coupling script writes `docs/research/v10_coupling_sensitivity_arrays.npz`, overwriting the tracked copy.
+> - **Original scripts, in `scripts/`.** Run them directly (commands below). Both were run on 2026-09-27 and printed the values listed below. The coupling script writes `docs/research/v10_coupling_sensitivity_arrays.npz`, overwriting the tracked copy.
 > - **Tracked equivalent, recomputed from primary data.** `python scripts/_v11_validation/verify_4_1_sensitivity.py` recomputes the headline slope (CI, R², p), the partial coefficient on C5, the drop-Hamerton subset slope, the Wilcoxon test, the level regression C4a ~ C5, and the level-permutation p from `docs/research/v11_emit/4_1_gradient.json`, and compares each to the paper. Run on 2026-09-27, every value agreed to the reported rounding; three (the subset CI upper bound, the level CI lower bound, and the level R²) sit at the script's 0.005 comparison tolerance and are printed as MISMATCH. It does not recompute the LITERAL_RECALL coefficient, the adjusted R², or the bootstrap CIs; for those, use the original scripts.
 
 ### 2.1. Battery-composition sensitivity (v11 §4.1; v10.1 §4.1 line 749)
 
 ```bash
-git show 9e133c2^:scripts/_v10_battery_sensitivity.py > scripts/_v10_battery_sensitivity.py
 python scripts/_v10_battery_sensitivity.py
 ```
 
@@ -63,7 +62,6 @@ Full report: `docs/research/v10_battery_sensitivity_analysis.md`.
 ### 2.2. Coupling-free reframing (v11 §4.1; v10.1 §4.1 line 755)
 
 ```bash
-git show 9e133c2^:scripts/_v10_coupling_sensitivity.py > scripts/_v10_coupling_sensitivity.py
 python scripts/_v10_coupling_sensitivity.py
 ```
 
@@ -141,7 +139,7 @@ A subset of scripts was developed against an absolute Windows path and will need
 
 The following analysis scripts use only relative paths (`Path(__file__).parent.parent / ...`) and run cleanly from any clone:
 
-- `scripts/_v10_battery_sensitivity.py` and `scripts/_v10_coupling_sensitivity.py`, once retrieved from git history (§2; not in a clone)
+- `scripts/_v10_battery_sensitivity.py` and `scripts/_v10_coupling_sensitivity.py`
 - `scripts/_v11_validation/verify_4_1_sensitivity.py`
 - `scripts/recompute_5judge_primary.py`
 - `scripts/compute_memory_systems_5judge.py`
@@ -174,8 +172,8 @@ v12.1 carries the v10.1 §4.1 / §4.2 / §4.3 / §4.4 / §4.5 headline numbers f
 | Number | Where to look |
 |---|---|
 | §4.1 per-subject (C5, C2a, C4a, Δ) table | `docs/DATA_REFERENCE.md` §1 (5-judge primary); raw at `results/global_<subject>/judgments_v2.json` and `results/hamerton/{sonnet,opus,gpt4o,haiku,gpt54}_judgments.json` |
-| §4.1 headline slope, R², p-value | `scripts/_v10_battery_sensitivity.py` (univariate) and `scripts/_v10_coupling_sensitivity.py` (level + permutation + bootstrap), both retrieved from git history (§2); or the tracked `scripts/_v11_validation/verify_4_1_sensitivity.py` (no bootstrap). Script names retain `_v10_` prefix as frozen artifact identifiers; they reproduce the v11 §4.1 numbers (unchanged from v10.1). |
-| §4.1 sensitivity (LITERAL_RECALL, drop-Hamerton subset) | `scripts/_v10_battery_sensitivity.py`, retrieved from git history (§2); the tracked verify script covers the drop-Hamerton slope but not the LITERAL_RECALL coefficient |
+| §4.1 headline slope, R², p-value | `scripts/_v10_battery_sensitivity.py` (univariate) and `scripts/_v10_coupling_sensitivity.py` (level + permutation + bootstrap); or the tracked `scripts/_v11_validation/verify_4_1_sensitivity.py` (no bootstrap). Script names retain `_v10_` prefix as frozen artifact identifiers; they reproduce the v11 §4.1 numbers (unchanged from v10.1). |
+| §4.1 sensitivity (LITERAL_RECALL, drop-Hamerton subset) | `scripts/_v10_battery_sensitivity.py`; the tracked verify script covers the drop-Hamerton slope but not the LITERAL_RECALL coefficient |
 | §4.2 compression curve (Hamerton) | `results/hamerton/c8_c9_judgments_*.json` plus per-judge files |
 | §4.5 Letta stateful-agent case study | `docs/research/_letta_rerun/5judge_primary_results.json` (matched), `docs/research/_letta_rerun/fullstack_named/5judge_fullstack_results.json` (full-stack BL rerun), `docs/research/letta_stateful_matched_rerun.md` (summary) |
 | §3.6 (v11) / §3.7 (v10.1) judge calibration | `results/judge_calibration/*.json` |

@@ -122,7 +122,7 @@ This data closes v11 comment C131 (per-system anchor-crossing for §4.4.1) and f
 **Battery-composition sensitivity (v10.1 §4.1, line 749):**
 - Multiple regression of Δ_C4a on C5 baseline + LITERAL_RECALL fraction (N=14): partial slope on baseline = **−0.88 [95% CI −1.13, −0.63], p < 10⁻⁵**, attenuated about 8% from the univariate −0.96. Adjusted R² rises from 0.80 to 0.87. LITERAL_RECALL fraction enters as a significant partial predictor (β = +2.30 [+0.34, +4.26], p = 0.026). Pearson r between predictors = −0.28; VIF = 1.08.
 - Subset regression on the 13 GPT-5.4-battery subjects (drops Hamerton's legacy Haiku-generated battery): slope = **−0.89 [95% CI −1.18, −0.61], R² = 0.81, p < 10⁻⁴**. About 7% attenuation from the full-sample −0.96. CIs overlap substantially.
-- Reproducibility script: `scripts/_v10_battery_sensitivity.py` (not in this repository since commit `9e133c2`; see REPRODUCE.md §2 for retrieval and the tracked equivalent). Full report: `docs/research/v10_battery_sensitivity_analysis.md`.
+- Reproducibility script: `scripts/_v10_battery_sensitivity.py` (restored to `scripts/` on 2026-09-27 after commit `9e133c2` had archived it; REPRODUCE.md §2 also lists the tracked equivalent). Full report: `docs/research/v10_battery_sensitivity_analysis.md`.
 
 **Coupling-free reframing (v10.1 §4.1, line 755):**
 - The headline regression is Δ_C4a = C4a − C5 on C5; this mechanically embeds a −1 component on a bounded 1-5 scale. Three checks triangulate from a non-coupling-prone angle.
@@ -130,7 +130,7 @@ This data closes v11 comment C131 (per-system anchor-crossing for §4.4.1) and f
 - Permutation null (10,000 iterations, shuffles C4a across subjects): centered at −0.998 (SD 0.127); observed −0.960 not extreme (two-sided p = 0.77). The mechanical −1 anchor is what the permutation null reproduces.
 - Subject-level bootstrap (10,000 iterations): Δ-on-C5 slope CI = [−1.254, −0.740]; level slope CI = [−0.254, +0.260] (straddles zero).
 - **Honest reframing:** the gradient is "the spec produces a roughly constant C4a near 2.5 across baselines spanning 1.0-2.8, so the lift in raw points is mechanically larger where the floor is lower" rather than "low-baseline subjects benefit differentially more from the spec" in a treatment-effect-heterogeneity sense. The substantive finding survives; the framing of the §4.1 prose follows the reframing.
-- Reproducibility script: `scripts/_v10_coupling_sensitivity.py` (not in this repository since commit `9e133c2`; see REPRODUCE.md §2 for retrieval and the tracked equivalent). Full report: `docs/research/v10_coupling_sensitivity_analysis.md`.
+- Reproducibility script: `scripts/_v10_coupling_sensitivity.py` (restored to `scripts/` on 2026-09-27 after commit `9e133c2` had archived it; REPRODUCE.md §2 also lists the tracked equivalent). Full report: `docs/research/v10_coupling_sensitivity_analysis.md`.
 
 **Interpretation (bounded):**
 - p < 0.01 on both Wilcoxon tests (5-judge primary). Aggregate improvement is reliably positive.
@@ -421,8 +421,8 @@ See §7 above for full Letta stateful-agent results across the n=3 subject set. 
 | Gradient 14 subjects, 5-judge primary | per-subject `results/global_<subject>/judgments_v2.json` and `results/hamerton/{sonnet,opus,gpt4o,haiku,gpt54}_judgments.json`, aggregated by `scripts/recompute_5judge_primary.py` |
 | Memory systems aggregate | `RESULTS_S113.json` > `memory_systems`; 5-judge primary recompute at `docs/research/memory_systems_5judge_primary.md` |
 | Statistical tests (5-judge primary) | `scripts/recompute_5judge_primary.py` over per-judge files |
-| Battery-composition sensitivity | `scripts/_v10_battery_sensitivity.py` (not in this repository since commit `9e133c2`; see REPRODUCE.md §2 for retrieval and the tracked equivalent); full report `docs/research/v10_battery_sensitivity_analysis.md` |
-| Coupling-free reframing | `scripts/_v10_coupling_sensitivity.py` (not in this repository since commit `9e133c2`; see REPRODUCE.md §2 for retrieval and the tracked equivalent); full report `docs/research/v10_coupling_sensitivity_analysis.md`; arrays at `docs/research/v10_coupling_sensitivity_arrays.npz` |
+| Battery-composition sensitivity | `scripts/_v10_battery_sensitivity.py` (restored to `scripts/` on 2026-09-27 after commit `9e133c2` had archived it; REPRODUCE.md §2 also lists the tracked equivalent); full report `docs/research/v10_battery_sensitivity_analysis.md` |
+| Coupling-free reframing | `scripts/_v10_coupling_sensitivity.py` (restored to `scripts/` on 2026-09-27 after commit `9e133c2` had archived it; REPRODUCE.md §2 also lists the tracked equivalent); full report `docs/research/v10_coupling_sensitivity_analysis.md`; arrays at `docs/research/v10_coupling_sensitivity_arrays.npz` |
 | Tier 2 circularity | `RESULTS_S113.json` > `tier2_circularity`; per-judge under `results/multimodel/` |
 | Letta stateful-agent main rerun (n=3, 5-judge primary) | `docs/research/_letta_rerun/5judge_primary_results.json`; pipeline scripts `docs/research/_letta_rerun/{20_run_c2a_named.py, 40_judge_responses.py, 50_aggregate.py, 70_compute_5judge_primary.py}`; per-subject judgments `docs/research/_letta_rerun/{hamerton,ebers,babur}_judgments_*.json` and `docs/research/_letta_rerun/{ebers,babur}_letta_battery.json` |
 | Letta stateful-agent full-stack BL rerun (§4.5 footnote) | `docs/research/_letta_rerun/fullstack_named/5judge_fullstack_results.json` and `docs/research/_letta_rerun/fullstack_named/{hamerton,ebers,babur}_fullstack_judgments_*.json`; pipeline scripts `docs/research/_letta_rerun/fullstack_named/fs_{01..07}_*.py` |
