@@ -122,7 +122,7 @@ Both confounds leave the headline result substantially intact:
 |---|---:|---:|---:|
 | Univariate (headline) | −0.960 | reference | p < 10⁻⁵ |
 | Multiple regression, controlling for LITERAL_fraction | −0.880 | −8% | p < 10⁻⁵ |
-| Subset regression, GPT-5.4 batteries only | −0.892 | −7% | p < 10⁻⁴ |
+| Subset regression, drop-Hamerton (script label "GPT-5.4 batteries only" is legacy wording) | −0.892 | −7% | p < 10⁻⁴ |
 
 What this rules out: the gradient is not primarily driven by (a) between-subject differences in battery-question-type composition, or (b) generator-model differences between Hamerton and the 13 globals.
 

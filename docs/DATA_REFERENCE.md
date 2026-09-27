@@ -121,7 +121,7 @@ This data closes v11 comment C131 (per-system anchor-crossing for §4.4.1) and f
 
 **Battery-composition sensitivity (v10.1 §4.1, line 749):**
 - Multiple regression of Δ_C4a on C5 baseline + LITERAL_RECALL fraction (N=14): partial slope on baseline = **−0.88 [95% CI −1.13, −0.63], p < 10⁻⁵**, attenuated about 8% from the univariate −0.96. Adjusted R² rises from 0.80 to 0.87. LITERAL_RECALL fraction enters as a significant partial predictor (β = +2.30 [+0.34, +4.26], p = 0.026). Pearson r between predictors = −0.28; VIF = 1.08.
-- Subset regression on the 13 GPT-5.4-battery subjects (drops Hamerton's legacy Haiku-generated battery): slope = **−0.89 [95% CI −1.18, −0.61], R² = 0.81, p < 10⁻⁴**. About 7% attenuation from the full-sample −0.96. CIs overlap substantially.
+- Drop-Hamerton subset regression (n=13; the script's printed label "GPT-5.4 batteries" is legacy wording, see REPRODUCE.md 2.1): slope = **−0.89 [95% CI −1.18, −0.61], R² = 0.81, p < 10⁻⁴**. About 7% attenuation from the full-sample −0.96. CIs overlap substantially.
 - Reproducibility script: `scripts/_v10_battery_sensitivity.py` (restored to `scripts/` on 2026-09-27 after commit `9e133c2` had archived it; REPRODUCE.md §2 also lists the tracked equivalent). Full report: `docs/research/v10_battery_sensitivity_analysis.md`.
 
 **Coupling-free reframing (v10.1 §4.1, line 755):**

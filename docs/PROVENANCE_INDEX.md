@@ -129,7 +129,7 @@ Aggregation: within-judge mean across the 39-question battery (40 for Franklin),
 |---|---|---|
 | Δ_C4a-on-C5 regression slope | **−0.96 [95% CI −1.24, −0.67]**, R² = 0.82, p < 0.001 | `scripts/_v10_battery_sensitivity.py` (univariate); `scripts/_v10_coupling_sensitivity.py` (level + permutation). Both restored to `scripts/` on 2026-09-27 after `9e133c2` had archived them; tracked equivalent `scripts/_v11_validation/verify_4_1_sensitivity.py` |
 | Battery-composition partial slope | **−0.88 [95% CI −1.13, −0.63]**, p < 10⁻⁵ (controls for LITERAL_RECALL fraction) | `scripts/_v10_battery_sensitivity.py` (restored to `scripts/` on 2026-09-27 after commit `9e133c2` had archived it; REPRODUCE.md §2 also lists the tracked equivalent); report `docs/research/v10_battery_sensitivity_analysis.md` |
-| GPT-5.4-battery subset slope (n=13, drops Hamerton) | **−0.89 [95% CI −1.18, −0.61]**, R² = 0.81, p < 10⁻⁴ | Same script |
+| Drop-Hamerton subset slope (n=13; script label "GPT-5.4 batteries" is legacy wording, REPRODUCE.md 2.1) | **−0.89 [95% CI −1.18, −0.61]**, R² = 0.81, p < 10⁻⁴ | Same script |
 | Level regression C4a ~ C5 | slope **+0.04 [95% CI −0.24, +0.33]**, R² = 0.008, p = 0.76; mean C4a = **2.46** | `scripts/_v10_coupling_sensitivity.py` (restored to `scripts/` on 2026-09-27 after commit `9e133c2` had archived it; REPRODUCE.md §2 also lists the tracked equivalent); report `docs/research/v10_coupling_sensitivity_analysis.md` |
 | Wilcoxon C5 vs C4a (N=14) | **W=11, p=0.007** | `scripts/recompute_5judge_primary.py` |
 | Wilcoxon C5 vs C2a (N=14) | **W=10, p=0.005** | Same |
