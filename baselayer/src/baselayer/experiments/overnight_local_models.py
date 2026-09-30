@@ -38,14 +38,13 @@ V4_DIR = Path("C:/Users/user/Anthropic/memory_system_v4")
 PIPELINE_MODELS = ["qwen2.5:7b", "sam860/LFM2:2.6b", "sam860/LFM2:350m"]
 REASONING_MODELS = ["deepseek-r1:7b", "qwen2.5:7b"]
 
-# All 12 subjects with V5 briefs
+# All subjects with V5 briefs
 ALL_SUBJECTS = [
     ("franklin",      SUBJECTS_DIR / "franklin_memory"),
     ("buffett",       SUBJECTS_DIR / "buffett_memory"),
     ("aarik",         V4_DIR),
     ("douglass",      SUBJECTS_DIR / "douglass_memory"),
     ("marks",         SUBJECTS_DIR / "marks_memory"),
-    ("bavani",        SUBJECTS_DIR / "bavani_memory"),
     ("patent",        SUBJECTS_DIR / "patent_memory"),
     ("lesswrong",     SUBJECTS_DIR / "lesswrong_clt"),
     ("baselayer_meta",SUBJECTS_DIR / "baselayer_meta"),

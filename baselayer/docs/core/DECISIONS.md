@@ -502,7 +502,7 @@ Each decision has:
 **Key findings from review:**
 1. **Attribution problem** — facts about another person in the user's life (a health fact) were attributed to the user. System can't distinguish "user asks about X" from "X is true of user"
 2. **Relationship roles not captured** — board members, co-founders, colleagues, and investors all get generic "relationship" tag
-3. **Sentiment missing entirely** — "didn't like him at all" (a former colleague) → extracted as neutral professional contact
+3. **Sentiment missing entirely** — a negative sentiment about a former colleague → extracted as neutral professional contact
 4. **Single mentions weighted same as 200+ mentions** — a self-rating from one conversation treated equally to a skill discussed across 264+ conversations
 5. **No temporal awareness** — an interest from months ago presented as current; a current interest underrepresented
 6. **Negatives not surfaced** — negative traits exist in data but weren't organized into profile
@@ -575,13 +575,13 @@ Each decision has:
 
 **Key design choices:**
 - **Separate table, not just a column**: Corrections persist even when `memory_facts` is cleared for re-extraction
-- **Keyword substring matching, not vector similarity**: Faster, deterministic, human-readable. "a minor health detail honey" catches all variants
+- **Keyword substring matching, not vector similarity**: Faster, deterministic, human-readable. A short substring key catches all phrasings of the same wrong fact
 - **Post-extraction guard, not prompt injection**: Deterministic blocking > unreliable LLM instructions
 - **User corrections always win**: No hierarchy of correction confidence. The user is always right about their own facts
 
 **Why:**
 - The user's key insight from identity review: "If I correct something once, it should be fixed for all future conversations"
-- Without this, every re-extraction run would reintroduce the same wrong facts (Canadian citizen, S2000 ownership, etc.)
+- Without this, every re-extraction run would reintroduce the same misattributed facts
 - The correction propagation must happen BEFORE the improvement re-run so the guard is active when re-extraction happens
 
 **Artifacts:**
@@ -781,7 +781,7 @@ The Ghost Layer applied weights to individual facts via a 9-component composite 
 2. **Confidence is flat** — 83% of facts have confidence 1.0, providing zero signal
 3. **Category weights dominated** — with data signals effectively constant, the ghost weights became the ONLY ranking factor. A 3x gap between relationship (12) and project (4) meant trivial relationship facts ("joint checking account") outscored formative life events ("founded a startup, raised significant funding")
 
-Result: Identity block #2 ranked a spouse's minor health detail as the #1 fact about the user. The user's startup (100+ facts, core life chapter) had zero facts in the top 10.
+Result: Identity block #2 ranked a low-signal personal detail as the #1 fact about the user. The user's startup (100+ facts, core life chapter) had zero facts in the top 10.
 
 **The Collective review identified:** The ghost weights were applied at the wrong level of abstraction. Weighting individual facts when upstream data doesn't differentiate is adding signal to noise. The ghost belongs at the topic/cluster level — deciding how much space each life chapter gets, not which fact ranks #1.
 
@@ -819,7 +819,7 @@ Result: Identity block #2 ranked a spouse's minor health detail as the #1 fact a
 - Separates concerns: data retrieval, topic identification, representative selection, and narrative generation are independent, inspectable steps
 - No 9-component formula — each step can be tested and fixed alone
 - The framework is universal (works for any person), the data is personal
-- Noise is filtered by the schema itself — "spouse's dry skin" has no cluster to belong to
+- Noise is filtered by the schema itself — a low-signal personal detail has no cluster to belong to
 - Aligns with narrative identity theory (McAdams): turning points, throughlines, tensions
 - Brain-inspired: mirrors how humans store identity as schemas with slots, not ranked attribute lists
 

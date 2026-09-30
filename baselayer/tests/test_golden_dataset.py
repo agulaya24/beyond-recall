@@ -85,7 +85,7 @@ class TestGoldenDatasetRegression:
     )
     def test_no_known_hallucinations(self):
         """Verify known hallucinations are not present in current model."""
-        hallucination_terms = ["[redacted]", "young child", "[redacted]"]
+        hallucination_terms = ["[redacted]", "[redacted]", "[redacted]"]
         for layer_file in ["core_v4.md", "brief_v5_clean.md", "identity_model.md"]:
             path = AARIK_LAYERS_DIR / layer_file
             if not path.exists():

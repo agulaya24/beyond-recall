@@ -355,7 +355,7 @@ Every time complexity has been added to the extraction prompt, results got worse
 
 Don't check the code. Check whether the result makes sense to the person it's about.
 
-"I've never used an iron condor" is a better test than any unit test. "Eczema belongs to my wife, not me" catches a class of bugs that no automated evaluation would find. The person is the test suite.
+"I've never used an iron condor" is a better test than any unit test. A single "that's about someone else in my life, not me" catches a class of misattribution bugs that no automated evaluation would find. The person is the test suite.
 
 ### Corrections Are Data, Not Failures (D-021)
 
@@ -507,7 +507,7 @@ These principles emerged from testing real fact pairs against human judgment. Th
 
 2. **Temporal Order Dependence.** Ordering is required input to judgment, not optional metadata. "Wakes at 5:30am" followed by "Wakes at 7am" is a state change. Without knowing which came first, the system cannot determine which is current. Temporal order is a prerequisite for contradiction detection, not a supplementary signal.
 
-3. **Scope Resolution.** Confirm same entity/scope before comparing content. "Spouse has a minor health detail" and "User has dry skin" are not contradictions; they describe different people. "Trades SPY options" and "Trades futures" may not contradict if the user trades both. The system must verify that two facts refer to the same entity, the same scope, and the same dimension before evaluating contradiction.
+3. **Scope Resolution.** Confirm same entity/scope before comparing content. "Manager prefers Slack" and "User prefers email" are not contradictions; they describe different people. "Trades SPY options" and "Trades futures" may not contradict if the user trades both. The system must verify that two facts refer to the same entity, the same scope, and the same dimension before evaluating contradiction.
 
 4. **Context-Bound Truth.** Some fact pairs are indeterminate in isolation and require external knowledge to judge. "Lives in Dubai" and "Lives in Toronto" could be a contradiction (moved) or coexistence (dual residence). The system cannot resolve this without additional context. When context is insufficient, the correct output is "indeterminate," not a forced judgment.
 
@@ -525,7 +525,7 @@ These principles emerged from testing real fact pairs against human judgment. Th
 
 The original Ghost Layer (D-025) attempted to implement this through a composite scoring formula with per-fact weights: category hierarchy, subject multipliers, temporal weights, intent weights, and significance type weights. This produced a single score per fact that blended data signals with philosophical priors.
 
-**Why it failed (D-026):** The data inputs to the formula (significance, confidence, recurrence) turned out to be effectively flat (94% of facts scored "High" significance, 83% got confidence 1.0). This made the ghost weights the *only* differentiating signal, which meant the category hierarchy (relationship=12 vs project=4) dominated everything. Result: "spouse's dry skin" outranked "founded a startup." The ghost layer was working; it was just working at the wrong level.
+**Why it failed (D-026):** The data inputs to the formula (significance, confidence, recurrence) turned out to be effectively flat (94% of facts scored "High" significance, 83% got confidence 1.0). This made the ghost weights the *only* differentiating signal, which meant the category hierarchy (relationship=12 vs project=4) dominated everything. Result: "spouse's coffee order" outranked "founded a startup." The ghost layer was working; it was just working at the wrong level.
 
 **The fix (D-026 — Identity Cluster Framework):** Ghost priors now operate at the *topic level*, not the *fact level*. Ten universal identity clusters — who you are, who you love, what you've built, what you've lost, what drives you, what you believe, what you struggle with, how you operate, where you're headed, what's unresolved — define what dimensions matter about a person. Within each cluster, semantic retrieval finds the best representative facts. The philosophy is in the cluster design; the selection is empirical.
 

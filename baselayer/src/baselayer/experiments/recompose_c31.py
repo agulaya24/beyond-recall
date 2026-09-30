@@ -51,7 +51,6 @@ ALL_SUBJECTS = [
     ("aarik", "C:/Users/user/Anthropic/memory_system_v4"),
     ("douglass", "C:/Users/user/Anthropic/subjects/douglass_memory"),
     ("marks", "C:/Users/user/Anthropic/subjects/marks_memory"),
-    ("bavani", "C:/Users/user/Anthropic/subjects/bavani_memory"),
     ("patent", "C:/Users/user/Anthropic/subjects/patent_memory"),
     ("lesswrong", "C:/Users/user/Anthropic/subjects/lesswrong_clt"),
     ("baselayer_meta", "C:/Users/user/Anthropic/subjects/baselayer_meta"),
