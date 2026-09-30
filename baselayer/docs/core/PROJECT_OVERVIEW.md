@@ -230,10 +230,7 @@ Local deployability is being actively explored. The architecture is designed for
 - **Score stacking test before Reddit push** — Required for r/ClaudeAI post.
 
 ### Next
-- **Reddit launch** — 19 subreddits, core post finalized. Start with r/LocalLLaMA.
-- **Twin-2K researcher email** — Columbia team (Toubia, Gui, Peng, Merlau).
 - **Temporality research** — Time-aware identity modeling. Temporal prediction test spec drafted.
-- **VC outreach** — Timothy Chen, Steve Jang, Dharmesh Shah.
 
 ### Post-Launch
 - **ADRB benchmark** — 40 tasks, 7 conditions. ~$30 minimum.

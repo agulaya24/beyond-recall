@@ -2028,7 +2028,7 @@ def main():
     # pipeline (S98 Phase 4 — unified command with gates)
     p_pipeline = subparsers.add_parser("pipeline",
         help="Unified pipeline: import > extract > author > compose (with all gates)")
-    p_pipeline.add_argument("subject_id", help="Subject ID from registry (e.g., kevin_kelly)")
+    p_pipeline.add_argument("subject_id", help="Subject ID from registry (e.g., my_subject)")
     p_pipeline.add_argument("--v2", action="store_true",
         help="V2 mode: snapshot, clear, re-extract with expanded corpus")
     p_pipeline.add_argument("--yes", "-y", action="store_true",

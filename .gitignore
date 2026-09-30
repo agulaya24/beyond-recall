@@ -67,3 +67,6 @@ _archive/
 # scripts; the .docx is the deliverable, the .clean.md is throwaway.
 # Scoped to docs/ so study-data brief_v5_clean.md artifacts stay tracked.
 docs/*.clean.md
+
+# Local Claude Code state (worktrees, settings). Never part of the public repo.
+.claude/
