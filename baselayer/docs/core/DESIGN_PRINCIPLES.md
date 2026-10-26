@@ -1,3 +1,5 @@
+> **Frozen snapshot of Base Layer v0.2.0, kept for reproducing the Beyond Recall paper. Several claims here are superseded. For current Base Layer, see https://github.com/agulaya24/BaseLayer.**
+
 # Design Principles & Philosophy
 ## Base Layer: Behavioral Compression for AI Identity
 **Updated 2026-03-09 (Session 82)**
