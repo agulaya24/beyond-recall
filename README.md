@@ -56,7 +56,7 @@ Underneath the gradient is a simpler structural fact: subjects the model knows l
 
 ## Pre-registration
 
-The evaluation was pre-registered: an analysis plan locked on 2026-04-16 ([`docs/ANALYSIS_PLAN_LOCK.md`](docs/ANALYSIS_PLAN_LOCK.md)) fixed how the results would be evaluated. Scoring that had already run was reported under the locked method, and the runs still pending, the cross-provider replication, the random wrong-specification control and the Supermemory retry, ran after it. Changes made after the lock are reported as deviations, including the move from seven judges to five after a judge's error was measured; all seven are reported as a sensitivity analysis.
+The evaluation was pre-registered: an analysis plan locked on 2026-04-16 ([`docs/ANALYSIS_PLAN_LOCK.md`](docs/ANALYSIS_PLAN_LOCK.md)) fixed how the results would be evaluated. Scoring that had already run was reported under the locked method, and the runs still pending, the cross-provider replication, the random wrong-specification control and the Supermemory retry, ran after it. Changes made after the lock: the primary panel moved from seven judges to five after errors in two judges were measured (all seven are reported as a sensitivity analysis); the two Bonferroni-corrected tests were reported as one uncorrected test; and the headline wrong-specification result uses V1 rather than the locked V2.
 
 ## Reproducing the headline numbers
 
